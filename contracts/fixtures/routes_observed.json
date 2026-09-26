@@ -1,0 +1,761 @@
+{
+  "meta": {
+    "generated_at": "2026-09-26T12:00:00Z",
+    "model_version": "trace-0.1.0-fixture",
+    "sources": [
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS)",
+        "url": "https://dmp.unodc.org/downloadIDS"
+      },
+      {
+        "id": "unodc_wdr_annex",
+        "name": "UNODC World Drug Report statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html"
+      },
+      {
+        "id": "gitoc_ocindex",
+        "name": "GI-TOC Global Organized Crime Index",
+        "url": "https://ocindex.net"
+      },
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2"
+      }
+    ]
+  },
+  "data": {
+    "year": 2024,
+    "mode": "observed",
+    "drug": null,
+    "edges": [
+      {
+        "id": "cocaine:COL:ECU",
+        "from": "COL",
+        "to": "ECU",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.894,
+        "kg": 98000,
+        "cases": 412,
+        "confidence": 92,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 8.0,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:ECU:BEL",
+        "from": "ECU",
+        "to": "BEL",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.534,
+        "kg": 44000,
+        "cases": 138,
+        "confidence": 90,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 4.9,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:ECU:NLD",
+        "from": "ECU",
+        "to": "NLD",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.447,
+        "kg": 31000,
+        "cases": 101,
+        "confidence": 88,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 1.8,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:ECU:ESP",
+        "from": "ECU",
+        "to": "ESP",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.413,
+        "kg": 26000,
+        "cases": 95,
+        "confidence": 86,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -1.3,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:COL:PAN",
+        "from": "COL",
+        "to": "PAN",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.587,
+        "kg": 52000,
+        "cases": 204,
+        "confidence": 84,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -4.4,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:PAN:USA",
+        "from": "PAN",
+        "to": "USA",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.379,
+        "kg": 21000,
+        "cases": 66,
+        "confidence": 71,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -7.5,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:COL:MEX",
+        "from": "COL",
+        "to": "MEX",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.494,
+        "kg": 38000,
+        "cases": 150,
+        "confidence": 80,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -10.6,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:MEX:USA",
+        "from": "MEX",
+        "to": "USA",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.433,
+        "kg": 29000,
+        "cases": 310,
+        "confidence": 83,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 8.0,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:PER:BRA",
+        "from": "PER",
+        "to": "BRA",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.351,
+        "kg": 17000,
+        "cases": 88,
+        "confidence": 69,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 4.9,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:BRA:PRT",
+        "from": "BRA",
+        "to": "PRT",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.29,
+        "kg": 9000,
+        "cases": 57,
+        "confidence": 66,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 1.8,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:BOL:PRY",
+        "from": "BOL",
+        "to": "PRY",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.314,
+        "kg": 12000,
+        "cases": 41,
+        "confidence": 58,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": null,
+        "change_pct": -1.3,
+        "drivers": []
+      },
+      {
+        "id": "cocaine:PRY:BEL",
+        "from": "PRY",
+        "to": "BEL",
+        "drug": "cocaine",
+        "year": 2024,
+        "volume_norm": 0.264,
+        "kg": 6000,
+        "cases": 12,
+        "confidence": 44,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": false,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": null,
+        "change_pct": -4.4,
+        "drivers": []
+      },
+      {
+        "id": "heroin:AFG:IRN",
+        "from": "AFG",
+        "to": "IRN",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.865,
+        "kg": 6100,
+        "cases": 780,
+        "confidence": 90,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -7.5,
+        "drivers": []
+      },
+      {
+        "id": "heroin:AFG:PAK",
+        "from": "AFG",
+        "to": "PAK",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.628,
+        "kg": 3900,
+        "cases": 402,
+        "confidence": 86,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -10.6,
+        "drivers": []
+      },
+      {
+        "id": "heroin:IRN:TUR",
+        "from": "IRN",
+        "to": "TUR",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.66,
+        "kg": 4200,
+        "cases": 233,
+        "confidence": 82,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 8.0,
+        "drivers": []
+      },
+      {
+        "id": "heroin:TUR:BGR",
+        "from": "TUR",
+        "to": "BGR",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.347,
+        "kg": 1300,
+        "cases": 58,
+        "confidence": 70,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 4.9,
+        "drivers": []
+      },
+      {
+        "id": "heroin:BGR:SRB",
+        "from": "BGR",
+        "to": "SRB",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.263,
+        "kg": 600,
+        "cases": 21,
+        "confidence": 55,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 1.8,
+        "drivers": []
+      },
+      {
+        "id": "heroin:PAK:ARE",
+        "from": "PAK",
+        "to": "ARE",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.289,
+        "kg": 800,
+        "cases": 44,
+        "confidence": 52,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -1.3,
+        "drivers": []
+      },
+      {
+        "id": "heroin:MMR:THA",
+        "from": "MMR",
+        "to": "THA",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.521,
+        "kg": 2900,
+        "cases": 310,
+        "confidence": 85,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": true,
+        "probability": null,
+        "change_pct": -4.4,
+        "drivers": []
+      },
+      {
+        "id": "heroin:MMR:LAO",
+        "from": "MMR",
+        "to": "LAO",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.392,
+        "kg": 1700,
+        "cases": 96,
+        "confidence": 74,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": true,
+        "probability": null,
+        "change_pct": -7.5,
+        "drivers": []
+      },
+      {
+        "id": "heroin:MMR:CHN",
+        "from": "MMR",
+        "to": "CHN",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.37,
+        "kg": 1500,
+        "cases": 188,
+        "confidence": 72,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -10.6,
+        "drivers": []
+      },
+      {
+        "id": "heroin:THA:MYS",
+        "from": "THA",
+        "to": "MYS",
+        "drug": "heroin",
+        "year": 2024,
+        "volume_norm": 0.301,
+        "kg": 900,
+        "cases": 77,
+        "confidence": 61,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": null,
+        "change_pct": 8.0,
+        "drivers": []
+      },
+      {
+        "id": "meth:MEX:USA",
+        "from": "MEX",
+        "to": "USA",
+        "drug": "meth",
+        "year": 2024,
+        "volume_norm": 0.786,
+        "kg": 71000,
+        "cases": 1860,
+        "confidence": 95,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 4.9,
+        "drivers": []
+      },
+      {
+        "id": "meth:MMR:THA",
+        "from": "MMR",
+        "to": "THA",
+        "drug": "meth",
+        "year": 2024,
+        "volume_norm": 0.916,
+        "kg": 88000,
+        "cases": 2410,
+        "confidence": 93,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 1.8,
+        "drivers": []
+      },
+      {
+        "id": "meth:MMR:LAO",
+        "from": "MMR",
+        "to": "LAO",
+        "drug": "meth",
+        "year": 2024,
+        "volume_norm": 0.71,
+        "kg": 61000,
+        "cases": 530,
+        "confidence": 88,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -1.3,
+        "drivers": []
+      },
+      {
+        "id": "meth:LAO:VNM",
+        "from": "LAO",
+        "to": "VNM",
+        "drug": "meth",
+        "year": 2024,
+        "volume_norm": 0.305,
+        "kg": 9000,
+        "cases": 140,
+        "confidence": 64,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": null,
+        "change_pct": -4.4,
+        "drivers": []
+      },
+      {
+        "id": "meth:THA:MYS",
+        "from": "THA",
+        "to": "MYS",
+        "drug": "meth",
+        "year": 2024,
+        "volume_norm": 0.373,
+        "kg": 17000,
+        "cases": 420,
+        "confidence": 76,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -7.5,
+        "drivers": []
+      },
+      {
+        "id": "meth:MYS:AUS",
+        "from": "MYS",
+        "to": "AUS",
+        "drug": "meth",
+        "year": 2024,
+        "volume_norm": 0.232,
+        "kg": 2500,
+        "cases": 38,
+        "confidence": 57,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": null,
+        "change_pct": -10.6,
+        "drivers": []
+      },
+      {
+        "id": "cannabis:MAR:ESP",
+        "from": "MAR",
+        "to": "ESP",
+        "drug": "cannabis",
+        "year": 2024,
+        "volume_norm": 0.956,
+        "kg": 310000,
+        "cases": 5200,
+        "confidence": 94,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 8.0,
+        "drivers": []
+      },
+      {
+        "id": "cannabis:ESP:FRA",
+        "from": "ESP",
+        "to": "FRA",
+        "drug": "cannabis",
+        "year": 2024,
+        "volume_norm": 0.405,
+        "kg": 64000,
+        "cases": 1320,
+        "confidence": 81,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 4.9,
+        "drivers": []
+      },
+      {
+        "id": "cannabis:MEX:USA",
+        "from": "MEX",
+        "to": "USA",
+        "drug": "cannabis",
+        "year": 2024,
+        "volume_norm": 0.343,
+        "kg": 38000,
+        "cases": 900,
+        "confidence": 78,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": 1.8,
+        "drivers": []
+      },
+      {
+        "id": "cannabis:PRY:BRA",
+        "from": "PRY",
+        "to": "BRA",
+        "drug": "cannabis",
+        "year": 2024,
+        "volume_norm": 0.532,
+        "kg": 120000,
+        "cases": 2100,
+        "confidence": 87,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -1.3,
+        "drivers": []
+      },
+      {
+        "id": "cannabis:ALB:ITA",
+        "from": "ALB",
+        "to": "ITA",
+        "drug": "cannabis",
+        "year": 2024,
+        "volume_norm": 0.299,
+        "kg": 22000,
+        "cases": 310,
+        "confidence": 66,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": null,
+        "change_pct": -4.4,
+        "drivers": []
+      }
+    ]
+  }
+}

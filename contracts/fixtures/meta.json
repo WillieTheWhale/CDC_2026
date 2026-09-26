@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "generated_at": "2026-09-26T12:00:00Z",
+    "model_version": "trace-0.1.0-fixture",
+    "sources": [
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2"
+      },
+      {
+        "id": "wb_wgi",
+        "name": "World Bank Worldwide Governance Indicators (source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3"
+      }
+    ]
+  },
+  "data": {
+    "drugs": [
+      {
+        "id": "cocaine",
+        "label": "Cocaine / crack",
+        "harm_weight": 1.0
+      },
+      {
+        "id": "heroin",
+        "label": "Heroin / opiates",
+        "harm_weight": 1.3
+      },
+      {
+        "id": "meth",
+        "label": "Methamphetamine",
+        "harm_weight": 1.1
+      },
+      {
+        "id": "cannabis",
+        "label": "Cannabis",
+        "harm_weight": 0.3
+      }
+    ],
+    "observed_years": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "predicted_years": [
+      2025
+    ],
+    "risk_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "latest_observed_year": 2024,
+    "model_version": "trace-0.1.0-fixture",
+    "livewire_classifier": "mock",
+    "sources": [
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2",
+        "status": "live",
+        "retrieved_at": "2026-09-26T12:00:00Z",
+        "last_updated": "2026-07-13",
+        "latest_year": 2025
+      },
+      {
+        "id": "wb_wgi",
+        "name": "World Bank Worldwide Governance Indicators (source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3",
+        "status": "live",
+        "retrieved_at": "2026-09-26T12:00:00Z",
+        "last_updated": "2026-09-25",
+        "latest_year": 2025
+      },
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS)",
+        "url": "https://dmp.unodc.org/downloadIDS",
+        "status": "unavailable",
+        "retrieved_at": null,
+        "last_updated": null,
+        "latest_year": null,
+        "note": "Download requires registration; edges built from annex and published route tables."
+      },
+      {
+        "id": "unodc_wdr_annex",
+        "name": "UNODC World Drug Report statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html",
+        "status": "cached",
+        "retrieved_at": "2026-09-26T12:00:00Z",
+        "last_updated": "2026-06-26",
+        "latest_year": 2024
+      },
+      {
+        "id": "gitoc_ocindex",
+        "name": "GI-TOC Global Organized Crime Index",
+        "url": "https://ocindex.net",
+        "status": "cached",
+        "retrieved_at": "2026-09-26T12:00:00Z",
+        "last_updated": "2025",
+        "latest_year": 2025
+      },
+      {
+        "id": "hri_gshr",
+        "name": "Harm Reduction International, Global State of Harm Reduction 2024",
+        "url": "https://hri.global/flagship-research/the-global-state-of-harm-reduction/",
+        "status": "fallback",
+        "retrieved_at": "2026-09-26T12:00:00Z",
+        "last_updated": "2024-10",
+        "latest_year": 2024
+      },
+      {
+        "id": "cepii_geodist",
+        "name": "CEPII GeoDist",
+        "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6",
+        "status": "cached",
+        "retrieved_at": "2026-09-26T12:00:00Z",
+        "last_updated": null,
+        "latest_year": null
+      },
+      {
+        "id": "gdelt",
+        "name": "GDELT DOC 2.0 API",
+        "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+        "status": "live",
+        "retrieved_at": "2026-09-26T12:00:00Z",
+        "last_updated": null,
+        "latest_year": 2026
+      }
+    ]
+  }
+}

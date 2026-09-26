@@ -1,0 +1,1398 @@
+{
+  "meta": {
+    "generated_at": "2026-09-26T12:00:00Z",
+    "model_version": "trace-0.1.0-fixture",
+    "sources": [
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS)",
+        "url": "https://dmp.unodc.org/downloadIDS"
+      },
+      {
+        "id": "unodc_wdr_annex",
+        "name": "UNODC World Drug Report statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html"
+      },
+      {
+        "id": "gitoc_ocindex",
+        "name": "GI-TOC Global Organized Crime Index",
+        "url": "https://ocindex.net"
+      },
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2"
+      },
+      {
+        "id": "wb_wgi",
+        "name": "World Bank Worldwide Governance Indicators (source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3"
+      },
+      {
+        "id": "cepii_geodist",
+        "name": "CEPII GeoDist",
+        "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6"
+      }
+    ]
+  },
+  "data": {
+    "year": 2025,
+    "mode": "predicted",
+    "drug": null,
+    "edges": [
+      {
+        "id": "cocaine:COL:ECU",
+        "from": "COL",
+        "to": "ECU",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.841,
+        "kg": 90160,
+        "cases": null,
+        "confidence": 92,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.918,
+        "change_pct": -8.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.45,
+            "direction": "up"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": 0.65,
+            "direction": "up"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": -0.4,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:ECU:BEL",
+        "from": "ECU",
+        "to": "BEL",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.557,
+        "kg": 47520,
+        "cases": null,
+        "confidence": 90,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.91,
+        "change_pct": 8.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": -0.2,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:ECU:NLD",
+        "from": "ECU",
+        "to": "NLD",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.453,
+        "kg": 31930,
+        "cases": null,
+        "confidence": 88,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.902,
+        "change_pct": 3.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": 0.325,
+            "direction": "up"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:ECU:ESP",
+        "from": "ECU",
+        "to": "ESP",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.41,
+        "kg": 25480,
+        "cases": null,
+        "confidence": 86,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.894,
+        "change_pct": -2.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.45,
+            "direction": "up"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": 0.65,
+            "direction": "up"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": -0.4,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:COL:PAN",
+        "from": "COL",
+        "to": "PAN",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.563,
+        "kg": 48360,
+        "cases": null,
+        "confidence": 84,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.886,
+        "change_pct": -7.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.9,
+            "direction": "down"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": 0.65,
+            "direction": "up"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": 0.2,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:PAN:USA",
+        "from": "PAN",
+        "to": "USA",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.392,
+        "kg": 22890,
+        "cases": null,
+        "confidence": 71,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.834,
+        "change_pct": 9.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": 0.325,
+            "direction": "up"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:COL:MEX",
+        "from": "COL",
+        "to": "MEX",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.504,
+        "kg": 39520,
+        "cases": null,
+        "confidence": 80,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.87,
+        "change_pct": 4.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.45,
+            "direction": "down"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:MEX:USA",
+        "from": "MEX",
+        "to": "USA",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.432,
+        "kg": 28710,
+        "cases": null,
+        "confidence": 83,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.882,
+        "change_pct": -1.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.9,
+            "direction": "down"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": 0.65,
+            "direction": "up"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": 0.2,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:PER:BRA",
+        "from": "PER",
+        "to": "BRA",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.343,
+        "kg": 15980,
+        "cases": null,
+        "confidence": 69,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.826,
+        "change_pct": -6.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.9,
+            "direction": "down"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": -0.325,
+            "direction": "down"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": -0.4,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:BRA:PRT",
+        "from": "BRA",
+        "to": "PRT",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.297,
+        "kg": 9900,
+        "cases": null,
+        "confidence": 66,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.814,
+        "change_pct": 10.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.45,
+            "direction": "down"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:BOL:PRY",
+        "from": "BOL",
+        "to": "PRY",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.341,
+        "kg": 15600,
+        "cases": null,
+        "confidence": 58,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": 0.832,
+        "change_pct": 30.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": -0.2,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "cocaine:PRY:BEL",
+        "from": "PRY",
+        "to": "BEL",
+        "drug": "cocaine",
+        "year": 2025,
+        "volume_norm": 0.277,
+        "kg": 7500,
+        "cases": null,
+        "confidence": 44,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": false,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": 0.776,
+        "change_pct": 25.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "port_teu_origin",
+            "label": "Origin container port capacity (TEU)",
+            "contribution": 0.325,
+            "direction": "up"
+          },
+          {
+            "feature": "cultivation_origin",
+            "label": "Coca cultivation upstream",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "heroin:AFG:IRN",
+        "from": "AFG",
+        "to": "IRN",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.832,
+        "kg": 5795,
+        "cases": null,
+        "confidence": 90,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.91,
+        "change_pct": -5.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": 0.45,
+            "direction": "up"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.65,
+            "direction": "up"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": -0.4,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "heroin:AFG:PAK",
+        "from": "AFG",
+        "to": "PAK",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.674,
+        "kg": 4329,
+        "cases": null,
+        "confidence": 86,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.894,
+        "change_pct": 11.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": -0.2,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "heroin:IRN:TUR",
+        "from": "IRN",
+        "to": "TUR",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.687,
+        "kg": 4452,
+        "cases": null,
+        "confidence": 82,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.878,
+        "change_pct": 6.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.325,
+            "direction": "up"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "heroin:TUR:BGR",
+        "from": "TUR",
+        "to": "BGR",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.349,
+        "kg": 1313,
+        "cases": null,
+        "confidence": 70,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.83,
+        "change_pct": 1.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": -0.45,
+            "direction": "down"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "heroin:BGR:SRB",
+        "from": "BGR",
+        "to": "SRB",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.259,
+        "kg": 576,
+        "cases": null,
+        "confidence": 55,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.77,
+        "change_pct": -4.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": -0.9,
+            "direction": "down"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.65,
+            "direction": "up"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": 0.2,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "heroin:PAK:ARE",
+        "from": "PAK",
+        "to": "ARE",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.3,
+        "kg": 896,
+        "cases": null,
+        "confidence": 52,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.758,
+        "change_pct": 12.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.325,
+            "direction": "up"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "heroin:MMR:THA",
+        "from": "MMR",
+        "to": "THA",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.62,
+        "kg": 3828,
+        "cases": null,
+        "confidence": 85,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": true,
+        "probability": 0.94,
+        "change_pct": 32.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": -0.45,
+            "direction": "down"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "heroin:MMR:LAO",
+        "from": "MMR",
+        "to": "LAO",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.442,
+        "kg": 2159,
+        "cases": null,
+        "confidence": 74,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": true
+        },
+        "is_emerging": true,
+        "probability": 0.896,
+        "change_pct": 27.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": -0.2,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "heroin:MMR:CHN",
+        "from": "MMR",
+        "to": "CHN",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.365,
+        "kg": 1455,
+        "cases": null,
+        "confidence": 72,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": true
+        },
+        "is_emerging": false,
+        "probability": 0.838,
+        "change_pct": -3.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": -0.9,
+            "direction": "down"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.325,
+            "direction": "down"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": -0.4,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "heroin:THA:MYS",
+        "from": "THA",
+        "to": "MYS",
+        "drug": "heroin",
+        "year": 2025,
+        "volume_norm": 0.319,
+        "kg": 1053,
+        "cases": null,
+        "confidence": 61,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": 0.844,
+        "change_pct": 17.0,
+        "drivers": [
+          {
+            "feature": "cultivation_origin",
+            "label": "Opium poppy cultivation upstream",
+            "contribution": -0.45,
+            "direction": "down"
+          },
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "meth:MEX:USA",
+        "from": "MEX",
+        "to": "USA",
+        "drug": "meth",
+        "year": 2025,
+        "volume_norm": 0.83,
+        "kg": 76680,
+        "cases": null,
+        "confidence": 95,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.93,
+        "change_pct": 8.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "oc_synthetic_origin",
+            "label": "Synthetic drug market score at origin (OC Index)",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": -0.2,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "meth:MMR:THA",
+        "from": "MMR",
+        "to": "THA",
+        "drug": "meth",
+        "year": 2025,
+        "volume_norm": 0.937,
+        "kg": 90640,
+        "cases": null,
+        "confidence": 93,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.922,
+        "change_pct": 3.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "oc_synthetic_origin",
+            "label": "Synthetic drug market score at origin (OC Index)",
+            "contribution": 0.325,
+            "direction": "up"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "meth:MMR:LAO",
+        "from": "MMR",
+        "to": "LAO",
+        "drug": "meth",
+        "year": 2025,
+        "volume_norm": 0.701,
+        "kg": 59780,
+        "cases": null,
+        "confidence": 88,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.902,
+        "change_pct": -2.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.45,
+            "direction": "up"
+          },
+          {
+            "feature": "oc_synthetic_origin",
+            "label": "Synthetic drug market score at origin (OC Index)",
+            "contribution": 0.65,
+            "direction": "up"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": -0.4,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "meth:LAO:VNM",
+        "from": "LAO",
+        "to": "VNM",
+        "drug": "meth",
+        "year": 2025,
+        "volume_norm": 0.32,
+        "kg": 10620,
+        "cases": null,
+        "confidence": 64,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": 0.856,
+        "change_pct": 18.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "oc_synthetic_origin",
+            "label": "Synthetic drug market score at origin (OC Index)",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": -0.2,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "meth:THA:MYS",
+        "from": "THA",
+        "to": "MYS",
+        "drug": "meth",
+        "year": 2025,
+        "volume_norm": 0.385,
+        "kg": 18530,
+        "cases": null,
+        "confidence": 76,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.854,
+        "change_pct": 9.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "oc_synthetic_origin",
+            "label": "Synthetic drug market score at origin (OC Index)",
+            "contribution": 0.325,
+            "direction": "up"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "meth:MYS:AUS",
+        "from": "MYS",
+        "to": "AUS",
+        "drug": "meth",
+        "year": 2025,
+        "volume_norm": 0.243,
+        "kg": 3225,
+        "cases": null,
+        "confidence": 57,
+        "signals": {
+          "seizures": true,
+          "price_gradient": false,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": true,
+        "probability": 0.828,
+        "change_pct": 29.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.45,
+            "direction": "down"
+          },
+          {
+            "feature": "oc_synthetic_origin",
+            "label": "Synthetic drug market score at origin (OC Index)",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "contig",
+            "label": "Shared border",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "cannabis:MAR:ESP",
+        "from": "MAR",
+        "to": "ESP",
+        "drug": "cannabis",
+        "year": 2025,
+        "volume_norm": 0.949,
+        "kg": 306900,
+        "cases": null,
+        "confidence": 94,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.926,
+        "change_pct": -1.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.9,
+            "direction": "down"
+          },
+          {
+            "feature": "dist",
+            "label": "Distance (km)",
+            "contribution": 0.65,
+            "direction": "up"
+          },
+          {
+            "feature": "legal_dest",
+            "label": "Destination cannabis regulation",
+            "contribution": 0.2,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "cannabis:ESP:FRA",
+        "from": "ESP",
+        "to": "FRA",
+        "drug": "cannabis",
+        "year": 2025,
+        "volume_norm": 0.396,
+        "kg": 60160,
+        "cases": null,
+        "confidence": 81,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.874,
+        "change_pct": -6.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.9,
+            "direction": "down"
+          },
+          {
+            "feature": "dist",
+            "label": "Distance (km)",
+            "contribution": -0.325,
+            "direction": "down"
+          },
+          {
+            "feature": "legal_dest",
+            "label": "Destination cannabis regulation",
+            "contribution": -0.4,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "cannabis:MEX:USA",
+        "from": "MEX",
+        "to": "USA",
+        "drug": "cannabis",
+        "year": 2025,
+        "volume_norm": 0.352,
+        "kg": 41800,
+        "cases": null,
+        "confidence": 78,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.862,
+        "change_pct": 10.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": -0.45,
+            "direction": "down"
+          },
+          {
+            "feature": "dist",
+            "label": "Distance (km)",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "legal_dest",
+            "label": "Destination cannabis regulation",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      },
+      {
+        "id": "cannabis:PRY:BRA",
+        "from": "PRY",
+        "to": "BRA",
+        "drug": "cannabis",
+        "year": 2025,
+        "volume_norm": 0.545,
+        "kg": 126000,
+        "cases": null,
+        "confidence": 87,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": true,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.898,
+        "change_pct": 5.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "dist",
+            "label": "Distance (km)",
+            "contribution": -0.65,
+            "direction": "down"
+          },
+          {
+            "feature": "legal_dest",
+            "label": "Destination cannabis regulation",
+            "contribution": -0.2,
+            "direction": "down"
+          }
+        ]
+      },
+      {
+        "id": "cannabis:ALB:ITA",
+        "from": "ALB",
+        "to": "ITA",
+        "drug": "cannabis",
+        "year": 2025,
+        "volume_norm": 0.299,
+        "kg": 22000,
+        "cases": null,
+        "confidence": 66,
+        "signals": {
+          "seizures": true,
+          "price_gradient": true,
+          "oc_index": true,
+          "news": false,
+          "cultivation": false
+        },
+        "is_emerging": false,
+        "probability": 0.814,
+        "change_pct": 0.0,
+        "drivers": [
+          {
+            "feature": "lag_log_kg",
+            "label": "Last year's volume on this corridor",
+            "contribution": 0.9,
+            "direction": "up"
+          },
+          {
+            "feature": "dist",
+            "label": "Distance (km)",
+            "contribution": 0.325,
+            "direction": "up"
+          },
+          {
+            "feature": "legal_dest",
+            "label": "Destination cannabis regulation",
+            "contribution": 0.4,
+            "direction": "up"
+          }
+        ]
+      }
+    ]
+  }
+}

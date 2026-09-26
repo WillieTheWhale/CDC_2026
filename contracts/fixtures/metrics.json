@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "generated_at": "2026-09-26T12:00:00Z",
+    "model_version": "trace-0.1.0-fixture",
+    "sources": [
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS)",
+        "url": "https://dmp.unodc.org/downloadIDS"
+      },
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2"
+      },
+      {
+        "id": "wb_wgi",
+        "name": "World Bank Worldwide Governance Indicators (source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3"
+      },
+      {
+        "id": "gdelt",
+        "name": "GDELT DOC 2.0 API",
+        "url": "https://api.gdeltproject.org/api/v2/doc/doc"
+      }
+    ]
+  },
+  "data": {
+    "model_version": "trace-0.1.0-fixture",
+    "backtest": {
+      "train_through": 2019,
+      "test_years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "hurdle": {
+        "auc": 0.87,
+        "spearman": 0.71,
+        "precision_at_20": 0.55,
+        "n": 4120
+      },
+      "gravity_baseline": {
+        "auc": 0.74,
+        "spearman": 0.52,
+        "precision_at_20": 0.3,
+        "n": 4120
+      },
+      "per_drug": {
+        "cocaine": {
+          "auc": 0.89,
+          "spearman": 0.74,
+          "precision_at_20": 0.6,
+          "n": 1210
+        },
+        "heroin": {
+          "auc": 0.84,
+          "spearman": 0.66,
+          "precision_at_20": 0.5,
+          "n": 880
+        },
+        "meth": {
+          "auc": 0.86,
+          "spearman": 0.7,
+          "precision_at_20": 0.55,
+          "n": 930
+        },
+        "cannabis": {
+          "auc": 0.88,
+          "spearman": 0.73,
+          "precision_at_20": 0.55,
+          "n": 1100
+        }
+      },
+      "per_year": {
+        "2020": {
+          "auc": 0.89,
+          "spearman": 0.74,
+          "precision_at_20": 0.55,
+          "n": 824
+        },
+        "2021": {
+          "auc": 0.88,
+          "spearman": 0.72,
+          "precision_at_20": 0.55,
+          "n": 824
+        },
+        "2022": {
+          "auc": 0.87,
+          "spearman": 0.71,
+          "precision_at_20": 0.55,
+          "n": 824
+        },
+        "2023": {
+          "auc": 0.86,
+          "spearman": 0.69,
+          "precision_at_20": 0.55,
+          "n": 824
+        },
+        "2024": {
+          "auc": 0.85,
+          "spearman": 0.68,
+          "precision_at_20": 0.55,
+          "n": 824
+        }
+      },
+      "top_features": [
+        {
+          "feature": "lag_log_kg",
+          "label": "Last year's volume on this corridor",
+          "mean_abs_shap": 1.42
+        },
+        {
+          "feature": "cultivation_origin",
+          "label": "Cultivation upstream",
+          "mean_abs_shap": 0.51
+        },
+        {
+          "feature": "gdp_dest",
+          "label": "Destination market size (GDP)",
+          "mean_abs_shap": 0.38
+        },
+        {
+          "feature": "contig",
+          "label": "Shared border",
+          "mean_abs_shap": 0.33
+        },
+        {
+          "feature": "port_teu_origin",
+          "label": "Origin container port capacity",
+          "mean_abs_shap": 0.27
+        }
+      ]
+    },
+    "afghan_ban": {
+      "direction_accuracy": 0.875,
+      "spearman": 0.81,
+      "verdict": "Direction of the heroin shift toward Southeast Asia reproduced on 7 of 8 edges."
+    },
+    "spillover": {
+      "hypothesis": "Predicted route exposure predicts a significant rise in homicide or HIV incidence within 3 years, beyond vulnerability alone.",
+      "outcome": "homicide rate up >= 20% or HIV incidence up >= 20% within 3 years",
+      "n": 1830,
+      "auc_vulnerability_only": 0.61,
+      "auc_with_exposure": 0.66,
+      "exposure_coef": 0.34,
+      "lr_p_value": 0.004,
+      "supported": true,
+      "statement": "Exposure adds predictive power beyond vulnerability (AUC 0.61 to 0.66, likelihood-ratio p = 0.004).",
+      "by_outcome": {
+        "homicide": {
+          "n": 1560,
+          "auc_vulnerability_only": 0.6,
+          "auc_with_exposure": 0.65,
+          "lr_p_value": 0.006
+        },
+        "hiv": {
+          "n": 1320,
+          "auc_vulnerability_only": 0.63,
+          "auc_with_exposure": 0.64,
+          "lr_p_value": 0.21
+        }
+      }
+    },
+    "livewire": {
+      "classifier": "mock",
+      "n_labeled": 100,
+      "field_accuracy": {
+        "is_event": 0.86,
+        "event_type": 0.74,
+        "drug": 0.88,
+        "origin": 0.61,
+        "destination": 0.64,
+        "size": 0.58
+      },
+      "note": "Mock keyword classifier; Jev accuracy will be reported once a key is available."
+    }
+  }
+}

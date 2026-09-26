@@ -4,4 +4,4 @@ Every change to `contracts/` gets a dated line here so the frontend knows to pul
 
 | Date | Change | Breaking? |
 |---|---|---|
-| (none yet) | Contract to be created by backend task T0 | n/a |
+| 2026-09-26 | v1.0.0 created: `openapi.yaml` (12 endpoints, envelope `{meta,data}`), `websocket.md`, 15 fixtures in `contracts/fixtures/` | n/a (initial) |

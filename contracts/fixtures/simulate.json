@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "generated_at": "2026-09-26T12:00:00Z",
+    "model_version": "trace-0.1.0-fixture",
+    "sources": [
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS)",
+        "url": "https://dmp.unodc.org/downloadIDS"
+      },
+      {
+        "id": "unodc_wdr_annex",
+        "name": "UNODC World Drug Report statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html"
+      },
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2"
+      }
+    ]
+  },
+  "data": {
+    "scenario": "Colombia cuts coca 50%",
+    "parsed_by": "rules",
+    "shocks": [
+      {
+        "type": "cultivation",
+        "iso3": "COL",
+        "drug": "cocaine",
+        "value": 0.5
+      }
+    ],
+    "year": 2025,
+    "edges_changed": [
+      {
+        "from": "COL",
+        "to": "ECU",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.95,
+        "scenario_volume_norm": 0.71,
+        "baseline_kg": 98000,
+        "scenario_kg": 61000,
+        "baseline_probability": 0.97,
+        "scenario_probability": 0.93,
+        "delta_pct": -37.8
+      },
+      {
+        "from": "COL",
+        "to": "PAN",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.72,
+        "scenario_volume_norm": 0.52,
+        "baseline_kg": 52000,
+        "scenario_kg": 33000,
+        "baseline_probability": 0.9,
+        "scenario_probability": 0.84,
+        "delta_pct": -36.5
+      },
+      {
+        "from": "COL",
+        "to": "MEX",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.64,
+        "scenario_volume_norm": 0.47,
+        "baseline_kg": 38000,
+        "scenario_kg": 24500,
+        "baseline_probability": 0.88,
+        "scenario_probability": 0.8,
+        "delta_pct": -35.5
+      },
+      {
+        "from": "PER",
+        "to": "BRA",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.48,
+        "scenario_volume_norm": 0.55,
+        "baseline_kg": 17000,
+        "scenario_kg": 20400,
+        "baseline_probability": 0.79,
+        "scenario_probability": 0.83,
+        "delta_pct": 20.0
+      },
+      {
+        "from": "BOL",
+        "to": "PRY",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.38,
+        "scenario_volume_norm": 0.45,
+        "baseline_kg": 12000,
+        "scenario_kg": 14800,
+        "baseline_probability": 0.66,
+        "scenario_probability": 0.72,
+        "delta_pct": 23.3
+      }
+    ],
+    "risk_deltas": [
+      {
+        "iso3": "ECU",
+        "name": "Ecuador",
+        "baseline_score": 69.2,
+        "scenario_score": 63.0,
+        "delta": -6.2,
+        "baseline_rank": 3,
+        "scenario_rank": 6
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "baseline_score": 70.0,
+        "scenario_score": 65.1,
+        "delta": -4.9,
+        "baseline_rank": 2,
+        "scenario_rank": 4
+      },
+      {
+        "iso3": "PRY",
+        "name": "Paraguay",
+        "baseline_score": 63.8,
+        "scenario_score": 66.0,
+        "delta": 2.2,
+        "baseline_rank": 8,
+        "scenario_rank": 7
+      },
+      {
+        "iso3": "BRA",
+        "name": "Brazil",
+        "baseline_score": 55.1,
+        "scenario_score": 56.9,
+        "delta": 1.8,
+        "baseline_rank": 19,
+        "scenario_rank": 17
+      }
+    ],
+    "summary": "Halving Colombian coca output cuts cocaine through the Ecuador corridor by about 38%. Supply partly shifts to Peru and Bolivia via Brazil and Paraguay, raising their exposure.",
+    "warnings": [
+      "Scenario effects are model estimates, not forecasts of policy outcomes."
+    ]
+  }
+}

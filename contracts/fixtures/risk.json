@@ -1,0 +1,863 @@
+{
+  "meta": {
+    "generated_at": "2026-09-26T12:00:00Z",
+    "model_version": "trace-0.1.0-fixture",
+    "sources": [
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2"
+      },
+      {
+        "id": "wb_wgi",
+        "name": "World Bank Worldwide Governance Indicators (source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3"
+      },
+      {
+        "id": "hri_gshr",
+        "name": "Harm Reduction International, Global State of Harm Reduction 2024",
+        "url": "https://hri.global/flagship-research/the-global-state-of-harm-reduction/"
+      },
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS)",
+        "url": "https://dmp.unodc.org/downloadIDS"
+      }
+    ]
+  },
+  "data": {
+    "year": 2024,
+    "weights": {
+      "exposure": 0.45,
+      "vulnerability": 0.35,
+      "protection": 0.2
+    },
+    "rows": [
+      {
+        "iso3": "MMR",
+        "name": "Myanmar",
+        "region": "East Asia & Pacific",
+        "exposure": 88,
+        "vulnerability": 83,
+        "protection": 30,
+        "score": 82.7,
+        "rank": 1,
+        "tier": "critical",
+        "delta_1y": 0.6,
+        "top_drug": "meth",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 72.4
+          },
+          {
+            "year": 2016,
+            "score": 72.3
+          },
+          {
+            "year": 2017,
+            "score": 74.3
+          },
+          {
+            "year": 2018,
+            "score": 76.3
+          },
+          {
+            "year": 2019,
+            "score": 76.2
+          },
+          {
+            "year": 2020,
+            "score": 78.2
+          },
+          {
+            "year": 2021,
+            "score": 80.2
+          },
+          {
+            "year": 2022,
+            "score": 80.1
+          },
+          {
+            "year": 2023,
+            "score": 82.1
+          },
+          {
+            "year": 2024,
+            "score": 82.7
+          }
+        ]
+      },
+      {
+        "iso3": "ECU",
+        "name": "Ecuador",
+        "region": "Latin America & Caribbean",
+        "exposure": 91,
+        "vulnerability": 64,
+        "protection": 22,
+        "score": 79.0,
+        "rank": 2,
+        "tier": "critical",
+        "delta_1y": -1.1,
+        "top_drug": "cocaine",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 84.0
+          },
+          {
+            "year": 2016,
+            "score": 82.2
+          },
+          {
+            "year": 2017,
+            "score": 82.5
+          },
+          {
+            "year": 2018,
+            "score": 82.8
+          },
+          {
+            "year": 2019,
+            "score": 81.0
+          },
+          {
+            "year": 2020,
+            "score": 81.3
+          },
+          {
+            "year": 2021,
+            "score": 81.6
+          },
+          {
+            "year": 2022,
+            "score": 79.8
+          },
+          {
+            "year": 2023,
+            "score": 80.1
+          },
+          {
+            "year": 2024,
+            "score": 79.0
+          }
+        ]
+      },
+      {
+        "iso3": "HND",
+        "name": "Honduras",
+        "region": "Latin America & Caribbean",
+        "exposure": 69,
+        "vulnerability": 74,
+        "protection": 10,
+        "score": 75.0,
+        "rank": 3,
+        "tier": "critical",
+        "delta_1y": 0.6,
+        "top_drug": "cocaine",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 64.7
+          },
+          {
+            "year": 2016,
+            "score": 64.6
+          },
+          {
+            "year": 2017,
+            "score": 66.6
+          },
+          {
+            "year": 2018,
+            "score": 68.6
+          },
+          {
+            "year": 2019,
+            "score": 68.5
+          },
+          {
+            "year": 2020,
+            "score": 70.5
+          },
+          {
+            "year": 2021,
+            "score": 72.5
+          },
+          {
+            "year": 2022,
+            "score": 72.4
+          },
+          {
+            "year": 2023,
+            "score": 74.4
+          },
+          {
+            "year": 2024,
+            "score": 75.0
+          }
+        ]
+      },
+      {
+        "iso3": "LAO",
+        "name": "Lao PDR",
+        "region": "East Asia & Pacific",
+        "exposure": 72,
+        "vulnerability": 71,
+        "protection": 12,
+        "score": 74.8,
+        "rank": 4,
+        "tier": "high",
+        "delta_1y": -1.1,
+        "top_drug": "meth",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 79.8
+          },
+          {
+            "year": 2016,
+            "score": 78.0
+          },
+          {
+            "year": 2017,
+            "score": 78.3
+          },
+          {
+            "year": 2018,
+            "score": 78.6
+          },
+          {
+            "year": 2019,
+            "score": 76.8
+          },
+          {
+            "year": 2020,
+            "score": 77.1
+          },
+          {
+            "year": 2021,
+            "score": 77.4
+          },
+          {
+            "year": 2022,
+            "score": 75.6
+          },
+          {
+            "year": 2023,
+            "score": 75.9
+          },
+          {
+            "year": 2024,
+            "score": 74.8
+          }
+        ]
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "region": "Latin America & Caribbean",
+        "exposure": 93,
+        "vulnerability": 57,
+        "protection": 40,
+        "score": 73.8,
+        "rank": 5,
+        "tier": "high",
+        "delta_1y": 0.6,
+        "top_drug": "cocaine",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 63.5
+          },
+          {
+            "year": 2016,
+            "score": 63.4
+          },
+          {
+            "year": 2017,
+            "score": 65.4
+          },
+          {
+            "year": 2018,
+            "score": 67.4
+          },
+          {
+            "year": 2019,
+            "score": 67.3
+          },
+          {
+            "year": 2020,
+            "score": 69.3
+          },
+          {
+            "year": 2021,
+            "score": 71.3
+          },
+          {
+            "year": 2022,
+            "score": 71.2
+          },
+          {
+            "year": 2023,
+            "score": 73.2
+          },
+          {
+            "year": 2024,
+            "score": 73.8
+          }
+        ]
+      },
+      {
+        "iso3": "GNB",
+        "name": "Guinea-Bissau",
+        "region": "Sub-Saharan Africa",
+        "exposure": 55,
+        "vulnerability": 82,
+        "protection": 5,
+        "score": 72.5,
+        "rank": 6,
+        "tier": "high",
+        "delta_1y": -1.1,
+        "top_drug": "cocaine",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 77.5
+          },
+          {
+            "year": 2016,
+            "score": 75.7
+          },
+          {
+            "year": 2017,
+            "score": 76.0
+          },
+          {
+            "year": 2018,
+            "score": 76.3
+          },
+          {
+            "year": 2019,
+            "score": 74.5
+          },
+          {
+            "year": 2020,
+            "score": 74.8
+          },
+          {
+            "year": 2021,
+            "score": 75.1
+          },
+          {
+            "year": 2022,
+            "score": 73.3
+          },
+          {
+            "year": 2023,
+            "score": 73.6
+          },
+          {
+            "year": 2024,
+            "score": 72.5
+          }
+        ]
+      },
+      {
+        "iso3": "GTM",
+        "name": "Guatemala",
+        "region": "Latin America & Caribbean",
+        "exposure": 66,
+        "vulnerability": 70,
+        "protection": 11,
+        "score": 72.0,
+        "rank": 7,
+        "tier": "high",
+        "delta_1y": 0.6,
+        "top_drug": "cocaine",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 61.7
+          },
+          {
+            "year": 2016,
+            "score": 61.6
+          },
+          {
+            "year": 2017,
+            "score": 63.6
+          },
+          {
+            "year": 2018,
+            "score": 65.6
+          },
+          {
+            "year": 2019,
+            "score": 65.5
+          },
+          {
+            "year": 2020,
+            "score": 67.5
+          },
+          {
+            "year": 2021,
+            "score": 69.5
+          },
+          {
+            "year": 2022,
+            "score": 69.4
+          },
+          {
+            "year": 2023,
+            "score": 71.4
+          },
+          {
+            "year": 2024,
+            "score": 72.0
+          }
+        ]
+      },
+      {
+        "iso3": "MEX",
+        "name": "Mexico",
+        "region": "Latin America & Caribbean",
+        "exposure": 90,
+        "vulnerability": 52,
+        "protection": 46,
+        "score": 69.5,
+        "rank": 8,
+        "tier": "high",
+        "delta_1y": -1.1,
+        "top_drug": "meth",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 74.5
+          },
+          {
+            "year": 2016,
+            "score": 72.7
+          },
+          {
+            "year": 2017,
+            "score": 73.0
+          },
+          {
+            "year": 2018,
+            "score": 73.3
+          },
+          {
+            "year": 2019,
+            "score": 71.5
+          },
+          {
+            "year": 2020,
+            "score": 71.8
+          },
+          {
+            "year": 2021,
+            "score": 72.1
+          },
+          {
+            "year": 2022,
+            "score": 70.3
+          },
+          {
+            "year": 2023,
+            "score": 70.6
+          },
+          {
+            "year": 2024,
+            "score": 69.5
+          }
+        ]
+      },
+      {
+        "iso3": "PRY",
+        "name": "Paraguay",
+        "region": "Latin America & Caribbean",
+        "exposure": 70,
+        "vulnerability": 58,
+        "protection": 15,
+        "score": 68.8,
+        "rank": 9,
+        "tier": "high",
+        "delta_1y": 0.6,
+        "top_drug": "cannabis",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 58.5
+          },
+          {
+            "year": 2016,
+            "score": 58.4
+          },
+          {
+            "year": 2017,
+            "score": 60.4
+          },
+          {
+            "year": 2018,
+            "score": 62.4
+          },
+          {
+            "year": 2019,
+            "score": 62.3
+          },
+          {
+            "year": 2020,
+            "score": 64.3
+          },
+          {
+            "year": 2021,
+            "score": 66.3
+          },
+          {
+            "year": 2022,
+            "score": 66.2
+          },
+          {
+            "year": 2023,
+            "score": 68.2
+          },
+          {
+            "year": 2024,
+            "score": 68.8
+          }
+        ]
+      },
+      {
+        "iso3": "PAN",
+        "name": "Panama",
+        "region": "Latin America & Caribbean",
+        "exposure": 78,
+        "vulnerability": 45,
+        "protection": 18,
+        "score": 67.2,
+        "rank": 10,
+        "tier": "high",
+        "delta_1y": -1.1,
+        "top_drug": "cocaine",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 72.2
+          },
+          {
+            "year": 2016,
+            "score": 70.4
+          },
+          {
+            "year": 2017,
+            "score": 70.7
+          },
+          {
+            "year": 2018,
+            "score": 71.0
+          },
+          {
+            "year": 2019,
+            "score": 69.2
+          },
+          {
+            "year": 2020,
+            "score": 69.5
+          },
+          {
+            "year": 2021,
+            "score": 69.8
+          },
+          {
+            "year": 2022,
+            "score": 68.0
+          },
+          {
+            "year": 2023,
+            "score": 68.3
+          },
+          {
+            "year": 2024,
+            "score": 67.2
+          }
+        ]
+      },
+      {
+        "iso3": "PAK",
+        "name": "Pakistan",
+        "region": "South Asia",
+        "exposure": 63,
+        "vulnerability": 72,
+        "protection": 35,
+        "score": 66.5,
+        "rank": 11,
+        "tier": "high",
+        "delta_1y": 0.6,
+        "top_drug": "heroin",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 56.2
+          },
+          {
+            "year": 2016,
+            "score": 56.1
+          },
+          {
+            "year": 2017,
+            "score": 58.1
+          },
+          {
+            "year": 2018,
+            "score": 60.1
+          },
+          {
+            "year": 2019,
+            "score": 60.0
+          },
+          {
+            "year": 2020,
+            "score": 62.0
+          },
+          {
+            "year": 2021,
+            "score": 64.0
+          },
+          {
+            "year": 2022,
+            "score": 63.9
+          },
+          {
+            "year": 2023,
+            "score": 65.9
+          },
+          {
+            "year": 2024,
+            "score": 66.5
+          }
+        ]
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand",
+        "region": "East Asia & Pacific",
+        "exposure": 84,
+        "vulnerability": 41,
+        "protection": 48,
+        "score": 62.6,
+        "rank": 12,
+        "tier": "elevated",
+        "delta_1y": -1.1,
+        "top_drug": "meth",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 67.6
+          },
+          {
+            "year": 2016,
+            "score": 65.8
+          },
+          {
+            "year": 2017,
+            "score": 66.1
+          },
+          {
+            "year": 2018,
+            "score": 66.4
+          },
+          {
+            "year": 2019,
+            "score": 64.6
+          },
+          {
+            "year": 2020,
+            "score": 64.9
+          },
+          {
+            "year": 2021,
+            "score": 65.2
+          },
+          {
+            "year": 2022,
+            "score": 63.4
+          },
+          {
+            "year": 2023,
+            "score": 63.7
+          },
+          {
+            "year": 2024,
+            "score": 62.6
+          }
+        ]
+      },
+      {
+        "iso3": "IRN",
+        "name": "Iran, Islamic Rep.",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "exposure": 74,
+        "vulnerability": 61,
+        "protection": 71,
+        "score": 60.5,
+        "rank": 13,
+        "tier": "elevated",
+        "delta_1y": 0.6,
+        "top_drug": "heroin",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 50.2
+          },
+          {
+            "year": 2016,
+            "score": 50.1
+          },
+          {
+            "year": 2017,
+            "score": 52.1
+          },
+          {
+            "year": 2018,
+            "score": 54.1
+          },
+          {
+            "year": 2019,
+            "score": 54.0
+          },
+          {
+            "year": 2020,
+            "score": 56.0
+          },
+          {
+            "year": 2021,
+            "score": 58.0
+          },
+          {
+            "year": 2022,
+            "score": 57.9
+          },
+          {
+            "year": 2023,
+            "score": 59.9
+          },
+          {
+            "year": 2024,
+            "score": 60.5
+          }
+        ]
+      },
+      {
+        "iso3": "BGR",
+        "name": "Bulgaria",
+        "region": "Europe & Central Asia",
+        "exposure": 52,
+        "vulnerability": 44,
+        "protection": 38,
+        "score": 51.2,
+        "rank": 14,
+        "tier": "moderate",
+        "delta_1y": -1.1,
+        "top_drug": "heroin",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 56.2
+          },
+          {
+            "year": 2016,
+            "score": 54.4
+          },
+          {
+            "year": 2017,
+            "score": 54.7
+          },
+          {
+            "year": 2018,
+            "score": 55.0
+          },
+          {
+            "year": 2019,
+            "score": 53.2
+          },
+          {
+            "year": 2020,
+            "score": 53.5
+          },
+          {
+            "year": 2021,
+            "score": 53.8
+          },
+          {
+            "year": 2022,
+            "score": 52.0
+          },
+          {
+            "year": 2023,
+            "score": 52.3
+          },
+          {
+            "year": 2024,
+            "score": 51.2
+          }
+        ]
+      },
+      {
+        "iso3": "BEL",
+        "name": "Belgium",
+        "region": "Europe & Central Asia",
+        "exposure": 76,
+        "vulnerability": 22,
+        "protection": 82,
+        "score": 45.5,
+        "rank": 15,
+        "tier": "moderate",
+        "delta_1y": 0.6,
+        "top_drug": "cocaine",
+        "trend": [
+          {
+            "year": 2015,
+            "score": 35.2
+          },
+          {
+            "year": 2016,
+            "score": 35.1
+          },
+          {
+            "year": 2017,
+            "score": 37.1
+          },
+          {
+            "year": 2018,
+            "score": 39.1
+          },
+          {
+            "year": 2019,
+            "score": 39.0
+          },
+          {
+            "year": 2020,
+            "score": 41.0
+          },
+          {
+            "year": 2021,
+            "score": 43.0
+          },
+          {
+            "year": 2022,
+            "score": 42.9
+          },
+          {
+            "year": 2023,
+            "score": 44.9
+          },
+          {
+            "year": 2024,
+            "score": 45.5
+          }
+        ]
+      }
+    ]
+  }
+}

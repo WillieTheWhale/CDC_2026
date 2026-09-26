@@ -1,0 +1,728 @@
+{
+  "meta": {
+    "generated_at": "2026-09-26T12:00:00Z",
+    "model_version": "trace-0.1.0-fixture",
+    "sources": [
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2"
+      },
+      {
+        "id": "wb_wgi",
+        "name": "World Bank Worldwide Governance Indicators (source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3"
+      },
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS)",
+        "url": "https://dmp.unodc.org/downloadIDS"
+      },
+      {
+        "id": "unodc_wdr_annex",
+        "name": "UNODC World Drug Report statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html"
+      },
+      {
+        "id": "gitoc_ocindex",
+        "name": "GI-TOC Global Organized Crime Index",
+        "url": "https://ocindex.net"
+      },
+      {
+        "id": "hri_gshr",
+        "name": "Harm Reduction International, Global State of Harm Reduction 2024",
+        "url": "https://hri.global/flagship-research/the-global-state-of-harm-reduction/"
+      }
+    ]
+  },
+  "data": {
+    "country": {
+      "iso3": "COL",
+      "iso2": "CO",
+      "name": "Colombia",
+      "region": "Latin America & Caribbean",
+      "income_group": "Upper middle income",
+      "capital": "Bogota",
+      "lat": 4.60987,
+      "lon": -74.082
+    },
+    "year": 2024,
+    "indicators": [
+      {
+        "role": "governance",
+        "label": "Governance",
+        "indicators": [
+          {
+            "code": "GOV_WGI_RL.EST",
+            "source_id": 3,
+            "year": 2024,
+            "value": -0.42,
+            "name": "Rule of Law: Estimate",
+            "unit": "index (-2.5 to 2.5)",
+            "imputed": false
+          },
+          {
+            "code": "GOV_WGI_CC.EST",
+            "source_id": 3,
+            "year": 2024,
+            "value": -0.31,
+            "name": "Control of Corruption: Estimate",
+            "unit": "index (-2.5 to 2.5)",
+            "imputed": false
+          },
+          {
+            "code": "GOV_WGI_GE.EST",
+            "source_id": 3,
+            "year": 2024,
+            "value": -0.12,
+            "name": "Government Effectiveness: Estimate",
+            "unit": "index (-2.5 to 2.5)",
+            "imputed": false
+          },
+          {
+            "code": "GOV_WGI_PV.EST",
+            "source_id": 3,
+            "year": 2024,
+            "value": -0.63,
+            "name": "Political Stability and Absence of Violence: Estimate",
+            "unit": "index (-2.5 to 2.5)",
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "role": "logistics",
+        "label": "Connectivity",
+        "indicators": [
+          {
+            "code": "IS.SHP.GOOD.TU",
+            "source_id": 2,
+            "year": 2023,
+            "value": 5210000,
+            "name": "Container port traffic",
+            "unit": "TEU",
+            "imputed": false
+          },
+          {
+            "code": "IS.AIR.PSGR",
+            "source_id": 2,
+            "year": 2023,
+            "value": 38100000,
+            "name": "Air transport, passengers carried",
+            "unit": "passengers",
+            "imputed": false
+          },
+          {
+            "code": "NE.TRD.GNFS.ZS",
+            "source_id": 2,
+            "year": 2024,
+            "value": 40.2,
+            "name": "Trade",
+            "unit": "% of GDP",
+            "imputed": false
+          },
+          {
+            "code": "LP.LPI.OVRL.XQ",
+            "source_id": 2,
+            "year": 2022,
+            "value": 2.9,
+            "name": "Logistics performance index: Overall",
+            "unit": "1-5",
+            "imputed": true
+          }
+        ]
+      },
+      {
+        "role": "gravity",
+        "label": "Market size",
+        "indicators": [
+          {
+            "code": "NY.GDP.MKTP.CD",
+            "source_id": 2,
+            "year": 2024,
+            "value": 418500000000,
+            "name": "GDP (current US$)",
+            "unit": "US$",
+            "imputed": false
+          },
+          {
+            "code": "NY.GDP.PCAP.PP.KD",
+            "source_id": 2,
+            "year": 2024,
+            "value": 17800,
+            "name": "GDP per capita, PPP (constant 2021 international $)",
+            "unit": "int$",
+            "imputed": false
+          },
+          {
+            "code": "SP.POP.TOTL",
+            "source_id": 2,
+            "year": 2024,
+            "value": 52886000,
+            "name": "Population, total",
+            "unit": "people",
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "role": "vulnerability",
+        "label": "Vulnerability",
+        "indicators": [
+          {
+            "code": "SL.UEM.1524.ZS",
+            "source_id": 2,
+            "year": 2024,
+            "value": 18.9,
+            "name": "Unemployment, youth total (% of labor force ages 15-24)",
+            "unit": "%",
+            "imputed": false
+          },
+          {
+            "code": "SL.UEM.NEET.ZS",
+            "source_id": 2,
+            "year": 2023,
+            "value": 23.4,
+            "name": "Share of youth not in education, employment or training",
+            "unit": "%",
+            "imputed": false
+          },
+          {
+            "code": "SI.POV.DDAY",
+            "source_id": 2,
+            "year": 2023,
+            "value": 7.1,
+            "name": "Poverty headcount ratio at $3.00 a day (2021 PPP)",
+            "unit": "% of population",
+            "imputed": false
+          },
+          {
+            "code": "SI.POV.GINI",
+            "source_id": 2,
+            "year": 2023,
+            "value": 53.9,
+            "name": "Gini index",
+            "unit": "index",
+            "imputed": false
+          },
+          {
+            "code": "SH.XPD.CHEX.PC.CD",
+            "source_id": 2,
+            "year": 2022,
+            "value": 552.0,
+            "name": "Current health expenditure per capita",
+            "unit": "US$",
+            "imputed": false
+          },
+          {
+            "code": "FX.OWN.TOTL.ZS",
+            "source_id": 2,
+            "year": 2021,
+            "value": 59.7,
+            "name": "Account ownership",
+            "unit": "% age 15+",
+            "imputed": false
+          },
+          {
+            "code": "BX.TRF.PWKR.DT.GD.ZS",
+            "source_id": 2,
+            "year": 2024,
+            "value": 2.8,
+            "name": "Personal remittances, received",
+            "unit": "% of GDP",
+            "imputed": false
+          }
+        ]
+      },
+      {
+        "role": "outcome",
+        "label": "Harm outcomes",
+        "indicators": [
+          {
+            "code": "VC.IHR.PSRC.P5",
+            "source_id": 2,
+            "year": 2022,
+            "value": 26.1,
+            "name": "Intentional homicides",
+            "unit": "per 100,000 people",
+            "imputed": false
+          },
+          {
+            "code": "SH.HIV.INCD.ZS",
+            "source_id": 2,
+            "year": 2023,
+            "value": 0.2,
+            "name": "Incidence of HIV, ages 15-49",
+            "unit": "per 1,000 uninfected",
+            "imputed": false
+          },
+          {
+            "code": "VC.BTL.DETH",
+            "source_id": 2,
+            "year": 2023,
+            "value": 312,
+            "name": "Battle-related deaths",
+            "unit": "people",
+            "imputed": false
+          },
+          {
+            "code": "SM.POP.RHCR.EA",
+            "source_id": 2,
+            "year": 2024,
+            "value": 2810000,
+            "name": "Refugee population by country of asylum",
+            "unit": "people",
+            "imputed": false
+          },
+          {
+            "code": "SM.POP.RHCR.EO",
+            "source_id": 2,
+            "year": 2024,
+            "value": 118000,
+            "name": "Refugee population by country of origin",
+            "unit": "people",
+            "imputed": false
+          }
+        ]
+      }
+    ],
+    "routes": {
+      "inbound": [],
+      "outbound": [
+        {
+          "id": "cocaine:COL:ECU",
+          "from": "COL",
+          "to": "ECU",
+          "drug": "cocaine",
+          "year": 2024,
+          "volume_norm": 0.894,
+          "kg": 98000,
+          "cases": 412,
+          "confidence": 92,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": true,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": null,
+          "change_pct": 8.0,
+          "drivers": []
+        },
+        {
+          "id": "cocaine:COL:PAN",
+          "from": "COL",
+          "to": "PAN",
+          "drug": "cocaine",
+          "year": 2024,
+          "volume_norm": 0.587,
+          "kg": 52000,
+          "cases": 204,
+          "confidence": 84,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": true,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": null,
+          "change_pct": -4.4,
+          "drivers": []
+        },
+        {
+          "id": "cocaine:COL:MEX",
+          "from": "COL",
+          "to": "MEX",
+          "drug": "cocaine",
+          "year": 2024,
+          "volume_norm": 0.494,
+          "kg": 38000,
+          "cases": 150,
+          "confidence": 80,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": null,
+          "change_pct": -10.6,
+          "drivers": []
+        }
+      ]
+    },
+    "prices": [
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2014,
+            "value": 1.6,
+            "purity_pct": 81.5
+          },
+          {
+            "year": 2015,
+            "value": 1.7,
+            "purity_pct": 80.8
+          },
+          {
+            "year": 2016,
+            "value": 1.76,
+            "purity_pct": 79.4
+          },
+          {
+            "year": 2017,
+            "value": 1.76,
+            "purity_pct": 78.5
+          },
+          {
+            "year": 2018,
+            "value": 1.75,
+            "purity_pct": 79.0
+          },
+          {
+            "year": 2019,
+            "value": 1.78,
+            "purity_pct": 80.4
+          },
+          {
+            "year": 2020,
+            "value": 1.89,
+            "purity_pct": 81.4
+          },
+          {
+            "year": 2021,
+            "value": 2.02,
+            "purity_pct": 81.1
+          },
+          {
+            "year": 2022,
+            "value": 2.11,
+            "purity_pct": 79.8
+          },
+          {
+            "year": 2023,
+            "value": 2.12,
+            "purity_pct": 78.6
+          },
+          {
+            "year": 2024,
+            "value": 2.1,
+            "purity_pct": 78.7
+          }
+        ],
+        "latest": 2.1,
+        "yoy_change_pct": -0.9,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2014,
+            "value": 4.1,
+            "purity_pct": 46.5
+          },
+          {
+            "year": 2015,
+            "value": 4.32,
+            "purity_pct": 45.8
+          },
+          {
+            "year": 2016,
+            "value": 4.42,
+            "purity_pct": 44.4
+          },
+          {
+            "year": 2017,
+            "value": 4.38,
+            "purity_pct": 43.5
+          },
+          {
+            "year": 2018,
+            "value": 4.3,
+            "purity_pct": 44.0
+          },
+          {
+            "year": 2019,
+            "value": 4.35,
+            "purity_pct": 45.4
+          },
+          {
+            "year": 2020,
+            "value": 4.57,
+            "purity_pct": 46.4
+          },
+          {
+            "year": 2021,
+            "value": 4.83,
+            "purity_pct": 46.1
+          },
+          {
+            "year": 2022,
+            "value": 4.99,
+            "purity_pct": 44.8
+          },
+          {
+            "year": 2023,
+            "value": 4.98,
+            "purity_pct": 43.6
+          },
+          {
+            "year": 2024,
+            "value": 4.89,
+            "purity_pct": 43.7
+          }
+        ],
+        "latest": 4.89,
+        "yoy_change_pct": -1.8,
+        "source": "unodc_wdr_annex"
+      }
+    ],
+    "oc_index": {
+      "edition": 2025,
+      "criminality": 7.75,
+      "resilience": 5.13,
+      "markets": {
+        "cocaine": 10.0,
+        "heroin": 4.5,
+        "cannabis": 7.5,
+        "synthetic": 5.5
+      },
+      "source": "gitoc_ocindex"
+    },
+    "harm_reduction": {
+      "year": 2024,
+      "nsp": true,
+      "oat": true,
+      "naloxone": false,
+      "dcr": false,
+      "prison_programs": false,
+      "coverage_score": 40.0,
+      "source": "hri_gshr"
+    },
+    "risk": {
+      "year": 2024,
+      "exposure": 93,
+      "vulnerability": 57,
+      "protection": 40,
+      "score": 73.8,
+      "rank": 5,
+      "tier": "high",
+      "exposure_by_drug": {
+        "cocaine": 88.0,
+        "cannabis": 9.0,
+        "heroin": 2.0,
+        "meth": 1.0
+      },
+      "exposure_detail": [
+        {
+          "feature": "inbound_cocaine",
+          "label": "Inbound + transit cocaine volume",
+          "value": 0.21,
+          "contribution": 18.5
+        },
+        {
+          "feature": "outbound_cocaine",
+          "label": "Outbound cocaine volume",
+          "value": 0.92,
+          "contribution": 22.1
+        },
+        {
+          "feature": "cultivation",
+          "label": "Coca cultivation (ha)",
+          "value": 253000,
+          "contribution": 11.3
+        }
+      ],
+      "vulnerability_detail": [
+        {
+          "feature": "youth_unemployment",
+          "label": "Youth unemployment",
+          "value": 18.9,
+          "contribution": 9.2,
+          "provenance": {
+            "code": "SL.UEM.1524.ZS",
+            "source_id": 2,
+            "year": 2024,
+            "value": 18.9,
+            "name": "Unemployment, youth total",
+            "unit": "%",
+            "imputed": false
+          }
+        },
+        {
+          "feature": "gini",
+          "label": "Inequality (Gini)",
+          "value": 53.9,
+          "contribution": 12.4,
+          "provenance": {
+            "code": "SI.POV.GINI",
+            "source_id": 2,
+            "year": 2023,
+            "value": 53.9,
+            "name": "Gini index",
+            "unit": "index",
+            "imputed": false
+          }
+        },
+        {
+          "feature": "rule_of_law",
+          "label": "Governance (rule of law)",
+          "value": -0.42,
+          "contribution": 8.1,
+          "provenance": {
+            "code": "GOV_WGI_RL.EST",
+            "source_id": 3,
+            "year": 2024,
+            "value": -0.42,
+            "name": "Rule of Law: Estimate",
+            "unit": "index",
+            "imputed": false
+          }
+        }
+      ],
+      "protection_detail": [
+        {
+          "feature": "nsp",
+          "label": "Needle and syringe programmes",
+          "value": 1,
+          "contribution": 25.0
+        },
+        {
+          "feature": "oat",
+          "label": "Opioid agonist therapy",
+          "value": 1,
+          "contribution": 15.0
+        },
+        {
+          "feature": "naloxone",
+          "label": "Take-home naloxone",
+          "value": 0,
+          "contribution": 0.0
+        },
+        {
+          "feature": "dcr",
+          "label": "Drug consumption rooms",
+          "value": 0,
+          "contribution": 0.0
+        }
+      ],
+      "trend": [
+        {
+          "year": 2015,
+          "score": 63.5
+        },
+        {
+          "year": 2016,
+          "score": 63.4
+        },
+        {
+          "year": 2017,
+          "score": 65.4
+        },
+        {
+          "year": 2018,
+          "score": 67.4
+        },
+        {
+          "year": 2019,
+          "score": 67.3
+        },
+        {
+          "year": 2020,
+          "score": 69.3
+        },
+        {
+          "year": 2021,
+          "score": 71.3
+        },
+        {
+          "year": 2022,
+          "score": 71.2
+        },
+        {
+          "year": 2023,
+          "score": 73.2
+        },
+        {
+          "year": 2024,
+          "score": 73.8
+        }
+      ]
+    },
+    "cultivation": [
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2016,
+        "hectares": 146000,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2017,
+        "hectares": 171000,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2018,
+        "hectares": 169000,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2019,
+        "hectares": 154000,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2020,
+        "hectares": 143000,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2021,
+        "hectares": 204000,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2022,
+        "hectares": 230000,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2023,
+        "hectares": 253000,
+        "production_t": null
+      }
+    ],
+    "briefing": "Colombia remains the world's largest coca producer (253,000 ha in 2023). Most outbound cocaine now exits via Ecuador toward European ports. Harm reduction coverage is partial: syringe programmes and OAT exist, take-home naloxone does not."
+  }
+}

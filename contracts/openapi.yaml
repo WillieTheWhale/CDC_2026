@@ -1,0 +1,956 @@
+# AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+#
+# TRACE API contract. This file is the seam between backend/ and frontend/.
+# Never change a response shape silently: contract changes get their own commit,
+# updated fixtures in contracts/fixtures/, and a line in docs/CHANGELOG_CONTRACT.md.
+#
+# Conventions
+# - Every JSON response is an envelope: { "meta": ResponseMeta, "data": <payload> }.
+# - Country codes are ISO 3166-1 alpha-3 (World Bank `id`), upper case.
+# - Drugs: cocaine (includes crack), heroin (opiates), meth, cannabis.
+# - Every World Bank number carries provenance: { code, source_id, year, value }.
+# - Scores are 0 to 100. Higher exposure/vulnerability = worse; higher protection = better.
+# - Design boundary: no field or ranking describes where enforcement is weak or how to
+#   avoid detection. Outputs describe flows, harms, and prevention capacity only.
+openapi: 3.1.0
+info:
+  title: TRACE API
+  version: 1.0.0
+  description: >
+    Drug-trade terminal with spillover-risk early warning (2026 Carolina Data Challenge,
+    Graduate track). Serves precomputed route networks, country profiles, spillover risk
+    scores, experiments, model metrics, a shock simulator, and a live classified newswire.
+servers:
+  - url: http://localhost:8000
+    description: Local backend (uvicorn)
+
+paths:
+  /api/meta:
+    get:
+      operationId: getMeta
+      summary: Available years, drugs, model version, data freshness per source
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/MetaResponse" }
+
+  /api/countries:
+    get:
+      operationId: listCountries
+      summary: All World Bank economies (aggregates excluded)
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/CountriesResponse" }
+
+  /api/routes:
+    get:
+      operationId: getRoutes
+      summary: Route edges for a year (observed or predicted)
+      parameters:
+        - name: drug
+          in: query
+          required: false
+          description: Filter to one drug. Omit for all drugs.
+          schema: { $ref: "#/components/schemas/Drug" }
+        - name: year
+          in: query
+          required: false
+          description: Defaults to the latest observed year (observed) or first predicted year (predicted).
+          schema: { type: integer }
+        - name: mode
+          in: query
+          required: false
+          schema: { type: string, enum: [observed, predicted], default: observed }
+        - name: min_confidence
+          in: query
+          required: false
+          description: Drop edges with confidence below this value (0-100).
+          schema: { type: number, default: 0 }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/RoutesResponse" }
+        "404":
+          description: Year not available for this mode
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/country/{iso3}:
+    get:
+      operationId: getCountry
+      summary: Country profile (indicators with provenance, routes, prices, OC Index, harm reduction, risk)
+      parameters:
+        - name: iso3
+          in: path
+          required: true
+          schema: { type: string, pattern: "^[A-Z]{3}$" }
+        - name: year
+          in: query
+          required: false
+          description: Profile year. Defaults to the latest scored year.
+          schema: { type: integer }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/CountryResponse" }
+        "404":
+          description: Unknown country code
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/risk:
+    get:
+      operationId: getRisk
+      summary: Spillover risk board, ranked
+      parameters:
+        - name: year
+          in: query
+          required: false
+          schema: { type: integer }
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, minimum: 1, default: 250 }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/RiskResponse" }
+        "404":
+          description: Year not available
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/prices:
+    get:
+      operationId: getPrices
+      summary: Retail and wholesale price series (USD per gram)
+      parameters:
+        - name: drug
+          in: query
+          required: false
+          schema: { $ref: "#/components/schemas/Drug" }
+        - name: iso3
+          in: query
+          required: false
+          schema: { type: string, pattern: "^[A-Z]{3}$" }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/PricesResponse" }
+
+  /api/simulate:
+    post:
+      operationId: simulate
+      summary: Run a shock scenario through the route model and propagate to risk scores
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/SimulateRequest" }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/SimulateResponse" }
+        "422":
+          description: Scenario could not be parsed or shocks are invalid
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/experiments/afghan-ban:
+    get:
+      operationId: getAfghanBan
+      summary: Afghanistan 2022 opium ban natural experiment
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/AfghanBanResponse" }
+
+  /api/metrics:
+    get:
+      operationId: getMetrics
+      summary: Backtest metrics, spillover hypothesis test, Live Wire classifier accuracy
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/MetricsResponse" }
+
+  /api/livewire:
+    get:
+      operationId: getLivewire
+      summary: Recent classified news events (REST fallback for the WebSocket)
+      parameters:
+        - name: since
+          in: query
+          required: false
+          description: ISO 8601 timestamp; only events published after it.
+          schema: { type: string, format: date-time }
+        - name: limit
+          in: query
+          required: false
+          schema: { type: integer, minimum: 1, maximum: 500, default: 50 }
+        - name: drug
+          in: query
+          required: false
+          schema: { $ref: "#/components/schemas/LiveDrug" }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/LivewireResponse" }
+
+  /api/command:
+    post:
+      operationId: parseCommand
+      summary: Free-text command bar input to a structured intent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/CommandRequest" }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/CommandResponse" }
+
+components:
+  schemas:
+    # ---------- primitives ----------
+    Drug:
+      type: string
+      enum: [cocaine, heroin, meth, cannabis]
+    LiveDrug:
+      description: Live Wire drug labels (wider than the route model; fentanyl appears only here).
+      type: string
+      enum: [cocaine, heroin, meth, cannabis, fentanyl, other, unclear]
+    Iso3:
+      type: string
+      pattern: "^[A-Z]{3}$"
+    NullableNumber:
+      type: [number, "null"]
+
+    SourceRef:
+      type: object
+      required: [id, name, url]
+      properties:
+        id: { type: string, description: "Short stable id, e.g. wb_wdi, unodc_wdr_annex" }
+        name: { type: string }
+        url: { type: string }
+        citation: { type: string }
+
+    ResponseMeta:
+      type: object
+      required: [generated_at, model_version, sources]
+      properties:
+        generated_at: { type: string, format: date-time }
+        model_version: { type: string }
+        sources:
+          description: Sources that contributed to this response (cite in the UI).
+          type: array
+          items: { $ref: "#/components/schemas/SourceRef" }
+        notes:
+          type: array
+          items: { type: string }
+
+    ErrorResponse:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code: { type: string }
+            message: { type: string }
+
+    WbValue:
+      description: One World Bank observation with provenance.
+      type: object
+      required: [code, source_id, year, value]
+      properties:
+        code: { type: string, example: GOV_WGI_RL.EST }
+        source_id: { type: integer, example: 3 }
+        year: { type: [integer, "null"], description: "Year of the observation actually used (null if no data)." }
+        value: { $ref: "#/components/schemas/NullableNumber" }
+        name: { type: string }
+        unit: { type: string }
+        imputed:
+          type: boolean
+          description: True when forward-filled from an earlier year (e.g. LPI surveys).
+
+    # ---------- /api/meta ----------
+    SourceFreshness:
+      type: object
+      required: [id, name, url, status]
+      properties:
+        id: { type: string }
+        name: { type: string }
+        url: { type: string }
+        status:
+          type: string
+          enum: [live, cached, fallback, mock, unavailable]
+          description: How the backend obtained this source for the current build.
+        retrieved_at: { type: [string, "null"], format: date-time }
+        last_updated: { type: [string, "null"], description: "Publisher's own last-updated date if known." }
+        latest_year: { type: [integer, "null"] }
+        note: { type: string }
+
+    Meta:
+      type: object
+      required: [drugs, observed_years, predicted_years, risk_years, latest_observed_year, model_version, sources]
+      properties:
+        drugs:
+          type: array
+          items:
+            type: object
+            required: [id, label]
+            properties:
+              id: { $ref: "#/components/schemas/Drug" }
+              label: { type: string }
+              harm_weight: { type: number, description: "Relative harm weight used in exposure." }
+        observed_years: { type: array, items: { type: integer } }
+        predicted_years: { type: array, items: { type: integer } }
+        risk_years: { type: array, items: { type: integer } }
+        latest_observed_year: { type: integer }
+        model_version: { type: string }
+        livewire_classifier: { type: string, description: "mock or jev-1.13.0" }
+        sources:
+          type: array
+          items: { $ref: "#/components/schemas/SourceFreshness" }
+    MetaResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data: { $ref: "#/components/schemas/Meta" }
+
+    # ---------- /api/countries ----------
+    Country:
+      type: object
+      required: [iso3, iso2, name, region, income_group, lat, lon]
+      properties:
+        iso3: { $ref: "#/components/schemas/Iso3" }
+        iso2: { type: string }
+        name: { type: string }
+        region: { type: string }
+        income_group: { type: string }
+        capital: { type: [string, "null"] }
+        lat: { type: [number, "null"], description: "Capital latitude (World Bank /country)." }
+        lon: { type: [number, "null"] }
+    CountriesResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: array
+          items: { $ref: "#/components/schemas/Country" }
+
+    # ---------- /api/routes ----------
+    Driver:
+      description: SHAP contribution of one feature to a predicted edge.
+      type: object
+      required: [feature, label, contribution, direction]
+      properties:
+        feature: { type: string, example: gdp_dest }
+        label: { type: string, example: "Destination market size (GDP)" }
+        contribution: { type: number, description: "SHAP value on the log-odds / log-volume scale." }
+        direction: { type: string, enum: [up, down] }
+
+    ConfidenceSignals:
+      description: Independent signals that agree the corridor is active (SYSTEM_DESIGN section 6).
+      type: object
+      required: [seizures, price_gradient, oc_index, news, cultivation]
+      properties:
+        seizures: { type: boolean }
+        price_gradient: { type: boolean }
+        oc_index: { type: boolean }
+        news: { type: boolean }
+        cultivation: { type: boolean }
+
+    Edge:
+      type: object
+      required: [id, from, to, drug, year, volume_norm, kg, cases, confidence, signals, is_emerging, probability, drivers]
+      properties:
+        id: { type: string, example: "cocaine:COL:ECU" }
+        from: { $ref: "#/components/schemas/Iso3" }
+        to: { $ref: "#/components/schemas/Iso3" }
+        drug: { $ref: "#/components/schemas/Drug" }
+        year: { type: integer }
+        volume_norm:
+          type: number
+          minimum: 0
+          maximum: 1
+          description: Volume normalized within drug and year (0-1, share-scaled, log-compressed). Use for arc width.
+        kg: { type: [number, "null"], description: "Estimated kg on the edge (observed) or predicted kg (predicted)." }
+        cases: { type: [integer, "null"], description: "Seizure case count backing the edge (observed only)." }
+        confidence: { type: number, minimum: 0, maximum: 100, description: "Evidence score. Use for arc opacity." }
+        signals: { $ref: "#/components/schemas/ConfidenceSignals" }
+        is_emerging: { type: boolean, description: "New or fast-growing corridor. Pulse on the map." }
+        probability:
+          type: [number, "null"]
+          minimum: 0
+          maximum: 1
+          description: Predicted probability the edge is active (predicted mode only; null when observed).
+        change_pct: { type: [number, "null"], description: "Volume change vs previous year in percent." }
+        drivers:
+          description: Top SHAP drivers (predicted mode). Empty for observed edges.
+          type: array
+          items: { $ref: "#/components/schemas/Driver" }
+    Routes:
+      type: object
+      required: [year, mode, drug, edges]
+      properties:
+        year: { type: integer }
+        mode: { type: string, enum: [observed, predicted] }
+        drug: { type: [string, "null"], description: "Drug filter applied, or null for all." }
+        edges:
+          type: array
+          items: { $ref: "#/components/schemas/Edge" }
+    RoutesResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data: { $ref: "#/components/schemas/Routes" }
+
+    # ---------- /api/country/{iso3} ----------
+    IndicatorGroup:
+      type: object
+      required: [role, label, indicators]
+      properties:
+        role: { type: string, enum: [governance, logistics, gravity, vulnerability, outcome] }
+        label: { type: string }
+        indicators:
+          type: array
+          items: { $ref: "#/components/schemas/WbValue" }
+
+    PricePoint:
+      type: object
+      required: [year, value]
+      properties:
+        year: { type: integer }
+        value: { type: number, description: "USD per gram" }
+        purity_pct: { type: [number, "null"] }
+    PriceSeries:
+      type: object
+      required: [iso3, drug, level, unit, points, latest, yoy_change_pct, source]
+      properties:
+        iso3: { $ref: "#/components/schemas/Iso3" }
+        name: { type: string }
+        drug: { $ref: "#/components/schemas/Drug" }
+        level: { type: string, enum: [retail, wholesale] }
+        unit: { type: string, enum: ["USD/g"] }
+        points:
+          type: array
+          items: { $ref: "#/components/schemas/PricePoint" }
+        latest: { type: [number, "null"] }
+        yoy_change_pct: { type: [number, "null"] }
+        source: { type: string, description: "Source id (see meta.sources)." }
+
+    OcIndex:
+      type: object
+      required: [edition, criminality, resilience, markets]
+      properties:
+        edition: { type: integer, example: 2025 }
+        criminality: { $ref: "#/components/schemas/NullableNumber" }
+        resilience: { $ref: "#/components/schemas/NullableNumber" }
+        markets:
+          description: Criminal market scores (1-10) for drug markets.
+          type: object
+          required: [cocaine, heroin, cannabis, synthetic]
+          properties:
+            cocaine: { $ref: "#/components/schemas/NullableNumber" }
+            heroin: { $ref: "#/components/schemas/NullableNumber" }
+            cannabis: { $ref: "#/components/schemas/NullableNumber" }
+            synthetic: { $ref: "#/components/schemas/NullableNumber" }
+        source: { type: string }
+
+    HarmReduction:
+      description: Harm Reduction International service availability. null = unknown.
+      type: object
+      required: [year, nsp, oat, naloxone, dcr, prison_programs, coverage_score]
+      properties:
+        year: { type: integer }
+        nsp: { type: [boolean, "null"], description: "Needle and syringe programmes" }
+        oat: { type: [boolean, "null"], description: "Opioid agonist therapy" }
+        naloxone: { type: [boolean, "null"], description: "Take-home naloxone" }
+        dcr: { type: [boolean, "null"], description: "Drug consumption rooms" }
+        prison_programs: { type: [boolean, "null"] }
+        coverage_score: { type: number, minimum: 0, maximum: 100 }
+        source: { type: string }
+
+    RiskComponentDetail:
+      type: object
+      required: [feature, label, value, contribution]
+      properties:
+        feature: { type: string }
+        label: { type: string }
+        value: { $ref: "#/components/schemas/NullableNumber" }
+        contribution: { type: number, description: "Points contributed to the component score." }
+        provenance: { $ref: "#/components/schemas/WbValue" }
+
+    RiskBreakdown:
+      type: object
+      required: [year, exposure, vulnerability, protection, score, rank, tier, exposure_detail, vulnerability_detail, protection_detail]
+      properties:
+        year: { type: integer }
+        exposure: { type: number }
+        vulnerability: { type: number }
+        protection: { type: number }
+        score: { type: number }
+        rank: { type: integer }
+        tier: { $ref: "#/components/schemas/RiskTier" }
+        exposure_by_drug:
+          type: object
+          additionalProperties: { type: number }
+        exposure_detail: { type: array, items: { $ref: "#/components/schemas/RiskComponentDetail" } }
+        vulnerability_detail: { type: array, items: { $ref: "#/components/schemas/RiskComponentDetail" } }
+        protection_detail: { type: array, items: { $ref: "#/components/schemas/RiskComponentDetail" } }
+        trend:
+          type: array
+          items: { $ref: "#/components/schemas/TrendPoint" }
+
+    CountryProfile:
+      type: object
+      required: [country, year, indicators, routes, prices, oc_index, harm_reduction, risk, cultivation]
+      properties:
+        country: { $ref: "#/components/schemas/Country" }
+        year: { type: integer }
+        indicators:
+          type: array
+          items: { $ref: "#/components/schemas/IndicatorGroup" }
+        routes:
+          type: object
+          required: [inbound, outbound]
+          properties:
+            inbound: { type: array, items: { $ref: "#/components/schemas/Edge" } }
+            outbound: { type: array, items: { $ref: "#/components/schemas/Edge" } }
+        prices:
+          type: array
+          items: { $ref: "#/components/schemas/PriceSeries" }
+        oc_index:
+          oneOf:
+            - { $ref: "#/components/schemas/OcIndex" }
+            - { type: "null" }
+        harm_reduction:
+          oneOf:
+            - { $ref: "#/components/schemas/HarmReduction" }
+            - { type: "null" }
+        risk:
+          oneOf:
+            - { $ref: "#/components/schemas/RiskBreakdown" }
+            - { type: "null" }
+        cultivation:
+          description: Illicit crop cultivation (hectares), only for producer countries.
+          type: array
+          items: { $ref: "#/components/schemas/CultivationPoint" }
+        briefing: { type: [string, "null"], description: "Short generated country briefing (may be null)." }
+    CountryResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data: { $ref: "#/components/schemas/CountryProfile" }
+
+    CultivationPoint:
+      type: object
+      required: [iso3, crop, year, hectares]
+      properties:
+        iso3: { $ref: "#/components/schemas/Iso3" }
+        crop: { type: string, enum: [coca, opium_poppy] }
+        year: { type: integer }
+        hectares: { $ref: "#/components/schemas/NullableNumber" }
+        production_t: { $ref: "#/components/schemas/NullableNumber" }
+
+    # ---------- /api/risk ----------
+    RiskTier:
+      type: string
+      enum: [critical, high, elevated, moderate, low]
+    TrendPoint:
+      type: object
+      required: [year, score]
+      properties:
+        year: { type: integer }
+        score: { type: number }
+    RiskRow:
+      type: object
+      required: [iso3, name, region, exposure, vulnerability, protection, score, rank, tier, delta_1y, trend]
+      properties:
+        iso3: { $ref: "#/components/schemas/Iso3" }
+        name: { type: string }
+        region: { type: string }
+        exposure: { type: number, minimum: 0, maximum: 100 }
+        vulnerability: { type: number, minimum: 0, maximum: 100 }
+        protection: { type: number, minimum: 0, maximum: 100 }
+        score: { type: number, minimum: 0, maximum: 100 }
+        rank: { type: integer, minimum: 1 }
+        tier: { $ref: "#/components/schemas/RiskTier" }
+        delta_1y: { type: [number, "null"], description: "Score change vs previous year." }
+        top_drug: { type: [string, "null"], description: "Drug contributing most exposure." }
+        trend:
+          type: array
+          items: { $ref: "#/components/schemas/TrendPoint" }
+    RiskBoard:
+      type: object
+      required: [year, rows, weights]
+      properties:
+        year: { type: integer }
+        weights:
+          description: Weights used to combine components into the score.
+          type: object
+          required: [exposure, vulnerability, protection]
+          properties:
+            exposure: { type: number }
+            vulnerability: { type: number }
+            protection: { type: number }
+        rows:
+          type: array
+          items: { $ref: "#/components/schemas/RiskRow" }
+    RiskResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data: { $ref: "#/components/schemas/RiskBoard" }
+
+    # ---------- /api/prices ----------
+    PricesResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: object
+          required: [series]
+          properties:
+            series:
+              type: array
+              items: { $ref: "#/components/schemas/PriceSeries" }
+
+    # ---------- /api/simulate ----------
+    Shock:
+      type: object
+      required: [type, iso3, value]
+      properties:
+        type:
+          type: string
+          enum: [cultivation, legalization, customs_efficiency]
+          description: >
+            cultivation: value is a multiplier on illicit crop output at iso3 (0.05 = -95%).
+            legalization: value 1 = drug legalized/regulated in iso3 (0 = reverse).
+            customs_efficiency: value is a delta on the LPI customs score (1-5 scale) at iso3.
+        iso3: { $ref: "#/components/schemas/Iso3" }
+        drug:
+          description: Drug affected. Required for legalization; cultivation implies cocaine (coca) or heroin (opium).
+          oneOf:
+            - { $ref: "#/components/schemas/Drug" }
+            - { type: "null" }
+        value: { type: number }
+    SimulateRequest:
+      type: object
+      properties:
+        scenario: { type: string, description: 'Plain English, e.g. "Colombia cuts coca 50%". Parsed into shocks.' }
+        shocks:
+          type: array
+          items: { $ref: "#/components/schemas/Shock" }
+        year: { type: integer, description: "Base year to shock. Defaults to the first predicted year." }
+    EdgeDelta:
+      type: object
+      required: [from, to, drug, baseline_volume_norm, scenario_volume_norm, baseline_probability, scenario_probability, delta_pct]
+      properties:
+        from: { $ref: "#/components/schemas/Iso3" }
+        to: { $ref: "#/components/schemas/Iso3" }
+        drug: { $ref: "#/components/schemas/Drug" }
+        baseline_volume_norm: { type: number }
+        scenario_volume_norm: { type: number }
+        baseline_kg: { $ref: "#/components/schemas/NullableNumber" }
+        scenario_kg: { $ref: "#/components/schemas/NullableNumber" }
+        baseline_probability: { type: number }
+        scenario_probability: { type: number }
+        delta_pct: { type: number }
+    RiskDelta:
+      type: object
+      required: [iso3, name, baseline_score, scenario_score, delta, baseline_rank, scenario_rank]
+      properties:
+        iso3: { $ref: "#/components/schemas/Iso3" }
+        name: { type: string }
+        baseline_score: { type: number }
+        scenario_score: { type: number }
+        delta: { type: number }
+        baseline_rank: { type: integer }
+        scenario_rank: { type: integer }
+    SimulationResult:
+      type: object
+      required: [scenario, parsed_by, shocks, year, edges_changed, risk_deltas, summary, warnings]
+      properties:
+        scenario: { type: [string, "null"] }
+        parsed_by: { type: string, enum: [structured, rules, llm] }
+        shocks:
+          type: array
+          items: { $ref: "#/components/schemas/Shock" }
+        year: { type: integer }
+        edges_changed:
+          description: Edges whose volume moved by more than 1 percent, sorted by absolute change.
+          type: array
+          items: { $ref: "#/components/schemas/EdgeDelta" }
+        risk_deltas:
+          description: Countries whose risk score moved, sorted by absolute delta.
+          type: array
+          items: { $ref: "#/components/schemas/RiskDelta" }
+        summary: { type: string }
+        warnings: { type: array, items: { type: string } }
+    SimulateResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data: { $ref: "#/components/schemas/SimulationResult" }
+
+    # ---------- /api/experiments/afghan-ban ----------
+    SharePoint:
+      type: object
+      required: [year, value]
+      properties:
+        year: { type: integer }
+        value: { $ref: "#/components/schemas/NullableNumber" }
+    NamedSeries:
+      type: object
+      required: [id, label, unit, points]
+      properties:
+        id: { type: string }
+        label: { type: string }
+        unit: { type: string }
+        points:
+          type: array
+          items: { $ref: "#/components/schemas/SharePoint" }
+    ExperimentEdge:
+      type: object
+      required: [from, to, drug, before, predicted, actual]
+      properties:
+        from: { $ref: "#/components/schemas/Iso3" }
+        to: { $ref: "#/components/schemas/Iso3" }
+        drug: { $ref: "#/components/schemas/Drug" }
+        before: { type: number, description: "volume_norm in the pre-ban reference year" }
+        predicted: { type: number, description: "volume_norm predicted after the injected shock" }
+        actual: { $ref: "#/components/schemas/NullableNumber" }
+        direction_correct: { type: [boolean, "null"] }
+    AfghanBan:
+      type: object
+      required: [title, summary, ban_year, train_through, shock, series, edges, metrics, verdict]
+      properties:
+        title: { type: string }
+        summary: { type: string }
+        ban_year: { type: integer }
+        train_through: { type: integer }
+        shock: { $ref: "#/components/schemas/Shock" }
+        series:
+          description: Before/after series (cultivation, production, prices, route shares).
+          type: array
+          items: { $ref: "#/components/schemas/NamedSeries" }
+        edges:
+          type: array
+          items: { $ref: "#/components/schemas/ExperimentEdge" }
+        metrics:
+          type: object
+          required: [direction_accuracy, spearman, n_edges]
+          properties:
+            direction_accuracy: { $ref: "#/components/schemas/NullableNumber" }
+            spearman: { $ref: "#/components/schemas/NullableNumber" }
+            n_edges: { type: integer }
+            sea_share_before: { $ref: "#/components/schemas/NullableNumber" }
+            sea_share_predicted: { $ref: "#/components/schemas/NullableNumber" }
+            sea_share_actual: { $ref: "#/components/schemas/NullableNumber" }
+        verdict: { type: string }
+    AfghanBanResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data: { $ref: "#/components/schemas/AfghanBan" }
+
+    # ---------- /api/metrics ----------
+    ModelScores:
+      type: object
+      required: [auc, spearman, precision_at_20]
+      properties:
+        auc: { $ref: "#/components/schemas/NullableNumber" }
+        spearman: { $ref: "#/components/schemas/NullableNumber" }
+        precision_at_20: { $ref: "#/components/schemas/NullableNumber" }
+        n: { type: integer }
+    Metrics:
+      type: object
+      required: [model_version, backtest, spillover, livewire]
+      properties:
+        model_version: { type: string }
+        backtest:
+          type: object
+          required: [train_through, test_years, hurdle, gravity_baseline]
+          properties:
+            train_through: { type: integer }
+            test_years: { type: array, items: { type: integer } }
+            hurdle: { $ref: "#/components/schemas/ModelScores" }
+            gravity_baseline: { $ref: "#/components/schemas/ModelScores" }
+            per_drug:
+              type: object
+              additionalProperties: { $ref: "#/components/schemas/ModelScores" }
+            per_year:
+              type: object
+              additionalProperties: { $ref: "#/components/schemas/ModelScores" }
+            top_features:
+              type: array
+              items:
+                type: object
+                required: [feature, label, mean_abs_shap]
+                properties:
+                  feature: { type: string }
+                  label: { type: string }
+                  mean_abs_shap: { type: number }
+        afghan_ban:
+          type: object
+          properties:
+            direction_accuracy: { $ref: "#/components/schemas/NullableNumber" }
+            spearman: { $ref: "#/components/schemas/NullableNumber" }
+            verdict: { type: string }
+        spillover:
+          type: object
+          required: [hypothesis, outcome, n, auc_vulnerability_only, auc_with_exposure, lr_p_value, supported, statement]
+          properties:
+            hypothesis: { type: string }
+            outcome: { type: string, description: "Outcome definition used as the target." }
+            n: { type: integer }
+            auc_vulnerability_only: { $ref: "#/components/schemas/NullableNumber" }
+            auc_with_exposure: { $ref: "#/components/schemas/NullableNumber" }
+            exposure_coef: { $ref: "#/components/schemas/NullableNumber" }
+            lr_p_value: { $ref: "#/components/schemas/NullableNumber" }
+            supported: { type: boolean }
+            statement: { type: string }
+            by_outcome:
+              type: object
+              additionalProperties:
+                type: object
+                properties:
+                  n: { type: integer }
+                  auc_vulnerability_only: { $ref: "#/components/schemas/NullableNumber" }
+                  auc_with_exposure: { $ref: "#/components/schemas/NullableNumber" }
+                  lr_p_value: { $ref: "#/components/schemas/NullableNumber" }
+        livewire:
+          type: object
+          required: [classifier, n_labeled, field_accuracy]
+          properties:
+            classifier: { type: string }
+            n_labeled: { type: integer }
+            field_accuracy:
+              type: object
+              additionalProperties: { $ref: "#/components/schemas/NullableNumber" }
+            note: { type: string }
+    MetricsResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data: { $ref: "#/components/schemas/Metrics" }
+
+    # ---------- /api/livewire + WS ----------
+    LiveEvent:
+      type: object
+      required: [id, published_at, title, url, source_domain, event_type, drug, origin, transit, destination,
+                 size, is_event, route_mentioned, confidence, is_anomaly, edge_probability, classifier, lat, lon]
+      properties:
+        id: { type: string }
+        published_at: { type: string, format: date-time, description: "From GDELT metadata, never from the classifier." }
+        title: { type: string }
+        url: { type: string }
+        source_domain: { type: string }
+        language: { type: string }
+        event_type:
+          type: string
+          enum: [seizure, arrest_or_indictment, lab_dismantled, law_or_policy_change, violence, corruption, other]
+        drug: { $ref: "#/components/schemas/LiveDrug" }
+        origin: { type: [string, "null"], description: "ISO3 or null when not stated" }
+        transit: { type: [string, "null"] }
+        destination: { type: [string, "null"] }
+        size: { type: string, enum: [small, notable, major, record] }
+        is_event: { type: number, minimum: 0, maximum: 1, description: "P(article describes a specific event)" }
+        route_mentioned: { type: number, minimum: 0, maximum: 1 }
+        confidence: { type: number, minimum: 0, maximum: 1 }
+        is_anomaly: { type: boolean }
+        anomaly_reason: { type: [string, "null"] }
+        edge_probability: { type: [number, "null"], description: "Model probability for the origin->destination edge." }
+        classifier: { type: string, description: "mock or jev-1.13.0" }
+        lat: { type: [number, "null"], description: "Map pin (country centroid of the most specific location)." }
+        lon: { type: [number, "null"] }
+    LivewireResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: object
+          required: [events, classifier]
+          properties:
+            classifier: { type: string }
+            events:
+              type: array
+              items: { $ref: "#/components/schemas/LiveEvent" }
+
+    # ---------- /api/command ----------
+    CommandRequest:
+      type: object
+      required: [text]
+      properties:
+        text: { type: string }
+    CommandResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: object
+          required: [text, intent, params, confidence, parser, message]
+          properties:
+            text: { type: string }
+            intent:
+              type: string
+              enum: [routes, country, risk, shock, news, compare, year, predict, prices, experiment, metrics, help, blocked, unknown]
+              description: blocked = request falls outside the design boundary (e.g. asks where enforcement is weak).
+            params:
+              type: object
+              properties:
+                drug: { type: [string, "null"] }
+                iso3: { type: [string, "null"] }
+                iso3_b: { type: [string, "null"] }
+                year: { type: [integer, "null"] }
+                limit: { type: [integer, "null"] }
+                predict: { type: [boolean, "null"] }
+                shocks:
+                  type: array
+                  items: { $ref: "#/components/schemas/Shock" }
+            confidence: { type: number, minimum: 0, maximum: 1 }
+            parser: { type: string, enum: [rules, jev, mock] }
+            message: { type: string }

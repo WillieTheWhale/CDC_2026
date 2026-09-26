@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "generated_at": "2026-09-26T12:00:00Z",
+    "model_version": "trace-0.1.0-fixture",
+    "sources": [
+      {
+        "id": "unodc_wdr_annex",
+        "name": "UNODC World Drug Report statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html"
+      },
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS)",
+        "url": "https://dmp.unodc.org/downloadIDS"
+      }
+    ]
+  },
+  "data": {
+    "title": "Afghanistan 2022 opium ban",
+    "summary": "Train the route model through 2021, inject a 95% cut in Afghan opium cultivation, and compare predicted heroin corridors with what 2023-2024 data later showed.",
+    "ban_year": 2022,
+    "train_through": 2021,
+    "shock": {
+      "type": "cultivation",
+      "iso3": "AFG",
+      "drug": "heroin",
+      "value": 0.05
+    },
+    "series": [
+      {
+        "id": "afg_cultivation",
+        "label": "Afghanistan opium poppy cultivation",
+        "unit": "ha",
+        "points": [
+          {
+            "year": 2018,
+            "value": 263000
+          },
+          {
+            "year": 2019,
+            "value": 163000
+          },
+          {
+            "year": 2020,
+            "value": 224000
+          },
+          {
+            "year": 2021,
+            "value": 177000
+          },
+          {
+            "year": 2022,
+            "value": 233000
+          },
+          {
+            "year": 2023,
+            "value": 10800
+          },
+          {
+            "year": 2024,
+            "value": 12800
+          }
+        ]
+      },
+      {
+        "id": "mmr_cultivation",
+        "label": "Myanmar opium poppy cultivation",
+        "unit": "ha",
+        "points": [
+          {
+            "year": 2018,
+            "value": 37300
+          },
+          {
+            "year": 2019,
+            "value": 33100
+          },
+          {
+            "year": 2020,
+            "value": 29500
+          },
+          {
+            "year": 2021,
+            "value": 30200
+          },
+          {
+            "year": 2022,
+            "value": 40100
+          },
+          {
+            "year": 2023,
+            "value": 47000
+          },
+          {
+            "year": 2024,
+            "value": 45200
+          }
+        ]
+      },
+      {
+        "id": "sea_share",
+        "label": "Share of heroin corridor volume in SE Asia",
+        "unit": "share",
+        "points": [
+          {
+            "year": 2018,
+            "value": 0.21
+          },
+          {
+            "year": 2019,
+            "value": 0.22
+          },
+          {
+            "year": 2020,
+            "value": 0.2
+          },
+          {
+            "year": 2021,
+            "value": 0.22
+          },
+          {
+            "year": 2022,
+            "value": 0.24
+          },
+          {
+            "year": 2023,
+            "value": 0.39
+          },
+          {
+            "year": 2024,
+            "value": 0.44
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": "AFG",
+        "to": "IRN",
+        "drug": "heroin",
+        "before": 0.92,
+        "predicted": 0.41,
+        "actual": 0.35,
+        "direction_correct": true
+      },
+      {
+        "from": "AFG",
+        "to": "PAK",
+        "drug": "heroin",
+        "before": 0.71,
+        "predicted": 0.33,
+        "actual": 0.3,
+        "direction_correct": true
+      },
+      {
+        "from": "IRN",
+        "to": "TUR",
+        "drug": "heroin",
+        "before": 0.66,
+        "predicted": 0.4,
+        "actual": 0.44,
+        "direction_correct": true
+      },
+      {
+        "from": "MMR",
+        "to": "THA",
+        "drug": "heroin",
+        "before": 0.44,
+        "predicted": 0.63,
+        "actual": 0.71,
+        "direction_correct": true
+      },
+      {
+        "from": "MMR",
+        "to": "LAO",
+        "drug": "heroin",
+        "before": 0.31,
+        "predicted": 0.47,
+        "actual": 0.52,
+        "direction_correct": true
+      },
+      {
+        "from": "MMR",
+        "to": "CHN",
+        "drug": "heroin",
+        "before": 0.35,
+        "predicted": 0.41,
+        "actual": 0.37,
+        "direction_correct": true
+      },
+      {
+        "from": "THA",
+        "to": "MYS",
+        "drug": "heroin",
+        "before": 0.18,
+        "predicted": 0.26,
+        "actual": 0.29,
+        "direction_correct": true
+      },
+      {
+        "from": "PAK",
+        "to": "ARE",
+        "drug": "heroin",
+        "before": 0.22,
+        "predicted": 0.17,
+        "actual": 0.24,
+        "direction_correct": false
+      }
+    ],
+    "metrics": {
+      "direction_accuracy": 0.875,
+      "spearman": 0.81,
+      "n_edges": 8,
+      "sea_share_before": 0.22,
+      "sea_share_predicted": 0.36,
+      "sea_share_actual": 0.39
+    },
+    "verdict": "The model shifted heroin volume toward Myanmar-linked Southeast Asian corridors, matching the direction later data showed on 7 of 8 major edges."
+  }
+}

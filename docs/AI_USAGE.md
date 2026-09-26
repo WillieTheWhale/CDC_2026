@@ -5,6 +5,7 @@ CDC rules allow generative AI tools but require citing where they are used. Ever
 | Date | Tool | Operator | What it produced |
 |---|---|---|---|
 | 2026-09-26 | Claude (Anthropic), claude.ai | Markandeya | Project ideation, data source research and verification, TRACE spec and all files in `docs/`, `CLAUDE.md`, `AGENTS.md`, repo config |
+| 2026-09-26 | Claude Code (Anthropic), Opus 5.5 | Markandeya | Backend T0-T9: API contract and fixtures, `backend/` pipeline (World Bank ingest, external ingest, edges, gravity + LightGBM hurdle models, SHAP, backtests, spillover risk, API, Live Wire, simulator), tests, docs updates |
 
 ## Runtime AI used by the product
 | Component | Model | Purpose |

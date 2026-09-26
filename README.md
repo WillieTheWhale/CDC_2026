@@ -29,7 +29,7 @@ skills/      World Bank Indicators API skill
 | Milestone | Owner | Status |
 |---|---|---|
 | Spec, docs, handoff | planning session | done |
-| T0 API contract + fixtures | backend | not started |
+| T0 API contract + fixtures | backend | done (`contracts/`) |
 | T1 backend scaffold | backend | not started |
 | T2 World Bank ingest | backend | not started |
 | T3 external ingest (UNODC, OC Index, HRI, CEPII) | backend | not started |
