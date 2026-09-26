@@ -69,9 +69,20 @@ def main() -> None:
     for name in ("health", "markets", "research", "evidence"):
         parser.add_argument(f"--{name}", type=Path, default=ROOT / f"data_collection/work/{name}.sqlite")
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
-    parser.add_argument("--verify-shards", action="store_true")
+    parser.add_argument("--verify-shards", action="store_true", help="Retained for CLI compatibility; source verification is always required")
     args = parser.parse_args()
-    if args.verify_shards:
+    paths = [getattr(args, name).resolve() for name in ("health", "markets", "research", "evidence")]
+    if len(set(paths)) == 1:
+        path = paths[0]
+        if path.stat().st_size != MANIFEST["database"]["bytes"]:
+            raise ValueError("Canonical SQLite size differs from release manifest")
+        digest = hashlib.sha256()
+        with path.open("rb") as stream:
+            for block in iter(lambda: stream.read(1024 * 1024), b""):
+                digest.update(block)
+        if digest.hexdigest() != MANIFEST["database"]["sha256"]:
+            raise ValueError("Canonical SQLite SHA-256 differs from release manifest")
+    else:
         for name in ("health", "markets", "research", "evidence"):
             check_shard(getattr(args, name), f"{name}.sqlite")
 
