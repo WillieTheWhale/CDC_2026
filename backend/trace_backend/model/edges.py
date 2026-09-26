@@ -70,12 +70,16 @@ def candidates(seiz: pd.DataFrame, seed: pd.DataFrame, dist: pd.DataFrame) -> pd
 
 
 def allocate(cands: pd.DataFrame, seiz: pd.DataFrame, prod: pd.DataFrame, dist: pd.DataFrame,
-             years: list[int]) -> pd.DataFrame:
+             years: list[int], prior_mult: dict[str, float] | None = None) -> pd.DataFrame:
+    """Seizure-anchored allocation. `prior_mult` (iso3 -> factor) rescales route attractiveness through a
+    country (used by the shock simulator for customs shifts)."""
     d = dist.set_index(["from_iso3", "to_iso3"])[["dist", "contig"]]
     base = cands.join(d, on=["from_iso3", "to_iso3"])
     base["dist"] = base["dist"].fillna(base["dist"].median())
     base["contig"] = base["contig"].fillna(0)
     base["prior"] = np.where(base["documented"], PRIOR_DOC, PRIOR_NEIGHBOUR)
+    if prior_mult:
+        base["prior"] *= base["from_iso3"].map(prior_mult).fillna(1.0) * base["to_iso3"].map(prior_mult).fillna(1.0)
     L = base["drug"].map(DECAY_KM) * np.where(base["documented"], 3.0, 1.0)
     base["decay"] = np.exp(-base["dist"] / L) * (1 + 0.5 * base["contig"])
     S = seiz.set_index(["iso3", "year", "drug"])["kg"]

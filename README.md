@@ -34,7 +34,7 @@ skills/      World Bank Indicators API skill
 | T2 World Bank ingest | backend | done (24 indicators, 217 economies, 2005-2026, `wb_manifest.json`) |
 | T3 external ingest (UNODC, OC Index, HRI, CEPII) | backend | done (IDS 2.3M cases, WDR annex, OC Index x3, HRI 193 countries, CEPII; see BLOCKERS.md) |
 | T4 edges + confidence | backend | done (676 corridors x 2011-2024, seizure-anchored allocation, 6-signal confidence) |
-| T5 route models + backtest + Afghan ban test | backend | not started |
+| T5 route models + backtest + Afghan ban test | backend | done (hurdle AUC 0.92 vs gravity 0.61; Afghan ban 12/14 corridors, SEA share 5%->12% pred vs 14% actual) |
 | T6 spillover risk | backend | not started |
 | T7 export + API | backend | not started |
 | T8 Live Wire (mock Jev) | backend | not started |
