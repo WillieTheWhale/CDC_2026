@@ -20,8 +20,13 @@ The 24 World Bank variables in `backend/trace_backend/wb/indicators.py` define t
 | `world_bank.py` | `work/world_bank.sqlite` | `countries`, `wb_indicators`, metadata and coverage |
 | `unodc.py` | `work/unodc.sqlite` | case-level seizures, national totals, prices, cultivation, original source records |
 | `context_sources.py` | `work/context.sqlite` | OC Index editions, harm-reduction services, geographic distances, original source records |
+| `health/collect.py` | `work/health.sqlite` | UNODC drug-use prevalence, PWID infections, treatment; UN SDG 3.5.1 coverage; CDC provisional overdose |
+| `markets/build.py` | `work/markets.sqlite` | UNODC price/purity rows, exact-product derived values and workbook-cell lineage |
+| `research.py` and `research_model.py` | `work/research.sqlite` | Source-edition revisions, matched model sample and noncausal findings |
 
 Collection code records failures explicitly. No synthetic fixture values, fabricated routes, or modeled backcasts belong in this archive. Public UNODC IDS does not expose origin/transit/destination fields; country-of-seizure observations must not be presented as directly observed routes.
+
+The seven health annex files, SDG API series and CDC rolling 12-month records are explained in [health methods and coverage](reports/health.md). The [market report](reports/markets.md) describes exact product-form price/purity eligibility and blocked EUDA numeric downloads. Current source caches can be refreshed from their recorded URLs and SHA-256 hashes; the large UNODC IDS XLSX download caches were evicted after the verified case-level shard and v1 release were produced to conserve disk space. The `unodc.py --cached-only` path requires re-downloading those three files first; the existing source shard remains intact.
 
 API requests use caching, pagination validation, timeouts and bounded retries. World Bank calls use explicit source IDs and preserve missing observations. A request delay is a conservative client setting, not a claim about a published universal quota.
 
