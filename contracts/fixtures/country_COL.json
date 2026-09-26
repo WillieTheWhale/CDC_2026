@@ -1,37 +1,55 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T12:00:00Z",
-    "model_version": "trace-0.1.0-fixture",
+    "generated_at": "2026-09-26T18:09:03+00:00",
+    "model_version": "trace-0.1.0",
     "sources": [
       {
         "id": "wb_wdi",
-        "name": "World Bank World Development Indicators (source 2)",
-        "url": "https://api.worldbank.org/v2/sources/2"
+        "name": "World Bank World Development Indicators (API source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2",
+        "citation": "World Bank, World Development Indicators, via Indicators API v2 (CC BY 4.0)."
       },
       {
         "id": "wb_wgi",
-        "name": "World Bank Worldwide Governance Indicators (source 3)",
-        "url": "https://api.worldbank.org/v2/sources/3"
-      },
-      {
-        "id": "unodc_ids",
-        "name": "UNODC Individual Drug Seizures (IDS)",
-        "url": "https://dmp.unodc.org/downloadIDS"
+        "name": "World Bank Worldwide Governance Indicators (API source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3",
+        "citation": "World Bank, Worldwide Governance Indicators, via Indicators API v2 (CC BY 4.0)."
       },
       {
         "id": "unodc_wdr_annex",
-        "name": "UNODC World Drug Report statistical annex",
-        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html"
+        "name": "UNODC World Drug Report 2026, statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html",
+        "citation": "UNODC, World Drug Report 2026, Statistical Annex (tables 6.x, 7.1, 8.1, 8.3, 11.1)."
+      },
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS), public release",
+        "url": "https://dmp.unodc.org/downloadIDS",
+        "citation": "UNODC Drugs Monitoring Platform, Individual Drug Seizures 2011-2026."
+      },
+      {
+        "id": "unodc_routes",
+        "name": "UNODC / EUDA documented trafficking corridors (TRACE transcription)",
+        "url": "https://github.com/WillieTheWhale/CDC_2026/blob/main/backend/trace_backend/seed/corridors.csv",
+        "citation": "Transcribed from WDR 2026 annex route maps 7.2-7.4 and UNODC/EUDA reports; see seed/README.md."
       },
       {
         "id": "gitoc_ocindex",
-        "name": "GI-TOC Global Organized Crime Index",
-        "url": "https://ocindex.net"
+        "name": "GI-TOC Global Organized Crime Index (2021, 2023, 2025)",
+        "url": "https://ocindex.net/downloads",
+        "citation": "Global Initiative Against Transnational Organized Crime, Global Organized Crime Index."
+      },
+      {
+        "id": "cepii_geodist",
+        "name": "CEPII GeoDist",
+        "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6",
+        "citation": "Mayer and Zignago (2011), Notes on CEPII's distances measures: the GeoDist database."
       },
       {
         "id": "hri_gshr",
         "name": "Harm Reduction International, Global State of Harm Reduction 2024",
-        "url": "https://hri.global/flagship-research/the-global-state-of-harm-reduction/"
+        "url": "https://hri.global/wp-content/uploads/2024/10/HRI-GSHR-2024_Full-Report_Final.pdf",
+        "citation": "Harm Reduction International (2024), The Global State of Harm Reduction, Table 1."
       }
     ]
   },
@@ -43,48 +61,48 @@
       "region": "Latin America & Caribbean",
       "income_group": "Upper middle income",
       "capital": "Bogota",
-      "lat": 4.60987,
+      "lat": 4.6099,
       "lon": -74.082
     },
-    "year": 2024,
+    "year": 2025,
     "indicators": [
       {
         "role": "governance",
         "label": "Governance",
         "indicators": [
           {
-            "code": "GOV_WGI_RL.EST",
+            "code": "GOV_WGI_CC.EST",
             "source_id": 3,
-            "year": 2024,
-            "value": -0.42,
-            "name": "Rule of Law: Estimate",
+            "year": 2025,
+            "value": -0.3085373,
+            "name": "Control of Corruption",
             "unit": "index (-2.5 to 2.5)",
             "imputed": false
           },
           {
-            "code": "GOV_WGI_CC.EST",
+            "code": "GOV_WGI_RL.EST",
             "source_id": 3,
-            "year": 2024,
-            "value": -0.31,
-            "name": "Control of Corruption: Estimate",
+            "year": 2025,
+            "value": -0.6282535,
+            "name": "Rule of Law",
             "unit": "index (-2.5 to 2.5)",
             "imputed": false
           },
           {
             "code": "GOV_WGI_GE.EST",
             "source_id": 3,
-            "year": 2024,
-            "value": -0.12,
-            "name": "Government Effectiveness: Estimate",
+            "year": 2025,
+            "value": -0.0934617,
+            "name": "Government Effectiveness",
             "unit": "index (-2.5 to 2.5)",
             "imputed": false
           },
           {
             "code": "GOV_WGI_PV.EST",
             "source_id": 3,
-            "year": 2024,
-            "value": -0.63,
-            "name": "Political Stability and Absence of Violence: Estimate",
+            "year": 2025,
+            "value": -0.9528769,
+            "name": "Political Stability / No Violence",
             "unit": "index (-2.5 to 2.5)",
             "imputed": false
           }
@@ -95,10 +113,19 @@
         "label": "Connectivity",
         "indicators": [
           {
+            "code": "LP.LPI.OVRL.XQ",
+            "source_id": 2,
+            "year": 2022,
+            "value": 2.9,
+            "name": "Logistics Performance Index (overall)",
+            "unit": "1-5",
+            "imputed": true
+          },
+          {
             "code": "IS.SHP.GOOD.TU",
             "source_id": 2,
-            "year": 2023,
-            "value": 5210000,
+            "year": 2024,
+            "value": 5188127.0,
             "name": "Container port traffic",
             "unit": "TEU",
             "imputed": false
@@ -107,28 +134,19 @@
             "code": "IS.AIR.PSGR",
             "source_id": 2,
             "year": 2023,
-            "value": 38100000,
-            "name": "Air transport, passengers carried",
+            "value": 42399044.0,
+            "name": "Air passengers carried",
             "unit": "passengers",
             "imputed": false
           },
           {
             "code": "NE.TRD.GNFS.ZS",
             "source_id": 2,
-            "year": 2024,
-            "value": 40.2,
+            "year": 2025,
+            "value": 35.3689564685036,
             "name": "Trade",
             "unit": "% of GDP",
             "imputed": false
-          },
-          {
-            "code": "LP.LPI.OVRL.XQ",
-            "source_id": 2,
-            "year": 2022,
-            "value": 2.9,
-            "name": "Logistics performance index: Overall",
-            "unit": "1-5",
-            "imputed": true
           }
         ]
       },
@@ -139,8 +157,8 @@
           {
             "code": "NY.GDP.MKTP.CD",
             "source_id": 2,
-            "year": 2024,
-            "value": 418500000000,
+            "year": 2025,
+            "value": 457410034202.523,
             "name": "GDP (current US$)",
             "unit": "US$",
             "imputed": false
@@ -148,18 +166,18 @@
           {
             "code": "NY.GDP.PCAP.PP.KD",
             "source_id": 2,
-            "year": 2024,
-            "value": 17800,
-            "name": "GDP per capita, PPP (constant 2021 international $)",
+            "year": 2025,
+            "value": 18778.6482631901,
+            "name": "GDP per capita, PPP (constant 2021 int$)",
             "unit": "int$",
             "imputed": false
           },
           {
             "code": "SP.POP.TOTL",
             "source_id": 2,
-            "year": 2024,
-            "value": 52886000,
-            "name": "Population, total",
+            "year": 2025,
+            "value": 53425635.0,
+            "name": "Population",
             "unit": "people",
             "imputed": false
           }
@@ -172,35 +190,35 @@
           {
             "code": "SL.UEM.1524.ZS",
             "source_id": 2,
-            "year": 2024,
-            "value": 18.9,
-            "name": "Unemployment, youth total (% of labor force ages 15-24)",
+            "year": 2025,
+            "value": 17.653,
+            "name": "Youth unemployment (15-24)",
             "unit": "%",
             "imputed": false
           },
           {
             "code": "SL.UEM.NEET.ZS",
             "source_id": 2,
-            "year": 2023,
-            "value": 23.4,
-            "name": "Share of youth not in education, employment or training",
+            "year": 2025,
+            "value": 21.982,
+            "name": "Youth not in education, employment or training",
             "unit": "%",
             "imputed": false
           },
           {
             "code": "SI.POV.DDAY",
             "source_id": 2,
-            "year": 2023,
-            "value": 7.1,
-            "name": "Poverty headcount ratio at $3.00 a day (2021 PPP)",
+            "year": 2024,
+            "value": 8.5,
+            "name": "Poverty at $3.00/day (2021 PPP)",
             "unit": "% of population",
             "imputed": false
           },
           {
             "code": "SI.POV.GINI",
             "source_id": 2,
-            "year": 2023,
-            "value": 53.9,
+            "year": 2024,
+            "value": 54.4,
             "name": "Gini index",
             "unit": "index",
             "imputed": false
@@ -208,17 +226,17 @@
           {
             "code": "SH.XPD.CHEX.PC.CD",
             "source_id": 2,
-            "year": 2022,
-            "value": 552.0,
-            "name": "Current health expenditure per capita",
+            "year": 2024,
+            "value": 644.30908203,
+            "name": "Health expenditure per capita",
             "unit": "US$",
             "imputed": false
           },
           {
             "code": "FX.OWN.TOTL.ZS",
             "source_id": 2,
-            "year": 2021,
-            "value": 59.7,
+            "year": 2024,
+            "value": 57.0594856281374,
             "name": "Account ownership",
             "unit": "% age 15+",
             "imputed": false
@@ -226,9 +244,9 @@
           {
             "code": "BX.TRF.PWKR.DT.GD.ZS",
             "source_id": 2,
-            "year": 2024,
-            "value": 2.8,
-            "name": "Personal remittances, received",
+            "year": 2025,
+            "value": 2.87037024837972,
+            "name": "Personal remittances received",
             "unit": "% of GDP",
             "imputed": false
           }
@@ -241,26 +259,26 @@
           {
             "code": "VC.IHR.PSRC.P5",
             "source_id": 2,
-            "year": 2022,
-            "value": 26.1,
+            "year": 2023,
+            "value": 24.9134420347488,
             "name": "Intentional homicides",
-            "unit": "per 100,000 people",
+            "unit": "per 100,000",
             "imputed": false
           },
           {
             "code": "SH.HIV.INCD.ZS",
             "source_id": 2,
             "year": 2023,
-            "value": 0.2,
-            "name": "Incidence of HIV, ages 15-49",
+            "value": 0.42,
+            "name": "HIV incidence (15-49)",
             "unit": "per 1,000 uninfected",
             "imputed": false
           },
           {
             "code": "VC.BTL.DETH",
             "source_id": 2,
-            "year": 2023,
-            "value": 312,
+            "year": 2024,
+            "value": 225.0,
             "name": "Battle-related deaths",
             "unit": "people",
             "imputed": false
@@ -268,18 +286,18 @@
           {
             "code": "SM.POP.RHCR.EA",
             "source_id": 2,
-            "year": 2024,
-            "value": 2810000,
-            "name": "Refugee population by country of asylum",
+            "year": 2025,
+            "value": 1464.0,
+            "name": "Refugees by country of asylum",
             "unit": "people",
             "imputed": false
           },
           {
             "code": "SM.POP.RHCR.EO",
             "source_id": 2,
-            "year": 2024,
-            "value": 118000,
-            "name": "Refugee population by country of origin",
+            "year": 2025,
+            "value": 79669.0,
+            "name": "Refugees by country of origin",
             "unit": "people",
             "imputed": false
           }
@@ -287,62 +305,183 @@
       }
     ],
     "routes": {
-      "inbound": [],
+      "inbound": [
+        {
+          "id": "cocaine:PER:COL",
+          "from": "PER",
+          "to": "COL",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.9135,
+          "kg": 52168.5,
+          "cases": null,
+          "confidence": 60.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": false,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9972,
+          "change_pct": -8.6,
+          "drivers": [
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.1127,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.0511,
+              "direction": "up"
+            },
+            {
+              "feature": "seiz_growth_from",
+              "label": "Seizure growth at origin",
+              "contribution": -0.0409,
+              "direction": "down"
+            }
+          ]
+        },
+        {
+          "id": "cannabis:BRA:COL",
+          "from": "BRA",
+          "to": "COL",
+          "drug": "cannabis",
+          "year": 2025,
+          "volume_norm": 0.8569,
+          "kg": 57086.7,
+          "cases": null,
+          "confidence": 50.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": false,
+            "oc_index": true,
+            "news": false,
+            "cultivation": false
+          },
+          "is_emerging": false,
+          "probability": 0.9906,
+          "change_pct": 1.2,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1189,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.0787,
+              "direction": "up"
+            },
+            {
+              "feature": "price_gap",
+              "label": "Price gap destination vs origin",
+              "contribution": 0.0581,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cannabis:PER:COL",
+          "from": "PER",
+          "to": "COL",
+          "drug": "cannabis",
+          "year": 2025,
+          "volume_norm": 0.8295,
+          "kg": 40227.6,
+          "cases": null,
+          "confidence": 50.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": false,
+            "oc_index": true,
+            "news": false,
+            "cultivation": false
+          },
+          "is_emerging": false,
+          "probability": 0.9894,
+          "change_pct": -6.3,
+          "drivers": [
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.108,
+              "direction": "up"
+            },
+            {
+              "feature": "price_gap",
+              "label": "Price gap destination vs origin",
+              "contribution": 0.0334,
+              "direction": "up"
+            },
+            {
+              "feature": "documented",
+              "label": "Documented UNODC/EUDA corridor",
+              "contribution": -0.0311,
+              "direction": "down"
+            }
+          ]
+        },
+        {
+          "id": "cannabis:VEN:COL",
+          "from": "VEN",
+          "to": "COL",
+          "drug": "cannabis",
+          "year": 2025,
+          "volume_norm": 0.7315,
+          "kg": 11499.1,
+          "cases": null,
+          "confidence": 50.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": false,
+            "oc_index": true,
+            "news": false,
+            "cultivation": false
+          },
+          "is_emerging": false,
+          "probability": 0.9716,
+          "change_pct": -3.5,
+          "drivers": [
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.1065,
+              "direction": "up"
+            },
+            {
+              "feature": "rule_of_law_from",
+              "label": "Origin governance (rule of law)",
+              "contribution": -0.0576,
+              "direction": "down"
+            },
+            {
+              "feature": "documented",
+              "label": "Documented UNODC/EUDA corridor",
+              "contribution": -0.0276,
+              "direction": "down"
+            }
+          ]
+        }
+      ],
       "outbound": [
         {
           "id": "cocaine:COL:ECU",
           "from": "COL",
           "to": "ECU",
           "drug": "cocaine",
-          "year": 2024,
-          "volume_norm": 0.894,
-          "kg": 98000,
-          "cases": 412,
-          "confidence": 92,
-          "signals": {
-            "seizures": true,
-            "price_gradient": true,
-            "oc_index": true,
-            "news": true,
-            "cultivation": true
-          },
-          "is_emerging": false,
-          "probability": null,
-          "change_pct": 8.0,
-          "drivers": []
-        },
-        {
-          "id": "cocaine:COL:PAN",
-          "from": "COL",
-          "to": "PAN",
-          "drug": "cocaine",
-          "year": 2024,
-          "volume_norm": 0.587,
-          "kg": 52000,
-          "cases": 204,
-          "confidence": 84,
-          "signals": {
-            "seizures": true,
-            "price_gradient": true,
-            "oc_index": true,
-            "news": true,
-            "cultivation": true
-          },
-          "is_emerging": false,
-          "probability": null,
-          "change_pct": -4.4,
-          "drivers": []
-        },
-        {
-          "id": "cocaine:COL:MEX",
-          "from": "COL",
-          "to": "MEX",
-          "drug": "cocaine",
-          "year": 2024,
-          "volume_norm": 0.494,
-          "kg": 38000,
-          "cases": 150,
-          "confidence": 80,
+          "year": 2025,
+          "volume_norm": 1.0,
+          "kg": 145958.3,
+          "cases": null,
+          "confidence": 90.0,
           "signals": {
             "seizures": true,
             "price_gradient": true,
@@ -351,13 +490,833 @@
             "cultivation": true
           },
           "is_emerging": false,
-          "probability": null,
-          "change_pct": -10.6,
-          "drivers": []
+          "probability": 0.9945,
+          "change_pct": -17.3,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1428,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1252,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.0696,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:PAN",
+          "from": "COL",
+          "to": "PAN",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.938,
+          "kg": 69835.7,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9905,
+          "change_pct": -15.4,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.153,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1386,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.0593,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:USA",
+          "from": "COL",
+          "to": "USA",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.9173,
+          "kg": 54590.7,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9872,
+          "change_pct": -30.7,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1638,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1284,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.0693,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:PER",
+          "from": "COL",
+          "to": "PER",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.907,
+          "kg": 48285.1,
+          "cases": null,
+          "confidence": 80.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9954,
+          "change_pct": -3.3,
+          "drivers": [
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1403,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1337,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.0392,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:ESP",
+          "from": "COL",
+          "to": "ESP",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.9034,
+          "kg": 46281.3,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9611,
+          "change_pct": -8.1,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1877,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1852,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.0861,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:BRA",
+          "from": "COL",
+          "to": "BRA",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.8941,
+          "kg": 41420.9,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.995,
+          "change_pct": 7.8,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1511,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.126,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.0568,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:MEX",
+          "from": "COL",
+          "to": "MEX",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.8861,
+          "kg": 37689.1,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9956,
+          "change_pct": 5.6,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1575,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1335,
+              "direction": "up"
+            },
+            {
+              "feature": "oc_from",
+              "label": "Drug market score at origin (OC Index)",
+              "contribution": 0.0331,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:HND",
+          "from": "COL",
+          "to": "HND",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.8827,
+          "kg": 36166.8,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9634,
+          "change_pct": 5.4,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1538,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1337,
+              "direction": "up"
+            },
+            {
+              "feature": "gdp_pc_ppp_to",
+              "label": "Destination income per capita",
+              "contribution": 0.0356,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:VEN",
+          "from": "COL",
+          "to": "VEN",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.8694,
+          "kg": 30892.1,
+          "cases": null,
+          "confidence": 70.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": false,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9926,
+          "change_pct": 17.4,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1588,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1253,
+              "direction": "up"
+            },
+            {
+              "feature": "port_teu_to",
+              "label": "Destination container port capacity",
+              "contribution": -0.0946,
+              "direction": "down"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:BEL",
+          "from": "COL",
+          "to": "BEL",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.8678,
+          "kg": 30296.7,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.977,
+          "change_pct": 23.3,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1818,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1492,
+              "direction": "up"
+            },
+            {
+              "feature": "seiz_growth_to",
+              "label": "Seizure growth at destination",
+              "contribution": 0.0642,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:DOM",
+          "from": "COL",
+          "to": "DOM",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.8639,
+          "kg": 28939.8,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9925,
+          "change_pct": -15.0,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1639,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1475,
+              "direction": "up"
+            },
+            {
+              "feature": "oc_from",
+              "label": "Drug market score at origin (OC Index)",
+              "contribution": 0.0385,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:CRI",
+          "from": "COL",
+          "to": "CRI",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.8285,
+          "kg": 18995.9,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9901,
+          "change_pct": -9.1,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.157,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1508,
+              "direction": "up"
+            },
+            {
+              "feature": "political_stability_to",
+              "label": "Destination political stability",
+              "contribution": -0.1015,
+              "direction": "down"
+            }
+          ]
+        },
+        {
+          "id": "cannabis:COL:ECU",
+          "from": "COL",
+          "to": "ECU",
+          "drug": "cannabis",
+          "year": 2025,
+          "volume_norm": 0.813,
+          "kg": 32598.8,
+          "cases": null,
+          "confidence": 80.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": false
+          },
+          "is_emerging": false,
+          "probability": 0.9868,
+          "change_pct": 14.0,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1343,
+              "direction": "up"
+            },
+            {
+              "feature": "air_passengers_to",
+              "label": "Destination air passenger traffic",
+              "contribution": 0.0286,
+              "direction": "up"
+            },
+            {
+              "feature": "port_teu_to",
+              "label": "Destination container port capacity",
+              "contribution": 0.0257,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cannabis:COL:PAN",
+          "from": "COL",
+          "to": "PAN",
+          "drug": "cannabis",
+          "year": 2025,
+          "volume_norm": 0.8094,
+          "kg": 31134.2,
+          "cases": null,
+          "confidence": 40.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": false,
+            "oc_index": false,
+            "news": false,
+            "cultivation": false
+          },
+          "is_emerging": false,
+          "probability": 0.9944,
+          "change_pct": 28.2,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.148,
+              "direction": "up"
+            },
+            {
+              "feature": "population_to",
+              "label": "Destination population",
+              "contribution": 0.0276,
+              "direction": "up"
+            },
+            {
+              "feature": "seiz_growth_from",
+              "label": "Seizure growth at origin",
+              "contribution": -0.0228,
+              "direction": "down"
+            }
+          ]
+        },
+        {
+          "id": "cocaine:COL:GTM",
+          "from": "COL",
+          "to": "GTM",
+          "drug": "cocaine",
+          "year": 2025,
+          "volume_norm": 0.79,
+          "kg": 12014.0,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.9907,
+          "change_pct": -9.3,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1723,
+              "direction": "up"
+            },
+            {
+              "feature": "log_prod_from",
+              "label": "Cultivation / production upstream",
+              "contribution": 0.1675,
+              "direction": "up"
+            },
+            {
+              "feature": "air_passengers_to",
+              "label": "Destination air passenger traffic",
+              "contribution": -0.0632,
+              "direction": "down"
+            }
+          ]
+        },
+        {
+          "id": "cannabis:COL:PER",
+          "from": "COL",
+          "to": "PER",
+          "drug": "cannabis",
+          "year": 2025,
+          "volume_norm": 0.7458,
+          "kg": 13796.2,
+          "cases": null,
+          "confidence": 70.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": false
+          },
+          "is_emerging": false,
+          "probability": 0.9847,
+          "change_pct": 4.1,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1223,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.0446,
+              "direction": "up"
+            },
+            {
+              "feature": "port_teu_to",
+              "label": "Destination container port capacity",
+              "contribution": 0.0317,
+              "direction": "up"
+            }
+          ]
+        },
+        {
+          "id": "cannabis:COL:VEN",
+          "from": "COL",
+          "to": "VEN",
+          "drug": "cannabis",
+          "year": 2025,
+          "volume_norm": 0.7129,
+          "kg": 9060.9,
+          "cases": null,
+          "confidence": 50.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": false,
+            "oc_index": true,
+            "news": false,
+            "cultivation": false
+          },
+          "is_emerging": false,
+          "probability": 0.9581,
+          "change_pct": -14.6,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1288,
+              "direction": "up"
+            },
+            {
+              "feature": "port_teu_to",
+              "label": "Destination container port capacity",
+              "contribution": -0.108,
+              "direction": "down"
+            },
+            {
+              "feature": "documented",
+              "label": "Documented UNODC/EUDA corridor",
+              "contribution": -0.0345,
+              "direction": "down"
+            }
+          ]
+        },
+        {
+          "id": "cannabis:COL:CHL",
+          "from": "COL",
+          "to": "CHL",
+          "drug": "cannabis",
+          "year": 2025,
+          "volume_norm": 0.6999,
+          "kg": 7677.8,
+          "cases": null,
+          "confidence": 80.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": false
+          },
+          "is_emerging": false,
+          "probability": 0.9816,
+          "change_pct": -3.3,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1476,
+              "direction": "up"
+            },
+            {
+              "feature": "political_stability_to",
+              "label": "Destination political stability",
+              "contribution": -0.0263,
+              "direction": "down"
+            },
+            {
+              "feature": "gov_effectiveness_to",
+              "label": "Destination government effectiveness",
+              "contribution": -0.0233,
+              "direction": "down"
+            }
+          ]
+        },
+        {
+          "id": "cannabis:COL:BRA",
+          "from": "COL",
+          "to": "BRA",
+          "drug": "cannabis",
+          "year": 2025,
+          "volume_norm": 0.6099,
+          "kg": 2428.2,
+          "cases": null,
+          "confidence": 70.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": false
+          },
+          "is_emerging": false,
+          "probability": 0.593,
+          "change_pct": 3.3,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": 0.1209,
+              "direction": "up"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": 0.0507,
+              "direction": "up"
+            },
+            {
+              "feature": "documented",
+              "label": "Documented UNODC/EUDA corridor",
+              "contribution": -0.032,
+              "direction": "down"
+            }
+          ]
+        },
+        {
+          "id": "heroin:COL:USA",
+          "from": "COL",
+          "to": "USA",
+          "drug": "heroin",
+          "year": 2025,
+          "volume_norm": 0.459,
+          "kg": 105.7,
+          "cases": null,
+          "confidence": 90.0,
+          "signals": {
+            "seizures": true,
+            "price_gradient": true,
+            "oc_index": true,
+            "news": false,
+            "cultivation": true
+          },
+          "is_emerging": false,
+          "probability": 0.5127,
+          "change_pct": 169.3,
+          "drivers": [
+            {
+              "feature": "log_seiz_from",
+              "label": "Seizures at origin",
+              "contribution": -0.2513,
+              "direction": "down"
+            },
+            {
+              "feature": "gdp_pc_ppp_to",
+              "label": "Destination income per capita",
+              "contribution": -0.1115,
+              "direction": "down"
+            },
+            {
+              "feature": "log_seiz_to",
+              "label": "Seizures at destination",
+              "contribution": -0.0747,
+              "direction": "down"
+            }
+          ]
         }
       ]
     },
     "prices": [
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 0.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 0.09,
+            "purity_pct": null
+          }
+        ],
+        "latest": 0.09,
+        "yoy_change_pct": -30.8,
+        "source": "unodc_wdr_annex"
+      },
       {
         "iso3": "COL",
         "name": "Colombia",
@@ -366,142 +1325,57 @@
         "unit": "USD/g",
         "points": [
           {
-            "year": 2014,
-            "value": 1.6,
-            "purity_pct": 81.5
-          },
-          {
-            "year": 2015,
-            "value": 1.7,
-            "purity_pct": 80.8
-          },
-          {
-            "year": 2016,
-            "value": 1.76,
-            "purity_pct": 79.4
-          },
-          {
-            "year": 2017,
-            "value": 1.76,
-            "purity_pct": 78.5
-          },
-          {
-            "year": 2018,
-            "value": 1.75,
-            "purity_pct": 79.0
-          },
-          {
-            "year": 2019,
-            "value": 1.78,
-            "purity_pct": 80.4
-          },
-          {
             "year": 2020,
-            "value": 1.89,
-            "purity_pct": 81.4
+            "value": 1.13,
+            "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 2.02,
-            "purity_pct": 81.1
-          },
-          {
-            "year": 2022,
-            "value": 2.11,
-            "purity_pct": 79.8
-          },
-          {
-            "year": 2023,
-            "value": 2.12,
-            "purity_pct": 78.6
+            "value": 1.22,
+            "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 2.1,
-            "purity_pct": 78.7
+            "value": 0.63,
+            "purity_pct": null
           }
         ],
-        "latest": 2.1,
-        "yoy_change_pct": -0.9,
+        "latest": 0.63,
+        "yoy_change_pct": null,
         "source": "unodc_wdr_annex"
       },
       {
         "iso3": "COL",
         "name": "Colombia",
-        "drug": "cocaine",
-        "level": "retail",
+        "drug": "heroin",
+        "level": "wholesale",
         "unit": "USD/g",
         "points": [
           {
-            "year": 2014,
-            "value": 4.1,
-            "purity_pct": 46.5
-          },
-          {
-            "year": 2015,
-            "value": 4.32,
-            "purity_pct": 45.8
-          },
-          {
-            "year": 2016,
-            "value": 4.42,
-            "purity_pct": 44.4
-          },
-          {
-            "year": 2017,
-            "value": 4.38,
-            "purity_pct": 43.5
-          },
-          {
-            "year": 2018,
-            "value": 4.3,
-            "purity_pct": 44.0
-          },
-          {
-            "year": 2019,
-            "value": 4.35,
-            "purity_pct": 45.4
-          },
-          {
             "year": 2020,
-            "value": 4.57,
-            "purity_pct": 46.4
+            "value": 4.67,
+            "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 4.83,
-            "purity_pct": 46.1
-          },
-          {
-            "year": 2022,
-            "value": 4.99,
-            "purity_pct": 44.8
-          },
-          {
-            "year": 2023,
-            "value": 4.98,
-            "purity_pct": 43.6
-          },
-          {
-            "year": 2024,
-            "value": 4.89,
-            "purity_pct": 43.7
+            "value": 3.27,
+            "purity_pct": null
           }
         ],
-        "latest": 4.89,
-        "yoy_change_pct": -1.8,
+        "latest": 3.27,
+        "yoy_change_pct": -30.0,
         "source": "unodc_wdr_annex"
       }
     ],
     "oc_index": {
       "edition": 2025,
-      "criminality": 7.75,
-      "resilience": 5.13,
+      "criminality": 7.82,
+      "resilience": 5.46,
       "markets": {
-        "cocaine": 10.0,
+        "cocaine": 9.5,
         "heroin": 4.5,
-        "cannabis": 7.5,
-        "synthetic": 5.5
+        "cannabis": 7.0,
+        "synthetic": 6.0
       },
       "source": "gitoc_ocindex"
     },
@@ -509,90 +1383,160 @@
       "year": 2024,
       "nsp": true,
       "oat": true,
-      "naloxone": false,
-      "dcr": false,
+      "naloxone": true,
+      "dcr": true,
       "prison_programs": false,
-      "coverage_score": 40.0,
+      "coverage_score": 90.0,
       "source": "hri_gshr"
     },
     "risk": {
-      "year": 2024,
-      "exposure": 93,
-      "vulnerability": 57,
-      "protection": 40,
-      "score": 73.8,
-      "rank": 5,
+      "year": 2025,
+      "exposure": 86.7,
+      "vulnerability": 67.2,
+      "protection": 90.0,
+      "score": 64.5,
+      "rank": 20,
       "tier": "high",
       "exposure_by_drug": {
-        "cocaine": 88.0,
-        "cannabis": 9.0,
-        "heroin": 2.0,
-        "meth": 1.0
+        "cocaine": 92.7,
+        "heroin": 0.3,
+        "cannabis": 7.0
       },
       "exposure_detail": [
         {
           "feature": "inbound_cocaine",
-          "label": "Inbound + transit cocaine volume",
-          "value": 0.21,
-          "contribution": 18.5
+          "label": "Inbound + transit cocaine (kg est.)",
+          "value": 52168.5,
+          "contribution": 12.57
         },
         {
           "feature": "outbound_cocaine",
-          "label": "Outbound cocaine volume",
-          "value": 0.92,
-          "contribution": 22.1
+          "label": "Outbound cocaine (kg est.)",
+          "value": 608524.9,
+          "contribution": 73.3
         },
         {
-          "feature": "cultivation",
-          "label": "Coca cultivation (ha)",
-          "value": 253000,
-          "contribution": 11.3
+          "feature": "outbound_heroin",
+          "label": "Outbound heroin (kg est.)",
+          "value": 105.7,
+          "contribution": 25.94
+        },
+        {
+          "feature": "inbound_cannabis",
+          "label": "Inbound + transit cannabis (kg est.)",
+          "value": 108813.4,
+          "contribution": 40.27
+        },
+        {
+          "feature": "outbound_cannabis",
+          "label": "Outbound cannabis (kg est.)",
+          "value": 96696.1,
+          "contribution": 17.89
         }
       ],
       "vulnerability_detail": [
         {
           "feature": "youth_unemployment",
-          "label": "Youth unemployment",
-          "value": 18.9,
-          "contribution": 9.2,
+          "label": "Youth unemployment (15-24)",
+          "value": 17.653,
+          "contribution": 8.29,
           "provenance": {
             "code": "SL.UEM.1524.ZS",
             "source_id": 2,
-            "year": 2024,
-            "value": 18.9,
-            "name": "Unemployment, youth total",
-            "unit": "%",
+            "year": 2025,
+            "value": 17.653,
             "imputed": false
+          }
+        },
+        {
+          "feature": "youth_neet",
+          "label": "Youth not in education, employment or training",
+          "value": 21.982,
+          "contribution": 8.36,
+          "provenance": {
+            "code": "SL.UEM.NEET.ZS",
+            "source_id": 2,
+            "year": 2025,
+            "value": 21.982,
+            "imputed": false
+          }
+        },
+        {
+          "feature": "poverty",
+          "label": "Poverty at $3.00/day (2021 PPP)",
+          "value": 8.5,
+          "contribution": 9.46,
+          "provenance": {
+            "code": "SI.POV.DDAY",
+            "source_id": 2,
+            "year": 2025,
+            "value": 8.5,
+            "imputed": true
           }
         },
         {
           "feature": "gini",
-          "label": "Inequality (Gini)",
-          "value": 53.9,
-          "contribution": 12.4,
+          "label": "Gini index",
+          "value": 54.4,
+          "contribution": 12.5,
           "provenance": {
             "code": "SI.POV.GINI",
             "source_id": 2,
-            "year": 2023,
-            "value": 53.9,
-            "name": "Gini index",
-            "unit": "index",
-            "imputed": false
+            "year": 2025,
+            "value": 54.4,
+            "imputed": true
+          }
+        },
+        {
+          "feature": "health_exp_pc",
+          "label": "Health expenditure per capita",
+          "value": 644.309,
+          "contribution": 4.84,
+          "provenance": {
+            "code": "SH.XPD.CHEX.PC.CD",
+            "source_id": 2,
+            "year": 2025,
+            "value": 644.309,
+            "imputed": true
           }
         },
         {
           "feature": "rule_of_law",
-          "label": "Governance (rule of law)",
-          "value": -0.42,
-          "contribution": 8.1,
+          "label": "Rule of Law",
+          "value": -0.628,
+          "contribution": 8.39,
           "provenance": {
             "code": "GOV_WGI_RL.EST",
             "source_id": 3,
-            "year": 2024,
-            "value": -0.42,
-            "name": "Rule of Law: Estimate",
-            "unit": "index",
+            "year": 2025,
+            "value": -0.628,
             "imputed": false
+          }
+        },
+        {
+          "feature": "control_corruption",
+          "label": "Control of Corruption",
+          "value": -0.309,
+          "contribution": 7.0,
+          "provenance": {
+            "code": "GOV_WGI_CC.EST",
+            "source_id": 3,
+            "year": 2025,
+            "value": -0.309,
+            "imputed": false
+          }
+        },
+        {
+          "feature": "account_ownership",
+          "label": "Account ownership",
+          "value": 57.059,
+          "contribution": 8.36,
+          "provenance": {
+            "code": "FX.OWN.TOTL.ZS",
+            "source_id": 2,
+            "year": 2025,
+            "value": 57.059,
+            "imputed": true
           }
         }
       ],
@@ -601,43 +1545,71 @@
           "feature": "nsp",
           "label": "Needle and syringe programmes",
           "value": 1,
-          "contribution": 25.0
+          "contribution": 0.0
         },
         {
           "feature": "oat",
           "label": "Opioid agonist therapy",
           "value": 1,
-          "contribution": 15.0
+          "contribution": 0.0
         },
         {
           "feature": "naloxone",
           "label": "Take-home naloxone",
-          "value": 0,
+          "value": 1,
           "contribution": 0.0
         },
         {
           "feature": "dcr",
           "label": "Drug consumption rooms",
+          "value": 1,
+          "contribution": 0.0
+        },
+        {
+          "feature": "prison_programs",
+          "label": "Prison harm reduction programmes",
           "value": 0,
+          "contribution": 0.0
+        },
+        {
+          "feature": "policy",
+          "label": "Harm reduction in national policy",
+          "value": 1,
           "contribution": 0.0
         }
       ],
       "trend": [
         {
+          "year": 2011,
+          "score": 65.1
+        },
+        {
+          "year": 2012,
+          "score": 64.7
+        },
+        {
+          "year": 2013,
+          "score": 64.8
+        },
+        {
+          "year": 2014,
+          "score": 65.0
+        },
+        {
           "year": 2015,
-          "score": 63.5
+          "score": 65.7
         },
         {
           "year": 2016,
-          "score": 63.4
+          "score": 66.4
         },
         {
           "year": 2017,
-          "score": 65.4
+          "score": 66.3
         },
         {
           "year": 2018,
-          "score": 67.4
+          "score": 66.6
         },
         {
           "year": 2019,
@@ -645,23 +1617,27 @@
         },
         {
           "year": 2020,
-          "score": 69.3
+          "score": 67.6
         },
         {
           "year": 2021,
-          "score": 71.3
+          "score": 67.7
         },
         {
           "year": 2022,
-          "score": 71.2
+          "score": 67.6
         },
         {
           "year": 2023,
-          "score": 73.2
+          "score": 67.9
         },
         {
           "year": 2024,
-          "score": 73.8
+          "score": 68.3
+        },
+        {
+          "year": 2025,
+          "score": 64.5
         }
       ]
     },
@@ -669,60 +1645,172 @@
       {
         "iso3": "COL",
         "crop": "coca",
+        "year": 2010,
+        "hectares": 62000.0,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2011,
+        "hectares": 64000.0,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2012,
+        "hectares": 48000.0,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2013,
+        "hectares": 48000.0,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2014,
+        "hectares": 69000.0,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2015,
+        "hectares": 96000.0,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
         "year": 2016,
-        "hectares": 146000,
+        "hectares": 146000.0,
         "production_t": null
       },
       {
         "iso3": "COL",
         "crop": "coca",
         "year": 2017,
-        "hectares": 171000,
+        "hectares": 171000.0,
         "production_t": null
       },
       {
         "iso3": "COL",
         "crop": "coca",
         "year": 2018,
-        "hectares": 169000,
+        "hectares": 169000.0,
         "production_t": null
       },
       {
         "iso3": "COL",
         "crop": "coca",
         "year": 2019,
-        "hectares": 154000,
+        "hectares": 154000.0,
         "production_t": null
       },
       {
         "iso3": "COL",
         "crop": "coca",
         "year": 2020,
-        "hectares": 143000,
+        "hectares": 142800.0,
         "production_t": null
       },
       {
         "iso3": "COL",
         "crop": "coca",
         "year": 2021,
-        "hectares": 204000,
+        "hectares": 204300.0,
         "production_t": null
       },
       {
         "iso3": "COL",
         "crop": "coca",
         "year": 2022,
-        "hectares": 230000,
+        "hectares": 230000.0,
         "production_t": null
       },
       {
         "iso3": "COL",
         "crop": "coca",
         "year": 2023,
-        "hectares": 253000,
+        "hectares": 252600.0,
         "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "coca",
+        "year": 2024,
+        "hectares": 261000.0,
+        "production_t": null
+      },
+      {
+        "iso3": "COL",
+        "crop": "opium_poppy",
+        "year": 2010,
+        "hectares": 341.0,
+        "production_t": 8.4
+      },
+      {
+        "iso3": "COL",
+        "crop": "opium_poppy",
+        "year": 2011,
+        "hectares": 338.0,
+        "production_t": 8.3
+      },
+      {
+        "iso3": "COL",
+        "crop": "opium_poppy",
+        "year": 2012,
+        "hectares": 313.0,
+        "production_t": 7.9
+      },
+      {
+        "iso3": "COL",
+        "crop": "opium_poppy",
+        "year": 2013,
+        "hectares": 298.0,
+        "production_t": 10.5
+      },
+      {
+        "iso3": "COL",
+        "crop": "opium_poppy",
+        "year": 2014,
+        "hectares": 387.0,
+        "production_t": 12.0
+      },
+      {
+        "iso3": "COL",
+        "crop": "opium_poppy",
+        "year": 2015,
+        "hectares": 595.0,
+        "production_t": 17.0
+      },
+      {
+        "iso3": "COL",
+        "crop": "opium_poppy",
+        "year": 2016,
+        "hectares": 462.0,
+        "production_t": 13.2
+      },
+      {
+        "iso3": "COL",
+        "crop": "opium_poppy",
+        "year": 2017,
+        "hectares": 282.0,
+        "production_t": 7.0
+      },
+      {
+        "iso3": "COL",
+        "crop": "opium_poppy",
+        "year": 2018,
+        "hectares": 663.0,
+        "production_t": 18.1
       }
     ],
-    "briefing": "Colombia remains the world's largest coca producer (253,000 ha in 2023). Most outbound cocaine now exits via Ecuador toward European ports. Harm reduction coverage is partial: syringe programmes and OAT exist, take-home naloxone does not."
+    "briefing": "Colombia ranks #20 of 217 on spillover risk in 2025 (score 64, high). It cultivates opium poppy (663 ha in 2018, UNODC). Main outbound corridors: cocaine to ECU, cocaine to PAN. Main inbound corridors: cocaine from PER, cannabis from BRA. Harm reduction in place: syringe programmes, opioid agonist therapy, take-home naloxone, drug consumption rooms."
   }
 }

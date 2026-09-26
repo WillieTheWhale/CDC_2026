@@ -1,13 +1,17 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T12:00:00Z",
-    "model_version": "trace-0.1.0-fixture",
+    "generated_at": "2026-09-26T18:09:03+00:00",
+    "model_version": "trace-0.1.0",
     "sources": [
       {
         "id": "wb_wdi",
-        "name": "World Bank World Development Indicators (source 2)",
-        "url": "https://api.worldbank.org/v2/sources/2"
+        "name": "World Bank World Development Indicators (API source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2",
+        "citation": "World Bank, World Development Indicators, via Indicators API v2 (CC BY 4.0)."
       }
+    ],
+    "notes": [
+      "Aggregates excluded; coordinates are capital cities."
     ]
   },
   "data": [
@@ -38,7 +42,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Lower middle income",
       "capital": "Luanda",
-      "lat": -8.81155,
+      "lat": -8.8116,
       "lon": 13.242
     },
     {
@@ -159,7 +163,7 @@
       "income_group": "High income",
       "capital": "Brussels",
       "lat": 50.8371,
-      "lon": 4.36761
+      "lon": 4.3676
     },
     {
       "iso3": "BEN",
@@ -179,7 +183,7 @@
       "income_group": "Low income",
       "capital": "Ouagadougou",
       "lat": 12.3605,
-      "lon": -1.53395
+      "lon": -1.5339
     },
     {
       "iso3": "BGD",
@@ -298,7 +302,7 @@
       "region": "East Asia & Pacific",
       "income_group": "High income",
       "capital": "Bandar Seri Begawan",
-      "lat": 4.94199,
+      "lat": 4.942,
       "lon": 114.946
     },
     {
@@ -328,7 +332,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Low income",
       "capital": "Bangui",
-      "lat": 5.63056,
+      "lat": 5.6306,
       "lon": 21.6407
     },
     {
@@ -349,7 +353,7 @@
       "income_group": "High income",
       "capital": "Bern",
       "lat": 46.948,
-      "lon": 7.44821
+      "lon": 7.4482
     },
     {
       "iso3": "CHI",
@@ -428,7 +432,7 @@
       "region": "Latin America & Caribbean",
       "income_group": "Upper middle income",
       "capital": "Bogota",
-      "lat": 4.60987,
+      "lat": 4.6099,
       "lon": -74.082
     },
     {
@@ -458,7 +462,7 @@
       "region": "Latin America & Caribbean",
       "income_group": "High income",
       "capital": "San Jose",
-      "lat": 9.63701,
+      "lat": 9.637,
       "lon": -84.0089
     },
     {
@@ -569,7 +573,7 @@
       "income_group": "Upper middle income",
       "capital": "Algiers",
       "lat": 36.7397,
-      "lon": 3.05097
+      "lon": 3.051
     },
     {
       "iso3": "ECU",
@@ -578,7 +582,7 @@
       "region": "Latin America & Caribbean",
       "income_group": "Upper middle income",
       "capital": "Quito",
-      "lat": -0.229498,
+      "lat": -0.2295,
       "lon": -78.5243
     },
     {
@@ -609,7 +613,7 @@
       "income_group": "High income",
       "capital": "Madrid",
       "lat": 40.4167,
-      "lon": -3.70327
+      "lon": -3.7033
     },
     {
       "iso3": "EST",
@@ -628,7 +632,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Low income",
       "capital": "Addis Ababa",
-      "lat": 9.02274,
+      "lat": 9.0227,
       "lon": 38.7468
     },
     {
@@ -659,7 +663,7 @@
       "income_group": "High income",
       "capital": "Paris",
       "lat": 48.8566,
-      "lon": 2.35097
+      "lon": 2.351
     },
     {
       "iso3": "FRO",
@@ -669,7 +673,7 @@
       "income_group": "High income",
       "capital": "Torshavn",
       "lat": 61.8926,
-      "lon": -6.91181
+      "lon": -6.9118
     },
     {
       "iso3": "FSM",
@@ -678,7 +682,7 @@
       "region": "East Asia & Pacific",
       "income_group": "Upper middle income",
       "capital": "Palikir",
-      "lat": 6.91771,
+      "lat": 6.9177,
       "lon": 158.185
     },
     {
@@ -688,8 +692,8 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Upper middle income",
       "capital": "Libreville",
-      "lat": 0.38832,
-      "lon": 9.45162
+      "lat": 0.3883,
+      "lon": 9.4516
     },
     {
       "iso3": "GBR",
@@ -699,7 +703,7 @@
       "income_group": "High income",
       "capital": "London",
       "lat": 51.5002,
-      "lon": -0.126236
+      "lon": -0.1262
     },
     {
       "iso3": "GEO",
@@ -718,8 +722,8 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Lower middle income",
       "capital": "Accra",
-      "lat": 5.57045,
-      "lon": -0.20795
+      "lat": 5.5705,
+      "lon": -0.2079
     },
     {
       "iso3": "GIB",
@@ -738,7 +742,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Lower middle income",
       "capital": "Conakry",
-      "lat": 9.51667,
+      "lat": 9.5167,
       "lon": -13.7
     },
     {
@@ -828,7 +832,7 @@
       "region": "Latin America & Caribbean",
       "income_group": "High income",
       "capital": "Georgetown",
-      "lat": 6.80461,
+      "lat": 6.8046,
       "lon": -58.1548
     },
     {
@@ -888,7 +892,7 @@
       "region": "East Asia & Pacific",
       "income_group": "Upper middle income",
       "capital": "Jakarta",
-      "lat": -6.19752,
+      "lat": -6.1975,
       "lon": 106.83
     },
     {
@@ -899,7 +903,7 @@
       "income_group": "High income",
       "capital": "Douglas",
       "lat": 54.1509,
-      "lon": -4.47928
+      "lon": -4.4793
     },
     {
       "iso3": "IND",
@@ -919,7 +923,7 @@
       "income_group": "High income",
       "capital": "Dublin",
       "lat": 53.3441,
-      "lon": -6.26749
+      "lon": -6.2675
     },
     {
       "iso3": "IRN",
@@ -1018,7 +1022,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Lower middle income",
       "capital": "Nairobi",
-      "lat": -1.27975,
+      "lat": -1.2797,
       "lon": 36.8126
     },
     {
@@ -1048,7 +1052,7 @@
       "region": "East Asia & Pacific",
       "income_group": "Lower middle income",
       "capital": "Tarawa",
-      "lat": 1.32905,
+      "lat": 1.3291,
       "lon": 172.979
     },
     {
@@ -1108,7 +1112,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Low income",
       "capital": "Monrovia",
-      "lat": 6.30039,
+      "lat": 6.3004,
       "lon": -10.7957
     },
     {
@@ -1139,7 +1143,7 @@
       "income_group": "High income",
       "capital": "Vaduz",
       "lat": 47.1411,
-      "lon": 9.52148
+      "lon": 9.5215
     },
     {
       "iso3": "LKA",
@@ -1148,7 +1152,7 @@
       "region": "South Asia",
       "income_group": "Upper middle income",
       "capital": "Colombo",
-      "lat": 6.92148,
+      "lat": 6.9215,
       "lon": 79.8528
     },
     {
@@ -1229,7 +1233,7 @@
       "income_group": "High income",
       "capital": "Monaco",
       "lat": 43.7325,
-      "lon": 7.41891
+      "lon": 7.4189
     },
     {
       "iso3": "MDA",
@@ -1278,7 +1282,7 @@
       "region": "East Asia & Pacific",
       "income_group": "Upper middle income",
       "capital": "Majuro",
-      "lat": 7.11046,
+      "lat": 7.1105,
       "lon": 171.135
     },
     {
@@ -1299,7 +1303,7 @@
       "income_group": "Low income",
       "capital": "Bamako",
       "lat": 13.5667,
-      "lon": -7.50034
+      "lon": -7.5003
     },
     {
       "iso3": "MLT",
@@ -1398,7 +1402,7 @@
       "region": "East Asia & Pacific",
       "income_group": "Upper middle income",
       "capital": "Kuala Lumpur",
-      "lat": 3.12433,
+      "lat": 3.1243,
       "lon": 101.684
     },
     {
@@ -1438,8 +1442,8 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Lower middle income",
       "capital": "Abuja",
-      "lat": 9.05804,
-      "lon": 7.48906
+      "lat": 9.058,
+      "lon": 7.4891
     },
     {
       "iso3": "NIC",
@@ -1459,7 +1463,7 @@
       "income_group": "High income",
       "capital": "Amsterdam",
       "lat": 52.3738,
-      "lon": 4.89095
+      "lon": 4.891
     },
     {
       "iso3": "NOR",
@@ -1489,7 +1493,7 @@
       "income_group": "High income",
       "capital": "Yaren District",
       "lat": -0.5477,
-      "lon": 166.920867
+      "lon": 166.9209
     },
     {
       "iso3": "NZL",
@@ -1528,7 +1532,7 @@
       "region": "Latin America & Caribbean",
       "income_group": "High income",
       "capital": "Panama City",
-      "lat": 8.99427,
+      "lat": 8.9943,
       "lon": -79.5188
     },
     {
@@ -1558,7 +1562,7 @@
       "region": "East Asia & Pacific",
       "income_group": "High income",
       "capital": "Koror",
-      "lat": 7.34194,
+      "lat": 7.3419,
       "lon": 134.479
     },
     {
@@ -1568,7 +1572,7 @@
       "region": "East Asia & Pacific",
       "income_group": "Lower middle income",
       "capital": "Port Moresby",
-      "lat": -9.47357,
+      "lat": -9.4736,
       "lon": 147.194
     },
     {
@@ -1609,7 +1613,7 @@
       "income_group": "High income",
       "capital": "Lisbon",
       "lat": 38.7072,
-      "lon": -9.13552
+      "lon": -9.1355
     },
     {
       "iso3": "PRY",
@@ -1678,7 +1682,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Low income",
       "capital": "Kigali",
-      "lat": -1.95325,
+      "lat": -1.9532,
       "lon": 30.0587
     },
     {
@@ -1718,7 +1722,7 @@
       "region": "East Asia & Pacific",
       "income_group": "High income",
       "capital": "Singapore",
-      "lat": 1.28941,
+      "lat": 1.2894,
       "lon": 103.85
     },
     {
@@ -1728,7 +1732,7 @@
       "region": "East Asia & Pacific",
       "income_group": "Lower middle income",
       "capital": "Honiara",
-      "lat": -9.42676,
+      "lat": -9.4268,
       "lon": 159.949
     },
     {
@@ -1768,7 +1772,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Low income",
       "capital": "Mogadishu",
-      "lat": 2.07515,
+      "lat": 2.0751,
       "lon": 45.3254
     },
     {
@@ -1798,7 +1802,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Lower middle income",
       "capital": "Sao Tome",
-      "lat": 0.20618,
+      "lat": 0.2062,
       "lon": 6.6071
     },
     {
@@ -1888,8 +1892,8 @@
       "region": "Latin America & Caribbean",
       "income_group": "High income",
       "capital": "Grand Turk",
-      "lat": 21.4602778,
-      "lon": -71.141389
+      "lat": 21.4603,
+      "lon": -71.1414
     },
     {
       "iso3": "TCD",
@@ -1948,7 +1952,7 @@
       "region": "East Asia & Pacific",
       "income_group": "Lower middle income",
       "capital": "Dili",
-      "lat": -8.56667,
+      "lat": -8.5667,
       "lon": 125.567
     },
     {
@@ -1998,8 +2002,8 @@
       "region": "East Asia & Pacific",
       "income_group": "Upper middle income",
       "capital": "Funafuti",
-      "lat": -8.6314877,
-      "lon": 179.089567
+      "lat": -8.6315,
+      "lon": 179.0896
     },
     {
       "iso3": "TZA",
@@ -2008,7 +2012,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Lower middle income",
       "capital": "Dodoma",
-      "lat": -6.17486,
+      "lat": -6.1749,
       "lon": 35.7382
     },
     {
@@ -2018,7 +2022,7 @@
       "region": "Sub-Saharan Africa",
       "income_group": "Low income",
       "capital": "Kampala",
-      "lat": 0.314269,
+      "lat": 0.3143,
       "lon": 32.5729
     },
     {
@@ -2078,7 +2082,7 @@
       "region": "Latin America & Caribbean",
       "income_group": "Lower middle income",
       "capital": "Caracas",
-      "lat": 9.08165,
+      "lat": 9.0816,
       "lon": -69.8371
     },
     {
@@ -2088,8 +2092,8 @@
       "region": "Latin America & Caribbean",
       "income_group": "High income",
       "capital": "Road Town",
-      "lat": 18.431389,
-      "lon": -64.623056
+      "lat": 18.4314,
+      "lon": -64.6231
     },
     {
       "iso3": "VIR",

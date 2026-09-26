@@ -1,22 +1,43 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T12:00:00Z",
-    "model_version": "trace-0.1.0-fixture",
+    "generated_at": "2026-09-26T18:09:03+00:00",
+    "model_version": "trace-0.1.0",
     "sources": [
       {
-        "id": "unodc_ids",
-        "name": "UNODC Individual Drug Seizures (IDS)",
-        "url": "https://dmp.unodc.org/downloadIDS"
+        "id": "unodc_wdr_annex",
+        "name": "UNODC World Drug Report 2026, statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html",
+        "citation": "UNODC, World Drug Report 2026, Statistical Annex (tables 6.x, 7.1, 8.1, 8.3, 11.1)."
       },
       {
-        "id": "unodc_wdr_annex",
-        "name": "UNODC World Drug Report statistical annex",
-        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html"
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS), public release",
+        "url": "https://dmp.unodc.org/downloadIDS",
+        "citation": "UNODC Drugs Monitoring Platform, Individual Drug Seizures 2011-2026."
+      },
+      {
+        "id": "unodc_routes",
+        "name": "UNODC / EUDA documented trafficking corridors (TRACE transcription)",
+        "url": "https://github.com/WillieTheWhale/CDC_2026/blob/main/backend/trace_backend/seed/corridors.csv",
+        "citation": "Transcribed from WDR 2026 annex route maps 7.2-7.4 and UNODC/EUDA reports; see seed/README.md."
       },
       {
         "id": "wb_wdi",
-        "name": "World Bank World Development Indicators (source 2)",
-        "url": "https://api.worldbank.org/v2/sources/2"
+        "name": "World Bank World Development Indicators (API source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2",
+        "citation": "World Bank, World Development Indicators, via Indicators API v2 (CC BY 4.0)."
+      },
+      {
+        "id": "wb_wgi",
+        "name": "World Bank Worldwide Governance Indicators (API source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3",
+        "citation": "World Bank, Worldwide Governance Indicators, via Indicators API v2 (CC BY 4.0)."
+      },
+      {
+        "id": "hri_gshr",
+        "name": "Harm Reduction International, Global State of Harm Reduction 2024",
+        "url": "https://hri.global/wp-content/uploads/2024/10/HRI-GSHR-2024_Full-Report_Final.pdf",
+        "citation": "Harm Reduction International (2024), The Global State of Harm Reduction, Table 1."
       }
     ]
   },
@@ -37,104 +58,488 @@
         "from": "COL",
         "to": "ECU",
         "drug": "cocaine",
-        "baseline_volume_norm": 0.95,
-        "scenario_volume_norm": 0.71,
-        "baseline_kg": 98000,
-        "scenario_kg": 61000,
-        "baseline_probability": 0.97,
-        "scenario_probability": 0.93,
+        "baseline_volume_norm": 1.0,
+        "scenario_volume_norm": 0.9542,
+        "baseline_kg": 145958.3,
+        "scenario_kg": 84676.9,
+        "baseline_probability": 0.9945,
+        "scenario_probability": 0.9951,
+        "delta_pct": -42.0
+      },
+      {
+        "from": "PER",
+        "to": "ECU",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.957,
+        "scenario_volume_norm": 0.931,
+        "baseline_kg": 87527.1,
+        "scenario_kg": 64263.0,
+        "baseline_probability": 0.9933,
+        "scenario_probability": 0.9928,
+        "delta_pct": -26.6
+      },
+      {
+        "from": "COL",
+        "to": "ESP",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.9034,
+        "scenario_volume_norm": 0.8635,
+        "baseline_kg": 46281.3,
+        "scenario_kg": 28777.5,
+        "baseline_probability": 0.9611,
+        "scenario_probability": 0.9633,
         "delta_pct": -37.8
+      },
+      {
+        "from": "COL",
+        "to": "USA",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.9173,
+        "scenario_volume_norm": 0.8867,
+        "baseline_kg": 54590.7,
+        "scenario_kg": 37938.3,
+        "baseline_probability": 0.9872,
+        "scenario_probability": 0.9868,
+        "delta_pct": -30.5
       },
       {
         "from": "COL",
         "to": "PAN",
         "drug": "cocaine",
-        "baseline_volume_norm": 0.72,
-        "scenario_volume_norm": 0.52,
-        "baseline_kg": 52000,
-        "scenario_kg": 33000,
-        "baseline_probability": 0.9,
-        "scenario_probability": 0.84,
-        "delta_pct": -36.5
+        "baseline_volume_norm": 0.938,
+        "scenario_volume_norm": 0.9181,
+        "baseline_kg": 69835.7,
+        "scenario_kg": 55091.4,
+        "baseline_probability": 0.9905,
+        "scenario_probability": 0.9937,
+        "delta_pct": -21.1
+      },
+      {
+        "from": "COL",
+        "to": "HND",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8827,
+        "scenario_volume_norm": 0.8423,
+        "baseline_kg": 36166.8,
+        "scenario_kg": 22370.7,
+        "baseline_probability": 0.9634,
+        "scenario_probability": 0.9732,
+        "delta_pct": -38.1
+      },
+      {
+        "from": "COL",
+        "to": "BEL",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8678,
+        "scenario_volume_norm": 0.8178,
+        "baseline_kg": 30296.7,
+        "scenario_kg": 16725.0,
+        "baseline_probability": 0.977,
+        "scenario_probability": 0.9788,
+        "delta_pct": -44.8
+      },
+      {
+        "from": "COL",
+        "to": "VEN",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8694,
+        "scenario_volume_norm": 0.8253,
+        "baseline_kg": 30892.1,
+        "scenario_kg": 18271.8,
+        "baseline_probability": 0.9926,
+        "scenario_probability": 0.9906,
+        "delta_pct": -40.9
+      },
+      {
+        "from": "COL",
+        "to": "PER",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.907,
+        "scenario_volume_norm": 0.8841,
+        "baseline_kg": 48285.1,
+        "scenario_kg": 36776.1,
+        "baseline_probability": 0.9954,
+        "scenario_probability": 0.9949,
+        "delta_pct": -23.8
+      },
+      {
+        "from": "COL",
+        "to": "DOM",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8639,
+        "scenario_volume_norm": 0.8248,
+        "baseline_kg": 28939.8,
+        "scenario_kg": 18164.7,
+        "baseline_probability": 0.9925,
+        "scenario_probability": 0.9954,
+        "delta_pct": -37.2
+      },
+      {
+        "from": "COL",
+        "to": "BRA",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8941,
+        "scenario_volume_norm": 0.869,
+        "baseline_kg": 41420.9,
+        "scenario_kg": 30730.4,
+        "baseline_probability": 0.995,
+        "scenario_probability": 0.9957,
+        "delta_pct": -25.8
       },
       {
         "from": "COL",
         "to": "MEX",
         "drug": "cocaine",
-        "baseline_volume_norm": 0.64,
-        "scenario_volume_norm": 0.47,
-        "baseline_kg": 38000,
-        "scenario_kg": 24500,
-        "baseline_probability": 0.88,
-        "scenario_probability": 0.8,
-        "delta_pct": -35.5
+        "baseline_volume_norm": 0.8861,
+        "scenario_volume_norm": 0.8587,
+        "baseline_kg": 37689.1,
+        "scenario_kg": 27207.5,
+        "baseline_probability": 0.9956,
+        "scenario_probability": 0.996,
+        "delta_pct": -27.8
+      },
+      {
+        "from": "COL",
+        "to": "CRI",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8285,
+        "scenario_volume_norm": 0.7866,
+        "baseline_kg": 18995.9,
+        "scenario_kg": 11536.2,
+        "baseline_probability": 0.9901,
+        "scenario_probability": 0.9871,
+        "delta_pct": -39.3
+      },
+      {
+        "from": "ECU",
+        "to": "USA",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8326,
+        "scenario_volume_norm": 0.8071,
+        "baseline_kg": 19940.5,
+        "scenario_kg": 14729.5,
+        "baseline_probability": 0.9896,
+        "scenario_probability": 0.9883,
+        "delta_pct": -26.1
+      },
+      {
+        "from": "ECU",
+        "to": "GBR",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8219,
+        "scenario_volume_norm": 0.7951,
+        "baseline_kg": 17554.5,
+        "scenario_kg": 12760.0,
+        "baseline_probability": 0.9896,
+        "scenario_probability": 0.9913,
+        "delta_pct": -27.3
+      },
+      {
+        "from": "COL",
+        "to": "NLD",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.7465,
+        "scenario_volume_norm": 0.6865,
+        "baseline_kg": 7158.5,
+        "scenario_kg": 3508.1,
+        "baseline_probability": 0.3661,
+        "scenario_probability": 0.2526,
+        "delta_pct": -51.0
+      },
+      {
+        "from": "COL",
+        "to": "GTM",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.79,
+        "scenario_volume_norm": 0.7596,
+        "baseline_kg": 12014.0,
+        "scenario_kg": 8374.3,
+        "baseline_probability": 0.9907,
+        "scenario_probability": 0.9906,
+        "delta_pct": -30.3
+      },
+      {
+        "from": "ECU",
+        "to": "PAN",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8104,
+        "scenario_volume_norm": 0.7891,
+        "baseline_kg": 15320.2,
+        "scenario_kg": 11889.8,
+        "baseline_probability": 0.9846,
+        "scenario_probability": 0.9848,
+        "delta_pct": -22.4
+      },
+      {
+        "from": "BEL",
+        "to": "GBR",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.7737,
+        "scenario_volume_norm": 0.7387,
+        "baseline_kg": 9900.5,
+        "scenario_kg": 6526.9,
+        "baseline_probability": 0.9686,
+        "scenario_probability": 0.9653,
+        "delta_pct": -34.1
+      },
+      {
+        "from": "BEL",
+        "to": "FRA",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.8049,
+        "scenario_volume_norm": 0.7841,
+        "baseline_kg": 14342.4,
+        "scenario_kg": 11201.7,
+        "baseline_probability": 0.9877,
+        "scenario_probability": 0.9799,
+        "delta_pct": -21.9
       },
       {
         "from": "PER",
-        "to": "BRA",
+        "to": "USA",
         "drug": "cocaine",
-        "baseline_volume_norm": 0.48,
-        "scenario_volume_norm": 0.55,
-        "baseline_kg": 17000,
-        "scenario_kg": 20400,
-        "baseline_probability": 0.79,
-        "scenario_probability": 0.83,
-        "delta_pct": 20.0
+        "baseline_volume_norm": 0.8705,
+        "scenario_volume_norm": 0.863,
+        "baseline_kg": 31279.2,
+        "scenario_kg": 28609.1,
+        "baseline_probability": 0.9909,
+        "scenario_probability": 0.9891,
+        "delta_pct": -8.5
       },
       {
-        "from": "BOL",
-        "to": "PRY",
+        "from": "BEL",
+        "to": "DEU",
         "drug": "cocaine",
-        "baseline_volume_norm": 0.38,
-        "scenario_volume_norm": 0.45,
-        "baseline_kg": 12000,
-        "scenario_kg": 14800,
-        "baseline_probability": 0.66,
-        "scenario_probability": 0.72,
-        "delta_pct": 23.3
+        "baseline_volume_norm": 0.7903,
+        "scenario_volume_norm": 0.7701,
+        "baseline_kg": 12052.6,
+        "scenario_kg": 9483.9,
+        "baseline_probability": 0.9731,
+        "scenario_probability": 0.9672,
+        "delta_pct": -21.3
+      },
+      {
+        "from": "PER",
+        "to": "COL",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.9135,
+        "scenario_volume_norm": 0.9094,
+        "baseline_kg": 52168.5,
+        "scenario_kg": 49690.7,
+        "baseline_probability": 0.9972,
+        "scenario_probability": 0.997,
+        "delta_pct": -4.7
+      },
+      {
+        "from": "DOM",
+        "to": "USA",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.7617,
+        "scenario_volume_norm": 0.7347,
+        "baseline_kg": 8580.9,
+        "scenario_kg": 6222.6,
+        "baseline_probability": 0.9712,
+        "scenario_probability": 0.9511,
+        "delta_pct": -27.5
+      },
+      {
+        "from": "ECU",
+        "to": "MEX",
+        "drug": "cocaine",
+        "baseline_volume_norm": 0.7853,
+        "scenario_volume_norm": 0.7669,
+        "baseline_kg": 11358.6,
+        "scenario_kg": 9130.9,
+        "baseline_probability": 0.9939,
+        "scenario_probability": 0.9916,
+        "delta_pct": -19.6
       }
     ],
     "risk_deltas": [
       {
-        "iso3": "ECU",
-        "name": "Ecuador",
-        "baseline_score": 69.2,
-        "scenario_score": 63.0,
-        "delta": -6.2,
-        "baseline_rank": 3,
-        "scenario_rank": 6
-      },
-      {
         "iso3": "COL",
         "name": "Colombia",
-        "baseline_score": 70.0,
-        "scenario_score": 65.1,
-        "delta": -4.9,
-        "baseline_rank": 2,
-        "scenario_rank": 4
+        "baseline_score": 68.1,
+        "scenario_score": 65.6,
+        "delta": -2.5,
+        "baseline_rank": 15,
+        "scenario_rank": 17
       },
       {
-        "iso3": "PRY",
-        "name": "Paraguay",
-        "baseline_score": 63.8,
-        "scenario_score": 66.0,
-        "delta": 2.2,
+        "iso3": "CPV",
+        "name": "Cabo Verde",
+        "baseline_score": 45.3,
+        "scenario_score": 43.0,
+        "delta": -2.3,
+        "baseline_rank": 81,
+        "scenario_rank": 90
+      },
+      {
+        "iso3": "VEN",
+        "name": "Venezuela, RB",
+        "baseline_score": 71.3,
+        "scenario_score": 69.2,
+        "delta": -2.1,
+        "baseline_rank": 11,
+        "scenario_rank": 12
+      },
+      {
+        "iso3": "HND",
+        "name": "Honduras",
+        "baseline_score": 74.8,
+        "scenario_score": 72.7,
+        "delta": -2.1,
+        "baseline_rank": 5,
+        "scenario_rank": 8
+      },
+      {
+        "iso3": "SLV",
+        "name": "El Salvador",
+        "baseline_score": 61.6,
+        "scenario_score": 59.6,
+        "delta": -2.0,
+        "baseline_rank": 23,
+        "scenario_rank": 27
+      },
+      {
+        "iso3": "DOM",
+        "name": "Dominican Republic",
+        "baseline_score": 67.2,
+        "scenario_score": 65.3,
+        "delta": -1.9,
+        "baseline_rank": 17,
+        "scenario_rank": 18
+      },
+      {
+        "iso3": "ECU",
+        "name": "Ecuador",
+        "baseline_score": 79.4,
+        "scenario_score": 77.5,
+        "delta": -1.9,
+        "baseline_rank": 2,
+        "scenario_rank": 3
+      },
+      {
+        "iso3": "CRI",
+        "name": "Costa Rica",
+        "baseline_score": 62.0,
+        "scenario_score": 60.1,
+        "delta": -1.9,
+        "baseline_rank": 22,
+        "scenario_rank": 25
+      },
+      {
+        "iso3": "GTM",
+        "name": "Guatemala",
+        "baseline_score": 68.2,
+        "scenario_score": 66.4,
+        "delta": -1.8,
+        "baseline_rank": 14,
+        "scenario_rank": 16
+      },
+      {
+        "iso3": "BEL",
+        "name": "Belgium",
+        "baseline_score": 41.6,
+        "scenario_score": 39.9,
+        "delta": -1.7,
+        "baseline_rank": 98,
+        "scenario_rank": 103
+      },
+      {
+        "iso3": "GUY",
+        "name": "Guyana",
+        "baseline_score": 46.9,
+        "scenario_score": 45.4,
+        "delta": -1.5,
+        "baseline_rank": 74,
+        "scenario_rank": 80
+      },
+      {
+        "iso3": "NIC",
+        "name": "Nicaragua",
+        "baseline_score": 56.8,
+        "scenario_score": 55.4,
+        "delta": -1.4,
+        "baseline_rank": 34,
+        "scenario_rank": 41
+      },
+      {
+        "iso3": "NLD",
+        "name": "Netherlands",
+        "baseline_score": 33.0,
+        "scenario_score": 31.7,
+        "delta": -1.3,
+        "baseline_rank": 152,
+        "scenario_rank": 153
+      },
+      {
+        "iso3": "PAN",
+        "name": "Panama",
+        "baseline_score": 73.7,
+        "scenario_score": 72.6,
+        "delta": -1.1,
         "baseline_rank": 8,
-        "scenario_rank": 7
+        "scenario_rank": 9
+      },
+      {
+        "iso3": "GBR",
+        "name": "United Kingdom",
+        "baseline_score": 40.1,
+        "scenario_score": 39.3,
+        "delta": -0.8,
+        "baseline_rank": 103,
+        "scenario_rank": 112
+      },
+      {
+        "iso3": "ESP",
+        "name": "Spain",
+        "baseline_score": 47.3,
+        "scenario_score": 46.7,
+        "delta": -0.6,
+        "baseline_rank": 73,
+        "scenario_rank": 74
+      },
+      {
+        "iso3": "DEU",
+        "name": "Germany",
+        "baseline_score": 34.2,
+        "scenario_score": 33.6,
+        "delta": -0.6,
+        "baseline_rank": 144,
+        "scenario_rank": 147
+      },
+      {
+        "iso3": "USA",
+        "name": "United States",
+        "baseline_score": 49.7,
+        "scenario_score": 49.2,
+        "delta": -0.5,
+        "baseline_rank": 62,
+        "scenario_rank": 63
       },
       {
         "iso3": "BRA",
         "name": "Brazil",
-        "baseline_score": 55.1,
-        "scenario_score": 56.9,
-        "delta": 1.8,
-        "baseline_rank": 19,
-        "scenario_rank": 17
+        "baseline_score": 68.0,
+        "scenario_score": 67.5,
+        "delta": -0.5,
+        "baseline_rank": 16,
+        "scenario_rank": 14
+      },
+      {
+        "iso3": "PER",
+        "name": "Peru",
+        "baseline_score": 75.8,
+        "scenario_score": 75.4,
+        "delta": -0.4,
+        "baseline_rank": 4,
+        "scenario_rank": 4
       }
     ],
-    "summary": "Halving Colombian coca output cuts cocaine through the Ecuador corridor by about 38%. Supply partly shifts to Peru and Bolivia via Brazil and Paraguay, raising their exposure.",
+    "summary": "Scenario: Colombia illicit crop output x0.5. Total cocaine corridor volume -24%. Largest drop: cocaine COL->ECU (-42%). Largest gain: cocaine PER->ESP (+3%). Spillover risk rises most in Suriname, Trinidad and Tobago, Paraguay; prevention services there first.",
     "warnings": [
-      "Scenario effects are model estimates, not forecasts of policy outcomes."
+      "Scenario effects are model estimates under documented assumptions, not forecasts of policy outcomes."
     ]
   }
 }

@@ -1,216 +1,192 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T12:00:00Z",
-    "model_version": "trace-0.1.0-fixture",
+    "generated_at": "2026-09-26T18:09:03+00:00",
+    "model_version": "trace-0.1.0",
     "sources": [
       {
         "id": "unodc_wdr_annex",
-        "name": "UNODC World Drug Report statistical annex",
-        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html"
+        "name": "UNODC World Drug Report 2026, statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html",
+        "citation": "UNODC, World Drug Report 2026, Statistical Annex (tables 6.x, 7.1, 8.1, 8.3, 11.1)."
       }
     ]
   },
   "data": {
     "series": [
       {
-        "iso3": "COL",
-        "name": "Colombia",
-        "drug": "cocaine",
+        "iso3": "BEL",
+        "name": "Belgium",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 10.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 10.97,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 9.69,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 10.81,
+            "purity_pct": null
+          }
+        ],
+        "latest": 10.81,
+        "yoy_change_pct": 11.6,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "BEL",
+        "name": "Belgium",
+        "drug": "cannabis",
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
           {
-            "year": 2014,
-            "value": 1.6,
-            "purity_pct": 81.5
-          },
-          {
-            "year": 2015,
-            "value": 1.7,
-            "purity_pct": 80.8
-          },
-          {
-            "year": 2016,
-            "value": 1.76,
-            "purity_pct": 79.4
-          },
-          {
-            "year": 2017,
-            "value": 1.76,
-            "purity_pct": 78.5
-          },
-          {
-            "year": 2018,
-            "value": 1.75,
-            "purity_pct": 79.0
-          },
-          {
-            "year": 2019,
-            "value": 1.78,
-            "purity_pct": 80.4
-          },
-          {
             "year": 2020,
-            "value": 1.89,
-            "purity_pct": 81.4
+            "value": 5.1,
+            "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 2.02,
-            "purity_pct": 81.1
+            "value": 5.62,
+            "purity_pct": null
           },
           {
             "year": 2022,
-            "value": 2.11,
-            "purity_pct": 79.8
+            "value": 5.41,
+            "purity_pct": null
           },
           {
             "year": 2023,
-            "value": 2.12,
-            "purity_pct": 78.6
-          },
-          {
-            "year": 2024,
-            "value": 2.1,
-            "purity_pct": 78.7
+            "value": 4.59,
+            "purity_pct": null
           }
         ],
-        "latest": 2.1,
-        "yoy_change_pct": -0.9,
+        "latest": 4.59,
+        "yoy_change_pct": -15.2,
         "source": "unodc_wdr_annex"
       },
       {
-        "iso3": "COL",
-        "name": "Colombia",
+        "iso3": "BEL",
+        "name": "Belgium",
         "drug": "cocaine",
         "level": "retail",
         "unit": "USD/g",
         "points": [
           {
-            "year": 2014,
-            "value": 4.1,
-            "purity_pct": 46.5
+            "year": 2005,
+            "value": 51.0,
+            "purity_pct": null
           },
           {
-            "year": 2015,
-            "value": 4.32,
-            "purity_pct": 45.8
+            "year": 2006,
+            "value": 60.0,
+            "purity_pct": null
           },
           {
-            "year": 2016,
-            "value": 4.42,
-            "purity_pct": 44.4
-          },
-          {
-            "year": 2017,
-            "value": 4.38,
-            "purity_pct": 43.5
-          },
-          {
-            "year": 2018,
-            "value": 4.3,
-            "purity_pct": 44.0
-          },
-          {
-            "year": 2019,
-            "value": 4.35,
-            "purity_pct": 45.4
-          },
-          {
-            "year": 2020,
-            "value": 4.57,
-            "purity_pct": 46.4
-          },
-          {
-            "year": 2021,
-            "value": 4.83,
-            "purity_pct": 46.1
-          },
-          {
-            "year": 2022,
-            "value": 4.99,
-            "purity_pct": 44.8
-          },
-          {
-            "year": 2023,
-            "value": 4.98,
-            "purity_pct": 43.6
-          },
-          {
-            "year": 2024,
-            "value": 4.89,
-            "purity_pct": 43.7
-          }
-        ],
-        "latest": 4.89,
-        "yoy_change_pct": -1.8,
-        "source": "unodc_wdr_annex"
-      },
-      {
-        "iso3": "ESP",
-        "name": "Spain",
-        "drug": "cocaine",
-        "level": "retail",
-        "unit": "USD/g",
-        "points": [
-          {
-            "year": 2014,
-            "value": 62.0,
-            "purity_pct": 59.5
-          },
-          {
-            "year": 2015,
-            "value": 64.73,
-            "purity_pct": 58.8
-          },
-          {
-            "year": 2016,
-            "value": 65.55,
-            "purity_pct": 57.4
-          },
-          {
-            "year": 2017,
-            "value": 64.24,
-            "purity_pct": 56.5
-          },
-          {
-            "year": 2018,
-            "value": 62.56,
-            "purity_pct": 57.0
-          },
-          {
-            "year": 2019,
-            "value": 62.66,
-            "purity_pct": 58.4
-          },
-          {
-            "year": 2020,
-            "value": 65.08,
-            "purity_pct": 59.4
-          },
-          {
-            "year": 2021,
-            "value": 68.22,
-            "purity_pct": 59.1
-          },
-          {
-            "year": 2022,
-            "value": 69.79,
-            "purity_pct": 57.8
-          },
-          {
-            "year": 2023,
-            "value": 68.93,
-            "purity_pct": 56.6
-          },
-          {
-            "year": 2024,
+            "year": 2007,
             "value": 67.0,
-            "purity_pct": 56.7
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 72.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 71.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 67.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 75.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 73.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 68.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 75.89,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 59.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 67.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 65.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 66.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 57.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 60.14,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 69.04,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 51.74,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 54.05,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 54.0,
+            "purity_pct": null
           }
         ],
-        "latest": 67.0,
-        "yoy_change_pct": -2.8,
+        "latest": 54.0,
+        "yoy_change_pct": -0.1,
         "source": "unodc_wdr_annex"
       },
       {
@@ -221,264 +197,1803 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2005,
+            "value": 32.48,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 32.48,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 47.96,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 53.76,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 46.67,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 46.37,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 46.59,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 48.72,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 44.01,
+            "purity_pct": null
+          },
+          {
             "year": 2014,
-            "value": 34.0,
-            "purity_pct": 73.5
+            "value": 41.5,
+            "purity_pct": null
           },
           {
             "year": 2015,
-            "value": 34.79,
-            "purity_pct": 72.8
+            "value": 31.8,
+            "purity_pct": null
           },
           {
             "year": 2016,
-            "value": 34.54,
-            "purity_pct": 71.4
+            "value": 29.78,
+            "purity_pct": null
           },
           {
             "year": 2017,
-            "value": 33.18,
-            "purity_pct": 70.5
+            "value": 32.16,
+            "purity_pct": null
           },
           {
             "year": 2018,
-            "value": 31.67,
-            "purity_pct": 71.0
+            "value": 31.61,
+            "purity_pct": null
           },
           {
             "year": 2019,
-            "value": 31.09,
-            "purity_pct": 72.4
+            "value": 32.35,
+            "purity_pct": null
           },
           {
             "year": 2020,
-            "value": 31.65,
-            "purity_pct": 73.4
+            "value": 33.18,
+            "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 32.52,
-            "purity_pct": 73.1
+            "value": 38.04,
+            "purity_pct": null
           },
           {
             "year": 2022,
-            "value": 32.61,
-            "purity_pct": 71.8
+            "value": 31.86,
+            "purity_pct": null
           },
           {
             "year": 2023,
-            "value": 31.57,
-            "purity_pct": 70.6
+            "value": 25.95,
+            "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 30.08,
-            "purity_pct": 70.7
+            "value": 25.95,
+            "purity_pct": null
           }
         ],
-        "latest": 30.08,
-        "yoy_change_pct": -4.7,
+        "latest": 25.95,
+        "yoy_change_pct": 0.0,
         "source": "unodc_wdr_annex"
       },
       {
-        "iso3": "USA",
-        "name": "United States",
+        "iso3": "BEL",
+        "name": "Belgium",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 31.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 32.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 33.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 36.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 33.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 32.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 42.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 36.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 37.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 33.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 24.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 26.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 29.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 23.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 23.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 21.17,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 27.28,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 20.02,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 20.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 20.0,
+            "purity_pct": null
+          }
+        ],
+        "latest": 20.0,
+        "yoy_change_pct": 0.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "BEL",
+        "name": "Belgium",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 23.34,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 18.82,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 20.55,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 14.71,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 15.99,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 15.1,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 10.72,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 20.62,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 18.34,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 17.52,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 17.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 26.58,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 22.64,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 18.7,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 14.76,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 10.87,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 10.87,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 13.7,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 14.59,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 14.59,
+            "purity_pct": null
+          }
+        ],
+        "latest": 14.59,
+        "yoy_change_pct": 0.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "BEL",
+        "name": "Belgium",
+        "drug": "meth",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 114.42,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 118.62,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 73.76,
+            "purity_pct": null
+          }
+        ],
+        "latest": 73.76,
+        "yoy_change_pct": -37.8,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "BEL",
+        "name": "Belgium",
+        "drug": "meth",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 7.72,
+            "purity_pct": null
+          }
+        ],
+        "latest": 7.72,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 0.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 0.09,
+            "purity_pct": null
+          }
+        ],
+        "latest": 0.09,
+        "yoy_change_pct": -30.8,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 1.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 1.22,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 0.63,
+            "purity_pct": null
+          }
+        ],
+        "latest": 0.63,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 4.67,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 3.27,
+            "purity_pct": null
+          }
+        ],
+        "latest": 3.27,
+        "yoy_change_pct": -30.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "DEU",
+        "name": "Germany",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 11.21,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 11.63,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 10.22,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 10.7,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 10.65,
+            "purity_pct": null
+          }
+        ],
+        "latest": 10.65,
+        "yoy_change_pct": -0.5,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "DEU",
+        "name": "Germany",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 5.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 5.26,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 4.71,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 5.26,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 4.76,
+            "purity_pct": null
+          }
+        ],
+        "latest": 4.76,
+        "yoy_change_pct": -9.5,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "DEU",
+        "name": "Germany",
         "drug": "cocaine",
         "level": "retail",
         "unit": "USD/g",
         "points": [
           {
+            "year": 2005,
+            "value": 79.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 74.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 86.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 91.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 87.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 87.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 92.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 84.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 92.0,
+            "purity_pct": null
+          },
+          {
             "year": 2014,
-            "value": 118.0,
-            "purity_pct": 56.5
+            "value": 100.0,
+            "purity_pct": null
           },
           {
             "year": 2015,
-            "value": 121.97,
-            "purity_pct": 55.8
+            "value": 81.0,
+            "purity_pct": null
           },
           {
             "year": 2016,
-            "value": 122.29,
-            "purity_pct": 54.4
+            "value": 84.0,
+            "purity_pct": null
           },
           {
             "year": 2017,
-            "value": 118.67,
-            "purity_pct": 53.5
+            "value": 81.0,
+            "purity_pct": null
           },
           {
             "year": 2018,
-            "value": 114.43,
-            "purity_pct": 54.0
+            "value": 76.0,
+            "purity_pct": null
           },
           {
             "year": 2019,
-            "value": 113.47,
-            "purity_pct": 55.4
+            "value": 60.0,
+            "purity_pct": null
           },
           {
             "year": 2020,
-            "value": 116.68,
-            "purity_pct": 56.4
+            "value": 82.47,
+            "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 121.1,
-            "purity_pct": 56.1
+            "value": 81.44,
+            "purity_pct": null
           },
           {
             "year": 2022,
-            "value": 122.67,
-            "purity_pct": 54.8
+            "value": 62.96,
+            "purity_pct": null
           },
           {
             "year": 2023,
-            "value": 119.95,
-            "purity_pct": 53.6
+            "value": 80.32,
+            "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 115.43,
-            "purity_pct": 53.7
+            "value": 78.38,
+            "purity_pct": null
           }
         ],
-        "latest": 115.43,
+        "latest": 78.38,
+        "yoy_change_pct": -2.4,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "DEU",
+        "name": "Germany",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 46.52,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 45.32,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 48.83,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 54.11,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 57.17,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 53.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 64.04,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 49.98,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 48.68,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 50.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 46.85,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 46.93,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 46.83,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 50.99,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 46.92,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 45.59,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 44.05,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 40.48,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 42.21,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 38.84,
+            "purity_pct": null
+          }
+        ],
+        "latest": 38.84,
+        "yoy_change_pct": -8.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "DEU",
+        "name": "Germany",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 48.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 46.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 48.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 53.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 51.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 48.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 59.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 55.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 65.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 57.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 55.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 53.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 48.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 52.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 57.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 52.86,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 54.8,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 48.37,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 45.3,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 43.57,
+            "purity_pct": null
+          }
+        ],
+        "latest": 43.57,
         "yoy_change_pct": -3.8,
         "source": "unodc_wdr_annex"
       },
       {
-        "iso3": "AFG",
-        "name": "Afghanistan",
+        "iso3": "DEU",
+        "name": "Germany",
         "drug": "heroin",
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
           {
+            "year": 2005,
+            "value": 25.77,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 22.51,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 25.81,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 26.47,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 26.72,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 32.52,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 35.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 35.37,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 41.23,
+            "purity_pct": null
+          },
+          {
             "year": 2014,
-            "value": 2.4,
+            "value": 29.61,
             "purity_pct": null
           },
           {
             "year": 2015,
-            "value": 2.68,
+            "value": 36.38,
             "purity_pct": null
           },
           {
             "year": 2016,
-            "value": 2.9,
+            "value": 33.78,
             "purity_pct": null
           },
           {
             "year": 2017,
-            "value": 3.04,
+            "value": 35.63,
             "purity_pct": null
           },
           {
             "year": 2018,
-            "value": 3.17,
+            "value": 33.06,
             "purity_pct": null
           },
           {
             "year": 2019,
-            "value": 3.39,
+            "value": 33.59,
             "purity_pct": null
           },
           {
             "year": 2020,
-            "value": 3.77,
+            "value": 34.52,
             "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 4.22,
+            "value": 37.37,
             "purity_pct": null
           },
           {
             "year": 2022,
-            "value": 4.62,
+            "value": 31.49,
             "purity_pct": null
           },
           {
             "year": 2023,
-            "value": 4.88,
+            "value": 31.66,
             "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 5.07,
+            "value": 24.59,
             "purity_pct": null
           }
         ],
-        "latest": 5.07,
-        "yoy_change_pct": 3.9,
+        "latest": 24.59,
+        "yoy_change_pct": -22.3,
         "source": "unodc_wdr_annex"
       },
       {
-        "iso3": "TUR",
-        "name": "Turkiye",
-        "drug": "heroin",
+        "iso3": "DEU",
+        "name": "Germany",
+        "drug": "meth",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 93.82,
+            "purity_pct": null
+          }
+        ],
+        "latest": 93.82,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "DEU",
+        "name": "Germany",
+        "drug": "meth",
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
           {
+            "year": 2020,
+            "value": 34.9,
+            "purity_pct": null
+          }
+        ],
+        "latest": 34.9,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "ESP",
+        "name": "Spain",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 6.38,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 7.26,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 7.3,
+            "purity_pct": null
+          }
+        ],
+        "latest": 7.3,
+        "yoy_change_pct": 0.6,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "ESP",
+        "name": "Spain",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 2.06,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 2.33,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 2.17,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 2.24,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 2.05,
+            "purity_pct": null
+          }
+        ],
+        "latest": 2.05,
+        "yoy_change_pct": -8.5,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "ESP",
+        "name": "Spain",
+        "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 76.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 76.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 83.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 89.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 83.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 79.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 82.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 76.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 77.0,
+            "purity_pct": null
+          },
+          {
             "year": 2014,
-            "value": 14.0,
+            "value": 76.0,
             "purity_pct": null
           },
           {
             "year": 2015,
+            "value": 64.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 64.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 67.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 70.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 67.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 67.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 24.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 22.55,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 66.36,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 64.12,
+            "purity_pct": null
+          }
+        ],
+        "latest": 64.12,
+        "yoy_change_pct": -3.4,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "ESP",
+        "name": "Spain",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 41.32,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 41.21,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 46.27,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 48.71,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 45.94,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 45.03,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 47.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 43.91,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 44.76,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 44.86,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 37.6,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 38.59,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 39.75,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 40.15,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 38.08,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 40.91,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 42.75,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 37.68,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 37.87,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 32.61,
+            "purity_pct": null
+          }
+        ],
+        "latest": 32.61,
+        "yoy_change_pct": -13.9,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "ESP",
+        "name": "Spain",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 80.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 78.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 86.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 92.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 86.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 80.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 83.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 76.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 76.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 75.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 63.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 63.99,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 64.43,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 68.76,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 65.6,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 14.73,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 16.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
             "value": 15.05,
             "purity_pct": null
           },
           {
-            "year": 2016,
-            "value": 15.69,
-            "purity_pct": null
-          },
-          {
-            "year": 2017,
-            "value": 15.84,
-            "purity_pct": null
-          },
-          {
-            "year": 2018,
-            "value": 15.88,
-            "purity_pct": null
-          },
-          {
-            "year": 2019,
-            "value": 16.38,
-            "purity_pct": null
-          },
-          {
-            "year": 2020,
-            "value": 17.52,
-            "purity_pct": null
-          },
-          {
-            "year": 2021,
-            "value": 18.91,
-            "purity_pct": null
-          },
-          {
-            "year": 2022,
-            "value": 19.92,
-            "purity_pct": null
-          },
-          {
             "year": 2023,
-            "value": 20.25,
+            "value": 64.67,
             "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 20.27,
+            "value": 62.15,
             "purity_pct": null
           }
         ],
-        "latest": 20.27,
-        "yoy_change_pct": 0.1,
+        "latest": 62.15,
+        "yoy_change_pct": -3.9,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "ESP",
+        "name": "Spain",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 47.05,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 47.37,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 47.67,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 50.7,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 46.62,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 43.99,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 44.53,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 42.11,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 42.01,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 38.81,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 35.14,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 35.76,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 34.62,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 36.68,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 34.53,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 36.19,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 37.18,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 32.91,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 33.69,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 32.07,
+            "purity_pct": null
+          }
+        ],
+        "latest": 32.07,
+        "yoy_change_pct": -4.8,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "GBR",
+        "name": "United Kingdom",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 9.64,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 13.76,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 3.56,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 9.59,
+            "purity_pct": null
+          }
+        ],
+        "latest": 9.59,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "GBR",
+        "name": "United Kingdom",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 3.21,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 1.38,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 0.99,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 2.11,
+            "purity_pct": null
+          }
+        ],
+        "latest": 2.11,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "GBR",
+        "name": "United Kingdom",
+        "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 79.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 87.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 91.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 74.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 62.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 62.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 64.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 79.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 79.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 99.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 76.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 68.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 84.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 87.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 89.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 102.83,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 123.8,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 98.89,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 99.38,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 102.3,
+            "purity_pct": null
+          }
+        ],
+        "latest": 102.3,
+        "yoy_change_pct": 2.9,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "GBR",
+        "name": "United Kingdom",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 50.04,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 50.94,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 60.36,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 64.68,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 76.96,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 76.9,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 80.33,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 79.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 66.91,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 62.11,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 57.78,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 44.72,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 35.99,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 46.73,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 44.53,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 49.49,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 55.02,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 34.61,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 49.69,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 37.72,
+            "purity_pct": null
+          }
+        ],
+        "latest": 37.72,
+        "yoy_change_pct": -24.1,
         "source": "unodc_wdr_annex"
       },
       {
@@ -489,264 +2004,321 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2005,
+            "value": 93.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 71.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 101.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 83.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 69.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 62.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 64.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 63.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 63.0,
+            "purity_pct": null
+          },
+          {
             "year": 2014,
-            "value": 58.0,
-            "purity_pct": 41.5
+            "value": 78.0,
+            "purity_pct": null
           },
           {
             "year": 2015,
-            "value": 60.55,
-            "purity_pct": 40.8
+            "value": 76.34,
+            "purity_pct": null
           },
           {
             "year": 2016,
-            "value": 61.32,
-            "purity_pct": 39.4
+            "value": 67.75,
+            "purity_pct": null
           },
           {
             "year": 2017,
-            "value": 60.09,
-            "purity_pct": 38.5
+            "value": 64.27,
+            "purity_pct": null
           },
           {
             "year": 2018,
-            "value": 58.53,
-            "purity_pct": 39.0
+            "value": 53.4,
+            "purity_pct": null
           },
           {
             "year": 2019,
-            "value": 58.62,
-            "purity_pct": 40.4
+            "value": 63.61,
+            "purity_pct": null
           },
           {
             "year": 2020,
-            "value": 60.88,
-            "purity_pct": 41.4
+            "value": 64.27,
+            "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 63.82,
-            "purity_pct": 41.1
+            "value": 68.78,
+            "purity_pct": null
           },
           {
             "year": 2022,
-            "value": 65.29,
-            "purity_pct": 39.8
+            "value": 61.8,
+            "purity_pct": null
           },
           {
             "year": 2023,
-            "value": 64.48,
-            "purity_pct": 38.6
+            "value": 62.11,
+            "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 62.67,
-            "purity_pct": 38.7
+            "value": 63.94,
+            "purity_pct": null
           }
         ],
-        "latest": 62.67,
-        "yoy_change_pct": -2.8,
+        "latest": 63.94,
+        "yoy_change_pct": 2.9,
         "source": "unodc_wdr_annex"
       },
       {
-        "iso3": "THA",
-        "name": "Thailand",
+        "iso3": "GBR",
+        "name": "United Kingdom",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 33.25,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 28.32,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 27.16,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 29.57,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 24.63,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 32.3,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 40.17,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 47.48,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 46.84,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 41.92,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 41.22,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 31.17,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 32.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 22.7,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 22.9,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 24.42,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 27.51,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 15.45,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 26.09,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 32.61,
+            "purity_pct": null
+          }
+        ],
+        "latest": 32.61,
+        "yoy_change_pct": 25.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "GBR",
+        "name": "United Kingdom",
         "drug": "meth",
         "level": "retail",
         "unit": "USD/g",
         "points": [
           {
-            "year": 2014,
-            "value": 9.5,
-            "purity_pct": null
-          },
-          {
-            "year": 2015,
-            "value": 9.33,
-            "purity_pct": null
-          },
-          {
-            "year": 2016,
-            "value": 8.89,
-            "purity_pct": null
-          },
-          {
-            "year": 2017,
-            "value": 8.19,
-            "purity_pct": null
-          },
-          {
-            "year": 2018,
-            "value": 7.5,
-            "purity_pct": null
-          },
-          {
-            "year": 2019,
-            "value": 7.07,
-            "purity_pct": null
-          },
-          {
             "year": 2020,
-            "value": 6.91,
+            "value": 128.53,
             "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 6.81,
+            "value": 137.55,
             "purity_pct": null
           },
           {
             "year": 2022,
-            "value": 6.55,
-            "purity_pct": null
-          },
-          {
-            "year": 2023,
-            "value": 6.09,
+            "value": 123.61,
             "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 5.56,
+            "value": 102.3,
             "purity_pct": null
           }
         ],
-        "latest": 5.56,
-        "yoy_change_pct": -8.7,
+        "latest": 102.3,
+        "yoy_change_pct": null,
         "source": "unodc_wdr_annex"
       },
       {
-        "iso3": "USA",
-        "name": "United States",
+        "iso3": "GBR",
+        "name": "United Kingdom",
         "drug": "meth",
-        "level": "retail",
+        "level": "wholesale",
         "unit": "USD/g",
         "points": [
           {
-            "year": 2014,
-            "value": 42.0,
-            "purity_pct": null
-          },
-          {
-            "year": 2015,
-            "value": 40.81,
-            "purity_pct": null
-          },
-          {
-            "year": 2016,
-            "value": 38.46,
-            "purity_pct": null
-          },
-          {
-            "year": 2017,
-            "value": 35.08,
-            "purity_pct": null
-          },
-          {
-            "year": 2018,
-            "value": 31.8,
-            "purity_pct": null
-          },
-          {
-            "year": 2019,
-            "value": 29.64,
-            "purity_pct": null
-          },
-          {
             "year": 2020,
-            "value": 28.65,
+            "value": 44.99,
             "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 27.95,
+            "value": 24.07,
             "purity_pct": null
           },
           {
             "year": 2022,
-            "value": 26.62,
-            "purity_pct": null
-          },
-          {
-            "year": 2023,
-            "value": 24.46,
+            "value": 13.29,
             "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 22.13,
+            "value": 12.79,
             "purity_pct": null
           }
         ],
-        "latest": 22.13,
-        "yoy_change_pct": -9.5,
+        "latest": 12.79,
+        "yoy_change_pct": null,
         "source": "unodc_wdr_annex"
       },
       {
-        "iso3": "CAN",
-        "name": "Canada",
+        "iso3": "MAR",
+        "name": "Morocco",
         "drug": "cannabis",
         "level": "retail",
         "unit": "USD/g",
         "points": [
           {
-            "year": 2014,
-            "value": 7.8,
-            "purity_pct": null
-          },
-          {
-            "year": 2015,
-            "value": 7.74,
-            "purity_pct": null
-          },
-          {
-            "year": 2016,
-            "value": 7.45,
-            "purity_pct": null
-          },
-          {
-            "year": 2017,
-            "value": 6.94,
-            "purity_pct": null
-          },
-          {
-            "year": 2018,
-            "value": 6.42,
-            "purity_pct": null
-          },
-          {
-            "year": 2019,
-            "value": 6.12,
-            "purity_pct": null
-          },
-          {
             "year": 2020,
-            "value": 6.04,
+            "value": 4.22,
             "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 6.02,
+            "value": 0.98,
             "purity_pct": null
           },
           {
             "year": 2022,
-            "value": 5.85,
+            "value": 0.86,
             "purity_pct": null
           },
           {
             "year": 2023,
-            "value": 5.49,
+            "value": 0.86,
             "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 5.07,
+            "value": 0.88,
             "purity_pct": null
           }
         ],
-        "latest": 5.07,
-        "yoy_change_pct": -7.7,
+        "latest": 0.88,
+        "yoy_change_pct": 2.3,
         "source": "unodc_wdr_annex"
       },
       {
@@ -757,63 +2329,967 @@
         "unit": "USD/g",
         "points": [
           {
-            "year": 2014,
-            "value": 1.1,
-            "purity_pct": null
-          },
-          {
-            "year": 2015,
-            "value": 1.16,
-            "purity_pct": null
-          },
-          {
-            "year": 2016,
-            "value": 1.19,
-            "purity_pct": null
-          },
-          {
-            "year": 2017,
-            "value": 1.17,
-            "purity_pct": null
-          },
-          {
-            "year": 2018,
-            "value": 1.15,
-            "purity_pct": null
-          },
-          {
-            "year": 2019,
-            "value": 1.17,
-            "purity_pct": null
-          },
-          {
             "year": 2020,
-            "value": 1.22,
+            "value": 0.42,
             "purity_pct": null
           },
           {
             "year": 2021,
-            "value": 1.3,
+            "value": 0.41,
             "purity_pct": null
           },
           {
             "year": 2022,
-            "value": 1.34,
+            "value": 0.37,
             "purity_pct": null
           },
           {
             "year": 2023,
-            "value": 1.34,
+            "value": 0.37,
             "purity_pct": null
           },
           {
             "year": 2024,
-            "value": 1.31,
+            "value": 0.37,
             "purity_pct": null
           }
         ],
-        "latest": 1.31,
-        "yoy_change_pct": -2.2,
+        "latest": 0.37,
+        "yoy_change_pct": 0.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "MAR",
+        "name": "Morocco",
+        "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 52.78,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 111.59,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 69.11,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 69.06,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 70.41,
+            "purity_pct": null
+          }
+        ],
+        "latest": 70.41,
+        "yoy_change_pct": 2.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "MAR",
+        "name": "Morocco",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 29.03,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 59.24,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 59.19,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 60.35,
+            "purity_pct": null
+          }
+        ],
+        "latest": 60.35,
+        "yoy_change_pct": 2.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "MAR",
+        "name": "Morocco",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2021,
+            "value": 22.32,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 24.68,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 24.66,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 30.18,
+            "purity_pct": null
+          }
+        ],
+        "latest": 30.18,
+        "yoy_change_pct": 22.4,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "NLD",
+        "name": "Netherlands",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2021,
+            "value": 13.9,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 12.49,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 11.74,
+            "purity_pct": null
+          }
+        ],
+        "latest": 11.74,
+        "yoy_change_pct": -6.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "NLD",
+        "name": "Netherlands",
+        "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 59.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 60.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 59.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 63.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 63.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 59.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 73.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 67.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 69.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 69.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 65.15,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 62.04,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 56.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 58.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 58.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 57.55,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 61.68,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 54.27,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 55.89,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 55.68,
+            "purity_pct": null
+          }
+        ],
+        "latest": 55.68,
+        "yoy_change_pct": -0.4,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "NLD",
+        "name": "Netherlands",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 33.77,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 35.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 42.41,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 46.69,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 44.15,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 41.6,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 43.84,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 40.46,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 41.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 41.88,
+            "purity_pct": null
+          }
+        ],
+        "latest": 41.88,
+        "yoy_change_pct": 0.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "NLD",
+        "name": "Netherlands",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 38.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 38.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 33.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 53.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 53.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 51.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 60.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 55.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 47.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 45.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 45.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 39.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 43.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 41.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 40.72,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 32.52,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 30.95,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 30.95,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 30.95,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 30.95,
+            "purity_pct": null
+          }
+        ],
+        "latest": 30.95,
+        "yoy_change_pct": 0.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "NLD",
+        "name": "Netherlands",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 18.24,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 16.62,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 16.96,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 19.84,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 19.84,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 22.08,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 23.27,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 21.48,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 22.23,
+            "purity_pct": null
+          }
+        ],
+        "latest": 22.23,
+        "yoy_change_pct": 0.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2022,
+            "value": 0.16,
+            "purity_pct": null
+          }
+        ],
+        "latest": 0.16,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand",
+        "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 79.71,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 85.13,
+            "purity_pct": null
+          }
+        ],
+        "latest": 85.13,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2022,
+            "value": 2.29,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 42.57,
+            "purity_pct": null
+          }
+        ],
+        "latest": 42.57,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2021,
+            "value": 13.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 46.14,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 18.45,
+            "purity_pct": null
+          }
+        ],
+        "latest": 18.45,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2022,
+            "value": 16.29,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 4.31,
+            "purity_pct": null
+          }
+        ],
+        "latest": 4.31,
+        "yoy_change_pct": -73.5,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand",
+        "drug": "meth",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2022,
+            "value": 28.7,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 11.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 18.45,
+            "purity_pct": null
+          }
+        ],
+        "latest": 18.45,
+        "yoy_change_pct": 60.4,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand",
+        "drug": "meth",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2022,
+            "value": 6.15,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 4.6,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 3.55,
+            "purity_pct": null
+          }
+        ],
+        "latest": 3.55,
+        "yoy_change_pct": -22.8,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "TUR",
+        "name": "Turkiye",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 11.29,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 10.73,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 8.57,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 10.84,
+            "purity_pct": null
+          }
+        ],
+        "latest": 10.84,
+        "yoy_change_pct": 26.5,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "TUR",
+        "name": "Turkiye",
+        "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 57.84,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 44.48,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 53.35,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 62.59,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 72.14,
+            "purity_pct": null
+          }
+        ],
+        "latest": 72.14,
+        "yoy_change_pct": 15.3,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "TUR",
+        "name": "Turkiye",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 21.59,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 42.7,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 13.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 14.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 24.3,
+            "purity_pct": null
+          }
+        ],
+        "latest": 24.3,
+        "yoy_change_pct": 72.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "TUR",
+        "name": "Turkiye",
+        "drug": "meth",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2020,
+            "value": 42.61,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 21.59,
+            "purity_pct": null
+          },
+          {
+            "year": 2022,
+            "value": 18.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2023,
+            "value": 20.58,
+            "purity_pct": null
+          },
+          {
+            "year": 2024,
+            "value": 22.78,
+            "purity_pct": null
+          }
+        ],
+        "latest": 22.78,
+        "yoy_change_pct": 10.7,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "USA",
+        "name": "United States",
+        "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2021,
+            "value": 30.5,
+            "purity_pct": null
+          }
+        ],
+        "latest": 30.5,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "USA",
+        "name": "United States",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2021,
+            "value": 35.5,
+            "purity_pct": null
+          }
+        ],
+        "latest": 35.5,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "USA",
+        "name": "United States",
+        "drug": "meth",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2021,
+            "value": 10.5,
+            "purity_pct": null
+          }
+        ],
+        "latest": 10.5,
+        "yoy_change_pct": null,
         "source": "unodc_wdr_annex"
       }
     ]

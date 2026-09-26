@@ -1,17 +1,61 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T12:00:00Z",
-    "model_version": "trace-0.1.0-fixture",
+    "generated_at": "2026-09-26T18:09:03+00:00",
+    "model_version": "trace-0.1.0",
     "sources": [
       {
         "id": "wb_wdi",
-        "name": "World Bank World Development Indicators (source 2)",
-        "url": "https://api.worldbank.org/v2/sources/2"
+        "name": "World Bank World Development Indicators (API source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2",
+        "citation": "World Bank, World Development Indicators, via Indicators API v2 (CC BY 4.0)."
       },
       {
         "id": "wb_wgi",
-        "name": "World Bank Worldwide Governance Indicators (source 3)",
-        "url": "https://api.worldbank.org/v2/sources/3"
+        "name": "World Bank Worldwide Governance Indicators (API source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3",
+        "citation": "World Bank, Worldwide Governance Indicators, via Indicators API v2 (CC BY 4.0)."
+      },
+      {
+        "id": "unodc_wdr_annex",
+        "name": "UNODC World Drug Report 2026, statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html",
+        "citation": "UNODC, World Drug Report 2026, Statistical Annex (tables 6.x, 7.1, 8.1, 8.3, 11.1)."
+      },
+      {
+        "id": "unodc_ids",
+        "name": "UNODC Individual Drug Seizures (IDS), public release",
+        "url": "https://dmp.unodc.org/downloadIDS",
+        "citation": "UNODC Drugs Monitoring Platform, Individual Drug Seizures 2011-2026."
+      },
+      {
+        "id": "unodc_routes",
+        "name": "UNODC / EUDA documented trafficking corridors (TRACE transcription)",
+        "url": "https://github.com/WillieTheWhale/CDC_2026/blob/main/backend/trace_backend/seed/corridors.csv",
+        "citation": "Transcribed from WDR 2026 annex route maps 7.2-7.4 and UNODC/EUDA reports; see seed/README.md."
+      },
+      {
+        "id": "gitoc_ocindex",
+        "name": "GI-TOC Global Organized Crime Index (2021, 2023, 2025)",
+        "url": "https://ocindex.net/downloads",
+        "citation": "Global Initiative Against Transnational Organized Crime, Global Organized Crime Index."
+      },
+      {
+        "id": "cepii_geodist",
+        "name": "CEPII GeoDist",
+        "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6",
+        "citation": "Mayer and Zignago (2011), Notes on CEPII's distances measures: the GeoDist database."
+      },
+      {
+        "id": "hri_gshr",
+        "name": "Harm Reduction International, Global State of Harm Reduction 2024",
+        "url": "https://hri.global/wp-content/uploads/2024/10/HRI-GSHR-2024_Full-Report_Final.pdf",
+        "citation": "Harm Reduction International (2024), The Global State of Harm Reduction, Table 1."
+      },
+      {
+        "id": "gdelt",
+        "name": "GDELT DOC 2.0 API",
+        "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+        "citation": "The GDELT Project, DOC 2.0 API (article metadata and publication dates)."
       }
     ]
   },
@@ -58,6 +102,7 @@
       2025
     ],
     "risk_years": [
+      2011,
       2012,
       2013,
       2014,
@@ -74,81 +119,107 @@
       2025
     ],
     "latest_observed_year": 2024,
-    "model_version": "trace-0.1.0-fixture",
+    "model_version": "trace-0.1.0",
     "livewire_classifier": "mock",
     "sources": [
       {
         "id": "wb_wdi",
-        "name": "World Bank World Development Indicators (source 2)",
+        "name": "World Bank World Development Indicators (API source 2)",
         "url": "https://api.worldbank.org/v2/sources/2",
-        "status": "live",
-        "retrieved_at": "2026-09-26T12:00:00Z",
+        "citation": "World Bank, World Development Indicators, via Indicators API v2 (CC BY 4.0).",
+        "status": "cached",
+        "retrieved_at": "2026-09-26T17:15:26+00:00",
         "last_updated": "2026-07-13",
-        "latest_year": 2025
+        "latest_year": 2025,
+        "note": "20 indicators, all pages, nulls kept"
       },
       {
         "id": "wb_wgi",
-        "name": "World Bank Worldwide Governance Indicators (source 3)",
+        "name": "World Bank Worldwide Governance Indicators (API source 3)",
         "url": "https://api.worldbank.org/v2/sources/3",
-        "status": "live",
-        "retrieved_at": "2026-09-26T12:00:00Z",
+        "citation": "World Bank, Worldwide Governance Indicators, via Indicators API v2 (CC BY 4.0).",
+        "status": "cached",
+        "retrieved_at": "2026-09-26T17:15:18+00:00",
         "last_updated": "2026-09-25",
-        "latest_year": 2025
+        "latest_year": 2025,
+        "note": "4 indicators, all pages, nulls kept"
       },
       {
         "id": "unodc_ids",
-        "name": "UNODC Individual Drug Seizures (IDS)",
+        "name": "UNODC Individual Drug Seizures (IDS), public release",
         "url": "https://dmp.unodc.org/downloadIDS",
-        "status": "unavailable",
-        "retrieved_at": null,
+        "citation": "UNODC Drugs Monitoring Platform, Individual Drug Seizures 2011-2026.",
+        "status": "cached",
+        "retrieved_at": "2026-09-26T18:06:56+00:00",
         "last_updated": null,
-        "latest_year": null,
-        "note": "Download requires registration; edges built from annex and published route tables."
+        "latest_year": 2026,
+        "note": "Public IDS release has no departure/transit/destination fields; used for node volumes and 2011-2014 backcast. Edges come from documented corridors (see BLOCKERS.md)."
       },
       {
         "id": "unodc_wdr_annex",
-        "name": "UNODC World Drug Report statistical annex",
+        "name": "UNODC World Drug Report 2026, statistical annex",
         "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html",
+        "citation": "UNODC, World Drug Report 2026, Statistical Annex (tables 6.x, 7.1, 8.1, 8.3, 11.1).",
         "status": "cached",
-        "retrieved_at": "2026-09-26T12:00:00Z",
-        "last_updated": "2026-06-26",
-        "latest_year": 2024
+        "retrieved_at": "2026-09-26T18:06:56+00:00",
+        "last_updated": null,
+        "latest_year": 2024,
+        "note": ""
       },
       {
         "id": "gitoc_ocindex",
-        "name": "GI-TOC Global Organized Crime Index",
-        "url": "https://ocindex.net",
+        "name": "GI-TOC Global Organized Crime Index (2021, 2023, 2025)",
+        "url": "https://ocindex.net/downloads",
+        "citation": "Global Initiative Against Transnational Organized Crime, Global Organized Crime Index.",
         "status": "cached",
-        "retrieved_at": "2026-09-26T12:00:00Z",
-        "last_updated": "2025",
-        "latest_year": 2025
+        "retrieved_at": "2026-09-26T18:06:56+00:00",
+        "last_updated": null,
+        "latest_year": 2025,
+        "note": ""
       },
       {
         "id": "hri_gshr",
         "name": "Harm Reduction International, Global State of Harm Reduction 2024",
-        "url": "https://hri.global/flagship-research/the-global-state-of-harm-reduction/",
-        "status": "fallback",
-        "retrieved_at": "2026-09-26T12:00:00Z",
-        "last_updated": "2024-10",
-        "latest_year": 2024
+        "url": "https://hri.global/wp-content/uploads/2024/10/HRI-GSHR-2024_Full-Report_Final.pdf",
+        "citation": "Harm Reduction International (2024), The Global State of Harm Reduction, Table 1.",
+        "status": "cached",
+        "retrieved_at": "2026-09-26T18:06:56+00:00",
+        "last_updated": null,
+        "latest_year": 2024,
+        "note": ""
       },
       {
         "id": "cepii_geodist",
         "name": "CEPII GeoDist",
         "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6",
+        "citation": "Mayer and Zignago (2011), Notes on CEPII's distances measures: the GeoDist database.",
         "status": "cached",
-        "retrieved_at": "2026-09-26T12:00:00Z",
+        "retrieved_at": "2026-09-26T18:06:56+00:00",
         "last_updated": null,
-        "latest_year": null
+        "latest_year": null,
+        "note": ""
+      },
+      {
+        "id": "unodc_routes",
+        "name": "UNODC / EUDA documented trafficking corridors (TRACE transcription)",
+        "url": "https://github.com/WillieTheWhale/CDC_2026/blob/main/backend/trace_backend/seed/corridors.csv",
+        "citation": "Transcribed from WDR 2026 annex route maps 7.2-7.4 and UNODC/EUDA reports; see seed/README.md.",
+        "status": "cached",
+        "retrieved_at": null,
+        "last_updated": "2026-09-26",
+        "latest_year": 2024,
+        "note": "234 documented corridors"
       },
       {
         "id": "gdelt",
         "name": "GDELT DOC 2.0 API",
         "url": "https://api.gdeltproject.org/api/v2/doc/doc",
-        "status": "live",
-        "retrieved_at": "2026-09-26T12:00:00Z",
+        "citation": "The GDELT Project, DOC 2.0 API (article metadata and publication dates).",
+        "status": "fallback",
+        "retrieved_at": null,
         "last_updated": null,
-        "latest_year": 2026
+        "latest_year": 2026,
+        "note": "not polled yet"
       }
     ]
   }

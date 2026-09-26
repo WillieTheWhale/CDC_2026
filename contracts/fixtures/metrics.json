@@ -1,32 +1,41 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T12:00:00Z",
-    "model_version": "trace-0.1.0-fixture",
+    "generated_at": "2026-09-26T18:09:03+00:00",
+    "model_version": "trace-0.1.0",
     "sources": [
       {
+        "id": "unodc_wdr_annex",
+        "name": "UNODC World Drug Report 2026, statistical annex",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html",
+        "citation": "UNODC, World Drug Report 2026, Statistical Annex (tables 6.x, 7.1, 8.1, 8.3, 11.1)."
+      },
+      {
         "id": "unodc_ids",
-        "name": "UNODC Individual Drug Seizures (IDS)",
-        "url": "https://dmp.unodc.org/downloadIDS"
+        "name": "UNODC Individual Drug Seizures (IDS), public release",
+        "url": "https://dmp.unodc.org/downloadIDS",
+        "citation": "UNODC Drugs Monitoring Platform, Individual Drug Seizures 2011-2026."
       },
       {
         "id": "wb_wdi",
-        "name": "World Bank World Development Indicators (source 2)",
-        "url": "https://api.worldbank.org/v2/sources/2"
+        "name": "World Bank World Development Indicators (API source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2",
+        "citation": "World Bank, World Development Indicators, via Indicators API v2 (CC BY 4.0)."
       },
       {
         "id": "wb_wgi",
-        "name": "World Bank Worldwide Governance Indicators (source 3)",
-        "url": "https://api.worldbank.org/v2/sources/3"
+        "name": "World Bank Worldwide Governance Indicators (API source 3)",
+        "url": "https://api.worldbank.org/v2/sources/3",
+        "citation": "World Bank, Worldwide Governance Indicators, via Indicators API v2 (CC BY 4.0)."
       },
       {
         "id": "gdelt",
         "name": "GDELT DOC 2.0 API",
-        "url": "https://api.gdeltproject.org/api/v2/doc/doc"
+        "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+        "citation": "The GDELT Project, DOC 2.0 API (article metadata and publication dates)."
       }
     ]
   },
   "data": {
-    "model_version": "trace-0.1.0-fixture",
     "backtest": {
       "train_through": 2019,
       "test_years": [
@@ -36,146 +45,275 @@
         2023,
         2024
       ],
+      "train_rows": 5408,
       "hurdle": {
-        "auc": 0.87,
-        "spearman": 0.71,
-        "precision_at_20": 0.55,
-        "n": 4120
+        "auc": 0.9242,
+        "spearman": 0.6655,
+        "precision_at_20": 0.5,
+        "n": 3380
       },
       "gravity_baseline": {
-        "auc": 0.74,
-        "spearman": 0.52,
-        "precision_at_20": 0.3,
-        "n": 4120
+        "auc": 0.6114,
+        "spearman": 0.5014,
+        "precision_at_20": 0.37,
+        "n": 3380
+      },
+      "persistence_baseline": {
+        "auc": 0.857,
+        "spearman": 0.6494,
+        "precision_at_20": 0.42,
+        "n": 3380
       },
       "per_drug": {
+        "cannabis": {
+          "auc": 0.9185,
+          "spearman": 0.6098,
+          "precision_at_20": 0.45,
+          "n": 1015
+        },
         "cocaine": {
-          "auc": 0.89,
-          "spearman": 0.74,
-          "precision_at_20": 0.6,
-          "n": 1210
+          "auc": 0.8903,
+          "spearman": 0.5863,
+          "precision_at_20": 0.39,
+          "n": 760
         },
         "heroin": {
-          "auc": 0.84,
-          "spearman": 0.66,
-          "precision_at_20": 0.5,
-          "n": 880
+          "auc": 0.9205,
+          "spearman": 0.5671,
+          "precision_at_20": 0.275,
+          "n": 980
         },
         "meth": {
-          "auc": 0.86,
-          "spearman": 0.7,
+          "auc": 0.9633,
+          "spearman": 0.7799,
           "precision_at_20": 0.55,
-          "n": 930
-        },
-        "cannabis": {
-          "auc": 0.88,
-          "spearman": 0.73,
-          "precision_at_20": 0.55,
-          "n": 1100
+          "n": 625
         }
       },
       "per_year": {
         "2020": {
-          "auc": 0.89,
-          "spearman": 0.74,
-          "precision_at_20": 0.55,
-          "n": 824
+          "auc": 0.9035,
+          "spearman": 0.5376,
+          "precision_at_20": 0.4,
+          "n": 676
         },
         "2021": {
-          "auc": 0.88,
-          "spearman": 0.72,
-          "precision_at_20": 0.55,
-          "n": 824
+          "auc": 0.9163,
+          "spearman": 0.6494,
+          "precision_at_20": 0.7,
+          "n": 676
         },
         "2022": {
-          "auc": 0.87,
-          "spearman": 0.71,
-          "precision_at_20": 0.55,
-          "n": 824
+          "auc": 0.9389,
+          "spearman": 0.6837,
+          "precision_at_20": 0.3,
+          "n": 676
         },
         "2023": {
-          "auc": 0.86,
-          "spearman": 0.69,
-          "precision_at_20": 0.55,
-          "n": 824
+          "auc": 0.9257,
+          "spearman": 0.7502,
+          "precision_at_20": 0.75,
+          "n": 676
         },
         "2024": {
-          "auc": 0.85,
-          "spearman": 0.68,
-          "precision_at_20": 0.55,
-          "n": 824
+          "auc": 0.9401,
+          "spearman": 0.6983,
+          "precision_at_20": 0.35,
+          "n": 676
         }
       },
       "top_features": [
         {
           "feature": "lag_log_kg",
           "label": "Last year's volume on this corridor",
-          "mean_abs_shap": 1.42
+          "mean_abs_shap": 1.5054
         },
         {
-          "feature": "cultivation_origin",
-          "label": "Cultivation upstream",
-          "mean_abs_shap": 0.51
+          "feature": "lag2_log_kg",
+          "label": "Volume two years ago",
+          "mean_abs_shap": 0.2664
         },
         {
-          "feature": "gdp_dest",
-          "label": "Destination market size (GDP)",
-          "mean_abs_shap": 0.38
+          "feature": "lag_share",
+          "label": "Corridor share of the drug's flows",
+          "mean_abs_shap": 0.2541
         },
         {
-          "feature": "contig",
-          "label": "Shared border",
-          "mean_abs_shap": 0.33
+          "feature": "log_seiz_to",
+          "label": "Seizures at destination",
+          "mean_abs_shap": 0.0857
         },
         {
-          "feature": "port_teu_origin",
-          "label": "Origin container port capacity",
-          "mean_abs_shap": 0.27
+          "feature": "log_seiz_from",
+          "label": "Seizures at origin",
+          "mean_abs_shap": 0.0646
+        },
+        {
+          "feature": "seiz_growth_from",
+          "label": "Seizure growth at origin",
+          "mean_abs_shap": 0.0373
+        },
+        {
+          "feature": "price_gap",
+          "label": "Price gap destination vs origin",
+          "mean_abs_shap": 0.0368
+        },
+        {
+          "feature": "seiz_growth_to",
+          "label": "Seizure growth at destination",
+          "mean_abs_shap": 0.0353
+        },
+        {
+          "feature": "log_growth",
+          "label": "Recent growth on the corridor",
+          "mean_abs_shap": 0.0298
+        },
+        {
+          "feature": "port_teu_to",
+          "label": "Destination container port capacity",
+          "mean_abs_shap": 0.0276
         }
-      ]
+      ],
+      "gravity_coefficients": {
+        "const": {
+          "coef": -10.3756,
+          "p": 0.0
+        },
+        "log_gdp_from": {
+          "coef": -0.3786,
+          "p": 0.0
+        },
+        "log_gdp_to": {
+          "coef": 0.602,
+          "p": 0.0
+        },
+        "log_pop_from": {
+          "coef": 0.614,
+          "p": 0.0
+        },
+        "log_pop_to": {
+          "coef": -0.186,
+          "p": 0.0004
+        },
+        "log_dist": {
+          "coef": -0.2573,
+          "p": 0.0069
+        },
+        "contig": {
+          "coef": -0.3075,
+          "p": 0.2381
+        },
+        "price_gap0": {
+          "coef": 0.0289,
+          "p": 0.6312
+        },
+        "price_missing": {
+          "coef": 0.3706,
+          "p": 0.0544
+        },
+        "fe_heroin": {
+          "coef": -1.9722,
+          "p": 0.0
+        },
+        "fe_meth": {
+          "coef": -2.8896,
+          "p": 0.0
+        },
+        "fe_cannabis": {
+          "coef": 0.962,
+          "p": 0.0
+        }
+      }
     },
+    "model_version": "trace-0.1.0",
     "afghan_ban": {
-      "direction_accuracy": 0.875,
-      "spearman": 0.81,
-      "verdict": "Direction of the heroin shift toward Southeast Asia reproduced on 7 of 8 edges."
+      "direction_accuracy": 0.8571,
+      "spearman": 0.433,
+      "verdict": "Trained only on data through 2021, the model given a 95% cut in Afghan opium predicted the direction of change on 12 of 14 major heroin corridors for 2023. The Southeast Asian share of heroin corridor volume was 5% in 2022; the model predicted 13% (vs 5% without the shock) and data later showed 14%.",
+      "n_edges": 14,
+      "sea_share_before": 0.0531,
+      "sea_share_predicted": 0.127,
+      "sea_share_predicted_no_shock": 0.0514,
+      "sea_share_actual": 0.1407
     },
     "spillover": {
-      "hypothesis": "Predicted route exposure predicts a significant rise in homicide or HIV incidence within 3 years, beyond vulnerability alone.",
-      "outcome": "homicide rate up >= 20% or HIV incidence up >= 20% within 3 years",
-      "n": 1830,
-      "auc_vulnerability_only": 0.61,
-      "auc_with_exposure": 0.66,
-      "exposure_coef": 0.34,
-      "lr_p_value": 0.004,
-      "supported": true,
-      "statement": "Exposure adds predictive power beyond vulnerability (AUC 0.61 to 0.66, likelihood-ratio p = 0.004).",
+      "hypothesis": "Route exposure at year t predicts a significant rise in homicide or HIV incidence within 3 years, beyond vulnerability and the baseline outcome level.",
+      "outcome": "homicide rate or HIV incidence (15-49) up >= 20% (and >= 1 per 100k / 0.05 per 1,000) within 3 years",
+      "n": 3313,
+      "auc_vulnerability_only": 0.686,
+      "auc_with_exposure": 0.7004,
+      "exposure_coef": -0.01019,
+      "lr_p_value": 1.3e-05,
+      "supported": false,
+      "statement": "Route exposure lowers the odds of a 20%+ rise in homicide or HIV incidence within 3 years (odds ratio 0.90 per 10 exposure points, LR test p = 1.3e-05, n = 3313). Cross-validated AUC 0.686 (vulnerability + baseline) vs 0.700 (+ exposure). The hypothesis is not supported. Secondary test (2-year change in exposure, i.e. a route moving in): odds ratio 0.96 per 10 points, p = 0.595.",
       "by_outcome": {
-        "homicide": {
-          "n": 1560,
-          "auc_vulnerability_only": 0.6,
-          "auc_with_exposure": 0.65,
-          "lr_p_value": 0.006
-        },
         "hiv": {
-          "n": 1320,
-          "auc_vulnerability_only": 0.63,
-          "auc_with_exposure": 0.64,
-          "lr_p_value": 0.21
+          "n": 1882,
+          "positives": 68,
+          "auc_vulnerability_only": 0.5055,
+          "auc_with_exposure": 0.3271,
+          "exposure_coef": -0.00278,
+          "exposure_odds_ratio_per_10pts": 0.9726,
+          "lr_p_value": 0.524262
+        },
+        "homicide": {
+          "n": 1431,
+          "positives": 207,
+          "auc_vulnerability_only": 0.6845,
+          "auc_with_exposure": 0.6879,
+          "exposure_coef": -0.01328,
+          "exposure_odds_ratio_per_10pts": 0.8756,
+          "lr_p_value": 2e-06
         }
+      },
+      "secondary_exposure_change": {
+        "hiv": {
+          "n": 1592,
+          "positives": 57,
+          "auc_vulnerability_only": 0.4945,
+          "auc_with_exposure": 0.4713,
+          "exposure_coef": -0.00852,
+          "exposure_odds_ratio_per_10pts": 0.9184,
+          "lr_p_value": 0.493137
+        },
+        "homicide": {
+          "n": 1162,
+          "positives": 176,
+          "auc_vulnerability_only": 0.6968,
+          "auc_with_exposure": 0.6929,
+          "exposure_coef": -0.00219,
+          "exposure_odds_ratio_per_10pts": 0.9783,
+          "lr_p_value": 0.796394
+        },
+        "combined": {
+          "n": 2754,
+          "positives": 233,
+          "auc_vulnerability_only": 0.707,
+          "auc_with_exposure": 0.7053,
+          "exposure_coef": -0.00358,
+          "exposure_odds_ratio_per_10pts": 0.9649,
+          "lr_p_value": 0.595339
+        }
+      },
+      "method": "Nested logistic regressions (statsmodels), likelihood-ratio test for the exposure term; AUC from 5-fold cross-validation grouped by country. Observed (not forward-filled) World Bank outcomes. Primary predictor: exposure level at t; secondary: change in exposure from t-2 to t.",
+      "weights": {
+        "exposure": 0.45,
+        "vulnerability": 0.35,
+        "protection": 0.2
       }
     },
     "livewire": {
       "classifier": "mock",
       "n_labeled": 100,
       "field_accuracy": {
-        "is_event": 0.86,
-        "event_type": 0.74,
-        "drug": 0.88,
-        "origin": 0.61,
-        "destination": 0.64,
-        "size": 0.58
+        "is_event": 0.81,
+        "event_type": 0.8,
+        "drug": 0.89,
+        "origin": 0.89,
+        "destination": 0.52,
+        "size": 0.96
       },
-      "note": "Mock keyword classifier; Jev accuracy will be reported once a key is available."
+      "note": "Evaluated on 100 synthetic headlines with provisional labels drafted by the backend agent (jev/data/labeled_eval.json); the mock's rules were written alongside them, so treat these as an upper bound. Re-run on team hand-labelled GDELT articles, and with Jev once a key exists."
     }
   }
 }
