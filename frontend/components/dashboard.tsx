@@ -833,7 +833,7 @@ export default function Dashboard() {
                       observedOverview ? <EvidenceMarkets overview={observedOverview} drug={drug} countries={countries} /> : observedError ? <Empty>Observed market data could not load: {observedError}</Empty> : <Empty>Loading observed market data…</Empty>
                     )}
                     {view === "experiment" && (
-                      observedOverview ? <EvidenceResearch overview={observedOverview} experiment={experiment} /> : observedError ? <Empty>Research evidence could not load: {observedError}</Empty> : <Empty>Loading research evidence…</Empty>
+                      observedOverview ? <EvidenceResearch overview={observedOverview} experiment={experiment} countries={countries} /> : observedError ? <Empty>Research evidence could not load: {observedError}</Empty> : <Empty>Loading research evidence…</Empty>
                     )}
                   </motion.div>
                 )}
