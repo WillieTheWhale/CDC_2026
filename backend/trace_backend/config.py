@@ -15,7 +15,7 @@ DATA = BACKEND / "data"
 RAW = DATA / "raw"
 PROCESSED = DATA / "processed"
 CACHE = DATA / "cache"
-API_DIR = PROCESSED / "api"
+API_DIR = Path(os.environ["TRACE_API_DIR"]) if os.environ.get("TRACE_API_DIR") else PROCESSED / "api"
 SEED = BACKEND / "trace_backend" / "seed"  # small, citable, hand-transcribed reference tables (committed)
 
 
