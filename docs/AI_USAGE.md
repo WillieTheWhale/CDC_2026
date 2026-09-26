@@ -1,3 +1,4 @@
+<!-- AI-assisted: maintained with Codex (OpenAI). See this file for the usage log. -->
 # AI Usage Log (CDC citation requirement)
 
 CDC rules allow generative AI tools but require citing where they are used. Every AI-written file also carries a header comment. Append one line per session: date, tool, who ran it, what it produced.
@@ -63,3 +64,4 @@ CDC rules allow generative AI tools but require citing where they are used. Ever
 - 2026-09-26, Claude Code (Anthropic), Markandeya: migrated the backend from DuckDB to the owner-selected SQLite v2 archive (`trace_backend/db.py`, `ingest/prepare.py`), made HRI protection per edition, retrained all models, regenerated fixtures, added migration tests.
 - 2026-09-26 — ChatGPT (OpenAI, GPT-6 Astra with regional research subagents), operated by William Keffer: researched primary UNODC, EUDA, INCB and OAS route evidence; implemented zoom-tier country corridor visibility and a separately dated, cited route-evidence layer in the TRACE frontend. No city-to-city flows or trafficked volumes were invented from public seizure locations.
 - 2026-09-26, Claude Code (Anthropic), Ismail: exploratory analyses (country roles, World Bank/agriculture profiles, UN Comtrade trade ties, UNODC prevalence by route role) and pitch suggestions in `deck/suggestions/ismail/`. AI wrote the analysis code and text; figures come from cited sources (World Bank API, Pink Sheet, UN Comtrade, SQLite v2 release). Deck content itself was not edited.
+- 2026-09-26 — Codex (OpenAI, GPT-5), operated by the project maintainer: reconciled the TRACE pitch deck, judge Q&A, and Devpost copy with the SQLite v2 migration and retrained model fixtures; made generated provenance paths stable across operating systems; reviewed Ismail's cited pitch suggestions and replaced unsupported causal route-harm wording with caveated cross-sectional evidence; rebuilt and verified the deck without inventing measurements.

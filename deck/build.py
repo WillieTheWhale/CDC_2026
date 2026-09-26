@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+# AI-assisted: written with Claude Code (Anthropic) and maintained with Codex (OpenAI). See docs/AI_USAGE.md.
 """Rebuild the TRACE pitch deck from the repository.
 
 The deck never hard-codes a number. Everything it shows is read back out of the
@@ -133,7 +133,7 @@ def read_metrics(readme: str, data: dict) -> None:
             data["metrics"]["gravity_auc"] = f"{bt['gravity_baseline']['auc']:.2f}"
         if bt.get("train_through"):
             data["metrics"]["train_through"] = str(bt["train_through"])
-        data["provenance"]["metrics"] = str(src.relative_to(REPO))
+        data["provenance"]["metrics"] = src.relative_to(REPO).as_posix()
 
     # README carries the numbers from the real run, so it wins over fixtures.
     pat = [
@@ -203,7 +203,7 @@ def read_afghan(data: dict) -> None:
     if out:
         data["charts"]["afghan"] = {"series": out, "ban_year": d.get("ban_year", 2022),
                                     "title": d.get("title", "Afghanistan 2022 opium ban")}
-        data["provenance"]["afghan"] = str(src.relative_to(REPO))
+        data["provenance"]["afghan"] = src.relative_to(REPO).as_posix()
 
 
 def read_screenshots(data: dict) -> None:

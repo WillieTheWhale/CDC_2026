@@ -1,4 +1,4 @@
-<!-- AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md. -->
+<!-- AI-assisted: written with Claude Code (Anthropic) and maintained with Codex (OpenAI). See docs/AI_USAGE.md. -->
 # Devpost submission copy
 
 Paste-ready. Numbers here track `README.md`; re-check them against the status table before submitting.
@@ -26,9 +26,11 @@ tonnes of stockpile, Myanmar became the leading producer again, and more than 9,
 appeared in Pakistan's Balochistan — a province no UN survey covers. For three years, nobody could tell
 the countries on the new routes that they were coming.
 
-That gap is the problem. Trafficking routes shift constantly, and the countries they pass through inherit
-the consequences — rising local use, violence, HIV — usually years before any official statistic records
-it. Every dataset that tells you a drug crisis arrived is two to five years old: homicide data through
+That gap is the problem. Trafficking routes shift constantly. In our cross-sectional analysis, surveyed
+route countries have 3.5× the cocaine-use prevalence of off-route countries and 2.5× the homicide rate of
+destination-only countries. Those are associations, not causal effects: our prospective spillover test did
+not find added homicide or HIV signal once vulnerability was controlled. Every dataset that tells you a
+drug crisis arrived is two to five years old: homicide data through
 2023, HIV incidence through 2024, poverty through 2022, drug prevalence through 2021. Harm reduction
 arrives after the crisis. Every time.
 
@@ -53,7 +55,8 @@ where enforcement is weakest or which routes are least watched.
 ## How we built it
 
 **Data.** The World Bank Indicators API is called programmatically with explicit source IDs — 24 indicators
-across 217 economies, 2005–2026, nulls preserved, provenance recorded per value. That layer does five
+across 217 economies, with history from 1960–2025, nulls preserved and provenance recorded per value in a
+checksum-verified, read-only SQLite v2 archive. That layer does five
 distinct jobs: market mass for the gravity model, route friction, vulnerability, validation targets, and
 detection-bias control. External sources (all cited): UNODC Individual Drug Seizures (~2.3M cases), the
 UNODC World Drug Report statistical annex, the Global Organized Crime Index, Harm Reduction International's
@@ -71,7 +74,7 @@ rather than a probability: TypeSafe publishes no calibration metrics, and indepe
 rising out of distribution. A confident event landing on a corridor the model gave under 10%
 probability is flagged as an anomaly: the model announcing its own misses.
 
-**Stack.** Python 3.11, uv, DuckDB, pandas, statsmodels, LightGBM, scikit-learn, SHAP, FastAPI with a
+**Stack.** Python 3.11, uv, SQLite, pandas, statsmodels, LightGBM, scikit-learn, SHAP, FastAPI with a
 WebSocket Live Wire, APScheduler. Next.js, TypeScript, Tailwind, deck.gl `ArcLayer` over MapLibre, cmdk,
 Recharts. Contract-first development: an OpenAPI spec and fixtures were committed before any backend logic
 so the frontend could build in parallel.
@@ -92,10 +95,10 @@ so the frontend could build in parallel.
 
 ## Accomplishments we're proud of
 
-- A held-out backtest: the hurdle model reaches 0.92 AUC on corridor activation against 0.61 for the
+- A held-out backtest: the hurdle model reaches 0.88 AUC on corridor activation against 0.58 for the
   standard economics baseline, trained through 2019 and evaluated on 2020–2024.
-- The Afghan ban test: trained through 2021, shocked with the cultivation collapse, the model called 12 of
-  14 corridor shifts in the right direction and predicted a Southeast Asia share of 12% against the 14% the
+- The Afghan ban test: trained through 2021, shocked with the cultivation collapse, the model called 9 of
+  13 corridor shifts in the right direction and predicted a Southeast Asia share of 14% against the 13% the
   later data showed.
 - Publishing a result that went against us. Our core spillover hypothesis was not supported: route exposure
   alone does not predict later rises in homicide or HIV once vulnerability is controlled for. We committed
@@ -117,14 +120,14 @@ partner in a single transit corridor, measured against real service placement.
 ---
 
 ## Built with
-`python` · `duckdb` · `pandas` · `statsmodels` · `lightgbm` · `scikit-learn` · `shap` · `fastapi` ·
+`python` · `sqlite` · `pandas` · `statsmodels` · `lightgbm` · `scikit-learn` · `shap` · `fastapi` ·
 `websockets` · `apscheduler` · `nextjs` · `typescript` · `tailwind` · `deck.gl` · `maplibre` · `recharts` ·
 `world-bank-api` · `unodc` · `gdelt` · `jev` · `typesafe-ai` · `anthropic` · `uv`
 
 ## Data sources (all cited)
 World Bank Indicators API (WDI source 2, WGI source 3) · UNODC Drugs Monitoring Platform, Individual Drug
 Seizures · UNODC World Drug Report statistical annex · UNODC crop surveys (Afghanistan, Myanmar) · Global
-Organized Crime Index (GI-TOC) · Harm Reduction International, Global State of Harm Reduction 2024 · CEPII
+Organized Crime Index (GI-TOC) · Harm Reduction International, Global State editions 2008–2024 · CEPII
 GeoDist · GDELT DOC 2.0 · Natural Earth. Full table with codes, freshness and links:
 [`docs/DATA_SOURCES.md`](../docs/DATA_SOURCES.md).
 

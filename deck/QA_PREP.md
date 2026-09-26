@@ -1,4 +1,4 @@
-<!-- AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md. -->
+<!-- AI-assisted: written with Claude Code (Anthropic) and maintained with Codex (OpenAI). See docs/AI_USAGE.md. -->
 # Q&A prep — 2 minutes, four people, no freezing
 
 **Two minutes admits three, maybe four questions.** A 60-second first answer eats the panel's remaining
@@ -43,23 +43,28 @@ friction (governance, customs efficiency, port TEU, air traffic, trade openness)
 unemployment, NEET, poverty, Gini, health spend); validation targets (homicide, HIV incidence, refugee
 flows); and detection-bias control. Remove it and there are no market sizes, no friction terms and no
 vulnerability layer — the model stops existing. We call the API programmatically with explicit source
-IDs, paginated, nulls preserved, with provenance recorded per value.
+IDs, paginated, nulls preserved, with provenance recorded per value. The resulting 1960–2025 history is
+read from a checksum-verified SQLite v2 archive; derived model tables live separately so the source archive
+stays unchanged.
 
 **4. "Your spillover hypothesis failed. Doesn't that undercut the project?"** — *Adrian (S4)*
 It's the finding, not a failure, and the literature lands in the same place. A 2026 panel of 95 countries
 in the European Journal on Criminal Policy and Research finds the cocaine–homicide association shows up in
 random effects but not fixed effects — the link is structural position on a trafficking corridor, not
 within-country variation over time. Our national, level-based test was asking the question that study
-says comes up null. The causal work that does find route effects — Dell's 2015 AER paper on Mexican
+says comes up null. That can coexist with our cross-sectional result: surveyed route countries show
+3.5× the cocaine-use prevalence of off-route countries and 2.5× the homicide rate of destination-only
+countries; that tells us where the burden sits, not that route arrival caused it. The causal work that
+does find route effects — Dell's 2015 AER paper on Mexican
 route diversion, Castillo, Mejía and Restrepo in REStat on Colombian supply shocks — identifies
 *transitions and shocks*, sub-nationally, not steady-state exposure at country level. So: exposure alone
 isn't destiny, exposure without protection is, and that's why the risk score has three columns. A team
 that only reports the results that worked is a team you should trust less.
 
-**5. "AUC 0.92 sounds high. Are you leaking future information?"** — *Markandeya (S3)*
+**5. "AUC 0.88 sounds high. Are you leaking future information?"** — *Markandeya (S3)*
 Strict temporal split: trained through 2019, evaluated on 2020–2024, no target-derived features, and
 lagged volume is last year's value only. The gravity baseline runs on the identical splits and gets
-0.61, which is the sanity check — if we were leaking, the baseline would be inflated too. The Afghan
+0.58, which is the sanity check — if we were leaking, the baseline would be inflated too. The Afghan
 test is stronger evidence still: trained through 2021, shocked, and checked against data the model
 never saw.
 
@@ -128,7 +133,8 @@ one of the things a route model is for.
 Fair challenge, and worth separating. Myanmar is the world's leading producer again (1,010 t in 2025), but
 UNODC attributes that mainly to internal conflict, not Afghan displacement — Myanmar's increase offsets
 under 4% of Afghanistan's loss. UNODC treats a Southeast Asian route shift as an expectation, not a
-measurement. Our 13% is our own corridor allocation, not a UN figure, and we say so on the slide. The more
+measurement. The model predicted a 14% Southeast Asian share; our later-data corridor allocation is 13%,
+not a UN figure, and we say so on the slide. The more
 striking relocation is next door: over 9,000 hectares appeared in Pakistan's Balochistan in 2025, in a
 place UNODC does not survey at all. That is precisely the blind spot we built this to see.
 
@@ -184,8 +190,9 @@ touched plus a dated log in `docs/AI_USAGE.md`. We also cite the statistical met
 Silva and Tenreyro, LightGBM from Ke et al., SHAP from Lundberg and Lee.
 
 **"What's not built yet?"** — *whoever is asked*
-Answer plainly, then redirect to the demo. Check `README.md`'s status table the morning of judging so
-the answer is current — and don't claim more than it says.
+Answer plainly, then redirect to the demo. Verify the running workspace and current commit the morning of
+judging. The frontend rows in `README.md` are stale as of 2026-09-26 even though the workspace is built and
+screenshotted, so do not repeat those rows on stage; the backend owner should correct them before judging.
 
 **"What happens if GDELT is down during the demo?"** — *Markandeya (S3)*
 It has been, from our network — it returns 429s. The poller keeps GDELT's rate spacing and retries,

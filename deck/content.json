@@ -1,5 +1,5 @@
 {
-  "_ai_assisted": "Written with Claude Code (Anthropic). See docs/AI_USAGE.md.",
+  "_ai_assisted": "AI-assisted: written with Claude Code (Anthropic) and maintained with Codex (OpenAI). See docs/AI_USAGE.md.",
   "_note": "Source of truth for the TRACE pitch deck. Edit here, then run: python3 deck/build.py",
   "meta": {
     "title": "TRACE",
@@ -255,8 +255,8 @@
           "scale": "l",
           "items": [
             "A trafficking route is not a line on a map.",
-            "It is a country that inherits",
-            "a drug crisis it did not create."
+            "It is a country carrying",
+            "a burden it did not create."
           ]
         },
         {
@@ -264,22 +264,26 @@
           "columns": 3,
           "items": [
             {
-              "title": "Local use rises",
-              "text": "Transit countries become consumer markets. Product is paid out in product."
+              "title": "Local use is higher",
+              "text": "Cocaine use: 1.52% on documented routes, 0.43% off them — 3.5×."
             },
             {
-              "title": "Violence follows",
-              "text": "Corridor control is contested territory, and the homicide data proves it late."
+              "title": "Violence is higher",
+              "text": "Homicide: 3.0 per 100,000 in route countries, 1.2 in destination-only — 2.5×."
             },
             {
-              "title": "HIV follows",
-              "text": "Injecting populations appear years before any surveillance system sees them."
+              "title": "Routes are not destiny",
+              "text": "Cross-sectional only. Our prospective homicide/HIV test was null once vulnerability was controlled."
             }
           ]
+        },
+        {
+          "type": "source",
+          "text": "TRACE exploratory analysis · UNODC WDR 2026 annex 1.2 + World Bank VC.IHR.PSRC.P5 · route roles from 234 documented UNODC corridors · cross-sectional, not causal"
         }
       ],
       "cues": [
-        "This is the social-good core. Slow down here.",
+        "This is cross-sectional evidence, not a causal claim. Say that if you quote the numbers.",
         "Name the asymmetry: the harm lands furthest from where the decisions get made.",
         "Handoff is coming — set up the next line."
       ]
@@ -421,7 +425,7 @@
             {
               "sid": "country-screen",
               "title": "COUNTRY",
-              "text": "COL &lt;GO&gt; — 2025 Colombia profile, score 64.5, harm-reduction coverage, every figure carrying its source and year",
+              "text": "COL &lt;GO&gt; — 2025 Colombia profile, score 62.8, harm-reduction coverage, every figure carrying its source and year",
               "spec": "Colombia country profile, 1440×960, all panels populated."
             },
             {
@@ -439,7 +443,7 @@
             {
               "sid": "market-board",
               "title": "MARKETS",
-              "text": "Fifty-seven price series; missing years render as unavailable, never as zero",
+              "text": "Eighty-five price series; missing years render as unavailable, never as zero",
               "spec": "Markets panel, drug and market filters applied."
             },
             {
@@ -469,11 +473,11 @@
           "items": [
             {
               "cmd": "COL <GO>",
-              "out": "Colombia 2025 · risk 64.5 · harm-reduction coverage · every figure sourced and dated"
+              "out": "Colombia 2025 · risk 62.8 · harm-reduction coverage · every figure sourced and dated"
             },
             {
               "cmd": "COMPARE COL PER",
-              "out": "64.5 against 73.1 · side by side"
+              "out": "62.8 against 71.4 · side by side"
             },
             {
               "cmd": "SHOCK COL CULTIVATION -50%",
@@ -515,12 +519,12 @@
             {
               "value": "{{counts.economies}}",
               "label": "economies",
-              "source": "aggregates filtered out, 1960–2025"
+              "source": "SQLite v2 archive, 1960–2025; aggregates filtered out"
             },
             {
               "value": "{{counts.ids_cases}}",
               "label": "UNODC seizure cases",
-              "source": "Individual Drug Seizures, 2011–2026"
+              "source": "Individual Drug Seizures, 2006–2024"
             },
             {
               "value": "{{counts.corridors}}",
