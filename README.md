@@ -10,10 +10,11 @@ TRACE maps trafficking routes for cocaine and crack, heroin, meth, and cannabis;
 | If you are | Read |
 |---|---|
 | Anyone | [docs/SYSTEM_DESIGN.md](docs/SYSTEM_DESIGN.md), [docs/CONTEXT_LOG.md](docs/CONTEXT_LOG.md) |
-| Backend (Claude Code) | [CLAUDE.md](CLAUDE.md), [docs/BACKEND_BRIEF.md](docs/BACKEND_BRIEF.md) |
+| Backend (Claude Code) | [CLAUDE.md](CLAUDE.md), [docs/BACKEND_BRIEF.md](docs/BACKEND_BRIEF.md), [backend/README.md](backend/README.md) (setup, `uv run trace pipeline`, `uv run trace serve`, results) |
 | Frontend (ChatGPT Astra) | [AGENTS.md](AGENTS.md), [docs/FRONTEND_BRIEF.md](docs/FRONTEND_BRIEF.md) |
 | Data questions | [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md), [skills/world-bank-indicators-api/SKILL.md](skills/world-bank-indicators-api/SKILL.md) |
 | Handoff prompts | [docs/HANDOFF_PROMPT.md](docs/HANDOFF_PROMPT.md) |
+| Blockers and workarounds | [docs/BLOCKERS.md](docs/BLOCKERS.md) |
 | Rules and rubric | [docs/CDC_RULES.md](docs/CDC_RULES.md), [docs/AI_USAGE.md](docs/AI_USAGE.md) |
 
 ## Layout
@@ -32,9 +33,9 @@ skills/      World Bank Indicators API skill
 | T0 API contract + fixtures | backend | done (`contracts/`) |
 | T1 backend scaffold | backend | done (uv, Python 3.11, `trace` CLI) |
 | T2 World Bank ingest | backend | done (24 indicators, 217 economies, 2005-2026, `wb_manifest.json`) |
-| T3 external ingest (UNODC, OC Index, HRI, CEPII) | backend | done (IDS 2.3M cases, WDR annex, OC Index x3, HRI 193 countries, CEPII; see BLOCKERS.md) |
+| T3 external ingest (UNODC, OC Index, HRI, CEPII) | backend | done (IDS 2.3M cases, WDR annex, OC Index x3, HRI 197 countries, CEPII; see BLOCKERS.md) |
 | T4 edges + confidence | backend | done (676 corridors x 2011-2024, seizure-anchored allocation, 6-signal confidence) |
-| T5 route models + backtest + Afghan ban test | backend | done (hurdle AUC 0.92 vs gravity 0.61; Afghan ban 12/14 corridors, SEA share 5%->12% pred vs 14% actual) |
+| T5 route models + backtest + Afghan ban test | backend | done (hurdle AUC 0.92 vs gravity 0.61; Afghan ban 12/14 corridors, SEA share 5%->13% pred vs 14% actual) |
 | T6 spillover risk | backend | done (217 countries x 2011-2025; hypothesis not supported, see metrics) |
 | T7 export + API | backend | done (precomputed JSON, FastAPI, contract tests) |
 | T8 Live Wire (mock Jev) | backend | done (JevClassifier + mock, GDELT poller with replay fallback, REST + WS) |
@@ -42,6 +43,11 @@ skills/      World Bank Indicators API skill
 | Frontend shell + map | frontend | not started |
 | Country Screen + Risk Board | frontend | not started |
 | Simulator, Live Wire, Market Board | frontend | not started |
+
+## Headline results (backend, 2026-09-26)
+- Route model backtest (train on targets through 2019, test 2020-2024): hurdle AUC 0.92 vs 0.61 for the PPML gravity baseline; Spearman 0.67; precision@20 0.50.
+- Afghan opium ban: trained through 2021, the model got the direction right on 12 of 14 major heroin corridors and predicted the Southeast Asian share rising from 5% to 13% (actual 14%).
+- Spillover hypothesis: **not supported.** Route exposure did not predict later rises in homicide or HIV beyond vulnerability; if anything it predicted lower odds. Details in [backend/README.md](backend/README.md).
 
 ## Data and AI citations
 All sources: [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md). All AI use: [docs/AI_USAGE.md](docs/AI_USAGE.md).

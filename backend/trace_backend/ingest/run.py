@@ -151,7 +151,7 @@ def run(refresh: bool = False) -> dict:
         status.setdefault("cepii_geodist", {})["status"] = "fallback"
 
     # --- corridor seed
-    seed = pd.read_csv(SEED_CORRIDORS)
+    seed = pd.read_csv(SEED_CORRIDORS, comment="#")
     seed = seed[seed["from"].isin(countries["iso3"]) & seed["to"].isin(countries["iso3"])]
     db.write_table("corridors_seed", seed.rename(columns={"from": "from_iso3", "to": "to_iso3"}))
     status["corridors_seed"] = {"status": "live", "rows": len(seed), "path": "backend/trace_backend/seed/corridors.csv"}

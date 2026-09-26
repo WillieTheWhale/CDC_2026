@@ -11,10 +11,17 @@ CDC rules allow generative AI tools but require citing where they are used. Ever
 | Component | Model | Purpose |
 |---|---|---|
 | Live Wire classifier | Jev (TypeSafe AI), pinned `jev-1.13.0`; mock until key is available | Classify news events into typed fields |
-| Command bar parsing | Jev | Map free text to command intents |
-| Country briefings, scenario parsing | Claude (Anthropic) | Short text briefings; plain English to structured shocks |
+| Command bar parsing | Rule parser today (Jev planned) | Map free text to command intents; refuses design-boundary requests |
+| Country briefings | none (template) | Briefings come from a deterministic data template (`export/build.py::briefing`); no LLM at runtime |
+| Scenario parsing | Rules first; Claude (`claude-opus-5`, structured output) only as a fallback when `ANTHROPIC_API_KEY` is set | Plain English to structured shocks (`model/scenario.py`) |
 
 ## Statistical methods to cite in the writeup
 - PPML gravity model: Santos Silva and Tenreyro (2006), "The Log of Gravity", Review of Economics and Statistics.
 - LightGBM: Ke et al. (2017), NeurIPS.
 - SHAP: Lundberg and Lee (2017), NeurIPS.
+
+## Backend build details (Claude Code session, 2026-09-26)
+- Every backend file carries the header `# AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.` JSON fixtures and data files cannot hold comments; `contracts/README.md`, `backend/trace_backend/seed/README.md`, and the `_about` field of `jev/data/labeled_eval.json` cover them.
+- `backend/trace_backend/seed/corridors.csv` was compiled by Claude Code from UNODC and EUDA publications (cited per row). The team should spot-check it.
+- `backend/trace_backend/jev/data/labeled_eval.json`: 100 **synthetic** headlines with provisional labels drafted by Claude Code. They are not real articles. Replace or verify them with team hand-labels before quoting classifier accuracy.
+- Methods implemented with AI help and cited in the code: PPML gravity (Santos Silva and Tenreyro 2006), LightGBM (Ke et al. 2017), SHAP TreeExplainer (Lundberg and Lee 2017), nested logistic regression with a likelihood-ratio test, grouped cross-validation (scikit-learn, statsmodels).

@@ -1,3 +1,4 @@
+<!-- AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md. -->
 # data/
 
 Everything here except this README is gitignored and reproducible: `uv run trace pipeline`.

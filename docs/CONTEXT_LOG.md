@@ -77,7 +77,7 @@ Stated preferences, in the order they came up:
 ## 6. Open items
 
 - Confirm exact submission deadline and presentation time.
-- Verify the UNODC IDS public download (may need free registration at dmp.unodc.org).
+- ~~Verify the UNODC IDS public download~~ Done 2026-09-26: no login needed, but the public release has no route fields (see BLOCKERS.md).
 - Get a Jev key (console.typesafe.ai waitlist, or Vercel AI Gateway).
 - Confirm with CDC organizers that using external AI APIs (Jev, Claude) at runtime is fine (rules allow generative AI tools with citation).
 - Pick deploy targets (Vercel + Railway/Render proposed).

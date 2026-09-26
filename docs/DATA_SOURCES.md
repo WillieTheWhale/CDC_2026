@@ -1,4 +1,4 @@
-# Data Sources (verified 2026-09-26)
+# Data Sources (verified 2026-09-26; retrieval results added by the backend build)
 
 Every World Bank code below was checked against the live API on 2026-09-26. "Latest" = most recent year with any non-null value; "typical" = median latest year across economies. Always read `skills/world-bank-indicators-api/SKILL.md` before calling the API.
 
@@ -45,6 +45,38 @@ Base: `https://api.worldbank.org/v2`. No key. Always pass `format=json` and an e
 | Outcome | Refugees by origin | `SM.POP.RHCR.EO` | 2 | 2025 | |
 | Metadata | Region, income group, capital lat/long | `/country?format=json&per_page=400` | n/a | n/a | map placement |
 
+### Retrieval results (backend T2, 2026-09-26)
+Pulled programmatically by `backend/trace_backend/wb/` (`uv run trace wb`): 217 economies (78 aggregates dropped), years 2005-2026, 108,528 rows (71,684 non-null; nulls kept). Per-indicator provenance (API URL, pages, `lastupdated`, `retrieved_at`) is written to `backend/data/processed/wb_manifest.json`.
+
+| Code | Source | Non-null rows | Economies with data | Latest | Typical latest |
+|---|---|---|---|---|---|
+| GOV_WGI_CC.EST | 3 | 4,281 | 207 | 2025 | 2025 |
+| GOV_WGI_RL.EST | 3 | 4,310 | 207 | 2025 | 2025 |
+| GOV_WGI_GE.EST | 3 | 4,268 | 205 | 2025 | 2025 |
+| GOV_WGI_PV.EST | 3 | 4,310 | 207 | 2025 | 2025 |
+| LP.LPI.OVRL.XQ | 2 | 1,071 | 169 | 2022 | 2022 (forward-filled up to 8 years, flagged `imputed`) |
+| LP.LPI.CUST.XQ | 2 | 1,071 | 169 | 2022 | 2022 (model control only; never exposed by the API) |
+| IS.SHP.GOOD.TU | 2 | 2,232 | 168 | 2024 | 2024 |
+| IS.AIR.PSGR | 2 | 2,886 | 172 | 2023 | 2023 |
+| NE.TRD.GNFS.ZS | 2 | 3,743 | 192 | 2025 | 2025 |
+| NY.GDP.MKTP.CD | 2 | 4,392 | 214 | 2025 | 2025 |
+| NY.GDP.PCAP.PP.KD | 2 | 4,138 | 199 | 2025 | 2025 |
+| SP.POP.TOTL | 2 | 4,557 | 217 | 2025 | 2025 |
+| SL.UEM.1524.ZS | 2 | 3,913 | 187 | 2025 | 2025 |
+| SL.UEM.NEET.ZS | 2 | 1,966 | 180 | 2025 | 2024 |
+| SI.POV.DDAY | 2 | 1,542 | 168 | 2025 | 2021 |
+| SI.POV.GINI | 2 | 1,542 | 168 | 2025 | 2021 |
+| SH.XPD.CHEX.PC.CD | 2 | 3,632 | 193 | 2024 | 2023 |
+| FX.OWN.TOTL.ZS | 2 | 705 | 161 | 2024 | 2024 |
+| BX.TRF.PWKR.DT.GD.ZS | 2 | 3,593 | 191 | 2025 | 2024 |
+| VC.IHR.PSRC.P5 | 2 | 2,487 | 193 | 2023 | 2022 |
+| SH.HIV.INCD.ZS | 2 | 2,893 | 146 | 2024 | 2024 |
+| VC.BTL.DETH | 2 | 657 | 71 | 2024 | 2024 |
+| SM.POP.RHCR.EA | 2 | 3,515 | 187 | 2025 | 2025 |
+| SM.POP.RHCR.EO | 2 | 3,980 | 203 | 2025 | 2025 |
+
+Indicator metadata (name, unit, source organization, source note) is pulled from `/indicator/{code}?source={id}` into the DuckDB table `wb_indicator_meta`.
+
 ### Other World Bank facts gathered (useful context)
 - 71 sources in the API, 87 databases in DataBank (some DataBank-only).
 - WDI last updated 2026-07-13; Worldwide Governance Indicators 2026-09-25; Global Economic Monitor 2026-09-08 (the only near-live WB data: monthly and daily).
@@ -70,6 +102,19 @@ Base: `https://api.worldbank.org/v2`. No key. Always pass `format=json` and an e
 | Stretch: ACLED | Near-real-time violence events | free account |
 | Stretch: EU Drugs Agency (EUDA) | European prices, purity, wastewater | https://www.euda.europa.eu |
 | Stretch: Global Burden of Disease (IHME) | Drug use disorder deaths | https://vizhub.healthdata.org/gbd-results/ |
+
+### How each external source was actually used (backend T3, 2026-09-26)
+Every download is scripted in `backend/trace_backend/ingest/` (`uv run trace ingest`). Raw files stay in the gitignored `backend/data/raw/`. Status per source is in `backend/data/processed/ingest_manifest.json` and in `GET /api/meta`.
+
+| Source | Files | Used for | Notes |
+|---|---|---|---|
+| UNODC IDS (public) | `IDS-data-2011_17-May24.xlsx`, `IDS-data-2018-2022.xlsx`, `IDS-data-2023-2026.xlsx` from `dmp.unodc.org/sites/dmp.local/files/...` (no login needed) | 2.33M seizure cases -> country-year-drug totals; 2011-2014 backcast; destination case counts | **The public release has no departure/transit/destination fields**, so route hops cannot be built from it (the loader is ready if a release adds them). See `docs/BLOCKERS.md`. |
+| UNODC WDR 2026 annex | 7.1 seizures 2015-2024; 6.1.1 coca; 6.2.1 opium; 6.2.2 opium production; 8.1 prices; 8.3 price series (W. Europe, US); 11.1 cannabis regulation; route maps 7.2-7.4 (PDF) | Node seizure volumes (primary), cultivation and production, price gradients and Market Board, legalization flags; corridor transcription | Opium converted to heroin-equivalent at 10:1; cocaine "total" rows preferred over components; coca leaf and bush excluded |
+| UNODC/EUDA route publications | `backend/trace_backend/seed/corridors.csv` (234 corridors, citation key per row; keys in `seed/README.md`) | Candidate corridor list | Country-level endpoints are TRACE's transcription of UNODC/EUDA maps and texts |
+| GI-TOC OC Index | `https://ocindex.net/assets/downloads/global_oc_index.xlsx` (2021, 2023, 2025 editions, 190 countries each) | Edge confidence signal, route-model features, country profiles | |
+| HRI Global State of Harm Reduction 2024 | Full report PDF, Table 1 (pdfplumber) | Protection score (NSP, OAT, naloxone, DCR, prison programmes, policy), country profiles | 197 countries parsed: NSP 92, OAT 93, DCR 18, naloxone 34 (report: 93/94/18/34) |
+| CEPII GeoDist | `https://www.cepii.fr/distance/dist_cepii.zip` | Distance, contiguity, common language (gravity) | 2004 codes remapped; missing pairs use great-circle distance between World Bank capitals |
+| GDELT DOC 2.0 | live API | Live Wire article metadata and publication dates | Returned HTTP 429 or empty results from this network; the Live Wire replays synthetic sample headlines (`sample.trace.local`) and reports `fallback` |
 
 ### Key facts for the natural experiment (with sources)
 - After the April 2022 Taliban ban, Afghan opium production fell about 95 percent in 2023; Myanmar became the world's main source (UNODC Myanmar Opium Survey 2024).
