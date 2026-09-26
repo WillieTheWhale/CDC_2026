@@ -311,7 +311,7 @@
         },
         {
           "type": "sub",
-          "text": "TRACE shows where flows and harms are heading, never where enforcement is weakest. No least-watched-route feature, no lowest-risk-corridor query, no ranking that helps anyone move product. That boundary is written into our engineering rules and enforced in code review."
+          "text": "TRACE shows where flows and harms are heading, never where enforcement is weakest. It is built for a public-health responder deciding where naloxone, needle exchange and testing go next — not for an interdiction agency. No least-watched-route feature, no lowest-risk-corridor query, no ranking that helps anyone move product. That boundary is in our engineering rules and enforced in code review."
         },
         {
           "type": "source",
@@ -535,7 +535,7 @@
             {
               "value": "{{counts.hri}}",
               "label": "countries, harm reduction",
-              "source": "Harm Reduction International GSHR 2024"
+              "source": "Harm Reduction International, Global State of Harm Reduction, 2025 update to key data"
             }
           ]
         }
@@ -751,11 +751,12 @@
         },
         {
           "type": "sub",
-          "text": "We ran the standard economics baseline against ourselves and published both numbers — Spearman {{metrics.spearman}}, precision@20 {{metrics.precision_at_20}}. The gap is what the World Bank development layer buys you."
+          "text": "We ran the standard economics baseline against ourselves and published both numbers — Spearman {{metrics.spearman}}, precision@20 {{metrics.precision_at_20}}. What that buys in practice: a corridor shift shows up in the forecast a year ahead, against a nine-year wait for the prevalence data that would otherwise tell you."
         }
       ],
       "cues": [
-        "Do not say 'our model is accurate'. Say 'here is our model against the field standard, on held-out years'.",
+        "Don't say 'our model is accurate'. Say 'here is our model against the field standard, on held-out years'.",
+        "Then translate it: a year of warning against a nine-year wait. That is the number that matters to a health ministry.",
         "The baseline existing at all is the credibility move."
       ]
     },
@@ -830,8 +831,23 @@
           ]
         },
         {
-          "type": "sub",
-          "text": "Route exposure alone does not predict a later rise in homicide or HIV once you control for vulnerability. We committed that the day we found it. Published work lands in the same place: a 2026 panel of 95 countries finds the cocaine–homicide link appears <em>between</em> countries but not <em>within</em> them — structural position on a corridor, not year-to-year flow. So being on a route is not destiny. Being on a route without services, jobs or health spending is. That is why the risk score has three columns and not one, and why this argues for harm reduction rather than interdiction."
+          "type": "list",
+          "columns": 3,
+          "numbered": true,
+          "items": [
+            {
+              "title": "What we tested",
+              "text": "Does predicted route exposure predict a later rise in homicide or HIV, beyond what vulnerability alone predicts? We wrote that question into the spec before we had the data, and said we would report it either way."
+            },
+            {
+              "title": "What we found",
+              "text": "It does not. Controlling for vulnerability, exposure adds nothing — if anything it points the other way. Published work lands in the same place: a 2026 panel of 95 countries finds the cocaine–homicide link between countries but not within them."
+            },
+            {
+              "title": "What we changed",
+              "text": "The risk score stopped being one number. Exposure, vulnerability and protection are three columns because the evidence says being on a route is not destiny — being on a route without services is. That is an argument for harm reduction over interdiction."
+            }
+          ]
         },
         {
           "type": "source",
@@ -839,9 +855,9 @@
         }
       ],
       "cues": [
-        "Deliver as strength, not apology. Eye contact, steady pace.",
-        "Key line: the effect is between countries, not within them — which is exactly what a panel model would miss.",
-        "Teams that hide null results lose to teams that report them.",
+        "Three beats: what we tested, what we found, what we changed. Do not skip the third — it is what turns a null into a decision.",
+        "Say plainly that we went looking for this and reported it against our own interest.",
+        "Key line: the effect is between countries, not within them, which is exactly what our test would miss.",
         "If pressed on the negative sign, concede the enforcement-capacity confound before they raise it."
       ]
     },
@@ -854,29 +870,46 @@
       "blocks": [
         {
           "type": "kicker",
-          "text": "What an early-warning layer makes possible"
+          "text": "Why targeting is the whole problem"
         },
         {
-          "type": "list",
-          "columns": 4,
+          "type": "statgrid",
           "items": [
             {
-              "title": "Harm reduction orgs",
-              "text": "Place naloxone, needle exchange and OAT ahead of the curve instead of behind it — against the 93 countries where we know coverage exists and the ones where it doesn't."
+              "value": "97",
+              "label": "countries where people who inject drugs cannot reach a needle exchange anywhere",
+              "source": "of 190 countries with documented injecting drug use · HRI, Global State of Harm Reduction, 2025 update"
             },
             {
-              "title": "Public health ministries",
-              "text": "See exposure rising two years before the HIV surveillance data would have shown it."
+              "value": "5",
+              "label": "countries with high coverage of both needle exchange and opioid agonist therapy",
+              "source": "holding 2% of the world's people who inject drugs"
             },
             {
-              "title": "Journalists & researchers",
-              "text": "Public UN data currently locked in PDFs and portals, in one free queryable instrument."
+              "value": "35",
+              "label": "syringes per person who injects, per year",
+              "source": "against a WHO target of 200, rising to 300 by 2030"
             },
             {
-              "title": "Policymakers",
-              "text": "Evidence from real natural experiments — bans, legalization — instead of ideology."
+              "value": "0.7%",
+              "label": "of global HIV spending goes to harm reduction",
+              "source": "while people who inject drugs are 8% of new HIV infections"
+            },
+            {
+              "value": "77%",
+              "label": "of harm-reduction services severely disrupted in 2025",
+              "source": "UNAIDS survey, April 2025, after international HIV funding fell 18%"
+            },
+            {
+              "value": "+3,672",
+              "label": "HIV infections modelled in one year from the 2025 funding withdrawal",
+              "source": "nine countries · International Journal of Drug Policy, 2026"
             }
           ]
+        },
+        {
+          "type": "sub",
+          "text": "This is the argument for TRACE in one slide. The money is shrinking, the coverage was never there, and the decision of <em>where</em> the next clinic goes is being made without a forecast. We do not claim targeting is solved — we claim the alternative is placing services blind."
         },
         {
           "type": "source",
@@ -884,8 +917,9 @@
         }
       ],
       "cues": [
-        "Keep these conditional — 'makes possible', not 'is being used by'.",
-        "The last line is the ungatekeeping argument. It matters to this rubric."
+        "Read two numbers, not six. 97 countries, and 0.7% of the money.",
+        "Then the pivot: the money is shrinking and the siting decision is being made blind.",
+        "Do NOT claim predictive targeting is proven. It isn't — see the Q&A sheet. Claim the alternative is worse."
       ]
     },
     {

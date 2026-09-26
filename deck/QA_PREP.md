@@ -1,6 +1,14 @@
 <!-- AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md. -->
 # Q&A prep — 2 minutes, four people, no freezing
 
+**Two minutes admits three, maybe four questions.** A 60-second first answer eats the panel's remaining
+questions and denies the other three of you any chance to show what you contributed. Target **25-30 seconds**:
+answer, one piece of evidence, stop. Pause two to three seconds before answering — it reads as considered,
+not slow, and it stops you starting a sentence you can't finish.
+
+If you don't know: move *toward* the questioner, hold eye contact, and say **"I don't know — I'll find out
+and let you know."** Never bluff. A bluff that a judge catches costs more than the question was worth.
+
 Rules of engagement: **whoever owns the section owns the question.** If a question lands in nobody's
 lane, Adrian (S4) takes it. Answer in two sentences, then stop. A short confident answer beats a long
 hedged one, and a judge who wants more will ask again.
@@ -10,7 +18,7 @@ that next."* Never invent a number on stage — every figure below is in the rep
 
 ---
 
-## The fifteen they are most likely to ask
+## The questions they are most likely to ask
 
 **1. "Seizures measure enforcement, not trafficking. Isn't your whole network just a map of who has good customs?"** — *Markandeya (S3)*
 Correct, and it's the first limitation in our spec. Three defences: no corridor rests on seizures
@@ -130,6 +138,27 @@ enforcement *and* drought — so it isn't a clean policy contrast. The compositi
 north-east now out-grows the south-west, which was 169,791 hectares in 2022. For the 2026 season the only
 figures are Alcis and Mansfield, not UNODC, whose surveys publish in November, and they show Helmand
 roughly doubling. If a judge raises 2026, say the UN data isn't out yet.
+
+**14. "Is there any evidence that targeting harm reduction actually works better than not targeting it?"** — *Adrian (S4)*
+This is the hardest question you can ask us, and the honest answer is no — not yet, on a mortality endpoint.
+The HEALing Communities Study, 67 communities, the largest addiction prevention trial ever run, found no
+statistically significant reduction in overdose deaths from a data-driven community-targeted intervention.
+There is rich modelling support — Irvine in Lancet Public Health found no US state reaches naloxone
+saturation, with need varying from zero to 1,270 kits per 100,000 depending on the epidemic — and there is
+an RCT of predictive targeting, PROVIDENT in Rhode Island, whose results we have not read. So we do not
+claim predictive placement is proven. What we claim is narrower and still true: cost per HIV infection
+averted varies more than fivefold across settings, only five countries have high coverage of both core
+services, and the decision about where the next service goes is currently made without any forecast at all.
+Blind placement is not a validated alternative — it is just the status quo.
+
+**15. "In the places that need this most, the constraint is legal, not informational. What good is a map?"** — *William (S1)*
+Correct, and it's the sharpest objection to the whole product. Opioid agonist therapy is banned in Russia,
+which has around 1.3 million people who inject drugs. Queensland banned drug checking in 2025. A US
+executive order in July 2025 threatened penalties against harm reduction services. A forecast does not move
+any of that. Two honest responses: first, the tool is most useful precisely where services are legal but
+scarce, which is most of the world; second, evidence of where harm is heading is an input to the legal
+argument, not a substitute for it. We would rather be the thing an advocate cites than pretend we are the
+thing that changes the law.
 
 ---
 
