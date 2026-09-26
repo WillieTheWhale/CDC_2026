@@ -2,7 +2,7 @@
 """`trace` command line: run the whole pipeline or one stage.
 
     uv run trace pipeline          # everything, in order (one command)
-    uv run trace wb                # World Bank ingest only
+    uv run trace prepare           # derive model inputs from the SQLite archive only
     uv run trace serve             # FastAPI on :8000
 """
 from __future__ import annotations
@@ -15,8 +15,8 @@ import time
 
 # stage name -> (module, function, description); run in this order by `pipeline`
 STAGES: dict[str, tuple[str, str, str]] = {
-    "wb": ("trace_backend.wb.ingest", "run", "World Bank indicators + countries -> DuckDB + manifest"),
-    "ingest": ("trace_backend.ingest.run", "run", "External sources (UNODC, OC Index, HRI, CEPII)"),
+    "prepare": ("trace_backend.ingest.prepare", "run",
+                "Derive model inputs from the canonical SQLite archive (data_collection/work/trace.sqlite)"),
     "edges": ("trace_backend.model.edges", "run", "Edge table + confidence scores"),
     "models": ("trace_backend.model.train", "run", "Gravity PPML, LightGBM hurdle, SHAP, backtest, Afghan ban test"),
     "risk": ("trace_backend.model.spillover", "run", "Spillover risk scores + hypothesis test"),
@@ -37,7 +37,7 @@ def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="trace", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = p.add_subparsers(dest="cmd", required=True)
     pp = sub.add_parser("pipeline", help="run every stage in order")
-    pp.add_argument("--refresh", action="store_true", help="ignore on-disk caches and re-download")
+    pp.add_argument("--refresh", action="store_true", help="(unused; the archive is refreshed by data_collection/)")
     pp.add_argument("--skip", nargs="*", default=[], choices=list(STAGES), help="stages to skip")
     for name, (_, _, desc) in STAGES.items():
         sp = sub.add_parser(name, help=desc)

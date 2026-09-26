@@ -1,5 +1,6 @@
 # AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
-"""T2: pull every World Bank indicator in docs/DATA_SOURCES.md into DuckDB with provenance.
+"""LEGACY (pre-SQLite): not used by `trace pipeline`; the canonical data is the SQLite archive built by data_collection/.
+T2: pull every World Bank indicator in docs/DATA_SOURCES.md into DuckDB with provenance.
 
 Tables written
 - countries          iso3, iso2, name, region, income_group, capital, lat, lon (aggregates dropped)

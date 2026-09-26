@@ -57,7 +57,7 @@ class Context:
     @classmethod
     def load(cls) -> Context:
         return cls(edges=db.read_table("edges"), seiz=db.read_table("seizures_country"),
-                   prod=E.production(db.read_table("cultivation")), dist=db.read_table("distances"))
+                   prod=E.production(db.read_table("cultivation")), dist=db.read_table("model_distances"))
 
 
 def resolve_drug(shock: Shock, prod: pd.DataFrame) -> list[str]:

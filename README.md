@@ -34,11 +34,12 @@ deck/        judging pitch deck (rebuilds itself from this repo)
 | Spec, docs, handoff | planning session | done |
 | T0 API contract + fixtures | backend | done (`contracts/`) |
 | T1 backend scaffold | backend | done (uv, Python 3.11, `trace` CLI) |
-| T2 World Bank ingest | backend | done (24 indicators, 217 economies, 2005-2026, `wb_manifest.json`) |
+| T2 World Bank ingest | backend | done; now read from the SQLite v2 archive (24 indicators, 217 economies, 1960-2025) |
 | T3 external ingest (UNODC, OC Index, HRI, CEPII) | backend | done (IDS 2.3M cases, WDR annex, OC Index x3, HRI 197 countries, CEPII; see BLOCKERS.md) |
 | T4 edges + confidence | backend | done (676 corridors x 2011-2024, seizure-anchored allocation, 6-signal confidence) |
-| T5 route models + backtest + Afghan ban test | backend | done (hurdle AUC 0.92 vs gravity 0.61; Afghan ban 12/14 corridors, SEA share 5%->13% pred vs 14% actual) |
-| T6 spillover risk | backend | done (217 countries x 2011-2025; hypothesis not supported, see metrics) |
+| T5 route models + backtest + Afghan ban test | backend | done, retrained on SQLite archive (hurdle AUC 0.88 vs gravity 0.58; Afghan ban 9/13 corridors, SEA share 5%->14% pred vs 13% actual) |
+| T6 spillover risk | backend | done (217 countries x 2008-2025, HRI per edition; hypothesis not supported) |
+| SQLite v2 migration | backend | done (archive read-only + `derived.sqlite`; DuckDB removed) |
 | T7 export + API | backend | done (precomputed JSON, FastAPI, contract tests) |
 | T8 Live Wire (mock Jev) | backend | done (JevClassifier + mock, GDELT poller with replay fallback, REST + WS) |
 | T9 shock simulator | backend | done (structured + plain-English shocks, command bar) |
@@ -48,8 +49,9 @@ deck/        judging pitch deck (rebuilds itself from this repo)
 | Pitch deck | presentation | done (`deck/`, 4:45 + live demo, rebuilds from repo) |
 
 ## Headline results (backend, 2026-09-26)
-- Route model backtest (train on targets through 2019, test 2020-2024): hurdle AUC 0.92 vs 0.61 for the PPML gravity baseline; Spearman 0.67; precision@20 0.50.
-- Afghan opium ban: trained through 2021, the model got the direction right on 12 of 14 major heroin corridors and predicted the Southeast Asian share rising from 5% to 13% (actual 14%).
+- Data: SQLite v2 archive (`data_collection/`), UNODC seizures 2006-2024, World Bank 1960-2025, HRI editions 2008-2024.
+- Route model backtest (train on targets through 2019, test 2020-2024): hurdle AUC 0.88 vs 0.58 for the PPML gravity baseline; Spearman 0.58; precision@20 0.48.
+- Afghan opium ban: trained through 2021, the model got the direction right on 9 of 13 major heroin corridors and predicted the Southeast Asian share rising from 5% to 14% (actual 13%).
 - Spillover hypothesis: **not supported.** Route exposure did not predict later rises in homicide or HIV beyond vulnerability; if anything it predicted lower odds. Details in [backend/README.md](backend/README.md).
 
 ## Data and AI citations

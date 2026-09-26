@@ -68,7 +68,7 @@ class Store:
         return self._load("oc_index.json")
 
     @cached_property
-    def harm_reduction(self) -> dict[str, dict]:
+    def harm_reduction(self) -> dict[str, list]:
         return self._load("harm_reduction.json")
 
     @cached_property
@@ -109,6 +109,11 @@ class Store:
                               "unit": m["unit"], "imputed": bool(m["forward_fill"] and y is not None and y < year)})
             groups.append({"role": role, "label": ROLE_LABELS[role], "indicators": items})
         return groups
+
+    def hr_for(self, iso3: str, year: int) -> dict | None:
+        """HRI edition in force for the year (latest edition <= year; none before the first edition)."""
+        eds = [e for e in self.harm_reduction.get(iso3, []) if e["year"] <= year]
+        return eds[-1] if eds else None
 
     def oc_for(self, iso3: str, year: int) -> dict | None:
         eds = self.oc_index.get(iso3)

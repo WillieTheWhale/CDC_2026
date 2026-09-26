@@ -129,7 +129,7 @@ def price_series(prices: pd.DataFrame, countries: pd.DataFrame) -> list[dict]:
 def indicators_payload() -> tuple[dict, dict]:
     long = db.read_table("wb_indicators").dropna(subset=["value"])
     meta = db.read_table("wb_indicator_meta")
-    meta = meta[meta["public"]]
+    meta = meta[meta["public"].astype(bool)]
     long = long[long["code"].isin(meta["code"])]
     by_country: dict[str, dict[str, list]] = {}
     for (iso3, code), g in long.sort_values("year").groupby(["iso3", "code"]):
@@ -182,7 +182,8 @@ def sources_freshness() -> list[dict]:
         out.append({**SOURCES[sid], "status": "cached" if all(r["from_cache"] for r in rows) else "live",
                     "retrieved_at": min(r["retrieved_at"] for r in rows), "last_updated": rows[0]["lastupdated"],
                     "latest_year": max(r["latest_year"] or 0 for r in rows),
-                    "note": f"{len(rows)} indicators, all pages, nulls kept"})
+                    "note": f"{len(rows)} indicators, all pages, nulls kept; SQLite archive "
+                            f"{wb.get('archive', {}).get('release_tag', '')}"})
     for sid, extra in (("unodc_ids", None), ("unodc_wdr_annex", 2024), ("gitoc_ocindex", 2025), ("hri_gshr", 2024),
                        ("cepii_geodist", None)):
         s = ing.get(sid, {})
@@ -214,7 +215,7 @@ def run(fixtures: bool = False) -> dict:
     boards, details = risk_payload(risk, countries)
     dump("risk.json", boards)
     dump("risk_details.json", details)
-    ps = price_series(db.read_table("prices"), countries)
+    ps = price_series(db.read_table("model_prices"), countries)
     dump("prices.json", ps)
     ind, ind_meta = indicators_payload()
     dump("indicators.json", ind)
@@ -228,10 +229,13 @@ def run(fixtures: bool = False) -> dict:
                                           "source": "gitoc_ocindex"} for r in g.itertuples()],
                                         key=lambda x: x["edition"]) for iso3, g in oc.groupby("iso3")})
     from ..model.spillover import PROT, protection
-    hri = protection(db.read_table("harm_reduction"))
-    hr = {r.iso3: {"year": 2024, **{k: (None if pd.isna(getattr(r, k)) else bool(getattr(r, k)))
+    hri = protection(db.read_table("model_protection"))
+    hr: dict[str, list] = {}
+    for r in hri.sort_values("year").itertuples():
+        hr.setdefault(r.iso3, []).append({
+            "year": int(r.year), **{k: (None if pd.isna(getattr(r, k)) else bool(getattr(r, k)))
                                     for k in ("nsp", "oat", "naloxone", "dcr", "prison_programs")},
-                   "coverage_score": float(r.protection), "source": "hri_gshr"} for r in hri.itertuples()}
+            "coverage_score": float(r.protection), "source": "hri_gshr"})
     dump("harm_reduction.json", hr)
     cult = db.read_table("cultivation")
     cu = {iso3: [{"iso3": iso3, "crop": r.crop, "year": int(r.year), "hectares": _num(r.hectares, 0),
@@ -249,7 +253,7 @@ def run(fixtures: bool = False) -> dict:
         rr = next((r for r in boards[str(fut)] if r["iso3"] == c["iso3"]), None)
         rr = {**rr, "year": fut} if rr else None
         brief[c["iso3"]] = briefing(c["iso3"], c["name"], rr, [e for e in last_edges if e["from"] == c["iso3"]],
-                                    [e for e in last_edges if e["to"] == c["iso3"]], hr.get(c["iso3"]),
+                                    [e for e in last_edges if e["to"] == c["iso3"]], (hr.get(c["iso3"]) or [None])[-1],
                                     [x for x in cu.get(c["iso3"], []) if x["hectares"]])
     dump("briefings.json", brief)
 

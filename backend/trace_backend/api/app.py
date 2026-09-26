@@ -124,7 +124,7 @@ def get_country(iso3: str, year: int | None = None):
         "country": c, "year": year, "indicators": s.indicator_groups(iso3, year),
         "routes": {"inbound": [e for e in edges if e["to"] == iso3], "outbound": [e for e in edges if e["from"] == iso3]},
         "prices": [p for p in s.prices if p["iso3"] == iso3], "oc_index": s.oc_for(iso3, year),
-        "harm_reduction": s.harm_reduction.get(iso3), "risk": det, "cultivation": s.cultivation.get(iso3, []),
+        "harm_reduction": s.hr_for(iso3, year), "risk": det, "cultivation": s.cultivation.get(iso3, []),
         "briefing": s.briefings.get(iso3),
     }
     return envelope(profile, *WB_SOURCES, *ROUTE_SOURCES, "hri_gshr")

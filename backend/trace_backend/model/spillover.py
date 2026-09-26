@@ -97,9 +97,21 @@ def vulnerability(panel: pd.DataFrame, countries: pd.DataFrame, years: list[int]
 
 
 def protection(hri: pd.DataFrame) -> pd.DataFrame:
+    """Points earned over points the edition reports (fields an edition does not track are not counted as 0)."""
     h = hri.copy()
-    h["protection"] = sum(PROT[k] * h[k].fillna(False).astype(bool).astype(int) for k in PROT)
+    vals = {k: pd.to_numeric(h[k], errors="coerce") if k in h else pd.Series(np.nan, index=h.index) for k in PROT}
+    earned = sum(PROT[k] * (vals[k] == 1).astype(int) for k in PROT)
+    avail = sum(PROT[k] * vals[k].notna().astype(int) for k in PROT)
+    h["protection"] = (100 * earned / avail.replace(0, np.nan)).fillna(0).round(1)
     return h
+
+
+def protection_at(hri: pd.DataFrame, grid: pd.DataFrame) -> pd.DataFrame:
+    """Latest HRI edition <= each grid year (no backfill before a country's first edition)."""
+    left = grid[["iso3", "year"]].reset_index().sort_values("year")
+    right = hri.sort_values("year").rename(columns={"year": "hri_year"})
+    m = pd.merge_asof(left, right, left_on="year", right_on="hri_year", by="iso3", direction="backward")
+    return m.set_index("index").sort_index()
 
 
 def _auc_cv(X: pd.DataFrame, y: np.ndarray, groups: np.ndarray) -> float:
@@ -201,9 +213,10 @@ def run(refresh: bool = False) -> dict:
     preds = db.read_table("predictions")
     from .edges import production
     prod = production(db.read_table("cultivation"))
-    hri = protection(db.read_table("harm_reduction"))
-    obs_years = sorted(edges["year"].unique().tolist())
+    hri = protection(db.read_table("model_protection"))
     fut_year = int(preds["year"].iloc[0])
+    first_hri = int(hri["year"].min())  # risk needs a protection edition; HRI starts 2008
+    obs_years = sorted(y for y in edges["year"].unique().tolist() if y >= first_hri)
     years = obs_years + [fut_year]
 
     pe = preds.rename(columns={"kg_pred": "kg"})[["drug", "from_iso3", "to_iso3", "kg"]].assign(year=fut_year)
@@ -227,7 +240,9 @@ def run(refresh: bool = False) -> dict:
     grid["panel_year"] = [min(y, int(panel["year"].max())) for y in grid["year"]]
     grid["vulnerability"] = vmap["vulnerability"].reindex(pd.MultiIndex.from_frame(
         grid[["iso3", "panel_year"]])).fillna(50).round(1).values
-    grid["protection"] = grid["iso3"].map(hri.set_index("iso3")["protection"]).fillna(0).astype(float)
+    prot = protection_at(hri, grid)
+    grid["protection"] = prot["protection"].fillna(0).astype(float).values
+    grid["hri_year"] = prot["hri_year"].values
     grid["score"] = (WEIGHTS["exposure"] * grid["exposure"] + WEIGHTS["vulnerability"] * grid["vulnerability"]
                      + WEIGHTS["protection"] * (100 - grid["protection"])).round(1)
     grid["rank"] = grid.groupby("year")["score"].rank(ascending=False, method="first").astype(int)
@@ -241,7 +256,7 @@ def run(refresh: bool = False) -> dict:
     # details (JSON) for country profiles
     exi = ex.set_index(["iso3", "year", "drug"])
     vuli = vul.set_index(["iso3", "year"])
-    hrii = hri.set_index("iso3")
+    hrii = hri.set_index(["iso3", "year"])
     details = []
     for r in grid.itertuples():
         exp_by_drug, exp_det = {}, []
@@ -273,13 +288,15 @@ def run(refresh: bool = False) -> dict:
                                                "value": None if pd.isna(val) else round(float(val), 3),
                                                "imputed": bool(v.get(f"{f}_imputed"))}})
         prot_det = []
-        if r.iso3 in hrii.index:
-            h = hrii.loc[r.iso3]
+        if pd.notna(r.hri_year) and (r.iso3, int(r.hri_year)) in hrii.index:
+            h = hrii.loc[(r.iso3, int(r.hri_year))]
+            avail = sum(w for k, w in PROT.items() if pd.notna(h.get(k)))
             for k, w in PROT.items():
                 val = h.get(k)
-                prot_det.append({"feature": k, "label": PROT_LABELS[k],
-                                 "value": None if val is None or pd.isna(val) else int(bool(val)),
-                                 "contribution": float(w if val is True else 0)})
+                known = val is not None and pd.notna(val)
+                prot_det.append({"feature": k, "label": f"{PROT_LABELS[k]} (HRI {int(r.hri_year)})",
+                                 "value": int(val) if known else None,
+                                 "contribution": round(100 * w / avail, 2) if known and int(val) == 1 else 0.0})
         details.append(json.dumps({"exposure_by_drug": exp_by_drug, "exposure_detail": exp_det,
                                    "vulnerability_detail": vul_det, "protection_detail": prot_det}))
     grid["details"] = details

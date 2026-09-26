@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T18:09:03+00:00",
+    "generated_at": "2026-09-26T21:48:38+00:00",
     "model_version": "trace-0.1.0",
     "sources": [
       {
@@ -14,12 +14,132 @@
   "data": {
     "series": [
       {
+        "iso3": "AFG",
+        "name": "Afghanistan",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 0.05,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 0.19,
+            "purity_pct": null
+          }
+        ],
+        "latest": 0.19,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "AFG",
+        "name": "Afghanistan",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2007,
+            "value": 0.06,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 0.05,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 0.1,
+            "purity_pct": null
+          }
+        ],
+        "latest": 0.1,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "AFG",
+        "name": "Afghanistan",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2007,
+            "value": 2.4,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 5.29,
+            "purity_pct": null
+          }
+        ],
+        "latest": 5.29,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "AFG",
+        "name": "Afghanistan",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 2.27,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 2.68,
+            "purity_pct": null
+          }
+        ],
+        "latest": 2.68,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "AFG",
+        "name": "Afghanistan",
+        "drug": "meth",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 105.0,
+            "purity_pct": null
+          }
+        ],
+        "latest": 105.0,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
         "iso3": "BEL",
         "name": "Belgium",
         "drug": "cannabis",
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 9.6,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 11.38,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 10.13,
@@ -53,6 +173,21 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2009,
+            "value": 3.2,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 6.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 5.66,
+            "purity_pct": null
+          },
+          {
             "year": 2020,
             "value": 5.1,
             "purity_pct": null
@@ -84,6 +219,81 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 80.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 90.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 68.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 95.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 82.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 93.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 90.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 57.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 55.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 60.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 55.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 51.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 50.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 51.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 51.0,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 51.0,
@@ -197,6 +407,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 25.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 24.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 38.25,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 28.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 26.92,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 30.56,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 21.93,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 17.02,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 19.17,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 23.86,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 22.38,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 26.77,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 28.11,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 29.61,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 32.48,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 32.48,
             "purity_pct": null
@@ -309,6 +594,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 90.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 105.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 105.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 77.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 75.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 75.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 56.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 37.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 41.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 41.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 37.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 27.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 29.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 31.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 32.0,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 31.0,
             "purity_pct": null
@@ -420,6 +780,81 @@
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 30.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 30.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 28.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 26.6,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 29.59,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 32.58,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 24.31,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 21.76,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 20.85,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 18.56,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 18.36,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 20.29,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 22.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 20.96,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 23.04,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 23.34,
@@ -570,12 +1005,215 @@
         "source": "unodc_wdr_annex"
       },
       {
+        "iso3": "CAN",
+        "name": "Canada",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 18.95,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 23.43,
+            "purity_pct": null
+          }
+        ],
+        "latest": 23.43,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "CAN",
+        "name": "Canada",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 7.69,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 4.69,
+            "purity_pct": null
+          }
+        ],
+        "latest": 4.69,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "CAN",
+        "name": "Canada",
+        "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 80.39,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 81.16,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 79.91,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 93.72,
+            "purity_pct": null
+          }
+        ],
+        "latest": 93.72,
+        "yoy_change_pct": 17.3,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "CAN",
+        "name": "Canada",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 26.18,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 51.55,
+            "purity_pct": null
+          }
+        ],
+        "latest": 51.55,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "CAN",
+        "name": "Canada",
+        "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 254.47,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 281.16,
+            "purity_pct": null
+          }
+        ],
+        "latest": 281.16,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "CAN",
+        "name": "Canada",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 95.2,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 84.35,
+            "purity_pct": null
+          }
+        ],
+        "latest": 84.35,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "CAN",
+        "name": "Canada",
+        "drug": "meth",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 111.0,
+            "purity_pct": null
+          }
+        ],
+        "latest": 111.0,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "CAN",
+        "name": "Canada",
+        "drug": "meth",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2009,
+            "value": 26.49,
+            "purity_pct": null
+          }
+        ],
+        "latest": 26.49,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2004,
+            "value": 1.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2005,
+            "value": 0.4,
+            "purity_pct": null
+          }
+        ],
+        "latest": 0.4,
+        "yoy_change_pct": -78.7,
+        "source": "unodc_wdr_annex"
+      },
+      {
         "iso3": "COL",
         "name": "Colombia",
         "drug": "cannabis",
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2005,
+            "value": 0.04,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 0.13,
@@ -595,9 +1233,41 @@
         "iso3": "COL",
         "name": "Colombia",
         "drug": "cocaine",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2008,
+            "value": 3.5,
+            "purity_pct": null
+          }
+        ],
+        "latest": 3.5,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "drug": "cocaine",
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2008,
+            "value": 0.95,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 1.96,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 1.43,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 1.13,
@@ -622,9 +1292,36 @@
         "iso3": "COL",
         "name": "Colombia",
         "drug": "heroin",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2005,
+            "value": 20.13,
+            "purity_pct": null
+          }
+        ],
+        "latest": 20.13,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia",
+        "drug": "heroin",
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 10.77,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 0.0,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 4.67,
@@ -647,6 +1344,16 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 10.47,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 11.6,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 11.21,
@@ -685,6 +1392,16 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2010,
+            "value": 4.72,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 5.19,
+            "purity_pct": null
+          },
+          {
             "year": 2020,
             "value": 5.23,
             "purity_pct": null
@@ -721,6 +1438,81 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 120.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 103.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 111.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 95.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 109.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 103.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 90.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 77.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 72.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 68.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 57.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 58.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 57.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 68.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 73.0,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 79.0,
@@ -834,6 +1626,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 69.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 53.1,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 60.3,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 54.14,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 57.69,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 54.68,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 53.92,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 45.29,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 41.21,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 39.64,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 33.75,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 33.23,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 34.48,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 40.11,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 44.24,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 46.52,
             "purity_pct": null
@@ -945,6 +1812,81 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 105.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 75.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 96.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 74.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 91.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 90.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 74.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 51.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 43.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 45.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 39.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 38.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 38.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 46.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 49.0,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 48.0,
@@ -1058,6 +2000,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 45.24,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 36.15,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 41.67,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 35.21,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 36.45,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 35.26,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 27.89,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 25.69,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 25.61,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 24.77,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 20.26,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 17.82,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 20.32,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 21.51,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 25.72,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 25.77,
             "purity_pct": null
@@ -1170,6 +2187,16 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2010,
+            "value": 89.15,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 109.87,
+            "purity_pct": null
+          },
+          {
             "year": 2020,
             "value": 93.82,
             "purity_pct": null
@@ -1187,6 +2214,11 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2011,
+            "value": 49.39,
+            "purity_pct": null
+          },
+          {
             "year": 2020,
             "value": 34.9,
             "purity_pct": null
@@ -1203,6 +2235,21 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2008,
+            "value": 16.49,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 5.81,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 7.47,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 6.38,
@@ -1230,6 +2277,16 @@
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 1.92,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 2.01,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 2.06,
@@ -1267,6 +2324,81 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 110.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 100.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 100.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 63.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 78.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 91.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 72.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 68.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 68.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 63.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 52.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 52.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 56.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 70.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 76.0,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 76.0,
@@ -1380,6 +2512,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 65.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 60.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 55.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 35.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 36.43,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 41.32,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 38.76,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 36.81,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 38.92,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 38.9,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 30.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 38.9,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 31.51,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 38.83,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 42.17,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 41.32,
             "purity_pct": null
@@ -1491,6 +2698,81 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 175.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 185.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 180.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 126.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 132.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 120.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 112.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 88.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 82.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 75.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 59.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 57.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 61.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 75.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 81.0,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 80.0,
@@ -1604,6 +2886,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 160.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 125.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 122.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 91.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 74.42,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 79.88,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 84.39,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 63.88,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 52.76,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 53.82,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 43.6,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 32.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 41.2,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 48.42,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 46.35,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 47.05,
             "purity_pct": null
@@ -1709,12 +3066,56 @@
         "source": "unodc_wdr_annex"
       },
       {
+        "iso3": "ESP",
+        "name": "Spain",
+        "drug": "meth",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2006,
+            "value": 30.48,
+            "purity_pct": null
+          }
+        ],
+        "latest": 30.48,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "ESP",
+        "name": "Spain",
+        "drug": "meth",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2006,
+            "value": 22.37,
+            "purity_pct": null
+          }
+        ],
+        "latest": 22.37,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
         "iso3": "GBR",
         "name": "United Kingdom",
         "drug": "cannabis",
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 4.38,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 7.91,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 9.64,
@@ -1748,6 +3149,16 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2010,
+            "value": 1.54,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 1.58,
+            "purity_pct": null
+          },
+          {
             "year": 2020,
             "value": 3.21,
             "purity_pct": null
@@ -1779,6 +3190,81 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 131.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 127.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 69.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 123.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 113.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 111.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 102.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 124.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 128.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 104.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 94.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 94.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 84.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 90.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 91.0,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 79.0,
@@ -1892,6 +3378,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 47.85,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 46.48,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 20.62,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 43.21,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 45.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 46.77,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 40.62,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 47.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 47.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 33.98,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 38.17,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 36.01,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 35.85,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 40.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 50.04,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 50.04,
             "purity_pct": null
@@ -2003,6 +3564,81 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 157.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 144.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 144.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 134.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 129.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 125.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 108.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 118.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 120.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 108.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 107.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 86.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 91.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 100.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 110.0,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 93.0,
@@ -2116,6 +3752,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 53.94,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 43.94,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 43.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 43.21,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 42.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 42.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 34.85,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 39.49,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 41.67,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 29.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 26.72,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 25.93,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 30.62,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 34.34,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 39.04,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 33.25,
             "purity_pct": null
@@ -2228,6 +3939,16 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2010,
+            "value": 88.43,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 94.96,
+            "purity_pct": null
+          },
+          {
             "year": 2020,
             "value": 128.53,
             "purity_pct": null
@@ -2292,6 +4013,16 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2010,
+            "value": 0.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 3.68,
+            "purity_pct": null
+          },
+          {
             "year": 2020,
             "value": 4.22,
             "purity_pct": null
@@ -2328,6 +4059,16 @@
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 0.9,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 0.92,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 0.42,
@@ -2366,6 +4107,16 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2011,
+            "value": 105.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 116.42,
+            "purity_pct": null
+          },
+          {
             "year": 2020,
             "value": 52.78,
             "purity_pct": null
@@ -2403,6 +4154,21 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2010,
+            "value": 47.87,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 49.83,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 4.9,
+            "purity_pct": null
+          },
+          {
             "year": 2020,
             "value": 29.03,
             "purity_pct": null
@@ -2434,6 +4200,11 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2013,
+            "value": 91.91,
+            "purity_pct": null
+          },
           {
             "year": 2021,
             "value": 22.32,
@@ -2467,6 +4238,21 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2007,
+            "value": 8.63,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 7.47,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 11.54,
+            "purity_pct": null
+          },
+          {
             "year": 2021,
             "value": 13.9,
             "purity_pct": null
@@ -2489,10 +4275,107 @@
       {
         "iso3": "NLD",
         "name": "Netherlands",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2007,
+            "value": 2.6,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 5.09,
+            "purity_pct": null
+          }
+        ],
+        "latest": 5.09,
+        "yoy_change_pct": 95.8,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "NLD",
+        "name": "Netherlands",
         "drug": "cocaine",
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 66.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 70.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 74.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 66.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 60.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 79.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 52.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 64.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 38.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 33.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 33.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 33.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 33.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 50.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 59.0,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 59.0,
@@ -2606,6 +4489,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 26.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 28.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 29.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 26.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 24.68,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 33.23,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 23.89,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 29.7,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 22.36,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 27.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 27.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 27.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 27.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 27.4,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 33.77,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 33.77,
             "purity_pct": null
@@ -2717,6 +4675,81 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 49.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 50.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 55.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 49.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 55.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 61.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 48.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 55.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 34.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 30.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 25.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 43.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 35.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 40.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 57.0,
+            "purity_pct": null
+          },
           {
             "year": 2005,
             "value": 38.0,
@@ -2830,6 +4863,81 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 23.85,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 25.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 26.55,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 23.85,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 23.85,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 24.38,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 20.57,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 13.81,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 14.06,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 16.98,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 14.7,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 15.76,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 29.2,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 17.73,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 17.73,
+            "purity_pct": null
+          },
+          {
             "year": 2005,
             "value": 18.24,
             "purity_pct": null
@@ -2938,9 +5046,31 @@
         "iso3": "THA",
         "name": "Thailand",
         "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2010,
+            "value": 34.65,
+            "purity_pct": null
+          }
+        ],
+        "latest": 34.65,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand",
+        "drug": "cannabis",
         "level": "wholesale",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 0.25,
+            "purity_pct": null
+          },
           {
             "year": 2022,
             "value": 0.16,
@@ -2958,6 +5088,21 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2008,
+            "value": 82.67,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 86.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 91.5,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 79.71,
@@ -2981,6 +5126,11 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2006,
+            "value": 44.59,
+            "purity_pct": null
+          },
+          {
             "year": 2022,
             "value": 2.29,
             "purity_pct": null
@@ -3002,6 +5152,11 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 83.0,
+            "purity_pct": null
+          },
           {
             "year": 2021,
             "value": 13.5,
@@ -3030,6 +5185,11 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2008,
+            "value": 13.53,
+            "purity_pct": null
+          },
+          {
             "year": 2022,
             "value": 16.29,
             "purity_pct": null
@@ -3051,6 +5211,11 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2011,
+            "value": 90.16,
+            "purity_pct": null
+          },
           {
             "year": 2022,
             "value": 28.7,
@@ -3079,6 +5244,16 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 2010,
+            "value": 60.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 45.9,
+            "purity_pct": null
+          },
+          {
             "year": 2022,
             "value": 6.15,
             "purity_pct": null
@@ -3105,6 +5280,16 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 8.94,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 24.17,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 11.29,
@@ -3133,10 +5318,47 @@
       {
         "iso3": "TUR",
         "name": "Turkiye",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2010,
+            "value": 1.18,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 2.88,
+            "purity_pct": null
+          }
+        ],
+        "latest": 2.88,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "TUR",
+        "name": "Turkiye",
         "drug": "cocaine",
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2008,
+            "value": 73.53,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 78.16,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 85.25,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 57.84,
@@ -3170,10 +5392,47 @@
       {
         "iso3": "TUR",
         "name": "Turkiye",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2008,
+            "value": 66.18,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 39.74,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 46.97,
+            "purity_pct": null
+          }
+        ],
+        "latest": 46.97,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "TUR",
+        "name": "Turkiye",
         "drug": "heroin",
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 31.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 46.97,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 21.59,
@@ -3207,10 +5466,37 @@
       {
         "iso3": "TUR",
         "name": "Turkiye",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2010,
+            "value": 8.13,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 16.26,
+            "purity_pct": null
+          }
+        ],
+        "latest": 16.26,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "TUR",
+        "name": "Turkiye",
         "drug": "meth",
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2013,
+            "value": 115.17,
+            "purity_pct": null
+          },
           {
             "year": 2020,
             "value": 42.61,
@@ -3242,6 +5528,57 @@
         "source": "unodc_wdr_annex"
       },
       {
+        "iso3": "TUR",
+        "name": "Turkiye",
+        "drug": "meth",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2013,
+            "value": 113.81,
+            "purity_pct": null
+          }
+        ],
+        "latest": 113.81,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "USA",
+        "name": "United States",
+        "drug": "cannabis",
+        "level": "retail",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2006,
+            "value": 100.0,
+            "purity_pct": null
+          }
+        ],
+        "latest": 100.0,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "USA",
+        "name": "United States",
+        "drug": "cannabis",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 2007,
+            "value": 9.0,
+            "purity_pct": null
+          }
+        ],
+        "latest": 9.0,
+        "yoy_change_pct": null,
+        "source": "unodc_wdr_annex"
+      },
+      {
         "iso3": "USA",
         "name": "United States",
         "drug": "cocaine",
@@ -3249,13 +5586,340 @@
         "unit": "USD/g",
         "points": [
           {
+            "year": 1990,
+            "value": 79.95,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 76.58,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 72.79,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 74.11,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 68.01,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 72.01,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 73.03,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 72.37,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 72.49,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 70.22,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 76.73,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 73.54,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 71.03,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 73.78,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 69.63,
+            "purity_pct": null
+          },
+          {
+            "year": 2005,
+            "value": 66.18,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 64.03,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 69.62,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 78.28,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 83.68,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 83.74,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 84.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 96.39,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 98.72,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 103.09,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 103.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 91.79,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 98.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 101.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 120.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 120.0,
+            "purity_pct": null
+          },
+          {
             "year": 2021,
             "value": 30.5,
             "purity_pct": null
           }
         ],
         "latest": 30.5,
-        "yoy_change_pct": null,
+        "yoy_change_pct": -74.6,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "USA",
+        "name": "United States",
+        "drug": "cocaine",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 1990,
+            "value": 48.3,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 48.1,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 44.73,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 42.18,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 38.64,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 35.7,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 34.32,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 31.96,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 30.87,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 29.58,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 21.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 23.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 21.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 22.07,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 20.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2005,
+            "value": 20.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 26.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 31.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 26.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 28.25,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 30.75,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 40.8,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 29.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 28.75,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 29.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 28.25,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 28.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 28.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 26.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2019,
+            "value": 29.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2020,
+            "value": 29.75,
+            "purity_pct": null
+          },
+          {
+            "year": 2021,
+            "value": 30.5,
+            "purity_pct": null
+          }
+        ],
+        "latest": 30.5,
+        "yoy_change_pct": 2.5,
         "source": "unodc_wdr_annex"
       },
       {
@@ -3265,6 +5929,151 @@
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 1990,
+            "value": 359.02,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 427.78,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 480.52,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 373.51,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 399.68,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 395.16,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 339.28,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 357.01,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 322.75,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 310.18,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 307.06,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 284.89,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 282.35,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 267.88,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 252.84,
+            "purity_pct": null
+          },
+          {
+            "year": 2005,
+            "value": 255.61,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 258.61,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 229.52,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 310.33,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 274.89,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 279.03,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 260.43,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 271.3,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 259.59,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 265.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 264.68,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 293.64,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 360.85,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 393.85,
+            "purity_pct": null
+          },
           {
             "year": 2021,
             "value": 35.5,
@@ -3278,10 +6087,177 @@
       {
         "iso3": "USA",
         "name": "United States",
+        "drug": "heroin",
+        "level": "wholesale",
+        "unit": "USD/g",
+        "points": [
+          {
+            "year": 1990,
+            "value": 162.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1991,
+            "value": 155.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1992,
+            "value": 150.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1993,
+            "value": 146.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1994,
+            "value": 142.5,
+            "purity_pct": null
+          },
+          {
+            "year": 1995,
+            "value": 146.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1996,
+            "value": 141.88,
+            "purity_pct": null
+          },
+          {
+            "year": 1997,
+            "value": 129.38,
+            "purity_pct": null
+          },
+          {
+            "year": 1998,
+            "value": 125.0,
+            "purity_pct": null
+          },
+          {
+            "year": 1999,
+            "value": 107.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2000,
+            "value": 81.2,
+            "purity_pct": null
+          },
+          {
+            "year": 2001,
+            "value": 59.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2002,
+            "value": 50.75,
+            "purity_pct": null
+          },
+          {
+            "year": 2003,
+            "value": 68.8,
+            "purity_pct": null
+          },
+          {
+            "year": 2004,
+            "value": 65.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2005,
+            "value": 65.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2006,
+            "value": 65.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2007,
+            "value": 71.2,
+            "purity_pct": null
+          },
+          {
+            "year": 2008,
+            "value": 57.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2009,
+            "value": 65.05,
+            "purity_pct": null
+          },
+          {
+            "year": 2010,
+            "value": 65.75,
+            "purity_pct": null
+          },
+          {
+            "year": 2011,
+            "value": 55.58,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 61.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2013,
+            "value": 61.0,
+            "purity_pct": null
+          },
+          {
+            "year": 2014,
+            "value": 64.67,
+            "purity_pct": null
+          },
+          {
+            "year": 2015,
+            "value": 68.33,
+            "purity_pct": null
+          },
+          {
+            "year": 2016,
+            "value": 59.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2017,
+            "value": 53.33,
+            "purity_pct": null
+          },
+          {
+            "year": 2018,
+            "value": 53.33,
+            "purity_pct": null
+          }
+        ],
+        "latest": 53.33,
+        "yoy_change_pct": 0.0,
+        "source": "unodc_wdr_annex"
+      },
+      {
+        "iso3": "USA",
+        "name": "United States",
         "drug": "meth",
         "level": "retail",
         "unit": "USD/g",
         "points": [
+          {
+            "year": 2010,
+            "value": 251.5,
+            "purity_pct": null
+          },
+          {
+            "year": 2012,
+            "value": 209.0,
+            "purity_pct": null
+          },
           {
             "year": 2021,
             "value": 10.5,

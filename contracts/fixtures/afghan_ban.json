@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T18:09:03+00:00",
+    "generated_at": "2026-09-26T21:48:38+00:00",
     "model_version": "trace-0.1.0",
     "sources": [
       {
@@ -250,43 +250,43 @@
         "points": [
           {
             "year": 2015,
-            "value": 0.0814
+            "value": 0.0716
           },
           {
             "year": 2016,
-            "value": 0.0168
+            "value": 0.0108
           },
           {
             "year": 2017,
-            "value": 0.0607
+            "value": 0.0567
           },
           {
             "year": 2018,
-            "value": 0.0659
+            "value": 0.057
           },
           {
             "year": 2019,
-            "value": 0.0605
+            "value": 0.0533
           },
           {
             "year": 2020,
-            "value": 0.0389
+            "value": 0.0365
           },
           {
             "year": 2021,
-            "value": 0.0559
+            "value": 0.0535
           },
           {
             "year": 2022,
-            "value": 0.0531
+            "value": 0.0493
           },
           {
             "year": 2023,
-            "value": 0.1407
+            "value": 0.1341
           },
           {
             "year": 2024,
-            "value": 0.1383
+            "value": 0.115
           }
         ]
       }
@@ -297,11 +297,11 @@
         "to": "IRN",
         "drug": "heroin",
         "before": 1.0,
-        "predicted": 0.8726,
+        "predicted": 0.8577,
         "actual": 0.8894,
         "direction_correct": true,
         "before_kg": 77176.1,
-        "predicted_kg": 18393.7,
+        "predicted_kg": 15553.7,
         "actual_kg": 22219.3
       },
       {
@@ -309,11 +309,11 @@
         "to": "PAK",
         "drug": "heroin",
         "before": 0.8646,
-        "predicted": 0.7706,
+        "predicted": 0.7672,
         "actual": 0.7915,
         "direction_correct": true,
         "before_kg": 16810.5,
-        "predicted_kg": 5837.2,
+        "predicted_kg": 5621.1,
         "actual_kg": 7388.6
       },
       {
@@ -321,11 +321,11 @@
         "to": "IRN",
         "drug": "heroin",
         "before": 0.8242,
-        "predicted": 0.7088,
+        "predicted": 0.7145,
         "actual": 0.7557,
         "direction_correct": true,
         "before_kg": 10675.4,
-        "predicted_kg": 2910.0,
+        "predicted_kg": 3103.9,
         "actual_kg": 4935.0
       },
       {
@@ -333,11 +333,11 @@
         "to": "TUR",
         "drug": "heroin",
         "before": 0.7968,
-        "predicted": 0.7919,
+        "predicted": 0.7607,
         "actual": 0.7178,
         "direction_correct": true,
         "before_kg": 7839.8,
-        "predicted_kg": 7415.0,
+        "predicted_kg": 5219.2,
         "actual_kg": 3223.2
       },
       {
@@ -345,11 +345,11 @@
         "to": "IND",
         "drug": "heroin",
         "before": 0.7329,
-        "predicted": 0.7143,
+        "predicted": 0.7388,
         "actual": 0.7132,
-        "direction_correct": true,
+        "direction_correct": false,
         "before_kg": 3817.7,
-        "predicted_kg": 3098.6,
+        "predicted_kg": 4079.1,
         "actual_kg": 3058.8
       },
       {
@@ -357,11 +357,11 @@
         "to": "USA",
         "drug": "heroin",
         "before": 0.7319,
-        "predicted": 0.7182,
+        "predicted": 0.7333,
         "actual": 0.3894,
-        "direction_correct": true,
+        "direction_correct": false,
         "before_kg": 3775.4,
-        "predicted_kg": 3238.1,
+        "predicted_kg": 3835.1,
         "actual_kg": 79.0
       },
       {
@@ -369,11 +369,11 @@
         "to": "NLD",
         "drug": "heroin",
         "before": 0.6991,
-        "predicted": 0.6626,
+        "predicted": 0.6187,
         "actual": 0.2662,
         "direction_correct": true,
         "before_kg": 2611.0,
-        "predicted_kg": 1730.5,
+        "predicted_kg": 1055.0,
         "actual_kg": 19.0
       },
       {
@@ -381,11 +381,11 @@
         "to": "AZE",
         "drug": "heroin",
         "before": 0.679,
-        "predicted": 0.6878,
+        "predicted": 0.6168,
         "actual": 0.6713,
-        "direction_correct": false,
+        "direction_correct": true,
         "before_kg": 2080.8,
-        "predicted_kg": 2299.4,
+        "predicted_kg": 1032.6,
         "actual_kg": 1908.0
       },
       {
@@ -393,83 +393,71 @@
         "to": "IND",
         "drug": "heroin",
         "before": 0.6772,
-        "predicted": 0.642,
+        "predicted": 0.6254,
         "actual": 0.6079,
         "direction_correct": true,
         "before_kg": 2040.2,
-        "predicted_kg": 1372.5,
+        "predicted_kg": 1137.9,
         "actual_kg": 934.4
-      },
-      {
-        "from": "IRN",
-        "to": "ARE",
-        "drug": "heroin",
-        "before": 0.6274,
-        "predicted": 0.5537,
-        "actual": 0.0,
-        "direction_correct": true,
-        "before_kg": 1163.8,
-        "predicted_kg": 507.7,
-        "actual_kg": 0.0
       },
       {
         "from": "MMR",
         "to": "CHN",
         "drug": "heroin",
-        "before": 0.6269,
-        "predicted": 0.5725,
-        "actual": 0.6568,
+        "before": 0.6279,
+        "predicted": 0.5925,
+        "actual": 0.6581,
         "direction_correct": false,
-        "before_kg": 1157.8,
-        "predicted_kg": 627.3,
-        "actual_kg": 1620.4
+        "before_kg": 1171.0,
+        "predicted_kg": 785.6,
+        "actual_kg": 1644.6
       },
       {
         "from": "MMR",
         "to": "THA",
         "drug": "heroin",
-        "before": 0.5825,
-        "predicted": 0.6641,
-        "actual": 0.6025,
+        "before": 0.5947,
+        "predicted": 0.6355,
+        "actual": 0.616,
         "direction_correct": true,
-        "before_kg": 701.9,
-        "predicted_kg": 1760.6,
-        "actual_kg": 879.0
-      },
-      {
-        "from": "LAO",
-        "to": "VNM",
-        "drug": "heroin",
-        "before": 0.5816,
-        "predicted": 0.5647,
-        "actual": 0.5763,
-        "direction_correct": true,
-        "before_kg": 695.3,
-        "predicted_kg": 574.3,
-        "actual_kg": 654.9
+        "before_kg": 805.9,
+        "predicted_kg": 1275.8,
+        "actual_kg": 1024.2
       },
       {
         "from": "MMR",
         "to": "MYS",
         "drug": "heroin",
         "before": 0.5713,
-        "predicted": 0.6041,
+        "predicted": 0.5726,
         "actual": 0.5965,
         "direction_correct": true,
         "before_kg": 618.5,
-        "predicted_kg": 895.9,
+        "predicted_kg": 628.0,
         "actual_kg": 822.0
+      },
+      {
+        "from": "MMR",
+        "to": "BGD",
+        "drug": "heroin",
+        "before": 0.4878,
+        "predicted": 0.4365,
+        "actual": 0.5685,
+        "direction_correct": false,
+        "before_kg": 241.2,
+        "predicted_kg": 135.0,
+        "actual_kg": 599.5
       }
     ],
     "metrics": {
-      "direction_accuracy": 0.8571,
-      "spearman": 0.433,
-      "n_edges": 14,
-      "sea_share_before": 0.0531,
-      "sea_share_predicted": 0.127,
-      "sea_share_predicted_no_shock": 0.0514,
-      "sea_share_actual": 0.1407
+      "direction_accuracy": 0.6923,
+      "spearman": 0.3791,
+      "n_edges": 13,
+      "sea_share_before": 0.0493,
+      "sea_share_predicted": 0.1393,
+      "sea_share_predicted_no_shock": 0.0449,
+      "sea_share_actual": 0.1341
     },
-    "verdict": "Trained only on data through 2021, the model given a 95% cut in Afghan opium predicted the direction of change on 12 of 14 major heroin corridors for 2023. The Southeast Asian share of heroin corridor volume was 5% in 2022; the model predicted 13% (vs 5% without the shock) and data later showed 14%."
+    "verdict": "Trained only on data through 2021, the model given a 95% cut in Afghan opium predicted the direction of change on 9 of 13 major heroin corridors for 2023. The Southeast Asian share of heroin corridor volume was 5% in 2022; the model predicted 14% (vs 4% without the shock) and data later showed 13%."
   }
 }

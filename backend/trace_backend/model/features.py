@@ -57,8 +57,8 @@ def gravity_columns() -> list[str]:
 
 
 def load_inputs() -> dict[str, pd.DataFrame]:
-    return {"panel": db.read_table("wb_panel"), "dist": db.read_table("distances"),
-            "reg": db.read_table("cannabis_regulation")}
+    return {"panel": db.read_table("wb_panel"), "dist": db.read_table("model_distances"),
+            "reg": db.read_table("model_cannabis_regulation")}
 
 
 def build(edges: pd.DataFrame, inputs: dict[str, pd.DataFrame]) -> pd.DataFrame:

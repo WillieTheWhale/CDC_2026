@@ -19,14 +19,20 @@ API_DIR = Path(os.environ["TRACE_API_DIR"]) if os.environ.get("TRACE_API_DIR") e
 SEED = BACKEND / "trace_backend" / "seed"  # small, citable, hand-transcribed reference tables (committed)
 
 
+def _path(env: str, default: Path) -> Path:
+    v = os.environ.get(env)
+    if not v:
+        return default
+    p = Path(v)
+    return p if p.is_absolute() else REPO / p
+
+
 def _db_path() -> Path:
-    env = os.environ.get("TRACE_DB_PATH")
-    if env:
-        p = Path(env)
-        return p if p.is_absolute() else REPO / p
-    return DATA / "trace.duckdb"
+    return _path("TRACE_DB_PATH", DATA / "derived.sqlite")
 
 
+# Canonical collected-data archive (SQLite v2, owned by data_collection/; read-only here).
+ARCHIVE_PATH = _path("TRACE_ARCHIVE_PATH", REPO / "data_collection" / "work" / "trace.sqlite")
 DB_PATH = _db_path()
 
 MODEL_VERSION = "trace-0.1.0"
@@ -36,8 +42,8 @@ DRUG_LABELS = {"cocaine": "Cocaine / crack", "heroin": "Heroin / opiates", "meth
 # Relative harm weights for exposure (higher = more acute health harm per unit of flow).
 HARM_WEIGHTS = {"cocaine": 1.0, "heroin": 1.3, "meth": 1.1, "cannabis": 0.3}
 
-YEAR_MIN = 2005
-ROUTE_YEAR_MIN = 2011
+YEAR_MIN = 2000
+ROUTE_YEAR_MIN = 2006  # first year of UNODC annex seizure series in the archive
 BACKTEST_TRAIN_THROUGH = 2019
 AFGHAN_TRAIN_THROUGH = 2021
 

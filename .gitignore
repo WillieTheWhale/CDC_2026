@@ -9,6 +9,11 @@ backend/data/raw/
 backend/data/processed/
 backend/data/cache/
 *.duckdb
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite.part
+*.sqlite.gz
 *.duckdb.wal
 *.parquet
 

@@ -1,5 +1,6 @@
 # AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
-"""T3: download and load every external source into DuckDB; record status in ingest_manifest.json.
+"""LEGACY (pre-SQLite): not used by `trace pipeline`; the canonical data is the SQLite archive built by data_collection/.
+T3: download and load every external source into DuckDB; record status in ingest_manifest.json.
 
 A source that cannot be downloaded never stops the run: its status becomes `unavailable` and the
 downstream steps use documented fallbacks (see docs/BLOCKERS.md).
