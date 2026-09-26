@@ -15,6 +15,7 @@ TRACE maps trafficking routes for cocaine and crack, heroin, meth, and cannabis;
 | Data questions | [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md), [skills/world-bank-indicators-api/SKILL.md](skills/world-bank-indicators-api/SKILL.md) |
 | Handoff prompts | [docs/HANDOFF_PROMPT.md](docs/HANDOFF_PROMPT.md) |
 | Blockers and workarounds | [docs/BLOCKERS.md](docs/BLOCKERS.md) |
+| Presenting | [deck/README.md](deck/README.md), [deck/CUE_CARDS.md](deck/CUE_CARDS.md), [deck/QA_PREP.md](deck/QA_PREP.md) |
 | Rules and rubric | [docs/CDC_RULES.md](docs/CDC_RULES.md), [docs/AI_USAGE.md](docs/AI_USAGE.md) |
 
 ## Layout
@@ -24,6 +25,7 @@ contracts/   API contract and fixtures (the frontend/backend seam)
 backend/     Python data pipeline, models, FastAPI (Claude Code)
 frontend/    Next.js terminal UI (ChatGPT Astra)
 skills/      World Bank Indicators API skill
+deck/        judging pitch deck (rebuilds itself from this repo)
 ```
 
 ## Status
@@ -43,6 +45,7 @@ skills/      World Bank Indicators API skill
 | Frontend shell + map | frontend | not started |
 | Country Screen + Risk Board | frontend | not started |
 | Simulator, Live Wire, Market Board | frontend | not started |
+| Pitch deck | presentation | done (`deck/`, 4:45 + live demo, rebuilds from repo) |
 
 ## Headline results (backend, 2026-09-26)
 - Route model backtest (train on targets through 2019, test 2020-2024): hurdle AUC 0.92 vs 0.61 for the PPML gravity baseline; Spearman 0.67; precision@20 0.50.
