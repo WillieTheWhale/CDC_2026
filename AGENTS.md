@@ -12,6 +12,7 @@ Project: **TRACE**, a Bloomberg-terminal-style tool for the global drug trade th
 You are the **frontend** agent. You may edit **only `frontend/`** (plus appending lines to `docs/AI_USAGE.md` and `docs/CONTRACT_REQUESTS.md`). Never edit `backend/`, `contracts/`, or other docs. A Claude Code agent owns the backend and pushes to `main` in parallel.
 
 ## Workflow
+- In this workspace, make frequent git commits after each meaningful unit of work, using concise, descriptive commit messages.
 - `git pull --rebase origin main` before starting and before every push. Pull often: the backend updates contracts and fixtures during the week.
 - Push straight to `main` in small commits. `npm run build` must pass first.
 - Build against `contracts/fixtures/` until `NEXT_PUBLIC_API_URL` is set; keep a single data layer that switches between fixtures and the live API.
