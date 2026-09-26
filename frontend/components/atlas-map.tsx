@@ -135,17 +135,12 @@ export default function AtlasMap(props: Props) {
         zoom: 0.7,
         minZoom: -1,
         maxZoom: 18,
-        renderWorldCopies: false,
+        // Native Mercator constraints keep the viewport within the polar bounds
+        // at every size while allowing the map and deck overlay to repeat east/west.
+        renderWorldCopies: true,
         dragRotate: false,
         pitchWithRotate: false,
         attributionControl: { compact: true },
-        transformConstrain: (center, zoom) => ({
-          center: new maplibregl.LngLat(
-            Math.max(-180, Math.min(180, center.lng)),
-            Math.max(-80, Math.min(80, center.lat)),
-          ),
-          zoom: Math.max(-1, Math.min(18, zoom)),
-        }),
         style,
       });
     } catch {
@@ -244,11 +239,11 @@ export default function AtlasMap(props: Props) {
     });
     m.on("movestart", () => setHover(null));
     m.on("moveend", () => {
-      const c = m.getCenter();
+      const c = m.getCenter().wrap();
       setPosition({ lng: c.lng, lat: c.lat, zoom: m.getZoom() });
     });
     m.on("zoom", () => {
-      const c = m.getCenter();
+      const c = m.getCenter().wrap();
       setPosition({ lng: c.lng, lat: c.lat, zoom: m.getZoom() });
     });
     m.on("error", (e) => {
