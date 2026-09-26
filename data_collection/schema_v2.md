@@ -1,7 +1,7 @@
 <!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->
 # SQLite v2 backend handoff: source-to-value drilldown
 
-The published `trace.sqlite` remains the observational source of truth. The original 37 v1 tables stay in place. Additional shards supply drug-specific health observations, exact-product market measurements and a small retrospective research layer. Backend code should open the SQLite file read-only, preserve its observation years and source editions, and keep existing API response shapes unless the contract owner changes them. The backend's current DuckDB adapter is not compatible with this file merely by changing its path.
+The published `trace.sqlite` remains the observational source of truth. The verified v2 database has 61 tables and keeps the original 37 v1 tables in place. Additional shards supply drug-specific health observations, exact-product market measurements and a small retrospective research layer. Backend code should open the SQLite file read-only, preserve its observation years and source editions, and keep existing API response shapes unless the contract owner changes them. The backend's current DuckDB adapter is not compatible with this file merely by changing its path.
 
 ## Derived value → formula → inputs → source
 

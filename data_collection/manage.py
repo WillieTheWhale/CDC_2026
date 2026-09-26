@@ -199,24 +199,20 @@ def snapshot(db: Path, archive: Path, manifest: Path, tag: str, repository: str)
     return data
 
 
-def verify_remote(manifest: Path) -> dict:
-    """Stream the published gzip and verify both hashes without a second SQLite file."""
-    data = json.loads(manifest.read_text())
+def _verify_archive_stream(response, data: dict) -> dict:
     compressed_hash = hashlib.sha256()
     database_hash = hashlib.sha256()
     compressed_bytes = database_bytes = 0
     decoder = zlib.decompressobj(wbits=31)
-    request = Request(data["url"], headers={"User-Agent": "TRACE historical data verifier"})
-    with urlopen(request, timeout=120) as response:
-        while block := response.read(1024 * 1024):
-            compressed_hash.update(block)
-            compressed_bytes += len(block)
-            decoded = decoder.decompress(block)
-            database_hash.update(decoded)
-            database_bytes += len(decoded)
-        decoded = decoder.flush()
+    while block := response.read(1024 * 1024):
+        compressed_hash.update(block)
+        compressed_bytes += len(block)
+        decoded = decoder.decompress(block)
         database_hash.update(decoded)
         database_bytes += len(decoded)
+    decoded = decoder.flush()
+    database_hash.update(decoded)
+    database_bytes += len(decoded)
     if not decoder.eof or decoder.unused_data:
         raise ValueError("Remote archive is incomplete or contains trailing data")
     checks = {
@@ -233,6 +229,27 @@ def verify_remote(manifest: Path) -> dict:
     }:
         raise ValueError("Remote release asset failed checksum or size verification")
     return {"remote_stream_verified": True, **checks}
+
+
+def verify_remote(manifest: Path, gh_release_tag: str | None = None) -> dict:
+    """Verify release gzip and SQLite hashes without writing a second database."""
+    data = json.loads(manifest.read_text())
+    if gh_release_tag:
+        if gh_release_tag != data["release_tag"]:
+            raise ValueError("Requested GitHub release tag does not match the manifest")
+        command = ["gh", "release", "download", gh_release_tag,
+                   "--pattern", data["archive"]["filename"], "--output", "-"]
+        with subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE) as process:
+            if process.stdout is None:
+                raise ValueError("GitHub CLI did not provide an asset stream")
+            result = _verify_archive_stream(process.stdout, data)
+            error = process.stderr.read() if process.stderr else b""
+            if process.wait() != 0:
+                raise ValueError(f"GitHub asset download failed: {error.decode(errors='replace')}")
+            return {"transport": "authenticated_gh_release_asset", **result}
+    request = Request(data["url"], headers={"User-Agent": "TRACE historical data verifier"})
+    with urlopen(request, timeout=120) as response:
+        return {"transport": "public_release_url", **_verify_archive_stream(response, data)}
 
 
 def download(manifest: Path, output: Path) -> dict:
@@ -285,6 +302,7 @@ def main() -> None:
     p.add_argument("--output", type=Path, default=DEFAULT_DB)
     p = sub.add_parser("verify_remote")
     p.add_argument("--manifest", type=Path, default=ROOT / "snapshot.json")
+    p.add_argument("--gh-release-tag", help="Verify a draft release through authenticated gh stdout")
     args = vars(parser.parse_args())
     command = args.pop("command")
     print(json.dumps(globals()[command](**args), indent=2))

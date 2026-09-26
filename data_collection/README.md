@@ -44,6 +44,8 @@ python3 data_collection/manage.py inspect
 
 The [snapshot manifest](snapshot.json) records the release URL, SHA-256 hashes, integrity checks, and table counts. The v2 archive is assembled from the verified v1 release and four checksum-pinned new shards using the [standard GitHub Actions runner](../.github/workflows/trace-sqlite-v2.yml), because this workstation did not have enough free disk for a second 1.2 GB SQLite file. The workflow uses `manage.extend`, validates the merged SQLite, writes `coverage.md` and publishes the output to a draft release for independent remote-stream checksum verification before publication. This packaging method does not imply a physical v2 restore was performed on the workstation; the `download` command and small-fixture restore test remain available. To reproduce the original collection instead:
 
+The [v2 release](https://github.com/WillieTheWhale/CDC_2026/releases/tag/data-2026-09-26-v2) contains a 61-table, 1,214,050,304-byte SQLite database in a 171,353,116-byte gzip archive. The [validation record](reports/release_validation.md) cites the successful cloud build, exact hashes and audit checks. Use `python3 data_collection/manage.py verify_remote` to stream-check the public asset after publication, or add `--gh-release-tag data-2026-09-26-v2` to check an authenticated draft asset through the GitHub CLI. This performs checksum verification without writing a second database.
+
 ```sh
 uv sync --project backend
 python3 data_collection/world_bank.py

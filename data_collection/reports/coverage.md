@@ -1,7 +1,7 @@
 <!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->
 # Historical coverage and analysis windows
 
-Generated 2026-09-26T18:47:44.167834+00:00 from the verified merged SQLite archive.
+Generated 2026-09-26T21:04:19.698501+00:00 from the verified merged SQLite archive.
 
 ## Decision
 
@@ -24,6 +24,17 @@ There is no requirement that all variables overlap. Missing values stay null; th
 | UNODC cultivation | 1999 | 2025 | 203 |
 | OC Index editions | 2021 | 2025 | 579 |
 | HRI service editions | 2008 | 2024 | 1,206 |
+| UNODC national drug-use prevalence | 1991 | 2024 | 16,114 |
+| UNODC PWID/infection observations | 2001 | 2025 | 893 |
+| UNODC treatment contacts | 2015 | 2024 | 12,826 |
+| UN SDG 3.5.1 treatment coverage | 2013 | 2025 | 2,490 |
+| CDC 12-month-ending overdose observations | 2015 | 2026 | 86,904 |
+| UNODC source price/purity observations | 1990 | 2024 | 17,504 |
+| Exact-product market derived values | 2020 | 2024 | 925 |
+| Research values with source-row links | 2006 | 2022 | 3,070 |
+
+The additional source windows represent different populations, units and publication vintages. UN SDG 3.5.1 treatment coverage has 2,316 officially modeled and 174 country-data records; the CDC overdose table retains 15,850 suppressed/unavailable NULL rows. CDC rows are rolling 12-month periods, not monthly death increments, and drug categories overlap. Market values are source-price observations or exact-product descriptive derivations, not trade flows. The 8 cited evidence claims are multiyear statements or policy dates, not annual measured routes.
+
 
 ## World Bank long-history indicators
 
@@ -114,4 +125,8 @@ GDP + population counts economies with both market-size observations. The proxy 
 - [World Bank source IDs, API provenance and licenses](world_bank.md)
 - [UNODC files, units and collection limits](unodc.md)
 - [OC Index, HRI editions and CEPII context](context_sources.md)
+- [Drug-specific health and treatment sources](health.md)
+- [Exact-product prices, purity and retrieval limits](markets.md)
+- [Published corridor context and policy milestones](evidence.md)
+- [Retrospective research and source-row evidence](research_findings.md)
 - [Verified snapshot manifest and table counts](../snapshot.json)
