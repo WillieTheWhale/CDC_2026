@@ -65,7 +65,9 @@ def write_report(db: Path, output: Path) -> None:
             ("OC Index editions", bounds(con, "oc_index")),
             ("HRI service editions", bounds(con, "harm_reduction")),
         ]
-        price_years = yearly(con, "prices")
+        price_years = {r[0]: (r[1], r[2], r[3]) for r in con.execute("""
+            SELECT year,count(*),count(DISTINCT iso3),sum(upstream_estimate)
+            FROM prices GROUP BY year""")}
         annex_years = yearly(con, "seizures_annex")
         ids_years = yearly(con, "seizures_ids")
 
@@ -76,8 +78,10 @@ def write_report(db: Path, output: Path) -> None:
         "## Decision", "",
         f"**Long-history spine: {SPINE_START}–{SPINE_END} ({SPINE_END-SPINE_START+1} calendar years).** "
         "World Bank market-size and public-health series have observed values throughout this interval. "
-        "UNODC national drug-price observations also span it. This supports source-specific longitudinal "
-        "analysis; it does not imply every country, drug or indicator is measured every year. "
+        "UNODC published national drug-price series also span it. Early price observations cover "
+        "far fewer countries and include source-provided estimates, flagged in the table below. "
+        "This supports source-specific longitudinal analysis; it does not imply every country, drug "
+        "or indicator is measured every year. "
         "Use available country-years and report each result's denominator.", "",
         f"**Archive: all original years.** World Bank non-null values span {wb_first}–{wb_last} "
         f"across {variables} indicators and {countries} current economies. Its {total:,} country "
@@ -106,14 +110,17 @@ def write_report(db: Path, output: Path) -> None:
     lines += ["", "## Year-by-year spine support", "",
               "GDP + population counts economies with both market-size observations. The harm column "
               "also requires either homicide or HIV incidence. Other columns count observed source "
-              "records, not matched country-years. Zero means no reported observation, not zero activity.", "",
-              "| Year | WB variables | WB values | GDP + population economies | With harm outcome | Price records | National seizure records | IDS country/drug aggregates |",
-              "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
+              "records, not matched country-years. Source estimate counts identify values the UNODC "
+              "source itself flags as estimates. Zero means no reported observation, not zero activity.", "",
+              "| Year | WB variables | WB values | GDP + population economies | With harm outcome | Price records | Price economies | Source price estimates | National seizure records | IDS country/drug aggregates |",
+              "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for year in range(SPINE_START, SPINE_END + 1):
         wb_vars, wb_values = annual.get(year, (0, 0))
         market, harm = market_years.get(year, (0, 0))
+        price_records, price_countries, price_estimates = price_years.get(year, (0, 0, 0))
         lines.append(f"| {year} | {wb_vars} | {wb_values:,} | {market or 0} | {harm or 0} | "
-                     f"{price_years.get(year, 0):,} | {annex_years.get(year, 0):,} | "
+                     f"{price_records:,} | {price_countries} | {price_estimates or 0} | "
+                     f"{annex_years.get(year, 0):,} | "
                      f"{ids_years.get(year, 0):,} |")
     lines += ["", "## All World Bank variables", "",
               "| Variable | First observed | Latest observed | Economies ever observed | Non-null values |",
