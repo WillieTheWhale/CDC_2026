@@ -29,3 +29,8 @@ CDC rules allow generative AI tools but require citing where they are used. Ever
 
 - 2026-09-26 — ChatGPT (OpenAI), operated by William: explicitly authorized three data-collection subagents plus coordinator to retrieve full-history World Bank and external source observations into SQLite, preserve provenance/missingness, audit temporal coverage, write reproducible collectors and tests, publish database snapshots, and document the SQLite handoff. User instruction supersedes the old frontend-only assignment for this separate `data_collection/` task.
 - 2026-09-26 — ChatGPT Sol (OpenAI), operated by William: collected and verified UNODC, OC Index, HRI and CEPII source histories in SQLite; merged three shards; audited 1990–2024 observed coverage and source estimates; built reproducible tests, provenance reports and release tooling. Published measurements are source data, not AI-generated.
+- 2026-09-26 — ChatGPT (OpenAI), operated by William Keffer: verified Figma MCP and Adobe Fonts API access and synchronized local main with origin/main; no application code generated.
+
+- 2026-09-26 — ChatGPT (OpenAI), operated by William Keffer: read TRACE context and the new API contract, browsed Pinterest, and curated three visual reference directions in frontend/design/pinterest-directions.md for owner selection; no frontend implementation generated.
+
+- 2026-09-26 — ChatGPT (OpenAI), operated by William Keffer: added the owner's frequent-commit rule to AGENTS.md and verified authenticated Adobe Fonts API access; credential stored only in a gitignored local environment file.
