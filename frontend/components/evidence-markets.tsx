@@ -83,6 +83,13 @@ export function EvidenceMarkets({
   countries?: Country[];
 }) {
   const catalog = overview as MarketOverview;
+  const marketTotals = overview.countrySummaries.reduce(
+    (totals, row) => ({
+      observations: totals.observations + (row.counts.market_price ?? 0),
+      derived: totals.derived + (row.counts.market_derived ?? 0),
+    }),
+    { observations: 0, derived: 0 },
+  );
   const countries = useMemo(() => {
     const counts = new Map<string, number>();
     for (const row of catalog.marketCatalog ?? [])
@@ -198,6 +205,11 @@ export function EvidenceMarkets({
     [market, drug, measure, level, query, year],
   );
   const selected = rows.find((r) => r.id === selectedId) ?? rows[0] ?? null;
+  const selectedBasis =
+    selected?.basis ??
+    (selected?.domain === "market_derived"
+      ? "Nominal, matched 2026 annex inputs"
+      : "source basis unavailable");
   const trend = useMemo(() => {
     if (!selected) return [];
     const matching = market.filter(
@@ -251,7 +263,8 @@ export function EvidenceMarkets({
           </p>
         </div>
         <span className="em-count">
-          17,504 source observations · 925 matched derivations
+          {marketTotals.observations.toLocaleString()} country observations ·{" "}
+          {marketTotals.derived.toLocaleString()} matched derivations
         </span>
       </div>
       <div className="em-controls">
@@ -470,7 +483,7 @@ export function EvidenceMarkets({
                 {trend.filter((p) => p.value != null).length} observed year
                 {trend.filter((p) => p.value != null).length === 1 ? "" : "s"}.
                 Gaps and conflicting duplicates are left blank. Basis:{" "}
-                {selected.basis ?? "source basis unavailable"}.
+                {selectedBasis}.
               </p>
               <div className="em-detail">
                 <h3>{metricName(selected)}</h3>
@@ -481,12 +494,7 @@ export function EvidenceMarkets({
                     {selected.year ?? "year unavailable"}
                   </dd>
                   <dt>Source basis</dt>
-                  <dd>
-                    {selected.basis ??
-                      (selected.domain === "market_derived"
-                        ? "Nominal, matched 2026 annex inputs"
-                        : "Unavailable")}
-                  </dd>
+                  <dd>{selectedBasis}</dd>
                   {selected.publisherEstimate != null && (
                     <>
                       <dt>Publisher flag</dt>
