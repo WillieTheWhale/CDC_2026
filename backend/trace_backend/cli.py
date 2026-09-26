@@ -48,6 +48,15 @@ def main(argv: list[str] | None = None) -> int:
     sv.add_argument("--host", default="127.0.0.1")
     sv.add_argument("--port", type=int, default=8000)
     sv.add_argument("--reload", action="store_true")
+    rd = sub.add_parser("reflex-data", help="build Reflex train/val/test/zeroshot data")
+    rd.add_argument("--scale", type=float, default=1.0)
+    rt = sub.add_parser("reflex-train", help="train + calibrate Reflex (resumable)")
+    rt.add_argument("--epochs", type=int, default=1)
+    rt.add_argument("--limit", type=int, default=None, help="train on the first N examples (smoke test)")
+    re_ = sub.add_parser("reflex-eval", help="evaluate Reflex against the Reflex Parity Scale")
+    re_.add_argument("--quick", action="store_true", help="small subsets")
+    re_.add_argument("--model-dir", default=None)
+    re_.add_argument("--out", default="eval.json")
     lw = sub.add_parser("livewire", help="poll GDELT once and classify (prints events)")
     lw.add_argument("--offline", action="store_true", help="use the bundled sample articles instead of GDELT")
 
@@ -65,6 +74,19 @@ def main(argv: list[str] | None = None) -> int:
     if a.cmd == "serve":
         import uvicorn
         uvicorn.run("trace_backend.api.app:app", host=a.host, port=a.port, reload=a.reload)
+        return 0
+    if a.cmd.startswith("reflex"):
+        import os
+        os.environ.setdefault("HF_HOME", str(__import__("trace_backend.config", fromlist=["x"]).DATA / "reflex" / "hf"))
+        if a.cmd == "reflex-data":
+            from trace_backend.reflex.data import build
+            logging.info("reflex data: %s", build(a.scale))
+        elif a.cmd == "reflex-train":
+            from trace_backend.reflex.train import run as train_run
+            logging.info("reflex train: %s", train_run(epochs=a.epochs, limit=a.limit))
+        else:
+            from trace_backend.reflex.evaluate import run as eval_run
+            logging.info("reflex eval written: %s", eval_run(quick=a.quick, model_dir=a.model_dir, out_name=a.out))
         return 0
     if a.cmd == "livewire":
         from trace_backend.api.livewire import poll_once

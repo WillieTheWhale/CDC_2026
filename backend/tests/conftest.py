@@ -8,6 +8,7 @@ from pathlib import Path
 import pytest
 
 os.environ.setdefault("TRACE_LIVEWIRE_POLL", "0")  # no background GDELT polling in tests
+os.environ.setdefault("TRACE_CLASSIFIER", "mock")  # keep tests fast and torch-free
 
 from trace_backend import config, contract  # noqa: E402
 

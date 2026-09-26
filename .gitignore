@@ -8,6 +8,7 @@ frontend/.env.local
 backend/data/raw/
 backend/data/processed/
 backend/data/cache/
+backend/data/reflex/
 *.duckdb
 *.sqlite
 *.sqlite-journal

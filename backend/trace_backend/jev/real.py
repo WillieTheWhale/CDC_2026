@@ -71,9 +71,26 @@ class RealJevClassifier(JevClassifier):
 
 
 def get_classifier(countries: list[dict] | None = None) -> JevClassifier:
-    if config.TYPESAFE_API_KEY:
+    """Pick the Live Wire classifier.
+
+    TRACE_CLASSIFIER=jev|reflex|mock forces one. Otherwise: real Jev if TYPESAFE_API_KEY is set, else Reflex (TRACE's
+    own System One model, docs/REFLEX_SPEC.md) if trained weights exist, else the keyword mock.
+    """
+    import os
+    choice = os.environ.get("TRACE_CLASSIFIER", "").strip().lower()
+    if choice in ("", "jev") and config.TYPESAFE_API_KEY:
         try:
             return RealJevClassifier(countries or [])
         except ImportError:
-            log.warning("TYPESAFE_API_KEY set but typesafe-sdk not installed (uv sync --extra jev); using mock")
+            log.warning("TYPESAFE_API_KEY set but typesafe-sdk not installed (uv sync --extra jev)")
+    if choice in ("", "reflex"):
+        try:
+            from ..reflex.model import WEIGHTS_DIR
+            if (WEIGHTS_DIR / "reflex.json").exists():
+                from .reflex_client import ReflexClassifier
+                return ReflexClassifier(countries)
+            if choice == "reflex":
+                log.warning("TRACE_CLASSIFIER=reflex but no trained weights; run `uv run trace reflex-train`")
+        except ImportError:
+            log.warning("Reflex needs the reflex extra (uv sync --extra reflex); using mock")
     return MockJevClassifier()

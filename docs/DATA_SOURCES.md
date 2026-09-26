@@ -122,3 +122,22 @@ Every download is scripted in `backend/trace_backend/ingest/` (`uv run trace ing
 - Myanmar production: 790 t (2022), 1,080 t (2023), 995 t (2024); Shan State 88 percent of Myanmar cultivation (UNODC).
 - Afghan output estimated 296 t in 2024; prices about five times pre-ban average (Al Jazeera citing UNODC, Nov 2025).
 - GI-TOC 2025: cocaine and synthetic drugs rising (cocaine market score 4.52 to 4.89, synthetics 4.62 to 5.14, 2021 to 2025); heroin down sharply; cannabis most widespread but declining with legalization.
+
+## Reflex (TRACE's own System One model) training and evaluation data
+
+Reflex is described in [REFLEX_SPEC.md](REFLEX_SPEC.md). Everything it learns from is free and openly published; nothing is paid for or scraped. Downloads are cached under the gitignored `backend/data/reflex/hf/`.
+
+| Resource | Used as | Citation / licence |
+|---|---|---|
+| `cross-encoder/nli-deberta-v3-xsmall` | Pretrained starting weights (NLI cross-encoder) | He et al. (2021), DeBERTaV3; sentence-transformers cross-encoder, Apache-2.0 |
+| BoolQ (`google/boolq`) | Noul training | Clark et al. (2019), NAACL; CC BY-SA 3.0 |
+| MultiNLI (`nyu-mll/multi_nli`) | Noul training | Williams et al. (2018), NAACL; OANC / CC BY-SA 3.0 / CC BY 3.0 by genre |
+| AG News (`fancyzhx/ag_news`) | Choice training | Zhang, Zhao and LeCun (2015), NeurIPS; academic, non-commercial |
+| DBpedia-14 (`fancyzhx/dbpedia_14`) | Choice training | Zhang et al. (2015); DBpedia CC BY-SA 3.0 |
+| Yahoo Answers topics (`community-datasets/yahoo_answers_topics`) | Choice training | Zhang et al. (2015); academic, non-commercial |
+| Yelp reviews full (`Yelp/yelp_review_full`) | Score training | Zhang et al. (2015); Yelp Dataset terms (academic, non-commercial) |
+| RTE (`nyu-mll/glue`, rte) | Zero-shot Noul test only | Dagan et al. (2006) and successors via GLUE (Wang et al. 2019) |
+| Emotion (`dair-ai/emotion`) | Zero-shot Choice test only | Saravia et al. (2018), EMNLP |
+| SST-5 (`SetFit/sst5`) | Zero-shot Score test only | Socher et al. (2013), EMNLP |
+| UNODC IDS seizure records (SQLite archive) | TRACE-domain training headlines (country, city, drug, quantity, place and transport mode from real records) | UNODC Drugs Monitoring Platform; see UNODC rows above |
+| TypeSafe documentation (docs.typesafe.ai, 59 pages) | Specification only (interface, output contract, confidence formula, calibration objective, failure modes). No TypeSafe code or weights | TypeSafe AI, retrieved 2026-09-26 |

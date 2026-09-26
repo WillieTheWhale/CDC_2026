@@ -103,7 +103,7 @@ class LiveWire:
                     self.seen.add(e["id"])
             except (ValueError, KeyError):
                 pass
-        if not self.events:
+        if not self.events and self.classifier_name == "mock":  # heavier classifiers fill the backlog off-loop
             for _ in range(12):
                 self._replay_one(push=False)
 
@@ -146,8 +146,9 @@ class LiveWire:
                 q.put_nowait(frame)
 
     # ------------------------------------------------------------------ sources
-    def poll_gdelt(self, timespan: str = "1h", maxrecords: int = 75) -> int:
-        """One GDELT DOC request (>= 5 s apart per GDELT policy). Returns number of new events."""
+    def poll_gdelt(self, timespan: str = "1h", maxrecords: int = 75) -> list[dict]:
+        """One GDELT DOC request (>= 5 s apart per GDELT policy). Classifies in the calling (worker) thread and
+        returns the new events; publishing to WebSocket queues happens on the event loop."""
         wait = 5.5 - (time.time() - self.last_request)
         if wait > 0:
             time.sleep(wait)
@@ -161,7 +162,7 @@ class LiveWire:
         arts = r.json().get("articles", [])
         if not arts:
             raise RuntimeError("GDELT returned no articles")
-        new = 0
+        new: list[dict] = []
         titles = {re.sub(r"\W+", " ", e["title"].lower()).strip() for e in self.events}
         for a in arts:
             url, title = a.get("url", ""), (a.get("title") or "").strip()
@@ -174,14 +175,12 @@ class LiveWire:
             ev = self.build_event(title, url, seen, a.get("domain") or urlparse(url).netloc, a.get("language", ""))
             self.seen.add(eid)
             if ev:
-                self._publish(ev)
-                new += 1
-        self.status, self.retrieved_at, self.note = "live", _iso(_now()), f"{len(arts)} articles, {new} new events"
-        self._save()
+                new.append(ev)
+        self.status, self.retrieved_at, self.note = "live", _iso(_now()), f"{len(arts)} articles, {len(new)} new events"
         return new
 
-    def _replay_one(self, push: bool = True) -> dict | None:
-        """Replay one synthetic sample headline (clearly marked sample.trace.local)."""
+    def _replay_build(self) -> dict | None:
+        """Classify one synthetic sample headline (clearly marked sample.trace.local); thread-safe, no publish."""
         for _ in range(len(self._replay)):
             title = self._replay[self._replay_i % len(self._replay)]
             self._replay_i += 1
@@ -189,17 +188,30 @@ class LiveWire:
             url = f"https://sample.trace.local/replay/{self._replay_i}-{int(now.timestamp())}"
             ev = self.build_event(title, url, now, "sample.trace.local", "English")
             if ev:
-                self._publish(ev, push=push)
                 return ev
         return None
+
+    def _replay_one(self, push: bool = True) -> dict | None:
+        ev = self._replay_build()
+        if ev:
+            self._publish(ev, push=push)
+        return ev
 
     async def poll_forever(self):
         replay_s = float(os.environ.get("TRACE_LIVEWIRE_REPLAY_SECONDS", "45"))
         first = True
+        while len(self.events) < 12:  # initial backlog, classified off the event loop
+            ev = await asyncio.to_thread(self._replay_build)
+            if not ev:
+                break
+            self._publish(ev, push=False)
         while True:
             try:
-                n = await asyncio.to_thread(self.poll_gdelt, "24h" if first else "1h")
-                log.info("GDELT poll: %d new events", n)
+                new = await asyncio.to_thread(self.poll_gdelt, "24h" if first else "1h")
+                for ev in new:
+                    self._publish(ev)
+                self._save()
+                log.info("GDELT poll: %d new events", len(new))
                 first = False
                 self.next_poll_at = _now() + timedelta(minutes=config.GDELT_POLL_MINUTES)
                 await asyncio.sleep(config.GDELT_POLL_MINUTES * 60)
@@ -209,7 +221,9 @@ class LiveWire:
                 deadline = time.time() + min(config.GDELT_POLL_MINUTES * 60, 300)
                 self.next_poll_at = _now() + timedelta(seconds=deadline - time.time())
                 while time.time() < deadline:
-                    self._replay_one()
+                    ev = await asyncio.to_thread(self._replay_build)
+                    if ev:
+                        self._publish(ev)
                     await asyncio.sleep(replay_s)
 
     # ------------------------------------------------------------------ reporting
@@ -231,6 +245,15 @@ class LiveWire:
 
     @lru_cache(maxsize=1)  # noqa: B019 - one LiveWire per process
     def accuracy(self) -> dict:
+        if self.classifier_name.startswith("reflex"):  # precomputed by `trace reflex-eval` (slow on CPU)
+            ev = config.DATA / "reflex" / "eval.json"
+            if ev.exists():
+                d = json.loads(ev.read_text(encoding="utf-8"))["L6_domain"]
+                r = {k: v for k, v in d["reflex"].items() if k != "ms_per_article"}
+                return {"classifier": self.classifier_name, "n_labeled": 100, "field_accuracy": r,
+                        "note": ("Reflex (TRACE's own System One model) on 100 synthetic headlines with provisional "
+                                 "labels; mock keyword classifier on the same set: "
+                                 + ", ".join(f"{k} {v}" for k, v in d["mock"].items() if k != "ms_per_article"))}
         rows = load_eval()
         clf = self.classifier
         hits = {k: 0 for k in ("is_event", "event_type", "drug", "origin", "destination", "size")}
@@ -330,7 +353,8 @@ def poll_once(offline: bool = False) -> list[dict]:
             lw._replay_one(push=False)
     else:
         try:
-            lw.poll_gdelt("24h")
+            for ev in lw.poll_gdelt("24h"):
+                lw._publish(ev, push=False)
         except Exception as exc:
             print(f"GDELT unavailable ({exc}); showing replayed sample")
             for _ in range(10):
