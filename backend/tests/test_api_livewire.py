@@ -53,7 +53,7 @@ def test_metrics_include_livewire_accuracy(client):
 
 def test_anomaly_flag_on_unmodelled_edge(client):
     from trace_backend.api.livewire import state
-    ev = state().build_event("Cocaine shipment from Bolivia found in Japan port bound for Japan", "https://x.test/1",
+    ev = state().build_event("Cocaine shipment from Bolivia seized in Laos port bound for Laos", "https://x.test/1",
                              __import__("datetime").datetime.now(__import__("datetime").timezone.utc), "x.test")
     assert ev and ev["is_anomaly"] and ev["edge_probability"] is not None and ev["edge_probability"] < 0.1
     contract.validate("LiveEvent", ev)

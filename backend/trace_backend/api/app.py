@@ -180,5 +180,6 @@ def _livewire_state():
 for _mod in ("livewire", "simulate"):
     try:
         app.include_router(__import__(f"trace_backend.api.{_mod}", fromlist=["router"]).router)
-    except ImportError:
-        pass
+    except ImportError as _exc:  # module not built yet
+        import logging
+        logging.getLogger(__name__).warning("router %s not loaded: %s", _mod, _exc)

@@ -38,7 +38,7 @@ skills/      World Bank Indicators API skill
 | T6 spillover risk | backend | done (217 countries x 2011-2025; hypothesis not supported, see metrics) |
 | T7 export + API | backend | done (precomputed JSON, FastAPI, contract tests) |
 | T8 Live Wire (mock Jev) | backend | done (JevClassifier + mock, GDELT poller with replay fallback, REST + WS) |
-| T9 shock simulator | backend | not started |
+| T9 shock simulator | backend | done (structured + plain-English shocks, command bar) |
 | Frontend shell + map | frontend | not started |
 | Country Screen + Risk Board | frontend | not started |
 | Simulator, Live Wire, Market Board | frontend | not started |

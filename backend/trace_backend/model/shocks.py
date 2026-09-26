@@ -146,9 +146,10 @@ def apply_to_edges(ctx: Context, year: int, shocks: list[Shock]) -> pd.DataFrame
     for c in ("kg", "S_from", "S_to", "P_from"):
         out[c] = sc[c].reindex(out.index).fillna(0).values
     out = out.reset_index()
-    tot = out.groupby("drug")["kg"].transform("sum").replace(0, np.nan)
+    # shares and scaling use the BASELINE totals so absolute declines stay declines (no share inflation)
+    tot = out["drug"].map(base.groupby(level="drug")["kg"].sum()).replace(0, np.nan)
     out["share"] = (out["kg"] / tot).fillna(0)
-    mx = out.groupby("drug")["kg"].transform("max").replace(0, np.nan)
+    mx = out["drug"].map(base.groupby(level="drug")["kg"].max()).replace(0, np.nan)
     out["volume_norm"] = (np.log1p(out["kg"]) / np.log1p(mx)).fillna(0).clip(0, 1)
     out["active"] = out["share"] >= E.ACTIVE_SHARE
     return pd.concat([ctx.edges[ctx.edges["year"] != year], out], ignore_index=True)

@@ -52,10 +52,14 @@ def tier(score: float) -> str:
     return next(t for th, t in TIERS if score >= th)
 
 
-def exposure_raw(edges: pd.DataFrame, prod: pd.DataFrame, years: list[int]) -> pd.DataFrame:
-    """Per iso3-year-drug: harm-weighted share of that drug's flows touching the country."""
+def exposure_raw(edges: pd.DataFrame, prod: pd.DataFrame, years: list[int],
+                 totals: tuple[pd.Series, pd.Series] | None = None) -> pd.DataFrame:
+    """Per iso3-year-drug: harm-weighted share of that drug's flows touching the country.
+
+    `totals` = (flow totals, production totals) indexed by (drug, year) overrides the denominators, so a
+    scenario is measured against the baseline world (absolute declines stay declines)."""
     e = edges[edges["year"].isin(years)]
-    tot = e.groupby(["drug", "year"])["kg"].sum().rename("tot")
+    tot = e.groupby(["drug", "year"])["kg"].sum().rename("tot") if totals is None else totals[0].rename("tot")
     inflow = e.groupby(["to_iso3", "year", "drug"])["kg"].sum().rename("inbound")
     outflow = e.groupby(["from_iso3", "year", "drug"])["kg"].sum().rename("outbound")
     inflow.index.names = outflow.index.names = ["iso3", "year", "drug"]
@@ -63,7 +67,7 @@ def exposure_raw(edges: pd.DataFrame, prod: pd.DataFrame, years: list[int]) -> p
     p = prod[prod["year"].isin(years)].set_index(["iso3", "year", "drug"])["prod_kg"]
     df = df.merge(p.rename("production").reset_index(), on=["iso3", "year", "drug"], how="outer").fillna(0)
     df = df.join(tot, on=["drug", "year"])
-    ptot = prod.groupby(["drug", "year"])["prod_kg"].sum()
+    ptot = prod.groupby(["drug", "year"])["prod_kg"].sum() if totals is None else totals[1]
     df["ptot"] = [ptot.get((d, y), np.nan) for d, y in zip(df["drug"], df["year"], strict=True)]
     df["s_in"] = df["inbound"] / df["tot"]
     df["s_out"] = 0.5 * df["outbound"] / df["tot"]
