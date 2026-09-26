@@ -25,7 +25,7 @@ npm start
 
 The default atlas and risk board use a saved backend model snapshot. Available route snapshots are a 2024 baseline and 2025 forecast; country risk and Colombia's detailed API profile use 2025. Other model years and profiles show an explicit unavailable state. Corridors are modeled country links, not observed seizure routes. News fixtures are synthetic and labeled as such. A saved Colombia cultivation scenario is available; custom scenarios require the model API.
 
-Health, market, source and research panels read compact country exports from the verified 2026-09-26 SQLite v2 archive under `public/data/observed-v2/`. These files preserve observation years, source editions, original populations and units. The browser fetches a country only when needed; the atlas does not wait for this archive. The archive is separate from the model API while the backend SQLite migration is pending. The published snapshot and coverage limits are documented in `../data_collection/README.md` and `../data_collection/reports/`.
+Health, market, source and research panels read compact country exports from the verified 2026-09-26 SQLite v2 archive under `public/data/observed-v2/`. These files preserve observation years, source editions, original populations and units. The browser fetches a country only when needed; the atlas does not wait for this archive. The archive is separate from the model API while the backend SQLite migration is pending. See [`scripts/OBSERVED_DATA.md`](scripts/OBSERVED_DATA.md) to reproduce the export. The published snapshot and coverage limits are documented in `../data_collection/README.md` and `../data_collection/reports/`.
 
 To connect the API, add this public endpoint to `.env.local` without replacing existing private credentials:
 

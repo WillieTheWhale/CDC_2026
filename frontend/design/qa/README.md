@@ -45,3 +45,11 @@ These JPEGs are native browser viewport captures, not generated mockups or stitc
 - At 390×844, Atlas and Experiment both have document width 390px. Charts fit 354px content width; corridor/backtest/hypothesis tables scroll inside their own containers. Fixed a grid intrinsic-width overflow found during this check.
 - Browser warning/error logs were empty for the desktop detailed-map and mobile checks. Production build and the six adapter/command tests pass.
 - Revision captures: `atlas-revision-world.jpg`, `atlas-revision-streets.jpg`, `experiment-revision.jpg`, `spillover-revision.jpg`, `atlas-revision-mobile.jpg`, `experiment-revision-mobile.jpg`. Earlier screenshots remain as historical evidence.
+
+## SQLite source archive integration check
+
+On 2026-09-26, the production `npm run build` passed, all six npm tests passed, and three active observed-export integrity tests passed. One optional source-shard count test was skipped after checksum-audited temporary copies were removed. This check did not add new screenshots.
+
+Browser checks confirmed that Pakistan opens country health evidence beyond the Colombia model-profile fixture; health rows retain modeled versus country-reported treatment status, ranged reference years, denominator and method detail. The US CDC view selected the exact synthetic-opioid indicator and revealed earlier 12-month-ending periods through “Show earlier periods.” Germany's market view showed the purity-adjusted price formula `10.92 / (11.8 / 100) = 92.53` with both contributing source rows. The research view displayed the retrospective coefficient 0.0195, p-value 0.869, 1,428 observations across 144 countries, and source-pair dates. Published policy context appeared in Scenarios, and the v2 archive appeared in Data sources.
+
+At 390px wide, Health, Markets and Experiment had no horizontal page overflow. A fresh production browser session logged no warnings or errors. These checks cover the saved frontend and source export, not live backend SQLite migration or prospective model validation.
