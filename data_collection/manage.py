@@ -14,6 +14,8 @@ import os
 from pathlib import Path
 import shutil
 import sqlite3
+import subprocess
+import zlib
 from datetime import datetime, timezone
 from urllib.request import Request, urlopen
 
@@ -56,7 +58,7 @@ def inspect(db: Path) -> dict:
         return {"integrity_check": "ok", "foreign_key_check": "ok", "tables": tables}
 
 
-def merge(shards: list[Path], output: Path) -> dict:
+def merge(shards: list[Path], output: Path, clone_base: bool = False) -> dict:
     if not shards or len(set(p.resolve() for p in shards)) != len(shards):
         raise ValueError("Provide distinct completed shards")
     for shard in shards:
@@ -67,9 +69,16 @@ def merge(shards: list[Path], output: Path) -> dict:
     temporary = output.with_suffix(".sqlite.part")
     temporary.unlink(missing_ok=True)
     try:
+        if clone_base:
+            # macOS APFS copy-on-write clone: retain the largest source shard without
+            # allocating a second copy of its pages. Fail rather than silently copy.
+            subprocess.run(["cp", "-c", str(shards[0]), str(temporary)],
+                           check=True, capture_output=True, text=True)
+            if digest(temporary) != digest(shards[0]):
+                raise ValueError("APFS clone does not match the source shard")
         with sqlite3.connect(temporary, uri=True) as con:
             con.execute("PRAGMA journal_mode=DELETE")
-            con.execute("PRAGMA user_version=1")
+            con.execute("PRAGMA user_version=2")
             con.execute("CREATE TABLE collection_shards (name TEXT PRIMARY KEY, sha256 TEXT NOT NULL, bytes INTEGER NOT NULL, merged_at TEXT NOT NULL)")
             con.execute("CREATE TABLE collection_metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL)")
             con.executemany("INSERT INTO collection_metadata VALUES (?, ?)", [
@@ -78,7 +87,15 @@ def merge(shards: list[Path], output: Path) -> dict:
             ])
             con.commit()
             known = {"collection_shards", "collection_metadata"}
-            for shard in shards:
+            if clone_base:
+                known.update(name for (name,) in con.execute(
+                    "SELECT name FROM sqlite_master WHERE name NOT LIKE 'sqlite_%'"))
+                base = shards[0]
+                con.execute("INSERT INTO collection_shards VALUES (?,?,?,?)",
+                            (base.name, digest(base), base.stat().st_size,
+                             datetime.now(timezone.utc).isoformat()))
+                con.commit()
+            for shard in shards[1:] if clone_base else shards:
                 con.execute("ATTACH DATABASE ? AS incoming", (shard.resolve().as_uri() + "?mode=ro",))
                 schema = con.execute("SELECT type,name,sql FROM incoming.sqlite_master WHERE name NOT LIKE 'sqlite_%' ORDER BY CASE type WHEN 'table' THEN 0 WHEN 'index' THEN 1 WHEN 'view' THEN 2 ELSE 3 END").fetchall()
                 names = {name for _, name, sql in schema if sql}
@@ -106,6 +123,8 @@ def merge(shards: list[Path], output: Path) -> dict:
 
 def snapshot(db: Path, archive: Path, manifest: Path, tag: str, repository: str) -> dict:
     report = inspect(db)
+    with sqlite3.connect(db.resolve().as_uri() + "?mode=ro", uri=True) as con:
+        schema_version = con.execute("PRAGMA user_version").fetchone()[0]
     archive.parent.mkdir(parents=True, exist_ok=True)
     temporary = archive.with_suffix(archive.suffix + ".part")
     with db.open("rb") as src, temporary.open("wb") as raw:
@@ -113,7 +132,7 @@ def snapshot(db: Path, archive: Path, manifest: Path, tag: str, repository: str)
             shutil.copyfileobj(src, dst, 1024 * 1024)
     os.replace(temporary, archive)
     data = {
-        "_ai_assistance": AI_NOTICE, "schema_version": 1,
+        "_ai_assistance": AI_NOTICE, "schema_version": schema_version,
         "created_at": datetime.now(timezone.utc).isoformat(),
         "repository": repository, "release_tag": tag,
         "url": f"https://github.com/{repository}/releases/download/{tag}/{archive.name}",
@@ -124,6 +143,42 @@ def snapshot(db: Path, archive: Path, manifest: Path, tag: str, repository: str)
     manifest.parent.mkdir(parents=True, exist_ok=True)
     manifest.write_text(json.dumps(data, indent=2) + "\n")
     return data
+
+
+def verify_remote(manifest: Path) -> dict:
+    """Stream the published gzip and verify both hashes without a second SQLite file."""
+    data = json.loads(manifest.read_text())
+    compressed_hash = hashlib.sha256()
+    database_hash = hashlib.sha256()
+    compressed_bytes = database_bytes = 0
+    decoder = zlib.decompressobj(wbits=31)
+    request = Request(data["url"], headers={"User-Agent": "TRACE historical data verifier"})
+    with urlopen(request, timeout=120) as response:
+        while block := response.read(1024 * 1024):
+            compressed_hash.update(block)
+            compressed_bytes += len(block)
+            decoded = decoder.decompress(block)
+            database_hash.update(decoded)
+            database_bytes += len(decoded)
+        decoded = decoder.flush()
+        database_hash.update(decoded)
+        database_bytes += len(decoded)
+    if not decoder.eof or decoder.unused_data:
+        raise ValueError("Remote archive is incomplete or contains trailing data")
+    checks = {
+        "archive_bytes": compressed_bytes,
+        "archive_sha256": compressed_hash.hexdigest(),
+        "database_bytes": database_bytes,
+        "database_sha256": database_hash.hexdigest(),
+    }
+    if checks != {
+        "archive_bytes": data["archive"]["bytes"],
+        "archive_sha256": data["archive"]["sha256"],
+        "database_bytes": data["database"]["bytes"],
+        "database_sha256": data["database"]["sha256"],
+    }:
+        raise ValueError("Remote release asset failed checksum or size verification")
+    return {"remote_stream_verified": True, **checks}
 
 
 def download(manifest: Path, output: Path) -> dict:
@@ -157,6 +212,8 @@ def main() -> None:
     p = sub.add_parser("merge")
     p.add_argument("--shards", nargs="+", type=Path, default=DEFAULT_SHARDS)
     p.add_argument("--output", type=Path, default=DEFAULT_DB)
+    p.add_argument("--clone-base", action="store_true",
+                   help="Use macOS APFS clone of first shard to reduce peak disk use")
     p = sub.add_parser("inspect")
     p.add_argument("--db", type=Path, default=DEFAULT_DB)
     p = sub.add_parser("snapshot")
@@ -168,6 +225,8 @@ def main() -> None:
     p = sub.add_parser("download")
     p.add_argument("--manifest", type=Path, default=ROOT / "snapshot.json")
     p.add_argument("--output", type=Path, default=DEFAULT_DB)
+    p = sub.add_parser("verify_remote")
+    p.add_argument("--manifest", type=Path, default=ROOT / "snapshot.json")
     args = vars(parser.parse_args())
     command = args.pop("command")
     print(json.dumps(globals()[command](**args), indent=2))

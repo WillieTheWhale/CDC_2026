@@ -34,6 +34,19 @@ class SnapshotTests(unittest.TestCase):
             self.assertEqual(con.execute("SELECT count(*) FROM collection_shards").fetchone()[0], 2)
             self.assertTrue(con.execute("SELECT 1 FROM sqlite_master WHERE name='series_a_year'").fetchone())
 
+    def test_clone_base_equivalent_and_source_unchanged(self):
+        a, b = self.shard("a.sqlite", "series_a"), self.shard("b.sqlite", "series_b")
+        before = manage.digest(a)
+        regular = self.root / "regular.sqlite"
+        cloned = self.root / "cloned.sqlite"
+        standard_report = manage.merge([a, b], regular)
+        clone_report = manage.merge([a, b], cloned, clone_base=True)
+        self.assertEqual(standard_report["tables"], clone_report["tables"])
+        self.assertEqual(manage.digest(a), before)
+        with sqlite3.connect(cloned) as con:
+            self.assertEqual(con.execute("SELECT count(*) FROM collection_shards").fetchone()[0], 2)
+            self.assertEqual(con.execute("SELECT value FROM series_a WHERE year=1960").fetchone()[0], 0.0)
+
     def test_collision_leaves_previous_database_untouched(self):
         a, b = self.shard("a.sqlite", "series"), self.shard("b.sqlite", "series")
         output = self.root / "trace.sqlite"
@@ -60,6 +73,18 @@ class SnapshotTests(unittest.TestCase):
         with patch.object(manage, "urlopen", return_value=io.BytesIO(b"corrupt")):
             with self.assertRaisesRegex(ValueError, "archive"):
                 manage.download(manifest, output)
+
+    def test_verify_remote_stream_checks_both_hashes(self):
+        source = self.shard("source.sqlite", "series")
+        archive, manifest = self.root / "trace.sqlite.gz", self.root / "snapshot.json"
+        manage.snapshot(source, archive, manifest, "test", "example/repo")
+        with patch.object(manage, "urlopen", return_value=io.BytesIO(archive.read_bytes())):
+            result = manage.verify_remote(manifest)
+        self.assertTrue(result["remote_stream_verified"])
+        corrupted = archive.read_bytes()[:-1]
+        with patch.object(manage, "urlopen", return_value=io.BytesIO(corrupted)):
+            with self.assertRaises(ValueError):
+                manage.verify_remote(manifest)
 
 
 if __name__ == "__main__":

@@ -3,7 +3,9 @@
 
 **Backend handoff, 2026-09-26:** the project owner explicitly selected **SQLite as the canonical collected-data database**, superseding the older DuckDB storage plan. Use `data_collection/work/trace.sqlite` after collection or snapshot download. Do not recollect these data into a separate JSON or DuckDB source of truth. JSON remains appropriate for API response exports. Existing backend code still uses DuckDB; changing its adapter and model-specific SQL is an integration task for the backend owner, not something this collection silently accomplishes.
 
-This folder is owned by the data-collection task. Backend and frontend implementations are left to their current agents. Three collectors write separate SQLite shards; the coordinator merges completed shards with one writer. Download caches, working databases, and temporary files stay outside Git. The verified compressed snapshot is published as a GitHub release asset, with a versioned download manifest committed here.
+This folder is owned by the data-collection task. Backend and frontend implementations are left to their current agents. Independent collectors write separate SQLite shards; the coordinator merges completed shards with one writer. Download caches, working databases, and temporary files stay outside Git. The verified compressed snapshot is published as a GitHub release asset, with a versioned download manifest committed here.
+
+The v2 evidence layer adds observed health outcomes, source-preserved price and purity data, and retrospective research findings. `research_metric_definitions` names each formula and selection rule. `research_values` holds the result and number of linked input rows; `research_value_inputs` links that result to normalized totals and contributing original source rows, URL, publication year when known, observation year, value, unit and transformation. `research_regression_samples` links each included sample to its input pair; `research_model_results` stores the prespecified model estimate and uncertainty. Use the input keys to inspect the underlying observational tables. See [the research plan](reports/research_plan.md) and [findings](reports/research_findings.md). The coarse price-pair feasibility audit rejected those candidate ratios; displayable exact-product price and purity metrics live in `market_derived`.
 
 ## History policy
 
@@ -43,7 +45,9 @@ python3 data_collection/manage.py merge
 backend/.venv/bin/python -m pytest data_collection/tests -q
 ```
 
-Collectors can run concurrently because each owns one shard. Run `merge` only after all three have finished successfully. The merger rejects conflicting table/index names and verifies each shard before replacing the canonical file. It preserves source table schemas, constraints and indexes, and records input checksums in `collection_shards`.
+Collectors can run concurrently because each owns one shard. Run `merge` only after all selected shards have finished successfully. The merger rejects conflicting table/index names and verifies each shard before replacing the canonical file. It preserves source table schemas, constraints and indexes, and records input checksums in `collection_shards`. On a space-constrained macOS APFS volume, `merge --clone-base --shards data_collection/work/unodc.sqlite ...` uses a copy-on-write clone of the first shard; it fails if the APFS clone is unavailable rather than silently consuming another full database's disk space. The default merge remains a portable full copy.
+
+`python3 data_collection/manage.py verify_remote` streams the published release asset and checks compressed and uncompressed size/SHA-256 without a second full SQLite file. It verifies byte-for-byte equivalence to the locally inspected database; `download` is the physical restore command and is separately tested on small fixtures.
 
 Read with standard SQLite, for example:
 
