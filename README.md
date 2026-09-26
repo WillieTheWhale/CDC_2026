@@ -31,7 +31,7 @@ skills/      World Bank Indicators API skill
 | Spec, docs, handoff | planning session | done |
 | T0 API contract + fixtures | backend | done (`contracts/`) |
 | T1 backend scaffold | backend | done (uv, Python 3.11, `trace` CLI) |
-| T2 World Bank ingest | backend | not started |
+| T2 World Bank ingest | backend | done (24 indicators, 217 economies, 2005-2026, `wb_manifest.json`) |
 | T3 external ingest (UNODC, OC Index, HRI, CEPII) | backend | not started |
 | T4 edges + confidence | backend | not started |
 | T5 route models + backtest + Afghan ban test | backend | not started |
