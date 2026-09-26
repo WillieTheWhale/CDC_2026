@@ -10,6 +10,12 @@ import { LocateFixed, Minus, Plus, RotateCcw } from "lucide-react";
 import type { Country, Edge, LiveEvent, RiskRow } from "@/lib/types";
 import { drugColor, formatNumber } from "@/lib/api";
 import { visibleModelRoutes } from "@/lib/route-visibility";
+import {
+  routeEvidence,
+  routeEvidenceSourceById,
+  type RouteEvidence,
+} from "@/lib/route-evidence";
+import type { Drug } from "@/lib/types";
 interface Props {
   countries: Country[];
   edges: Edge[];
@@ -18,6 +24,8 @@ interface Props {
   selectedEvent: LiveEvent | null;
   showDots: boolean;
   showRoutes: boolean;
+  showEvidence: boolean;
+  drug: Drug | "all";
   exposureLabel: string;
   onCountry: (iso: string) => void;
   onRoute: (edge: Edge) => void;
@@ -49,6 +57,25 @@ const fitWorld = (m: maplibregl.Map, duration = 900) =>
       maxZoom: 2,
     },
   );
+
+function touchesView(
+  bounds: maplibregl.LngLatBounds,
+  points: ReadonlyMap<string, { lat: number | null; lon: number | null }>,
+  from: string,
+  to: string,
+) {
+  const source = points.get(from);
+  const destination = points.get(to);
+  const center = (bounds.getWest() + bounds.getEast()) / 2;
+  const contains = (point: { lat: number | null; lon: number | null } | undefined) => {
+    if (point?.lon == null || point.lat == null) return false;
+    const nearestCopy = point.lon + 360 * Math.round((center - point.lon) / 360);
+    return bounds.contains([nearestCopy, point.lat]);
+  };
+  return !!(
+    contains(source) || contains(destination)
+  );
+}
 
 // A screen-space halftone, not a grid of purported observations. Density and
 // color encode six bands of the country exposure index. Each ink mark is 1px.
@@ -90,19 +117,64 @@ export default function AtlasMap(props: Props) {
     x: number;
     y: number;
   } | null>(null);
+  const [reportHover, setReportHover] = useState<{
+    route: RouteEvidence;
+    x: number;
+    y: number;
+  } | null>(null);
+  const [reportDetail, setReportDetail] = useState<RouteEvidence | null>(null);
   const [geography, setGeography] = useState<{
     geo: FeatureCollection<Geometry>;
     style: maplibregl.StyleSpecification;
   } | null>(null);
   const [position, setPosition] = useState({ lng: 0, lat: 0, zoom: 1 });
   const localScale = position.zoom >= 6;
-  const countryByIso = useMemo(
-    () => new Map(props.countries.map((country) => [country.iso3, country])),
-    [props.countries],
+  // Natural Earth label points indicate a country, avoiding the false
+  // capital-to-capital precision of the World Bank country catalog.
+  const routeCoordinates = useMemo(() => {
+    const points = new Map<string, { lat: number | null; lon: number | null }>(
+      props.countries.map((country) => [country.iso3, { lat: country.lat, lon: country.lon }]),
+    );
+    for (const feature of geography?.geo.features ?? []) {
+      const value = feature.properties;
+      if (typeof value?.iso3 === "string" &&
+          typeof value?.label_lat === "number" &&
+          typeof value?.label_lon === "number") {
+        points.set(value.iso3, { lat: value.label_lat, lon: value.label_lon });
+      }
+    }
+    return points;
+  }, [props.countries, geography]);
+  const tierEdges = useMemo(
+    () => visibleModelRoutes(props.edges, routeCoordinates, position.zoom),
+    [props.edges, routeCoordinates, position.zoom],
   );
-  const visibleEdges = useMemo(
-    () => visibleModelRoutes(props.edges, countryByIso, position.zoom),
-    [props.edges, countryByIso, position.zoom],
+  const visibleEdges = useMemo(() => {
+    const bounds = map.current?.getBounds();
+    return position.zoom < 2.2 || !bounds
+      ? tierEdges
+      : tierEdges.filter((edge) => touchesView(bounds, routeCoordinates, edge.from, edge.to));
+  }, [tierEdges, routeCoordinates, position]);
+  const availableReports = useMemo(
+    () => routeEvidence.filter((route) =>
+      (props.drug === "all" || props.drug === route.drug) &&
+      routeCoordinates.get(route.from)?.lat != null &&
+      routeCoordinates.get(route.from)?.lon != null &&
+      routeCoordinates.get(route.to)?.lat != null &&
+      routeCoordinates.get(route.to)?.lon != null,
+    ),
+    [routeCoordinates, props.drug],
+  );
+  const visibleReports = useMemo(
+    () => {
+      const bounds = map.current?.getBounds();
+      return props.showEvidence && position.zoom >= 2.2 && !localScale
+        ? bounds
+          ? availableReports.filter((route) => touchesView(bounds, routeCoordinates, route.from, route.to))
+          : availableReports
+        : [];
+    },
+    [availableReports, routeCoordinates, props.showEvidence, position, localScale],
   );
   useEffect(() => {
     const controller = new AbortController();
@@ -246,7 +318,10 @@ export default function AtlasMap(props: Props) {
         latest.current.onCountry(iso);
       }
     });
-    m.on("movestart", () => setHover(null));
+    m.on("movestart", () => {
+      setHover(null);
+      setReportHover(null);
+    });
     m.on("moveend", () => {
       const c = m.getCenter().wrap();
       setPosition({ lng: c.lng, lat: c.lat, zoom: m.getZoom() });
@@ -305,17 +380,20 @@ export default function AtlasMap(props: Props) {
     if (!ready || !overlay.current) return;
     const active = new Set(visibleEdges.flatMap((e) => [e.from, e.to]));
     const hubs = props.countries.filter(
-      (c) => active.has(c.iso3) && c.lon != null && c.lat != null,
+      (c) => active.has(c.iso3) && routeCoordinates.get(c.iso3)?.lon != null,
     );
-    const point = (c: Country): [number, number] => [c.lon!, c.lat!];
+    const point = (iso3: string): [number, number] => {
+      const coordinate = routeCoordinates.get(iso3)!;
+      return [coordinate.lon!, coordinate.lat!];
+    };
     overlay.current.setProps({
       layers: [
         new ArcLayer<Edge>({
           id: "route-arcs",
           data: props.showRoutes ? visibleEdges : [],
           opacity: Math.max(0, Math.min(1, (6 - position.zoom) / 2)),
-          getSourcePosition: (e) => point(countryByIso.get(e.from)!),
-          getTargetPosition: (e) => point(countryByIso.get(e.to)!),
+          getSourcePosition: (e) => point(e.from),
+          getTargetPosition: (e) => point(e.to),
           getSourceColor: (e) =>
             rgba(
               drugColor[e.drug],
@@ -343,9 +421,10 @@ export default function AtlasMap(props: Props) {
           autoHighlight: true,
           highlightColor: [15, 30, 55, 255],
           onHover: (info: PickingInfo<Edge>) =>
-            setHover(
-              info.object ? { edge: info.object, x: info.x, y: info.y } : null,
-            ),
+            {
+              setHover(info.object ? { edge: info.object, x: info.x, y: info.y } : null);
+              if (info.object) setReportHover(null);
+            },
           onClick: (info: PickingInfo<Edge>) => {
             if (info.object) {
               latest.current.onRoute(info.object);
@@ -359,11 +438,36 @@ export default function AtlasMap(props: Props) {
           },
           transitions: { getWidth: 400 },
         }),
+        new ArcLayer<RouteEvidence>({
+          id: "reported-country-links",
+          data: visibleReports,
+          getSourcePosition: (route) => point(route.from),
+          getTargetPosition: (route) => point(route.to),
+          getSourceColor: (route) => rgba(drugColor[route.drug], 105),
+          getTargetColor: (route) => rgba(drugColor[route.drug], 105),
+          getWidth: 0.85,
+          getHeight: 0.42,
+          greatCircle: true,
+          pickable: true,
+          autoHighlight: true,
+          highlightColor: [48, 80, 114, 210],
+          onHover: (info: PickingInfo<RouteEvidence>) => {
+            setReportHover(info.object ? { route: info.object, x: info.x, y: info.y } : null);
+            if (info.object) setHover(null);
+          },
+          onClick: (info: PickingInfo<RouteEvidence>) => {
+            if (!info.object) return false;
+            setReportDetail(info.object);
+            setHover(null);
+            setReportHover(null);
+            return true;
+          },
+        }),
         new ScatterplotLayer<Country>({
           id: "route-hubs",
           data: props.showRoutes && !localScale ? hubs : [],
           opacity: Math.max(0, Math.min(1, (6 - position.zoom) / 2)),
-          getPosition: point,
+          getPosition: (country) => point(country.iso3),
           getRadius: 2.4,
           radiusUnits: "pixels",
           getFillColor: [255, 255, 255],
@@ -382,8 +486,9 @@ export default function AtlasMap(props: Props) {
   }, [
     ready,
     props.countries,
-    countryByIso,
+    routeCoordinates,
     visibleEdges,
+    visibleReports,
     props.selected,
     props.showRoutes,
     position.zoom,
@@ -448,7 +553,10 @@ export default function AtlasMap(props: Props) {
     <div
       className="map-stage"
       aria-label="Interactive world map"
-      onMouseLeave={() => setHover(null)}
+      onMouseLeave={() => {
+        setHover(null);
+        setReportHover(null);
+      }}
     >
       <div className="map-canvas" ref={host} />
       {!ready && !error && (
@@ -457,12 +565,30 @@ export default function AtlasMap(props: Props) {
         </div>
       )}
       {error && <div className="map-error">{error}</div>}
-      {props.showRoutes && props.edges.length > 0 && (
+      {(props.showRoutes || props.showEvidence) && (
         <div className="map-route-scale" role="status">
           {localScale
-            ? "City scale: no verified city-to-city route observations"
-            : `${visibleEdges.length} of ${props.edges.length} modeled country corridors shown · ${position.zoom < 1.7 ? "world" : position.zoom < 3.4 ? "regional" : "country"} view`}
+            ? "City scale: this atlas has no sourced city-to-city route links"
+            : position.zoom < 2.2
+              ? `${props.showRoutes ? visibleEdges.length : 0} of ${props.edges.length} modeled · zoom for dated reports`
+              : `${props.showRoutes ? visibleEdges.length : 0} modeled · ${visibleReports.length} dated reports · ${position.zoom < 3.4 ? "regional" : "country"} view`}
         </div>
+      )}
+      {reportDetail && visibleReports.some((route) => route.id === reportDetail.id) && (
+        <section className="map-report-detail" aria-label="Published route evidence">
+          <button type="button" aria-label="Close route evidence" onClick={() => setReportDetail(null)}>×</button>
+          <b>{reportDetail.from} → {reportDetail.to}</b>
+          <span>{reportDetail.drug} · {reportDetail.basis}</span>
+          <p>
+            {reportDetail.period
+              ? `Evidence period ${reportDetail.period[0]}${reportDetail.period[1] !== reportDetail.period[0] ? `–${reportDetail.period[1]}` : ""}`
+              : `Report published ${routeEvidenceSourceById.get(reportDetail.sourceId)?.publicationYear}`}
+            . Country link is schematic; no path or traffic volume is measured here.
+          </p>
+          <a href={routeEvidenceSourceById.get(reportDetail.sourceId)?.url} target="_blank" rel="noreferrer">
+            {routeEvidenceSourceById.get(reportDetail.sourceId)?.publisher} · {reportDetail.sourceLocator} ↗
+          </a>
+        </section>
       )}
       {!localScale && props.showDots && props.risk.length > 0 && (
         <div
@@ -535,9 +661,25 @@ export default function AtlasMap(props: Props) {
             {formatNumber(hover.edge.kg)} kg estimated seizure scale ·{" "}
             {hover.edge.volume_norm.toFixed(2)} normalized
           </p>
+          {routeEvidence.filter((route) => route.drug === hover.edge.drug && route.from === hover.edge.from && route.to === hover.edge.to).slice(0, 1).map((route) => (
+            <small key={route.id}>Published country link: {routeEvidenceSourceById.get(route.sourceId)?.publisher} ({routeEvidenceSourceById.get(route.sourceId)?.publicationYear})</small>
+          ))}
           {hover.edge.drivers.slice(0, 3).map((d) => (
             <small key={d.feature}>{d.label}</small>
           ))}
+        </div>
+      )}
+      {reportHover && (
+        <div className="route-tooltip" style={{
+          left: Math.max(12, Math.min(reportHover.x + 16, (host.current?.clientWidth ?? 800) - 260)),
+          top: Math.max(12, reportHover.y - 110),
+        }}>
+          <strong>{reportHover.route.from} → {reportHover.route.to}</strong>
+          <div>{reportHover.route.drug} · published country link</div>
+          <p>{reportHover.route.period
+            ? `${reportHover.route.period[0]}${reportHover.route.period[1] !== reportHover.route.period[0] ? `–${reportHover.route.period[1]}` : ""} evidence`
+            : `${routeEvidenceSourceById.get(reportHover.route.sourceId)?.publicationYear} assessment`}</p>
+          <small>Click for source and limitations</small>
         </div>
       )}
     </div>

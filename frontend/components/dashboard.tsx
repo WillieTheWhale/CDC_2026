@@ -116,6 +116,7 @@ export default function Dashboard() {
     [feedState, setFeedState] = useState(DEMO ? "Demo replay" : "Connecting");
   const [showDots, setShowDots] = useState(true),
     [showRoutes, setShowRoutes] = useState(true),
+    [showEvidence, setShowEvidence] = useState(true),
     [layersOpen, setLayersOpen] = useState(false),
     [minConfidence, setMinConfidence] = useState(0),
     [resetKey, setResetKey] = useState(0),
@@ -581,6 +582,14 @@ export default function Dashboard() {
                               />
                               Modeled corridors
                             </label>
+                            <label>
+                              <input
+                                type="checkbox"
+                                checked={showEvidence}
+                                onChange={(e) => setShowEvidence(e.target.checked)}
+                              />
+                              Published country links (dated)
+                            </label>
                             <label className="confidence-label">
                               Minimum confidence <b>{minConfidence}%</b>
                               <input
@@ -608,6 +617,8 @@ export default function Dashboard() {
                     selectedEvent={event}
                     showDots={showDots}
                     showRoutes={showRoutes}
+                    showEvidence={showEvidence}
+                    drug={drug}
                     exposureLabel={
                       simulation ? "Baseline exposure" : "Country exposure"
                     }

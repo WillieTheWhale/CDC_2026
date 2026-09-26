@@ -35,6 +35,7 @@ import type { Country, Edge, LiveEvent, Price, RiskRow } from "@/lib/types";
 import { HistoryChart, Sparkline } from "./charts";
 import { CountryEvidence, PublishedContext } from "./evidence-health";
 import type { ObservedOverview } from "@/lib/observed-data";
+import { routeEvidence, routeEvidenceSourceById, routeEvidenceSources } from "@/lib/route-evidence";
 
 export function Empty({ children }: { children: React.ReactNode }) {
   return (
@@ -329,6 +330,9 @@ export function CountryInspector({
   const routes = edges.filter(
     (e) => e.from === country.iso3 || e.to === country.iso3,
   );
+  const publishedLinks = routeEvidence.filter(
+    (e) => e.from === country.iso3 || e.to === country.iso3,
+  );
   return (
     <motion.div
       key={country.iso3}
@@ -547,13 +551,28 @@ export function CountryInspector({
                 </div>
                 <span className="mono">
                   {formatNumber(e.kg)}
-                  <small> kg</small>
+                  <small> kg est.</small>
                 </span>
               </button>
             ))
           ) : (
             <Empty>No matching model corridors.</Empty>
           )}
+          <div className="section-line">
+            <h3>{publishedLinks.length} published country links</h3>
+            <span>Dated reports</span>
+          </div>
+          <p className="source-note">Curated source claims, separate from the selected model year. Lines join country coordinates, not measured travel paths. Missing links mean no entry in this collection, not no trade.</p>
+          {publishedLinks.map((link) => {
+            const source = routeEvidenceSourceById.get(link.sourceId);
+            return (
+              <a className="route-evidence-row" key={link.id} href={source?.url} target="_blank" rel="noreferrer">
+                <i style={{ background: drugColor[link.drug] }} />
+                <span><b>{link.from} → {link.to}</b><small>{link.drug} · {link.period ? `${link.period[0]}${link.period[1] !== link.period[0] ? `–${link.period[1]}` : ""} evidence` : `${source?.publicationYear} assessment`}</small></span>
+                <ExternalLink size={13} />
+              </a>
+            );
+          })}
           {detail?.prices.map((p) => (
             <div className="country-price" key={p.level + p.drug}>
               <span>
@@ -603,11 +622,11 @@ export function RouteInspector({
       <RouteStudy key={edge.id} />
       <div className="route-numbers">
         <div>
-          <span>Normalized volume</span>
+          <span>Estimated seizure scale · normalized</span>
           <b>{edge.volume_norm.toFixed(2)}</b>
         </div>
         <div>
-          <span>Confidence</span>
+          <span>Evidence score</span>
           <b>{edge.confidence}%</b>
         </div>
       </div>
@@ -616,6 +635,12 @@ export function RouteInspector({
         {edge.probability === null ? "Baseline model corridor" : "Forecast corridor"}
         {DEMO ? " · saved snapshot" : ""}
       </p>
+      {routeEvidence.filter((link) => link.drug === edge.drug && link.from === edge.from && link.to === edge.to).map((link) => {
+        const source = routeEvidenceSourceById.get(link.sourceId);
+        return <a className="route-model-source" href={source?.url} key={link.id} target="_blank" rel="noreferrer">
+          Published country-pair context: {source?.publisher} {source?.publicationYear} · {link.sourceLocator} ↗
+        </a>;
+      })}
       <div className="section-line">
         <h3>Model input signals</h3>
       </div>
@@ -936,7 +961,17 @@ export function Sources({
             : "Source retrieval times are shown below."}
         </p>
         {observed && <p className="source-note">Source archive {observed.snapshot.releaseTag} · exported {new Date(observed.snapshot.exportedAt).toLocaleDateString("en-GB", { timeZone: "UTC" })} · SHA-256 {observed.snapshot.databaseSha256.slice(0, 12)}…</p>}
+        <p className="source-note">Published country links are a curated, incomplete set from the primary reports below. Their source periods vary and are independent of the model year; absence of a link is not evidence of no trade. The public UNODC seizure export does not identify city-to-city journeys.</p>
         <div className="source-list">
+          {routeEvidenceSources.map((source) => (
+            <a key={source.id} href={source.url} target="_blank" rel="noreferrer">
+              <div>
+                <h3>{source.title}</h3>
+                <small>{source.publisher} · Published {source.publicationYear} · {routeEvidence.filter((route) => route.sourceId === source.id).length} country links</small>
+              </div>
+              <ExternalLink size={15} />
+            </a>
+          ))}
           {observed && Object.entries(observed.sources).map(([id, source]) => (
             <a key={id} href={source.url} target="_blank" rel="noreferrer">
               <div>
@@ -971,8 +1006,9 @@ export function Sources({
         <div className="source-foot">
           <p>
             Exposure is country-level. Texture shows index bands, not local
-            observations. Links join country coordinates, not measured travel
-            paths.
+            observations. Modeled corridors use estimated seizure scale;
+            published links document country pairs without annual volumes.
+            All lines join representative country coordinates, not measured paths.
           </p>
           <a href="https://openfreemap.org/" target="_blank" rel="noreferrer">
             Local geography: OpenFreeMap / OpenStreetMap

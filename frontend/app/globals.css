@@ -1426,6 +1426,40 @@ input[type="range"] {
 .route-row > span small {
   display: inline;
 }
+.route-evidence-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+}
+.route-evidence-row > i {
+  flex: none;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.route-evidence-row > span {
+  flex: 1;
+}
+.route-evidence-row b {
+  font: 500 11px var(--mono);
+}
+.route-evidence-row small {
+  display: block;
+  margin-top: 3px;
+  font-size: 9px;
+  color: #66788a;
+}
+.route-model-source {
+  display: block;
+  margin: 9px 0 14px;
+  color: #125f8a;
+  font: 10px var(--mono);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 .country-price {
   padding: 20px 0;
   border-bottom: 1px solid var(--line);
@@ -3183,12 +3217,53 @@ select {
   z-index: 4;
   max-width: min(365px, calc(100% - 44px));
   padding: 6px 9px;
-  border: 1px solid #cbd7e5;
-  background: #ffffffed;
-  color: #344b64;
-  font: 500 10px var(--mono);
+  border: 1px solid #18334e;
+  background: #18334e;
+  color: #fff;
+  font: 600 11px var(--mono);
   line-height: 1.4;
   pointer-events: none;
+}
+.map-report-detail {
+  position: absolute;
+  left: 22px;
+  top: 58px;
+  z-index: 6;
+  width: min(320px, calc(100% - 44px));
+  padding: 13px 15px;
+  border: 1px solid #b7c9dc;
+  background: #fff;
+  box-shadow: 0 10px 30px #2337502a;
+  font-size: 11px;
+  line-height: 1.45;
+}
+.map-report-detail > button {
+  float: right;
+  color: #58718a;
+  font-size: 18px;
+  line-height: 1;
+}
+.map-report-detail b,
+.map-report-detail span,
+.map-report-detail a {
+  display: block;
+}
+.map-report-detail b {
+  font: 600 13px var(--mono);
+}
+.map-report-detail span {
+  margin-top: 5px;
+  color: #52677b;
+  text-transform: capitalize;
+}
+.map-report-detail p {
+  margin: 9px 0;
+  color: #455b70;
+}
+.map-report-detail a {
+  color: #125f8a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 .maplibregl-ctrl-bottom-right {
   bottom: 84px;
