@@ -22,6 +22,7 @@ export interface ObservedRecord {
   domain: ObservedDomain;
   iso3: string;
   year: number | null;
+  yearText?: string | null;
   metric: string;
   value: number | null;
   unit: string;
@@ -42,6 +43,10 @@ export interface ObservedRecord {
   method?: string | null;
   attribution?: string | null;
   geographicCoverage?: string | null;
+  denominator?: string | null;
+  injectingDefinition?: string | null;
+  sampleSize?: string | null;
+  reference?: string | null;
   caveat?: string | null;
   sourceRow?: { sheet?: string; rowNo: number; cellNo?: number | null };
   observationId?: number;

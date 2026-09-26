@@ -71,6 +71,12 @@ class ObservedExportTests(unittest.TestCase):
             if "suppressed/unavailable" in row["status"]:
                 self.assertIsNone(row["reportedValue"])
                 self.assertIsNone(row["predictedValue"])
+        ranged_pwid = [row for country in self.countries for row in country["observations"]
+                       if row["domain"] == "pwid" and row["year"] is None and row.get("yearText")]
+        self.assertTrue(ranged_pwid)
+        self.assertTrue(all("denominator" in row and "injectingDefinition" in row
+                            and "sampleSize" in row and "reference" in row
+                            and "attribution" in row for row in ranged_pwid))
 
     @unittest.skipUnless(SHARDS.exists(), "Published shards not present locally")
     def test_original_sqlite_values_survive_export(self):

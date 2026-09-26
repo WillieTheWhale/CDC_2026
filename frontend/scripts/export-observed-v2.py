@@ -119,7 +119,8 @@ def main() -> None:
 
     for row in rows(health, "SELECT * FROM health_prevalence WHERE iso3 IS NOT NULL"):
         record = health_record(row, "prevalence", "value_pct", "%", "substance", f"{row['sheet']}:{row['row_no']}:{row['cell_no']}")
-        record.update({"substance": row["substance"], "population": row["population"], "ageGroup": row["age_group"],
+        record.update({"substance": row["substance"], "yearText": row["year_text"],
+                       "population": row["population"], "ageGroup": row["age_group"],
                        "sex": row["sex"], "referencePeriod": row["reference_period"], "lower": row["low_pct"],
                        "upper": row["high_pct"], "status": row["estimate_status"], "method": row["source_method"],
                        "attribution": row["source_attribution"], "caveat": row["notes"] or row["adjustment_note"]})
@@ -127,14 +128,18 @@ def main() -> None:
 
     for row in rows(health, "SELECT * FROM health_pwid WHERE iso3 IS NOT NULL"):
         record = health_record(row, "pwid", "value", row["unit"], "metric", f"{row['sheet']}:{row['row_no']}:{row['cell_no']}")
-        record.update({"sex": row["sex"], "ageGroup": row["age_group"], "lower": row["low"], "upper": row["high"],
+        record.update({"yearText": row["year_text"], "sex": row["sex"], "ageGroup": row["age_group"],
+                       "lower": row["low"], "upper": row["high"], "denominator": row["denominator"],
                        "status": row["estimate_status"], "geographicCoverage": row["geographic_coverage"],
-                       "method": row["method"], "caveat": row["notes"] or row["injecting_definition"]})
+                       "injectingDefinition": row["injecting_definition"], "sampleSize": row["sample_size"],
+                       "reference": row["reference"], "attribution": row["attribution"],
+                       "method": row["method"], "caveat": row["notes"]})
         add(row["iso3"], record)
 
     for row in rows(health, "SELECT * FROM health_treatment WHERE iso3 IS NOT NULL"):
         record = health_record(row, "treatment_contacts", "persons_treated", "persons treated", "drug_group", f"{row['sheet']}:{row['row_no']}")
-        record.update({"substance": row["drug"], "sex": row["sex"], "referencePeriod": row["specified_reference_year"],
+        record.update({"substance": row["drug"], "sex": row["sex"], "yearText": row["year_text"],
+                       "referencePeriod": row["specified_reference_year"],
                        "caveat": "Primary-drug treatment contacts; group and child drug rows can overlap."})
         add(row["iso3"], record)
 
