@@ -32,9 +32,10 @@ type MarketOverview = ObservedOverview & {
 };
 
 function number(value: number | null | undefined, digits = 2) {
-  return value == null
-    ? "Unavailable"
-    : value.toLocaleString(undefined, { maximumFractionDigits: digits });
+  if (value == null) return "Unavailable";
+  if (value !== 0 && Math.abs(value) < 1)
+    return value.toLocaleString(undefined, { maximumSignificantDigits: 3 });
+  return value.toLocaleString(undefined, { maximumFractionDigits: digits });
 }
 function unit(unit: string | null | undefined) {
   const labels: Record<string, string> = {
@@ -408,7 +409,7 @@ export function EvidenceMarkets({
             <h2>Product history</h2>
             <span>
               {selected
-                ? `${selected.substance ?? "Product"} · ${selected.form ?? "form unspecified"}`
+                ? `${selected.substance ?? "Product"}${selected.form && selected.form !== "unspecified" ? ` · ${selected.form}` : ""}`
                 : "Select an observation"}
             </span>
           </header>
@@ -523,7 +524,7 @@ export function EvidenceMarkets({
                   <dt>Original row</dt>
                   <dd>
                     {selected.sourceRow
-                      ? `${selected.sourceRow.sheet}, row ${selected.sourceRow.rowNo}${selected.sourceRow.cellNo ? `, column ${selected.sourceRow.cellNo}` : ""}`
+                      ? `${selected.sourceRow.sheet}, row ${selected.sourceRow.rowNo}${selected.sourceRow.cellNo != null ? `, column ${selected.sourceRow.cellNo}` : ""}`
                       : "Row coordinate unavailable"}
                   </dd>
                   {selected.formula && (
@@ -572,7 +573,7 @@ export function EvidenceMarkets({
                         {number(r.value)} {unit(r.unit)} ·{" "}
                         {r.year ?? "year unavailable"} ·{" "}
                         {r.sourceRow
-                          ? `${r.sourceRow.sheet}, row ${r.sourceRow.rowNo}${r.sourceRow.cellNo ? `, column ${r.sourceRow.cellNo}` : ""}`
+                          ? `${r.sourceRow.sheet}, row ${r.sourceRow.rowNo}${r.sourceRow.cellNo != null ? `, column ${r.sourceRow.cellNo}` : ""}`
                           : "source row unavailable"}{" "}
                         ·{" "}
                         <a href={r.sourceUrl} target="_blank" rel="noreferrer">

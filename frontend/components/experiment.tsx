@@ -43,10 +43,10 @@ function SourceTrail({
     <div className="er-detail">
       <h3>{value.label}</h3>
       <dl>
-        <dt>Value</dt>
+        <dt>{sample ? "Next-year homicide" : "Published revision"}</dt>
         <dd>
           {fmt(value.value)} {value.unit} · observed{" "}
-          {value.year ?? "year unavailable"}
+          {sample?.outcomeYear ?? value.year ?? "year unavailable"}
         </dd>
         {sample && (
           <>
@@ -322,9 +322,17 @@ function Study({
               <table className="er-table">
                 <thead>
                   <tr>
-                    <th>Year</th>
+                    <th>
+                      {metric === "cocaine_seizure_next_homicide"
+                        ? "Seizure year"
+                        : "Observation year"}
+                    </th>
                     <th>Drug</th>
-                    <th>Published value</th>
+                    <th>
+                      {metric === "cocaine_seizure_next_homicide"
+                        ? "Next-year homicide"
+                        : "Published revision"}
+                    </th>
                     <th>Inputs</th>
                   </tr>
                 </thead>
