@@ -299,11 +299,12 @@
         },
         {
           "type": "sub",
-          "text": "Every other tool in this space answers the first question, for police. TRACE answers the second, for public health."
+          "text": "Every other tool in this space answers the first question, for police. And every existing harm forecast is <em>autoregressive</em> — it predicts more of an epidemic a country already has. TRACE answers the second question, for public health, from outside: it forecasts harm in countries that have not had the epidemic yet, from the corridor that is about to open."
         }
       ],
       "cues": [
-        "This single swap is the innovation claim. Make it the loudest sentence in your section.",
+        "This swap is the innovation claim. Make it the loudest sentence in your section.",
+        "'Autoregressive' is the word that separates us: everyone else forecasts more of what a country already has.",
         "The first question serves enforcement. The second serves prevention."
       ]
     },
@@ -765,17 +766,18 @@
         },
         {
           "type": "sub",
-          "text": "Route exposure alone does not predict a later rise in homicide or HIV once you control for vulnerability. We wrote that into the repo the day we found it. It is the more useful finding: being on a route is not destiny — being on a route <em>without</em> services, jobs, or health spending is. That is exactly why the risk score has three columns and not one, and it is an argument for harm reduction rather than interdiction."
+          "text": "Route exposure alone does not predict a later rise in homicide or HIV once you control for vulnerability. We committed that the day we found it. Published work lands in the same place: a 2026 panel of 95 countries finds the cocaine–homicide link appears <em>between</em> countries but not <em>within</em> them — structural position on a corridor, not year-to-year flow. So being on a route is not destiny. Being on a route without services, jobs or health spending is. That is why the risk score has three columns and not one, and why this argues for harm reduction rather than interdiction."
         },
         {
           "type": "source",
-          "text": "README.md T6 · 'hypothesis not supported, see metrics' · committed before this slide existed"
+          "text": "README.md T6, committed before this slide existed · corroborated by ‘Which Illegal Markets Kill?’, European Journal on Criminal Policy and Research (2026), 95 countries, 2021–2025"
         }
       ],
       "cues": [
-        "Deliver this as strength, not apology. Eye contact, steady pace.",
-        "Teams that hide null results lose to teams that report them. We report them.",
-        "Pivot cleanly: exposure isn't destiny — exposure plus absent protection is."
+        "Deliver as strength, not apology. Eye contact, steady pace.",
+        "Key line: the effect is between countries, not within them — which is exactly what a panel model would miss.",
+        "Teams that hide null results lose to teams that report them.",
+        "If pressed on the negative sign, concede the enforcement-capacity confound before they raise it."
       ]
     },
     {

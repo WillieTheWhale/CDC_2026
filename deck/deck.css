@@ -120,7 +120,8 @@ body.idle{cursor:none}
   max-width:74ch;margin-top:clamp(18px,2vw,32px);font-weight:300;
 }
 .slide[data-theme="atlas"] .sub{color:var(--ink-soft);font-family:var(--disp)}
-.sub em{color:#fff;font-style:normal}
+.sub em{color:#fff;font-style:normal;font-weight:400}
+.slide[data-theme="atlas"] .sub em{color:var(--ink);font-weight:500}
 
 .source{
   font-family:var(--mono);font-size:clamp(10px,.82vw,12.5px);

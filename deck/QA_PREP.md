@@ -10,7 +10,7 @@ that next."* Never invent a number on stage — every figure below is in the rep
 
 ---
 
-## The eight they are most likely to ask
+## The ten they are most likely to ask
 
 **1. "Seizures measure enforcement, not trafficking. Isn't your whole network just a map of who has good customs?"** — *Markandeya (S3)*
 Correct, and it's the first limitation in our spec. Three defences: no corridor rests on seizures
@@ -18,7 +18,9 @@ alone — each one carries a 0–100 confidence score from six independent signa
 gradient direction, OC Index market scores at both ends, live news hits, cultivation upstream); we
 explicitly control for detection capability with World Bank rule-of-law and customs-efficiency
 indicators; and low-confidence corridors are drawn faint rather than hidden, so the uncertainty is on
-screen instead of in a footnote.
+screen instead of in a footnote. And it cuts the other way on our own null result — if exposure is partly
+a map of enforcement capacity, and capacity correlates with state strength, that alone could produce the
+negative coefficient we found. We'd rather name that than let a judge find it.
 
 **2. "Couldn't traffickers use this?"** — *William (S1)*
 Every input is public UN data that trafficking organisations already know better than we do. And the
@@ -36,11 +38,15 @@ vulnerability layer — the model stops existing. We call the API programmatical
 IDs, paginated, nulls preserved, with provenance recorded per value.
 
 **4. "Your spillover hypothesis failed. Doesn't that undercut the project?"** — *Adrian (S4)*
-It's the finding, not a failure. We pre-registered the hypothesis in our spec and said we'd report it
-either way. What we learned is that exposure alone isn't destiny — exposure combined with low
-vulnerability protection is what tracks harm. That's why the risk score has three columns instead of
-one, and it's a direct argument for harm reduction over interdiction. A team that only reports the
-results that worked is a team you should trust less.
+It's the finding, not a failure, and the literature lands in the same place. A 2026 panel of 95 countries
+in the European Journal on Criminal Policy and Research finds the cocaine–homicide association shows up in
+random effects but not fixed effects — the link is structural position on a trafficking corridor, not
+within-country variation over time. Our national, level-based test was asking the question that study
+says comes up null. The causal work that does find route effects — Dell's 2015 AER paper on Mexican
+route diversion, Castillo, Mejía and Restrepo in REStat on Colombian supply shocks — identifies
+*transitions and shocks*, sub-nationally, not steady-state exposure at country level. So: exposure alone
+isn't destiny, exposure without protection is, and that's why the risk score has three columns. A team
+that only reports the results that worked is a team you should trust less.
 
 **5. "AUC 0.92 sounds high. Are you leaking future information?"** — *Markandeya (S3)*
 Strict temporal split: trained through 2019, evaluated on 2020–2024, no target-derived features, and
@@ -66,11 +72,28 @@ for the full route-level release is already written: if we get access, it replac
 observed years and the corridor count grows without a rewrite.
 
 **8. "Who would actually use this, and how is it different from what UNODC already publishes?"** — *William (S1)*
-UNODC publishes the truth about last year, in PDFs, annually. We publish a forecast about next year,
-queryable, free, with the vulnerability and harm-reduction layers joined on. The users are harm
-reduction organisations deciding where naloxone and needle exchange go next, health ministries that
-would otherwise wait for surveillance data, and journalists who currently have to reconstruct this by
-hand from annexes.
+UNODC's Drugs Monitoring Platform is real and it is good — but it is login-gated under a tiered access
+policy, and its own methodological annex says its routes are built by counting reported
+departure/transit/destination fields and are "broadly indicative" only. It is a record, not a model: it
+estimates no unobserved flow and forecasts nothing. We publish a forecast about next year, open, with the
+vulnerability and harm-reduction layers joined on. The users are harm reduction organisations deciding
+where naloxone and needle exchange go next, health ministries that would otherwise wait for surveillance
+data, and journalists who currently reconstruct this by hand from annexes.
+
+**9. "There's a paper from three weeks ago doing network modelling of cocaine trafficking and displacement. How is this different?"** — *Markandeya (S3)*
+You mean Peters, Oetker, Roks, Lindelauf, Fokkink and Wang, arXiv 2609.26864, submitted 22 September. Yes —
+they model cocaine flows over a transport network with an interception-risk metric and they reproduce the
+waterbed effect under interdiction. That's genuinely close to our corridor layer and our shock simulator,
+and we'd be foolish to claim otherwise. What they don't do is forecast forward in time, touch health
+outcomes, or score countries. Our contribution isn't the network — it's joining the network to
+development indicators and harm-reduction coverage to say where the *harm* lands.
+
+**10. "How is this different from GI-TOC's Global Organized Crime Index?"** — *Adrian (S4)*
+The OC Index is one of our inputs — we use its market scores in our corridor confidence. It's
+expert-assessed, contemporaneous, and it scores how present a criminal market *is* today across 193
+countries. We forecast the risk of a market a country doesn't have yet, from the corridor moving toward
+it, and our third column is health-service coverage rather than governance resilience. Different
+question, different time direction.
 
 ---
 
