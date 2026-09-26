@@ -23,6 +23,46 @@ Collection code records failures explicitly. No synthetic fixture values, fabric
 
 API requests use caching, pagination validation, timeouts and bounded retries. World Bank calls use explicit source IDs and preserve missing observations. A request delay is a conservative client setting, not a claim about a published universal quota.
 
+## Using the database
+
+Run these commands from the repository root. The snapshot downloader uses only Python's standard library, checks the compressed and uncompressed SHA-256 hashes, checks SQLite integrity and foreign keys, and atomically installs the database. An interrupted or corrupt download leaves the previous database intact.
+
+```sh
+python3 data_collection/manage.py download
+python3 data_collection/manage.py inspect
+```
+
+The snapshot manifest is added after the first verified release. To reproduce the original collection instead:
+
+```sh
+uv sync --project backend
+python3 data_collection/world_bank.py
+backend/.venv/bin/python data_collection/unodc.py
+backend/.venv/bin/python data_collection/context_sources.py
+python3 data_collection/manage.py merge
+backend/.venv/bin/python -m pytest data_collection/tests -q
+```
+
+Collectors can run concurrently because each owns one shard. Run `merge` only after all three have finished successfully. The merger rejects conflicting table/index names and verifies each shard before replacing the canonical file. It preserves source table schemas, constraints and indexes, and records input checksums in `collection_shards`.
+
+Read with standard SQLite, for example:
+
+```python
+import sqlite3
+from pathlib import Path
+
+path = Path("data_collection/work/trace.sqlite").resolve()
+with sqlite3.connect(path.as_uri() + "?mode=ro", uri=True) as con:
+    rows = con.execute("""
+        SELECT iso3, year, code, source_id, value, lastupdated
+        FROM wb_indicators
+        WHERE iso3 = ? AND code = ? AND value IS NOT NULL
+        ORDER BY year
+    """, ("COL", "SP.POP.TOTL")).fetchall()
+```
+
+The existing backend `TRACE_DB_PATH` setting alone is **not** a migration: its adapter still opens DuckDB, whose file format and some SQL differ. The backend owner must adapt that code before directing it to this SQLite file. Preserve the public API contract and compute derived model panels separately from the observational archive.
+
 ## Provenance and attribution
 
 See the individual reports under `reports/` for official source citations, units, coverage and limitations. Source licenses and third-party terms remain applicable. AI-assisted collection code and analysis are cited in `docs/AI_USAGE.md`; raw published measurements are not AI-generated.

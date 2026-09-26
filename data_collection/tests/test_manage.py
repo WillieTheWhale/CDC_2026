@@ -1,0 +1,66 @@
+# AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+import io
+import json
+from pathlib import Path
+import sqlite3
+import tempfile
+import unittest
+from unittest.mock import patch
+
+from data_collection import manage
+
+
+class SnapshotTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+
+    def shard(self, name, table):
+        path = self.root / name
+        with sqlite3.connect(path) as con:
+            con.execute(f'CREATE TABLE "{table}" (iso3 TEXT, year INTEGER, value REAL, PRIMARY KEY(iso3,year))')
+            con.executemany(f'INSERT INTO "{table}" VALUES (?,?,?)', [("COL", 1960, 0.0), ("COL", 1961, None)])
+            con.execute(f'CREATE INDEX "{table}_year" ON "{table}"(year)')
+        return path
+
+    def test_merge_preserves_nulls_and_indexes(self):
+        a, b = self.shard("a.sqlite", "series_a"), self.shard("b.sqlite", "series_b")
+        output = self.root / "trace.sqlite"
+        report = manage.merge([a, b], output)
+        self.assertEqual(report["tables"]["series_a"]["first_year"], 1960)
+        with sqlite3.connect(output) as con:
+            self.assertIsNone(con.execute("SELECT value FROM series_b WHERE year=1961").fetchone()[0])
+            self.assertEqual(con.execute("SELECT count(*) FROM collection_shards").fetchone()[0], 2)
+            self.assertTrue(con.execute("SELECT 1 FROM sqlite_master WHERE name='series_a_year'").fetchone())
+
+    def test_collision_leaves_previous_database_untouched(self):
+        a, b = self.shard("a.sqlite", "series"), self.shard("b.sqlite", "series")
+        output = self.root / "trace.sqlite"
+        manage.merge([a], output)
+        before = manage.digest(output)
+        with self.assertRaisesRegex(ValueError, "collision"):
+            manage.merge([a, b], output)
+        self.assertEqual(manage.digest(output), before)
+
+    def test_snapshot_download_roundtrip_and_tamper_rejection(self):
+        source = self.shard("source.sqlite", "series")
+        archive, manifest = self.root / "trace.sqlite.gz", self.root / "snapshot.json"
+        meta = manage.snapshot(source, archive, manifest, "test", "example/repo")
+        output = self.root / "restored.sqlite"
+        with patch.object(manage, "urlopen", return_value=io.BytesIO(archive.read_bytes())):
+            manage.download(manifest, output)
+        self.assertEqual(manage.digest(source), manage.digest(output))
+        meta["database"]["sha256"] = "bad"
+        manifest.write_text(json.dumps(meta))
+        with patch.object(manage, "urlopen", return_value=io.BytesIO(archive.read_bytes())):
+            with self.assertRaisesRegex(ValueError, "SQLite database"):
+                manage.download(manifest, output)
+        self.assertEqual(manage.digest(source), manage.digest(output))
+        with patch.object(manage, "urlopen", return_value=io.BytesIO(b"corrupt")):
+            with self.assertRaisesRegex(ValueError, "archive"):
+                manage.download(manifest, output)
+
+
+if __name__ == "__main__":
+    unittest.main()
