@@ -17,6 +17,7 @@ interface Props {
   selectedEvent: LiveEvent | null;
   showDots: boolean;
   showRoutes: boolean;
+  exposureLabel: string;
   onCountry: (iso: string) => void;
   onRoute: (edge: Edge) => void;
   resetKey: number;
@@ -93,6 +94,7 @@ export default function AtlasMap(props: Props) {
     style: maplibregl.StyleSpecification;
   } | null>(null);
   const [position, setPosition] = useState({ lng: 0, lat: 0, zoom: 1 });
+  const localScale = position.zoom >= 6;
   useEffect(() => {
     const controller = new AbortController();
     Promise.all(
@@ -245,6 +247,10 @@ export default function AtlasMap(props: Props) {
       const c = m.getCenter();
       setPosition({ lng: c.lng, lat: c.lat, zoom: m.getZoom() });
     });
+    m.on("zoom", () => {
+      const c = m.getCenter();
+      setPosition({ lng: c.lng, lat: c.lat, zoom: m.getZoom() });
+    });
     m.on("error", (e) => {
       if (e.error?.message?.includes("WebGL")) setError(e.error.message);
     });
@@ -308,6 +314,7 @@ export default function AtlasMap(props: Props) {
         new ArcLayer<Edge>({
           id: "route-arcs",
           data: props.showRoutes ? edges : [],
+          opacity: Math.max(0, Math.min(1, (6 - position.zoom) / 2)),
           getSourcePosition: (e) => point(countries.get(e.from)!),
           getTargetPosition: (e) => point(countries.get(e.to)!),
           getSourceColor: (e) =>
@@ -333,7 +340,7 @@ export default function AtlasMap(props: Props) {
           getWidth: (e) => 0.5 + e.volume_norm * 2,
           getHeight: 0.2,
           greatCircle: true,
-          pickable: true,
+          pickable: !localScale,
           autoHighlight: true,
           highlightColor: [15, 30, 55, 255],
           onHover: (info: PickingInfo<Edge>) =>
@@ -355,7 +362,8 @@ export default function AtlasMap(props: Props) {
         }),
         new ScatterplotLayer<Country>({
           id: "route-hubs",
-          data: props.showRoutes ? hubs : [],
+          data: props.showRoutes && !localScale ? hubs : [],
+          opacity: Math.max(0, Math.min(1, (6 - position.zoom) / 2)),
           getPosition: point,
           getRadius: 2.4,
           radiusUnits: "pixels",
@@ -372,7 +380,15 @@ export default function AtlasMap(props: Props) {
         }),
       ],
     });
-  }, [ready, props.countries, props.edges, props.selected, props.showRoutes]);
+  }, [
+    ready,
+    props.countries,
+    props.edges,
+    props.selected,
+    props.showRoutes,
+    position.zoom,
+    localScale,
+  ]);
   useEffect(() => {
     const m = map.current;
     if (!ready || !m?.getLayer("selection")) return;
@@ -395,7 +411,7 @@ export default function AtlasMap(props: Props) {
   }, [props.resetKey]);
   useEffect(() => {
     const m = map.current;
-    if (!ready || !m || !props.showRoutes) return;
+    if (!ready || !m || !props.showRoutes || localScale) return;
     const destinations = new Set(
       props.edges.filter((e) => e.is_emerging).map((e) => e.to),
     );
@@ -411,7 +427,7 @@ export default function AtlasMap(props: Props) {
           .addTo(m);
       });
     return () => markers.forEach((marker) => marker.remove());
-  }, [props.edges, props.countries, props.showRoutes, ready]);
+  }, [props.edges, props.countries, props.showRoutes, ready, localScale]);
   useEffect(() => {
     const e = props.selectedEvent,
       m = map.current;
@@ -441,6 +457,20 @@ export default function AtlasMap(props: Props) {
         </div>
       )}
       {error && <div className="map-error">{error}</div>}
+      {!localScale && props.showDots && props.risk.length > 0 && (
+        <div
+          className="map-legend"
+          title="Texture density and color encode country exposure, not local observations. Country links join representative coordinates. Both fade at local scales."
+        >
+          <span>{props.exposureLabel}</span>
+          <img src="/figma/exposure-strip.svg" alt="Exposure index, 0 to 100" />
+          <div>
+            <span>0</span>
+            <span>50</span>
+            <span>100</span>
+          </div>
+        </div>
+      )}
       <div className="map-tools">
         <button aria-label="Zoom in" onClick={() => map.current?.zoomIn()}>
           <Plus size={17} />

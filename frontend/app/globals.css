@@ -1824,48 +1824,12 @@ select {
   color: #a0a7b1;
   margin-top: 12px;
 }
-.experiment-intro {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  padding: 30px 0;
-  margin-bottom: 30px;
-}
-.experiment-intro > strong {
-  font: 110px var(--display);
-  font-weight: 300;
-  letter-spacing: -5px;
-  color: #c65b3e;
-  white-space: nowrap;
-}
-.experiment-intro > strong small {
-  font-size: 50px;
-  letter-spacing: 0;
-}
-.experiment-intro h2 {
-  font-size: 26px;
-  font-weight: 400;
-}
-.experiment-intro p {
-  font-size: 12px;
-  color: #939aa4;
-  line-height: 1.8;
-  max-width: 690px;
-  margin-top: 12px;
-}
 .demo-note {
   font-size: 10px;
   font-weight: 400;
   color: #b58b57;
   display: block;
   margin-top: 12px;
-}
-.experiment-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
 }
 .analysis-card {
   border: 1px solid var(--line);
@@ -1878,57 +1842,6 @@ select {
   margin: 0 0 24px;
 }
 .series-title {
-  font-size: 10px;
-}
-.experiment-edge {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 12px 0;
-  font: 500 11px var(--mono);
-}
-.experiment-edge > span {
-  width: 84px;
-}
-.experiment-edge > i {
-  height: 5px;
-  background: #e8eaed;
-  flex: 1;
-  border-radius: 4px;
-  overflow: hidden;
-}
-.experiment-edge b {
-  display: block;
-  height: 5px;
-  border-radius: 4px;
-}
-.experiment-edge strong {
-  font-weight: 400;
-  width: 35px;
-  text-align: right;
-}
-.experiment-verdict {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  border-top: 1px solid var(--line);
-  padding-top: 25px;
-  margin-top: 22px;
-}
-.experiment-verdict > b {
-  font: 44px var(--display);
-  font-weight: 300;
-  color: #a77661;
-}
-.experiment-verdict > b small {
-  font-size: 22px;
-}
-.experiment-verdict > span {
-  font-size: 12px;
-  line-height: 1.8;
-}
-.experiment-verdict > span > small {
-  color: #9ca3ad;
   font-size: 10px;
 }
 .metrics-strip {
@@ -2442,20 +2355,8 @@ select {
   .scenario-idle {
     min-height: 300px;
   }
-  .experiment-grid {
-    grid-template-columns: 1fr;
-  }
   .metrics-strip > div {
     padding: 0 16px;
-  }
-  .experiment-intro {
-    gap: 25px;
-  }
-  .experiment-intro > strong {
-    font-size: 80px;
-  }
-  .experiment-intro h2 {
-    font-size: 23px;
   }
   .table-toolbar {
     gap: 20px;
@@ -2798,19 +2699,6 @@ select {
   .scenario-edge {
     gap: 10px;
   }
-  .experiment-intro {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 13px;
-  }
-  .experiment-intro > strong {
-    font-size: 88px;
-    line-height: 1;
-  }
-  .experiment-intro h2 {
-    font-size: 23px;
-    line-height: 1.2;
-  }
   .analysis-card {
     padding: 20px;
   }
@@ -2819,9 +2707,6 @@ select {
   }
   .analysis-card h3 {
     font-size: 12px;
-  }
-  .experiment-edge {
-    gap: 15px;
   }
   .metrics-strip {
     grid-template-columns: 1fr 1fr;
@@ -3033,21 +2918,6 @@ select {
 }
 .feature-story b {
   margin-top: 22px;
-}
-.hypothesis-result {
-  padding: 22px 25px;
-  background: #eaecef;
-  border-left: 3px solid #79808a;
-  margin-top: 30px;
-}
-.hypothesis-result h3 {
-  font-size: 15px;
-}
-.hypothesis-result p {
-  font-size: 12px;
-  line-height: 1.7;
-  margin-top: 10px;
-  max-width: 950px;
 }
 @media (max-width: 760px) {
   .drug-filters button {
@@ -3498,6 +3368,7 @@ select {
   gap: 38px;
 }
 .experiment-section {
+  min-width: 0;
   padding: 18px 0 24px;
   border-top: 1px solid #a5b6c9;
   background: transparent;
@@ -3784,7 +3655,7 @@ select {
     padding: 28px;
   }
   .experiment-comparison {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 20px;
   }
   .experiment-comparison > div:first-child {
@@ -3836,7 +3707,7 @@ select {
     right: 6px;
   }
   .atlas-area {
-    height: 600px;
+    height: 460px;
     min-height: 0;
   }
   .atlas-heading {

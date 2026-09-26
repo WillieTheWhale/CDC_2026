@@ -9,9 +9,7 @@ import { SignalBeacon } from "./figma-motion";
 import {
   ArrowRight,
   ArrowUpRight,
-  BookOpen,
   Check,
-  ChevronDown,
   Command as CommandIcon,
   Database,
   FlaskConical,
@@ -20,10 +18,7 @@ import {
   Layers3,
   Pause,
   Play,
-  Radio,
   Search,
-  SlidersHorizontal,
-  TrendingUp,
   X,
 } from "lucide-react";
 import {
@@ -68,7 +63,7 @@ import {
 import { Sparkline } from "./charts";
 const AtlasMap = dynamic(() => import("./atlas-map"), {
   ssr: false,
-  loading: () => <div className="map-loading">Preparing the atlas…</div>,
+  loading: () => <div className="map-loading">Loading map</div>,
 });
 const NAV: { id: View; label: string }[] = [
   { id: "atlas", label: "Atlas" },
@@ -603,6 +598,9 @@ export default function Dashboard() {
                     selectedEvent={event}
                     showDots={showDots}
                     showRoutes={showRoutes}
+                    exposureLabel={
+                      simulation ? "Baseline exposure" : "Country exposure"
+                    }
                     resetKey={resetKey}
                     onCountry={openCountry}
                     onRoute={(e) => {
@@ -643,23 +641,6 @@ export default function Dashboard() {
                       </button>
                     </div>
                   )}
-                  <div
-                    className="map-legend"
-                    title="Texture density and color encode the country exposure index. Texture fades at local zoom levels; no local observations are implied."
-                  >
-                    <span>
-                      {simulation ? "Baseline exposure" : "Country exposure"}
-                    </span>
-                    <img
-                      src="/figma/exposure-strip.svg"
-                      alt="Exposure index, 0 to 100"
-                    />
-                    <div>
-                      <span>0</span>
-                      <span>50</span>
-                      <span>100</span>
-                    </div>
-                  </div>
                   <div className="timeline">
                     <button
                       className="play-button"

@@ -11,10 +11,8 @@ import {
   ExternalLink,
   FlaskConical,
   Info,
-  MapPin,
   Search,
   ShieldCheck,
-  SlidersHorizontal,
   X,
 } from "lucide-react";
 import { motion } from "motion/react";
@@ -28,9 +26,7 @@ import {
   SNAPSHOT_TIME,
   drugColor,
   drugLabel,
-  Experiment,
   formatNumber,
-  Metrics,
   scoreColor,
   Simulation,
 } from "@/lib/api";

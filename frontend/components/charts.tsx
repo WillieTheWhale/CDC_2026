@@ -1,8 +1,6 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
 "use client";
 import {
-  Area,
-  AreaChart,
   CartesianGrid,
   Line,
   LineChart,
@@ -13,7 +11,7 @@ import {
 } from "recharts";
 export function Sparkline({
   points,
-  color = "#bf5c3c",
+  color = "#ed482d",
   dataKey = "score",
 }: {
   points: Record<string, number | null>[];
@@ -25,7 +23,7 @@ export function Sparkline({
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={points}>
           <Line
-            type="monotone"
+            type="linear"
             dataKey={dataKey}
             stroke={color}
             strokeWidth={1.6}
@@ -40,7 +38,7 @@ export function Sparkline({
 export function HistoryChart({
   points,
   dataKey = "score",
-  color = "#be4e31",
+  color = "#ed482d",
   unit = "",
   height = 160,
 }: {
@@ -53,47 +51,42 @@ export function HistoryChart({
   return (
     <div className="history-chart" style={{ height }}>
       <ResponsiveContainer width="100%" height="100%">
-        <AreaChart
+        <LineChart
           data={points}
           margin={{ left: -22, right: 12, top: 12, bottom: 0 }}
         >
-          <CartesianGrid
-            vertical={false}
-            stroke="#e5e2d7"
-            strokeDasharray="2 4"
-          />
+          <CartesianGrid vertical={false} stroke="#dce3eb" />
           <XAxis
             dataKey="year"
-            tick={{ fontSize: 10, fill: "#858778" }}
+            tick={{ fontSize: 10, fill: "#667689" }}
             axisLine={false}
             tickLine={false}
             minTickGap={20}
           />
           <YAxis
-            tick={{ fontSize: 10, fill: "#858778" }}
+            tick={{ fontSize: 10, fill: "#667689" }}
             axisLine={false}
             tickLine={false}
             tickFormatter={(v) => (v >= 1000 ? `${Math.round(v / 1000)}k` : v)}
           />
           <Tooltip
             contentStyle={{
-              background: "#fffdf6",
-              border: "1px solid #deded1",
-              borderRadius: 4,
+              background: "#ffffff",
+              border: "1px solid #b9c6d6",
+              borderRadius: 0,
               fontSize: 12,
             }}
             formatter={(v) => [`${Number(v).toLocaleString()}${unit}`, ""]}
           />
-          <Area
-            type="monotone"
+          <Line
+            type="linear"
             dataKey={dataKey}
             stroke={color}
             strokeWidth={2}
-            fill={color}
-            fillOpacity={0.09}
+            dot={{ r: 1.6, fill: color, strokeWidth: 0 }}
             isAnimationActive={false}
           />
-        </AreaChart>
+        </LineChart>
       </ResponsiveContainer>
     </div>
   );

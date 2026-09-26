@@ -200,6 +200,7 @@ function CorridorPlot({ experiment: e }: { experiment: Experiment }) {
                 <td className="corridor-plot">
                   <svg
                     viewBox="0 0 220 30"
+                    preserveAspectRatio="none"
                     role="img"
                     aria-label={`Before ${edge.before.toFixed(2)}, forecast ${edge.predicted.toFixed(2)}, observed ${edge.actual.toFixed(2)}`}
                   >
