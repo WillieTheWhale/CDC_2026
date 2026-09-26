@@ -1,0 +1,1139 @@
+{
+  "organizations": [
+    {
+      "id": "ndrangheta",
+      "name": "’Ndrangheta",
+      "aliases": [
+        "Ndrangheta",
+        "Calabrian mafia"
+      ],
+      "regions": [
+        "ITA",
+        "BRA",
+        "CAN",
+        "PRT"
+      ],
+      "sources": [
+        {
+          "url": "https://www.eurojust.europa.eu/news/coordinated-crackdown-ndrangheta-mafia-europe",
+          "title": "Coordinated crackdown on 'Ndrangheta mafia in Europe",
+          "publisher": "Eurojust",
+          "language": "en",
+          "publishedAt": "2018-12-05",
+          "claim": "Operation Pollino targeted the international 'Ndrangheta network; authorities reported cocaine and other drug seizures across Europe."
+        },
+        {
+          "url": "https://www.eurojust.europa.eu/news/joint-investigation-teams-crucial-fighting-italian-brazilian-criminal-links",
+          "title": "Joint investigation teams crucial in fighting Italian-Brazilian criminal links",
+          "publisher": "Eurojust",
+          "language": "en",
+          "publishedAt": "2025-09-29",
+          "claim": "A joint investigation addressed an 'Ndrangheta-linked cocaine trafficking case involving Brazil and Europe."
+        }
+      ]
+    },
+    {
+      "id": "sinaloa-cartel",
+      "name": "Sinaloa Cartel",
+      "aliases": [
+        "Cartel de Sinaloa",
+        "Cártel de Sinaloa"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0161",
+          "title": "Treasury Sanctions “El Chapo’s” Children and Los Chapitos, a Fentanyl-Trafficking Faction of the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-06-09",
+          "claim": "Treasury identifies the Sinaloa Cartel as Mexico-based and describes Los Chapitos as a faction within it."
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdfl/pr/co-founder-sinaloa-cartel-ismael-el-mayo-zambada-garcia-sentenced-life-prison-engaging",
+          "title": "Co-Founder of Sinaloa Cartel, Ismael “El Mayo” Zambada Garcia, Sentenced to Life in Prison",
+          "publisher": "U.S. Department of Justice, Southern District of Florida",
+          "language": "English",
+          "publishedAt": "2026-07-20",
+          "claim": "DOJ identifies the Sinaloa Cartel as a drug trafficking organization based in Sinaloa, Mexico."
+        }
+      ]
+    },
+    {
+      "id": "los-chapitos",
+      "name": "Los Chapitos",
+      "aliases": [
+        "Los Menores"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0161",
+          "title": "Treasury Sanctions “El Chapo’s” Children and Los Chapitos, a Fentanyl-Trafficking Faction of the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-06-09",
+          "claim": "Treasury names the four Guzmán sons as Los Chapitos and describes the group as a Sinaloa Cartel faction."
+        },
+        {
+          "url": "https://elpais.com/mexico/2025-02-21/mexico-estrecha-el-cerco-sobre-los-chapitos.html",
+          "title": "México estrecha el cerco sobre Los Chapitos",
+          "publisher": "EL PAÍS México",
+          "language": "Spanish",
+          "publishedAt": "2025-02-21",
+          "claim": "EL PAÍS describes Los Chapitos as a faction of the Sinaloa Cartel led by sons of Joaquín Guzmán Loera."
+        }
+      ]
+    },
+    {
+      "id": "la-mayiza",
+      "name": "La Mayiza",
+      "aliases": [
+        "La Mayiza faction"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://elpais.com/mexico/2025-02-21/mexico-estrecha-el-cerco-sobre-los-chapitos.html",
+          "title": "México estrecha el cerco sobre Los Chapitos",
+          "publisher": "EL PAÍS México",
+          "language": "Spanish",
+          "publishedAt": "2025-02-21",
+          "claim": "EL PAÍS identifies a competing Sinaloa Cartel faction led by Ismael Zambada Sicairos, also known as Mayito Flaco."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "rocco-morabito",
+      "name": "Rocco Morabito",
+      "aliases": [
+        "Tamunga"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-07-06",
+      "roleLabel": "Senior ’Ndrangheta figure and international drug broker; serving a 30-year sentence in Italy",
+      "prominence": 3,
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy"
+        },
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        },
+        {
+          "iso3": "URY",
+          "label": "Uruguay"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.eurojust.europa.eu/news/joint-investigation-teams-crucial-fighting-italian-brazilian-criminal-links",
+          "title": "Joint investigation teams crucial in fighting Italian-Brazilian criminal links",
+          "publisher": "Eurojust",
+          "language": "en",
+          "publishedAt": "2025-09-29",
+          "claim": "Eurojust describes the captured person in the Brazil-linked case as a convicted Mafia fugitive and powerful drug broker, arrested in Brazil in 2021 and serving a 30-year sentence in Italy; Italian police sources identify the person as Morabito."
+        },
+        {
+          "url": "https://www.carabinieri.it/chi-siamo/oggi/organizzazione/mobile-e-speciale/raggruppamento-operativo-speciale/risultati-operativi/latitanti-di-massima-pericolosit%C3%A0-inseriti-nel-%27programma-speciale-di-ricerca%27-del-ministero-dell-interno",
+          "title": "Latitanti di massima pericolosità inseriti nel programma speciale di ricerca",
+          "publisher": "Arma dei Carabinieri",
+          "language": "it",
+          "claim": "Carabinieri identify Morabito as a leading 'Ndrangheta figure and narcotrafficker arrested in Brazil with Vincenzo Pasquino."
+        }
+      ]
+    },
+    {
+      "id": "vincenzo-pasquino",
+      "name": "Vincenzo Pasquino",
+      "status": "convicted",
+      "statusAsOf": "2026-03-11",
+      "roleLabel": "Drug broker linked to an international Italy-Brazil trafficking network",
+      "prominence": 2,
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy"
+        },
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html",
+          "title": "Dal Brasile all'Italia, 8 condanne per la rete internazionale del narcotraffico",
+          "publisher": "Rai News Piemonte",
+          "language": "it",
+          "publishedAt": "2026-03-10",
+          "claim": "The report identifies Pasquino as a drug broker at the center of an international network and says he was among those convicted in the first-instance proceedings."
+        },
+        {
+          "url": "https://www.carabinieri.it/chi-siamo/oggi/organizzazione/mobile-e-speciale/raggruppamento-operativo-speciale/risultati-operativi/latitanti-di-massima-pericolosit%C3%A0-inseriti-nel-%27programma-speciale-di-ricerca%27-del-ministero-dell-interno",
+          "title": "Latitanti di massima pericolosità inseriti nel programma speciale di ricerca",
+          "publisher": "Arma dei Carabinieri",
+          "language": "it",
+          "claim": "Carabinieri describe Pasquino as a narcotrafficker and prominent 'Ndrangheta figure, arrested in Brazil with Morabito."
+        }
+      ]
+    },
+    {
+      "id": "giuseppe-coluccio",
+      "name": "Giuseppe Coluccio",
+      "status": "charged",
+      "statusAsOf": "2008-08-20",
+      "roleLabel": "Prominent ’Ndrangheta figure specializing in international drug trafficking",
+      "prominence": 2,
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy"
+        },
+        {
+          "iso3": "CAN",
+          "label": "Canada"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.carabinieri.it/chi-siamo/oggi/organizzazione/mobile-e-speciale/raggruppamento-operativo-speciale/risultati-operativi/latitanti-di-massima-pericolosit%C3%A0-inseriti-nel-%27programma-speciale-di-ricerca%27-del-ministero-dell-interno",
+          "title": "Latitanti di massima pericolosità inseriti nel programma speciale di ricerca",
+          "publisher": "Arma dei Carabinieri",
+          "language": "it",
+          "claim": "Carabinieri identify Coluccio as a prominent 'Ndrangheta figure specialized in international drug trafficking, arrested in Canada in 2008."
+        },
+        {
+          "url": "https://www.poliziadistato.it/statics/23/relazione-annuale-2022.pdf",
+          "title": "Relazione annuale 2022",
+          "publisher": "Ministero dell'Interno, Dipartimento della Pubblica Sicurezza",
+          "language": "it",
+          "publishedAt": "2023-06-30",
+          "claim": "The annual report documents 'Ndrangheta international drug trafficking activity and related international police operations."
+        }
+      ]
+    },
+    {
+      "id": "sebastiano-pelle",
+      "name": "Sebastiano Pelle",
+      "aliases": [
+        "Pallina"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2011-11-09",
+      "roleLabel": "Prominent Pelle clan figure; convicted in an international narcotics trafficking case",
+      "prominence": 2,
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.carabinieri.it/chi-siamo/oggi/organizzazione/mobile-e-speciale/raggruppamento-operativo-speciale/risultati-operativi/latitanti-di-massima-pericolosit%C3%A0-inseriti-nel-%27programma-speciale-di-ricerca%27-del-ministero-dell-interno",
+          "title": "Latitanti di massima pericolosità inseriti nel programma speciale di ricerca",
+          "publisher": "Arma dei Carabinieri",
+          "language": "it",
+          "claim": "Carabinieri identify Pelle as a prominent member of the Pelle 'Ndrangheta clan, specialized in drug trafficking, arrested after 16 years as a fugitive."
+        },
+        {
+          "url": "https://cn24tv.it/news/arresto-sebastiano-pelle-i-dettagli-dell-operazione/",
+          "title": "Arresto Sebastiano Pelle. I dettagli dell’operazione",
+          "publisher": "CN24TV",
+          "language": "it",
+          "publishedAt": "2011-11-10",
+          "claim": "The report says Pelle was an important figure in the Pelle 'Ndrangheta clan and had a 14-year prison sentence for mafia association and international trafficking in arms and narcotics."
+        },
+        {
+          "url": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html",
+          "title": "Dal Brasile all'Italia, 8 condanne per la rete internazionale del narcotraffico",
+          "publisher": "Rai News Piemonte",
+          "language": "it",
+          "publishedAt": "2026-03-10",
+          "claim": "The report documents cocaine as the drug moved in the international cases covered here."
+        }
+      ]
+    },
+    {
+      "id": "giuseppe-giorgi",
+      "name": "Giuseppe Giorgi",
+      "aliases": [
+        "U Capra"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2017-06-02",
+      "roleLabel": "Senior Romeo clan figure; serving a sentence for international narcotics trafficking and related offences",
+      "prominence": 2,
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy"
+        },
+        {
+          "iso3": "DEU",
+          "label": "Germany"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.corriere.it/cronache/17_giugno_02/ndrangheta-arrestato-23-anni-giuseppe-giorgi-u-capra-era-5-latitanti-piu-pericolosi-d-italia-f97570f6-4767-11e7-b4db-9e2de60af523.shtml",
+          "title": "'Ndrangheta, arrestato dopo 23 anni Giuseppe Giorgi",
+          "publisher": "Corriere della Sera",
+          "language": "it",
+          "publishedAt": "2017-06-02",
+          "claim": "The report states that Giorgi was a leading member of the Romeo clan and had a final 28-year sentence for international trafficking in narcotic substances."
+        },
+        {
+          "url": "https://www.eurojust.europa.eu/news/coordinated-crackdown-ndrangheta-mafia-europe",
+          "title": "Coordinated crackdown on 'Ndrangheta mafia in Europe",
+          "publisher": "Eurojust",
+          "language": "en",
+          "publishedAt": "2018-12-05",
+          "claim": "Eurojust documents the international cocaine and other drug-trafficking casework involving 'Ndrangheta."
+        }
+      ]
+    },
+    {
+      "id": "nicola-assisi",
+      "name": "Nicola Assisi",
+      "status": "charged",
+      "statusAsOf": "2019-07-08",
+      "roleLabel": "Senior cocaine broker linked to the Volpiano ’Ndrangheta locale",
+      "prominence": 3,
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy"
+        },
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/segunda-turma-autoriza-extradicao-de-italiano-acusado-de-integrar-grupo-mafioso/",
+          "title": "Segunda Turma autoriza extradição de italiano acusado de integrar grupo mafioso",
+          "publisher": "Supremo Tribunal Federal do Brasil",
+          "language": "pt",
+          "publishedAt": "2019-12-17",
+          "claim": "The court's account of Italy's extradition request describes Patrick Assisi and his father as among the major cocaine suppliers from South America to Europe and identifies the claimed 'Ndrangheta connection."
+        },
+        {
+          "url": "https://www.senato.it/service/PDF/PDFServer/DF/358606.pdf",
+          "title": "Relazione annuale sullo stato e andamento del narcotraffico in Italia",
+          "publisher": "Senato della Repubblica",
+          "language": "it",
+          "claim": "The report states that Nicola and Patrick Assisi were linked to the Volpiano 'Ndrangheta locale and were arrested in Brazil as suspects in international narcotics trafficking."
+        },
+        {
+          "url": "https://www.eurojust.europa.eu/news/transatlantic-cocaine-trafficking-route-air-and-sea-halted-23-arrests",
+          "title": "Transatlantic cocaine trafficking route by air and sea halted: 23 arrests",
+          "publisher": "Eurojust",
+          "language": "en",
+          "publishedAt": "2024-12-10",
+          "claim": "Eurojust reports a Brazil-Italy operation against a cocaine network linked to the 'Ndrangheta, following the joint investigation launched in 2020."
+        }
+      ]
+    },
+    {
+      "id": "patrick-assisi",
+      "name": "Patrick Assisi",
+      "status": "convicted",
+      "statusAsOf": "2019-12-17",
+      "roleLabel": "Cocaine trafficker linked to the Volpiano ’Ndrangheta locale; sentenced in Italy",
+      "prominence": 2,
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy"
+        },
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/segunda-turma-autoriza-extradicao-de-italiano-acusado-de-integrar-grupo-mafioso/",
+          "title": "Segunda Turma autoriza extradição de italiano acusado de integrar grupo mafioso",
+          "publisher": "Supremo Tribunal Federal do Brasil",
+          "language": "pt",
+          "publishedAt": "2019-12-17",
+          "claim": "The Brazilian Supreme Court records that Assisi was sentenced in Italy to 30 years for offences corresponding to drug trafficking and association for trafficking; the Italian request said he belonged to 'Ndrangheta and took part in cocaine supply to Europe."
+        },
+        {
+          "url": "https://www.senato.it/service/PDF/PDFServer/DF/358606.pdf",
+          "title": "Relazione annuale sullo stato e andamento del narcotraffico in Italia",
+          "publisher": "Senato della Repubblica",
+          "language": "it",
+          "claim": "The report states that Patrick and Nicola Assisi were linked to the Volpiano 'Ndrangheta locale and arrested in Brazil as suspects in international narcotics trafficking."
+        }
+      ]
+    },
+    {
+      "id": "francesco-pelle",
+      "name": "Francesco Pelle",
+      "aliases": [
+        "Ciccio Pakistan"
+      ],
+      "status": "reported",
+      "statusAsOf": "2021-03-29",
+      "roleLabel": "Senior Pelle-Vottari clan figure and internationally wanted ’Ndrangheta member",
+      "prominence": 2,
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy"
+        },
+        {
+          "iso3": "PRT",
+          "label": "Portugal"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.poliziadistato.it/statics/09/report-latitanti-2019-2023.pdf",
+          "title": "Latitanti di massima pericolosità e pericolosi",
+          "publisher": "Polizia di Stato, Ministero dell'Interno",
+          "language": "it",
+          "claim": "The fugitive report records Francesco Pelle's 2021 arrest in Portugal and identifies him as an 'Ndrangheta figure; the report documents his serious criminal convictions without attributing drug trafficking specifically to him."
+        },
+        {
+          "url": "https://www.eurojust.europa.eu/news/coordinated-crackdown-ndrangheta-mafia-europe",
+          "title": "Coordinated crackdown on 'Ndrangheta mafia in Europe",
+          "publisher": "Eurojust",
+          "language": "en",
+          "publishedAt": "2018-12-05",
+          "claim": "Eurojust documents the broader international 'Ndrangheta drug-trafficking network."
+        }
+      ]
+    },
+    {
+      "id": "roberto-pannunzi",
+      "name": "Roberto Pannunzi",
+      "aliases": [
+        "Bebè"
+      ],
+      "status": "charged",
+      "statusAsOf": "2013-07-05",
+      "roleLabel": "Senior ’Ndrangheta broker procuring cocaine for multiple clans; also linked to heroin trafficking",
+      "prominence": 3,
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy"
+        },
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.poliziadistato.it/statics/07/dcsa_2013.pdf",
+          "title": "Relazione annuale 2013",
+          "publisher": "Ministero dell’Interno, Direzione Centrale per i Servizi Antidroga",
+          "language": "it",
+          "publishedAt": "2014-06-30",
+          "claim": "The report says Pannunzi was arrested in Colombia under an international drug-trafficking warrant, describes him as a leading 'Ndrangheta figure and international broker for cocaine and heroin, and states that he procured cocaine for named 'Ndrangheta families."
+        },
+        {
+          "url": "https://www.poliziadistato.it/statics/28/annual_report_2013.pdf",
+          "title": "Annual Report 2013",
+          "publisher": "Italian Ministry of the Interior, Central Directorate for Anti-Drug Services",
+          "language": "en",
+          "publishedAt": "2014-06-30",
+          "claim": "The English annual report repeats the international arrest and identifies Pannunzi as a leading 'Ndrangheta broker for cocaine and heroin."
+        }
+      ]
+    },
+    {
+      "id": "joaquin-guzman-loera",
+      "name": "Joaquín Archivaldo Guzmán Loera",
+      "aliases": [
+        "El Chapo",
+        "El Rapido"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2019-07-17",
+      "roleLabel": "Former principal leader of the Sinaloa Cartel",
+      "prominence": 1,
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/joaquin-el-chapo-guzman-sinaloa-cartel-leader-sentenced-life-prison-plus-30-years",
+          "title": "Joaquin “El Chapo” Guzman, Sinaloa Cartel Leader, Sentenced to Life in Prison Plus 30 Years",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2019-07-17",
+          "claim": "DOJ reports Guzmán Loera was convicted and sentenced to life plus 30 years as a principal leader of the Sinaloa Cartel."
+        }
+      ]
+    },
+    {
+      "id": "ismael-zambada-garcia",
+      "name": "Ismael Zambada García",
+      "aliases": [
+        "El Mayo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-07-20",
+      "roleLabel": "Co-founder and former principal leader of the Sinaloa Cartel",
+      "prominence": 1,
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdfl/pr/co-founder-sinaloa-cartel-ismael-el-mayo-zambada-garcia-sentenced-life-prison-engaging",
+          "title": "Co-Founder of Sinaloa Cartel, Ismael “El Mayo” Zambada Garcia, Sentenced to Life in Prison for Engaging in a Continuing Criminal Enterprise and Other Drug-Related Charges",
+          "publisher": "U.S. Department of Justice, Southern District of Florida",
+          "language": "English",
+          "publishedAt": "2026-07-20",
+          "claim": "DOJ reports Zambada García was sentenced to life for his role as the principal leader of the Sinaloa Cartel; the release describes cocaine, heroin, fentanyl, and other drugs in the enterprise."
+        }
+      ]
+    },
+    {
+      "id": "ivan-archivaldo-guzman-salazar",
+      "name": "Iván Archivaldo Guzmán Salazar",
+      "aliases": [
+        "Iván",
+        "Chapito"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-12-02",
+      "roleLabel": "Fugitive leader of Los Chapitos",
+      "prominence": 2,
+      "organizationIds": [
+        "sinaloa-cartel",
+        "los-chapitos"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+          "title": "Joaquin Guzman Lopez—Son of “El Chapo” and a Head of Sinaloa Cartel—Pleads Guilty to Federal Drug Charges in Chicago",
+          "publisher": "U.S. Department of Justice, Northern District of Illinois",
+          "language": "English",
+          "publishedAt": "2025-12-02",
+          "claim": "DOJ states that Iván Archivaldo Guzmán Salazar remains charged in two U.S. indictments and is a fugitive; the case describes the Chapitos leadership role and cocaine, heroin, fentanyl, and other drug offenses."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0161",
+          "title": "Treasury Sanctions “El Chapo’s” Children and Los Chapitos, a Fentanyl-Trafficking Faction of the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-06-09",
+          "claim": "Treasury designates Iván Archivaldo Guzmán Salazar and identifies him as a leader of Los Chapitos and a son of Joaquín Guzmán Loera."
+        }
+      ]
+    },
+    {
+      "id": "jesus-alfredo-guzman-salazar",
+      "name": "Jesús Alfredo Guzmán Salazar",
+      "aliases": [
+        "Alfredo",
+        "El Alfredillo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-12-02",
+      "roleLabel": "Fugitive leader of Los Chapitos",
+      "prominence": 2,
+      "organizationIds": [
+        "sinaloa-cartel",
+        "los-chapitos"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+          "title": "Joaquin Guzman Lopez—Son of “El Chapo” and a Head of Sinaloa Cartel—Pleads Guilty to Federal Drug Charges in Chicago",
+          "publisher": "U.S. Department of Justice, Northern District of Illinois",
+          "language": "English",
+          "publishedAt": "2025-12-02",
+          "claim": "DOJ states that Jesús Alfredo Guzmán Salazar remains charged in two U.S. indictments and is a fugitive; the case describes the Chapitos leadership role and related drug offenses."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0161",
+          "title": "Treasury Sanctions “El Chapo’s” Children and Los Chapitos, a Fentanyl-Trafficking Faction of the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-06-09",
+          "claim": "Treasury designates Jesús Alfredo Guzmán Salazar and describes him as a leader of Los Chapitos and a son of Joaquín Guzmán Loera."
+        }
+      ]
+    },
+    {
+      "id": "ovidio-guzman-lopez",
+      "name": "Ovidio Guzmán López",
+      "aliases": [
+        "Ovidio",
+        "El Ratón",
+        "Raton"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-07-11",
+      "roleLabel": "Former head of the Sinaloa Cartel and Los Chapitos leader",
+      "prominence": 2,
+      "organizationIds": [
+        "sinaloa-cartel",
+        "los-chapitos"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndil/pr/ovidio-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+          "title": "Ovidio Guzman Lopez—Son of “El Chapo” and a Head of Sinaloa Cartel—Pleads Guilty to Federal Drug Charges in Chicago",
+          "publisher": "U.S. Department of Justice, Northern District of Illinois",
+          "language": "English",
+          "publishedAt": "2025-07-11",
+          "claim": "DOJ states that Ovidio Guzmán López pleaded guilty to federal drug charges, describes him as one of the cartel heads, and says he was detained in U.S. custody."
+        }
+      ]
+    },
+    {
+      "id": "joaquin-guzman-lopez",
+      "name": "Joaquín Guzmán López",
+      "aliases": [
+        "Joaquín",
+        "El Güero"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-12-02",
+      "roleLabel": "Former head of the Sinaloa Cartel and Los Chapitos leader",
+      "prominence": 2,
+      "organizationIds": [
+        "sinaloa-cartel",
+        "los-chapitos"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+          "title": "Joaquin Guzman Lopez—Son of “El Chapo” and a Head of Sinaloa Cartel—Pleads Guilty to Federal Drug Charges in Chicago",
+          "publisher": "U.S. Department of Justice, Northern District of Illinois",
+          "language": "English",
+          "publishedAt": "2025-12-02",
+          "claim": "DOJ states that Joaquín Guzmán López pleaded guilty to federal drug charges, identifies him as one of the Sinaloa Cartel heads, and reports U.S. custody."
+        },
+        {
+          "url": "https://elpais.com/mexico/2025-02-21/mexico-estrecha-el-cerco-sobre-los-chapitos.html",
+          "title": "México estrecha el cerco sobre Los Chapitos",
+          "publisher": "EL PAÍS México",
+          "language": "Spanish",
+          "publishedAt": "2025-02-21",
+          "claim": "EL PAÍS places Joaquín Guzmán López among the four brothers known as Los Chapitos."
+        }
+      ]
+    },
+    {
+      "id": "damaso-lopez-nunez",
+      "name": "Dámaso López Núñez",
+      "aliases": [
+        "El Licenciado",
+        "Licenciado"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2018-09-28",
+      "roleLabel": "Former senior Sinaloa Cartel leader",
+      "prominence": 2,
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/senior-sinaloa-cartel-leader-extradited-united-states",
+          "title": "Senior Sinaloa Cartel Leader Extradited to the United States",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2018-07-06",
+          "claim": "DOJ identifies López Núñez as a Sinaloa Cartel leader extradited to face federal drug trafficking charges."
+        },
+        {
+          "url": "https://www.eluniversal.com.mx/nacion/el-licenciado-se-declara-culpable-en-corte-de-eu/",
+          "title": "El Licenciado se declara culpable en corte de EU",
+          "publisher": "El Universal",
+          "language": "Spanish",
+          "publishedAt": "2018-09-28",
+          "claim": "El Universal reports López Núñez pleaded guilty in the United States and had been a Sinaloa Cartel leader."
+        }
+      ]
+    },
+    {
+      "id": "damaso-lopez-serrano",
+      "name": "Dámaso López Serrano",
+      "aliases": [
+        "Mini Lic",
+        "Dámaso López Jr."
+      ],
+      "status": "convicted",
+      "statusAsOf": "2018-01-10",
+      "roleLabel": "Former Sinaloa Cartel cell leader",
+      "prominence": 3,
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/sinaloa-cartel-cell-leader-pleads-guilty-involvement-imporatation-tons-narcotics-united",
+          "title": "Sinaloa Cartel Cell Leader Pleads Guilty For Involvement in the Importation of Tons of Narcotics into the United States",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2018-01-10",
+          "claim": "DOJ reports López Serrano pleaded guilty and acknowledged a leadership role in the Sinaloa Cartel; the stated offenses involved methamphetamine, cocaine, and heroin."
+        }
+      ]
+    },
+    {
+      "id": "vicente-zambada-niebla",
+      "name": "Vicente Zambada Niebla",
+      "status": "convicted",
+      "statusAsOf": "2019-05-30",
+      "roleLabel": "Former high-ranking Sinaloa Cartel member",
+      "prominence": 3,
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndil/pr/former-high-ranking-member-sinaloa-drug-cartel-sentenced-15-years-prison-trafficking",
+          "title": "Former High-Ranking Member of Sinaloa Drug Cartel Sentenced to 15 Years in Prison for Trafficking Narcotics to Chicago",
+          "publisher": "U.S. Department of Justice, Northern District of Illinois",
+          "language": "English",
+          "publishedAt": "2019-05-30",
+          "claim": "DOJ reports Zambada Niebla was a former high-ranking cartel member, pleaded guilty in 2013, and was sentenced in 2019."
+        }
+      ]
+    },
+    {
+      "id": "ismael-zambada-imperial",
+      "name": "Ismael Zambada Imperial",
+      "aliases": [
+        "Mayito Gordo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2021-04-30",
+      "roleLabel": "Former Sinaloa Cartel leader",
+      "prominence": 3,
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdca/pr/sinaloa-cartel-leader-convicted",
+          "title": "Sinaloa Cartel Leader Convicted",
+          "publisher": "U.S. Department of Justice, Southern District of California",
+          "language": "English",
+          "publishedAt": "2021-04-30",
+          "claim": "DOJ reports Zambada Imperial pleaded guilty to drug trafficking and accepted responsibility for a leadership role in the Sinaloa Cartel, involving cocaine, heroin, and marijuana."
+        }
+      ]
+    },
+    {
+      "id": "ismael-zambada-sicairos",
+      "name": "Ismael Zambada Sicairos",
+      "aliases": [
+        "Mayito Flaco"
+      ],
+      "status": "reported",
+      "statusAsOf": "2025-02-21",
+      "roleLabel": "Reported leader of La Mayiza faction",
+      "prominence": 2,
+      "organizationIds": [
+        "sinaloa-cartel",
+        "la-mayiza"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://elpais.com/mexico/2025-02-21/mexico-estrecha-el-cerco-sobre-los-chapitos.html",
+          "title": "México estrecha el cerco sobre Los Chapitos",
+          "publisher": "EL PAÍS México",
+          "language": "Spanish",
+          "publishedAt": "2025-02-21",
+          "claim": "EL PAÍS describes Zambada Sicairos, alias Mayito Flaco, as leading the competing faction and identifies him as Ismael Zambada García's son."
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdca/pr/dozens-alleged-members-sinaloa-cartel-charged-list-includes-kingpin-el-mayo-his-sons",
+          "title": "Dozens Of Alleged Members Of Sinaloa Cartel Charged; List Includes Kingpin “El Mayo,” His Sons And Other Top Leaders",
+          "publisher": "U.S. Department of Justice, Southern District of California",
+          "language": "English",
+          "publishedAt": "2014-03-13",
+          "claim": "DOJ names Ismael Zambada Sicairos, alias Mayito Flaco, in an indictment and lists him as a son of Ismael Zambada García. The cited status is an allegation in that historical case."
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "assisi-father-son",
+      "fromId": "nicola-assisi",
+      "toId": "patrick-assisi",
+      "type": "family",
+      "label": "Father and son; both documented in international cocaine-trafficking cases",
+      "sources": [
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/segunda-turma-autoriza-extradicao-de-italiano-acusado-de-integrar-grupo-mafioso/",
+          "title": "Segunda Turma autoriza extradição de italiano acusado de integrar grupo mafioso",
+          "publisher": "Supremo Tribunal Federal do Brasil",
+          "language": "pt",
+          "publishedAt": "2019-12-17",
+          "claim": "The court identifies Patrick Assisi as the son of Nicola Assisi and reports their alleged joint role in cocaine supply from South America to Europe."
+        }
+      ]
+    },
+    {
+      "id": "chapo-parent-ivan",
+      "fromId": "joaquin-guzman-loera",
+      "toId": "ivan-archivaldo-guzman-salazar",
+      "type": "parent_of",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0161",
+          "title": "Treasury Sanctions “El Chapo’s” Children and Los Chapitos, a Fentanyl-Trafficking Faction of the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-06-09",
+          "claim": "Treasury identifies Iván Archivaldo Guzmán Salazar as one of Joaquín Guzmán Loera's four sons."
+        }
+      ]
+    },
+    {
+      "id": "chapo-parent-alfredo",
+      "fromId": "joaquin-guzman-loera",
+      "toId": "jesus-alfredo-guzman-salazar",
+      "type": "parent_of",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0161",
+          "title": "Treasury Sanctions “El Chapo’s” Children and Los Chapitos, a Fentanyl-Trafficking Faction of the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-06-09",
+          "claim": "Treasury identifies Jesús Alfredo Guzmán Salazar as one of Joaquín Guzmán Loera's four sons."
+        }
+      ]
+    },
+    {
+      "id": "chapo-parent-ovidio",
+      "fromId": "joaquin-guzman-loera",
+      "toId": "ovidio-guzman-lopez",
+      "type": "parent_of",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0161",
+          "title": "Treasury Sanctions “El Chapo’s” Children and Los Chapitos, a Fentanyl-Trafficking Faction of the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-06-09",
+          "claim": "Treasury identifies Ovidio Guzmán López as one of Joaquín Guzmán Loera's four sons."
+        }
+      ]
+    },
+    {
+      "id": "chapo-parent-joaquin-jr",
+      "fromId": "joaquin-guzman-loera",
+      "toId": "joaquin-guzman-lopez",
+      "type": "parent_of",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0161",
+          "title": "Treasury Sanctions “El Chapo’s” Children and Los Chapitos, a Fentanyl-Trafficking Faction of the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-06-09",
+          "claim": "Treasury identifies Joaquín Guzmán López as one of Joaquín Guzmán Loera's four sons."
+        }
+      ]
+    },
+    {
+      "id": "mayo-parent-vicente",
+      "fromId": "ismael-zambada-garcia",
+      "toId": "vicente-zambada-niebla",
+      "type": "parent_of",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndil/pr/former-high-ranking-member-sinaloa-drug-cartel-sentenced-15-years-prison-trafficking",
+          "title": "Former High-Ranking Member of Sinaloa Drug Cartel Sentenced to 15 Years in Prison for Trafficking Narcotics to Chicago",
+          "publisher": "U.S. Department of Justice, Northern District of Illinois",
+          "language": "English",
+          "publishedAt": "2019-05-30",
+          "claim": "DOJ identifies Vicente Zambada Niebla as the son of Ismael “Mayo” Zambada García."
+        }
+      ]
+    },
+    {
+      "id": "mayo-parent-imperial",
+      "fromId": "ismael-zambada-garcia",
+      "toId": "ismael-zambada-imperial",
+      "type": "parent_of",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdca/pr/sinaloa-cartel-leader-convicted",
+          "title": "Sinaloa Cartel Leader Convicted",
+          "publisher": "U.S. Department of Justice, Southern District of California",
+          "language": "English",
+          "publishedAt": "2021-04-30",
+          "claim": "DOJ identifies Ismael Zambada Imperial as the son of Ismael Zambada García."
+        }
+      ]
+    },
+    {
+      "id": "mayo-parent-sicairos",
+      "fromId": "ismael-zambada-garcia",
+      "toId": "ismael-zambada-sicairos",
+      "type": "parent_of",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdca/pr/dozens-alleged-members-sinaloa-cartel-charged-list-includes-kingpin-el-mayo-his-sons",
+          "title": "Dozens Of Alleged Members Of Sinaloa Cartel Charged; List Includes Kingpin “El Mayo,” His Sons And Other Top Leaders",
+          "publisher": "U.S. Department of Justice, Southern District of California",
+          "language": "English",
+          "publishedAt": "2014-03-13",
+          "claim": "DOJ identifies Ismael Zambada Sicairos as one of Ismael Zambada García's sons."
+        }
+      ]
+    },
+    {
+      "id": "damaso-parent-mini-lic",
+      "fromId": "damaso-lopez-nunez",
+      "toId": "damaso-lopez-serrano",
+      "type": "parent_of",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/sinaloa-cartel-cell-leader-self-surrenders",
+          "title": "Sinaloa Cartel Cell Leader Self-Surrenders",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2017-07-28",
+          "claim": "DOJ describes the related indictment as charging Dámaso López Núñez and his son, Dámaso López Serrano."
+        }
+      ]
+    }
+  ]
+}

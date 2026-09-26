@@ -65,10 +65,15 @@ const AtlasMap = dynamic(() => import("./atlas-map"), {
   ssr: false,
   loading: () => <div className="map-loading">Loading map</div>,
 });
+const PeopleAtlas = dynamic(() => import("./people-atlas").then((module) => module.PeopleAtlas), {
+  ssr: false,
+  loading: () => <div className="map-loading">Loading people atlas</div>,
+});
 const NAV: { id: View; label: string }[] = [
   { id: "atlas", label: "Atlas" },
   { id: "risk", label: "Risk board" },
   { id: "health", label: "Health evidence" },
+  { id: "people", label: "People" },
   { id: "livewire", label: "Live wire" },
   { id: "scenarios", label: "Scenarios" },
   { id: "markets", label: "Markets" },
@@ -795,6 +800,9 @@ export default function Dashboard() {
                     )}
                     {view === "health" && (
                       <EvidenceHealth countries={countries} selectedIso={selected} onCountry={openCountry} />
+                    )}
+                    {view === "people" && (
+                      <PeopleAtlas countries={countries} />
                     )}
                     {view === "livewire" && (
                       <>
