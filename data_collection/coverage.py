@@ -91,8 +91,9 @@ def write_report(db: Path, output: Path) -> None:
         "first year of a newer supplement.", "",
         "**Later supplements keep their actual dates.** National seizure annexes, individual seizure "
         "cases, cultivation, OC Index and HRI services enter only where their source supports them. "
-        "A route-exposure analysis needing seizures has a shorter documented window than the price "
-        "and World Bank analyses. Edition-based context never becomes a historical backtest predictor "
+        "An analysis using reported seizures has a shorter documented window than the price "
+        "and World Bank analyses. Seizure country alone does not reveal a trade route. "
+        "Edition-based context never becomes a historical backtest predictor "
         "by carrying its newer values backward.", "",
         "There is no requirement that all variables overlap. Missing values stay null; the collection "
         "does not impute, interpolate or backcast. A later model must document feature availability, "
@@ -112,9 +113,11 @@ def write_report(db: Path, output: Path) -> None:
     lines += ["", "## Year-by-year spine support", "",
               "GDP + population counts economies with both market-size observations. The harm column "
               "also requires either homicide or HIV incidence. Other columns count observed source "
-              "records, not matched country-years. Source estimate counts identify values the UNODC "
-              "source itself flags as estimates. Zero means no reported observation, not zero activity.", "",
-              "| Year | WB variables | WB values | GDP + population economies | With harm outcome | Price records | Price economies | Source price estimates | National seizure records | IDS country/drug aggregates |",
+              "records, not matched country-years. National seizure records are edition-specific and "
+              "can overlap; never sum them without choosing an edition. Source estimate counts "
+              "identify values the UNODC source itself flags as estimates. Zero means no reported "
+              "observation, not zero activity.", "",
+              "| Year | WB variables | WB values | GDP + population economies | With harm outcome | Price records | Price economies | Source price estimates | National seizure edition records | IDS country/drug aggregates |",
               "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for year in range(SPINE_START, SPINE_END + 1):
         wb_vars, wb_values = annual.get(year, (0, 0))

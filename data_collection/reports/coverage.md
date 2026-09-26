@@ -1,7 +1,7 @@
 <!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->
 # Historical coverage and analysis windows
 
-Generated 2026-09-26T18:47:02.398948+00:00 from the verified merged SQLite archive.
+Generated 2026-09-26T18:47:30.025232+00:00 from the verified merged SQLite archive.
 
 ## Decision
 
@@ -9,7 +9,7 @@ Generated 2026-09-26T18:47:02.398948+00:00 from the verified merged SQLite archi
 
 **Archive: all original years.** World Bank non-null values span 1960–2025 across 24 indicators and 217 current economies. Its 308,796 country observations include 181,190 explicit nulls. No source is truncated to the first year of a newer supplement.
 
-**Later supplements keep their actual dates.** National seizure annexes, individual seizure cases, cultivation, OC Index and HRI services enter only where their source supports them. A route-exposure analysis needing seizures has a shorter documented window than the price and World Bank analyses. Edition-based context never becomes a historical backtest predictor by carrying its newer values backward.
+**Later supplements keep their actual dates.** National seizure annexes, individual seizure cases, cultivation, OC Index and HRI services enter only where their source supports them. An analysis using reported seizures has a shorter documented window than the price and World Bank analyses. Seizure country alone does not reveal a trade route. Edition-based context never becomes a historical backtest predictor by carrying its newer values backward.
 
 There is no requirement that all variables overlap. Missing values stay null; the collection does not impute, interpolate or backcast. A later model must document feature availability, publication lag and its training-only missing-data policy. Retrospective source releases alone are not a point-in-time backtest archive.
 
@@ -40,9 +40,9 @@ Non-null country-years within 1990–2024; individual gaps remain in SQLite.
 
 ## Year-by-year spine support
 
-GDP + population counts economies with both market-size observations. The harm column also requires either homicide or HIV incidence. Other columns count observed source records, not matched country-years. Source estimate counts identify values the UNODC source itself flags as estimates. Zero means no reported observation, not zero activity.
+GDP + population counts economies with both market-size observations. The harm column also requires either homicide or HIV incidence. Other columns count observed source records, not matched country-years. National seizure records are edition-specific and can overlap; never sum them without choosing an edition. Source estimate counts identify values the UNODC source itself flags as estimates. Zero means no reported observation, not zero activity.
 
-| Year | WB variables | WB values | GDP + population economies | With harm outcome | Price records | Price economies | Source price estimates | National seizure records | IDS country/drug aggregates |
+| Year | WB variables | WB values | GDP + population economies | With harm outcome | Price records | Price economies | Source price estimates | National seizure edition records | IDS country/drug aggregates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 1990 | 14 | 1,533 | 192 | 163 | 72 | 18 | 22 | 0 | 0 |
 | 1991 | 15 | 1,740 | 193 | 164 | 72 | 18 | 29 | 0 | 0 |
