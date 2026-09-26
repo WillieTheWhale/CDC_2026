@@ -33,6 +33,8 @@ import {
 import type { Catalog } from "@/lib/api";
 import type { Country, Edge, LiveEvent, Price, RiskRow } from "@/lib/types";
 import { HistoryChart, Sparkline } from "./charts";
+import { CountryEvidence, PublishedContext } from "./evidence-health";
+import type { ObservedOverview } from "@/lib/observed-data";
 
 export function Empty({ children }: { children: React.ReactNode }) {
   return (
@@ -218,8 +220,9 @@ export function RiskTable({
       )}
       {!compact && (
         <p className="table-note">
-          Exposure and vulnerability increase risk; protection reduces it.
-          Scores support prevention planning, not individual prediction.
+          Saved TRACE model scores: exposure and vulnerability increase risk;
+          protection reduces it. Source health observations are available in
+          each country’s Evidence tab and do not recalculate these scores.
         </p>
       )}
     </div>
@@ -285,6 +288,7 @@ export function CountryInspector({
   risk: summaryRisk,
   scenarioRisk,
   edges,
+  observed,
   onClose,
   onRoute,
 }: {
@@ -293,6 +297,7 @@ export function CountryInspector({
   risk?: RiskRow;
   scenarioRisk?: Simulation["risk_deltas"][number];
   edges: Edge[];
+  observed?: ObservedOverview | null;
   onClose: () => void;
   onRoute: (e: Edge) => void;
 }) {
@@ -464,12 +469,7 @@ export function CountryInspector({
               <p className="briefing">{detail.briefing}</p>
             </>
           )}
-          {!loading && !detail && (
-            <p className="quiet-note">
-              Country evidence is not available for this selection. The saved
-              profile covers Colombia in {PROFILE_YEAR}.
-            </p>
-          )}
+          {!loading && !detail && <p className="quiet-note">The saved model profile is available for Colombia in {PROFILE_YEAR}. Health records for this country are available in Evidence.</p>}
         </>
       )}
       {tab === "Evidence" && (
@@ -516,16 +516,17 @@ export function CountryInspector({
           )}
           {!loading && !detail && (
             <Empty>
-              Detailed indicators will appear when this country’s profile is
-              available.
+              World Bank and organized crime profile values are available for Colombia in the saved model snapshot. Health source records below cover additional countries.
             </Empty>
           )}
+          <CountryEvidence iso3={country.iso3} />
+          {observed && <PublishedContext claims={observed.evidenceClaims} countryName={country.name} />}
         </>
       )}
       {tab === "Routes" && (
         <>
           <div className="section-line">
-            <h3>{routes.length} corridors</h3>
+            <h3>{routes.length} model corridors</h3>
             <span>{year}</span>
           </div>
           {routes.length ? (
@@ -551,7 +552,7 @@ export function CountryInspector({
               </button>
             ))
           ) : (
-            <Empty>No matching routes.</Empty>
+            <Empty>No matching model corridors.</Empty>
           )}
           {detail?.prices.map((p) => (
             <div className="country-price" key={p.level + p.drug}>
@@ -612,11 +613,11 @@ export function RouteInspector({
       </div>
       <p className="source-note">
         {edge.year} ·{" "}
-        {edge.probability === null ? "Observed corridor" : "Predicted corridor"}
+        {edge.probability === null ? "Baseline model corridor" : "Forecast corridor"}
         {DEMO ? " · saved snapshot" : ""}
       </p>
       <div className="section-line">
-        <h3>Evidence signals</h3>
+        <h3>Model input signals</h3>
       </div>
       {Object.entries(edge.signals).map(([k, v]) => (
         <div className="evidence-row" key={k}>
@@ -748,11 +749,13 @@ export function ScenarioRiskList({
 }
 export function ScenarioPanel({
   initial,
+  observed,
   onApplied,
   onMap,
   onExperiment,
 }: {
   initial: string;
+  observed?: ObservedOverview | null;
   onApplied: (s: Simulation) => void;
   onMap: () => void;
   onExperiment: () => void;
@@ -830,6 +833,7 @@ export function ScenarioPanel({
             Afghanistan opium ban
             <ArrowUpRight size={15} />
           </button>
+          {observed && <PublishedContext claims={observed.evidenceClaims} policyOnly />}
         </section>
         <section className="scenario-results">
           {result ? (
@@ -895,9 +899,11 @@ export function ScenarioPanel({
 export { ExperimentView } from "./experiment";
 export function Sources({
   catalog,
+  observed,
   onClose,
 }: {
   catalog: Catalog;
+  observed?: ObservedOverview | null;
   onClose: () => void;
 }) {
   return (
@@ -921,15 +927,26 @@ export function Sources({
         </div>
         <p>
           {DEMO
-            ? "You’re exploring saved pipeline output. World Bank values retain their source and year; corridor volumes are model estimates. The news feed replays synthetic sample headlines."
-            : "Coverage, freshness and provenance for the connected data services."}
+            ? "The atlas and risk panels use saved model output. Health, market and research views use verified source archive exports. World Bank values retain source and year. The news feed replays synthetic sample headlines."
+            : "Coverage, freshness and provenance for the connected data services and source archive."}
         </p>
         <p className="source-note">
           {DEMO
             ? `Snapshot generated ${new Date(SNAPSHOT_TIME).toLocaleString("en-GB", { timeZone: "UTC" })} UTC`
             : "Source retrieval times are shown below."}
         </p>
+        {observed && <p className="source-note">Source archive {observed.snapshot.releaseTag} · exported {new Date(observed.snapshot.exportedAt).toLocaleDateString("en-GB", { timeZone: "UTC" })} · SHA-256 {observed.snapshot.databaseSha256.slice(0, 12)}…</p>}
         <div className="source-list">
+          {observed && Object.entries(observed.sources).map(([id, source]) => (
+            <a key={id} href={source.url} target="_blank" rel="noreferrer">
+              <div>
+                <h3>{source.title}</h3>
+                <small>{source.publisher} · Source edition {source.publicationYear ?? "year unspecified"}</small>
+                {source.caveat && <p>{source.caveat}</p>}
+              </div>
+              <ExternalLink size={15} />
+            </a>
+          ))}
           {catalog.sources.map((s) => (
             <a key={s.id} href={s.url} target="_blank" rel="noreferrer">
               <div>

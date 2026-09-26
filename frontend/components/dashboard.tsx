@@ -30,7 +30,6 @@ import {
   drugColor,
   drugLabel,
   Experiment,
-  Metrics,
   scoreColor,
   Simulation,
   subscribeLivewire,
@@ -43,7 +42,6 @@ import type {
   Edge,
   LiveEvent,
   Mode,
-  Price,
   RiskRow,
   View,
 } from "@/lib/types";
@@ -51,8 +49,6 @@ import {
   Compare,
   CountryInspector,
   Empty,
-  ExperimentView,
-  Markets,
   NewsList,
   RiskTable,
   RouteInspector,
@@ -61,6 +57,10 @@ import {
   Sources,
 } from "./panels";
 import { Sparkline } from "./charts";
+import { EvidenceHealth } from "./evidence-health";
+import { EvidenceMarkets } from "./evidence-markets";
+import { EvidenceResearch } from "./experiment";
+import { loadObservedOverview, type ObservedOverview } from "@/lib/observed-data";
 const AtlasMap = dynamic(() => import("./atlas-map"), {
   ssr: false,
   loading: () => <div className="map-loading">Loading map</div>,
@@ -68,6 +68,7 @@ const AtlasMap = dynamic(() => import("./atlas-map"), {
 const NAV: { id: View; label: string }[] = [
   { id: "atlas", label: "Atlas" },
   { id: "risk", label: "Risk board" },
+  { id: "health", label: "Health evidence" },
   { id: "livewire", label: "Live wire" },
   { id: "scenarios", label: "Scenarios" },
   { id: "markets", label: "Markets" },
@@ -89,10 +90,10 @@ export default function Dashboard() {
     [countries, setCountries] = useState<Country[]>([]),
     [edges, setEdges] = useState<Edge[]>([]),
     [risk, setRisk] = useState<RiskRow[]>([]),
-    [prices, setPrices] = useState<Price[]>([]),
     [events, setEvents] = useState<LiveEvent[]>([]),
-    [experiment, setExperiment] = useState<Experiment | null>(null),
-    [metrics, setMetrics] = useState<Metrics | null>(null);
+    [experiment, setExperiment] = useState<Experiment | null>(null);
+  const [observedOverview, setObservedOverview] = useState<ObservedOverview | null>(null);
+  const [observedError, setObservedError] = useState("");
   const [year, setYear] = useState(2024),
     [mode, setMode] = useState<Mode>("observed"),
     [drug, setDrug] = useState<Drug | "all">("all"),
@@ -141,17 +142,13 @@ export default function Dashboard() {
         m.data.predicted_years.includes(startYear) ? "predicted" : "observed",
       );
       const results = await Promise.allSettled([
-        api.prices(),
         api.livewire(),
         api.experiment(),
-        api.metrics(),
       ] as const);
-      const [p, n, e, mt] = results;
-      if (p.status === "fulfilled") setPrices(p.value.data.series);
+      const [n, e] = results;
       if (n.status === "fulfilled")
         setEvents(n.value.data.events.filter((e) => e.confidence >= 0.6));
       if (e.status === "fulfilled") setExperiment(e.value.data);
-      if (mt.status === "fulfilled") setMetrics(mt.value.data);
       if (results.some((r) => r.status === "rejected"))
         notify(
           "Some data services are unavailable. The atlas remains available.",
@@ -166,6 +163,14 @@ export default function Dashboard() {
     void load();
     return () => clearTimeout(toastTimer.current);
   }, [load]);
+  useEffect(() => {
+    if (!["health", "markets", "experiment", "scenarios"].includes(view) && !sourcesOpen && !selected) return;
+    let active = true;
+    loadObservedOverview()
+      .then((overview) => { if (active) { setObservedOverview(overview); setObservedError(""); } })
+      .catch((cause) => { if (active) setObservedError((cause as Error).message); });
+    return () => { active = false; };
+  }, [view, sourcesOpen, selected]);
   useEffect(() => {
     if (!catalog) return;
     let active = true;
@@ -474,7 +479,7 @@ export default function Dashboard() {
             <Database size={17} />
           </button>
         </header>
-        <div className="workspace-toolbar">
+        {view !== "health" && view !== "experiment" && <div className="workspace-toolbar">
           <div className="drug-filters" aria-label="Filter by drug">
             {["all", "cocaine", "heroin", "meth", "cannabis"].map((d) => (
               <button
@@ -496,7 +501,7 @@ export default function Dashboard() {
               </button>
             ))}
           </div>
-        </div>
+        </div>}
         {loadError ? (
           <div className="load-error">
             <h1>Data connection interrupted</h1>
@@ -529,7 +534,7 @@ export default function Dashboard() {
                           onClick={() => switchMode("observed")}
                           className={mode === "observed" ? "active" : ""}
                         >
-                          Observed
+                          Baseline model
                         </button>
                         <button
                           onClick={() => switchMode("predicted")}
@@ -559,7 +564,7 @@ export default function Dashboard() {
                                 checked={showDots}
                                 onChange={(e) => setShowDots(e.target.checked)}
                               />
-                              Exposure
+                              Modeled exposure
                             </label>
                             <label>
                               <input
@@ -569,7 +574,7 @@ export default function Dashboard() {
                                   setShowRoutes(e.target.checked)
                                 }
                               />
-                              Route network
+                              Modeled corridors
                             </label>
                             <label className="confidence-label">
                               Minimum confidence <b>{minConfidence}%</b>
@@ -656,7 +661,7 @@ export default function Dashboard() {
                     <div className="year-display">
                       {year}
                       <span>
-                        {mode === "predicted" ? "Forecast" : "Observed"}
+                        {mode === "predicted" ? "Forecast" : "Model baseline"}
                       </span>
                     </div>
                     <div className="year-track">
@@ -788,6 +793,9 @@ export default function Dashboard() {
                         />
                       </>
                     )}
+                    {view === "health" && (
+                      <EvidenceHealth countries={countries} selectedIso={selected} onCountry={openCountry} />
+                    )}
                     {view === "livewire" && (
                       <>
                         <div className="view-heading">
@@ -805,6 +813,7 @@ export default function Dashboard() {
                     {view === "scenarios" && (
                       <ScenarioPanel
                         initial={scenario}
+                        observed={observedOverview}
                         onMap={() => {
                           setView("atlas");
                           setResetKey((k) => k + 1);
@@ -821,20 +830,11 @@ export default function Dashboard() {
                       />
                     )}
                     {view === "markets" && (
-                      <Markets series={prices} drug={drug} />
+                      observedOverview ? <EvidenceMarkets overview={observedOverview} drug={drug} countries={countries} /> : observedError ? <Empty>Observed market data could not load: {observedError}</Empty> : <Empty>Loading observed market data…</Empty>
                     )}
-                    {view === "experiment" &&
-                      (experiment && metrics ? (
-                        <ExperimentView
-                          experiment={experiment}
-                          metrics={metrics}
-                        />
-                      ) : (
-                        <Empty>
-                          Evaluation results are not available from the data
-                          service yet.
-                        </Empty>
-                      ))}
+                    {view === "experiment" && (
+                      observedOverview ? <EvidenceResearch overview={observedOverview} experiment={experiment} /> : observedError ? <Empty>Research evidence could not load: {observedError}</Empty> : <Empty>Loading research evidence…</Empty>
+                    )}
                   </motion.div>
                 )}
               </div>
@@ -858,6 +858,7 @@ export default function Dashboard() {
                         (r) => r.iso3 === selected,
                       )}
                       edges={mappedEdges}
+                      observed={observedOverview}
                       onClose={() => {
                         setSelected(null);
                         setResetKey((k) => k + 1);
@@ -1117,7 +1118,7 @@ export default function Dashboard() {
           </div>
         )}
         {sourcesOpen && catalog && (
-          <Sources catalog={catalog} onClose={() => setSourcesOpen(false)} />
+          <Sources catalog={catalog} observed={observedOverview} onClose={() => setSourcesOpen(false)} />
         )}
         {compare.length > 0 && (
           <Compare

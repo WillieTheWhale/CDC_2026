@@ -2,7 +2,7 @@
 export type Drug = "cocaine" | "heroin" | "meth" | "cannabis";
 export type Mode = "observed" | "predicted";
 export type View =
-  "atlas" | "risk" | "livewire" | "scenarios" | "markets" | "experiment";
+  "atlas" | "risk" | "health" | "livewire" | "scenarios" | "markets" | "experiment";
 export interface Source {
   id: string;
   name: string;

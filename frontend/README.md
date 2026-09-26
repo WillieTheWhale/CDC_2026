@@ -1,7 +1,7 @@
 <!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->
 # TRACE frontend
 
-An interactive research atlas with country drilldowns, route evidence, risk comparisons, scenarios, a newswire, markets, and the Afghanistan experiment. A white and cool-blue map carries fine country-exposure textures and colored country links. Figma supplies the identity, legend, signal beacon, and route animation; Adobe Forma DJR supplies the typography.
+An interactive research atlas with country drilldowns, source health evidence, risk comparisons, scenarios, a newswire, markets, and retrospective research. A white and cool-blue map carries fine country-exposure textures and colored country links. Figma supplies the identity, legend, signal beacon, and route animation; Adobe Forma DJR supplies the typography.
 
 ## Run
 
@@ -23,7 +23,9 @@ npm start
 
 ## Data connection
 
-The default is a saved snapshot of the backend output. Available route snapshots are 2024 observed and 2025 predicted; country risk and Colombia's detailed profile use 2025. Other years and profiles show an explicit unavailable state. News fixtures are synthetic and labeled as such. A saved Colombia cultivation scenario is available; custom scenarios require the model API. Experiment results, including the unsupported spillover hypothesis, are shown as supplied by the backend.
+The default atlas and risk board use a saved backend model snapshot. Available route snapshots are a 2024 baseline and 2025 forecast; country risk and Colombia's detailed API profile use 2025. Other model years and profiles show an explicit unavailable state. Corridors are modeled country links, not observed seizure routes. News fixtures are synthetic and labeled as such. A saved Colombia cultivation scenario is available; custom scenarios require the model API.
+
+Health, market, source and research panels read compact country exports from the verified 2026-09-26 SQLite v2 archive under `public/data/observed-v2/`. These files preserve observation years, source editions, original populations and units. The browser fetches a country only when needed; the atlas does not wait for this archive. The archive is separate from the model API while the backend SQLite migration is pending. The published snapshot and coverage limits are documented in `../data_collection/README.md` and `../data_collection/reports/`.
 
 To connect the API, add this public endpoint to `.env.local` without replacing existing private credentials:
 
@@ -36,10 +38,11 @@ Restart the dev server or rebuild for deployment because Next embeds public envi
 ## Interface
 
 - Click a country or a corridor to inspect it; pan, zoom, and reset the map.
-- Filter by drug, confidence, year, and observed/forecast mode. The timeline supports playback.
+- Filter model corridors by drug, confidence, year, and baseline/forecast mode. The timeline supports playback.
+- Open Health evidence to select a country and inspect drug use, injecting health, treatment contacts and published SDG treatment coverage with exact population and source labels. The country Evidence tab uses the same archive for countries beyond the saved Colombia profile.
 - Use ⌘K or Ctrl+K for `COL <GO>`, `HEROIN ROUTES`, `RISK TOP 20`, `COMPARE COL PER`, `YEAR 2023`, or `PREDICT ON`.
 - Drag the two lower panel handles on desktop. On narrow screens the panels stack and selected details scroll into view.
-- Open Data sources for provenance, observation years, retrieval dates, and limitations.
+- Open Data sources for provenance, source editions, retrieval dates, and limitations. Officially modeled treatment coverage is marked as such; CDC provisional overdose records use rolling 12-month-ending periods and overlapping drug classes.
 
 ## Design and verification
 

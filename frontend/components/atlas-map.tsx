@@ -517,7 +517,7 @@ export default function AtlasMap(props: Props) {
             {hover.edge.from} → {hover.edge.to}
           </strong>
           <div>
-            {hover.edge.drug} · {hover.edge.confidence}% confidence
+            {hover.edge.drug} · model corridor · {hover.edge.confidence}% confidence
           </div>
           <p>
             {formatNumber(hover.edge.kg)} kg ·{" "}
