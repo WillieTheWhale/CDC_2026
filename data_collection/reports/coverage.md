@@ -1,7 +1,7 @@
 <!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->
 # Historical coverage and analysis windows
 
-Generated 2026-09-26T18:47:30.025232+00:00 from the verified merged SQLite archive.
+Generated 2026-09-26T18:47:44.167834+00:00 from the verified merged SQLite archive.
 
 ## Decision
 
@@ -40,9 +40,9 @@ Non-null country-years within 1990–2024; individual gaps remain in SQLite.
 
 ## Year-by-year spine support
 
-GDP + population counts economies with both market-size observations. The harm column also requires either homicide or HIV incidence. Other columns count observed source records, not matched country-years. National seizure records are edition-specific and can overlap; never sum them without choosing an edition. Source estimate counts identify values the UNODC source itself flags as estimates. Zero means no reported observation, not zero activity.
+GDP + population counts economies with both market-size observations. The proxy column also requires either general-population homicide or HIV incidence; these are contextual harm measures, not drug-specific outcomes. Other columns count observed source records, not matched country-years. National seizure records are edition-specific and can overlap; never sum them without choosing an edition. Source estimate counts identify values the UNODC source itself flags as estimates. Zero means no reported observation, not zero activity.
 
-| Year | WB variables | WB values | GDP + population economies | With harm outcome | Price records | Price economies | Source price estimates | National seizure edition records | IDS country/drug aggregates |
+| Year | WB variables | WB values | GDP + population economies | With homicide or HIV proxy | Price records | Price economies | Source price estimates | National seizure edition records | IDS country/drug aggregates |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 1990 | 14 | 1,533 | 192 | 163 | 72 | 18 | 22 | 0 | 0 |
 | 1991 | 15 | 1,740 | 193 | 164 | 72 | 18 | 29 | 0 | 0 |

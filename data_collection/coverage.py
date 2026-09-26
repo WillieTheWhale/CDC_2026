@@ -111,13 +111,14 @@ def write_report(db: Path, output: Path) -> None:
     for feature in CORE:
         lines.append(f"| {feature} | {core_counts.get(feature, 0):,} |")
     lines += ["", "## Year-by-year spine support", "",
-              "GDP + population counts economies with both market-size observations. The harm column "
-              "also requires either homicide or HIV incidence. Other columns count observed source "
+              "GDP + population counts economies with both market-size observations. The proxy column "
+              "also requires either general-population homicide or HIV incidence; these are contextual "
+              "harm measures, not drug-specific outcomes. Other columns count observed source "
               "records, not matched country-years. National seizure records are edition-specific and "
               "can overlap; never sum them without choosing an edition. Source estimate counts "
               "identify values the UNODC source itself flags as estimates. Zero means no reported "
               "observation, not zero activity.", "",
-              "| Year | WB variables | WB values | GDP + population economies | With harm outcome | Price records | Price economies | Source price estimates | National seizure edition records | IDS country/drug aggregates |",
+              "| Year | WB variables | WB values | GDP + population economies | With homicide or HIV proxy | Price records | Price economies | Source price estimates | National seizure edition records | IDS country/drug aggregates |",
               "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
     for year in range(SPINE_START, SPINE_END + 1):
         wb_vars, wb_values = annual.get(year, (0, 0))
