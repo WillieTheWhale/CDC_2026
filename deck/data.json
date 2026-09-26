@@ -17,18 +17,18 @@
     "sources": "8"
   },
   "metrics": {
-    "hurdle_auc": "0.92",
-    "gravity_auc": "0.61",
-    "afghan_hit": "12/14",
+    "hurdle_auc": "0.88",
+    "gravity_auc": "0.58",
+    "afghan_hit": "9/13",
     "sea_base": "5%",
-    "sea_pred": "13%",
-    "sea_actual": "14%",
+    "sea_pred": "14%",
+    "sea_actual": "13%",
     "train_through": "2019",
     "afghan_train_through": "2021",
-    "spearman": "0.67",
-    "precision_at_20": "0.50",
-    "afghan_right": "12",
-    "afghan_of": "14"
+    "spearman": "0.58",
+    "precision_at_20": "0.48",
+    "afghan_right": "9",
+    "afghan_of": "13"
   },
   "charts": {
     "afghan": {
@@ -171,7 +171,7 @@
       {
         "label": "World Bank ingest",
         "owner": "backend",
-        "status": "done (24 indicators, 217 economies, 2005-2026, `wb_manifest.json`)"
+        "status": "done; now read from the SQLite v2 archive (24 indicators, 217 economies, 1960-2025)"
       },
       {
         "label": "external ingest (UNODC, OC Index, HRI, CEPII)",
@@ -186,12 +186,17 @@
       {
         "label": "route models + backtest + Afghan ban test",
         "owner": "backend",
-        "status": "done (hurdle AUC 0.92 vs gravity 0.61; Afghan ban 12/14 corridors, SEA share 5%->13% pred vs 14% actual)"
+        "status": "done, retrained on SQLite archive (hurdle AUC 0.88 vs gravity 0.58; Afghan ban 9/13 corridors, SEA share 5%->14% pred vs 13% actual)"
       },
       {
         "label": "spillover risk",
         "owner": "backend",
-        "status": "done (217 countries x 2011-2025; hypothesis not supported, see metrics)"
+        "status": "done (217 countries x 2008-2025, HRI per edition; hypothesis not supported)"
+      },
+      {
+        "label": "SQLite v2 migration",
+        "owner": "backend",
+        "status": "done (archive read-only + `derived.sqlite`; DuckDB removed)"
       },
       {
         "label": "export + API",
@@ -228,14 +233,14 @@
     ],
     "frontend_built": true,
     "shipped_short": "Pipeline, models, backtests, API, Live Wire and the workspace all shipped",
-    "shipped_count": 11,
+    "shipped_count": 12,
     "pending_count": 3
   },
   "git": {
-    "sha": "4eccc26",
-    "subject": "deck: add handoff prompt for a fresh agent",
-    "when": "2026-09-26T21:51:06+00:00",
-    "count": "52"
+    "sha": "8fbef9e",
+    "subject": "Add cited regional country-route evidence",
+    "when": "2026-09-26T18:34:57-04:00",
+    "count": "56"
   },
-  "built_at": "2026-09-26 21:51 UTC"
+  "built_at": "2026-09-26 22:38 UTC"
 }

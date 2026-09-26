@@ -510,12 +510,12 @@
             {
               "value": "{{counts.indicators}}",
               "label": "World Bank indicators",
-              "source": "Indicators API, sources 2 + 3, pulled programmatically"
+              "source": "Indicators API, sources 2 + 3, pulled programmatically into the SQLite v2 archive"
             },
             {
               "value": "{{counts.economies}}",
               "label": "economies",
-              "source": "aggregates filtered out, 2005–2026"
+              "source": "aggregates filtered out, 1960–2025"
             },
             {
               "value": "{{counts.ids_cases}}",
@@ -736,14 +736,14 @@
             {
               "label": "LightGBM hurdle",
               "value": "{{metrics.hurdle_auc}}",
-              "pct": 92,
+              "pct": 88,
               "tone": "up",
               "note": "AUC, corridor activation"
             },
             {
               "label": "PPML gravity baseline",
               "value": "{{metrics.gravity_auc}}",
-              "pct": 61,
+              "pct": 58,
               "tone": "dim",
               "note": "AUC, same corridors, same years"
             }
