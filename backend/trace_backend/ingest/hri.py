@@ -21,7 +21,7 @@ PATH = config.RAW / "hri" / "HRI-GSHR-2024_Full-Report_Final.pdf"
 COLUMNS = ["policy", "nsp", "oat", "dcr", "naloxone", "naloxone_peer", "safer_smoking", "stimulant_rx",
            "nsp_prison", "oat_prison"]
 MARK = r"(✓|✕|✗|nd)"
-ROW = re.compile(rf"^(?P<name>[A-Za-z][A-Za-z .,'()\-’&ô]+?)\s+(?P<marks>(?:{MARK}\s*){{10}})$")
+ROW = re.compile(rf"^(?P<name>[^\W\d_][\w .,'()\-’&]+?)\s+(?P<marks>(?:{MARK}\s*){{10}})$")
 
 
 def download(refresh: bool = False) -> str:
@@ -52,8 +52,8 @@ def load(resolve) -> pd.DataFrame:
                 name = m.group("name").strip()
                 nxt = lines[i + 1] if i + 1 < len(lines) else ""
                 # wrapped names ("Bosnia and" / "Herzegovina") continue on the next line without marks
-                if (name.endswith((" and", " of", " New", " Republic", " States", " Arab", " African"))
-                        or name in {"Democratic", "Papua New", "Central African"}) and nxt and not re.search(MARK, nxt):
+                if (nxt and not re.search(MARK, nxt) and not nxt.isupper() and len(nxt.split()) <= 3
+                        and not nxt.startswith(("THE GLOBAL", "TABLE", "Country"))):
                     name = f"{name} {nxt}"
                 rec = {"country_name": name, **{c: _val(v) for c, v in zip(COLUMNS, marks,
                                                                                               strict=True)}}
