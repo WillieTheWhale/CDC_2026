@@ -3151,3 +3151,13 @@ select {
     scrollbar-width: thin;
   }
 }
+
+.data-freshness {
+  font-size: 9px;
+  color: #68735e;
+}
+@media (max-width: 1180px) {
+  .data-freshness {
+    display: none;
+  }
+}

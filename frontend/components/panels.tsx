@@ -373,7 +373,10 @@ export function CountryInspector({
           </strong>
           <small>
             Change: {scenarioRisk.delta > 0 ? "+" : ""}
-            {scenarioRisk.delta.toFixed(1)} points. {risk && Math.abs(risk.score - scenarioRisk.baseline_score) > 0.1 ? "This scenario uses a different baseline from the saved profile below." : "The profile below is the baseline."}
+            {scenarioRisk.delta.toFixed(1)} points.{" "}
+            {risk && Math.abs(risk.score - scenarioRisk.baseline_score) > 0.1
+              ? "This scenario uses a different baseline from the saved profile below."
+              : "The profile below is the baseline."}
           </small>
         </div>
       )}
@@ -926,7 +929,8 @@ export function ExperimentView({
       </div>
       <div className="experiment-intro">
         <strong>
-          −95<small>%</small>
+          −{Math.round((1 - e.shock.value) * 100)}
+          <small>%</small>
         </strong>
         <div>
           <h2>A supply shock across a global network.</h2>
@@ -945,23 +949,38 @@ export function ExperimentView({
             <h3>Opium poppy cultivation</h3>
             <span>hectares</span>
           </div>
-          {e.series.slice(0, 2).map((s, i) => (
-            <div key={s.id}>
-              <span
-                className="series-title"
-                style={{ color: i ? "#965787" : "#c05b34" }}
-              >
-                {s.label}
-              </span>
-              <HistoryChart
-                points={s.points}
-                dataKey="value"
-                color={i ? "#965787" : "#c05b34"}
-                height={140}
-              />
-            </div>
-          ))}
-          <p className="source-note">UNODC cultivation surveys · 2018–2024</p>
+          {e.series
+            .filter((s) => s.id.endsWith("_cultivation"))
+            .map((s, i) => (
+              <div key={s.id}>
+                <span
+                  className="series-title"
+                  style={{ color: i ? "#965787" : "#c05b34" }}
+                >
+                  {s.label}
+                </span>
+                <HistoryChart
+                  points={s.points}
+                  dataKey="value"
+                  color={i ? "#965787" : "#c05b34"}
+                  height={140}
+                />
+              </div>
+            ))}
+          <p className="source-note">
+            UNODC cultivation surveys ·{" "}
+            {Math.min(
+              ...e.series
+                .filter((s) => s.id.endsWith("_cultivation"))
+                .flatMap((s) => s.points.map((p) => p.year)),
+            )}
+            –
+            {Math.max(
+              ...e.series
+                .filter((s) => s.id.endsWith("_cultivation"))
+                .flatMap((s) => s.points.map((p) => p.year)),
+            )}
+          </p>
         </section>
         <section className="analysis-card">
           <div className="section-line">

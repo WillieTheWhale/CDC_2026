@@ -453,7 +453,9 @@ export default function AtlasMap(props: Props) {
             {formatNumber(hover.edge.kg)} kg · normalized volume{" "}
             {hover.edge.volume_norm.toFixed(2)}
           </p>
-          {hover.edge.drivers.slice(0,3).map(d=><small key={d.feature}>{d.label}</small>)}
+          {hover.edge.drivers.slice(0, 3).map((d) => (
+            <small key={d.feature}>{d.label}</small>
+          ))}
         </div>
       )}
       <div className="map-attribution">

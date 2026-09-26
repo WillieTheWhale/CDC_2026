@@ -122,7 +122,8 @@ export default function Dashboard() {
     [scenario, setScenario] = useState(""),
     [simulation, setSimulation] = useState<Simulation | null>(null),
     [riskLimit, setRiskLimit] = useState(250),
-    [clock, setClock] = useState("--:--:--");
+    [clock, setClock] = useState("--:--:--"),
+    [dataTime, setDataTime] = useState("");
   const toastTimer = useRef<ReturnType<typeof setTimeout> | undefined>(
     undefined,
   );
@@ -137,6 +138,7 @@ export default function Dashboard() {
     try {
       const [m, c] = await Promise.all([api.meta(), api.countries()]);
       setCatalog(m.data);
+      setDataTime(m.meta.generated_at);
       setCountries(c.data);
       const startYear = DEMO ? SNAPSHOT_YEAR : m.data.latest_observed_year;
       setYear(startYear);
@@ -317,6 +319,15 @@ export default function Dashboard() {
     setPlaying(false);
     setSimulation(null);
   };
+  const returnToMap = () => {
+    if (window.innerWidth <= 760)
+      window.scrollTo({
+        top: 0,
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "instant"
+          : "smooth",
+      });
+  };
   const openCountry = (iso: string) => {
     setView("atlas");
     setSelected(iso);
@@ -445,6 +456,7 @@ export default function Dashboard() {
               <button
                 key={n.id}
                 className={view === n.id ? "active" : ""}
+                aria-current={view === n.id ? "page" : undefined}
                 onClick={() => setView(n.id)}
               >
                 {n.label}
@@ -453,6 +465,7 @@ export default function Dashboard() {
           </nav>
           <button
             className="command-trigger"
+            aria-label="Search TRACE commands"
             onClick={() => setCommandOpen(true)}
           >
             <Search size={15} />
@@ -920,6 +933,7 @@ export default function Dashboard() {
                       onClose={() => {
                         setSelected(null);
                         setResetKey((k) => k + 1);
+                        returnToMap();
                       }}
                       onRoute={setRoute}
                     />
@@ -930,7 +944,10 @@ export default function Dashboard() {
                         <button
                           className="icon-button"
                           aria-label="Close news event"
-                          onClick={() => setEvent(null)}
+                          onClick={() => {
+                            setEvent(null);
+                            returnToMap();
+                          }}
                         >
                           <X size={17} />
                         </button>
@@ -969,7 +986,7 @@ export default function Dashboard() {
                         })}{" "}
                         UTC · {event.classifier}
                       </p>
-                      {DEMO ? (
+                      {DEMO || event.source_domain === "sample.trace.local" ? (
                         <p className="quiet-note">
                           Illustrative headline · no source article attached.
                         </p>
@@ -1082,6 +1099,19 @@ export default function Dashboard() {
           <span className="status-model">
             {catalog?.model_version ?? "TRACE"}
           </span>
+          {dataTime && (
+            <span className="data-freshness">
+              Snapshot{" "}
+              {new Date(dataTime).toLocaleString("en-GB", {
+                timeZone: "UTC",
+                day: "2-digit",
+                month: "short",
+                hour: "2-digit",
+                minute: "2-digit",
+              })}{" "}
+              UTC
+            </span>
+          )}
           <span className="status-right">
             Built for prevention<span className="mono">{clock} UTC</span>
           </span>
