@@ -98,6 +98,15 @@ export default function AtlasMap(props: Props) {
         minZoom: -1,
         maxZoom: 6.2,
         renderWorldCopies: false,
+        // The default single-world constraint zooms in to fill a wide viewport,
+        // clipping the world even after fitBounds. Keep the atlas fully zoomable.
+        transformConstrain: (center, zoom) => ({
+          center: new maplibregl.LngLat(
+            Math.max(-180, Math.min(180, center.lng)),
+            Math.max(-75, Math.min(75, center.lat)),
+          ),
+          zoom: Math.max(-1, Math.min(6.2, zoom)),
+        }),
         attributionControl: false,
         dragRotate: false,
         pitchWithRotate: false,
@@ -166,6 +175,7 @@ export default function AtlasMap(props: Props) {
     m.on("mouseleave", "land", () => {
       m.getCanvas().style.cursor = "grab";
     });
+    m.on("movestart", () => setHover(null));
     m.on("error", (e) => {
       if (e.error?.message?.includes("WebGL")) setError(e.error.message);
     });
@@ -336,7 +346,7 @@ export default function AtlasMap(props: Props) {
     props.showRoutes,
   ]);
   useEffect(() => {
-    if (!ready || !map.current) return;
+    if (!ready || !map.current?.isStyleLoaded()) return;
     map.current.setFilter("selection", [
       "==",
       ["get", "iso3"],
@@ -392,7 +402,11 @@ export default function AtlasMap(props: Props) {
     };
   }, [props.selectedEvent, ready]);
   return (
-    <div className="map-stage" aria-label="Interactive world map">
+    <div
+      className="map-stage"
+      aria-label="Interactive world map"
+      onMouseLeave={() => setHover(null)}
+    >
       <div className="map-canvas" ref={host} />
       {!ready && !error && (
         <div className="map-loading">

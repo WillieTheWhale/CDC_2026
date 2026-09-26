@@ -1,7 +1,7 @@
 <!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->
 # TRACE visual direction research
 
-Research date: 2026-09-26. Status: awaiting the owner's selection; no frontend implementation or Figma assets created.
+Research date: 2026-09-26. The owner selected the warm ivory drought-map reference from direction A. This document records the original research; implementation and verified Figma assets are documented in `build-plan.md` and `figma-assets.md`.
 
 ## Current brief
 
@@ -57,4 +57,4 @@ Best fit: sustained analysis, country comparison, and an advisor looking closely
 
 These are third-party visual references, not TRACE designs or reusable production assets. The image URLs were observed in Pinterest's rendered pages; images were not downloaded, altered, or posted to the owner's Pinterest account.
 
-Wait for the owner to select A, B, C, or a specific combination before creating the frontend. Keep Adobe token values out of this file and Git. Figma remote MCP is configured, but the prior OAuth callback failed with a missing issuer response, so a successful MCP connection still needs verification before Figma work.
+The owner subsequently selected the drought-map reference and authorized implementation. Figma authentication now works; the created design and motion assets are linked in `figma-assets.md`. Keep Adobe token values out of this file and Git.
