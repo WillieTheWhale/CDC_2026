@@ -23,10 +23,13 @@ The 24 World Bank variables in `backend/trace_backend/wb/indicators.py` define t
 | `health/collect.py` | `work/health.sqlite` | UNODC drug-use prevalence, PWID infections, treatment; UN SDG 3.5.1 coverage; CDC provisional overdose |
 | `markets/build.py` | `work/markets.sqlite` | UNODC price/purity rows, exact-product derived values and workbook-cell lineage |
 | `research.py` and `research_model.py` | `work/research.sqlite` | Source-edition revisions, matched model sample and noncausal findings |
+| `evidence/collect.py` | `work/evidence.sqlite` | Cited multiyear UNODC departure context and dated cannabis-policy milestones |
 
 Collection code records failures explicitly. No synthetic fixture values, fabricated routes, or modeled backcasts belong in this archive. Public UNODC IDS does not expose origin/transit/destination fields; country-of-seizure observations must not be presented as directly observed routes.
 
 The seven health annex files, SDG API series and CDC rolling 12-month records are explained in [health methods and coverage](reports/health.md). The [market report](reports/markets.md) describes exact product-form price/purity eligibility and blocked EUDA numeric downloads. Current source caches can be refreshed from their recorded URLs and SHA-256 hashes; the large UNODC IDS XLSX download caches were evicted after the verified case-level shard and v1 release were produced to conserve disk space. The `unodc.py --cached-only` path requires re-downloading those three files first; the existing source shard remains intact.
+
+The [published evidence catalog](reports/evidence.md) stores four UNODC multiyear reported-departure statements and four dated cannabis-policy records. These are citations and context, not observed annual bilateral flows or a route-model validation set. The public IDS fields still cannot establish origin/transit/destination legs.
 
 API requests use caching, pagination validation, timeouts and bounded retries. World Bank calls use explicit source IDs and preserve missing observations. A request delay is a conservative client setting, not a claim about a published universal quota.
 

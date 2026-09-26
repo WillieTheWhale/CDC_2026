@@ -21,7 +21,8 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_DB = ROOT / "work/trace.sqlite"
-DEFAULT_SHARDS = [ROOT / "work" / f"{name}.sqlite" for name in ("world_bank", "unodc", "context")]
+DEFAULT_SHARDS = [ROOT / "work" / f"{name}.sqlite" for name in
+                  ("unodc", "world_bank", "context", "health", "markets", "research", "evidence")]
 AI_NOTICE = "AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md."
 
 

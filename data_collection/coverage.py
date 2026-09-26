@@ -25,7 +25,9 @@ def write_report(db: Path, output: Path) -> None:
         tables = {r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type='table'")}
         required = {"countries", "wb_indicators", "wb_indicator_meta", "wb_coverage",
                     "prices", "seizures_annex", "seizures_ids", "cultivation",
-                    "oc_index", "harm_reduction"}
+                    "oc_index", "harm_reduction", "health_prevalence", "health_pwid",
+                    "health_treatment", "health_treatment_coverage", "health_cdc_overdose",
+                    "market_observations", "market_derived", "research_values", "evidence_claims"}
         if missing := required - tables:
             raise ValueError(f"Coverage report requires merged database; missing {sorted(missing)}")
         countries = con.execute("SELECT count(*) FROM countries").fetchone()[0]
@@ -64,12 +66,25 @@ def write_report(db: Path, output: Path) -> None:
             ("UNODC cultivation", bounds(con, "cultivation")),
             ("OC Index editions", bounds(con, "oc_index")),
             ("HRI service editions", bounds(con, "harm_reduction")),
+            ("UNODC national drug-use prevalence", bounds(con, "health_prevalence")),
+            ("UNODC PWID/infection observations", bounds(con, "health_pwid")),
+            ("UNODC treatment contacts", bounds(con, "health_treatment")),
+            ("UN SDG 3.5.1 treatment coverage", bounds(con, "health_treatment_coverage")),
+            ("CDC 12-month-ending overdose observations", con.execute(
+                "SELECT min(end_year),max(end_year),count(*) FROM health_cdc_overdose").fetchone()),
+            ("UNODC source price/purity observations", bounds(con, "market_observations")),
+            ("Exact-product market derived values", bounds(con, "market_derived")),
+            ("Research values with source-row links", bounds(con, "research_values")),
         ]
         price_years = {r[0]: (r[1], r[2], r[3]) for r in con.execute("""
             SELECT year,count(*),count(DISTINCT iso3),sum(upstream_estimate)
             FROM prices GROUP BY year""")}
         annex_years = yearly(con, "seizures_annex")
         ids_years = yearly(con, "seizures_ids")
+        modeled_coverage, country_coverage = con.execute("""
+            SELECT sum(nature_code='M'),sum(nature_code='C') FROM health_treatment_coverage""").fetchone()
+        cdc_suppressed = con.execute("SELECT sum(suppressed_or_unavailable) FROM health_cdc_overdose").fetchone()[0]
+        evidence_claims = con.execute("SELECT count(*) FROM evidence_claims").fetchone()[0]
 
     lines = [
         "<!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->",
@@ -105,6 +120,15 @@ def write_report(db: Path, output: Path) -> None:
     ]
     for name, (start, end, count) in source_windows:
         lines.append(f"| {name} | {start or '—'} | {end or '—'} | {count:,} |")
+    lines += ["", "The additional source windows represent different populations, units and "
+              "publication vintages. UN SDG 3.5.1 treatment coverage has "
+              f"{modeled_coverage:,} officially modeled and {country_coverage:,} country-data records; "
+              f"the CDC overdose table retains {cdc_suppressed:,} suppressed/unavailable NULL rows. "
+              "CDC rows are rolling 12-month periods, not monthly death increments, and drug "
+              "categories overlap. Market values are source-price observations or exact-product "
+              "descriptive derivations, not trade flows. "
+              f"The {evidence_claims} cited evidence claims are multiyear statements or policy dates, "
+              "not annual measured routes.", ""]
     lines += ["", "## World Bank long-history indicators", "",
               f"Non-null country-years within {SPINE_START}–{SPINE_END}; individual gaps remain in SQLite.", "",
               "| Indicator | Non-null country-years |", "| --- | ---: |"]
@@ -136,6 +160,10 @@ def write_report(db: Path, output: Path) -> None:
               "- [World Bank source IDs, API provenance and licenses](world_bank.md)",
               "- [UNODC files, units and collection limits](unodc.md)",
               "- [OC Index, HRI editions and CEPII context](context_sources.md)",
+              "- [Drug-specific health and treatment sources](health.md)",
+              "- [Exact-product prices, purity and retrieval limits](markets.md)",
+              "- [Published corridor context and policy milestones](evidence.md)",
+              "- [Retrospective research and source-row evidence](research_findings.md)",
               "- [Verified snapshot manifest and table counts](../snapshot.json)", ""]
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text("\n".join(lines))
