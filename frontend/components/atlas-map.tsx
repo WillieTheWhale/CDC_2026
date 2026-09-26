@@ -3,13 +3,12 @@
 import { useEffect, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import { MapLibreOverlay } from "@deck.gl/maplibre";
-import { ArcLayer, ScatterplotLayer, TextLayer } from "@deck.gl/layers";
+import { ArcLayer, ScatterplotLayer } from "@deck.gl/layers";
 import type { Color, PickingInfo } from "@deck.gl/core";
 import type { FeatureCollection, Geometry } from "geojson";
 import { LocateFixed, Minus, Plus, RotateCcw } from "lucide-react";
 import type { Country, Edge, LiveEvent, RiskRow } from "@/lib/types";
 import { drugColor, formatNumber } from "@/lib/api";
-type Dot = [number, number, string];
 interface Props {
   countries: Country[];
   edges: Edge[];
@@ -22,136 +21,134 @@ interface Props {
   onRoute: (edge: Edge) => void;
   resetKey: number;
 }
-const color = (h: string, a = 255): Color => [
+const rgba = (h: string, a = 255): Color => [
   parseInt(h.slice(1, 3), 16),
   parseInt(h.slice(3, 5), 16),
   parseInt(h.slice(5, 7), 16),
   a,
 ];
-const fitWorld = (map: maplibregl.Map, duration = 1100) =>
-  map.fitBounds(
+const exposureColors = [
+  "#e8edf5",
+  "#f2ad75",
+  "#f17246",
+  "#ed482d",
+  "#ad377b",
+  "#653caf",
+];
+const fitWorld = (m: maplibregl.Map, duration = 900) =>
+  m.fitBounds(
     [
       [-172, -55],
-      [180, 73],
+      [180, 75],
     ],
     {
-      padding: { top: 102, bottom: 105, left: 35, right: 40 },
+      padding: { top: 65, bottom: 112, left: 24, right: 48 },
       duration,
-      maxZoom: 1.65,
+      maxZoom: 2,
     },
   );
-const exposureColor = (v: number): Color =>
-  color(
-    v >= 85
-      ? "#a1278b"
-      : v >= 70
-        ? "#de3d35"
-        : v >= 55
-          ? "#f0772b"
-          : v >= 35
-            ? "#d9a954"
-            : "#d4c78d",
-    250,
-  );
+
+// A screen-space halftone, not a grid of purported observations. Density and
+// color encode six bands of the country exposure index. Each ink mark is 1px.
+function exposureTexture(band: number) {
+  const width = 16,
+    data = new Uint8Array(width * width * 4);
+  const rgb = rgba(exposureColors[band]);
+  const positions = [
+    [2, 2],
+    [10, 10],
+    [2, 10],
+    [10, 2],
+    [6, 6],
+    [14, 14],
+    [6, 14],
+    [14, 6],
+  ];
+  const count = [1, 2, 3, 4, 6, 8][band];
+  for (const [x, y] of positions.slice(0, count))
+    for (let dy = 0; dy < 2; dy++)
+      for (let dx = 0; dx < 2; dx++) {
+        const i = ((y + dy) * width + x + dx) * 4;
+        data.set([rgb[0], rgb[1], rgb[2], 235], i);
+      }
+  return { width, height: width, data };
+}
+
 export default function AtlasMap(props: Props) {
   const host = useRef<HTMLDivElement>(null),
     map = useRef<maplibregl.Map | null>(null),
     overlay = useRef<MapLibreOverlay | null>(null),
-    latest = useRef(props);
+    latest = useRef(props),
+    clickedCountry = useRef<string | null>(null);
   latest.current = props;
   const [ready, setReady] = useState(false),
-    [error, setError] = useState<string | null>(null),
-    [hover, setHover] = useState<{ edge: Edge; x: number; y: number } | null>(
-      null,
-    );
-  const [geo, setGeo] = useState<FeatureCollection<Geometry>>(),
-    [dots, setDots] = useState<Dot[]>([]);
+    [error, setError] = useState<string | null>(null);
+  const [hover, setHover] = useState<{
+    edge: Edge;
+    x: number;
+    y: number;
+  } | null>(null);
+  const [geography, setGeography] = useState<{
+    geo: FeatureCollection<Geometry>;
+    style: maplibregl.StyleSpecification;
+  } | null>(null);
+  const [position, setPosition] = useState({ lng: 0, lat: 0, zoom: 1 });
   useEffect(() => {
-    let cancelled = false;
-    Promise.all([
-      fetch("/geo/countries.json").then((r) => {
-        if (!r.ok) throw Error("Geography unavailable");
+    const controller = new AbortController();
+    Promise.all(
+      ["/geo/countries.json", "/geo/basemap.json"].map(async (url) => {
+        const r = await fetch(url, { signal: controller.signal });
+        if (!r.ok) throw Error("Map data unavailable");
         return r.json();
       }),
-      fetch("/geo/dots.json").then((r) => r.json()),
-    ])
-      .then(([g, d]) => {
-        if (!cancelled) {
-          setGeo(g);
-          setDots(d);
-        }
-      })
-      .catch((e) => setError(e.message));
-    return () => {
-      cancelled = true;
-    };
+    )
+      .then(([geo, style]) => setGeography({ geo, style }))
+      .catch((e) => {
+        if (e.name !== "AbortError") setError(e.message);
+      });
+    return () => controller.abort();
   }, []);
   useEffect(() => {
-    if (!host.current || !geo) return;
+    if (!host.current || !geography) return;
     let m: maplibregl.Map;
     try {
       maplibregl.setWorkerUrl("/vendor/maplibre/maplibre-gl-worker.mjs");
+      // Place the local country source beneath roads and labels. Its 1:10m
+      // geometry is also a network-independent fallback for country selection.
+      const style = structuredClone(geography.style);
+      style.sources["trace-countries"] = {
+        type: "geojson",
+        data: geography.geo,
+        promoteId: "iso3",
+      };
+      style.layers.splice(1, 0, {
+        id: "trace-land",
+        type: "fill",
+        source: "trace-countries",
+        paint: { "fill-color": "#f9fbfe", "fill-opacity": 0.8 },
+      });
       m = new maplibregl.Map({
         container: host.current,
         center: [8, 15],
         zoom: 0.7,
         minZoom: -1,
-        maxZoom: 6.2,
+        maxZoom: 18,
         renderWorldCopies: false,
-        // The default single-world constraint zooms in to fill a wide viewport,
-        // clipping the world even after fitBounds. Keep the atlas fully zoomable.
+        dragRotate: false,
+        pitchWithRotate: false,
+        attributionControl: { compact: true },
         transformConstrain: (center, zoom) => ({
           center: new maplibregl.LngLat(
             Math.max(-180, Math.min(180, center.lng)),
-            Math.max(-75, Math.min(75, center.lat)),
+            Math.max(-80, Math.min(80, center.lat)),
           ),
-          zoom: Math.max(-1, Math.min(6.2, zoom)),
+          zoom: Math.max(-1, Math.min(18, zoom)),
         }),
-        attributionControl: false,
-        dragRotate: false,
-        pitchWithRotate: false,
-        style: {
-          version: 8,
-          sources: { countries: { type: "geojson", data: geo } },
-          layers: [
-            {
-              id: "paper",
-              type: "background",
-              paint: { "background-color": "#f0eee5" },
-            },
-            {
-              id: "land",
-              type: "fill",
-              source: "countries",
-              paint: { "fill-color": "#e7e4d9", "fill-opacity": 0.6 },
-            },
-            {
-              id: "country-boundaries",
-              type: "line",
-              source: "countries",
-              paint: {
-                "line-color": "#bbb9ac",
-                "line-opacity": 0.35,
-                "line-width": 0.5,
-              },
-            },
-            {
-              id: "selection",
-              type: "line",
-              source: "countries",
-              filter: ["==", ["get", "iso3"], ""],
-              paint: {
-                "line-color": "#b14b34",
-                "line-width": 1.5,
-                "line-opacity": 0.85,
-              },
-            },
-          ],
-        },
+        style,
       });
     } catch {
       setError(
-        "The map needs WebGL. Use the country search and risk board to continue.",
+        "WebGL unavailable. Country search and tables remain available.",
       );
       return;
     }
@@ -159,23 +156,95 @@ export default function AtlasMap(props: Props) {
     const o = new MapLibreOverlay({ interleaved: false, layers: [] });
     overlay.current = o;
     m.addControl(o);
+    m.addControl(
+      new maplibregl.ScaleControl({ maxWidth: 110, unit: "metric" }),
+      "bottom-right",
+    );
     m.on("load", () => {
-      setReady(true);
+      for (let band = 0; band < 6; band++)
+        m.addImage(`exposure-${band}`, exposureTexture(band), {
+          pixelRatio: 2,
+        });
+      m.addImage("exposure-none", {
+        width: 2,
+        height: 2,
+        data: new Uint8Array(16),
+      });
+      const before = m.getStyle().layers.find((l) => l.type === "symbol")?.id;
+      m.addLayer(
+        {
+          id: "exposure-tone",
+          type: "fill",
+          source: "trace-countries",
+          paint: {
+            "fill-color": "#ffffff",
+            "fill-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              2,
+              0.13,
+              5,
+              0.03,
+              7,
+              0,
+            ],
+          },
+        },
+        before,
+      );
+      m.addLayer(
+        {
+          id: "exposure-stipple",
+          type: "fill",
+          source: "trace-countries",
+          paint: {
+            "fill-pattern": "exposure-none",
+            "fill-opacity": [
+              "interpolate",
+              ["linear"],
+              ["zoom"],
+              2,
+              0.9,
+              4,
+              0.75,
+              6,
+              0,
+            ],
+          },
+        },
+        before,
+      );
+      m.addLayer(
+        {
+          id: "selection",
+          type: "line",
+          source: "trace-countries",
+          filter: ["==", ["get", "iso3"], ""],
+          paint: {
+            "line-color": "#ed482d",
+            "line-width": 1.2,
+            "line-opacity": 0.8,
+          },
+        },
+        before,
+      );
       m.resize();
       fitWorld(m, 0);
+      setReady(true);
     });
-    m.on("click", "land", (e) => {
+    m.on("click", "trace-land", (e) => {
       const iso = e.features?.[0]?.properties.iso3;
-      if (iso && latest.current.countries.some((c) => c.iso3 === iso))
+      if (iso && latest.current.countries.some((c) => c.iso3 === iso)) {
+        clickedCountry.current = iso;
         latest.current.onCountry(iso);
-    });
-    m.on("mouseenter", "land", () => {
-      m.getCanvas().style.cursor = "pointer";
-    });
-    m.on("mouseleave", "land", () => {
-      m.getCanvas().style.cursor = "grab";
+      }
     });
     m.on("movestart", () => setHover(null));
+    m.on("moveend", () => {
+      const c = m.getCenter();
+      setPosition({ lng: c.lng, lat: c.lat, zoom: m.getZoom() });
+    });
     m.on("error", (e) => {
       if (e.error?.message?.includes("WebGL")) setError(e.error.message);
     });
@@ -188,11 +257,43 @@ export default function AtlasMap(props: Props) {
       overlay.current = null;
       setReady(false);
     };
-  }, [geo]);
+  }, [geography]);
   useEffect(() => {
-    if (!ready || !overlay.current || !geo) return;
+    const m = map.current;
+    if (!ready || !m?.getLayer("exposure-stipple")) return;
+    const pattern: unknown[] = ["match", ["get", "iso3"]],
+      colors: unknown[] = ["match", ["get", "iso3"]];
+    for (const row of props.risk) {
+      const band = Math.min(5, Math.floor(row.exposure / (100 / 6)));
+      pattern.push(row.iso3, `exposure-${band}`);
+      colors.push(row.iso3, exposureColors[band]);
+    }
+    pattern.push("exposure-none");
+    colors.push("#fbfcfe");
+    m.setPaintProperty(
+      "exposure-stipple",
+      "fill-pattern",
+      props.risk.length
+        ? (pattern as maplibregl.ExpressionSpecification)
+        : "exposure-none",
+    );
+    m.setPaintProperty(
+      "exposure-tone",
+      "fill-color",
+      props.risk.length
+        ? (colors as maplibregl.ExpressionSpecification)
+        : "#fbfcfe",
+    );
+    for (const id of ["exposure-stipple", "exposure-tone"])
+      m.setLayoutProperty(
+        id,
+        "visibility",
+        props.showDots ? "visible" : "none",
+      );
+  }, [ready, props.risk, props.showDots]);
+  useEffect(() => {
+    if (!ready || !overlay.current) return;
     const countries = new Map(props.countries.map((c) => [c.iso3, c]));
-    const risk = new Map(props.risk.map((r) => [r.iso3, r.exposure]));
     const edges = props.edges.filter(
       (e) =>
         countries.get(e.from)?.lon != null && countries.get(e.to)?.lon != null,
@@ -201,79 +302,40 @@ export default function AtlasMap(props: Props) {
     const hubs = props.countries.filter(
       (c) => active.has(c.iso3) && c.lon != null && c.lat != null,
     );
-    const getPosition = (c: Country): [number, number] => [c.lon!, c.lat!];
-    const labels = geo.features.filter(
-      (f) =>
-        f.properties?.iso3 !== "ATA" &&
-        [
-          "USA",
-          "BRA",
-          "CAN",
-          "RUS",
-          "CHN",
-          "IND",
-          "AUS",
-          "ZAF",
-          "COL",
-          "MEX",
-          "IRN",
-          "MMR",
-          "FRA",
-        ].includes(f.properties?.iso3),
-    );
+    const point = (c: Country): [number, number] => [c.lon!, c.lat!];
     overlay.current.setProps({
       layers: [
-        new ScatterplotLayer<Dot>({
-          id: "atlas-dots",
-          data: props.showDots ? dots : [],
-          getPosition: (d) => [d[0], d[1]],
-          getRadius: (d) =>
-            (risk.has(d[2]) ? 44000 : 31000) * Math.cos((d[1] * Math.PI) / 180),
-          radiusUnits: "meters",
-          radiusMinPixels: 0.55,
-          radiusMaxPixels: 3.5,
-          getFillColor: (d) =>
-            risk.has(d[2])
-              ? exposureColor(risk.get(d[2])!)
-              : color("#c8be98", 175),
-          updateTriggers: {
-            getFillColor: [props.risk],
-            getRadius: [props.risk],
-          },
-          transitions: { getFillColor: 600 },
-          pickable: false,
-        }),
         new ArcLayer<Edge>({
           id: "route-arcs",
           data: props.showRoutes ? edges : [],
-          getSourcePosition: (e) => getPosition(countries.get(e.from)!),
-          getTargetPosition: (e) => getPosition(countries.get(e.to)!),
+          getSourcePosition: (e) => point(countries.get(e.from)!),
+          getTargetPosition: (e) => point(countries.get(e.to)!),
           getSourceColor: (e) =>
-            color(
+            rgba(
               drugColor[e.drug],
-              Math.round(e.confidence * 2.0) *
+              Math.round(e.confidence * 2.15) *
                 (props.selected &&
                 e.from !== props.selected &&
                 e.to !== props.selected
-                  ? 0.32
+                  ? 0.12
                   : 1),
             ),
           getTargetColor: (e) =>
-            color(
+            rgba(
               drugColor[e.drug],
-              Math.round(e.confidence * 1.3) *
+              Math.round(e.confidence * 1.65) *
                 (props.selected &&
                 e.from !== props.selected &&
                 e.to !== props.selected
-                  ? 0.32
+                  ? 0.12
                   : 1),
             ),
-          getWidth: (e) => 0.5 + e.volume_norm * 2.5,
-          getHeight: 0.28,
+          getWidth: (e) => 0.5 + e.volume_norm * 2,
+          getHeight: 0.2,
           greatCircle: true,
           pickable: true,
           autoHighlight: true,
-          highlightColor: [38, 45, 37, 255],
+          highlightColor: [15, 30, 55, 255],
           onHover: (info: PickingInfo<Edge>) =>
             setHover(
               info.object ? { edge: info.object, x: info.x, y: info.y } : null,
@@ -289,75 +351,42 @@ export default function AtlasMap(props: Props) {
             getSourceColor: [props.selected],
             getTargetColor: [props.selected],
           },
-          transitions: { getWidth: 500 },
+          transitions: { getWidth: 400 },
         }),
         new ScatterplotLayer<Country>({
           id: "route-hubs",
           data: props.showRoutes ? hubs : [],
-          getPosition,
-          getRadius: 3.8,
+          getPosition: point,
+          getRadius: 2.4,
           radiusUnits: "pixels",
-          getFillColor: [244, 241, 230],
+          getFillColor: [255, 255, 255],
           stroked: true,
-          getLineColor: [155, 91, 62],
+          getLineColor: [53, 73, 98],
           lineWidthUnits: "pixels",
-          getLineWidth: 1.2,
+          getLineWidth: 1,
           pickable: true,
           onClick: ({ object }: PickingInfo<Country>) => {
             if (object) latest.current.onCountry(object.iso3);
             return true;
           },
         }),
-        new TextLayer({
-          id: "country-labels",
-          data: labels,
-          getPosition: (f) => [
-            f.properties!.label_lon,
-            f.properties!.label_lat,
-          ],
-          getText: (f) =>
-            (
-              ({ USA: "UNITED STATES", RUS: "RUSSIA", CHN: "CHINA" }) as Record<
-                string,
-                string
-              >
-            )[f.properties!.iso3] ?? f.properties!.name.toUpperCase(),
-          getSize: 10,
-          fontFamily: "forma-djr-text, sans-serif",
-          getColor: [115, 116, 99, 200],
-          getTextAnchor: "middle",
-          getAlignmentBaseline: "center",
-          outlineWidth: 2,
-          outlineColor: [240, 238, 229],
-          fontSettings: { sdf: true },
-          pickable: false,
-        }),
       ],
     });
-  }, [
-    ready,
-    geo,
-    dots,
-    props.countries,
-    props.edges,
-    props.risk,
-    props.selected,
-    props.showDots,
-    props.showRoutes,
-  ]);
+  }, [ready, props.countries, props.edges, props.selected, props.showRoutes]);
   useEffect(() => {
-    if (!ready || !map.current?.isStyleLoaded()) return;
-    map.current.setFilter("selection", [
-      "==",
-      ["get", "iso3"],
-      props.selected ?? "",
-    ]);
+    const m = map.current;
+    if (!ready || !m?.getLayer("selection")) return;
+    m.setFilter("selection", ["==", ["get", "iso3"], props.selected ?? ""]);
+    if (clickedCountry.current === props.selected) {
+      clickedCountry.current = null;
+      return;
+    }
     const c = props.countries.find((c) => c.iso3 === props.selected);
     if (c?.lon != null && c.lat != null)
-      map.current.flyTo({
+      m.flyTo({
         center: [c.lon, c.lat],
-        zoom: 2.65,
-        duration: 1200,
+        zoom: 4,
+        duration: 1000,
         essential: false,
       });
   }, [props.selected, ready, props.countries]);
@@ -381,9 +410,7 @@ export default function AtlasMap(props: Props) {
           .setLngLat([c.lon!, c.lat!])
           .addTo(m);
       });
-    return () => {
-      markers.forEach((marker) => marker.remove());
-    };
+    return () => markers.forEach((marker) => marker.remove());
   }, [props.edges, props.countries, props.showRoutes, ready]);
   useEffect(() => {
     const e = props.selectedEvent,
@@ -396,7 +423,7 @@ export default function AtlasMap(props: Props) {
     const marker = new maplibregl.Marker({ element: el })
       .setLngLat([e.lon, e.lat])
       .addTo(m);
-    m.flyTo({ center: [e.lon, e.lat], zoom: 3, duration: 1200 });
+    m.flyTo({ center: [e.lon, e.lat], zoom: 5, duration: 1000 });
     return () => {
       marker.remove();
     };
@@ -410,8 +437,7 @@ export default function AtlasMap(props: Props) {
       <div className="map-canvas" ref={host} />
       {!ready && !error && (
         <div className="map-loading">
-          <img src="/figma/trace-mark.svg" alt="" />
-          <span>Preparing the atlas…</span>
+          <span>Loading map</span>
         </div>
       )}
       {error && <div className="map-error">{error}</div>}
@@ -438,7 +464,7 @@ export default function AtlasMap(props: Props) {
             if (c?.lon != null && c.lat != null)
               map.current?.flyTo({
                 center: [c.lon, c.lat],
-                zoom: 3.5,
+                zoom: 8,
                 duration: 1000,
               });
           }}
@@ -446,6 +472,11 @@ export default function AtlasMap(props: Props) {
           <LocateFixed size={17} />
         </button>
       </div>
+      <output className="map-position" aria-label="Map center and zoom">
+        {Math.abs(position.lat).toFixed(3)}°{position.lat < 0 ? "S" : "N"} /{" "}
+        {Math.abs(position.lng).toFixed(3)}°{position.lng < 0 ? "W" : "E"}
+        <span>z{position.zoom.toFixed(1)}</span>
+      </output>
       {hover && (
         <div
           className="route-tooltip"
@@ -458,30 +489,20 @@ export default function AtlasMap(props: Props) {
           }}
         >
           <strong>
-            {hover.edge.from} <span>→</span> {hover.edge.to}
+            {hover.edge.from} → {hover.edge.to}
           </strong>
           <div>
             {hover.edge.drug} · {hover.edge.confidence}% confidence
           </div>
           <p>
-            {formatNumber(hover.edge.kg)} kg · normalized volume{" "}
-            {hover.edge.volume_norm.toFixed(2)}
+            {formatNumber(hover.edge.kg)} kg ·{" "}
+            {hover.edge.volume_norm.toFixed(2)} normalized
           </p>
           {hover.edge.drivers.slice(0, 3).map((d) => (
             <small key={d.feature}>{d.label}</small>
           ))}
         </div>
       )}
-      <div className="map-attribution">
-        <a
-          href="https://www.naturalearthdata.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Natural Earth
-        </a>{" "}
-        · Country-level illustration
-      </div>
     </div>
   );
 }

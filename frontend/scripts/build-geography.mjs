@@ -1,44 +1,36 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
-// Natural Earth public-domain geometry. Dots are an even cartographic sample,
-// never subnational observations; values are joined at country level at runtime.
-import fs from "node:fs";
-import booleanPointInPolygon from "@turf/boolean-point-in-polygon";
-const world = JSON.parse(
-  fs.readFileSync(new URL("../public/geo/countries.json", import.meta.url)),
+// Preserve Natural Earth's 1:10m geometry; strip unused properties only.
+// The screen-space exposure texture is generated in atlas-map.tsx, not here.
+import { writeFileSync } from "node:fs";
+const source =
+  "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson";
+const response = await fetch(source);
+if (!response.ok) throw new Error(`Natural Earth: ${response.status}`);
+const world = await response.json();
+const round = (coordinates) =>
+  coordinates.map((v) =>
+    Array.isArray(v) ? round(v) : Math.round(v * 1e5) / 1e5,
+  );
+const aliases = { KOS: "XKX", SDS: "SSD" };
+for (const feature of world.features) {
+  const p = feature.properties;
+  const code = p.ISO_A3_EH && p.ISO_A3_EH !== "-99" ? p.ISO_A3_EH : p.ADM0_A3;
+  feature.properties = {
+    iso3: aliases[code] ?? code,
+    name: p.NAME_EN ?? p.NAME,
+    label_lon: p.LABEL_X,
+    label_lat: p.LABEL_Y,
+  };
+  feature.geometry.coordinates = round(feature.geometry.coordinates);
+}
+world.metadata = {
+  ai_assisted: "ChatGPT (OpenAI). See docs/AI_USAGE.md.",
+  source,
+  license: "Natural Earth public domain",
+  scale: "1:10m",
+};
+writeFileSync(
+  new URL("../public/geo/countries.json", import.meta.url),
+  JSON.stringify(world),
 );
-const polygons = world.features
-  .filter((f) => f.properties.iso3 !== "ATA")
-  .map((f) => {
-    const coords = f.geometry.coordinates.flat(
-      f.geometry.type === "MultiPolygon" ? 2 : 1,
-    );
-    return {
-      f,
-      minX: Math.min(...coords.map((p) => p[0])),
-      maxX: Math.max(...coords.map((p) => p[0])),
-      minY: Math.min(...coords.map((p) => p[1])),
-      maxY: Math.max(...coords.map((p) => p[1])),
-    };
-  });
-const dots = [];
-for (let row = 0, y = -68; y < 121; y += (1.7 * Math.sqrt(3)) / 2, row++)
-  for (let lon = -179 + (row % 2) * 0.85; lon < 180; lon += 1.7) {
-    const lat =
-      ((2 * Math.atan(Math.exp((y * Math.PI) / 180)) - Math.PI / 2) * 180) /
-      Math.PI;
-    const item = polygons.find(
-      ({ f, minX, maxX, minY, maxY }) =>
-        lon >= minX &&
-        lon <= maxX &&
-        lat >= minY &&
-        lat <= maxY &&
-        booleanPointInPolygon([lon, lat], f),
-    );
-    if (item)
-      dots.push([+lon.toFixed(3), +lat.toFixed(3), item.f.properties.iso3]);
-  }
-fs.writeFileSync(
-  new URL("../public/geo/dots.json", import.meta.url),
-  JSON.stringify(dots),
-);
-console.log(`Created ${dots.length} cartographic dots.`);
+console.log(`Saved ${world.features.length} detailed country polygons.`);

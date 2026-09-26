@@ -428,7 +428,6 @@ export default function Dashboard() {
         : edges,
     [edges, simulation],
   );
-  const networkCountries = new Set(edges.flatMap((e) => [e.from, e.to])).size;
   return (
     <MotionConfig reducedMotion="user">
       <div className="terminal">
@@ -481,38 +480,27 @@ export default function Dashboard() {
           </button>
         </header>
         <div className="workspace-toolbar">
-          <div className="workspace-name">
-            <Globe2 size={17} />
-            <span>
-              {view === "atlas"
-                ? "World atlas"
-                : NAV.find((n) => n.id === view)?.label}
-            </span>
-            <ChevronDown size={12} />
-          </div>
           <div className="drug-filters" aria-label="Filter by drug">
             {["all", "cocaine", "heroin", "meth", "cannabis"].map((d) => (
               <button
                 key={d}
                 className={drug === d ? "active" : ""}
+                aria-pressed={drug === d}
+                style={
+                  {
+                    "--drug-ink": drugColor[d] ?? "#192e45",
+                  } as React.CSSProperties
+                }
                 onClick={() => {
                   setDrug(d as Drug | "all");
                   setSimulation(null);
                 }}
               >
-                {d !== "all" && <i style={{ background: drugColor[d] }} />}
-                {d === "all"
-                  ? "All substances"
-                  : d === "meth"
-                    ? "Meth"
-                    : drugLabel[d]}
+                {d !== "all" && <img src={`/figma/key-${d}.svg`} alt="" />}
+                {d === "all" ? "All" : d === "meth" ? "Meth" : drugLabel[d]}
               </button>
             ))}
           </div>
-          <span className="demo-badge">
-            <i />
-            {DEMO ? "Saved snapshot" : "Connected data"}
-          </span>
         </div>
         {loadError ? (
           <div className="load-error">
@@ -539,15 +527,7 @@ export default function Dashboard() {
                   }
                 >
                   <div className="atlas-heading">
-                    <div>
-                      <h1>
-                        Global flows<span className="title-dot">.</span>
-                      </h1>
-                      <p>
-                        {networkCountries} economies connected across{" "}
-                        {edges.length} corridors
-                      </p>
-                    </div>
+                    <h1 className="sr-only">World atlas</h1>
                     <div className="atlas-controls">
                       <div className="segmented">
                         <button
@@ -584,7 +564,7 @@ export default function Dashboard() {
                                 checked={showDots}
                                 onChange={(e) => setShowDots(e.target.checked)}
                               />
-                              Exposure dots
+                              Exposure
                             </label>
                             <label>
                               <input
@@ -663,20 +643,22 @@ export default function Dashboard() {
                       </button>
                     </div>
                   )}
-                  <div className="map-legend">
+                  <div
+                    className="map-legend"
+                    title="Texture density and color encode the country exposure index. Texture fades at local zoom levels; no local observations are implied."
+                  >
+                    <span>
+                      {simulation ? "Baseline exposure" : "Country exposure"}
+                    </span>
                     <img
-                      src="/figma/exposure-legend.svg"
-                      alt="Country exposure color scale from sand to violet"
+                      src="/figma/exposure-strip.svg"
+                      alt="Exposure index, 0 to 100"
                     />
                     <div>
-                      <span>Lower exposure</span>
-                      <span>Higher</span>
+                      <span>0</span>
+                      <span>50</span>
+                      <span>100</span>
                     </div>
-                    <small>
-                      {simulation
-                        ? "Color = baseline exposure · width = scenario volume"
-                        : "Color = country exposure · width = corridor volume"}
-                    </small>
                   </div>
                   <div className="timeline">
                     <button
@@ -807,10 +789,6 @@ export default function Dashboard() {
                         <div className="view-heading">
                           <div>
                             <h1>Spillover risk</h1>
-                            <p>
-                              Compare exposure, vulnerability, and prevention
-                              capacity.
-                            </p>
                           </div>
                           <select
                             aria-label="Risk year"
@@ -821,33 +799,6 @@ export default function Dashboard() {
                               <option key={y}>{y}</option>
                             ))}
                           </select>
-                        </div>
-                        <div className="risk-summary">
-                          <div>
-                            <span>Countries in view</span>
-                            <b>{risk.length.toString().padStart(2, "0")}</b>
-                          </div>
-                          <div>
-                            <span>Critical exposure</span>
-                            <b>
-                              {risk
-                                .filter((r) => r.tier === "critical")
-                                .length.toString()
-                                .padStart(2, "0")}
-                            </b>
-                          </div>
-                          <div>
-                            <span>Prevention lens</span>
-                            <p>
-                              Higher protection.
-                              <br />
-                              Lower potential harm.
-                            </p>
-                          </div>
-                          <img
-                            src="/figma/exposure-legend.svg"
-                            alt="Exposure scale"
-                          />
                         </div>
                         <RiskTable
                           rows={risk}
@@ -861,10 +812,6 @@ export default function Dashboard() {
                         <div className="view-heading">
                           <div>
                             <h1>Live wire</h1>
-                            <p>
-                              Click an event to locate it on the atlas. Times
-                              shown in UTC.
-                            </p>
                           </div>
                           <span className="subtle-pill">
                             <i className="live-dot" />
@@ -1005,30 +952,11 @@ export default function Dashboard() {
                   ) : (
                     <div className="global-outlook">
                       <div className="inspector-top">
-                        <h2>Risk overview</h2>
+                        <h2>Risk</h2>
                         <span className="mono muted">{year}</span>
                       </div>
-                      <div className="outlook-stats">
-                        <div>
-                          <b>{edges.length}</b>
-                          <span>corridors</span>
-                        </div>
-                        <div>
-                          <b>{networkCountries}</b>
-                          <span>economies</span>
-                        </div>
-                        <div>
-                          <b>
-                            {edges
-                              .filter((e) => e.is_emerging)
-                              .length.toString()
-                              .padStart(2, "0")}
-                          </b>
-                          <span>emerging</span>
-                        </div>
-                      </div>
                       <div className="section-line">
-                        <h3>Countries to watch</h3>
+                        <h3>Country</h3>
                         <button
                           className="text-button"
                           aria-label="View all countries by risk"
@@ -1066,21 +994,11 @@ export default function Dashboard() {
                         )}
                       </div>
                       <button
-                        className="feature-story"
+                        className="experiment-link"
                         onClick={() => setView("experiment")}
                       >
-                        <img src="/figma/route-study.svg" alt="" />
-                        <div>
-                          <span>Afghanistan, after the ban</span>
-
-                          <b>
-                            Explore the experiment <ArrowUpRight size={14} />
-                          </b>
-                        </div>
+                        Afghanistan opium ban <ArrowUpRight size={15} />
                       </button>
-                      <p className="sidebar-hint">
-                        <CommandIcon size={13} /> Press ⌘K to go anywhere.
-                      </p>
                     </div>
                   )}
                 </aside>
@@ -1113,7 +1031,7 @@ export default function Dashboard() {
             </span>
           )}
           <span className="status-right">
-            Built for prevention<span className="mono">{clock} UTC</span>
+            <span className="mono">{clock} UTC</span>
           </span>
         </footer>
         {commandOpen && (

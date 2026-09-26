@@ -121,10 +121,7 @@ export function RiskTable({
         </div>
       )}
       {!sorted.length ? (
-        <Empty>
-          No risk observations for this selection. The demo snapshot is
-          available in {SNAPSHOT_YEAR}.
-        </Empty>
+        <Empty>No risk data for this year.</Empty>
       ) : (
         <div className="table-scroll">
           <table>
@@ -558,7 +555,7 @@ export function CountryInspector({
               </button>
             ))
           ) : (
-            <Empty>No matching corridors in this snapshot.</Empty>
+            <Empty>No matching routes.</Empty>
           )}
           {detail?.prices.map((p) => (
             <div className="country-price" key={p.level + p.drug}>
@@ -790,14 +787,12 @@ export function ScenarioPanel({
       <div className="view-heading">
         <div>
           <h1>Scenario analysis</h1>
-          <p>Explore how a supply shock could change community exposure.</p>
         </div>
         <FlaskConical size={28} strokeWidth={1} />
       </div>
       <div className="scenario-layout">
         <section className="scenario-input">
-          <h2>Run a scenario</h2>
-          <label htmlFor="scenario-input">Describe a change</label>
+          <label htmlFor="scenario-input">Scenario</label>
           <textarea
             id="scenario-input"
             value={text}
@@ -822,7 +817,7 @@ export function ScenarioPanel({
             disabled={pending || !text.trim()}
             onClick={run}
           >
-            {pending ? "Running scenario…" : "Explore impact"}
+            {pending ? "Running scenario…" : "Run scenario"}
             <ArrowRight size={16} />
           </button>
           {error && (
@@ -836,7 +831,7 @@ export function ScenarioPanel({
               : "Scenario effects are model estimates, not forecasts of policy outcomes."}
           </p>
           <button className="text-button" onClick={onExperiment}>
-            Explore the Afghanistan study
+            Afghanistan opium ban
             <ArrowUpRight size={15} />
           </button>
         </section>
@@ -893,12 +888,7 @@ export function ScenarioPanel({
             </>
           ) : (
             <div className="scenario-idle">
-              <img src="/figma/route-study.svg" alt="" />
-              <h2>One change. Many consequences.</h2>
-              <p>
-                Run a scenario to compare corridor volumes and changes in
-                country risk.
-              </p>
+              <p>No result</p>
             </div>
           )}
         </section>
@@ -906,175 +896,7 @@ export function ScenarioPanel({
     </>
   );
 }
-export function ExperimentView({
-  experiment: e,
-  metrics: m,
-}: {
-  experiment: Experiment;
-  metrics: Metrics;
-}) {
-  const [stage, setStage] = useState<"before" | "predicted" | "actual">(
-    "actual",
-  );
-  return (
-    <>
-      <div className="view-heading">
-        <div>
-          <h1>Afghanistan opium ban</h1>
-          <p>Afghanistan, 2022 · A natural experiment in displacement.</p>
-        </div>
-        <span className="subtle-pill">
-          {DEMO ? "Saved evaluation" : "Model evaluation"}
-        </span>
-      </div>
-      <div className="experiment-intro">
-        <strong>
-          −{Math.round((1 - e.shock.value) * 100)}
-          <small>%</small>
-        </strong>
-        <div>
-          <h2>A supply shock across a global network.</h2>
-          <p>{e.summary}</p>
-          {DEMO && (
-            <b className="demo-note">
-              Saved pipeline results. Corridor volumes are model estimates
-              anchored on national seizure data.
-            </b>
-          )}
-        </div>
-      </div>
-      <div className="experiment-grid">
-        <section className="analysis-card">
-          <div className="section-line">
-            <h3>Opium poppy cultivation</h3>
-            <span>hectares</span>
-          </div>
-          {e.series
-            .filter((s) => s.id.endsWith("_cultivation"))
-            .map((s, i) => (
-              <div key={s.id}>
-                <span
-                  className="series-title"
-                  style={{ color: i ? "#965787" : "#c05b34" }}
-                >
-                  {s.label}
-                </span>
-                <HistoryChart
-                  points={s.points}
-                  dataKey="value"
-                  color={i ? "#965787" : "#c05b34"}
-                  height={140}
-                />
-              </div>
-            ))}
-          <p className="source-note">
-            UNODC cultivation surveys ·{" "}
-            {Math.min(
-              ...e.series
-                .filter((s) => s.id.endsWith("_cultivation"))
-                .flatMap((s) => s.points.map((p) => p.year)),
-            )}
-            –
-            {Math.max(
-              ...e.series
-                .filter((s) => s.id.endsWith("_cultivation"))
-                .flatMap((s) => s.points.map((p) => p.year)),
-            )}
-          </p>
-        </section>
-        <section className="analysis-card">
-          <div className="section-line">
-            <h3>Corridor response</h3>
-            <div className="segmented small">
-              {(["before", "predicted", "actual"] as const).map((k) => (
-                <button
-                  className={stage === k ? "active" : ""}
-                  key={k}
-                  onClick={() => setStage(k)}
-                >
-                  {k}
-                </button>
-              ))}
-            </div>
-          </div>
-          {e.edges.map((edge) => (
-            <div className="experiment-edge" key={edge.from + edge.to}>
-              <span>
-                {edge.from} → {edge.to}
-              </span>
-              <i>
-                <motion.b
-                  animate={{ width: `${edge[stage] * 100}%` }}
-                  transition={{ duration: 0.5 }}
-                  style={{
-                    background: edge.from === "MMR" ? "#985487" : "#d27642",
-                  }}
-                />
-              </i>
-              <strong>{edge[stage].toFixed(2)}</strong>
-            </div>
-          ))}
-          <p className="source-note">
-            Normalized volume · trained through {e.train_through}
-          </p>
-          <div className="experiment-verdict">
-            <b>
-              {Math.round(e.metrics.direction_accuracy * 100)}
-              <small>%</small>
-            </b>
-            <span>
-              direction accuracy
-              <br />
-              <small>
-                {e.metrics.n_edges} corridors ·{" "}
-                {DEMO ? "saved result" : "evaluation result"}
-              </small>
-            </span>
-          </div>
-        </section>
-      </div>
-      <div className="metrics-strip">
-        <div>
-          <span>Edge appearance AUC</span>
-          <b>{m.backtest.hurdle.auc.toFixed(2)}</b>
-          <small>
-            Gravity baseline {m.backtest.gravity_baseline.auc.toFixed(2)}
-          </small>
-        </div>
-        <div>
-          <span>Volume correlation</span>
-          <b>{m.backtest.hurdle.spearman.toFixed(2)}</b>
-          <small>Spearman · held-out years</small>
-        </div>
-        <div>
-          <span>Precision @ 20</span>
-          <b>{Math.round(m.backtest.hurdle.precision_at_20 * 100)}%</b>
-          <small>Top growth corridors</small>
-        </div>
-        <div>
-          <span>Spillover AUC</span>
-          <b>{m.spillover.auc_with_exposure.toFixed(2)}</b>
-          <small>
-            Without exposure {m.spillover.auc_vulnerability_only.toFixed(2)}
-          </small>
-        </div>
-      </div>
-      <div className="hypothesis-result">
-        <h3>
-          Spillover hypothesis:{" "}
-          {m.spillover.supported ? "supported" : "not supported"}
-        </h3>
-        <p>{m.spillover.statement}</p>
-      </div>
-      <p className="quiet-note">
-        {DEMO ? "Saved model evaluation. " : ""}Backtest trained through{" "}
-        {m.backtest.train_through}; test years{" "}
-        {m.backtest.test_years.join(", ")}. Seizures measure detection; model
-        uncertainty and source coverage must be considered.
-      </p>
-    </>
-  );
-}
+export { ExperimentView } from "./experiment";
 export function Sources({
   catalog,
   onClose,
@@ -1134,6 +956,14 @@ export function Sources({
           ))}
         </div>
         <div className="source-foot">
+          <p>
+            Exposure is country-level. Texture shows index bands, not local
+            observations. Links join country coordinates, not measured travel
+            paths.
+          </p>
+          <a href="https://openfreemap.org/" target="_blank" rel="noreferrer">
+            Local geography: OpenFreeMap / OpenStreetMap
+          </a>
           <a
             href="https://www.naturalearthdata.com/"
             target="_blank"

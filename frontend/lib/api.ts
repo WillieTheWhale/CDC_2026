@@ -218,10 +218,10 @@ export function subscribeLivewire(
   };
 }
 export const drugColor: Record<string, string> = {
-  cocaine: "#df542f",
-  heroin: "#92528c",
-  meth: "#bd8550",
-  cannabis: "#69806a",
+  cocaine: "#ed482d",
+  heroin: "#8047c9",
+  meth: "#2864cf",
+  cannabis: "#18775c",
 };
 export const drugLabel: Record<string, string> = {
   cocaine: "Cocaine",
