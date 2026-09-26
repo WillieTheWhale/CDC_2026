@@ -132,7 +132,7 @@
       "id": "lag",
       "act": "I",
       "speaker": "S1",
-      "seconds": 14,
+      "seconds": 12,
       "theme": "void",
       "blocks": [
         {
@@ -144,23 +144,23 @@
           "items": [
             {
               "label": "Intentional homicide rate",
-              "year": "2023",
-              "code": "VC.IHR.PSRC.P5"
+              "year": "2022",
+              "code": "VC.IHR.PSRC.P5 · 142 of 243 have nothing newer"
             },
             {
               "label": "HIV incidence, 15–49",
               "year": "2024",
-              "code": "SH.HIV.INCD.ZS"
+              "code": "SH.HIV.INCD.ZS · modelled, not surveyed"
             },
             {
               "label": "Poverty headcount",
               "year": "2022",
-              "code": "SI.POV.DDAY"
+              "code": "SI.POV.DDAY · 59% have nothing newer"
             },
             {
-              "label": "Drug use prevalence",
-              "year": "2021",
-              "code": "UNODC WDR annex 1.x"
+              "label": "Cannabis use prevalence",
+              "year": "2017",
+              "code": "UNODC WDR annex 1.2 · 11 countries have a 2024+ estimate"
             }
           ]
         },
@@ -168,22 +168,82 @@
           "type": "lines",
           "scale": "m",
           "items": [
-            "Every number that tells you a crisis arrived",
-            "is two to five years old."
+            "Development data runs two to four years late.",
+            "Drug-use prevalence, for the median country,",
+            "runs nine."
           ]
+        },
+        {
+          "type": "source",
+          "text": "Median economy's most recent value, World Bank Indicators API, retrieved 2026-09-26 · UNODC World Drug Report 2026 statistical annex"
         }
       ],
       "cues": [
-        "These are the real latest years in our own ingest — verified against the live World Bank API.",
-        "Point at the gap, not the table.",
-        "Line to land: by the time the data says a crisis started, it's been running for years."
+        "These are median-country figures we pulled from the live API, not the best-reported country.",
+        "Nine years is the number to land. Say it and stop.",
+        "If challenged: the WDR headline year is 2024, but that rests on estimates most countries last made in 2017."
+      ]
+    },
+    {
+      "id": "late-detection",
+      "act": "I",
+      "speaker": "S1",
+      "seconds": 11,
+      "theme": "void",
+      "blocks": [
+        {
+          "type": "kicker",
+          "text": "What the delay costs"
+        },
+        {
+          "type": "lines",
+          "scale": "l",
+          "items": [
+            "Scott County, Indiana.",
+            "HIV spread undetected for four years."
+          ]
+        },
+        {
+          "type": "statgrid",
+          "compact": true,
+          "items": [
+            {
+              "value": "215",
+              "label": "people infected",
+              "source": "undetected from 2011; emergency declared 26 March 2015"
+            },
+            {
+              "value": "<56",
+              "label": "if caught in 2013",
+              "source": "modelled counterfactual"
+            },
+            {
+              "value": "<10",
+              "label": "if the 2011 hepatitis C signal had been read",
+              "source": "the warning was already in the data"
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "text": "This is the pattern, not the exception. In three of four documented outbreaks a hepatitis C or injecting signal preceded the HIV outbreak by one to four years and was not collected, not analysed, or not acted on. Across the modelled outbreaks, <em>60 to 95 percent</em> of infections are attributed to the delay in detection and response — not to the drugs."
+        },
+        {
+          "type": "source",
+          "text": "Glasgow 2015: 62.7% of cases averted had services scaled at detection · Athens: HIV among people who inject drugs rose from under 1% (2010) to 16.5% (2013); intervening two years earlier modelled to avert 1,110 cases and €35–53M"
+        }
+      ],
+      "cues": [
+        "Two sentences only. The numbers do the work.",
+        "The counterfactual is the point: almost all of that epidemic was the delay, not the drugs.",
+        "Do not editorialise. Let '<10' sit there."
       ]
     },
     {
       "id": "transit",
       "act": "I",
       "speaker": "S1",
-      "seconds": 15,
+      "seconds": 11,
       "theme": "void",
       "blocks": [
         {
@@ -228,7 +288,7 @@
       "id": "boundary",
       "act": "I",
       "speaker": "S1",
-      "seconds": 15,
+      "seconds": 10,
       "theme": "void",
       "blocks": [
         {
