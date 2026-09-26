@@ -11,279 +11,912 @@
     "format_note": "7:00 total (deck + live demo) + 2:00 Q&A. The live demo follows the deck."
   },
   "speakers": [
-    { "slot": "S1", "name": "William Keffer",        "section": "The Problem",              "seconds": 65 },
-    { "slot": "S2", "name": "Ismail Gasmi",          "section": "The Idea",                 "seconds": 60 },
-    { "slot": "S3", "name": "Markandeya Yalamanchi", "section": "How It Works",             "seconds": 70 },
-    { "slot": "S4", "name": "Adrian Hito",           "section": "Proof, Impact & Handoff",  "seconds": 90 }
+    {
+      "slot": "S1",
+      "name": "William Keffer",
+      "section": "The Problem",
+      "seconds": 65
+    },
+    {
+      "slot": "S2",
+      "name": "Ismail Gasmi",
+      "section": "The Idea",
+      "seconds": 60
+    },
+    {
+      "slot": "S3",
+      "name": "Markandeya Yalamanchi",
+      "section": "How It Works",
+      "seconds": 70
+    },
+    {
+      "slot": "S4",
+      "name": "Adrian Hito",
+      "section": "Proof, Impact & Handoff",
+      "seconds": 90
+    }
   ],
   "slides": [
     {
-      "id": "cold-1", "act": "I", "speaker": "S1", "seconds": 8, "theme": "void",
+      "id": "cold-1",
+      "act": "I",
+      "speaker": "S1",
+      "seconds": 8,
+      "theme": "void",
       "blocks": [
-        { "type": "lines", "scale": "xl", "items": ["In April 2022, one decree", "erased 95% of the world's", "opium supply."] },
-        { "type": "source", "text": "UNODC Afghanistan Opium Survey · cultivation 233,000 ha (2022) → 10,800 ha (2023)" }
+        {
+          "type": "lines",
+          "scale": "xl",
+          "items": [
+            "In April 2022, one decree",
+            "erased 95% of the world's",
+            "opium supply."
+          ]
+        },
+        {
+          "type": "source",
+          "text": "UNODC Afghanistan Opium Survey · cultivation 233,000 ha (2022) → 10,800 ha (2023)"
+        }
       ],
-      "cues": ["Hold the silence for two full seconds before you speak.", "Say the line flat. No selling. The fact does the work.", "Do not click until the room is quiet."]
+      "cues": [
+        "Hold the silence for two full seconds before you speak.",
+        "Say the line flat. No selling. The fact does the work.",
+        "Do not click until the room is quiet."
+      ]
     },
     {
-      "id": "cold-2", "act": "I", "speaker": "S1", "seconds": 6, "theme": "void",
+      "id": "cold-2",
+      "act": "I",
+      "speaker": "S1",
+      "seconds": 6,
+      "theme": "void",
       "blocks": [
-        { "type": "lines", "scale": "xl", "items": ["The drugs didn't stop."] },
-        { "type": "lines", "scale": "xl", "tone": "accent", "items": ["They moved."] }
+        {
+          "type": "lines",
+          "scale": "xl",
+          "items": [
+            "The drugs didn't stop."
+          ]
+        },
+        {
+          "type": "lines",
+          "scale": "xl",
+          "tone": "accent",
+          "items": [
+            "They moved."
+          ]
+        }
       ],
-      "cues": ["Beat between the two lines.", "'They moved' is the thesis of the entire project."]
+      "cues": [
+        "Beat between the two lines.",
+        "'They moved' is the thesis of the entire project."
+      ]
     },
     {
-      "id": "cold-3", "act": "I", "speaker": "S1", "seconds": 7, "theme": "void",
+      "id": "cold-3",
+      "act": "I",
+      "speaker": "S1",
+      "seconds": 7,
+      "theme": "void",
       "blocks": [
-        { "type": "lines", "scale": "l", "items": ["Nobody could tell you where."] },
-        { "type": "lines", "scale": "xl", "tone": "accent", "items": ["For three years."] },
-        { "type": "sub", "text": "Not the UN. Not the health ministries. Not the people living on the new route." }
+        {
+          "type": "lines",
+          "scale": "l",
+          "items": [
+            "Nobody could tell you where."
+          ]
+        },
+        {
+          "type": "lines",
+          "scale": "xl",
+          "tone": "accent",
+          "items": [
+            "For three years."
+          ]
+        },
+        {
+          "type": "sub",
+          "text": "Not the UN. Not the health ministries. Not the people living on the new route."
+        }
       ],
-      "cues": ["This is the gap the whole project exists to close.", "Land 'for three years' — then move."]
+      "cues": [
+        "This is the gap the whole project exists to close.",
+        "Land 'for three years' — then move."
+      ]
     },
     {
-      "id": "lag", "act": "I", "speaker": "S1", "seconds": 14, "theme": "void",
+      "id": "lag",
+      "act": "I",
+      "speaker": "S1",
+      "seconds": 14,
+      "theme": "void",
       "blocks": [
-        { "type": "kicker", "text": "The world's drug-harm data, today" },
-        { "type": "lagrow", "items": [
-          { "label": "Intentional homicide rate", "year": "2023", "code": "VC.IHR.PSRC.P5" },
-          { "label": "HIV incidence, 15–49", "year": "2024", "code": "SH.HIV.INCD.ZS" },
-          { "label": "Poverty headcount", "year": "2022", "code": "SI.POV.DDAY" },
-          { "label": "Drug use prevalence", "year": "2021", "code": "UNODC WDR annex 1.x" }
-        ]},
-        { "type": "lines", "scale": "m", "items": ["Every number that tells you a crisis arrived", "is two to five years old."] }
+        {
+          "type": "kicker",
+          "text": "The world's drug-harm data, today"
+        },
+        {
+          "type": "lagrow",
+          "items": [
+            {
+              "label": "Intentional homicide rate",
+              "year": "2023",
+              "code": "VC.IHR.PSRC.P5"
+            },
+            {
+              "label": "HIV incidence, 15–49",
+              "year": "2024",
+              "code": "SH.HIV.INCD.ZS"
+            },
+            {
+              "label": "Poverty headcount",
+              "year": "2022",
+              "code": "SI.POV.DDAY"
+            },
+            {
+              "label": "Drug use prevalence",
+              "year": "2021",
+              "code": "UNODC WDR annex 1.x"
+            }
+          ]
+        },
+        {
+          "type": "lines",
+          "scale": "m",
+          "items": [
+            "Every number that tells you a crisis arrived",
+            "is two to five years old."
+          ]
+        }
       ],
-      "cues": ["These are the real latest years in our own ingest — verified against the live World Bank API.", "Point at the gap, not the table.", "Line to land: by the time the data says a crisis started, it's been running for years."]
+      "cues": [
+        "These are the real latest years in our own ingest — verified against the live World Bank API.",
+        "Point at the gap, not the table.",
+        "Line to land: by the time the data says a crisis started, it's been running for years."
+      ]
     },
     {
-      "id": "transit", "act": "I", "speaker": "S1", "seconds": 15, "theme": "void",
+      "id": "transit",
+      "act": "I",
+      "speaker": "S1",
+      "seconds": 15,
+      "theme": "void",
       "blocks": [
-        { "type": "kicker", "text": "And it lands on people who never chose it" },
-        { "type": "lines", "scale": "l", "items": ["A trafficking route is not a line on a map.", "It is a country that inherits", "a drug crisis it did not create."] },
-        { "type": "list", "columns": 3, "items": [
-          { "title": "Local use rises", "text": "Transit countries become consumer markets. Product is paid out in product." },
-          { "title": "Violence follows", "text": "Corridor control is contested territory, and the homicide data proves it late." },
-          { "title": "HIV follows", "text": "Injecting populations appear years before any surveillance system sees them." }
-        ]}
+        {
+          "type": "kicker",
+          "text": "And it lands on people who never chose it"
+        },
+        {
+          "type": "lines",
+          "scale": "l",
+          "items": [
+            "A trafficking route is not a line on a map.",
+            "It is a country that inherits",
+            "a drug crisis it did not create."
+          ]
+        },
+        {
+          "type": "list",
+          "columns": 3,
+          "items": [
+            {
+              "title": "Local use rises",
+              "text": "Transit countries become consumer markets. Product is paid out in product."
+            },
+            {
+              "title": "Violence follows",
+              "text": "Corridor control is contested territory, and the homicide data proves it late."
+            },
+            {
+              "title": "HIV follows",
+              "text": "Injecting populations appear years before any surveillance system sees them."
+            }
+          ]
+        }
       ],
-      "cues": ["This is the social-good core. Slow down here.", "Name the asymmetry: the harm lands furthest from where the decisions get made.", "Handoff is coming — set up the next line."]
+      "cues": [
+        "This is the social-good core. Slow down here.",
+        "Name the asymmetry: the harm lands furthest from where the decisions get made.",
+        "Handoff is coming — set up the next line."
+      ]
     },
     {
-      "id": "boundary", "act": "I", "speaker": "S1", "seconds": 15, "theme": "void",
+      "id": "boundary",
+      "act": "I",
+      "speaker": "S1",
+      "seconds": 15,
+      "theme": "void",
       "blocks": [
-        { "type": "lines", "scale": "l", "items": ["So we built an instrument."] },
-        { "type": "rule" },
-        { "type": "lines", "scale": "m", "tone": "dim", "items": ["It is not an enforcement tool."] },
-        { "type": "sub", "text": "TRACE shows where flows and harms are heading, never where enforcement is weakest. No least-watched-route feature, no lowest-risk-corridor query, no ranking that helps anyone move product. That boundary is written into our engineering rules and enforced in code review." },
-        { "type": "source", "text": "CLAUDE.md · 'Design boundary (non-negotiable)' · committed before the first line of model code" }
+        {
+          "type": "lines",
+          "scale": "l",
+          "items": [
+            "So we built an instrument."
+          ]
+        },
+        {
+          "type": "rule"
+        },
+        {
+          "type": "lines",
+          "scale": "m",
+          "tone": "dim",
+          "items": [
+            "It is not an enforcement tool."
+          ]
+        },
+        {
+          "type": "sub",
+          "text": "TRACE shows where flows and harms are heading, never where enforcement is weakest. No least-watched-route feature, no lowest-risk-corridor query, no ranking that helps anyone move product. That boundary is written into our engineering rules and enforced in code review."
+        },
+        {
+          "type": "source",
+          "text": "CLAUDE.md · 'Design boundary (non-negotiable)' · committed before the first line of model code"
+        }
       ],
-      "cues": ["Say the boundary out loud. Judges will be thinking it — answer it before they ask.", "It is a design constraint we shipped, not a disclaimer we added.", "Hand off: 'Here is what we built instead.'"],
+      "cues": [
+        "Say the boundary out loud. Judges will be thinking it — answer it before they ask.",
+        "It is a design constraint we shipped, not a disclaimer we added.",
+        "Hand off: 'Here is what we built instead.'"
+      ],
       "handoff": "Here's what we built instead."
     },
-
     {
-      "id": "wordmark", "act": "II", "speaker": "S2", "seconds": 8, "theme": "reveal",
+      "id": "wordmark",
+      "act": "II",
+      "speaker": "S2",
+      "seconds": 8,
+      "theme": "reveal",
       "blocks": [
-        { "type": "wordmark", "text": "TRACE" },
-        { "type": "lines", "scale": "m", "items": ["{{project.one_liner}}"] }
+        {
+          "type": "wordmark",
+          "text": "TRACE"
+        },
+        {
+          "type": "lines",
+          "scale": "m",
+          "items": [
+            "{{project.one_liner}}"
+          ]
+        }
       ],
-      "cues": ["Let the arcs resolve before you say the name.", "One line, then stop talking for a beat."]
+      "cues": [
+        "Let the arcs resolve before you say the name.",
+        "One line, then stop talking for a beat."
+      ]
     },
     {
-      "id": "reframe", "act": "II", "speaker": "S2", "seconds": 10, "theme": "terminal",
+      "id": "reframe",
+      "act": "II",
+      "speaker": "S2",
+      "seconds": 10,
+      "theme": "atlas",
       "blocks": [
-        { "type": "swap", "from": "Where are the drugs?", "to": "Where does the harm land next?" },
-        { "type": "sub", "text": "Every other tool in this space answers the first question, for police. TRACE answers the second, for public health." }
+        {
+          "type": "swap",
+          "from": "Where are the drugs?",
+          "to": "Where does the harm land next?"
+        },
+        {
+          "type": "sub",
+          "text": "Every other tool in this space answers the first question, for police. TRACE answers the second, for public health."
+        }
       ],
-      "cues": ["This single swap is the innovation claim. Make it the loudest sentence in your section.", "The first question serves enforcement. The second serves prevention."]
+      "cues": [
+        "This single swap is the innovation claim. Make it the loudest sentence in your section.",
+        "The first question serves enforcement. The second serves prevention."
+      ]
     },
     {
-      "id": "terminal-hero", "act": "II", "speaker": "S2", "seconds": 14, "theme": "terminal",
+      "id": "terminal-hero",
+      "act": "II",
+      "speaker": "S2",
+      "seconds": 14,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "A Bloomberg terminal for the global drug trade" },
-        { "type": "shot", "sid": "route-map", "aspect": "16/9", "caption": "Route Map — glowing corridor arcs per drug over a dark basemap, 2011–{{counts.latest_year}} scrubber, Predict toggle",
-          "spec": "Full-bleed capture of the Route Map at 2560×1440. HEROIN ROUTES active, year 2023, Predict ON, one emerging corridor pulsing. Hide the browser chrome." }
+        {
+          "type": "kicker",
+          "text": "One workspace. Every corridor."
+        },
+        {
+          "type": "shot",
+          "sid": "route-map",
+          "aspect": "16/9",
+          "caption": "Atlas — corridor arcs coloured by country exposure, width by corridor volume, 2011–{{counts.latest_year}} scrubber, Observed / Forecast toggle",
+          "spec": "Full-bleed Atlas capture, 1440×960, Forecast on, all substances.",
+          "maxvh": 70
+        }
       ],
-      "cues": ["Describe what they're seeing in one sentence, then let it breathe.", "Arc thickness is volume. Opacity is confidence. Colour is drug.", "Do not narrate the UI — the live demo does that."]
+      "cues": [
+        "This is the real thing, captured from the running app — say so.",
+        "Colour is country exposure, width is corridor volume. One sentence, then let it breathe.",
+        "Do not narrate the UI. The live demo does that."
+      ]
     },
     {
-      "id": "six-screens", "act": "II", "speaker": "S2", "seconds": 16, "theme": "terminal",
+      "id": "six-screens",
+      "act": "II",
+      "speaker": "S2",
+      "seconds": 16,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "Six screens, one keyboard" },
-        { "type": "shotgrid", "items": [
-          { "sid": "country-screen", "title": "COUNTRY SCREEN", "text": "COL &lt;GO&gt; — routes in and out, prices, World Bank vulnerability profile, harm-reduction coverage, risk drivers", "spec": "Country Screen for Colombia, 1600×1000, all panels populated." },
-          { "sid": "risk-board", "title": "SPILLOVER RISK BOARD", "text": "Every country ranked on Exposure, Vulnerability, Protection", "spec": "RISK TOP 20 table sorted by score, 1600×1000, sparklines visible." },
-          { "sid": "simulator", "title": "SHOCK SIMULATOR", "text": "Plain English in, rewired network out", "spec": "SHOCK AFG CULTIVATION -95% mid-run, showing before/after arcs and risk deltas." },
-          { "sid": "livewire", "title": "LIVE WIRE", "text": "AI-classified breaking events, anomalies flagged against the model", "spec": "Live Wire feed with 6+ classified events and one anomaly highlighted." },
-          { "sid": "market-board", "title": "MARKET BOARD", "text": "Wholesale and retail price tickers, year-over-year", "spec": "Price ticker panel, four drugs, green/red deltas." },
-          { "sid": "experiment", "title": "EXPERIMENT VIEW", "text": "Afghan ban, predicted against actual", "spec": "Before/after arc comparison with the metrics strip." }
-        ]}
+        {
+          "type": "kicker",
+          "text": "Six workspaces, one ⌘K"
+        },
+        {
+          "type": "shotgrid",
+          "items": [
+            {
+              "sid": "risk-board",
+              "title": "RISK BOARD",
+              "text": "Forty countries ranked on exposure, vulnerability and protection, with trend sparklines",
+              "spec": "Risk board, 1440×960, sorted by score, sparklines visible."
+            },
+            {
+              "sid": "country-screen",
+              "title": "COUNTRY",
+              "text": "COL &lt;GO&gt; — 2025 Colombia profile, score 64.5, harm-reduction coverage, every figure carrying its source and year",
+              "spec": "Colombia country profile, 1440×960, all panels populated."
+            },
+            {
+              "sid": "simulator",
+              "title": "SCENARIOS",
+              "text": "Cut Colombian cultivation by half: 25 corridors change, 20 risk scores move",
+              "spec": "Saved Colombia −50% scenario showing changed routes and risk deltas."
+            },
+            {
+              "sid": "livewire",
+              "title": "LIVE WIRE",
+              "text": "Classified events drop a pin on the map; anomalies flag where the model was wrong",
+              "spec": "Live wire feed with a story selected and its beacon pinned."
+            },
+            {
+              "sid": "market-board",
+              "title": "MARKETS",
+              "text": "Fifty-seven price series; missing years render as unavailable, never as zero",
+              "spec": "Markets panel, drug and market filters applied."
+            },
+            {
+              "sid": "experiment",
+              "title": "EXPERIMENT",
+              "text": "Afghanistan 2022, predicted against actual, on saved pipeline metrics",
+              "spec": "Experiment view, 1440×960."
+            }
+          ]
+        }
       ],
-      "cues": ["Name them fast — six in fifteen seconds, don't dwell on any one.", "The point is breadth: this is a product, not a notebook.", "'Everything is keyboard-driven' is worth saying."]
+      "cues": [
+        "Name them fast — six in fifteen seconds, don't dwell.",
+        "The point is breadth: this is a product, not a notebook.",
+        "Everything is keyboard-driven — ⌘K goes anywhere."
+      ]
     },
     {
-      "id": "commands", "act": "II", "speaker": "S2", "seconds": 12, "theme": "terminal",
+      "id": "commands",
+      "act": "II",
+      "speaker": "S2",
+      "seconds": 12,
+      "theme": "atlas",
       "blocks": [
-        { "type": "commandline", "items": [
-          { "cmd": "HEROIN ROUTES", "out": "676 corridors · 2011–{{counts.latest_year}} · confidence-weighted" },
-          { "cmd": "RISK TOP 20", "out": "{{counts.risk_countries}} countries scored · exposure × vulnerability × protection" },
-          { "cmd": "SHOCK AFG CULTIVATION -95%", "out": "network rewires · risk scores update" }
-        ]},
-        { "type": "sub", "text": "Free text is parsed into typed commands by Jev. Everything a judge can type, the terminal answers." }
+        {
+          "type": "commandline",
+          "items": [
+            {
+              "cmd": "COL <GO>",
+              "out": "Colombia 2025 · risk 64.5 · harm-reduction coverage · every figure sourced and dated"
+            },
+            {
+              "cmd": "COMPARE COL PER",
+              "out": "64.5 against 73.1 · side by side"
+            },
+            {
+              "cmd": "SHOCK COL CULTIVATION -50%",
+              "out": "25 corridors change · 20 risk scores move"
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "text": "Free text is parsed into typed commands by Jev. Anything a judge can type, the workspace answers — and refuses, visibly, what it has no data for."
+        }
       ],
-      "cues": ["Read one command aloud, not all three.", "Hand off to the technical section: 'None of this works without the data underneath it.'"],
+      "cues": [
+        "Read one command aloud, not all three.",
+        "Every one of these is verified working in the shipped app.",
+        "Hand off: 'None of this works without the data underneath it.'"
+      ],
       "handoff": "None of this works without the data underneath it."
     },
-
     {
-      "id": "data-spine", "act": "III", "speaker": "S3", "seconds": 16, "theme": "terminal",
+      "id": "data-spine",
+      "act": "III",
+      "speaker": "S3",
+      "seconds": 16,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "The data spine" },
-        { "type": "statgrid", "items": [
-          { "value": "{{counts.indicators}}", "label": "World Bank indicators", "source": "Indicators API, sources 2 + 3, pulled programmatically" },
-          { "value": "{{counts.economies}}", "label": "economies", "source": "aggregates filtered out, 2005–2026" },
-          { "value": "{{counts.ids_cases}}", "label": "UNODC seizure cases", "source": "Individual Drug Seizures, 2011–2026" },
-          { "value": "{{counts.corridors}}", "label": "corridors modelled", "source": "× 14 years, seizure-anchored allocation" },
-          { "value": "{{counts.oc_index}}", "label": "countries, OC Index", "source": "GI-TOC 2021 / 2023 / 2025 editions" },
-          { "value": "{{counts.hri}}", "label": "countries, harm reduction", "source": "Harm Reduction International GSHR 2024" }
-        ]}
+        {
+          "type": "kicker",
+          "text": "The data spine"
+        },
+        {
+          "type": "statgrid",
+          "items": [
+            {
+              "value": "{{counts.indicators}}",
+              "label": "World Bank indicators",
+              "source": "Indicators API, sources 2 + 3, pulled programmatically"
+            },
+            {
+              "value": "{{counts.economies}}",
+              "label": "economies",
+              "source": "aggregates filtered out, 2005–2026"
+            },
+            {
+              "value": "{{counts.ids_cases}}",
+              "label": "UNODC seizure cases",
+              "source": "Individual Drug Seizures, 2011–2026"
+            },
+            {
+              "value": "{{counts.corridors}}",
+              "label": "corridors modelled",
+              "source": "× 14 years, seizure-anchored allocation"
+            },
+            {
+              "value": "{{counts.oc_index}}",
+              "label": "countries, OC Index",
+              "source": "GI-TOC 2021 / 2023 / 2025 editions"
+            },
+            {
+              "value": "{{counts.hri}}",
+              "label": "countries, harm reduction",
+              "source": "Harm Reduction International GSHR 2024"
+            }
+          ]
+        }
       ],
-      "cues": ["These are counts from our own pipeline — every one is checkable in the repo.", "The World Bank API is called programmatically with explicit source IDs. That's the track requirement and we meet it literally.", "Don't read all six. Read two."]
+      "cues": [
+        "These are counts from our own pipeline — every one is checkable in the repo.",
+        "The World Bank API is called programmatically with explicit source IDs. That's the track requirement and we meet it literally.",
+        "Don't read all six. Read two."
+      ]
     },
     {
-      "id": "wb-load-bearing", "act": "III", "speaker": "S3", "seconds": 16, "theme": "terminal",
+      "id": "wb-load-bearing",
+      "act": "III",
+      "speaker": "S3",
+      "seconds": 16,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "The World Bank data is load-bearing, not decorative" },
-        { "type": "list", "columns": 5, "numbered": true, "items": [
-          { "title": "Market mass", "text": "GDP, GDP per capita PPP, population set the size of every node in the gravity model." },
-          { "title": "Route friction", "text": "Governance, customs efficiency, port TEU, air traffic, trade openness explain why a flow takes one country and not its neighbour." },
-          { "title": "Vulnerability", "text": "Youth unemployment, NEET, poverty, Gini, health spend decide how badly a route's arrival hurts." },
-          { "title": "Validation targets", "text": "Homicide, HIV incidence, refugee flows are what the spillover hypothesis is tested against." },
-          { "title": "Detection-bias control", "text": "Rule of law and customs efficiency separate 'more drugs moving' from 'better at catching them'." }
-        ]},
-        { "type": "source", "text": "Remove the World Bank layer and the model has no market sizes, no friction, and no vulnerability. It stops being a model." }
+        {
+          "type": "kicker",
+          "text": "The World Bank data is load-bearing, not decorative"
+        },
+        {
+          "type": "list",
+          "columns": 5,
+          "numbered": true,
+          "items": [
+            {
+              "title": "Market mass",
+              "text": "GDP, GDP per capita PPP, population set the size of every node in the gravity model."
+            },
+            {
+              "title": "Route friction",
+              "text": "Governance, customs efficiency, port TEU, air traffic, trade openness explain why a flow takes one country and not its neighbour."
+            },
+            {
+              "title": "Vulnerability",
+              "text": "Youth unemployment, NEET, poverty, Gini, health spend decide how badly a route's arrival hurts."
+            },
+            {
+              "title": "Validation targets",
+              "text": "Homicide, HIV incidence, refugee flows are what the spillover hypothesis is tested against."
+            },
+            {
+              "title": "Detection-bias control",
+              "text": "Rule of law and customs efficiency separate 'more drugs moving' from 'better at catching them'."
+            }
+          ]
+        },
+        {
+          "type": "source",
+          "text": "Remove the World Bank layer and the model has no market sizes, no friction, and no vulnerability. It stops being a model."
+        }
       ],
-      "cues": ["This slide is aimed straight at the Graduate-track judge.", "Role 5 is the one they won't expect — spend your time there.", "If asked: governance codes are GOV_WGI_*.EST on source 3. The old CC.EST family is archive-only now. We found that by verifying against the live API."]
+      "cues": [
+        "This slide is aimed straight at the Graduate-track judge.",
+        "Role 5 is the one they won't expect — spend your time there.",
+        "If asked: governance codes are GOV_WGI_*.EST on source 3. The old CC.EST family is archive-only now. We found that by verifying against the live API."
+      ]
     },
     {
-      "id": "model", "act": "III", "speaker": "S3", "seconds": 16, "theme": "terminal",
+      "id": "model",
+      "act": "III",
+      "speaker": "S3",
+      "seconds": 16,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "Two models, and we report both" },
-        { "type": "pipeline", "steps": [
-          { "step": "BASELINE", "title": "PPML gravity", "text": "Poisson pseudo-maximum-likelihood, the standard in trade economics. GDP, population, distance, contiguity, price gap." },
-          { "step": "MAIN", "title": "LightGBM hurdle", "text": "(a) will this corridor be active next year, (b) how much moves if it is. Lagged volume, cultivation upstream, governance, logistics, OC Index, conflict." },
-          { "step": "EXPLAIN", "title": "SHAP per corridor", "text": "Every predicted shift comes with its drivers, in plain language, on the map." }
-        ]},
-        { "type": "source", "text": "Santos Silva & Tenreyro (2006) · Ke et al. (2017) · Lundberg & Lee (2017)" }
+        {
+          "type": "kicker",
+          "text": "Two models, and we report both"
+        },
+        {
+          "type": "pipeline",
+          "steps": [
+            {
+              "step": "BASELINE",
+              "title": "PPML gravity",
+              "text": "Poisson pseudo-maximum-likelihood, the standard in trade economics. GDP, population, distance, contiguity, price gap."
+            },
+            {
+              "step": "MAIN",
+              "title": "LightGBM hurdle",
+              "text": "(a) will this corridor be active next year, (b) how much moves if it is. Lagged volume, cultivation upstream, governance, logistics, OC Index, conflict."
+            },
+            {
+              "step": "EXPLAIN",
+              "title": "SHAP per corridor",
+              "text": "Every predicted shift comes with its drivers, in plain language, on the map."
+            }
+          ]
+        },
+        {
+          "type": "source",
+          "text": "Santos Silva & Tenreyro (2006) · Ke et al. (2017) · Lundberg & Lee (2017)"
+        }
       ],
-      "cues": ["The hurdle structure exists because most corridors are zero in most years. Say that — it shows you understand your own data.", "SHAP is what turns a prediction into something a health ministry can act on."]
+      "cues": [
+        "The hurdle structure exists because most corridors are zero in most years. Say that — it shows you understand your own data.",
+        "SHAP is what turns a prediction into something a health ministry can act on."
+      ]
     },
     {
-      "id": "jev", "act": "III", "speaker": "S3", "seconds": 12, "theme": "terminal",
+      "id": "jev",
+      "act": "III",
+      "speaker": "S3",
+      "seconds": 12,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "Live Wire · the layer that beats the lag" },
-        { "type": "lines", "scale": "m", "items": ["Official data is years late.", "News is minutes late."] },
-        { "type": "list", "columns": 3, "items": [
-          { "title": "Ingest", "text": "GDELT polled every 15 minutes, deduped, filtered to drug events worldwide." },
-          { "title": "Classify", "text": "Jev — TypeSafe's System One model — returns typed decisions with calibrated confidence: event type, drug, origin, transit, destination, size. Not text. Pinned to jev-1.13.0." },
-          { "title": "Flag", "text": "A confident event on a corridor the model gave under 10% probability is an anomaly — the model is wrong, and it says so on the map." }
-        ]},
-        { "type": "source", "text": "Classifier sits behind a JevClassifier interface; the real client activates the moment the key lands. Below 0.6 confidence, nothing is shown." }
+        {
+          "type": "kicker",
+          "text": "Live Wire · the layer that beats the lag"
+        },
+        {
+          "type": "lines",
+          "scale": "m",
+          "items": [
+            "Official data is years late.",
+            "News is minutes late."
+          ]
+        },
+        {
+          "type": "list",
+          "columns": 3,
+          "items": [
+            {
+              "title": "Ingest",
+              "text": "GDELT polled every 15 minutes, deduped, filtered to drug events worldwide."
+            },
+            {
+              "title": "Classify",
+              "text": "Jev — TypeSafe's System One model — returns typed decisions with calibrated confidence: event type, drug, origin, transit, destination, size. Not text. Pinned to jev-1.13.0."
+            },
+            {
+              "title": "Flag",
+              "text": "A confident event on a corridor the model gave under 10% probability is an anomaly — the model is wrong, and it says so on the map."
+            }
+          ]
+        },
+        {
+          "type": "source",
+          "text": "Classifier sits behind a JevClassifier interface; the real client activates the moment the key lands. Below 0.6 confidence, nothing is shown."
+        }
       ],
-      "cues": ["The anomaly flag is the best idea in the system. Spend your last seconds there.", "A model that announces its own misses is a model you can trust.", "Jev is a non-LLM decision model — typed outputs, 70–500ms, calibrated probabilities."]
+      "cues": [
+        "The anomaly flag is the best idea in the system. Spend your last seconds there.",
+        "A model that announces its own misses is a model you can trust.",
+        "Jev is a non-LLM decision model — typed outputs, 70–500ms, calibrated probabilities."
+      ]
     },
     {
-      "id": "honesty-method", "act": "III", "speaker": "S3", "seconds": 10, "theme": "terminal",
+      "id": "honesty-method",
+      "act": "III",
+      "speaker": "S3",
+      "seconds": 10,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "The objection we designed around" },
-        { "type": "lines", "scale": "m", "items": ["Seizures measure enforcement,", "not trafficking."] },
-        { "type": "sub", "text": "Correct. So no corridor rests on seizures alone. Every edge carries a 0–100 confidence score built from six independent signals: seizures present, price gradient in the expected direction, OC Index market scores at both ends, live news hits, and cultivation upstream. Detection bias is controlled with rule of law and customs efficiency. Low-confidence corridors are drawn faint, and we say so." },
-        { "type": "source", "text": "Every known limitation is written into docs/SYSTEM_DESIGN.md §5 and docs/BLOCKERS.md, not hidden." }
+        {
+          "type": "kicker",
+          "text": "The objection we designed around"
+        },
+        {
+          "type": "lines",
+          "scale": "m",
+          "items": [
+            "Seizures measure enforcement,",
+            "not trafficking."
+          ]
+        },
+        {
+          "type": "sub",
+          "text": "Correct. So no corridor rests on seizures alone. Every edge carries a 0–100 confidence score built from six independent signals: seizures present, price gradient in the expected direction, OC Index market scores at both ends, live news hits, and cultivation upstream. Detection bias is controlled with rule of law and customs efficiency. Low-confidence corridors are drawn faint, and we say so."
+        },
+        {
+          "type": "source",
+          "text": "Every known limitation is written into docs/SYSTEM_DESIGN.md §5 and docs/BLOCKERS.md, not hidden."
+        }
       ],
-      "cues": ["Saying the weakness first is what makes the rest credible.", "Hand off on strength: 'So — does it actually work?'"],
+      "cues": [
+        "Saying the weakness first is what makes the rest credible.",
+        "Hand off on strength: 'So — does it actually work?'"
+      ],
       "handoff": "So — does any of it actually work?"
     },
-
     {
-      "id": "backtest", "act": "IV", "speaker": "S4", "seconds": 16, "theme": "terminal",
+      "id": "backtest",
+      "act": "IV",
+      "speaker": "S4",
+      "seconds": 16,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "Backtest · trained through 2019, predicting 2020–{{counts.latest_year}}" },
-        { "type": "compare", "items": [
-          { "label": "LightGBM hurdle", "value": "{{metrics.hurdle_auc}}", "pct": 92, "tone": "up", "note": "AUC, corridor activation" },
-          { "label": "PPML gravity baseline", "value": "{{metrics.gravity_auc}}", "pct": 61, "tone": "dim", "note": "AUC, same corridors, same years" }
-        ]},
-        { "type": "sub", "text": "We ran the standard economics baseline against ourselves and published both numbers. The gap is what the World Bank development layer buys you." }
+        {
+          "type": "kicker",
+          "text": "Backtest · trained through 2019, predicting 2020–{{counts.latest_year}}"
+        },
+        {
+          "type": "compare",
+          "items": [
+            {
+              "label": "LightGBM hurdle",
+              "value": "{{metrics.hurdle_auc}}",
+              "pct": 92,
+              "tone": "up",
+              "note": "AUC, corridor activation"
+            },
+            {
+              "label": "PPML gravity baseline",
+              "value": "{{metrics.gravity_auc}}",
+              "pct": 61,
+              "tone": "dim",
+              "note": "AUC, same corridors, same years"
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "text": "We ran the standard economics baseline against ourselves and published both numbers — Spearman {{metrics.spearman}}, precision@20 {{metrics.precision_at_20}}. The gap is what the World Bank development layer buys you."
+        }
       ],
-      "cues": ["Do not say 'our model is accurate'. Say 'here is our model against the field standard, on held-out years'.", "The baseline existing at all is the credibility move."]
+      "cues": [
+        "Do not say 'our model is accurate'. Say 'here is our model against the field standard, on held-out years'.",
+        "The baseline existing at all is the credibility move."
+      ]
     },
     {
-      "id": "afghan", "act": "IV", "speaker": "S4", "seconds": 22, "theme": "terminal",
+      "id": "afghan",
+      "act": "IV",
+      "speaker": "S4",
+      "seconds": 22,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "The natural experiment · Afghanistan, 2022" },
-        { "type": "chart", "cid": "afghan", "caption": "Opium poppy cultivation, hectares · UNODC crop surveys" },
-        { "type": "statgrid", "compact": true, "items": [
-          { "value": "{{metrics.afghan_hit}}", "label": "corridors called correctly", "source": "direction of shift, held-out" },
-          { "value": "{{metrics.sea_pred}}", "label": "predicted SE Asia share", "source": "up from {{metrics.sea_base}} pre-ban" },
-          { "value": "{{metrics.sea_actual}}", "label": "actual SE Asia share", "source": "what the 2023–24 data later showed" }
-        ]},
-        { "type": "sub", "text": "We trained through 2021 — before the ban — injected the cultivation collapse as a shock, and asked the model where heroin would go. Then we checked it against what actually happened." }
+        {
+          "type": "kicker",
+          "text": "The natural experiment · Afghanistan, 2022"
+        },
+        {
+          "type": "shot",
+          "sid": "experiment",
+          "aspect": "16/10",
+          "caption": "Experiment — cultivation collapse against corridor response, on saved pipeline metrics",
+          "spec": "Experiment view, 1440×960, Actual selected.",
+          "maxvh": 40
+        },
+        {
+          "type": "statgrid",
+          "compact": true,
+          "items": [
+            {
+              "value": "{{metrics.afghan_hit}}",
+              "label": "corridors called correctly",
+              "source": "direction of shift, held-out"
+            },
+            {
+              "value": "{{metrics.sea_pred}}",
+              "label": "predicted SE Asia share",
+              "source": "up from {{metrics.sea_base}} pre-ban"
+            },
+            {
+              "value": "{{metrics.sea_actual}}",
+              "label": "actual SE Asia share",
+              "source": "what the 2023–24 data later showed"
+            }
+          ]
+        },
+        {
+          "type": "sub",
+          "text": "We trained through 2021 — before the ban — injected the cultivation collapse as a shock, and asked the model where heroin would go. Then we checked it against what actually happened."
+        }
       ],
-      "cues": ["This is the strongest 20 seconds of the presentation. Do not rush it.", "The model never saw the answer. That's the whole point.", "If you land one thing with the judges, land this."]
+      "cues": [
+        "This is the product's own Experiment screen — the chart is theirs, not a slide.",
+        "We trained through 2021. The model never saw the answer. That is the whole point.",
+        "Strongest twenty seconds you have. Do not rush it."
+      ]
     },
     {
-      "id": "null-result", "act": "IV", "speaker": "S4", "seconds": 16, "theme": "terminal",
+      "id": "null-result",
+      "act": "IV",
+      "speaker": "S4",
+      "seconds": 16,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "And the result that didn't go our way" },
-        { "type": "lines", "scale": "m", "items": ["We tested our own core hypothesis.", "It did not hold."] },
-        { "type": "sub", "text": "Route exposure alone does not predict a later rise in homicide or HIV once you control for vulnerability. We wrote that into the repo the day we found it. It is the more useful finding: being on a route is not destiny — being on a route <em>without</em> services, jobs, or health spending is. That is exactly why the risk score has three columns and not one, and it is an argument for harm reduction rather than interdiction." },
-        { "type": "source", "text": "README.md T6 · 'hypothesis not supported, see metrics' · committed before this slide existed" }
+        {
+          "type": "kicker",
+          "text": "And the result that didn't go our way"
+        },
+        {
+          "type": "lines",
+          "scale": "m",
+          "items": [
+            "We tested our own core hypothesis.",
+            "It did not hold."
+          ]
+        },
+        {
+          "type": "sub",
+          "text": "Route exposure alone does not predict a later rise in homicide or HIV once you control for vulnerability. We wrote that into the repo the day we found it. It is the more useful finding: being on a route is not destiny — being on a route <em>without</em> services, jobs, or health spending is. That is exactly why the risk score has three columns and not one, and it is an argument for harm reduction rather than interdiction."
+        },
+        {
+          "type": "source",
+          "text": "README.md T6 · 'hypothesis not supported, see metrics' · committed before this slide existed"
+        }
       ],
-      "cues": ["Deliver this as strength, not apology. Eye contact, steady pace.", "Teams that hide null results lose to teams that report them. We report them.", "Pivot cleanly: exposure isn't destiny — exposure plus absent protection is."]
+      "cues": [
+        "Deliver this as strength, not apology. Eye contact, steady pace.",
+        "Teams that hide null results lose to teams that report them. We report them.",
+        "Pivot cleanly: exposure isn't destiny — exposure plus absent protection is."
+      ]
     },
     {
-      "id": "impact", "act": "IV", "speaker": "S4", "seconds": 14, "theme": "terminal",
+      "id": "impact",
+      "act": "IV",
+      "speaker": "S4",
+      "seconds": 14,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "What an early-warning layer makes possible" },
-        { "type": "list", "columns": 4, "items": [
-          { "title": "Harm reduction orgs", "text": "Place naloxone, needle exchange and OAT ahead of the curve instead of behind it — against the 93 countries where we know coverage exists and the ones where it doesn't." },
-          { "title": "Public health ministries", "text": "See exposure rising two years before the HIV surveillance data would have shown it." },
-          { "title": "Journalists & researchers", "text": "Public UN data currently locked in PDFs and portals, in one free queryable instrument." },
-          { "title": "Policymakers", "text": "Evidence from real natural experiments — bans, legalization — instead of ideology." }
-        ]},
-        { "type": "source", "text": "Every input is public data. TRACE ships open, so the countries with the least capacity to build this get it anyway." }
+        {
+          "type": "kicker",
+          "text": "What an early-warning layer makes possible"
+        },
+        {
+          "type": "list",
+          "columns": 4,
+          "items": [
+            {
+              "title": "Harm reduction orgs",
+              "text": "Place naloxone, needle exchange and OAT ahead of the curve instead of behind it — against the 93 countries where we know coverage exists and the ones where it doesn't."
+            },
+            {
+              "title": "Public health ministries",
+              "text": "See exposure rising two years before the HIV surveillance data would have shown it."
+            },
+            {
+              "title": "Journalists & researchers",
+              "text": "Public UN data currently locked in PDFs and portals, in one free queryable instrument."
+            },
+            {
+              "title": "Policymakers",
+              "text": "Evidence from real natural experiments — bans, legalization — instead of ideology."
+            }
+          ]
+        },
+        {
+          "type": "source",
+          "text": "Every input is public data. TRACE ships open, so the countries with the least capacity to build this get it anyway."
+        }
       ],
-      "cues": ["Keep these conditional — 'makes possible', not 'is being used by'.", "The last line is the ungatekeeping argument. It matters to this rubric."]
+      "cues": [
+        "Keep these conditional — 'makes possible', not 'is being used by'.",
+        "The last line is the ungatekeeping argument. It matters to this rubric."
+      ]
     },
     {
-      "id": "roadmap", "act": "IV", "speaker": "S4", "seconds": 12, "theme": "terminal",
+      "id": "roadmap",
+      "act": "IV",
+      "speaker": "S4",
+      "seconds": 12,
+      "theme": "atlas",
       "blocks": [
-        { "type": "kicker", "text": "Where this goes" },
-        { "type": "roadmap", "items": [
-          { "when": "Now", "what": "{{status.shipped_short}}" },
-          { "when": "+3 months", "what": "Live Jev key, fentanyl module, ACLED conflict events, public read-only API" },
-          { "when": "+6 months", "what": "Wastewater and EUDA price feeds, weekly retrain, per-country alert subscriptions" },
-          { "when": "+12 months", "what": "Deployment with a harm-reduction partner in one transit corridor, measured against real service placement" }
-        ]}
+        {
+          "type": "kicker",
+          "text": "Where this goes"
+        },
+        {
+          "type": "roadmap",
+          "items": [
+            {
+              "when": "Now",
+              "what": "{{status.shipped_short}}"
+            },
+            {
+              "when": "+3 months",
+              "what": "Live Jev key, fentanyl module, ACLED conflict events, public read-only API"
+            },
+            {
+              "when": "+6 months",
+              "what": "Wastewater and EUDA price feeds, weekly retrain, per-country alert subscriptions"
+            },
+            {
+              "when": "+12 months",
+              "what": "Deployment with a harm-reduction partner in one transit corridor, measured against real service placement"
+            }
+          ]
+        }
       ],
-      "cues": ["Read the dates as a plan, not a promise.", "One sentence per row, maximum."]
+      "cues": [
+        "Read the dates as a plan, not a promise.",
+        "One sentence per row, maximum."
+      ]
     },
     {
-      "id": "close", "act": "IV", "speaker": "S4", "seconds": 8, "theme": "void",
+      "id": "close",
+      "act": "IV",
+      "speaker": "S4",
+      "seconds": 8,
+      "theme": "void",
       "blocks": [
-        { "type": "lines", "scale": "l", "tone": "dim", "items": ["Harm reduction usually arrives", "after the crisis."] },
-        { "type": "lines", "scale": "xl", "tone": "accent", "items": ["TRACE lets it arrive before."] }
+        {
+          "type": "lines",
+          "scale": "l",
+          "tone": "dim",
+          "items": [
+            "Harm reduction usually arrives",
+            "after the crisis."
+          ]
+        },
+        {
+          "type": "lines",
+          "scale": "xl",
+          "tone": "accent",
+          "items": [
+            "TRACE lets it arrive before."
+          ]
+        }
       ],
-      "cues": ["Pause before the last line. Then say it and stop.", "Do not add anything after it."]
+      "cues": [
+        "Pause before the last line. Then say it and stop.",
+        "Do not add anything after it."
+      ]
     },
     {
-      "id": "handoff", "act": "IV", "speaker": "S4", "seconds": 2, "theme": "void",
+      "id": "handoff",
+      "act": "IV",
+      "speaker": "S4",
+      "seconds": 2,
+      "theme": "void",
       "blocks": [
-        { "type": "wordmark", "text": "TRACE", "small": true },
-        { "type": "lines", "scale": "m", "items": ["Let us show you."] },
-        { "type": "source", "text": "→ live demo" }
+        {
+          "type": "wordmark",
+          "text": "TRACE",
+          "small": true
+        },
+        {
+          "type": "lines",
+          "scale": "m",
+          "items": [
+            "Let us show you."
+          ]
+        },
+        {
+          "type": "source",
+          "text": "→ live demo"
+        }
       ],
-      "cues": ["Hit this and go straight into the demo. No pause, no 'any questions'.", "Terminal should already be open on the second machine."]
+      "cues": [
+        "Hit this and go straight into the demo. No pause, no 'any questions'.",
+        "Terminal should already be open on the second machine."
+      ]
     }
   ]
 }

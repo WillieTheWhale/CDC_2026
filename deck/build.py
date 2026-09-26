@@ -49,7 +49,15 @@ DEFAULTS = {
         "hurdle_auc": "0.92", "gravity_auc": "0.61", "afghan_hit": "12/14",
         "sea_base": "5%", "sea_pred": "12%", "sea_actual": "14%",
         "train_through": "2019", "afghan_train_through": "2021",
+        "spearman": "0.67", "precision_at_20": "0.50",
     },
+}
+
+# Real captures the frontend already commits, reused in place rather than duplicated.
+# deck/screenshots/<id>.<ext> still wins, so a purpose-made capture overrides these.
+SHOT_SOURCES = {
+    "route-map": "frontend/design/qa/atlas-desktop.jpg",
+    "experiment": "frontend/design/qa/experiment-desktop.jpg",
 }
 
 # Screenshot ids the deck can display, with what has to exist before they can be taken.
@@ -131,14 +139,19 @@ def read_metrics(readme: str, data: dict) -> None:
     pat = [
         (r"hurdle AUC\s*([\d.]+)\s*vs\s*gravity\s*([\d.]+)", ("hurdle_auc", "gravity_auc")),
         (r"Afghan ban\s*(\d+/\d+)\s*corridors", ("afghan_hit",)),
+        (r"direction right on (\d+) of (\d+) major heroin corridors", ("afghan_right", "afghan_of")),
+        (r"Spearman\s*([\d.]+);\s*precision@20\s*([\d.]+)", ("spearman", "precision_at_20")),
     ]
     for rx, keys in pat:
         mm = re.search(rx, readme)
         if mm:
             for i, k in enumerate(keys):
-                data["metrics"][k] = mm.group(i + 1)
+                data["metrics"][k] = mm.group(i + 1).rstrip(".")   # sentence-final period
             data["provenance"]["metrics"] = "README.md (live run)"
-    mm = re.search(r"SEA share\s*(\d+)%\s*->\s*(\d+)%\s*pred vs\s*(\d+)%\s*actual", readme)
+    if "afghan_right" in data["metrics"]:
+        data["metrics"]["afghan_hit"] = f"{data['metrics']['afghan_right']}/{data['metrics']['afghan_of']}"
+    mm = re.search(r"Southeast Asian share rising from (\d+)% to (\d+)% \(actual (\d+)%\)", readme) \
+         or re.search(r"SEA share\s*(\d+)%\s*->\s*(\d+)%\s*pred vs\s*(\d+)%\s*actual", readme)
     if mm:
         data["metrics"]["sea_base"] = mm.group(1) + "%"
         data["metrics"]["sea_pred"] = mm.group(2) + "%"
@@ -195,7 +208,10 @@ def read_afghan(data: dict) -> None:
 
 def read_screenshots(data: dict) -> None:
     found = {}
-    if SHOTS.is_dir():
+    for sid, rel in SHOT_SOURCES.items():          # captures the frontend already committed
+        if (REPO / rel).is_file():
+            found[sid] = "../" + rel
+    if SHOTS.is_dir():                              # a purpose-made capture overrides them
         for p in sorted(SHOTS.iterdir()):
             if p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".avif"}:
                 found[p.stem] = f"screenshots/{p.name}"
@@ -222,8 +238,14 @@ def build() -> dict:
     st = read_status(readme)
     data["status"] = st
     done_backend = [s["label"] for s in st["shipped"] if s["owner"] == "backend"]
+    # The README milestone table lags the frontend agent's own commits, so detect the
+    # workspace directly rather than reporting it as unstarted on stage.
+    fe_built = (REPO / "frontend" / "package.json").is_file() and (REPO / "frontend" / "lib" / "api.ts").is_file()
+    data["status"]["frontend_built"] = fe_built
     data["status"]["shipped_short"] = (
-        "Pipeline, models, backtests, API and Live Wire shipped; terminal in build"
+        "Pipeline, models, backtests, API, Live Wire and the workspace all shipped"
+        if done_backend and fe_built else
+        "Pipeline, models, backtests, API and Live Wire shipped; workspace in build"
         if done_backend else "In build")
     data["status"]["shipped_count"] = len(st["shipped"])
     data["status"]["pending_count"] = len(st["pending"])

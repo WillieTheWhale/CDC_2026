@@ -67,12 +67,15 @@ corridor and indicator counts — are never typed into a slide; they are interpo
 
 ## Screenshots
 
-Every product screenshot is currently a labelled placeholder with a schematic wireframe of the real
-screen. To swap in a real capture:
+Captures the frontend already commits are reused in place — `build.py` maps them in `SHOT_SOURCES`, so
+`frontend/design/qa/atlas-desktop.jpg` and `experiment-desktop.jpg` are already on the slides and update
+themselves when the frontend recaptures. The rest are labelled placeholders with a schematic wireframe
+of the real screen. To add or override one:
 
 1. Screenshot the screen fullscreen, no browser chrome, 2560×1440 or larger, dark terminal state, real
    data, year 2023 throughout so the captures read as one session.
-2. Save it as `deck/screenshots/<id>.png` — the id is printed on the placeholder itself.
+2. Save it as `deck/screenshots/<id>.png` — the id is printed on the placeholder itself. A file here
+   always beats the `SHOT_SOURCES` mapping.
 3. `python3 deck/build.py`
 
 The deck swaps it in automatically. `PLACEHOLDERS.md` tracks what's still outstanding and what has to
@@ -89,8 +92,14 @@ honest — the total is checked on every build.
 ## Design notes
 
 Act I is Apple-keynote black: enormous thin type, one idea per frame, deep negative space. The moment
-TRACE is introduced the deck becomes the product — amber on black, monospace, panel borders, grid. The
-aesthetic shift is the argument: a cold human problem, then the instrument built to answer it.
+TRACE is introduced the deck turns into the product's own world — the warm ivory editorial atlas,
+vermilion and violet marks, from `frontend/design/qa/atlas-desktop.jpg`. The shift from black to ivory
+is the argument: a cold human problem, then the instrument built to answer it, and real screenshots
+land on slides that already look like them.
+
+The deck followed the product here. It was black-and-amber terminal until the frontend's visual
+direction was superseded (`frontend/design/pinterest-directions.md`); the palette tokens at the top of
+`deck.css` are the only place that lives, so it can follow again.
 
 Claims are aggressive but verifiable. Every number on screen traces to something in this repository or
 a cited public source. Nothing on a slide can be falsified by a judge with a laptop, and the roadmap is

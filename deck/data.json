@@ -24,7 +24,11 @@
     "sea_pred": "13%",
     "sea_actual": "14%",
     "train_through": "2019",
-    "afghan_train_through": "2021"
+    "afghan_train_through": "2021",
+    "spearman": "0.67",
+    "precision_at_20": "0.50",
+    "afghan_right": "12",
+    "afghan_of": "14"
   },
   "charts": {
     "afghan": {
@@ -137,13 +141,11 @@
     "metrics": "README.md (live run)",
     "afghan": "contracts/fixtures/afghan_ban.json"
   },
-  "screenshots": {},
+  "screenshots": {
+    "route-map": "../frontend/design/qa/atlas-desktop.jpg",
+    "experiment": "../frontend/design/qa/experiment-desktop.jpg"
+  },
   "placeholders": [
-    {
-      "sid": "route-map",
-      "title": "Route Map (hero, full-bleed)",
-      "needs": "Frontend shell + map"
-    },
     {
       "sid": "country-screen",
       "title": "Country Screen \u2014 Colombia",
@@ -168,11 +170,6 @@
       "sid": "market-board",
       "title": "Market Board price tickers",
       "needs": "Market Board"
-    },
-    {
-      "sid": "experiment",
-      "title": "Afghan ban predicted vs actual",
-      "needs": "Experiment view"
     }
   ],
   "status": {
@@ -250,15 +247,16 @@
         "status": "not started"
       }
     ],
-    "shipped_short": "Pipeline, models, backtests, API and Live Wire shipped; terminal in build",
+    "frontend_built": true,
+    "shipped_short": "Pipeline, models, backtests, API, Live Wire and the workspace all shipped",
     "shipped_count": 11,
     "pending_count": 3
   },
   "git": {
-    "sha": "083f17d",
-    "subject": "deck: TRACE pitch deck that rebuilds itself from the repo",
-    "when": "2026-09-26T18:35:43+00:00",
-    "count": "8"
+    "sha": "95a86d3",
+    "subject": "deck: follow the product's new visual direction, use real captures",
+    "when": "2026-09-26T20:44:10+00:00",
+    "count": "25"
   },
-  "built_at": "2026-09-26 18:35 UTC"
+  "built_at": "2026-09-26 20:44 UTC"
 }

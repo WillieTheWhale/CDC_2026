@@ -179,12 +179,13 @@
 
     shot: function (b) {
       var src = shotSrc(b.sid);
-      var n = el('div', 'shot' + (src ? '' : ' ph'));
+      var n = el('div', 'shot' + (src ? ' real' : ' ph'));
       n.style.setProperty('--ar', b.aspect || '16/9');
       if (src) {
         var img = document.createElement('img');
         img.src = src;
         img.alt = tok(b.caption || b.sid);
+        if (b.maxvh) img.style.maxHeight = b.maxvh + 'vh';
         n.appendChild(img);
         if (b.caption) n.appendChild(el('div', 'capline', tok(b.caption)));
       } else {
@@ -233,7 +234,7 @@
     svg.setAttribute('preserveAspectRatio', 'xMidYMid slice');
     svg.setAttribute('aria-hidden', 'true');
 
-    var A = '#FFB000', C = '#4DD8FF', R = '#FF4D4D', G = '#35D07F';
+    var A = '#C5563A', C = '#8B5FA8', R = '#C5563A', G = '#6E8F73';
     function n(tag, attrs) {
       var e = document.createElementNS(ns, tag);
       for (var k in attrs) e.setAttribute(k, attrs[k]);
@@ -331,11 +332,11 @@
     svg.setAttribute('viewBox', '0 0 1000 420');
     svg.setAttribute('preserveAspectRatio', 'none');
     var defs = [
-      ['M20,340 Q260,60 520,250', '#FFB000', 0],
-      ['M80,390 Q420,120 860,300', '#FFD979', 180],
-      ['M0,240 Q300,-20 700,180', '#4DD8FF', 340],
-      ['M140,410 Q560,200 980,380', '#FF7A45', 500],
-      ['M60,180 Q380,380 940,120', '#FFB000', 660]
+      ['M20,340 Q260,60 520,250', '#C5563A', 0],
+      ['M80,390 Q420,120 860,300', '#D97845', 180],
+      ['M0,240 Q300,-20 700,180', '#8B5FA8', 340],
+      ['M140,410 Q560,200 980,380', '#E0956A', 500],
+      ['M60,180 Q380,380 940,120', '#6E8F73', 660]
     ];
     defs.forEach(function (d) {
       var p = document.createElementNS(ns, 'path');
@@ -392,12 +393,12 @@
       svg.appendChild(b);
       var bt = document.createElementNS(ns, 'text');
       bt.setAttribute('x', X(spec.ban_year) + 6); bt.setAttribute('y', pad.t + 10);
-      bt.setAttribute('fill', '#FF4D4D');
+      bt.setAttribute('fill', '#C5563A');
       bt.textContent = 'BAN ' + spec.ban_year;
       svg.appendChild(bt);
     }
 
-    var colors = ['#FFB000', '#4DD8FF'];
+    var colors = ['#C5563A', '#8B5FA8'];
     spec.series.forEach(function (s, k) {
       var d = s.points.map(function (p, n) { return (n ? 'L' : 'M') + X(p.x) + ',' + Y(p.y); }).join(' ');
       var path = document.createElementNS(ns, 'path');
