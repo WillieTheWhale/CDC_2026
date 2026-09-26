@@ -1,0 +1,136 @@
+# AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+"""Audit observed historical support without requiring a balanced source panel."""
+from __future__ import annotations
+
+import argparse
+from datetime import datetime, timezone
+from pathlib import Path
+import sqlite3
+
+ROOT = Path(__file__).resolve().parent
+SPINE_START, SPINE_END = 1990, 2024
+CORE = ("gdp", "population", "gdp_pc_ppp", "trade_gdp", "homicide_rate", "hiv_incidence")
+
+
+def bounds(con: sqlite3.Connection, table: str) -> tuple[int | None, int | None, int]:
+    return con.execute(f'SELECT min(year), max(year), count(*) FROM "{table}"').fetchone()
+
+
+def yearly(con: sqlite3.Connection, table: str) -> dict[int, int]:
+    return dict(con.execute(f'SELECT year, count(*) FROM "{table}" GROUP BY year'))
+
+
+def write_report(db: Path, output: Path) -> None:
+    with sqlite3.connect(db.resolve().as_uri() + "?mode=ro", uri=True) as con:
+        tables = {r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type='table'")}
+        required = {"countries", "wb_indicators", "wb_indicator_meta", "wb_coverage",
+                    "prices", "seizures_annex", "seizures_ids", "cultivation",
+                    "oc_index", "harm_reduction"}
+        if missing := required - tables:
+            raise ValueError(f"Coverage report requires merged database; missing {sorted(missing)}")
+        countries = con.execute("SELECT count(*) FROM countries").fetchone()[0]
+        variables = con.execute("SELECT count(*) FROM wb_indicator_meta").fetchone()[0]
+        total, observed = con.execute("SELECT count(*),count(value) FROM wb_indicators").fetchone()
+        wb_first, wb_last = con.execute(
+            "SELECT min(year),max(year) FROM wb_indicators WHERE value IS NOT NULL").fetchone()
+        features = con.execute("""SELECT m.feature,c.first_non_null_year,c.last_non_null_year,
+            c.countries_with_data,c.non_null_rows FROM wb_coverage c JOIN wb_indicator_meta m
+            USING(code,source_id) ORDER BY c.first_non_null_year,m.feature""").fetchall()
+        annual = {r[0]: (r[1], r[2]) for r in con.execute("""
+            SELECT year,count(DISTINCT CASE WHEN value IS NOT NULL THEN code || ':' || source_id END),
+                count(value) FROM wb_indicators GROUP BY year""")}
+        core_counts = dict(con.execute("""SELECT m.feature,count(*) FROM wb_indicators w
+            JOIN wb_indicator_meta m USING(code,source_id)
+            WHERE w.value IS NOT NULL AND w.year BETWEEN ? AND ?
+            AND m.feature IN (?,?,?,?,?,?) GROUP BY m.feature""",
+            (SPINE_START, SPINE_END, *CORE)))
+        market_years = {r[0]: (r[1], r[2]) for r in con.execute("""
+            WITH available AS (
+                SELECT w.iso3,w.year,
+                    MAX(CASE WHEN m.feature='gdp' THEN 1 ELSE 0 END) AS gdp,
+                    MAX(CASE WHEN m.feature='population' THEN 1 ELSE 0 END) AS pop,
+                    MAX(CASE WHEN m.feature IN ('homicide_rate','hiv_incidence') THEN 1 ELSE 0 END) AS harm
+                FROM wb_indicators w JOIN wb_indicator_meta m USING(code,source_id)
+                WHERE w.value IS NOT NULL AND w.year BETWEEN ? AND ?
+                AND m.feature IN ('gdp','population','homicide_rate','hiv_incidence')
+                GROUP BY w.iso3,w.year
+            ) SELECT year,SUM(gdp*pop),SUM(gdp*pop*harm) FROM available GROUP BY year""",
+            (SPINE_START, SPINE_END))}
+        source_windows = [
+            ("World Bank non-null values", (wb_first, wb_last, observed)),
+            ("UNODC normalized prices", bounds(con, "prices")),
+            ("UNODC national seizure totals", bounds(con, "seizures_annex")),
+            ("UNODC individual seizure aggregates", bounds(con, "seizures_ids")),
+            ("UNODC cultivation", bounds(con, "cultivation")),
+            ("OC Index editions", bounds(con, "oc_index")),
+            ("HRI service editions", bounds(con, "harm_reduction")),
+        ]
+        price_years = yearly(con, "prices")
+        annex_years = yearly(con, "seizures_annex")
+        ids_years = yearly(con, "seizures_ids")
+
+    lines = [
+        "<!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->",
+        "# Historical coverage and analysis windows", "",
+        f"Generated {datetime.now(timezone.utc).isoformat()} from the verified merged SQLite archive.", "",
+        "## Decision", "",
+        f"**Long-history spine: {SPINE_START}–{SPINE_END} ({SPINE_END-SPINE_START+1} calendar years).** "
+        "World Bank market-size and public-health series have observed values throughout this interval. "
+        "UNODC national drug-price observations also span it. This supports source-specific longitudinal "
+        "analysis; it does not imply every country, drug or indicator is measured every year. "
+        "Use available country-years and report each result's denominator.", "",
+        f"**Archive: all original years.** World Bank non-null values span {wb_first}–{wb_last} "
+        f"across {variables} indicators and {countries} current economies. Its {total:,} country "
+        f"observations include {total-observed:,} explicit nulls. No source is truncated to the "
+        "first year of a newer supplement.", "",
+        "**Later supplements keep their actual dates.** National seizure annexes, individual seizure "
+        "cases, cultivation, OC Index and HRI services enter only where their source supports them. "
+        "A route-exposure analysis needing seizures has a shorter documented window than the price "
+        "and World Bank analyses. Edition-based context never becomes a historical backtest predictor "
+        "by carrying its newer values backward.", "",
+        "There is no requirement that all variables overlap. Missing values stay null; the collection "
+        "does not impute, interpolate or backcast. A later model must document feature availability, "
+        "publication lag and its training-only missing-data policy. Retrospective source releases "
+        "alone are not a point-in-time backtest archive.", "",
+        "## Source windows in the collected database", "",
+        "| Source table | First observed year | Latest observed year | Records |",
+        "| --- | ---: | ---: | ---: |",
+    ]
+    for name, (start, end, count) in source_windows:
+        lines.append(f"| {name} | {start or '—'} | {end or '—'} | {count:,} |")
+    lines += ["", "## World Bank long-history indicators", "",
+              f"Non-null country-years within {SPINE_START}–{SPINE_END}; individual gaps remain in SQLite.", "",
+              "| Indicator | Non-null country-years |", "| --- | ---: |"]
+    for feature in CORE:
+        lines.append(f"| {feature} | {core_counts.get(feature, 0):,} |")
+    lines += ["", "## Year-by-year spine support", "",
+              "GDP + population counts economies with both market-size observations. The harm column "
+              "also requires either homicide or HIV incidence. Other columns count observed source "
+              "records, not matched country-years. Zero means no reported observation, not zero activity.", "",
+              "| Year | WB variables | WB values | GDP + population economies | With harm outcome | Price records | National seizure records | IDS country/drug aggregates |",
+              "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |"]
+    for year in range(SPINE_START, SPINE_END + 1):
+        wb_vars, wb_values = annual.get(year, (0, 0))
+        market, harm = market_years.get(year, (0, 0))
+        lines.append(f"| {year} | {wb_vars} | {wb_values:,} | {market or 0} | {harm or 0} | "
+                     f"{price_years.get(year, 0):,} | {annex_years.get(year, 0):,} | "
+                     f"{ids_years.get(year, 0):,} |")
+    lines += ["", "## All World Bank variables", "",
+              "| Variable | First observed | Latest observed | Economies ever observed | Non-null values |",
+              "| --- | ---: | ---: | ---: | ---: |"]
+    lines.extend("| " + " | ".join(map(str, row)) + " |" for row in features)
+    lines += ["", "## Provenance", "",
+              "- [World Bank source IDs, API provenance and licenses](world_bank.md)",
+              "- [UNODC files, units and collection limits](unodc.md)",
+              "- [OC Index, HRI editions and CEPII context](context_sources.md)",
+              "- [Verified snapshot manifest and table counts](../snapshot.json)", ""]
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text("\n".join(lines))
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--db", type=Path, default=ROOT / "work/trace.sqlite")
+    parser.add_argument("--output", type=Path, default=ROOT / "reports/coverage.md")
+    args = parser.parse_args()
+    write_report(args.db, args.output)

@@ -3,11 +3,11 @@
 
 **Backend handoff, 2026-09-26:** the project owner explicitly selected **SQLite as the canonical collected-data database**, superseding the older DuckDB storage plan. Use `data_collection/work/trace.sqlite` after collection or snapshot download. Do not recollect these data into a separate JSON or DuckDB source of truth. JSON remains appropriate for API response exports. Existing backend code still uses DuckDB; changing its adapter and model-specific SQL is an integration task for the backend owner, not something this collection silently accomplishes.
 
-This folder is owned by the data-collection task. Backend and frontend implementations are left to their current agents. Three collectors write separate SQLite shards; the coordinator merges completed shards with one writer. Download caches, working databases, and temporary files stay outside Git. A verified compressed snapshot and checksum will be published as a GitHub release asset, with a versioned download manifest committed here.
+This folder is owned by the data-collection task. Backend and frontend implementations are left to their current agents. Three collectors write separate SQLite shards; the coordinator merges completed shards with one writer. Download caches, working databases, and temporary files stay outside Git. The verified compressed snapshot is published as a GitHub release asset, with a versioned download manifest committed here.
 
 ## History policy
 
-Store every available year for each chosen series. Do not discard older observations merely because another predictor began later. Preserve nulls, original units and country names, observation/edition years, source URLs, retrieval times, and source metadata. Never invent early observations by carrying later surveys backwards. The coverage report distinguishes full historical storage, a candidate longitudinal analysis window, and sparse contemporary supplements. The database is an observational archive, not a balanced or imputed model matrix.
+Store every available year for each chosen series. Do not discard older observations merely because another predictor began later. Preserve nulls, original units and country names, observation/edition years, source URLs, retrieval times, and source metadata. Never invent early observations by carrying later surveys backwards. The candidate long-history spine is **1990–2024 (35 calendar years)**: the World Bank market-size and public-health series and UNODC national price observations span those years. Individual country, drug and indicator coverage differs, so the [coverage report](reports/coverage.md) gives observed annual denominators. Seizures and edition-based context enter only in their actual years. This archive is not a balanced or imputed model matrix.
 
 The 24 World Bank variables in `backend/trace_backend/wb/indicators.py` define the core variable set. UNODC seizures, prices and cultivation; GI-TOC editions; HRI service observations; and CEPII geography supplement it. Live news and optional stretch datasets are separate from this historical collection.
 
@@ -32,7 +32,7 @@ python3 data_collection/manage.py download
 python3 data_collection/manage.py inspect
 ```
 
-The snapshot manifest is added after the first verified release. To reproduce the original collection instead:
+The [snapshot manifest](snapshot.json) records the release URL, SHA-256 hashes, integrity checks, and table counts. To reproduce the original collection instead:
 
 ```sh
 uv sync --project backend
