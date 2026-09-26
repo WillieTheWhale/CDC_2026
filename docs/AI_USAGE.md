@@ -38,3 +38,5 @@ CDC rules allow generative AI tools but require citing where they are used. Ever
 - 2026-09-26 — ChatGPT (OpenAI), operated by William Keffer: created a plain localhost page containing the six Pinterest reference images at the owner's request.
 
 - 2026-09-26 — ChatGPT (OpenAI), operated by William Keffer: built the TRACE Next.js frontend against the shared API fixtures, created dot/legend/pulse/route assets and animation studies using Figma MCP, integrated Adobe Forma fonts, and generated cartographic dots from public-domain Natural Earth boundaries. Interface values and evaluation results are labeled illustrative; no model research findings were generated. Added adapter/command tests and began browser verification.
+
+- 2026-09-26 — ChatGPT (OpenAI), operated by William Keffer: refined the projected map dot grid, added emerging-route pulse markers, improved modal keyboard focus and independent API failure handling, and formatted frontend source for review. Verified production build and three focused tests.
