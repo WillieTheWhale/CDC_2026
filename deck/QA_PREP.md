@@ -10,7 +10,7 @@ that next."* Never invent a number on stage — every figure below is in the rep
 
 ---
 
-## The thirteen they are most likely to ask
+## The fifteen they are most likely to ask
 
 **1. "Seizures measure enforcement, not trafficking. Isn't your whole network just a map of who has good customs?"** — *Markandeya (S3)*
 Correct, and it's the first limitation in our spec. Three defences: no corridor rests on seizures
@@ -56,12 +56,25 @@ test is stronger evidence still: trained through 2021, shocked, and checked agai
 never saw.
 
 **6. "What does Jev actually add over a normal LLM?"** — *Markandeya (S3)*
-Typed, calibrated decisions rather than text. For a newswire we need `event_type`, `drug`, `origin`,
-`transit`, `destination`, `size` as structured fields with probabilities attached, at 70–500ms, across
-a constant stream. We pin `jev-1.13.0`, discard anything under 0.6 confidence, and never let it touch
-dates or arithmetic — those are known weaknesses, so dates come from GDELT metadata. The classifier
-sits behind an interface with a mock implementation, so the real key drops in without touching
-anything downstream.
+Honestly: less than the marketing suggests, and we should say so. Schema conformance is table stakes now —
+OpenAI, Anthropic and Google all enforce JSON Schema by constrained decoding. What Jev buys us is latency
+and unit cost at stream volume: seven typed questions per article answered in one parallel pass at 70–500 ms,
+at $0.042 per million input tokens with output free. For a continuous newswire that is the constraint that
+matters. We pin jev-1.13.0, and it sits behind an interface so the whole Live Wire survives us being wrong
+about that choice.
+
+**6b. "You said calibrated confidence. Is it calibrated?"** — *Markandeya (S3)*
+TypeSafe publishes no calibration metrics at all — no ECE, no reliability diagrams. The one independent
+reproducible study finds expected calibration error around 0.02–0.03 in-distribution but roughly four times
+worse out of distribution, and the direction of the error flips by question type. So we treat confidence as
+a routing signal, not a probability: a 0.6 gate to suppress, and the anomaly flag to escalate. Per-field
+thresholds validated against our own labelled set are the obvious next step and we haven't done them yet.
+
+**6c. "Why not a fine-tuned classifier?"** — *Markandeya (S3)*
+For a frozen taxonomy with labelled data, a fine-tuned encoder like DeBERTa would probably beat Jev on cost
+and accuracy, and I wouldn't argue otherwise. Our taxonomy isn't frozen — the country list is ~200 options
+per field and the event types shift with the data — and we had no labelled corpus on day one. That's the
+case where a zero-shot typed classifier wins. If this ran for a year, we'd distil it into a fine-tuned model.
 
 **7. "676 corridors isn't very many. Is that the whole global drug trade?"** — *Adrian (S4)*
 It's the set we can evidence. The public UNODC seizure release gives country of seizure but not
@@ -152,4 +165,7 @@ as fallback and never counted as news evidence on a corridor. Degrading visibly 
 
 **"How would you validate Jev's accuracy?"** — *Markandeya (S3)*
 Hand-labelled evaluation set, per-field accuracy reported. That harness exists in the repo now and
-runs against the mock; it runs against the real model the day the key arrives.
+runs against the mock; it runs against the real model the day the key arrives. Published work suggests
+where it will struggle: Jev trails frontier models most on multi-class questions, which is exactly what
+our country fields are, so we expect origin/transit/destination to be the weak fields and we will report
+them separately rather than as one headline number.

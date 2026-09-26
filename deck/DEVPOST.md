@@ -64,9 +64,11 @@ predictor — a classifier for whether a corridor is active next year, a regress
 SHAP gives per-corridor drivers in plain language. Every corridor carries a 0–100 confidence score built
 from six independent signals.
 
-**AI at runtime.** Jev (TypeSafe's System One model, pinned to `jev-1.13.0`) classifies the newswire into
-typed decisions with calibrated confidence — event type, drug, origin, transit, destination, size — rather
-than text, and parses command-bar intent. A confident event landing on a corridor the model gave under 10%
+**AI at runtime.** Jev (TypeSafe's System One model, pinned to `jev-1.13.0`) answers seven typed questions
+per article in a single parallel pass at 70–500 ms — event type, drug, origin, transit, destination, size —
+each with a confidence score, and parses command-bar intent. We treat that confidence as a routing signal
+rather than a probability: TypeSafe publishes no calibration metrics, and independent testing shows error
+rising out of distribution. A confident event landing on a corridor the model gave under 10%
 probability is flagged as an anomaly: the model announcing its own misses.
 
 **Stack.** Python 3.11, uv, DuckDB, pandas, statsmodels, LightGBM, scikit-learn, SHAP, FastAPI with a
