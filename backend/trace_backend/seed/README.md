@@ -1,0 +1,33 @@
+<!-- AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md. -->
+# Seed reference tables (committed, small, cited)
+
+These are hand-curated reference tables, not raw data. They exist because the public UNODC
+Individual Drug Seizures (IDS) release lists only the **country of seizure**; departure, transit,
+and destination fields are restricted-tier (see `docs/BLOCKERS.md`).
+
+## `corridors.csv`: documented trafficking corridors
+
+One row per country-to-country corridor (`drug, from, to`) that UNODC or EUDA publications describe
+as a main trafficking flow. `basis` is `map` (drawn on a UNODC route map), `text` (named in report
+text), or `map+text`. The WDR route maps are drawn between regions and subregions; the
+country-level endpoints are **our transcription** of the countries those maps and texts name as
+departure, transit, or recipient countries, so treat them as indicative, as UNODC itself says.
+
+Corridor **volumes are not taken from these documents.** Volumes are estimated each year from
+real seizure totals (WDR annex table 7.1, calibrated IDS backcast) and cultivation, as described in
+`trace_backend/model/edges.py`.
+
+### Citation keys
+| Key | Source |
+|---|---|
+| WDR2026-7.2.1 | UNODC, World Drug Report 2026, Statistical Annex 7.2.1 "Main methamphetamine trafficking flows as described in reported seizures, 2021-2024" |
+| WDR2026-7.3.1 | UNODC, World Drug Report 2026, Statistical Annex 7.3.1 "Main cocaine trafficking flows as described in reported seizures, 2021-2024" |
+| WDR2026-7.4.1 | UNODC, World Drug Report 2026, Statistical Annex 7.4.1 "Main heroin trafficking flows as described in reported seizures, 2021-2024" |
+| WDR2023-B2 | UNODC, World Drug Report 2023, Booklet 2 (contemporary issues / cannabis markets and trafficking) |
+| WDR2023-B3 | UNODC, World Drug Report 2023, cocaine market chapter |
+| UNODC-GRC2023 | UNODC, Global Report on Cocaine 2023: Local dynamics, global challenges |
+| UNODC-AOT2024 | UNODC Afghan opiate trafficking reports (Afghan Opiate Trade Project / AOTP updates, 2020-2024) |
+| UNODC-AFGMETH2023 | UNODC, Understanding illegal methamphetamine manufacture in Afghanistan (2023) |
+| UNODC-SEA2024 | UNODC, Synthetic Drugs in East and Southeast Asia: latest developments and challenges (2024) |
+| UNODC-WA2023 | UNODC, West and Central Africa drug trafficking assessments (2023) |
+| EUDA-EDM2024 | EUDA and Europol, EU Drug Markets analyses (cocaine 2022; heroin, methamphetamine, cannabis 2023-2024) |
