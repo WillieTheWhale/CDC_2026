@@ -67,7 +67,7 @@ export interface RiskRow {
   rank: number;
   tier: string;
   delta_1y: number;
-  top_drug: string;
+  top_drug: string | null;
   trend: { year: number; score: number }[];
 }
 export interface Risk {

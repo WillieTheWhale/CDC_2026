@@ -1,6 +1,6 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import { MapLibreOverlay } from "@deck.gl/maplibre";
 import { ArcLayer, ScatterplotLayer } from "@deck.gl/layers";
@@ -9,6 +9,7 @@ import type { FeatureCollection, Geometry } from "geojson";
 import { LocateFixed, Minus, Plus, RotateCcw } from "lucide-react";
 import type { Country, Edge, LiveEvent, RiskRow } from "@/lib/types";
 import { drugColor, formatNumber } from "@/lib/api";
+import { visibleModelRoutes } from "@/lib/route-visibility";
 interface Props {
   countries: Country[];
   edges: Edge[];
@@ -95,6 +96,14 @@ export default function AtlasMap(props: Props) {
   } | null>(null);
   const [position, setPosition] = useState({ lng: 0, lat: 0, zoom: 1 });
   const localScale = position.zoom >= 6;
+  const countryByIso = useMemo(
+    () => new Map(props.countries.map((country) => [country.iso3, country])),
+    [props.countries],
+  );
+  const visibleEdges = useMemo(
+    () => visibleModelRoutes(props.edges, countryByIso, position.zoom),
+    [props.edges, countryByIso, position.zoom],
+  );
   useEffect(() => {
     const controller = new AbortController();
     Promise.all(
@@ -294,12 +303,7 @@ export default function AtlasMap(props: Props) {
   }, [ready, props.risk, props.showDots]);
   useEffect(() => {
     if (!ready || !overlay.current) return;
-    const countries = new Map(props.countries.map((c) => [c.iso3, c]));
-    const edges = props.edges.filter(
-      (e) =>
-        countries.get(e.from)?.lon != null && countries.get(e.to)?.lon != null,
-    );
-    const active = new Set(edges.flatMap((e) => [e.from, e.to]));
+    const active = new Set(visibleEdges.flatMap((e) => [e.from, e.to]));
     const hubs = props.countries.filter(
       (c) => active.has(c.iso3) && c.lon != null && c.lat != null,
     );
@@ -308,10 +312,10 @@ export default function AtlasMap(props: Props) {
       layers: [
         new ArcLayer<Edge>({
           id: "route-arcs",
-          data: props.showRoutes ? edges : [],
+          data: props.showRoutes ? visibleEdges : [],
           opacity: Math.max(0, Math.min(1, (6 - position.zoom) / 2)),
-          getSourcePosition: (e) => point(countries.get(e.from)!),
-          getTargetPosition: (e) => point(countries.get(e.to)!),
+          getSourcePosition: (e) => point(countryByIso.get(e.from)!),
+          getTargetPosition: (e) => point(countryByIso.get(e.to)!),
           getSourceColor: (e) =>
             rgba(
               drugColor[e.drug],
@@ -378,7 +382,8 @@ export default function AtlasMap(props: Props) {
   }, [
     ready,
     props.countries,
-    props.edges,
+    countryByIso,
+    visibleEdges,
     props.selected,
     props.showRoutes,
     position.zoom,
@@ -452,6 +457,13 @@ export default function AtlasMap(props: Props) {
         </div>
       )}
       {error && <div className="map-error">{error}</div>}
+      {props.showRoutes && props.edges.length > 0 && (
+        <div className="map-route-scale" role="status">
+          {localScale
+            ? "City scale: no verified city-to-city route observations"
+            : `${visibleEdges.length} of ${props.edges.length} modeled country corridors shown · ${position.zoom < 1.7 ? "world" : position.zoom < 3.4 ? "regional" : "country"} view`}
+        </div>
+      )}
       {!localScale && props.showDots && props.risk.length > 0 && (
         <div
           className="map-legend"
@@ -517,10 +529,10 @@ export default function AtlasMap(props: Props) {
             {hover.edge.from} → {hover.edge.to}
           </strong>
           <div>
-            {hover.edge.drug} · model corridor · {hover.edge.confidence}% confidence
+            {hover.edge.drug} · modeled corridor · {hover.edge.confidence}% evidence score
           </div>
           <p>
-            {formatNumber(hover.edge.kg)} kg ·{" "}
+            {formatNumber(hover.edge.kg)} kg estimated seizure scale ·{" "}
             {hover.edge.volume_norm.toFixed(2)} normalized
           </p>
           {hover.edge.drivers.slice(0, 3).map((d) => (

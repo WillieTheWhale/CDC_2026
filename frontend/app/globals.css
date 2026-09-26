@@ -3176,6 +3176,20 @@ select {
   padding: 4px 6px;
   pointer-events: none;
 }
+.map-route-scale {
+  position: absolute;
+  left: 22px;
+  top: 18px;
+  z-index: 4;
+  max-width: min(365px, calc(100% - 44px));
+  padding: 6px 9px;
+  border: 1px solid #cbd7e5;
+  background: #ffffffed;
+  color: #344b64;
+  font: 500 10px var(--mono);
+  line-height: 1.4;
+  pointer-events: none;
+}
 .maplibregl-ctrl-bottom-right {
   bottom: 84px;
   right: 12px;
