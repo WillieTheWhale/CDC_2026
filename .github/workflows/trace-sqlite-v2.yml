@@ -1,0 +1,47 @@
+# AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+name: Package TRACE SQLite v2
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trace-sqlite-v2-release
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify v1 base snapshot
+        run: python3 data_collection/manage.py download --output "$RUNNER_TEMP/base.sqlite"
+      - name: Download exact v2 input shards from draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/trace-shards"
+          for shard in health markets research evidence; do
+            gh release download data-2026-09-26-v2 --pattern "${shard}.sqlite" --dir "$RUNNER_TEMP/trace-shards"
+          done
+      - name: Extend, audit, and package v2
+        run: |
+          python3 -m unittest discover -s data_collection/tests -p test_manage.py
+          python3 data_collection/release_v2.py \
+            --base "$RUNNER_TEMP/base.sqlite" \
+            --shards-dir "$RUNNER_TEMP/trace-shards" \
+            --output "$RUNNER_TEMP/trace.sqlite" \
+            --archive "$RUNNER_TEMP/trace.sqlite.gz" \
+            --manifest "$RUNNER_TEMP/snapshot.json" \
+            --coverage-report "$RUNNER_TEMP/coverage.md"
+      - name: Upload verified output to draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload data-2026-09-26-v2 \
+            "$RUNNER_TEMP/trace.sqlite.gz" \
+            "$RUNNER_TEMP/snapshot.json" \
+            "$RUNNER_TEMP/coverage.md"

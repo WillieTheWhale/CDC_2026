@@ -42,18 +42,23 @@ python3 data_collection/manage.py download
 python3 data_collection/manage.py inspect
 ```
 
-The [snapshot manifest](snapshot.json) records the release URL, SHA-256 hashes, integrity checks, and table counts. To reproduce the original collection instead:
+The [snapshot manifest](snapshot.json) records the release URL, SHA-256 hashes, integrity checks, and table counts. The v2 archive is assembled from the verified v1 release and four checksum-pinned new shards using the [standard GitHub Actions runner](../.github/workflows/trace-sqlite-v2.yml), because this workstation did not have enough free disk for a second 1.2 GB SQLite file. The workflow uses `manage.extend`, validates the merged SQLite, writes `coverage.md` and publishes the output to a draft release for independent remote-stream checksum verification before publication. This packaging method does not imply a physical v2 restore was performed on the workstation; the `download` command and small-fixture restore test remain available. To reproduce the original collection instead:
 
 ```sh
 uv sync --project backend
 python3 data_collection/world_bank.py
 backend/.venv/bin/python data_collection/unodc.py
 backend/.venv/bin/python data_collection/context_sources.py
-python3 data_collection/manage.py merge
+backend/.venv/bin/python data_collection/health/collect.py
+backend/.venv/bin/python data_collection/markets/build.py
+backend/.venv/bin/python data_collection/research.py
+backend/.venv/bin/python data_collection/research_model.py
+backend/.venv/bin/python data_collection/evidence/collect.py
+python3 data_collection/manage.py merge --clone-base
 backend/.venv/bin/python -m pytest data_collection/tests -q
 ```
 
-Collectors can run concurrently because each owns one shard. Run `merge` only after all selected shards have finished successfully. The merger rejects conflicting table/index names and verifies each shard before replacing the canonical file. It preserves source table schemas, constraints and indexes, and records input checksums in `collection_shards`. On a space-constrained macOS APFS volume, `merge --clone-base --shards data_collection/work/unodc.sqlite ...` uses a copy-on-write clone of the first shard; it fails if the APFS clone is unavailable rather than silently consuming another full database's disk space. The default merge remains a portable full copy.
+Collectors can run concurrently because each owns one shard; the market and research builders run after the UNODC source shard. Run `merge` only after all selected shards have finished successfully. The merger rejects conflicting table/index names and verifies each shard before replacing the canonical file. It preserves source table schemas, constraints and indexes, and records input checksums in `collection_shards`. On a space-constrained macOS APFS volume, `merge --clone-base` uses a copy-on-write clone of the first (largest UNODC) shard; it fails if the APFS clone is unavailable rather than silently consuming another full database's disk space. The default merge remains a portable full copy, appropriate on Linux or with ample disk space.
 
 `python3 data_collection/manage.py verify_remote` streams the published release asset and checks compressed and uncompressed size/SHA-256 without a second full SQLite file. It verifies byte-for-byte equivalence to the locally inspected database; `download` is the physical restore command and is separately tested on small fixtures.
 

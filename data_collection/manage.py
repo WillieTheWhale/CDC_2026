@@ -122,6 +122,59 @@ def merge(shards: list[Path], output: Path, clone_base: bool = False) -> dict:
         raise
 
 
+def extend(base: Path, shards: list[Path], output: Path) -> dict:
+    """Append new noncolliding shards to a verified v1 snapshot on ample disk."""
+    if not shards or len({p.resolve() for p in [base, *shards]}) != len(shards) + 1:
+        raise ValueError("Base and new shards must be distinct")
+    inspect(base)
+    for shard in shards:
+        if not shard.is_file():
+            raise ValueError(f"Invalid shard: {shard}")
+        inspect(shard)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    temporary = output.with_suffix(".sqlite.part")
+    temporary.unlink(missing_ok=True)
+    try:
+        shutil.copy2(base, temporary)
+        with sqlite3.connect(temporary, uri=True) as con:
+            con.execute("PRAGMA journal_mode=DELETE")
+            con.execute("PRAGMA user_version=2")
+            existing = {r[0] for r in con.execute(
+                "SELECT name FROM sqlite_master WHERE name NOT LIKE 'sqlite_%'")}
+            if not {"collection_shards", "collection_metadata"}.issubset(existing):
+                raise ValueError("Base must be an already merged collection snapshot")
+            for shard in shards:
+                con.execute("ATTACH DATABASE ? AS incoming", (shard.resolve().as_uri() + "?mode=ro",))
+                schema = con.execute("SELECT type,name,sql FROM incoming.sqlite_master "
+                                     "WHERE name NOT LIKE 'sqlite_%' ORDER BY "
+                                     "CASE type WHEN 'table' THEN 0 WHEN 'index' THEN 1 "
+                                     "WHEN 'view' THEN 2 ELSE 3 END").fetchall()
+                names = {name for _, name, sql in schema if sql}
+                if collision := existing.intersection(names):
+                    raise ValueError(f"Shard schema name collision: {sorted(collision)}")
+                with con:
+                    for kind, name, sql in schema:
+                        if not sql:
+                            continue
+                        con.execute(sql)
+                        if kind == "table":
+                            con.execute(f"INSERT INTO main.{quote(name)} SELECT * FROM incoming.{quote(name)}")
+                    con.execute("INSERT INTO collection_shards VALUES (?,?,?,?)",
+                                (shard.name, digest(shard), shard.stat().st_size,
+                                 datetime.now(timezone.utc).isoformat()))
+                con.execute("DETACH DATABASE incoming")
+                existing.update(names)
+            con.execute("INSERT OR REPLACE INTO collection_metadata VALUES (?,?)",
+                        ("evidence_schema_version", "2"))
+            con.execute("PRAGMA optimize")
+        report = inspect(temporary)
+        os.replace(temporary, output)
+        return report
+    except BaseException:
+        temporary.unlink(missing_ok=True)
+        raise
+
+
 def snapshot(db: Path, archive: Path, manifest: Path, tag: str, repository: str) -> dict:
     report = inspect(db)
     with sqlite3.connect(db.resolve().as_uri() + "?mode=ro", uri=True) as con:
@@ -215,6 +268,10 @@ def main() -> None:
     p.add_argument("--output", type=Path, default=DEFAULT_DB)
     p.add_argument("--clone-base", action="store_true",
                    help="Use macOS APFS clone of first shard to reduce peak disk use")
+    p = sub.add_parser("extend")
+    p.add_argument("--base", type=Path, required=True)
+    p.add_argument("--shards", nargs="+", type=Path, required=True)
+    p.add_argument("--output", type=Path, default=DEFAULT_DB)
     p = sub.add_parser("inspect")
     p.add_argument("--db", type=Path, default=DEFAULT_DB)
     p = sub.add_parser("snapshot")

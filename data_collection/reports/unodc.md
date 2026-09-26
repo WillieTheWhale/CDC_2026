@@ -35,4 +35,4 @@ backend/.venv/bin/python data_collection/unodc.py --cached-only
 backend/.venv/bin/python -m pytest data_collection/tests/test_unodc.py -q
 ```
 
-The test run on 2026-09-26 passed all six collector checks. A full network refresh omits `--cached-only`; the collector downloads the public files sequentially with bounded retries and records each file hash. This report describes the verified shard above, not a guarantee that an upstream download will retain its current content or publication schedule.
+The test run on 2026-09-26 passed all six collector checks. A full network refresh omits `--cached-only`; the collector downloads the public files sequentially with bounded retries and records each file hash. The local download cache was evicted after the verified shard and v1 release were produced; use a network refresh before attempting `--cached-only`. This report describes the verified shard above, not a guarantee that an upstream download will retain its current content or publication schedule.

@@ -39,3 +39,4 @@ For CEPII, 41,209 directed pairs have both endpoints in the current World Bank c
 | CEPII geography | https://www.cepii.fr/distance/geo_cepii.xls | `aa43be56e85a0f67459dc2fd1e841710b600b6133cde76536c42bac07c35c9d9` |
 
 Rebuild from the checked cache with `backend/.venv/bin/python data_collection/context_sources.py`; use `--refresh` to request fresh source files. Verification: `backend/.venv/bin/python -m pytest data_collection/tests/test_context_sources.py -q` (3 passed), followed by the collector's row-count, uniqueness, source-total and SQLite integrity checks. The shard is ready for the collection coordinator to merge into `trace.sqlite`.
+The verified `context.sqlite` shard remains available, but its disposable local PDF/CEPII download cache was evicted after the v1 release to conserve disk space. A fresh collector run must re-download those cited source files before rebuilding; the source URLs and SHA-256 hashes above remain the verification targets.

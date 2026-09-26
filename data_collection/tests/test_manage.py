@@ -3,6 +3,7 @@ import io
 import json
 from pathlib import Path
 import sqlite3
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -34,6 +35,7 @@ class SnapshotTests(unittest.TestCase):
             self.assertEqual(con.execute("SELECT count(*) FROM collection_shards").fetchone()[0], 2)
             self.assertTrue(con.execute("SELECT 1 FROM sqlite_master WHERE name='series_a_year'").fetchone())
 
+    @unittest.skipUnless(sys.platform == "darwin", "APFS clone is macOS-only")
     def test_clone_base_equivalent_and_source_unchanged(self):
         a, b = self.shard("a.sqlite", "series_a"), self.shard("b.sqlite", "series_b")
         before = manage.digest(a)
@@ -46,6 +48,21 @@ class SnapshotTests(unittest.TestCase):
         with sqlite3.connect(cloned) as con:
             self.assertEqual(con.execute("SELECT count(*) FROM collection_shards").fetchone()[0], 2)
             self.assertEqual(con.execute("SELECT value FROM series_a WHERE year=1960").fetchone()[0], 0.0)
+
+    def test_extend_retains_base_and_adds_new_shard(self):
+        a, b, c = (self.shard(f"{letter}.sqlite", f"series_{letter}") for letter in "abc")
+        base = self.root / "base.sqlite"
+        output = self.root / "extended.sqlite"
+        manage.merge([a, b], base)
+        with sqlite3.connect(base) as con:
+            con.execute("PRAGMA user_version=1")
+        base_digest = manage.digest(base)
+        report = manage.extend(base, [c], output)
+        self.assertEqual(manage.digest(base), base_digest)
+        self.assertEqual(report["tables"]["series_c"]["rows"], 2)
+        with sqlite3.connect(output) as con:
+            self.assertEqual(con.execute("SELECT count(*) FROM collection_shards").fetchone()[0], 3)
+            self.assertEqual(con.execute("PRAGMA user_version").fetchone()[0], 2)
 
     def test_collision_leaves_previous_database_untouched(self):
         a, b = self.shard("a.sqlite", "series"), self.shard("b.sqlite", "series")
