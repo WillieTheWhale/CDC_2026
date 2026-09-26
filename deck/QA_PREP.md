@@ -10,7 +10,7 @@ that next."* Never invent a number on stage — every figure below is in the rep
 
 ---
 
-## The ten they are most likely to ask
+## The thirteen they are most likely to ask
 
 **1. "Seizures measure enforcement, not trafficking. Isn't your whole network just a map of who has good customs?"** — *Markandeya (S3)*
 Correct, and it's the first limitation in our spec. Three defences: no corridor rests on seizures
@@ -95,6 +95,29 @@ countries. We forecast the risk of a market a country doesn't have yet, from the
 it, and our third column is health-service coverage rather than governance resilience. Different
 question, different time direction.
 
+**11. "Your opening number is wrong — Afghanistan wasn't 95% of world supply."** — *William (S1)*
+Agreed, and that's why we don't say it. The 95% is the fall in Afghan *production* between 2022 and 2023,
+6,200 tonnes to 333. Afghanistan was about 80% of world illicit opium before the ban, so the global
+production effect is roughly three quarters — and the effect on *supply* was smaller still and slower,
+because an estimated 12,000 tonnes of stockpiled opium kept moving. UNODC expects those stocks to last to
+around end-2026; David Mansfield disputes that. That gap between a production shock and a supply shock is
+one of the things a route model is for.
+
+**12. "Where did the opium actually go? Isn't the Southeast Asia story overstated?"** — *Markandeya (S3)*
+Fair challenge, and worth separating. Myanmar is the world's leading producer again (1,010 t in 2025), but
+UNODC attributes that mainly to internal conflict, not Afghan displacement — Myanmar's increase offsets
+under 4% of Afghanistan's loss. UNODC treats a Southeast Asian route shift as an expectation, not a
+measurement. Our 13% is our own corridor allocation, not a UN figure, and we say so on the slide. The more
+striking relocation is next door: over 9,000 hectares appeared in Pakistan's Balochistan in 2025, in a
+place UNODC does not survey at all. That is precisely the blind spot we built this to see.
+
+**13. "Is Afghanistan rebounding?"** — *Markandeya (S3)*
+Not in the UN data. 2025 was 10,200 hectares and 296 tonnes, down again, which UNODC credits to sustained
+enforcement *and* drought — so it isn't a clean policy contrast. The composition flipped completely: the
+north-east now out-grows the south-west, which was 169,791 hectares in 2022. For the 2026 season the only
+figures are Alcis and Mansfield, not UNODC, whose surveys publish in November, and they show Helmand
+roughly doubling. If a judge raises 2026, say the UN data isn't out yet.
+
 ---
 
 ## Also plausible
@@ -103,6 +126,10 @@ question, different time direction.
 Density and keyboard speed. The people who need this are comparing countries, years and drugs in
 sequence, and a click-through dashboard makes that slow. It's also honest about what the tool is: an
 instrument, not a consumer app.
+
+**"Prices are still five times pre-ban, right?"** — *Adrian (S4)*
+That was true as of UNODC's November 2025 figure — US$570/kg dry opium against a pre-ban average under
+US$100. Say "as of 2025"; Alcis reported prices falling back toward 2023 levels during 2026.
 
 **"What's your data licensing situation?"** — *Adrian (S4)*
 World Bank Indicators API is open. UNODC, GI-TOC, Harm Reduction International and CEPII are public

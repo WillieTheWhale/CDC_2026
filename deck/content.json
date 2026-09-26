@@ -48,24 +48,56 @@
           "type": "lines",
           "scale": "xl",
           "items": [
-            "In April 2022, one decree",
-            "erased 95% of the world's",
-            "opium supply."
+            "Afghanistan grew four fifths",
+            "of the world's illicit opium."
           ]
         },
         {
           "type": "source",
-          "text": "UNODC Afghanistan Opium Survey · cultivation 233,000 ha (2022) → 10,800 ha (2023)"
+          "text": "UNODC World Drug Report 2026 · about 80% of global illicit opium production before 2022"
         }
       ],
       "cues": [
-        "Hold the silence for two full seconds before you speak.",
-        "Say the line flat. No selling. The fact does the work.",
-        "Do not click until the room is quiet."
+        "Hold two full seconds of silence before you speak.",
+        "Say it flat. The fact does the work.",
+        "Four fifths. Not 'most' — the number is the hook."
       ]
     },
     {
       "id": "cold-2",
+      "act": "I",
+      "speaker": "S1",
+      "seconds": 7,
+      "theme": "void",
+      "blocks": [
+        {
+          "type": "lines",
+          "scale": "xl",
+          "items": [
+            "In April 2022, one decree"
+          ]
+        },
+        {
+          "type": "lines",
+          "scale": "xl",
+          "tone": "accent",
+          "items": [
+            "cut it by 95%."
+          ]
+        },
+        {
+          "type": "source",
+          "text": "Taliban decree 3 April 2022, enforced from the 2022/23 planting season · Afghan opium production 6,200 t (2022) → 333 t (2023) · UNODC Afghanistan Opium Survey"
+        }
+      ],
+      "cues": [
+        "Beat before '95%'.",
+        "Be precise if asked: 95% is Afghan *production*, and Afghanistan was ~80% of world supply.",
+        "Never say 'erased the world's opium' — about 12,000 tonnes of stockpile kept flowing."
+      ]
+    },
+    {
+      "id": "cold-3",
       "act": "I",
       "speaker": "S1",
       "seconds": 6,
@@ -73,7 +105,7 @@
       "blocks": [
         {
           "type": "lines",
-          "scale": "xl",
+          "scale": "l",
           "items": [
             "The drugs didn't stop."
           ]
@@ -85,43 +117,15 @@
           "items": [
             "They moved."
           ]
-        }
-      ],
-      "cues": [
-        "Beat between the two lines.",
-        "'They moved' is the thesis of the entire project."
-      ]
-    },
-    {
-      "id": "cold-3",
-      "act": "I",
-      "speaker": "S1",
-      "seconds": 7,
-      "theme": "void",
-      "blocks": [
-        {
-          "type": "lines",
-          "scale": "l",
-          "items": [
-            "Nobody could tell you where."
-          ]
-        },
-        {
-          "type": "lines",
-          "scale": "xl",
-          "tone": "accent",
-          "items": [
-            "For three years."
-          ]
         },
         {
           "type": "sub",
-          "text": "Not the UN. Not the health ministries. Not the people living on the new route."
+          "text": "And for three years, nobody could tell the countries they moved toward that they were coming."
         }
       ],
       "cues": [
-        "This is the gap the whole project exists to close.",
-        "Land 'for three years' — then move."
+        "'They moved' is the thesis of the entire project.",
+        "Land it, then go straight to the lag slide."
       ]
     },
     {
@@ -730,13 +734,13 @@
             {
               "value": "{{metrics.sea_actual}}",
               "label": "actual SE Asia share",
-              "source": "what the 2023–24 data later showed"
+              "source": "our corridor allocation on 2023–24 seizure and cultivation data"
             }
           ]
         },
         {
           "type": "sub",
-          "text": "We trained through 2021 — before the ban — injected the cultivation collapse as a shock, and asked the model where heroin would go. Then we checked it against what actually happened."
+          "text": "We trained through 2021 — before the ban — injected the cultivation collapse as a shock, and asked the model where heroin would go. Then we checked it against what the later data showed."
         }
       ],
       "cues": [

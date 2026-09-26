@@ -19,10 +19,12 @@ Graduate — World Bank Indicators API. Theme: AI for Social Good.
 
 ## Inspiration
 
-In April 2022 a single decree in Afghanistan erased roughly 95% of the world's opium supply. Cultivation
-fell from about 233,000 hectares to 10,800 the following year. The drugs did not stop; the trade moved,
-and Myanmar became the world's main source. For three years, nobody could tell the countries on the new
-route what was coming.
+Afghanistan grew about 80% of the world's illicit opium. In April 2022 a single decree cut its production
+by 95% in one season — 6,200 tonnes in 2022, 333 tonnes in 2023, with cultivation falling from 233,000
+hectares to 10,800. The drugs did not stop. Some of the shortfall was absorbed by an estimated 12,000
+tonnes of stockpile, Myanmar became the leading producer again, and more than 9,000 hectares of poppy
+appeared in Pakistan's Balochistan — a province no UN survey covers. For three years, nobody could tell
+the countries on the new routes that they were coming.
 
 That gap is the problem. Trafficking routes shift constantly, and the countries they pass through inherit
 the consequences — rising local use, violence, HIV — usually years before any official statistic records

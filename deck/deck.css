@@ -110,7 +110,7 @@ body.idle{cursor:none}
 .lines.s-xl p{font-size:clamp(40px,6.6vw,108px)}
 .lines.s-l  p{font-size:clamp(32px,4.6vw,74px);max-width:26ch}
 .lines.s-m  p{font-size:clamp(24px,3vw,48px);max-width:32ch;font-weight:250}
-.lines.t-accent p{color:#fff}
+.lines.t-accent p{color:var(--accent-soft)}
 .slide[data-theme="atlas"] .lines.t-accent p{color:var(--accent);text-shadow:none}
 .lines.t-dim p{color:var(--void-dim)}
 .slide[data-theme="atlas"] .lines p{font-family:var(--disp);color:var(--ink)}
