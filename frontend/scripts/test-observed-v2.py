@@ -2,13 +2,15 @@
 """Check that the frontend export retains SQLite values and their lineage."""
 
 import json
+import math
+import os
 import sqlite3
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 EXPORT = ROOT / "frontend/public/data/observed-v2"
-SHARDS = Path("/tmp/trace-v2-shards")
+SHARDS = Path(os.environ.get("TRACE_SHARDS_DIR", str(ROOT / "data_collection/work")))
 
 
 class ObservedExportTests(unittest.TestCase):
@@ -48,8 +50,30 @@ class ObservedExportTests(unittest.TestCase):
                     self.assertEqual(row["year"], source["year"])
                     self.assertEqual(row["sourceUrl"], source["sourceUrl"])
                     self.assertIsNotNone(source["sourceRow"]["rowNo"])
+                    self.assertEqual(source["basis"], "typical")
+                    self.assertEqual(row["substance"], source["substance"])
+                    self.assertEqual(row["form"], source["form"])
+                numeric = row["inputs"]
+                if row["metric"] == "retail_wholesale_price_ratio":
+                    self.assertEqual(row["unit"], "ratio")
+                    self.assertTrue(math.isclose(
+                        row["value"], numeric["retail_usd_per_gram"] / numeric["wholesale_usd_per_gram"],
+                        rel_tol=1e-11))
+                    self.assertEqual(by_id[numeric["retail_observation_id"]]["unit"], "usd_per_gram")
+                    self.assertEqual(by_id[numeric["retail_observation_id"]]["marketLevel"], "retail")
+                    self.assertEqual(by_id[numeric["wholesale_observation_id"]]["marketLevel"], "wholesale")
+                elif row["metric"] == "purity_adjusted_price_usd_per_pure_g":
+                    self.assertEqual(row["unit"], "usd_per_pure_gram")
+                    self.assertTrue(math.isclose(
+                        row["value"], numeric["price_usd_per_gram"] / (numeric["purity_percent"] / 100),
+                        rel_tol=1e-11))
+                    self.assertEqual(by_id[numeric["price_observation_id"]]["unit"], "usd_per_gram")
+                    self.assertEqual(by_id[numeric["purity_observation_id"]]["unit"], "percent")
+                else:
+                    self.fail(f"Unexpected derived metric {row['metric']}")
             for source in by_id.values():
                 self.assertIn("basis", source)
+                self.assertEqual(source["publisherEstimate"], source["status"] == "publisher estimate")
                 self.assertNotIn("lower", source)
                 self.assertNotIn("upper", source)
                 if source["originalUnit"] != source["unit"]:
@@ -78,8 +102,9 @@ class ObservedExportTests(unittest.TestCase):
                             and "sampleSize" in row and "reference" in row
                             and "attribution" in row for row in ranged_pwid))
 
-    @unittest.skipUnless(SHARDS.exists(), "Published shards not present locally")
-    def test_original_sqlite_values_survive_export(self):
+    @unittest.skipUnless((SHARDS / "health.sqlite").exists() and (SHARDS / "markets.sqlite").exists(),
+                         "Published source shards not present locally")
+    def test_export_row_counts_match_source_sqlite(self):
         for shard, table, domain in [
             ("health", "health_prevalence", "prevalence"),
             ("markets", "market_observations", "market_price"),

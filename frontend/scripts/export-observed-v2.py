@@ -173,6 +173,7 @@ def main() -> None:
             "basis": row["basis"],
             "originalValue": row["original_value"], "originalUnit": row["original_unit"], "originalText": row["original_text"],
             "originalLower": row["minimum"], "originalUpper": row["maximum"],
+            "publisherEstimate": bool(row["publisher_estimate"]),
             "status": "publisher estimate" if row["publisher_estimate"] else "source observation",
             "sourceId": f"market:{row['source_id']}", "sourceUrl": src["url"], "publicationYear": src["edition"],
             "sourceRow": {"sheet": row["sheet"], "rowNo": row["row_no"], "cellNo": row["col_no"]},
@@ -250,6 +251,11 @@ def main() -> None:
             "sourceId": f"evidence:{row['source_id']}", "sourceUrl": evidence_sources[row["source_id"]]["url"],
         })
 
+    country_dir = args.out / "countries"
+    if country_dir.exists():
+        for old_file in country_dir.glob("*.json"):
+            if old_file.stem not in countries:
+                old_file.unlink()
     for iso3, content in sorted(countries.items()):
         write_json(args.out / "countries" / f"{iso3}.json", {"iso3": iso3, **content})
     write_json(args.out / "us-overdose.json", us_overdose)

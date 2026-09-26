@@ -33,6 +33,7 @@ export interface ObservedRecord {
   form?: string | null;
   marketLevel?: string | null;
   basis?: string | null;
+  publisherEstimate?: boolean;
   population?: string | null;
   ageGroup?: string | null;
   sex?: string | null;
