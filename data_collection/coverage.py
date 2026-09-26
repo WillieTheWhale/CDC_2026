@@ -78,8 +78,10 @@ def write_report(db: Path, output: Path) -> None:
         "## Decision", "",
         f"**Long-history spine: {SPINE_START}–{SPINE_END} ({SPINE_END-SPINE_START+1} calendar years).** "
         "World Bank market-size and public-health series have observed values throughout this interval. "
-        "UNODC published national drug-price series also span it. Early price observations cover "
-        "far fewer countries and include source-provided estimates, flagged in the table below. "
+        "UNODC published national drug-price series also span it. In 1990 those price rows "
+        "cover 17 named Western/Central European countries plus the United States, and some are "
+        "source-provided estimates, flagged in the table below. Regional averages are not copied "
+        "into country records. "
         "This supports source-specific longitudinal analysis; it does not imply every country, drug "
         "or indicator is measured every year. "
         "Use available country-years and report each result's denominator.", "",

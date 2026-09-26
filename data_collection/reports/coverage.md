@@ -1,11 +1,11 @@
 <!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->
 # Historical coverage and analysis windows
 
-Generated 2026-09-26T18:45:22.166158+00:00 from the verified merged SQLite archive.
+Generated 2026-09-26T18:47:02.398948+00:00 from the verified merged SQLite archive.
 
 ## Decision
 
-**Long-history spine: 1990–2024 (35 calendar years).** World Bank market-size and public-health series have observed values throughout this interval. UNODC published national drug-price series also span it. Early price observations cover far fewer countries and include source-provided estimates, flagged in the table below. This supports source-specific longitudinal analysis; it does not imply every country, drug or indicator is measured every year. Use available country-years and report each result's denominator.
+**Long-history spine: 1990–2024 (35 calendar years).** World Bank market-size and public-health series have observed values throughout this interval. UNODC published national drug-price series also span it. In 1990 those price rows cover 17 named Western/Central European countries plus the United States, and some are source-provided estimates, flagged in the table below. Regional averages are not copied into country records. This supports source-specific longitudinal analysis; it does not imply every country, drug or indicator is measured every year. Use available country-years and report each result's denominator.
 
 **Archive: all original years.** World Bank non-null values span 1960–2025 across 24 indicators and 217 current economies. Its 308,796 country observations include 181,190 explicit nulls. No source is truncated to the first year of a newer supplement.
 
