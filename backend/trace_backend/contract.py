@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import json
-from functools import lru_cache
+from functools import cache, lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -38,7 +38,7 @@ def openapi() -> dict[str, Any]:
     return yaml.safe_load(OPENAPI_PATH.read_text(encoding="utf-8"))
 
 
-@lru_cache(maxsize=None)
+@cache
 def validator(schema_name: str) -> Draft202012Validator:
     doc = openapi()
     root = {"$ref": f"#/components/schemas/{schema_name}", "components": doc["components"]}

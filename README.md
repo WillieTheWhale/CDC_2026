@@ -30,7 +30,7 @@ skills/      World Bank Indicators API skill
 |---|---|---|
 | Spec, docs, handoff | planning session | done |
 | T0 API contract + fixtures | backend | done (`contracts/`) |
-| T1 backend scaffold | backend | not started |
+| T1 backend scaffold | backend | done (uv, Python 3.11, `trace` CLI) |
 | T2 World Bank ingest | backend | not started |
 | T3 external ingest (UNODC, OC Index, HRI, CEPII) | backend | not started |
 | T4 edges + confidence | backend | not started |

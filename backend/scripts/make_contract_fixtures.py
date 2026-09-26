@@ -13,7 +13,6 @@ from __future__ import annotations
 import json
 import math
 import urllib.request
-from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -79,8 +78,8 @@ def fetch_countries() -> list[dict]:
         return sorted(out, key=lambda c: c["iso3"])
     except Exception as exc:  # pragma: no cover - network fallback
         print("World Bank unreachable, using fallback list:", exc)
-        return [dict(zip(["iso3", "iso2", "name", "region", "income_group", "capital", "lat", "lon"], c))
-                for c in FALLBACK_COUNTRIES]
+        return [dict(zip(["iso3", "iso2", "name", "region", "income_group", "capital", "lat", "lon"], c, strict=True))
+                for c in FALLBACK_COUNTRIES]  # noqa: B905
 
 
 # ---------------------------------------------------------------- routes
@@ -297,7 +296,7 @@ def country_fixture(countries, obs_edges, rows, price_list):
             wb("SM.POP.RHCR.EA", 2, 2024, 2810000, "Refugee population by country of asylum", "people"),
             wb("SM.POP.RHCR.EO", 2, 2024, 118000, "Refugee population by country of origin", "people")]},
     ]
-    detail = lambda items: [{"feature": f, "label": l, "value": v, "contribution": c} for f, l, v, c in items]
+    detail = lambda items: [{"feature": f, "label": lab, "value": v, "contribution": c} for f, lab, v, c in items]
     risk = {
         "year": 2024, "exposure": risk_row["exposure"], "vulnerability": risk_row["vulnerability"],
         "protection": risk_row["protection"], "score": risk_row["score"], "rank": risk_row["rank"],
