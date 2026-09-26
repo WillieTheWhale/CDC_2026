@@ -18,10 +18,14 @@ import {
   X,
 } from "lucide-react";
 import { motion } from "motion/react";
+import { RouteStudy } from "./figma-motion";
 import {
   api,
   CountryDetail,
   DEMO,
+  SNAPSHOT_YEAR,
+  PROFILE_YEAR,
+  SNAPSHOT_TIME,
   drugColor,
   drugLabel,
   Experiment,
@@ -119,7 +123,7 @@ export function RiskTable({
       {!sorted.length ? (
         <Empty>
           No risk observations for this selection. The demo snapshot is
-          available in 2024.
+          available in {SNAPSHOT_YEAR}.
         </Empty>
       ) : (
         <div className="table-scroll">
@@ -285,7 +289,8 @@ export function NewsList({
 export function CountryInspector({
   country,
   year,
-  risk,
+  risk: summaryRisk,
+  scenarioRisk,
   edges,
   onClose,
   onRoute,
@@ -293,6 +298,7 @@ export function CountryInspector({
   country: Country;
   year: number;
   risk?: RiskRow;
+  scenarioRisk?: Simulation["risk_deltas"][number];
   edges: Edge[];
   onClose: () => void;
   onRoute: (e: Edge) => void;
@@ -301,6 +307,7 @@ export function CountryInspector({
     [loading, setLoading] = useState(true),
     [error, setError] = useState("");
   const [tab, setTab] = useState("Overview");
+  const risk = summaryRisk ?? detail?.risk;
   useEffect(() => {
     let active = true;
     setLoading(true);
@@ -357,6 +364,19 @@ export function CountryInspector({
           </button>
         ))}
       </div>
+      {scenarioRisk && (
+        <div className="country-scenario">
+          <span>Scenario risk</span>
+          <strong>
+            {scenarioRisk.baseline_score.toFixed(1)} <ArrowRight size={16} />{" "}
+            {scenarioRisk.scenario_score.toFixed(1)}
+          </strong>
+          <small>
+            Change: {scenarioRisk.delta > 0 ? "+" : ""}
+            {scenarioRisk.delta.toFixed(1)} points. {risk && Math.abs(risk.score - scenarioRisk.baseline_score) > 0.1 ? "This scenario uses a different baseline from the saved profile below." : "The profile below is the baseline."}
+          </small>
+        </div>
+      )}
       {loading && (
         <div className="loading-line" role="status">
           Loading country evidence…
@@ -406,7 +426,7 @@ export function CountryInspector({
               <HistoryChart points={risk.trend} height={140} />
               <p className="source-note">
                 TRACE risk model · {year}
-                {DEMO ? " · illustrative" : ""}
+                {DEMO ? " · saved snapshot" : ""}
               </p>
             </>
           ) : (
@@ -443,15 +463,15 @@ export function CountryInspector({
               </div>
               <p className="source-note">
                 Harm Reduction International · {detail.harm_reduction?.year}
-                {DEMO ? " · illustrative" : ""}
+                {DEMO ? " · saved snapshot" : ""}
               </p>
               <p className="briefing">{detail.briefing}</p>
             </>
           )}
           {!loading && !detail && (
             <p className="quiet-note">
-              Country evidence is not available in this snapshot. Select
-              Colombia to explore the full demo profile.
+              Country evidence is not available for this selection. The saved
+              profile covers Colombia in {PROFILE_YEAR}.
             </p>
           )}
         </>
@@ -470,7 +490,7 @@ export function CountryInspector({
                     </b>
                   </div>
                   <a
-                    href={`https://data.worldbank.org/indicator/${encodeURIComponent(i.code)}`}
+                    href={`https://api.worldbank.org/v2/country/${country.iso3}/indicator/${encodeURIComponent(i.code)}?source=${i.source_id}&date=${i.year}&format=json`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -583,11 +603,7 @@ export function RouteInspector({
         <ArrowRight size={22} />{" "}
         <button onClick={() => onCountry(edge.to)}>{edge.to}</button>
       </h2>
-      <img
-        className="route-study"
-        src="/figma/route-study.svg"
-        alt="Arc joining two route endpoints"
-      />
+      <RouteStudy key={edge.id} />
       <div className="route-numbers">
         <div>
           <span>Normalized volume</span>
@@ -601,7 +617,7 @@ export function RouteInspector({
       <p className="source-note">
         {edge.year} ·{" "}
         {edge.probability === null ? "Observed corridor" : "Predicted corridor"}
-        {DEMO ? " · illustrative" : ""}
+        {DEMO ? " · saved snapshot" : ""}
       </p>
       <div className="section-line">
         <h3>Evidence signals</h3>
@@ -676,10 +692,19 @@ export function Markets({ series, drug }: { series: Price[]; drug: string }) {
             </span>
             <div className="price-value">
               ${p.latest.toFixed(2)}
-              <span>USD / g</span>
-              <small className={p.yoy_change_pct > 0 ? "negative" : "positive"}>
-                {p.yoy_change_pct > 0 ? "+" : ""}
-                {p.yoy_change_pct.toFixed(1)}% YoY
+              <span>{p.unit}</span>
+              <small
+                className={
+                  p.yoy_change_pct == null
+                    ? "muted"
+                    : p.yoy_change_pct > 0
+                      ? "negative"
+                      : "positive"
+                }
+              >
+                {p.yoy_change_pct == null
+                  ? "YoY unavailable"
+                  : `${p.yoy_change_pct > 0 ? "+" : ""}${p.yoy_change_pct.toFixed(1)}% YoY`}
               </small>
             </div>
             <HistoryChart
@@ -690,7 +715,7 @@ export function Markets({ series, drug }: { series: Price[]; drug: string }) {
             />
             <p className="source-note">
               UNODC World Drug Report · {p.points.at(-1)?.year}
-              {DEMO ? " · illustrative" : ""}
+              {DEMO ? " · saved snapshot" : ""}
             </p>
           </article>
         ))}
@@ -699,13 +724,41 @@ export function Markets({ series, drug }: { series: Price[]; drug: string }) {
     </>
   );
 }
+
+export function ScenarioRiskList({
+  result,
+  onCountry,
+}: {
+  result: Simulation;
+  onCountry: (iso: string) => void;
+}) {
+  return (
+    <div className="scenario-risk-list">
+      {result.risk_deltas.slice(0, 4).map((r) => (
+        <button key={r.iso3} onClick={() => onCountry(r.iso3)}>
+          <span>{r.name}</span>
+          <b>
+            {r.baseline_score.toFixed(1)} <ArrowRight size={11} />{" "}
+            {r.scenario_score.toFixed(1)}
+          </b>
+          <em className={r.delta > 0 ? "negative" : "positive"}>
+            {r.delta > 0 ? "+" : ""}
+            {r.delta.toFixed(1)}
+          </em>
+        </button>
+      ))}
+    </div>
+  );
+}
 export function ScenarioPanel({
   initial,
   onApplied,
+  onMap,
   onExperiment,
 }: {
   initial: string;
   onApplied: (s: Simulation) => void;
+  onMap: () => void;
   onExperiment: () => void;
 }) {
   const [text, setText] = useState(initial || "Colombia cuts coca 50%"),
@@ -733,7 +786,7 @@ export function ScenarioPanel({
     <>
       <div className="view-heading">
         <div>
-          <h1>When the network shifts.</h1>
+          <h1>Scenario analysis</h1>
           <p>Explore how a supply shock could change community exposure.</p>
         </div>
         <FlaskConical size={28} strokeWidth={1} />
@@ -776,7 +829,7 @@ export function ScenarioPanel({
           )}
           <p className="quiet-note">
             {DEMO
-              ? "Demo: the Colombia 50% scenario has illustrative results. Custom scenarios require the connected model."
+              ? "The saved snapshot includes the Colombia 50% scenario. Custom scenarios require the connected model."
               : "Scenario effects are model estimates, not forecasts of policy outcomes."}
           </p>
           <button className="text-button" onClick={onExperiment}>
@@ -789,7 +842,9 @@ export function ScenarioPanel({
             <>
               <div className="section-line">
                 <h2>Network response</h2>
-                <span>{result.year}</span>
+                <button className="text-button" onClick={onMap}>
+                  View on map <ArrowUpRight size={14} />
+                </button>
               </div>
               <p className="scenario-summary">{result.summary}</p>
               <div className="scenario-deltas">
@@ -862,11 +917,11 @@ export function ExperimentView({
     <>
       <div className="view-heading">
         <div>
-          <h1>After the opium ban.</h1>
+          <h1>Afghanistan opium ban</h1>
           <p>Afghanistan, 2022 · A natural experiment in displacement.</p>
         </div>
         <span className="subtle-pill">
-          {DEMO ? "Illustrative evaluation" : "Model evaluation"}
+          {DEMO ? "Saved evaluation" : "Model evaluation"}
         </span>
       </div>
       <div className="experiment-intro">
@@ -878,8 +933,8 @@ export function ExperimentView({
           <p>{e.summary}</p>
           {DEMO && (
             <b className="demo-note">
-              These fixture results demonstrate the interface. They are not
-              validated research findings.
+              Saved pipeline results. Corridor volumes are model estimates
+              anchored on national seizure data.
             </b>
           )}
         </div>
@@ -953,7 +1008,7 @@ export function ExperimentView({
               <br />
               <small>
                 {e.metrics.n_edges} corridors ·{" "}
-                {DEMO ? "fixture result" : "evaluation result"}
+                {DEMO ? "saved result" : "evaluation result"}
               </small>
             </span>
           </div>
@@ -985,8 +1040,15 @@ export function ExperimentView({
           </small>
         </div>
       </div>
+      <div className="hypothesis-result">
+        <h3>
+          Spillover hypothesis:{" "}
+          {m.spillover.supported ? "supported" : "not supported"}
+        </h3>
+        <p>{m.spillover.statement}</p>
+      </div>
       <p className="quiet-note">
-        {DEMO ? "Illustrative metrics only. " : ""}Backtest trained through{" "}
+        {DEMO ? "Saved model evaluation. " : ""}Backtest trained through{" "}
         {m.backtest.train_through}; test years{" "}
         {m.backtest.test_years.join(", ")}. Seizures measure detection; model
         uncertainty and source coverage must be considered.
@@ -1022,8 +1084,13 @@ export function Sources({
         </div>
         <p>
           {DEMO
-            ? "You’re exploring an illustrative snapshot. Country metadata comes from the World Bank; other values demonstrate the planned data connections."
+            ? "You’re exploring saved pipeline output. World Bank values retain their source and year; corridor volumes are model estimates. The news feed replays synthetic sample headlines."
             : "Coverage, freshness and provenance for the connected data services."}
+        </p>
+        <p className="source-note">
+          {DEMO
+            ? `Snapshot generated ${new Date(SNAPSHOT_TIME).toLocaleString("en-GB", { timeZone: "UTC" })} UTC`
+            : "Source retrieval times are shown below."}
         </p>
         <div className="source-list">
           {catalog.sources.map((s) => (
@@ -1031,9 +1098,16 @@ export function Sources({
               <div>
                 <h3>{s.name}</h3>
                 <small>
-                  Latest year: {s.latest_year ?? "not available"} ·{" "}
-                  {DEMO ? "Demo metadata" : s.status}
+                  Latest year: {s.latest_year ?? "not available"} · {s.status}
                 </small>
+                {s.retrieved_at && (
+                  <small>
+                    Retrieved{" "}
+                    {new Date(s.retrieved_at).toLocaleDateString("en-GB", {
+                      timeZone: "UTC",
+                    })}
+                  </small>
+                )}
                 {"note" in s && s.note && <p>{s.note}</p>}
               </div>
               <ExternalLink size={15} />

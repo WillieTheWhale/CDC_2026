@@ -106,7 +106,7 @@ export interface Price {
   unit: string;
   points: { year: number; value: number; purity_pct: number | null }[];
   latest: number;
-  yoy_change_pct: number;
+  yoy_change_pct: number | null;
   source: string;
 }
 export interface CommandAction {

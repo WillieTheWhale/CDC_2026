@@ -226,7 +226,10 @@ export default function AtlasMap(props: Props) {
             risk.has(d[2])
               ? exposureColor(risk.get(d[2])!)
               : color("#c8be98", 175),
-          updateTriggers: { getFillColor: [props.risk] },
+          updateTriggers: {
+            getFillColor: [props.risk],
+            getRadius: [props.risk],
+          },
           transitions: { getFillColor: 600 },
           pickable: false,
         }),
@@ -246,7 +249,15 @@ export default function AtlasMap(props: Props) {
                   : 1),
             ),
           getTargetColor: (e) =>
-            color(drugColor[e.drug], Math.round(e.confidence * 1.3)),
+            color(
+              drugColor[e.drug],
+              Math.round(e.confidence * 1.3) *
+                (props.selected &&
+                e.from !== props.selected &&
+                e.to !== props.selected
+                  ? 0.32
+                  : 1),
+            ),
           getWidth: (e) => 0.5 + e.volume_norm * 2.5,
           getHeight: 0.28,
           greatCircle: true,
@@ -264,7 +275,10 @@ export default function AtlasMap(props: Props) {
             }
             return false;
           },
-          updateTriggers: { getSourceColor: [props.selected] },
+          updateTriggers: {
+            getSourceColor: [props.selected],
+            getTargetColor: [props.selected],
+          },
           transitions: { getWidth: 500 },
         }),
         new ScatterplotLayer<Country>({
@@ -368,7 +382,7 @@ export default function AtlasMap(props: Props) {
     const el = document.createElement("div");
     el.className = "map-beacon";
     el.innerHTML =
-      '<img src="/figma/signal-beacon.svg" alt="Selected news event"/><span></span>';
+      '<div class="signal-beacon" aria-hidden="true"><div class="signal-ring"><img src="/figma/signal-ring.svg" alt=""/></div><img class="signal-carrier" src="/figma/signal-carrier.svg" alt=""/><img class="signal-core" src="/figma/signal-core.svg" alt=""/></div>';
     const marker = new maplibregl.Marker({ element: el })
       .setLngLat([e.lon, e.lat])
       .addTo(m);
@@ -439,9 +453,7 @@ export default function AtlasMap(props: Props) {
             {formatNumber(hover.edge.kg)} kg · normalized volume{" "}
             {hover.edge.volume_norm.toFixed(2)}
           </p>
-          {hover.edge.drivers[0] && (
-            <small>{hover.edge.drivers[0].label}</small>
-          )}
+          {hover.edge.drivers.slice(0,3).map(d=><small key={d.feature}>{d.label}</small>)}
         </div>
       )}
       <div className="map-attribution">

@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, MotionConfig, motion } from "motion/react";
 import { Command } from "cmdk";
 import { Dock } from "./dock";
+import { SignalBeacon } from "./figma-motion";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -30,6 +31,7 @@ import {
   API_BASE,
   Catalog,
   DEMO,
+  SNAPSHOT_YEAR,
   drugColor,
   drugLabel,
   Experiment,
@@ -60,6 +62,7 @@ import {
   RiskTable,
   RouteInspector,
   ScenarioPanel,
+  ScenarioRiskList,
   Sources,
 } from "./panels";
 import { Sparkline } from "./charts";
@@ -135,7 +138,11 @@ export default function Dashboard() {
       const [m, c] = await Promise.all([api.meta(), api.countries()]);
       setCatalog(m.data);
       setCountries(c.data);
-      setYear(m.data.latest_observed_year);
+      const startYear = DEMO ? SNAPSHOT_YEAR : m.data.latest_observed_year;
+      setYear(startYear);
+      setMode(
+        m.data.predicted_years.includes(startYear) ? "predicted" : "observed",
+      );
       const results = await Promise.allSettled([
         api.prices(),
         api.livewire(),
@@ -253,17 +260,22 @@ export default function Dashboard() {
     };
   }, [commandOpen, sourcesOpen, compare.length]);
   useEffect(() => {
+    document
+      .querySelector(".inspector")
+      ?.scrollTo({ top: 0, behavior: "instant" });
+  }, [selected, route?.id, event?.id]);
+  useEffect(() => {
     if ((selected || route || event) && window.innerWidth <= 760)
-      document
-        .querySelector(".inspector")
-        ?.scrollIntoView({
-          behavior: window.matchMedia("(prefers-reduced-motion: reduce)")
-            .matches
-            ? "instant"
-            : "smooth",
-          block: "start",
-        });
+      document.querySelector(".inspector")?.scrollIntoView({
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+          ? "instant"
+          : "smooth",
+        block: "start",
+      });
   }, [selected, route, event]);
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, [view]);
   const years = useMemo(
     () =>
       catalog
@@ -397,6 +409,7 @@ export default function Dashboard() {
                   ...e,
                   volume_norm: changed.scenario_volume_norm,
                   kg: changed.scenario_kg,
+                  probability: changed.scenario_probability,
                   change_pct: changed.delta_pct,
                 }
               : e;
@@ -485,7 +498,7 @@ export default function Dashboard() {
           </div>
           <span className="demo-badge">
             <i />
-            {DEMO ? "Illustrative data" : "Connected data"}
+            {DEMO ? "Saved snapshot" : "Connected data"}
           </span>
         </div>
         {loadError ? (
@@ -613,8 +626,14 @@ export default function Dashboard() {
                     <div className="map-empty">
                       No {mode} corridors for {year}.{" "}
                       {DEMO && (
-                        <button onClick={() => changeYear(2024)}>
-                          Return to 2024 demo <ArrowRight size={12} />
+                        <button
+                          onClick={() => {
+                            setMinConfidence(0);
+                            setDrug("all");
+                            changeYear(SNAPSHOT_YEAR);
+                          }}
+                        >
+                          Reset to saved snapshot <ArrowRight size={12} />
                         </button>
                       )}
                     </div>
@@ -641,7 +660,9 @@ export default function Dashboard() {
                       <span>Higher</span>
                     </div>
                     <small>
-                      Color = country exposure · width = corridor volume
+                      {simulation
+                        ? "Color = baseline exposure · width = scenario volume"
+                        : "Color = country exposure · width = corridor volume"}
                     </small>
                   </div>
                   <div className="timeline">
@@ -650,6 +671,7 @@ export default function Dashboard() {
                       aria-label={playing ? "Pause timeline" : "Play timeline"}
                       onClick={() => {
                         if (year === years.at(-1)) changeYear(years[0]);
+                        setSimulation(null);
                         setPlaying(!playing);
                       }}
                     >
@@ -701,7 +723,10 @@ export default function Dashboard() {
                     <section key="risk" className="dock-panel">
                       <div className="dock-heading">
                         <h2>
-                          Risk watchlist <span>{year}</span>
+                          {simulation
+                            ? "Scenario risk changes"
+                            : "Risk watchlist"}{" "}
+                          <span>{year}</span>
                         </h2>
                         <button
                           className="panel-handle"
@@ -716,7 +741,18 @@ export default function Dashboard() {
                           <ArrowUpRight size={16} />
                         </button>
                       </div>
-                      <RiskTable rows={risk} compact onCountry={openCountry} />
+                      {simulation ? (
+                        <ScenarioRiskList
+                          result={simulation}
+                          onCountry={openCountry}
+                        />
+                      ) : (
+                        <RiskTable
+                          rows={risk}
+                          compact
+                          onCountry={openCountry}
+                        />
+                      )}
                     </section>
                     <section key="wire" className="dock-panel">
                       <div className="dock-heading">
@@ -757,7 +793,7 @@ export default function Dashboard() {
                       <>
                         <div className="view-heading">
                           <div>
-                            <h1>Where harm could follow.</h1>
+                            <h1>Spillover risk</h1>
                             <p>
                               Compare exposure, vulnerability, and prevention
                               capacity.
@@ -811,7 +847,7 @@ export default function Dashboard() {
                       <>
                         <div className="view-heading">
                           <div>
-                            <h1>Signals across the network.</h1>
+                            <h1>Live wire</h1>
                             <p>
                               Click an event to locate it on the atlas. Times
                               shown in UTC.
@@ -828,8 +864,14 @@ export default function Dashboard() {
                     {view === "scenarios" && (
                       <ScenarioPanel
                         initial={scenario}
+                        onMap={() => {
+                          setView("atlas");
+                          setResetKey((k) => k + 1);
+                        }}
                         onApplied={(s) => {
-                          setSimulation(s);
+                          setSelected(null);
+                          setRoute(null);
+                          setEvent(null);
                           setDrug("all");
                           switchMode("predicted");
                           setSimulation(s);
@@ -871,7 +913,10 @@ export default function Dashboard() {
                       country={country}
                       year={year}
                       risk={risk.find((r) => r.iso3 === selected)}
-                      edges={edges}
+                      scenarioRisk={simulation?.risk_deltas.find(
+                        (r) => r.iso3 === selected,
+                      )}
+                      edges={mappedEdges}
                       onClose={() => {
                         setSelected(null);
                         setResetKey((k) => k + 1);
@@ -891,8 +936,7 @@ export default function Dashboard() {
                         </button>
                       </div>
                       <div className="event-graphic">
-                        <img src="/figma/signal-beacon.svg" alt="" />
-                        <span />
+                        <SignalBeacon />
                       </div>
                       <span
                         className="drug-label"
@@ -944,18 +988,9 @@ export default function Dashboard() {
                   ) : (
                     <div className="global-outlook">
                       <div className="inspector-top">
-                        <span>Global outlook</span>
+                        <h2>Risk overview</h2>
                         <span className="mono muted">{year}</span>
                       </div>
-                      <h2>
-                        Follow the flows.
-                        <br />
-                        <span>Understand the impact.</span>
-                      </h2>
-                      <p className="outlook-intro">
-                        A connected view of drug trade, community vulnerability,
-                        and prevention.
-                      </p>
                       <div className="outlook-stats">
                         <div>
                           <b>{edges.length}</b>
@@ -1020,7 +1055,7 @@ export default function Dashboard() {
                         <img src="/figma/route-study.svg" alt="" />
                         <div>
                           <span>Afghanistan, after the ban</span>
-                          <p>One policy. A global shift.</p>
+
                           <b>
                             Explore the experiment <ArrowUpRight size={14} />
                           </b>
@@ -1039,7 +1074,7 @@ export default function Dashboard() {
         <footer className="statusbar">
           <span>
             <i className="status-dot" />
-            {DEMO ? "Demo workspace" : "API connected"}
+            {DEMO ? "Snapshot mode" : "API connected"}
           </span>
           <button onClick={() => setSourcesOpen(true)}>
             Data sources <ArrowUpRight size={11} />

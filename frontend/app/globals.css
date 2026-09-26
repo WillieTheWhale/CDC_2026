@@ -665,7 +665,7 @@ input[type="range"] {
   border-radius: 50%;
   top: 15px;
   left: 15px;
-  animation: signal-pulse 2.4s ease-in-out infinite;
+  animation: signal-pulse 2s linear infinite;
 }
 .route-tooltip {
   position: absolute;
@@ -1449,9 +1449,12 @@ input[type="range"] {
   font-size: 26px;
 }
 .route-study {
-  width: 100%;
-  margin: 15px 0;
-  animation: route-reveal 1.2s ease-out;
+  display: block;
+  margin: 15px auto;
+  max-width: none;
+}
+.route-inspector .route-study {
+  margin-inline: calc((100% - 280px) / 2);
 }
 .route-numbers {
   display: flex;
@@ -2157,6 +2160,22 @@ select {
   0% {
     transform: scale(0.65);
     opacity: 0.65;
+  }
+  25% {
+    transform: scale(0.717);
+    opacity: 0.60413;
+  }
+  50% {
+    transform: scale(0.972);
+    opacity: 0.42993;
+  }
+  75% {
+    transform: scale(1.347);
+    opacity: 0.17337;
+  }
+  99.99% {
+    transform: scale(1.559);
+    opacity: 0.02817;
   }
   100% {
     transform: scale(1.6);
@@ -2907,7 +2926,7 @@ select {
   height: 26px;
   border: 1px solid #b75b47;
   border-radius: 50%;
-  animation: signal-pulse 2.4s ease-in-out infinite;
+  animation: signal-pulse 2s linear infinite;
   pointer-events: none;
 }
 .outlook-intro,
@@ -2958,4 +2977,177 @@ select {
   background: linear-gradient(#f0eee5f5, #f0eee5aa 50%, #f0eee500);
   pointer-events: none;
   z-index: 1;
+}
+
+/* Readable analytical text, with color reserved for data. */
+:root {
+  --muted: #6b7562;
+}
+.topbar nav button,
+.drug-filters button,
+.atlas-heading p,
+.country-region,
+.source-note,
+.quiet-note,
+.table-note,
+.risk-table th,
+.news-item small,
+.news-item > time,
+.map-legend > small,
+.year-ticks,
+.outlook-stats span,
+.country-code,
+.watch-country small,
+.inspector-tabs button,
+.indicator a,
+.indicator b small,
+.coverage .muted,
+.statusbar,
+.status-model,
+.news-tags > span:last-child,
+.risk-breakdown span {
+  color: #68735e;
+}
+.indicator a,
+.source-note {
+  font-size: 10px;
+}
+.drug-filters button {
+  font-size: 12px;
+}
+.inspector-top h2 {
+  font-size: 27px;
+}
+.global-outlook .outlook-stats {
+  margin-top: 0;
+}
+.feature-story {
+  min-height: 103px;
+}
+.feature-story b {
+  margin-top: 22px;
+}
+.hypothesis-result {
+  padding: 22px 25px;
+  background: #eaece2;
+  border-left: 3px solid #798469;
+  margin-top: 30px;
+}
+.hypothesis-result h3 {
+  font-size: 15px;
+}
+.hypothesis-result p {
+  font-size: 12px;
+  line-height: 1.7;
+  margin-top: 10px;
+  max-width: 950px;
+}
+@media (max-width: 760px) {
+  .drug-filters button {
+    font-size: 10px;
+    min-height: 32px;
+  }
+  .map-tools button {
+    width: 36px;
+    height: 36px;
+  }
+  .global-outlook .outlook-stats {
+    margin-top: 0;
+  }
+}
+
+.scenario-risk-list {
+  padding: 2px 23px;
+}
+.scenario-risk-list button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 11px;
+}
+.scenario-risk-list button > span {
+  flex: 1;
+}
+.scenario-risk-list b {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font: 10px var(--mono);
+}
+.scenario-risk-list em {
+  width: 33px;
+  text-align: right;
+  font: 10px var(--mono);
+}
+.country-scenario {
+  margin-top: 22px;
+  padding: 14px;
+  border: 1px solid #d9be93;
+  background: #f2ead7;
+  border-radius: 5px;
+}
+.country-scenario > span {
+  font-size: 11px;
+}
+.country-scenario strong {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font: 25px var(--display);
+  margin: 7px 0;
+}
+.country-scenario small {
+  display: block;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #68735e;
+}
+
+.signal-beacon {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.signal-ring {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 15px;
+  top: 15px;
+  transform-origin: 50% 50%;
+}
+.signal-carrier {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+.signal-core {
+  position: absolute;
+  left: 28.5px;
+  top: 28.5px;
+}
+.map-beacon .signal-ring {
+  animation: signal-pulse 2s linear infinite;
+}
+.map-beacon .signal-beacon img {
+  width: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  .map-beacon .signal-ring {
+    animation: none;
+    opacity: 0.4;
+  }
+}
+
+@media (min-width: 761px) {
+  .scenario-results {
+    max-height: calc(100vh - 280px);
+    min-height: 470px;
+    overflow: auto;
+    scrollbar-width: thin;
+  }
 }

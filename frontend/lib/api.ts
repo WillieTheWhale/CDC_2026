@@ -28,6 +28,9 @@ export const API_BASE = (process.env.NEXT_PUBLIC_API_URL ?? "").replace(
   "",
 );
 export const DEMO = !API_BASE;
+export const SNAPSHOT_YEAR = risk.data.year;
+export const PROFILE_YEAR = countryCOL.data.year;
+export const SNAPSHOT_TIME = meta.meta.generated_at;
 export type CountryDetail = typeof countryCOL.data;
 export type Experiment = typeof experiment.data;
 export type Metrics = typeof metrics.data;
