@@ -59,7 +59,7 @@ function observationTitle(row: ObservedRecord) {
 function ObservationRows({ rows, compact = false }: { rows: ObservedRecord[]; compact?: boolean }) {
   const [visible, setVisible] = useState(compact ? 5 : 25);
   useEffect(() => setVisible(compact ? 5 : 25), [compact, rows]);
-  if (!rows.length) return <p className="eh-empty">No source observation is available for this selection.</p>;
+  if (!rows.length) return <p className="eh-empty">No source record is available for this selection.</p>;
   return (
     <div className="eh-rows">
       {rows.slice(0, visible).map((row) => (
@@ -123,7 +123,7 @@ export function CountryEvidence({ iso3 }: { iso3: string }) {
   return (
     <section className="eh-country">
       <div className="section-line"><h3>Health evidence</h3><span>Source archive</span></div>
-      <p className="eh-note">Source observations use their own years and populations. Map year and model risk do not change these records.</p>
+      <p className="eh-note">Source values use their own years and populations. Map year and model risk do not change these records.</p>
       <div className="eh-tabs" role="tablist" aria-label="Health evidence type">
         {GROUPS.map((item) => <button key={item.key} role="tab" aria-selected={group === item.key} className={group === item.key ? "active" : ""} onClick={() => setGroup(item.key)}>{item.label}</button>)}
       </div>
@@ -170,7 +170,7 @@ export function EvidenceHealth({ countries, selectedIso, onCountry }: { countrie
         <button className="eh-country-link" onClick={() => onCountry?.(iso3)}>Open country profile ↗</button>
       </div>
       <div className="eh-tabs" role="tablist" aria-label="Health evidence type">{GROUPS.map((item) => <button key={item.key} role="tab" aria-selected={group === item.key} className={group === item.key ? "active" : ""} onClick={() => { setGroup(item.key); setQuery(""); }}>{item.label}</button>)}</div>
-      <div className="eh-heading"><div><h2>{countryName} <small>{iso3}</small></h2><p>{active.explanation}</p></div><span>{rows.length} source observations</span></div>
+      <div className="eh-heading"><div><h2>{countryName} <small>{iso3}</small></h2><p>{active.explanation}</p></div><span>{rows.length} source records</span></div>
       <label className="eh-search">Filter this source group<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Drug, measure or population" /></label>
       {loading ? <p className="eh-empty">Loading source observations…</p> : error ? <p className="eh-empty">Source observations could not load: {error}</p> : <ObservationRows rows={rows} />}
       {iso3 === "USA" && <USOverdose rows={overdose} />}
