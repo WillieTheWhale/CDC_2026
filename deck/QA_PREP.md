@@ -68,26 +68,24 @@ lagged volume is last year's value only. The gravity baseline runs on the identi
 test is stronger evidence still: trained through 2021, shocked, and checked against data the model
 never saw.
 
-**6. "What does Jev actually add over a normal LLM?"** — *Markandeya (S3)*
-Honestly: less than the marketing suggests, and we should say so. Schema conformance is table stakes now —
-OpenAI, Anthropic and Google all enforce JSON Schema by constrained decoding. What Jev buys us is latency
-and unit cost at stream volume: seven typed questions per article answered in one parallel pass at 70–500 ms,
-at $0.042 per million input tokens with output free. For a continuous newswire that is the constraint that
-matters. We pin jev-1.13.0, and it sits behind an interface so the whole Live Wire survives us being wrong
-about that choice.
+**6. "What does Reflex add over a normal LLM?"** — *Markandeya (S3)*
+Control and predictable economics. Reflex is our own 70M-parameter per-option cross-encoder, so it runs
+locally without an API key, emits only the supplied choices, and can score every option in one batch. We
+fine-tune it with log-loss and fit one temperature per primitive on held-out data. It sits behind the same
+classifier interface as Jev and the keyword fallback, so Live Wire degrades visibly instead of stopping.
 
 **6b. "You said calibrated confidence. Is it calibrated?"** — *Markandeya (S3)*
-TypeSafe publishes no calibration metrics at all — no ECE, no reliability diagrams. The one independent
-reproducible study finds expected calibration error around 0.02–0.03 in-distribution but roughly four times
-worse out of distribution, and the direction of the error flips by question type. So we treat confidence as
-a routing signal, not a probability: a 0.6 gate to suppress, and the anomaly flag to escalate. Per-field
-thresholds validated against our own labelled set are the obvious next step and we haven't done them yet.
+Not yet in a way we should quote. Reflex is trained with log-loss and temperature scaling, and the evaluator
+measures ECE and Brier score in and out of distribution. But the repository does not yet contain the trained
+weights or the generated parity report, so we treat confidence as a routing signal rather than a probability:
+a 0.6 gate to suppress and the anomaly flag to escalate. We will claim calibration only after publishing the
+reliability results on held-out and real-news labels.
 
-**6c. "Why not a fine-tuned classifier?"** — *Markandeya (S3)*
-For a frozen taxonomy with labelled data, a fine-tuned encoder like DeBERTa would probably beat Jev on cost
-and accuracy, and I wouldn't argue otherwise. Our taxonomy isn't frozen — the country list is ~200 options
-per field and the event types shift with the data — and we had no labelled corpus on day one. That's the
-case where a zero-shot typed classifier wins. If this ran for a year, we'd distil it into a fine-tuned model.
+**6c. "Why build Reflex instead of using Jev or a frontier LLM?"** — *Markandeya (S3)*
+The taxonomy is dynamic — especially country options — but the task is classification, not generation.
+Reflex starts from an open NLI encoder and scores each supplied option against the article, which preserves
+that flexibility without paying for a frontier-model call on every story. Jev remains supported behind the
+same interface, so the parity scale can compare the approaches instead of relying on marketing claims.
 
 **7. "676 corridors isn't very many. Is that the whole global drug trade?"** — *Adrian (S4)*
 It's the set we can evidence. The public UNODC seizure release gives country of seizure but not
@@ -199,9 +197,10 @@ It has been, from our network — it returns 429s. The poller keeps GDELT's rate
 and while it's unavailable the Live Wire replays a labelled sample set, clearly marked in `/api/meta`
 as fallback and never counted as news evidence on a corridor. Degrading visibly beats pretending.
 
-**"How would you validate Jev's accuracy?"** — *Markandeya (S3)*
-Hand-labelled evaluation set, per-field accuracy reported. That harness exists in the repo now and
-runs against the mock; it runs against the real model the day the key arrives. Published work suggests
-where it will struggle: Jev trails frontier models most on multi-class questions, which is exactly what
-our country fields are, so we expect origin/transit/destination to be the weak fields and we will report
-them separately rather than as one headline number.
+**"How would you validate Reflex's accuracy?"** — *Markandeya (S3)*
+The eight-level Reflex Parity Scale checks the interface and output contract, held-out competence,
+zero-shot generalisation, calibration, structured inputs, Live Wire field accuracy, known failure modes,
+and CPU speed. That harness exists, but its generated report is not checked in. The bundled 100-headline
+set is synthetic with provisional labels, so it is a development test, not evidence for a stage claim.
+Before deployment we will hand-label real GDELT stories and report each field separately, especially origin
+and destination, rather than hiding weak extraction behind one headline number.

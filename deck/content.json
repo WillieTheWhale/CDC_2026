@@ -641,7 +641,7 @@
       ]
     },
     {
-      "id": "jev",
+      "id": "reflex",
       "act": "III",
       "speaker": "S3",
       "seconds": 12,
@@ -669,7 +669,7 @@
             },
             {
               "title": "Classify",
-              "text": "Jev — TypeSafe's System One model — answers seven typed questions per article in one parallel pass, 70–500 ms: event type, drug, origin, transit, destination, size. Each answer carries a confidence score. Pinned to jev-1.13.0."
+              "text": "Reflex — TRACE's own open System One model — turns each article into seven typed decisions in one batched pass. A 70M-parameter NLI cross-encoder is fine-tuned with log-loss, then temperature-scaled per primitive."
             },
             {
               "title": "Flag",
@@ -679,14 +679,14 @@
         },
         {
           "type": "source",
-          "text": "Classifier sits behind a JevClassifier interface; the real client activates the moment the key lands. Confidence is a routing signal, not a probability — below 0.6 nothing is shown, and events on low-probability corridors are flagged rather than trusted."
+          "text": "Reflex sits behind the existing JevClassifier interface and activates from local weights when no Jev key is configured; otherwise Live Wire falls back visibly. Until the parity report is checked in, confidence remains a routing signal — below 0.6 nothing is shown."
         }
       ],
       "cues": [
         "The anomaly flag is the best idea in the system. Spend your last seconds there.",
         "A model that announces its own misses is a model you can trust.",
-        "If asked why not a normal LLM: schema conformance is table stakes now — the honest answer is latency and cost per article at stream volume, not 'typed output'.",
-        "Do NOT say 'calibrated'. TypeSafe publishes no calibration metrics; independent testing puts it near 0.02–0.03 in-distribution and ~4x worse out of it."
+        "Reflex copies no TypeSafe code or weights. We implemented the published interface and calibration objective on an open NLI encoder.",
+        "Do NOT claim measured accuracy, calibration, or parity yet: the evaluation harness exists, but its report and trained weights are not checked into this repository."
       ]
     },
     {
@@ -946,7 +946,7 @@
             },
             {
               "when": "+3 months",
-              "what": "Live Jev key, fentanyl module, ACLED conflict events, public read-only API"
+              "what": "Publish Reflex weights + parity report, fentanyl module, ACLED conflict events, public read-only API"
             },
             {
               "when": "+6 months",

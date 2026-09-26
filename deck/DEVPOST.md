@@ -67,12 +67,14 @@ predictor — a classifier for whether a corridor is active next year, a regress
 SHAP gives per-corridor drivers in plain language. Every corridor carries a 0–100 confidence score built
 from six independent signals.
 
-**AI at runtime.** Jev (TypeSafe's System One model, pinned to `jev-1.13.0`) answers seven typed questions
-per article in a single parallel pass at 70–500 ms — event type, drug, origin, transit, destination, size —
-each with a confidence score, and parses command-bar intent. We treat that confidence as a routing signal
-rather than a probability: TypeSafe publishes no calibration metrics, and independent testing shows error
-rising out of distribution. A confident event landing on a corridor the model gave under 10%
-probability is flagged as an anomaly: the model announcing its own misses.
+**AI at runtime.** Reflex is TRACE's open, locally trained System One model: a 70M-parameter NLI
+cross-encoder that scores each supplied option, answers seven typed questions per article in one batch,
+trains with log-loss, and temperature-scales Choice, Score and Noul separately. It copies no TypeSafe code
+or weights; it implements the published Jev interface and calibration objective. Live Wire uses Jev when
+a key is configured, otherwise Reflex when local trained weights are present, and otherwise a clearly
+identified keyword fallback. Until the parity report is published, confidence is only a routing signal. A confident
+event on a corridor the forecast gave under 10% probability is flagged as an anomaly: the model announcing
+its own misses.
 
 **Stack.** Python 3.11, uv, SQLite, pandas, statsmodels, LightGBM, scikit-learn, SHAP, FastAPI with a
 WebSocket Live Wire, APScheduler. Next.js, TypeScript, Tailwind, deck.gl `ArcLayer` over MapLibre, cmdk,
@@ -113,7 +115,8 @@ and that is what makes the forecasts worth acting on.
 
 ## What's next for TRACE
 
-Live Jev key; a fentanyl module; ACLED conflict events; a public read-only API; wastewater and EUDA price
+Publish Reflex weights and the eight-level parity report; a fentanyl module; ACLED conflict events; a public
+read-only API; wastewater and EUDA price
 feeds; weekly retraining and per-country alert subscriptions; and a deployment with a harm-reduction
 partner in a single transit corridor, measured against real service placement.
 
@@ -121,8 +124,9 @@ partner in a single transit corridor, measured against real service placement.
 
 ## Built with
 `python` · `sqlite` · `pandas` · `statsmodels` · `lightgbm` · `scikit-learn` · `shap` · `fastapi` ·
-`websockets` · `apscheduler` · `nextjs` · `typescript` · `tailwind` · `deck.gl` · `maplibre` · `recharts` ·
-`world-bank-api` · `unodc` · `gdelt` · `jev` · `typesafe-ai` · `anthropic` · `uv`
+`websockets` · `apscheduler` · `pytorch` · `transformers` · `nextjs` · `typescript` · `tailwind` · `deck.gl` ·
+`maplibre` · `recharts` ·
+`world-bank-api` · `unodc` · `gdelt` · `reflex` · `jev` · `typesafe-ai` · `anthropic` · `uv`
 
 ## Data sources (all cited)
 World Bank Indicators API (WDI source 2, WGI source 3) · UNODC Drugs Monitoring Platform, Individual Drug
@@ -134,6 +138,8 @@ GeoDist · GDELT DOC 2.0 · Natural Earth. Full table with codes, freshness and 
 ## AI usage disclosure (CDC requirement)
 Generative AI was used throughout and is cited in two places: an `AI-assisted` header comment in every file
 it wrote or substantially edited, and a dated log in [`docs/AI_USAGE.md`](../docs/AI_USAGE.md). Runtime AI:
-Jev (TypeSafe AI) for newswire classification and command parsing; Claude (Anthropic) for country briefings
+Reflex (TRACE's open model, built from a DeBERTaV3 NLI cross-encoder) for newswire classification when local
+weights are present; Jev and a transparent keyword classifier remain fallbacks; Claude (Anthropic) supports
+country briefings
 and scenario parsing. Statistical methods cited: Santos Silva & Tenreyro (2006) for PPML; Ke et al. (2017)
 for LightGBM; Lundberg & Lee (2017) for SHAP.
