@@ -7,7 +7,9 @@ from pathlib import Path
 
 import pytest
 
-from trace_backend import config, contract
+os.environ.setdefault("TRACE_LIVEWIRE_POLL", "0")  # no background GDELT polling in tests
+
+from trace_backend import config, contract  # noqa: E402
 
 SAMPLE = Path(__file__).parent / "data" / "api_sample"
 

@@ -37,7 +37,7 @@ skills/      World Bank Indicators API skill
 | T5 route models + backtest + Afghan ban test | backend | done (hurdle AUC 0.92 vs gravity 0.61; Afghan ban 12/14 corridors, SEA share 5%->12% pred vs 14% actual) |
 | T6 spillover risk | backend | done (217 countries x 2011-2025; hypothesis not supported, see metrics) |
 | T7 export + API | backend | done (precomputed JSON, FastAPI, contract tests) |
-| T8 Live Wire (mock Jev) | backend | not started |
+| T8 Live Wire (mock Jev) | backend | done (JevClassifier + mock, GDELT poller with replay fallback, REST + WS) |
 | T9 shock simulator | backend | not started |
 | Frontend shell + map | frontend | not started |
 | Country Screen + Risk Board | frontend | not started |

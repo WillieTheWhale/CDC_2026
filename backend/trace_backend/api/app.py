@@ -93,6 +93,11 @@ def get_routes(drug: str | None = Query(None, pattern="^(cocaine|heroin|meth|can
     if edges is None:
         not_found("year_not_available", f"No {mode} routes for {year}. "
                   f"Available: {s.meta['observed_years' if mode == 'observed' else 'predicted_years']}")
+    lw = _livewire_state()
+    news = lw.news_edges() if lw else set()
+    if news:  # live news hits are an independent confidence signal (+10)
+        edges = [({**e, "signals": {**e["signals"], "news": True}, "confidence": min(100.0, e["confidence"] + 10)}
+                  if (e["drug"], e["from"], e["to"]) in news and not e["signals"]["news"] else e) for e in edges]
     edges = [e for e in edges if (drug is None or e["drug"] == drug) and e["confidence"] >= min_confidence]
     notes = ["Corridor volumes are estimated from national seizure totals over documented corridors "
              "(UNODC public IDS has no route fields); kg is seizure-scale, not total trafficked volume."]
