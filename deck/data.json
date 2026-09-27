@@ -212,9 +212,19 @@
         "label": "shock simulator",
         "owner": "backend",
         "status": "done (structured + plain-English shocks, command bar)"
+      },
+      {
+        "label": "API deployment",
+        "owner": "backend",
+        "status": "done: live at https://trace-api-six.vercel.app (Vercel; keyword Live Wire classifier, backlog replay)"
       }
     ],
     "pending": [
+      {
+        "label": "Reflex (own System One model)",
+        "owner": "backend",
+        "status": "v0.2 shipped as the Live Wire classifier: 98% event type, 82% destination (mock 52%), ECE 0.02; see [REFLEX_SPEC.md](docs/REFLEX_SPEC.md)"
+      },
       {
         "label": "Frontend shell + map",
         "owner": "frontend",
@@ -232,15 +242,15 @@
       }
     ],
     "frontend_built": true,
-    "shipped_short": "Pipeline, models, backtests, API, Live Wire and the workspace all shipped",
-    "shipped_count": 12,
-    "pending_count": 3
+    "shipped_short": "Pipeline, models, backtests, Live Wire and the workspace shipped; API live in production",
+    "shipped_count": 13,
+    "pending_count": 4
   },
   "git": {
-    "sha": "97b3ad9",
-    "subject": "Add sourced Fourth Division Captagon network",
-    "when": "2026-09-26T20:35:07-04:00",
-    "count": "77"
+    "sha": "30ac8bb",
+    "subject": "deck: move the shipped API out of the roadmap",
+    "when": "2026-09-27T01:37:23+00:00",
+    "count": "112"
   },
-  "built_at": "2026-09-27 00:38 UTC"
+  "built_at": "2026-09-27 01:37 UTC"
 }

@@ -243,7 +243,7 @@ def build() -> dict:
     fe_built = (REPO / "frontend" / "package.json").is_file() and (REPO / "frontend" / "lib" / "api.ts").is_file()
     data["status"]["frontend_built"] = fe_built
     data["status"]["shipped_short"] = (
-        "Pipeline, models, backtests, API, Live Wire and the workspace all shipped"
+        "Pipeline, models, backtests, Live Wire and the workspace shipped; API live in production"
         if done_backend and fe_built else
         "Pipeline, models, backtests, API and Live Wire shipped; workspace in build"
         if done_backend else "In build")
