@@ -97,6 +97,8 @@ export interface LiveEvent {
   transit: string | null;
   destination: string | null;
   size: string;
+  /** False when the article states no quantity (the size is then not shown as a fact). */
+  size_stated?: boolean;
   is_event: number;
   route_mentioned: number;
   confidence: number;

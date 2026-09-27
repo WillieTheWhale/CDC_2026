@@ -320,7 +320,7 @@ export function NewsList({
               {e.is_anomaly && <b>Unusual signal</b>}
               {!compact && (
                 <span>
-                  {e.size} · {Math.round(e.confidence * 100)}% confidence
+                  {e.size_stated === false ? "Size not stated" : e.size} · {Math.round(e.confidence * 100)}% confidence
                 </span>
               )}
             </div>

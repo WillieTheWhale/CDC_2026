@@ -1177,13 +1177,13 @@ export default function Dashboard() {
                         className="drug-label"
                         style={{ color: drugColor[event.drug] }}
                       >
-                        {drugLabel[event.drug] ?? event.drug} ·{" "}
+                        {event.drug === "unclear" ? "Drug not stated" : drugLabel[event.drug] ?? event.drug} ·{" "}
                         {event.event_type.replaceAll("_", " ")}
                       </span>
                       <h2>{event.title}</h2>
                       <p>
-                        {event.origin ?? "Unknown origin"} →{" "}
-                        {event.destination ?? "Unknown destination"}
+                        {event.origin ?? "Origin not stated"} →{" "}
+                        {event.destination ?? "Destination not stated"}
                       </p>
                       <div className="evidence-row">
                         <span>Confidence</span>
@@ -1191,7 +1191,7 @@ export default function Dashboard() {
                       </div>
                       <div className="evidence-row">
                         <span>Magnitude</span>
-                        <b>{event.size}</b>
+                        <b>{event.size_stated === false ? "not stated" : event.size}</b>
                       </div>
                       {event.is_anomaly && (
                         <div className="anomaly-reason">
