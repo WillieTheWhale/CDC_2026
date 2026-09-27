@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T21:48:38+00:00",
+    "generated_at": "2026-09-27T00:52:07+00:00",
     "model_version": "trace-0.1.0",
     "sources": [
       {
@@ -128,7 +128,7 @@
     ],
     "latest_observed_year": 2024,
     "model_version": "trace-0.1.0",
-    "livewire_classifier": "mock",
+    "livewire_classifier": "reflex-0.2.0",
     "sources": [
       {
         "id": "wb_wdi",

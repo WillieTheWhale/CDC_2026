@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-26T21:48:38+00:00",
+    "generated_at": "2026-09-27T00:52:07+00:00",
     "model_version": "trace-0.1.0",
     "sources": [
       {
@@ -303,17 +303,17 @@
       }
     },
     "livewire": {
-      "classifier": "mock",
+      "classifier": "reflex-0.2.0",
       "n_labeled": 100,
       "field_accuracy": {
-        "is_event": 0.81,
-        "event_type": 0.8,
-        "drug": 0.89,
-        "origin": 0.89,
-        "destination": 0.52,
-        "size": 0.96
+        "is_event": 0.97,
+        "event_type": 0.98,
+        "drug": 0.9,
+        "origin": 0.91,
+        "destination": 0.82,
+        "size": 0.89
       },
-      "note": "Evaluated on 100 synthetic headlines with provisional labels drafted by the backend agent (jev/data/labeled_eval.json); the mock's rules were written alongside them, so treat these as an upper bound. Re-run on team hand-labelled GDELT articles, and with Jev once a key exists."
+      "note": "Reflex (TRACE's own System One model) on 100 synthetic headlines with provisional labels; mock keyword classifier on the same set: is_event 0.81, event_type 0.8, drug 0.89, origin 0.89, destination 0.52, size 0.96"
     }
   }
 }
