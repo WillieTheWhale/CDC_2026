@@ -867,7 +867,7 @@ export default function AtlasMap(props: Props) {
             {props.estimated && !props.estimated.live ? " Precomputed snapshot." : ""}
           </p>
           <small>Biggest paths nearby</small>
-          {nearestBigPaths(windHover.glyph.position, estimatedFlows).map(({ flow, drugs, distanceKm }) => (
+          {nearestBigPaths(windHover.glyph.position, estimatedFlows, 3, 300, windHover.glyph.flows[0]).map(({ flow, drugs, distanceKm }) => (
             <small key={`${flow.from.iso3}${flow.from.name}${flow.to.name}`}>
               {flow.from.name} → {flow.to.name} · {drugs.join(", ")} · strength {flow.strength.toFixed(2)} ·{" "}
               {distanceKm < 10 ? "here" : `${Math.round(distanceKm)} km away`}

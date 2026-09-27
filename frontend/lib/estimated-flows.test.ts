@@ -90,17 +90,20 @@ test("placed arrows point at a city, stay off it, and never overlap", async () =
   assert.ok(placeArrows(all, z).length < all.length);
 });
 
-test("hover lists the three biggest estimated paths near a point", async () => {
+test("hover lists the hovered path first, then the biggest paths nearby", async () => {
   const { nearestBigPaths } = await import("./estimated-flows");
   const f = layer.flows[0];
-  const mid: [number, number] = [(f.from.lon + f.to.lon) / 2, (f.from.lat + f.to.lat) / 2];
-  const near = nearestBigPaths(mid, layer.flows);
+  // Hover where the map actually draws one of this flow's arrows (on its great-circle path).
+  const mid = windGlyphs([f], 6)[0].position;
+  const near = nearestBigPaths(mid, layer.flows, 3, 300, f);
   assert.equal(near.length, 3);
   const score = (p: (typeof near)[number]) => p.flow.strength / (1 + p.distanceKm / 150);
-  for (let i = 1; i < near.length; i++) assert.ok(score(near[i - 1]) >= score(near[i]));
+  // The hovered arrow's own path (distance ~0) always comes first, whatever its strength ...
+  assert.equal(`${near[0].flow.from.name}>${near[0].flow.to.name}`, `${f.from.name}>${f.to.name}`);
+  assert.ok(near[0].distanceKm < 25);
+  // ... then the biggest paths nearby, strongest first.
+  for (let i = 2; i < near.length; i++) assert.ok(score(near[i - 1]) >= score(near[i]));
   assert.ok(near.every((p) => p.distanceKm <= 4000 && p.drugs.length >= 1));
-  // The arrow's own path (distance ~0) is among the results.
-  assert.ok(near.some((p) => p.distanceKm < 1));
   const keys = near.map((p) => `${p.flow.from.name}${p.flow.to.name}`);
   assert.equal(new Set(keys).size, 3);
 });

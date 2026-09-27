@@ -365,6 +365,7 @@ export function nearestBigPaths(
   flows: EstimatedFlow[],
   count = 3,
   radiusKm = 300,
+  own?: EstimatedFlow,
 ): NearbyPath[] {
   const pairs = new Map<string, NearbyPath>();
   for (const flow of flows) {
@@ -385,5 +386,11 @@ export function nearestBigPaths(
     near = all.filter((p) => p.distanceKm <= radius);
   }
   const score = (p: NearbyPath) => p.flow.strength / (1 + p.distanceKm / 150);
-  return near.sort((x, y) => score(y) - score(x)).slice(0, count);
+  // The hovered arrow's own path comes first (the glyph knows its flow; otherwise the closest path), then the
+  // biggest paths nearby. Distance alone can pick a neighbouring path: arrows sit on great-circle curves.
+  const ownKey = own && `${own.from.iso3}:${own.from.name}>${own.to.iso3}:${own.to.name}`;
+  const mine = (ownKey && pairs.get(ownKey)) ||
+    near.reduce<NearbyPath | undefined>((best, p) => (!best || p.distanceKm < best.distanceKm ? p : best), undefined);
+  const rest = near.filter((p) => p !== mine).sort((x, y) => score(y) - score(x));
+  return (mine ? [mine, ...rest] : rest).slice(0, count);
 }
