@@ -22,6 +22,17 @@ export interface PersonPhoto {
   sourceUrl: string;
 }
 
+export type PersonEventType = "arrest" | "charge" | "conviction" | "sentence" | "sanction" | "development";
+
+export interface PersonEvent {
+  id: string;
+  occurredAt: string;
+  type: PersonEventType;
+  title: string;
+  summary: string;
+  source: PeopleSource;
+}
+
 export interface Person {
   id: string;
   name: string;
@@ -34,6 +45,7 @@ export interface Person {
   regions: PersonRegion[];
   drugs: string[];
   photo?: PersonPhoto;
+  events?: PersonEvent[];
   sources: PeopleSource[];
 }
 

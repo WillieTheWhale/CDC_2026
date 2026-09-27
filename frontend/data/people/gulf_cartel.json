@@ -68,6 +68,23 @@
           "language": "en",
           "claim": "DOJ-hosted history identifies García Ábrego as the Gulf organization’s leader in the 1980s and Osiel Cárdenas Guillén as his successor."
         }
+      ],
+      "events": [
+        {
+          "id": "juan-garcia-abrego-1997-01-31-sentence",
+          "occurredAt": "1997-01-31",
+          "type": "sentence",
+          "title": "Multiple life sentences imposed",
+          "summary": "The DOJ Inspector General reports García Ábrego was sentenced to nine life terms after conviction on 22 counts.",
+          "source": {
+            "url": "https://oig.justice.gov/sites/default/files/legacy/reports/FBI/a9729a/index.htm",
+            "title": "Audit Report 97-29A",
+            "publisher": "U.S. Department of Justice, Office of Inspector General",
+            "language": "en",
+            "claim": "The DOJ Inspector General reports García Ábrego was sentenced to nine life terms after conviction on 22 counts.",
+            "publishedAt": "1997-01-31"
+          }
+        }
       ]
     },
     {
@@ -105,8 +122,38 @@
           "publisher": "U.S. Department of Justice",
           "language": "en",
           "claim": "DOJ-hosted history identifies him as García Ábrego’s successor at the Gulf organization."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:OsielCardenas-DEA.jpg",
+          "title": "Wikimedia Commons file description and license record",
+          "publisher": "Wikimedia Commons",
+          "language": "en",
+          "claim": "The file page credits Drug Enforcement Administration and marks the portrait public domain as a U.S. federal government work."
         }
-      ]
+      ],
+      "events": [
+        {
+          "id": "osiel-cardenas-guillen-2010-02-24-sentence",
+          "occurredAt": "2010-02-24",
+          "type": "sentence",
+          "title": "Sentenced to 25 years",
+          "summary": "DOJ reports Cárdenas Guillén was sentenced to 25 years after guilty pleas to drug trafficking, money laundering, and threats against federal agents.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2010%20February/022410%20Cardenas-Guillen.htm",
+            "title": "Osiel Cardenas-Guillen, Former Head of the Gulf Cartel, Sentenced to 25 Years Imprisonment",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports Cárdenas Guillén was sentenced to 25 years after guilty pleas to drug trafficking, money laundering, and threats against federal agents.",
+            "publishedAt": "2010-02-24"
+          }
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/OsielCardenas-DEA.jpg",
+        "credit": "Drug Enforcement Administration, via Wikimedia Commons",
+        "license": "Public domain (U.S. federal government work)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:OsielCardenas-DEA.jpg"
+      }
     },
     {
       "id": "antonio-ezequiel-cardenas-guillen",
@@ -148,6 +195,23 @@
       ],
       "aliases": [
         "Tony Tormenta"
+      ],
+      "events": [
+        {
+          "id": "antonio-ezequiel-cardenas-guillen-2010-11-05-development",
+          "occurredAt": "2010-11-05",
+          "type": "development",
+          "title": "Death reported by Mexican Navy",
+          "summary": "Mexico’s Navy reports that Cárdenas Guillén, known as Tony Tormenta, died on 5 November 2010.",
+          "source": {
+            "url": "https://2006-2012.semar.gob.mx/sala-prensa/comunicados-2010/1725-comunicado-300-2010.html",
+            "title": "Comunicado de Prensa 300/2010",
+            "publisher": "Secretaría de Marina-Armada de México",
+            "language": "es",
+            "claim": "Mexico’s Navy reports that Cárdenas Guillén, known as Tony Tormenta, died on 5 November 2010.",
+            "publishedAt": "2010-11-05"
+          }
+        }
       ]
     },
     {
@@ -186,6 +250,14 @@
           "language": "en",
           "claim": "Treasury names Costilla Sánchez and Antonio Ezequiel Cárdenas Guillén together as directors of Gulf Cartel trafficking in 2009.",
           "publishedAt": "2009-07-20"
+        },
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2247-comunicado-181-2012.html",
+          "title": "Comunicado de Prensa 181/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "publishedAt": "2012-09-13",
+          "claim": "Mexico’s Navy reports Costilla Sánchez was detained on 12 September 2012."
         }
       ],
       "aliases": [
@@ -193,6 +265,53 @@
         "El Cos",
         "Doble X",
         "Dos Equis"
+      ],
+      "events": [
+        {
+          "id": "jorge-eduardo-costilla-sanchez-2012-09-12-arrest",
+          "occurredAt": "2012-09-12",
+          "type": "arrest",
+          "title": "Detained by Mexican Navy",
+          "summary": "Mexico’s Navy reports Costilla Sánchez was detained on 12 September 2012.",
+          "source": {
+            "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2247-comunicado-181-2012.html",
+            "title": "Comunicado de Prensa 181/2012",
+            "publisher": "Secretaría de Marina-Armada de México",
+            "language": "es",
+            "publishedAt": "2012-09-13",
+            "claim": "Mexico’s Navy reports Costilla Sánchez was detained on 12 September 2012."
+          }
+        },
+        {
+          "id": "jorge-eduardo-costilla-sanchez-2017-09-26-conviction",
+          "occurredAt": "2017-09-26",
+          "type": "conviction",
+          "title": "Pleaded guilty to drug conspiracy",
+          "summary": "DOJ reports Costilla Sánchez pleaded guilty on 26 September 2017 to a cocaine and marijuana trafficking conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdtx/pr/former-head-gulf-cartel-receives-life-sentence-importing-kilos-drugs",
+            "title": "Former head of Gulf Cartel receives life sentence for importing kilos of drugs",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports Costilla Sánchez pleaded guilty on 26 September 2017 to a cocaine and marijuana trafficking conspiracy.",
+            "publishedAt": "2022-09-15"
+          }
+        },
+        {
+          "id": "jorge-eduardo-costilla-sanchez-2022-09-15-sentence",
+          "occurredAt": "2022-09-15",
+          "type": "sentence",
+          "title": "Life sentence imposed",
+          "summary": "A U.S. federal judge sentenced Costilla Sánchez to life in prison for his role in the trafficking conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdtx/pr/former-head-gulf-cartel-receives-life-sentence-importing-kilos-drugs",
+            "title": "Former head of Gulf Cartel receives life sentence for importing kilos of drugs",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "A U.S. federal judge sentenced Costilla Sánchez to life in prison for his role in the trafficking conspiracy.",
+            "publishedAt": "2022-09-15"
+          }
+        }
       ]
     },
     {
@@ -233,6 +352,22 @@
       ],
       "aliases": [
         "El Gordo"
+      ],
+      "events": [
+        {
+          "id": "mario-alberto-cardenas-guillen-2012-09-03-arrest",
+          "occurredAt": "2012-09-03",
+          "type": "arrest",
+          "title": "Detained by Mexican Navy",
+          "summary": "Mexico’s Navy reports Mario Cárdenas Guillén was detained on 3 September 2012 and described him as a presumed Gulf Cartel leader.",
+          "source": {
+            "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2238-comunicado-173-2012.html",
+            "title": "Comunicado de Prensa 173/2012",
+            "publisher": "Secretaría de Marina-Armada de México",
+            "language": "es",
+            "claim": "Mexico’s Navy reports Mario Cárdenas Guillén was detained on 3 September 2012 and described him as a presumed Gulf Cartel leader."
+          }
+        }
       ]
     },
     {
@@ -276,6 +411,37 @@
         "El Junior",
         "Commandante 900",
         "Rolex"
+      ],
+      "events": [
+        {
+          "id": "rafael-cardenas-vela-2012-03-12-conviction",
+          "occurredAt": "2012-03-12",
+          "type": "conviction",
+          "title": "Pleaded guilty to drug conspiracy",
+          "summary": "DOJ reports Cárdenas Vela pleaded guilty to participation in a long-running Gulf Cartel drug conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20March/120312%20Cardenas%20Vela.html",
+            "title": "Gulf Cartel Plaza Boss Convicted",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports Cárdenas Vela pleaded guilty to participation in a long-running Gulf Cartel drug conspiracy.",
+            "publishedAt": "2012-03-12"
+          }
+        },
+        {
+          "id": "rafael-cardenas-vela-2014-11-17-sentence",
+          "occurredAt": "2014-11-17",
+          "type": "sentence",
+          "title": "Sentenced to 20 years",
+          "summary": "A DOJ Inspector General report says Cárdenas Vela received a 20-year federal prison sentence.",
+          "source": {
+            "url": "https://oig.justice.gov/archives/reports/2015/a1509.pdf",
+            "title": "FY14 Reviews of the DOJ Annual Accounting of Drug Control Funds and Related Performance",
+            "publisher": "U.S. Department of Justice, Office of Inspector General",
+            "language": "en",
+            "claim": "A DOJ Inspector General report says Cárdenas Vela received a 20-year federal prison sentence."
+          }
+        }
       ]
     },
     {
@@ -311,6 +477,23 @@
       ],
       "aliases": [
         "El Contador"
+      ],
+      "events": [
+        {
+          "id": "jose-alfredo-cardenas-martinez-2021-11-10-charge",
+          "occurredAt": "2021-11-10",
+          "type": "charge",
+          "title": "Federal indictment returned",
+          "summary": "DOJ reports a grand jury returned a nine-count indictment against Cárdenas Martínez; the allegations are not a conviction.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdtx/pr/head-gulf-cartel-indicted",
+            "title": "Head of the Gulf Cartel indicted",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports a grand jury returned a nine-count indictment against Cárdenas Martínez; the allegations are not a conviction.",
+            "publishedAt": "2022-03-24"
+          }
+        }
       ]
     },
     {
@@ -351,6 +534,38 @@
           "claim": "DOJ reports testimony that Rincón Rincón rose through his association with Costilla Sánchez and that Rafael Cárdenas Vela testified about their association.",
           "publishedAt": "2012-09-28"
         }
+      ],
+      "events": [
+        {
+          "id": "juan-roberto-rincon-rincon-2012-09-28-conviction",
+          "occurredAt": "2012-09-28",
+          "type": "conviction",
+          "title": "Convicted by federal jury",
+          "summary": "DOJ reports a jury convicted Rincón Rincón on all counts in a drug trafficking conspiracy case.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20September/120928%20Rincon-Rincon_print.html",
+            "title": "Gulf Cartel Member Convicted on All Counts in Drug Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports a jury convicted Rincón Rincón on all counts in a drug trafficking conspiracy case.",
+            "publishedAt": "2012-09-28"
+          }
+        },
+        {
+          "id": "juan-roberto-rincon-rincon-2013-05-14-sentence",
+          "occurredAt": "2013-05-14",
+          "type": "sentence",
+          "title": "Life sentence imposed",
+          "summary": "DOJ reports a federal judge sentenced Rincón Rincón to life in prison.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdtx/pr/gulf-cartel-plaza-boss-heads-prison-life",
+            "title": "Gulf Cartel Plaza Boss Heads To Prison For Life",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports a federal judge sentenced Rincón Rincón to life in prison.",
+            "publishedAt": "2013-05-14"
+          }
+        }
       ]
     },
     {
@@ -387,6 +602,23 @@
           "claim": "DOJ says his earlier assault conviction arose from actions directed by then Gulf Cartel leader Osiel Cárdenas Guillén.",
           "publishedAt": "2012-04-23"
         }
+      ],
+      "events": [
+        {
+          "id": "juan-carlos-de-la-cruz-reyna-2012-10-10-sentence",
+          "occurredAt": "2012-10-10",
+          "type": "sentence",
+          "title": "Sentenced in bribery case",
+          "summary": "DOJ reports de la Cruz Reyna received a 135-month federal sentence after his bribery conviction.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20October/121010%20De%20La%20Cruz%20Reyna%20et%20al.html",
+            "title": "Gulf Cartel Figure and Five Others Sentenced to Prison in Bribery Scheme",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports de la Cruz Reyna received a 135-month federal sentence after his bribery conviction.",
+            "publishedAt": "2012-10-10"
+          }
+        }
       ]
     },
     {
@@ -417,6 +649,23 @@
           "language": "en",
           "claim": "DOJ reports Sáenz Tamez pleaded guilty to cocaine and marijuana offenses and received a 30-year sentence; it describes him as head of the Gulf Cartel at the time.",
           "publishedAt": "2015-06-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-francisco-saenz-tamez-2015-06-30-sentence",
+          "occurredAt": "2015-06-30",
+          "type": "sentence",
+          "title": "Sentenced to 30 years",
+          "summary": "DOJ reports Sáenz Tamez received a 30-year federal prison sentence after pleading guilty to cocaine and marijuana trafficking and money laundering charges.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edtx/pr/head-gulf-cartel-sentenced-federal-prison-drug-trafficking",
+            "title": "Head of the Gulf Cartel Sentenced to Federal Prison for Drug Trafficking",
+            "publisher": "U.S. Department of Justice, Eastern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports Sáenz Tamez received a 30-year federal prison sentence after pleading guilty to cocaine and marijuana trafficking and money laundering charges.",
+            "publishedAt": "2015-06-30"
+          }
         }
       ]
     }

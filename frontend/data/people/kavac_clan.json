@@ -1,0 +1,713 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from Montenegrin appellate and trial outcomes reported by Vijesti, Serbian Interior Ministry statements carried by RTS, and Europol. June 2026 convictions are final; July 2026 convictions are first-instance and may be appealed. The Vračar clan is a separately named sub-clan per Europol, not an interchangeable name for the entire Kavač clan. Publicly named defendants and senior figures only; allegations are labeled, country-level historical associations only, no operational routes or enforcement gaps, no photos without verified reuse rights.",
+  "organizations": [
+    {
+      "id": "kavac-clan",
+      "name": "Kavač clan",
+      "aliases": [
+        "Kavački klan",
+        "Kavac clan"
+      ],
+      "regions": [
+        "MNE",
+        "SRB"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "Vijesti reports the Montenegrin Court of Appeal upheld convictions for the criminal organization led by Radoje Zvicer and identifies it as the Kavač clan."
+        },
+        {
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/two-key-figures-of-notorious-serbian-clan-arrested-in-barcelona",
+          "title": "Two key figures of notorious Serbian clan arrested in Barcelona",
+          "publisher": "Europol",
+          "language": "English",
+          "publishedAt": "2024-10-25",
+          "claim": "Europol describes the Vračar clan as a sub-clan of Kavač."
+        }
+      ]
+    },
+    {
+      "id": "vracar-clan",
+      "name": "Vračar clan",
+      "aliases": [
+        "Vračarci",
+        "Vračarski klan"
+      ],
+      "regions": [
+        "SRB"
+      ],
+      "sources": [
+        {
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/two-key-figures-of-notorious-serbian-clan-arrested-in-barcelona",
+          "title": "Two key figures of notorious Serbian clan arrested in Barcelona",
+          "publisher": "Europol",
+          "language": "English",
+          "publishedAt": "2024-10-25",
+          "claim": "Europol explicitly describes the Serbian Vračar clan as a sub-clan of the Kavač clan."
+        },
+        {
+          "url": "https://www.rts.rs/lat/vesti/hronika/5562763/uhapsen-nikola-filipovic.html",
+          "title": "Dačić: U Barseloni uhapšen član kriminalne grupe Vračarci Nikola Filipović",
+          "publisher": "Radio-televizija Srbije / Serbian Ministry of Interior",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2024-10-23",
+          "claim": "Serbian Interior Ministry statement names Vračarci as the organization led by Nikola Vušović."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "radoje-zvicer",
+      "name": "Radoje Zvicer",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Kavač clan organizer; final June conviction and separate July first-instance conviction",
+      "prominence": 1,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "Montenegrin Court of Appeal confirmed Zvicer as organizer of a criminal group and upheld his 16-year sentence for criminal organization and cocaine trafficking."
+        },
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a separate, non-final July 2026 first-instance conviction of Zvicer and a 40-year sentence."
+        }
+      ]
+    },
+    {
+      "id": "slobodan-kascelan",
+      "name": "Slobodan Kašćelan",
+      "status": "convicted",
+      "statusAsOf": "2026-06-09",
+      "roleLabel": "Senior Kavač figure convicted in Zvicer organization case",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The Montenegrin Court of Appeal confirmed the conviction of Kašćelan, with a 13-year sentence for criminal organization and cocaine trafficking in June 2026."
+        }
+      ]
+    },
+    {
+      "id": "igor-bozovic",
+      "name": "Igor Božović",
+      "status": "convicted",
+      "statusAsOf": "2026-06-09",
+      "roleLabel": "Senior Kavač figure convicted in Zvicer organization case",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The Montenegrin Court of Appeal confirmed the conviction of Božović, with a 13-year sentence for criminal organization and cocaine trafficking in June 2026."
+        }
+      ]
+    },
+    {
+      "id": "milan-vujotic",
+      "name": "Milan Vujotić",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Member of Zvicer organization in two separate court cases",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The Montenegrin Court of Appeal confirmed the conviction of Vujotić, with an 11-year sentence for criminal organization and cocaine trafficking in June 2026."
+        },
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Vujotić; Vijesti reports a nine-year sentence in that separate case in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "dragan-knezevic",
+      "name": "Dragan Knežević",
+      "status": "convicted",
+      "statusAsOf": "2026-06-09",
+      "roleLabel": "Member of Zvicer organization convicted in final appellate judgment",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The Montenegrin Court of Appeal confirmed the conviction of Knežević, with an 11-year sentence for criminal organization and cocaine trafficking in June 2026."
+        }
+      ]
+    },
+    {
+      "id": "petar-lazovic",
+      "name": "Petar Lazović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Former security-service operative convicted at first instance of membership in Kavač-linked organization",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports Lazović was convicted at first instance and sentenced to 20 years for participation in the Kavač criminal organization; the judgment was not final."
+        },
+        {
+          "url": "https://rtcg.me/hronika/363080/objavljeni-transkripti-kako-su-lazovic-i-milovic-dogovarali-sverc-kokaina.html",
+          "title": "Objavljeni transkripti kako su Lazović i Milović dogovarali šverc kokaina",
+          "publisher": "Radio Televizija Crne Gore",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2022-05-16",
+          "claim": "RTCG reports Europol records identified Lazović as an alleged Kavač member in 2022; that historical intelligence assessment was an allegation."
+        }
+      ]
+    },
+    {
+      "id": "ljubo-milovic",
+      "name": "Ljubo Milović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Former police officer convicted at first instance in Kavač-linked organization case",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports Milović was convicted at first instance and sentenced to 19 years in the Kavač-linked organization case; the judgment was not final."
+        },
+        {
+          "url": "https://rtcg.me/hronika/363080/objavljeni-transkripti-kako-su-lazovic-i-milovic-dogovarali-sverc-kokaina.html",
+          "title": "Objavljeni transkripti kako su Lazović i Milović dogovarali šverc kokaina",
+          "publisher": "Radio Televizija Crne Gore",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2022-05-16",
+          "claim": "RTCG reports Europol records identified Milović as an alleged Kavač member in 2022; that historical intelligence assessment was an allegation."
+        }
+      ]
+    },
+    {
+      "id": "radovan-mujovic",
+      "name": "Radovan Mujović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Mujović; Vijesti reports a ten-year sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "radovan-pantovic",
+      "name": "Radovan Pantović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Pantović; Vijesti reports a ten-year sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "niksa-perovic",
+      "name": "Nikša Perović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Perović; Vijesti reports a six-year sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "petar-mujovic",
+      "name": "Petar Mujović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Petar Mujović; Vijesti reports a seven-year sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "radoje-zivkovic",
+      "name": "Radoje Živković",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Živković; Vijesti reports a seven-year, nine-month sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "nikola-spasojevic",
+      "name": "Nikola Spasojević",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Spasojević; Vijesti reports a nine-year, three-month sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "dusko-roganovic",
+      "name": "Duško Roganović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Roganović; Vijesti reports an eight-year, three-month sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "nikola-vusovic",
+      "name": "Nikola Vušović",
+      "status": "reported",
+      "statusAsOf": "2024-10-25",
+      "roleLabel": "Suspected leader of the Vračar sub-clan",
+      "prominence": 2,
+      "organizationIds": [
+        "vracar-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "SRB",
+          "label": "Serbia"
+        },
+        {
+          "iso3": "ESP",
+          "label": "Spain"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.rts.rs/lat/vesti/hronika/5562763/uhapsen-nikola-filipovic.html",
+          "title": "Dačić: U Barseloni uhapšen član kriminalne grupe Vračarci Nikola Filipović",
+          "publisher": "Radio-televizija Srbije / Serbian Ministry of Interior",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2024-10-23",
+          "claim": "Serbian Interior Ministry statement identifies Vušović as the suspected organizer of Vračarci and reports his October 2024 arrest."
+        },
+        {
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/two-key-figures-of-notorious-serbian-clan-arrested-in-barcelona",
+          "title": "Two key figures of notorious Serbian clan arrested in Barcelona",
+          "publisher": "Europol",
+          "language": "English",
+          "publishedAt": "2024-10-25",
+          "claim": "Europol describes the arrested Vračar leader as a senior figure of a Kavač sub-clan; this source does not name him."
+        }
+      ],
+      "aliases": [
+        "Džoni sa Vračara"
+      ]
+    },
+    {
+      "id": "nikola-filipovic",
+      "name": "Nikola Filipović",
+      "status": "reported",
+      "statusAsOf": "2024-10-23",
+      "roleLabel": "Reported Vračar clan deputy and Vušović associate",
+      "prominence": 3,
+      "organizationIds": [
+        "vracar-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "SRB",
+          "label": "Serbia"
+        },
+        {
+          "iso3": "ESP",
+          "label": "Spain"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.rts.rs/lat/vesti/hronika/5562763/uhapsen-nikola-filipovic.html",
+          "title": "Dačić: U Barseloni uhapšen član kriminalne grupe Vračarci Nikola Filipović",
+          "publisher": "Radio-televizija Srbije / Serbian Ministry of Interior",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2024-10-23",
+          "claim": "Serbian Interior Ministry statement identifies Filipović as a Vračarci member and the right-hand man of Nikola Vušović, reporting his October 2024 arrest."
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "zvicer-slobodan-kascelan",
+      "fromId": "radoje-zvicer",
+      "toId": "slobodan-kascelan",
+      "type": "led_group_member",
+      "label": "Organizer and convicted group member",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The final appellate judgment names Zvicer as organizer, names Kašćelan among convicted group members, and says Zvicer assigned tasks to members."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-igor-bozovic",
+      "fromId": "radoje-zvicer",
+      "toId": "igor-bozovic",
+      "type": "led_group_member",
+      "label": "Organizer and convicted group member",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The final appellate judgment names Zvicer as organizer, names Božović among convicted group members, and says Zvicer assigned tasks to members."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-milan-vujotic",
+      "fromId": "radoje-zvicer",
+      "toId": "milan-vujotic",
+      "type": "led_group_member",
+      "label": "Organizer and convicted group member",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The final appellate judgment names Zvicer as organizer, names Vujotić among convicted group members, and says Zvicer assigned tasks to members."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-dragan-knezevic",
+      "fromId": "radoje-zvicer",
+      "toId": "dragan-knezevic",
+      "type": "led_group_member",
+      "label": "Organizer and convicted group member",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The final appellate judgment names Zvicer as organizer, names Knežević among convicted group members, and says Zvicer assigned tasks to members."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-petar-lazovic-first-instance",
+      "fromId": "radoje-zvicer",
+      "toId": "petar-lazovic",
+      "type": "first_instance_group_link",
+      "label": "Linked in separate first-instance group judgment",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "The July first-instance judgment names Zvicer as organization head and convicts Lazović for involvement in that same organization; this judgment is not final."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-ljubo-milovic-first-instance",
+      "fromId": "radoje-zvicer",
+      "toId": "ljubo-milovic",
+      "type": "first_instance_group_link",
+      "label": "Linked in separate first-instance group judgment",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "The July first-instance judgment names Zvicer as organization head and convicts Milović for involvement in that same organization; this judgment is not final."
+        }
+      ]
+    },
+    {
+      "id": "lazovic-milovic-coordination",
+      "fromId": "petar-lazovic",
+      "toId": "ljubo-milovic",
+      "type": "documented_collaboration",
+      "label": "Communicated in records reviewed by Europol",
+      "sources": [
+        {
+          "url": "https://rtcg.me/hronika/363080/objavljeni-transkripti-kako-su-lazovic-i-milovic-dogovarali-sverc-kokaina.html",
+          "title": "Objavljeni transkripti kako su Lazović i Milović dogovarali šverc kokaina",
+          "publisher": "Radio Televizija Crne Gore",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2022-05-16",
+          "claim": "RTCG reports Europol-reviewed messages in which Lazović and Milović directly discussed alleged drug trafficking together; the 2022 report treated this as an allegation."
+        }
+      ]
+    },
+    {
+      "id": "vusovic-filipovic-deputy",
+      "fromId": "nikola-vusovic",
+      "toId": "nikola-filipovic",
+      "type": "deputy_of",
+      "label": "Right-hand associate",
+      "sources": [
+        {
+          "url": "https://www.rts.rs/lat/vesti/hronika/5562763/uhapsen-nikola-filipovic.html",
+          "title": "Dačić: U Barseloni uhapšen član kriminalne grupe Vračarci Nikola Filipović",
+          "publisher": "Radio-televizija Srbije / Serbian Ministry of Interior",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2024-10-23",
+          "claim": "Serbian Interior Ministry directly identifies Filipović as Vušović’s right-hand man in Vračarci."
+        }
+      ]
+    }
+  ]
+}

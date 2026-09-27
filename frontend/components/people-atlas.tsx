@@ -5,7 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Search, ZoomIn, ZoomOut } from "lucide-react";
 import * as maplibregl from "maplibre-gl";
 import { loadPeople, loadPersonNetwork } from "@/lib/people-api";
-import type { PeopleCountry, PeopleDataset, Person, PersonStatus } from "@/lib/people-types";
+import type { PeopleCountry, PeopleDataset, Person, PersonEvent, PersonEventType, PersonStatus } from "@/lib/people-types";
 import { PeopleGraph } from "./people-graph";
 import "./people-atlas.css";
 
@@ -15,6 +15,28 @@ const STATUS_LABEL: Record<PersonStatus, string> = {
   sanctioned: "Sanctioned",
   reported: "Reported by cited source",
 };
+
+const EVENT_LABEL: Record<PersonEventType, string> = {
+  arrest: "Arrest",
+  charge: "Charge",
+  conviction: "Conviction",
+  sentence: "Sentence",
+  sanction: "Sanction",
+  development: "Development",
+};
+
+function PeopleEventTimeline({ events }: { events: PersonEvent[] }) {
+  if (!events.length) return <p className="people-events-empty">No dated event history has been verified for this record yet.</p>;
+  return <section className="people-events" aria-label="Documented event history">
+    <h3>Documented history</h3>
+    <ol>{events.map((event) => <li key={event.id}>
+      <div className="people-event-meta"><time dateTime={event.occurredAt}>{event.occurredAt}</time><span>{EVENT_LABEL[event.type]}</span></div>
+      <strong>{event.title}</strong>
+      <p>{event.summary}</p>
+      <a href={event.source.url} target="_blank" rel="noreferrer">{event.source.publisher}: {event.source.title}</a>
+    </li>)}</ol>
+  </section>;
+}
 
 interface PeopleAtlasProps {
   countries: PeopleCountry[];
@@ -131,7 +153,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   }, [selectedId]);
 
   const people = dataset?.people ?? [];
-  const selected = people.find((person) => person.id === selectedId) ?? network?.people.find((person) => person.id === selectedId) ?? null;
+  const selected = network?.people.find((person) => person.id === selectedId) ?? people.find((person) => person.id === selectedId) ?? null;
   const countryById = useMemo(() => new Map(countries.map((country) => [country.iso3, country])), [countries]);
   const organizations = useMemo(() => new Map((dataset?.organizations ?? []).map((item) => [item.id, item])), [dataset]);
   const searchable = query.trim().toLocaleLowerCase();
@@ -288,14 +310,15 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
           {!!selected.drugs.length && <p>Source topics: {selected.drugs.join(", ")}</p>}
       {selected.roleLabel && <p className="people-role-attribution">Role description attributed to the cited sources.</p>}
       {!!selected.organizationIds.length && <div className="people-orgs"><h3>Source-reported organization associations</h3>{selected.organizationIds.map((id) => organizations.get(id)?.name).filter(Boolean).map((name) => <span key={name}>{name}</span>)}</div>}
-          {selected.photo && <p className="people-photo-credit">Photo: {selected.photo.credit} · {selected.photo.license}</p>}
+          {selected.photo && <figure className="people-portrait"><img src={selected.photo.url} alt={`Portrait of ${selected.name}`} loading="lazy" /><figcaption>Photo: {selected.photo.credit} · {selected.photo.license} · <a href={selected.photo.sourceUrl} target="_blank" rel="noreferrer">license record</a></figcaption></figure>}
+          <PeopleEventTimeline events={selected.events ?? []} />
           <div className="people-sources"><h3>Sources</h3>{selected.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><strong>{source.title}</strong><span>{source.publisher} · {source.language}{source.publishedAt ? ` · ${source.publishedAt}` : ""}</span><small>{source.claim}</small></a>)}</div>
           <p className="people-caution people-detail-caution">A listed connection is a source claim, not proof of guilt.</p>
         </> : <div className="people-detail-empty">Select a person marker or record to review status and sources.</div>}
       </aside>
     </div> : <div className="people-graph-panel">
       {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
-      {selected && <div className="people-graph-status"><span className={`people-status status-${selected.status}`}>{STATUS_LABEL[selected.status]}</span><span>{selected.name}{selected.statusAsOf ? ` · as of ${selected.statusAsOf}` : ""}</span></div>}
+      {selected && <><div className="people-graph-status"><span className={`people-status status-${selected.status}`}>{STATUS_LABEL[selected.status]}</span><span>{selected.name}{selected.statusAsOf ? ` · as of ${selected.statusAsOf}` : ""}</span></div><PeopleEventTimeline events={selected.events ?? []} /></>}
     </div>}
     <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. The fixture is a small curated sample.</footer>
   </section>;

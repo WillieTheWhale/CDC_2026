@@ -4,8 +4,12 @@
     {
       "id": "pcc",
       "name": "Primeiro Comando da Capital",
-      "aliases": ["PCC"],
-      "regions": ["BRA"],
+      "aliases": [
+        "PCC"
+      ],
+      "regions": [
+        "BRA"
+      ],
       "sources": [
         {
           "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pr/noticias/caso-belarmino-justica-condena-a-44-anos-de-prisao-mandante-do-assassinato-contra-agente-penitenciario-no-parana",
@@ -22,13 +26,22 @@
     {
       "id": "marcos-willians-herbas-camacho",
       "name": "Marcos Willians Herbas Camacho",
-      "aliases": ["Marcola"],
+      "aliases": [
+        "Marcola"
+      ],
       "status": "convicted",
       "statusAsOf": "2013-04-11",
       "roleLabel": "PCC leader; convicted in the murder of a judge",
       "prominence": 1,
-      "organizationIds": ["pcc"],
-      "regions": [{"iso3": "BRA", "label": "Brazil"}],
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -47,18 +60,45 @@
           "publishedAt": "2026-08-05",
           "claim": "The Supreme Court identifies Marcola as a PCC leader when describing Fuminho's connection to him."
         }
+      ],
+      "events": [
+        {
+          "id": "marcos-willians-herbas-camacho-2013-04-11-conviction",
+          "occurredAt": "2013-04-11",
+          "type": "conviction",
+          "title": "Murder conviction upheld",
+          "summary": "The São Paulo court denied Camacho’s appeal and upheld his 29-year sentence for the murder of judge Antonio José Machado Dias.",
+          "source": {
+            "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=17874",
+            "title": "TJSP mantém condenação de Marcos Camacho pela morte de juiz de Presidente Prudente",
+            "publisher": "Tribunal de Justiça do Estado de São Paulo",
+            "language": "pt",
+            "publishedAt": "2013-04-11",
+            "claim": "The São Paulo court denied Camacho’s appeal and upheld his 29-year sentence for the murder of judge Antonio José Machado Dias."
+          }
+        }
       ]
     },
     {
       "id": "julio-cesar-guedes-de-moraes",
       "name": "Júlio César Guedes de Moraes",
-      "aliases": ["Julinho Carambola", "Carambola"],
+      "aliases": [
+        "Julinho Carambola",
+        "Carambola"
+      ],
       "status": "convicted",
       "statusAsOf": "2013-06-27",
       "roleLabel": "Former PCC leader; convicted in the murder of a judge",
       "prominence": 2,
-      "organizationIds": ["pcc"],
-      "regions": [{"iso3": "BRA", "label": "Brazil"}],
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -76,18 +116,44 @@
           "language": "pt",
           "claim": "The court identifies Moraes and Marcola as PCC leaders charged together in a separate case; this source does not establish a conviction in that case."
         }
+      ],
+      "events": [
+        {
+          "id": "julio-cesar-guedes-de-moraes-2013-06-27-conviction",
+          "occurredAt": "2013-06-27",
+          "type": "conviction",
+          "title": "Murder conviction upheld",
+          "summary": "The São Paulo court denied Moraes’s appeal of his 29-year sentence in the same judge-murder case.",
+          "source": {
+            "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=18813&pagina=2050",
+            "title": "Autor intelectual de homicídio de magistrado tem recurso negado",
+            "publisher": "Tribunal de Justiça do Estado de São Paulo",
+            "language": "pt",
+            "publishedAt": "2013-06-27",
+            "claim": "The São Paulo court denied Moraes’s appeal of his 29-year sentence in the same judge-murder case."
+          }
+        }
       ]
     },
     {
       "id": "gilberto-aparecido-dos-santos",
       "name": "Gilberto Aparecido dos Santos",
-      "aliases": ["Fuminho"],
+      "aliases": [
+        "Fuminho"
+      ],
       "status": "convicted",
       "statusAsOf": "2026-08-05",
       "roleLabel": "PCC senior figure; convicted at first instance for drug offenses",
       "prominence": 2,
-      "organizationIds": ["pcc"],
-      "regions": [{"iso3": "BRA", "label": "Brazil"}],
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -106,6 +172,23 @@
           "publishedAt": "2018-08-21",
           "claim": "The Ceará court gives Fuminho's fuller name as Gilberto Aparecido dos Santos and reports a homicide charge; this is an allegation, not a conviction in that case."
         }
+      ],
+      "events": [
+        {
+          "id": "gilberto-aparecido-dos-santos-2026-08-05-development",
+          "occurredAt": "2026-08-05",
+          "type": "development",
+          "title": "Sentence reduction request rejected",
+          "summary": "Brazil’s Supreme Court rejected a habeas corpus request to reduce Santos’s first-instance sentence; the underlying drug convictions were reported separately from this ruling.",
+          "source": {
+            "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/",
+            "title": "STF rejeita pedido para reduzir pena de integrante da cúpula do PCC",
+            "publisher": "Supremo Tribunal Federal",
+            "language": "pt",
+            "publishedAt": "2026-08-05",
+            "claim": "Brazil’s Supreme Court rejected a habeas corpus request to reduce Santos’s first-instance sentence; the underlying drug convictions were reported separately from this ruling."
+          }
+        }
       ]
     },
     {
@@ -115,8 +198,15 @@
       "statusAsOf": "2025-06-11",
       "roleLabel": "Former PCC leader; convicted in the Belarmino murder case",
       "prominence": 2,
-      "organizationIds": ["pcc"],
-      "regions": [{"iso3": "BRA", "label": "Brazil"}],
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -127,18 +217,44 @@
           "publishedAt": "2025-06-11",
           "claim": "Federal prosecutors report Soriano, described as a former PCC leader, was convicted and sentenced to 44 years and eight months for ordering an agent's murder and for participation in a criminal organization."
         }
+      ],
+      "events": [
+        {
+          "id": "roberto-soriano-2025-06-09-sentence",
+          "occurredAt": "2025-06-09",
+          "type": "sentence",
+          "title": "Sentenced in Belarmino case",
+          "summary": "Federal prosecutors report that a jury sentenced former PCC leader Roberto Soriano to 44 years and eight months for ordering the murder of a prison agent and participation in a criminal organization.",
+          "source": {
+            "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pr/noticias/caso-belarmino-justica-condena-a-44-anos-de-prisao-mandante-do-assassinato-contra-agente-penitenciario-no-parana",
+            "title": "Caso Belarmino: Justiça condena a 44 anos de prisão mandante do assassinato contra agente penitenciário no Paraná",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "publishedAt": "2025-06-11",
+            "claim": "Federal prosecutors report that a jury sentenced former PCC leader Roberto Soriano to 44 years and eight months for ordering the murder of a prison agent and participation in a criminal organization."
+          }
+        }
       ]
     },
     {
       "id": "rogerio-jeremias-de-simone",
       "name": "Rogério Jeremias de Simone",
-      "aliases": ["Gegê do Mangue"],
+      "aliases": [
+        "Gegê do Mangue"
+      ],
       "status": "reported",
       "statusAsOf": "2018-08-21",
       "roleLabel": "PCC leader reported killed in 2018",
       "prominence": 2,
-      "organizationIds": ["pcc"],
-      "regions": [{"iso3": "BRA", "label": "Brazil"}],
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -154,13 +270,22 @@
     {
       "id": "fabiano-alves-de-souza",
       "name": "Fabiano Alves de Souza",
-      "aliases": ["Paca"],
+      "aliases": [
+        "Paca"
+      ],
       "status": "reported",
       "statusAsOf": "2018-08-21",
       "roleLabel": "PCC leader reported killed in 2018",
       "prominence": 2,
-      "organizationIds": ["pcc"],
-      "regions": [{"iso3": "BRA", "label": "Brazil"}],
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
       "drugs": [],
       "sources": [
         {

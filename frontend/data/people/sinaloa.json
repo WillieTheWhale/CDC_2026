@@ -4,8 +4,13 @@
     {
       "id": "sinaloa-cartel",
       "name": "Sinaloa Cartel",
-      "aliases": ["Cartel de Sinaloa", "Cártel de Sinaloa"],
-      "regions": ["MEX"],
+      "aliases": [
+        "Cartel de Sinaloa",
+        "Cártel de Sinaloa"
+      ],
+      "regions": [
+        "MEX"
+      ],
       "sources": [
         {
           "url": "https://home.treasury.gov/news/press-releases/sb0161",
@@ -28,8 +33,12 @@
     {
       "id": "los-chapitos",
       "name": "Los Chapitos",
-      "aliases": ["Los Menores"],
-      "regions": ["MEX"],
+      "aliases": [
+        "Los Menores"
+      ],
+      "regions": [
+        "MEX"
+      ],
       "sources": [
         {
           "url": "https://home.treasury.gov/news/press-releases/sb0161",
@@ -52,8 +61,12 @@
     {
       "id": "la-mayiza",
       "name": "La Mayiza",
-      "aliases": ["La Mayiza faction"],
-      "regions": ["MEX"],
+      "aliases": [
+        "La Mayiza faction"
+      ],
+      "regions": [
+        "MEX"
+      ],
       "sources": [
         {
           "url": "https://elpais.com/mexico/2025-02-21/mexico-estrecha-el-cerco-sobre-los-chapitos.html",
@@ -70,14 +83,33 @@
     {
       "id": "joaquin-guzman-loera",
       "name": "Joaquín Archivaldo Guzmán Loera",
-      "aliases": ["El Chapo", "El Rapido"],
+      "aliases": [
+        "El Chapo",
+        "El Rapido"
+      ],
       "status": "convicted",
       "statusAsOf": "2019-07-17",
       "roleLabel": "Former principal leader of the Sinaloa Cartel",
       "prominence": 1,
-      "organizationIds": ["sinaloa-cartel"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}, {"iso3": "USA", "label": "United States"}],
-      "drugs": ["cocaine", "heroin", "methamphetamine", "cannabis"],
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "cannabis"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/archives/opa/pr/joaquin-el-chapo-guzman-sinaloa-cartel-leader-sentenced-life-prison-plus-30-years",
@@ -87,19 +119,54 @@
           "publishedAt": "2019-07-17",
           "claim": "DOJ reports Guzmán Loera was convicted and sentenced to life plus 30 years as a principal leader of the Sinaloa Cartel."
         }
+      ],
+      "events": [
+        {
+          "id": "joaquin-guzman-loera-2019-07-17-sentence",
+          "occurredAt": "2019-07-17",
+          "type": "sentence",
+          "title": "Life sentence imposed",
+          "summary": "DOJ reports Guzmán Loera was sentenced to life imprisonment plus 30 years following his conviction as a Sinaloa Cartel leader.",
+          "source": {
+            "url": "https://www.justice.gov/archives/opa/pr/joaquin-el-chapo-guzman-sinaloa-cartel-leader-sentenced-life-prison-plus-30-years",
+            "title": "Joaquin “El Chapo” Guzman, Sinaloa Cartel Leader, Sentenced to Life in Prison Plus 30 Years",
+            "publisher": "U.S. Department of Justice, Office of Public Affairs",
+            "language": "English",
+            "publishedAt": "2019-07-17",
+            "claim": "DOJ reports Guzmán Loera was sentenced to life imprisonment plus 30 years following his conviction as a Sinaloa Cartel leader."
+          }
+        }
       ]
     },
     {
       "id": "ismael-zambada-garcia",
       "name": "Ismael Zambada García",
-      "aliases": ["El Mayo"],
+      "aliases": [
+        "El Mayo"
+      ],
       "status": "convicted",
       "statusAsOf": "2026-07-20",
       "roleLabel": "Co-founder and former principal leader of the Sinaloa Cartel",
       "prominence": 1,
-      "organizationIds": ["sinaloa-cartel"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}, {"iso3": "USA", "label": "United States"}],
-      "drugs": ["cocaine", "heroin", "methamphetamine", "fentanyl"],
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-sdfl/pr/co-founder-sinaloa-cartel-ismael-el-mayo-zambada-garcia-sentenced-life-prison-engaging",
@@ -108,20 +175,66 @@
           "language": "English",
           "publishedAt": "2026-07-20",
           "claim": "DOJ reports Zambada García was sentenced to life for his role as the principal leader of the Sinaloa Cartel; the release describes cocaine, heroin, fentanyl, and other drugs in the enterprise."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Mayo_Zambada_(cropped).jpg",
+          "title": "Wikimedia Commons file description and license record",
+          "publisher": "Wikimedia Commons",
+          "language": "en",
+          "claim": "The file page credits Drug Enforcement Administration and marks the portrait public domain as a U.S. federal government work."
         }
-      ]
+      ],
+      "events": [
+        {
+          "id": "ismael-zambada-garcia-2026-07-20-sentence",
+          "occurredAt": "2026-07-20",
+          "type": "sentence",
+          "title": "Life sentence imposed",
+          "summary": "DOJ reports Zambada García was sentenced to life imprisonment for his role leading the Sinaloa Cartel and related drug offenses.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdfl/pr/co-founder-sinaloa-cartel-ismael-el-mayo-zambada-garcia-sentenced-life-prison-engaging",
+            "title": "Co-Founder of Sinaloa Cartel, Ismael “El Mayo” Zambada Garcia, Sentenced to Life in Prison for Engaging in a Continuing Criminal Enterprise and Other Drug-Related Charges",
+            "publisher": "U.S. Department of Justice, Southern District of Florida",
+            "language": "English",
+            "publishedAt": "2026-07-20",
+            "claim": "DOJ reports Zambada García was sentenced to life imprisonment for his role leading the Sinaloa Cartel and related drug offenses."
+          }
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mayo_Zambada_%28cropped%29.jpg",
+        "credit": "Drug Enforcement Administration, via Wikimedia Commons",
+        "license": "Public domain (U.S. federal government work)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mayo_Zambada_(cropped).jpg"
+      }
     },
     {
       "id": "ivan-archivaldo-guzman-salazar",
       "name": "Iván Archivaldo Guzmán Salazar",
-      "aliases": ["Iván", "Chapito"],
+      "aliases": [
+        "Iván",
+        "Chapito"
+      ],
       "status": "charged",
       "statusAsOf": "2025-12-02",
       "roleLabel": "Fugitive leader of Los Chapitos",
       "prominence": 2,
-      "organizationIds": ["sinaloa-cartel", "los-chapitos"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}],
-      "drugs": ["cocaine", "heroin", "methamphetamine", "fentanyl"],
+      "organizationIds": [
+        "sinaloa-cartel",
+        "los-chapitos"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
@@ -144,14 +257,30 @@
     {
       "id": "jesus-alfredo-guzman-salazar",
       "name": "Jesús Alfredo Guzmán Salazar",
-      "aliases": ["Alfredo", "El Alfredillo"],
+      "aliases": [
+        "Alfredo",
+        "El Alfredillo"
+      ],
       "status": "charged",
       "statusAsOf": "2025-12-02",
       "roleLabel": "Fugitive leader of Los Chapitos",
       "prominence": 2,
-      "organizationIds": ["sinaloa-cartel", "los-chapitos"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}],
-      "drugs": ["cocaine", "heroin", "methamphetamine", "fentanyl"],
+      "organizationIds": [
+        "sinaloa-cartel",
+        "los-chapitos"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
@@ -174,14 +303,35 @@
     {
       "id": "ovidio-guzman-lopez",
       "name": "Ovidio Guzmán López",
-      "aliases": ["Ovidio", "El Ratón", "Raton"],
+      "aliases": [
+        "Ovidio",
+        "El Ratón",
+        "Raton"
+      ],
       "status": "convicted",
       "statusAsOf": "2025-07-11",
       "roleLabel": "Former head of the Sinaloa Cartel and Los Chapitos leader",
       "prominence": 2,
-      "organizationIds": ["sinaloa-cartel", "los-chapitos"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}, {"iso3": "USA", "label": "United States"}],
-      "drugs": ["cocaine", "heroin", "methamphetamine", "fentanyl"],
+      "organizationIds": [
+        "sinaloa-cartel",
+        "los-chapitos"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-ndil/pr/ovidio-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
@@ -190,20 +340,70 @@
           "language": "English",
           "publishedAt": "2025-07-11",
           "claim": "DOJ states that Ovidio Guzmán López pleaded guilty to federal drug charges, describes him as one of the cartel heads, and says he was detained in U.S. custody."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Wanted_Poster,_Ovidio_Guzm%C3%A1n_L%C3%B3pez_(cropped).jpg",
+          "title": "Wikimedia Commons file description and license record",
+          "publisher": "Wikimedia Commons",
+          "language": "en",
+          "claim": "The file page credits Homeland Security Investigations / U.S. Department of State and marks the portrait public domain as a U.S. federal government work."
         }
-      ]
+      ],
+      "events": [
+        {
+          "id": "ovidio-guzman-lopez-2025-07-11-conviction",
+          "occurredAt": "2025-07-11",
+          "type": "conviction",
+          "title": "Pleaded guilty to federal drug charges",
+          "summary": "DOJ reports Ovidio Guzmán López pleaded guilty to federal drug charges in Chicago.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndil/pr/ovidio-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+            "title": "Ovidio Guzman Lopez—Son of “El Chapo” and a Head of Sinaloa Cartel—Pleads Guilty to Federal Drug Charges in Chicago",
+            "publisher": "U.S. Department of Justice, Northern District of Illinois",
+            "language": "English",
+            "publishedAt": "2025-07-11",
+            "claim": "DOJ reports Ovidio Guzmán López pleaded guilty to federal drug charges in Chicago."
+          }
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Wanted_Poster%2C_Ovidio_Guzm%C3%A1n_L%C3%B3pez_%28cropped%29.jpg",
+        "credit": "Homeland Security Investigations / U.S. Department of State, via Wikimedia Commons",
+        "license": "Public domain (U.S. federal government work)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wanted_Poster,_Ovidio_Guzm%C3%A1n_L%C3%B3pez_(cropped).jpg"
+      }
     },
     {
       "id": "joaquin-guzman-lopez",
       "name": "Joaquín Guzmán López",
-      "aliases": ["Joaquín", "El Güero"],
+      "aliases": [
+        "Joaquín",
+        "El Güero"
+      ],
       "status": "convicted",
       "statusAsOf": "2025-12-02",
       "roleLabel": "Former head of the Sinaloa Cartel and Los Chapitos leader",
       "prominence": 2,
-      "organizationIds": ["sinaloa-cartel", "los-chapitos"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}, {"iso3": "USA", "label": "United States"}],
-      "drugs": ["cocaine", "heroin", "methamphetamine", "fentanyl"],
+      "organizationIds": [
+        "sinaloa-cartel",
+        "los-chapitos"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine",
+        "fentanyl"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
@@ -221,19 +421,52 @@
           "publishedAt": "2025-02-21",
           "claim": "EL PAÍS places Joaquín Guzmán López among the four brothers known as Los Chapitos."
         }
+      ],
+      "events": [
+        {
+          "id": "joaquin-guzman-lopez-2025-12-02-conviction",
+          "occurredAt": "2025-12-02",
+          "type": "conviction",
+          "title": "Pleaded guilty to federal drug charges",
+          "summary": "DOJ reports Joaquín Guzmán López pleaded guilty to federal drug charges in Chicago.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+            "title": "Joaquin Guzman Lopez—Son of “El Chapo” and a Head of Sinaloa Cartel—Pleads Guilty to Federal Drug Charges in Chicago",
+            "publisher": "U.S. Department of Justice, Northern District of Illinois",
+            "language": "English",
+            "publishedAt": "2025-12-02",
+            "claim": "DOJ reports Joaquín Guzmán López pleaded guilty to federal drug charges in Chicago."
+          }
+        }
       ]
     },
     {
       "id": "damaso-lopez-nunez",
       "name": "Dámaso López Núñez",
-      "aliases": ["El Licenciado", "Licenciado"],
+      "aliases": [
+        "El Licenciado",
+        "Licenciado"
+      ],
       "status": "convicted",
       "statusAsOf": "2018-09-28",
       "roleLabel": "Former senior Sinaloa Cartel leader",
       "prominence": 2,
-      "organizationIds": ["sinaloa-cartel"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}, {"iso3": "USA", "label": "United States"}],
-      "drugs": ["cocaine"],
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/archives/opa/pr/senior-sinaloa-cartel-leader-extradited-united-states",
@@ -256,14 +489,32 @@
     {
       "id": "damaso-lopez-serrano",
       "name": "Dámaso López Serrano",
-      "aliases": ["Mini Lic", "Dámaso López Jr."],
+      "aliases": [
+        "Mini Lic",
+        "Dámaso López Jr."
+      ],
       "status": "convicted",
       "statusAsOf": "2018-01-10",
       "roleLabel": "Former Sinaloa Cartel cell leader",
       "prominence": 3,
-      "organizationIds": ["sinaloa-cartel"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}, {"iso3": "USA", "label": "United States"}],
-      "drugs": ["cocaine", "heroin", "methamphetamine"],
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/archives/opa/pr/sinaloa-cartel-cell-leader-pleads-guilty-involvement-imporatation-tons-narcotics-united",
@@ -282,9 +533,24 @@
       "statusAsOf": "2019-05-30",
       "roleLabel": "Former high-ranking Sinaloa Cartel member",
       "prominence": 3,
-      "organizationIds": ["sinaloa-cartel"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}, {"iso3": "USA", "label": "United States"}],
-      "drugs": ["cocaine", "heroin", "methamphetamine"],
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-ndil/pr/former-high-ranking-member-sinaloa-drug-cartel-sentenced-15-years-prison-trafficking",
@@ -299,14 +565,31 @@
     {
       "id": "ismael-zambada-imperial",
       "name": "Ismael Zambada Imperial",
-      "aliases": ["Mayito Gordo"],
+      "aliases": [
+        "Mayito Gordo"
+      ],
       "status": "convicted",
       "statusAsOf": "2021-04-30",
       "roleLabel": "Former Sinaloa Cartel leader",
       "prominence": 3,
-      "organizationIds": ["sinaloa-cartel"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}, {"iso3": "USA", "label": "United States"}],
-      "drugs": ["cocaine", "heroin", "cannabis"],
+      "organizationIds": [
+        "sinaloa-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "cannabis"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-sdca/pr/sinaloa-cartel-leader-convicted",
@@ -321,13 +604,23 @@
     {
       "id": "ismael-zambada-sicairos",
       "name": "Ismael Zambada Sicairos",
-      "aliases": ["Mayito Flaco"],
+      "aliases": [
+        "Mayito Flaco"
+      ],
       "status": "reported",
       "statusAsOf": "2025-02-21",
       "roleLabel": "Reported leader of La Mayiza faction",
       "prominence": 2,
-      "organizationIds": ["sinaloa-cartel", "la-mayiza"],
-      "regions": [{"iso3": "MEX", "label": "Mexico"}],
+      "organizationIds": [
+        "sinaloa-cartel",
+        "la-mayiza"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
       "drugs": [],
       "sources": [
         {

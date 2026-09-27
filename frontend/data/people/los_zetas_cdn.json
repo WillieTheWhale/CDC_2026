@@ -1,0 +1,692 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from cited public records. Los Zetas and Cártel del Noreste are modeled separately because the post-2015 split also produced other factions; CDN is a successor faction, not every former Zetas member. Roles and legal status are time-bound to source dates; charges and sanctions do not establish conviction. Public senior figures only, country-level regions only, no operational routes or enforcement gaps. No photos included because reuse rights were not verified.",
+  "organizations": [
+    {
+      "id": "los-zetas",
+      "name": "Los Zetas",
+      "aliases": [
+        "Zetas Cartel"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ describes Los Zetas as a former armed wing of the Gulf Cartel and predecessor to CDN after the Treviño brothers’ arrests."
+        },
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ says Los Zetas splintered into two groups after the brothers’ arrests, one of them CDN."
+        }
+      ]
+    },
+    {
+      "id": "cartel-del-noreste",
+      "name": "Cártel del Noreste",
+      "aliases": [
+        "Cartel del Noreste",
+        "CDN"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ identifies CDN as one of two groups formed when Los Zetas splintered after the arrests of Z-40 and Z-42."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0146",
+          "title": "Treasury Sanctions High-Ranking Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-05-21",
+          "claim": "Treasury identifies CDN as a Mexico-based organization formerly known as Los Zetas."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "heriberto-lazcano-lazcano",
+      "name": "Heriberto Lazcano Lazcano",
+      "aliases": [
+        "Z-3",
+        "El Lazca"
+      ],
+      "status": "reported",
+      "statusAsOf": "2017-05-24",
+      "roleLabel": "Deceased former Los Zetas leader",
+      "prominence": 1,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/los-zetas-drug-cartel-sicario-and-piedras-negras-plaza-boss-sentenced-life-federal",
+          "title": "Los Zetas Member Sentenced to Life in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2017-06-28",
+          "claim": "DOJ says Lazcano led Los Zetas from 2004 until his death on 7 October 2012."
+        }
+      ]
+    },
+    {
+      "id": "miguel-angel-trevino-morales",
+      "name": "Miguel Ángel Treviño Morales",
+      "aliases": [
+        "Z-40",
+        "Zeta40"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-03-14",
+      "roleLabel": "Former Los Zetas leader; alleged CDN leader after incarceration",
+      "prominence": 1,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ reports Treviño Morales was arraigned in the United States; it alleges he led Los Zetas after Lazcano and continued to control CDN after his 2013 arrest."
+        }
+      ]
+    },
+    {
+      "id": "omar-trevino-morales",
+      "name": "Omar Treviño Morales",
+      "aliases": [
+        "Z-42",
+        "Óscar Omar Treviño Morales"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-03-14",
+      "roleLabel": "Former Los Zetas leader; alleged CDN leader after incarceration",
+      "prominence": 1,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ reports Omar Treviño Morales was arraigned in the United States; it alleges he succeeded his brother as Los Zetas leader and continued to control CDN after his 2015 arrest."
+        }
+      ]
+    },
+    {
+      "id": "juan-francisco-trevino-chavez",
+      "name": "Juan Francisco Treviño Chávez",
+      "aliases": [
+        "Kiko",
+        "Comandante Kiko"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2018-11-08",
+      "roleLabel": "Former Los Zetas member and CDN faction leader through 2016",
+      "prominence": 2,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ reports Treviño Chávez was convicted by a jury and sentenced in 2018; trial evidence identified him as a Los Zetas member and later CDN leader until his 2016 arrest."
+        }
+      ]
+    },
+    {
+      "id": "juan-gerardo-trevino-chavez",
+      "name": "Juan Gerardo Treviño Chávez",
+      "aliases": [
+        "El Huevo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2024-11-19",
+      "roleLabel": "Former CDN leader from 2016 to 2022",
+      "prominence": 2,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/us-attorneys-western-district-texas-and-eastern-district-texas-announce-former-cartel",
+          "title": "Former Cartel Del Noreste Leader Pleads Guilty to 15 Counts",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2024-11-19",
+          "claim": "DOJ reports Treviño Chávez pleaded guilty to 15 federal counts and identifies him as CDN head from September 2016 until March 2022."
+        },
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-arrested",
+          "title": "Leader of Cartel Del Noreste Arrested",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-03-16",
+          "claim": "DOJ alleged he had previously served as a Los Zetas leader before leading CDN."
+        }
+      ]
+    },
+    {
+      "id": "jose-maria-guizar-valencia",
+      "name": "José María Guízar Valencia",
+      "aliases": [
+        "Z-43",
+        "Carlitos"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-11-16",
+      "roleLabel": "Former high-ranking Los Zetas leader",
+      "prominence": 2,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "GTM",
+          "label": "Guatemala"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug",
+          "title": "Two High-Ranking Los Zetas Cartel Members Sentenced to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-11-16",
+          "claim": "DOJ reports Guízar Valencia pleaded guilty and was sentenced to 480 months; evidence identified him among top Los Zetas leaders."
+        }
+      ]
+    },
+    {
+      "id": "francisco-hernandez-garcia",
+      "name": "Francisco Hernández García",
+      "aliases": [
+        "El 2000"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-11-16",
+      "roleLabel": "Former high-ranking Los Zetas leader",
+      "prominence": 3,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug",
+          "title": "Two High-Ranking Los Zetas Cartel Members Sentenced to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-11-16",
+          "claim": "DOJ reports Hernández García pleaded guilty and was sentenced to 480 months; evidence identified him among top Los Zetas leaders."
+        }
+      ]
+    },
+    {
+      "id": "william-dejesus-torres-solarzano",
+      "name": "William DeJesús Torres Solórzano",
+      "aliases": [
+        "Comandante William"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-11-16",
+      "roleLabel": "Former senior Los Zetas leader in Guatemala",
+      "prominence": 3,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "GTM",
+          "label": "Guatemala"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug",
+          "title": "Two High-Ranking Los Zetas Cartel Members Sentenced to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-11-16",
+          "claim": "DOJ identifies Torres Solórzano as a high-ranking Los Zetas member and leader in Guatemala and reports a 480-month sentence."
+        }
+      ]
+    },
+    {
+      "id": "ricardo-gonzalez-sauceda",
+      "name": "Ricardo González Sauceda",
+      "aliases": [
+        "El Ricky"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-05-21",
+      "roleLabel": "Former CDN second-in-command before 2025 arrest",
+      "prominence": 2,
+      "organizationIds": [
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0146",
+          "title": "Treasury Sanctions High-Ranking Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-05-21",
+          "claim": "Treasury designated González Sauceda and identified him as CDN second-in-command before his February 2025 arrest."
+        },
+        {
+          "url": "https://www.gob.mx/presidencia/es/articulos/version-estenografica-conferencia-de-prensa-de-la-presidenta-claudia-sheinbaum-pardo-del-12-de-agosto-de-2025?idiom=es",
+          "title": "Versión estenográfica: conferencia de prensa de la presidenta, 12 de agosto de 2025",
+          "publisher": "Presidencia de México",
+          "language": "Spanish",
+          "publishedAt": "2025-08-12",
+          "claim": "Mexican presidency transcript says SEDENA identified Ricardo “N,” alias El Ricky, as second in command of CDN before his February arrest."
+        }
+      ]
+    },
+    {
+      "id": "miguel-angel-de-anda-ledezma",
+      "name": "Miguel Ángel de Anda Ledezma",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2025-05-21",
+      "roleLabel": "High-ranking CDN member at time of designation",
+      "prominence": 3,
+      "organizationIds": [
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0146",
+          "title": "Treasury Sanctions High-Ranking Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-05-21",
+          "claim": "Treasury designated de Anda Ledezma and described him as a high-ranking CDN member."
+        }
+      ]
+    },
+    {
+      "id": "abdon-federico-rodriguez-garcia",
+      "name": "Abdón Federico Rodríguez García",
+      "aliases": [
+        "Cucho"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-08-06",
+      "roleLabel": "CDN second-in-command at time of designation",
+      "prominence": 2,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0219",
+          "title": "Treasury Sanctions Additional Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-08-06",
+          "claim": "Treasury designated Rodríguez García, identified him as CDN second-in-command, and stated that he had belonged to the group since its Los Zetas period."
+        }
+      ]
+    },
+    {
+      "id": "antonio-romero-sanchez",
+      "name": "Antonio Romero Sánchez",
+      "aliases": [
+        "Romeo"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-08-06",
+      "roleLabel": "High-ranking CDN member at time of designation",
+      "prominence": 3,
+      "organizationIds": [
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0219",
+          "title": "Treasury Sanctions Additional Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-08-06",
+          "claim": "Treasury designated Romero Sánchez and described him as a high-ranking CDN member."
+        }
+      ]
+    },
+    {
+      "id": "marciano-millan-vasquez",
+      "name": "Marciano Millán Vásquez",
+      "aliases": [
+        "Chano"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2017-06-28",
+      "roleLabel": "Former high-ranking Los Zetas member",
+      "prominence": 3,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/los-zetas-drug-cartel-sicario-and-piedras-negras-plaza-boss-sentenced-life-federal",
+          "title": "Los Zetas Member Sentenced to Life in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2017-06-28",
+          "claim": "DOJ reports Millán Vásquez was a high-ranking Los Zetas member convicted at trial and sentenced to seven consecutive life terms in 2017."
+        }
+      ]
+    },
+    {
+      "id": "francisco-daniel-esqueda-nieto",
+      "name": "Francisco Daniel Esqueda Nieto",
+      "aliases": [
+        "Franky Esqueda",
+        "Franky de la Joya"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-08-06",
+      "roleLabel": "CDN tactical leader at time of designation",
+      "prominence": 3,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0219",
+          "title": "Treasury Sanctions Additional Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-08-06",
+          "claim": "Treasury designated Esqueda Nieto, stated he took over tactical leadership after González Sauceda’s 2025 arrest, and said he had participated since the Los Zetas period."
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "z40-z42-brothers",
+      "fromId": "miguel-angel-trevino-morales",
+      "toId": "omar-trevino-morales",
+      "type": "sibling_of",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ explicitly identifies Omar Treviño Morales as Miguel Treviño Morales’s brother."
+        }
+      ]
+    },
+    {
+      "id": "lazcano-z40-succession",
+      "fromId": "heriberto-lazcano-lazcano",
+      "toId": "miguel-angel-trevino-morales",
+      "type": "succeeded_by",
+      "label": "Leadership succession after 2012 death",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ states Miguel Treviño Morales assumed Los Zetas leadership after Lazcano died in October 2012."
+        }
+      ]
+    },
+    {
+      "id": "z40-z42-succession",
+      "fromId": "miguel-angel-trevino-morales",
+      "toId": "omar-trevino-morales",
+      "type": "succeeded_by",
+      "label": "Leadership succession after 2013 arrest",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ states Omar Treviño Morales assumed primary Los Zetas leadership after Miguel’s 2013 arrest."
+        }
+      ]
+    },
+    {
+      "id": "z40-kiko-uncle",
+      "fromId": "miguel-angel-trevino-morales",
+      "toId": "juan-francisco-trevino-chavez",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ identifies Juan Francisco Treviño Chávez as the nephew of Miguel Treviño Morales."
+        }
+      ]
+    },
+    {
+      "id": "z42-kiko-uncle",
+      "fromId": "omar-trevino-morales",
+      "toId": "juan-francisco-trevino-chavez",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ identifies Juan Francisco Treviño Chávez as the nephew of Omar Treviño Morales."
+        }
+      ]
+    },
+    {
+      "id": "guizar-torres-supervisor",
+      "fromId": "jose-maria-guizar-valencia",
+      "toId": "william-dejesus-torres-solarzano",
+      "type": "direct_supervisor_of",
+      "label": "Direct superior in Los Zetas",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug",
+          "title": "Two High-Ranking Los Zetas Cartel Members Sentenced to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-11-16",
+          "claim": "DOJ identifies Guízar Valencia as Torres Solórzano’s principal boss and states he directed Torres Solórzano’s activities."
+        }
+      ]
+    },
+    {
+      "id": "gonzalez-esqueda-succession",
+      "fromId": "ricardo-gonzalez-sauceda",
+      "toId": "francisco-daniel-esqueda-nieto",
+      "type": "succeeded_by",
+      "label": "Tactical leadership after 2025 arrest",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0219",
+          "title": "Treasury Sanctions Additional Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-08-06",
+          "claim": "Treasury states Esqueda Nieto took over CDN tactical operations after González Sauceda’s 2025 arrest."
+        }
+      ]
+    }
+  ]
+}

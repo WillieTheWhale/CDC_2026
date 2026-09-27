@@ -66,6 +66,20 @@
 .people-sources a span { margin-top: 4px; color: #82909e; font-size: 10px; }
 .people-sources a small { margin-top: 6px; color: #647589; font-size: 10px; line-height: 1.45; }
 .people-photo-credit { font-size: 10px !important; }
+.people-portrait { margin: 20px 0 0; }
+.people-portrait img { display: block; width: min(100%, 240px); max-height: 260px; object-fit: contain; background: #f1f4f7; }
+.people-portrait figcaption { margin-top: 5px; color: #7c8a98; font-size: 9px; line-height: 1.4; }
+.people-portrait a, .people-events a { color: #245f91; text-decoration: underline; text-decoration-color: #bdcede; }
+.people-events { margin-top: 22px; }
+.people-events h3 { margin-bottom: 9px; font-size: 11px; font-weight: 600; }
+.people-events ol { padding: 0; list-style: none; }
+.people-events li { position: relative; margin-left: 5px; padding: 0 0 16px 15px; border-left: 1px solid #cfdae5; }
+.people-events li::before { position: absolute; top: 2px; left: -4px; width: 7px; height: 7px; border-radius: 50%; background: #6d91ae; content: ""; }
+.people-event-meta { display: flex; flex-wrap: wrap; gap: 8px; color: #7c8a98; font: 9px var(--mono, monospace); text-transform: uppercase; }
+.people-events strong { display: block; margin-top: 6px; color: #334d64; font-size: 11px; }
+.people-events li p { margin: 5px 0; color: #65788a; font-size: 10px; line-height: 1.5; }
+.people-events li a { font-size: 9px; line-height: 1.4; }
+.people-events-empty { margin-top: 22px; color: #8793a0; font-size: 10px; }
 .people-detail-caution { margin-top: 22px; font-size: 10px; }
 .people-empty, .people-detail-empty, .people-graph-empty { display: grid; min-height: 250px; place-items: center; padding: 30px; color: #82909e; text-align: center; font-size: 12px; }
 .people-footer { padding: 13px 0 0; color: #929ca7; font: 9px var(--mono, monospace); }

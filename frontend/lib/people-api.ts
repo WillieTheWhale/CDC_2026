@@ -6,6 +6,7 @@ import type {
   PeopleDataset,
   PeopleLoadResult,
   PeopleSource,
+  PersonEvent,
   Person,
 } from "./people-types";
 
@@ -43,6 +44,18 @@ function validatedSources(values: unknown): PeopleSource[] {
   return Array.isArray(values) ? values.filter(sourceIsCitable) : [];
 }
 
+function validEvent(value: unknown): value is PersonEvent {
+  if (!value || typeof value !== "object") return false;
+  const event = value as Partial<PersonEvent>;
+  return typeof event.id === "string" && event.id.trim().length > 0 &&
+    typeof event.occurredAt === "string" && /^\d{4}-\d{2}-\d{2}$/.test(event.occurredAt) &&
+    !Number.isNaN(Date.parse(`${event.occurredAt}T00:00:00Z`)) &&
+    ["arrest", "charge", "conviction", "sentence", "sanction", "development"].includes(event.type ?? "") &&
+    typeof event.title === "string" && event.title.trim().length > 0 &&
+    typeof event.summary === "string" && event.summary.trim().length > 0 &&
+    sourceIsCitable(event.source);
+}
+
 function normalizeDataset(input: unknown): PeopleDataset {
   if (!input || typeof input !== "object") {
     return { organizations: [], people: [], connections: [] };
@@ -67,10 +80,13 @@ function normalizeDataset(input: unknown): PeopleDataset {
       ...person,
       sources: validatedSources(person.sources),
       organizationIds: person.organizationIds.filter((id) => organizationIds.has(id)),
+      events: Array.isArray(person.events) ? person.events.filter(validEvent)
+        .sort((a, b) => b.occurredAt.localeCompare(a.occurredAt)) : [],
       photo: person.photo && validHttpUrl(person.photo.url) &&
         validHttpUrl(person.photo.sourceUrl) &&
         person.sources.some((source) => source.url === person.photo?.sourceUrl) &&
-        person.photo.credit.trim() && person.photo.license.trim()
+        typeof person.photo.credit === "string" && person.photo.credit.trim() &&
+        typeof person.photo.license === "string" && person.photo.license.trim()
         ? person.photo
         : undefined,
     }));

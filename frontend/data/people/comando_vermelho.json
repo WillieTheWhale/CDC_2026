@@ -60,6 +60,23 @@
           "publishedAt": "2026-05-01",
           "claim": "MPRJ alleges Nepomuceno continued to influence organizational finances and decisions from prison; the 2026 laundering case is an allegation."
         }
+      ],
+      "events": [
+        {
+          "id": "marcio-santos-nepomuceno-2026-05-01-charge",
+          "occurredAt": "2026-05-01",
+          "type": "charge",
+          "title": "Prosecutors announce laundering complaint",
+          "summary": "MPRJ reports a criminal complaint naming Marcinho VP in an alleged money-laundering and organized-crime scheme; these are allegations separate from his earlier convictions.",
+          "source": {
+            "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+            "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+            "publisher": "Ministério Público do Estado do Rio de Janeiro",
+            "language": "Portuguese",
+            "publishedAt": "2026-05-01",
+            "claim": "MPRJ reports a criminal complaint naming Marcinho VP in an alleged money-laundering and organized-crime scheme; these are allegations separate from his earlier convictions."
+          }
+        }
       ]
     },
     {
@@ -130,6 +147,31 @@
           "language": "Portuguese",
           "publishedAt": "2026-05-01",
           "claim": "MPRJ names Andrade, alias Doca, in its alleged operational leadership nucleus and reports a criminal complaint against him."
+        },
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=178205",
+          "title": "GAECO/MPRJ denuncia narcotraficante que ordenou ataque à 60ª DP, em Duque de Caxias",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2025-05-05",
+          "claim": "MPRJ reports a criminal complaint against Edgar Alves de Andrade; the allegations are not a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "edgar-alves-de-andrade-2025-05-05-charge",
+          "occurredAt": "2025-05-05",
+          "type": "charge",
+          "title": "Prosecutors announce criminal complaint",
+          "summary": "MPRJ reports it filed a criminal complaint against Edgar Alves de Andrade in connection with an attack on police; the allegations are not a conviction.",
+          "source": {
+            "url": "https://www.mprj.mp.br/visualizar?noticiaId=178205",
+            "title": "GAECO/MPRJ denuncia narcotraficante que ordenou ataque à 60ª DP, em Duque de Caxias",
+            "publisher": "Ministério Público do Estado do Rio de Janeiro",
+            "language": "pt",
+            "publishedAt": "2025-05-05",
+            "claim": "MPRJ reports it filed a criminal complaint against Edgar Alves de Andrade in connection with an attack on police; the allegations are not a conviction."
+          }
         }
       ]
     },
@@ -161,6 +203,31 @@
           "language": "Portuguese",
           "publishedAt": "2026-05-01",
           "claim": "MPRJ names Quintanilha, alias Abelha, in the alleged operational leadership nucleus of a Comando Vermelho-linked criminal organization."
+        },
+        {
+          "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=165803",
+          "title": "GAECO/MPRJ denuncia ex-secretário da SEAP e o traficante Abelha por corrupção",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2024-12-20",
+          "claim": "MPRJ reports a criminal corruption complaint against Wilton Carlos Rabello Quintanilha; this is an allegation, not a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "wilton-carlos-rabello-quintanilha-2024-12-20-charge",
+          "occurredAt": "2024-12-20",
+          "type": "charge",
+          "title": "Prosecutors announce corruption complaint",
+          "summary": "MPRJ reports a corruption complaint against Wilton Carlos Rabello Quintanilha; the allegations are not a conviction.",
+          "source": {
+            "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=165803",
+            "title": "GAECO/MPRJ denuncia ex-secretário da SEAP e o traficante Abelha por corrupção",
+            "publisher": "Ministério Público do Estado do Rio de Janeiro",
+            "language": "pt",
+            "publishedAt": "2024-12-20",
+            "claim": "MPRJ reports a corruption complaint against Wilton Carlos Rabello Quintanilha; the allegations are not a conviction."
+          }
         }
       ]
     },

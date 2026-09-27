@@ -155,6 +155,122 @@
       ]
     },
     {
+      "id": "kavac-clan",
+      "name": "Kavač clan",
+      "aliases": [
+        "Kavački klan",
+        "Kavac clan"
+      ],
+      "regions": [
+        "MNE",
+        "SRB"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "Vijesti reports the Montenegrin Court of Appeal upheld convictions for the criminal organization led by Radoje Zvicer and identifies it as the Kavač clan."
+        },
+        {
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/two-key-figures-of-notorious-serbian-clan-arrested-in-barcelona",
+          "title": "Two key figures of notorious Serbian clan arrested in Barcelona",
+          "publisher": "Europol",
+          "language": "English",
+          "publishedAt": "2024-10-25",
+          "claim": "Europol describes the Vračar clan as a sub-clan of Kavač."
+        }
+      ]
+    },
+    {
+      "id": "vracar-clan",
+      "name": "Vračar clan",
+      "aliases": [
+        "Vračarci",
+        "Vračarski klan"
+      ],
+      "regions": [
+        "SRB"
+      ],
+      "sources": [
+        {
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/two-key-figures-of-notorious-serbian-clan-arrested-in-barcelona",
+          "title": "Two key figures of notorious Serbian clan arrested in Barcelona",
+          "publisher": "Europol",
+          "language": "English",
+          "publishedAt": "2024-10-25",
+          "claim": "Europol explicitly describes the Serbian Vračar clan as a sub-clan of the Kavač clan."
+        },
+        {
+          "url": "https://www.rts.rs/lat/vesti/hronika/5562763/uhapsen-nikola-filipovic.html",
+          "title": "Dačić: U Barseloni uhapšen član kriminalne grupe Vračarci Nikola Filipović",
+          "publisher": "Radio-televizija Srbije / Serbian Ministry of Interior",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2024-10-23",
+          "claim": "Serbian Interior Ministry statement names Vračarci as the organization led by Nikola Vušović."
+        }
+      ]
+    },
+    {
+      "id": "los-zetas",
+      "name": "Los Zetas",
+      "aliases": [
+        "Zetas Cartel"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ describes Los Zetas as a former armed wing of the Gulf Cartel and predecessor to CDN after the Treviño brothers’ arrests."
+        },
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ says Los Zetas splintered into two groups after the brothers’ arrests, one of them CDN."
+        }
+      ]
+    },
+    {
+      "id": "cartel-del-noreste",
+      "name": "Cártel del Noreste",
+      "aliases": [
+        "Cartel del Noreste",
+        "CDN"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ identifies CDN as one of two groups formed when Los Zetas splintered after the arrests of Z-40 and Z-42."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0146",
+          "title": "Treasury Sanctions High-Ranking Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-05-21",
+          "claim": "Treasury identifies CDN as a Mexico-based organization formerly known as Los Zetas."
+        }
+      ]
+    },
+    {
       "id": "ndrangheta",
       "name": "’Ndrangheta",
       "aliases": [
@@ -1400,6 +1516,23 @@
           "publishedAt": "2026-05-01",
           "claim": "MPRJ alleges Nepomuceno continued to influence organizational finances and decisions from prison; the 2026 laundering case is an allegation."
         }
+      ],
+      "events": [
+        {
+          "id": "marcio-santos-nepomuceno-2026-05-01-charge",
+          "occurredAt": "2026-05-01",
+          "type": "charge",
+          "title": "Prosecutors announce laundering complaint",
+          "summary": "MPRJ reports a criminal complaint naming Marcinho VP in an alleged money-laundering and organized-crime scheme; these are allegations separate from his earlier convictions.",
+          "source": {
+            "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+            "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+            "publisher": "Ministério Público do Estado do Rio de Janeiro",
+            "language": "Portuguese",
+            "publishedAt": "2026-05-01",
+            "claim": "MPRJ reports a criminal complaint naming Marcinho VP in an alleged money-laundering and organized-crime scheme; these are allegations separate from his earlier convictions."
+          }
+        }
       ]
     },
     {
@@ -1470,6 +1603,31 @@
           "language": "Portuguese",
           "publishedAt": "2026-05-01",
           "claim": "MPRJ names Andrade, alias Doca, in its alleged operational leadership nucleus and reports a criminal complaint against him."
+        },
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=178205",
+          "title": "GAECO/MPRJ denuncia narcotraficante que ordenou ataque à 60ª DP, em Duque de Caxias",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2025-05-05",
+          "claim": "MPRJ reports a criminal complaint against Edgar Alves de Andrade; the allegations are not a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "edgar-alves-de-andrade-2025-05-05-charge",
+          "occurredAt": "2025-05-05",
+          "type": "charge",
+          "title": "Prosecutors announce criminal complaint",
+          "summary": "MPRJ reports it filed a criminal complaint against Edgar Alves de Andrade in connection with an attack on police; the allegations are not a conviction.",
+          "source": {
+            "url": "https://www.mprj.mp.br/visualizar?noticiaId=178205",
+            "title": "GAECO/MPRJ denuncia narcotraficante que ordenou ataque à 60ª DP, em Duque de Caxias",
+            "publisher": "Ministério Público do Estado do Rio de Janeiro",
+            "language": "pt",
+            "publishedAt": "2025-05-05",
+            "claim": "MPRJ reports it filed a criminal complaint against Edgar Alves de Andrade in connection with an attack on police; the allegations are not a conviction."
+          }
         }
       ]
     },
@@ -1501,6 +1659,31 @@
           "language": "Portuguese",
           "publishedAt": "2026-05-01",
           "claim": "MPRJ names Quintanilha, alias Abelha, in the alleged operational leadership nucleus of a Comando Vermelho-linked criminal organization."
+        },
+        {
+          "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=165803",
+          "title": "GAECO/MPRJ denuncia ex-secretário da SEAP e o traficante Abelha por corrupção",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2024-12-20",
+          "claim": "MPRJ reports a criminal corruption complaint against Wilton Carlos Rabello Quintanilha; this is an allegation, not a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "wilton-carlos-rabello-quintanilha-2024-12-20-charge",
+          "occurredAt": "2024-12-20",
+          "type": "charge",
+          "title": "Prosecutors announce corruption complaint",
+          "summary": "MPRJ reports a corruption complaint against Wilton Carlos Rabello Quintanilha; the allegations are not a conviction.",
+          "source": {
+            "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=165803",
+            "title": "GAECO/MPRJ denuncia ex-secretário da SEAP e o traficante Abelha por corrupção",
+            "publisher": "Ministério Público do Estado do Rio de Janeiro",
+            "language": "pt",
+            "publishedAt": "2024-12-20",
+            "claim": "MPRJ reports a corruption complaint against Wilton Carlos Rabello Quintanilha; the allegations are not a conviction."
+          }
         }
       ]
     },
@@ -1826,6 +2009,23 @@
           "language": "en",
           "claim": "DOJ-hosted history identifies García Ábrego as the Gulf organization’s leader in the 1980s and Osiel Cárdenas Guillén as his successor."
         }
+      ],
+      "events": [
+        {
+          "id": "juan-garcia-abrego-1997-01-31-sentence",
+          "occurredAt": "1997-01-31",
+          "type": "sentence",
+          "title": "Multiple life sentences imposed",
+          "summary": "The DOJ Inspector General reports García Ábrego was sentenced to nine life terms after conviction on 22 counts.",
+          "source": {
+            "url": "https://oig.justice.gov/sites/default/files/legacy/reports/FBI/a9729a/index.htm",
+            "title": "Audit Report 97-29A",
+            "publisher": "U.S. Department of Justice, Office of Inspector General",
+            "language": "en",
+            "claim": "The DOJ Inspector General reports García Ábrego was sentenced to nine life terms after conviction on 22 counts.",
+            "publishedAt": "1997-01-31"
+          }
+        }
       ]
     },
     {
@@ -1863,8 +2063,38 @@
           "publisher": "U.S. Department of Justice",
           "language": "en",
           "claim": "DOJ-hosted history identifies him as García Ábrego’s successor at the Gulf organization."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:OsielCardenas-DEA.jpg",
+          "title": "Wikimedia Commons file description and license record",
+          "publisher": "Wikimedia Commons",
+          "language": "en",
+          "claim": "The file page credits Drug Enforcement Administration and marks the portrait public domain as a U.S. federal government work."
         }
-      ]
+      ],
+      "events": [
+        {
+          "id": "osiel-cardenas-guillen-2010-02-24-sentence",
+          "occurredAt": "2010-02-24",
+          "type": "sentence",
+          "title": "Sentenced to 25 years",
+          "summary": "DOJ reports Cárdenas Guillén was sentenced to 25 years after guilty pleas to drug trafficking, money laundering, and threats against federal agents.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2010%20February/022410%20Cardenas-Guillen.htm",
+            "title": "Osiel Cardenas-Guillen, Former Head of the Gulf Cartel, Sentenced to 25 Years Imprisonment",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports Cárdenas Guillén was sentenced to 25 years after guilty pleas to drug trafficking, money laundering, and threats against federal agents.",
+            "publishedAt": "2010-02-24"
+          }
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/OsielCardenas-DEA.jpg",
+        "credit": "Drug Enforcement Administration, via Wikimedia Commons",
+        "license": "Public domain (U.S. federal government work)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:OsielCardenas-DEA.jpg"
+      }
     },
     {
       "id": "antonio-ezequiel-cardenas-guillen",
@@ -1906,6 +2136,23 @@
       ],
       "aliases": [
         "Tony Tormenta"
+      ],
+      "events": [
+        {
+          "id": "antonio-ezequiel-cardenas-guillen-2010-11-05-development",
+          "occurredAt": "2010-11-05",
+          "type": "development",
+          "title": "Death reported by Mexican Navy",
+          "summary": "Mexico’s Navy reports that Cárdenas Guillén, known as Tony Tormenta, died on 5 November 2010.",
+          "source": {
+            "url": "https://2006-2012.semar.gob.mx/sala-prensa/comunicados-2010/1725-comunicado-300-2010.html",
+            "title": "Comunicado de Prensa 300/2010",
+            "publisher": "Secretaría de Marina-Armada de México",
+            "language": "es",
+            "claim": "Mexico’s Navy reports that Cárdenas Guillén, known as Tony Tormenta, died on 5 November 2010.",
+            "publishedAt": "2010-11-05"
+          }
+        }
       ]
     },
     {
@@ -1944,6 +2191,14 @@
           "language": "en",
           "claim": "Treasury names Costilla Sánchez and Antonio Ezequiel Cárdenas Guillén together as directors of Gulf Cartel trafficking in 2009.",
           "publishedAt": "2009-07-20"
+        },
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2247-comunicado-181-2012.html",
+          "title": "Comunicado de Prensa 181/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "publishedAt": "2012-09-13",
+          "claim": "Mexico’s Navy reports Costilla Sánchez was detained on 12 September 2012."
         }
       ],
       "aliases": [
@@ -1951,6 +2206,53 @@
         "El Cos",
         "Doble X",
         "Dos Equis"
+      ],
+      "events": [
+        {
+          "id": "jorge-eduardo-costilla-sanchez-2012-09-12-arrest",
+          "occurredAt": "2012-09-12",
+          "type": "arrest",
+          "title": "Detained by Mexican Navy",
+          "summary": "Mexico’s Navy reports Costilla Sánchez was detained on 12 September 2012.",
+          "source": {
+            "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2247-comunicado-181-2012.html",
+            "title": "Comunicado de Prensa 181/2012",
+            "publisher": "Secretaría de Marina-Armada de México",
+            "language": "es",
+            "publishedAt": "2012-09-13",
+            "claim": "Mexico’s Navy reports Costilla Sánchez was detained on 12 September 2012."
+          }
+        },
+        {
+          "id": "jorge-eduardo-costilla-sanchez-2017-09-26-conviction",
+          "occurredAt": "2017-09-26",
+          "type": "conviction",
+          "title": "Pleaded guilty to drug conspiracy",
+          "summary": "DOJ reports Costilla Sánchez pleaded guilty on 26 September 2017 to a cocaine and marijuana trafficking conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdtx/pr/former-head-gulf-cartel-receives-life-sentence-importing-kilos-drugs",
+            "title": "Former head of Gulf Cartel receives life sentence for importing kilos of drugs",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports Costilla Sánchez pleaded guilty on 26 September 2017 to a cocaine and marijuana trafficking conspiracy.",
+            "publishedAt": "2022-09-15"
+          }
+        },
+        {
+          "id": "jorge-eduardo-costilla-sanchez-2022-09-15-sentence",
+          "occurredAt": "2022-09-15",
+          "type": "sentence",
+          "title": "Life sentence imposed",
+          "summary": "A U.S. federal judge sentenced Costilla Sánchez to life in prison for his role in the trafficking conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdtx/pr/former-head-gulf-cartel-receives-life-sentence-importing-kilos-drugs",
+            "title": "Former head of Gulf Cartel receives life sentence for importing kilos of drugs",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "A U.S. federal judge sentenced Costilla Sánchez to life in prison for his role in the trafficking conspiracy.",
+            "publishedAt": "2022-09-15"
+          }
+        }
       ]
     },
     {
@@ -1991,6 +2293,22 @@
       ],
       "aliases": [
         "El Gordo"
+      ],
+      "events": [
+        {
+          "id": "mario-alberto-cardenas-guillen-2012-09-03-arrest",
+          "occurredAt": "2012-09-03",
+          "type": "arrest",
+          "title": "Detained by Mexican Navy",
+          "summary": "Mexico’s Navy reports Mario Cárdenas Guillén was detained on 3 September 2012 and described him as a presumed Gulf Cartel leader.",
+          "source": {
+            "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2238-comunicado-173-2012.html",
+            "title": "Comunicado de Prensa 173/2012",
+            "publisher": "Secretaría de Marina-Armada de México",
+            "language": "es",
+            "claim": "Mexico’s Navy reports Mario Cárdenas Guillén was detained on 3 September 2012 and described him as a presumed Gulf Cartel leader."
+          }
+        }
       ]
     },
     {
@@ -2034,6 +2352,37 @@
         "El Junior",
         "Commandante 900",
         "Rolex"
+      ],
+      "events": [
+        {
+          "id": "rafael-cardenas-vela-2012-03-12-conviction",
+          "occurredAt": "2012-03-12",
+          "type": "conviction",
+          "title": "Pleaded guilty to drug conspiracy",
+          "summary": "DOJ reports Cárdenas Vela pleaded guilty to participation in a long-running Gulf Cartel drug conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20March/120312%20Cardenas%20Vela.html",
+            "title": "Gulf Cartel Plaza Boss Convicted",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports Cárdenas Vela pleaded guilty to participation in a long-running Gulf Cartel drug conspiracy.",
+            "publishedAt": "2012-03-12"
+          }
+        },
+        {
+          "id": "rafael-cardenas-vela-2014-11-17-sentence",
+          "occurredAt": "2014-11-17",
+          "type": "sentence",
+          "title": "Sentenced to 20 years",
+          "summary": "A DOJ Inspector General report says Cárdenas Vela received a 20-year federal prison sentence.",
+          "source": {
+            "url": "https://oig.justice.gov/archives/reports/2015/a1509.pdf",
+            "title": "FY14 Reviews of the DOJ Annual Accounting of Drug Control Funds and Related Performance",
+            "publisher": "U.S. Department of Justice, Office of Inspector General",
+            "language": "en",
+            "claim": "A DOJ Inspector General report says Cárdenas Vela received a 20-year federal prison sentence."
+          }
+        }
       ]
     },
     {
@@ -2069,6 +2418,23 @@
       ],
       "aliases": [
         "El Contador"
+      ],
+      "events": [
+        {
+          "id": "jose-alfredo-cardenas-martinez-2021-11-10-charge",
+          "occurredAt": "2021-11-10",
+          "type": "charge",
+          "title": "Federal indictment returned",
+          "summary": "DOJ reports a grand jury returned a nine-count indictment against Cárdenas Martínez; the allegations are not a conviction.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdtx/pr/head-gulf-cartel-indicted",
+            "title": "Head of the Gulf Cartel indicted",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports a grand jury returned a nine-count indictment against Cárdenas Martínez; the allegations are not a conviction.",
+            "publishedAt": "2022-03-24"
+          }
+        }
       ]
     },
     {
@@ -2109,6 +2475,38 @@
           "claim": "DOJ reports testimony that Rincón Rincón rose through his association with Costilla Sánchez and that Rafael Cárdenas Vela testified about their association.",
           "publishedAt": "2012-09-28"
         }
+      ],
+      "events": [
+        {
+          "id": "juan-roberto-rincon-rincon-2012-09-28-conviction",
+          "occurredAt": "2012-09-28",
+          "type": "conviction",
+          "title": "Convicted by federal jury",
+          "summary": "DOJ reports a jury convicted Rincón Rincón on all counts in a drug trafficking conspiracy case.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20September/120928%20Rincon-Rincon_print.html",
+            "title": "Gulf Cartel Member Convicted on All Counts in Drug Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports a jury convicted Rincón Rincón on all counts in a drug trafficking conspiracy case.",
+            "publishedAt": "2012-09-28"
+          }
+        },
+        {
+          "id": "juan-roberto-rincon-rincon-2013-05-14-sentence",
+          "occurredAt": "2013-05-14",
+          "type": "sentence",
+          "title": "Life sentence imposed",
+          "summary": "DOJ reports a federal judge sentenced Rincón Rincón to life in prison.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdtx/pr/gulf-cartel-plaza-boss-heads-prison-life",
+            "title": "Gulf Cartel Plaza Boss Heads To Prison For Life",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports a federal judge sentenced Rincón Rincón to life in prison.",
+            "publishedAt": "2013-05-14"
+          }
+        }
       ]
     },
     {
@@ -2145,6 +2543,23 @@
           "claim": "DOJ says his earlier assault conviction arose from actions directed by then Gulf Cartel leader Osiel Cárdenas Guillén.",
           "publishedAt": "2012-04-23"
         }
+      ],
+      "events": [
+        {
+          "id": "juan-carlos-de-la-cruz-reyna-2012-10-10-sentence",
+          "occurredAt": "2012-10-10",
+          "type": "sentence",
+          "title": "Sentenced in bribery case",
+          "summary": "DOJ reports de la Cruz Reyna received a 135-month federal sentence after his bribery conviction.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20October/121010%20De%20La%20Cruz%20Reyna%20et%20al.html",
+            "title": "Gulf Cartel Figure and Five Others Sentenced to Prison in Bribery Scheme",
+            "publisher": "U.S. Department of Justice, Southern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports de la Cruz Reyna received a 135-month federal sentence after his bribery conviction.",
+            "publishedAt": "2012-10-10"
+          }
+        }
       ]
     },
     {
@@ -2175,6 +2590,1039 @@
           "language": "en",
           "claim": "DOJ reports Sáenz Tamez pleaded guilty to cocaine and marijuana offenses and received a 30-year sentence; it describes him as head of the Gulf Cartel at the time.",
           "publishedAt": "2015-06-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-francisco-saenz-tamez-2015-06-30-sentence",
+          "occurredAt": "2015-06-30",
+          "type": "sentence",
+          "title": "Sentenced to 30 years",
+          "summary": "DOJ reports Sáenz Tamez received a 30-year federal prison sentence after pleading guilty to cocaine and marijuana trafficking and money laundering charges.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edtx/pr/head-gulf-cartel-sentenced-federal-prison-drug-trafficking",
+            "title": "Head of the Gulf Cartel Sentenced to Federal Prison for Drug Trafficking",
+            "publisher": "U.S. Department of Justice, Eastern District of Texas",
+            "language": "en",
+            "claim": "DOJ reports Sáenz Tamez received a 30-year federal prison sentence after pleading guilty to cocaine and marijuana trafficking and money laundering charges.",
+            "publishedAt": "2015-06-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "radoje-zvicer",
+      "name": "Radoje Zvicer",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Kavač clan organizer; final June conviction and separate July first-instance conviction",
+      "prominence": 1,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "Montenegrin Court of Appeal confirmed Zvicer as organizer of a criminal group and upheld his 16-year sentence for criminal organization and cocaine trafficking."
+        },
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a separate, non-final July 2026 first-instance conviction of Zvicer and a 40-year sentence."
+        }
+      ]
+    },
+    {
+      "id": "slobodan-kascelan",
+      "name": "Slobodan Kašćelan",
+      "status": "convicted",
+      "statusAsOf": "2026-06-09",
+      "roleLabel": "Senior Kavač figure convicted in Zvicer organization case",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The Montenegrin Court of Appeal confirmed the conviction of Kašćelan, with a 13-year sentence for criminal organization and cocaine trafficking in June 2026."
+        }
+      ]
+    },
+    {
+      "id": "igor-bozovic",
+      "name": "Igor Božović",
+      "status": "convicted",
+      "statusAsOf": "2026-06-09",
+      "roleLabel": "Senior Kavač figure convicted in Zvicer organization case",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The Montenegrin Court of Appeal confirmed the conviction of Božović, with a 13-year sentence for criminal organization and cocaine trafficking in June 2026."
+        }
+      ]
+    },
+    {
+      "id": "milan-vujotic",
+      "name": "Milan Vujotić",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Member of Zvicer organization in two separate court cases",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The Montenegrin Court of Appeal confirmed the conviction of Vujotić, with an 11-year sentence for criminal organization and cocaine trafficking in June 2026."
+        },
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Vujotić; Vijesti reports a nine-year sentence in that separate case in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "dragan-knezevic",
+      "name": "Dragan Knežević",
+      "status": "convicted",
+      "statusAsOf": "2026-06-09",
+      "roleLabel": "Member of Zvicer organization convicted in final appellate judgment",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The Montenegrin Court of Appeal confirmed the conviction of Knežević, with an 11-year sentence for criminal organization and cocaine trafficking in June 2026."
+        }
+      ]
+    },
+    {
+      "id": "petar-lazovic",
+      "name": "Petar Lazović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Former security-service operative convicted at first instance of membership in Kavač-linked organization",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports Lazović was convicted at first instance and sentenced to 20 years for participation in the Kavač criminal organization; the judgment was not final."
+        },
+        {
+          "url": "https://rtcg.me/hronika/363080/objavljeni-transkripti-kako-su-lazovic-i-milovic-dogovarali-sverc-kokaina.html",
+          "title": "Objavljeni transkripti kako su Lazović i Milović dogovarali šverc kokaina",
+          "publisher": "Radio Televizija Crne Gore",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2022-05-16",
+          "claim": "RTCG reports Europol records identified Lazović as an alleged Kavač member in 2022; that historical intelligence assessment was an allegation."
+        }
+      ]
+    },
+    {
+      "id": "ljubo-milovic",
+      "name": "Ljubo Milović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Former police officer convicted at first instance in Kavač-linked organization case",
+      "prominence": 2,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports Milović was convicted at first instance and sentenced to 19 years in the Kavač-linked organization case; the judgment was not final."
+        },
+        {
+          "url": "https://rtcg.me/hronika/363080/objavljeni-transkripti-kako-su-lazovic-i-milovic-dogovarali-sverc-kokaina.html",
+          "title": "Objavljeni transkripti kako su Lazović i Milović dogovarali šverc kokaina",
+          "publisher": "Radio Televizija Crne Gore",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2022-05-16",
+          "claim": "RTCG reports Europol records identified Milović as an alleged Kavač member in 2022; that historical intelligence assessment was an allegation."
+        }
+      ]
+    },
+    {
+      "id": "radovan-mujovic",
+      "name": "Radovan Mujović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Mujović; Vijesti reports a ten-year sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "radovan-pantovic",
+      "name": "Radovan Pantović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Pantović; Vijesti reports a ten-year sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "niksa-perovic",
+      "name": "Nikša Perović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Perović; Vijesti reports a six-year sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "petar-mujovic",
+      "name": "Petar Mujović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Petar Mujović; Vijesti reports a seven-year sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "radoje-zivkovic",
+      "name": "Radoje Živković",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Živković; Vijesti reports a seven-year, nine-month sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "nikola-spasojevic",
+      "name": "Nikola Spasojević",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Spasojević; Vijesti reports a nine-year, three-month sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "dusko-roganovic",
+      "name": "Duško Roganović",
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Defendant convicted at first instance in Zvicer organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "kavac-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "MNE",
+          "label": "Montenegro"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "Vijesti reports a first-instance conviction of Roganović; Vijesti reports an eight-year, three-month sentence in July 2026 in the Zvicer criminal-organization case; that judgment was not final as of publication."
+        }
+      ]
+    },
+    {
+      "id": "nikola-vusovic",
+      "name": "Nikola Vušović",
+      "status": "reported",
+      "statusAsOf": "2024-10-25",
+      "roleLabel": "Suspected leader of the Vračar sub-clan",
+      "prominence": 2,
+      "organizationIds": [
+        "vracar-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "SRB",
+          "label": "Serbia"
+        },
+        {
+          "iso3": "ESP",
+          "label": "Spain"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.rts.rs/lat/vesti/hronika/5562763/uhapsen-nikola-filipovic.html",
+          "title": "Dačić: U Barseloni uhapšen član kriminalne grupe Vračarci Nikola Filipović",
+          "publisher": "Radio-televizija Srbije / Serbian Ministry of Interior",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2024-10-23",
+          "claim": "Serbian Interior Ministry statement identifies Vušović as the suspected organizer of Vračarci and reports his October 2024 arrest."
+        },
+        {
+          "url": "https://www.europol.europa.eu/media-press/newsroom/news/two-key-figures-of-notorious-serbian-clan-arrested-in-barcelona",
+          "title": "Two key figures of notorious Serbian clan arrested in Barcelona",
+          "publisher": "Europol",
+          "language": "English",
+          "publishedAt": "2024-10-25",
+          "claim": "Europol describes the arrested Vračar leader as a senior figure of a Kavač sub-clan; this source does not name him."
+        }
+      ],
+      "aliases": [
+        "Džoni sa Vračara"
+      ]
+    },
+    {
+      "id": "nikola-filipovic",
+      "name": "Nikola Filipović",
+      "status": "reported",
+      "statusAsOf": "2024-10-23",
+      "roleLabel": "Reported Vračar clan deputy and Vušović associate",
+      "prominence": 3,
+      "organizationIds": [
+        "vracar-clan"
+      ],
+      "regions": [
+        {
+          "iso3": "SRB",
+          "label": "Serbia"
+        },
+        {
+          "iso3": "ESP",
+          "label": "Spain"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.rts.rs/lat/vesti/hronika/5562763/uhapsen-nikola-filipovic.html",
+          "title": "Dačić: U Barseloni uhapšen član kriminalne grupe Vračarci Nikola Filipović",
+          "publisher": "Radio-televizija Srbije / Serbian Ministry of Interior",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2024-10-23",
+          "claim": "Serbian Interior Ministry statement identifies Filipović as a Vračarci member and the right-hand man of Nikola Vušović, reporting his October 2024 arrest."
+        }
+      ]
+    },
+    {
+      "id": "heriberto-lazcano-lazcano",
+      "name": "Heriberto Lazcano Lazcano",
+      "aliases": [
+        "Z-3",
+        "El Lazca"
+      ],
+      "status": "reported",
+      "statusAsOf": "2017-05-24",
+      "roleLabel": "Deceased former Los Zetas leader",
+      "prominence": 1,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/los-zetas-drug-cartel-sicario-and-piedras-negras-plaza-boss-sentenced-life-federal",
+          "title": "Los Zetas Member Sentenced to Life in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2017-06-28",
+          "claim": "DOJ says Lazcano led Los Zetas from 2004 until his death on 7 October 2012."
+        }
+      ]
+    },
+    {
+      "id": "miguel-angel-trevino-morales",
+      "name": "Miguel Ángel Treviño Morales",
+      "aliases": [
+        "Z-40",
+        "Zeta40"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-03-14",
+      "roleLabel": "Former Los Zetas leader; alleged CDN leader after incarceration",
+      "prominence": 1,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ reports Treviño Morales was arraigned in the United States; it alleges he led Los Zetas after Lazcano and continued to control CDN after his 2013 arrest."
+        }
+      ]
+    },
+    {
+      "id": "omar-trevino-morales",
+      "name": "Omar Treviño Morales",
+      "aliases": [
+        "Z-42",
+        "Óscar Omar Treviño Morales"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-03-14",
+      "roleLabel": "Former Los Zetas leader; alleged CDN leader after incarceration",
+      "prominence": 1,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ reports Omar Treviño Morales was arraigned in the United States; it alleges he succeeded his brother as Los Zetas leader and continued to control CDN after his 2015 arrest."
+        }
+      ]
+    },
+    {
+      "id": "juan-francisco-trevino-chavez",
+      "name": "Juan Francisco Treviño Chávez",
+      "aliases": [
+        "Kiko",
+        "Comandante Kiko"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2018-11-08",
+      "roleLabel": "Former Los Zetas member and CDN faction leader through 2016",
+      "prominence": 2,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ reports Treviño Chávez was convicted by a jury and sentenced in 2018; trial evidence identified him as a Los Zetas member and later CDN leader until his 2016 arrest."
+        }
+      ]
+    },
+    {
+      "id": "juan-gerardo-trevino-chavez",
+      "name": "Juan Gerardo Treviño Chávez",
+      "aliases": [
+        "El Huevo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2024-11-19",
+      "roleLabel": "Former CDN leader from 2016 to 2022",
+      "prominence": 2,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/us-attorneys-western-district-texas-and-eastern-district-texas-announce-former-cartel",
+          "title": "Former Cartel Del Noreste Leader Pleads Guilty to 15 Counts",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2024-11-19",
+          "claim": "DOJ reports Treviño Chávez pleaded guilty to 15 federal counts and identifies him as CDN head from September 2016 until March 2022."
+        },
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-arrested",
+          "title": "Leader of Cartel Del Noreste Arrested",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-03-16",
+          "claim": "DOJ alleged he had previously served as a Los Zetas leader before leading CDN."
+        }
+      ]
+    },
+    {
+      "id": "jose-maria-guizar-valencia",
+      "name": "José María Guízar Valencia",
+      "aliases": [
+        "Z-43",
+        "Carlitos"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-11-16",
+      "roleLabel": "Former high-ranking Los Zetas leader",
+      "prominence": 2,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "GTM",
+          "label": "Guatemala"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug",
+          "title": "Two High-Ranking Los Zetas Cartel Members Sentenced to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-11-16",
+          "claim": "DOJ reports Guízar Valencia pleaded guilty and was sentenced to 480 months; evidence identified him among top Los Zetas leaders."
+        }
+      ]
+    },
+    {
+      "id": "francisco-hernandez-garcia",
+      "name": "Francisco Hernández García",
+      "aliases": [
+        "El 2000"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-11-16",
+      "roleLabel": "Former high-ranking Los Zetas leader",
+      "prominence": 3,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug",
+          "title": "Two High-Ranking Los Zetas Cartel Members Sentenced to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-11-16",
+          "claim": "DOJ reports Hernández García pleaded guilty and was sentenced to 480 months; evidence identified him among top Los Zetas leaders."
+        }
+      ]
+    },
+    {
+      "id": "william-dejesus-torres-solarzano",
+      "name": "William DeJesús Torres Solórzano",
+      "aliases": [
+        "Comandante William"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-11-16",
+      "roleLabel": "Former senior Los Zetas leader in Guatemala",
+      "prominence": 3,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "GTM",
+          "label": "Guatemala"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug",
+          "title": "Two High-Ranking Los Zetas Cartel Members Sentenced to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-11-16",
+          "claim": "DOJ identifies Torres Solórzano as a high-ranking Los Zetas member and leader in Guatemala and reports a 480-month sentence."
+        }
+      ]
+    },
+    {
+      "id": "ricardo-gonzalez-sauceda",
+      "name": "Ricardo González Sauceda",
+      "aliases": [
+        "El Ricky"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-05-21",
+      "roleLabel": "Former CDN second-in-command before 2025 arrest",
+      "prominence": 2,
+      "organizationIds": [
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0146",
+          "title": "Treasury Sanctions High-Ranking Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-05-21",
+          "claim": "Treasury designated González Sauceda and identified him as CDN second-in-command before his February 2025 arrest."
+        },
+        {
+          "url": "https://www.gob.mx/presidencia/es/articulos/version-estenografica-conferencia-de-prensa-de-la-presidenta-claudia-sheinbaum-pardo-del-12-de-agosto-de-2025?idiom=es",
+          "title": "Versión estenográfica: conferencia de prensa de la presidenta, 12 de agosto de 2025",
+          "publisher": "Presidencia de México",
+          "language": "Spanish",
+          "publishedAt": "2025-08-12",
+          "claim": "Mexican presidency transcript says SEDENA identified Ricardo “N,” alias El Ricky, as second in command of CDN before his February arrest."
+        }
+      ]
+    },
+    {
+      "id": "miguel-angel-de-anda-ledezma",
+      "name": "Miguel Ángel de Anda Ledezma",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2025-05-21",
+      "roleLabel": "High-ranking CDN member at time of designation",
+      "prominence": 3,
+      "organizationIds": [
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0146",
+          "title": "Treasury Sanctions High-Ranking Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-05-21",
+          "claim": "Treasury designated de Anda Ledezma and described him as a high-ranking CDN member."
+        }
+      ]
+    },
+    {
+      "id": "abdon-federico-rodriguez-garcia",
+      "name": "Abdón Federico Rodríguez García",
+      "aliases": [
+        "Cucho"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-08-06",
+      "roleLabel": "CDN second-in-command at time of designation",
+      "prominence": 2,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0219",
+          "title": "Treasury Sanctions Additional Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-08-06",
+          "claim": "Treasury designated Rodríguez García, identified him as CDN second-in-command, and stated that he had belonged to the group since its Los Zetas period."
+        }
+      ]
+    },
+    {
+      "id": "antonio-romero-sanchez",
+      "name": "Antonio Romero Sánchez",
+      "aliases": [
+        "Romeo"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-08-06",
+      "roleLabel": "High-ranking CDN member at time of designation",
+      "prominence": 3,
+      "organizationIds": [
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0219",
+          "title": "Treasury Sanctions Additional Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-08-06",
+          "claim": "Treasury designated Romero Sánchez and described him as a high-ranking CDN member."
+        }
+      ]
+    },
+    {
+      "id": "marciano-millan-vasquez",
+      "name": "Marciano Millán Vásquez",
+      "aliases": [
+        "Chano"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2017-06-28",
+      "roleLabel": "Former high-ranking Los Zetas member",
+      "prominence": 3,
+      "organizationIds": [
+        "los-zetas"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/los-zetas-drug-cartel-sicario-and-piedras-negras-plaza-boss-sentenced-life-federal",
+          "title": "Los Zetas Member Sentenced to Life in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2017-06-28",
+          "claim": "DOJ reports Millán Vásquez was a high-ranking Los Zetas member convicted at trial and sentenced to seven consecutive life terms in 2017."
+        }
+      ]
+    },
+    {
+      "id": "francisco-daniel-esqueda-nieto",
+      "name": "Francisco Daniel Esqueda Nieto",
+      "aliases": [
+        "Franky Esqueda",
+        "Franky de la Joya"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-08-06",
+      "roleLabel": "CDN tactical leader at time of designation",
+      "prominence": 3,
+      "organizationIds": [
+        "los-zetas",
+        "cartel-del-noreste"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0219",
+          "title": "Treasury Sanctions Additional Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-08-06",
+          "claim": "Treasury designated Esqueda Nieto, stated he took over tactical leadership after González Sauceda’s 2025 arrest, and said he had participated since the Los Zetas period."
         }
       ]
     },
@@ -2609,6 +4057,23 @@
           "publishedAt": "2026-08-05",
           "claim": "The Supreme Court identifies Marcola as a PCC leader when describing Fuminho's connection to him."
         }
+      ],
+      "events": [
+        {
+          "id": "marcos-willians-herbas-camacho-2013-04-11-conviction",
+          "occurredAt": "2013-04-11",
+          "type": "conviction",
+          "title": "Murder conviction upheld",
+          "summary": "The São Paulo court denied Camacho’s appeal and upheld his 29-year sentence for the murder of judge Antonio José Machado Dias.",
+          "source": {
+            "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=17874",
+            "title": "TJSP mantém condenação de Marcos Camacho pela morte de juiz de Presidente Prudente",
+            "publisher": "Tribunal de Justiça do Estado de São Paulo",
+            "language": "pt",
+            "publishedAt": "2013-04-11",
+            "claim": "The São Paulo court denied Camacho’s appeal and upheld his 29-year sentence for the murder of judge Antonio José Machado Dias."
+          }
+        }
       ]
     },
     {
@@ -2647,6 +4112,23 @@
           "publisher": "Tribunal de Justiça do Estado de São Paulo",
           "language": "pt",
           "claim": "The court identifies Moraes and Marcola as PCC leaders charged together in a separate case; this source does not establish a conviction in that case."
+        }
+      ],
+      "events": [
+        {
+          "id": "julio-cesar-guedes-de-moraes-2013-06-27-conviction",
+          "occurredAt": "2013-06-27",
+          "type": "conviction",
+          "title": "Murder conviction upheld",
+          "summary": "The São Paulo court denied Moraes’s appeal of his 29-year sentence in the same judge-murder case.",
+          "source": {
+            "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=18813&pagina=2050",
+            "title": "Autor intelectual de homicídio de magistrado tem recurso negado",
+            "publisher": "Tribunal de Justiça do Estado de São Paulo",
+            "language": "pt",
+            "publishedAt": "2013-06-27",
+            "claim": "The São Paulo court denied Moraes’s appeal of his 29-year sentence in the same judge-murder case."
+          }
         }
       ]
     },
@@ -2687,6 +4169,23 @@
           "publishedAt": "2018-08-21",
           "claim": "The Ceará court gives Fuminho's fuller name as Gilberto Aparecido dos Santos and reports a homicide charge; this is an allegation, not a conviction in that case."
         }
+      ],
+      "events": [
+        {
+          "id": "gilberto-aparecido-dos-santos-2026-08-05-development",
+          "occurredAt": "2026-08-05",
+          "type": "development",
+          "title": "Sentence reduction request rejected",
+          "summary": "Brazil’s Supreme Court rejected a habeas corpus request to reduce Santos’s first-instance sentence; the underlying drug convictions were reported separately from this ruling.",
+          "source": {
+            "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/",
+            "title": "STF rejeita pedido para reduzir pena de integrante da cúpula do PCC",
+            "publisher": "Supremo Tribunal Federal",
+            "language": "pt",
+            "publishedAt": "2026-08-05",
+            "claim": "Brazil’s Supreme Court rejected a habeas corpus request to reduce Santos’s first-instance sentence; the underlying drug convictions were reported separately from this ruling."
+          }
+        }
       ]
     },
     {
@@ -2714,6 +4213,23 @@
           "language": "pt",
           "publishedAt": "2025-06-11",
           "claim": "Federal prosecutors report Soriano, described as a former PCC leader, was convicted and sentenced to 44 years and eight months for ordering an agent's murder and for participation in a criminal organization."
+        }
+      ],
+      "events": [
+        {
+          "id": "roberto-soriano-2025-06-09-sentence",
+          "occurredAt": "2025-06-09",
+          "type": "sentence",
+          "title": "Sentenced in Belarmino case",
+          "summary": "Federal prosecutors report that a jury sentenced former PCC leader Roberto Soriano to 44 years and eight months for ordering the murder of a prison agent and participation in a criminal organization.",
+          "source": {
+            "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pr/noticias/caso-belarmino-justica-condena-a-44-anos-de-prisao-mandante-do-assassinato-contra-agente-penitenciario-no-parana",
+            "title": "Caso Belarmino: Justiça condena a 44 anos de prisão mandante do assassinato contra agente penitenciário no Paraná",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "publishedAt": "2025-06-11",
+            "claim": "Federal prosecutors report that a jury sentenced former PCC leader Roberto Soriano to 44 years and eight months for ordering the murder of a prison agent and participation in a criminal organization."
+          }
         }
       ]
     },
@@ -2818,6 +4334,23 @@
           "publishedAt": "2019-07-17",
           "claim": "DOJ reports Guzmán Loera was convicted and sentenced to life plus 30 years as a principal leader of the Sinaloa Cartel."
         }
+      ],
+      "events": [
+        {
+          "id": "joaquin-guzman-loera-2019-07-17-sentence",
+          "occurredAt": "2019-07-17",
+          "type": "sentence",
+          "title": "Life sentence imposed",
+          "summary": "DOJ reports Guzmán Loera was sentenced to life imprisonment plus 30 years following his conviction as a Sinaloa Cartel leader.",
+          "source": {
+            "url": "https://www.justice.gov/archives/opa/pr/joaquin-el-chapo-guzman-sinaloa-cartel-leader-sentenced-life-prison-plus-30-years",
+            "title": "Joaquin “El Chapo” Guzman, Sinaloa Cartel Leader, Sentenced to Life in Prison Plus 30 Years",
+            "publisher": "U.S. Department of Justice, Office of Public Affairs",
+            "language": "English",
+            "publishedAt": "2019-07-17",
+            "claim": "DOJ reports Guzmán Loera was sentenced to life imprisonment plus 30 years following his conviction as a Sinaloa Cartel leader."
+          }
+        }
       ]
     },
     {
@@ -2857,8 +4390,38 @@
           "language": "English",
           "publishedAt": "2026-07-20",
           "claim": "DOJ reports Zambada García was sentenced to life for his role as the principal leader of the Sinaloa Cartel; the release describes cocaine, heroin, fentanyl, and other drugs in the enterprise."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Mayo_Zambada_(cropped).jpg",
+          "title": "Wikimedia Commons file description and license record",
+          "publisher": "Wikimedia Commons",
+          "language": "en",
+          "claim": "The file page credits Drug Enforcement Administration and marks the portrait public domain as a U.S. federal government work."
         }
-      ]
+      ],
+      "events": [
+        {
+          "id": "ismael-zambada-garcia-2026-07-20-sentence",
+          "occurredAt": "2026-07-20",
+          "type": "sentence",
+          "title": "Life sentence imposed",
+          "summary": "DOJ reports Zambada García was sentenced to life imprisonment for his role leading the Sinaloa Cartel and related drug offenses.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdfl/pr/co-founder-sinaloa-cartel-ismael-el-mayo-zambada-garcia-sentenced-life-prison-engaging",
+            "title": "Co-Founder of Sinaloa Cartel, Ismael “El Mayo” Zambada Garcia, Sentenced to Life in Prison for Engaging in a Continuing Criminal Enterprise and Other Drug-Related Charges",
+            "publisher": "U.S. Department of Justice, Southern District of Florida",
+            "language": "English",
+            "publishedAt": "2026-07-20",
+            "claim": "DOJ reports Zambada García was sentenced to life imprisonment for his role leading the Sinaloa Cartel and related drug offenses."
+          }
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Mayo_Zambada_%28cropped%29.jpg",
+        "credit": "Drug Enforcement Administration, via Wikimedia Commons",
+        "license": "Public domain (U.S. federal government work)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mayo_Zambada_(cropped).jpg"
+      }
     },
     {
       "id": "ivan-archivaldo-guzman-salazar",
@@ -2992,8 +4555,38 @@
           "language": "English",
           "publishedAt": "2025-07-11",
           "claim": "DOJ states that Ovidio Guzmán López pleaded guilty to federal drug charges, describes him as one of the cartel heads, and says he was detained in U.S. custody."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Wanted_Poster,_Ovidio_Guzm%C3%A1n_L%C3%B3pez_(cropped).jpg",
+          "title": "Wikimedia Commons file description and license record",
+          "publisher": "Wikimedia Commons",
+          "language": "en",
+          "claim": "The file page credits Homeland Security Investigations / U.S. Department of State and marks the portrait public domain as a U.S. federal government work."
         }
-      ]
+      ],
+      "events": [
+        {
+          "id": "ovidio-guzman-lopez-2025-07-11-conviction",
+          "occurredAt": "2025-07-11",
+          "type": "conviction",
+          "title": "Pleaded guilty to federal drug charges",
+          "summary": "DOJ reports Ovidio Guzmán López pleaded guilty to federal drug charges in Chicago.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndil/pr/ovidio-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+            "title": "Ovidio Guzman Lopez—Son of “El Chapo” and a Head of Sinaloa Cartel—Pleads Guilty to Federal Drug Charges in Chicago",
+            "publisher": "U.S. Department of Justice, Northern District of Illinois",
+            "language": "English",
+            "publishedAt": "2025-07-11",
+            "claim": "DOJ reports Ovidio Guzmán López pleaded guilty to federal drug charges in Chicago."
+          }
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Wanted_Poster%2C_Ovidio_Guzm%C3%A1n_L%C3%B3pez_%28cropped%29.jpg",
+        "credit": "Homeland Security Investigations / U.S. Department of State, via Wikimedia Commons",
+        "license": "Public domain (U.S. federal government work)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wanted_Poster,_Ovidio_Guzm%C3%A1n_L%C3%B3pez_(cropped).jpg"
+      }
     },
     {
       "id": "joaquin-guzman-lopez",
@@ -3042,6 +4635,23 @@
           "language": "Spanish",
           "publishedAt": "2025-02-21",
           "claim": "EL PAÍS places Joaquín Guzmán López among the four brothers known as Los Chapitos."
+        }
+      ],
+      "events": [
+        {
+          "id": "joaquin-guzman-lopez-2025-12-02-conviction",
+          "occurredAt": "2025-12-02",
+          "type": "conviction",
+          "title": "Pleaded guilty to federal drug charges",
+          "summary": "DOJ reports Joaquín Guzmán López pleaded guilty to federal drug charges in Chicago.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug",
+            "title": "Joaquin Guzman Lopez—Son of “El Chapo” and a Head of Sinaloa Cartel—Pleads Guilty to Federal Drug Charges in Chicago",
+            "publisher": "U.S. Department of Justice, Northern District of Illinois",
+            "language": "English",
+            "publishedAt": "2025-12-02",
+            "claim": "DOJ reports Joaquín Guzmán López pleaded guilty to federal drug charges in Chicago."
+          }
         }
       ]
     },
@@ -3938,6 +5548,261 @@
           "publisher": "Secretaría de Marina-Armada de México",
           "language": "es",
           "claim": "Mexico’s Navy explicitly identifies Mario Cárdenas Guillén as Osiel Cárdenas Guillén’s brother."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-slobodan-kascelan",
+      "fromId": "radoje-zvicer",
+      "toId": "slobodan-kascelan",
+      "type": "led_group_member",
+      "label": "Organizer and convicted group member",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The final appellate judgment names Zvicer as organizer, names Kašćelan among convicted group members, and says Zvicer assigned tasks to members."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-igor-bozovic",
+      "fromId": "radoje-zvicer",
+      "toId": "igor-bozovic",
+      "type": "led_group_member",
+      "label": "Organizer and convicted group member",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The final appellate judgment names Zvicer as organizer, names Božović among convicted group members, and says Zvicer assigned tasks to members."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-milan-vujotic",
+      "fromId": "radoje-zvicer",
+      "toId": "milan-vujotic",
+      "type": "led_group_member",
+      "label": "Organizer and convicted group member",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The final appellate judgment names Zvicer as organizer, names Vujotić among convicted group members, and says Zvicer assigned tasks to members."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-dragan-knezevic",
+      "fromId": "radoje-zvicer",
+      "toId": "dragan-knezevic",
+      "type": "led_group_member",
+      "label": "Organizer and convicted group member",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/812472/pravosnazna-presuda-zviceru-osudjen-na-16-godina-zatvora",
+          "title": "Pravosnažna presuda Zviceru, osuđen na 16 godina zatvora",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-06-09",
+          "claim": "The final appellate judgment names Zvicer as organizer, names Knežević among convicted group members, and says Zvicer assigned tasks to members."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-petar-lazovic-first-instance",
+      "fromId": "radoje-zvicer",
+      "toId": "petar-lazovic",
+      "type": "first_instance_group_link",
+      "label": "Linked in separate first-instance group judgment",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "The July first-instance judgment names Zvicer as organization head and convicts Lazović for involvement in that same organization; this judgment is not final."
+        }
+      ]
+    },
+    {
+      "id": "zvicer-ljubo-milovic-first-instance",
+      "fromId": "radoje-zvicer",
+      "toId": "ljubo-milovic",
+      "type": "first_instance_group_link",
+      "label": "Linked in separate first-instance group judgment",
+      "sources": [
+        {
+          "url": "https://www.vijesti.me/amp/819141/petar-lazovic-osudjen-na-20-godina-ljubo-milovic-na-19-a-zvicer-dobio-maksimalnih-40-godina-robije",
+          "title": "Petar Lazović osuđen na 20 godina, Ljubo Milović na 19, a Zvicer dobio maksimalnih 40 godina robije",
+          "publisher": "Vijesti",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2026-07-24",
+          "claim": "The July first-instance judgment names Zvicer as organization head and convicts Milović for involvement in that same organization; this judgment is not final."
+        }
+      ]
+    },
+    {
+      "id": "lazovic-milovic-coordination",
+      "fromId": "petar-lazovic",
+      "toId": "ljubo-milovic",
+      "type": "documented_collaboration",
+      "label": "Communicated in records reviewed by Europol",
+      "sources": [
+        {
+          "url": "https://rtcg.me/hronika/363080/objavljeni-transkripti-kako-su-lazovic-i-milovic-dogovarali-sverc-kokaina.html",
+          "title": "Objavljeni transkripti kako su Lazović i Milović dogovarali šverc kokaina",
+          "publisher": "Radio Televizija Crne Gore",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2022-05-16",
+          "claim": "RTCG reports Europol-reviewed messages in which Lazović and Milović directly discussed alleged drug trafficking together; the 2022 report treated this as an allegation."
+        }
+      ]
+    },
+    {
+      "id": "vusovic-filipovic-deputy",
+      "fromId": "nikola-vusovic",
+      "toId": "nikola-filipovic",
+      "type": "deputy_of",
+      "label": "Right-hand associate",
+      "sources": [
+        {
+          "url": "https://www.rts.rs/lat/vesti/hronika/5562763/uhapsen-nikola-filipovic.html",
+          "title": "Dačić: U Barseloni uhapšen član kriminalne grupe Vračarci Nikola Filipović",
+          "publisher": "Radio-televizija Srbije / Serbian Ministry of Interior",
+          "language": "Montenegrin/Serbian",
+          "publishedAt": "2024-10-23",
+          "claim": "Serbian Interior Ministry directly identifies Filipović as Vušović’s right-hand man in Vračarci."
+        }
+      ]
+    },
+    {
+      "id": "z40-z42-brothers",
+      "fromId": "miguel-angel-trevino-morales",
+      "toId": "omar-trevino-morales",
+      "type": "sibling_of",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ explicitly identifies Omar Treviño Morales as Miguel Treviño Morales’s brother."
+        }
+      ]
+    },
+    {
+      "id": "lazcano-z40-succession",
+      "fromId": "heriberto-lazcano-lazcano",
+      "toId": "miguel-angel-trevino-morales",
+      "type": "succeeded_by",
+      "label": "Leadership succession after 2012 death",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ states Miguel Treviño Morales assumed Los Zetas leadership after Lazcano died in October 2012."
+        }
+      ]
+    },
+    {
+      "id": "z40-z42-succession",
+      "fromId": "miguel-angel-trevino-morales",
+      "toId": "omar-trevino-morales",
+      "type": "succeeded_by",
+      "label": "Leadership succession after 2013 arrest",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+          "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2025-03-14",
+          "claim": "DOJ states Omar Treviño Morales assumed primary Los Zetas leadership after Miguel’s 2013 arrest."
+        }
+      ]
+    },
+    {
+      "id": "z40-kiko-uncle",
+      "fromId": "miguel-angel-trevino-morales",
+      "toId": "juan-francisco-trevino-chavez",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ identifies Juan Francisco Treviño Chávez as the nephew of Miguel Treviño Morales."
+        }
+      ]
+    },
+    {
+      "id": "z42-kiko-uncle",
+      "fromId": "omar-trevino-morales",
+      "toId": "juan-francisco-trevino-chavez",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+          "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2018-11-08",
+          "claim": "DOJ identifies Juan Francisco Treviño Chávez as the nephew of Omar Treviño Morales."
+        }
+      ]
+    },
+    {
+      "id": "guizar-torres-supervisor",
+      "fromId": "jose-maria-guizar-valencia",
+      "toId": "william-dejesus-torres-solarzano",
+      "type": "direct_supervisor_of",
+      "label": "Direct superior in Los Zetas",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug",
+          "title": "Two High-Ranking Los Zetas Cartel Members Sentenced to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2022-11-16",
+          "claim": "DOJ identifies Guízar Valencia as Torres Solórzano’s principal boss and states he directed Torres Solórzano’s activities."
+        }
+      ]
+    },
+    {
+      "id": "gonzalez-esqueda-succession",
+      "fromId": "ricardo-gonzalez-sauceda",
+      "toId": "francisco-daniel-esqueda-nieto",
+      "type": "succeeded_by",
+      "label": "Tactical leadership after 2025 arrest",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0219",
+          "title": "Treasury Sanctions Additional Members of Cartel del Noreste",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-08-06",
+          "claim": "Treasury states Esqueda Nieto took over CDN tactical operations after González Sauceda’s 2025 arrest."
         }
       ]
     },
