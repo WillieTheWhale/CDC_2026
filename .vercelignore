@@ -1,8 +1,0 @@
-# AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
-# Frontend deploy (Vercel project trace-atlas, root directory frontend/): upload only what the Next.js build reads.
-/*
-!/frontend
-!/contracts
-/frontend/node_modules
-/frontend/.next
-/frontend/.env*
