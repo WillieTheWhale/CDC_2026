@@ -12290,7 +12290,12 @@
       "regions": [
         {
           "iso3": "IRE",
-          "label": "Ireland"
+          "label": "Ireland",
+          "evidence": {
+            "claim": "The Irish Times reports Kinahan Senior was imprisoned in Ireland for dealing heroin; the country marker refers to that historical drug conduct, not nationality or current location.",
+            "period": "before 2001",
+            "sourceUrl": "https://www.irishtimes.com/news/crime-and-law/liam-byrne-daniel-kinahan-s-lieutenant-in-dublin-1.3840634"
+          }
         }
       ],
       "drugs": [
@@ -12305,6 +12310,14 @@
           "language": "English",
           "publishedAt": "2022-04-11",
           "claim": "Treasury says Kinahan Senior built the network, oversaw its property interests, served prison sentences for heroin, cocaine and money laundering, and was designated in 2022."
+        },
+        {
+          "url": "https://www.irishtimes.com/news/crime-and-law/liam-byrne-daniel-kinahan-s-lieutenant-in-dublin-1.3840634",
+          "title": "Liam Byrne: Daniel Kinahan’s lieutenant in Dublin",
+          "publisher": "The Irish Times",
+          "language": "English",
+          "publishedAt": "2023-06-05",
+          "claim": "The Irish Times reports Kinahan Senior was imprisoned in Ireland for dealing heroin; the country marker refers to that historical drug conduct, not nationality or current location."
         }
       ],
       "aliases": [
@@ -12324,7 +12337,12 @@
       "regions": [
         {
           "iso3": "IRE",
-          "label": "Ireland"
+          "label": "Ireland",
+          "evidence": {
+            "claim": "Treasury says Daniel Kinahan played an integral part in organizing drug supply in Ireland; this is its 2022 assessment, separate from his later Irish charge.",
+            "period": "before 2022",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy0713"
+          }
         }
       ],
       "drugs": [
@@ -12362,7 +12380,12 @@
       "regions": [
         {
           "iso3": "GBR",
-          "label": "United Kingdom"
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "Treasury says Christopher Kinahan Junior collaborated with other group members to transport and sell narcotics in the United Kingdom before its April 2022 designation.",
+            "period": "before 2022",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy0713"
+          }
         }
       ],
       "drugs": [],
@@ -12393,7 +12416,12 @@
       "regions": [
         {
           "iso3": "IRE",
-          "label": "Ireland"
+          "label": "Ireland",
+          "evidence": {
+            "claim": "The Irish Times identifies McGovern as a member of the Byrne gang that ran the Kinahan drug network’s Irish operation; Treasury separately alleges he sold multi-kilogram cocaine quantities.",
+            "period": "2010s",
+            "sourceUrl": "https://www.irishtimes.com/crime-law/2025/05/29/sean-mcgoverns-return-from-dubai-marks-irelands-highest-risk-extradition-since-john-gilligan/"
+          }
         }
       ],
       "drugs": [
@@ -12423,6 +12451,14 @@
           "language": "Irish",
           "publishedAt": "2026-06-08",
           "claim": "RTÉ Nuacht reports in Irish that McGovern received a 24-year sentence for directing Kinahan group activities."
+        },
+        {
+          "url": "https://www.irishtimes.com/crime-law/2025/05/29/sean-mcgoverns-return-from-dubai-marks-irelands-highest-risk-extradition-since-john-gilligan/",
+          "title": "High-risk extradition of Sean McGovern to involve armed escort",
+          "publisher": "The Irish Times",
+          "language": "English",
+          "publishedAt": "2025-05-29",
+          "claim": "The Irish Times identifies McGovern as a member of the Byrne gang that ran the Kinahan drug network’s Irish operation; Treasury separately alleges he sold multi-kilogram cocaine quantities."
         }
       ]
     },
@@ -12439,7 +12475,12 @@
       "regions": [
         {
           "iso3": "IRE",
-          "label": "Ireland"
+          "label": "Ireland",
+          "evidence": {
+            "claim": "Treasury says Dixon moved bulk currency for Daniel Kinahan in Ireland and managed funds connected to a narcotics trafficker; this is a historical financial role in the drug network.",
+            "period": "before 2022",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy0713"
+          }
         }
       ],
       "drugs": [],
@@ -12513,7 +12554,12 @@
       "regions": [
         {
           "iso3": "GBR",
-          "label": "United Kingdom"
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "NCA names Kavanagh as the UK figurehead of the Kinahan network and reports his conviction for organizing cocaine and cannabis imports into the United Kingdom.",
+            "period": "2016–2017",
+            "sourceUrl": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years"
+          }
         }
       ],
       "drugs": [
@@ -12555,7 +12601,12 @@
       "regions": [
         {
           "iso3": "GBR",
-          "label": "United Kingdom"
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "NCA reports Vickery’s guilty plea for cocaine and cannabis importation and money laundering in the Kavanagh UK drug enterprise.",
+            "period": "2016–2017",
+            "sourceUrl": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years"
+          }
         }
       ],
       "drugs": [
@@ -12586,7 +12637,12 @@
       "regions": [
         {
           "iso3": "GBR",
-          "label": "United Kingdom"
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "NCA reports Canning’s guilty plea for cocaine and cannabis importation and money laundering in the Kavanagh UK drug enterprise.",
+            "period": "2016–2017",
+            "sourceUrl": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years"
+          }
         }
       ],
       "drugs": [
@@ -12617,7 +12673,12 @@
       "regions": [
         {
           "iso3": "GBR",
-          "label": "United Kingdom"
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "In written evidence to a UK parliamentary committee, the NCA identifies Mulvey as leader of a West Midlands drug-supply and money-laundering group linked to 15 likely attempts to move Class A and B drugs into the United Kingdom.",
+            "period": "2006–2007",
+            "sourceUrl": "https://committees.parliament.uk/writtenevidence/93271/html/"
+          }
         }
       ],
       "drugs": [],
@@ -12629,6 +12690,21 @@
           "language": "English",
           "publishedAt": "2022-09-20",
           "claim": "NCA calls Mulvey another key player in the Kinahan crime group and reports he was serving a 32-year drug-trafficking prison sentence in September 2022."
+        },
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/drug-trafficking?catid=15&id=2514&view=article",
+          "title": "Alleged “money man” for Kinahan organised crime network arrested",
+          "publisher": "UK National Crime Agency",
+          "language": "English",
+          "publishedAt": "2022-09-20",
+          "claim": "NCA describes Mulvey as a key Kinahan-network participant whom its investigators linked to large-scale drug trafficking and a 32-year UK sentence; a separate NCA submission identifies his West Midlands drug-supply organization."
+        },
+        {
+          "url": "https://committees.parliament.uk/writtenevidence/93271/html/",
+          "title": "NCA written evidence on serious violence (SVC0023)",
+          "publisher": "UK National Crime Agency / UK Parliament",
+          "language": "English",
+          "claim": "In written evidence to a UK parliamentary committee, the NCA identifies Mulvey as leader of a West Midlands drug-supply and money-laundering group linked to 15 likely attempts to move Class A and B drugs into the United Kingdom."
         }
       ]
     },
@@ -12636,7 +12712,7 @@
       "id": "liam-byrne",
       "name": "Liam Byrne",
       "status": "convicted",
-      "statusAsOf": "2024-10-22",
+      "statusAsOf": "2025-01-17",
       "roleLabel": "Former Dublin branch leader; convicted in UK firearm conspiracy",
       "prominence": 1,
       "organizationIds": [
@@ -12645,11 +12721,12 @@
       "regions": [
         {
           "iso3": "IRE",
-          "label": "Ireland"
-        },
-        {
-          "iso3": "GBR",
-          "label": "United Kingdom"
+          "label": "Ireland",
+          "evidence": {
+            "claim": "The Irish Times reports Byrne led the Ireland-based Byrne group that distributed Kinahan drugs in Ireland; this is a historical market role, not a UK drug conviction.",
+            "period": "2010s",
+            "sourceUrl": "https://www.irishtimes.com/crime-law/2025/01/17/gardai-set-to-monitor-irish-gang-leader-kinahan-ally-liam-byrne-after-early-release-in-uk/"
+          }
         }
       ],
       "drugs": [],
@@ -12661,6 +12738,14 @@
           "language": "English",
           "publishedAt": "2024-10-22",
           "claim": "RTÉ identifies Byrne as head of the Kinahan group in Dublin, brother-in-law of Thomas Kavanagh, and reports his five-year sentence after guilty pleas in October 2024."
+        },
+        {
+          "url": "https://www.irishtimes.com/crime-law/2025/01/17/gardai-set-to-monitor-irish-gang-leader-kinahan-ally-liam-byrne-after-early-release-in-uk/",
+          "title": "Gardaí set to monitor Irish gang leader Liam Byrne after early release in UK",
+          "publisher": "The Irish Times",
+          "language": "English",
+          "publishedAt": "2025-01-17",
+          "claim": "The Irish Times reports Byrne led the Ireland-based Byrne group that distributed Kinahan drugs in Ireland; this is a historical market role, not a UK drug conviction."
         }
       ]
     },
@@ -12674,12 +12759,7 @@
       "organizationIds": [
         "kinahan-ocg"
       ],
-      "regions": [
-        {
-          "iso3": "GBR",
-          "label": "United Kingdom"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -12702,12 +12782,7 @@
       "organizationIds": [
         "kinahan-ocg"
       ],
-      "regions": [
-        {
-          "iso3": "GBR",
-          "label": "United Kingdom"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -12730,16 +12805,7 @@
       "organizationIds": [
         "kinahan-ocg"
       ],
-      "regions": [
-        {
-          "iso3": "IRE",
-          "label": "Ireland"
-        },
-        {
-          "iso3": "GBR",
-          "label": "United Kingdom"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
