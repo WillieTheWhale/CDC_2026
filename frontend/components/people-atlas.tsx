@@ -63,12 +63,21 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   const requestBounds = searching || selectedCountry ? undefined : bounds;
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [total, setTotal] = useState<number | null>(null);
+  const [publishedTotal, setPublishedTotal] = useState<number | null>(null);
   const [nextCursor, setNextCursor] = useState<string | null>(null);
   const [loadingMore, setLoadingMore] = useState(false);
   const [graphShownCount, setGraphShownCount] = useState(30);
   const filterKey = JSON.stringify([query, requestZoom, requestBounds, selectedCountry]);
   const filterKeyRef = useRef(filterKey);
   filterKeyRef.current = filterKey;
+
+  useEffect(() => {
+    let active = true;
+    void loadPeople({ zoom: 3, limit: 1 }).then((result) => {
+      if (active) setPublishedTotal(result.status === "ready" ? result.total : null);
+    });
+    return () => { active = false; };
+  }, []);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -285,7 +294,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     <p className="people-caution" role="note"><strong>Evidence caution.</strong> A listed connection is a claim from the cited sources, not proof of guilt. Status categories are kept distinct and reflect what the cited source establishes.</p>
     <div className="people-toolbar">
       <label className="people-search"><Search size={15} /><span className="sr-only">Search people</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search names and aliases" /></label>
-      <span className="people-result-count">{personCount.toLocaleString()}{total === null ? " loaded people · total unavailable" : ` of ${total.toLocaleString()} matching people`} · {dataset?.connections.length.toLocaleString() ?? "—"} loaded claims</span>
+      <span className="people-result-count">{personCount.toLocaleString()}{total === null ? " loaded people · matching total unavailable" : ` of ${total.toLocaleString()} matching people`} · {publishedTotal === null ? "published total unavailable" : `${publishedTotal.toLocaleString()} published people, all tiers`} · {dataset?.connections.length.toLocaleString() ?? "—"} loaded claims</span>
       {mode === "map" && <div className="people-zoom" aria-label="Map zoom controls">
         <button aria-label="Zoom out" disabled={zoom === 1} onClick={() => mapRef.current?.zoomOut()}><ZoomOut size={16} /></button>
         <span>Zoom {zoom}/3</span>
@@ -303,9 +312,9 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
         </div>
         {zoom === 3 && trayShown.length > 0 && <section className="people-country-tray" aria-label="People with country-level associations">
           <div className="people-country-tray-heading"><div><h2>{selectedCountryName ?? "People in the visible countries"}</h2><p>Country association only · Portraits are not placed at city or street locations.</p></div><span>{trayShown.length} shown{trayEntries.length > 48 ? ` of ${trayEntries.length} loaded here` : ""}</span></div>
-          <div className="people-country-tray-grid">{trayShown.map(({ person, region }) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => choosePerson(person, region.iso3)} aria-label={`Review ${person.name}, associated with ${region.label} at country level`}>
+          <div className="people-country-tray-grid">{trayShown.map(({ person, region }) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => choosePerson(person, region.iso3)} aria-label={`Review ${person.name}, ${STATUS_LABEL[person.status]}, ${person.statusAsOf ? `as of ${person.statusAsOf}` : "status date not provided"}, associated with ${region.label} at country level`}>
             <span className="people-country-tray-avatar">{person.photo ? <img src={person.photo.url} alt="" loading="lazy" /> : person.name.slice(0, 1).toUpperCase()}</span>
-            <span><strong>{person.name}</strong><small>{region.label}</small></span>
+            <span className="people-country-tray-copy"><strong>{person.name}</strong><small>{region.label}</small><span className="people-country-tray-legal"><span className={`people-status status-${person.status}`}>{STATUS_LABEL[person.status]}</span><small>{person.statusAsOf ? `as of ${person.statusAsOf}` : "date unavailable"}</small></span></span>
           </button>)}</div>
           {(trayEntries.length > 48 || nextCursor) && <p className="people-country-tray-overflow">Cards are limited to 48 loaded people plus the selected person. Use the paged records below to reach everyone.</p>}
         </section>}

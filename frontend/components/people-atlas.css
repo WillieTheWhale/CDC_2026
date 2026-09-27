@@ -42,7 +42,7 @@
 .people-country-tray-heading h2 { margin: 0; font-size: 12px; font-weight: 600; }
 .people-country-tray-heading p { margin: 4px 0 0; color: #687c90; font-size: 10px; }
 .people-country-tray-heading > span { flex: 0 0 auto; color: #74879a; font: 9px var(--mono, monospace); }
-.people-country-tray-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(145px, 1fr)); gap: 6px; margin-top: 12px; }
+.people-country-tray-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 6px; margin-top: 12px; }
 .people-country-tray-grid button { display: flex; min-width: 0; align-items: center; gap: 7px; padding: 6px; border: 1px solid #e0e7ee; border-radius: 5px; background: #fff; text-align: left; }
 .people-country-tray-grid button:hover, .people-country-tray-grid button:focus-visible, .people-country-tray-grid button.selected { border-color: #ed482d; outline-offset: 2px; }
 .people-country-tray-avatar { flex: 0 0 27px; width: 27px; height: 27px; display: grid; place-items: center; overflow: hidden; border-radius: 50%; background: #e8f0f7; color: #436d91; font: 11px var(--mono, monospace); }
@@ -51,6 +51,10 @@
 .people-country-tray-grid strong, .people-country-tray-grid small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .people-country-tray-grid strong { font-size: 10px; font-weight: 600; }
 .people-country-tray-grid small { margin-top: 2px; color: #8493a2; font-size: 9px; }
+.people-country-tray-copy { min-width: 0; }
+.people-country-tray-legal { display: flex; flex-wrap: wrap; align-items: center; gap: 3px 5px; margin-top: 4px; }
+.people-country-tray-legal .people-status { padding: 2px 4px; font-size: 8px; }
+.people-country-tray-grid .people-country-tray-legal small { margin: 0; color: #657b8e; font: 8px var(--mono, monospace); }
 .people-country-tray-overflow { margin: 10px 0 0; color: #74879a; font-size: 10px; }
 .people-country-filter { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 0 3px; color: #465f76; font-size: 11px; }
 .people-country-filter button { color: #245f91; font-size: 10px; text-decoration: underline; }
