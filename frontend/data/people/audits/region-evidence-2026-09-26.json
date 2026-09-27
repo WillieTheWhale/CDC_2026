@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2923,
-    "associations": 1900,
-    "evidenced": 1900,
+    "people": 2978,
+    "associations": 1951,
+    "evidenced": 1951,
     "missing": 0,
     "invalid": 0
   },
@@ -589,6 +589,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "uk_venetic_official_growth_2022_2026.json": {
+      "people": 55,
+      "associations": 51,
+      "evidenced": 51,
+      "missing": 0,
+      "invalid": 0
+    },
     "uwsa_core.json": {
       "people": 12,
       "associations": 8,
@@ -898,8 +905,8 @@
       "invalid": 0
     },
     "GBR": {
-      "associations": 66,
-      "evidenced": 66,
+      "associations": 117,
+      "evidenced": 117,
       "missing": 0,
       "invalid": 0
     },
