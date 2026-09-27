@@ -962,7 +962,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Cecil William Wallis's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-wdmi/pr/2021_0420_Operation_Prison_Break"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1048,7 +1058,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Luis Alberto Cruz's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-wdmi/pr/2021_0420_Operation_Prison_Break"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1086,7 +1106,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Sarah Joy McBride's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-wdmi/pr/2021_0420_Operation_Prison_Break"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1513,7 +1543,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Bonifacio Nunez-Romero's historical drug-case conduct in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2013",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/smith-county-man-sentenced-drug-trafficking-east-texas"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -2405,7 +2445,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Andrew Kyle Whittecar's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2022",
+            "sourceUrl": "https://www.justice.gov/usao-mt/pr/stevensville-man-admits-drug-trafficking-firearm-money-laundering-crimes-after"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -2543,7 +2593,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Leonardo Garcia's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2023",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/albuquerque-man-sentenced-10-years-prison-drug-trafficking-and-federal-firearms-offenses"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -2683,7 +2743,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Daniel Martinez's historical drug-case conduct in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/grand-prairie-texas-man-sentenced-drug-trafficking"
+          }
+        }
+      ],
       "drugs": [
         "cannabis",
         "cocaine"
@@ -3705,7 +3775,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Francisco Antonio Soriano's historical drug-case conduct in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2013",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/illegal-alien-sentenced-drug-trafficking-east-texas"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -4147,7 +4227,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Jose Perez Felix's historical drug-case conduct in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2022",
+            "sourceUrl": "https://www.justice.gov/usao-ma/pr/boston-area-fentanyl-and-cocaine-supplier-sentenced-over-seven-years-prison-drug"
+          }
+        }
+      ],
       "drugs": [
         "heroin",
         "fentanyl",
@@ -4422,7 +4512,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes CORNELL FINLEY's historical drug-case conduct in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2025",
+            "sourceUrl": "https://www.justice.gov/usao-ndil/pr/rockford-man-sentenced-13-years-prison-drug-trafficking-and-firearm-offenses"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -4656,7 +4756,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Christopher Allen Edwards's historical drug-case conduct in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2022",
+            "sourceUrl": "https://www.justice.gov/usao-mn/pr/federal-jury-convicts-olmsted-county-man-drug-trafficking-conspiracy-and-possession"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine",
         "fentanyl",
@@ -4699,7 +4809,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Michelle Lea Harrington's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2020",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/vidor-women-guilty-federal-drug-trafficking-resulting-multiple-deaths"
+          }
+        }
+      ],
       "drugs": [
         "hydromorphone"
       ],
@@ -4973,7 +5093,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Peter Schiepers's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2025",
+            "sourceUrl": "https://www.justice.gov/usao-ma/pr/allston-man-pleads-guilty-trafficking-date-rape-drug-and-methamphetamine"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -5134,7 +5264,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Kaylin Lightfoot-Homa's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2019",
+            "sourceUrl": "https://www.justice.gov/usao-wdpa/pr/wife-lightfoot-drug-trafficking-organization-leader-pleads-guilty-maintaining-drug"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -5306,7 +5446,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Jojuan Bray's historical drug-case conduct in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2018",
+            "sourceUrl": "https://www.justice.gov/usao-wdpa/pr/clairton-man-10th-21-defendants-plead-guilty-drug-trafficking-conspiracy"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -5346,7 +5496,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Hussein Iman's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-vt/pr/ten-members-drug-trafficking-organization-sentenced-federal-court"
+          }
+        }
+      ],
       "drugs": [
         "fentanyl",
         "cocaine"
@@ -5588,7 +5748,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Felix Ulibarri's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2017",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/another-sentenced-and-two-more-plead-guilty-federal-charges-arising-out-atf-led-operation"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -5628,7 +5798,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Joshua Bright's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2017",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/another-sentenced-and-two-more-plead-guilty-federal-charges-arising-out-atf-led-operation"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -5668,7 +5848,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Sara Thompson's historical residence or locality in United States. This country association is historical and does not indicate a present location.",
+            "period": "reported 2025",
+            "sourceUrl": "https://www.justice.gov/usao-wdwa/pr/two-members-multi-state-drug-trafficking-rings-linked-aryan-prison-gangs-sentenced"
+          }
+        }
+      ],
       "drugs": [
         "fentanyl",
         "methamphetamine"
