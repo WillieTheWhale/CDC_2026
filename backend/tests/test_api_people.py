@@ -135,29 +135,36 @@ def test_normalize_life_and_legal_status():
 
 
 @pytest.fixture
-def remote(monkeypatch):
-    """TRACE_PEOPLE_REMOTE=1 with a fake GitHub fetch; `payload` None means 304, an exception means failure."""
+def remote(monkeypatch, tmp_path):
+    """TRACE_PEOPLE_REMOTE=1 with a fake raw-manifest fetch (the snapshot branch is absent); `payload` None means
+    304, an exception means failure. Refreshes run inline here; test_people_snapshot_consumer.py covers the rest."""
     class Remote:
         calls = 0
         payload = {"people": [_person("r1", "Remote One")]}
 
         def fetch(self, url, etag, timeout):
             self.calls += 1
-            assert url == people.REMOTE_URL and timeout <= 5
+            assert url == people.REMOTE_URL and timeout <= people.REMOTE_TIMEOUT
             if isinstance(self.payload, Exception):
                 raise self.payload
             return (None, etag) if self.payload is None else (self.payload, "v1")
 
+    def no_snapshot(url, etag, timeout):
+        raise OSError("snapshot branch unavailable")
+
     r = Remote()
     monkeypatch.setenv("TRACE_PEOPLE_REMOTE", "1")
     monkeypatch.setenv("TRACE_PEOPLE_REFRESH_SECONDS", "600")
+    monkeypatch.setenv("TRACE_PEOPLE_CACHE_DIR", str(tmp_path))
     monkeypatch.setattr(people, "_fetch", r.fetch)
-    monkeypatch.setattr(people, "_state", {"data": None, "etag": None, "checked": None})
+    monkeypatch.setattr(people, "_get", no_snapshot)
+    monkeypatch.setattr(people, "_spawn", lambda fn: fn())
+    monkeypatch.setattr(people, "_S", people._State())
     return r
 
 
 def _expire():
-    people._state["checked"] -= 10_000
+    people._S.checked -= 10_000
 
 
 def test_remote_refresh_ttl_304_and_last_good_copy(remote):
@@ -180,7 +187,8 @@ def test_remote_failure_falls_back_to_bundled(remote, monkeypatch):
     bundled = people._bundled()
     remote.payload = TimeoutError()
     meta = client.get("/api/people", params={"limit": 1, "zoom": 3}).json()["meta"]
-    assert meta["people_snapshot"] == {"origin": "bundled", "fetched_at": None}
+    assert meta["people_snapshot"]["origin"] == "bundled" and meta["people_snapshot"]["fetched_at"] is None
+    assert meta["people_snapshot"]["stale"] is True  # never confirmed against a remote
     assert meta["total"] == len(bundled["people"])
     client.get("/api/people", params={"limit": 1})
     assert remote.calls == 1  # failures back off instead of retrying on every request

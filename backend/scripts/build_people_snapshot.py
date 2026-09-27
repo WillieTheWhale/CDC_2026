@@ -70,16 +70,19 @@ def bucket_of(record, n: int) -> int:
     return int(sha256_hex(record_key(record).encode("utf-8")), 16) % n
 
 
-def partition(records: list, n: int) -> list[list]:
+def partition(records: list, n: int) -> list[list[tuple[int, object]]]:
+    """Buckets of (manifest position, record); manifest order is kept inside each bucket."""
     buckets: list[list] = [[] for _ in range(n)]
-    for rec in records:  # manifest order is kept inside each bucket
-        buckets[bucket_of(rec, n)].append(rec)
+    for pos, rec in enumerate(records):
+        buckets[bucket_of(rec, n)].append((pos, rec))
     return buckets
 
 
-def shard_json(kind: str, records: list) -> bytes:
-    # Records verbatim (original key order); compact separators keep the payload small.
-    return json.dumps({"kind": kind, "records": records}, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
+def shard_json(kind: str, bucket: list[tuple[int, object]]) -> bytes:
+    # Records verbatim (original key order) plus each record's manifest position, so a consumer can rebuild the
+    # manifest's exact order (response arrays keep matching the frontend's fixture mode). Compact separators.
+    return json.dumps({"kind": kind, "records": [r for _, r in bucket], "positions": [p for p, _ in bucket]},
+                      separators=(",", ":"), ensure_ascii=False).encode("utf-8")
 
 
 def gzip_deterministic(data: bytes) -> bytes:
@@ -261,7 +264,11 @@ def verify(out: Path, manifest_path: Path) -> list[str]:
             continue
         if len(records) != entry.get("records"):
             problems.append(f"{name}: {len(records)} records != index {entry.get('records')}")
-        got[kind].append(records)
+        positions = body.get("positions")
+        if not isinstance(positions, list) or len(positions) != len(records):
+            problems.append(f"{name}: positions missing or not one per record")
+            continue
+        got[kind].append(list(zip(positions, records)))
 
     counts = index.get("counts") or {}
     for kind in KINDS:
@@ -269,7 +276,7 @@ def verify(out: Path, manifest_path: Path) -> list[str]:
         if counts.get(kind) != len(expected):
             problems.append(f"counts.{kind} {counts.get(kind)} != manifest {len(expected)}")
         # Union check, order-aware: re-bucketing the manifest with this kind's shard count must reproduce
-        # each shard exactly (same records, manifest order within the shard).
+        # each shard exactly (same records, same manifest positions, manifest order within the shard).
         n = len(got[kind])
         if n == 0:
             problems.append(f"no {kind} shards")
@@ -277,7 +284,7 @@ def verify(out: Path, manifest_path: Path) -> list[str]:
         want = partition(expected, n)
         by_bucket = {}
         for records in got[kind]:
-            b = bucket_of(records[0], n) if records else None
+            b = bucket_of(records[0][1], n) if records else None
             if b is not None:
                 by_bucket.setdefault(b, []).append(records)
         for b, bucket in enumerate(want):
