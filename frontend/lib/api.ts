@@ -173,10 +173,15 @@ export function subscribeLivewire(
 ): () => void {
   let cancelled = false;
   if (DEMO) {
+    const demoEvents: LiveEvent[] = livewire.data.events;
+    if (demoEvents.length === 0) {
+      onState("No verified live events");
+      return () => {};
+    }
     let i = 0;
     onState("Demo replay");
     const timer = setInterval(() => {
-      const event = livewire.data.events[i++ % livewire.data.events.length];
+      const event = demoEvents[i++ % demoEvents.length];
       if (event.confidence >= 0.6) onEvent(event);
     }, 18000);
     return () => clearInterval(timer);
