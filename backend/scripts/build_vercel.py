@@ -40,20 +40,59 @@ import os
 os.environ.setdefault("TRACE_CLASSIFIER", "mock")
 os.environ.setdefault("TRACE_LIVEWIRE_POLL", "0")
 
+
+def _preload_libgomp() -> None:
+    """LightGBM needs libgomp.so.1, which Vercel's Python runtime lacks. scikit-learn's wheel vendors one under a
+    hashed soname; copy it to /tmp with the soname rewritten to libgomp.so.1 (same length, NUL-padded) and load it
+    globally so lib_lightgbm.so resolves against it."""
+    import ctypes
+    import glob
+    import importlib.util
+    from pathlib import Path
+
+    try:
+        ctypes.CDLL("libgomp.so.1")
+        return
+    except OSError:
+        pass
+    libs = Path(importlib.util.find_spec("sklearn").origin).parents[1] / "scikit_learn.libs"
+    src = Path(sorted(glob.glob(str(libs / "libgomp-*.so*")))[0])
+    old = src.name.encode()
+    data = src.read_bytes().replace(old + b"\\0", b"libgomp.so.1".ljust(len(old) + 1, b"\\0"))
+    dst = Path("/tmp/trace_gomp/libgomp.so.1")
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    dst.write_bytes(data)
+    ctypes.CDLL(str(dst), mode=ctypes.RTLD_GLOBAL)
+
+
+_preload_libgomp()
+
 from trace_backend.api.app import app  # noqa: E402,F401
 '''
 VERCEL_JSON = """{
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "functions": { "app.py": { "maxDuration": 60 } }
+  "framework": "fastapi"
 }
+"""
+PYPROJECT = """[project]
+name = "trace-api"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+""" + "".join(f'    "{r}",\n' for r in REQUIREMENTS.split()) + """]
+
+[tool.vercel]
+entrypoint = "app:app"
 """
 IGNORE = shutil.ignore_patterns("__pycache__", "*.pyc", "llm_data", "results", "seed", "tests")
 
 
 def build() -> Path:
-    if OUT.exists():
-        shutil.rmtree(OUT)
-    OUT.mkdir()
+    OUT.mkdir(exist_ok=True)
+    for child in OUT.iterdir():  # empty in place (keeps .vercel, the project link, and works if OUT is a cwd)
+        if child.name == ".vercel":
+            continue
+        shutil.rmtree(child) if child.is_dir() else child.unlink()
     shutil.copytree(BACKEND / "trace_backend", OUT / "trace_backend", ignore=IGNORE)
     data = OUT / "data"
     for sub in ("raw", "cache"):
@@ -77,6 +116,7 @@ def build() -> Path:
         con.execute("VACUUM")
     con.close()
     (OUT / "requirements.txt").write_text(REQUIREMENTS, encoding="utf-8")
+    (OUT / "pyproject.toml").write_text(PYPROJECT, encoding="utf-8")
     (OUT / "app.py").write_text(APP, encoding="utf-8")
     (OUT / "vercel.json").write_text(VERCEL_JSON, encoding="utf-8")
     (OUT / ".python-version").write_text("3.12\n", encoding="utf-8")

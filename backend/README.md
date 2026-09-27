@@ -54,7 +54,11 @@ The API serves precomputed JSON, so the demo never waits on a model. Only `POST 
 
 Frontend: set `NEXT_PUBLIC_API_URL=http://localhost:8000` in `frontend/.env.local`.
 
-To deploy (Render or Railway): run `uv run trace pipeline` during build, then start with `uv run trace serve --host 0.0.0.0 --port $PORT`. The simulator needs the archive, `data/derived.sqlite` and `data/processed/models/`. Every other endpoint needs only `data/processed/api/`.
+**Live API (Vercel):** https://trace-api-six.vercel.app (docs at `/docs`). For the deployed frontend, set `NEXT_PUBLIC_API_URL=https://trace-api-six.vercel.app`. CORS allows `localhost:3000` and any `*.vercel.app` origin.
+
+To redeploy: `.venv/Scripts/python scripts/build_vercel.py`, then `cd .vercel_deploy && vercel deploy --prod`. The build script stages a 34 MB self-contained package: the code, `data/processed/api/`, the route model, and a slim SQLite that holds the derived tables plus `countries` and `cultivation`. It leaves out the 1.2 GB archive. On Vercel the Live Wire uses the keyword classifier and replays its backlog without polling GDELT. Reflex needs torch, which is too heavy for the function. LightGBM needs `libgomp.so.1`, which the runtime lacks, so the generated `app.py` loads scikit-learn's bundled copy at cold start.
+
+To deploy elsewhere (Render or Railway): run `uv run trace pipeline` during build, then start with `uv run trace serve --host 0.0.0.0 --port $PORT`. The simulator needs `data/derived.sqlite`, the archive tables `countries` and `cultivation`, and `data/processed/models/`. Every other endpoint needs only `data/processed/api/`.
 
 ## Tests
 
