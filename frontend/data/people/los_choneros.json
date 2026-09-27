@@ -1,0 +1,290 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Compiled 2026-09-26 from cited U.S. and Ecuadorian government records. U.S. indictment allegations are not convictions. Ecuador Fiscalía's 2025 11-person and 2024 20-person releases use initials; none are expanded or counted here. No photos, precise locations, or operational route details.",
+  "organizations": [
+    {
+      "id": "los-choneros",
+      "name": "Los Choneros",
+      "regions": [
+        "ECU"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2082",
+          "title": "Treasury Sanctions Ecuador’s Notorious Los Choneros Gang and Its Leader",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-02-07",
+          "claim": "Treasury identifies Los Choneros as an Ecuadorian drug-trafficking organization and its leader José Adolfo Macías Villamar."
+        },
+        {
+          "url": "https://www.fiscalia.gob.ec/prision-preventiva-por-delincuencia-organizada-para-20-presuntos-integrantes-de-los-choneros/",
+          "title": "Prisión preventiva –por delincuencia organizada– para 20 presuntos integrantes de ‘Los Choneros’",
+          "publisher": "Fiscalía General del Estado",
+          "language": "es",
+          "publishedAt": "2024-05-31",
+          "claim": "Fiscalía describes a 2024 Ecuador investigation into the alleged Los Fatales faction of Los Choneros and its alleged link to Macías Villamar. The twenty defendants are identified only by initials and are excluded from this fixture."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "jose-adolfo-macias-villamar",
+      "name": "José Adolfo Macías Villamar",
+      "aliases": [
+        "Fito"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-07-21",
+      "roleLabel": "Los Choneros leader charged in U.S. cocaine and firearms case",
+      "prominence": 1,
+      "organizationIds": [
+        "los-choneros"
+      ],
+      "regions": [
+        {
+          "iso3": "ECU",
+          "label": "Ecuador",
+          "evidence": {
+            "claim": "Treasury identifies Macías Villamar as the Ecuadorian gang's leader and reports his 2011 Ecuador sentence included drug trafficking.",
+            "period": "2011–2024",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2082"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2082",
+          "title": "Treasury Sanctions Ecuador’s Notorious Los Choneros Gang and Its Leader",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-02-07",
+          "claim": "Treasury identifies Macías Villamar as Los Choneros' leader and states Ecuador sentenced him in 2011 for crimes including drug trafficking; Treasury sanctioned him in 2024."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/jose-adolfo-fito-macias-villamar-leader-los-choneros-transnational-criminal",
+          "title": "José Adolfo ‘Fito’ Macías Villamar, Leader of Los Choneros Transnational Criminal Organization, Indicted in Brooklyn Federal Court",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-02",
+          "claim": "DOJ names Macías Villamar as charged in a seven-count indictment including international cocaine distribution and firearms offenses; these are allegations."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/jose-adolfo-fito-macias-villamar-leader-los-choneros-transnational-criminal-0",
+          "title": "José Adolfo ‘Fito’ Macías Villamar Extradited to Brooklyn Federal Court",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-07-21",
+          "claim": "DOJ reports Macías Villamar's extradition from Ecuador and arraignment on a superseding indictment; it explicitly presumes innocence on the U.S. charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-adolfo-macias-villamar-2025-07-21-extradition",
+          "occurredAt": "2025-07-21",
+          "type": "development",
+          "title": "Extradited and arraigned in U.S. case",
+          "summary": "DOJ reported his extradition from Ecuador and arraignment on U.S. cocaine and firearms charges; the charges remain allegations in this cited release.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edny/pr/jose-adolfo-fito-macias-villamar-leader-los-choneros-transnational-criminal-0",
+            "title": "José Adolfo ‘Fito’ Macías Villamar Extradited to Brooklyn Federal Court",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-07-21",
+            "claim": "DOJ reports extradition and arraignment in the U.S. case."
+          }
+        },
+        {
+          "id": "jose-adolfo-macias-villamar-2025-04-02-charge",
+          "occurredAt": "2025-04-02",
+          "type": "charge",
+          "title": "U.S. indictment unsealed",
+          "summary": "A seven-count U.S. indictment alleging international cocaine distribution and firearms offenses was unsealed.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edny/pr/jose-adolfo-fito-macias-villamar-leader-los-choneros-transnational-criminal",
+            "title": "José Adolfo ‘Fito’ Macías Villamar, Leader of Los Choneros Transnational Criminal Organization, Indicted in Brooklyn Federal Court",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-04-02",
+            "claim": "DOJ says the indictment was unsealed on April 2, 2025; charges are allegations."
+          }
+        },
+        {
+          "id": "jose-adolfo-macias-villamar-2024-02-07-sanction",
+          "occurredAt": "2024-02-07",
+          "type": "sanction",
+          "title": "U.S. Treasury sanction",
+          "summary": "Treasury sanctioned Macías Villamar and Los Choneros under counter-narcotics authorities.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2082",
+            "title": "Treasury Sanctions Ecuador’s Notorious Los Choneros Gang and Its Leader",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-02-07",
+            "claim": "Treasury announced the sanction on February 7, 2024."
+          }
+        }
+      ]
+    },
+    {
+      "id": "francisco-manuel-bermudez-cagua",
+      "name": "Francisco Manuel Bermúdez Cagua",
+      "aliases": [
+        "Churron"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-12-11",
+      "roleLabel": "Alleged Los Choneros lieutenant charged in U.S. cocaine case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-choneros"
+      ],
+      "regions": [],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/reward-offered-information-leading-arrest-high-ranking-member-los-choneros-violent",
+          "title": "Reward Offered for Information Leading to Arrest of High-Ranking Member of Los Choneros",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-12-11",
+          "claim": "DOJ spells out Bermúdez Cagua's full name, identifies him as an alleged Los Choneros lieutenant, and states that a superseding indictment charges international cocaine-distribution offenses; no conviction is reported."
+        }
+      ],
+      "events": [
+        {
+          "id": "francisco-manuel-bermudez-cagua-2025-12-11-charge-report",
+          "occurredAt": "2025-12-11",
+          "type": "development",
+          "title": "U.S. charges publicly detailed",
+          "summary": "DOJ described pending cocaine-distribution and firearms charges against Bermúdez Cagua; it said the superseding indictment had been unsealed in June 2025.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edny/pr/reward-offered-information-leading-arrest-high-ranking-member-los-choneros-violent",
+            "title": "Reward Offered for Information Leading to Arrest of High-Ranking Member of Los Choneros",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-12-11",
+            "claim": "DOJ reported the pending charges on December 11, 2025; the unsealing day in June is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dario-javier-penafiel-nieto",
+      "name": "Darío Javier Peñafiel Nieto",
+      "aliases": [
+        "Topo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-12-11",
+      "roleLabel": "Los Choneros co-defendant charged in U.S. cocaine case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-choneros"
+      ],
+      "regions": [
+        {
+          "iso3": "ECU",
+          "label": "Ecuador",
+          "evidence": {
+            "claim": "An Ecuadorian judicial record documents Peñafiel Nieto by full name as charged in a 2025 alleged arms-trafficking case, with police information describing him as a Los Choneros-Fatales leader.",
+            "period": "2025",
+            "sourceUrl": "https://www.funcionjudicial.gob.ec/resources/pdf/MOTP-0034-SNCD-2026-JS.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/reward-offered-information-leading-arrest-high-ranking-member-los-choneros-violent",
+          "title": "Reward Offered for Information Leading to Arrest of High-Ranking Member of Los Choneros",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-12-11",
+          "claim": "DOJ spells out Peñafiel Nieto's full name and describes him as another co-conspirator charged in the Los Choneros superseding indictment; he was in Ecuadorian custody at publication, not convicted in this U.S. case."
+        },
+        {
+          "url": "https://www.funcionjudicial.gob.ec/resources/pdf/MOTP-0034-SNCD-2026-JS.pdf",
+          "title": "Expediente disciplinario MOTP-0034-SNCD-2026-JS, section XVIII",
+          "publisher": "Consejo de la Judicatura de Ecuador",
+          "language": "es",
+          "claim": "The Ecuadorian judicial record identifies Darío Javier Peñafiel Nieto by full name in a 15 March 2025 arms-trafficking charge and preventive-detention proceeding; it reports police information describing him as a Los Choneros-Fatales leader. It does not establish a drug conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "dario-javier-penafiel-nieto-2025-12-11-charge-report",
+          "occurredAt": "2025-12-11",
+          "type": "development",
+          "title": "U.S. charges publicly detailed",
+          "summary": "DOJ named Peñafiel Nieto as a co-conspirator in the Los Choneros indictment and reported that he was in Ecuadorian custody at publication.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edny/pr/reward-offered-information-leading-arrest-high-ranking-member-los-choneros-violent",
+            "title": "Reward Offered for Information Leading to Arrest of High-Ranking Member of Los Choneros",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-12-11",
+            "claim": "DOJ named Peñafiel Nieto as a charged co-conspirator and reported his custody status as of December 11, 2025."
+          }
+        },
+        {
+          "id": "dario-javier-penafiel-nieto-2025-03-15-ecuador-charge",
+          "occurredAt": "2025-03-15",
+          "type": "charge",
+          "title": "Ecuador arms-trafficking charge",
+          "summary": "An Ecuadorian judicial record describes an arms-trafficking charge and preventive detention; the allegations were not a conviction.",
+          "source": {
+            "url": "https://www.funcionjudicial.gob.ec/resources/pdf/MOTP-0034-SNCD-2026-JS.pdf",
+            "title": "Expediente disciplinario MOTP-0034-SNCD-2026-JS, section XVIII",
+            "publisher": "Consejo de la Judicatura de Ecuador",
+            "language": "es",
+            "claim": "The Ecuadorian judicial record identifies Darío Javier Peñafiel Nieto by full name in a 15 March 2025 arms-trafficking charge and preventive-detention proceeding; it reports police information describing him as a Los Choneros-Fatales leader. It does not establish a drug conviction."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "fito-bermudez-cagua-coconspirators",
+      "fromId": "jose-adolfo-macias-villamar",
+      "toId": "francisco-manuel-bermudez-cagua",
+      "type": "co_defendants",
+      "label": "Named co-conspirators in U.S. Los Choneros indictment",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/reward-offered-information-leading-arrest-high-ranking-member-los-choneros-violent",
+          "title": "Reward Offered for Information Leading to Arrest of High-Ranking Member of Los Choneros",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-12-11",
+          "claim": "DOJ explicitly calls Macías Villamar a co-conspirator in its report about Bermúdez Cagua's indictment."
+        }
+      ]
+    },
+    {
+      "id": "fito-penafiel-nieto-coconspirators",
+      "fromId": "jose-adolfo-macias-villamar",
+      "toId": "dario-javier-penafiel-nieto",
+      "type": "co_defendants",
+      "label": "Named co-conspirators in U.S. Los Choneros indictment",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/reward-offered-information-leading-arrest-high-ranking-member-los-choneros-violent",
+          "title": "Reward Offered for Information Leading to Arrest of High-Ranking Member of Los Choneros",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-12-11",
+          "claim": "DOJ explicitly calls Peñafiel Nieto another co-conspirator charged in the same superseding indictment as Macías Villamar."
+        }
+      ]
+    }
+  ]
+}
