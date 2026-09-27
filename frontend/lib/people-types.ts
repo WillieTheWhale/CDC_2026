@@ -13,6 +13,11 @@ export interface PeopleSource {
 export interface PersonRegion {
   iso3: string;
   label: string;
+  evidence?: {
+    claim: string;
+    period?: string;
+    sourceUrl: string;
+  };
 }
 
 export interface PersonPhoto {

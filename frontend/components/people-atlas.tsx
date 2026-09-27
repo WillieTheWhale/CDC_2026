@@ -343,7 +343,18 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
           {selected.aliases?.length ? <p className="people-aliases">Also reported as {selected.aliases.join(", ")}</p> : null}
           <p className="people-status-date">{selected.statusAsOf ? `Status as of ${selected.statusAsOf}` : "Status date not provided by source"}</p>
           {selected.roleLabel && <p>{selected.roleLabel}</p>}
-          {!!selected.regions.length && <p className="people-associations">Geographic associations: {selected.regions.map((region) => region.label).join(", ")}. These are country associations, not live positions.</p>}
+          {!!selected.regions.length && <div className="people-associations">
+            <h3>Historical country associations</h3>
+            <ul>{selected.regions.map((region) => {
+              const source = selected.sources.find((item) => item.url === region.evidence?.sourceUrl);
+              return <li key={region.iso3}>
+                <strong>{region.label}</strong>{region.evidence?.period && <span> · {region.evidence.period}</span>}
+                <p>{region.evidence?.claim ?? "Direct country evidence review pending."}</p>
+                {source && <a href={source.url} target="_blank" rel="noreferrer">Source: {source.publisher}{source.publishedAt ? ` · ${source.publishedAt}` : ""}</a>}
+              </li>;
+            })}</ul>
+            <p>Country-level associations only; these markers do not show live positions.</p>
+          </div>}
           {!!selected.drugs.length && <p>Source topics: {selected.drugs.join(", ")}</p>}
       {selected.roleLabel && <p className="people-role-attribution">Role description attributed to the cited sources.</p>}
       {!!selected.organizationIds.length && <div className="people-orgs"><h3>Source-reported organization associations</h3>{selected.organizationIds.map((id) => organizations.get(id)?.name).filter(Boolean).map((name) => <span key={name}>{name}</span>)}</div>}

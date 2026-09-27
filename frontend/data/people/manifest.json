@@ -704,7 +704,12 @@
       "regions": [
         {
           "iso3": "KEN",
-          "label": "Kenya"
+          "label": "Kenya",
+          "evidence": {
+            "claim": "DOJ describes Baktash as leader of the Kenya-based Akasha Organization and its 2014 Kenya narcotics dealings.",
+            "period": "2014",
+            "sourceUrl": "https://www.justice.gov/usao-sdny/pr/former-leader-violent-kenyan-organized-crime-family-sentenced-25-years-prison-narcotics"
+          }
         }
       ],
       "drugs": [
@@ -793,7 +798,12 @@
       "regions": [
         {
           "iso3": "KEN",
-          "label": "Kenya"
+          "label": "Kenya",
+          "evidence": {
+            "claim": "DOJ describes Ibrahim as the Kenya-based Akasha Organization deputy involved in 2014 narcotics dealings in Kenya.",
+            "period": "2014",
+            "sourceUrl": "https://www.justice.gov/usao-sdny/pr/former-leader-violent-kenyan-organized-crime-family-sentenced-25-years-prison-narcotics"
+          }
         }
       ],
       "drugs": [
@@ -883,7 +893,12 @@
       "regions": [
         {
           "iso3": "KEN",
-          "label": "Kenya"
+          "label": "Kenya",
+          "evidence": {
+            "claim": "DOJ alleges Goswami managed the Akasha Organization drug business in Kenya; this is an allegation, not a judicial finding.",
+            "period": "2014",
+            "sourceUrl": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking"
+          }
         }
       ],
       "drugs": [
@@ -958,7 +973,12 @@
       "regions": [
         {
           "iso3": "KEN",
-          "label": "Kenya"
+          "label": "Kenya",
+          "evidence": {
+            "claim": "DOJ alleges Hussein worked with the Kenya-based Akasha Organization through a separate transport network; this is an allegation.",
+            "period": "2014",
+            "sourceUrl": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking"
+          }
         }
       ],
       "drugs": [
@@ -1029,7 +1049,12 @@
       "regions": [
         {
           "iso3": "KEN",
-          "label": "Kenya"
+          "label": "Kenya",
+          "evidence": {
+            "claim": "DOJ says a heroin sample was delivered in Kenya on Hafeez’s behalf as an external supplier. This supports a supply relationship involving Kenya, not his physical presence or Akasha membership.",
+            "period": "2014",
+            "sourceUrl": "https://www.justice.gov/usao-sdny/pr/pakistani-national-muhammad-asif-hafeez-pleads-guilty-drug-trafficking-charges"
+          }
         }
       ],
       "drugs": [
@@ -9626,7 +9651,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "ABC court reporting describes Tse directing an Australian drug operation through local contact Suky Lieu while he was based overseas; this does not imply physical presence in Australia.",
+            "period": "2012–2013",
+            "sourceUrl": "https://www.abc.net.au/news/2025-12-04/tse-chi-lop-sentence-drug-syndicate-leader/106100496"
+          }
         }
       ],
       "drugs": [
@@ -9774,7 +9804,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "Australia’s Commonwealth Director of Public Prosecutions reports Lieu’s conviction for commercial drug trafficking in Australia.",
+            "period": "2012–2013",
+            "sourceUrl": "https://www.cdpp.gov.au/news/tan-dai-green-grocer-sentenced-25-years-gaol-drug-offences"
+          }
         }
       ],
       "drugs": [

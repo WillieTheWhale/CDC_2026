@@ -1,0 +1,443 @@
+{
+  "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
+  "totals": {
+    "people": 208,
+    "associations": 224,
+    "evidenced": 7,
+    "missing": 217,
+    "invalid": 0
+  },
+  "byFixture": {
+    "akasha_organization.json": {
+      "people": 5,
+      "associations": 5,
+      "evidenced": 5,
+      "missing": 0,
+      "invalid": 0
+    },
+    "barbaro_tomato_tins.json": {
+      "people": 23,
+      "associations": 23,
+      "evidenced": 0,
+      "missing": 23,
+      "invalid": 0
+    },
+    "barryshine_network.json": {
+      "people": 5,
+      "associations": 3,
+      "evidenced": 0,
+      "missing": 3,
+      "invalid": 0
+    },
+    "cjng.json": {
+      "people": 15,
+      "associations": 19,
+      "evidenced": 0,
+      "missing": 19,
+      "invalid": 0
+    },
+    "clan_del_golfo.json": {
+      "people": 12,
+      "associations": 12,
+      "evidenced": 0,
+      "missing": 12,
+      "invalid": 0
+    },
+    "colombia_2014_networks.json": {
+      "people": 16,
+      "associations": 16,
+      "evidenced": 0,
+      "missing": 16,
+      "invalid": 0
+    },
+    "comando_vermelho.json": {
+      "people": 13,
+      "associations": 13,
+      "evidenced": 0,
+      "missing": 13,
+      "invalid": 0
+    },
+    "fourth_division_captagon.json": {
+      "people": 7,
+      "associations": 8,
+      "evidenced": 0,
+      "missing": 8,
+      "invalid": 0
+    },
+    "fredy_pratama_network.json": {
+      "people": 6,
+      "associations": 9,
+      "evidenced": 0,
+      "missing": 9,
+      "invalid": 0
+    },
+    "gulf_cartel.json": {
+      "people": 10,
+      "associations": 10,
+      "evidenced": 0,
+      "missing": 10,
+      "invalid": 0
+    },
+    "kavac_clan.json": {
+      "people": 16,
+      "associations": 16,
+      "evidenced": 0,
+      "missing": 16,
+      "invalid": 0
+    },
+    "kinahan_ocg.json": {
+      "people": 15,
+      "associations": 15,
+      "evidenced": 0,
+      "missing": 15,
+      "invalid": 0
+    },
+    "lafamilia_chicago_2009.json": {
+      "people": 15,
+      "associations": 15,
+      "evidenced": 0,
+      "missing": 15,
+      "invalid": 0
+    },
+    "los_zetas_cdn.json": {
+      "people": 14,
+      "associations": 18,
+      "evidenced": 0,
+      "missing": 18,
+      "invalid": 0
+    },
+    "ndrangheta.json": {
+      "people": 9,
+      "associations": 10,
+      "evidenced": 0,
+      "missing": 10,
+      "invalid": 0
+    },
+    "owoalade_cartel.json": {
+      "people": 5,
+      "associations": 5,
+      "evidenced": 0,
+      "missing": 5,
+      "invalid": 0
+    },
+    "pcc.json": {
+      "people": 6,
+      "associations": 6,
+      "evidenced": 0,
+      "missing": 6,
+      "invalid": 0
+    },
+    "sam_gor.json": {
+      "people": 5,
+      "associations": 3,
+      "evidenced": 2,
+      "missing": 1,
+      "invalid": 0
+    },
+    "sinaloa.json": {
+      "people": 11,
+      "associations": 18,
+      "evidenced": 0,
+      "missing": 18,
+      "invalid": 0
+    }
+  },
+  "byCountry": {
+    "KEN": {
+      "associations": 5,
+      "evidenced": 5,
+      "missing": 0,
+      "invalid": 0
+    },
+    "AUS": {
+      "associations": 26,
+      "evidenced": 2,
+      "missing": 24,
+      "invalid": 0
+    },
+    "NGA": {
+      "associations": 6,
+      "evidenced": 0,
+      "missing": 6,
+      "invalid": 0
+    },
+    "MEX": {
+      "associations": 49,
+      "evidenced": 0,
+      "missing": 49,
+      "invalid": 0
+    },
+    "USA": {
+      "associations": 29,
+      "evidenced": 0,
+      "missing": 29,
+      "invalid": 0
+    },
+    "COL": {
+      "associations": 28,
+      "evidenced": 0,
+      "missing": 28,
+      "invalid": 0
+    },
+    "BRA": {
+      "associations": 20,
+      "evidenced": 0,
+      "missing": 20,
+      "invalid": 0
+    },
+    "SYR": {
+      "associations": 7,
+      "evidenced": 0,
+      "missing": 7,
+      "invalid": 0
+    },
+    "LBN": {
+      "associations": 1,
+      "evidenced": 0,
+      "missing": 1,
+      "invalid": 0
+    },
+    "IDN": {
+      "associations": 6,
+      "evidenced": 0,
+      "missing": 6,
+      "invalid": 0
+    },
+    "MYS": {
+      "associations": 1,
+      "evidenced": 0,
+      "missing": 1,
+      "invalid": 0
+    },
+    "THA": {
+      "associations": 2,
+      "evidenced": 0,
+      "missing": 2,
+      "invalid": 0
+    },
+    "MNE": {
+      "associations": 14,
+      "evidenced": 0,
+      "missing": 14,
+      "invalid": 0
+    },
+    "SRB": {
+      "associations": 2,
+      "evidenced": 0,
+      "missing": 2,
+      "invalid": 0
+    },
+    "IRE": {
+      "associations": 6,
+      "evidenced": 0,
+      "missing": 6,
+      "invalid": 0
+    },
+    "GBR": {
+      "associations": 9,
+      "evidenced": 0,
+      "missing": 9,
+      "invalid": 0
+    },
+    "GTM": {
+      "associations": 2,
+      "evidenced": 0,
+      "missing": 2,
+      "invalid": 0
+    },
+    "ITA": {
+      "associations": 9,
+      "evidenced": 0,
+      "missing": 9,
+      "invalid": 0
+    },
+    "IND": {
+      "associations": 2,
+      "evidenced": 0,
+      "missing": 2,
+      "invalid": 0
+    }
+  },
+  "missingExamples": [
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "pasquale-barbaro-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "saverio-zirilli-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "rob-karam-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "carmelo-falanga-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "john-higgs-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "jan-visser-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "salvatore-agresta-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "pasquale-john-sergi-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "sharon-ropa-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "antonino-di-pietro-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "gratian-bran-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "pasquale-rocco-sergi-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "frank-molluso-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "antonio-sergi-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "pino-varallo-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "francesco-madafferi-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "paul-psaila-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "alan-saric-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "giovanni-polimeni-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "anil-suri-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "phillip-batticciotto-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "anvardeen-abdul-jabbar-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barbaro_tomato_tins.json",
+      "personId": "seyed-moulana-tomato-tins",
+      "iso3": "AUS",
+      "status": "missing"
+    },
+    {
+      "fixture": "barryshine_network.json",
+      "personId": "suleiman-ganiu-aremu",
+      "iso3": "NGA",
+      "status": "missing"
+    },
+    {
+      "fixture": "barryshine_network.json",
+      "personId": "olanrewaju-ramon-abdulai",
+      "iso3": "NGA",
+      "status": "missing"
+    },
+    {
+      "fixture": "barryshine_network.json",
+      "personId": "oluwafemi-akande-abidoye",
+      "iso3": "NGA",
+      "status": "missing"
+    },
+    {
+      "fixture": "cjng.json",
+      "personId": "nemesio-oseguera-cervantes",
+      "iso3": "MEX",
+      "status": "missing"
+    },
+    {
+      "fixture": "cjng.json",
+      "personId": "juan-carlos-valencia-gonzalez",
+      "iso3": "MEX",
+      "status": "missing"
+    },
+    {
+      "fixture": "cjng.json",
+      "personId": "audias-flores-silva",
+      "iso3": "MEX",
+      "status": "missing"
+    },
+    {
+      "fixture": "cjng.json",
+      "personId": "julio-cesar-montero-pinzon",
+      "iso3": "MEX",
+      "status": "missing"
+    }
+  ]
+}

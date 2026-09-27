@@ -44,7 +44,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "ABC court reporting describes Tse directing an Australian drug operation through local contact Suky Lieu while he was based overseas; this does not imply physical presence in Australia.",
+            "period": "2012–2013",
+            "sourceUrl": "https://www.abc.net.au/news/2025-12-04/tse-chi-lop-sentence-drug-syndicate-leader/106100496"
+          }
         }
       ],
       "drugs": [
@@ -192,7 +197,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "Australia’s Commonwealth Director of Public Prosecutions reports Lieu’s conviction for commercial drug trafficking in Australia.",
+            "period": "2012–2013",
+            "sourceUrl": "https://www.cdpp.gov.au/news/tan-dai-green-grocer-sentenced-25-years-gaol-drug-offences"
+          }
         }
       ],
       "drugs": [

@@ -7,6 +7,7 @@ import type {
   PeopleSource,
   PersonEvent,
   Person,
+  PersonRegion,
 } from "./people-types";
 
 const apiBase = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, "");
@@ -44,6 +45,21 @@ function validatedSources(values: unknown): PeopleSource[] {
   return Array.isArray(values) ? values.filter(sourceIsCitable) : [];
 }
 
+function validatedRegions(values: unknown, sources: PeopleSource[]): PersonRegion[] {
+  const sourceUrls = new Set(sources.map((source) => source.url));
+  if (!Array.isArray(values)) return [];
+  return values.filter((region): region is PersonRegion =>
+    region && typeof region.iso3 === "string" && /^[A-Z]{3}$/.test(region.iso3) &&
+    typeof region.label === "string" && region.label.trim().length > 0,
+  ).map((region) => {
+    const evidence = region.evidence;
+    const validEvidence = evidence && typeof evidence.claim === "string" && evidence.claim.trim() &&
+      typeof evidence.sourceUrl === "string" && sourceUrls.has(evidence.sourceUrl) &&
+      (evidence.period === undefined || typeof evidence.period === "string" && evidence.period.trim());
+    return { ...region, evidence: validEvidence ? evidence : undefined };
+  });
+}
+
 function validEvent(value: unknown): value is PersonEvent {
   if (!value || typeof value !== "object") return false;
   const event = value as Partial<PersonEvent>;
@@ -79,6 +95,7 @@ export function normalizeDataset(input: unknown): PeopleDataset {
     .map((person) => ({
       ...person,
       sources: validatedSources(person.sources),
+      regions: validatedRegions(person.regions, validatedSources(person.sources)),
       organizationIds: person.organizationIds.filter((id) => organizationIds.has(id)),
       events: Array.isArray(person.events) ? person.events.filter(validEvent)
         .sort((a, b) => b.occurredAt.localeCompare(a.occurredAt)) : [],

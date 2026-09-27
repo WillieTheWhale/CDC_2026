@@ -11,6 +11,15 @@ const seen = { organizations: new Set(), people: new Set(), connections: new Set
 const isCitable = (source) => source && /^https?:\/\//i.test(source.url ?? "") &&
   source.title?.trim() && source.publisher?.trim() && source.language?.trim() && source.claim?.trim();
 const sourced = (row) => Array.isArray(row.sources) && row.sources.some(isCitable);
+const validPersonRegion = (region, person) => {
+  if (!region || !/^[A-Z]{3}$/.test(region.iso3 ?? "") || typeof region.label !== "string" || !region.label.trim()) return false;
+  if (!Object.hasOwn(region, "evidence")) return true;
+  const evidence = region.evidence;
+  return evidence && typeof evidence.claim === "string" && evidence.claim.trim() &&
+    (evidence.period === undefined || typeof evidence.period === "string" && evidence.period.trim()) &&
+    typeof evidence.sourceUrl === "string" &&
+    person.sources.some((source) => isCitable(source) && source.url === evidence.sourceUrl);
+};
 
 for (const file of files) {
   const network = JSON.parse(await readFile(join(peopleDir, file), "utf8"));
@@ -26,7 +35,7 @@ for (const file of files) {
         if (typeof row.name !== "string" || !["convicted", "charged", "sanctioned", "reported"].includes(row.status) ||
             ![1, 2, 3].includes(row.prominence) || !Array.isArray(row.organizationIds) ||
             !row.organizationIds.every((value) => typeof value === "string") || !Array.isArray(row.regions) ||
-            !row.regions.every((region) => region && /^[A-Z]{3}$/.test(region.iso3) && typeof region.label === "string") ||
+            !row.regions.every((region) => validPersonRegion(region, row)) ||
             !Array.isArray(row.drugs) || !row.drugs.every((value) => typeof value === "string") || !sourced(row)) {
           throw new Error(`Person ${row.id} in ${file} is malformed or has no citable source.`);
         }
