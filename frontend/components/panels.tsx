@@ -130,6 +130,9 @@ export function RiskTable({
         .sort((a, b) => {
           const aa = a[sort],
             bb = b[sort];
+          // Missing values (delta_1y in the first year) sort last either way.
+          if (aa == null || bb == null)
+            return aa == null ? (bb == null ? 0 : 1) : -1;
           return (
             (typeof aa === "number" && typeof bb === "number"
               ? aa - bb
@@ -255,11 +258,17 @@ export function RiskTable({
                   {!compact && (
                     <td
                       className={
-                        r.delta_1y > 0 ? "negative mono" : "positive mono"
+                        r.delta_1y == null
+                          ? "muted mono"
+                          : r.delta_1y > 0
+                            ? "negative mono"
+                            : "positive mono"
                       }
+                      title={r.delta_1y == null ? "No previous modeled year" : undefined}
                     >
-                      {r.delta_1y > 0 ? "+" : ""}
-                      {r.delta_1y.toFixed(1)}
+                      {r.delta_1y == null
+                        ? "—"
+                        : `${r.delta_1y > 0 ? "+" : ""}${r.delta_1y.toFixed(1)}`}
                     </td>
                   )}
                 </tr>
@@ -526,7 +535,7 @@ export function CountryInspector({
               <p className="briefing">{detail.briefing}</p>
             </>
           )}
-          {!loading && !detail && <p className="quiet-note">The saved model profile is available for Colombia in {PROFILE_YEAR}. Health records for this country are available in Evidence.</p>}
+          {!loading && !error && !detail && <p className="quiet-note">{DEMO ? `The saved model profile is available for Colombia in ${PROFILE_YEAR}.` : `No model profile for ${country.name} in ${year}.`} Health records for this country are available in Evidence.</p>}
         </>
       )}
       {tab === "Evidence" && (
@@ -571,9 +580,12 @@ export function CountryInspector({
               </p>
             </section>
           )}
-          {!loading && !detail && (
+          {!loading && !error && !detail && (
             <Empty>
-              World Bank and organized crime profile values are available for Colombia in the saved model snapshot. Health source records below cover additional countries.
+              {DEMO
+                ? "World Bank and organized crime profile values are available for Colombia in the saved model snapshot."
+                : `No World Bank or organized crime profile values for ${year}.`}{" "}
+              Health source records below cover additional countries.
             </Empty>
           )}
           <CountryEvidence iso3={country.iso3} />

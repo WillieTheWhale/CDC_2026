@@ -51,10 +51,13 @@ async function request<T>(
   });
   if (!res.ok) {
     const detail = await res.json().catch(() => null);
-    throw new Error(
-      detail?.error?.message ||
-        detail?.detail ||
-        `Data service returned ${res.status}`,
+    throw Object.assign(
+      new Error(
+        detail?.error?.message ||
+          detail?.detail ||
+          `Data service returned ${res.status}`,
+      ),
+      { status: res.status },
     );
   }
   return res.json() as Promise<T>;
@@ -220,12 +223,17 @@ export const api = {
           request<Envelope<Risk>>(`/api/risk?year=${year}`, () => fixtureRisk(year)),
         )
       : snapshotRisk(year),
+  // A 404 (unknown country, or a year outside the 2008+ profile range such
+  // as 2006-2007 route years) means "no profile", not a failure.
   country: (iso3: string, year: number) =>
     request<Envelope<CountryDetail> | null>(
       `/api/country/${encodeURIComponent(iso3)}?year=${year}`,
       () =>
         iso3 === "COL" && year === countryCOL.data.year ? countryCOL : null,
-    ),
+    ).catch((e: Error & { status?: number }) => {
+      if (e.status === 404) return null;
+      throw e;
+    }),
   prices: () =>
     request<Envelope<{ series: Price[] }>>("/api/prices", () => prices),
   livewire: () =>

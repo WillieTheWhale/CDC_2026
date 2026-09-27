@@ -771,9 +771,9 @@ export default function Dashboard() {
                               </select>
                             </label>
                             <label className="confidence-label">
-                              Minimum confidence <b>{minConfidence}%</b>
+                              Minimum evidence score <b>{minConfidence}%</b>
                               <input
-                                aria-label="Minimum route confidence"
+                                aria-label="Minimum route evidence score"
                                 type="range"
                                 min={0}
                                 max={100}

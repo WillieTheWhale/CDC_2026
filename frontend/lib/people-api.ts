@@ -174,7 +174,7 @@ export function normalizeDataset(input: unknown): PeopleDataset {
 }
 
 async function fetchPeople(path: string): Promise<{ dataset: PeopleDataset; total: number | null; nextCursor: string | null; totalConnections: number | null }> {
-  const response = await fetch(`${apiBase ?? ""}${path}`, { cache: "no-store" });
+  const response = await fetch(`${apiBase ?? ""}${path}`, { cache: "no-store", signal: AbortSignal.timeout(20000) });
   if (!response.ok) throw new Error(`People API returned ${response.status}`);
   const body = await response.json() as { data?: unknown; meta?: { total?: unknown; next_cursor?: unknown; total_connections?: unknown }; total?: unknown; next_cursor?: unknown };
   if (!body.data) throw new Error("People API response is missing data");
@@ -210,7 +210,7 @@ export async function loadPeopleCountryCounts(search = "", zoom: 1 | 2 | 3 = 3):
   try {
     const query = new URLSearchParams({ zoom: String(zoom) });
     if (search.trim()) query.set("search", search.trim());
-    const response = await fetch(`${apiBase ?? ""}/api/people/countries?${query}`, { cache: "no-store" });
+    const response = await fetch(`${apiBase ?? ""}/api/people/countries?${query}`, { cache: "no-store", signal: AbortSignal.timeout(20000) });
     if (!response.ok) return null;
     const body = await response.json() as { data?: unknown };
     if (!Array.isArray(body.data)) return null;

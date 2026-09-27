@@ -70,7 +70,8 @@ export interface RiskRow {
   score: number;
   rank: number;
   tier: string;
-  delta_1y: number;
+  /** Null in the first modeled year (no previous year), per contracts/openapi.yaml. */
+  delta_1y: number | null;
   top_drug: string | null;
   trend: { year: number; score: number }[];
 }
