@@ -1598,6 +1598,147 @@
           }
         }
       ]
+    },
+    {
+      "id": "steven-ovaldino-lorenzana-alvarenga",
+      "name": "Steven Ovaldino Lorenzana Alvarenga",
+      "aliases": [
+        "Chipi"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-06-18",
+      "roleLabel": "Charged alleged Lorenzana organization member",
+      "prominence": 2,
+      "organizationIds": [
+        "lorenzana-organization-guatemala"
+      ],
+      "regions": [
+        {
+          "iso3": "GTM",
+          "label": "Guatemala",
+          "evidence": {
+            "claim": "DOJ individually identifies Steven Ovaldino Lorenzana Alvarenga as a member of the historically Guatemala-based Lorenzana DTO; this is an allegation as of the 2025 report.",
+            "period": "2006–2023 (alleged)",
+            "sourceUrl": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking",
+          "title": "Prolific Guatemalan Drug Traffickers Extradited to the United States to Face Drug Trafficking Conspiracy Charge",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-06-18",
+          "claim": "DOJ individually names Steven Ovaldino Lorenzana Alvarenga as charged with cocaine-importation and firearm possession counts; the source says he was a key member of the Guatemala-based Lorenzana DTO during 2006–2023. Charges are allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "steven-ovaldino-lorenzana-alvarenga-2025-06-18-charges-reported",
+          "occurredAt": "2025-06-18",
+          "type": "development",
+          "title": "Charges publicly reported",
+          "summary": "DOJ reported cocaine-importation and firearm charges against Steven Ovaldino Lorenzana Alvarenga; the release does not give the indictment date or establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking",
+            "title": "Prolific Guatemalan Drug Traffickers Extradited to the United States to Face Drug Trafficking Conspiracy Charge",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-06-18",
+            "claim": "DOJ individually names Steven Ovaldino Lorenzana Alvarenga as charged with cocaine-importation and firearm possession counts; the source says he was a key member of the Guatemala-based Lorenzana DTO during 2006–2023. Charges are allegations."
+          }
+        },
+        {
+          "id": "steven-ovaldino-lorenzana-alvarenga-2025-06-17-extradition",
+          "occurredAt": "2025-06-17",
+          "type": "development",
+          "title": "Extradited to face charges",
+          "summary": "DOJ reports Steven Ovaldino Lorenzana Alvarenga was extradited from Guatemala to the United States to face these charges.",
+          "source": {
+            "url": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking",
+            "title": "Prolific Guatemalan Drug Traffickers Extradited to the United States to Face Drug Trafficking Conspiracy Charge",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-06-18",
+            "claim": "DOJ individually names Steven Ovaldino Lorenzana Alvarenga as charged with cocaine-importation and firearm possession counts; the source says he was a key member of the Guatemala-based Lorenzana DTO during 2006–2023. Charges are allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "allan-mendoza",
+      "name": "Allan Mendoza",
+      "aliases": [
+        "Carnes",
+        "Carnitas"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-06-18",
+      "roleLabel": "Charged alleged Lorenzana organization member",
+      "prominence": 2,
+      "organizationIds": [
+        "lorenzana-organization-guatemala"
+      ],
+      "regions": [
+        {
+          "iso3": "GTM",
+          "label": "Guatemala",
+          "evidence": {
+            "claim": "DOJ individually identifies Allan Mendoza as a member of the historically Guatemala-based Lorenzana DTO; this is an allegation as of the 2025 report.",
+            "period": "2006–2023 (alleged)",
+            "sourceUrl": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking",
+          "title": "Prolific Guatemalan Drug Traffickers Extradited to the United States to Face Drug Trafficking Conspiracy Charge",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-06-18",
+          "claim": "DOJ individually names Allan Mendoza as charged with cocaine-importation and firearm possession counts; the source says he was a key member of the Guatemala-based Lorenzana DTO during 2006–2023. Charges are allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "allan-mendoza-2025-06-18-charges-reported",
+          "occurredAt": "2025-06-18",
+          "type": "development",
+          "title": "Charges publicly reported",
+          "summary": "DOJ reported cocaine-importation and firearm charges against Allan Mendoza; the release does not give the indictment date or establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking",
+            "title": "Prolific Guatemalan Drug Traffickers Extradited to the United States to Face Drug Trafficking Conspiracy Charge",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-06-18",
+            "claim": "DOJ individually names Allan Mendoza as charged with cocaine-importation and firearm possession counts; the source says he was a key member of the Guatemala-based Lorenzana DTO during 2006–2023. Charges are allegations."
+          }
+        },
+        {
+          "id": "allan-mendoza-2025-06-17-extradition",
+          "occurredAt": "2025-06-17",
+          "type": "development",
+          "title": "Extradited to face charges",
+          "summary": "DOJ reports Allan Mendoza was extradited from Guatemala to the United States to face these charges.",
+          "source": {
+            "url": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking",
+            "title": "Prolific Guatemalan Drug Traffickers Extradited to the United States to Face Drug Trafficking Conspiracy Charge",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-06-18",
+            "claim": "DOJ individually names Allan Mendoza as charged with cocaine-importation and firearm possession counts; the source says he was a key member of the Guatemala-based Lorenzana DTO during 2006–2023. Charges are allegations."
+          }
+        }
+      ]
     }
   ],
   "connections": [

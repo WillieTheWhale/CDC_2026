@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1037,
-    "associations": 880,
-    "evidenced": 880,
+    "people": 1064,
+    "associations": 910,
+    "evidenced": 910,
     "missing": 0,
     "invalid": 0
   },
@@ -54,6 +54,13 @@
       "people": 32,
       "associations": 32,
       "evidenced": 32,
+      "missing": 0,
+      "invalid": 0
+    },
+    "central_america_historical_doj.json": {
+      "people": 27,
+      "associations": 30,
+      "evidenced": 30,
       "missing": 0,
       "invalid": 0
     },
@@ -404,6 +411,30 @@
       "missing": 0,
       "invalid": 0
     },
+    "GTM": {
+      "associations": 17,
+      "evidenced": 17,
+      "missing": 0,
+      "invalid": 0
+    },
+    "HND": {
+      "associations": 10,
+      "evidenced": 10,
+      "missing": 0,
+      "invalid": 0
+    },
+    "PAN": {
+      "associations": 2,
+      "evidenced": 2,
+      "missing": 0,
+      "invalid": 0
+    },
+    "CRI": {
+      "associations": 3,
+      "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
     "COL": {
       "associations": 56,
       "evidenced": 56,
@@ -509,12 +540,6 @@
     "GBR": {
       "associations": 66,
       "evidenced": 66,
-      "missing": 0,
-      "invalid": 0
-    },
-    "GTM": {
-      "associations": 2,
-      "evidenced": 2,
       "missing": 0,
       "invalid": 0
     },
