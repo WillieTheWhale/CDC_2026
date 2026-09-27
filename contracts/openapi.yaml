@@ -575,7 +575,10 @@ paths:
         arrows then follow city population x GDP per capita PPP (World Bank NY.GDP.PCAP.PP.KD, source 2) within
         1,500 km in three waves. Estimates for map density only: never observed, never used in any score, count
         or ranking. Cities are placement anchors (Natural Earth populated places, 150k+), not evidence of
-        city-level trafficking. No enforcement, customs or detection variable is used.
+        city-level trafficking. No enforcement, customs or detection variable is used. Every country on a modeled
+        corridor of a drug (origin or destination) that has a 150k+ city gets at least one arrow of that drug. Each
+        flow also carries its feeding corridors, its chain from the entry city onward and why it was kept
+        (`details`, parallel to `flows`), with country names in `countries`.
       parameters:
         - name: year
           in: query
@@ -2196,6 +2199,15 @@ components:
       description: >
         Compact, index-based layer. `cities` rows follow `city_fields`, sorted by intensity (1.0 first);
         `flows` rows follow `flow_fields`, where drug indexes `drugs` and from/to index `cities`.
+        `details` is parallel to `flows` (same order and length) and follows `detail_fields`: the indices of
+        the modeled corridors feeding the arrow's chain (into `corridors`, strongest first, at most 4), the
+        chain as city indices (entry city first, then onward cities, ending with the arrow's from and to; one
+        step per wave, so its length is generation + 1), and why it was kept (index into `picks`).
+        A "departure" arrow leaves an origin country that no entry city reaches within 1,500 km: its chain is
+        [departure city, target] and its corridors are the ones leaving that country.
+        `corridors` rows follow `corridor_fields`; `entry` indexes `cities` (the city the corridor delivers
+        into, in its destination country). `countries` maps every ISO3 code used in `cities` and `corridors`
+        to a display name. Estimates for map density only: not observed, never used in any score.
       type: object
       required: [year, mode, drugs, city_fields, cities, flow_fields, flows]
       properties:
@@ -2235,6 +2247,52 @@ components:
               - { type: integer, minimum: 0, maximum: 1500, description: great-circle km }
             minItems: 6
             maxItems: 6
+        countries:
+          type: object
+          description: "ISO3 -> country name (World Bank names; Natural Earth names for KOS, PSX, SOL, TWN)."
+          additionalProperties: { type: string }
+          example: { COL: Colombia, BRA: Brazil }
+        corridor_fields:
+          type: array
+          const: [id, drug, from, to, confidence, volume_norm, entry]
+        corridors:
+          type: array
+          description: Modeled corridors that deliver into an entry city, grouped by drug, strongest first.
+          items:
+            type: array
+            prefixItems:
+              - { type: string, pattern: "^[a-z]+:[A-Z0-9]{3}:[A-Z0-9]{3}$", description: "edge id, e.g. cannabis:COL:BRA (as /api/routes)" }
+              - { type: integer, minimum: 0, description: index into drugs }
+              - { type: string, pattern: "^[A-Z0-9]{3}$", description: origin ISO3 }
+              - { type: string, pattern: "^[A-Z0-9]{3}$", description: destination ISO3 }
+              - { type: number, minimum: 0, maximum: 100, description: modeled confidence }
+              - { type: number, minimum: 0, maximum: 1, description: volume_norm }
+              - { type: integer, minimum: 0, description: "entry city, index into cities" }
+            minItems: 7
+            maxItems: 7
+        picks:
+          type: array
+          const: [top, country_quota, coverage, departure]
+        detail_fields:
+          type: array
+          const: [corridors, path, pick]
+        details:
+          type: array
+          items:
+            type: array
+            prefixItems:
+              - type: array
+                description: indices into corridors (feeding the chain, strongest first)
+                items: { type: integer, minimum: 0 }
+                maxItems: 4
+              - type: array
+                description: "chain as indices into cities: entry (or departure) city, onward cities, ending with this arrow's from and to"
+                items: { type: integer, minimum: 0 }
+                minItems: 2
+                maxItems: 4
+              - { type: integer, minimum: 0, maximum: 3, description: index into picks }
+            minItems: 3
+            maxItems: 3
 
     UsRoutesResponse:
       type: object
