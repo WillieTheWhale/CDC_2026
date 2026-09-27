@@ -1,6 +1,31 @@
 [
   {
     "version": "49e9214ca5b00e65cde254296d15ae176686b5410bd1870eea9dffbf5a2818ac",
+    "generated_at": "2026-09-27T08:31:09Z",
+    "source_commit": "8818c52f1a1f0e6101f5693092699572f8761433",
+    "shards": [
+      "shards/people-de5023f36267f0e7.json.gz",
+      "shards/people-06f58333303b44cb.json.gz",
+      "shards/people-bdabd1c91fa53afe.json.gz",
+      "shards/people-07f1172e13a20cdb.json.gz",
+      "shards/people-dae9643df73b86ff.json.gz",
+      "shards/people-120b4249547cf811.json.gz",
+      "shards/people-1524ee6ed030f7ce.json.gz",
+      "shards/people-6aa9edf09a26e211.json.gz",
+      "shards/people-102127da1d7079e8.json.gz",
+      "shards/people-98bcc30a1463d13c.json.gz",
+      "shards/people-8a103f0466650348.json.gz",
+      "shards/people-e379fc7292c17080.json.gz",
+      "shards/people-d73785e9f4721ed3.json.gz",
+      "shards/people-7f1577fa8cb074b3.json.gz",
+      "shards/people-28c8712aec6fa3ce.json.gz",
+      "shards/people-f1d493efda4bdaf1.json.gz",
+      "shards/organizations-1625a25942354a95.json.gz",
+      "shards/connections-2555c955c54a3c59.json.gz"
+    ]
+  },
+  {
+    "version": "49e9214ca5b00e65cde254296d15ae176686b5410bd1870eea9dffbf5a2818ac",
     "generated_at": "2026-09-27T08:21:01Z",
     "source_commit": "48f1cfa2b5e63017009b6362fb124a407cc3b032",
     "shards": [
