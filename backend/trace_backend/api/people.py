@@ -235,8 +235,20 @@ def _js(v) -> str:
     return json.dumps(v, separators=(",", ":"), ensure_ascii=False)
 
 
-def _matches(p: dict, needle: str) -> bool:
-    return any(needle in _fold(v) for v in [p["name"], *(p.get("aliases") or [])])
+def _tokens(value: str) -> list[str]:
+    """Search tokens as the frontend's searchTokens: NFKD, lower-case, strip combining marks, split on anything that
+    is not a letter or number (so "jose" finds "José" and word order does not matter)."""
+    s = unicodedata.normalize("NFD", unicodedata.normalize("NFKD", value).lower())
+    s = "".join(ch for ch in s if not unicodedata.category(ch).startswith("M"))
+    return re.findall(r"[^\W_]+", s)
+
+
+def _matches(p: dict, tokens: list[str]) -> bool:
+    """Every search token is a substring of some token of the name or of one alias (matchesSearch)."""
+    if not tokens:
+        return True
+    return any(all(any(t in part for part in _tokens(v)) for t in tokens)
+               for v in [p["name"], *(p.get("aliases") or [])])
 
 
 def _in_bbox(lon: float, lat: float, box: tuple[float, float, float, float]) -> bool:
@@ -287,14 +299,15 @@ def get_people(search: str = Query("", max_length=120), zoom: int = Query(1, ge=
     lone = unlocated == "1"
     if lone and (country or box):
         _bad("unlocated cannot be combined with country or bbox")
-    needle = _fold(search.strip())
+    tokens = _tokens(search)
+    needle = bool(tokens)
     from .app import store
     coords = {c["iso3"]: (c.get("lon"), c.get("lat")) for c in store().countries}
 
     def visible(p: dict) -> bool:
         if not (lone or needle or country or p["prominence"] <= zoom):
             return False
-        if needle and not _matches(p, needle):
+        if not _matches(p, tokens):
             return False
         if lone and p["regions"]:
             return False
@@ -308,8 +321,9 @@ def get_people(search: str = Query("", max_length=120), zoom: int = Query(1, ge=
     d = dataset()
     rows = sorted((p for p in d["people"] if visible(p)), key=_key)
     num = [int(v) if v == int(v) else v for v in box] if box else None
-    fkey = (_js([needle, "unlocated"]) if lone else _js([needle, country]) if country else
-            _js([needle, "global-search"]) if needle else _js(["", zoom, num]))
+    key_tokens = sorted(tokens)
+    fkey = (_js([key_tokens, "unlocated"]) if lone else _js([key_tokens, country]) if country else
+            _js([key_tokens, "global-search"]) if needle else _js(["", zoom, num]))
     start = 0
     if cursor:
         try:
@@ -329,16 +343,16 @@ def get_people(search: str = Query("", max_length=120), zoom: int = Query(1, ge=
 @router.get("/api/people/countries")
 def get_people_countries(search: str = Query("", max_length=120), zoom: int = Query(3, ge=1, le=3)):
     """Per-country counts: `total` people associated with the country, `visible` at this zoom tier."""
-    needle = _fold(search.strip())
+    tokens = _tokens(search)
     counts: dict[str, dict] = {}
     d = dataset()
     for p in d["people"]:
-        if needle and not _matches(p, needle):
+        if not _matches(p, tokens):
             continue
         for iso3 in {r["iso3"] for r in p["regions"]}:
             c = counts.setdefault(iso3, {"iso3": iso3, "total": 0, "visible": 0})
             c["total"] += 1
-            c["visible"] += bool(needle or p["prominence"] <= zoom)
+            c["visible"] += bool(tokens or p["prominence"] <= zoom)
     return _envelope(d, sorted(counts.values(), key=lambda c: c["iso3"]))
 
 
