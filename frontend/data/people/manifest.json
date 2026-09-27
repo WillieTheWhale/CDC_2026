@@ -44771,7 +44771,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Anthony Goncalves’s historical drug-case conduct in Massachusetts, United States.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-ma/pr/brockton-man-pleads-guilty-wide-ranging-drug-trafficking-conspiracy-0"
+          }
+        }
+      ],
       "drugs": [
         "heroin",
         "fentanyl",
@@ -44873,7 +44883,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Erica Ann Lang’s historical drug-case conduct in Beaumont, Texas, United States.",
+            "period": "reported 2020",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/florida-woman-sentenced-federal-drug-trafficking-violations"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -45080,7 +45100,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Vanessa Bernal’s historical drug-case conduct in Tennessee, United States.",
+            "period": "reported 2017",
+            "sourceUrl": "https://www.justice.gov/usao-sdtx/pr/mexican-truck-driver-and-laredo-woman-sentenced-trafficking-drugs"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -45120,7 +45150,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Manuel Brijido Burciaga’s historical drug-case conduct in Ohio, United States.",
+            "period": "reported 2019",
+            "sourceUrl": "https://www.justice.gov/usao-sdoh/pr/drug-trafficker-gets-14-years-added-sentence-conspiring-deal-drugs-while-custody-drug"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -45318,7 +45358,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Natalie Mendoza’s historical drug-case conduct in New Mexico, United States.",
+            "period": "reported 2022",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/two-new-mexico-men-sentenced-rio-arriba-drug-trafficking-money-laundering-conspiracy"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -45358,7 +45408,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Ryan Rodriguez’s historical drug-case conduct in New Mexico, United States.",
+            "period": "reported 2022",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/two-new-mexico-men-sentenced-rio-arriba-drug-trafficking-money-laundering-conspiracy"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -45448,7 +45508,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Carlos Gonzalez Nava’s historical drug-case conduct in Connecticut, United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-ct/pr/homeland-security-task-force-illegal-alien-pleads-guilty-drug-trafficking-and-firearm"
+          }
+        }
+      ],
       "drugs": [
         "heroin",
         "cocaine"
@@ -45860,7 +45930,7 @@
           "iso3": "USA",
           "label": "United States",
           "evidence": {
-            "claim": "DOJ describes Ana Guadalupe Acosta Grajeda’s historical drug-case conduct in United States.",
+            "claim": "DOJ describes Ana Guadalupe Acosta Grajeda’s historical drug-case conduct in Massachusetts, United States.",
             "period": "reported 2022",
             "sourceUrl": "https://www.justice.gov/usao-ma/pr/boston-woman-sentenced-drug-trafficking-following-two-kilogram-cocaine-deal"
           }
@@ -45918,7 +45988,7 @@
           "iso3": "USA",
           "label": "United States",
           "evidence": {
-            "claim": "DOJ describes Robert Padilla’s historical drug-case conduct in United States.",
+            "claim": "DOJ describes Robert Padilla’s historical drug-case conduct in New Mexico, United States.",
             "period": "reported 2025",
             "sourceUrl": "https://www.justice.gov/usao-nm/pr/las-vegas-man-sentenced-racketeering-related-violence-and-drug-trafficking"
           }
@@ -46208,7 +46278,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Franklin Valenzuela’s historical drug-case conduct in Rhode Island, United States.",
+            "period": "reported 2019",
+            "sourceUrl": "https://www.justice.gov/usao-ri/pr/providence-man-sentenced-60-months-prison-drug-trafficking-firearm-charges"
+          }
+        }
+      ],
       "drugs": [
         "heroin",
         "fentanyl",
@@ -46326,7 +46406,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Gerald Head’s historical drug-case conduct in Florida, United States.",
+            "period": "reported 2013",
+            "sourceUrl": "https://www.justice.gov/usao-mdfl/pr/mulberry-man-sentenced-30-years-federal-prison-drug-trafficking"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -46979,7 +47069,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Marcial Aguirre’s historical drug-case conduct in Oregon, United States.",
+            "period": "reported 2018",
+            "sourceUrl": "https://www.justice.gov/usao-or/pr/two-men-given-federal-prison-sentences-trafficking-drugs-oregon"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -47165,7 +47265,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Yessenia Jimenez’s historical drug-case conduct in New York City, United States.",
+            "period": "reported 2019",
+            "sourceUrl": "https://www.justice.gov/usao-sdny/pr/nypd-officer-convicted-drug-trafficking-and-firearms-offenses-manhattan-federal-court"
+          }
+        }
+      ],
       "drugs": [
         "fentanyl",
         "heroin",
@@ -47297,7 +47407,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Dinelson Hernandez-Rodriguez’s historical drug-case conduct in Massachusetts, United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-ma/pr/brooklyn-man-convicted-role-drug-trafficking-conspiracy-involving-over-50-kilograms"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -47337,7 +47457,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Benigno Guzman Ortiz’s historical drug-case conduct in Texas, United States.",
+            "period": "reported 2018",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/mexican-national-sentenced-east-texas-drug-trafficking"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -47631,7 +47761,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Juan Jose Castro-Ayala’s historical drug-case conduct in Jefferson County, Texas, United States.",
+            "period": "reported 2019",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/illegal-alien-sentenced-southeast-texas-drug-trafficking-and-immigration-violations"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -47923,7 +48063,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes LaShawn Monroe’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-ndwv/pr/detroit-native-trafficking-drugs-california-mountain-state-sentenced-life-federal"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -48211,7 +48361,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Cory Jsamard Ford’s historical drug-case conduct in Smith County, Texas, United States.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/smith-county-man-guilty-federal-drug-trafficking-violations-0"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -48331,7 +48491,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Roy Martin Herrara-Romero’s historical drug-case conduct in Baton Rouge, Louisiana, United States.",
+            "period": "reported 2019",
+            "sourceUrl": "https://www.justice.gov/usao-mdla/pr/major-drug-trafficker-sentenced-federal-prisonon-drug-trafficking-and-gun-charges"
+          }
+        }
+      ],
       "drugs": [
         "cannabis"
       ],
@@ -48412,7 +48582,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Brian Uriel Lopez-Orozco’s historical drug-case conduct in Arizona, United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-mt/pr/phoenix-man-sentenced-14-years-prison-trafficking-significant-amounts-drugs-montana"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -48490,7 +48670,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Rashourn Niles’s historical drug-case conduct in Virginia, United States.",
+            "period": "reported 2018",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/leader-major-drug-trafficking-conspiracy-sentenced-prison"
+          }
+        }
+      ],
       "drugs": [
         "heroin",
         "cocaine"
@@ -48652,7 +48842,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Rodney Stevenson’s historical drug-case conduct in Gregg County, Texas, United States.",
+            "period": "reported 2013",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/nacogdoches-county-man-sentenced-drug-trafficking"
+          }
+        }
+      ],
       "drugs": [
         "cocaine"
       ],
@@ -48863,7 +49063,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Sergio Perez-Martinez’s historical drug-case conduct in the United States.",
+            "period": "reported 2022",
+            "sourceUrl": "https://www.justice.gov/usao-wdmo/pr/seven-more-defendants-plead-guilty-drug-trafficking-conspiracy-illegal-firearms"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -49024,7 +49234,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Christopher Marcell Mumphrey’s historical drug-case conduct in Smith County, Texas, United States.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/gregg-county-man-guilty-federal-drug-trafficking-violations"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -50011,7 +50231,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes McGee Lamar Falcon’s historical drug-case conduct in Texas, United States.",
+            "period": "reported 2017",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/jasper-county-man-sentenced-drug-trafficking-violations"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -50564,7 +50794,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Andrew Mark Harris’s historical drug-case conduct in Van Zandt County, Texas, United States.",
+            "period": "reported 2019",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/van-zandt-county-man-guilty-drug-trafficking-east-texas"
+          }
+        }
+      ],
       "drugs": [
         "methamphetamine"
       ],
@@ -50604,7 +50844,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Cephus Andrews’s historical drug-case conduct in Ohio County, West Virginia, United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-ndwv/pr/four-sentenced-drug-trafficking-northern-panhandle"
+          }
+        }
+      ],
       "drugs": [
         "fentanyl",
         "heroin",
