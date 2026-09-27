@@ -189,16 +189,20 @@ live positions, private addresses, travel patterns, local routes or rankings of 
 so users can audit the public context behind organizations named in reports. If that boundary cannot be kept
 in a deployment, the People view should be removed rather than repurposed for enforcement.
 
-Know the mix before you answer the follow-up. As of the 2026-09-27 build it is **606 people across 61 organizations —
-201 convicted, 279 charged, 71 sanctioned** (an official designation, usually OFAC) **and 55 carried only as
-reported**. Two things to say in that order. First, about 90% rest on an official action: a court, an
+Know the mix before you answer the follow-up. As of the 2026-09-27 build it is **862 people across 103 organizations —
+319 convicted, 349 charged, 136 sanctioned** (an official designation, usually OFAC) **and 58 carried only as
+reported**. Two things to say in that order. First, about 93% rest on an official action: a court, an
 indictment or a Treasury listing. Second, the honest concession before a judge finds it — charged entries
-outnumber convicted ones, and the 55 reported rest on journalism rather than any official determination. Each
+outnumber convicted ones, and the 58 reported rest on journalism rather than any official determination. Each
 carries its source and its status is shown on the record rather than flattened into "trafficker".
 
 This dataset is growing fast (it was 138 people a few hours before this line was written), so **re-check the
 numbers before judging**: `python3 deck/build.py` prints the current total and writes the full breakdown to
 `deck/data.json` under `people`.
+
+As of this build, the repository manifest is ahead of the deployed People snapshots: both live API surfaces
+still report 323 records. A refresh request is logged in `docs/CONTRACT_REQUESTS.md`. Do not present the live
+People count as the complete current atlas until those surfaces match the manifest.
 
 **"Prices are still five times pre-ban, right?"** — *Adrian (S4)*
 That was true as of UNODC's November 2025 figure — US$570/kg dry opium against a pre-ban average under
