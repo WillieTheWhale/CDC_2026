@@ -664,6 +664,193 @@
       ]
     },
     {
+      "id": "ke-wekesa-2023-case",
+      "name": "Wekesa Kenyan cannabis trafficking appeal",
+      "regions": [
+        "KEN"
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf",
+          "title": "Wekesa & 2 others v Republic [2026] KEHC 3944 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2026-03-18",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "ke-nyaguthie-2018-case",
+      "name": "Nyaguthie Kenyan heroin trafficking appeal",
+      "regions": [
+        "KEN"
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/3268/eng@2025-03-18/source.pdf",
+          "title": "Nyaguthie & another v Republic [2025] KEHC 3268 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2025-03-18",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "ke-otieno-2020-case",
+      "name": "Otieno Kenyan cannabis trafficking appeal",
+      "regions": [
+        "KEN"
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/587/eng@2025-01-27/source.pdf",
+          "title": "Otieno & 2 others v Republic [2025] KEHC 587 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2025-01-27",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "ke-kasyula-2015-case",
+      "name": "Kasyula Kenyan cannabis trafficking appeal",
+      "regions": [
+        "KEN"
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2015/882/eng@2015-03-12/source.pdf",
+          "title": "Kasyula v Republic [2015] KECA 882 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2015-03-12",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "za-omega-2009-case",
+      "name": "Omega Cabs drug-dealing enterprise",
+      "regions": [
+        "ZAF"
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf",
+          "title": "NPA News, November/December 2013, p. 18: Three convicted and sentenced for racketeering",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2013-12",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "za-murphy-2015-case",
+      "name": "Murphy drug-dealing enterprise",
+      "regions": [
+        "ZAF"
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/node/2202",
+          "title": "Drug dealer and ex-wife sentenced and fined millions of Rands",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2024-01-23",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "za-postmasburg-2024-case",
+      "name": "Postmasburg Mandrax dealing case",
+      "regions": [
+        "ZAF"
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/media/two-accused-sentenced-lengthy-imprisonment-dealing-drugs",
+          "title": "Two accused sentenced to lengthy imprisonment for dealing in drugs",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2025-06-27",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "za-vredenburg-2021-case",
+      "name": "Vredenburg cocaine dealing case",
+      "regions": [
+        "ZAF"
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/sites/default/files/uploads/Khasho%20Newsletter-1st%20Edition.pdf",
+          "title": "Proactive work of prosecutor secures heavy sentence and forfeiture, NPA Newsletter p. 10",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2022-06",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "za-ndindwa-2016-case",
+      "name": "Ndindwa Mandrax dealing case",
+      "regions": [
+        "ZAF"
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/node/2868",
+          "title": "Drug dealer sentenced and forfeits proceeds of his crimes",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2025-09-19",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "za-samson-2023-case",
+      "name": "Samson Dlamini methcathinone dealing case",
+      "regions": [
+        "ZAF"
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/node/2514",
+          "title": "Eswatini national sentenced to 20 years for drug trafficking and corruption",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2025-05-30",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
+      "id": "za-kunene-2023-case",
+      "name": "Kunene Mandrax dealing case",
+      "regions": [
+        "ZAF"
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/node/2596",
+          "title": "Drug dealer gets direct imprisonment",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2025-06-26",
+          "claim": "Official court/prosecution source identifies the case or enterprise; case grouping does not imply a direct person-to-person relationship."
+        }
+      ]
+    },
+    {
       "id": "ecuador-pampa-drug-purpose-case",
       "name": "Caso Pampa organized-crime case (drug-trafficking purpose)",
       "aliases": [
@@ -15778,6 +15965,1121 @@
             "publishedAt": "2022-11-18",
             "claim": "Vincent Boykin: DOJ reports a drug-offense guilty plea and a sentence of 150 months imprisonment on 2021-04-29. Vincent Boykin pleaded guilty to conspiracy to possess with intent to distribute 50 grams or more of methamphetamine, and possession of 50 grams or more of methamphetamine with intent to distribute. This is a historical court outcome, not a claim of present custody or individual gang membership."
           }
+        }
+      ]
+    },
+    {
+      "id": "ke-stephen-sifuna-wekesa",
+      "name": "Stephen Sifuna Wekesa",
+      "status": "convicted",
+      "statusAsOf": "2026-03-18",
+      "roleLabel": "Convicted in ke wekesa 2023 case (source dated 2026-03-18)",
+      "prominence": 2,
+      "organizationIds": [
+        "ke-wekesa-2023-case"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya",
+          "evidence": {
+            "claim": "Stephen Sifuna Wekesa was individually convicted in the cited Kenyan drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2023–2026",
+            "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "events": [
+        {
+          "id": "ke-stephen-sifuna-wekesa-development-2026-03-18",
+          "occurredAt": "2026-03-18",
+          "type": "development",
+          "title": "Appeal dismissed; conviction and sentence affirmed",
+          "summary": "Stephen Sifuna Wekesa: 25 years imprisonment and KES 50 million fine for cannabis trafficking; High Court dismissed appeal and affirmed conviction and sentence on 18 March 2026. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf",
+            "title": "Wekesa & 2 others v Republic [2026] KEHC 3944 (KLR)",
+            "publisher": "Kenya Law",
+            "language": "en",
+            "publishedAt": "2026-03-18",
+            "claim": "Stephen Sifuna Wekesa: 25 years imprisonment and KES 50 million fine for cannabis trafficking; High Court dismissed appeal and affirmed conviction and sentence on 18 March 2026. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf",
+          "title": "Wekesa & 2 others v Republic [2026] KEHC 3944 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2026-03-18",
+          "claim": "Stephen Sifuna Wekesa: 25 years imprisonment and KES 50 million fine for cannabis trafficking; High Court dismissed appeal and affirmed conviction and sentence on 18 March 2026. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "ke-reuben-kioko-kimanthi",
+      "name": "Reuben Kioko Kimanthi",
+      "status": "convicted",
+      "statusAsOf": "2026-03-18",
+      "roleLabel": "Convicted in ke wekesa 2023 case (source dated 2026-03-18)",
+      "prominence": 2,
+      "organizationIds": [
+        "ke-wekesa-2023-case"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya",
+          "evidence": {
+            "claim": "Reuben Kioko Kimanthi was individually convicted in the cited Kenyan drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2023–2026",
+            "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "events": [
+        {
+          "id": "ke-reuben-kioko-kimanthi-development-2026-03-18",
+          "occurredAt": "2026-03-18",
+          "type": "development",
+          "title": "Appeal dismissed; conviction and sentence affirmed",
+          "summary": "Reuben Kioko Kimanthi: 23.5 years imprisonment and KES 50 million fine on each of two cannabis-trafficking counts, concurrent; High Court dismissed appeal and affirmed on 18 March 2026. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf",
+            "title": "Wekesa & 2 others v Republic [2026] KEHC 3944 (KLR)",
+            "publisher": "Kenya Law",
+            "language": "en",
+            "publishedAt": "2026-03-18",
+            "claim": "Reuben Kioko Kimanthi: 23.5 years imprisonment and KES 50 million fine on each of two cannabis-trafficking counts, concurrent; High Court dismissed appeal and affirmed on 18 March 2026. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf",
+          "title": "Wekesa & 2 others v Republic [2026] KEHC 3944 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2026-03-18",
+          "claim": "Reuben Kioko Kimanthi: 23.5 years imprisonment and KES 50 million fine on each of two cannabis-trafficking counts, concurrent; High Court dismissed appeal and affirmed on 18 March 2026. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "ke-elizabeth-wanjiku",
+      "name": "Elizabeth Wanjiku",
+      "status": "convicted",
+      "statusAsOf": "2026-03-18",
+      "roleLabel": "Convicted in ke wekesa 2023 case (source dated 2026-03-18)",
+      "prominence": 2,
+      "organizationIds": [
+        "ke-wekesa-2023-case"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya",
+          "evidence": {
+            "claim": "Elizabeth Wanjiku was individually convicted in the cited Kenyan drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2023–2026",
+            "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "events": [
+        {
+          "id": "ke-elizabeth-wanjiku-development-2026-03-18",
+          "occurredAt": "2026-03-18",
+          "type": "development",
+          "title": "Appeal dismissed; conviction and sentence affirmed",
+          "summary": "Elizabeth Wanjiku: 13.5 years imprisonment and KES 50 million fine for cannabis trafficking; High Court dismissed appeal and affirmed on 18 March 2026. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf",
+            "title": "Wekesa & 2 others v Republic [2026] KEHC 3944 (KLR)",
+            "publisher": "Kenya Law",
+            "language": "en",
+            "publishedAt": "2026-03-18",
+            "claim": "Elizabeth Wanjiku: 13.5 years imprisonment and KES 50 million fine for cannabis trafficking; High Court dismissed appeal and affirmed on 18 March 2026. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2026/3944/eng@2026-03-18/source.pdf",
+          "title": "Wekesa & 2 others v Republic [2026] KEHC 3944 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2026-03-18",
+          "claim": "Elizabeth Wanjiku: 13.5 years imprisonment and KES 50 million fine for cannabis trafficking; High Court dismissed appeal and affirmed on 18 March 2026. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "ke-mary-muita-nyaguthie",
+      "name": "Mary Muita Nyaguthie",
+      "status": "convicted",
+      "statusAsOf": "2025-03-18",
+      "roleLabel": "Convicted in ke nyaguthie 2018 case (source dated 2025-03-18)",
+      "prominence": 2,
+      "organizationIds": [
+        "ke-nyaguthie-2018-case"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya",
+          "evidence": {
+            "claim": "Mary Muita Nyaguthie was individually convicted in the cited Kenyan drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2018–2025",
+            "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/3268/eng@2025-03-18/source.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "events": [
+        {
+          "id": "ke-mary-muita-nyaguthie-development-2025-03-18",
+          "occurredAt": "2025-03-18",
+          "type": "development",
+          "title": "Appeal dismissed; conviction and sentence affirmed",
+          "summary": "Mary Muita Nyaguthie: 15 years imprisonment and KES 5,189,490 fine for heroin trafficking; appeal dismissed and trial conviction and sentence affirmed on 18 March 2025. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/3268/eng@2025-03-18/source.pdf",
+            "title": "Nyaguthie & another v Republic [2025] KEHC 3268 (KLR)",
+            "publisher": "Kenya Law",
+            "language": "en",
+            "publishedAt": "2025-03-18",
+            "claim": "Mary Muita Nyaguthie: 15 years imprisonment and KES 5,189,490 fine for heroin trafficking; appeal dismissed and trial conviction and sentence affirmed on 18 March 2025. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/3268/eng@2025-03-18/source.pdf",
+          "title": "Nyaguthie & another v Republic [2025] KEHC 3268 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2025-03-18",
+          "claim": "Mary Muita Nyaguthie: 15 years imprisonment and KES 5,189,490 fine for heroin trafficking; appeal dismissed and trial conviction and sentence affirmed on 18 March 2025. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "ke-benard-otieno-oduor",
+      "name": "Benard Otieno Oduor",
+      "status": "convicted",
+      "statusAsOf": "2025-03-18",
+      "roleLabel": "Convicted in ke nyaguthie 2018 case (source dated 2025-03-18)",
+      "prominence": 2,
+      "organizationIds": [
+        "ke-nyaguthie-2018-case"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya",
+          "evidence": {
+            "claim": "Benard Otieno Oduor was individually convicted in the cited Kenyan drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2018–2025",
+            "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/3268/eng@2025-03-18/source.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "events": [
+        {
+          "id": "ke-benard-otieno-oduor-development-2025-03-18",
+          "occurredAt": "2025-03-18",
+          "type": "development",
+          "title": "Appeal dismissed; conviction and sentence affirmed",
+          "summary": "Benard Otieno Oduor: 15 years imprisonment and KES 7,179,300 fine for heroin trafficking; appeal dismissed and trial conviction and sentence affirmed on 18 March 2025. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/3268/eng@2025-03-18/source.pdf",
+            "title": "Nyaguthie & another v Republic [2025] KEHC 3268 (KLR)",
+            "publisher": "Kenya Law",
+            "language": "en",
+            "publishedAt": "2025-03-18",
+            "claim": "Benard Otieno Oduor: 15 years imprisonment and KES 7,179,300 fine for heroin trafficking; appeal dismissed and trial conviction and sentence affirmed on 18 March 2025. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/3268/eng@2025-03-18/source.pdf",
+          "title": "Nyaguthie & another v Republic [2025] KEHC 3268 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2025-03-18",
+          "claim": "Benard Otieno Oduor: 15 years imprisonment and KES 7,179,300 fine for heroin trafficking; appeal dismissed and trial conviction and sentence affirmed on 18 March 2025. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "ke-paul-ochieng-otieno",
+      "name": "Paul Ochieng Otieno",
+      "status": "convicted",
+      "statusAsOf": "2025-01-27",
+      "roleLabel": "Convicted in ke otieno 2020 case (source dated 2025-01-27)",
+      "prominence": 2,
+      "organizationIds": [
+        "ke-otieno-2020-case"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya",
+          "evidence": {
+            "claim": "Paul Ochieng Otieno was individually convicted in the cited Kenyan drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2020–2025",
+            "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/587/eng@2025-01-27/source.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "events": [
+        {
+          "id": "ke-paul-ochieng-otieno-development-2025-01-27",
+          "occurredAt": "2025-01-27",
+          "type": "development",
+          "title": "Appeal dismissed; conviction and sentence affirmed",
+          "summary": "Paul Ochieng Otieno: Conviction for cannabis trafficking and 21-year sentence plus KES 33,165,000 fine upheld on appeal on 27 January 2025; two co-appellants had their convictions quashed. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/587/eng@2025-01-27/source.pdf",
+            "title": "Otieno & 2 others v Republic [2025] KEHC 587 (KLR)",
+            "publisher": "Kenya Law",
+            "language": "en",
+            "publishedAt": "2025-01-27",
+            "claim": "Paul Ochieng Otieno: Conviction for cannabis trafficking and 21-year sentence plus KES 33,165,000 fine upheld on appeal on 27 January 2025; two co-appellants had their convictions quashed. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/587/eng@2025-01-27/source.pdf",
+          "title": "Otieno & 2 others v Republic [2025] KEHC 587 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2025-01-27",
+          "claim": "Paul Ochieng Otieno: Conviction for cannabis trafficking and 21-year sentence plus KES 33,165,000 fine upheld on appeal on 27 January 2025; two co-appellants had their convictions quashed. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "ke-antony-mbithi-kasyula",
+      "name": "Antony Mbithi Kasyula",
+      "status": "convicted",
+      "statusAsOf": "2015-03-12",
+      "roleLabel": "Convicted in ke kasyula 2015 case (source dated 2015-03-12)",
+      "prominence": 2,
+      "organizationIds": [
+        "ke-kasyula-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya",
+          "evidence": {
+            "claim": "Antony Mbithi Kasyula was individually convicted in the cited Kenyan drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2011–2015",
+            "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/keca/2015/882/eng@2015-03-12/source.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "events": [
+        {
+          "id": "ke-antony-mbithi-kasyula-development-2015-03-12",
+          "occurredAt": "2015-03-12",
+          "type": "development",
+          "title": "Second appeal dismissed",
+          "summary": "Antony Mbithi Kasyula: Court of Appeal dismissed appeal against conviction for trafficking 60 kg cannabis and against the High Court life sentence with KES 1 million fine on 12 March 2015. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2015/882/eng@2015-03-12/source.pdf",
+            "title": "Kasyula v Republic [2015] KECA 882 (KLR)",
+            "publisher": "Kenya Law",
+            "language": "en",
+            "publishedAt": "2015-03-12",
+            "claim": "Antony Mbithi Kasyula: Court of Appeal dismissed appeal against conviction for trafficking 60 kg cannabis and against the High Court life sentence with KES 1 million fine on 12 March 2015. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/keca/2015/882/eng@2015-03-12/source.pdf",
+          "title": "Kasyula v Republic [2015] KECA 882 (KLR)",
+          "publisher": "Kenya Law",
+          "language": "en",
+          "publishedAt": "2015-03-12",
+          "claim": "Antony Mbithi Kasyula: Court of Appeal dismissed appeal against conviction for trafficking 60 kg cannabis and against the High Court life sentence with KES 1 million fine on 12 March 2015. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-warren-fick",
+      "name": "Warren Fick",
+      "status": "convicted",
+      "statusAsOf": "2013-03-19",
+      "roleLabel": "Convicted in za omega 2009 case (source dated 2013-12)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-omega-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Warren Fick was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2009–2013",
+            "sourceUrl": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "za-warren-fick-sentence-2013-03-19",
+          "occurredAt": "2013-03-19",
+          "type": "sentence",
+          "title": "Court outcome",
+          "summary": "Warren Fick: Pleaded guilty to racketeering and dealing in drugs; sentenced on 19 March 2013 to 12 years, four suspended, effective eight years. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf",
+            "title": "NPA News, November/December 2013, p. 18: Three convicted and sentenced for racketeering",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2013-12",
+            "claim": "Warren Fick: Pleaded guilty to racketeering and dealing in drugs; sentenced on 19 March 2013 to 12 years, four suspended, effective eight years. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf",
+          "title": "NPA News, November/December 2013, p. 18: Three convicted and sentenced for racketeering",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2013-12",
+          "claim": "Warren Fick: Pleaded guilty to racketeering and dealing in drugs; sentenced on 19 March 2013 to 12 years, four suspended, effective eight years. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-demetrius-da-silva",
+      "name": "Demetrius Da Silva",
+      "status": "convicted",
+      "statusAsOf": "2013-03-19",
+      "roleLabel": "Convicted in za omega 2009 case (source dated 2013-12)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-omega-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Demetrius Da Silva was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2009–2013",
+            "sourceUrl": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "za-demetrius-da-silva-sentence-2013-03-19",
+          "occurredAt": "2013-03-19",
+          "type": "sentence",
+          "title": "Court outcome",
+          "summary": "Demetrius Da Silva: Pleaded guilty to racketeering and dealing in drugs; sentenced on 19 March 2013 to 10 years, four suspended, effective six years. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf",
+            "title": "NPA News, November/December 2013, p. 18: Three convicted and sentenced for racketeering",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2013-12",
+            "claim": "Demetrius Da Silva: Pleaded guilty to racketeering and dealing in drugs; sentenced on 19 March 2013 to 10 years, four suspended, effective six years. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf",
+          "title": "NPA News, November/December 2013, p. 18: Three convicted and sentenced for racketeering",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2013-12",
+          "claim": "Demetrius Da Silva: Pleaded guilty to racketeering and dealing in drugs; sentenced on 19 March 2013 to 10 years, four suspended, effective six years. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-shane-scott-plaatjies",
+      "name": "Shane Scott Plaatjies",
+      "status": "convicted",
+      "statusAsOf": "2013-03-19",
+      "roleLabel": "Convicted in za omega 2009 case (source dated 2013-12)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-omega-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Shane Scott Plaatjies was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2009–2013",
+            "sourceUrl": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "za-shane-scott-plaatjies-sentence-2013-03-19",
+          "occurredAt": "2013-03-19",
+          "type": "sentence",
+          "title": "Court outcome",
+          "summary": "Shane Scott Plaatjies: Pleaded guilty to racketeering and dealing in drugs; sentenced on 19 March 2013 to 10 years, four suspended, effective six years. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf",
+            "title": "NPA News, November/December 2013, p. 18: Three convicted and sentenced for racketeering",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2013-12",
+            "claim": "Shane Scott Plaatjies: Pleaded guilty to racketeering and dealing in drugs; sentenced on 19 March 2013 to 10 years, four suspended, effective six years. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/sites/default/files/newsletters/NPA-Khasho-December-2013.pdf",
+          "title": "NPA News, November/December 2013, p. 18: Three convicted and sentenced for racketeering",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2013-12",
+          "claim": "Shane Scott Plaatjies: Pleaded guilty to racketeering and dealing in drugs; sentenced on 19 March 2013 to 10 years, four suspended, effective six years. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-fadwaan-murphy",
+      "name": "Fadwaan Murphy",
+      "status": "convicted",
+      "statusAsOf": "2025-03-17",
+      "roleLabel": "Convicted in za murphy 2015 case (source dated 2024-01-23)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-murphy-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Fadwaan Murphy was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2014–2024",
+            "sourceUrl": "https://www.npa.gov.za/node/2202"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "za-fadwaan-murphy-sentence-2024-01-19",
+          "occurredAt": "2024-01-19",
+          "type": "sentence",
+          "title": "Court outcome",
+          "summary": "Fadwaan Murphy: Convicted in 2023 of drug-dealing, racketeering and money-laundering counts; sentenced on 19 January 2024 to effective 18 years imprisonment. The January NPA release says he applied for leave to appeal. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.ewn.co.za/2024/01/19/alleged-drug-syndicate-leader-fadwaan-murphy-sentenced-to-18-years-in-prison",
+            "title": "Murphy and former wife sentenced",
+            "publisher": "Eyewitness News",
+            "language": "en",
+            "publishedAt": "2024-01-19",
+            "claim": "Fadwaan Murphy: Convicted in 2023 of drug-dealing, racketeering and money-laundering counts; sentenced on 19 January 2024 to effective 18 years imprisonment. The January NPA release says he applied for leave to appeal. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        },
+        {
+          "id": "za-fadwaan-murphy-development-2025-03-17",
+          "occurredAt": "2025-03-17",
+          "type": "development",
+          "title": "NPA reports earlier drug sentence",
+          "summary": "NPA continued to describe Fadwaan Murphy as convicted and serving the 18-year drug-case sentence in a separate March 2025 tax-case release. This does not establish the outcome of any pending drug appeal.",
+          "source": {
+            "url": "https://www.npa.gov.za/node/2310",
+            "title": "Serving Drug Dealer and King Sentenced for Tax Fraud",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2025-03-17",
+            "claim": "NPA continued to describe Fadwaan Murphy as convicted and serving the 18-year drug-case sentence in a separate March 2025 tax-case release. This does not establish the outcome of any pending drug appeal."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/node/2202",
+          "title": "Drug dealer and ex-wife sentenced and fined millions of Rands",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2024-01-23",
+          "claim": "Fadwaan Murphy: Convicted in 2023 of drug-dealing, racketeering and money-laundering counts; sentenced on 19 January 2024 to effective 18 years imprisonment. The January NPA release says he applied for leave to appeal. Historical court outcome; no claim of current custody or whereabouts."
+        },
+        {
+          "url": "https://www.ewn.co.za/2024/01/19/alleged-drug-syndicate-leader-fadwaan-murphy-sentenced-to-18-years-in-prison",
+          "title": "Murphy and former wife sentenced",
+          "publisher": "Eyewitness News",
+          "language": "en",
+          "publishedAt": "2024-01-19",
+          "claim": "Fadwaan Murphy: Convicted in 2023 of drug-dealing, racketeering and money-laundering counts; sentenced on 19 January 2024 to effective 18 years imprisonment. The January NPA release says he applied for leave to appeal. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-shafieka-murphy",
+      "name": "Shafieka Murphy",
+      "status": "convicted",
+      "statusAsOf": "2024-01-23",
+      "roleLabel": "Convicted in za murphy 2015 case (source dated 2024-01-23)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-murphy-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Shafieka Murphy was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2014–2024",
+            "sourceUrl": "https://www.npa.gov.za/node/2202"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "za-shafieka-murphy-sentence-2024-01-19",
+          "occurredAt": "2024-01-19",
+          "type": "sentence",
+          "title": "Court outcome",
+          "summary": "Shafieka Murphy: Convicted in 2023 of drug-dealing, racketeering and money-laundering counts; sentenced on 19 January 2024 to 15 years imprisonment. The January NPA release says she applied for leave to appeal. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.ewn.co.za/2024/01/19/alleged-drug-syndicate-leader-fadwaan-murphy-sentenced-to-18-years-in-prison",
+            "title": "Murphy and former wife sentenced",
+            "publisher": "Eyewitness News",
+            "language": "en",
+            "publishedAt": "2024-01-19",
+            "claim": "Shafieka Murphy: Convicted in 2023 of drug-dealing, racketeering and money-laundering counts; sentenced on 19 January 2024 to 15 years imprisonment. The January NPA release says she applied for leave to appeal. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/node/2202",
+          "title": "Drug dealer and ex-wife sentenced and fined millions of Rands",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2024-01-23",
+          "claim": "Shafieka Murphy: Convicted in 2023 of drug-dealing, racketeering and money-laundering counts; sentenced on 19 January 2024 to 15 years imprisonment. The January NPA release says she applied for leave to appeal. Historical court outcome; no claim of current custody or whereabouts."
+        },
+        {
+          "url": "https://www.ewn.co.za/2024/01/19/alleged-drug-syndicate-leader-fadwaan-murphy-sentenced-to-18-years-in-prison",
+          "title": "Murphy and former wife sentenced",
+          "publisher": "Eyewitness News",
+          "language": "en",
+          "publishedAt": "2024-01-19",
+          "claim": "Shafieka Murphy: Convicted in 2023 of drug-dealing, racketeering and money-laundering counts; sentenced on 19 January 2024 to 15 years imprisonment. The January NPA release says she applied for leave to appeal. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-mthobisi-dlamini",
+      "name": "Mthobisi Dlamini",
+      "status": "convicted",
+      "statusAsOf": "2025-06-27",
+      "roleLabel": "Convicted in za postmasburg 2024 case (source dated 2025-06-27)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-postmasburg-2024-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Mthobisi Dlamini was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2024–2025",
+            "sourceUrl": "https://www.npa.gov.za/media/two-accused-sentenced-lengthy-imprisonment-dealing-drugs"
+          }
+        }
+      ],
+      "drugs": [
+        "Mandrax"
+      ],
+      "events": [
+        {
+          "id": "za-mthobisi-dlamini-development-2025-06-27",
+          "occurredAt": "2025-06-27",
+          "type": "development",
+          "title": "Sentence reported by NPA",
+          "summary": "Mthobisi Dlamini: Convicted and sentenced to 14 years direct imprisonment for Mandrax dealing in the NPA report of 27 June 2025. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.npa.gov.za/media/two-accused-sentenced-lengthy-imprisonment-dealing-drugs",
+            "title": "Two accused sentenced to lengthy imprisonment for dealing in drugs",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2025-06-27",
+            "claim": "Mthobisi Dlamini: Convicted and sentenced to 14 years direct imprisonment for Mandrax dealing in the NPA report of 27 June 2025. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/media/two-accused-sentenced-lengthy-imprisonment-dealing-drugs",
+          "title": "Two accused sentenced to lengthy imprisonment for dealing in drugs",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2025-06-27",
+          "claim": "Mthobisi Dlamini: Convicted and sentenced to 14 years direct imprisonment for Mandrax dealing in the NPA report of 27 June 2025. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-xolani-njoko",
+      "name": "Xolani Njoko",
+      "status": "convicted",
+      "statusAsOf": "2025-06-27",
+      "roleLabel": "Convicted in za postmasburg 2024 case (source dated 2025-06-27)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-postmasburg-2024-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Xolani Njoko was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2024–2025",
+            "sourceUrl": "https://www.npa.gov.za/media/two-accused-sentenced-lengthy-imprisonment-dealing-drugs"
+          }
+        }
+      ],
+      "drugs": [
+        "Mandrax"
+      ],
+      "events": [
+        {
+          "id": "za-xolani-njoko-development-2025-06-27",
+          "occurredAt": "2025-06-27",
+          "type": "development",
+          "title": "Sentence reported by NPA",
+          "summary": "Xolani Njoko: Convicted and sentenced to 10 years direct imprisonment for Mandrax dealing in the NPA report of 27 June 2025. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.npa.gov.za/media/two-accused-sentenced-lengthy-imprisonment-dealing-drugs",
+            "title": "Two accused sentenced to lengthy imprisonment for dealing in drugs",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2025-06-27",
+            "claim": "Xolani Njoko: Convicted and sentenced to 10 years direct imprisonment for Mandrax dealing in the NPA report of 27 June 2025. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/media/two-accused-sentenced-lengthy-imprisonment-dealing-drugs",
+          "title": "Two accused sentenced to lengthy imprisonment for dealing in drugs",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2025-06-27",
+          "claim": "Xolani Njoko: Convicted and sentenced to 10 years direct imprisonment for Mandrax dealing in the NPA report of 27 June 2025. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-mario-radoslavov-vasev",
+      "name": "Mario Radoslavov Vasev",
+      "status": "convicted",
+      "statusAsOf": "2021-05-16",
+      "roleLabel": "Convicted in Vredenburg cocaine case (NPA retrospective report, 2022)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-vredenburg-2021-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Mario Radoslavov Vasev was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2021",
+            "sourceUrl": "https://www.npa.gov.za/sites/default/files/uploads/Khasho%20Newsletter-1st%20Edition.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "events": [
+        {
+          "id": "za-mario-radoslavov-vasev-development-2021-05-16",
+          "occurredAt": "2021-05-16",
+          "type": "development",
+          "title": "Court outcome reported",
+          "summary": "Mario Radoslavov Vasev: Convicted of cocaine dealing and illegal entry; NPA confirms the cocaine-case conviction and sentence; News24 reported the outcome on 16 May 2021. News24 reports a 25-year drug sentence with 13 years suspended. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.news24.com/60-years-collective-sentence-for-three-bust-in-huge-west-coast-cocaine-shipment-20210516",
+            "title": "60 years collective sentence for three in cocaine case",
+            "publisher": "News24",
+            "language": "en",
+            "publishedAt": "2021-05-16",
+            "claim": "Mario Radoslavov Vasev: Convicted of cocaine dealing and illegal entry; NPA confirms the cocaine-case conviction and sentence; News24 reported the outcome on 16 May 2021. News24 reports a 25-year drug sentence with 13 years suspended. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/sites/default/files/uploads/Khasho%20Newsletter-1st%20Edition.pdf",
+          "title": "Proactive work of prosecutor secures heavy sentence and forfeiture, NPA Newsletter p. 10",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2022-06",
+          "claim": "Mario Radoslavov Vasev: Convicted of cocaine dealing and illegal entry; NPA confirms the cocaine-case conviction and sentence; News24 reported the outcome on 16 May 2021. News24 reports a 25-year drug sentence with 13 years suspended. Historical court outcome; no claim of current custody or whereabouts."
+        },
+        {
+          "url": "https://www.news24.com/60-years-collective-sentence-for-three-bust-in-huge-west-coast-cocaine-shipment-20210516",
+          "title": "60 years collective sentence for three in cocaine case",
+          "publisher": "News24",
+          "language": "en",
+          "publishedAt": "2021-05-16",
+          "claim": "Mario Radoslavov Vasev: Convicted of cocaine dealing and illegal entry; NPA confirms the cocaine-case conviction and sentence; News24 reported the outcome on 16 May 2021. News24 reports a 25-year drug sentence with 13 years suspended. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-asen-georgiev-ivanov",
+      "name": "Asen Georgiev Ivanov",
+      "status": "convicted",
+      "statusAsOf": "2021-05-16",
+      "roleLabel": "Convicted in Vredenburg cocaine case (NPA retrospective report, 2022)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-vredenburg-2021-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Asen Georgiev Ivanov was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2021",
+            "sourceUrl": "https://www.npa.gov.za/sites/default/files/uploads/Khasho%20Newsletter-1st%20Edition.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "events": [
+        {
+          "id": "za-asen-georgiev-ivanov-development-2021-05-16",
+          "occurredAt": "2021-05-16",
+          "type": "development",
+          "title": "Court outcome reported",
+          "summary": "Asen Georgiev Ivanov: Convicted of cocaine dealing and illegal entry; NPA annual case report names him fully and reports 25 years with 12 years suspended. The NPA newsletter abbreviates his name to Asen Georgiev. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.news24.com/60-years-collective-sentence-for-three-bust-in-huge-west-coast-cocaine-shipment-20210516",
+            "title": "60 years collective sentence for three in cocaine case",
+            "publisher": "News24",
+            "language": "en",
+            "publishedAt": "2021-05-16",
+            "claim": "Asen Georgiev Ivanov: Convicted of cocaine dealing and illegal entry; NPA annual case report names him fully and reports 25 years with 12 years suspended. The NPA newsletter abbreviates his name to Asen Georgiev. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/sites/default/files/uploads/Khasho%20Newsletter-1st%20Edition.pdf",
+          "title": "Proactive work of prosecutor secures heavy sentence and forfeiture, NPA Newsletter p. 10",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2022-06",
+          "claim": "Asen Georgiev Ivanov: Convicted of cocaine dealing and illegal entry; NPA annual case report names him fully and reports 25 years with 12 years suspended. The NPA newsletter abbreviates his name to Asen Georgiev. Historical court outcome; no claim of current custody or whereabouts."
+        },
+        {
+          "url": "https://www.news24.com/60-years-collective-sentence-for-three-bust-in-huge-west-coast-cocaine-shipment-20210516",
+          "title": "60 years collective sentence for three in cocaine case",
+          "publisher": "News24",
+          "language": "en",
+          "publishedAt": "2021-05-16",
+          "claim": "Asen Georgiev Ivanov: Convicted of cocaine dealing and illegal entry; NPA annual case report names him fully and reports 25 years with 12 years suspended. The NPA newsletter abbreviates his name to Asen Georgiev. Historical court outcome; no claim of current custody or whereabouts."
+        },
+        {
+          "url": "https://www.npa.gov.za/sites/default/files/uploads/NPA%20NDPP%20Annual%20Report%20Cases%2003.pdf",
+          "title": "NPA case report: The State v Mario Vasec and others / Asen Georgiev Ivanov, pp. 43–44",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2022-08",
+          "claim": "NPA annual case report supplies the full name Asen Georgiev Ivanov and confirms conviction and sentence."
+        }
+      ],
+      "aliases": [
+        "Asen Georgiev"
+      ]
+    },
+    {
+      "id": "za-atanas-mihaylov-bikov",
+      "name": "Atanas Mihaylov Bikov",
+      "status": "convicted",
+      "statusAsOf": "2021-05-16",
+      "roleLabel": "Convicted in Vredenburg cocaine case (NPA retrospective report, 2022)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-vredenburg-2021-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Atanas Mihaylov Bikov was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2021",
+            "sourceUrl": "https://www.npa.gov.za/sites/default/files/uploads/Khasho%20Newsletter-1st%20Edition.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "events": [
+        {
+          "id": "za-atanas-mihaylov-bikov-development-2021-05-16",
+          "occurredAt": "2021-05-16",
+          "type": "development",
+          "title": "Court outcome reported",
+          "summary": "Atanas Mihaylov Bikov: Convicted of cocaine dealing and illegal entry; NPA confirms the cocaine-case conviction and sentence; News24 reported the outcome on 16 May 2021. News24 reports a 10-year drug sentence wholly suspended. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.news24.com/60-years-collective-sentence-for-three-bust-in-huge-west-coast-cocaine-shipment-20210516",
+            "title": "60 years collective sentence for three in cocaine case",
+            "publisher": "News24",
+            "language": "en",
+            "publishedAt": "2021-05-16",
+            "claim": "Atanas Mihaylov Bikov: Convicted of cocaine dealing and illegal entry; NPA confirms the cocaine-case conviction and sentence; News24 reported the outcome on 16 May 2021. News24 reports a 10-year drug sentence wholly suspended. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/sites/default/files/uploads/Khasho%20Newsletter-1st%20Edition.pdf",
+          "title": "Proactive work of prosecutor secures heavy sentence and forfeiture, NPA Newsletter p. 10",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2022-06",
+          "claim": "Atanas Mihaylov Bikov: Convicted of cocaine dealing and illegal entry; NPA confirms the cocaine-case conviction and sentence; News24 reported the outcome on 16 May 2021. News24 reports a 10-year drug sentence wholly suspended. Historical court outcome; no claim of current custody or whereabouts."
+        },
+        {
+          "url": "https://www.news24.com/60-years-collective-sentence-for-three-bust-in-huge-west-coast-cocaine-shipment-20210516",
+          "title": "60 years collective sentence for three in cocaine case",
+          "publisher": "News24",
+          "language": "en",
+          "publishedAt": "2021-05-16",
+          "claim": "Atanas Mihaylov Bikov: Convicted of cocaine dealing and illegal entry; NPA confirms the cocaine-case conviction and sentence; News24 reported the outcome on 16 May 2021. News24 reports a 10-year drug sentence wholly suspended. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-alfred-ndindwa",
+      "name": "Alfred Ndindwa",
+      "status": "convicted",
+      "statusAsOf": "2025-09-19",
+      "roleLabel": "Convicted in za ndindwa 2016 case (source dated 2025-09-19)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-ndindwa-2016-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Alfred Ndindwa was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.npa.gov.za/node/2868"
+          }
+        }
+      ],
+      "drugs": [
+        "Mandrax"
+      ],
+      "events": [
+        {
+          "id": "za-alfred-ndindwa-sentence-2025-09-12",
+          "occurredAt": "2025-09-12",
+          "type": "sentence",
+          "title": "Court outcome",
+          "summary": "Alfred Ndindwa: Pleaded guilty under agreement on 12 September 2025 to drug dealing; sentenced to 15 years with five years suspended, effective 10 years. NPA also reports a separate 12 December 2018 drug-dealing conviction with a five-year wholly suspended sentence. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.npa.gov.za/node/2868",
+            "title": "Drug dealer sentenced and forfeits proceeds of his crimes",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2025-09-19",
+            "claim": "Alfred Ndindwa: Pleaded guilty under agreement on 12 September 2025 to drug dealing; sentenced to 15 years with five years suspended, effective 10 years. NPA also reports a separate 12 December 2018 drug-dealing conviction with a five-year wholly suspended sentence. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        },
+        {
+          "id": "za-alfred-ndindwa-sentence-2018-12-12",
+          "occurredAt": "2018-12-12",
+          "type": "sentence",
+          "title": "Earlier drug-dealing conviction",
+          "summary": "NPA reports a separate drug-dealing conviction and five-year wholly suspended sentence on 12 December 2018.",
+          "source": {
+            "url": "https://www.npa.gov.za/node/2868",
+            "title": "Drug dealer sentenced and forfeits proceeds of his crimes",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2025-09-19",
+            "claim": "NPA reports a separate drug-dealing conviction and five-year wholly suspended sentence on 12 December 2018."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/node/2868",
+          "title": "Drug dealer sentenced and forfeits proceeds of his crimes",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2025-09-19",
+          "claim": "Alfred Ndindwa: Pleaded guilty under agreement on 12 September 2025 to drug dealing; sentenced to 15 years with five years suspended, effective 10 years. NPA also reports a separate 12 December 2018 drug-dealing conviction with a five-year wholly suspended sentence. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-samson-dlamini",
+      "name": "Samson Dlamini",
+      "status": "convicted",
+      "statusAsOf": "2025-05-30",
+      "roleLabel": "Convicted in za samson 2023 case (source dated 2025-05-30)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-samson-2023-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Samson Dlamini was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2023–2025",
+            "sourceUrl": "https://www.npa.gov.za/node/2514"
+          }
+        }
+      ],
+      "drugs": [
+        "methcathinone"
+      ],
+      "events": [
+        {
+          "id": "za-samson-dlamini-development-2025-05-30",
+          "occurredAt": "2025-05-30",
+          "type": "development",
+          "title": "Court sentence reported",
+          "summary": "Samson Dlamini: Convicted and sentenced for methcathinone dealing and corruption; 15 years for the drug count and five consecutive years for corruption, effective 20 years, reported 30 May 2025. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.npa.gov.za/node/2514",
+            "title": "Eswatini national sentenced to 20 years for drug trafficking and corruption",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2025-05-30",
+            "claim": "Samson Dlamini: Convicted and sentenced for methcathinone dealing and corruption; 15 years for the drug count and five consecutive years for corruption, effective 20 years, reported 30 May 2025. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/node/2514",
+          "title": "Eswatini national sentenced to 20 years for drug trafficking and corruption",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2025-05-30",
+          "claim": "Samson Dlamini: Convicted and sentenced for methcathinone dealing and corruption; 15 years for the drug count and five consecutive years for corruption, effective 20 years, reported 30 May 2025. Historical court outcome; no claim of current custody or whereabouts."
+        }
+      ]
+    },
+    {
+      "id": "za-mduduzi-jerome-kunene",
+      "name": "Mduduzi Jerome Kunene",
+      "status": "convicted",
+      "statusAsOf": "2025-06-26",
+      "roleLabel": "Convicted in za kunene 2023 case (source dated 2025-06-26)",
+      "prominence": 2,
+      "organizationIds": [
+        "za-kunene-2023-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "Mduduzi Jerome Kunene was individually convicted in the cited South African drug case. This historical country association is based on person-specific conduct, not citizenship or current location.",
+            "period": "2023–2025",
+            "sourceUrl": "https://www.npa.gov.za/node/2596"
+          }
+        }
+      ],
+      "drugs": [
+        "Mandrax"
+      ],
+      "events": [
+        {
+          "id": "za-mduduzi-jerome-kunene-sentence-2025-06-26",
+          "occurredAt": "2025-06-26",
+          "type": "sentence",
+          "title": "Court outcome",
+          "summary": "Mduduzi Jerome Kunene: Convicted and sentenced on 26 June 2025 for dealing in drugs: 15 years imprisonment with five years suspended for five years. Historical court outcome; no claim of current custody or whereabouts.",
+          "source": {
+            "url": "https://www.npa.gov.za/node/2596",
+            "title": "Drug dealer gets direct imprisonment",
+            "publisher": "National Prosecuting Authority of South Africa",
+            "language": "en",
+            "publishedAt": "2025-06-26",
+            "claim": "Mduduzi Jerome Kunene: Convicted and sentenced on 26 June 2025 for dealing in drugs: 15 years imprisonment with five years suspended for five years. Historical court outcome; no claim of current custody or whereabouts."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.npa.gov.za/node/2596",
+          "title": "Drug dealer gets direct imprisonment",
+          "publisher": "National Prosecuting Authority of South Africa",
+          "language": "en",
+          "publishedAt": "2025-06-26",
+          "claim": "Mduduzi Jerome Kunene: Convicted and sentenced on 26 June 2025 for dealing in drugs: 15 years imprisonment with five years suspended for five years. Historical court outcome; no claim of current custody or whereabouts."
         }
       ]
     },
