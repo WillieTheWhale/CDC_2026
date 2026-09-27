@@ -142,9 +142,9 @@
     "afghan": "contracts/fixtures/afghan_ban.json"
   },
   "people": {
-    "total": 2477,
-    "organizations": 227,
-    "convicted": 1409,
+    "total": 2923,
+    "organizations": 226,
+    "convicted": 1855,
     "charged": 456,
     "sanctioned": 536,
     "reported": 76
@@ -271,10 +271,10 @@
     "pending_count": 3
   },
   "git": {
-    "sha": "ec66357",
-    "subject": "deck: regenerate figures after People reaches 2,477",
-    "when": "2026-09-27T06:37:00+00:00",
-    "count": "255"
+    "sha": "65162d0",
+    "subject": "Make Connections browse available without map selection",
+    "when": "2026-09-27T03:03:07-04:00",
+    "count": "281"
   },
-  "built_at": "2026-09-27 06:37 UTC"
+  "built_at": "2026-09-27 07:07 UTC"
 }

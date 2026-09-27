@@ -190,7 +190,7 @@ so users can audit the public context behind organizations named in reports. If 
 in a deployment, the People view should be removed rather than repurposed for enforcement.
 
 <!-- people:auto -->
-Know the mix before you answer the follow-up. As of the 2026-09-27 build it is **2,477 people across 227 organizations — 1,409 convicted, 456 charged, 536 sanctioned** (an official designation, usually OFAC) **and 76 carried only as reported**. Two things to say in that order. First, about 97% rest on an official action: a court, an indictment or a Treasury listing. Second, the honest concession before a judge finds it — most entries are convicted, but a large minority are only charged, and the 76 reported rest on journalism rather than any official determination. Each carries its source and its status is shown on the record rather than flattened into "trafficker".
+Know the mix before you answer the follow-up. As of the 2026-09-27 build it is **2,923 people across 226 organizations — 1,855 convicted, 456 charged, 536 sanctioned** (an official designation, usually OFAC) **and 76 carried only as reported**. Two things to say in that order. First, about 97% rest on an official action: a court, an indictment or a Treasury listing. Second, the honest concession before a judge finds it — most entries are convicted, but a large minority are only charged, and the 76 reported rest on journalism rather than any official determination. Each carries its source and its status is shown on the record rather than flattened into "trafficker".
 
 These figures regenerate on every `python3 deck/build.py`; the dataset has grown fast, so rebuild before judging rather than trusting a number typed by hand.
 <!-- /people:auto -->
