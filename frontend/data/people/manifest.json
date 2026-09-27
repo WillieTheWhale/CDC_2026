@@ -1,6 +1,110 @@
 {
   "organizations": [
     {
+      "id": "cjng",
+      "name": "Cártel de Jalisco Nueva Generación",
+      "aliases": [
+        "CJNG",
+        "Cartel Jalisco Nueva Generación"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0169",
+          "title": "Treasury Sanctions Cartel de Jalisco Nueva Generacion Leaders Under Counterterrorism Authorities",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2025-06-18",
+          "claim": "Treasury identifies CJNG as a Mexico-based cartel and names its founder and senior leaders."
+        },
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ describes CJNG leadership, charges, and its drug trafficking activity."
+        }
+      ]
+    },
+    {
+      "id": "los-cuinis",
+      "name": "Los Cuinis",
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/co-founder-los-cuinis-drug-cartel-sentenced-30-years-prison-high-ranking-cartel-de-jalisco",
+          "title": "Co-Founder of Los Cuinis Drug Cartel Sentenced to 30 Years in Prison; High-Ranking CJNG Operative Pleads Guilty",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-06-20",
+          "claim": "DOJ says Los Cuinis financed the founding and growth of CJNG and describes the groups as closely allied."
+        }
+      ]
+    },
+    {
+      "id": "grupo-elite",
+      "name": "Grupo Élite",
+      "aliases": [
+        "Grupo Elite"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ court filings describe Julio César Montero Pinzón and Carlos Andrés Rivera Varela as founders and leaders of Grupo Élite, a CJNG group."
+        }
+      ]
+    },
+    {
+      "id": "clan-del-golfo",
+      "name": "Clan del Golfo",
+      "aliases": [
+        "Clan Úsuga",
+        "Los Urabeños",
+        "Ejército Gaitanista de Colombia (EGC)"
+      ],
+      "regions": [
+        "COL"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The indictment describes Clan Úsuga as a Colombian drug-trafficking group and names senior leaders charged in international cocaine conspiracies."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/former-leader-clan-del-golfo-drug-trafficking-organization-sentenced-45-years-prison",
+          "title": "Former Leader of Clan Del Golfo Drug Trafficking Organization Sentenced to 45 Years in Prison",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2023-08-08",
+          "claim": "The court release identifies Clan del Golfo as a major cocaine-trafficking organization and states that Dairo Antonio Úsuga David led it."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/leader-clan-del-golfo-colombian-drug-cartel-and-terrorist-organization-charged",
+          "title": "Leader of Clan Del Golfo Charged in Superseding Indictment",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2026-04-17",
+          "claim": "The 2026 filing calls Jobanis de Jesús Ávila Villadiego the principal leader and describes the organization’s continuing cocaine-trafficking activity."
+        }
+      ]
+    },
+    {
       "id": "ndrangheta",
       "name": "’Ndrangheta",
       "aliases": [
@@ -112,13 +216,1091 @@
   ],
   "people": [
     {
+      "id": "nemesio-oseguera-cervantes",
+      "name": "Nemesio Oseguera Cervantes",
+      "aliases": [
+        "El Mencho",
+        "Rubén Oseguera Cervantes"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "Founder and former leader of CJNG; reported killed in February 2026",
+      "prominence": 1,
+      "organizationIds": [
+        "cjng"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine",
+        "heroin",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ calls Oseguera Cervantes CJNG's former top leader and says he was killed during a Mexican military operation in February 2026; Treasury previously identified him as CJNG founder and leader."
+        },
+        {
+          "url": "https://elpais.com/mexico/2026-02-23/las-ultimas-horas-del-mencho-el-criminal-mas-buscado-del-mundo.html",
+          "title": "Las últimas horas del Mencho, el criminal más buscado del mundo",
+          "publisher": "EL PAÍS México",
+          "language": "Spanish",
+          "publishedAt": "2026-02-23",
+          "claim": "EL PAÍS reports Oseguera Cervantes was killed in a Mexican military operation and identifies him as the founder of CJNG."
+        }
+      ]
+    },
+    {
+      "id": "juan-carlos-valencia-gonzalez",
+      "name": "Juan Carlos Valencia González",
+      "aliases": [
+        "Pelón",
+        "El 03",
+        "El R3"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "Current leader of CJNG, as identified by Treasury and DOJ",
+      "prominence": 1,
+      "organizationIds": [
+        "cjng"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0573",
+          "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2026-07-23",
+          "claim": "Treasury identifies Juan Carlos Valencia González as CJNG's new leader after the February 2026 death of his stepfather, founder Rubén Oseguera Cervantes; it says Valencia is charged in a U.S. federal drug-trafficking indictment."
+        },
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ says Valencia González assumed CJNG's top leadership after El Mencho's death and describes the pending federal indictment."
+        },
+        {
+          "url": "https://elpais.com/mexico/2026-07-24/estados-unidos-pone-rostro-al-clan-del-r3-el-nuevo-jefe-absoluto-del-cartel-jalisco.html",
+          "title": "Estados Unidos pone rostro al clan del R3, el nuevo jefe absoluto del Cartel Jalisco",
+          "publisher": "EL PAÍS México",
+          "language": "Spanish",
+          "publishedAt": "2026-07-24",
+          "claim": "EL PAÍS identifies Valencia González as CJNG's new leader and as Oseguera Cervantes's stepson."
+        }
+      ]
+    },
+    {
+      "id": "audias-flores-silva",
+      "name": "Audias Flores Silva",
+      "aliases": [
+        "El Jardinero",
+        "Jardinero"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "High-ranking CJNG member; arrested in Mexico in April 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "cjng"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ describes Flores Silva as a high-ranking CJNG member, reports his April 2026 arrest, and identifies the federal charges against him."
+        },
+        {
+          "url": "https://elpais.com/mexico/2026-04-27/el-ejercito-detiene-en-nayarit-a-el-jardinero.html",
+          "title": "Audias Flores Silva: La Marina detiene en Nayarit al Jardinero, uno de los tres hombres fuertes del CJNG",
+          "publisher": "EL PAÍS México",
+          "language": "Spanish",
+          "publishedAt": "2026-04-27",
+          "claim": "EL PAÍS reports Flores Silva's arrest and describes him as one of CJNG's senior figures."
+        },
+        {
+          "url": "https://gabinetedeseguridad.gob.mx/contenido/8367/fgr-informa",
+          "title": "FGR informa",
+          "publisher": "Fiscalía General de la República / Gabinete de Seguridad del Gobierno de México",
+          "language": "Spanish",
+          "publishedAt": "2026-04-28",
+          "claim": "FGR confirms Audias Flores Silva was detained in Nayarit by Mexican security forces on April 27, 2026."
+        }
+      ]
+    },
+    {
+      "id": "julio-cesar-montero-pinzon",
+      "name": "Julio César Montero Pinzón",
+      "aliases": [
+        "El Tarjetas",
+        "Tarjetas"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "Senior CJNG leader and Grupo Élite leader",
+      "prominence": 2,
+      "organizationIds": [
+        "cjng",
+        "grupo-elite"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine",
+        "heroin",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ identifies Montero Pinzón as a senior CJNG leader, says El Mencho directed his Grupo Élite leadership, and reports newly unsealed charges against him."
+        }
+      ]
+    },
+    {
+      "id": "carlos-andres-rivera-varela",
+      "name": "Carlos Andrés Rivera Varela",
+      "aliases": [
+        "La Firma"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "Senior CJNG leader and Grupo Élite leader",
+      "prominence": 2,
+      "organizationIds": [
+        "cjng",
+        "grupo-elite"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine",
+        "heroin",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ identifies Rivera Varela as a senior CJNG leader, says El Mencho directed his Grupo Élite leadership, and reports newly unsealed charges against him."
+        }
+      ]
+    },
+    {
+      "id": "hugo-gonzalo-mendoza-gaytan",
+      "name": "Hugo Gonzalo Mendoza Gaytán",
+      "aliases": [
+        "El Sapo",
+        "Sapo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "Senior CJNG leader",
+      "prominence": 2,
+      "organizationIds": [
+        "cjng"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine",
+        "heroin",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ identifies Mendoza Gaytán as a senior CJNG leader and reports newly unsealed charges; filings describe him as El Mencho's godson."
+        },
+        {
+          "url": "https://elpais.com/mexico/2026-07-24/estados-unidos-pone-rostro-al-clan-del-r3-el-nuevo-jefe-absoluto-del-cartel-jalisco.html",
+          "title": "Estados Unidos pone rostro al clan del R3, el nuevo jefe absoluto del Cartel Jalisco",
+          "publisher": "EL PAÍS México",
+          "language": "Spanish",
+          "publishedAt": "2026-07-24",
+          "claim": "EL PAÍS identifies Mendoza Gaytán as a senior figure in the new CJNG leadership group."
+        }
+      ]
+    },
+    {
+      "id": "ricardo-ruiz-velasco",
+      "name": "Ricardo Ruiz Velasco",
+      "aliases": [
+        "RR",
+        "Tripa"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "Senior CJNG leader and Grupo Élite leader",
+      "prominence": 2,
+      "organizationIds": [
+        "cjng",
+        "grupo-elite"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "methamphetamine",
+        "fentanyl",
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ describes Ruiz Velasco as a Grupo Élite leader and close associate of El Mencho, lists drug charges and reports newly unsealed charges against him."
+        }
+      ]
+    },
+    {
+      "id": "julio-alberto-castillo-rodriguez",
+      "name": "Julio Alberto Castillo Rodríguez",
+      "aliases": [
+        "El Chorro",
+        "Chorro"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "Senior CJNG leader",
+      "prominence": 2,
+      "organizationIds": [
+        "cjng"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ identifies Castillo Rodríguez as a senior CJNG leader, reports charges and describes him as El Mencho's former son-in-law."
+        },
+        {
+          "url": "https://elpais.com/mexico/2026-07-24/estados-unidos-pone-rostro-al-clan-del-r3-el-nuevo-jefe-absoluto-del-cartel-jalisco.html",
+          "title": "Estados Unidos pone rostro al clan del R3, el nuevo jefe absoluto del Cartel Jalisco",
+          "publisher": "EL PAÍS México",
+          "language": "Spanish",
+          "publishedAt": "2026-07-24",
+          "claim": "EL PAÍS identifies Castillo Rodríguez as part of the leadership circle and as El Mencho's son-in-law."
+        }
+      ]
+    },
+    {
+      "id": "ruben-oseguera-gonzalez",
+      "name": "Rubén Oseguera González",
+      "aliases": [
+        "El Menchito",
+        "Rubencito",
+        "El 02"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-03-07",
+      "roleLabel": "Former CJNG second-in-command; serving life plus 30 years",
+      "prominence": 1,
+      "organizationIds": [
+        "cjng"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/notorious-violent-mexican-cartel-leader-sentenced-life-plus-30-years-prison-international",
+          "title": "Notorious Violent Mexican Cartel Leader Sentenced to Life Plus 30 Years in Prison for International Drug Trafficking and Firearms Offenses",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-03-07",
+          "claim": "DOJ reports Oseguera González was sentenced to life plus 30 years, identifies him as El Mencho's son and states he had been CJNG's second-in-command and led the group for nearly seven years."
+        }
+      ]
+    },
+    {
+      "id": "antonio-oseguera-cervantes",
+      "name": "Antonio Oseguera Cervantes",
+      "aliases": [
+        "Tony Montana"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-02-27",
+      "roleLabel": "Alleged CJNG leader; in U.S. custody to face charges",
+      "prominence": 2,
+      "organizationIds": [
+        "cjng"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/mexican-national-charged-international-cocaine-and-methamphetamine-trafficking-conspiracy",
+          "title": "Mexican National Charged with International Cocaine and Methamphetamine Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2022-12-07",
+          "claim": "DOJ reports Oseguera Cervantes was charged with cocaine and methamphetamine trafficking and identifies him as El Mencho's brother."
+        },
+        {
+          "url": "https://www.justice.gov/opa/pr/attorney-general-pamela-bondi-announces-29-wanted-defendants-mexico-taken-us-custody",
+          "title": "Attorney General Pamela Bondi Announces 29 Wanted Defendants from Mexico Taken into U.S. Custody",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-02-27",
+          "claim": "DOJ reports Antonio Oseguera Cervantes was among defendants transferred from Mexico to U.S. custody and describes him as an alleged CJNG leader."
+        }
+      ]
+    },
+    {
+      "id": "erick-valencia-salazar",
+      "name": "Erick Valencia Salazar",
+      "aliases": [
+        "El 85"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-04-07",
+      "roleLabel": "CJNG co-founder and former leader",
+      "prominence": 2,
+      "organizationIds": [
+        "cjng"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/co-founder-cjng-pleads-guilty-federal-drug-trafficking-conspiracy",
+          "title": "Co-Founder of CJNG Pleads Guilty to Federal Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-04-07",
+          "claim": "DOJ reports Valencia Salazar pleaded guilty to a federal cocaine-trafficking conspiracy and identifies him as a co-founder and leader of CJNG."
+        },
+        {
+          "url": "https://www.gob.mx/defensa/prensa/el-ejercito-mexicano-detuvo-a-erick-valencia-salazar-a-el-85-lider-del-grupo-criminal-cartel-de-jalisco-nueva-generacion",
+          "title": "El Ejército Mexicano detuvo a Erick Valencia Salazar (a) “El 85”, líder del grupo criminal “Cártel de Jalisco Nueva Generación”",
+          "publisher": "Secretaría de la Defensa Nacional, Gobierno de México",
+          "language": "Spanish",
+          "publishedAt": "2012-03-09",
+          "claim": "Mexico's Defense Secretariat described Valencia Salazar as a CJNG leader at the time of his 2012 arrest; this is historical role context, while his current guilty plea is sourced to DOJ 2026."
+        }
+      ]
+    },
+    {
+      "id": "abigael-gonzalez-valencia",
+      "name": "Abigael González Valencia",
+      "aliases": [
+        "El Cuini",
+        "Cuini",
+        "Boss"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-08-12",
+      "roleLabel": "Los Cuinis leader; close family associate of CJNG leadership",
+      "prominence": 2,
+      "organizationIds": [
+        "los-cuinis"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/26-fugitives-wanted-violent-and-serious-crimes-returned-united-states-mexico-including-0",
+          "title": "26 Fugitives Wanted for Violent and Serious Crimes Returned to the United States from Mexico Including Leaders of Foreign Terrorist Organizations",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-08-12",
+          "claim": "DOJ reports González Valencia was transferred from Mexico to U.S. custody and identifies him as a Los Cuinis leader; the listed District of Columbia charges remain allegations."
+        }
+      ]
+    },
+    {
+      "id": "jose-gonzalez-valencia",
+      "name": "José González Valencia",
+      "aliases": [
+        "Chepa"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-06-20",
+      "roleLabel": "Los Cuinis co-founder and top leader; CJNG-aligned organization",
+      "prominence": 2,
+      "organizationIds": [
+        "los-cuinis"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/co-founder-los-cuinis-drug-cartel-sentenced-30-years-prison-high-ranking-cartel-de-jalisco",
+          "title": "Co-Founder of Los Cuinis Drug Cartel Sentenced to 30 Years in Prison; High-Ranking CJNG Operative Pleads Guilty",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-06-20",
+          "claim": "DOJ reports González Valencia was sentenced to 30 years and names him among Los Cuinis top leaders; DOJ says Los Cuinis financed CJNG's growth and was closely allied with it."
+        }
+      ]
+    },
+    {
+      "id": "gerardo-gonzalez-valencia",
+      "name": "Gerardo González Valencia",
+      "aliases": [
+        "Lalo",
+        "Lab"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2023-07-21",
+      "roleLabel": "Los Cuinis leader; CJNG-aligned organization; serving life sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "los-cuinis"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/leader-international-drug-trafficking-organization-sentenced-cocaine-distribution",
+          "title": "Leader of International Drug-Trafficking Organization Sentenced for Cocaine Distribution",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2023-07-21",
+          "claim": "DOJ reports González Valencia was sentenced to life, identifies him as a Los Cuinis leader, and describes Los Cuinis as closely aligned with CJNG."
+        }
+      ]
+    },
+    {
+      "id": "cristian-fernando-gutierrez-ochoa",
+      "name": "Cristian Fernando Gutiérrez-Ochoa",
+      "aliases": [
+        "El Guacho"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-12-18",
+      "roleLabel": "High-ranking CJNG member; serving 140-month sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "cjng"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        },
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/mexican-cartel-leader-sentenced-over-11-years-prison-international-money-laundering",
+          "title": "Mexican Cartel Leader Sentenced to Over 11 Years in Prison for International Money Laundering",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-12-18",
+          "claim": "DOJ reports Gutiérrez-Ochoa was sentenced to 140 months and identifies him as a CJNG leader and El Mencho's son-in-law."
+        }
+      ]
+    },
+    {
+      "id": "dairo-antonio-usuga-david",
+      "name": "Dairo Antonio Úsuga David",
+      "aliases": [
+        "Otoniel",
+        "Mao",
+        "Gallo",
+        "Mauricio-Gallo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2023-08-08",
+      "roleLabel": "Former principal leader; convicted of leading a continuing criminal enterprise and cocaine-trafficking conspiracies",
+      "prominence": 3,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Alias_Otoniel_Capturado.jpg",
+        "credit": "MinDefensa Colombia, via Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alias_Otoniel_Capturado.jpg"
+      },
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/former-leader-clan-del-golfo-drug-trafficking-organization-sentenced-45-years-prison",
+          "title": "Former Leader of Clan Del Golfo Drug Trafficking Organization Sentenced to 45 Years in Prison",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2023-08-08",
+          "claim": "The court states that Úsuga, also known as Otoniel, led Clan del Golfo, pleaded guilty to three charges, and received concurrent 45-year sentences for a continuing criminal enterprise and narcotics conspiracies."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Alias_Otoniel_Capturado.jpg",
+          "title": "File: Alias Otoniel Capturado.jpg",
+          "publisher": "Wikimedia Commons; source credited to MinDefensa Colombia",
+          "language": "en",
+          "claim": "The file page identifies the image as a 2021 capture image sourced from MinDefensa Colombia and marks it CC BY 3.0."
+        }
+      ]
+    },
+    {
+      "id": "daniel-rendon-herrera",
+      "name": "Daniel Rendón Herrera",
+      "aliases": [
+        "Don Mario"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-10-17",
+      "roleLabel": "Founder and former leader; convicted of leading a continuing criminal enterprise",
+      "prominence": 3,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/colombian-drug-kingpin-and-paramilitary-leader-sentenced-35-years-prison-operating",
+          "title": "Colombian Drug Kingpin and Paramilitary Leader Sentenced to 35 Years in Prison",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2022-10-17",
+          "claim": "The court identifies Rendón Herrera, known as Don Mario, as a leader of Clan del Golfo’s predecessor organization and sentences him to 35 years for a continuing criminal enterprise."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The indictment describes Don Mario as the original founder and prior leader of Clan Úsuga and names him in cocaine-trafficking charges."
+        }
+      ]
+    },
+    {
+      "id": "jobanis-de-jesus-avila-villadiego",
+      "name": "Jobanis de Jesús Ávila Villadiego",
+      "aliases": [
+        "Chiquito Malo",
+        "Chiquito",
+        "Javier"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2023-09-26",
+      "roleLabel": "Current principal leader in the 2026 U.S. court filing; designated by OFAC for international drug-trafficking activity",
+      "prominence": 3,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://2021-2025.state.gov/translations/spanish/el-tesoro-actua-contra-operaciones-de-trafico-de-fentanilo-del-cartel-de-sinaloa-y-contra-lider-de-cartel-colombiano/",
+          "title": "El Tesoro actúa contra operaciones de tráfico de fentanilo del Cártel de Sinaloa y contra líder de cártel colombiano",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "es",
+          "publishedAt": "2023-09-26",
+          "claim": "OFAC designated Ávila, alias Chiquito Malo, identifying him as Clan del Golfo’s leader and saying the group supplied cocaine to major trafficking organizations."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/leader-clan-del-golfo-colombian-drug-cartel-and-terrorist-organization-charged",
+          "title": "Leader of Clan Del Golfo Charged in Superseding Indictment",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2026-04-17",
+          "claim": "The filing identifies Ávila, alias Chiquito Malo, as Clan del Golfo’s principal leader and alleges ongoing cocaine trafficking."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The 2015 indictment identifies Ávila as a Clan Úsuga commander named in a cocaine-importation conspiracy."
+        },
+        {
+          "url": "https://elpais.com/america-colombia/2026-07-01/petro-reactiva-la-orden-de-extradicion-contra-alias-chiquito-malo-lider-del-clan-del-golfo.html",
+          "title": "Petro reactiva la orden de extradición contra alias Chiquito Malo, líder del Clan del Golfo",
+          "publisher": "El País",
+          "language": "es",
+          "publishedAt": "2026-07-01",
+          "claim": "The report identifies Ávila, alias Chiquito Malo, as leader of Clan del Golfo in July 2026 and reports the reactivation of his extradition order."
+        }
+      ]
+    },
+    {
+      "id": "luis-orlando-padierna-pena",
+      "name": "Luis Orlando Padierna Peña",
+      "aliases": [
+        "Inglaterra"
+      ],
+      "status": "charged",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Clan Úsuga commander named in a cocaine-importation indictment",
+      "prominence": 2,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release identifies Padierna Peña, alias Inglaterra, as a Clan Úsuga commander and names him in an international cocaine-importation conspiracy indictment."
+        }
+      ]
+    },
+    {
+      "id": "roberto-vargas-gutierrez",
+      "name": "Roberto Vargas Gutiérrez",
+      "aliases": [
+        "Gavilán"
+      ],
+      "status": "charged",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Alleged Clan Úsuga commander responsible for drug-tax collection and armed command",
+      "prominence": 2,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release identifies Vargas Gutiérrez, alias Gavilán, as a Clan Úsuga commander responsible for collecting drug taxes and managing armed combatants; it names him in cocaine-trafficking charges."
+        }
+      ]
+    },
+    {
+      "id": "carlos-alberto-moreno-turberquia",
+      "name": "Carlos Alberto Moreno Turberquia",
+      "aliases": [
+        "Nicolás"
+      ],
+      "status": "charged",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Alleged Clan Úsuga commander named in cocaine-trafficking charges",
+      "prominence": 2,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release identifies Moreno Turberquia, alias Nicolás, as a Clan Úsuga commander responsible for drug-tax collection, armed combatants, and territorial control; it names him in cocaine-trafficking charges."
+        }
+      ]
+    },
+    {
+      "id": "aristides-manuel-mesa-paez",
+      "name": "Aristides Manuel Mesa Páez",
+      "aliases": [
+        "El Indio"
+      ],
+      "status": "charged",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Alleged Clan Úsuga commander named in cocaine-trafficking charges",
+      "prominence": 2,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release identifies Mesa Páez, alias El Indio, as a Clan Úsuga commander responsible for drug-tax collection and armed command; it names him in cocaine-trafficking charges."
+        }
+      ]
+    },
+    {
+      "id": "cesar-daniel-anaya-martinez",
+      "name": "César Daniel Anaya Martínez",
+      "aliases": [
+        "Tierra"
+      ],
+      "status": "charged",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Alleged Clan Úsuga commander named in cocaine-trafficking charges",
+      "prominence": 2,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release identifies Anaya Martínez, alias Tierra, as a Clan Úsuga commander responsible for drug-tax collection and armed command; it names him in cocaine-trafficking charges."
+        }
+      ]
+    },
+    {
+      "id": "ramiro-caro-pineda",
+      "name": "Ramiro Caro Pineda",
+      "aliases": [
+        "Nolasco",
+        "Hugo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Alleged Clan Úsuga manager responsible for drug-tax collection and shipment coordination",
+      "prominence": 2,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release identifies Caro Pineda as an alleged Clan Úsuga manager responsible for collecting drug taxes, coordinating drug shipments, and maintaining control over coastal infrastructure; he was named in cocaine-trafficking charges."
+        }
+      ]
+    },
+    {
+      "id": "orlando-gutierrez-rendon",
+      "name": "Orlando Gutiérrez Rendón",
+      "aliases": [
+        "Negro Orlando"
+      ],
+      "status": "charged",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Alleged leader of Clan Úsuga drug-collection offices and aligned armed groups",
+      "prominence": 2,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names Gutiérrez Rendón, alias Negro Orlando, among alleged leaders of drug-collection offices and aligned paramilitary groups in the Clan Úsuga cocaine case."
+        }
+      ]
+    },
+    {
+      "id": "gustavo-palomino-araujo",
+      "name": "Gustavo Palomino Araujo",
+      "aliases": [
+        "Camilo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Alleged leader of Clan Úsuga drug-collection offices and aligned armed groups",
+      "prominence": 2,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names Palomino Araujo, alias Camilo, among alleged leaders of drug-collection offices and aligned paramilitary groups in the Clan Úsuga cocaine case."
+        }
+      ]
+    },
+    {
+      "id": "eduard-fernando-cardoza-giraldo",
+      "name": "Eduard Fernando Cardoza-Giraldo",
+      "aliases": [
+        "Boliqueso"
+      ],
+      "status": "charged",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Alleged leader of Clan Úsuga drug-collection offices and aligned armed groups",
+      "prominence": 2,
+      "organizationIds": [
+        "clan-del-golfo"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names Cardoza-Giraldo, alias Boliqueso, among alleged leaders of drug-collection offices and aligned paramilitary groups in the Clan Úsuga cocaine case."
+        }
+      ]
+    },
+    {
       "id": "rocco-morabito",
       "name": "Rocco Morabito",
       "aliases": [
         "Tamunga"
       ],
       "status": "convicted",
-      "statusAsOf": "2022-07-06",
+      "statusAsOf": "2025-09-29",
       "roleLabel": "Senior ’Ndrangheta figure and international drug broker; serving a 30-year sentence in Italy",
       "prominence": 3,
       "organizationIds": [
@@ -203,7 +1385,7 @@
     {
       "id": "giuseppe-coluccio",
       "name": "Giuseppe Coluccio",
-      "status": "charged",
+      "status": "reported",
       "statusAsOf": "2008-08-20",
       "roleLabel": "Prominent ’Ndrangheta figure specializing in international drug trafficking",
       "prominence": 2,
@@ -247,7 +1429,7 @@
       "aliases": [
         "Pallina"
       ],
-      "status": "convicted",
+      "status": "reported",
       "statusAsOf": "2011-11-09",
       "roleLabel": "Prominent Pelle clan figure; convicted in an international narcotics trafficking case",
       "prominence": 2,
@@ -271,14 +1453,6 @@
           "publisher": "Arma dei Carabinieri",
           "language": "it",
           "claim": "Carabinieri identify Pelle as a prominent member of the Pelle 'Ndrangheta clan, specialized in drug trafficking, arrested after 16 years as a fugitive."
-        },
-        {
-          "url": "https://cn24tv.it/news/arresto-sebastiano-pelle-i-dettagli-dell-operazione/",
-          "title": "Arresto Sebastiano Pelle. I dettagli dell’operazione",
-          "publisher": "CN24TV",
-          "language": "it",
-          "publishedAt": "2011-11-10",
-          "claim": "The report says Pelle was an important figure in the Pelle 'Ndrangheta clan and had a 14-year prison sentence for mafia association and international trafficking in arms and narcotics."
         },
         {
           "url": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html",
@@ -982,6 +2156,380 @@
     }
   ],
   "connections": [
+    {
+      "id": "mencho-stepfather-juan-carlos",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "juan-carlos-valencia-gonzalez",
+      "type": "stepfather_of",
+      "label": "Stepfather and stepson",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0573",
+          "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2026-07-23",
+          "claim": "Treasury explicitly identifies Juan Carlos Valencia González as the stepson of Rubén Oseguera Cervantes."
+        }
+      ]
+    },
+    {
+      "id": "mencho-father-menchito",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "ruben-oseguera-gonzalez",
+      "type": "parent_of",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/notorious-violent-mexican-cartel-leader-sentenced-life-plus-30-years-prison-international",
+          "title": "Notorious Violent Mexican Cartel Leader Sentenced to Life Plus 30 Years in Prison for International Drug Trafficking and Firearms Offenses",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-03-07",
+          "claim": "DOJ identifies Rubén Oseguera González as El Mencho's son."
+        }
+      ]
+    },
+    {
+      "id": "mencho-brother-antonio",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "antonio-oseguera-cervantes",
+      "type": "sibling_of",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/attorney-general-pamela-bondi-announces-29-wanted-defendants-mexico-taken-us-custody",
+          "title": "Attorney General Pamela Bondi Announces 29 Wanted Defendants from Mexico Taken into U.S. Custody",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-02-27",
+          "claim": "DOJ identifies Antonio Oseguera Cervantes as the brother of Nemesio Oseguera Cervantes."
+        }
+      ]
+    },
+    {
+      "id": "mencho-brotherinlaw-abigael",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "abigael-gonzalez-valencia",
+      "type": "brother_in_law_of",
+      "label": "Brothers-in-law",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/co-founder-los-cuinis-drug-cartel-sentenced-30-years-prison-high-ranking-cartel-de-jalisco",
+          "title": "Co-Founder of Los Cuinis Drug Cartel Sentenced to 30 Years in Prison; High-Ranking CJNG Operative Pleads Guilty",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-06-20",
+          "claim": "DOJ identifies El Mencho as brother-in-law of the González Valencia brothers, including Abigael."
+        }
+      ]
+    },
+    {
+      "id": "mencho-brotherinlaw-jose",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "jose-gonzalez-valencia",
+      "type": "brother_in_law_of",
+      "label": "Brothers-in-law",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/leader-international-drug-trafficking-organization-pleads-guilty-cocaine-trafficking",
+          "title": "Leader of International Drug Trafficking Organization Pleads Guilty to Cocaine Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2022-12-01",
+          "claim": "DOJ explicitly identifies José González Valencia as Nemesio Oseguera Cervantes's brother-in-law."
+        }
+      ]
+    },
+    {
+      "id": "mencho-brotherinlaw-gerardo",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "gerardo-gonzalez-valencia",
+      "type": "brother_in_law_of",
+      "label": "Brothers-in-law",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/co-founder-los-cuinis-drug-cartel-sentenced-30-years-prison-high-ranking-cartel-de-jalisco",
+          "title": "Co-Founder of Los Cuinis Drug Cartel Sentenced to 30 Years in Prison; High-Ranking CJNG Operative Pleads Guilty",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-06-20",
+          "claim": "DOJ identifies Nemesio Oseguera Cervantes as the brother-in-law of the González Valencia brothers, including Gerardo."
+        }
+      ]
+    },
+    {
+      "id": "mencho-fatherinlaw-cristian",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "cristian-fernando-gutierrez-ochoa",
+      "type": "father_in_law_of",
+      "label": "Father-in-law and son-in-law",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/co-founder-los-cuinis-drug-cartel-sentenced-30-years-prison-high-ranking-cartel-de-jalisco",
+          "title": "Co-Founder of Los Cuinis Drug Cartel Sentenced to 30 Years in Prison; High-Ranking CJNG Operative Pleads Guilty",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-06-20",
+          "claim": "DOJ identifies Gutiérrez-Ochoa as El Mencho's son-in-law."
+        }
+      ]
+    },
+    {
+      "id": "mencho-godfather-mendoza",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "hugo-gonzalo-mendoza-gaytan",
+      "type": "godparent_of",
+      "label": "Godfather and godson",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ filings describe Mendoza Gaytán as El Mencho's godson."
+        }
+      ]
+    },
+    {
+      "id": "mencho-former-soninlaw-castillo",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "julio-alberto-castillo-rodriguez",
+      "type": "former_son_in_law_of",
+      "label": "Former father-in-law and son-in-law",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ filings identify Castillo Rodríguez as El Mencho's former son-in-law."
+        }
+      ]
+    },
+    {
+      "id": "mencho-directed-montero",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "julio-cesar-montero-pinzon",
+      "type": "directed",
+      "label": "Directed Grupo Élite leadership under CJNG",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ says Montero Pinzón founded and led Grupo Élite at El Mencho's direction."
+        }
+      ]
+    },
+    {
+      "id": "mencho-directed-rivera",
+      "fromId": "nemesio-oseguera-cervantes",
+      "toId": "carlos-andres-rivera-varela",
+      "type": "directed",
+      "label": "Directed Grupo Élite leadership under CJNG",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican",
+          "title": "New Charges and Rewards Announced for the Capture and/or Conviction of Senior Leaders of Notorious Mexican Cartel",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-08-05",
+          "claim": "DOJ says Rivera Varela founded and led Grupo Élite at El Mencho's direction."
+        }
+      ]
+    },
+    {
+      "id": "usuga-daniel-rendon-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "daniel-rendon-herrera",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men among the defendants charged in the same cocaine-trafficking conspiracy and identifies Rendón Herrera as a former leader."
+        }
+      ]
+    },
+    {
+      "id": "usuga-jobanis-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "jobanis-de-jesus-avila-villadiego",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-importation conspiracy indictment and identifies Ávila as a commander."
+        }
+      ]
+    },
+    {
+      "id": "usuga-padierna-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "luis-orlando-padierna-pena",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-trafficking indictment and identifies Padierna Peña as a commander."
+        }
+      ]
+    },
+    {
+      "id": "usuga-vargas-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "roberto-vargas-gutierrez",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-trafficking indictment and identifies Vargas Gutiérrez as a commander."
+        }
+      ]
+    },
+    {
+      "id": "usuga-moreno-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "carlos-alberto-moreno-turberquia",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-trafficking indictment and identifies Moreno Turberquia as a commander."
+        }
+      ]
+    },
+    {
+      "id": "usuga-mesa-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "aristides-manuel-mesa-paez",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-trafficking indictment and identifies Mesa Páez as a commander."
+        }
+      ]
+    },
+    {
+      "id": "usuga-anaya-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "cesar-daniel-anaya-martinez",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-trafficking indictment and identifies Anaya Martínez as a commander."
+        }
+      ]
+    },
+    {
+      "id": "usuga-caro-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "ramiro-caro-pineda",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-trafficking indictment and identifies Caro Pineda as an alleged manager who coordinated shipments."
+        }
+      ]
+    },
+    {
+      "id": "usuga-gutierrez-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "orlando-gutierrez-rendon",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-trafficking case and identifies Gutiérrez Rendón as an alleged leader of drug-collection offices and aligned armed groups."
+        }
+      ]
+    },
+    {
+      "id": "usuga-palomino-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "gustavo-palomino-araujo",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-trafficking case and identifies Palomino Araujo as an alleged leader of drug-collection offices and aligned armed groups."
+        }
+      ]
+    },
+    {
+      "id": "usuga-cardoza-co-defendant",
+      "fromId": "dairo-antonio-usuga-david",
+      "toId": "eduard-fernando-cardoza-giraldo",
+      "type": "co-defendant",
+      "label": "Named co-defendants in a cocaine-trafficking conspiracy indictment; allegation at the time",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+          "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+          "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+          "language": "en",
+          "publishedAt": "2015-06-23",
+          "claim": "The release names both men in the same cocaine-trafficking case and identifies Cardoza-Giraldo as an alleged leader of drug-collection offices and aligned armed groups."
+        }
+      ]
+    },
     {
       "id": "assisi-father-son",
       "fromId": "nicola-assisi",
