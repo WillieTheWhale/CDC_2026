@@ -69,3 +69,17 @@ test("country volume bands grow with modeled kg on the shown corridors", () => {
   assert.ok(bands.get("BOL")! < bands.get("MEX")!);
   assert.equal(volumeBands([]).size, 0);
 });
+
+test("arrival arrows put their tips on destination cities", async () => {
+  const { arrivalArrows, curvedArrow } = await import("./estimated-flows");
+  const arrivals = arrivalArrows(layer.flows);
+  assert.ok(arrivals.length > 50);
+  const a = arrivals[0];
+  assert.equal(a.anchor, "tip");
+  const dest = a.flows[0].to;
+  assert.deepEqual(a.position, [dest.lon, dest.lat]);
+  // The outline's tip vertex sits on the city.
+  const ring = curvedArrow(a, 5, 30, 5);
+  const tip = ring[Math.floor(ring.length / 2)];
+  assert.ok(Math.abs(tip[0] - dest.lon) < 1e-6 && Math.abs(tip[1] - dest.lat) < 1e-6);
+});

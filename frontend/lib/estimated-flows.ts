@@ -161,6 +161,10 @@ export interface FieldArrow {
   magnitude: number; // 0-1 relative to the strongest cell
   drug: Drug;
   flows: EstimatedFlow[];
+  // "tip": the arrow ends exactly at `position` (arrivals meeting on a city);
+  // default: the arrow is centered on `position` (grid cell).
+  anchor?: "tip";
+  turn?: number;
 }
 export function fieldArrows(glyphs: WindGlyph[], cellDeg: number): FieldArrow[] {
   const cells = new Map<
@@ -201,7 +205,7 @@ export function fieldArrows(glyphs: WindGlyph[], cellDeg: number): FieldArrow[] 
   const peak = Math.max(1e-9, ...raw.map((a) => a.magnitude));
   return raw
     .map((a) => ({ ...a, magnitude: Math.sqrt(a.magnitude / peak) }))
-    .filter((a) => a.magnitude > 0.12);
+    .filter((a) => a.magnitude > 0.06);
 }
 
 // Curved arrow outline for one field arrow, in lon/lat, sized in screen
@@ -218,9 +222,11 @@ export function curvedArrow(
   const kx = degPerPx / Math.max(0.2, Math.cos(lat0 * rad));
   const ky = degPerPx;
   const target = arrow.flows[0]?.to;
-  let turn = target
-    ? ((bearing(arrow.position, [target.lon, target.lat]) - arrow.bearing + 540) % 360) - 180
-    : 0;
+  let turn =
+    arrow.turn ??
+    (target
+      ? ((bearing(arrow.position, [target.lon, target.lat]) - arrow.bearing + 540) % 360) - 180
+      : 0);
   turn = Math.max(-40, Math.min(40, turn));
   if (Math.abs(turn) < 14) turn = turn < 0 ? -14 : 14;
   // Centerline: heading swings from (bearing - turn/2) to (bearing + turn/2).
@@ -235,9 +241,11 @@ export function curvedArrow(
     x += step * Math.sin(h);
     y += step * Math.cos(h);
   }
-  // Center the shape on the cell position.
-  const cx = pts.reduce((s, p) => s + p.x, 0) / pts.length;
-  const cy = pts.reduce((s, p) => s + p.y, 0) / pts.length;
+  // Center the shape on the cell position, or put the tip on it (arrivals).
+  const cx =
+    arrow.anchor === "tip" ? pts[n].x : pts.reduce((s, p) => s + p.x, 0) / pts.length;
+  const cy =
+    arrow.anchor === "tip" ? pts[n].y : pts.reduce((s, p) => s + p.y, 0) / pts.length;
   const at = (p: { x: number; y: number }, off: number, h: number): [number, number] => [
     lon0 + (p.x - cx + off * Math.cos(h)) * kx,
     lat0 + (p.y - cy - off * Math.sin(h)) * ky,
@@ -259,4 +267,54 @@ export function curvedArrow(
     at(base, widthPx * 1.25, base.h),
     ...right.reverse(),
   ];
+}
+
+// Arrivals: for each destination city, one arrow per incoming direction
+// (45-degree sectors) with its tip on the city, so flows visibly meet there.
+// The bend follows the path's own great-circle curve (departure vs arrival
+// heading), with a gentle default.
+export function arrivalArrows(flows: EstimatedFlow[]): FieldArrow[] {
+  const groups = new Map<
+    string,
+    { city: EstimatedCity; vx: number; vy: number; w: number; turn: number; drugs: Map<Drug, number>; flows: EstimatedFlow[] }
+  >();
+  for (const f of flows) {
+    const a: [number, number] = [f.from.lon, f.from.lat];
+    const b: [number, number] = [f.to.lon, f.to.lat];
+    const arrive = bearing(interpolate(a, b, 0.97), b);
+    const depart = bearing(a, interpolate(a, b, 0.03));
+    const sector = Math.floor(((arrive + 22.5) % 360) / 45);
+    const key = `${f.to.iso3}:${f.to.name}:${sector}`;
+    let g = groups.get(key);
+    if (!g) {
+      g = { city: f.to, vx: 0, vy: 0, w: 0, turn: 0, drugs: new Map(), flows: [] };
+      groups.set(key, g);
+    }
+    const r = arrive * rad;
+    g.vx += f.strength * Math.sin(r);
+    g.vy += f.strength * Math.cos(r);
+    g.w += f.strength;
+    g.turn += f.strength * ((((arrive - depart + 540) % 360) - 180) * 3);
+    g.drugs.set(f.drug, (g.drugs.get(f.drug) ?? 0) + f.strength);
+    g.flows.push(f);
+  }
+  const raw = [...groups.values()].map((g) => ({
+    position: [g.city.lon, g.city.lat] as [number, number],
+    bearing: ((Math.atan2(g.vx, g.vy) / rad) + 360) % 360,
+    magnitude: g.w,
+    drug: [...g.drugs.entries()].sort((a, b) => b[1] - a[1])[0][0],
+    flows: g.flows
+      .sort((a, b) => b.strength - a.strength)
+      .filter(
+        (f, i, all) =>
+          all.findIndex((h) => h.from.name === f.from.name && h.to.name === f.to.name) === i,
+      )
+      .slice(0, 3),
+    anchor: "tip" as const,
+    turn: Math.max(-35, Math.min(35, g.turn / g.w)),
+  }));
+  const peak = Math.max(1e-9, ...raw.map((a) => a.magnitude));
+  return raw
+    .map((a) => ({ ...a, magnitude: Math.sqrt(a.magnitude / peak) }))
+    .filter((a) => a.magnitude > 0.1);
 }

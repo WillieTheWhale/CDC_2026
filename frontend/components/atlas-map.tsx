@@ -19,6 +19,7 @@ import {
 } from "@/lib/route-evidence";
 import type { Drug } from "@/lib/types";
 import {
+  arrivalArrows,
   curvedArrow,
   fieldArrows,
   spacingKm,
@@ -434,12 +435,25 @@ export default function AtlasMap(props: Props) {
               south > bounds.getNorth() + 2
             );
           });
-    // Sample densely along each path, then average into one arrow per cell.
-    return fieldArrows(
+    // Arrivals put their tips on destination cities, so flows meet there.
+    // Grid arrows (one per cell, net direction) fill the space between, and
+    // are dropped next to arrival cities to keep the meeting points readable.
+    const arrivals = arrivalArrows(flows);
+    const degPerPx = 360 / (512 * 2 ** glyphZoom);
+    const clear = 30 * degPerPx;
+    const field = fieldArrows(
       windGlyphs(flows, glyphZoom + 1),
-      // Coarse cells: fewer, larger arrows.
-      (spacingKm(glyphZoom) * 2.6) / 111,
+      (spacingKm(glyphZoom) * 1.3) / 111,
+    ).filter(
+      (a) =>
+        !arrivals.some(
+          (c) =>
+            Math.abs(c.position[1] - a.position[1]) < clear &&
+            Math.abs(c.position[0] - a.position[0]) <
+              clear / Math.max(0.2, Math.cos((a.position[1] * Math.PI) / 180)),
+        ),
     );
+    return [...field, ...arrivals];
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [estimatedFlows, props.showEstimated, glyphZoom, position.lng, position.lat]);
   const estimatedCities = useMemo(() => {
@@ -480,7 +494,7 @@ export default function AtlasMap(props: Props) {
           opacity: windOpacity,
           // Curved, very faint arrows tinted by drug (shape rebuilt per zoom step).
           getPolygon: (g) =>
-            curvedArrow(g, glyphZoom, 34 + g.magnitude * 40, 6 + g.magnitude * 8),
+            curvedArrow(g, glyphZoom, 20 + g.magnitude * 22, 3.5 + g.magnitude * 4.5),
           getFillColor: (g) =>
             rgba(drugColor[g.drug], Math.round(16 + g.magnitude * 30)),
           pickable: true,
@@ -795,7 +809,13 @@ export default function AtlasMap(props: Props) {
           }}
         >
           <strong>Estimated local flow</strong>
-          <div>{windHover.glyph.drug} · net direction here · strength {windHover.glyph.magnitude.toFixed(2)}</div>
+          <div>
+            {windHover.glyph.drug} ·{" "}
+            {windHover.glyph.anchor === "tip"
+              ? `arriving at ${windHover.glyph.flows[0]?.to.name}`
+              : "net direction here"}{" "}
+            · strength {windHover.glyph.magnitude.toFixed(2)}
+          </div>
           <p>Not observed. Follows money (city population × GDP per capita) out of cities that modeled corridors feed.</p>
           {windHover.glyph.flows.map((f) => (
             <small key={`${f.drug}${f.from.name}${f.to.name}`}>{f.from.name} → {f.to.name} ({f.km} km)</small>
