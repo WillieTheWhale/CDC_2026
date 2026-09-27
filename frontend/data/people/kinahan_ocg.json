@@ -1,0 +1,762 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from U.S. Treasury sanctions, UK National Crime Agency releases, UK court reporting by RTÉ, and RTÉ Nuacht. Status reflects the latest cited action per person; sanctions, charges, and convictions are distinct. Country associations describe historical source-backed activity, not current locations. Public named figures only; no operational routes, enforcement gaps, precise positions, or photos without verified reuse rights.",
+  "organizations": [
+    {
+      "id": "kinahan-ocg",
+      "name": "Kinahan Organized Crime Group",
+      "aliases": [
+        "Kinahan OCG",
+        "Kinahan cartel"
+      ],
+      "regions": [
+        "IRE",
+        "GBR",
+        "ESP",
+        "ARE"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury designated the group in April 2022 and stated it operated in Ireland and was established in the United Kingdom, Spain and United Arab Emirates; these are historical country-level associations."
+        },
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years",
+          "title": "UK head of Kinahan crime group jailed for 21 years",
+          "publisher": "UK National Crime Agency",
+          "language": "English",
+          "publishedAt": "2022-03-28",
+          "claim": "NCA describes the group’s UK arm and identifies Thomas Kavanagh as its UK figurehead."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "christopher-vincent-kinahan-senior",
+      "name": "Christopher Vincent Kinahan Senior",
+      "status": "convicted",
+      "statusAsOf": "2022-04-11",
+      "roleLabel": "Founder; historical drug and money-laundering prison sentences; sanctioned in 2022",
+      "prominence": 1,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury says Kinahan Senior built the network, oversaw its property interests, served prison sentences for heroin, cocaine and money laundering, and was designated in 2022."
+        }
+      ],
+      "aliases": [
+        "Christy Kinahan"
+      ]
+    },
+    {
+      "id": "daniel-joseph-kinahan",
+      "name": "Daniel Joseph Kinahan",
+      "status": "charged",
+      "statusAsOf": "2026-08-09",
+      "roleLabel": "Alleged day-to-day leader; charged in Ireland in 2026",
+      "prominence": 1,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury designated Daniel Kinahan in 2022 and said members reported to him and he was believed to run daily operations."
+        },
+        {
+          "url": "https://www.rte.ie/news/ireland/2026/0809/1587120-daniel-kinahan/",
+          "title": "Kinahan charged with directing criminal organisation",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2026-08-10",
+          "claim": "RTÉ reports Daniel Kinahan appeared before the Special Criminal Court on 9 August 2026 charged with directing a criminal organisation for alleged conduct in 2015–2017; no conviction is reported."
+        }
+      ]
+    },
+    {
+      "id": "christopher-vincent-kinahan-junior",
+      "name": "Christopher Vincent Kinahan Junior",
+      "status": "sanctioned",
+      "statusAsOf": "2022-04-11",
+      "roleLabel": "Senior family associate sanctioned by the United States",
+      "prominence": 1,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury designated Christopher Kinahan Junior and said he managed drug operations with Daniel and responded to Daniel’s directives."
+        }
+      ],
+      "aliases": [
+        "Christy Kinahan Junior"
+      ]
+    },
+    {
+      "id": "sean-gerard-mcgovern",
+      "name": "Sean Gerard McGovern",
+      "status": "convicted",
+      "statusAsOf": "2026-06-08",
+      "roleLabel": "Senior lieutenant convicted of directing criminal group activity",
+      "prominence": 1,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury designated McGovern in 2022, calling him Daniel Kinahan’s advisor and closest confidant."
+        },
+        {
+          "url": "https://www.rte.ie/news/2026/0608/1577289-sean-mcgovern-court/",
+          "title": "McGovern jailed for directing criminal gang activities",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2026-06-08",
+          "claim": "RTÉ reports the Special Criminal Court sentenced McGovern to 24 years on 8 June 2026 after guilty pleas to directing criminal organisation activities."
+        },
+        {
+          "url": "https://www.rte.ie/news/nuacht/2026/0608/1577293-24-bliain-priosuin-gearrtha-ar-shean-mcgovern/",
+          "title": "24 bliain príosúin gearrtha ar Sheán McGovern",
+          "publisher": "RTÉ Nuacht",
+          "language": "Irish",
+          "publishedAt": "2026-06-08",
+          "claim": "RTÉ Nuacht reports in Irish that McGovern received a 24-year sentence for directing Kinahan group activities."
+        }
+      ]
+    },
+    {
+      "id": "ian-thomas-dixon",
+      "name": "Ian Thomas Dixon",
+      "status": "sanctioned",
+      "statusAsOf": "2022-04-11",
+      "roleLabel": "Sanctioned financial associate of Daniel Kinahan",
+      "prominence": 2,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury designated Dixon for supporting Daniel Kinahan and described his financial role in the group."
+        }
+      ]
+    },
+    {
+      "id": "bernard-patrick-clancy",
+      "name": "Bernard Patrick Clancy",
+      "status": "sanctioned",
+      "statusAsOf": "2022-04-11",
+      "roleLabel": "Sanctioned key lieutenant",
+      "prominence": 2,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury designated Clancy and described him as a key lieutenant tasked by Daniel Kinahan with payments to group elements."
+        }
+      ]
+    },
+    {
+      "id": "john-francis-morrissey",
+      "name": "John Francis Morrissey",
+      "status": "sanctioned",
+      "statusAsOf": "2022-04-11",
+      "roleLabel": "Sanctioned long-time associate and enforcer",
+      "prominence": 2,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury designated Morrissey and described his years of work for the group as an enforcer and in drug trafficking and money laundering."
+        }
+      ]
+    },
+    {
+      "id": "thomas-kavanagh",
+      "name": "Thomas Kavanagh",
+      "status": "convicted",
+      "statusAsOf": "2024-10-22",
+      "roleLabel": "Former UK figurehead; convicted of drug and firearm conspiracies",
+      "prominence": 1,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        },
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years",
+          "title": "UK head of Kinahan crime group jailed for 21 years",
+          "publisher": "UK National Crime Agency",
+          "language": "English",
+          "publishedAt": "2022-03-28",
+          "claim": "NCA identifies Kavanagh as the Kinahan group’s UK figurehead and reports a 21-year drug-trafficking sentence on 28 March 2022."
+        },
+        {
+          "url": "https://www.rte.ie/news/courts/2024/1022/1476799-thomas-kavanagh-liam-byrne/",
+          "title": "Two senior Kinahan gang figures jailed in UK over gun conspiracy",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2024-10-22",
+          "claim": "RTÉ reports Kavanagh received a further six-year sentence in October 2024 after pleading guilty in a firearms conspiracy."
+        }
+      ],
+      "aliases": [
+        "Bomber Kavanagh"
+      ]
+    },
+    {
+      "id": "gary-vickery",
+      "name": "Gary Vickery",
+      "status": "convicted",
+      "statusAsOf": "2022-03-28",
+      "roleLabel": "Convicted UK network associate",
+      "prominence": 2,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        },
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years",
+          "title": "UK head of Kinahan crime group jailed for 21 years",
+          "publisher": "UK National Crime Agency",
+          "language": "English",
+          "publishedAt": "2022-03-28",
+          "claim": "NCA names Vickery as Kavanagh’s associate and reports his guilty plea to drug importation and money laundering and 20-year sentence."
+        }
+      ]
+    },
+    {
+      "id": "daniel-canning",
+      "name": "Daniel Canning",
+      "status": "convicted",
+      "statusAsOf": "2022-03-28",
+      "roleLabel": "Convicted UK network associate",
+      "prominence": 2,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        },
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years",
+          "title": "UK head of Kinahan crime group jailed for 21 years",
+          "publisher": "UK National Crime Agency",
+          "language": "English",
+          "publishedAt": "2022-03-28",
+          "claim": "NCA names Canning as Kavanagh’s associate and reports his guilty plea and 19-and-a-half-year sentence for drug importation and money laundering offences."
+        }
+      ]
+    },
+    {
+      "id": "james-mulvey",
+      "name": "James Mulvey",
+      "status": "convicted",
+      "statusAsOf": "2022-09-20",
+      "roleLabel": "Convicted key network participant",
+      "prominence": 2,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/alleged-money-man-for-kinahan-organised-crime-network-arrested",
+          "title": "Alleged “money man” for Kinahan organised crime network arrested",
+          "publisher": "UK National Crime Agency",
+          "language": "English",
+          "publishedAt": "2022-09-20",
+          "claim": "NCA calls Mulvey another key player in the Kinahan crime group and reports he was serving a 32-year drug-trafficking prison sentence in September 2022."
+        }
+      ]
+    },
+    {
+      "id": "liam-byrne",
+      "name": "Liam Byrne",
+      "status": "convicted",
+      "statusAsOf": "2024-10-22",
+      "roleLabel": "Former Dublin branch leader; convicted in UK firearm conspiracy",
+      "prominence": 1,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        },
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.rte.ie/news/courts/2024/1022/1476799-thomas-kavanagh-liam-byrne/",
+          "title": "Two senior Kinahan gang figures jailed in UK over gun conspiracy",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2024-10-22",
+          "claim": "RTÉ identifies Byrne as head of the Kinahan group in Dublin, brother-in-law of Thomas Kavanagh, and reports his five-year sentence after guilty pleas in October 2024."
+        }
+      ]
+    },
+    {
+      "id": "shaun-kent",
+      "name": "Shaun Kent",
+      "status": "convicted",
+      "statusAsOf": "2024-10-22",
+      "roleLabel": "Convicted associate in UK firearm conspiracy",
+      "prominence": 3,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.rte.ie/news/courts/2024/1022/1476799-thomas-kavanagh-liam-byrne/",
+          "title": "Two senior Kinahan gang figures jailed in UK over gun conspiracy",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2024-10-22",
+          "claim": "RTÉ names Kent as an associate in the conspiracy with Kavanagh and Byrne and reports his guilty plea and six-year sentence."
+        }
+      ]
+    },
+    {
+      "id": "jack-kavanagh",
+      "name": "Jack Kavanagh",
+      "status": "convicted",
+      "statusAsOf": "2024-12-12",
+      "roleLabel": "Convicted participant in UK firearm conspiracy",
+      "prominence": 3,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.rte.ie/news/courts/2024/1212/1486194-kinahan-group-uk-jail/",
+          "title": "Two senior Kinahan figures sentenced for gun plot roles",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2024-12-12",
+          "claim": "RTÉ reports Jack Kavanagh, son of Thomas Kavanagh, was sentenced to three years and one month in December 2024 for his role in the conspiracy."
+        }
+      ]
+    },
+    {
+      "id": "peter-keating",
+      "name": "Peter Keating",
+      "status": "convicted",
+      "statusAsOf": "2024-12-12",
+      "roleLabel": "Convicted senior network participant",
+      "prominence": 2,
+      "organizationIds": [
+        "kinahan-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "IRE",
+          "label": "Ireland"
+        },
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.rte.ie/news/courts/2024/1212/1486194-kinahan-group-uk-jail/",
+          "title": "Two senior Kinahan figures sentenced for gun plot roles",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2024-12-12",
+          "claim": "RTÉ identifies Keating as a senior Kinahan group figure and reports a four-year, eight-month UK sentence in December 2024 alongside an existing Irish prison sentence."
+        }
+      ],
+      "aliases": [
+        "Peadar Keating"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "kinahan-senior-daniel-father",
+      "fromId": "christopher-vincent-kinahan-senior",
+      "toId": "daniel-joseph-kinahan",
+      "type": "parent_of",
+      "label": "Father",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury explicitly identifies Daniel as a son of Christopher Kinahan Senior."
+        }
+      ]
+    },
+    {
+      "id": "kinahan-senior-junior-father",
+      "fromId": "christopher-vincent-kinahan-senior",
+      "toId": "christopher-vincent-kinahan-junior",
+      "type": "parent_of",
+      "label": "Father",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury explicitly identifies Christopher Junior as a son of Christopher Senior."
+        }
+      ]
+    },
+    {
+      "id": "daniel-christopher-junior-directives",
+      "fromId": "daniel-joseph-kinahan",
+      "toId": "christopher-vincent-kinahan-junior",
+      "type": "directs",
+      "label": "Gave directives",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury states Christopher Junior responded to directives from Daniel Kinahan."
+        }
+      ]
+    },
+    {
+      "id": "daniel-mcgovern-advisor",
+      "fromId": "daniel-joseph-kinahan",
+      "toId": "sean-gerard-mcgovern",
+      "type": "advisor",
+      "label": "Advisor and confidant",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury explicitly calls McGovern Daniel Kinahan’s advisor and closest confidant."
+        }
+      ]
+    },
+    {
+      "id": "daniel-dixon-financial",
+      "fromId": "daniel-joseph-kinahan",
+      "toId": "ian-thomas-dixon",
+      "type": "financial_associate",
+      "label": "Financial associate",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury says Dixon arranged payments and oversaw funds on behalf of Daniel Kinahan."
+        }
+      ]
+    },
+    {
+      "id": "daniel-clancy-lieutenant",
+      "fromId": "daniel-joseph-kinahan",
+      "toId": "bernard-patrick-clancy",
+      "type": "directs",
+      "label": "Tasked lieutenant",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0713",
+          "title": "Treasury Sanctions Notorious Kinahan Organized Crime Group",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2022-04-11",
+          "claim": "Treasury says Daniel Kinahan tasked Clancy with payments to group elements."
+        }
+      ]
+    },
+    {
+      "id": "kavanagh-vickery-associate",
+      "fromId": "thomas-kavanagh",
+      "toId": "gary-vickery",
+      "type": "associate",
+      "label": "Convicted associate",
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years",
+          "title": "UK head of Kinahan crime group jailed for 21 years",
+          "publisher": "UK National Crime Agency",
+          "language": "English",
+          "publishedAt": "2022-03-28",
+          "claim": "NCA explicitly calls Vickery a Kavanagh associate and reports their convictions in the same drug importation enterprise."
+        }
+      ]
+    },
+    {
+      "id": "kavanagh-canning-associate",
+      "fromId": "thomas-kavanagh",
+      "toId": "daniel-canning",
+      "type": "associate",
+      "label": "Convicted associate",
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years",
+          "title": "UK head of Kinahan crime group jailed for 21 years",
+          "publisher": "UK National Crime Agency",
+          "language": "English",
+          "publishedAt": "2022-03-28",
+          "claim": "NCA explicitly calls Canning a Kavanagh associate and reports their convictions in the same drug importation enterprise."
+        }
+      ]
+    },
+    {
+      "id": "vickery-canning-inlaws",
+      "fromId": "gary-vickery",
+      "toId": "daniel-canning",
+      "type": "in_law_of",
+      "label": "Brothers-in-law",
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/uk-head-of-kinahan-crime-group-jailed-for-21-years",
+          "title": "UK head of Kinahan crime group jailed for 21 years",
+          "publisher": "UK National Crime Agency",
+          "language": "English",
+          "publishedAt": "2022-03-28",
+          "claim": "NCA explicitly calls Vickery and Canning brothers-in-law."
+        }
+      ]
+    },
+    {
+      "id": "kavanagh-byrne-inlaws",
+      "fromId": "thomas-kavanagh",
+      "toId": "liam-byrne",
+      "type": "in_law_of",
+      "label": "Brothers-in-law",
+      "sources": [
+        {
+          "url": "https://www.rte.ie/news/courts/2024/1022/1476799-thomas-kavanagh-liam-byrne/",
+          "title": "Two senior Kinahan gang figures jailed in UK over gun conspiracy",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2024-10-22",
+          "claim": "RTÉ explicitly calls Liam Byrne Thomas Kavanagh’s brother-in-law."
+        }
+      ]
+    },
+    {
+      "id": "kavanagh-kent-associate",
+      "fromId": "thomas-kavanagh",
+      "toId": "shaun-kent",
+      "type": "associate",
+      "label": "Convicted associate",
+      "sources": [
+        {
+          "url": "https://www.rte.ie/news/courts/2024/1022/1476799-thomas-kavanagh-liam-byrne/",
+          "title": "Two senior Kinahan gang figures jailed in UK over gun conspiracy",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2024-10-22",
+          "claim": "RTÉ names Kent as Kavanagh’s associate and reports their guilty pleas and October 2024 sentences in the same conspiracy."
+        }
+      ]
+    },
+    {
+      "id": "kavanagh-jack-father",
+      "fromId": "thomas-kavanagh",
+      "toId": "jack-kavanagh",
+      "type": "parent_of",
+      "label": "Father",
+      "sources": [
+        {
+          "url": "https://www.rte.ie/news/courts/2024/1212/1486194-kinahan-group-uk-jail/",
+          "title": "Two senior Kinahan figures sentenced for gun plot roles",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2024-12-12",
+          "claim": "RTÉ explicitly identifies Jack Kavanagh as Thomas Kavanagh’s son."
+        }
+      ]
+    },
+    {
+      "id": "kavanagh-keating-coconspirators",
+      "fromId": "thomas-kavanagh",
+      "toId": "peter-keating",
+      "type": "documented_collaboration",
+      "label": "Convicted in same conspiracy",
+      "sources": [
+        {
+          "url": "https://www.rte.ie/news/courts/2024/1212/1486194-kinahan-group-uk-jail/",
+          "title": "Two senior Kinahan figures sentenced for gun plot roles",
+          "publisher": "RTÉ",
+          "language": "English",
+          "publishedAt": "2024-12-12",
+          "claim": "RTÉ reports Keating’s December 2024 sentence for a conspiracy organized to reduce Thomas Kavanagh’s drug sentence."
+        }
+      ]
+    }
+  ]
+}
