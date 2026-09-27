@@ -1,0 +1,2426 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Each named person has a source-specific historical court outcome; 2019 Shaoyang judgments are first-instance only. No portraits, precise positions, cross-border route markers, or co-defendant-inferred edges. English role summaries are cautious translations of Chinese and Thai court reporting.",
+  "organizations": [
+    {
+      "id": "chn-shaoyang-meth-2019",
+      "name": "Shaoyang methamphetamine case, 2019 first-instance cohort",
+      "regions": [
+        "CHN"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "The source identifies this named drug case cohort in CHN; the grouping denotes the reported proceeding, not an independently established enduring organization."
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-shanghai-2008",
+      "name": "Shanghai drug case, 2008 conduct",
+      "regions": [
+        "CHN"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "The source identifies this named drug case cohort in CHN; the grouping denotes the reported proceeding, not an independently established enduring organization."
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-shaanxi-2008",
+      "name": "Shaanxi drug case, 2008 conduct",
+      "regions": [
+        "CHN"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "The source identifies this named drug case cohort in CHN; the grouping denotes the reported proceeding, not an independently established enduring organization."
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-wenzhou-2008",
+      "name": "Wenzhou drug case, 2007–2008 conduct",
+      "regions": [
+        "CHN"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "The source identifies this named drug case cohort in CHN; the grouping denotes the reported proceeding, not an independently established enduring organization."
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-heihe-2004",
+      "name": "Heihe drug case, 2004–2006 conduct",
+      "regions": [
+        "CHN"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "The source identifies this named drug case cohort in CHN; the grouping denotes the reported proceeding, not an independently established enduring organization."
+        }
+      ]
+    },
+    {
+      "id": "twn-2017-heroin-shipping-case",
+      "name": "Taiwan 2017 heroin transport case, final 2018 outcomes",
+      "regions": [
+        "TWN"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+          "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+          "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+          "language": "Traditional Chinese",
+          "publishedAt": "2018-09-26",
+          "claim": "The source identifies this named drug case cohort in TWN; the grouping denotes the reported proceeding, not an independently established enduring organization."
+        }
+      ]
+    },
+    {
+      "id": "tha-2005-meth-case",
+      "name": "Thai methamphetamine case, final 2013 judgment",
+      "regions": [
+        "THA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.thaipbs.or.th/news/content/200265",
+          "title": "ศาลฎีกาพิพากษายืน สั่งจำคุก \"จ๊อยซ์ ไทร์อัมพ์ คิงส์ด้อม\" 8 ปี 1 เดือน คดีค้ายาเสพติด",
+          "publisher": "Thai PBS, reporting Supreme Court judgment",
+          "language": "Thai",
+          "publishedAt": "2013-10-08",
+          "claim": "The source identifies this named drug case cohort in THA; the grouping denotes the reported proceeding, not an independently established enduring organization."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "chn-shaoyang-2019-huang-zhengkun",
+      "name": "黄正坤",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance death sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 黄正坤 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 黄正坤 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-huang-zhengkun-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "黄正坤: first-instance death sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 黄正坤 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-he-haibo",
+      "name": "何海波",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance death sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 何海波 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 何海波 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-he-haibo-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "何海波: first-instance death sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 何海波 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-li-mianwei",
+      "name": "李冕伟",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance death sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 李冕伟 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 李冕伟 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-li-mianwei-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "李冕伟: first-instance death sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 李冕伟 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-chen-feiyue",
+      "name": "陈飞跃",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance death sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 陈飞跃 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 陈飞跃 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-chen-feiyue-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "陈飞跃: first-instance death sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 陈飞跃 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-zhang-shulin",
+      "name": "张树琳",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance suspended death sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 张树琳 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 张树琳 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-zhang-shulin-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "张树琳: first-instance suspended death sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 张树琳 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-li-zaigao",
+      "name": "李再高",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance suspended death sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 李再高 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 李再高 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-li-zaigao-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "李再高: first-instance suspended death sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 李再高 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-jiang-zhongyue",
+      "name": "蒋仲跃",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance suspended death sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 蒋仲跃 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 蒋仲跃 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-jiang-zhongyue-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "蒋仲跃: first-instance suspended death sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 蒋仲跃 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-wang-shengrong",
+      "name": "王盛荣",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance suspended death sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 王盛荣 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 王盛荣 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-wang-shengrong-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "王盛荣: first-instance suspended death sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 王盛荣 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-huang-rongxiang",
+      "name": "黄荣祥",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance suspended death sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 黄荣祥 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 黄荣祥 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-huang-rongxiang-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "黄荣祥: first-instance suspended death sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 黄荣祥 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-wang-tianjun",
+      "name": "王田军",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance life sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 王田军 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 王田军 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-wang-tianjun-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "王田军: first-instance life sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 王田军 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-liao-songlin",
+      "name": "廖松林",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance life sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 廖松林 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 廖松林 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-liao-songlin-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "廖松林: first-instance life sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 廖松林 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-chen-linyun",
+      "name": "陈霖云",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance life sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 陈霖云 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 陈霖云 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-chen-linyun-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "陈霖云: first-instance life sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 陈霖云 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-xiao-long",
+      "name": "肖龙",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance life sentence; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 肖龙 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 肖龙 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-xiao-long-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "肖龙: first-instance life sentence; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 肖龙 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-guo-huiming",
+      "name": "郭惠明",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 郭惠明 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 郭惠明 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-guo-huiming-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "郭惠明: first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 郭惠明 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-shi-cheng",
+      "name": "石程",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 石程 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 石程 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-shi-cheng-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "石程: first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 石程 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-zeng-limin",
+      "name": "曾利民",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 曾利民 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 曾利民 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-zeng-limin-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "曾利民: first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 曾利民 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-she-kuanyi",
+      "name": "佘宽艺",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 佘宽艺 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 佘宽艺 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-she-kuanyi-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "佘宽艺: first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 佘宽艺 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-li-zhengfa",
+      "name": "李正发",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-05-16",
+      "roleLabel": "first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-shaoyang-meth-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 李正发 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2017–2019",
+            "sourceUrl": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 李正发 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-shaoyang-2019-li-zhengfa-2019-05-16-conviction",
+          "occurredAt": "2019-05-16",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "李正发: first-instance prison sentence of 10–15 years, individual term not specified; later appeal outcome not verified. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+            "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+            "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+            "language": "Chinese",
+            "publishedAt": "2019-05-16",
+            "claim": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court identifies 李正发 individually and reports a first-instance conviction for a methamphetamine trafficking/transport offense, with the group-specific sentence described in this profile."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-shanghai-2008-chen-weidong",
+      "name": "陈卫东",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "Supreme People’s Court confirmed death sentence; reported executed before 2010-12-13; exact execution date unstated",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-shanghai-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 陈卫东 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2008–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 陈卫东 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-shanghai-2008-chen-weidong-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "陈卫东: Supreme People’s Court confirmed death sentence; reported executed before 2010-12-13; exact execution date unstated. This is a dated historical court report; no exact execution event date is asserted.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 陈卫东 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-shanghai-2008-wang-nongli",
+      "name": "王农力",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "suspended death sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-shanghai-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 王农力 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2008–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 王农力 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-shanghai-2008-wang-nongli-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "王农力: suspended death sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 王农力 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-shanghai-2008-liu-weizhong",
+      "name": "刘卫忠",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "15-year prison sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-shanghai-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 刘卫忠 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2008–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 刘卫忠 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-shanghai-2008-liu-weizhong-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "刘卫忠: 15-year prison sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 刘卫忠 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-shanghai-2008-zhao-xuemin",
+      "name": "赵雪敏",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "8-year prison sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-shanghai-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 赵雪敏 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2008–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 赵雪敏 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-shanghai-2008-zhao-xuemin-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "赵雪敏: 8-year prison sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 赵雪敏 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-shaanxi-2008-ma-chongyang",
+      "name": "马重阳",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "Supreme People’s Court confirmed death sentence; reported executed before 2010-12-13; exact execution date unstated",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-shaanxi-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 马重阳 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2008–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 马重阳 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-shaanxi-2008-ma-chongyang-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "马重阳: Supreme People’s Court confirmed death sentence; reported executed before 2010-12-13; exact execution date unstated. This is a dated historical court report; no exact execution event date is asserted.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 马重阳 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-shaanxi-2008-huang-jianmin",
+      "name": "黄建民",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "suspended death sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-shaanxi-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 黄建民 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2008–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 黄建民 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-shaanxi-2008-huang-jianmin-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "黄建民: suspended death sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 黄建民 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-shaanxi-2008-li-liang",
+      "name": "李亮",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "15-year prison sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-shaanxi-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 李亮 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2008–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 李亮 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-shaanxi-2008-li-liang-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "李亮: 15-year prison sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 李亮 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-wenzhou-2008-huang-xianmin",
+      "name": "黄宪敏",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "Supreme People’s Court confirmed death sentence; reported executed before 2010-12-13; exact execution date unstated",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-wenzhou-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 黄宪敏 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2007–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "ketamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 黄宪敏 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-wenzhou-2008-huang-xianmin-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "黄宪敏: Supreme People’s Court confirmed death sentence; reported executed before 2010-12-13; exact execution date unstated. This is a dated historical court report; no exact execution event date is asserted.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 黄宪敏 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-wenzhou-2008-zhou-hao",
+      "name": "周浩",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "suspended death sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-wenzhou-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 周浩 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2007–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "ketamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 周浩 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-wenzhou-2008-zhou-hao-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "周浩: suspended death sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 周浩 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-wenzhou-2008-li-qunhui",
+      "name": "李群辉",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "life sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-wenzhou-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 李群辉 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2007–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "ketamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 李群辉 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-wenzhou-2008-li-qunhui-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "李群辉: life sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 李群辉 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-wenzhou-2008-tong-junxiang",
+      "name": "童军祥",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "15-year prison sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-wenzhou-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 童军祥 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2007–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "ketamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 童军祥 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-wenzhou-2008-tong-junxiang-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "童军祥: 15-year prison sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 童军祥 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-wenzhou-2008-zhao-guojing",
+      "name": "赵国静",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "15-year prison sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-wenzhou-2008"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 赵国静 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2007–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "ketamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 赵国静 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-wenzhou-2008-zhao-guojing-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "赵国静: 15-year prison sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 赵国静 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-heihe-2004-guan-hui",
+      "name": "关辉",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "Supreme People’s Court confirmed death sentence; reported executed before 2010-12-13; exact execution date unstated",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-heihe-2004"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 关辉 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2004–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 关辉 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-heihe-2004-guan-hui-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "关辉: Supreme People’s Court confirmed death sentence; reported executed before 2010-12-13; exact execution date unstated. This is a dated historical court report; no exact execution event date is asserted.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 关辉 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-heihe-2004-zhang-shaoping",
+      "name": "张少平",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "suspended death sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-heihe-2004"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 张少平 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2004–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 张少平 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-heihe-2004-zhang-shaoping-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "张少平: suspended death sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 张少平 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-heihe-2004-li-fei",
+      "name": "李菲",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "suspended death sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-heihe-2004"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 李菲 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2004–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 李菲 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-heihe-2004-li-fei-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "李菲: suspended death sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 李菲 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-heihe-2004-zeng-xianmin",
+      "name": "曾宪民",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "15-year prison sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-heihe-2004"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 曾宪民 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2004–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 曾宪民 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-heihe-2004-zeng-xianmin-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "曾宪民: 15-year prison sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 曾宪民 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chn-spc-heihe-2004-chen-qi",
+      "name": "陈琦",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-12-13",
+      "roleLabel": "2-year prison sentence",
+      "prominence": 1,
+      "organizationIds": [
+        "chn-spc-heihe-2004"
+      ],
+      "regions": [
+        {
+          "iso3": "CHN",
+          "label": "China",
+          "evidence": {
+            "claim": "The cited source identifies 陈琦 individually in historical drug-case conduct in China; this is a country-level historical association only.",
+            "period": "2004–2010",
+            "sourceUrl": "https://www.court.gov.cn/zixun/xiangqing/1896.html"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "Supreme People’s Court of China identifies 陈琦 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+        }
+      ],
+      "events": [
+        {
+          "id": "chn-spc-heihe-2004-chen-qi-2010-12-13-court-report",
+          "occurredAt": "2010-12-13",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "陈琦: 2-year prison sentence. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+            "title": "最高人民法院公布四起毒品犯罪典型案件",
+            "publisher": "Supreme People’s Court of China",
+            "language": "Chinese",
+            "publishedAt": "2010-12-13",
+            "claim": "Supreme People’s Court of China identifies 陈琦 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
+          }
+        }
+      ]
+    },
+    {
+      "id": "twn-heroin-2018-cai-zhizhang",
+      "name": "蔡志章",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2018-09-26",
+      "roleLabel": "final life sentence, Supreme Court appeal dismissed",
+      "prominence": 1,
+      "organizationIds": [
+        "twn-2017-heroin-shipping-case"
+      ],
+      "regions": [
+        {
+          "iso3": "TWN",
+          "label": "Taiwan",
+          "evidence": {
+            "claim": "The cited source identifies 蔡志章 individually in historical drug-case conduct in Taiwan; this is a country-level historical association only.",
+            "period": "2017–2018",
+            "sourceUrl": "https://www.cna.com.tw/news/asoc/201809260246.aspx"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+          "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+          "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+          "language": "Traditional Chinese",
+          "publishedAt": "2018-09-26",
+          "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 蔡志章 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+        }
+      ],
+      "events": [
+        {
+          "id": "twn-heroin-2018-cai-zhizhang-2018-09-26-conviction",
+          "occurredAt": "2018-09-26",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "蔡志章: final life sentence, Supreme Court appeal dismissed. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+            "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+            "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+            "language": "Traditional Chinese",
+            "publishedAt": "2018-09-26",
+            "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 蔡志章 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+          }
+        }
+      ]
+    },
+    {
+      "id": "twn-heroin-2018-guo-yingde",
+      "name": "郭英得",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2018-09-26",
+      "roleLabel": "final 18-year prison sentence after Supreme Court reduction",
+      "prominence": 1,
+      "organizationIds": [
+        "twn-2017-heroin-shipping-case"
+      ],
+      "regions": [
+        {
+          "iso3": "TWN",
+          "label": "Taiwan",
+          "evidence": {
+            "claim": "The cited source identifies 郭英得 individually in historical drug-case conduct in Taiwan; this is a country-level historical association only.",
+            "period": "2017–2018",
+            "sourceUrl": "https://www.cna.com.tw/news/asoc/201809260246.aspx"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+          "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+          "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+          "language": "Traditional Chinese",
+          "publishedAt": "2018-09-26",
+          "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 郭英得 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+        }
+      ],
+      "events": [
+        {
+          "id": "twn-heroin-2018-guo-yingde-2018-09-26-conviction",
+          "occurredAt": "2018-09-26",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "郭英得: final 18-year prison sentence after Supreme Court reduction. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+            "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+            "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+            "language": "Traditional Chinese",
+            "publishedAt": "2018-09-26",
+            "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 郭英得 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+          }
+        }
+      ]
+    },
+    {
+      "id": "twn-heroin-2018-guo-shisheng",
+      "name": "郭仕生",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2018-09-26",
+      "roleLabel": "final 18-year-six-month prison sentence after Supreme Court reduction",
+      "prominence": 1,
+      "organizationIds": [
+        "twn-2017-heroin-shipping-case"
+      ],
+      "regions": [
+        {
+          "iso3": "TWN",
+          "label": "Taiwan",
+          "evidence": {
+            "claim": "The cited source identifies 郭仕生 individually in historical drug-case conduct in Taiwan; this is a country-level historical association only.",
+            "period": "2017–2018",
+            "sourceUrl": "https://www.cna.com.tw/news/asoc/201809260246.aspx"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+          "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+          "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+          "language": "Traditional Chinese",
+          "publishedAt": "2018-09-26",
+          "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 郭仕生 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+        }
+      ],
+      "events": [
+        {
+          "id": "twn-heroin-2018-guo-shisheng-2018-09-26-conviction",
+          "occurredAt": "2018-09-26",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "郭仕生: final 18-year-six-month prison sentence after Supreme Court reduction. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+            "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+            "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+            "language": "Traditional Chinese",
+            "publishedAt": "2018-09-26",
+            "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 郭仕生 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+          }
+        }
+      ]
+    },
+    {
+      "id": "twn-heroin-2018-xu-jinzhu",
+      "name": "許金助",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2018-09-26",
+      "roleLabel": "final 18-year-six-month prison sentence after Supreme Court reduction",
+      "prominence": 1,
+      "organizationIds": [
+        "twn-2017-heroin-shipping-case"
+      ],
+      "regions": [
+        {
+          "iso3": "TWN",
+          "label": "Taiwan",
+          "evidence": {
+            "claim": "The cited source identifies 許金助 individually in historical drug-case conduct in Taiwan; this is a country-level historical association only.",
+            "period": "2017–2018",
+            "sourceUrl": "https://www.cna.com.tw/news/asoc/201809260246.aspx"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+          "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+          "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+          "language": "Traditional Chinese",
+          "publishedAt": "2018-09-26",
+          "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 許金助 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+        }
+      ],
+      "events": [
+        {
+          "id": "twn-heroin-2018-xu-jinzhu-2018-09-26-conviction",
+          "occurredAt": "2018-09-26",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "許金助: final 18-year-six-month prison sentence after Supreme Court reduction. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+            "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+            "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+            "language": "Traditional Chinese",
+            "publishedAt": "2018-09-26",
+            "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 許金助 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+          }
+        }
+      ]
+    },
+    {
+      "id": "twn-heroin-2018-qiu-yingtong",
+      "name": "邱盈通",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2018-09-26",
+      "roleLabel": "final 17-year prison sentence after Supreme Court reduction",
+      "prominence": 1,
+      "organizationIds": [
+        "twn-2017-heroin-shipping-case"
+      ],
+      "regions": [
+        {
+          "iso3": "TWN",
+          "label": "Taiwan",
+          "evidence": {
+            "claim": "The cited source identifies 邱盈通 individually in historical drug-case conduct in Taiwan; this is a country-level historical association only.",
+            "period": "2017–2018",
+            "sourceUrl": "https://www.cna.com.tw/news/asoc/201809260246.aspx"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+          "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+          "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+          "language": "Traditional Chinese",
+          "publishedAt": "2018-09-26",
+          "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 邱盈通 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+        }
+      ],
+      "events": [
+        {
+          "id": "twn-heroin-2018-qiu-yingtong-2018-09-26-conviction",
+          "occurredAt": "2018-09-26",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "邱盈通: final 17-year prison sentence after Supreme Court reduction. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.cna.com.tw/news/asoc/201809260246.aspx",
+            "title": "最大宗海洛因走私案 主謀判處無期徒刑定讞",
+            "publisher": "Central News Agency (Taiwan), reporting Supreme Court judgment",
+            "language": "Traditional Chinese",
+            "publishedAt": "2018-09-26",
+            "claim": "Central News Agency (Taiwan), reporting Supreme Court judgment identifies 邱盈通 individually and reports this named participant’s final Supreme Court outcome for heroin transport; the case involved a Taiwan-linked vessel and seizure."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tha-meth-2013-pornphan-rattanamethanon",
+      "name": "พรพรรณ รัตนเมธานนท์",
+      "aliases": [
+        "จ๊อยซ์",
+        "Joyce TK"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2013-10-08",
+      "roleLabel": "final 8-year-one-month prison sentence for possession of methamphetamine with intent to sell; Supreme Court narrowed the attributed quantity",
+      "prominence": 1,
+      "organizationIds": [
+        "tha-2005-meth-case"
+      ],
+      "regions": [
+        {
+          "iso3": "THA",
+          "label": "Thailand",
+          "evidence": {
+            "claim": "The cited source identifies พรพรรณ รัตนเมธานนท์ individually in historical drug-case conduct in Thailand; this is a country-level historical association only.",
+            "period": "2005–2013",
+            "sourceUrl": "https://www.thaipbs.or.th/news/content/200265"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.thaipbs.or.th/news/content/200265",
+          "title": "ศาลฎีกาพิพากษายืน สั่งจำคุก \"จ๊อยซ์ ไทร์อัมพ์ คิงส์ด้อม\" 8 ปี 1 เดือน คดีค้ายาเสพติด",
+          "publisher": "Thai PBS, reporting Supreme Court judgment",
+          "language": "Thai",
+          "publishedAt": "2013-10-08",
+          "claim": "Thai PBS, reporting Supreme Court judgment identifies พรพรรณ รัตนเมธานนท์ individually and reports the named person’s final Supreme Court outcome in a Thailand methamphetamine sale case."
+        }
+      ],
+      "events": [
+        {
+          "id": "tha-meth-2013-pornphan-rattanamethanon-2013-10-08-conviction",
+          "occurredAt": "2013-10-08",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "พรพรรณ รัตนเมธานนท์: final 8-year-one-month prison sentence for possession of methamphetamine with intent to sell; Supreme Court narrowed the attributed quantity. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.thaipbs.or.th/news/content/200265",
+            "title": "ศาลฎีกาพิพากษายืน สั่งจำคุก \"จ๊อยซ์ ไทร์อัมพ์ คิงส์ด้อม\" 8 ปี 1 เดือน คดีค้ายาเสพติด",
+            "publisher": "Thai PBS, reporting Supreme Court judgment",
+            "language": "Thai",
+            "publishedAt": "2013-10-08",
+            "claim": "Thai PBS, reporting Supreme Court judgment identifies พรพรรณ รัตนเมธานนท์ individually and reports the named person’s final Supreme Court outcome in a Thailand methamphetamine sale case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tha-meth-2013-jitphat-sangkhasuwan",
+      "name": "จิตพัฒน์ สังฆสุวรรณ",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2013-10-08",
+      "roleLabel": "final 33-year-four-month prison sentence for possession of methamphetamine with intent to sell",
+      "prominence": 1,
+      "organizationIds": [
+        "tha-2005-meth-case"
+      ],
+      "regions": [
+        {
+          "iso3": "THA",
+          "label": "Thailand",
+          "evidence": {
+            "claim": "The cited source identifies จิตพัฒน์ สังฆสุวรรณ individually in historical drug-case conduct in Thailand; this is a country-level historical association only.",
+            "period": "2005–2013",
+            "sourceUrl": "https://www.thaipbs.or.th/news/content/200265"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.thaipbs.or.th/news/content/200265",
+          "title": "ศาลฎีกาพิพากษายืน สั่งจำคุก \"จ๊อยซ์ ไทร์อัมพ์ คิงส์ด้อม\" 8 ปี 1 เดือน คดีค้ายาเสพติด",
+          "publisher": "Thai PBS, reporting Supreme Court judgment",
+          "language": "Thai",
+          "publishedAt": "2013-10-08",
+          "claim": "Thai PBS, reporting Supreme Court judgment identifies จิตพัฒน์ สังฆสุวรรณ individually and reports the named person’s final Supreme Court outcome in a Thailand methamphetamine sale case."
+        }
+      ],
+      "events": [
+        {
+          "id": "tha-meth-2013-jitphat-sangkhasuwan-2013-10-08-conviction",
+          "occurredAt": "2013-10-08",
+          "type": "conviction",
+          "title": "Court outcome reported",
+          "summary": "จิตพัฒน์ สังฆสุวรรณ: final 33-year-four-month prison sentence for possession of methamphetamine with intent to sell. The status is limited to the cited court stage and date.",
+          "source": {
+            "url": "https://www.thaipbs.or.th/news/content/200265",
+            "title": "ศาลฎีกาพิพากษายืน สั่งจำคุก \"จ๊อยซ์ ไทร์อัมพ์ คิงส์ด้อม\" 8 ปี 1 เดือน คดีค้ายาเสพติด",
+            "publisher": "Thai PBS, reporting Supreme Court judgment",
+            "language": "Thai",
+            "publishedAt": "2013-10-08",
+            "claim": "Thai PBS, reporting Supreme Court judgment identifies จิตพัฒน์ สังฆสุวรรณ individually and reports the named person’s final Supreme Court outcome in a Thailand methamphetamine sale case."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "chn-shaoyang-2019-he-huang",
+      "fromId": "chn-shaoyang-2019-he-haibo",
+      "toId": "chn-shaoyang-2019-huang-zhengkun",
+      "type": "documented_collaboration",
+      "label": "Court-found joint purchase and sale",
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "The Shaoyang court report explicitly states He Haibo and Huang Zhengkun jointly bought and distributed methamphetamine in 2017."
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-huang-wang",
+      "fromId": "chn-shaoyang-2019-huang-zhengkun",
+      "toId": "chn-shaoyang-2019-wang-tianjun",
+      "type": "supplier",
+      "label": "Court-found sale",
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "The Shaoyang court report explicitly states Huang Zhengkun sold methamphetamine to Wang Tianjun."
+        }
+      ]
+    },
+    {
+      "id": "chn-shaoyang-2019-wang-chen",
+      "fromId": "chn-shaoyang-2019-wang-shengrong",
+      "toId": "chn-shaoyang-2019-chen-linyun",
+      "type": "supplier",
+      "label": "Court-found sale",
+      "sources": [
+        {
+          "url": "https://www.hnzf.gov.cn/content/2019/05/16/9285003.html",
+          "title": "湖南邵阳特大贩毒案一审宣判：4人死刑5人死缓4人无期",
+          "publisher": "Hunan Chang’an Network, reprinting Shaoyang Intermediate People’s Court",
+          "language": "Chinese",
+          "publishedAt": "2019-05-16",
+          "claim": "The Shaoyang court report explicitly states Wang Shengrong sold methamphetamine to Chen Linyun."
+        }
+      ]
+    },
+    {
+      "id": "tha-meth-2013-partners",
+      "fromId": "tha-meth-2013-pornphan-rattanamethanon",
+      "toId": "tha-meth-2013-jitphat-sangkhasuwan",
+      "type": "associate",
+      "label": "Former romantic partners in cited case",
+      "sources": [
+        {
+          "url": "https://www.thaipbs.or.th/news/content/200265",
+          "title": "ศาลฎีกาพิพากษายืน สั่งจำคุก \"จ๊อยซ์ ไทร์อัมพ์ คิงส์ด้อม\" 8 ปี 1 เดือน คดีค้ายาเสพติด",
+          "publisher": "Thai PBS, reporting Supreme Court judgment",
+          "language": "Thai",
+          "publishedAt": "2013-10-08",
+          "claim": "Thai PBS explicitly identifies Pornphan and Jitphat as romantic partners in the reported case."
+        }
+      ]
+    }
+  ]
+}

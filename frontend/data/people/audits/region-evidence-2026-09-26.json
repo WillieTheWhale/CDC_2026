@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1294,
-    "associations": 1118,
-    "evidenced": 1118,
+    "people": 1336,
+    "associations": 1160,
+    "evidenced": 1160,
     "missing": 0,
     "invalid": 0
   },
@@ -124,6 +124,13 @@
       "people": 53,
       "associations": 53,
       "evidenced": 53,
+      "missing": 0,
+      "invalid": 0
+    },
+    "east_asia_historical_courts_2004_2019.json": {
+      "people": 42,
+      "associations": 42,
+      "evidenced": 42,
       "missing": 0,
       "invalid": 0
     },
@@ -514,6 +521,24 @@
       "missing": 0,
       "invalid": 0
     },
+    "CHN": {
+      "associations": 35,
+      "evidenced": 35,
+      "missing": 0,
+      "invalid": 0
+    },
+    "TWN": {
+      "associations": 5,
+      "evidenced": 5,
+      "missing": 0,
+      "invalid": 0
+    },
+    "THA": {
+      "associations": 4,
+      "evidenced": 4,
+      "missing": 0,
+      "invalid": 0
+    },
     "ZAF": {
       "associations": 18,
       "evidenced": 18,
@@ -559,12 +584,6 @@
     "MYS": {
       "associations": 1,
       "evidenced": 1,
-      "missing": 0,
-      "invalid": 0
-    },
-    "THA": {
-      "associations": 2,
-      "evidenced": 2,
       "missing": 0,
       "invalid": 0
     },
