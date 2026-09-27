@@ -36,7 +36,8 @@ An anomaly is sent as an `anomaly` frame only (not duplicated as `event`).
   "origin": "ECU",
   "transit": null,
   "destination": "BEL",
-  "size": "record",
+  "size": "major",
+  "size_stated": true,
   "is_event": 0.94,
   "route_mentioned": 0.88,
   "confidence": 0.86,
@@ -52,4 +53,7 @@ An anomaly is sent as an `anomaly` frame only (not duplicated as `event`).
 Rules (from SYSTEM_DESIGN section 7):
 - `published_at` always comes from GDELT metadata, never from the classifier.
 - Events with `confidence < 0.6` are never pushed.
+- Grounding (`backend/trace_backend/jev/grounding.py`): `origin`, `transit`, `destination` are null and `drug` is
+  `unclear` whenever the headline does not state them; show them as "not stated". `size_stated: false` (optional,
+  additive) means no quantity is stated: show size as "not stated".
 - Until a `TYPESAFE_API_KEY` exists the classifier is `mock` (keyword rules). The real client is pinned to `jev-1.13.0`.

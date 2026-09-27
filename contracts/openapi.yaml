@@ -222,6 +222,32 @@ paths:
             application/json:
               schema: { $ref: "#/components/schemas/LivewireResponse" }
 
+  /api/livewire/classify:
+    post:
+      operationId: classifyHeadline
+      summary: Classify one headline live with the deployed classifier (Reflex via ONNX) and the grounding guardrails
+      description: >
+        Runs the same classifier and guardrails as the Live Wire on the text you send. A country, drug or size the
+        text does not state comes back as not stated (null, "unclear" or size_stated false); `dropped` lists any
+        prediction the guardrails removed. `on_wire` says whether the article would pass the wire's event and
+        confidence gate. Nothing is stored or published.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: "#/components/schemas/ClassifyRequest" }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ClassifyResponse" }
+        "422":
+          description: Title shorter than 3 or longer than 300 characters, or text longer than 2,000
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
   /api/command:
     post:
       operationId: parseCommand
@@ -1291,10 +1317,13 @@ components:
           type: string
           enum: [seizure, arrest_or_indictment, lab_dismantled, law_or_policy_change, violence, corruption, other]
         drug: { $ref: "#/components/schemas/LiveDrug" }
-        origin: { type: [string, "null"], description: "ISO3 or null when not stated" }
+        origin: { type: [string, "null"], description: "ISO3 or null when the text does not state it (never a guess)" }
         transit: { type: [string, "null"] }
-        destination: { type: [string, "null"] }
+        destination: { type: [string, "null"], description: "ISO3 or null when the text does not state it (never a guess)" }
         size: { type: string, enum: [small, notable, major, record] }
+        size_stated:
+          type: boolean
+          description: "Optional (additive). False when the article states no quantity or record wording: show size as 'not stated' and ignore `size`. Countries and drugs the text does not state are already null / 'unclear' (grounding guardrails, docs/REFLEX_SPEC.md)."
         is_event: { type: number, minimum: 0, maximum: 1, description: "P(article describes a specific event)" }
         route_mentioned: { type: number, minimum: 0, maximum: 1 }
         confidence: { type: number, minimum: 0, maximum: 1 }
@@ -2352,3 +2381,44 @@ components:
       properties:
         meta: { $ref: "#/components/schemas/EstimatedFlowsMeta" }
         data: { $ref: "#/components/schemas/EstimatedFlows" }
+
+    ClassifyRequest:
+      type: object
+      required: [title]
+      properties:
+        title: { type: string, minLength: 3, maxLength: 300 }
+        text: { type: string, maxLength: 2000, default: "" }
+
+    Classification:
+      type: object
+      required: [is_event, event_type, drug, origin, destination, size, size_stated, confidence, dropped]
+      properties:
+        is_event: { type: number, minimum: 0, maximum: 1 }
+        event_type: { type: string }
+        event_type_conf: { type: number }
+        drug: { type: string, description: "unclear when the text names no supported drug" }
+        drug_conf: { type: number }
+        origin: { type: [string, "null"], description: "ISO3; null when the text does not state it" }
+        transit: { type: [string, "null"] }
+        destination: { type: [string, "null"] }
+        location: { type: [string, "null"] }
+        size: { type: string }
+        size_score: { type: number }
+        size_stated: { type: boolean, description: "False when the text states no quantity" }
+        route_mentioned: { type: number }
+        confidence: { type: number, minimum: 0, maximum: 1 }
+        dropped: { type: array, items: { type: string }, description: "Predictions removed as ungrounded, e.g. origin:COL" }
+
+    ClassifyResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: object
+          required: [classifier, on_wire, latency_ms, classification]
+          properties:
+            classifier: { type: string, example: reflex-0.2.0 }
+            on_wire: { type: boolean }
+            latency_ms: { type: integer, minimum: 0 }
+            classification: { $ref: "#/components/schemas/Classification" }
