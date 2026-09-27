@@ -189,11 +189,11 @@ live positions, private addresses, travel patterns, local routes or rankings of 
 so users can audit the public context behind organizations named in reports. If that boundary cannot be kept
 in a deployment, the People view should be removed rather than repurposed for enforcement.
 
-Know the mix before you answer the follow-up. As of 2026-09-27 it is **540 people across 52 organizations —
-154 convicted, 279 charged, 51 sanctioned** (an official designation, usually OFAC) **and 56 carried only as
+Know the mix before you answer the follow-up. As of the 2026-09-27 build it is **606 people across 61 organizations —
+201 convicted, 279 charged, 71 sanctioned** (an official designation, usually OFAC) **and 55 carried only as
 reported**. Two things to say in that order. First, about 90% rest on an official action: a court, an
-indictment or a Treasury listing. Second, the honest concession before a judge finds it — most entries are
-*charged*, not convicted, and the 56 reported rest on journalism rather than any official determination. Each
+indictment or a Treasury listing. Second, the honest concession before a judge finds it — charged entries
+outnumber convicted ones, and the 55 reported rest on journalism rather than any official determination. Each
 carries its source and its status is shown on the record rather than flattened into "trafficker".
 
 This dataset is growing fast (it was 138 people a few hours before this line was written), so **re-check the

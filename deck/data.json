@@ -142,12 +142,12 @@
     "afghan": "contracts/fixtures/afghan_ban.json"
   },
   "people": {
-    "total": 540,
-    "organizations": 52,
-    "convicted": 154,
+    "total": 606,
+    "organizations": 61,
+    "convicted": 201,
     "charged": 279,
-    "sanctioned": 51,
-    "reported": 56
+    "sanctioned": 71,
+    "reported": 55
   },
   "screenshots": {
     "route-map": "screenshots/route-map.png",
@@ -208,6 +208,11 @@
         "status": "done (archive read-only + `derived.sqlite`; DuckDB removed)"
       },
       {
+        "label": "Reflex (own System One model)",
+        "owner": "backend",
+        "status": "v0.2 shipped as the Live Wire classifier: 98% event type, 82% destination (mock 52%), ECE 0.02; see [REFLEX_SPEC.md](docs/REFLEX_SPEC.md)"
+      },
+      {
         "label": "export + API",
         "owner": "backend",
         "status": "done (precomputed JSON, FastAPI, contract tests)"
@@ -235,11 +240,6 @@
     ],
     "pending": [
       {
-        "label": "Reflex (own System One model)",
-        "owner": "backend",
-        "status": "v0.2 shipped as the Live Wire classifier: 98% event type, 82% destination (mock 52%), ECE 0.02; see [REFLEX_SPEC.md](docs/REFLEX_SPEC.md)"
-      },
-      {
         "label": "Frontend shell + map",
         "owner": "frontend",
         "status": "not started"
@@ -257,14 +257,14 @@
     ],
     "frontend_built": true,
     "shipped_short": "Pipeline, models, backtests, Live Wire and the workspace shipped; API live in production",
-    "shipped_count": 14,
-    "pending_count": 4
+    "shipped_count": 15,
+    "pending_count": 3
   },
   "git": {
-    "sha": "cac7685",
-    "subject": "deck: recount the People atlas on every build",
-    "when": "2026-09-27T02:37:55+00:00",
-    "count": "136"
+    "sha": "fb866e2",
+    "subject": "deck: rebuild after People and proof updates",
+    "when": "2026-09-26T22:59:00-04:00",
+    "count": "157"
   },
-  "built_at": "2026-09-27 02:37 UTC"
+  "built_at": "2026-09-27 02:59 UTC"
 }
