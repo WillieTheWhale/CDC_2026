@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1280,
-    "associations": 1106,
-    "evidenced": 1106,
+    "people": 1294,
+    "associations": 1118,
+    "evidenced": 1118,
     "missing": 0,
     "invalid": 0
   },
@@ -250,6 +250,13 @@
       "people": 14,
       "associations": 16,
       "evidenced": 16,
+      "missing": 0,
+      "invalid": 0
+    },
+    "mena_historical_sanctions_2011_2023.json": {
+      "people": 14,
+      "associations": 12,
+      "evidenced": 12,
       "missing": 0,
       "invalid": 0
     },
@@ -532,14 +539,14 @@
       "invalid": 0
     },
     "SYR": {
-      "associations": 6,
-      "evidenced": 6,
+      "associations": 12,
+      "evidenced": 12,
       "missing": 0,
       "invalid": 0
     },
     "LBN": {
-      "associations": 1,
-      "evidenced": 1,
+      "associations": 7,
+      "evidenced": 7,
       "missing": 0,
       "invalid": 0
     },
