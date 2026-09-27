@@ -19,15 +19,15 @@ import {
 } from "@/lib/route-evidence";
 import type { Drug } from "@/lib/types";
 import {
-  arrivalArrows,
-  curvedArrow,
   fieldArrows,
+  placeArrows,
   spacingKm,
   volumeBands,
   windGlyphs,
   type EstimatedCity,
   type EstimatedLayer,
   type FieldArrow,
+  type PlacedArrow,
 } from "@/lib/estimated-flows";
 interface Props {
   countries: Country[];
@@ -140,7 +140,7 @@ export default function AtlasMap(props: Props) {
   } | null>(null);
   const [reportDetail, setReportDetail] = useState<RouteEvidence | null>(null);
   const [windHover, setWindHover] = useState<{
-    glyph: FieldArrow;
+    glyph: PlacedArrow;
     x: number;
     y: number;
   } | null>(null);
@@ -417,9 +417,14 @@ export default function AtlasMap(props: Props) {
       ),
     [props.estimated, props.drug],
   );
+  // Re-place arrows only when the zoom step or a coarse view window changes,
+  // not on every animation frame.
+  const viewKey =
+    glyphZoom < 3
+      ? "world"
+      : `${Math.round(position.lng / (40 / 2 ** (glyphZoom - 3)))}:${Math.round(position.lat / (25 / 2 ** (glyphZoom - 3)))}`;
   const glyphs = useMemo(() => {
-    // At world scale these faint arrows are invisible; skip the work (keeps playback light).
-    if (!props.showEstimated || !estimatedFlows.length || glyphZoom < 2) return [];
+    if (!props.showEstimated || !estimatedFlows.length) return [];
     const bounds = map.current?.getBounds();
     const flows =
       glyphZoom < 3 || !bounds
@@ -430,42 +435,33 @@ export default function AtlasMap(props: Props) {
             const south = Math.min(f.from.lat, f.to.lat);
             const north = Math.max(f.from.lat, f.to.lat);
             return !(
-              east < bounds.getWest() - 2 ||
-              west > bounds.getEast() + 2 ||
-              north < bounds.getSouth() - 2 ||
-              south > bounds.getNorth() + 2
+              east < bounds.getWest() - 4 ||
+              west > bounds.getEast() + 4 ||
+              north < bounds.getSouth() - 4 ||
+              south > bounds.getNorth() + 4
             );
           });
-    // Arrivals put their tips on destination cities, so flows meet there.
-    // Grid arrows (one per cell, net direction) fill the space between, and
-    // are dropped next to arrival cities to keep the meeting points readable.
-    const arrivals = arrivalArrows(flows);
-    const degPerPx = 360 / (512 * 2 ** glyphZoom);
-    const clear = 30 * degPerPx;
-    const field = fieldArrows(
-      windGlyphs(flows, glyphZoom + 1),
-      (spacingKm(glyphZoom) * 1.3) / 111,
-    ).filter(
-      (a) =>
-        !arrivals.some(
-          (c) =>
-            Math.abs(c.position[1] - a.position[1]) < clear &&
-            Math.abs(c.position[0] - a.position[0]) <
-              clear / Math.max(0.2, Math.cos((a.position[1] * Math.PI) / 180)),
-        ),
+    // Net flow per grid cell, each arrow aimed at a city, then greedy
+    // placement so no two arrows overlap on screen.
+    return placeArrows(
+      fieldArrows(windGlyphs(flows, glyphZoom + 1), (spacingKm(glyphZoom) * 1.1) / 111),
+      glyphZoom,
     );
-    return [...field, ...arrivals];
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [estimatedFlows, props.showEstimated, glyphZoom, position.lng, position.lat]);
+  }, [estimatedFlows, props.showEstimated, glyphZoom, viewKey]);
   const estimatedCities = useMemo(() => {
-    if (!props.showEstimated || !props.estimated || glyphZoom < 2) return [];
+    if (!props.showEstimated || !props.estimated) return [];
     const drugs = new Set(estimatedFlows.map((f) => `${f.from.iso3}:${f.from.name}`)
       .concat(estimatedFlows.map((f) => `${f.to.iso3}:${f.to.name}`)));
+    // At world scale only the busiest cities keep a dot, to avoid clutter.
+    const floor = glyphZoom < 3 ? 0.15 : 0;
     return props.estimated.cities.filter(
-      (c) => props.drug === "all" || drugs.has(`${c.iso3}:${c.name}`),
+      (c) =>
+        c.intensity >= floor &&
+        (props.drug === "all" || drugs.has(`${c.iso3}:${c.name}`)),
     );
   }, [props.estimated, props.showEstimated, props.drug, estimatedFlows, glyphZoom]);
-  const windOpacity = Math.max(0.3, Math.min(1, (position.zoom - 1.2) / 1.8));
+  const windOpacity = 1;
   useEffect(() => {
     if (!ready || !overlay.current) return;
     const active = new Set(visibleEdges.flatMap((e) => [e.from, e.to]));
@@ -489,21 +485,20 @@ export default function AtlasMap(props: Props) {
           stroked: false,
           pickable: false,
         }),
-        new SolidPolygonLayer<FieldArrow>({
+        new SolidPolygonLayer<PlacedArrow>({
           id: "estimated-wind",
           data: glyphs,
           opacity: windOpacity,
           // Curved, very faint arrows tinted by drug (shape rebuilt per zoom step).
-          getPolygon: (g) =>
-            curvedArrow(g, glyphZoom, 20 + g.magnitude * 22, 3.5 + g.magnitude * 4.5),
+          getPolygon: (g) => g.polygon,
           getFillColor: (g) =>
             rgba(drugColor[g.drug], Math.round(16 + g.magnitude * 30)),
           pickable: true,
-          onHover: (info: PickingInfo<FieldArrow>) =>
+          onHover: (info: PickingInfo<PlacedArrow>) =>
             setWindHover(
               info.object ? { glyph: info.object, x: info.x, y: info.y } : null,
             ),
-          updateTriggers: { getPolygon: [glyphZoom] },
+
         }),
         new ArcLayer<Edge>({
           id: "route-arcs",
@@ -812,9 +807,7 @@ export default function AtlasMap(props: Props) {
           <strong>Estimated local flow</strong>
           <div>
             {windHover.glyph.drug} ·{" "}
-            {windHover.glyph.anchor === "tip"
-              ? `arriving at ${windHover.glyph.flows[0]?.to.name}`
-              : "net direction here"}{" "}
+            {`toward ${windHover.glyph.flows[0]?.to.name}`}{" "}
             · strength {windHover.glyph.magnitude.toFixed(2)}
           </div>
           <p>Not observed. Follows money (city population × GDP per capita) out of cities that modeled corridors feed.</p>

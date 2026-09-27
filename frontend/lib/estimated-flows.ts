@@ -14,7 +14,7 @@ export interface EstimatedCity {
 }
 export interface EstimatedFlow {
   drug: Drug;
-  generation: 1 | 2;
+  generation: 1 | 2 | 3;
   strength: number; // 0-1 within the drug and year
   km: number;
   from: EstimatedCity;
@@ -34,7 +34,7 @@ interface EstimatedFile {
     mode: string;
     drugs: Drug[];
     cities: [string, string, number, number, number][];
-    flows: [number, 1 | 2, number, number, number, number][];
+    flows: [number, 1 | 2 | 3, number, number, number, number][];
   };
 }
 
@@ -161,9 +161,6 @@ export interface FieldArrow {
   magnitude: number; // 0-1 relative to the strongest cell
   drug: Drug;
   flows: EstimatedFlow[];
-  // "tip": the arrow ends exactly at `position` (arrivals meeting on a city);
-  // default: the arrow is centered on `position` (grid cell).
-  anchor?: "tip";
   turn?: number;
 }
 export function fieldArrows(glyphs: WindGlyph[], cellDeg: number): FieldArrow[] {
@@ -189,10 +186,19 @@ export function fieldArrows(glyphs: WindGlyph[], cellDeg: number): FieldArrow[] 
   }
   const raw = [...cells.values()]
     .filter((c) => c.w > 0)
-    .map((c) => ({
-      position: [c.lon / c.w, c.lat / c.w] as [number, number],
-      bearing: ((Math.atan2(c.vx, c.vy) / rad) + 360) % 360,
-      magnitude: Math.hypot(c.vx, c.vy),
+    .map((c) => {
+      const position: [number, number] = [c.lon / c.w, c.lat / c.w];
+      const net = ((Math.atan2(c.vx, c.vy) / rad) + 360) % 360;
+      // Point at the city the strongest flow here is heading to; bend from the
+      // path's own direction toward it (arrows converge on cities, tips stay off them).
+      const main = [...c.flows].sort((a, b) => b.strength - a.strength)[0];
+      const aim = bearing(position, [main.to.lon, main.to.lat]);
+      const turn = Math.max(-35, Math.min(35, 2 * ((((aim - net + 540) % 360) - 180))));
+      return {
+        position,
+        bearing: aim,
+        turn,
+        magnitude: Math.hypot(c.vx, c.vy),
       drug: [...c.drugs.entries()].sort((a, b) => b[1] - a[1])[0][0],
       flows: [...c.flows]
         .sort((a, b) => b.strength - a.strength)
@@ -201,11 +207,12 @@ export function fieldArrows(glyphs: WindGlyph[], cellDeg: number): FieldArrow[] 
             all.findIndex((g) => g.from.name === f.from.name && g.to.name === f.to.name) === i,
         )
         .slice(0, 3),
-    }));
+      };
+    });
   const peak = Math.max(1e-9, ...raw.map((a) => a.magnitude));
   return raw
     .map((a) => ({ ...a, magnitude: Math.sqrt(a.magnitude / peak) }))
-    .filter((a) => a.magnitude > 0.06);
+    .filter((a) => a.magnitude > 0.03);
 }
 
 // Curved arrow outline for one field arrow, in lon/lat, sized in screen
@@ -221,31 +228,24 @@ export function curvedArrow(
   const degPerPx = 360 / (512 * 2 ** zoom);
   const kx = degPerPx / Math.max(0.2, Math.cos(lat0 * rad));
   const ky = degPerPx;
-  const target = arrow.flows[0]?.to;
-  let turn =
-    arrow.turn ??
-    (target
-      ? ((bearing(arrow.position, [target.lon, target.lat]) - arrow.bearing + 540) % 360) - 180
-      : 0);
-  turn = Math.max(-40, Math.min(40, turn));
+  let turn = Math.max(-40, Math.min(40, arrow.turn ?? 0));
   if (Math.abs(turn) < 14) turn = turn < 0 ? -14 : 14;
-  // Centerline: heading swings from (bearing - turn/2) to (bearing + turn/2).
+  // Centerline: heading swings from (bearing - turn) to `bearing`, so the
+  // head points straight at the target city.
   const n = 10;
   const step = lengthPx / n;
   const pts: { x: number; y: number; h: number }[] = [];
   let x = 0,
     y = 0;
   for (let i = 0; i <= n; i++) {
-    const h = (arrow.bearing - turn / 2 + (turn * i) / n) * rad;
+    const h = (arrow.bearing - turn + (turn * i) / n) * rad;
     pts.push({ x, y, h });
     x += step * Math.sin(h);
     y += step * Math.cos(h);
   }
-  // Center the shape on the cell position, or put the tip on it (arrivals).
-  const cx =
-    arrow.anchor === "tip" ? pts[n].x : pts.reduce((s, p) => s + p.x, 0) / pts.length;
-  const cy =
-    arrow.anchor === "tip" ? pts[n].y : pts.reduce((s, p) => s + p.y, 0) / pts.length;
+  // Center the shape on the cell position.
+  const cx = pts.reduce((s, p) => s + p.x, 0) / pts.length;
+  const cy = pts.reduce((s, p) => s + p.y, 0) / pts.length;
   const at = (p: { x: number; y: number }, off: number, h: number): [number, number] => [
     lon0 + (p.x - cx + off * Math.cos(h)) * kx,
     lat0 + (p.y - cy - off * Math.sin(h)) * ky,
@@ -269,52 +269,64 @@ export function curvedArrow(
   ];
 }
 
-// Arrivals: for each destination city, one arrow per incoming direction
-// (45-degree sectors) with its tip on the city, so flows visibly meet there.
-// The bend follows the path's own great-circle curve (departure vs arrival
-// heading), with a gentle default.
-export function arrivalArrows(flows: EstimatedFlow[]): FieldArrow[] {
-  const groups = new Map<
-    string,
-    { city: EstimatedCity; vx: number; vy: number; w: number; turn: number; drugs: Map<Drug, number>; flows: EstimatedFlow[] }
-  >();
-  for (const f of flows) {
-    const a: [number, number] = [f.from.lon, f.from.lat];
-    const b: [number, number] = [f.to.lon, f.to.lat];
-    const arrive = bearing(interpolate(a, b, 0.97), b);
-    const depart = bearing(a, interpolate(a, b, 0.03));
-    const sector = Math.floor(((arrive + 22.5) % 360) / 45);
-    const key = `${f.to.iso3}:${f.to.name}:${sector}`;
-    let g = groups.get(key);
-    if (!g) {
-      g = { city: f.to, vx: 0, vy: 0, w: 0, turn: 0, drugs: new Map(), flows: [] };
-      groups.set(key, g);
-    }
-    const r = arrive * rad;
-    g.vx += f.strength * Math.sin(r);
-    g.vy += f.strength * Math.cos(r);
-    g.w += f.strength;
-    g.turn += f.strength * ((((arrive - depart + 540) % 360) - 180) * 3);
-    g.drugs.set(f.drug, (g.drugs.get(f.drug) ?? 0) + f.strength);
-    g.flows.push(f);
+export const arrowLength = (magnitude: number) => 20 + magnitude * 22;
+export const arrowWidth = (magnitude: number) => 3.5 + magnitude * 4.5;
+
+// Web Mercator "world pixels" at a zoom level (512 px tiles, as MapLibre).
+function worldPx([lon, lat]: [number, number], zoom: number): [number, number] {
+  const size = 512 * 2 ** zoom;
+  const s = Math.sin(Math.max(-85, Math.min(85, lat)) * rad);
+  return [((lon + 180) / 360) * size, (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * size];
+}
+function segmentDistance(a: number[], b: number[], c: number[], d: number[]) {
+  const pt = (p: number[], q: number[], r: number[]) => {
+    const dx = r[0] - q[0], dy = r[1] - q[1];
+    const len = dx * dx + dy * dy;
+    const t = len ? Math.max(0, Math.min(1, ((p[0] - q[0]) * dx + (p[1] - q[1]) * dy) / len)) : 0;
+    return Math.hypot(p[0] - q[0] - t * dx, p[1] - q[1] - t * dy);
+  };
+  const cross = (p: number[], q: number[], r: number[]) =>
+    (q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0]);
+  const intersect =
+    cross(a, b, c) * cross(a, b, d) < 0 && cross(c, d, a) * cross(c, d, b) < 0;
+  return intersect ? 0 : Math.min(pt(a, c, d), pt(b, c, d), pt(c, a, b), pt(d, a, b));
+}
+export interface PlacedArrow extends FieldArrow {
+  polygon: [number, number][];
+}
+// Greedy placement, strongest first: an arrow is kept only if its body (a
+// capsule from tail to tip, plus a small gap) touches no arrow already kept,
+// and its head stays off the city it points at.
+export function placeArrows(arrows: FieldArrow[], zoom: number, gapPx = 3): PlacedArrow[] {
+  const cell = 48;
+  const grid = new Map<string, { a: number[]; b: number[]; r: number }[]>();
+  const out: PlacedArrow[] = [];
+  for (const arrow of [...arrows].sort((x, y) => y.magnitude - x.magnitude)) {
+    const length = arrowLength(arrow.magnitude);
+    const width = arrowWidth(arrow.magnitude);
+    const polygon = curvedArrow(arrow, zoom, length, width);
+    const tip = worldPx(polygon[Math.floor(polygon.length / 2)], zoom);
+    const tail = worldPx(
+      [(polygon[0][0] + polygon.at(-1)![0]) / 2, (polygon[0][1] + polygon.at(-1)![1]) / 2],
+      zoom,
+    );
+    const city = arrow.flows[0] && worldPx([arrow.flows[0].to.lon, arrow.flows[0].to.lat], zoom);
+    if (city && Math.hypot(tip[0] - city[0], tip[1] - city[1]) < 6) continue;
+    const r = width * 1.25;
+    const cx = Math.floor((tip[0] + tail[0]) / 2 / cell);
+    const cy = Math.floor((tip[1] + tail[1]) / 2 / cell);
+    let clash = false;
+    for (let dx = -2; dx <= 2 && !clash; dx++)
+      for (let dy = -2; dy <= 2 && !clash; dy++)
+        for (const o of grid.get(`${cx + dx}:${cy + dy}`) ?? [])
+          if (segmentDistance(tail, tip, o.a, o.b) < r + o.r + gapPx) {
+            clash = true;
+            break;
+          }
+    if (clash) continue;
+    const key = `${cx}:${cy}`;
+    grid.set(key, [...(grid.get(key) ?? []), { a: tail, b: tip, r }]);
+    out.push({ ...arrow, polygon });
   }
-  const raw = [...groups.values()].map((g) => ({
-    position: [g.city.lon, g.city.lat] as [number, number],
-    bearing: ((Math.atan2(g.vx, g.vy) / rad) + 360) % 360,
-    magnitude: g.w,
-    drug: [...g.drugs.entries()].sort((a, b) => b[1] - a[1])[0][0],
-    flows: g.flows
-      .sort((a, b) => b.strength - a.strength)
-      .filter(
-        (f, i, all) =>
-          all.findIndex((h) => h.from.name === f.from.name && h.to.name === f.to.name) === i,
-      )
-      .slice(0, 3),
-    anchor: "tip" as const,
-    turn: Math.max(-35, Math.min(35, g.turn / g.w)),
-  }));
-  const peak = Math.max(1e-9, ...raw.map((a) => a.magnitude));
-  return raw
-    .map((a) => ({ ...a, magnitude: Math.sqrt(a.magnitude / peak) }))
-    .filter((a) => a.magnitude > 0.1);
+  return out;
 }

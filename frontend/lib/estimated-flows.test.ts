@@ -70,16 +70,22 @@ test("country volume bands grow with modeled kg on the shown corridors", () => {
   assert.equal(volumeBands([]).size, 0);
 });
 
-test("arrival arrows put their tips on destination cities", async () => {
-  const { arrivalArrows, curvedArrow } = await import("./estimated-flows");
-  const arrivals = arrivalArrows(layer.flows);
-  assert.ok(arrivals.length > 50);
-  const a = arrivals[0];
-  assert.equal(a.anchor, "tip");
-  const dest = a.flows[0].to;
-  assert.deepEqual(a.position, [dest.lon, dest.lat]);
-  // The outline's tip vertex sits on the city.
-  const ring = curvedArrow(a, 5, 30, 5);
-  const tip = ring[Math.floor(ring.length / 2)];
-  assert.ok(Math.abs(tip[0] - dest.lon) < 1e-6 && Math.abs(tip[1] - dest.lat) < 1e-6);
+test("placed arrows point at a city, stay off it, and never overlap", async () => {
+  const { fieldArrows, placeArrows, windGlyphs, spacingKm, bearing } = await import("./estimated-flows");
+  for (const zoom of [1, 3, 5]) {
+    const arrows = fieldArrows(windGlyphs(layer.flows, zoom + 1), (spacingKm(zoom) * 1.1) / 111);
+    const placed = placeArrows(arrows, zoom);
+    assert.ok(placed.length > 20, `zoom ${zoom}: ${placed.length}`);
+    for (const a of placed) {
+      const city = a.flows[0].to;
+      const toCity = bearing(a.position, [city.lon, city.lat]);
+      assert.ok(Math.abs(((toCity - a.bearing + 540) % 360) - 180) < 1e-6);
+      const tip = a.polygon[Math.floor(a.polygon.length / 2)];
+      assert.ok(Math.hypot(tip[0] - city.lon, tip[1] - city.lat) > 1e-4, "head on the city");
+    }
+  }
+  // Greedy placement drops arrows that would touch a stronger one.
+  const z = 3;
+  const all = fieldArrows(windGlyphs(layer.flows, z + 1), (spacingKm(z) * 1.1) / 111);
+  assert.ok(placeArrows(all, z).length < all.length);
 });

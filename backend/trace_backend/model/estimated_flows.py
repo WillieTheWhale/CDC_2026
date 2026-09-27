@@ -10,8 +10,9 @@ The route model works country to country, so zoomed-in views are sparse. This fi
 2. **Follow the money.** Every other city of 150k+ people is a target with money = population x
    GDP per capita (PPP, World Bank NY.GDP.PCAP.PP.KD, source 2). Each target draws one arrow from
    the source that maximises supply x money / (1 + km / 400)^2, within MAX_KM.
-3. A **second wave** spreads from the cities reached in step 2 at half their strength, so the field
-   extends into countries the dataset does not cover.
+3. A **second and third wave** spread from the cities reached before, at half strength each, so the
+   field extends into countries the dataset does not cover. Each wave keeps its strongest arrows plus
+   the best PER_COUNTRY targets of every country in reach, so poorer regions are not crowded out.
 4. **City intensity** sums modeled supply and estimated strength through each city (darker where
    many paths cross).
 
@@ -38,8 +39,10 @@ OUT_DIR = config.REPO / "frontend" / "public" / "data" / "estimated"
 MIN_POP = 150_000
 MAX_KM = 1_500          # estimates stay regional: "shallow" arrows, never new intercontinental routes
 ENTRY_CANDIDATES = 15   # entry city chosen among the country's 15 richest cities
-PER_DRUG = 260          # first-wave arrows kept per drug and year
-SECOND_WAVE = 140       # second-wave arrows kept per drug and year
+PER_DRUG = 300          # first-wave arrows kept per drug and year (plus per-country quota)
+SECOND_WAVE = 240       # second-wave arrows kept per drug and year (plus quota)
+THIRD_WAVE = 200        # third-wave arrows kept per drug and year (plus quota)
+PER_COUNTRY = 2         # every country in reach keeps its best targets, so arrows cover the whole map
 GDP_CODE = "NY.GDP.PCAP.PP.KD"
 
 
@@ -131,7 +134,15 @@ def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, flo
                     score = s * (t["money"] / top_money) / (1 + d / 400) ** 2
                     if kt not in best or score > best[kt][0]:
                         best[kt] = (score, src, d)
-            chosen = sorted(best.items(), key=lambda kv: -kv[1][0])[:limit]
+            ranked = sorted(best.items(), key=lambda kv: -kv[1][0])
+            chosen = ranked[:limit]
+            quota: dict[str, int] = defaultdict(int)
+            for kt, _ in chosen:
+                quota[kt[0]] += 1
+            for kt, v in ranked[limit:]:
+                if quota[kt[0]] < PER_COUNTRY:
+                    quota[kt[0]] += 1
+                    chosen.append((kt, v))
             out = []
             for kt, (score, src, d) in chosen:
                 out.append({"drug": drug, "generation": generation, "score": score, "km": round(d),
@@ -140,11 +151,17 @@ def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, flo
 
         first = wave(hubs, set(supply), PER_DRUG, 1)
         taken = set(supply) | {key(f["dst"]) for f in first}
-        top = max((f["score"] for f in first), default=1.0)
-        second_sources = [(f["dst"], 0.5 * f["score"] / top * max(s for _, s in hubs)) for f in first]
-        second = wave(second_sources, taken, SECOND_WAVE, 2)
-        for f in first + second:
-            flows.append(f)
+        hub_peak = max(s for _, s in hubs)
+        waves = [first]
+        for generation, limit in ((2, SECOND_WAVE), (3, THIRD_WAVE)):
+            prev = waves[-1]
+            top = max((f["score"] for f in prev), default=1.0)
+            sources = [(f["dst"], 0.5 ** (generation - 1) * f["score"] / top * hub_peak) for f in prev]
+            nxt = wave(sources, taken, limit, generation)
+            taken |= {key(f["dst"]) for f in nxt}
+            waves.append(nxt)
+        for w in waves:
+            flows.extend(w)
     if flows:
         peak_by_drug: dict[str, float] = defaultdict(float)
         for f in flows:
@@ -198,7 +215,7 @@ def run() -> int:
                 "kind": "estimated",
                 "note": "Estimated local flows for map density only. Not observed, not modeled, not used in any score.",
                 "method": "Entry city per modeled edge; arrows follow money = city population x GDP per capita "
-                          f"(PPP), score = supply x money / (1 + km/400)^2, <= {MAX_KM} km, two waves.",
+                          f"(PPP), score = supply x money / (1 + km/400)^2, <= {MAX_KM} km, three waves with a per-country quota.",
                 "sources": ["Natural Earth populated places (public domain)",
                             f"World Bank Indicators API {GDP_CODE} (source 2)", "TRACE modeled corridors"],
                 "variables": ["city population", "GDP per capita PPP", "great-circle distance", "modeled route density"],
