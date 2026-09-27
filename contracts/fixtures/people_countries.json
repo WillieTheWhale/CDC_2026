@@ -9,13 +9,21 @@
     ],
     "people_snapshot": {
       "origin": "bundled",
-      "fetched_at": null
+      "fetched_at": null,
+      "version": "49e9214ca5b00e65cde254296d15ae176686b5410bd1870eea9dffbf5a2818ac",
+      "source_commit": null,
+      "records": {
+        "people": 3099,
+        "organizations": 229,
+        "connections": 216
+      },
+      "stale": false
     }
   },
   "data": [
     {
       "iso3": "AFG",
-      "total": 3,
+      "total": 5,
       "visible": 0
     },
     {
@@ -34,9 +42,24 @@
       "visible": 4
     },
     {
+      "iso3": "BHS",
+      "total": 2,
+      "visible": 2
+    },
+    {
+      "iso3": "BIH",
+      "total": 9,
+      "visible": 0
+    },
+    {
+      "iso3": "BOL",
+      "total": 10,
+      "visible": 0
+    },
+    {
       "iso3": "BRA",
-      "total": 36,
-      "visible": 19
+      "total": 101,
+      "visible": 21
     },
     {
       "iso3": "CAN",
@@ -44,12 +67,37 @@
       "visible": 0
     },
     {
+      "iso3": "CHL",
+      "total": 12,
+      "visible": 0
+    },
+    {
+      "iso3": "CHN",
+      "total": 35,
+      "visible": 0
+    },
+    {
+      "iso3": "CIV",
+      "total": 6,
+      "visible": 0
+    },
+    {
       "iso3": "COL",
-      "total": 56,
-      "visible": 5
+      "total": 98,
+      "visible": 44
     },
     {
       "iso3": "CRI",
+      "total": 3,
+      "visible": 0
+    },
+    {
+      "iso3": "DOM",
+      "total": 2,
+      "visible": 0
+    },
+    {
+      "iso3": "DZA",
       "total": 3,
       "visible": 0
     },
@@ -59,9 +107,24 @@
       "visible": 1
     },
     {
+      "iso3": "ESP",
+      "total": 1,
+      "visible": 0
+    },
+    {
       "iso3": "GBR",
-      "total": 66,
-      "visible": 30
+      "total": 117,
+      "visible": 81
+    },
+    {
+      "iso3": "GHA",
+      "total": 8,
+      "visible": 0
+    },
+    {
+      "iso3": "GNB",
+      "total": 4,
+      "visible": 0
     },
     {
       "iso3": "GTM",
@@ -69,19 +132,29 @@
       "visible": 2
     },
     {
+      "iso3": "GUM",
+      "total": 2,
+      "visible": 0
+    },
+    {
       "iso3": "HND",
-      "total": 10,
+      "total": 12,
+      "visible": 1
+    },
+    {
+      "iso3": "HTI",
+      "total": 1,
       "visible": 1
     },
     {
       "iso3": "IDN",
-      "total": 18,
+      "total": 41,
       "visible": 2
     },
     {
       "iso3": "IND",
-      "total": 15,
-      "visible": 0
+      "total": 27,
+      "visible": 10
     },
     {
       "iso3": "IRE",
@@ -90,13 +163,13 @@
     },
     {
       "iso3": "ITA",
-      "total": 13,
-      "visible": 0
+      "total": 42,
+      "visible": 1
     },
     {
       "iso3": "JAM",
-      "total": 1,
-      "visible": 0
+      "total": 2,
+      "visible": 1
     },
     {
       "iso3": "KEN",
@@ -105,12 +178,22 @@
     },
     {
       "iso3": "LBN",
+      "total": 7,
+      "visible": 0
+    },
+    {
+      "iso3": "LBR",
       "total": 1,
       "visible": 0
     },
     {
+      "iso3": "MAR",
+      "total": 2,
+      "visible": 0
+    },
+    {
       "iso3": "MEX",
-      "total": 48,
+      "total": 69,
       "visible": 13
     },
     {
@@ -120,7 +203,7 @@
     },
     {
       "iso3": "MNE",
-      "total": 13,
+      "total": 14,
       "visible": 1
     },
     {
@@ -130,8 +213,13 @@
     },
     {
       "iso3": "NGA",
-      "total": 41,
-      "visible": 11
+      "total": 54,
+      "visible": 18
+    },
+    {
+      "iso3": "PAK",
+      "total": 9,
+      "visible": 0
     },
     {
       "iso3": "PAN",
@@ -140,12 +228,37 @@
     },
     {
       "iso3": "PER",
-      "total": 49,
-      "visible": 0
+      "total": 101,
+      "visible": 52
     },
     {
       "iso3": "PHL",
-      "total": 2,
+      "total": 9,
+      "visible": 0
+    },
+    {
+      "iso3": "PRI",
+      "total": 14,
+      "visible": 1
+    },
+    {
+      "iso3": "PRT",
+      "total": 1,
+      "visible": 0
+    },
+    {
+      "iso3": "PRY",
+      "total": 36,
+      "visible": 1
+    },
+    {
+      "iso3": "RUS",
+      "total": 18,
+      "visible": 0
+    },
+    {
+      "iso3": "SEN",
+      "total": 4,
       "visible": 0
     },
     {
@@ -155,27 +268,47 @@
     },
     {
       "iso3": "SYR",
-      "total": 6,
+      "total": 12,
       "visible": 1
     },
     {
       "iso3": "THA",
-      "total": 2,
+      "total": 4,
+      "visible": 0
+    },
+    {
+      "iso3": "TUR",
+      "total": 7,
+      "visible": 0
+    },
+    {
+      "iso3": "TWN",
+      "total": 5,
+      "visible": 0
+    },
+    {
+      "iso3": "TZA",
+      "total": 5,
       "visible": 0
     },
     {
       "iso3": "USA",
-      "total": 320,
+      "total": 897,
       "visible": 8
     },
     {
-      "iso3": "VNM",
-      "total": 55,
+      "iso3": "VIR",
+      "total": 1,
       "visible": 0
     },
     {
+      "iso3": "VNM",
+      "total": 76,
+      "visible": 2
+    },
+    {
       "iso3": "ZAF",
-      "total": 18,
+      "total": 24,
       "visible": 4
     }
   ]

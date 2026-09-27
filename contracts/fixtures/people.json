@@ -7,11 +7,19 @@
       "Curated sample of publicly reported, source-cited people; not a census. Status reflects the cited source as of statusAsOf (charged is not convicted). Locations are country-level associations only.",
       "Connections are listed only where a source documents that specific relationship."
     ],
-    "total": 112,
-    "next_cursor": "WyJbXCJcIiwxLG51bGxdIiwiYWxhdGUga2FmeSBiYWthcmUgYnVra2kiLCJhbGF0ZS1rYWZ5LWJha2FyZS1idWtraSJd",
+    "total": 368,
+    "next_cursor": "WyJbXCJcIiwxLG51bGxdIiwiYWRhbSBtYXJzZGVuIiwidWstdmVuZXRpYy1hZGFtLW1hcnNkZW4tZ21wMjIiXQ",
     "people_snapshot": {
       "origin": "bundled",
-      "fetched_at": null
+      "fetched_at": null,
+      "version": "49e9214ca5b00e65cde254296d15ae176686b5410bd1870eea9dffbf5a2818ac",
+      "source_commit": null,
+      "records": {
+        "people": 3099,
+        "organizations": 229,
+        "connections": 216
+      },
+      "stale": false
     }
   },
   "data": {
@@ -69,194 +77,105 @@
         ]
       },
       {
-        "id": "adelia-putri-salma",
-        "name": "Adelia Putri Salma",
+        "id": "uk-venetic-abdul-ghafar-gmp22",
+        "name": "Abdul Ghafar",
         "aliases": [],
         "status": "convicted",
-        "statusAsOf": "2024-05-28",
-        "roleLabel": "Proceeds recipient; money-laundering conviction and five-year sentence",
+        "statusAsOf": "2022-05-10",
+        "roleLabel": "UK drug-law conviction reported by Greater Manchester Police",
         "prominence": 1,
-        "organizationIds": [
-          "fredy-pratama-network"
-        ],
+        "organizationIds": [],
         "regions": [
           {
-            "iso3": "IDN",
-            "label": "Indonesia",
+            "iso3": "GBR",
+            "label": "United Kingdom",
             "evidence": {
-              "claim": "ANTARA reports an Indonesian court convicted Adelia of receiving proceeds from Indonesian narcotics sales tied to the Fredy network; this was a money-laundering case, not a trafficking conviction.",
-              "period": "before May 2024",
-              "sourceUrl": "https://lampung.antaranews.com/berita/728985/vonis-selebgram-adeia-putri-salma%C2%A0"
+              "claim": "Greater Manchester Police attributes historical drug supply or import conduct in the United Kingdom to Abdul Ghafar; the marker describes that reported conduct, not present location.",
+              "period": "2020",
+              "sourceUrl": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/"
             }
           }
         ],
-        "drugs": [
-          "methamphetamine",
-          "ecstasy"
-        ],
+        "drugs": [],
         "sources": [
           {
-            "url": "https://lampung.antaranews.com/berita/728985/vonis-selebgram-adeia-putri-salma%C2%A0",
-            "title": "Vonis selebgram Adelia Putri Salma",
-            "publisher": "ANTARA News Lampung court photo report",
-            "language": "Indonesian",
-            "publishedAt": "2024-05-16",
-            "claim": "Reports a five-year first-instance sentence for Adelia Putri Salma for receiving proceeds from narcotics sales linked to the Fredy network; this is a money-laundering disposition, not a drug-trafficking conviction."
-          },
-          {
-            "url": "https://www.metrotvnews.com/read/bVDCg2X3-tak-banding-ratu-narkoba-selebgram-adelia-putri-salma-pertimbangkan-ajukan-pk",
-            "title": "Tak Banding, Adelia Putri Salma Pertimbangkan Ajukan PK",
-            "publisher": "Metro TV News quoting defence counsel",
-            "language": "Indonesian",
-            "publishedAt": "2024-05-28",
-            "claim": "Defence counsel says Adelia accepted the first-instance sentence and did not pursue ordinary appeal; possible extraordinary review was discussed, with no verified outcome in this audit."
+            "url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/",
+            "title": "Regional drug suppliers sentenced after EncroChat evidence",
+            "publisher": "Greater Manchester Police",
+            "language": "en",
+            "publishedAt": "2022-05-10",
+            "claim": "Greater Manchester Police individually names Abdul Ghafar and reports a drug-law judgment: admitted Class A drug-supply conspiracy; sentenced to eight years and eight months by 10 May 2022. The article gives the outcome by its publication date, not an exact sentence day."
           }
         ],
         "events": [
           {
-            "id": "adelia-putri-salma-2024-05-28-development",
-            "occurredAt": "2024-05-28",
-            "type": "development",
-            "title": "Accepted first-instance sentence",
-            "summary": "Her lawyer said she did not seek ordinary appeal; an extraordinary review remained a possibility, with no outcome verified here.",
-            "source": {
-              "url": "https://www.metrotvnews.com/read/bVDCg2X3-tak-banding-ratu-narkoba-selebgram-adelia-putri-salma-pertimbangkan-ajukan-pk",
-              "title": "Tak Banding, Adelia Putri Salma Pertimbangkan Ajukan PK",
-              "publisher": "Metro TV News quoting defence counsel",
-              "language": "Indonesian",
-              "publishedAt": "2024-05-28",
-              "claim": "Defence counsel says Adelia accepted the first-instance sentence and did not pursue ordinary appeal; possible extraordinary review was discussed, with no verified outcome in this audit."
-            }
-          },
-          {
-            "id": "adelia-putri-salma-2024-05-16-conviction",
-            "occurredAt": "2024-05-16",
+            "id": "uk-venetic-abdul-ghafar-gmp22-judgment",
+            "occurredAt": "2022-05-10",
             "type": "conviction",
-            "title": "Sentenced in money-laundering case",
-            "summary": "PN Tanjung Karang imposed a five-year sentence for receiving proceeds from narcotics sales linked to the Fredy network.",
+            "title": "Drug-law judgment reported",
+            "summary": "By 2022-05-10 (exact sentence day not stated), Greater Manchester Police reported that Abdul Ghafar admitted Class A drug-supply conspiracy; sentenced to eight years and eight months by 10 May 2022.",
             "source": {
-              "url": "https://lampung.antaranews.com/berita/728985/vonis-selebgram-adeia-putri-salma%C2%A0",
-              "title": "Vonis selebgram Adelia Putri Salma",
-              "publisher": "ANTARA News Lampung court photo report",
-              "language": "Indonesian",
-              "publishedAt": "2024-05-16",
-              "claim": "Reports a five-year first-instance sentence for Adelia Putri Salma for receiving proceeds from narcotics sales linked to the Fredy network; this is a money-laundering disposition, not a drug-trafficking conviction."
+              "url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/",
+              "title": "Regional drug suppliers sentenced after EncroChat evidence",
+              "publisher": "Greater Manchester Police",
+              "language": "en",
+              "publishedAt": "2022-05-10",
+              "claim": "Greater Manchester Police individually names Abdul Ghafar and reports a drug-law judgment: admitted Class A drug-supply conspiracy; sentenced to eight years and eight months by 10 May 2022. The article gives the outcome by its publication date, not an exact sentence day."
             }
           }
         ]
       },
       {
-        "id": "alate-kafy-bakare-bukki",
-        "name": "Alate Kafy Bakare Bukki",
-        "aliases": [
-          "Alate Kafy Zakare Bukki"
-        ],
-        "status": "reported",
-        "statusAsOf": "2026-09-26",
-        "roleLabel": "Court-ordered wanted associate; individual network role not further specified",
+        "id": "uk-venetic-adam-marsden-gmp22",
+        "name": "Adam Marsden",
+        "aliases": [],
+        "status": "convicted",
+        "statusAsOf": "2022-05-10",
+        "roleLabel": "UK drug-law conviction reported by Greater Manchester Police",
         "prominence": 1,
-        "organizationIds": [
-          "barryshine-cocaine-network"
+        "organizationIds": [],
+        "regions": [
+          {
+            "iso3": "GBR",
+            "label": "United Kingdom",
+            "evidence": {
+              "claim": "Greater Manchester Police attributes historical drug supply or import conduct in the United Kingdom to Adam Marsden; the marker describes that reported conduct, not present location.",
+              "period": "2020",
+              "sourceUrl": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/"
+            }
+          }
         ],
-        "regions": [],
-        "drugs": [
-          "cocaine"
-        ],
+        "drugs": [],
         "sources": [
           {
-            "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
-            "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "English",
-            "claim": "NDLEA quotes a 28 January 2025 court order declaring Alate Kafy Bakare Bukki wanted for alleged trafficking activity with Suleiman; the quoted court text spells Bakare as Zakare.",
-            "publishedAt": "2025-02-10"
-          },
-          {
-            "url": "https://ndlea.gov.ng/index.php/wanted_persons",
-            "title": "Wanted Persons",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "English",
-            "claim": "NDLEA’s undated live wanted roster reviewed 26 September 2026 lists ALATE KAFY BAKARE BUKKI; it does not establish present whereabouts or conviction."
+            "url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/",
+            "title": "Regional drug suppliers sentenced after EncroChat evidence",
+            "publisher": "Greater Manchester Police",
+            "language": "en",
+            "publishedAt": "2022-05-10",
+            "claim": "Greater Manchester Police individually names Adam Marsden and reports a drug-law judgment: admitted Class A drug-supply conspiracy; sentenced to nine years and eight months by 10 May 2022. The article gives the outcome by its publication date, not an exact sentence day."
           }
         ],
         "events": [
           {
-            "id": "alate-kafy-bakare-bukki-2025-01-28-development",
-            "occurredAt": "2025-01-28",
-            "type": "development",
-            "title": "Court order declared wanted",
-            "summary": "NDLEA quoted the Federal High Court order declaring Alate wanted over alleged trafficking activity with Suleiman. No conviction was verified.",
+            "id": "uk-venetic-adam-marsden-gmp22-judgment",
+            "occurredAt": "2022-05-10",
+            "type": "conviction",
+            "title": "Drug-law judgment reported",
+            "summary": "By 2022-05-10 (exact sentence day not stated), Greater Manchester Police reported that Adam Marsden admitted Class A drug-supply conspiracy; sentenced to nine years and eight months by 10 May 2022.",
             "source": {
-              "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
-              "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
-              "publisher": "Nigeria National Drug Law Enforcement Agency",
-              "language": "English",
-              "claim": "NDLEA quotes a 28 January 2025 court order declaring Alate Kafy Bakare Bukki wanted for alleged trafficking activity with Suleiman; the quoted court text spells Bakare as Zakare.",
-              "publishedAt": "2025-02-10"
+              "url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/",
+              "title": "Regional drug suppliers sentenced after EncroChat evidence",
+              "publisher": "Greater Manchester Police",
+              "language": "en",
+              "publishedAt": "2022-05-10",
+              "claim": "Greater Manchester Police individually names Adam Marsden and reports a drug-law judgment: admitted Class A drug-supply conspiracy; sentenced to nine years and eight months by 10 May 2022. The article gives the outcome by its publication date, not an exact sentence day."
             }
           }
         ]
       }
     ],
     "organizations": [
-      {
-        "id": "barryshine-cocaine-network",
-        "name": "Barryshine cocaine network",
-        "aliases": [
-          "Barryshine drug cartel"
-        ],
-        "regions": [
-          "NGA"
-        ],
-        "sources": [
-          {
-            "url": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested",
-            "title": "Wanted drug baron behind 4 cocaine shipments to Saudi Arabia, Qatar arrested",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "English",
-            "claim": "NDLEA alleges Suleiman led the cocaine network, reports his 26 August 2024 arrest, directly describes Olanrewaju and Oluwafemi as alleged recruiters, and names individual 2022 and 2024 courier cases. Its allegations are not convictions of these five people.",
-            "publishedAt": "2024-09-13"
-          },
-          {
-            "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
-            "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "English",
-            "claim": "NDLEA reports a 28 January 2025 Federal High Court order declaring four named associates wanted for alleged drug-trafficking activity with Suleiman and says Suleiman faced multiple criminal charges.",
-            "publishedAt": "2025-02-10"
-          }
-        ]
-      },
-      {
-        "id": "fredy-pratama-network",
-        "name": "Fredy Pratama network",
-        "aliases": [
-          "Miming network"
-        ],
-        "regions": [
-          "IDN",
-          "MYS",
-          "THA"
-        ],
-        "sources": [
-          {
-            "url": "https://tribratanews.lampung.polri.go.id/detail-post/polri-buru-dpo-narkoba-terbesar-10-2-ton-sabu-julukan-the-secret-hingga-cassanova",
-            "title": "Polri Buru DPO Narkoba Terbesar 10,2 ton sabu",
-            "publisher": "Tribratanews Polda Lampung",
-            "language": "Indonesian",
-            "publishedAt": "2023-09-13",
-            "claim": "Polri identifies Fredy Pratama as the alleged head of the drug network, gives his aliases, and says he was wanted; this is an agency allegation."
-          },
-          {
-            "url": "https://m.antaranews.com/amp/berita/5614920/polri-ungkap-peran-frans-antoni-kelola-keuangan-jaringan-fredy-pratama",
-            "title": "Polri ungkap peran Frans Antoni kelola keuangan jaringan Fredy Pratama",
-            "publisher": "ANTARA News reporting Polri statement",
-            "language": "Indonesian",
-            "publishedAt": "2026-06-19",
-            "claim": "Polri identifies Frans Antoni as an alleged finance and field coordinator for Fredy Pratama and reports his 18 June 2026 arrest; Fredy remained wanted as of the report."
-          }
-        ]
-      },
       {
         "id": "uk-donovan-venetic-case",
         "name": "Donovan Liverpool drug-money case",

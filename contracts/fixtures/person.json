@@ -9,7 +9,15 @@
     ],
     "people_snapshot": {
       "origin": "bundled",
-      "fetched_at": null
+      "fetched_at": null,
+      "version": "49e9214ca5b00e65cde254296d15ae176686b5410bd1870eea9dffbf5a2818ac",
+      "source_commit": null,
+      "records": {
+        "people": 3099,
+        "organizations": 229,
+        "connections": 216
+      },
+      "stale": false
     }
   },
   "data": {

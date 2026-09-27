@@ -1479,11 +1479,27 @@ components:
 
     PeopleSnapshot:
       type: object
-      description: Which copy of the People manifest answered. `github-main` is re-read from the repo's main branch at most every TRACE_PEOPLE_REFRESH_SECONDS; `bundled` is the copy packaged with the deployment.
-      required: [origin, fetched_at]
+      description: >
+        Which copy of the People data answered. With TRACE_PEOPLE_REMOTE=1 the backend revalidates in the background
+        at most every TRACE_PEOPLE_REFRESH_SECONDS (requests never wait on the network) and swaps a new copy in
+        atomically, trying in order: the sharded snapshot branch (`github-snapshot`, format trace-people-snapshot/1),
+        the raw manifest on main (`github-main`), the last good copy persisted by this instance (`last-good`), and
+        the manifest packaged with the deployment (`bundled`). Records are served in the manifest's order whatever the origin (snapshot shards carry each record's manifest position).
+      required: [origin, fetched_at, version, source_commit, stale, records]
       properties:
-        origin: { type: string, enum: [github-main, bundled] }
-        fetched_at: { type: [string, "null"], format: date-time, description: "When the github-main copy was last fetched or revalidated; null for bundled." }
+        origin: { type: string, enum: [github-snapshot, github-main, last-good, bundled] }
+        fetched_at: { type: [string, "null"], format: date-time, description: "When this copy was last fetched or revalidated against GitHub (for last-good, when it originally was); null for bundled." }
+        version: { type: [string, "null"], pattern: "^[0-9a-f]{64}$", description: "sha256 of the manifest's canonical JSON (sorted keys, compact, UTF-8): the snapshot index `version`, computed the same way for the other origins, so equal versions mean identical data." }
+        source_commit: { type: [string, "null"], description: "The main commit the snapshot was built from, when the snapshot index names one; null otherwise." }
+        stale: { type: boolean, description: "True when the refresh interval has passed since this copy was last confirmed against GitHub and a refresh is pending or has failed. Always false when remote refresh is off." }
+        records:
+          type: object
+          description: Record counts in this copy after validation (invalid or uncited records are dropped).
+          required: [people, organizations, connections]
+          properties:
+            people: { type: integer, minimum: 0 }
+            organizations: { type: integer, minimum: 0 }
+            connections: { type: integer, minimum: 0 }
 
     PeopleMeta:
       description: ResponseMeta plus the People snapshot provenance; used by every /api/people* response.
