@@ -13,7 +13,7 @@ country label point from the atlas geography.
 
 Design boundary: routes only describe where drugs flow. No column may record checkpoints, patrols,
 seizure odds or any "least watched" attribute; `validate` rejects such text in basis/locator.
-Output: frontend/public/data/us-routes.json.
+Output: frontend/public/data/us-routes.json (map) and seed/us_routes_placed.json (served by /api/us-routes).
 """
 from __future__ import annotations
 
@@ -32,6 +32,7 @@ PLACES = config.RAW / "natural_earth" / "ne_10m_populated_places_simple.geojson"
 STATES = config.RAW / "natural_earth" / "ne_110m_admin_1_states_provinces.geojson"
 GEO = config.REPO / "frontend" / "public" / "geo" / "countries.json"
 OUT = config.REPO / "frontend" / "public" / "data" / "us-routes.json"
+PLACED = config.SEED / "us_routes_placed.json"
 
 DRUGS = {"cocaine", "heroin", "meth", "cannabis", "fentanyl"}
 BASES = {"hidta_assessment", "ndic_market_analysis", "dea_ndta", "court_case"}
@@ -157,7 +158,9 @@ def run() -> dict:
         "sources": sorted({(r["source"]["id"], r["source"]["publisher"], r["source"]["title"], r["source"]["url"])
                            for r in routes}),
     }, "data": {"routes": routes}}
+    text = json.dumps(doc, separators=(",", ":"), ensure_ascii=False)
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(doc, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+    OUT.write_text(text, encoding="utf-8")
+    PLACED.write_text(text, encoding="utf-8")  # served by /api/us-routes (the deploy bundles trace_backend only)
     log.info("us routes: %d written, %d rejected -> %s", len(routes), len(problems), OUT)
     return {"routes": len(routes), "rejected": len(problems)}

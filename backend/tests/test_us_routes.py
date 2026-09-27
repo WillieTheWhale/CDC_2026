@@ -55,3 +55,25 @@ def test_uncited_or_out_of_bounds_rows_are_rejected(tmp_path):
 def test_committed_seed_is_valid():
     routes, problems = us.load()
     assert problems == []
+
+
+def test_api_serves_placed_routes_with_filters():
+    from fastapi.testclient import TestClient
+
+    from trace_backend import contract
+    from trace_backend.api.app import app
+    c = TestClient(app)
+    body = c.get("/api/us-routes").json()
+    contract.validate("UsRoutesResponse", body)
+    assert body["data"]["total"] == len(body["data"]["routes"]) > 0
+    tx = c.get("/api/us-routes", params={"drug": "heroin", "state": "TX"}).json()["data"]["routes"]
+    assert tx and all(r["drug"] == "heroin" and "TX" in (r["from"]["state"], r["to"]["state"]) for r in tx)
+    assert c.get("/api/us-routes", params={"drug": "lsd"}).status_code == 422
+
+
+def test_placed_seed_matches_csv():
+    import json
+    placed = json.loads(us.PLACED.read_text(encoding="utf-8"))["data"]["routes"]
+    routes, _ = us.load()
+    assert [r["id"] for r in placed] == [r["id"] for r in routes]  # rerun `uv run trace us-routes` after editing the CSV
+

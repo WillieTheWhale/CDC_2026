@@ -5,7 +5,7 @@ The route model works country to country, so zoomed-in views are sparse. This fi
 *estimates*, drawn as faint wind-style arrows and never used in any score, count or ranking:
 
 1. Every modeled edge (from A to B) delivers into an **entry city** in B: the city that maximises
-   money / (distance from A's anchor + 300 km), i.e. a rich city on the side facing the route.
+   money / (distance from A's anchor + 300 km)^2, i.e. a rich city on the side facing the route.
    Its supply is the edge weight, volume_norm x confidence / 100.
 2. **Follow the money.** Every other city of 150k+ people is a target with money = population x
    GDP per capita (PPP, World Bank NY.GDP.PCAP.PP.KD, source 2). Each target draws one arrow from
@@ -112,7 +112,9 @@ def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, flo
             origin = anchors.get(e["from"])
             if not cands or origin is None:
                 continue
-            entry = max(cands, key=lambda c: c["money"] / (_km(origin, (c["lon"], c["lat"])) + 300))
+            # squared distance, as in the waves: the cited US route data puts Mexican inflow in Houston/Texas,
+            # not New York (docs/US_ROUTES_VALIDATION.md)
+            entry = max(cands, key=lambda c: c["money"] / (_km(origin, (c["lon"], c["lat"])) + 300) ** 2)
             supply[key(entry)] += e["volume_norm"] * e["confidence"] / 100
         if not supply:
             continue

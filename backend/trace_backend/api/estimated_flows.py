@@ -39,7 +39,7 @@ MAX_KM = 1_500
 SEED_HEADER = "# AI-assisted: generated with Claude Code (Anthropic) by trace_backend.api.estimated_flows. " \
               "See docs/AI_USAGE.md and seed/README.md.\n"
 NOTE = "Estimated local flows for map density only. Not observed, not modeled, not used in any score."
-METHOD = ("Entry city per modeled edge; arrows follow money = city population x GDP per capita "
+METHOD = ("Entry city per modeled edge (money / (km + 300)^2); arrows follow money = city population x GDP per capita "
           f"(PPP), score = supply x money / (1 + km/400)^2, <= {MAX_KM} km, three waves with a per-country quota.")
 NOTES = [NOTE,
          "Cities are placement anchors for drawing arrows (Natural Earth populated places of 150,000+ people), not "

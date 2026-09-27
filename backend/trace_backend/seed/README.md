@@ -92,6 +92,6 @@ words (NDIC HIDTA Drug Market Analyses, HIDTA threat assessments). Every row has
 page, and a verbatim quote (` … ` marks omitted words, used to leave out concealment methods and
 ethnic descriptors). A place is never more precise than the source: state-level when the source
 names a state, the country anchor for a foreign origin. `uv run trace us-routes` validates and places
-the rows and writes `frontend/public/data/us-routes.json` (read by the preview map layer). No row
+the rows and writes `frontend/public/data/us-routes.json` (map layer) and `us_routes_placed.json` (served by `GET /api/us-routes`). No row
 records enforcement presence, checkpoints, or detection; `trace_backend/us/routes.py` rejects that
 wording.

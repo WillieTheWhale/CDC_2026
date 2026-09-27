@@ -27,6 +27,12 @@ SOURCES: dict[str, dict] = {
     "cepii_geodist": {"id": "cepii_geodist", "name": "CEPII GeoDist",
                       "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6",
                       "citation": "Mayer and Zignago (2011), Notes on CEPII's distances measures: the GeoDist database."},
+    "us_route_reports": {"id": "us_route_reports",
+                         "name": "NDIC HIDTA Drug Market Analyses (U.S. DOJ, archived) and HIDTA drug threat assessments",
+                         "url": "https://www.justice.gov/archive/ndic/dmas/",
+                         "citation": "U.S. Department of Justice, National Drug Intelligence Center, HIDTA Drug Market "
+                                     "Analyses 2009/2011; Atlanta-Carolinas HIDTA, 2026 Drug Threat Assessment. Each "
+                                     "route cites its report, PDF page and verbatim quote."},
     "natural_earth": {"id": "natural_earth", "name": "Natural Earth 1:10m populated places and admin-0 label points",
                       "url": "https://github.com/nvkelso/natural-earth-vector",
                       "citation": "Natural Earth (public domain), ne_10m_populated_places_simple and "

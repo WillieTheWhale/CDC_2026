@@ -68,8 +68,33 @@ Bootstrap 95% CI (2,000 resamples of states):
 - **Missing rows:** only drug-specific sentences were extracted, so absence from the documents is not
   evidence of absence.
 
-## Suggested fix (not implemented)
+## Change adopted: squared distance in the entry-city rule (2026-09-27)
 
-Choose the entry city of a land-border edge (MEX to USA, CAN to USA) among cities near the shared
-border rather than the country's richest city. This is route geometry only, with no enforcement
-variable, and it matches the documented pattern of Southwest-border staging.
+The entry city of each modeled edge now maximises money / (km + 300)^2 instead of money / (km + 300). This is
+the same squared decay the arrow waves already use, and only route geometry changes (no enforcement variable).
+It was tested A/B on identical inputs: live API edges plus World Bank GDP per capita PPP fetched on the day. The
+local rebuild is close to, but not byte-identical with, the deployed layer.
+
+| State AUC (2011 edges) | before | after | POP |
+|---|---|---|---|
+| Cannabis | 0.76 | **0.87** | 0.79 |
+| Cocaine | 0.63 | 0.66 | 0.69 |
+| Heroin | 0.68 | 0.73 | 0.69 |
+| Meth | 0.62 | 0.71 | 0.71 |
+
+- **City-level AUC (before → after):** cannabis 0.58 → 0.83, cocaine 0.63 → 0.66, heroin 0.66 → 0.77,
+  meth 0.57 → 0.77.
+- **Confidence:** the bootstrap 95% CI of the gain is [+0.05, +0.21] for cannabis. For the other drugs the gain
+  is positive but the CI includes zero.
+- **Global effect:** 15 of 170 edges worldwide change entry city in 2011.
+  - Mexico to US: Los Angeles → Houston.
+  - Jamaica to US: New York → Miami.
+  - Netherlands to Germany: Frankfurt → Essen.
+  - Tajikistan to Kyrgyzstan: Bishkek → Osh.
+  - Myanmar to China: Shanghai → Chongqing.
+  - Colombia to Ecuador: Guayaquil → Quito. This one looks worse, since Guayaquil is the known cocaine port.
+- **Unchanged:** New York still receives the Canadian and Caribbean cannabis edges, so the border-share gap in
+  finding 3 narrows only a little.
+- **Deployment:** the deployed API picks this up on its next deploy (`backend/scripts/build_vercel.py`). The
+  frontend snapshot files in `frontend/public/data/estimated/` are offline fallbacks; regenerate them with
+  `uv run trace estimate-flows` where the archive is available.
