@@ -189,16 +189,11 @@ live positions, private addresses, travel patterns, local routes or rankings of 
 so users can audit the public context behind organizations named in reports. If that boundary cannot be kept
 in a deployment, the People view should be removed rather than repurposed for enforcement.
 
-Know the mix before you answer the follow-up. As of the 2026-09-27 build it is **862 people across 103 organizations —
-319 convicted, 349 charged, 136 sanctioned** (an official designation, usually OFAC) **and 58 carried only as
-reported**. Two things to say in that order. First, about 93% rest on an official action: a court, an
-indictment or a Treasury listing. Second, the honest concession before a judge finds it — charged entries
-outnumber convicted ones, and the 58 reported rest on journalism rather than any official determination. Each
-carries its source and its status is shown on the record rather than flattened into "trafficker".
+<!-- people:auto -->
+Know the mix before you answer the follow-up. As of the 2026-09-27 build it is **910 people across 118 organizations — 352 convicted, 364 charged, 136 sanctioned** (an official designation, usually OFAC) **and 58 carried only as reported**. Two things to say in that order. First, about 94% rest on an official action: a court, an indictment or a Treasury listing. Second, the honest concession before a judge finds it — charged entries outnumber convicted ones, and the 58 reported rest on journalism rather than any official determination. Each carries its source and its status is shown on the record rather than flattened into "trafficker".
 
-This dataset is growing fast (it was 138 people a few hours before this line was written), so **re-check the
-numbers before judging**: `python3 deck/build.py` prints the current total and writes the full breakdown to
-`deck/data.json` under `people`.
+These figures regenerate on every `python3 deck/build.py`; the dataset has grown fast, so rebuild before judging rather than trusting a number typed by hand.
+<!-- /people:auto -->
 
 As of this build, the repository manifest is ahead of the deployed People snapshots: both live API surfaces
 still report 323 records. A refresh request is logged in `docs/CONTRACT_REQUESTS.md`. Do not present the live

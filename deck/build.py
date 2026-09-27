@@ -317,6 +317,38 @@ def write_cue_cards(content: dict, data: dict) -> None:
     (DECK / "CUE_CARDS.md").write_text("\n".join(out) + "\n", encoding="utf-8")
 
 
+def write_people_block(data: dict) -> None:
+    """QA_PREP quotes the People atlas mix. It changes hourly, so generate it."""
+    ppl = data.get("people")
+    qa = DECK / "QA_PREP.md"
+    if not ppl or not qa.is_file():
+        return
+    s = qa.read_text(encoding="utf-8")
+    a, b = "<!-- people:auto -->", "<!-- /people:auto -->"
+    if a not in s or b not in s:
+        return
+    official = ppl["convicted"] + ppl["charged"] + ppl["sanctioned"]
+    pct = round(100 * official / ppl["total"]) if ppl["total"] else 0
+    more = "charged entries outnumber convicted ones" if ppl["charged"] > ppl["convicted"] \
+        else "most entries are convicted, but a large minority are only charged"
+    block = (
+        f"{a}\n"
+        f"Know the mix before you answer the follow-up. As of the {data['built_at'][:10]} build it is "
+        f"**{ppl['total']:,} people across {ppl['organizations']:,} organizations \u2014 "
+        f"{ppl['convicted']:,} convicted, {ppl['charged']:,} charged, {ppl['sanctioned']:,} sanctioned** "
+        f"(an official designation, usually OFAC) **and {ppl['reported']:,} carried only as reported**. "
+        f"Two things to say in that order. First, about {pct}% rest on an official action: a court, an "
+        f"indictment or a Treasury listing. Second, the honest concession before a judge finds it \u2014 "
+        f"{more}, and the {ppl['reported']:,} reported rest on journalism rather than any official "
+        f"determination. Each carries its source and its status is shown on the record rather than "
+        f"flattened into \"trafficker\".\n\n"
+        f"These figures regenerate on every `python3 deck/build.py`; the dataset has grown fast, so rebuild "
+        f"before judging rather than trusting a number typed by hand.\n"
+        f"{b}"
+    )
+    qa.write_text(s[:s.index(a)] + block + s[s.index(b) + len(b):], encoding="utf-8")
+
+
 def write_placeholders(content: dict, data: dict) -> None:
     used = []
     for sl in content["slides"]:
@@ -389,6 +421,7 @@ def main() -> int:
 
     write_cue_cards(content, data)
     write_placeholders(content, data)
+    write_people_block(data)
 
     total = sum(s["seconds"] for s in content["slides"])
     print(f"deck rebuilt  · {len(content['slides'])} slides · {total//60}:{total%60:02d} "
