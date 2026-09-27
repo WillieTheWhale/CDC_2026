@@ -106,7 +106,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported trial proof that Guzmán Loera led a cartel importing and distributing drugs in the United States; this is a historical U.S. market association, not a claim of physical presence.",
+            "period": "1989–2014 trial period",
+            "sourceUrl": "https://www.justice.gov/archives/opa/pr/joaquin-el-chapo-guzman-sinaloa-cartel-leader-sentenced-life-prison-plus-30-years"
+          }
         }
       ],
       "drugs": [
@@ -183,7 +188,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported Zambada García’s leadership of Sinaloa Cartel drug trafficking into the United States; this is a historical U.S. market association, not a claim of physical presence.",
+            "period": "1989–2024 enterprise period",
+            "sourceUrl": "https://www.justice.gov/usao-sdfl/pr/co-founder-sinaloa-cartel-ismael-el-mayo-zambada-garcia-sentenced-life-prison-engaging"
+          }
         }
       ],
       "drugs": [
@@ -350,7 +360,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported Guzmán López admitted coordinating drugs for smuggling and distribution in the United States; this is a historical U.S. market association, not a claim of physical presence during the scheme.",
+            "period": "after 2016; pleaded guilty July 2025",
+            "sourceUrl": "https://www.justice.gov/usao-ndil/pr/ovidio-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug"
+          }
         }
       ],
       "drugs": [
@@ -414,7 +429,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported Guzmán López admitted coordinating drugs for smuggling and distribution in the United States; this is a historical U.S. market association, not a claim of physical presence during the scheme.",
+            "period": "after 2016; pleaded guilty December 2025",
+            "sourceUrl": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug"
+          }
         }
       ],
       "drugs": [
@@ -539,7 +559,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported López Serrano admitted organizing drugs for importation from Mexico into the United States; this is a historical U.S. market association, not a claim of physical presence during the scheme.",
+            "period": "before January 2018 guilty plea",
+            "sourceUrl": "https://www.justice.gov/archives/opa/pr/sinaloa-cartel-cell-leader-pleads-guilty-involvement-imporatation-tons-narcotics-united"
+          }
         }
       ],
       "drugs": [
@@ -605,7 +630,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported Zambada Niebla oversaw narcotics trafficking into the United States, including supply to the Chicago-area market; this is a historical U.S. market association, not a claim of physical presence.",
+            "period": "1996–2008",
+            "sourceUrl": "https://www.justice.gov/usao-ndil/pr/former-high-ranking-member-sinaloa-drug-cartel-sentenced-15-years-prison-trafficking"
+          }
         }
       ],
       "drugs": [
@@ -649,7 +679,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported Zambada Imperial admitted organizing drugs for importation from Mexico into the United States; this is a historical U.S. market association, not a claim of physical presence during the scheme.",
+            "period": "before April 2021 guilty plea",
+            "sourceUrl": "https://www.justice.gov/usao-sdca/pr/sinaloa-cartel-leader-convicted"
+          }
         }
       ],
       "drugs": [

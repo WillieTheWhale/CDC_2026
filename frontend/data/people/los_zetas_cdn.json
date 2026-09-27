@@ -246,7 +246,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported Treviño Chávez’s guilty plea for drug trafficking throughout Mexico and the United States, including U.S. distribution/importation conspiracies; this is a historical U.S. market association, not a physical-presence claim.",
+            "period": "2016–2022 leadership period",
+            "sourceUrl": "https://www.justice.gov/usao-wdtx/pr/us-attorneys-western-district-texas-and-eastern-district-texas-announce-former-cartel"
+          }
         }
       ],
       "drugs": [
@@ -303,7 +308,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported that Guízar Valencia oversaw cartel drug distribution into the United States and handled proceeds from U.S. cocaine sales; this is a historical U.S. market association, not a physical-presence claim.",
+            "period": "2007–2014 investigation period",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug"
+          }
         }
       ],
       "drugs": [
@@ -547,7 +557,12 @@
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reported trial evidence that Millán Vásquez personally distributed methamphetamine in the United States and oversaw drug importation there; this is historical conduct.",
+            "period": "before July 2015",
+            "sourceUrl": "https://www.justice.gov/usao-wdtx/pr/los-zetas-drug-cartel-sicario-and-piedras-negras-plaza-boss-sentenced-life-federal"
+          }
         }
       ],
       "drugs": [
