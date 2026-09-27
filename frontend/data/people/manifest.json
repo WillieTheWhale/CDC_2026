@@ -530,6 +530,31 @@
       ]
     },
     {
+      "id": "limpopo-groblersdal-alleged-meth-lab-case",
+      "name": "Groblersdal alleged methamphetamine laboratory case",
+      "regions": [
+        "ZAF"
+      ],
+      "sources": [
+        {
+          "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+          "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+          "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+          "language": "English",
+          "publishedAt": "2024-10-13",
+          "claim": "Case 13 reports five named defendants arrested in July 2024 on manufacturing, dealing, and possession allegations tied to a methamphetamine laboratory in South Africa. Its tentative Sinaloa reference does not establish individual affiliation."
+        },
+        {
+          "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+          "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+          "publisher": "SABC News",
+          "language": "English",
+          "publishedAt": "2025-02-19",
+          "claim": "SABC reports all five appeared in February 2025 and their pending case was transferred to regional court."
+        }
+      ]
+    },
+    {
       "id": "los-zetas",
       "name": "Los Zetas",
       "aliases": [
@@ -10275,6 +10300,404 @@
             "claim": "DOJ explicitly names Jose Rodriguez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
             "publishedAt": "2009-11-20"
           }
+        }
+      ]
+    },
+    {
+      "id": "jorge-humberto-gonzales",
+      "name": "Jorge Humberto Gonzales",
+      "status": "charged",
+      "statusAsOf": "2025-02-19",
+      "roleLabel": "SAPS-named alleged methamphetamine-laboratory defendant",
+      "prominence": 1,
+      "organizationIds": [
+        "limpopo-groblersdal-alleged-meth-lab-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "SAPS alleges Jorge Humberto Gonzales participated in the historical 2024 methamphetamine-laboratory activity in South Africa; this is an allegation and not a current location.",
+            "period": "2024",
+            "sourceUrl": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "jorge-humberto-gonzales-2024-07-19-arrest",
+          "occurredAt": "2024-07-19",
+          "type": "arrest",
+          "title": "Arrested in alleged meth laboratory case",
+          "summary": "SAPS reports Jorge Humberto Gonzales was arrested on manufacturing, dealing and possession allegations. Arrest does not establish guilt.",
+          "source": {
+            "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+            "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+            "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+            "language": "English",
+            "publishedAt": "2024-10-13",
+            "claim": "SAPS Case 13 names Jorge Humberto Gonzales, reports arrest on 2024-07-19 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+          }
+        },
+        {
+          "id": "jorge-humberto-gonzales-2025-02-19-court",
+          "occurredAt": "2025-02-19",
+          "type": "charge",
+          "title": "Pending case transferred to regional court",
+          "summary": "SABC reports the five defendants appeared in court and their pending drug case was transferred to regional court. No verdict was reported.",
+          "source": {
+            "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+            "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+            "publisher": "SABC News",
+            "language": "English",
+            "publishedAt": "2025-02-19",
+            "claim": "SABC reports the five accused, including this defendant (SABC later reported this defendant as “Gonzalez Jorge Partida”; spelling and order differ from the SAPS briefing.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+          "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+          "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+          "language": "English",
+          "publishedAt": "2024-10-13",
+          "claim": "SAPS Case 13 names Jorge Humberto Gonzales, reports arrest on 2024-07-19 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+        },
+        {
+          "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+          "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+          "publisher": "SABC News",
+          "language": "English",
+          "publishedAt": "2025-02-19",
+          "claim": "SABC reports the five accused, including this defendant (SABC later reported this defendant as “Gonzalez Jorge Partida”; spelling and order differ from the SAPS briefing.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+        }
+      ]
+    },
+    {
+      "id": "alejandro-gutierrez-lopez",
+      "name": "Alejandro Gutierrez Lopez",
+      "status": "charged",
+      "statusAsOf": "2025-02-19",
+      "roleLabel": "SAPS-named alleged methamphetamine-laboratory defendant",
+      "prominence": 1,
+      "organizationIds": [
+        "limpopo-groblersdal-alleged-meth-lab-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "SAPS alleges Alejandro Gutierrez Lopez participated in the historical 2024 methamphetamine-laboratory activity in South Africa; this is an allegation and not a current location.",
+            "period": "2024",
+            "sourceUrl": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "alejandro-gutierrez-lopez-2024-07-19-arrest",
+          "occurredAt": "2024-07-19",
+          "type": "arrest",
+          "title": "Arrested in alleged meth laboratory case",
+          "summary": "SAPS reports Alejandro Gutierrez Lopez was arrested on manufacturing, dealing and possession allegations. Arrest does not establish guilt.",
+          "source": {
+            "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+            "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+            "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+            "language": "English",
+            "publishedAt": "2024-10-13",
+            "claim": "SAPS Case 13 names Alejandro Gutierrez Lopez, reports arrest on 2024-07-19 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+          }
+        },
+        {
+          "id": "alejandro-gutierrez-lopez-2025-02-19-court",
+          "occurredAt": "2025-02-19",
+          "type": "charge",
+          "title": "Pending case transferred to regional court",
+          "summary": "SABC reports the five defendants appeared in court and their pending drug case was transferred to regional court. No verdict was reported.",
+          "source": {
+            "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+            "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+            "publisher": "SABC News",
+            "language": "English",
+            "publishedAt": "2025-02-19",
+            "claim": "SABC reports the five accused, including this defendant (SABC later reported this defendant as “Gutierrez Lopez Alejandro”; name order differs from the SAPS briefing.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+          "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+          "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+          "language": "English",
+          "publishedAt": "2024-10-13",
+          "claim": "SAPS Case 13 names Alejandro Gutierrez Lopez, reports arrest on 2024-07-19 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+        },
+        {
+          "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+          "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+          "publisher": "SABC News",
+          "language": "English",
+          "publishedAt": "2025-02-19",
+          "claim": "SABC reports the five accused, including this defendant (SABC later reported this defendant as “Gutierrez Lopez Alejandro”; name order differs from the SAPS briefing.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+        }
+      ]
+    },
+    {
+      "id": "simphiwe-melvin-khumalo",
+      "name": "Simphiwe Melvin Khumalo",
+      "status": "charged",
+      "statusAsOf": "2025-02-19",
+      "roleLabel": "SAPS-named alleged methamphetamine-laboratory defendant",
+      "prominence": 1,
+      "organizationIds": [
+        "limpopo-groblersdal-alleged-meth-lab-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "SAPS alleges Simphiwe Melvin Khumalo participated in the historical 2024 methamphetamine-laboratory activity in South Africa; this is an allegation and not a current location.",
+            "period": "2024",
+            "sourceUrl": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "simphiwe-melvin-khumalo-2024-07-19-arrest",
+          "occurredAt": "2024-07-19",
+          "type": "arrest",
+          "title": "Arrested in alleged meth laboratory case",
+          "summary": "SAPS reports Simphiwe Melvin Khumalo was arrested on manufacturing, dealing and possession allegations. Arrest does not establish guilt.",
+          "source": {
+            "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+            "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+            "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+            "language": "English",
+            "publishedAt": "2024-10-13",
+            "claim": "SAPS Case 13 names Simphiwe Melvin Khumalo, reports arrest on 2024-07-19 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+          }
+        },
+        {
+          "id": "simphiwe-melvin-khumalo-2025-02-19-court",
+          "occurredAt": "2025-02-19",
+          "type": "charge",
+          "title": "Pending case transferred to regional court",
+          "summary": "SABC reports the five defendants appeared in court and their pending drug case was transferred to regional court. No verdict was reported.",
+          "source": {
+            "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+            "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+            "publisher": "SABC News",
+            "language": "English",
+            "publishedAt": "2025-02-19",
+            "claim": "SABC reports the five accused, including this defendant (SABC used the shorter “Simphiwe Khumalo” in its February 2025 court report.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+          "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+          "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+          "language": "English",
+          "publishedAt": "2024-10-13",
+          "claim": "SAPS Case 13 names Simphiwe Melvin Khumalo, reports arrest on 2024-07-19 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+        },
+        {
+          "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+          "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+          "publisher": "SABC News",
+          "language": "English",
+          "publishedAt": "2025-02-19",
+          "claim": "SABC reports the five accused, including this defendant (SABC used the shorter “Simphiwe Khumalo” in its February 2025 court report.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+        }
+      ]
+    },
+    {
+      "id": "roelof-frederick-botha",
+      "name": "Roelof Frederick Botha",
+      "status": "charged",
+      "statusAsOf": "2025-03-22",
+      "roleLabel": "Farm owner and alleged methamphetamine-laboratory defendant",
+      "prominence": 2,
+      "organizationIds": [
+        "limpopo-groblersdal-alleged-meth-lab-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "SAPS alleges Roelof Frederick Botha participated in the historical 2024 methamphetamine-laboratory activity in South Africa; this is an allegation and not a current location.",
+            "period": "2024",
+            "sourceUrl": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "roelof-frederick-botha-2024-07-19-arrest",
+          "occurredAt": "2024-07-19",
+          "type": "arrest",
+          "title": "Arrested in alleged meth laboratory case",
+          "summary": "SAPS reports Roelof Frederick Botha was arrested on manufacturing, dealing and possession allegations. Arrest does not establish guilt.",
+          "source": {
+            "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+            "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+            "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+            "language": "English",
+            "publishedAt": "2024-10-13",
+            "claim": "SAPS Case 13 names Roelof Frederick Botha, reports arrest on 2024-07-19 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+          }
+        },
+        {
+          "id": "roelof-frederick-botha-2025-02-19-court",
+          "occurredAt": "2025-02-19",
+          "type": "charge",
+          "title": "Pending case transferred to regional court",
+          "summary": "SABC reports the five defendants appeared in court and their pending drug case was transferred to regional court. No verdict was reported.",
+          "source": {
+            "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+            "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+            "publisher": "SABC News",
+            "language": "English",
+            "publishedAt": "2025-02-19",
+            "claim": "SABC reports the five accused, including this defendant (SABC used the shorter “Frederick Botha”; IOL confirms he was the farm owner and reports a later bail appeal.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+          }
+        },
+        {
+          "id": "roelof-frederick-botha-2025-03-22-bail",
+          "occurredAt": "2025-03-22",
+          "type": "development",
+          "title": "Bail grant reported after appeal",
+          "summary": "IOL reported on 22 March that the High Court had granted Botha bail on appeal while the drug charges remained pending.",
+          "source": {
+            "url": "https://iol.co.za/news/south-africa/2025-03-22-limpopo-farm-owner-in-r2bn-drug-lab-case-released-on-r50k-bail/",
+            "title": "Limpopo farm owner in R2bn drug lab case released on R50k bail",
+            "publisher": "Independent Online / IOL",
+            "language": "English",
+            "publishedAt": "2025-03-22",
+            "claim": "IOL reports the Limpopo High Court overturned the denial of bail and granted Botha R50,000 bail in March 2025 while the criminal case remained pending; bail is not an acquittal or conviction."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+          "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+          "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+          "language": "English",
+          "publishedAt": "2024-10-13",
+          "claim": "SAPS Case 13 names Roelof Frederick Botha, reports arrest on 2024-07-19 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+        },
+        {
+          "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+          "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+          "publisher": "SABC News",
+          "language": "English",
+          "publishedAt": "2025-02-19",
+          "claim": "SABC reports the five accused, including this defendant (SABC used the shorter “Frederick Botha”; IOL confirms he was the farm owner and reports a later bail appeal.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+        },
+        {
+          "url": "https://iol.co.za/news/south-africa/2025-03-22-limpopo-farm-owner-in-r2bn-drug-lab-case-released-on-r50k-bail/",
+          "title": "Limpopo farm owner in R2bn drug lab case released on R50k bail",
+          "publisher": "Independent Online / IOL",
+          "language": "English",
+          "publishedAt": "2025-03-22",
+          "claim": "IOL reports the Limpopo High Court overturned the denial of bail and granted Botha R50,000 bail in March 2025 while the criminal case remained pending; bail is not an acquittal or conviction."
+        }
+      ]
+    },
+    {
+      "id": "ruben-vidan-rodriguez",
+      "name": "Ruben Vidan Rodriguez",
+      "status": "charged",
+      "statusAsOf": "2025-02-19",
+      "roleLabel": "SAPS-named alleged methamphetamine-laboratory defendant",
+      "prominence": 1,
+      "organizationIds": [
+        "limpopo-groblersdal-alleged-meth-lab-case"
+      ],
+      "regions": [
+        {
+          "iso3": "ZAF",
+          "label": "South Africa",
+          "evidence": {
+            "claim": "SAPS alleges Ruben Vidan Rodriguez participated in the historical 2024 methamphetamine-laboratory activity in South Africa; this is an allegation and not a current location.",
+            "period": "2024",
+            "sourceUrl": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "ruben-vidan-rodriguez-2024-07-22-arrest",
+          "occurredAt": "2024-07-22",
+          "type": "arrest",
+          "title": "Arrested in alleged meth laboratory case",
+          "summary": "SAPS reports Ruben Vidan Rodriguez was arrested on manufacturing, dealing and possession allegations. Arrest does not establish guilt.",
+          "source": {
+            "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+            "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+            "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+            "language": "English",
+            "publishedAt": "2024-10-13",
+            "claim": "SAPS Case 13 names Ruben Vidan Rodriguez, reports arrest on 2024-07-22 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+          }
+        },
+        {
+          "id": "ruben-vidan-rodriguez-2025-02-19-court",
+          "occurredAt": "2025-02-19",
+          "type": "charge",
+          "title": "Pending case transferred to regional court",
+          "summary": "SABC reports the five defendants appeared in court and their pending drug case was transferred to regional court. No verdict was reported.",
+          "source": {
+            "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+            "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+            "publisher": "SABC News",
+            "language": "English",
+            "publishedAt": "2025-02-19",
+            "claim": "SABC reports the five accused, including this defendant (SABC later reported this defendant as “Ruben Vidal Rodriguez”; middle-name spelling differs from the SAPS briefing.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.saps.gov.za/dpci/announcementdetails.php?dnid=537",
+          "title": "DPCI second-quarter 2024/25 briefing, Case 13",
+          "publisher": "South African Police Service, Directorate for Priority Crime Investigation",
+          "language": "English",
+          "publishedAt": "2024-10-13",
+          "claim": "SAPS Case 13 names Ruben Vidan Rodriguez, reports arrest on 2024-07-22 on allegations of manufacturing, dealing and possession of illicit drugs in the alleged South African methamphetamine laboratory case; the statement reports no conviction."
+        },
+        {
+          "url": "https://www.sabcnews.com/sabcnews/five-accused-drug-lords-appear-in-groblersdal-magistrates-court/",
+          "title": "Five accused drug lords appear in Groblersdal Magistrate’s Court",
+          "publisher": "SABC News",
+          "language": "English",
+          "publishedAt": "2025-02-19",
+          "claim": "SABC reports the five accused, including this defendant (SABC later reported this defendant as “Ruben Vidal Rodriguez”; middle-name spelling differs from the SAPS briefing.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
         }
       ]
     },
