@@ -80,6 +80,34 @@ def exposure_score(raw_total: pd.Series, ref_max: float) -> pd.Series:
     return (100 * np.log1p(raw_total / EPS) / np.log1p(ref_max / EPS)).clip(0, 100)
 
 
+def risk_score(exposure, vulnerability, protection):
+    """Score from the rounded (1 dp) components, rounded to 1 dp; shared with the simulator (api/simulate.py)."""
+    return (WEIGHTS["exposure"] * exposure + WEIGHTS["vulnerability"] * vulnerability
+            + WEIGHTS["protection"] * (100 - protection)).round(1)
+
+
+def exposure_world(edges: pd.DataFrame, preds: pd.DataFrame, prod: pd.DataFrame,
+                   fut_year: int) -> tuple[pd.DataFrame, pd.DataFrame, int]:
+    """Edges and production the exposure is computed over: observed edges up to the forecast year plus model
+    predictions for it; forecast-year production = that year's if present, else the latest year's.
+    Returns (edges, production, production year used for the forecast year)."""
+    pe = preds.rename(columns={"kg_pred": "kg"})[["drug", "from_iso3", "to_iso3", "kg"]].assign(year=fut_year)
+    fut_prod = prod[prod["year"] == fut_year]
+    prod_year = fut_year
+    if fut_prod.empty:
+        prod_year = int(prod["year"].max())
+        fut_prod = prod[prod["year"] == prod_year].assign(year=fut_year)
+    prod_all = pd.concat([prod[prod["year"] < fut_year], fut_prod], ignore_index=True)
+    all_edges = pd.concat([edges[["drug", "from_iso3", "to_iso3", "kg", "year"]], pe], ignore_index=True)
+    return all_edges, prod_all, prod_year
+
+
+def exposure_totals(edges: pd.DataFrame, prod: pd.DataFrame, year: int) -> tuple[pd.Series, pd.Series]:
+    """(flow totals, production totals) by (drug, year) for one year: the denominators exposure_raw uses."""
+    e, p = edges[edges["year"] == year], prod[prod["year"] == year]
+    return e.groupby(["drug", "year"])["kg"].sum(), p.groupby(["drug", "year"])["prod_kg"].sum()
+
+
 def vulnerability(panel: pd.DataFrame, countries: pd.DataFrame, years: list[int]) -> pd.DataFrame:
     p = panel[panel["year"].isin(years)].copy()
     comps = []
@@ -219,15 +247,13 @@ def run(refresh: bool = False) -> dict:
     obs_years = sorted(y for y in edges["year"].unique().tolist() if y >= first_hri)
     years = obs_years + [fut_year]
 
-    pe = preds.rename(columns={"kg_pred": "kg"})[["drug", "from_iso3", "to_iso3", "kg"]].assign(year=fut_year)
-    fut_prod = prod[prod["year"] == fut_year]
-    if fut_prod.empty:
-        fut_prod = prod[prod["year"] == prod["year"].max()].assign(year=fut_year)
-    prod_all = pd.concat([prod[prod["year"] < fut_year], fut_prod], ignore_index=True)
-    all_edges = pd.concat([edges[["drug", "from_iso3", "to_iso3", "kg", "year"]], pe], ignore_index=True)
+    all_edges, prod_all, fut_prod_year = exposure_world(edges, preds, prod, fut_year)
     ex = exposure_raw(all_edges, prod_all, years)
     tot = ex.groupby(["iso3", "year"])["raw"].sum()
     ref_max = float(tot.max())
+    # the scaling used here, so the simulator (api/simulate.py) reproduces these scores exactly
+    db.write_table("risk_meta", pd.DataFrame([{"ref_max": ref_max, "forecast_year": fut_year,
+                                               "forecast_prod_year": fut_prod_year}]))
 
     grid = pd.MultiIndex.from_product([countries["iso3"], years], names=["iso3", "year"]).to_frame(index=False)
     grid["exposure_raw"] = tot.reindex(pd.MultiIndex.from_frame(grid[["iso3", "year"]])).fillna(0).values
@@ -243,8 +269,7 @@ def run(refresh: bool = False) -> dict:
     prot = protection_at(hri, grid)
     grid["protection"] = prot["protection"].fillna(0).astype(float).values
     grid["hri_year"] = prot["hri_year"].values
-    grid["score"] = (WEIGHTS["exposure"] * grid["exposure"] + WEIGHTS["vulnerability"] * grid["vulnerability"]
-                     + WEIGHTS["protection"] * (100 - grid["protection"])).round(1)
+    grid["score"] = risk_score(grid["exposure"], grid["vulnerability"], grid["protection"])
     grid["rank"] = grid.groupby("year")["score"].rank(ascending=False, method="first").astype(int)
     grid["tier"] = grid["score"].map(tier)
     grid = grid.sort_values(["iso3", "year"])

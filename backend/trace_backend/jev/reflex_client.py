@@ -11,6 +11,7 @@ import re
 
 from .base import Classification, JevClassifier
 from .mock import _find
+from .quantity import size_from_text
 
 SIZES = ["small", "notable", "major", "record"]
 
@@ -62,10 +63,17 @@ class ReflexClassifier(JevClassifier):
         if orig and orig == dest:
             orig = None
         size_score = a["size"].score / 3
+        size = SIZES[int(round(a["size"].score))]
+        if a["event_type"].choice == "seizure":  # stated quantities: arithmetic in code, not in the model
+            stated = size_from_text(state)
+            if stated:
+                size, size_score = stated, SIZES.index(stated) / 3
+        else:  # size is defined only for seizures; every other event is "small" by the label definition
+            size, size_score = "small", 0.0
         conf = (a["is_event"].noul + a["event_type"].confidence + a["drug"].confidence) / 3
         return Classification(
             is_event=a["is_event"].noul, event_type=a["event_type"].choice,
             event_type_conf=a["event_type"].confidence, drug=a["drug"].choice, drug_conf=a["drug"].confidence,
             origin=orig, transit=None, destination=dest, location=dest or orig or (cands[0] if cands else None),
-            size=SIZES[int(round(a["size"].score))], size_score=round(size_score, 3),
+            size=size, size_score=round(size_score, 3),
             route_mentioned=a["route_mentioned"].noul, confidence=round(conf, 3))

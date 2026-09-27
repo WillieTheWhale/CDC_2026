@@ -56,10 +56,14 @@ class Engine:
         self.risk = db.read_table("risk_scores")
         self.names = db.read_table("countries").set_index("iso3")["name"].to_dict()
         self.X = F.build(self.ctx.edges, self.inputs)
+        # the saved risk board is the source of truth: same scaling, same edges/production world as spillover.run
+        meta = db.read_table("risk_meta").iloc[0]
+        self.ref_max = float(meta["ref_max"])
+        self.world_edges, self.world_prod, _ = SP.exposure_world(
+            self.ctx.edges, db.read_table("predictions"), self.prod, int(meta["forecast_year"]))
         years = sorted(self.ctx.edges["year"].unique())
-        all_raw = SP.exposure_raw(self.ctx.edges, self.prod, years).groupby(["iso3", "year"])["raw"].sum()
-        self.ref_max = float(all_raw.max())
-        self.years = [int(y) + 1 for y in years]  # target years we can simulate
+        risk_years = set(self.risk["year"].astype(int))
+        self.years = [int(y) + 1 for y in years if int(y) + 1 in risk_years]  # target years we can simulate
         self._base: dict[int, pd.DataFrame] = {}
 
     def predict(self, X: pd.DataFrame) -> pd.DataFrame:
@@ -73,18 +77,25 @@ class Engine:
             self._base[base_year] = self.predict(self.X[self.X["year"] == base_year])
         return self._base[base_year]
 
-    def scores(self, pred: pd.DataFrame, target: int, prod: pd.DataFrame,
-               totals: tuple[pd.Series, pd.Series] | None = None) -> pd.DataFrame:
+    def raw(self, pred: pd.DataFrame, target: int, prod: pd.DataFrame,
+            totals: tuple[pd.Series, pd.Series]) -> pd.Series:
+        """Raw exposure per iso3 for predicted edges, measured against the saved board's denominators."""
         e = pred.drop(columns="kg").rename(columns={"kg_pred": "kg"})[["drug", "from_iso3", "to_iso3", "kg"]].assign(
             year=target)
-        p = prod.assign(year=target)
-        raw = SP.exposure_raw(e, p, [target], totals).groupby("iso3")["raw"].sum()
-        r = self.risk[self.risk["year"] == min(target, int(self.risk["year"].max()))].set_index("iso3")
-        exp_ = SP.exposure_score(raw.reindex(r.index).fillna(0), self.ref_max)
-        w = SP.WEIGHTS
-        score = w["exposure"] * exp_ + w["vulnerability"] * r["vulnerability"] + w["protection"] * (100 - r["protection"])
-        out = pd.DataFrame({"score": score.round(1)})
-        out["rank"] = out["score"].rank(ascending=False, method="first").astype(int)
+        return SP.exposure_raw(e, prod, [target], totals).groupby("iso3")["raw"].sum()
+
+    def risk_deltas(self, target: int, raw_b: pd.Series, raw_s: pd.Series) -> pd.DataFrame:
+        """Baseline = the saved risk board for `target`; scenario = the saved raw exposure moved by the modelled
+        change (x raw_s / raw_b; + raw_s where the modelled baseline is 0), scored with spillover's own scaling and
+        formula. For the forecast year raw_b equals the saved raw, so this is raw_s; no change => identical score."""
+        r = self.risk[self.risk["year"] == target].set_index("iso3")
+        b, s = raw_b.reindex(r.index).fillna(0), raw_s.reindex(r.index).fillna(0)
+        saved = r["exposure_raw"]
+        scen = (saved * s / b.where(b > 0)).fillna(saved + s - b).clip(lower=0)
+        exp_s = SP.exposure_score(scen, self.ref_max).round(1)
+        out = pd.DataFrame({"score_b": r["score"], "rank_b": r["rank"],
+                            "score_s": SP.risk_score(exp_s, r["vulnerability"], r["protection"])})
+        out["rank_s"] = out["score_s"].rank(ascending=False, method="first").astype(int)
         return out
 
     def run(self, shocks: list[SH.Shock], target: int | None) -> dict:
@@ -113,17 +124,15 @@ class Engine:
                           "baseline_probability": round(float(r.p_b), 4), "scenario_probability": round(float(r.p_s), 4),
                           "delta_pct": round(float(r.delta_pct), 1)} for r in ch.itertuples()]
 
-        prod_b = self.prod[self.prod["year"] == base_year]
+        # production and denominators exactly as spillover.run used them for the target year
+        prod_b = self.world_prod[self.world_prod["year"] == target]
         prod_s = prod_b.copy()
         for sh in shocks:
             if sh.type == "cultivation":
                 for d in SH.resolve_drug(sh, self.prod):
                     prod_s.loc[(prod_s["iso3"] == sh.iso3) & (prod_s["drug"] == d), "prod_kg"] *= max(sh.value, 0)
-        tot = (base.groupby("drug")["kg_pred"].sum().to_frame().assign(year=target).set_index("year", append=True)["kg_pred"],
-               prod_b.groupby("drug")["prod_kg"].sum().to_frame().assign(year=target).set_index("year", append=True)[
-                   "prod_kg"])
-        sb, ss = self.scores(base, target, prod_b, tot), self.scores(scen, target, prod_s, tot)
-        rd = sb.join(ss, lsuffix="_b", rsuffix="_s")
+        tot = SP.exposure_totals(self.world_edges, self.world_prod, target)
+        rd = self.risk_deltas(target, self.raw(base, target, prod_b, tot), self.raw(scen, target, prod_s, tot))
         rd = rd.dropna()
         rd["delta"] = (rd["score_s"] - rd["score_b"]).round(1)
         rd = rd[rd["delta"].abs() >= 0.1]
