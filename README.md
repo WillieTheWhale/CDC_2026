@@ -15,7 +15,7 @@ TRACE maps trafficking routes for cocaine and crack, heroin, meth, and cannabis;
 | Data questions | [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md), [skills/world-bank-indicators-api/SKILL.md](skills/world-bank-indicators-api/SKILL.md) |
 | Handoff prompts | [docs/HANDOFF_PROMPT.md](docs/HANDOFF_PROMPT.md) |
 | Blockers and workarounds | [docs/BLOCKERS.md](docs/BLOCKERS.md) |
-| Presenting | [deck/README.md](deck/README.md), [deck/CUE_CARDS.md](deck/CUE_CARDS.md), [deck/QA_PREP.md](deck/QA_PREP.md) |
+| Presenting | [docs/METHODS_EXPLAINED.md](docs/METHODS_EXPLAINED.md) (every method and equation, feature by feature), [deck/README.md](deck/README.md), [deck/CUE_CARDS.md](deck/CUE_CARDS.md), [deck/QA_PREP.md](deck/QA_PREP.md) |
 | Rules and rubric | [docs/CDC_RULES.md](docs/CDC_RULES.md), [docs/AI_USAGE.md](docs/AI_USAGE.md) |
 
 ## Layout
