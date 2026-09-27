@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 784,
-    "associations": 644,
-    "evidenced": 644,
+    "people": 964,
+    "associations": 807,
+    "evidenced": 807,
     "missing": 0,
     "invalid": 0
   },
@@ -19,6 +19,20 @@
       "people": 10,
       "associations": 10,
       "evidenced": 10,
+      "missing": 0,
+      "invalid": 0
+    },
+    "argentina_novelino_cordoba_2026.json": {
+      "people": 34,
+      "associations": 34,
+      "evidenced": 34,
+      "missing": 0,
+      "invalid": 0
+    },
+    "australia_cdpp_drug_cases_2013_2019.json": {
+      "people": 25,
+      "associations": 25,
+      "evidenced": 25,
       "missing": 0,
       "invalid": 0
     },
@@ -85,6 +99,27 @@
       "missing": 0,
       "invalid": 0
     },
+    "doj_corpus_reviewed_2026.json": {
+      "people": 53,
+      "associations": 53,
+      "evidenced": 53,
+      "missing": 0,
+      "invalid": 0
+    },
+    "east_southern_africa_court_cases_2013_2026.json": {
+      "people": 20,
+      "associations": 20,
+      "evidenced": 20,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ecuador_colombia_growth_2026.json": {
+      "people": 28,
+      "associations": 28,
+      "evidenced": 28,
+      "missing": 0,
+      "invalid": 0
+    },
     "eureka_italy.json": {
       "people": 8,
       "associations": 8,
@@ -110,6 +145,13 @@
       "people": 10,
       "associations": 10,
       "evidenced": 10,
+      "missing": 0,
+      "invalid": 0
+    },
+    "historical_ofac_2004_crosschecked.json": {
+      "people": 20,
+      "associations": 3,
+      "evidenced": 3,
       "missing": 0,
       "invalid": 0
     },
@@ -326,8 +368,8 @@
   },
   "byCountry": {
     "KEN": {
-      "associations": 5,
-      "evidenced": 5,
+      "associations": 12,
+      "evidenced": 12,
       "missing": 0,
       "invalid": 0
     },
@@ -337,9 +379,15 @@
       "missing": 0,
       "invalid": 0
     },
+    "ARG": {
+      "associations": 34,
+      "evidenced": 34,
+      "missing": 0,
+      "invalid": 0
+    },
     "AUS": {
-      "associations": 26,
-      "evidenced": 26,
+      "associations": 51,
+      "evidenced": 51,
       "missing": 0,
       "invalid": 0
     },
@@ -350,26 +398,38 @@
       "invalid": 0
     },
     "COL": {
-      "associations": 41,
-      "evidenced": 41,
+      "associations": 56,
+      "evidenced": 56,
       "missing": 0,
       "invalid": 0
     },
     "MEX": {
-      "associations": 47,
-      "evidenced": 47,
+      "associations": 48,
+      "evidenced": 48,
       "missing": 0,
       "invalid": 0
     },
     "USA": {
-      "associations": 194,
-      "evidenced": 194,
+      "associations": 247,
+      "evidenced": 247,
       "missing": 0,
       "invalid": 0
     },
     "BRA": {
       "associations": 36,
       "evidenced": 36,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ZAF": {
+      "associations": 18,
+      "evidenced": 18,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ECU": {
+      "associations": 15,
+      "evidenced": 15,
       "missing": 0,
       "invalid": 0
     },
@@ -409,6 +469,18 @@
       "missing": 0,
       "invalid": 0
     },
+    "AFG": {
+      "associations": 3,
+      "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
+    "JAM": {
+      "associations": 1,
+      "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
     "MNE": {
       "associations": 13,
       "evidenced": 13,
@@ -433,18 +505,6 @@
       "missing": 0,
       "invalid": 0
     },
-    "ZAF": {
-      "associations": 5,
-      "evidenced": 5,
-      "missing": 0,
-      "invalid": 0
-    },
-    "ECU": {
-      "associations": 2,
-      "evidenced": 2,
-      "missing": 0,
-      "invalid": 0
-    },
     "GTM": {
       "associations": 2,
       "evidenced": 2,
@@ -452,12 +512,6 @@
       "invalid": 0
     },
     "ARE": {
-      "associations": 2,
-      "evidenced": 2,
-      "missing": 0,
-      "invalid": 0
-    },
-    "AFG": {
       "associations": 2,
       "evidenced": 2,
       "missing": 0,
