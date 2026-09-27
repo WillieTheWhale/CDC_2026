@@ -7,11 +7,67 @@
       "Curated sample of publicly reported, source-cited people; not a census. Status reflects the cited source as of statusAsOf (charged is not convicted). Locations are country-level associations only.",
       "Connections are listed only where a source documents that specific relationship."
     ],
-    "total": 68,
-    "next_cursor": "WyJbXCJcIiwgMSwgbnVsbF0iLCAiYW5kclx1MDBlOSBjYXJsb3MgY2FyZG9zbyBkdWFydGUiLCAiYW5kcmUtY2FybG9zLWNhcmRvc28tZHVhcnRlIl0"
+    "total": 112,
+    "next_cursor": "WyJbXCJcIiwxLG51bGxdIiwiYWxhdGUga2FmeSBiYWthcmUgYnVra2kiLCJhbGF0ZS1rYWZ5LWJha2FyZS1idWtraSJd",
+    "people_snapshot": {
+      "origin": "bundled",
+      "fetched_at": null
+    }
   },
   "data": {
     "people": [
+      {
+        "id": "aaron-james-john-o-sullivan-uk-venetic-growth",
+        "name": "Aaron James John O’Sullivan",
+        "status": "convicted",
+        "statusAsOf": "2025-02-03",
+        "roleLabel": "Convicted cocaine-supply and laundering associate",
+        "prominence": 1,
+        "organizationIds": [
+          "uk-donovan-venetic-case"
+        ],
+        "regions": [
+          {
+            "iso3": "GBR",
+            "label": "United Kingdom",
+            "evidence": {
+              "claim": "Crown Prosecution Service describes Aaron James John O’Sullivan as having helped Donovan supply cocaine and launder proceeds in England; legal outcome is separately stated in the source.",
+              "period": "2019-12–2020-06",
+              "sourceUrl": "https://www.cps.gov.uk/cps/news/gang-members-jailed-laundering-drug-money-liverpool"
+            }
+          }
+        ],
+        "drugs": [
+          "cocaine"
+        ],
+        "sources": [
+          {
+            "url": "https://www.cps.gov.uk/cps/news/gang-members-jailed-laundering-drug-money-liverpool",
+            "title": "Gang members jailed for laundering drug money in Liverpool",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-02-03",
+            "claim": "Aaron James John O’Sullivan: CPS reports guilty pleas to class A supply conspiracy and laundering; seven years six months. The source specifically describes this person as having helped Donovan supply cocaine and launder proceeds in England during 2019-12–2020-06; this is historical UK conduct, not a current position."
+          }
+        ],
+        "events": [
+          {
+            "id": "aaron-james-john-o-sullivan-uk-venetic-growth-2025-02-03-sentence",
+            "occurredAt": "2025-02-03",
+            "type": "sentence",
+            "title": "Drug-case sentence reported",
+            "summary": "CPS reports guilty pleas to class A supply conspiracy and laundering; seven years six months. This is a dated court outcome, not a claim about current custody.",
+            "source": {
+              "url": "https://www.cps.gov.uk/cps/news/gang-members-jailed-laundering-drug-money-liverpool",
+              "title": "Gang members jailed for laundering drug money in Liverpool",
+              "publisher": "Crown Prosecution Service",
+              "language": "en",
+              "publishedAt": "2025-02-03",
+              "claim": "Aaron James John O’Sullivan: CPS reports guilty pleas to class A supply conspiracy and laundering; seven years six months. The source specifically describes this person as having helped Donovan supply cocaine and launder proceeds in England during 2019-12–2020-06; this is historical UK conduct, not a current position."
+            }
+          }
+        ]
+      },
       {
         "id": "adelia-putri-salma",
         "name": "Adelia Putri Salma",
@@ -26,7 +82,12 @@
         "regions": [
           {
             "iso3": "IDN",
-            "label": "Indonesia"
+            "label": "Indonesia",
+            "evidence": {
+              "claim": "ANTARA reports an Indonesian court convicted Adelia of receiving proceeds from Indonesian narcotics sales tied to the Fredy network; this was a money-laundering case, not a trafficking conviction.",
+              "period": "before May 2024",
+              "sourceUrl": "https://lampung.antaranews.com/berita/728985/vonis-selebgram-adeia-putri-salma%C2%A0"
+            }
           }
         ],
         "drugs": [
@@ -135,56 +196,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "andre-carlos-cardoso-duarte",
-        "name": "André Carlos Cardoso Duarte",
-        "status": "charged",
-        "statusAsOf": "2025-08-08",
-        "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
-        "prominence": 1,
-        "organizationIds": [
-          "operacao-column-accused-association"
-        ],
-        "regions": [
-          {
-            "iso3": "BRA",
-            "label": "Brazil",
-            "evidence": {
-              "claim": "MPDFT names André Carlos Cardoso Duarte as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
-              "period": "2025",
-              "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
-            }
-          }
-        ],
-        "drugs": [],
-        "events": [
-          {
-            "id": "andre-carlos-cardoso-duarte-2025-07-22-charge",
-            "occurredAt": "2025-07-22",
-            "type": "charge",
-            "title": "Court accepted MPDFT complaint",
-            "summary": "MPDFT says a court accepted charges against André Carlos Cardoso Duarte for association for interstate drug trafficking and money laundering.",
-            "source": {
-              "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
-              "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
-              "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
-              "language": "Portuguese",
-              "publishedAt": "2025-08-08",
-              "claim": "MPDFT explicitly names André Carlos Cardoso Duarte among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
-            }
-          }
-        ],
-        "sources": [
-          {
-            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
-            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
-            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
-            "language": "Portuguese",
-            "publishedAt": "2025-08-08",
-            "claim": "MPDFT explicitly names André Carlos Cardoso Duarte among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
-          }
-        ]
       }
     ],
     "organizations": [
@@ -247,22 +258,19 @@
         ]
       },
       {
-        "id": "operacao-column-accused-association",
-        "name": "Operação Column accused drug-trafficking association",
-        "aliases": [
-          "Operação Column"
-        ],
+        "id": "uk-donovan-venetic-case",
+        "name": "Donovan Liverpool drug-money case",
         "regions": [
-          "BRA"
+          "GBR"
         ],
         "sources": [
           {
-            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
-            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
-            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
-            "language": "Portuguese",
-            "publishedAt": "2025-08-08",
-            "claim": "MPDFT says its complaint against 16 named defendants concerns an alleged interstate drug-trafficking association operating in Brazil; it reports the complaint was accepted on 22 July 2025."
+            "url": "https://www.cps.gov.uk/cps/news/gang-members-jailed-laundering-drug-money-liverpool",
+            "title": "Gang members jailed for laundering drug money in Liverpool",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-02-03",
+            "claim": "Official release documents this UK drug case and identifies named participants; individual roles are evaluated in their own profiles."
           }
         ]
       }

@@ -6,12 +6,31 @@
     "notes": [
       "Curated sample of publicly reported, source-cited people; not a census. Status reflects the cited source as of statusAsOf (charged is not convicted). Locations are country-level associations only.",
       "Connections are listed only where a source documents that specific relationship."
-    ]
+    ],
+    "people_snapshot": {
+      "origin": "bundled",
+      "fetched_at": null
+    }
   },
   "data": [
     {
+      "iso3": "AFG",
+      "total": 3,
+      "visible": 0
+    },
+    {
+      "iso3": "ARE",
+      "total": 2,
+      "visible": 0
+    },
+    {
+      "iso3": "ARG",
+      "total": 34,
+      "visible": 1
+    },
+    {
       "iso3": "AUS",
-      "total": 26,
+      "total": 51,
       "visible": 4
     },
     {
@@ -20,43 +39,68 @@
       "visible": 19
     },
     {
+      "iso3": "CAN",
+      "total": 32,
+      "visible": 0
+    },
+    {
       "iso3": "COL",
-      "total": 28,
+      "total": 56,
+      "visible": 5
+    },
+    {
+      "iso3": "CRI",
+      "total": 3,
+      "visible": 0
+    },
+    {
+      "iso3": "ECU",
+      "total": 15,
       "visible": 1
     },
     {
       "iso3": "GBR",
-      "total": 9,
-      "visible": 3
+      "total": 66,
+      "visible": 30
     },
     {
       "iso3": "GTM",
-      "total": 2,
-      "visible": 0
+      "total": 17,
+      "visible": 2
+    },
+    {
+      "iso3": "HND",
+      "total": 10,
+      "visible": 1
     },
     {
       "iso3": "IDN",
-      "total": 6,
+      "total": 18,
       "visible": 2
     },
     {
       "iso3": "IND",
-      "total": 2,
+      "total": 15,
       "visible": 0
     },
     {
       "iso3": "IRE",
-      "total": 6,
+      "total": 5,
       "visible": 4
     },
     {
       "iso3": "ITA",
-      "total": 9,
+      "total": 13,
+      "visible": 0
+    },
+    {
+      "iso3": "JAM",
+      "total": 1,
       "visible": 0
     },
     {
       "iso3": "KEN",
-      "total": 5,
+      "total": 12,
       "visible": 2
     },
     {
@@ -66,12 +110,17 @@
     },
     {
       "iso3": "MEX",
-      "total": 49,
-      "visible": 11
+      "total": 48,
+      "visible": 13
+    },
+    {
+      "iso3": "MMR",
+      "total": 8,
+      "visible": 2
     },
     {
       "iso3": "MNE",
-      "total": 14,
+      "total": 13,
       "visible": 1
     },
     {
@@ -81,8 +130,23 @@
     },
     {
       "iso3": "NGA",
-      "total": 20,
+      "total": 41,
       "visible": 11
+    },
+    {
+      "iso3": "PAN",
+      "total": 2,
+      "visible": 0
+    },
+    {
+      "iso3": "PER",
+      "total": 49,
+      "visible": 0
+    },
+    {
+      "iso3": "PHL",
+      "total": 2,
+      "visible": 0
     },
     {
       "iso3": "SRB",
@@ -91,7 +155,7 @@
     },
     {
       "iso3": "SYR",
-      "total": 7,
+      "total": 6,
       "visible": 1
     },
     {
@@ -101,8 +165,18 @@
     },
     {
       "iso3": "USA",
-      "total": 112,
-      "visible": 9
+      "total": 320,
+      "visible": 8
+    },
+    {
+      "iso3": "VNM",
+      "total": 55,
+      "visible": 0
+    },
+    {
+      "iso3": "ZAF",
+      "total": 18,
+      "visible": 4
     }
   ]
 }

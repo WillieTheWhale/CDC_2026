@@ -29,6 +29,25 @@ SOURCES: dict[str, dict] = {
                       "citation": "Mayer and Zignago (2011), Notes on CEPII's distances measures: the GeoDist database."},
     "gdelt": {"id": "gdelt", "name": "GDELT DOC 2.0 API", "url": "https://api.gdeltproject.org/api/v2/doc/doc",
               "citation": "The GDELT Project, DOC 2.0 API (article metadata and publication dates)."},
+    # Evidence drilldown (SQLite v2 research, market and health layers)
+    "trace_research_v2": {"id": "trace_research_v2", "name": "TRACE research layer (SQLite v2 research_* tables)",
+                          "url": "https://github.com/WillieTheWhale/CDC_2026/blob/main/data_collection/schema_v2.md",
+                          "citation": "TRACE retrospective research values, each linked to its exact source rows."},
+    "unodc_wdr_editions": {"id": "unodc_wdr_editions",
+                           "name": "UNODC World Drug Report statistical annex, editions 2012, 2015, 2020 and 2026",
+                           "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026.html",
+                           "citation": "UNODC, World Drug Report statistical annexes (seizure and price/purity "
+                                       "workbooks, each edition as published)."},
+    "unodc_wdr_health": {"id": "unodc_wdr_health", "name": "UNODC World Drug Report 2026 annex 1.2 and 1.4 (prevalence)",
+                         "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026.html",
+                         "citation": "UNODC, World Drug Report 2026, Statistical Annex tables 1.2 and 1.4."},
+    "un_sdg_351": {"id": "un_sdg_351", "name": "UN SDG indicator 3.5.1 treatment intervention coverage",
+                   "url": "https://unstats.un.org/SDGAPI/v1/sdg/Indicator/Data?indicator=3.5.1&pageSize=5000",
+                   "citation": "UN Statistics Division / UNODC, SDG Global Database, indicator 3.5.1 (SH_SUD_TREAT)."},
+    "cdc_vsrr_overdose": {"id": "cdc_vsrr_overdose", "name": "CDC NCHS VSRR provisional drug overdose death counts",
+                          "url": "https://data.cdc.gov/api/views/xkb8-kh2a.json",
+                          "citation": "CDC National Center for Health Statistics, Vital Statistics Rapid Release, "
+                                      "Provisional Drug Overdose Death Counts (xkb8-kh2a)."},
 }
 
 

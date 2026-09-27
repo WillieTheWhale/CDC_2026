@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "generated_at": "2026-09-27T00:52:07+00:00",
+    "model_version": "trace-0.1.0",
+    "sources": [],
+    "notes": [
+      "Curated sample of publicly reported, source-cited people; not a census. Status reflects the cited source as of statusAsOf (charged is not convicted). Locations are country-level associations only.",
+      "Connections are listed only where a source documents that specific relationship."
+    ],
+    "total": 177,
+    "next_cursor": "WyJbXCJcIixcInVubG9jYXRlZFwiXSIsImFkZWxtbyBudW5leiBtb2xpbmEiLCJvZmFjLXNkbi0yNjE2MiJd",
+    "people_snapshot": {
+      "origin": "bundled",
+      "fetched_at": null
+    }
+  },
+  "data": {
+    "people": [
+      {
+        "id": "abdon-federico-rodriguez-garcia",
+        "name": "Abdón Federico Rodríguez García",
+        "aliases": [
+          "Cucho"
+        ],
+        "status": "sanctioned",
+        "statusAsOf": "2025-08-06",
+        "roleLabel": "CDN second-in-command at time of designation",
+        "prominence": 2,
+        "organizationIds": [
+          "los-zetas",
+          "cartel-del-noreste"
+        ],
+        "regions": [],
+        "drugs": [],
+        "sources": [
+          {
+            "url": "https://home.treasury.gov/news/press-releases/sb0219",
+            "title": "Treasury Sanctions Additional Members of Cartel del Noreste",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "English",
+            "publishedAt": "2025-08-06",
+            "claim": "Treasury designated Rodríguez García, identified him as CDN second-in-command, and stated that he had belonged to the group since its Los Zetas period."
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "abigael-gonzalez-valencia",
+        "name": "Abigael González Valencia",
+        "aliases": [
+          "El Cuini",
+          "Cuini",
+          "Boss"
+        ],
+        "status": "charged",
+        "statusAsOf": "2025-08-12",
+        "roleLabel": "Los Cuinis leader; close family associate of CJNG leadership",
+        "prominence": 2,
+        "organizationIds": [
+          "los-cuinis"
+        ],
+        "regions": [],
+        "drugs": [
+          "cocaine"
+        ],
+        "sources": [
+          {
+            "url": "https://www.justice.gov/opa/pr/26-fugitives-wanted-violent-and-serious-crimes-returned-united-states-mexico-including-0",
+            "title": "26 Fugitives Wanted for Violent and Serious Crimes Returned to the United States from Mexico Including Leaders of Foreign Terrorist Organizations",
+            "publisher": "U.S. Department of Justice, Office of Public Affairs",
+            "language": "English",
+            "publishedAt": "2025-08-12",
+            "claim": "DOJ reports González Valencia was transferred from Mexico to U.S. custody and identifies him as a Los Cuinis leader; the listed District of Columbia charges remain allegations."
+          }
+        ],
+        "events": []
+      },
+      {
+        "id": "ofac-sdn-26162",
+        "name": "Adelmo Nunez Molina",
+        "status": "sanctioned",
+        "statusAsOf": "2026-09-23",
+        "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+        "prominence": 3,
+        "organizationIds": [],
+        "regions": [],
+        "drugs": [],
+        "sources": [
+          {
+            "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+            "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2026-09-23",
+            "claim": "OFAC’s 2026-09-23 release retains entry 26162, Adelmo Nunez Molina, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+          },
+          {
+            "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+            "title": "OFAC advanced SDN XML release",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2026-09-23",
+            "claim": "Entry 26162 is an individual under SDNTK; its Created event records 2021-05-12. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+          },
+          {
+            "url": "https://ofac.treasury.gov/recent-actions/20210512",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-05-12",
+            "claim": "OFAC added Adelmo Nunez Molina under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          },
+          {
+            "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+            "title": "OFAC 2021 annual SDN changes archive",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Adelmo Nunez Molina; it is not used to infer ongoing status."
+          },
+          {
+            "url": "https://home.treasury.gov/news/press-releases/jy0172",
+            "title": "Treasury Identifies Sinaloa-based Mexican Narcotics Trafficker That Helps Fuel the U.S. Opioid Epidemic",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2021-05-12",
+            "claim": "Treasury names Adelmo Nunez Molina in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+          }
+        ],
+        "events": [
+          {
+            "id": "ofac-sdn-26162-2021-05-12-sanction",
+            "occurredAt": "2021-05-12",
+            "type": "sanction",
+            "title": "Added to the OFAC SDN List",
+            "summary": "OFAC added Adelmo Nunez Molina under SDNTK on 2021-05-12. This is an administrative sanctions action, not a criminal finding.",
+            "source": {
+              "url": "https://ofac.treasury.gov/recent-actions/20210512",
+              "title": "OFAC original SDN addition",
+              "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+              "language": "en",
+              "publishedAt": "2021-05-12",
+              "claim": "OFAC added Adelmo Nunez Molina under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+            }
+          }
+        ]
+      }
+    ],
+    "organizations": [
+      {
+        "id": "los-cuinis",
+        "name": "Los Cuinis",
+        "regions": [
+          "MEX"
+        ],
+        "sources": [
+          {
+            "url": "https://www.justice.gov/opa/pr/co-founder-los-cuinis-drug-cartel-sentenced-30-years-prison-high-ranking-cartel-de-jalisco",
+            "title": "Co-Founder of Los Cuinis Drug Cartel Sentenced to 30 Years in Prison; High-Ranking CJNG Operative Pleads Guilty",
+            "publisher": "U.S. Department of Justice, Office of Public Affairs",
+            "language": "English",
+            "publishedAt": "2025-06-20",
+            "claim": "DOJ says Los Cuinis financed the founding and growth of CJNG and describes the groups as closely allied."
+          }
+        ]
+      },
+      {
+        "id": "los-zetas",
+        "name": "Los Zetas",
+        "aliases": [
+          "Zetas Cartel"
+        ],
+        "regions": [
+          "MEX"
+        ],
+        "sources": [
+          {
+            "url": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money",
+            "title": "Leaders of Los Zetas Arraigned on Drug Trafficking, Firearm, and Money Laundering Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2025-03-14",
+            "claim": "DOJ describes Los Zetas as a former armed wing of the Gulf Cartel and predecessor to CDN after the Treviño brothers’ arrests."
+          },
+          {
+            "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+            "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2018-11-08",
+            "claim": "DOJ says Los Zetas splintered into two groups after the brothers’ arrests, one of them CDN."
+          }
+        ]
+      },
+      {
+        "id": "cartel-del-noreste",
+        "name": "Cártel del Noreste",
+        "aliases": [
+          "Cartel del Noreste",
+          "CDN"
+        ],
+        "regions": [
+          "MEX"
+        ],
+        "sources": [
+          {
+            "url": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two",
+            "title": "Leader of Cartel Del Noreste and Nephew of Los Zetas Leaders Receives Two Consecutive Life Sentences",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2018-11-08",
+            "claim": "DOJ identifies CDN as one of two groups formed when Los Zetas splintered after the arrests of Z-40 and Z-42."
+          },
+          {
+            "url": "https://home.treasury.gov/news/press-releases/sb0146",
+            "title": "Treasury Sanctions High-Ranking Members of Cartel del Noreste",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "English",
+            "publishedAt": "2025-05-21",
+            "claim": "Treasury identifies CDN as a Mexico-based organization formerly known as Los Zetas."
+          }
+        ]
+      }
+    ],
+    "connections": []
+  }
+}

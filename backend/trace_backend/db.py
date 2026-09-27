@@ -44,6 +44,11 @@ def connect(read_only: bool = False):
         con.close()  # explicit close: Windows keeps files locked otherwise
 
 
+def schema_of(con: sqlite3.Connection, name: str) -> str | None:
+    """Schema (main = derived, then archive) that holds table `name`, or None."""
+    return _schema_of(con, name)
+
+
 def _schema_of(con: sqlite3.Connection, name: str) -> str | None:
     for schema in ("main", "archive"):
         try:

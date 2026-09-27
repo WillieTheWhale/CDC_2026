@@ -34,6 +34,15 @@ FIXTURE_SCHEMAS: dict[str, str] = {
     "people_countries.json": "PeopleCountriesResponse",
     "people_network.json": "PeopleNetworkResponse",
     "person.json": "PersonResponse",
+    "people_unlocated.json": "PeoplePageResponse",
+    "route_evidence.json": "RouteEvidencePageResponse",
+    "route_evidence_item.json": "RouteEvidenceItemResponse",
+    "evidence_values.json": "EvidenceValuesResponse",
+    "evidence_value.json": "EvidenceValueResponse",
+    "evidence_value_market.json": "EvidenceValueResponse",
+    "evidence_health.json": "EvidenceHealthResponse",
+    "evidence_overdose.json": "EvidenceOverdoseResponse",
+    "evidence_research_model.json": "EvidenceResearchModelResponse",
 }
 
 

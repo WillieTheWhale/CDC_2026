@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1336,
-    "associations": 1160,
-    "evidenced": 1160,
+    "people": 1465,
+    "associations": 1239,
+    "evidenced": 1239,
     "missing": 0,
     "invalid": 0
   },
@@ -54,6 +54,13 @@
       "people": 32,
       "associations": 32,
       "evidenced": 32,
+      "missing": 0,
+      "invalid": 0
+    },
+    "caribbean_historical_cases_2000_2024.json": {
+      "people": 41,
+      "associations": 31,
+      "evidenced": 31,
       "missing": 0,
       "invalid": 0
     },
@@ -117,6 +124,13 @@
       "people": 50,
       "associations": 30,
       "evidenced": 30,
+      "missing": 0,
+      "invalid": 0
+    },
+    "doj_corpus_growth4_reviewed_2026.json": {
+      "people": 88,
+      "associations": 48,
+      "evidenced": 48,
       "missing": 0,
       "invalid": 0
     },
@@ -467,6 +481,42 @@
       "missing": 0,
       "invalid": 0
     },
+    "USA": {
+      "associations": 413,
+      "evidenced": 413,
+      "missing": 0,
+      "invalid": 0
+    },
+    "HTI": {
+      "associations": 1,
+      "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    "BHS": {
+      "associations": 2,
+      "evidenced": 2,
+      "missing": 0,
+      "invalid": 0
+    },
+    "PRI": {
+      "associations": 9,
+      "evidenced": 9,
+      "missing": 0,
+      "invalid": 0
+    },
+    "DOM": {
+      "associations": 2,
+      "evidenced": 2,
+      "missing": 0,
+      "invalid": 0
+    },
+    "JAM": {
+      "associations": 2,
+      "evidenced": 2,
+      "missing": 0,
+      "invalid": 0
+    },
     "GTM": {
       "associations": 17,
       "evidenced": 17,
@@ -500,12 +550,6 @@
     "MEX": {
       "associations": 48,
       "evidenced": 48,
-      "missing": 0,
-      "invalid": 0
-    },
-    "USA": {
-      "associations": 349,
-      "evidenced": 349,
       "missing": 0,
       "invalid": 0
     },
@@ -596,12 +640,6 @@
     "TZA": {
       "associations": 5,
       "evidenced": 5,
-      "missing": 0,
-      "invalid": 0
-    },
-    "JAM": {
-      "associations": 1,
-      "evidenced": 1,
       "missing": 0,
       "invalid": 0
     },

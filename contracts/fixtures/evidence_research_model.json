@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "generated_at": "2026-09-27T00:52:07+00:00",
+    "model_version": "trace-0.1.0",
+    "sources": [
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (API source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2",
+        "citation": "World Bank, World Development Indicators, via Indicators API v2 (CC BY 4.0)."
+      },
+      {
+        "id": "trace_research_v2",
+        "name": "TRACE research layer (SQLite v2 research_* tables)",
+        "url": "https://github.com/WillieTheWhale/CDC_2026/blob/main/data_collection/schema_v2.md",
+        "citation": "TRACE retrospective research values, each linked to its exact source rows."
+      },
+      {
+        "id": "unodc_wdr_editions",
+        "name": "UNODC World Drug Report statistical annex, editions 2012, 2015, 2020 and 2026",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026.html",
+        "citation": "UNODC, World Drug Report statistical annexes (seizure and price/purity workbooks, each edition as published)."
+      }
+    ],
+    "notes": [
+      "Seizures reflect enforcement and reporting, not trade volume or route exposure; homicide is general-population, not drug-attributed."
+    ]
+  },
+  "data": {
+    "model_key": "cocaine_seizure_next_homicide_fe_v1",
+    "specification": "homicide_per_100k ~ log1p_seizure_kg + C(iso3) + C(seizure_year)",
+    "outcome": "World Bank general-population homicide rate in year t+1, per 100,000",
+    "predictor": "log(1 + latest published UNODC cocaine seizure kg in year t)",
+    "coefficient": 0.019493570993994874,
+    "standard_error": 0.11839255043916526,
+    "p_value": 0.8692178944724435,
+    "ci_low": -0.2125515639046108,
+    "ci_high": 0.2515387058926005,
+    "n": 1428,
+    "countries": 144,
+    "first_predictor_year": 2006,
+    "last_predictor_year": 2022,
+    "cluster_count": 144,
+    "r_squared": 0.9027436522214517,
+    "caveat": "Retrospective, ecological, noncausal association. Seizures reflect enforcement/reporting, not trade volume or route exposure; homicide is general-population, not drug-attributed. Latest available UNODC annex editions and 2026 World Bank retrieval may revise past years.",
+    "computed_at": "2026-09-26T20:50:58.999303+00:00",
+    "metric_key": "cocaine_seizure_next_homicide",
+    "sample_rows": 1428,
+    "interpretation": "Retrospective ecological association only: not route validation, not a causal estimate and not a prospective forecast test."
+  }
+}

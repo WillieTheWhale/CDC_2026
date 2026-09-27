@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "generated_at": "2026-09-27T00:52:07+00:00",
+    "model_version": "trace-0.1.0",
+    "sources": [
+      {
+        "id": "unodc_wdr_health",
+        "name": "UNODC World Drug Report 2026 annex 1.2 and 1.4 (prevalence)",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026.html",
+        "citation": "UNODC, World Drug Report 2026, Statistical Annex tables 1.2 and 1.4."
+      },
+      {
+        "id": "un_sdg_351",
+        "name": "UN SDG indicator 3.5.1 treatment intervention coverage",
+        "url": "https://unstats.un.org/SDGAPI/v1/sdg/Indicator/Data?indicator=3.5.1&pageSize=5000",
+        "citation": "UN Statistics Division / UNODC, SDG Global Database, indicator 3.5.1 (SH_SUD_TREAT)."
+      }
+    ],
+    "notes": [
+      "Modelled coverage (nature M) is an estimate, not an observed count.",
+      "The 2024 adult prevalence data are sparse and are not a complete country ranking."
+    ]
+  },
+  "data": {
+    "iso3": "MEX",
+    "prevalence": {
+      "total": 168,
+      "rows": [
+        {
+          "substance": "Cannabis",
+          "substance_detail": null,
+          "year": 2002,
+          "year_text": "2002.0",
+          "reference_period": "past_year",
+          "population": "youth",
+          "age_group": "12 -17",
+          "sex": "all",
+          "value_pct": 0.5,
+          "low_pct": null,
+          "high_pct": null,
+          "estimate_status": "source_reported",
+          "estimate_label": "Source-reported national survey value",
+          "method": null,
+          "attribution": "National Adiction Household Survey",
+          "adjustment_note": null,
+          "notes": null,
+          "source": {
+            "source_id": "unodc_1_4",
+            "title": "UNODC World Drug Report 2026 statistical annex 1.4",
+            "publisher": "UNODC",
+            "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/1.4_prevalence_of_drug_use_in_the_youth_population_national_data_national_data.xlsx",
+            "edition_year": 2026
+          },
+          "source_row": {
+            "sheet": "Cannabis",
+            "row_no": 122,
+            "cell_no": 6
+          }
+        },
+        {
+          "substance": "Cocaine",
+          "substance_detail": null,
+          "year": 2002,
+          "year_text": "2002.0",
+          "reference_period": "past_year",
+          "population": "youth",
+          "age_group": "12 - 17",
+          "sex": "all",
+          "value_pct": 0.2,
+          "low_pct": null,
+          "high_pct": null,
+          "estimate_status": "source_reported",
+          "estimate_label": "Source-reported national survey value",
+          "method": null,
+          "attribution": "National Adiction Household Survey",
+          "adjustment_note": null,
+          "notes": null,
+          "source": {
+            "source_id": "unodc_1_4",
+            "title": "UNODC World Drug Report 2026 statistical annex 1.4",
+            "publisher": "UNODC",
+            "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/1.4_prevalence_of_drug_use_in_the_youth_population_national_data_national_data.xlsx",
+            "edition_year": 2026
+          },
+          "source_row": {
+            "sheet": "Cocaine",
+            "row_no": 139,
+            "cell_no": 6
+          }
+        },
+        {
+          "substance": "Amphetamines",
+          "substance_detail": null,
+          "year": 2008,
+          "year_text": "2008.0",
+          "reference_period": "past_year",
+          "population": "general_population",
+          "age_group": "12-65",
+          "sex": "all",
+          "value_pct": 0.09,
+          "low_pct": null,
+          "high_pct": null,
+          "estimate_status": "source_reported",
+          "estimate_label": "Source-reported national survey value",
+          "method": "HHS",
+          "attribution": "Government source",
+          "adjustment_note": null,
+          "notes": null,
+          "source": {
+            "source_id": "unodc_1_2",
+            "title": "UNODC World Drug Report 2026 statistical annex 1.2",
+            "publisher": "UNODC",
+            "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/1.2_prevalence_of_drug_use_in_the_general_population_national_data.xlsx",
+            "edition_year": 2026
+          },
+          "source_row": {
+            "sheet": "Amphetamines",
+            "row_no": 41,
+            "cell_no": 4
+          }
+        }
+      ],
+      "label": "Source-native prevalence observations; populations, ages, methods and reference periods differ and are not directly comparable. Not a complete country ranking."
+    },
+    "treatment_coverage": {
+      "total": 81,
+      "rows": [
+        {
+          "year": 2015,
+          "substance_group": "ATS",
+          "sex": "BOTHSEX",
+          "value_pct": 3.74,
+          "lower_pct": null,
+          "upper_pct": null,
+          "nature_code": "M",
+          "nature_label": "Officially modelled estimate (UN SDG nature code M), not a country-reported observation",
+          "modelled": true,
+          "attribution": "Institute for Health Metrics and Evaluation/Annual Report Questionnaire",
+          "footnotes": [
+            "Subnational"
+          ],
+          "source": {
+            "source_id": "unsd_sdg_3_5_1",
+            "title": "UN SDG indicator 3.5.1 treatment intervention coverage",
+            "publisher": "UN Statistics Division / UNODC",
+            "url": "https://unstats.un.org/SDGAPI/v1/sdg/Indicator/Data?indicator=3.5.1&pageSize=5000",
+            "edition_year": null
+          },
+          "source_row_no": 1987
+        },
+        {
+          "year": 2016,
+          "substance_group": "DRUG_TOTAL",
+          "sex": "BOTHSEX",
+          "value_pct": 15.02,
+          "lower_pct": null,
+          "upper_pct": null,
+          "nature_code": "C",
+          "nature_label": "Country-reported data (UN SDG nature code C)",
+          "modelled": false,
+          "attribution": "SDG prepub/SDG prepub",
+          "footnotes": [],
+          "source": {
+            "source_id": "unsd_sdg_3_5_1",
+            "title": "UN SDG indicator 3.5.1 treatment intervention coverage",
+            "publisher": "UN Statistics Division / UNODC",
+            "url": "https://unstats.un.org/SDGAPI/v1/sdg/Indicator/Data?indicator=3.5.1&pageSize=5000",
+            "edition_year": null
+          },
+          "source_row_no": 1993
+        }
+      ],
+      "label": "UN SDG 3.5.1 coverage of treatment for drug use disorders (%). nature_code M = officially modelled estimate; C = country-reported data.",
+      "nature_labels": {
+        "M": "Officially modelled estimate (UN SDG nature code M), not a country-reported observation",
+        "C": "Country-reported data (UN SDG nature code C)"
+      }
+    }
+  }
+}

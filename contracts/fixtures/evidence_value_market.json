@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "generated_at": "2026-09-27T00:52:07+00:00",
+    "model_version": "trace-0.1.0",
+    "sources": [
+      {
+        "id": "unodc_wdr_editions",
+        "name": "UNODC World Drug Report statistical annex, editions 2012, 2015, 2020 and 2026",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026.html",
+        "citation": "UNODC, World Drug Report statistical annexes (seizure and price/purity workbooks, each edition as published)."
+      }
+    ],
+    "notes": [
+      "Linked input rows (each aggregate plus its underlying source rows), not independent countries.",
+      "source_publication_year is the source edition, never the TRACE collection date; null where the source does not state one.",
+      "Market values are descriptive price contrasts, not margins, route gradients or corridor signals."
+    ]
+  },
+  "data": {
+    "id": "1",
+    "kind": "market",
+    "metric_key": "retail_wholesale_price_ratio",
+    "label": "Retail to wholesale unit-price ratio: MDMA",
+    "iso3": "GTM",
+    "drug": "MDMA",
+    "year": 2021,
+    "value": 0.8297711843097811,
+    "unit": "ratio",
+    "numerator": null,
+    "denominator": null,
+    "formula": {
+      "expression": "retail_usd_per_gram / wholesale_usd_per_gram",
+      "version": null,
+      "selection_rule": "Named product only; exact country, year, substance, form and 2026 UNODC edition; observed typical retail and wholesale values; both normalized to USD per gram; all repeated rows agree.",
+      "interpretation": "Descriptive contrast between two reported market levels, not a profit margin or corridor signal."
+    },
+    "support_count": 2,
+    "support_count_basis": "Linked input rows (each aggregate plus its underlying source rows), not independent countries.",
+    "observation_year": 2021,
+    "source_publication_year": 2026,
+    "first_publication_year": 2026,
+    "last_publication_year": 2026,
+    "source_title": "UNODC, World Drug Report / Drugs Monitoring Platform, 2026 edition: 8.1_Prices_and_purities_of_drugs.xlsx",
+    "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/8.1_Prices_and_purities_of_drugs.xlsx",
+    "source_key": "market_derived:1",
+    "quality_flags": [],
+    "caveat": "Descriptive contrast between two reported market levels, not a profit margin or corridor signal. Different transaction sizes, sampling frames, and reporting methods limit interpretation.",
+    "revision_label": null,
+    "inputs": [
+      {
+        "role": "retail",
+        "source_table": "market_observations",
+        "source_key": "market_observations:11197",
+        "source_id": "prices",
+        "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/8.1_Prices_and_purities_of_drugs.xlsx",
+        "publication_year": 2026,
+        "observation_year": 2021,
+        "input_value": 6.620502200362412,
+        "input_unit": "usd_per_gram",
+        "transform": "6.620502200362412 Grams -> 6.620502200362412 usd_per_gram",
+        "source_title": "UNODC, World Drug Report / Drugs Monitoring Platform, 2026 edition: 8.1_Prices_and_purities_of_drugs.xlsx",
+        "source_checksum": "7a72676b22b2ba8f44da9850f45e654d1f310c5bb568642193c6667e4ddccebb",
+        "source_row": {
+          "source_id": "prices",
+          "sheet": "Prices in USD",
+          "row_no": 198,
+          "observation": {
+            "observation_id": 11197,
+            "source_id": "prices",
+            "sheet": "Prices in USD",
+            "row_no": 198,
+            "col_no": 0,
+            "iso3": "GTM",
+            "country": "Guatemala",
+            "year": 2021,
+            "drug_group": null,
+            "substance": "MDMA",
+            "form": "unspecified",
+            "market_level": "retail",
+            "measure": "price",
+            "basis": "typical",
+            "original_value": 6.620502200362412,
+            "minimum": null,
+            "maximum": null,
+            "original_unit": "Grams",
+            "normalized_value": 6.620502200362412,
+            "normalized_unit": "usd_per_gram",
+            "original_text": "6.620502200362412",
+            "publisher_estimate": false,
+            "source_row_ref": "prices:Prices in USD:R198"
+          },
+          "cells": [
+            {
+              "col_no": 1,
+              "value_text": "Americas",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 2,
+              "value_text": "Central America",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 3,
+              "value_text": "Guatemala",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 4,
+              "value_text": "“Ecstasy”-type substances",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 5,
+              "value_text": "MDMA",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 6,
+              "value_text": "",
+              "value_number": null,
+              "value_type": "blank",
+              "italic": false
+            },
+            {
+              "col_no": 7,
+              "value_text": "Retail",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 8,
+              "value_text": "2021.0",
+              "value_number": 2021.0,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 9,
+              "value_text": "6.620502200362412",
+              "value_number": 6.620502200362412,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 10,
+              "value_text": "",
+              "value_number": null,
+              "value_type": "blank",
+              "italic": false
+            },
+            {
+              "col_no": 11,
+              "value_text": "",
+              "value_number": null,
+              "value_type": "blank",
+              "italic": false
+            },
+            {
+              "col_no": 12,
+              "value_text": "Grams",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "role": "wholesale",
+        "source_table": "market_observations",
+        "source_key": "market_observations:11460",
+        "source_id": "prices",
+        "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/8.1_Prices_and_purities_of_drugs.xlsx",
+        "publication_year": 2026,
+        "observation_year": 2021,
+        "input_value": 7.978708257830702,
+        "input_unit": "usd_per_gram",
+        "transform": "7978.708257830702 Kilograms -> 7.978708257830702 usd_per_gram",
+        "source_title": "UNODC, World Drug Report / Drugs Monitoring Platform, 2026 edition: 8.1_Prices_and_purities_of_drugs.xlsx",
+        "source_checksum": "7a72676b22b2ba8f44da9850f45e654d1f310c5bb568642193c6667e4ddccebb",
+        "source_row": {
+          "source_id": "prices",
+          "sheet": "Prices in USD",
+          "row_no": 461,
+          "observation": {
+            "observation_id": 11460,
+            "source_id": "prices",
+            "sheet": "Prices in USD",
+            "row_no": 461,
+            "col_no": 0,
+            "iso3": "GTM",
+            "country": "Guatemala",
+            "year": 2021,
+            "drug_group": null,
+            "substance": "MDMA",
+            "form": "unspecified",
+            "market_level": "wholesale",
+            "measure": "price",
+            "basis": "typical",
+            "original_value": 7978.708257830702,
+            "minimum": null,
+            "maximum": null,
+            "original_unit": "Kilograms",
+            "normalized_value": 7.978708257830702,
+            "normalized_unit": "usd_per_gram",
+            "original_text": "7978.708257830702",
+            "publisher_estimate": false,
+            "source_row_ref": "prices:Prices in USD:R461"
+          },
+          "cells": [
+            {
+              "col_no": 1,
+              "value_text": "Americas",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 2,
+              "value_text": "Central America",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 3,
+              "value_text": "Guatemala",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 4,
+              "value_text": "“Ecstasy”-type substances",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 5,
+              "value_text": "MDMA",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 6,
+              "value_text": "",
+              "value_number": null,
+              "value_type": "blank",
+              "italic": false
+            },
+            {
+              "col_no": 7,
+              "value_text": "Wholesale",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 8,
+              "value_text": "2021.0",
+              "value_number": 2021.0,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 9,
+              "value_text": "7978.708257830702",
+              "value_number": 7978.708257830702,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 10,
+              "value_text": "",
+              "value_number": null,
+              "value_type": "blank",
+              "italic": false
+            },
+            {
+              "col_no": 11,
+              "value_text": "",
+              "value_number": null,
+              "value_type": "blank",
+              "italic": false
+            },
+            {
+              "col_no": 12,
+              "value_text": "Kilograms",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ],
+    "market": {
+      "substance": "MDMA",
+      "form": "unspecified",
+      "market_level": null,
+      "source": {
+        "source_id": "prices",
+        "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/8.1_Prices_and_purities_of_drugs.xlsx",
+        "edition": 2026,
+        "sha256": "7a72676b22b2ba8f44da9850f45e654d1f310c5bb568642193c6667e4ddccebb",
+        "retrieved_at": "2026-09-26T18:28:02Z",
+        "citation": "UNODC, World Drug Report / Drugs Monitoring Platform",
+        "license_note": "UNODC World Drug Report statistical annex; source citation required; workbook source notes preserved"
+      }
+    },
+    "regression_sample": null
+  }
+}

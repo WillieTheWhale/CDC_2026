@@ -50,7 +50,7 @@ uv run trace serve            # http://127.0.0.1:8000, docs at /docs
 uv run trace serve --host 0.0.0.0 --port 8000
 ```
 
-The API serves precomputed JSON, so the demo never waits on a model. Only `POST /api/simulate` runs a model, in about 1 second. Endpoints: `/api/meta`, `/api/countries`, `/api/routes`, `/api/country/{iso3}`, `/api/risk`, `/api/prices`, `POST /api/simulate`, `/api/experiments/afghan-ban`, `/api/metrics`, `/api/livewire`, `WS /ws/livewire`, `POST /api/command`, and People: `/api/people`, `/api/people/countries`, `/api/people/network`, `/api/people/{person_id}` (reads the curated `frontend/data/people/manifest.json`, or `TRACE_PEOPLE_MANIFEST`).
+The API serves precomputed JSON, so the demo never waits on a model. Only `POST /api/simulate` runs a model, in about 1 second. Endpoints: `/api/meta`, `/api/countries`, `/api/routes`, `/api/country/{iso3}`, `/api/risk`, `/api/prices`, `POST /api/simulate`, `/api/experiments/afghan-ban`, `/api/metrics`, `/api/livewire`, `WS /ws/livewire`, `POST /api/command`, and People: `/api/people`, `/api/people/countries`, `/api/people/network`, `/api/people/{person_id}` (reads the curated `frontend/data/people/manifest.json`, or `TRACE_PEOPLE_MANIFEST`; with `TRACE_PEOPLE_REMOTE=1`, as on Vercel, it re-reads GitHub main every `TRACE_PEOPLE_REFRESH_SECONDS`, default 600). Route evidence: `/api/route-evidence`, `/sources`, `/{evidence_id}`. Evidence drilldown: `/api/evidence/values`, `/api/evidence/value/{value_id}`, `/api/evidence/health/{iso3}`, `/api/evidence/overdose`, `/api/evidence/research-model`.
 
 Frontend: set `NEXT_PUBLIC_API_URL=http://localhost:8000` in `frontend/.env.local`.
 

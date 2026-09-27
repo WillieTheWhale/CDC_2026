@@ -98,9 +98,10 @@ def get_routes(drug: str | None = Query(None, pattern="^(cocaine|heroin|meth|can
     if news:  # live news hits are an independent confidence signal (+10)
         edges = [({**e, "signals": {**e["signals"], "news": True}, "confidence": min(100.0, e["confidence"] + 10)}
                   if (e["drug"], e["from"], e["to"]) in news and not e["signals"]["news"] else e) for e in edges]
-    edges = [e for e in edges if (drug is None or e["drug"] == drug) and e["confidence"] >= min_confidence]
+    from .route_evidence import KG_NOTE, link_edges
+    edges = link_edges([e for e in edges if (drug is None or e["drug"] == drug) and e["confidence"] >= min_confidence])
     notes = ["Corridor volumes are estimated from national seizure totals over documented corridors "
-             "(UNODC public IDS has no route fields); kg is seizure-scale, not total trafficked volume."]
+             "(UNODC public IDS has no route fields); kg is seizure-scale, not total trafficked volume.", KG_NOTE]
     if mode == "predicted":
         notes.append("Predicted with the LightGBM hurdle model; drivers are SHAP values beyond last year's volume.")
     return envelope({"year": year, "mode": mode, "drug": drug, "edges": edges}, *ROUTE_SOURCES, *WB_SOURCES,
@@ -118,7 +119,8 @@ def get_country(iso3: str, year: int | None = None):
     year = year or max(years)
     if year not in years:
         not_found("year_not_available", f"No profile for {year}. Available: {years[0]}-{years[-1]}")
-    edges = s.edges_for_year(year)
+    from .route_evidence import link_edges
+    edges = link_edges([e for e in s.edges_for_year(year) if iso3 in (e["from"], e["to"])])
     det = s.risk_details.get(iso3, {}).get(str(year))
     profile = {
         "country": c, "year": year, "indicators": s.indicator_groups(iso3, year),
@@ -176,8 +178,8 @@ def _livewire_state():
     return state()
 
 
-# Live Wire (T8), simulator / command bar (T9) and People routers
-for _mod in ("livewire", "simulate", "people"):
+# Live Wire (T8), simulator / command bar (T9), People, route evidence and evidence drilldown routers
+for _mod in ("livewire", "simulate", "people", "route_evidence", "evidence"):
     try:
         app.include_router(__import__(f"trace_backend.api.{_mod}", fromlist=["router"]).router)
     except ImportError as _exc:  # module not built yet

@@ -47,6 +47,8 @@ deck/        judging pitch deck (rebuilds itself from this repo)
 | API deployment | backend | done: live at https://trace-api-six.vercel.app (Vercel; keyword Live Wire classifier, backlog replay) |
 | People API | backend | done (`/api/people`, `/countries`, `/network`, `/{person_id}`; parity with the frontend route handlers) |
 | Website deployment | backend (deploy only) | live at https://trace-atlas-gules.vercel.app (Vercel project `trace-atlas`, root `frontend/`, `NEXT_PUBLIC_API_URL` = live API) |
+| Route evidence API | backend | done (`/api/route-evidence`: 51 direct reported pairs, 234 interpreted corridors, 4 narrative claims; `evidence_ids`/`kg_basis` on route edges) |
+| Evidence drilldown API | backend | done (`/api/evidence/*`: 3,995 research and market values traced to formula, inputs and original cells; health and CDC overdose with the required labels) |
 | Frontend shell + map | frontend | not started |
 | Country Screen + Risk Board | frontend | not started |
 | Simulator, Live Wire, Market Board | frontend | not started |

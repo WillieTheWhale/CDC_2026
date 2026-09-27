@@ -71,3 +71,154 @@ def test_every_record_is_cited_and_country_level_only():
     for p in d["people"]:
         assert not {"lat", "lon", "latitude", "longitude", "address"} & set(p)
         assert all(set(r) <= {"iso3", "label", "evidence"} for r in p["regions"])
+
+
+def test_unlocated_lists_every_tier_of_countryless_people():
+    expected = {p["id"] for p in people.dataset()["people"] if not p["regions"]}
+    first = client.get("/api/people", params={"unlocated": 1, "limit": 5}).json()
+    assert first["meta"]["total"] == len(expected)
+    rows = _all({"unlocated": 1, "limit": 5, "zoom": 1})
+    assert {p["id"] for p in rows} == expected and len(rows) == len(expected)
+    assert all(p["regions"] == [] for p in rows)
+    keys = [(people._fold(p["name"]), p["id"]) for p in rows]
+    assert keys == sorted(keys)
+    target = next((p for p in people.dataset()["people"] if not p["regions"] and p.get("aliases")), None)
+    if target:
+        got = _all({"unlocated": 1, "search": target["aliases"][0][:6], "limit": 250})
+        assert target["id"] in {p["id"] for p in got} and all(not p["regions"] for p in got)
+
+
+def test_unlocated_conflicts_and_cursor_binding():
+    for extra in ({"country": "COL"}, {"bbox": "-80,0,-70,10"}):
+        r = client.get("/api/people", params={"unlocated": 1, **extra})
+        assert r.status_code == 400 and "unlocated cannot be combined" in r.json()["error"]["message"]
+    assert client.get("/api/people", params={"unlocated": "true"}).status_code == 400
+    cur = client.get("/api/people", params={"unlocated": 1, "limit": 1}).json()["meta"]["next_cursor"]
+    if cur:
+        assert client.get("/api/people", params={"zoom": 3, "cursor": cur}).status_code == 400
+        assert client.get("/api/people", params={"unlocated": 1, "cursor": cur}).status_code == 200
+
+
+# --- synthetic datasets: life/legal status validation and remote refresh (never touches the network) ---
+
+SRC = {"url": "https://example.org/a", "title": "T", "publisher": "P", "language": "en", "claim": "C"}
+
+
+def _person(pid: str, name: str, **kw) -> dict:
+    return {"id": pid, "name": name, "status": "charged", "statusAsOf": "2024-01-01", "prominence": 3,
+            "organizationIds": [], "regions": [], "drugs": [], "sources": [SRC], **kw}
+
+
+def test_normalize_life_and_legal_status():
+    legal = [{"status": "charged", "date": "2019-03-04", "qualifier": "Indictment; allegation only", "source": SRC},
+             {"status": "convicted", "date": "2021", "qualifier": "Jury verdict", "jurisdiction": "US", "source": SRC},
+             {"status": "charged", "date": "2019-02-30", "qualifier": "bad date", "source": SRC},
+             {"status": "pending", "date": "2020-01-01", "qualifier": "bad status", "source": SRC},
+             {"status": "charged", "date": "2020-01-01", "qualifier": "", "source": SRC},
+             {"status": "charged", "date": "2020-01-01", "qualifier": "no source"}]
+    raw = {"organizations": [], "connections": [], "people": [
+        _person("a", "A", lifeStatus={"value": "deceased", "deathDate": "2022-05", "source": SRC}, legalHistory=legal),
+        _person("b", "B", lifeStatus={"value": "unknown", "deathDate": "2022-05-01", "source": SRC}),
+        _person("c", "C", lifeStatus={"value": "deceased"}, legalHistory="nope"),
+        _person("d", "D", lifeStatus={"value": "alive", "source": SRC}),
+        _person("e", "E", status="deceased")]}
+    got = {p["id"]: p for p in people.normalize(raw)["people"]}
+    assert set(got) == {"a", "b", "c", "d"}  # death is not a legal status
+    a = got["a"]
+    assert a["status"] == "charged" and a["statusAsOf"] == "2024-01-01" and a["lifeStatus"]["value"] == "deceased"
+    assert [(e["status"], e["date"]) for e in a["legalHistory"]] == [("convicted", "2021"), ("charged", "2019-03-04")]
+    assert all("lifeStatus" not in got[k] for k in "bcd")
+    assert got["c"]["legalHistory"] == [] and "legalHistory" not in got["b"]
+    ev = [{"id": i, "occurredAt": d, "type": "charge", "title": "t", "summary": "s", "source": SRC}
+          for i, d in (("x", "2023-02-30"), ("y", "2023-13-01"))]
+    assert [e["id"] for e in people.normalize({"people": [_person("f", "F", events=ev)]})["people"][0]["events"]] == ["x"]
+
+
+@pytest.fixture
+def remote(monkeypatch):
+    """TRACE_PEOPLE_REMOTE=1 with a fake GitHub fetch; `payload` None means 304, an exception means failure."""
+    class Remote:
+        calls = 0
+        payload = {"people": [_person("r1", "Remote One")]}
+
+        def fetch(self, url, etag, timeout):
+            self.calls += 1
+            assert url == people.REMOTE_URL and timeout <= 5
+            if isinstance(self.payload, Exception):
+                raise self.payload
+            return (None, etag) if self.payload is None else (self.payload, "v1")
+
+    r = Remote()
+    monkeypatch.setenv("TRACE_PEOPLE_REMOTE", "1")
+    monkeypatch.setenv("TRACE_PEOPLE_REFRESH_SECONDS", "600")
+    monkeypatch.setattr(people, "_fetch", r.fetch)
+    monkeypatch.setattr(people, "_state", {"data": None, "etag": None, "checked": None})
+    return r
+
+
+def _expire():
+    people._state["checked"] -= 10_000
+
+
+def test_remote_refresh_ttl_304_and_last_good_copy(remote):
+    body = client.get("/api/people", params={"unlocated": 1}).json()
+    assert [p["id"] for p in body["data"]["people"]] == ["r1"]
+    snap = body["meta"]["people_snapshot"]
+    assert snap["origin"] == "github-main" and snap["fetched_at"]
+    client.get("/api/people/countries")
+    assert remote.calls == 1  # cached within the TTL
+    remote.payload = None  # 304 Not Modified keeps the data
+    _expire()
+    assert client.get("/api/people/r1").json()["meta"]["people_snapshot"]["origin"] == "github-main"
+    assert remote.calls == 2
+    remote.payload = OSError("offline")  # an error keeps the last good copy
+    _expire()
+    assert client.get("/api/people/r1").status_code == 200 and remote.calls == 3
+
+
+def test_remote_failure_falls_back_to_bundled(remote, monkeypatch):
+    bundled = people._bundled()
+    remote.payload = TimeoutError()
+    meta = client.get("/api/people", params={"limit": 1, "zoom": 3}).json()["meta"]
+    assert meta["people_snapshot"] == {"origin": "bundled", "fetched_at": None}
+    assert meta["total"] == len(bundled["people"])
+    client.get("/api/people", params={"limit": 1})
+    assert remote.calls == 1  # failures back off instead of retrying on every request
+    remote.payload = {"people": [{"id": "bad"}]}  # nothing valid: treated as a failure
+    _expire()
+    assert client.get("/api/people", params={"limit": 1}).json()["meta"]["people_snapshot"]["origin"] == "bundled"
+    monkeypatch.setenv("TRACE_PEOPLE_REFRESH_SECONDS", "0")  # 0 disables the remote fetch
+    _expire()
+    client.get("/api/people", params={"limit": 1})
+    assert remote.calls == 2
+
+
+def test_cursor_survives_a_refresh(remote):
+    remote.payload = {"people": [_person(f"p{i}", f"Person {i}") for i in (1, 3, 5)]}
+    cur = client.get("/api/people", params={"unlocated": 1, "limit": 2}).json()["meta"]["next_cursor"]
+    remote.payload = {"people": [_person(f"p{i}", f"Person {i}") for i in range(6)]}
+    _expire()
+    rest = client.get("/api/people", params={"unlocated": 1, "limit": 10, "cursor": cur}).json()
+    assert [p["id"] for p in rest["data"]["people"]] == ["p4", "p5"] and rest["meta"]["total"] == 6
+
+
+def test_fetch_enforces_an_overall_deadline(monkeypatch):
+    clock = [0.0]
+
+    class Slow:
+        headers: dict = {}
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc):
+            return False
+
+        def read(self, n):
+            clock[0] += 2
+            return b" "
+
+    monkeypatch.setattr(people.time, "monotonic", lambda: clock[0])
+    monkeypatch.setattr(people.urllib.request, "urlopen", lambda req, timeout: Slow())
+    with pytest.raises(TimeoutError):
+        people._fetch(people.REMOTE_URL, None, 5)
