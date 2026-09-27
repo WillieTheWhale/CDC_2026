@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2978,
-    "associations": 1951,
-    "evidenced": 1951,
+    "people": 3022,
+    "associations": 1970,
+    "evidenced": 1970,
     "missing": 0,
     "invalid": 0
   },
@@ -610,6 +610,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "vietnam_congly_trafficking_verdicts_2022_2025.json": {
+      "people": 44,
+      "associations": 19,
+      "evidenced": 19,
+      "missing": 0,
+      "invalid": 0
+    },
     "vietnam_government_court_2014_2016.json": {
       "people": 61,
       "associations": 2,
@@ -947,8 +954,8 @@
       "invalid": 0
     },
     "VNM": {
-      "associations": 57,
-      "evidenced": 57,
+      "associations": 76,
+      "evidenced": 76,
       "missing": 0,
       "invalid": 0
     },
