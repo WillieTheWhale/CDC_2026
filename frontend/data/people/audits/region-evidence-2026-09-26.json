@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 696,
-    "associations": 587,
-    "evidenced": 587,
+    "people": 784,
+    "associations": 644,
+    "evidenced": 644,
     "missing": 0,
     "invalid": 0
   },
@@ -33,6 +33,13 @@
       "people": 5,
       "associations": 3,
       "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
+    "canada_rcmp_drug_cases_2025_2026.json": {
+      "people": 32,
+      "associations": 32,
+      "evidenced": 32,
       "missing": 0,
       "invalid": 0
     },
@@ -197,6 +204,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "ofac_third100_kingpin_sanctions_only.json": {
+      "people": 31,
+      "associations": 0,
+      "evidenced": 0,
+      "missing": 0,
+      "invalid": 0
+    },
     "operacao_column.json": {
       "people": 16,
       "associations": 16,
@@ -215,6 +229,13 @@
       "people": 6,
       "associations": 6,
       "evidenced": 6,
+      "missing": 0,
+      "invalid": 0
+    },
+    "peru_growth_2026.json": {
+      "people": 25,
+      "associations": 25,
+      "evidenced": 25,
       "missing": 0,
       "invalid": 0
     },
@@ -319,6 +340,12 @@
     "AUS": {
       "associations": 26,
       "evidenced": 26,
+      "missing": 0,
+      "invalid": 0
+    },
+    "CAN": {
+      "associations": 32,
+      "evidenced": 32,
       "missing": 0,
       "invalid": 0
     },
@@ -443,8 +470,8 @@
       "invalid": 0
     },
     "PER": {
-      "associations": 24,
-      "evidenced": 24,
+      "associations": 49,
+      "evidenced": 49,
       "missing": 0,
       "invalid": 0
     },
