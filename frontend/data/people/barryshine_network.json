@@ -49,7 +49,12 @@
       "regions": [
         {
           "iso3": "NGA",
-          "label": "Nigeria"
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Suleiman directed cocaine shipments organized from Nigeria during 2022–2024; this is alleged historical operation, not a current location.",
+            "period": "2022–2024",
+            "sourceUrl": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested"
+          }
         }
       ],
       "drugs": [
@@ -147,7 +152,12 @@
       "regions": [
         {
           "iso3": "NGA",
-          "label": "Nigeria"
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Abdulai recruited a courier in Nigeria for the Barryshine cocaine-export network; this is alleged historical operation.",
+            "period": "2022-11",
+            "sourceUrl": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested"
+          }
         }
       ],
       "drugs": [
@@ -215,7 +225,12 @@
       "regions": [
         {
           "iso3": "NGA",
-          "label": "Nigeria"
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Abidoye recruited couriers in Nigeria for the Barryshine cocaine-export network; this is alleged historical operation.",
+            "period": "2022–2024",
+            "sourceUrl": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested"
+          }
         }
       ],
       "drugs": [

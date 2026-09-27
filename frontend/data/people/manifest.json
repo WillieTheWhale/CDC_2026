@@ -3988,7 +3988,12 @@
       "regions": [
         {
           "iso3": "NGA",
-          "label": "Nigeria"
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Suleiman directed cocaine shipments organized from Nigeria during 2022–2024; this is alleged historical operation, not a current location.",
+            "period": "2022–2024",
+            "sourceUrl": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested"
+          }
         }
       ],
       "drugs": [
@@ -4086,7 +4091,12 @@
       "regions": [
         {
           "iso3": "NGA",
-          "label": "Nigeria"
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Abdulai recruited a courier in Nigeria for the Barryshine cocaine-export network; this is alleged historical operation.",
+            "period": "2022-11",
+            "sourceUrl": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested"
+          }
         }
       ],
       "drugs": [
@@ -4154,7 +4164,12 @@
       "regions": [
         {
           "iso3": "NGA",
-          "label": "Nigeria"
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Abidoye recruited couriers in Nigeria for the Barryshine cocaine-export network; this is alleged historical operation.",
+            "period": "2022–2024",
+            "sourceUrl": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested"
+          }
         }
       ],
       "drugs": [
@@ -9623,7 +9638,12 @@
       "regions": [
         {
           "iso3": "SYR",
-          "label": "Syria (historical association)"
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "U.S. Treasury identified Maher and the Fourth Division he led as facilitators of Captagon production and trafficking in Syria during the Assad era; this is a historical allegation.",
+            "period": "before 2023-03",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1369"
+          }
         }
       ],
       "drugs": [
@@ -9702,7 +9722,12 @@
       "regions": [
         {
           "iso3": "SYR",
-          "label": "Syria (historical association)"
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "Jusoor for Studies identified Qaddour as laundering proceeds from the Fourth Division’s drug-smuggling operations in Syria during the Assad era; this is an attributed historical assessment.",
+            "period": "before 2024-10-31",
+            "sourceUrl": "https://jusoor.sy/en/details/power-in-the-shadows-syrias-fourth-division"
+          }
         }
       ],
       "drugs": [
@@ -9724,6 +9749,14 @@
           "language": "English",
           "publishedAt": "2025-06-30",
           "claim": "OFAC converted Qaddour's Syria sanctions tag to PAARSSR-EO13894, retaining the SDN entry and link to Maher al-Assad as of this action."
+        },
+        {
+          "url": "https://jusoor.sy/en/details/power-in-the-shadows-syrias-fourth-division",
+          "title": "Power in the Shadows: Syria’s Fourth Division",
+          "publisher": "Jusoor for Studies",
+          "language": "English",
+          "claim": "Jusoor identifies Qaddour as laundering proceeds from Fourth Division smuggling in Syria; the assessment is not a criminal judgment.",
+          "publishedAt": "2024-10-31"
         }
       ],
       "events": [
@@ -9761,7 +9794,12 @@
       "regions": [
         {
           "iso3": "SYR",
-          "label": "Syria (historical association)"
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "Al Jazeera reported a former Fourth Division member’s account that Bilal managed drug-smuggling operations in Syria; this is attributed testimony, not a court finding.",
+            "period": "before 2025-03-07",
+            "sourceUrl": "https://www.ajnet.me/encyclopedia/2014/10/29/%D8%A7%D9%84%D9%81%D8%B1%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A"
+          }
         }
       ],
       "drugs": [
@@ -9783,6 +9821,14 @@
           "language": "English",
           "publishedAt": "2025-06-30",
           "claim": "OFAC lists Ghassan Ali Bilal under PAARSSR-EO13894 as former Fourth Division security bureau director as of this action."
+        },
+        {
+          "url": "https://www.ajnet.me/encyclopedia/2014/10/29/%D8%A7%D9%84%D9%81%D8%B1%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A",
+          "title": "الفرقة الرابعة في الجيش السوري.. من إبادة الثورة إلى إمبراطورية الكبتاغون",
+          "publisher": "Al Jazeera Arabic",
+          "language": "Arabic",
+          "claim": "Al Jazeera reports former Fourth Division member Jaafar Jaafar’s testimony alleging Bilal managed drug smuggling in Syria; this remains an attributed allegation.",
+          "publishedAt": "2025-03-07"
         }
       ]
     },
@@ -9800,7 +9846,12 @@
       "regions": [
         {
           "iso3": "SYR",
-          "label": "Syria (historical association)"
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "U.S. Treasury identified Samer as directly overseeing Captagon production facilities in Syria during the Assad era; this is a historical allegation.",
+            "period": "before 2023-03",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1369"
+          }
         }
       ],
       "drugs": [
@@ -9854,12 +9905,7 @@
       "roleLabel": "U.S.-sanctioned in 2023 with a Treasury drug-network allegation; a Syrian court acquitted him of drug trafficking and smuggling in August 2026 for insufficient evidence, while convicting him of unrelated war crimes.",
       "prominence": 2,
       "organizationIds": [],
-      "regions": [
-        {
-          "iso3": "SYR",
-          "label": "Syria (historical association)"
-        }
-      ],
+      "regions": [],
       "drugs": [
         "Captagon (Treasury allegation; drug charges acquitted in 2026)"
       ],
@@ -9951,11 +9997,21 @@
       "regions": [
         {
           "iso3": "LBN",
-          "label": "Lebanon (historical association)"
+          "label": "Lebanon (historical association)",
+          "evidence": {
+            "claim": "U.S. Treasury identified Hamieh as a Lebanon-based Captagon trafficker who facilitated movement of Lebanese-made Captagon; this is an attributed historical allegation.",
+            "period": "before 2024-10",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2648"
+          }
         },
         {
           "iso3": "SYR",
-          "label": "Syria (historical association)"
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "U.S. Treasury identified Hamieh as controlling Captagon production facilities in Syria and facilitating Captagon movement there; this is an attributed historical allegation.",
+            "period": "before 2024-10",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2648"
+          }
         }
       ],
       "drugs": [
@@ -10012,7 +10068,12 @@
       "regions": [
         {
           "iso3": "SYR",
-          "label": "Syria (historical association)"
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "Syrian anti-narcotics officials alleged that Amer oversaw drug manufacture and smuggling through networks in Syria before his 2025 arrest; this is an allegation, not a conviction.",
+            "period": "before 2025-08",
+            "sourceUrl": "https://sana.sy/en/syria/2260844/"
+          }
         }
       ],
       "drugs": [
@@ -19098,7 +19159,12 @@
       "regions": [
         {
           "iso3": "NGA",
-          "label": "Nigeria"
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Imran participated in an attempted cocaine export organized in Nigeria; this is alleged historical operation.",
+            "period": "2024-04",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
         }
       ],
       "drugs": [
@@ -19146,7 +19212,12 @@
       "regions": [
         {
           "iso3": "NGA",
-          "label": "Nigeria"
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Ishola recruited Imran for a cocaine-export attempt organized in Nigeria; this is alleged historical operation.",
+            "period": "2024-04",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
         }
       ],
       "drugs": [
@@ -19194,7 +19265,12 @@
       "regions": [
         {
           "iso3": "NGA",
-          "label": "Nigeria"
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Hamed assisted the Owoalade cocaine-export network in Nigeria; this is alleged historical operation.",
+            "period": "2024-04–2024-05",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
         }
       ],
       "drugs": [
