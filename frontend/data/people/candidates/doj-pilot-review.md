@@ -7,7 +7,7 @@ The companion `doj-pilot-2026-09-26.json` is a **review queue only**. It is outs
 
 - [DOJ News API documentation](https://www.justice.gov/developer/api-documentation/api_v1) permits JSON press-release retrieval, documents `parameters[title]`, and caps pages at 50. It warns that more than four requests per second may degrade service or be blocked. The importer waits at least 350 ms between requests.
 - [DOJ legal policies](https://www.justice.gov/legalpolicies) say DOJ site information is public domain unless otherwise indicated. Attached photographs can have separate rights; this pilot stores **no images**. It stores short normalized source spans, a source article URL and UUID, publication date, and tentative legal event label. It omits article bodies, birth dates, street addresses, arrest locations, and coordinates.
-- Run from `frontend/`: `node scripts/import-doj-people-review.mjs --output data/people/candidates/doj-pilot-2026-09-26.json`. The API is live, so later runs can differ as releases are added or corrected. The committed pilot JSON is the fixed result audited here.
+- This is an archived result from the original sentence-only importer. The expanded importer now requires an explicit checkpoint path and produces the separate `doj-expanded-pilot-2026-09-26.json` review queue. The API is live, so later fresh crawls can differ as releases are added or corrected.
 
 ## Measured pilot
 
