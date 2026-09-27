@@ -257,7 +257,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The NSW casino inquiry describes Moo as a Crown Melbourne junket representative through about 2013 and records his 2013 money-laundering case. This is historical Australian casino activity, not a claim of drug trafficking conviction.",
+            "period": "approximately 1997–2013",
+            "sourceUrl": "https://www.parliament.nsw.gov.au/tp/files/79129/Volume%201%20-%20Inquiry%20under%20section%20143%20of%20the%20Casino%20Control%20Act%201992.pdf"
+          }
         }
       ],
       "drugs": [],
@@ -268,10 +273,34 @@
           "publisher": "New South Wales Independent Liquor and Gaming Authority",
           "language": "en",
           "claim": "The NSW inquiry records Roy Moo’s 2013 money-laundering conviction and finds that the laundered proceeds came from The Company/Sam Gor syndicate."
+        },
+        {
+          "url": "https://rccol.archive.royalcommission.vic.gov.au/sites/default/files/2021-09/Exhibit%C2%A0RC1560%C2%A0Crown%C2%A0Resorts%C2%A0Submissions%C2%A0Bergin%C2%A0Inquiry%C2%A025%C2%A0November%C2%A02020%C2%A0tendered%C2%A027%C2%A0August%C2%A02021.pdf",
+          "title": "Crown Resorts submissions on the Bergin Inquiry, Royal Commission exhibit RC1560",
+          "publisher": "Royal Commission into the Casino Operator and Licence (Victoria)",
+          "language": "en",
+          "claim": "The Royal Commission archive exhibit records that Roy Moo pleaded guilty to money laundering and was sentenced by the County Court of Victoria on 16 December 2013; it does not adjudicate his Sam Gor association."
         }
       ],
       "aliases": [
         "Whye Wah Moo"
+      ],
+      "statusAsOf": "2013-12-16",
+      "events": [
+        {
+          "id": "roy-moo-2013-12-16-sentence",
+          "occurredAt": "2013-12-16",
+          "type": "sentence",
+          "title": "Sentenced for money laundering",
+          "summary": "A Royal Commission archive exhibit records that the County Court of Victoria sentenced Roy Moo on 16 December 2013 after a money-laundering guilty plea. This was a money-laundering case, not a drug-trafficking conviction.",
+          "source": {
+            "url": "https://rccol.archive.royalcommission.vic.gov.au/sites/default/files/2021-09/Exhibit%C2%A0RC1560%C2%A0Crown%C2%A0Resorts%C2%A0Submissions%C2%A0Bergin%C2%A0Inquiry%C2%A025%C2%A0November%C2%A02020%C2%A0tendered%C2%A027%C2%A0August%C2%A02021.pdf",
+            "title": "Crown Resorts submissions on the Bergin Inquiry, Royal Commission exhibit RC1560",
+            "publisher": "Royal Commission into the Casino Operator and Licence (Victoria)",
+            "language": "en",
+            "claim": "The Royal Commission archive exhibit records that Roy Moo pleaded guilty to money laundering and was sentenced by the County Court of Victoria on 16 December 2013; it does not adjudicate his Sam Gor association."
+          }
+        }
       ]
     },
     {
