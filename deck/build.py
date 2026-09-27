@@ -160,6 +160,50 @@ def read_metrics(readme: str, data: dict) -> None:
         data["metrics"]["sea_actual"] = mm.group(3) + "%"
 
 
+def read_reflex(data: dict) -> None:
+    """Reflex's own benchmark results. The deck quotes them, so read the result
+    files the benchmark writes rather than letting a number age in a slide."""
+    m = data["metrics"]
+    obj, src = _json(REPO / "backend" / "trace_backend" / "reflex" / "results" / "real_news_v1.json")
+    if obj:
+        r = (obj.get("results") or {}).get("reflex+grounding") or {}
+        fa, hal, cal = r.get("field_accuracy") or {}, r.get("hallucination") or {}, r.get("calibration") or {}
+        comp = obj.get("composition") or {}
+        if r.get("n"):
+            m["rn_n"] = str(r["n"])
+        if comp:
+            m["rn_events"] = str(comp.get("event", ""))
+            m["rn_negatives"] = str(r.get("n_negatives", ""))
+        for key, src_key in [("rn_event_acc", "is_event"), ("rn_drug_acc", "drug"),
+                             ("rn_origin_acc", "origin"), ("rn_dest_acc", "destination")]:
+            if fa.get(src_key) is not None:
+                m[key] = f"{round(fa[src_key] * 100)}%"
+        if hal.get("hallucinated") is not None:
+            m["rn_hallucinated"] = str(hal["hallucinated"])
+            m["rn_entities"] = str(hal.get("entities_predicted", ""))
+        if cal.get("ece_shown") is not None:
+            m["rn_ece_shown"] = f"{cal['ece_shown']:.2f}"
+        # The ungrounded run is the comparison that makes the guardrail's value legible.
+        u = (obj.get("results") or {}).get("reflex") or {}
+        uh = u.get("hallucination") or {}
+        if uh.get("hallucinated") is not None:
+            m["rn_hallucinated_ungrounded"] = str(uh["hallucinated"])
+            m["rn_entities_ungrounded"] = str(uh.get("entities_predicted", ""))
+        data["provenance"]["reflex_real_news"] = src.relative_to(REPO).as_posix()
+
+    obj, src = _json(REPO / "backend" / "trace_backend" / "reflex" / "results" / "onnx_parity.json")
+    if obj:
+        chosen = obj.get("chosen") or {}
+        v = (obj.get("variants") or {}).get(chosen.get("variant", "")) or {}
+        agree = (v.get("top_choice_agreement") or {}).get("choice")
+        if agree is not None:
+            m["onnx_variant"] = chosen.get("variant", "")
+            m["onnx_choice_parity"] = f"{round(agree * 100)}%"
+        if obj.get("n_headlines"):
+            m["onnx_n"] = str(obj["n_headlines"])
+        data["provenance"]["reflex_onnx"] = src.relative_to(REPO).as_posix()
+
+
 def read_counts(readme: str, sources_doc: str, data: dict) -> None:
     c = data["counts"]
     for rx, key, fmt in [
@@ -272,6 +316,7 @@ def build() -> dict:
     read_counts(readme, sources_doc, data)
     read_map_years(data)
     read_metrics(readme, data)
+    read_reflex(data)
     read_afghan(data)
     read_people(data)
     read_screenshots(data)

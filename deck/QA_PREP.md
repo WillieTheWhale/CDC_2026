@@ -75,11 +75,23 @@ fine-tune it with log-loss and fit one temperature per primitive on held-out dat
 classifier interface as Jev and the keyword fallback, so Live Wire degrades visibly instead of stopping.
 
 **6b. "You said calibrated confidence. Is it calibrated?"** — *Markandeya (S3)*
-On the published benchmark, yes; in the field, not yet. Reflex v0.2 has ECE 0.020 in distribution and 0.062
+On the synthetic benchmarks and now on real news too. Reflex v0.2 has ECE 0.020 in distribution and 0.062
 zero-shot; on 1,878 questions about separately written, blind-verified synthetic headlines it reaches 0.009.
-The weights and full reports are published, but every TRACE-domain test set is synthetic, so we still treat
-confidence as a routing signal rather than a real-world probability: a 0.6 gate suppresses weak events and
-the anomaly flag escalates surprises. Say "benchmarked calibration," not "calibrated on real news."
+On 92 real published headlines it never trained on, the events that actually reach the wire carry mean
+confidence 0.857 against 0.840 precision - calibration error 0.052 on shown events. Over all rows it is worse
+(ECE 0.19), because suppressed non-events keep their original confidence, so confidence is still a routing
+signal first: a 0.6 gate suppresses weak events and the anomaly flag escalates surprises. You can now say
+"calibrated where it counts, on the events we display," and name the limit: 92 rows, one annotator.
+
+**6d. "Does your AI make things up?"** — *Markandeya (S3)*
+Not on the benchmark, and it is built so that it structurally cannot for the fields we show. Every country
+and drug Reflex outputs has to appear in the article text: countries are matched against World Bank names,
+aliases, demonyms, acronyms, US/Mexican/Canadian/Australian states, a curated port and border-crossing list,
+and 150k-plus cities; drugs against a synonym list. Anything unsupported becomes "not stated" rather than a
+guess. On 92 real headlines that is 0 hallucinated entities out of 107 predicted. Without the guardrails
+Reflex itself hallucinated 5 of 102 - all drugs guessed from context, never a country - and the keyword mock
+hallucinated 19 of 88. Concede the precise limit: "grounded" means the field is supported by the text, so the
+model can still pick the *wrong* supported country, which we count as an accuracy error, not a hallucination.
 
 **6c. "Why build Reflex instead of using Jev or a frontier LLM?"** — *Markandeya (S3)*
 The taxonomy is dynamic — especially country options — but the task is classification, not generation.
@@ -234,7 +246,7 @@ Silva and Tenreyro, LightGBM from Ke et al., SHAP from Lundberg and Lee.
 **"What's not built yet?"** — *whoever is asked*
 The core product is built and live: the map, country and risk views, simulator, Live Wire, Markets, Health,
 People and source drilldowns all ship. What remains is validation and deployment work, not a hidden missing
-screen: team-label real headlines and run external Reflex validation; add the fentanyl and ACLED feeds;
+screen: run external Reflex validation on a larger, independently labelled set; add the fentanyl and ACLED feeds;
 then test service placement with a harm-reduction partner. Verify the hosted frontend against current `main`
 before judging because a deployment can lag the repo even when the feature is complete.
 
@@ -249,5 +261,7 @@ zero-shot generalisation, calibration, structured inputs, Live Wire field accura
 and CPU speed. The v0.1 and v0.2 reports are checked in and the v0.2 release bundles its evaluation; the
 results are deliberately mixed rather than flattened into one score. Reflex passes interface, competence,
 calibration, structure, jaggedness documentation and speed, but fails the zero-shot and full TRACE-domain
-parity thresholds. The bundled 100-headline set is synthetic with provisional labels, so before deployment
-we will hand-label real GDELT stories and report each field separately, especially origin and destination.
+parity thresholds. The bundled 100-headline set is synthetic with provisional labels - which is why we then
+built the real one: 92 published headlines, hand-labelled from the text, every row carrying its URL, never
+trained or tuned on, with each field reported separately (drug 0.978, origin 0.957, destination 0.848,
+is_event 0.913). What is left is external validation by someone who is not us.

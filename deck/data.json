@@ -31,7 +31,22 @@
     "spearman": "0.58",
     "precision_at_20": "0.48",
     "afghan_right": "9",
-    "afghan_of": "13"
+    "afghan_of": "13",
+    "rn_n": "92",
+    "rn_events": "47",
+    "rn_negatives": "39",
+    "rn_event_acc": "91%",
+    "rn_drug_acc": "98%",
+    "rn_origin_acc": "96%",
+    "rn_dest_acc": "85%",
+    "rn_hallucinated": "0",
+    "rn_entities": "107",
+    "rn_ece_shown": "0.05",
+    "rn_hallucinated_ungrounded": "5",
+    "rn_entities_ungrounded": "102",
+    "onnx_variant": "emb8",
+    "onnx_choice_parity": "100%",
+    "onnx_n": "150"
   },
   "charts": {
     "afghan": {
@@ -142,6 +157,8 @@
   "provenance": {
     "built_from": "defaults",
     "metrics": "README.md (live run)",
+    "reflex_real_news": "backend/trace_backend/reflex/results/real_news_v1.json",
+    "reflex_onnx": "backend/trace_backend/reflex/results/onnx_parity.json",
     "afghan": "contracts/fixtures/afghan_ban.json"
   },
   "people": {
@@ -278,10 +295,10 @@
     "pending_count": 0
   },
   "git": {
-    "sha": "b06f87a",
-    "subject": "Docs: METHODS_EXPLAINED presenter guide (every feature, equation, variable, result)",
-    "when": "2026-09-27T16:47:49Z",
-    "count": "328"
+    "sha": "df6c88c",
+    "subject": "Live Wire: show 'Origin/Destination/Drug not stated' and size 'not stated' for grounded fields",
+    "when": "2026-09-27T13:28:53-04:00",
+    "count": "322"
   },
-  "built_at": "2026-09-27 17:15 UTC"
+  "built_at": "2026-09-27 17:39 UTC"
 }

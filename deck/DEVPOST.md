@@ -82,8 +82,10 @@ trains with log-loss, and temperature-scales Choice, Score and Noul separately. 
 or weights; it implements the published Jev interface and calibration objective. Live Wire uses Jev when
 a key is configured, otherwise Reflex when local trained weights are present, and otherwise a clearly
 identified keyword fallback. Reflex v0.2's downloadable release includes its weights and evaluation, with
-0.020 in-distribution calibration error; because every TRACE-domain benchmark is still synthetic, confidence
-remains a routing signal rather than a field-validated probability. A confident event on a corridor the
+0.020 in-distribution calibration error. It is now also tested on 92 real published headlines it never
+trained on, where grounding guardrails hold every country and drug to what the text actually says: 0
+hallucinated entities out of 107, and calibration error 0.052 on the events that reach the wire. Over all
+rows confidence remains a routing signal rather than a field-validated probability. A confident event on a corridor the
 forecast gave under 10% probability is flagged as an anomaly: the model announcing its own misses.
 
 **Stack.** Python 3.11, uv, SQLite, pandas, statsmodels, LightGBM, scikit-learn, SHAP, FastAPI with a
@@ -125,9 +127,13 @@ so the frontend could build in parallel.
   seizures, 95% interval [-0.213, 0.252], p = 0.869, over 1,428 country-years in 144 countries with country
   and seizure-year fixed effects and clustered standard errors. The interval spans zero and the product
   displays it that way.
-- An open Reflex v0.2 release with downloadable weights and full evaluation. On the 100-headline synthetic
-  development set it reaches 98% event-type accuracy and 82% destination accuracy, versus 80% and 52% for
-  the keyword mock; the next honest benchmark is team-labelled real news.
+- An open Reflex v0.2 release with downloadable weights and full evaluation, shipping as a torch-free ONNX
+  runtime with 100% top-choice parity against PyTorch. On the 100-headline synthetic development set it
+  reaches 98% event-type accuracy and 82% destination accuracy, versus 80% and 52% for the keyword mock.
+  We then built the honest benchmark rather than promising it: 92 real published headlines, hand-labelled
+  from the text, each carrying its URL, never trained or tuned on. Grounded, Reflex reads the drug right
+  97.8% of the time, the origin 95.7% and the destination 84.8%, and hallucinates nothing at all - 0
+  invented entities out of 107, against 5 of 102 without the guardrails and 19 of 88 for the keyword mock.
 - Publishing a result that went against us. Our core spillover hypothesis was not supported: route exposure
   alone does not predict later rises in homicide or HIV once vulnerability is controlled for. We committed
   that finding the day we found it. It is why the risk score has three columns, and it is an argument for
@@ -141,7 +147,7 @@ and that is what makes the forecasts worth acting on.
 
 ## What's next for TRACE
 
-Team-label real headlines and externally validate Reflex; add a fentanyl module; ACLED conflict events;
+Externally validate Reflex on a larger, independently labelled set; add a fentanyl module; ACLED conflict events;
 wastewater and EUDA price
 feeds; weekly retraining and per-country alert subscriptions; and a deployment with a harm-reduction
 partner in a single transit corridor, measured against real service placement.
