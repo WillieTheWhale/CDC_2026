@@ -12246,6 +12246,21 @@
             "publishedAt": "2014-05-30",
             "claim": "DOJ names Osvaldo Domingo Ceballo as sentenced in the cocaine-trafficking conspiracy and reports a 216 months prison term."
           }
+        },
+        {
+          "id": "osvaldo-domingo-ceballo-2014-03-13-conviction",
+          "occurredAt": "2014-03-13",
+          "type": "conviction",
+          "title": "Jury conviction",
+          "summary": "DOJ reports Osvaldo Domingo Ceballo was convicted by a Florida jury on cocaine trafficking counts.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdfl/pr/thirteen-south-florida-men-are-sentenced-cocaine-trafficking-conspiracy",
+            "title": "Thirteen South Florida Men Are Sentenced In A Cocaine Trafficking Conspiracy",
+            "publisher": "U.S. Attorney’s Office, Southern District of Florida",
+            "language": "en",
+            "publishedAt": "2014-05-30",
+            "claim": "DOJ names Osvaldo Domingo Ceballo as sentenced in the cocaine-trafficking conspiracy and reports a 216 months prison term."
+          }
         }
       ]
     },
@@ -12280,6 +12295,21 @@
           "type": "development",
           "title": "Sentence reported",
           "summary": "DOJ names Yumar Oliva as sentenced in the cocaine-trafficking conspiracy and reports a 151 months prison term.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdfl/pr/thirteen-south-florida-men-are-sentenced-cocaine-trafficking-conspiracy",
+            "title": "Thirteen South Florida Men Are Sentenced In A Cocaine Trafficking Conspiracy",
+            "publisher": "U.S. Attorney’s Office, Southern District of Florida",
+            "language": "en",
+            "publishedAt": "2014-05-30",
+            "claim": "DOJ names Yumar Oliva as sentenced in the cocaine-trafficking conspiracy and reports a 151 months prison term."
+          }
+        },
+        {
+          "id": "yumar-oliva-2014-03-13-conviction",
+          "occurredAt": "2014-03-13",
+          "type": "conviction",
+          "title": "Jury conviction",
+          "summary": "DOJ reports Yumar Oliva was convicted by a Florida jury on cocaine trafficking counts.",
           "source": {
             "url": "https://www.justice.gov/usao-sdfl/pr/thirteen-south-florida-men-are-sentenced-cocaine-trafficking-conspiracy",
             "title": "Thirteen South Florida Men Are Sentenced In A Cocaine Trafficking Conspiracy",
@@ -12777,7 +12807,7 @@
       "name": "Alex Burgos-Amaro",
       "status": "convicted",
       "statusAsOf": "2024-06-18",
-      "roleLabel": "Convicted enterprise participant; 180 months sentence",
+      "roleLabel": "Sentenced defendant in drug enterprise case; 180-month term",
       "prominence": 2,
       "organizationIds": [
         "puerto-rico-enterprise-2000-2014"
@@ -12793,9 +12823,7 @@
           }
         }
       ],
-      "drugs": [
-        "cocaine"
-      ],
+      "drugs": [],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
@@ -12803,7 +12831,7 @@
           "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
           "language": "en",
           "publishedAt": "2024-06-18",
-          "claim": "DOJ reports Alex Burgos-Amaro convicted in the Puerto Rico drug enterprise and sentenced to 180 months; it describes defendant membership in the enterprise operating during 2000–2014."
+          "claim": "DOJ reports Alex Burgos-Amaro pleaded guilty to Counts 1 and 2 in the Puerto Rico drug enterprise case and received a 180-month sentence; this release does not enumerate those counts."
         }
       ],
       "events": [
@@ -12812,14 +12840,29 @@
           "occurredAt": "2024-06-18",
           "type": "development",
           "title": "Sentenced in drug enterprise case",
-          "summary": "DOJ reports Alex Burgos-Amaro convicted in the Puerto Rico drug enterprise and sentenced to 180 months; it describes defendant membership in the enterprise operating during 2000–2014.",
+          "summary": "DOJ reports Burgos-Amaro was sentenced to 180 months after pleading guilty to two counts in the drug enterprise case; this release does not enumerate those counts.",
           "source": {
             "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
             "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
             "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
             "language": "en",
             "publishedAt": "2024-06-18",
-            "claim": "DOJ reports Alex Burgos-Amaro convicted in the Puerto Rico drug enterprise and sentenced to 180 months; it describes defendant membership in the enterprise operating during 2000–2014."
+            "claim": "DOJ reports Alex Burgos-Amaro pleaded guilty to Counts 1 and 2 in the Puerto Rico drug enterprise case and received a 180-month sentence; this release does not enumerate those counts."
+          }
+        },
+        {
+          "id": "alex-burgos-amaro-2023-12-27-conviction",
+          "occurredAt": "2023-12-27",
+          "type": "conviction",
+          "title": "Guilty plea",
+          "summary": "DOJ reports Burgos-Amaro pleaded guilty to two indictment counts.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
+            "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
+            "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2024-06-18",
+            "claim": "DOJ reports Alex Burgos-Amaro pleaded guilty to Counts 1 and 2 in the Puerto Rico drug enterprise case and received a 180-month sentence; this release does not enumerate those counts."
           }
         }
       ]
@@ -12845,9 +12888,7 @@
           }
         }
       ],
-      "drugs": [
-        "cocaine"
-      ],
+      "drugs": [],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
@@ -12865,6 +12906,21 @@
           "type": "development",
           "title": "Sentenced in drug enterprise case",
           "summary": "DOJ reports Luis Carmona-Bernacet convicted in the Puerto Rico drug enterprise and sentenced to life; it describes defendant membership in the enterprise operating during 2000–2014.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
+            "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
+            "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2024-06-18",
+            "claim": "DOJ reports Luis Carmona-Bernacet convicted in the Puerto Rico drug enterprise and sentenced to life; it describes defendant membership in the enterprise operating during 2000–2014."
+          }
+        },
+        {
+          "id": "luis-carmona-bernacet-2023-05-11-conviction",
+          "occurredAt": "2023-05-11",
+          "type": "conviction",
+          "title": "Jury conviction",
+          "summary": "DOJ reports a Puerto Rico jury convicted Luis Carmona-Bernacet in the drug enterprise case.",
           "source": {
             "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
             "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
@@ -12897,9 +12953,7 @@
           }
         }
       ],
-      "drugs": [
-        "cocaine"
-      ],
+      "drugs": [],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
@@ -12917,6 +12971,21 @@
           "type": "development",
           "title": "Sentenced in drug enterprise case",
           "summary": "DOJ reports Yadiel Serrano-Canales convicted in the Puerto Rico drug enterprise and sentenced to life; it describes defendant membership in the enterprise operating during 2000–2014.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
+            "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
+            "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2024-06-18",
+            "claim": "DOJ reports Yadiel Serrano-Canales convicted in the Puerto Rico drug enterprise and sentenced to life; it describes defendant membership in the enterprise operating during 2000–2014."
+          }
+        },
+        {
+          "id": "yadiel-serrano-canales-2023-05-11-conviction",
+          "occurredAt": "2023-05-11",
+          "type": "conviction",
+          "title": "Jury conviction",
+          "summary": "DOJ reports a Puerto Rico jury convicted Yadiel Serrano-Canales in the drug enterprise case.",
           "source": {
             "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
             "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
@@ -12949,9 +13018,7 @@
           }
         }
       ],
-      "drugs": [
-        "cocaine"
-      ],
+      "drugs": [],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
@@ -12969,6 +13036,21 @@
           "type": "development",
           "title": "Sentenced in drug enterprise case",
           "summary": "DOJ reports Rolando Rivera-Solis convicted in the Puerto Rico drug enterprise and sentenced to life; it describes defendant membership in the enterprise operating during 2000–2014.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
+            "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
+            "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2024-06-18",
+            "claim": "DOJ reports Rolando Rivera-Solis convicted in the Puerto Rico drug enterprise and sentenced to life; it describes defendant membership in the enterprise operating during 2000–2014."
+          }
+        },
+        {
+          "id": "rolando-rivera-solis-2023-05-11-conviction",
+          "occurredAt": "2023-05-11",
+          "type": "conviction",
+          "title": "Jury conviction",
+          "summary": "DOJ reports a Puerto Rico jury convicted Rolando Rivera-Solis in the drug enterprise case.",
           "source": {
             "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
             "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
@@ -13001,9 +13083,7 @@
           }
         }
       ],
-      "drugs": [
-        "cocaine"
-      ],
+      "drugs": [],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
@@ -13021,6 +13101,21 @@
           "type": "development",
           "title": "Sentenced in drug enterprise case",
           "summary": "DOJ reports Alan Lugo-Montalvo convicted in the Puerto Rico drug enterprise and sentenced to 360 months; it describes defendant membership in the enterprise operating during 2000–2014.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
+            "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
+            "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2024-06-18",
+            "claim": "DOJ reports Alan Lugo-Montalvo convicted in the Puerto Rico drug enterprise and sentenced to 360 months; it describes defendant membership in the enterprise operating during 2000–2014."
+          }
+        },
+        {
+          "id": "alan-lugo-montalvo-2023-05-11-conviction",
+          "occurredAt": "2023-05-11",
+          "type": "conviction",
+          "title": "Jury conviction",
+          "summary": "DOJ reports a Puerto Rico jury convicted Alan Lugo-Montalvo in the drug enterprise case.",
           "source": {
             "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
             "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
@@ -13053,9 +13148,7 @@
           }
         }
       ],
-      "drugs": [
-        "cocaine"
-      ],
+      "drugs": [],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
@@ -13073,6 +13166,21 @@
           "type": "development",
           "title": "Sentenced in drug enterprise case",
           "summary": "DOJ reports Fabiany Almestica-Monge convicted in the Puerto Rico drug enterprise and sentenced to 540 months; it describes defendant membership in the enterprise operating during 2000–2014.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
+            "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
+            "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2024-06-18",
+            "claim": "DOJ reports Fabiany Almestica-Monge convicted in the Puerto Rico drug enterprise and sentenced to 540 months; it describes defendant membership in the enterprise operating during 2000–2014."
+          }
+        },
+        {
+          "id": "fabiany-almestica-monge-2023-05-11-conviction",
+          "occurredAt": "2023-05-11",
+          "type": "conviction",
+          "title": "Jury conviction",
+          "summary": "DOJ reports a Puerto Rico jury convicted Fabiany Almestica-Monge in the drug enterprise case.",
           "source": {
             "url": "https://www.justice.gov/usao-pr/pr/six-individuals-sentenced-drug-trafficking-firearms-violations-and-murder",
             "title": "Six Individuals Sentenced for Drug Trafficking, Firearms Violations, and Murder",
@@ -13137,11 +13245,41 @@
       ],
       "events": [
         {
+          "id": "edilio-benjamin-hernandez-2022-09-21-development",
+          "occurredAt": "2022-09-21",
+          "type": "development",
+          "title": "Conviction affirmed on appeal",
+          "summary": "The First Circuit affirmed Edilio Benjamín-Hernández’s convictions.",
+          "source": {
+            "url": "https://media.ca1.uscourts.gov/pdf.opinions/20-1236P-01A.pdf",
+            "title": "United States v. Benjamin-Hernandez and Balbuena-Hernandez",
+            "publisher": "U.S. Court of Appeals for the First Circuit",
+            "language": "en",
+            "publishedAt": "2022-09-21",
+            "claim": "First Circuit affirmed Edilio Benjamín-Hernández’s drug-importation conviction on 21 September 2022 in a Dominican Republic–Puerto Rico conspiracy."
+          }
+        },
+        {
           "id": "edilio-benjamin-hernandez-2018-10-24-development",
           "occurredAt": "2018-10-24",
           "type": "development",
           "title": "Sentence reported",
           "summary": "DOJ reports a jury convicted Edilio Benjamín-Hernández on 24 October 2018 in Operation King Dynasty; the 2022 appellate decision affirmed the convictions.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/two-members-international-drug-trafficking-organization-found-guilty-conspiracy-possess",
+            "title": "Two Members Of An International Drug Trafficking Organization Found Guilty",
+            "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2018-10-24",
+            "claim": "DOJ reports a jury convicted Edilio Benjamín-Hernández on 24 October 2018 in Operation King Dynasty; the 2022 appellate decision affirmed the convictions."
+          }
+        },
+        {
+          "id": "edilio-benjamin-hernandez-2018-10-24-conviction",
+          "occurredAt": "2018-10-24",
+          "type": "conviction",
+          "title": "Jury conviction",
+          "summary": "DOJ reports a Puerto Rico jury convicted Edilio Benjamín-Hernández of drug conspiracy and importation offenses.",
           "source": {
             "url": "https://www.justice.gov/usao-pr/pr/two-members-international-drug-trafficking-organization-found-guilty-conspiracy-possess",
             "title": "Two Members Of An International Drug Trafficking Organization Found Guilty",
@@ -13206,11 +13344,41 @@
       ],
       "events": [
         {
+          "id": "johanni-balbuena-hernandez-2022-09-21-development",
+          "occurredAt": "2022-09-21",
+          "type": "development",
+          "title": "Conviction affirmed on appeal",
+          "summary": "The First Circuit affirmed Johanni Balbuena-Hernández’s convictions.",
+          "source": {
+            "url": "https://media.ca1.uscourts.gov/pdf.opinions/20-1236P-01A.pdf",
+            "title": "United States v. Benjamin-Hernandez and Balbuena-Hernandez",
+            "publisher": "U.S. Court of Appeals for the First Circuit",
+            "language": "en",
+            "publishedAt": "2022-09-21",
+            "claim": "First Circuit affirmed Johanni Balbuena-Hernández’s drug-importation conviction on 21 September 2022 in a Dominican Republic–Puerto Rico conspiracy."
+          }
+        },
+        {
           "id": "johanni-balbuena-hernandez-2018-10-24-development",
           "occurredAt": "2018-10-24",
           "type": "development",
           "title": "Sentence reported",
           "summary": "DOJ reports a jury convicted Johanni Balbuena-Hernández on 24 October 2018 in Operation King Dynasty; the 2022 appellate decision affirmed the convictions.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/two-members-international-drug-trafficking-organization-found-guilty-conspiracy-possess",
+            "title": "Two Members Of An International Drug Trafficking Organization Found Guilty",
+            "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2018-10-24",
+            "claim": "DOJ reports a jury convicted Johanni Balbuena-Hernández on 24 October 2018 in Operation King Dynasty; the 2022 appellate decision affirmed the convictions."
+          }
+        },
+        {
+          "id": "johanni-balbuena-hernandez-2018-10-24-conviction",
+          "occurredAt": "2018-10-24",
+          "type": "conviction",
+          "title": "Jury conviction",
+          "summary": "DOJ reports a Puerto Rico jury convicted Johanni Balbuena-Hernández of drug conspiracy and importation offenses.",
           "source": {
             "url": "https://www.justice.gov/usao-pr/pr/two-members-international-drug-trafficking-organization-found-guilty-conspiracy-possess",
             "title": "Two Members Of An International Drug Trafficking Organization Found Guilty",
@@ -13314,6 +13482,21 @@
             "publishedAt": "2012-06-08",
             "claim": "DOJ reports Coke pleaded guilty in August 2011 and received a 23-year sentence on 8 June 2012; it identifies him as leader based in Jamaica."
           }
+        },
+        {
+          "id": "christopher-michael-coke-2011-08-31-conviction",
+          "occurredAt": "2011-08-31",
+          "type": "conviction",
+          "title": "Guilty plea",
+          "summary": "DOJ reports Coke pleaded guilty to racketeering conspiracy and conspiracy to commit assault in aid of racketeering.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nys/pressreleases/June12/cokechristophersentencing.html",
+            "title": "Jamaican Drug Lord Christopher Michael Coke Sentenced",
+            "publisher": "U.S. Attorney’s Office, Southern District of New York",
+            "language": "en",
+            "publishedAt": "2012-06-08",
+            "claim": "DOJ reports Coke pleaded guilty in August 2011 and received a 23-year sentence on 8 June 2012; it identifies him as leader based in Jamaica."
+          }
         }
       ]
     },
@@ -13358,6 +13541,21 @@
           "type": "development",
           "title": "Sentenced to 20 years",
           "summary": "DOJ reports Pintard pleaded guilty on 22 June 2011 and was sentenced on 27 June 2012; it identifies him as leader of a Bahamas-based cocaine organization.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nce/press/2012/2012-jun-29.html",
+            "title": "Caribbean Drug Trafficking Organization Leader Sentenced",
+            "publisher": "U.S. Attorney’s Office, Eastern District of North Carolina",
+            "language": "en",
+            "publishedAt": "2012-06-29",
+            "claim": "DOJ reports Pintard pleaded guilty on 22 June 2011 and was sentenced on 27 June 2012; it identifies him as leader of a Bahamas-based cocaine organization."
+          }
+        },
+        {
+          "id": "sean-pintard-2011-06-22-conviction",
+          "occurredAt": "2011-06-22",
+          "type": "conviction",
+          "title": "Guilty plea",
+          "summary": "DOJ reports Pintard pleaded guilty to cocaine-importation and money-laundering conspiracies.",
           "source": {
             "url": "https://www.justice.gov/archive/usao/nce/press/2012/2012-jun-29.html",
             "title": "Caribbean Drug Trafficking Organization Leader Sentenced",
@@ -13412,6 +13610,21 @@
           "type": "development",
           "title": "Sentenced to 21 years",
           "summary": "DOJ reports Dávila-Reyes pleaded guilty on 12 June 2015 and received a 21-year sentence on 1 October 2015 for Puerto Rico drug-trafficking activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/jaime-d-vila-reyes-aka-peluche-sentenced-21-years-prison",
+            "title": "Jaime Dávila Reyes, aka “Peluche” Sentenced To 21 Years In Prison",
+            "publisher": "U.S. Attorney’s Office, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2015-10-01",
+            "claim": "DOJ reports Dávila-Reyes pleaded guilty on 12 June 2015 and received a 21-year sentence on 1 October 2015 for Puerto Rico drug-trafficking activity."
+          }
+        },
+        {
+          "id": "jaime-davila-reyes-2015-06-12-conviction",
+          "occurredAt": "2015-06-12",
+          "type": "conviction",
+          "title": "Guilty plea",
+          "summary": "DOJ reports Dávila-Reyes pleaded guilty to drug and firearm counts.",
           "source": {
             "url": "https://www.justice.gov/usao-pr/pr/jaime-d-vila-reyes-aka-peluche-sentenced-21-years-prison",
             "title": "Jaime Dávila Reyes, aka “Peluche” Sentenced To 21 Years In Prison",
