@@ -77048,6 +77048,1418 @@
       ]
     },
     {
+      "id": "andrei-bredkin-russia-court",
+      "name": "Андрей Бредкин",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2020-08-24",
+      "roleLabel": "Cocaine smuggling and intended-sale conviction upheld on appeal",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Андрей Бредкин’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2015",
+            "sourceUrl": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1",
+          "title": "Saint Petersburg City Court judgment with 24 August 2020 appellate determination",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2020-08-24",
+          "claim": "The 24 August 2020 appellate determination left Андрей Бредкин’s drug-smuggling and intended-sale conviction in place; the 16-year aggregate prison sentence was reported. The appeal made a legal citation correction for Savchenko without changing the conviction."
+        },
+        {
+          "url": "https://legalacts.ru/sud/apelliatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-14022019-n-78-apu19-2sp/",
+          "title": "Апелляционное определение Верховного Суда РФ от 14.02.2019 № 78-АПУ19-2СП",
+          "publisher": "Supreme Court of the Russian Federation via Legalacts",
+          "language": "ru",
+          "publishedAt": "2019-02-14",
+          "claim": "The Supreme Court set aside the 14 November 2018 acquittal and remitted the case for retrial; the later 2020 appeal establishes the surviving conviction."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "acquitted",
+          "date": "2018-11-14",
+          "qualifier": "First jury trial acquittal; subsequently set aside on prosecution appeal.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/apelliatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-14022019-n-78-apu19-2sp/",
+            "title": "Апелляционное определение Верховного Суда РФ от 14.02.2019 № 78-АПУ19-2СП",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2019-02-14",
+            "claim": "The Supreme Court set aside the 14 November 2018 acquittal and remitted the case for retrial; the later 2020 appeal establishes the surviving conviction."
+          }
+        },
+        {
+          "status": "overturned",
+          "date": "2019-02-14",
+          "qualifier": "Supreme Court set aside the 2018 acquittal and remitted the case for retrial; this did not itself determine guilt.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/apelliatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-14022019-n-78-apu19-2sp/",
+            "title": "Апелляционное определение Верховного Суда РФ от 14.02.2019 № 78-АПУ19-2СП",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2019-02-14",
+            "claim": "The Supreme Court set aside the 14 November 2018 acquittal and remitted the case for retrial; the later 2020 appeal establishes the surviving conviction."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2020-03-11",
+          "qualifier": "Retrial judgment imposed a 16-year aggregate sentence for cocaine smuggling and intended sale.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1",
+            "title": "Saint Petersburg City Court judgment with 24 August 2020 appellate determination",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2020-08-24",
+            "claim": "The 24 August 2020 appellate determination left Андрей Бредкин’s drug-smuggling and intended-sale conviction in place; the 16-year aggregate prison sentence was reported. The appeal made a legal citation correction for Savchenko without changing the conviction."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2020-08-24",
+          "qualifier": "Appellate court left the conviction and 16-year aggregate sentence unchanged.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1",
+            "title": "Saint Petersburg City Court judgment with 24 August 2020 appellate determination",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2020-08-24",
+            "claim": "The 24 August 2020 appellate determination left Андрей Бредкин’s drug-smuggling and intended-sale conviction in place; the 16-year aggregate prison sentence was reported. The appeal made a legal citation correction for Savchenko without changing the conviction."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "andrei-bredkin-russia-outcome",
+          "occurredAt": "2020-08-24",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "The 24 August 2020 appellate determination left Андрей Бредкин’s drug-smuggling and intended-sale conviction in place; the 16-year aggregate prison sentence was reported. The appeal made a legal citation correction for Savchenko without changing the conviction.",
+          "source": {
+            "url": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1",
+            "title": "Saint Petersburg City Court judgment with 24 August 2020 appellate determination",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2020-08-24",
+            "claim": "The 24 August 2020 appellate determination left Андрей Бредкин’s drug-smuggling and intended-sale conviction in place; the 16-year aggregate prison sentence was reported. The appeal made a legal citation correction for Savchenko without changing the conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "evgenii-savchenko-russia-court",
+      "name": "Евгений Савченко",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2020-08-24",
+      "roleLabel": "Cocaine smuggling and intended-sale conviction upheld; sentence reduced on appeal",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Евгений Савченко’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2015",
+            "sourceUrl": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1",
+          "title": "Saint Petersburg City Court judgment with 24 August 2020 appellate determination",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2020-08-24",
+          "claim": "The 24 August 2020 appellate determination left Евгений Савченко’s drug-smuggling and intended-sale conviction in place; the 11-year-and-six-month aggregate prison sentence was reported. The appeal reduced Savchenko’s aggregate term from 12 years to 11 years and six months; the conviction remained in place."
+        },
+        {
+          "url": "https://legalacts.ru/sud/apelliatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-14022019-n-78-apu19-2sp/",
+          "title": "Апелляционное определение Верховного Суда РФ от 14.02.2019 № 78-АПУ19-2СП",
+          "publisher": "Supreme Court of the Russian Federation via Legalacts",
+          "language": "ru",
+          "publishedAt": "2019-02-14",
+          "claim": "The Supreme Court set aside the 14 November 2018 acquittal and remitted the case for retrial; the later 2020 appeal establishes the surviving conviction."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "acquitted",
+          "date": "2018-11-14",
+          "qualifier": "First jury trial acquittal; subsequently set aside on prosecution appeal.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/apelliatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-14022019-n-78-apu19-2sp/",
+            "title": "Апелляционное определение Верховного Суда РФ от 14.02.2019 № 78-АПУ19-2СП",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2019-02-14",
+            "claim": "The Supreme Court set aside the 14 November 2018 acquittal and remitted the case for retrial; the later 2020 appeal establishes the surviving conviction."
+          }
+        },
+        {
+          "status": "overturned",
+          "date": "2019-02-14",
+          "qualifier": "Supreme Court set aside the 2018 acquittal and remitted the case for retrial; this did not itself determine guilt.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/apelliatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-14022019-n-78-apu19-2sp/",
+            "title": "Апелляционное определение Верховного Суда РФ от 14.02.2019 № 78-АПУ19-2СП",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2019-02-14",
+            "claim": "The Supreme Court set aside the 14 November 2018 acquittal and remitted the case for retrial; the later 2020 appeal establishes the surviving conviction."
+          }
+        },
+        {
+          "status": "acquitted",
+          "date": "2020-03-11",
+          "qualifier": "Acquitted of the separate aggravated organized/especially-large charges; this was a partial acquittal alongside surviving drug-smuggling and intended-sale convictions.",
+          "jurisdiction": "Russia",
+          "offense": "aggravated drug smuggling and intended sale",
+          "partial": true,
+          "source": {
+            "url": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1",
+            "title": "Saint Petersburg City Court judgment with 24 August 2020 appellate determination",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2020-08-24",
+            "claim": "The 24 August 2020 appellate determination left Евгений Савченко’s drug-smuggling and intended-sale conviction in place; the 11-year-and-six-month aggregate prison sentence was reported. The appeal reduced Savchenko’s aggregate term from 12 years to 11 years and six months; the conviction remained in place."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2020-03-11",
+          "qualifier": "Convicted of aiding cocaine smuggling and preparation for illegal sale; first-instance aggregate sentence 12 years.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1",
+            "title": "Saint Petersburg City Court judgment with 24 August 2020 appellate determination",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2020-08-24",
+            "claim": "The 24 August 2020 appellate determination left Евгений Савченко’s drug-smuggling and intended-sale conviction in place; the 11-year-and-six-month aggregate prison sentence was reported. The appeal reduced Savchenko’s aggregate term from 12 years to 11 years and six months; the conviction remained in place."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2020-08-24",
+          "qualifier": "Appellate court kept surviving convictions but reduced the aggregate sentence to 11 years and six months.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1",
+            "title": "Saint Petersburg City Court judgment with 24 August 2020 appellate determination",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2020-08-24",
+            "claim": "The 24 August 2020 appellate determination left Евгений Савченко’s drug-smuggling and intended-sale conviction in place; the 11-year-and-six-month aggregate prison sentence was reported. The appeal reduced Savchenko’s aggregate term from 12 years to 11 years and six months; the conviction remained in place."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "evgenii-savchenko-russia-outcome",
+          "occurredAt": "2020-08-24",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "The 24 August 2020 appellate determination left Евгений Савченко’s drug-smuggling and intended-sale conviction in place; the 11-year-and-six-month aggregate prison sentence was reported. The appeal reduced Savchenko’s aggregate term from 12 years to 11 years and six months; the conviction remained in place.",
+          "source": {
+            "url": "https://sankt-peterburgsky--spb.sudrf.ru/modules.php?delo_id=1540006&name=sud_delo&name_op=doc&new=0&number=43209858&srv_num=1&text_number=1",
+            "title": "Saint Petersburg City Court judgment with 24 August 2020 appellate determination",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2020-08-24",
+            "claim": "The 24 August 2020 appellate determination left Евгений Савченко’s drug-smuggling and intended-sale conviction in place; the 12-year aggregate prison sentence was reported. The appeal made a legal citation correction for Savchenko without changing the conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pavel-timofeev-russia-court",
+      "name": "Павел Тимофеев",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-11-22",
+      "roleLabel": "First-instance drug-sale conviction reported; appeal status unconfirmed",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Павел Тимофеев’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2023–2024",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20241122/310434908.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20241122/310434908.html",
+          "title": "Суд приговорил к 34,5 годам двух подельников \"Мориарти\" за сбыт наркотиков",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2024-11-22",
+          "claim": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years and six months sentence. No later appeal outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2024-11-22",
+          "qualifier": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years and six months sentence. No later appeal outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20241122/310434908.html",
+            "title": "Суд приговорил к 34,5 годам двух подельников \"Мориарти\" за сбыт наркотиков",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2024-11-22",
+            "claim": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years and six months sentence. No later appeal outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "pavel-timofeev-russia-outcome",
+          "occurredAt": "2024-11-22",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years and six months sentence. No later appeal outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20241122/310434908.html",
+            "title": "Суд приговорил к 34,5 годам двух подельников \"Мориарти\" за сбыт наркотиков",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2024-11-22",
+            "claim": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years and six months sentence. No later appeal outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aleksandr-solovei-russia-court",
+      "name": "Александр Соловей",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-11-22",
+      "roleLabel": "First-instance drug-sale conviction reported; appeal status unconfirmed",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Александр Соловей’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2023–2024",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20241122/310434908.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20241122/310434908.html",
+          "title": "Суд приговорил к 34,5 годам двух подельников \"Мориарти\" за сбыт наркотиков",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2024-11-22",
+          "claim": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years sentence. No later appeal outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2024-11-22",
+          "qualifier": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years sentence. No later appeal outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20241122/310434908.html",
+            "title": "Суд приговорил к 34,5 годам двух подельников \"Мориарти\" за сбыт наркотиков",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2024-11-22",
+            "claim": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years sentence. No later appeal outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "aleksandr-solovei-russia-outcome",
+          "occurredAt": "2024-11-22",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years sentence. No later appeal outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20241122/310434908.html",
+            "title": "Суд приговорил к 34,5 годам двух подельников \"Мориарти\" за сбыт наркотиков",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2024-11-22",
+            "claim": "Sverdlovsk regional court reported a first-instance conviction for attempted drug sale and related drug offenses, with a 17 years sentence. No later appeal outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "andrei-imaev-russia-court",
+      "name": "Андрей Имаев",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-05-20",
+      "roleLabel": "First-instance drug-distribution conviction; judgment not yet final in source",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Андрей Имаев’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2020–2021",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20220520/307963755.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+          "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2022-05-20",
+          "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 15 years sentence for Андрей Имаев; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2022-05-20",
+          "qualifier": "Yeisk district court reported a first-instance drug-distribution conviction and a 15 years sentence for Андрей Имаев; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+            "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-05-20",
+            "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 15 years sentence for Андрей Имаев; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "andrei-imaev-russia-outcome",
+          "occurredAt": "2022-05-20",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Yeisk district court reported a first-instance drug-distribution conviction and a 15 years sentence for Андрей Имаев; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+            "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-05-20",
+            "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 15 years sentence for Андрей Имаев; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "anna-latfulina-russia-court",
+      "name": "Анна Латфулина",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-05-20",
+      "roleLabel": "First-instance drug-distribution conviction; judgment not yet final in source",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Анна Латфулина’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2020–2021",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20220520/307963755.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+          "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2022-05-20",
+          "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 12 years sentence for Анна Латфулина; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2022-05-20",
+          "qualifier": "Yeisk district court reported a first-instance drug-distribution conviction and a 12 years sentence for Анна Латфулина; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+            "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-05-20",
+            "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 12 years sentence for Анна Латфулина; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "anna-latfulina-russia-outcome",
+          "occurredAt": "2022-05-20",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Yeisk district court reported a first-instance drug-distribution conviction and a 12 years sentence for Анна Латфулина; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+            "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-05-20",
+            "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 12 years sentence for Анна Латфулина; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "denis-latfulin-russia-court",
+      "name": "Денис Латфулин",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-05-20",
+      "roleLabel": "First-instance drug-distribution conviction; judgment not yet final in source",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Денис Латфулин’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2020–2021",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20220520/307963755.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+          "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2022-05-20",
+          "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 11 years sentence for Денис Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2022-05-20",
+          "qualifier": "Yeisk district court reported a first-instance drug-distribution conviction and a 11 years sentence for Денис Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+            "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-05-20",
+            "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 11 years sentence for Денис Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "denis-latfulin-russia-outcome",
+          "occurredAt": "2022-05-20",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Yeisk district court reported a first-instance drug-distribution conviction and a 11 years sentence for Денис Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+            "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-05-20",
+            "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 11 years sentence for Денис Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "andrei-latfulin-russia-court",
+      "name": "Андрей Латфулин",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-05-20",
+      "roleLabel": "First-instance drug-distribution conviction; judgment not yet final in source",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Андрей Латфулин’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2020–2021",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20220520/307963755.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+          "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2022-05-20",
+          "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 10 years and six months sentence for Андрей Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2022-05-20",
+          "qualifier": "Yeisk district court reported a first-instance drug-distribution conviction and a 10 years and six months sentence for Андрей Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+            "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-05-20",
+            "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 10 years and six months sentence for Андрей Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "andrei-latfulin-russia-outcome",
+          "occurredAt": "2022-05-20",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Yeisk district court reported a first-instance drug-distribution conviction and a 10 years and six months sentence for Андрей Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220520/307963755.html",
+            "title": "Семья \"закладчиков\" наркотиков приговорена в Ейске к длительным срокам заключения",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-05-20",
+            "claim": "Yeisk district court reported a first-instance drug-distribution conviction and a 10 years and six months sentence for Андрей Латфулин; the article expressly said the judgment had not entered into force. No later appellate outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dmitrii-kriklivets-russia-court",
+      "name": "Дмитрий Крикливец",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-05-13",
+      "roleLabel": "First-instance drug-trafficking conviction; finality unconfirmed",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Дмитрий Крикливец’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2020–2021",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20240513/309883955.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20240513/309883955.html",
+          "title": "Владелец магазина в DarkNet получил 16 лет колонии строгого режима",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2024-05-13",
+          "claim": "Krasnodar courts reported a first-instance conviction for attempted drug sale, drug smuggling and related offenses, with a 16-year sentence; the article said the judgment was not yet final. No later appeal outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2024-05-13",
+          "qualifier": "Krasnodar courts reported a first-instance conviction for attempted drug sale, drug smuggling and related offenses, with a 16-year sentence; the article said the judgment was not yet final. No later appeal outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20240513/309883955.html",
+            "title": "Владелец магазина в DarkNet получил 16 лет колонии строгого режима",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2024-05-13",
+            "claim": "Krasnodar courts reported a first-instance conviction for attempted drug sale, drug smuggling and related offenses, with a 16-year sentence; the article said the judgment was not yet final. No later appeal outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "dmitrii-kriklivets-russia-outcome",
+          "occurredAt": "2024-05-13",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Krasnodar courts reported a first-instance conviction for attempted drug sale, drug smuggling and related offenses, with a 16-year sentence; the article said the judgment was not yet final. No later appeal outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20240513/309883955.html",
+            "title": "Владелец магазина в DarkNet получил 16 лет колонии строгого режима",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2024-05-13",
+            "claim": "Krasnodar courts reported a first-instance conviction for attempted drug sale, drug smuggling and related offenses, with a 16-year sentence; the article said the judgment was not yet final. No later appeal outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sergei-zershchikov-russia-court",
+      "name": "Сергей Зерщиков",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-08-31",
+      "roleLabel": "First-instance attempted drug-sale conviction reported",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Сергей Зерщиков’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2022",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20220831/308242650.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20220831/308242650.html",
+          "title": "Новочеркасский суд приговорил к 10 годам колонии распространителя наркотиков",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2022-08-31",
+          "claim": "Novocherkassk city court reportedly sentenced Zershchikov to ten years and six months for attempted drug sale; no later appeal outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2022-08-31",
+          "qualifier": "Novocherkassk city court reportedly sentenced Zershchikov to ten years and six months for attempted drug sale; no later appeal outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220831/308242650.html",
+            "title": "Новочеркасский суд приговорил к 10 годам колонии распространителя наркотиков",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-08-31",
+            "claim": "Novocherkassk city court reportedly sentenced Zershchikov to ten years and six months for attempted drug sale; no later appeal outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "sergei-zershchikov-russia-outcome",
+          "occurredAt": "2022-08-31",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Novocherkassk city court reportedly sentenced Zershchikov to ten years and six months for attempted drug sale; no later appeal outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20220831/308242650.html",
+            "title": "Новочеркасский суд приговорил к 10 годам колонии распространителя наркотиков",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2022-08-31",
+            "claim": "Novocherkassk city court reportedly sentenced Zershchikov to ten years and six months for attempted drug sale; no later appeal outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dmitrii-didurik-russia-court",
+      "name": "Дмитрий Дидурик",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2020-10-05",
+      "roleLabel": "First-instance drug-sale preparation conviction reported",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Дмитрий Дидурик’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2015",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20201005/306355903.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20201005/306355903.html",
+          "title": "Хранивший наркотики в ОМВД экс-полицейский получил 13,5 лет за превышение полномочий",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2020-10-05",
+          "claim": "Moscow court reportedly convicted Didurik of preparation for drug sale, evidence falsification and abuse of office, imposing a 13.5-year aggregate sentence; no later appeal outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-10-05",
+          "qualifier": "Moscow court reportedly convicted Didurik of preparation for drug sale, evidence falsification and abuse of office, imposing a 13.5-year aggregate sentence; no later appeal outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20201005/306355903.html",
+            "title": "Хранивший наркотики в ОМВД экс-полицейский получил 13,5 лет за превышение полномочий",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2020-10-05",
+            "claim": "Moscow court reportedly convicted Didurik of preparation for drug sale, evidence falsification and abuse of office, imposing a 13.5-year aggregate sentence; no later appeal outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "dmitrii-didurik-russia-outcome",
+          "occurredAt": "2020-10-05",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Moscow court reportedly convicted Didurik of preparation for drug sale, evidence falsification and abuse of office, imposing a 13.5-year aggregate sentence; no later appeal outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20201005/306355903.html",
+            "title": "Хранивший наркотики в ОМВД экс-полицейский получил 13,5 лет за превышение полномочий",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2020-10-05",
+            "claim": "Moscow court reportedly convicted Didurik of preparation for drug sale, evidence falsification and abuse of office, imposing a 13.5-year aggregate sentence; no later appeal outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "andrei-moroz-russia-court",
+      "name": "Андрей Мороз",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2012-08-31",
+      "roleLabel": "First-instance attempted drug-sale conviction reported",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Андрей Мороз’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2011",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20120831/264481239.html"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20120831/264481239.html",
+          "title": "Подполковник МВД получил 10 лет за покушение на сбыт наркотиков",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2012-08-31",
+          "claim": "A Rostov-on-Don court reportedly sentenced Moroz to ten years for attempted drug sale and other offenses; no later appeal outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2012-08-31",
+          "qualifier": "A Rostov-on-Don court reportedly sentenced Moroz to ten years for attempted drug sale and other offenses; no later appeal outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20120831/264481239.html",
+            "title": "Подполковник МВД получил 10 лет за покушение на сбыт наркотиков",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2012-08-31",
+            "claim": "A Rostov-on-Don court reportedly sentenced Moroz to ten years for attempted drug sale and other offenses; no later appeal outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "andrei-moroz-russia-outcome",
+          "occurredAt": "2012-08-31",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "A Rostov-on-Don court reportedly sentenced Moroz to ten years for attempted drug sale and other offenses; no later appeal outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20120831/264481239.html",
+            "title": "Подполковник МВД получил 10 лет за покушение на сбыт наркотиков",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2012-08-31",
+            "claim": "A Rostov-on-Don court reportedly sentenced Moroz to ten years for attempted drug sale and other offenses; no later appeal outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "andrei-musienko-russia-court",
+      "name": "Андрей Мусиенко",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-08-14",
+      "roleLabel": "First-instance drug-production conviction; judgment not yet final in source",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Андрей Мусиенко’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2021",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20230814/309129787.html"
+          }
+        }
+      ],
+      "drugs": [
+        "mephedrone"
+      ],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20230814/309129787.html",
+          "title": "Суд вынес приговор по делу о создании нарколаборатории на биткоины",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2023-08-14",
+          "claim": "Krasnodar regional court reportedly convicted Андрей Мусиенко in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2023-08-14",
+          "qualifier": "Krasnodar regional court reportedly convicted Андрей Мусиенко in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20230814/309129787.html",
+            "title": "Суд вынес приговор по делу о создании нарколаборатории на биткоины",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2023-08-14",
+            "claim": "Krasnodar regional court reportedly convicted Андрей Мусиенко in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "andrei-musienko-russia-outcome",
+          "occurredAt": "2023-08-14",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Krasnodar regional court reportedly convicted Андрей Мусиенко in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20230814/309129787.html",
+            "title": "Суд вынес приговор по делу о создании нарколаборатории на биткоины",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2023-08-14",
+            "claim": "Krasnodar regional court reportedly convicted Андрей Мусиенко in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "andrei-tevs-russia-court",
+      "name": "Андрей Тевс",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-08-14",
+      "roleLabel": "First-instance drug-production conviction; judgment not yet final in source",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Андрей Тевс’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2021",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20230814/309129787.html"
+          }
+        }
+      ],
+      "drugs": [
+        "mephedrone"
+      ],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20230814/309129787.html",
+          "title": "Суд вынес приговор по делу о создании нарколаборатории на биткоины",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2023-08-14",
+          "claim": "Krasnodar regional court reportedly convicted Андрей Тевс in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2023-08-14",
+          "qualifier": "Krasnodar regional court reportedly convicted Андрей Тевс in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20230814/309129787.html",
+            "title": "Суд вынес приговор по делу о создании нарколаборатории на биткоины",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2023-08-14",
+            "claim": "Krasnodar regional court reportedly convicted Андрей Тевс in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "andrei-tevs-russia-outcome",
+          "occurredAt": "2023-08-14",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Krasnodar regional court reportedly convicted Андрей Тевс in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20230814/309129787.html",
+            "title": "Суд вынес приговор по делу о создании нарколаборатории на биткоины",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2023-08-14",
+            "claim": "Krasnodar regional court reportedly convicted Андрей Тевс in a drug-production and distribution case. The article reports 16- and 17-year sentences collectively without assigning a term to each man, and says the judgment was not yet final. No later appeal outcome is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vega-quispe-diego-arturo-russia-court",
+      "name": "Вега Киспе Диего Артуро",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-06-23",
+      "roleLabel": "Cocaine-trafficking conviction upheld on appeal",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Вега Киспе Диего Артуро’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2015",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20160623/276368871.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20160623/276368871.html",
+          "title": "ВС РФ подтвердил законность приговора перуанцу по делу о контрабанде кокаина",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2016-06-23",
+          "claim": "Russia’s Supreme Court rejected his appeal and left his cocaine-smuggling and attempted-sale conviction and 11-year sentence unchanged; the article says the judgment became final on 23 June 2016."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-06-23",
+          "qualifier": "Russia’s Supreme Court rejected his appeal and left his cocaine-smuggling and attempted-sale conviction and 11-year sentence unchanged; the article says the judgment became final on 23 June 2016.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20160623/276368871.html",
+            "title": "ВС РФ подтвердил законность приговора перуанцу по делу о контрабанде кокаина",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2016-06-23",
+            "claim": "Russia’s Supreme Court rejected his appeal and left his cocaine-smuggling and attempted-sale conviction and 11-year sentence unchanged; the article says the judgment became final on 23 June 2016."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "vega-quispe-diego-arturo-russia-outcome",
+          "occurredAt": "2016-06-23",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "Russia’s Supreme Court rejected his appeal and left his cocaine-smuggling and attempted-sale conviction and 11-year sentence unchanged; the article says the judgment became final on 23 June 2016.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20160623/276368871.html",
+            "title": "ВС РФ подтвердил законность приговора перуанцу по делу о контрабанде кокаина",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2016-06-23",
+            "claim": "Russia’s Supreme Court rejected his appeal and left his cocaine-smuggling and attempted-sale conviction and 11-year sentence unchanged; the article says the judgment became final on 23 June 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aleksei-shabanov-russia-court",
+      "name": "Алексей Шабанов",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2013-12-12",
+      "roleLabel": "Cannabis-trafficking organizer conviction upheld on appeal",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Алексей Шабанов’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2010–2011",
+            "sourceUrl": "https://rapsinews.ru/judicial_news/20131212/270081659.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://rapsinews.ru/judicial_news/20131212/270081659.html",
+          "title": "ВС подтвердил приговор банде, возившей наркотики из Казахстана в Саратов",
+          "publisher": "РАПСИ",
+          "language": "ru",
+          "publishedAt": "2013-12-12",
+          "claim": "The Supreme Court rejected appeals and left in place Shabanov’s conviction as the identified organizer of a historical cannabis-trafficking group in Russia; the article states the judgment entered into force. His individual sentence is not assigned in this source."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2013-12-12",
+          "qualifier": "The Supreme Court rejected appeals and left in place Shabanov’s conviction as the identified organizer of a historical cannabis-trafficking group in Russia; the article states the judgment entered into force. His individual sentence is not assigned in this source.",
+          "jurisdiction": "Russia",
+          "offense": "drug trafficking, production or attempted sale",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20131212/270081659.html",
+            "title": "ВС подтвердил приговор банде, возившей наркотики из Казахстана в Саратов",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2013-12-12",
+            "claim": "The Supreme Court rejected appeals and left in place Shabanov’s conviction as the identified organizer of a historical cannabis-trafficking group in Russia; the article states the judgment entered into force. His individual sentence is not assigned in this source."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "aleksei-shabanov-russia-outcome",
+          "occurredAt": "2013-12-12",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "The Supreme Court rejected appeals and left in place Shabanov’s conviction as the identified organizer of a historical cannabis-trafficking group in Russia; the article states the judgment entered into force. His individual sentence is not assigned in this source.",
+          "source": {
+            "url": "https://rapsinews.ru/judicial_news/20131212/270081659.html",
+            "title": "ВС подтвердил приговор банде, возившей наркотики из Казахстана в Саратов",
+            "publisher": "РАПСИ",
+            "language": "ru",
+            "publishedAt": "2013-12-12",
+            "claim": "The Supreme Court rejected appeals and left in place Shabanov’s conviction as the identified organizer of a historical cannabis-trafficking group in Russia; the article states the judgment entered into force. His individual sentence is not assigned in this source."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nikolai-zarubanov-russia-court",
+      "name": "Николай Викторович Зарубанов",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-09-17",
+      "roleLabel": "Drug-smuggling conviction affirmed after retrial and cassation",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Николай Викторович Зарубанов’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2020",
+            "sourceUrl": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+          "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+          "publisher": "Supreme Court of the Russian Federation via Legalacts",
+          "language": "ru",
+          "publishedAt": "2024-09-17",
+          "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Николай Викторович Зарубанов, including a 22 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "overturned",
+          "date": "2022-12-13",
+          "qualifier": "Earlier first-instance judgment set aside for a defense-rights procedural issue; case remitted for retrial. This did not acquit the defendant.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Николай Викторович Зарубанов, including a 22 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2023-09-12",
+          "qualifier": "Retrial judgment for drug smuggling and intended sale.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Николай Викторович Зарубанов, including a 22 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2023-12-18",
+          "qualifier": "First appellate court left the retrial judgment unchanged.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Николай Викторович Зарубанов, including a 22 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2024-09-17",
+          "qualifier": "Supreme Court left the retrial judgment and appellate decision unchanged on cassation.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Николай Викторович Зарубанов, including a 22 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "nikolai-zarubanov-russia-outcome",
+          "occurredAt": "2024-09-17",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Николай Викторович Зарубанов, including a 22 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation.",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Николай Викторович Зарубанов, including a 22 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dmitrii-shalaev-russia-court",
+      "name": "Дмитрий Сергеевич Шалаев",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-09-17",
+      "roleLabel": "Drug-smuggling conviction affirmed after retrial and cassation",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "RUS",
+          "label": "Russia",
+          "evidence": {
+            "claim": "The cited court report places Дмитрий Сергеевич Шалаев’s historical drug-case conduct in Russia; this is not a present-location marker.",
+            "period": "2020",
+            "sourceUrl": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+          "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+          "publisher": "Supreme Court of the Russian Federation via Legalacts",
+          "language": "ru",
+          "publishedAt": "2024-09-17",
+          "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Дмитрий Сергеевич Шалаев, including a 21 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "overturned",
+          "date": "2022-12-13",
+          "qualifier": "Earlier first-instance judgment set aside for a defense-rights procedural issue; case remitted for retrial. This did not acquit the defendant.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Дмитрий Сергеевич Шалаев, including a 21 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2023-09-12",
+          "qualifier": "Retrial judgment for drug smuggling and intended sale.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Дмитрий Сергеевич Шалаев, including a 21 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2023-12-18",
+          "qualifier": "First appellate court left the retrial judgment unchanged.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Дмитрий Сергеевич Шалаев, including a 21 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2024-09-17",
+          "qualifier": "Supreme Court left the retrial judgment and appellate decision unchanged on cassation.",
+          "jurisdiction": "Russia",
+          "offense": "drug smuggling and intended sale",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Дмитрий Сергеевич Шалаев, including a 21 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "dmitrii-shalaev-russia-outcome",
+          "occurredAt": "2024-09-17",
+          "type": "development",
+          "title": "Historical drug-case court outcome reported",
+          "summary": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Дмитрий Сергеевич Шалаев, including a 21 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation.",
+          "source": {
+            "url": "https://legalacts.ru/sud/kassatsionnoe-opredelenie-sudebnoi-kollegii-po-ugolovnym-delam-verkhovnogo-suda-rossiiskoi-federatsii-ot-17092024-n-71-ud24-3-a1/",
+            "title": "Кассационное определение Верховного Суда РФ от 17.09.2024 № 71-УД24-3-А1",
+            "publisher": "Supreme Court of the Russian Federation via Legalacts",
+            "language": "ru",
+            "publishedAt": "2024-09-17",
+            "claim": "The Russian Supreme Court left in force the 2023 drug-smuggling and intended-sale judgment against Дмитрий Сергеевич Шалаев, including a 21 years aggregate sentence. An earlier 2022 judgment had been set aside for a defense-rights procedure issue and retried; the 2023 judgment was affirmed on appeal and cassation."
+          }
+        }
+      ]
+    },
+    {
       "id": "aziz-abdul-bhagad",
       "name": "Aziz Abdul Bhagad",
       "aliases": [],

@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1660,
-    "associations": 1329,
-    "evidenced": 1329,
+    "people": 1678,
+    "associations": 1347,
+    "evidenced": 1347,
     "missing": 0,
     "invalid": 0
   },
@@ -393,6 +393,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "russia_historical_court_cases_2012_2025.json": {
+      "people": 18,
+      "associations": 18,
+      "evidenced": 18,
+      "missing": 0,
+      "invalid": 0
+    },
     "salaya_heroin_network.json": {
       "people": 13,
       "associations": 13,
@@ -736,6 +743,12 @@
     "PER": {
       "associations": 49,
       "evidenced": 49,
+      "missing": 0,
+      "invalid": 0
+    },
+    "RUS": {
+      "associations": 18,
+      "evidenced": 18,
       "missing": 0,
       "invalid": 0
     },
