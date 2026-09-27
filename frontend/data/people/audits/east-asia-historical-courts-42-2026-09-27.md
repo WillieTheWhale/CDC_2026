@@ -48,6 +48,24 @@ Reviewed 2026-09-27. 42 named profiles: China 35, Taiwan 5, Thailand 2. Four exp
 | พรพรรณ รัตนเมธานนท์ | final 8-year-one-month prison sentence for possession of methamphetamine with intent to sell; Supreme Court narrowed the attributed quantity | [source](https://www.thaipbs.or.th/news/content/200265) |
 | จิตพัฒน์ สังฆสุวรรณ | final 33-year-four-month prison sentence for possession of methamphetamine with intent to sell | [source](https://www.thaipbs.or.th/news/content/200265) |
 
+
+## Prominence calibration (2026-09-27 correction)
+
+The cited roles support **zero level-1 global or major-network leaders**, eight level-2 regional organizers or coordinators, and 34 level-3 other named participants. The original batch mistakenly set all 42 people to level 1. Sentence severity was not used to infer leadership.
+
+| Level-2 person | Role evidence in the linked court report |
+| --- | --- |
+| 黄正坤 | The Shaoyang court states he jointly procured and distributed the bulk methamphetamine lot and describes him as a principal offender. |
+| 何海波 | The Shaoyang court states he jointly procured and distributed the bulk methamphetamine lot and describes him as a principal offender. |
+| 陈飞跃 | The Shaoyang court states he jointly procured and distributed the bulk methamphetamine lot and describes him as a principal offender. |
+| 陈卫东 | The Supreme People’s Court explicitly describes him as organizing and directing the joint trafficking case. |
+| 马重阳 | The Supreme People’s Court describes his directing another defendant to sell and return drugs and labels him a principal offender. |
+| 黄宪敏 | The Supreme People’s Court describes him recruiting couriers, arranging purchases and resale, and taking the main role in the joint case. |
+| 关辉 | The Supreme People’s Court explicitly describes him as financing, organizing, and directing multiple participants. |
+| 蔡志章 | CNA’s account of the final Supreme Court judgment calls him the mastermind and states he recruited participants and arranged the vessel. |
+
+The other 34 remain individually sourced court participants but the cited reports do not establish a substantial organizing role for them.
+
 ## Holds and limitations
 
 - Hong Kong government police releases found during review often suppressed defendant names; unnamed adults and minors were not included.
