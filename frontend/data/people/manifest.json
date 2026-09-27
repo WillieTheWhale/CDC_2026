@@ -366,6 +366,34 @@
       ]
     },
     {
+      "id": "la-familia-chicago-distribution-cell-2009",
+      "name": "La Familia Michoacana Chicago distribution cell (2009 case)",
+      "aliases": [
+        "La Familia Chicago cell",
+        "Project Coronado Chicago case"
+      ],
+      "regions": [
+        "USA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ describes an alleged La Familia Michoacana distribution cell operating in the United States and identifies 15 defendants across seven Chicago indictments. The Mexico-based parent organization is context, not a mapped operating country for each person.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The grand jury indictment describes the Chicago cell and its alleged cocaine distribution operation; the indictment is an allegation, not evidence of guilt."
+        }
+      ]
+    },
+    {
       "id": "los-zetas",
       "name": "Los Zetas",
       "aliases": [
@@ -6471,6 +6499,929 @@
       ]
     },
     {
+      "id": "jorge-guadalupe-ayala-german-lafamilia-chicago-2009",
+      "name": "Jorge Guadalupe Ayala-German",
+      "status": "convicted",
+      "statusAsOf": "2014-03-06",
+      "roleLabel": "Convicted Chicago cell member who managed storage for cocaine distribution",
+      "prominence": 1,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Jorge Guadalupe Ayala-German in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment names Ayala-German as a defendant in Count One and alleges Gonzalez-Zavala oversaw him and that he maintained a distribution-cell storage site."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ca7-13-01340/pdf/USCOURTS-ca7-13-01340-0.pdf",
+          "title": "United States v. Torres-Chavez, No. 13-1340, opinion",
+          "publisher": "U.S. Court of Appeals for the Seventh Circuit / GovInfo",
+          "language": "en",
+          "publishedAt": "2014-03-06",
+          "claim": "The Seventh Circuit identifies Jorge Ayala-German as a cooperating co-conspirator who had pleaded guilty under a separate indictment. The opinion does not give the plea date or sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "jorge-guadalupe-ayala-german-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Jorge Guadalupe Ayala-German was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Jorge Guadalupe Ayala-German in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        },
+        {
+          "id": "jorge-guadalupe-ayala-german-lafamilia-chicago-2009-2014-03-06-plea-documented",
+          "occurredAt": "2014-03-06",
+          "type": "development",
+          "title": "Earlier guilty plea documented",
+          "summary": "A Seventh Circuit opinion identifies Ayala-German as a cooperating co-conspirator who had pleaded guilty before the opinion was filed. It does not state his plea date or sentence.",
+          "source": {
+            "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ca7-13-01340/pdf/USCOURTS-ca7-13-01340-0.pdf",
+            "title": "United States v. Torres-Chavez, No. 13-1340, opinion",
+            "publisher": "U.S. Court of Appeals for the Seventh Circuit / GovInfo",
+            "language": "en",
+            "publishedAt": "2014-03-06",
+            "claim": "The Seventh Circuit identifies Jorge Ayala-German as a cooperating co-conspirator who had pleaded guilty under a separate indictment. The opinion does not give the plea date or sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jorge-luis-torres-galvan-lafamilia-chicago-2009",
+      "name": "Jorge Luis Torres-Galvan",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Alleged Chicago cell manager and supervisor",
+      "prominence": 1,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Jorge Luis Torres-Galvan in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment names Torres-Galvan as a defendant in Count One and alleges he managed and supervised cocaine distribution for the cell."
+        }
+      ],
+      "events": [
+        {
+          "id": "jorge-luis-torres-galvan-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Jorge Luis Torres-Galvan was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Jorge Luis Torres-Galvan in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "Jose Manuel Castell-Villot",
+        "Choche"
+      ]
+    },
+    {
+      "id": "jose-gonzalez-zavala-lafamilia-chicago-2009",
+      "name": "Jose Gonzalez-Zavala",
+      "status": "convicted",
+      "statusAsOf": "2011-08-02",
+      "roleLabel": "Convicted former head of Chicago cocaine distribution cell",
+      "prominence": 1,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Jose Gonzalez-Zavala in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment names Gonzalez-Zavala as a defendant and alleges he supervised the cell; DOJ later reports his guilty plea and 40-year sentence."
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2011/pr0802_02.pdf",
+          "title": "Former Head of Chicago Distribution Cell of La Familia Mexican Drug Cartel Sentenced to 40 Years in Federal Prison",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ reports Gonzalez-Zavala pleaded guilty in March 2011 to a narcotics conspiracy and was sentenced on 2 August 2011 to 40 years in federal prison for leading the Chicago distribution cell.",
+          "publishedAt": "2011-08-02"
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-gonzalez-zavala-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Jose Gonzalez-Zavala was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Jose Gonzalez-Zavala in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        },
+        {
+          "id": "jose-gonzalez-zavala-lafamilia-chicago-2009-2011-08-02-sentenced",
+          "occurredAt": "2011-08-02",
+          "type": "sentence",
+          "title": "Sentenced to 40 years",
+          "summary": "After a guilty plea to narcotics conspiracy earlier in 2011, Gonzalez-Zavala received a 40-year federal prison sentence on 2 August 2011.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2011/pr0802_02.pdf",
+            "title": "Former Head of Chicago Distribution Cell of La Familia Mexican Drug Cartel Sentenced to 40 Years in Federal Prison",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ reports Gonzalez-Zavala pleaded guilty in March 2011 to a narcotics conspiracy and was sentenced on 2 August 2011 to 40 years in federal prison for leading the Chicago distribution cell.",
+            "publishedAt": "2011-08-02"
+          }
+        }
+      ],
+      "aliases": [
+        "Panda"
+      ]
+    },
+    {
+      "id": "ezequel-hernandez-patino-lafamilia-chicago-2009",
+      "name": "Ezequel Hernandez-Patino",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Alleged Chicago cell cocaine distributor",
+      "prominence": 2,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Ezequel Hernandez-Patino in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment names Hernandez-Patino as a defendant and alleges he distributed cocaine for the cell under Gonzalez-Zavala’s oversight."
+        }
+      ],
+      "events": [
+        {
+          "id": "ezequel-hernandez-patino-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Ezequel Hernandez-Patino was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Ezequel Hernandez-Patino in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "Cheque"
+      ]
+    },
+    {
+      "id": "ismael-flores-lafamilia-chicago-2009",
+      "name": "Ismael Flores",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Alleged Chicago cell drug-proceeds courier",
+      "prominence": 2,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Ismael Flores in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment names Flores as a defendant and alleges he transported drug proceeds for the cell."
+        }
+      ],
+      "events": [
+        {
+          "id": "ismael-flores-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Ismael Flores was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Ismael Flores in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "Bobby",
+        "Cunado",
+        "Primo"
+      ]
+    },
+    {
+      "id": "oscar-bueno-lafamilia-chicago-2009",
+      "name": "Oscar Bueno",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Alleged Chicago cell drug-proceeds courier",
+      "prominence": 2,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Oscar Bueno in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment names Bueno as a defendant and alleges he assisted Ismael Flores with a drug-proceeds transfer."
+        }
+      ],
+      "events": [
+        {
+          "id": "oscar-bueno-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Oscar Bueno was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Oscar Bueno in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oscar-manuel-flores-candelario-lafamilia-chicago-2009",
+      "name": "Oscar Manuel Flores-Candelario",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Defendant alleged to be a wholesale cocaine distributor connected to the Chicago cell",
+      "prominence": 2,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Oscar Manuel Flores-Candelario in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The DOJ release names Flores-Candelario as a defendant in a separate indictment; the main indictment’s narrative names him among wholesale distributors, but he is not a defendant in that six-person indictment."
+        }
+      ],
+      "events": [
+        {
+          "id": "oscar-manuel-flores-candelario-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Oscar Manuel Flores-Candelario was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Oscar Manuel Flores-Candelario in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "Manolo"
+      ]
+    },
+    {
+      "id": "miguel-godinez-gonzalez-lafamilia-chicago-2009",
+      "name": "Miguel Godinez-Gonzalez",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Defendant alleged to be a wholesale cocaine distributor connected to the Chicago cell",
+      "prominence": 2,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Miguel Godinez-Gonzalez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The DOJ release names Godinez-Gonzalez as a defendant in a separate indictment; the main indictment’s narrative alleges he was a wholesale distributor."
+        }
+      ],
+      "events": [
+        {
+          "id": "miguel-godinez-gonzalez-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Miguel Godinez-Gonzalez was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Miguel Godinez-Gonzalez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "Compadre",
+        "Pedro"
+      ]
+    },
+    {
+      "id": "celso-corona-sanchez-lafamilia-chicago-2009",
+      "name": "Celso Corona-Sanchez",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Defendant alleged to be a wholesale cocaine distributor connected to the Chicago cell",
+      "prominence": 2,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Celso Corona-Sanchez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The DOJ release names Corona-Sanchez as a defendant in a separate indictment; the main indictment’s narrative alleges he was a wholesale distributor."
+        }
+      ],
+      "events": [
+        {
+          "id": "celso-corona-sanchez-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Celso Corona-Sanchez was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Celso Corona-Sanchez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "Ponciano",
+        "Poncia"
+      ]
+    },
+    {
+      "id": "javier-soto-medina-lafamilia-chicago-2009",
+      "name": "Javier Soto-Medina",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Defendant alleged to be a wholesale cocaine distributor connected to the Chicago cell",
+      "prominence": 3,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Javier Soto-Medina in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The DOJ release names Soto-Medina as a defendant in a separate indictment; the main indictment’s narrative alleges he was a wholesale distributor."
+        }
+      ],
+      "events": [
+        {
+          "id": "javier-soto-medina-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Javier Soto-Medina was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Javier Soto-Medina in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "Chuchi"
+      ]
+    },
+    {
+      "id": "jesus-hernandez-lafamilia-chicago-2009",
+      "name": "Jesus Hernandez",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Defendant alleged to be a wholesale cocaine distributor connected to the Chicago cell",
+      "prominence": 2,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Jesus Hernandez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The DOJ release names Hernandez as a defendant in a separate indictment; the main indictment’s narrative alleges he was a wholesale distributor."
+        }
+      ],
+      "events": [
+        {
+          "id": "jesus-hernandez-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Jesus Hernandez was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Jesus Hernandez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "J.C.",
+        "Yesi",
+        "Yessy del 19",
+        "Jesse"
+      ]
+    },
+    {
+      "id": "francisco-ramirez-lafamilia-chicago-2009",
+      "name": "Francisco Ramirez",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Defendant alleged to be a wholesale cocaine distributor connected to the Chicago cell",
+      "prominence": 3,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Francisco Ramirez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The DOJ release names Ramirez as a defendant in a separate indictment; the main indictment’s narrative alleges he was a wholesale distributor and gives the alias El Gato."
+        }
+      ],
+      "events": [
+        {
+          "id": "francisco-ramirez-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Francisco Ramirez was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Francisco Ramirez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "El Gato"
+      ]
+    },
+    {
+      "id": "anai-magana-gonzalez-lafamilia-chicago-2009",
+      "name": "Anai Magana Gonzalez",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Defendant alleged to be a wholesale cocaine distributor connected to the Chicago cell",
+      "prominence": 2,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Anai Magana Gonzalez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The DOJ release names Magana Gonzalez as a defendant in a separate indictment; the main indictment’s narrative alleges she was a wholesale distributor."
+        }
+      ],
+      "events": [
+        {
+          "id": "anai-magana-gonzalez-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Anai Magana Gonzalez was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Anai Magana Gonzalez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ],
+      "aliases": [
+        "Ana"
+      ]
+    },
+    {
+      "id": "bartolo-lucatero-lafamilia-chicago-2009",
+      "name": "Bartolo Lucatero",
+      "status": "convicted",
+      "statusAsOf": "2010-10-15",
+      "roleLabel": "Convicted wholesale cocaine distributor connected to the Chicago cell",
+      "prominence": 2,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Bartolo Lucatero in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The DOJ release names Lucatero as a defendant in a separate indictment; the main indictment’s narrative alleges he was a wholesale distributor."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ilnd-1_09-cr-00967/pdf/USCOURTS-ilnd-1_09-cr-00967-1.pdf",
+          "title": "United States v. Torres-Chavez, No. 09 CR 967, memorandum opinion and order",
+          "publisher": "U.S. District Court for the Northern District of Illinois / GovInfo",
+          "language": "en",
+          "publishedAt": "2011-12-13",
+          "claim": "The district court states Bartolo Lucatero pleaded guilty on 15 October 2010 under a written plea agreement in a related cocaine case and agreed to cooperate."
+        }
+      ],
+      "events": [
+        {
+          "id": "bartolo-lucatero-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Bartolo Lucatero was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Bartolo Lucatero in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        },
+        {
+          "id": "bartolo-lucatero-lafamilia-chicago-2009-2010-10-15-guilty-plea",
+          "occurredAt": "2010-10-15",
+          "type": "conviction",
+          "title": "Pleaded guilty in related cocaine case",
+          "summary": "A federal district court opinion records Lucatero’s guilty plea on 15 October 2010 under a written agreement in a related cocaine conspiracy case.",
+          "source": {
+            "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ilnd-1_09-cr-00967/pdf/USCOURTS-ilnd-1_09-cr-00967-1.pdf",
+            "title": "United States v. Torres-Chavez, No. 09 CR 967, memorandum opinion and order",
+            "publisher": "U.S. District Court for the Northern District of Illinois / GovInfo",
+            "language": "en",
+            "publishedAt": "2011-12-13",
+            "claim": "The district court states Bartolo Lucatero pleaded guilty on 15 October 2010 under a written plea agreement in a related cocaine case and agreed to cooperate."
+          }
+        }
+      ],
+      "aliases": [
+        "Pelon"
+      ]
+    },
+    {
+      "id": "jose-rodriguez-lafamilia-chicago-2009",
+      "name": "Jose Rodriguez",
+      "status": "charged",
+      "statusAsOf": "2009-11-20",
+      "roleLabel": "Defendant alleged to be a wholesale cocaine distributor connected to the Chicago cell",
+      "prominence": 3,
+      "organizationIds": [
+        "la-familia-chicago-distribution-cell-2009"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+          "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "DOJ explicitly names Jose Rodriguez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+          "publishedAt": "2009-11-20"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The DOJ release names Jose Rodriguez as a defendant in a separate indictment; the main indictment’s narrative lists Jose Rodriguez as a wholesale distributor. A later indictment paragraph says Jesus Rodriguez, so no direct person link is drawn from that inconsistent name."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-rodriguez-lafamilia-chicago-2009-2009-11-20-charges-announced",
+          "occurredAt": "2009-11-20",
+          "type": "charge",
+          "title": "Federal cocaine charges announced",
+          "summary": "DOJ announced that Jose Rodriguez was among 15 defendants charged in the Chicago La Familia investigation. The indictment alleges a cocaine conspiracy; it does not establish guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01.pdf",
+            "title": "U.S. Indicts 15 Alleged Members and Associates of Chicago Distribution Cell of La Familia Mexican Drug Cartel",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+            "language": "en",
+            "claim": "DOJ explicitly names Jose Rodriguez in its defendant roster among 15 people charged in the seven 19 November 2009 indictments with cocaine conspiracy; the release cautions that charges are allegations.",
+            "publishedAt": "2009-11-20"
+          }
+        }
+      ]
+    },
+    {
       "id": "heriberto-lazcano-lazcano",
       "name": "Heriberto Lazcano Lazcano",
       "aliases": [
@@ -9966,6 +10917,134 @@
           "language": "English",
           "publishedAt": "2024-12-12",
           "claim": "RTÉ reports Keating’s December 2024 sentence for a conspiracy organized to reduce Thomas Kavanagh’s drug sentence."
+        }
+      ]
+    },
+    {
+      "id": "jose-gonzalez-zavala-jorge-guadalupe-ayala-german-lafamilia-2009",
+      "fromId": "jose-gonzalez-zavala-lafamilia-chicago-2009",
+      "toId": "jorge-guadalupe-ayala-german-lafamilia-chicago-2009",
+      "type": "associate",
+      "label": "Alleged supervisor and subordinate",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment explicitly alleges Gonzalez-Zavala oversaw and instructed Ayala-German in the cell’s cocaine distribution and proceeds collection."
+        }
+      ]
+    },
+    {
+      "id": "jose-gonzalez-zavala-ezequel-hernandez-patino-lafamilia-2009",
+      "fromId": "jose-gonzalez-zavala-lafamilia-chicago-2009",
+      "toId": "ezequel-hernandez-patino-lafamilia-chicago-2009",
+      "type": "associate",
+      "label": "Alleged supervisor and subordinate",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment explicitly alleges Gonzalez-Zavala oversaw and instructed Hernandez-Patino in the cell’s cocaine distribution and proceeds collection."
+        }
+      ]
+    },
+    {
+      "id": "ismael-flores-oscar-bueno-lafamilia-2009",
+      "fromId": "ismael-flores-lafamilia-chicago-2009",
+      "toId": "oscar-bueno-lafamilia-chicago-2009",
+      "type": "associate",
+      "label": "Alleged courier assistance",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment explicitly alleges Bueno assisted Flores with drug-proceeds transportation on 16 April 2009."
+        }
+      ]
+    },
+    {
+      "id": "jose-gonzalez-zavala-miguel-godinez-gonzalez-lafamilia-2009",
+      "fromId": "jose-gonzalez-zavala-lafamilia-chicago-2009",
+      "toId": "miguel-godinez-gonzalez-lafamilia-chicago-2009",
+      "type": "associate",
+      "label": "Alleged distribution arrangements",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment explicitly alleges Gonzalez-Zavala made cocaine-distribution and proceeds arrangements with Miguel Godinez-Gonzalez."
+        }
+      ]
+    },
+    {
+      "id": "jose-gonzalez-zavala-celso-corona-sanchez-lafamilia-2009",
+      "fromId": "jose-gonzalez-zavala-lafamilia-chicago-2009",
+      "toId": "celso-corona-sanchez-lafamilia-chicago-2009",
+      "type": "associate",
+      "label": "Alleged distribution arrangements",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment explicitly alleges Gonzalez-Zavala made cocaine-distribution and proceeds arrangements with Celso Corona-Sanchez."
+        }
+      ]
+    },
+    {
+      "id": "jose-gonzalez-zavala-anai-magana-gonzalez-lafamilia-2009",
+      "fromId": "jose-gonzalez-zavala-lafamilia-chicago-2009",
+      "toId": "anai-magana-gonzalez-lafamilia-chicago-2009",
+      "type": "associate",
+      "label": "Alleged distribution arrangements",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment explicitly alleges Gonzalez-Zavala made cocaine-distribution and proceeds arrangements with Anai Magana Gonzalez."
+        }
+      ]
+    },
+    {
+      "id": "jose-gonzalez-zavala-jesus-hernandez-lafamilia-2009",
+      "fromId": "jose-gonzalez-zavala-lafamilia-chicago-2009",
+      "toId": "jesus-hernandez-lafamilia-chicago-2009",
+      "type": "associate",
+      "label": "Alleged distribution arrangements",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment explicitly alleges Gonzalez-Zavala made cocaine-distribution and proceeds arrangements with Jesus Hernandez."
+        }
+      ]
+    },
+    {
+      "id": "jose-gonzalez-zavala-bartolo-lucatero-lafamilia-2009",
+      "fromId": "jose-gonzalez-zavala-lafamilia-chicago-2009",
+      "toId": "bartolo-lucatero-lafamilia-chicago-2009",
+      "type": "associate",
+      "label": "Alleged distribution arrangements",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/iln/chicago/2009/pr1120_01a.pdf",
+          "title": "Superseding Indictment, United States v. Ayala-German et al., No. 09 CR 546",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
+          "language": "en",
+          "claim": "The indictment explicitly alleges Gonzalez-Zavala made cocaine-distribution and proceeds arrangements with Bartolo Lucatero."
         }
       ]
     },
