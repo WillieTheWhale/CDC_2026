@@ -55475,7 +55475,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reports Murat Ak admitted K-2 sales at a New York store and individually listed his New York locality in its 2017 release. This is historical and does not indicate a present location.",
+            "period": "reported 2017",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/long-island-convenience-store-owner-and-clerks-plead-guilty-drug-trafficking"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -57096,7 +57106,16 @@
           "iso3": "MEX",
           "label": "Mexico",
           "evidence": {
-            "claim": "DOJ describes Genaro Anguiar-Guizar's historical residence or locality in Mexico. This country association is historical and does not indicate a present location.",
+            "claim": "DOJ described Genaro Anguiar-Guizar as “of Buenavista, Michoacan, Mexico” in its 2016 release. This identifies historical locality, not proven personal drug conduct there or a present location.",
+            "period": "reported 2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndga/pr/members-mexican-drug-trafficking-organization-convicted-and-sentenced-federal-prison"
+          }
+        },
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ reports Genaro Anguiar-Guizar led an Atlanta-based cocaine and methamphetamine trafficking conspiracy. This is a historical U.S. case association, not a present location.",
             "period": "reported 2016",
             "sourceUrl": "https://www.justice.gov/usao-ndga/pr/members-mexican-drug-trafficking-organization-convicted-and-sentenced-federal-prison"
           }
@@ -57147,7 +57166,16 @@
           "iso3": "MEX",
           "label": "Mexico",
           "evidence": {
-            "claim": "DOJ describes Pedro Aguirre-Ortiz's historical residence or locality in Mexico. This country association is historical and does not indicate a present location.",
+            "claim": "DOJ described Pedro Aguirre-Ortiz as “from Chihuahua, Mexico” in its 2021 release. This identifies historical origin/locality, not proven personal drug conduct there or a present location.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-ne/pr/mexican-citizen-sentenced-drug-trafficking-ring"
+          }
+        },
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ individually reports Pedro Aguirre-Ortiz sold cocaine and methamphetamine in the Nebraska drug case between 2018 and 2019. This is historical conduct, not a present location.",
             "period": "reported 2021",
             "sourceUrl": "https://www.justice.gov/usao-ne/pr/mexican-citizen-sentenced-drug-trafficking-ring"
           }
