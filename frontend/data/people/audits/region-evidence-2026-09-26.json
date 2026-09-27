@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2801,
-    "associations": 1836,
-    "evidenced": 1836,
+    "people": 2809,
+    "associations": 1842,
+    "evidenced": 1842,
     "missing": 0,
     "invalid": 0
   },
@@ -372,6 +372,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "ndlea_named_convictions_2025_2026.json": {
+      "people": 8,
+      "associations": 6,
+      "evidenced": 6,
+      "missing": 0,
+      "invalid": 0
+    },
     "ndrangheta.json": {
       "people": 9,
       "associations": 6,
@@ -626,8 +633,8 @@
       "invalid": 0
     },
     "NGA": {
-      "associations": 67,
-      "evidenced": 67,
+      "associations": 73,
+      "evidenced": 73,
       "missing": 0,
       "invalid": 0
     },
