@@ -30,3 +30,13 @@ test('HTML charge tables yield names and person-specific allegation spans withou
   assert.equal(rows[4].sourceSpan, 'Richard N. Irwin, II');
   assert.equal(rows[4].allegedOffenseSpan, 'Conspiracy to distribute controlled substances');
 });
+
+test('non-charge defendant tables stay neutral and sentence parsing rejects title/place prefixes', () => {
+  const body = '<p>Defendants in the drug trafficking case:</p><table><tr><th>Defendant</th><th>Age</th></tr>' +
+    ['Alice Baker', 'Brian Carter', 'Carmen Diaz', 'David Evans', 'Elena Flores'].map((name) => `<tr><td>${name}</td><td>31</td></tr>`).join('') +
+    '</table><p>Codefendant Jamie Valenzuela was sentenced for drug trafficking. John the Baptist Parish was charged with drug trafficking. North Dakota pleaded guilty to drug trafficking. Controlled Substance was sentenced for drug trafficking. Oyervides Jr. was indicted for methamphetamine trafficking. Robinson DTG pleaded guilty to drug trafficking.</p>';
+  const rows = extractArticle({ title: 'Drug trafficking defendants', body });
+  assert.equal(rows.filter((row) => row.kind === 'html_table_roster').length, 5);
+  assert.ok(rows.filter((row) => row.kind === 'html_table_roster').every((row) => row.tentativeEventType === 'named_defendant_table_review'));
+  assert.equal(rows.filter((row) => row.kind === 'sentence').length, 0);
+});

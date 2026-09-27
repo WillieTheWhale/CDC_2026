@@ -25,6 +25,14 @@ const resume = args.includes('--resume');
 const sleep = (ms) => new Promise((done) => setTimeout(done, ms));
 const checkpointPath = resolve(statePath);
 const outputPath = resolve(output);
+function withoutEmbeddedImages(article, state) {
+  const body = String(article.body ?? '');
+  let imagesRemoved = 0;
+  const cleaned = body.replace(/<img\b[^>]*>/gi, () => { imagesRemoved++; return ''; });
+  state.embeddedImagesRemoved = (state.embeddedImagesRemoved ?? 0) + imagesRemoved;
+  state.embeddedMediaBytesRemoved = (state.embeddedMediaBytesRemoved ?? 0) + Buffer.byteLength(body) - Buffer.byteLength(cleaned);
+  return { uuid: article.uuid, url: article.url, title: article.title, date: article.date, body: cleaned, attachment: article.attachment };
+}
 let lastRequestAt = 0;
 async function request(url) {
   for (let attempt = 0; attempt < 4; attempt++) {
@@ -49,12 +57,17 @@ let state;
 if (resume) {
   state = JSON.parse(await readFile(checkpointPath, 'utf8'));
   if (state.version !== 2 || JSON.stringify(state.terms) !== JSON.stringify(terms)) throw new Error('Checkpoint version or terms do not match this crawl');
+  state.embeddedImagesRemoved ??= 0;
+  state.embeddedMediaBytesRemoved ??= 0;
+  for (const [uuid, article] of Object.entries(state.documents)) state.documents[uuid] = withoutEmbeddedImages(article, state);
+  await saveState(state);
 } else {
-  state = { version: 2, terms, nextPage: {}, queryCounts: {}, requests: 0, documents: {}, attachmentRows: {}, attachmentScans: 0, attachmentErrors: [] };
+  state = { version: 2, terms, nextPage: {}, queryCounts: {}, requests: 0, documents: {}, attachmentRows: {}, attachmentScans: 0, attachmentErrors: [], embeddedImagesRemoved: 0, embeddedMediaBytesRemoved: 0 };
   await saveState(state);
 }
 for (const term of terms) {
   for (let page = state.nextPage[term] ?? 0; page < maxPagesPerTerm && Object.keys(state.documents).length < maxDocuments; page++) {
+    if (Number.isSafeInteger(state.queryCounts[term]) && page * pageSize >= state.queryCounts[term]) break;
     const url = new URL(api);
     url.searchParams.set('parameters[title]', term);
     url.searchParams.set('fields', 'title,date,url,body,uuid,attachment');
@@ -69,7 +82,7 @@ for (const term of terms) {
     if (!Number.isSafeInteger(count)) throw new Error(`Missing DOJ result count for ${term}`);
     state.queryCounts[term] = count;
     for (const article of body.results ?? []) {
-      if (article.uuid && /^https:\/\/www\.justice\.gov\//.test(article.url ?? '') && !state.documents[article.uuid]) state.documents[article.uuid] = article;
+      if (article.uuid && /^https:\/\/www\.justice\.gov\//.test(article.url ?? '') && !state.documents[article.uuid]) state.documents[article.uuid] = withoutEmbeddedImages(article, state);
     }
     state.nextPage[term] = page + 1;
     await saveState(state);
@@ -124,7 +137,7 @@ for (const article of attachmentArticles) {
       for (const row of state.attachmentRows[id]) add(article, row, `https://www.justice.gov/media/${id}/dl`);
       continue;
     }
-    if (state.attachmentScans >= maxAttachments) break;
+    if (state.attachmentScans >= maxAttachments) continue;
     const attachmentUrl = `https://www.justice.gov/media/${id}/dl`;
     state.attachmentScans++;
     try {
@@ -145,7 +158,6 @@ for (const article of attachmentArticles) {
     for (const row of state.attachmentRows[id]) add(article, row, attachmentUrl);
     await saveState(state);
   }
-  if (state.attachmentScans >= maxAttachments) break;
 }
 const uniqueNames = new Set(candidates.map((row) => row.name.normalize('NFKC').toLocaleLowerCase('en-US')));
 const kinds = Object.fromEntries(['sentence', 'html_roster', 'html_table_roster', 'pdf_roster'].map((kind) => [kind, candidates.filter((row) => row.kind === kind).length]));

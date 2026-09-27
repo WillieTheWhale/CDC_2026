@@ -11,10 +11,13 @@ const nameToken=String.raw`[A-ZÁÉÍÓÚÑ][\p{L}'’.-]+`;
 const namePattern=String.raw`(${nameToken}(?:\s+(?:${nameToken}|de|del|la|De|Del|La)){1,4})`;
 const eventPattern=String.raw`(?:,\s*(?:\d{2,3}|[^,.;]{1,70}),)?\s+(was sentenced|were sentenced|has been sentenced|was convicted|was found guilty|pleaded guilty|pled guilty|has pleaded guilty|was indicted|was charged|has been charged|was arrested|has been arrested)`;
 const eventRegex=new RegExp(String.raw`\b${namePattern}${eventPattern}\b`,'gu');
-const badNameWords=/\b(?:After|Before|When|El|Department|Justice|Attorney|Office|Cartel|District|Court|Judge|United|States|Mexican|Federal|Drug|Trafficking|Police|Authorities|Members|Leader|Defendant|Individual|Today|Yesterday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Angels|Strike|Force)\b/u;
+const badNameWords=/\b(?:After|Before|When|El|Department|Justice|Attorney|Office|Cartel|District|Court|Judge|United|States|Mexican|Federal|Drug|Trafficking|Police|Authorities|Members|Leader|Defendant|Codefendant|Individual|Today|Yesterday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Angels|Strike|Force|Parish|County)\b/u;
+const nonPersonPhrase=/^(?:North Dakota|South Dakota|West Virginia|North Carolina|South Carolina|New York|New Mexico|New Jersey|New Hampshire|Rhode Island|Controlled Substance)$/u;
+const suffixOnly=/^(?:Jr\.?|Sr\.?|II|III|IV)$/u;
+const organizationTail=/\b(?:DTG|LLC|Inc\.?|Ltd\.?)$/u;
 const drugContext=/\b(?:drug|narcotic|cocaine|methamphetamine|meth|fentanyl|heroin|marijuana|cannabis|opioid|controlled substance)\w*\b/iu;
 const eventType=(verb)=>{const v=verb.toLowerCase();return v.includes('sentenced')?'sentencing_reported':v.includes('convicted')||v.includes('found guilty')?'conviction_reported':v.includes('guilty')?'guilty_plea_reported':v.includes('indicted')||v.includes('charged')?'charge_reported':'arrest_reported'};
-const validName=(name)=>name.length>=5&&name.length<=90&&/^[\p{L}][\p{L} .’'-]+$/u.test(name)&&name.trim().split(/\s+/).length>=2&&name.trim().split(/\s+/).length<=7&&!badNameWords.test(name);
+const validName=(name)=>{const tokens=name.trim().split(/\s+/);return name.length>=5&&name.length<=90&&/^[\p{L}][\p{L} .’'-]+$/u.test(name)&&tokens.length>=2&&tokens.length<=7&&!badNameWords.test(name)&&!nonPersonPhrase.test(name)&&!organizationTail.test(name)&&!(tokens.length===2&&suffixOnly.test(tokens[1]));};
 const paragraphs=(html)=>[...String(html??'').matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(x=>plainText(x[1])).filter(Boolean);
 export function extractArticle(article) {
   const title=plainText(article.title), body=String(article.body??'');
@@ -35,7 +38,7 @@ export function extractArticle(article) {
         const name=sourceSpan.replace(/,\s*(?=[IVX]{1,4}$)/u,' ').trim();
         const allegedOffenseSpan=chargeIndex<0?null:cells[chargeIndex]?.trim()??null;
         if(!validName(name)||(chargeIndex>=0&&!drugContext.test(allegedOffenseSpan??'')))continue;
-        rows.push({name,kind:'html_table_roster',tentativeEventType:'charge_roster_review',sourceSpan,
+        rows.push({name,kind:'html_table_roster',tentativeEventType:chargeIndex>=0?'charge_roster_review':'named_defendant_table_review',sourceSpan,
           ...(allegedOffenseSpan?{allegedOffenseSpan}:{}),rosterContext:chargeIndex>=0?headings.join(' | '):before.slice(-300),eventDate:null});
       }
     }
