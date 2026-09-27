@@ -1,0 +1,626 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from cited public records. Statuses and roles are time-bound to source dates; charges are allegations, and reported deaths are not convictions. Public senior figures only; country-level geographic associations; no operational routes, enforcement weaknesses, or unlicensed photos.",
+  "organizations": [
+    {
+      "id": "gulf-cartel",
+      "name": "Gulf Cartel",
+      "aliases": [
+        "Cártel del Golfo",
+        "Cartel del Golfo",
+        "CDG"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies the Gulf Cartel as a Mexico-based drug trafficking organization and names senior figures.",
+          "publishedAt": "2009-07-20"
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/head-gulf-cartel-indicted",
+          "title": "Head of the Gulf Cartel indicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ identifies Cartel del Golfo, also called the Gulf Cartel or CDG, as the organization in the indictment.",
+          "publishedAt": "2022-03-24"
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "juan-garcia-abrego",
+      "name": "Juan García Ábrego",
+      "status": "convicted",
+      "statusAsOf": "1997-01-31",
+      "roleLabel": "Former Gulf Cartel leader; sentenced to life in U.S. federal court",
+      "prominence": 1,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://oig.justice.gov/sites/default/files/legacy/reports/FBI/a9729a/index.htm",
+          "title": "Audit Report 97-29A",
+          "publisher": "U.S. Department of Justice, Office of Inspector General",
+          "language": "en",
+          "claim": "DOJ OIG reports García Ábrego was convicted on 22 counts and sentenced in January 1997 to multiple life terms.",
+          "publishedAt": "1997-01-31"
+        },
+        {
+          "url": "https://www.justice.gov/file/267651/dl?inline=",
+          "title": "Mexico’s Drug Trafficking Organizations: Source and Scope of the Rising Violence",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ-hosted history identifies García Ábrego as the Gulf organization’s leader in the 1980s and Osiel Cárdenas Guillén as his successor."
+        }
+      ]
+    },
+    {
+      "id": "osiel-cardenas-guillen",
+      "name": "Osiel Cárdenas Guillén",
+      "status": "convicted",
+      "statusAsOf": "2010-02-24",
+      "roleLabel": "Former Gulf Cartel leader; convicted of drug and related offenses",
+      "prominence": 1,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2010%20February/022410%20Cardenas-Guillen.htm",
+          "title": "Osiel Cardenas-Guillen, Former Head of the Gulf Cartel, Sentenced to 25 Years Imprisonment",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Cárdenas Guillén pleaded guilty and was sentenced to 25 years for drug trafficking, money laundering, and threats to federal agents.",
+          "publishedAt": "2010-02-24"
+        },
+        {
+          "url": "https://www.justice.gov/file/267651/dl?inline=",
+          "title": "Mexico’s Drug Trafficking Organizations: Source and Scope of the Rising Violence",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ-hosted history identifies him as García Ábrego’s successor at the Gulf organization."
+        }
+      ]
+    },
+    {
+      "id": "antonio-ezequiel-cardenas-guillen",
+      "name": "Antonio Ezequiel Cárdenas Guillén",
+      "status": "reported",
+      "statusAsOf": "2010-11-05",
+      "roleLabel": "Gulf Cartel leader reported killed in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/comunicados-2010/1725-comunicado-300-2010.html",
+          "title": "Comunicado de Prensa 300/2010",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy reports that Antonio Ezequiel Cárdenas Guillén, alias Tony Tormenta, was a Gulf Cartel leader killed on 5 November 2010.",
+          "publishedAt": "2010-11-05"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury names him as a Gulf Cartel director, says he is Osiel Cárdenas Guillén’s brother, and describes cocaine and marijuana trafficking.",
+          "publishedAt": "2009-07-20"
+        }
+      ],
+      "aliases": [
+        "Tony Tormenta"
+      ]
+    },
+    {
+      "id": "jorge-eduardo-costilla-sanchez",
+      "name": "Jorge Eduardo Costilla Sánchez",
+      "status": "convicted",
+      "statusAsOf": "2022-09-15",
+      "roleLabel": "Former Gulf Cartel leader; sentenced to life in U.S. federal court",
+      "prominence": 1,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/former-head-gulf-cartel-receives-life-sentence-importing-kilos-drugs",
+          "title": "Former head of Gulf Cartel receives life sentence for importing kilos of drugs",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Costilla Sánchez pleaded guilty to cocaine and marijuana trafficking and received a life sentence; it identifies him as cartel head after Osiel Cárdenas Guillén’s arrest.",
+          "publishedAt": "2022-09-15"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury names Costilla Sánchez and Antonio Ezequiel Cárdenas Guillén together as directors of Gulf Cartel trafficking in 2009.",
+          "publishedAt": "2009-07-20"
+        }
+      ],
+      "aliases": [
+        "El Coss",
+        "El Cos",
+        "Doble X",
+        "Dos Equis"
+      ]
+    },
+    {
+      "id": "mario-alberto-cardenas-guillen",
+      "name": "Mario Cárdenas Guillén",
+      "status": "reported",
+      "statusAsOf": "2012-09-04",
+      "roleLabel": "Reported Gulf Cartel leader in the Cárdenas family faction",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2238-comunicado-173-2012.html",
+          "title": "Comunicado de Prensa 173/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy reports Mario Cárdenas Guillén’s arrest and attributes a leadership role to intelligence sources; it calls Antonio Ezequiel Cárdenas Guillén his brother."
+        },
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2247-comunicado-181-2012.html",
+          "title": "Comunicado de Prensa 181/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy describes a leadership dispute between Costilla Sánchez and Mario Cárdenas Guillén after Antonio Ezequiel Cárdenas Guillén’s death."
+        }
+      ],
+      "aliases": [
+        "El Gordo"
+      ]
+    },
+    {
+      "id": "rafael-cardenas-vela",
+      "name": "Rafael Cárdenas Vela",
+      "status": "convicted",
+      "statusAsOf": "2014-11-17",
+      "roleLabel": "Former senior Gulf Cartel member; convicted of drug conspiracy",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20March/120312%20Cardenas%20Vela.html",
+          "title": "Gulf Cartel Plaza Boss Convicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Cárdenas Vela pleaded guilty to a Gulf Cartel drug conspiracy and identifies him as nephew of Osiel and Antonio Ezequiel Cárdenas Guillén.",
+          "publishedAt": "2012-03-12"
+        },
+        {
+          "url": "https://oig.justice.gov/archives/reports/2015/a1509.pdf",
+          "title": "FY14 Reviews of the DOJ Annual Accounting of Drug Control Funds and Related Performance",
+          "publisher": "U.S. Department of Justice, Office of Inspector General",
+          "language": "en",
+          "claim": "DOJ OIG reports Cárdenas Vela was sentenced to 20 years on 17 November 2014 after his guilty plea."
+        }
+      ],
+      "aliases": [
+        "El Junior",
+        "Commandante 900",
+        "Rolex"
+      ]
+    },
+    {
+      "id": "jose-alfredo-cardenas-martinez",
+      "name": "José Alfredo Cárdenas Martínez",
+      "status": "charged",
+      "statusAsOf": "2022-03-24",
+      "roleLabel": "Alleged Gulf Cartel head charged in U.S. federal court",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/head-gulf-cartel-indicted",
+          "title": "Head of the Gulf Cartel indicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports a U.S. indictment charging Cárdenas Martínez and alleging he headed the Gulf Cartel from 2015; it identifies Osiel Cárdenas Guillén as his uncle. The charges are not a conviction.",
+          "publishedAt": "2022-03-24"
+        }
+      ],
+      "aliases": [
+        "El Contador"
+      ]
+    },
+    {
+      "id": "juan-roberto-rincon-rincon",
+      "name": "Juan Roberto Rincón Rincón",
+      "status": "convicted",
+      "statusAsOf": "2013-05-14",
+      "roleLabel": "Former senior Gulf Cartel member; sentenced to life in U.S. federal court",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/gulf-cartel-plaza-boss-heads-prison-life",
+          "title": "Gulf Cartel Plaza Boss Heads To Prison For Life",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Rincón Rincón was a high-ranking Gulf Cartel member convicted by a jury and sentenced to life for a drug trafficking conspiracy.",
+          "publishedAt": "2013-05-14"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20September/120928%20Rincon-Rincon_print.html",
+          "title": "Gulf Cartel Member Convicted on All Counts in Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports testimony that Rincón Rincón rose through his association with Costilla Sánchez and that Rafael Cárdenas Vela testified about their association.",
+          "publishedAt": "2012-09-28"
+        }
+      ]
+    },
+    {
+      "id": "juan-carlos-de-la-cruz-reyna",
+      "name": "Juan Carlos de la Cruz Reyna",
+      "status": "convicted",
+      "statusAsOf": "2012-10-10",
+      "roleLabel": "Former Gulf Cartel figure; convicted of bribery and an earlier assault",
+      "prominence": 3,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20October/121010%20De%20La%20Cruz%20Reyna%20et%20al.html",
+          "title": "Gulf Cartel Figure and Five Others Sentenced to Prison in Bribery Scheme",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports de la Cruz Reyna was sentenced in a bribery case after an earlier federal conviction tied to an assault on agents.",
+          "publishedAt": "2012-10-10"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20April/120423%20De%20La%20Cruz%20Reyna%20et%20al_print.html",
+          "title": "Gulf Cartel Figure and Others Convicted in Bribery Scheme",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ says his earlier assault conviction arose from actions directed by then Gulf Cartel leader Osiel Cárdenas Guillén.",
+          "publishedAt": "2012-04-23"
+        }
+      ]
+    },
+    {
+      "id": "juan-francisco-saenz-tamez",
+      "name": "Juan Francisco Sáenz Tamez",
+      "status": "convicted",
+      "statusAsOf": "2015-06-30",
+      "roleLabel": "Former Gulf Cartel head; sentenced to 30 years in U.S. federal court",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/head-gulf-cartel-sentenced-federal-prison-drug-trafficking",
+          "title": "Head of the Gulf Cartel Sentenced to Federal Prison for Drug Trafficking",
+          "publisher": "U.S. Department of Justice, Eastern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Sáenz Tamez pleaded guilty to cocaine and marijuana offenses and received a 30-year sentence; it describes him as head of the Gulf Cartel at the time.",
+          "publishedAt": "2015-06-30"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "garcia-abrego-osiel-succession",
+      "fromId": "juan-garcia-abrego",
+      "toId": "osiel-cardenas-guillen",
+      "type": "successor",
+      "label": "Osiel succeeded García Ábrego as Gulf leader",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/file/267651/dl?inline=",
+          "title": "Mexico’s Drug Trafficking Organizations: Source and Scope of the Rising Violence",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ-hosted history explicitly describes Osiel Cárdenas Guillén as García Ábrego’s successor."
+        }
+      ]
+    },
+    {
+      "id": "osiel-antonio-brothers",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "antonio-ezequiel-cardenas-guillen",
+      "type": "siblings",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury explicitly identifies Antonio Ezequiel Cárdenas Guillén as Osiel Cárdenas Guillén’s brother.",
+          "publishedAt": "2009-07-20"
+        }
+      ]
+    },
+    {
+      "id": "osiel-costilla-succession",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "jorge-eduardo-costilla-sanchez",
+      "type": "successor",
+      "label": "Costilla led the cartel after Osiel’s arrest",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/former-head-gulf-cartel-receives-life-sentence-importing-kilos-drugs",
+          "title": "Former head of Gulf Cartel receives life sentence for importing kilos of drugs",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ says Costilla Sánchez became Gulf Cartel head after Osiel Cárdenas Guillén’s 2003 arrest.",
+          "publishedAt": "2022-09-15"
+        }
+      ]
+    },
+    {
+      "id": "antonio-costilla-co-leaders",
+      "fromId": "antonio-ezequiel-cardenas-guillen",
+      "toId": "jorge-eduardo-costilla-sanchez",
+      "type": "co_leaders",
+      "label": "Both named as directors of Gulf Cartel trafficking in 2009",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury explicitly names Antonio Ezequiel Cárdenas Guillén and Jorge Eduardo Costilla Sánchez together as directing Gulf Cartel trafficking in 2009.",
+          "publishedAt": "2009-07-20"
+        }
+      ]
+    },
+    {
+      "id": "antonio-mario-brothers",
+      "fromId": "antonio-ezequiel-cardenas-guillen",
+      "toId": "mario-alberto-cardenas-guillen",
+      "type": "siblings",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2238-comunicado-173-2012.html",
+          "title": "Comunicado de Prensa 173/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy identifies Antonio Ezequiel Cárdenas Guillén as Mario Cárdenas Guillén’s brother."
+        }
+      ]
+    },
+    {
+      "id": "mario-costilla-rivals",
+      "fromId": "mario-alberto-cardenas-guillen",
+      "toId": "jorge-eduardo-costilla-sanchez",
+      "type": "reported_rivals",
+      "label": "Reported opposing sides of a Gulf Cartel leadership dispute",
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2247-comunicado-181-2012.html",
+          "title": "Comunicado de Prensa 181/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy describes a dispute over the organization between Costilla Sánchez and Mario Cárdenas Guillén following Antonio Ezequiel’s death."
+        }
+      ]
+    },
+    {
+      "id": "osiel-rafael-uncle",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "rafael-cardenas-vela",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20March/120312%20Cardenas%20Vela.html",
+          "title": "Gulf Cartel Plaza Boss Convicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ explicitly identifies Rafael Cárdenas Vela as the nephew of Osiel Cárdenas Guillén.",
+          "publishedAt": "2012-03-12"
+        }
+      ]
+    },
+    {
+      "id": "antonio-rafael-uncle",
+      "fromId": "antonio-ezequiel-cardenas-guillen",
+      "toId": "rafael-cardenas-vela",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20March/120312%20Cardenas%20Vela.html",
+          "title": "Gulf Cartel Plaza Boss Convicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ explicitly identifies Rafael Cárdenas Vela as the nephew of Antonio Ezequiel Cárdenas Guillén.",
+          "publishedAt": "2012-03-12"
+        }
+      ]
+    },
+    {
+      "id": "osiel-contador-uncle",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "jose-alfredo-cardenas-martinez",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/head-gulf-cartel-indicted",
+          "title": "Head of the Gulf Cartel indicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ explicitly identifies Osiel Cárdenas Guillén as José Alfredo Cárdenas Martínez’s uncle.",
+          "publishedAt": "2022-03-24"
+        }
+      ]
+    },
+    {
+      "id": "costilla-rincon-associates",
+      "fromId": "jorge-eduardo-costilla-sanchez",
+      "toId": "juan-roberto-rincon-rincon",
+      "type": "associates",
+      "label": "Rincón rose through his association with Costilla",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20September/120928%20Rincon-Rincon_print.html",
+          "title": "Gulf Cartel Member Convicted on All Counts in Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports trial testimony that Rincón Rincón rose through the cartel ranks through his association with Costilla Sánchez.",
+          "publishedAt": "2012-09-28"
+        }
+      ]
+    },
+    {
+      "id": "osiel-delacruz-directed",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "juan-carlos-de-la-cruz-reyna",
+      "type": "directed",
+      "label": "DOJ says de la Cruz Reyna acted at Osiel’s direction in 1999",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20April/120423%20De%20La%20Cruz%20Reyna%20et%20al_print.html",
+          "title": "Gulf Cartel Figure and Others Convicted in Bribery Scheme",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ says the assault involving de la Cruz Reyna was conducted at the direction of Osiel Cárdenas Guillén.",
+          "publishedAt": "2012-04-23"
+        }
+      ]
+    },
+    {
+      "id": "osiel-mario-brothers",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "mario-alberto-cardenas-guillen",
+      "type": "siblings",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2238-comunicado-173-2012.html",
+          "title": "Comunicado de Prensa 173/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy explicitly identifies Mario Cárdenas Guillén as Osiel Cárdenas Guillén’s brother."
+        }
+      ]
+    }
+  ]
+}

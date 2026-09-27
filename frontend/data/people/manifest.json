@@ -105,6 +105,56 @@
       ]
     },
     {
+      "id": "comando-vermelho",
+      "name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "regions": [
+        "BRA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "MPRJ identifies Comando Vermelho as a Brazilian criminal organization and names several alleged leaders."
+        }
+      ]
+    },
+    {
+      "id": "gulf-cartel",
+      "name": "Gulf Cartel",
+      "aliases": [
+        "Cártel del Golfo",
+        "Cartel del Golfo",
+        "CDG"
+      ],
+      "regions": [
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies the Gulf Cartel as a Mexico-based drug trafficking organization and names senior figures.",
+          "publishedAt": "2009-07-20"
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/head-gulf-cartel-indicted",
+          "title": "Head of the Gulf Cartel indicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ identifies Cartel del Golfo, also called the Gulf Cartel or CDG, as the organization in the indictment.",
+          "publishedAt": "2022-03-24"
+        }
+      ]
+    },
+    {
       "id": "ndrangheta",
       "name": "’Ndrangheta",
       "aliases": [
@@ -133,6 +183,26 @@
           "language": "en",
           "publishedAt": "2025-09-29",
           "claim": "A joint investigation addressed an 'Ndrangheta-linked cocaine trafficking case involving Brazil and Europe."
+        }
+      ]
+    },
+    {
+      "id": "pcc",
+      "name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "regions": [
+        "BRA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pr/noticias/caso-belarmino-justica-condena-a-44-anos-de-prisao-mandante-do-assassinato-contra-agente-penitenciario-no-parana",
+          "title": "Caso Belarmino: Justiça condena a 44 anos de prisão mandante do assassinato contra agente penitenciário no Paraná",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "publishedAt": "2025-06-11",
+          "claim": "The federal prosecutor identifies Primeiro Comando da Capital by its PCC abbreviation as a Brazilian criminal organization and describes a former leader's conviction."
         }
       ]
     },
@@ -1294,6 +1364,821 @@
       ]
     },
     {
+      "id": "marcio-santos-nepomuceno",
+      "name": "Márcio dos Santos Nepomuceno",
+      "aliases": [
+        "Marcinho VP"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-11-05",
+      "roleLabel": "Imprisoned Comando Vermelho leader; alleged continuing hierarchical influence",
+      "prominence": 1,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=202205",
+          "title": "MPRJ requer nova prisão para líderes do Comando Vermelho por manobras para atrasar julgamento",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-11-05",
+          "claim": "MPRJ identifies Nepomuceno as a Comando Vermelho leader and states that he is serving sentences in other cases; allegations in this release are distinct from those convictions."
+        },
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ alleges Nepomuceno continued to influence organizational finances and decisions from prison; the 2026 laundering case is an allegation."
+        }
+      ]
+    },
+    {
+      "id": "luiz-fernando-da-costa",
+      "name": "Luiz Fernando da Costa",
+      "aliases": [
+        "Fernandinho Beira-Mar"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-09-17",
+      "roleLabel": "Imprisoned senior Comando Vermelho leader",
+      "prominence": 1,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "MPRJ names da Costa among Comando Vermelho leaders in a 2025 criminal complaint; that complaint's allegations are not presented as convictions."
+        },
+        {
+          "url": "https://dspace.mj.gov.br/bitstream/1/4739/1/O%20Sistema%20Penitenci%C3%A1rio%20Federal%20e%20o%20Crime%20Organizado%20no%20Brasil.pdf",
+          "title": "O Sistema Penitenciário Federal e o Crime Organizado no Brasil",
+          "publisher": "Brazilian Ministry of Justice repository",
+          "language": "Portuguese",
+          "claim": "Ministry of Justice-hosted study identifies da Costa as a powerful Comando Vermelho leader serving a sentence in the federal prison system."
+        }
+      ]
+    },
+    {
+      "id": "edgar-alves-de-andrade",
+      "name": "Edgar Alves de Andrade",
+      "aliases": [
+        "Doca",
+        "Doca da Penha",
+        "Urso"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader of Comando Vermelho",
+      "prominence": 2,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ names Andrade, alias Doca, in its alleged operational leadership nucleus and reports a criminal complaint against him."
+        }
+      ]
+    },
+    {
+      "id": "wilton-carlos-rabello-quintanilha",
+      "name": "Wilton Carlos Rabello Quintanilha",
+      "aliases": [
+        "Abelha"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader of Comando Vermelho",
+      "prominence": 2,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ names Quintanilha, alias Abelha, in the alleged operational leadership nucleus of a Comando Vermelho-linked criminal organization."
+        }
+      ]
+    },
+    {
+      "id": "luciano-martiniano",
+      "name": "Luciano Martiniano",
+      "aliases": [
+        "Pezão"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader of Comando Vermelho",
+      "prominence": 2,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ names Martiniano, alias Pezão, in the alleged operational leadership nucleus of a Comando Vermelho-linked criminal organization."
+        }
+      ]
+    },
+    {
+      "id": "eduardo-fernandes-de-oliveira",
+      "name": "Eduardo Fernandes de Oliveira",
+      "aliases": [
+        "2D"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader in a Comando Vermelho-linked organization",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ expressly places Oliveira, alias 2D, in the alleged operational leadership nucleus."
+        }
+      ]
+    },
+    {
+      "id": "ederson-jose-goncalves-leite",
+      "name": "Ederson José Gonçalves Leite",
+      "aliases": [
+        "Sam"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader in a Comando Vermelho-linked organization",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ expressly places Leite, alias Sam, in the alleged operational leadership nucleus."
+        }
+      ]
+    },
+    {
+      "id": "ricardo-chave-de-castro-lima",
+      "name": "Ricardo Chave de Castro Lima",
+      "aliases": [
+        "Fú"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-09-17",
+      "roleLabel": "Alleged Comando Vermelho leader",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "MPRJ identifies Lima, alias Fú, among alleged Comando Vermelho leaders in a criminal complaint."
+        }
+      ]
+    },
+    {
+      "id": "ocimar-nunes-robert",
+      "name": "Ocimar Nunes Robert",
+      "aliases": [
+        "Barbozinha"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-09-17",
+      "roleLabel": "Alleged Comando Vermelho leader",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "MPRJ identifies Robert, alias Barbozinha, among alleged Comando Vermelho leaders in a criminal complaint."
+        }
+      ]
+    },
+    {
+      "id": "marco-antonio-pereira-firmino-da-silva",
+      "name": "Marco Antônio Pereira Firmino da Silva",
+      "aliases": [
+        "My Thor"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-11-05",
+      "roleLabel": "Imprisoned Comando Vermelho leader",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=202205",
+          "title": "MPRJ requer nova prisão para líderes do Comando Vermelho por manobras para atrasar julgamento",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-11-05",
+          "claim": "MPRJ names Silva as a Comando Vermelho leader and states that he is serving a sentence in another case; the conduct at issue in this release remains an allegation."
+        }
+      ]
+    },
+    {
+      "id": "claudio-jose-de-souza-fontarigo",
+      "name": "Cláudio José de Souza Fontarigo",
+      "aliases": [
+        "Claudinho da Mineira"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-11-05",
+      "roleLabel": "Imprisoned Comando Vermelho leader",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=202205",
+          "title": "MPRJ requer nova prisão para líderes do Comando Vermelho por manobras para atrasar julgamento",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-11-05",
+          "claim": "MPRJ names Fontarigo as a Comando Vermelho leader and states that he is serving a sentence in another case; the conduct at issue in this release remains an allegation."
+        }
+      ]
+    },
+    {
+      "id": "adair-marlon-duarte",
+      "name": "Adair Marlon Duarte",
+      "aliases": [
+        "Adair da Mangueira"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2018-07-04",
+      "roleLabel": "Senior Comando Vermelho member at time of 2018 MPRJ report",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=62501",
+          "title": "MPRJ obtém decisão que impede transferência de Adair da Mangueira de presídio federal para o Rio de Janeiro",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2018-07-04",
+          "claim": "MPRJ identifies Duarte as part of the highest Comando Vermelho leadership level and reports existing convictions as of 2018."
+        }
+      ]
+    },
+    {
+      "id": "elias-pereira-da-silva",
+      "name": "Elias Pereira da Silva",
+      "aliases": [
+        "Elias Maluco"
+      ],
+      "status": "reported",
+      "statusAsOf": "2024-10-04",
+      "roleLabel": "Deceased former Comando Vermelho leader",
+      "prominence": 2,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=92201",
+          "title": "MPRJ e Polícia Civil cumprem mandados de busca e apreensão em endereços ligados a integrantes de organização criminosa para esquema de lavagem de dinheiro do CV",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2020-09-17",
+          "claim": "MPRJ identified Silva, alias Elias Maluco, as one of the organization's leaders in 2020."
+        },
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=155702",
+          "title": "MPRJ obtém condenação de 60 anos para narcotraficante por homicídio e tentativa de homicídio",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2024-10-04",
+          "claim": "MPRJ refers to Elias Pereira da Silva as deceased in its 2024 account."
+        }
+      ]
+    },
+    {
+      "id": "juan-garcia-abrego",
+      "name": "Juan García Ábrego",
+      "status": "convicted",
+      "statusAsOf": "1997-01-31",
+      "roleLabel": "Former Gulf Cartel leader; sentenced to life in U.S. federal court",
+      "prominence": 1,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://oig.justice.gov/sites/default/files/legacy/reports/FBI/a9729a/index.htm",
+          "title": "Audit Report 97-29A",
+          "publisher": "U.S. Department of Justice, Office of Inspector General",
+          "language": "en",
+          "claim": "DOJ OIG reports García Ábrego was convicted on 22 counts and sentenced in January 1997 to multiple life terms.",
+          "publishedAt": "1997-01-31"
+        },
+        {
+          "url": "https://www.justice.gov/file/267651/dl?inline=",
+          "title": "Mexico’s Drug Trafficking Organizations: Source and Scope of the Rising Violence",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ-hosted history identifies García Ábrego as the Gulf organization’s leader in the 1980s and Osiel Cárdenas Guillén as his successor."
+        }
+      ]
+    },
+    {
+      "id": "osiel-cardenas-guillen",
+      "name": "Osiel Cárdenas Guillén",
+      "status": "convicted",
+      "statusAsOf": "2010-02-24",
+      "roleLabel": "Former Gulf Cartel leader; convicted of drug and related offenses",
+      "prominence": 1,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2010%20February/022410%20Cardenas-Guillen.htm",
+          "title": "Osiel Cardenas-Guillen, Former Head of the Gulf Cartel, Sentenced to 25 Years Imprisonment",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Cárdenas Guillén pleaded guilty and was sentenced to 25 years for drug trafficking, money laundering, and threats to federal agents.",
+          "publishedAt": "2010-02-24"
+        },
+        {
+          "url": "https://www.justice.gov/file/267651/dl?inline=",
+          "title": "Mexico’s Drug Trafficking Organizations: Source and Scope of the Rising Violence",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ-hosted history identifies him as García Ábrego’s successor at the Gulf organization."
+        }
+      ]
+    },
+    {
+      "id": "antonio-ezequiel-cardenas-guillen",
+      "name": "Antonio Ezequiel Cárdenas Guillén",
+      "status": "reported",
+      "statusAsOf": "2010-11-05",
+      "roleLabel": "Gulf Cartel leader reported killed in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/comunicados-2010/1725-comunicado-300-2010.html",
+          "title": "Comunicado de Prensa 300/2010",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy reports that Antonio Ezequiel Cárdenas Guillén, alias Tony Tormenta, was a Gulf Cartel leader killed on 5 November 2010.",
+          "publishedAt": "2010-11-05"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury names him as a Gulf Cartel director, says he is Osiel Cárdenas Guillén’s brother, and describes cocaine and marijuana trafficking.",
+          "publishedAt": "2009-07-20"
+        }
+      ],
+      "aliases": [
+        "Tony Tormenta"
+      ]
+    },
+    {
+      "id": "jorge-eduardo-costilla-sanchez",
+      "name": "Jorge Eduardo Costilla Sánchez",
+      "status": "convicted",
+      "statusAsOf": "2022-09-15",
+      "roleLabel": "Former Gulf Cartel leader; sentenced to life in U.S. federal court",
+      "prominence": 1,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/former-head-gulf-cartel-receives-life-sentence-importing-kilos-drugs",
+          "title": "Former head of Gulf Cartel receives life sentence for importing kilos of drugs",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Costilla Sánchez pleaded guilty to cocaine and marijuana trafficking and received a life sentence; it identifies him as cartel head after Osiel Cárdenas Guillén’s arrest.",
+          "publishedAt": "2022-09-15"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury names Costilla Sánchez and Antonio Ezequiel Cárdenas Guillén together as directors of Gulf Cartel trafficking in 2009.",
+          "publishedAt": "2009-07-20"
+        }
+      ],
+      "aliases": [
+        "El Coss",
+        "El Cos",
+        "Doble X",
+        "Dos Equis"
+      ]
+    },
+    {
+      "id": "mario-alberto-cardenas-guillen",
+      "name": "Mario Cárdenas Guillén",
+      "status": "reported",
+      "statusAsOf": "2012-09-04",
+      "roleLabel": "Reported Gulf Cartel leader in the Cárdenas family faction",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2238-comunicado-173-2012.html",
+          "title": "Comunicado de Prensa 173/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy reports Mario Cárdenas Guillén’s arrest and attributes a leadership role to intelligence sources; it calls Antonio Ezequiel Cárdenas Guillén his brother."
+        },
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2247-comunicado-181-2012.html",
+          "title": "Comunicado de Prensa 181/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy describes a leadership dispute between Costilla Sánchez and Mario Cárdenas Guillén after Antonio Ezequiel Cárdenas Guillén’s death."
+        }
+      ],
+      "aliases": [
+        "El Gordo"
+      ]
+    },
+    {
+      "id": "rafael-cardenas-vela",
+      "name": "Rafael Cárdenas Vela",
+      "status": "convicted",
+      "statusAsOf": "2014-11-17",
+      "roleLabel": "Former senior Gulf Cartel member; convicted of drug conspiracy",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20March/120312%20Cardenas%20Vela.html",
+          "title": "Gulf Cartel Plaza Boss Convicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Cárdenas Vela pleaded guilty to a Gulf Cartel drug conspiracy and identifies him as nephew of Osiel and Antonio Ezequiel Cárdenas Guillén.",
+          "publishedAt": "2012-03-12"
+        },
+        {
+          "url": "https://oig.justice.gov/archives/reports/2015/a1509.pdf",
+          "title": "FY14 Reviews of the DOJ Annual Accounting of Drug Control Funds and Related Performance",
+          "publisher": "U.S. Department of Justice, Office of Inspector General",
+          "language": "en",
+          "claim": "DOJ OIG reports Cárdenas Vela was sentenced to 20 years on 17 November 2014 after his guilty plea."
+        }
+      ],
+      "aliases": [
+        "El Junior",
+        "Commandante 900",
+        "Rolex"
+      ]
+    },
+    {
+      "id": "jose-alfredo-cardenas-martinez",
+      "name": "José Alfredo Cárdenas Martínez",
+      "status": "charged",
+      "statusAsOf": "2022-03-24",
+      "roleLabel": "Alleged Gulf Cartel head charged in U.S. federal court",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "methamphetamine",
+        "fentanyl"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/head-gulf-cartel-indicted",
+          "title": "Head of the Gulf Cartel indicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports a U.S. indictment charging Cárdenas Martínez and alleging he headed the Gulf Cartel from 2015; it identifies Osiel Cárdenas Guillén as his uncle. The charges are not a conviction.",
+          "publishedAt": "2022-03-24"
+        }
+      ],
+      "aliases": [
+        "El Contador"
+      ]
+    },
+    {
+      "id": "juan-roberto-rincon-rincon",
+      "name": "Juan Roberto Rincón Rincón",
+      "status": "convicted",
+      "statusAsOf": "2013-05-14",
+      "roleLabel": "Former senior Gulf Cartel member; sentenced to life in U.S. federal court",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/gulf-cartel-plaza-boss-heads-prison-life",
+          "title": "Gulf Cartel Plaza Boss Heads To Prison For Life",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Rincón Rincón was a high-ranking Gulf Cartel member convicted by a jury and sentenced to life for a drug trafficking conspiracy.",
+          "publishedAt": "2013-05-14"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20September/120928%20Rincon-Rincon_print.html",
+          "title": "Gulf Cartel Member Convicted on All Counts in Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports testimony that Rincón Rincón rose through his association with Costilla Sánchez and that Rafael Cárdenas Vela testified about their association.",
+          "publishedAt": "2012-09-28"
+        }
+      ]
+    },
+    {
+      "id": "juan-carlos-de-la-cruz-reyna",
+      "name": "Juan Carlos de la Cruz Reyna",
+      "status": "convicted",
+      "statusAsOf": "2012-10-10",
+      "roleLabel": "Former Gulf Cartel figure; convicted of bribery and an earlier assault",
+      "prominence": 3,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20October/121010%20De%20La%20Cruz%20Reyna%20et%20al.html",
+          "title": "Gulf Cartel Figure and Five Others Sentenced to Prison in Bribery Scheme",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports de la Cruz Reyna was sentenced in a bribery case after an earlier federal conviction tied to an assault on agents.",
+          "publishedAt": "2012-10-10"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20April/120423%20De%20La%20Cruz%20Reyna%20et%20al_print.html",
+          "title": "Gulf Cartel Figure and Others Convicted in Bribery Scheme",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ says his earlier assault conviction arose from actions directed by then Gulf Cartel leader Osiel Cárdenas Guillén.",
+          "publishedAt": "2012-04-23"
+        }
+      ]
+    },
+    {
+      "id": "juan-francisco-saenz-tamez",
+      "name": "Juan Francisco Sáenz Tamez",
+      "status": "convicted",
+      "statusAsOf": "2015-06-30",
+      "roleLabel": "Former Gulf Cartel head; sentenced to 30 years in U.S. federal court",
+      "prominence": 2,
+      "organizationIds": [
+        "gulf-cartel"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico"
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/head-gulf-cartel-sentenced-federal-prison-drug-trafficking",
+          "title": "Head of the Gulf Cartel Sentenced to Federal Prison for Drug Trafficking",
+          "publisher": "U.S. Department of Justice, Eastern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports Sáenz Tamez pleaded guilty to cocaine and marijuana offenses and received a 30-year sentence; it describes him as head of the Gulf Cartel at the time.",
+          "publishedAt": "2015-06-30"
+        }
+      ]
+    },
+    {
       "id": "rocco-morabito",
       "name": "Rocco Morabito",
       "aliases": [
@@ -1684,6 +2569,213 @@
           "language": "en",
           "publishedAt": "2014-06-30",
           "claim": "The English annual report repeats the international arrest and identifies Pannunzi as a leading 'Ndrangheta broker for cocaine and heroin."
+        }
+      ]
+    },
+    {
+      "id": "marcos-willians-herbas-camacho",
+      "name": "Marcos Willians Herbas Camacho",
+      "aliases": [
+        "Marcola"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2013-04-11",
+      "roleLabel": "PCC leader; convicted in the murder of a judge",
+      "prominence": 1,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=17874",
+          "title": "TJSP mantém condenação de Marcos Camacho pela morte de juiz de Presidente Prudente",
+          "publisher": "Tribunal de Justiça do Estado de São Paulo",
+          "language": "pt",
+          "publishedAt": "2013-04-11",
+          "claim": "The São Paulo court reports that it upheld Camacho's 29-year conviction for the murder of judge Antonio José Machado Dias and identifies his alias Marcola and PCC leadership context."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/",
+          "title": "STF rejeita pedido para reduzir pena de integrante da cúpula do PCC",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2026-08-05",
+          "claim": "The Supreme Court identifies Marcola as a PCC leader when describing Fuminho's connection to him."
+        }
+      ]
+    },
+    {
+      "id": "julio-cesar-guedes-de-moraes",
+      "name": "Júlio César Guedes de Moraes",
+      "aliases": [
+        "Julinho Carambola",
+        "Carambola"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2013-06-27",
+      "roleLabel": "Former PCC leader; convicted in the murder of a judge",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=18813&pagina=2050",
+          "title": "Autor intelectual de homicídio de magistrado tem recurso negado",
+          "publisher": "Tribunal de Justiça do Estado de São Paulo",
+          "language": "pt",
+          "publishedAt": "2013-06-27",
+          "claim": "The São Paulo court reports that Moraes, known as Julinho Carambola, lost an appeal of his 29-year murder conviction and describes him as a leader of a criminal organization."
+        },
+        {
+          "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=6798",
+          "title": "TJSP confirma decisão que manda a júri acusados de matar bombeiro",
+          "publisher": "Tribunal de Justiça do Estado de São Paulo",
+          "language": "pt",
+          "claim": "The court identifies Moraes and Marcola as PCC leaders charged together in a separate case; this source does not establish a conviction in that case."
+        }
+      ]
+    },
+    {
+      "id": "gilberto-aparecido-dos-santos",
+      "name": "Gilberto Aparecido dos Santos",
+      "aliases": [
+        "Fuminho"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "PCC senior figure; convicted at first instance for drug offenses",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/",
+          "title": "STF rejeita pedido para reduzir pena de integrante da cúpula do PCC",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2026-08-05",
+          "claim": "The Supreme Court reports Fuminho's first-instance conviction for drug trafficking and related offenses, and describes him as reportedly Marcola's right-hand man."
+        },
+        {
+          "url": "https://www.tjce.jus.br/noticias/justica-recebe-denuncia-contra-acusados-de-participar-da-morte-de-paca-e-gege-do-mangue/",
+          "title": "Justiça recebe denúncia contra acusados de participar da morte de Paca e Gegê do Mangue",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2018-08-21",
+          "claim": "The Ceará court gives Fuminho's fuller name as Gilberto Aparecido dos Santos and reports a homicide charge; this is an allegation, not a conviction in that case."
+        }
+      ]
+    },
+    {
+      "id": "roberto-soriano",
+      "name": "Roberto Soriano",
+      "status": "convicted",
+      "statusAsOf": "2025-06-11",
+      "roleLabel": "Former PCC leader; convicted in the Belarmino murder case",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pr/noticias/caso-belarmino-justica-condena-a-44-anos-de-prisao-mandante-do-assassinato-contra-agente-penitenciario-no-parana",
+          "title": "Caso Belarmino: Justiça condena a 44 anos de prisão mandante do assassinato contra agente penitenciário no Paraná",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "publishedAt": "2025-06-11",
+          "claim": "Federal prosecutors report Soriano, described as a former PCC leader, was convicted and sentenced to 44 years and eight months for ordering an agent's murder and for participation in a criminal organization."
+        }
+      ]
+    },
+    {
+      "id": "rogerio-jeremias-de-simone",
+      "name": "Rogério Jeremias de Simone",
+      "aliases": [
+        "Gegê do Mangue"
+      ],
+      "status": "reported",
+      "statusAsOf": "2018-08-21",
+      "roleLabel": "PCC leader reported killed in 2018",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.tjce.jus.br/noticias/justica-recebe-denuncia-contra-acusados-de-participar-da-morte-de-paca-e-gege-do-mangue/",
+          "title": "Justiça recebe denúncia contra acusados de participar da morte de Paca e Gegê do Mangue",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2018-08-21",
+          "claim": "The Ceará court identifies de Simone, alias Gegê do Mangue, as a PCC leader and reports his death alongside Fabiano Alves de Souza."
+        }
+      ]
+    },
+    {
+      "id": "fabiano-alves-de-souza",
+      "name": "Fabiano Alves de Souza",
+      "aliases": [
+        "Paca"
+      ],
+      "status": "reported",
+      "statusAsOf": "2018-08-21",
+      "roleLabel": "PCC leader reported killed in 2018",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.tjce.jus.br/noticias/justica-recebe-denuncia-contra-acusados-de-participar-da-morte-de-paca-e-gege-do-mangue/",
+          "title": "Justiça recebe denúncia contra acusados de participar da morte de Paca e Gegê do Mangue",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2018-08-21",
+          "claim": "The Ceará court identifies de Souza, alias Paca, as a PCC leader and reports his death alongside Rogério Jeremias de Simone."
         }
       ]
     },
@@ -2531,6 +3623,325 @@
       ]
     },
     {
+      "id": "cv-marcinho-beira-mar-2025-complaint",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "luiz-fernando-da-costa",
+      "type": "alleged_co_conspirator",
+      "label": "Named together as alleged leaders in a 2025 criminal complaint",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "The MPRJ complaint explicitly alleges that Nepomuceno and da Costa associated with other named leaders to commit repeated crimes; it is not a conviction in this case."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-elias-2020-laundering",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "elias-pereira-da-silva",
+      "type": "alleged_co_conspirator",
+      "label": "Alleged joint laundering scheme in 2020",
+      "sources": [
+        {
+          "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=92201",
+          "title": "MPRJ e Polícia Civil cumprem mandados de busca e apreensão em endereços ligados a integrantes de organização criminosa para esquema de lavagem de dinheiro do CV",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2020-09-17",
+          "claim": "MPRJ states that Elias Maluco and Marcinho VP allegedly used subordinates in a shared laundering scheme."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-doca-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "edgar-alves-de-andrade",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Andrade in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-abelha-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "wilton-carlos-rabello-quintanilha",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Quintanilha in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-pezao-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "luciano-martiniano",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Martiniano in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-2d-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "eduardo-fernandes-de-oliveira",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Oliveira in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-sam-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "ederson-jose-goncalves-leite",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Leite in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    },
+    {
+      "id": "garcia-abrego-osiel-succession",
+      "fromId": "juan-garcia-abrego",
+      "toId": "osiel-cardenas-guillen",
+      "type": "successor",
+      "label": "Osiel succeeded García Ábrego as Gulf leader",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/file/267651/dl?inline=",
+          "title": "Mexico’s Drug Trafficking Organizations: Source and Scope of the Rising Violence",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ-hosted history explicitly describes Osiel Cárdenas Guillén as García Ábrego’s successor."
+        }
+      ]
+    },
+    {
+      "id": "osiel-antonio-brothers",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "antonio-ezequiel-cardenas-guillen",
+      "type": "siblings",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury explicitly identifies Antonio Ezequiel Cárdenas Guillén as Osiel Cárdenas Guillén’s brother.",
+          "publishedAt": "2009-07-20"
+        }
+      ]
+    },
+    {
+      "id": "osiel-costilla-succession",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "jorge-eduardo-costilla-sanchez",
+      "type": "successor",
+      "label": "Costilla led the cartel after Osiel’s arrest",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/former-head-gulf-cartel-receives-life-sentence-importing-kilos-drugs",
+          "title": "Former head of Gulf Cartel receives life sentence for importing kilos of drugs",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ says Costilla Sánchez became Gulf Cartel head after Osiel Cárdenas Guillén’s 2003 arrest.",
+          "publishedAt": "2022-09-15"
+        }
+      ]
+    },
+    {
+      "id": "antonio-costilla-co-leaders",
+      "fromId": "antonio-ezequiel-cardenas-guillen",
+      "toId": "jorge-eduardo-costilla-sanchez",
+      "type": "co_leaders",
+      "label": "Both named as directors of Gulf Cartel trafficking in 2009",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg220",
+          "title": "Treasury Announces Sanctions of Mexican Drug Lords",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury explicitly names Antonio Ezequiel Cárdenas Guillén and Jorge Eduardo Costilla Sánchez together as directing Gulf Cartel trafficking in 2009.",
+          "publishedAt": "2009-07-20"
+        }
+      ]
+    },
+    {
+      "id": "antonio-mario-brothers",
+      "fromId": "antonio-ezequiel-cardenas-guillen",
+      "toId": "mario-alberto-cardenas-guillen",
+      "type": "siblings",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2238-comunicado-173-2012.html",
+          "title": "Comunicado de Prensa 173/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy identifies Antonio Ezequiel Cárdenas Guillén as Mario Cárdenas Guillén’s brother."
+        }
+      ]
+    },
+    {
+      "id": "mario-costilla-rivals",
+      "fromId": "mario-alberto-cardenas-guillen",
+      "toId": "jorge-eduardo-costilla-sanchez",
+      "type": "reported_rivals",
+      "label": "Reported opposing sides of a Gulf Cartel leadership dispute",
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2247-comunicado-181-2012.html",
+          "title": "Comunicado de Prensa 181/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy describes a dispute over the organization between Costilla Sánchez and Mario Cárdenas Guillén following Antonio Ezequiel’s death."
+        }
+      ]
+    },
+    {
+      "id": "osiel-rafael-uncle",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "rafael-cardenas-vela",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20March/120312%20Cardenas%20Vela.html",
+          "title": "Gulf Cartel Plaza Boss Convicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ explicitly identifies Rafael Cárdenas Vela as the nephew of Osiel Cárdenas Guillén.",
+          "publishedAt": "2012-03-12"
+        }
+      ]
+    },
+    {
+      "id": "antonio-rafael-uncle",
+      "fromId": "antonio-ezequiel-cardenas-guillen",
+      "toId": "rafael-cardenas-vela",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20March/120312%20Cardenas%20Vela.html",
+          "title": "Gulf Cartel Plaza Boss Convicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ explicitly identifies Rafael Cárdenas Vela as the nephew of Antonio Ezequiel Cárdenas Guillén.",
+          "publishedAt": "2012-03-12"
+        }
+      ]
+    },
+    {
+      "id": "osiel-contador-uncle",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "jose-alfredo-cardenas-martinez",
+      "type": "uncle_of",
+      "label": "Uncle and nephew",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdtx/pr/head-gulf-cartel-indicted",
+          "title": "Head of the Gulf Cartel indicted",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ explicitly identifies Osiel Cárdenas Guillén as José Alfredo Cárdenas Martínez’s uncle.",
+          "publishedAt": "2022-03-24"
+        }
+      ]
+    },
+    {
+      "id": "costilla-rincon-associates",
+      "fromId": "jorge-eduardo-costilla-sanchez",
+      "toId": "juan-roberto-rincon-rincon",
+      "type": "associates",
+      "label": "Rincón rose through his association with Costilla",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20September/120928%20Rincon-Rincon_print.html",
+          "title": "Gulf Cartel Member Convicted on All Counts in Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ reports trial testimony that Rincón Rincón rose through the cartel ranks through his association with Costilla Sánchez.",
+          "publishedAt": "2012-09-28"
+        }
+      ]
+    },
+    {
+      "id": "osiel-delacruz-directed",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "juan-carlos-de-la-cruz-reyna",
+      "type": "directed",
+      "label": "DOJ says de la Cruz Reyna acted at Osiel’s direction in 1999",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20April/120423%20De%20La%20Cruz%20Reyna%20et%20al_print.html",
+          "title": "Gulf Cartel Figure and Others Convicted in Bribery Scheme",
+          "publisher": "U.S. Department of Justice, Southern District of Texas",
+          "language": "en",
+          "claim": "DOJ says the assault involving de la Cruz Reyna was conducted at the direction of Osiel Cárdenas Guillén.",
+          "publishedAt": "2012-04-23"
+        }
+      ]
+    },
+    {
+      "id": "osiel-mario-brothers",
+      "fromId": "osiel-cardenas-guillen",
+      "toId": "mario-alberto-cardenas-guillen",
+      "type": "siblings",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2238-comunicado-173-2012.html",
+          "title": "Comunicado de Prensa 173/2012",
+          "publisher": "Secretaría de Marina-Armada de México",
+          "language": "es",
+          "claim": "Mexico’s Navy explicitly identifies Mario Cárdenas Guillén as Osiel Cárdenas Guillén’s brother."
+        }
+      ]
+    },
+    {
       "id": "assisi-father-son",
       "fromId": "nicola-assisi",
       "toId": "patrick-assisi",
@@ -2544,6 +3955,56 @@
           "language": "pt",
           "publishedAt": "2019-12-17",
           "claim": "The court identifies Patrick Assisi as the son of Nicola Assisi and reports their alleged joint role in cocaine supply from South America to Europe."
+        }
+      ]
+    },
+    {
+      "id": "marcola-fuminho-right-hand",
+      "fromId": "marcos-willians-herbas-camacho",
+      "toId": "gilberto-aparecido-dos-santos",
+      "type": "reported_associate",
+      "label": "Fuminho described as Marcola's right-hand man",
+      "sources": [
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/",
+          "title": "STF rejeita pedido para reduzir pena de integrante da cúpula do PCC",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2026-08-05",
+          "claim": "The Supreme Court describes Fuminho as reportedly the right-hand man of Marcola; the qualifier is retained because the relationship is attributed, not judicially proved."
+        }
+      ]
+    },
+    {
+      "id": "marcola-julinho-co-leaders",
+      "fromId": "marcos-willians-herbas-camacho",
+      "toId": "julio-cesar-guedes-de-moraes",
+      "type": "co_leaders",
+      "label": "Both identified by the São Paulo court as PCC leaders",
+      "sources": [
+        {
+          "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=6798",
+          "title": "TJSP confirma decisão que manda a júri acusados de matar bombeiro",
+          "publisher": "Tribunal de Justiça do Estado de São Paulo",
+          "language": "pt",
+          "claim": "The court names Marcola and Julinho Carambola together as PCC leaders among those charged in the case; it does not report a conviction in that case."
+        }
+      ]
+    },
+    {
+      "id": "gege-paca-co-leaders",
+      "fromId": "rogerio-jeremias-de-simone",
+      "toId": "fabiano-alves-de-souza",
+      "type": "co_leaders",
+      "label": "Both identified as PCC leaders and victims in the same case",
+      "sources": [
+        {
+          "url": "https://www.tjce.jus.br/noticias/justica-recebe-denuncia-contra-acusados-de-participar-da-morte-de-paca-e-gege-do-mangue/",
+          "title": "Justiça recebe denúncia contra acusados de participar da morte de Paca e Gegê do Mangue",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2018-08-21",
+          "claim": "The Ceará court names both de Simone and de Souza as PCC leaders and reports their deaths together."
         }
       ]
     },
