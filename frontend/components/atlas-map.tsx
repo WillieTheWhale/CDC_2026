@@ -5,7 +5,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import { MapLibreOverlay } from "@deck.gl/maplibre";
-import { ArcLayer, IconLayer, ScatterplotLayer } from "@deck.gl/layers";
+import { ArcLayer, ScatterplotLayer, SolidPolygonLayer } from "@deck.gl/layers";
 import type { Color, PickingInfo } from "@deck.gl/core";
 import type { FeatureCollection, Geometry } from "geojson";
 import { LocateFixed, Minus, Plus, RotateCcw } from "lucide-react";
@@ -19,7 +19,7 @@ import {
 } from "@/lib/route-evidence";
 import type { Drug } from "@/lib/types";
 import {
-  ARROW_ICON,
+  curvedArrow,
   fieldArrows,
   spacingKm,
   volumeBands,
@@ -474,24 +474,21 @@ export default function AtlasMap(props: Props) {
           stroked: false,
           pickable: false,
         }),
-        new IconLayer<FieldArrow>({
+        new SolidPolygonLayer<FieldArrow>({
           id: "estimated-wind",
           data: glyphs,
           opacity: windOpacity,
-          getIcon: () => ARROW_ICON,
-          getPosition: (g) => g.position,
-          getAngle: (g) => -g.bearing,
-          getSize: (g) => 26 + g.magnitude * 34,
-          sizeUnits: "pixels",
-          getColor: (g) =>
-            // Almost transparent, tinted by drug.
-            rgba(drugColor[g.drug], Math.round(30 + g.magnitude * 45)),
-          billboard: false,
+          // Curved, very faint arrows tinted by drug (shape rebuilt per zoom step).
+          getPolygon: (g) =>
+            curvedArrow(g, glyphZoom, 34 + g.magnitude * 40, 6 + g.magnitude * 8),
+          getFillColor: (g) =>
+            rgba(drugColor[g.drug], Math.round(16 + g.magnitude * 30)),
           pickable: true,
           onHover: (info: PickingInfo<FieldArrow>) =>
             setWindHover(
               info.object ? { glyph: info.object, x: info.x, y: info.y } : null,
             ),
+          updateTriggers: { getPolygon: [glyphZoom] },
         }),
         new ArcLayer<Edge>({
           id: "route-arcs",
@@ -599,6 +596,7 @@ export default function AtlasMap(props: Props) {
     position.zoom,
     localScale,
     glyphs,
+    glyphZoom,
     estimatedCities,
     windOpacity,
   ]);

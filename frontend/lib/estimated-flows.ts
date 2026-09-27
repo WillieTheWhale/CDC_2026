@@ -152,20 +152,6 @@ export function volumeBands(edges: Edge[]): Map<string, number> {
   return bands;
 }
 
-// Broad, soft-shouldered arrow (wide head, wide shaft) for a light wind-map look.
-export const ARROW_ICON = {
-  url:
-    "data:image/svg+xml;charset=utf-8," +
-    encodeURIComponent(
-      '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">' +
-        '<path d="M32 3 L63 33 L45 33 L45 61 L19 61 L19 33 L1 33 Z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>',
-    ),
-  width: 64,
-  height: 64,
-  anchorY: 32,
-  mask: true,
-};
-
 // Slope-field view: sum glyph vectors in a regular lon/lat grid and draw one
 // arrow per cell (direction = net flow, size = magnitude, color = dominant
 // drug), like wind arrows on a weather map.
@@ -216,4 +202,61 @@ export function fieldArrows(glyphs: WindGlyph[], cellDeg: number): FieldArrow[] 
   return raw
     .map((a) => ({ ...a, magnitude: Math.sqrt(a.magnitude / peak) }))
     .filter((a) => a.magnitude > 0.12);
+}
+
+// Curved arrow outline for one field arrow, in lon/lat, sized in screen
+// pixels at `zoom`. The arrow bends toward its main flow's destination city
+// (at least a gentle default bend), with a tapered shaft and a soft head.
+export function curvedArrow(
+  arrow: FieldArrow,
+  zoom: number,
+  lengthPx: number,
+  widthPx: number,
+): [number, number][] {
+  const [lon0, lat0] = arrow.position;
+  const degPerPx = 360 / (512 * 2 ** zoom);
+  const kx = degPerPx / Math.max(0.2, Math.cos(lat0 * rad));
+  const ky = degPerPx;
+  const target = arrow.flows[0]?.to;
+  let turn = target
+    ? ((bearing(arrow.position, [target.lon, target.lat]) - arrow.bearing + 540) % 360) - 180
+    : 0;
+  turn = Math.max(-40, Math.min(40, turn));
+  if (Math.abs(turn) < 14) turn = turn < 0 ? -14 : 14;
+  // Centerline: heading swings from (bearing - turn/2) to (bearing + turn/2).
+  const n = 10;
+  const step = lengthPx / n;
+  const pts: { x: number; y: number; h: number }[] = [];
+  let x = 0,
+    y = 0;
+  for (let i = 0; i <= n; i++) {
+    const h = (arrow.bearing - turn / 2 + (turn * i) / n) * rad;
+    pts.push({ x, y, h });
+    x += step * Math.sin(h);
+    y += step * Math.cos(h);
+  }
+  // Center the shape on the cell position.
+  const cx = pts.reduce((s, p) => s + p.x, 0) / pts.length;
+  const cy = pts.reduce((s, p) => s + p.y, 0) / pts.length;
+  const at = (p: { x: number; y: number }, off: number, h: number): [number, number] => [
+    lon0 + (p.x - cx + off * Math.cos(h)) * kx,
+    lat0 + (p.y - cy - off * Math.sin(h)) * ky,
+  ];
+  const headStart = 7; // last 3 segments form the head
+  const left: [number, number][] = [];
+  const right: [number, number][] = [];
+  for (let i = 0; i <= headStart; i++) {
+    const w = (widthPx / 2) * (0.35 + (0.65 * i) / headStart);
+    left.push(at(pts[i], -w, pts[i].h));
+    right.push(at(pts[i], w, pts[i].h));
+  }
+  const base = pts[headStart];
+  const tip = pts[n];
+  return [
+    ...left,
+    at(base, -widthPx * 1.25, base.h),
+    at(tip, 0, tip.h),
+    at(base, widthPx * 1.25, base.h),
+    ...right.reverse(),
+  ];
 }
