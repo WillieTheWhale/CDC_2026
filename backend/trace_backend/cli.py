@@ -63,6 +63,7 @@ def main(argv: list[str] | None = None) -> int:
     rt.add_argument("--model-id", default="reflex-0.1.0")
     rt.add_argument("--out-dir", default=None)
     rt.add_argument("--lr", type=float, default=3e-5)
+    sub.add_parser("estimate-flows", help="estimated local flows for the map (labelled, map-only)")
     sub.add_parser("reflex-download", help="download the published Reflex weights (verified) into data/reflex/model")
     re_ = sub.add_parser("reflex-eval", help="evaluate Reflex against the Reflex Parity Scale")
     re_.add_argument("--quick", action="store_true", help="small subsets")
@@ -85,6 +86,10 @@ def main(argv: list[str] | None = None) -> int:
     if a.cmd == "serve":
         import uvicorn
         uvicorn.run("trace_backend.api.app:app", host=a.host, port=a.port, reload=a.reload)
+        return 0
+    if a.cmd == "estimate-flows":
+        from trace_backend.model.estimated_flows import run as estimate_run
+        logging.info("estimated flows written for %d mode-years", estimate_run())
         return 0
     if a.cmd.startswith("reflex"):
         import os

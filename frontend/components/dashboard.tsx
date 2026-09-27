@@ -29,12 +29,14 @@ import {
   SNAPSHOT_YEAR,
   drugColor,
   drugLabel,
+  estimatedFlows,
   Experiment,
   scoreColor,
   Simulation,
   subscribeLivewire,
 } from "@/lib/api";
 import { parseCommand } from "@/lib/commands";
+import type { EstimatedLayer } from "@/lib/estimated-flows";
 import type {
   CommandAction,
   Country,
@@ -117,6 +119,10 @@ export default function Dashboard() {
   const [showDots, setShowDots] = useState(true),
     [showRoutes, setShowRoutes] = useState(true),
     [showEvidence, setShowEvidence] = useState(true),
+    // Estimated local flows and volume coloring (added with Claude Code).
+    [showEstimated, setShowEstimated] = useState(true),
+    [colorBy, setColorBy] = useState<"volume" | "exposure">("volume"),
+    [estimated, setEstimated] = useState<EstimatedLayer | null>(null),
     [layersOpen, setLayersOpen] = useState(false),
     [minConfidence, setMinConfidence] = useState(0),
     [resetKey, setResetKey] = useState(0),
@@ -180,23 +186,32 @@ export default function Dashboard() {
   useEffect(() => {
     if (!catalog) return;
     let active = true;
-    setRouteLoading(true);
-    setEdges([]);
-    setRisk([]);
+    // Keep the current year's lines and colors on screen until the next year
+    // is ready, so playback swaps them in place instead of redrawing a blank map.
+    // (Change added with Claude Code (Anthropic). See docs/AI_USAGE.md.)
+    const slow = setTimeout(() => active && setRouteLoading(true), 250);
     setRoute(null);
     Promise.allSettled([
       api.routes(year, mode, drug === "all" ? undefined : drug, minConfidence),
       api.risk(year),
     ]).then(([routes, scores]) => {
       if (!active) return;
+      clearTimeout(slow);
       if (routes.status === "fulfilled") setEdges(routes.value.data.edges);
-      else notify(routes.reason.message);
+      else {
+        setEdges([]);
+        notify(routes.reason.message);
+      }
       if (scores.status === "fulfilled") setRisk(scores.value.data.rows);
-      else notify(`Risk scores are unavailable for ${year}.`);
+      else {
+        setRisk([]);
+        notify(`Risk scores are unavailable for ${year}.`);
+      }
       setRouteLoading(false);
     });
     return () => {
       active = false;
+      clearTimeout(slow);
     };
   }, [catalog, year, mode, drug, minConfidence, notify]);
   useEffect(
@@ -293,6 +308,32 @@ export default function Dashboard() {
         : [2024, 2025],
     [catalog],
   );
+  useEffect(() => {
+    let active = true;
+    estimatedFlows(year, mode)
+      .then((layer) => active && setEstimated(layer))
+      .catch(() => active && setEstimated(null));
+    return () => {
+      active = false;
+    };
+  }, [year, mode]);
+  // Warm every year in the background (about 3 MB in snapshot mode) so the
+  // timeline and playback never wait on the network. Added with Claude Code.
+  useEffect(() => {
+    if (!catalog || !years.length) return;
+    const handle = setTimeout(() => {
+      for (const y of years) {
+        const m = catalog.predicted_years.includes(y) ? "predicted" : "observed";
+        void api
+          .routes(y, m, drug === "all" ? undefined : drug, minConfidence)
+          .catch(() => undefined);
+        if (catalog.risk_years.includes(y))
+          void api.risk(y).catch(() => undefined);
+        void estimatedFlows(y, m).catch(() => undefined);
+      }
+    }, 600);
+    return () => clearTimeout(handle);
+  }, [catalog, years, drug, minConfidence]);
   const changeYear = (y: number) => {
     setYear(y);
     setMode(catalog?.predicted_years.includes(y) ? "predicted" : "observed");
@@ -570,7 +611,7 @@ export default function Dashboard() {
                                 checked={showDots}
                                 onChange={(e) => setShowDots(e.target.checked)}
                               />
-                              Modeled exposure
+                              Country shading
                             </label>
                             <label>
                               <input
@@ -589,6 +630,27 @@ export default function Dashboard() {
                                 onChange={(e) => setShowEvidence(e.target.checked)}
                               />
                               Published country links (dated)
+                            </label>
+                            <label>
+                              <input
+                                type="checkbox"
+                                checked={showEstimated}
+                                onChange={(e) => setShowEstimated(e.target.checked)}
+                              />
+                              Estimated local flows (not observed)
+                            </label>
+                            <label>
+                              Country color
+                              <select
+                                aria-label="Country color"
+                                value={colorBy}
+                                onChange={(e) =>
+                                  setColorBy(e.target.value as "volume" | "exposure")
+                                }
+                              >
+                                <option value="volume">Modeled drug volume</option>
+                                <option value="exposure">Risk exposure</option>
+                              </select>
                             </label>
                             <label className="confidence-label">
                               Minimum confidence <b>{minConfidence}%</b>
@@ -618,6 +680,9 @@ export default function Dashboard() {
                     showDots={showDots}
                     showRoutes={showRoutes}
                     showEvidence={showEvidence}
+                    estimated={estimated}
+                    showEstimated={showEstimated}
+                    colorBy={colorBy}
                     drug={drug}
                     exposureLabel={
                       simulation ? "Baseline exposure" : "Country exposure"

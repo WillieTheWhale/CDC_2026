@@ -1,9 +1,11 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// Estimated-flow wind layer, city intensity and volume coloring added with
+// Claude Code (Anthropic).
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import { MapLibreOverlay } from "@deck.gl/maplibre";
-import { ArcLayer, ScatterplotLayer } from "@deck.gl/layers";
+import { ArcLayer, IconLayer, ScatterplotLayer } from "@deck.gl/layers";
 import type { Color, PickingInfo } from "@deck.gl/core";
 import type { FeatureCollection, Geometry } from "geojson";
 import { LocateFixed, Minus, Plus, RotateCcw } from "lucide-react";
@@ -16,6 +18,16 @@ import {
   type RouteEvidence,
 } from "@/lib/route-evidence";
 import type { Drug } from "@/lib/types";
+import {
+  ARROW_ICON,
+  fieldArrows,
+  spacingKm,
+  volumeBands,
+  windGlyphs,
+  type EstimatedCity,
+  type EstimatedLayer,
+  type FieldArrow,
+} from "@/lib/estimated-flows";
 interface Props {
   countries: Country[];
   edges: Edge[];
@@ -27,6 +39,9 @@ interface Props {
   showEvidence: boolean;
   drug: Drug | "all";
   exposureLabel: string;
+  estimated?: EstimatedLayer | null;
+  showEstimated?: boolean;
+  colorBy?: "volume" | "exposure";
   onCountry: (iso: string) => void;
   onRoute: (edge: Edge) => void;
   resetKey: number;
@@ -123,6 +138,11 @@ export default function AtlasMap(props: Props) {
     y: number;
   } | null>(null);
   const [reportDetail, setReportDetail] = useState<RouteEvidence | null>(null);
+  const [windHover, setWindHover] = useState<{
+    glyph: FieldArrow;
+    x: number;
+    y: number;
+  } | null>(null);
   const [geography, setGeography] = useState<{
     geo: FeatureCollection<Geometry>;
     style: maplibregl.StyleSpecification;
@@ -348,24 +368,33 @@ export default function AtlasMap(props: Props) {
     if (!ready || !m?.getLayer("exposure-stipple")) return;
     const pattern: unknown[] = ["match", ["get", "iso3"]],
       colors: unknown[] = ["match", ["get", "iso3"]];
-    for (const row of props.risk) {
-      const band = Math.min(5, Math.floor(row.exposure / (100 / 6)));
-      pattern.push(row.iso3, `exposure-${band}`);
-      colors.push(row.iso3, exposureColors[band]);
+    // Color by modeled drug volume (default) or by the risk exposure index.
+    const bands =
+      props.colorBy === "exposure"
+        ? new Map(
+            props.risk.map((row) => [
+              row.iso3,
+              Math.min(5, Math.floor(row.exposure / (100 / 6))),
+            ]),
+          )
+        : volumeBands(props.edges);
+    for (const [iso3, band] of bands) {
+      pattern.push(iso3, `exposure-${band}`);
+      colors.push(iso3, exposureColors[band]);
     }
     pattern.push("exposure-none");
     colors.push("#fbfcfe");
     m.setPaintProperty(
       "exposure-stipple",
       "fill-pattern",
-      props.risk.length
+      bands.size
         ? (pattern as maplibregl.ExpressionSpecification)
         : "exposure-none",
     );
     m.setPaintProperty(
       "exposure-tone",
       "fill-color",
-      props.risk.length
+      bands.size
         ? (colors as maplibregl.ExpressionSpecification)
         : "#fbfcfe",
     );
@@ -375,7 +404,52 @@ export default function AtlasMap(props: Props) {
         "visibility",
         props.showDots ? "visible" : "none",
       );
-  }, [ready, props.risk, props.showDots]);
+  }, [ready, props.risk, props.showDots, props.colorBy, props.edges]);
+  // Estimated flows: faint at world scale, full from zoom 3, so zoomed-in views
+  // stay dense. Glyph spacing follows zoom (rounded to limit recomputation) and
+  // off-screen flows are skipped above zoom 3.
+  const glyphZoom = Math.round(position.zoom * 2) / 2;
+  const estimatedFlows = useMemo(
+    () =>
+      (props.estimated?.flows ?? []).filter(
+        (f) => props.drug === "all" || f.drug === props.drug,
+      ),
+    [props.estimated, props.drug],
+  );
+  const glyphs = useMemo(() => {
+    if (!props.showEstimated || !estimatedFlows.length) return [];
+    const bounds = map.current?.getBounds();
+    const flows =
+      glyphZoom < 3 || !bounds
+        ? estimatedFlows
+        : estimatedFlows.filter((f) => {
+            const west = Math.min(f.from.lon, f.to.lon);
+            const east = Math.max(f.from.lon, f.to.lon);
+            const south = Math.min(f.from.lat, f.to.lat);
+            const north = Math.max(f.from.lat, f.to.lat);
+            return !(
+              east < bounds.getWest() - 2 ||
+              west > bounds.getEast() + 2 ||
+              north < bounds.getSouth() - 2 ||
+              south > bounds.getNorth() + 2
+            );
+          });
+    // Sample densely along each path, then average into one arrow per cell.
+    return fieldArrows(
+      windGlyphs(flows, glyphZoom + 1),
+      spacingKm(glyphZoom) / 111,
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [estimatedFlows, props.showEstimated, glyphZoom, position.lng, position.lat]);
+  const estimatedCities = useMemo(() => {
+    if (!props.showEstimated || !props.estimated) return [];
+    const drugs = new Set(estimatedFlows.map((f) => `${f.from.iso3}:${f.from.name}`)
+      .concat(estimatedFlows.map((f) => `${f.to.iso3}:${f.to.name}`)));
+    return props.estimated.cities.filter(
+      (c) => props.drug === "all" || drugs.has(`${c.iso3}:${c.name}`),
+    );
+  }, [props.estimated, props.showEstimated, props.drug, estimatedFlows]);
+  const windOpacity = Math.max(0.3, Math.min(1, (position.zoom - 1.2) / 1.8));
   useEffect(() => {
     if (!ready || !overlay.current) return;
     const active = new Set(visibleEdges.flatMap((e) => [e.from, e.to]));
@@ -388,6 +462,35 @@ export default function AtlasMap(props: Props) {
     };
     overlay.current.setProps({
       layers: [
+        new ScatterplotLayer<EstimatedCity>({
+          id: "estimated-cities",
+          data: estimatedCities,
+          opacity: windOpacity,
+          getPosition: (c) => [c.lon, c.lat],
+          getRadius: (c) => 1.5 + c.intensity * 7,
+          radiusUnits: "pixels",
+          getFillColor: (c) => [28, 38, 64, Math.round(25 + c.intensity * 200)],
+          stroked: false,
+          pickable: false,
+        }),
+        new IconLayer<FieldArrow>({
+          id: "estimated-wind",
+          data: glyphs,
+          opacity: windOpacity,
+          getIcon: () => ARROW_ICON,
+          getPosition: (g) => g.position,
+          getAngle: (g) => -g.bearing,
+          getSize: (g) => 8 + g.magnitude * 18,
+          sizeUnits: "pixels",
+          getColor: (g) =>
+            rgba(drugColor[g.drug], Math.round(55 + g.magnitude * 130)),
+          billboard: false,
+          pickable: true,
+          onHover: (info: PickingInfo<FieldArrow>) =>
+            setWindHover(
+              info.object ? { glyph: info.object, x: info.x, y: info.y } : null,
+            ),
+        }),
         new ArcLayer<Edge>({
           id: "route-arcs",
           data: props.showRoutes ? visibleEdges : [],
@@ -493,6 +596,9 @@ export default function AtlasMap(props: Props) {
     props.showRoutes,
     position.zoom,
     localScale,
+    glyphs,
+    estimatedCities,
+    windOpacity,
   ]);
   useEffect(() => {
     const m = map.current;
@@ -590,18 +696,29 @@ export default function AtlasMap(props: Props) {
           </a>
         </section>
       )}
-      {!localScale && props.showDots && props.risk.length > 0 && (
+      {!localScale && props.showDots && (props.colorBy === "volume" ? props.edges.length > 0 : props.risk.length > 0) && (
         <div
           className="map-legend"
           title="Texture density and color encode country exposure, not local observations. Country links join representative coordinates. Both fade at local scales."
         >
-          <span>{props.exposureLabel}</span>
-          <img src="/figma/exposure-strip.svg" alt="Exposure index, 0 to 100" />
-          <div>
-            <span>0</span>
-            <span>50</span>
-            <span>100</span>
-          </div>
+          <span>{props.colorBy === "volume" ? "Modeled drug volume" : props.exposureLabel}</span>
+          <img src="/figma/exposure-strip.svg" alt={props.colorBy === "volume" ? "Modeled drug volume, low to high (log scale)" : "Exposure index, 0 to 100"} />
+          {props.colorBy === "volume" ? (
+            <div>
+              <span>less</span>
+              <span>kg, log</span>
+              <span>more</span>
+            </div>
+          ) : (
+            <div>
+              <span>0</span>
+              <span>50</span>
+              <span>100</span>
+            </div>
+          )}
+          {props.showEstimated && (
+            <small className="legend-estimated">▲ faint arrows: estimated local flows (not observed)</small>
+          )}
         </div>
       )}
       <div className="map-tools">
@@ -666,6 +783,22 @@ export default function AtlasMap(props: Props) {
           ))}
           {hover.edge.drivers.slice(0, 3).map((d) => (
             <small key={d.feature}>{d.label}</small>
+          ))}
+        </div>
+      )}
+      {windHover && !hover && !reportHover && (
+        <div
+          className="route-tooltip"
+          style={{
+            left: Math.max(12, Math.min(windHover.x + 16, (host.current?.clientWidth ?? 800) - 260)),
+            top: Math.max(12, windHover.y - 100),
+          }}
+        >
+          <strong>Estimated local flow</strong>
+          <div>{windHover.glyph.drug} · net direction here · strength {windHover.glyph.magnitude.toFixed(2)}</div>
+          <p>Not observed. Follows money (city population × GDP per capita) out of cities that modeled corridors feed.</p>
+          {windHover.glyph.flows.map((f) => (
+            <small key={`${f.drug}${f.from.name}${f.to.name}`}>{f.from.name} → {f.to.name} ({f.km} km)</small>
           ))}
         </div>
       )}

@@ -58,6 +58,26 @@ async function request<T>(
   }
   return res.json() as Promise<T>;
 }
+// AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+// Each year is fetched once and kept, so timeline playback swaps lines and
+// colors from memory instead of reloading. Failed loads are not cached.
+const loaded = new Map<string, Promise<unknown>>();
+function once<T>(key: string, load: () => Promise<T>): Promise<T> {
+  let hit = loaded.get(key) as Promise<T> | undefined;
+  if (!hit) {
+    hit = load();
+    loaded.set(key, hit);
+    hit.catch(() => loaded.delete(key));
+  }
+  return hit;
+}
+async function snapshotFile<T>(path: string): Promise<T> {
+  return once(path, async () => {
+    const res = await fetch(path);
+    if (!res.ok) throw new Error(String(res.status));
+    return (await res.json()) as T;
+  });
+}
 function filterRoutes(
   envelope: Envelope<Routes>,
   year: number,
@@ -102,9 +122,9 @@ export async function snapshotRoutes(
   minConfidence = 0,
 ): Promise<Envelope<Routes>> {
   try {
-    const res = await fetch(`/data/routes/${mode}-${year}.json`);
-    if (!res.ok) throw new Error(String(res.status));
-    const full = (await res.json()) as Envelope<Routes>;
+    const full = await snapshotFile<Envelope<Routes>>(
+      `/data/routes/${mode}-${year}.json`,
+    );
     return filterRoutes(full, year, drug, minConfidence);
   } catch {
     return fixtureRoutes(year, mode, drug, minConfidence);
@@ -124,12 +144,19 @@ export function fixtureRisk(year: number): Envelope<Risk> {
 // risk board work for 2008-2025 without the API; falls back to the fixture.
 export async function snapshotRisk(year: number): Promise<Envelope<Risk>> {
   try {
-    const res = await fetch(`/data/risk/${year}.json`);
-    if (!res.ok) throw new Error(String(res.status));
-    return (await res.json()) as Envelope<Risk>;
+    return await snapshotFile<Envelope<Risk>>(`/data/risk/${year}.json`);
   } catch {
     return fixtureRisk(year);
   }
+}
+// Estimated local flows are precomputed files in both modes (map-only layer).
+export async function estimatedFlows(year: number, mode: Mode) {
+  const { parseEstimated } = await import("./estimated-flows");
+  return parseEstimated(
+    await snapshotFile<Parameters<typeof parseEstimated>[0]>(
+      `/data/estimated/${mode}-${year}.json`,
+    ),
+  );
 }
 export const api = {
   meta: () => request<Envelope<Catalog>>("/api/meta", () => meta),
@@ -142,12 +169,17 @@ export const api = {
       min_confidence: String(minConfidence),
     });
     if (drug) q.set("drug", drug);
-    return request<Envelope<Routes>>(`/api/routes?${q}`, () =>
-      snapshotRoutes(year, mode, drug, minConfidence),
-    );
+    const path = `/api/routes?${q}`;
+    return API_BASE
+      ? once(path, () => request<Envelope<Routes>>(path, () => fixtureRoutes(year, mode)))
+      : snapshotRoutes(year, mode, drug, minConfidence);
   },
   risk: (year: number) =>
-    request<Envelope<Risk>>(`/api/risk?year=${year}`, () => snapshotRisk(year)),
+    API_BASE
+      ? once(`/api/risk?year=${year}`, () =>
+          request<Envelope<Risk>>(`/api/risk?year=${year}`, () => fixtureRisk(year)),
+        )
+      : snapshotRisk(year),
   country: (iso3: string, year: number) =>
     request<Envelope<CountryDetail> | null>(
       `/api/country/${encodeURIComponent(iso3)}?year=${year}`,

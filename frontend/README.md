@@ -38,7 +38,8 @@ Restart the dev server or rebuild for deployment because Next embeds public envi
 ## Interface
 
 - Click a country or a corridor to inspect it; pan, zoom, and reset the map.
-- Filter model corridors by drug, confidence, year, and baseline/forecast mode. The timeline supports playback.
+- Filter model corridors by drug, confidence, year, and baseline/forecast mode. The timeline supports playback. Every year is cached after its first load and prefetched in the background, so playback swaps lines and colors without clearing the map.
+- Estimated local flows (Layers, on by default): faint weather-style arrows, one per grid cell, showing net estimated movement from cities that modeled corridors feed toward nearby money (city population × GDP per capita). They are labelled estimated, never observed, and never enter scores or tables. Regenerate with `uv run trace estimate-flows` in `../backend`. Country color defaults to modeled drug volume (kg on the corridors shown, log scale); Risk exposure is selectable.
 - Open Health evidence to select a country and inspect drug use, injecting health, treatment contacts and published SDG treatment coverage with exact population and source labels. The country Evidence tab uses the same archive for countries beyond the saved Colombia profile.
 - Use ⌘K or Ctrl+K for `COL <GO>`, `HEROIN ROUTES`, `RISK TOP 20`, `COMPARE COL PER`, `YEAR 2023`, or `PREDICT ON`.
 - Drag the two lower panel handles on desktop. On narrow screens the panels stack and selected details scroll into view.
