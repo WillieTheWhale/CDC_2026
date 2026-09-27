@@ -89,3 +89,18 @@ test("placed arrows point at a city, stay off it, and never overlap", async () =
   const all = fieldArrows(windGlyphs(layer.flows, z + 1), (spacingKm(z) * 1.1) / 111);
   assert.ok(placeArrows(all, z).length < all.length);
 });
+
+test("hover lists the three biggest estimated paths near a point", async () => {
+  const { nearestBigPaths } = await import("./estimated-flows");
+  const f = layer.flows[0];
+  const mid: [number, number] = [(f.from.lon + f.to.lon) / 2, (f.from.lat + f.to.lat) / 2];
+  const near = nearestBigPaths(mid, layer.flows);
+  assert.equal(near.length, 3);
+  const score = (p: (typeof near)[number]) => p.flow.strength / (1 + p.distanceKm / 150);
+  for (let i = 1; i < near.length; i++) assert.ok(score(near[i - 1]) >= score(near[i]));
+  assert.ok(near.every((p) => p.distanceKm <= 4000 && p.drugs.length >= 1));
+  // The arrow's own path (distance ~0) is among the results.
+  assert.ok(near.some((p) => p.distanceKm < 1));
+  const keys = near.map((p) => `${p.flow.from.name}${p.flow.to.name}`);
+  assert.equal(new Set(keys).size, 3);
+});

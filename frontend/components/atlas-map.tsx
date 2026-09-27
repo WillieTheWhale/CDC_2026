@@ -26,6 +26,7 @@ import type { Drug } from "@/lib/types";
 import { basisLabel, fentanylColor, filterUsRoutes, type UsRoute } from "@/lib/us-routes";
 import {
   fieldArrows,
+  nearestBigPaths,
   placeArrows,
   spacingKm,
   volumeBands,
@@ -513,7 +514,8 @@ export default function AtlasMap(props: Props) {
           // Curved, very faint arrows tinted by drug (shape rebuilt per zoom step).
           getPolygon: (g) => g.polygon,
           getFillColor: (g) =>
-            rgba(drugColor[g.drug], Math.round(16 + g.magnitude * 30)),
+            // Faint but readable (darker than before), tinted by drug.
+            rgba(drugColor[g.drug], Math.round(40 + g.magnitude * 55)),
           pickable: true,
           onHover: (info: PickingInfo<PlacedArrow>) =>
             setWindHover(
@@ -852,21 +854,24 @@ export default function AtlasMap(props: Props) {
           className="route-tooltip"
           style={{
             left: Math.max(12, Math.min(windHover.x + 16, (host.current?.clientWidth ?? 800) - 260)),
-            top: Math.max(12, windHover.y - 100),
+            // Open below the cursor near the top edge (clear of the map toolbar).
+            top: windHover.y < 190 ? windHover.y + 18 : windHover.y - 170,
           }}
         >
           <strong>Estimated local flow</strong>
           <div>
-            {windHover.glyph.drug} ·{" "}
-            {`toward ${windHover.glyph.flows[0]?.to.name}`}{" "}
-            · strength {windHover.glyph.magnitude.toFixed(2)}
+            {windHover.glyph.drug} · toward {windHover.glyph.flows[0]?.to.name}
           </div>
           <p>
             Not observed. Follows money (city population × GDP per capita) out of cities that modeled corridors feed.
             {props.estimated && !props.estimated.live ? " Precomputed snapshot." : ""}
           </p>
-          {windHover.glyph.flows.map((f) => (
-            <small key={`${f.drug}${f.from.name}${f.to.name}`}>{f.from.name} → {f.to.name} ({f.km} km)</small>
+          <small>Biggest paths nearby</small>
+          {nearestBigPaths(windHover.glyph.position, estimatedFlows).map(({ flow, drugs, distanceKm }) => (
+            <small key={`${flow.from.iso3}${flow.from.name}${flow.to.name}`}>
+              {flow.from.name} → {flow.to.name} · {drugs.join(", ")} · strength {flow.strength.toFixed(2)} ·{" "}
+              {distanceKm < 10 ? "here" : `${Math.round(distanceKm)} km away`}
+            </small>
           ))}
         </div>
       )}
