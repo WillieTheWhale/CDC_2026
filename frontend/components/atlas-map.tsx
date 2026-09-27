@@ -1,5 +1,5 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
-// Estimated-flow wind layer, city intensity and volume coloring added with
+// Estimated-flow arrow layer and volume coloring added with
 // Claude Code (Anthropic).
 // AI-assisted: country anchor fix written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
@@ -27,7 +27,6 @@ import {
   spacingKm,
   volumeBands,
   windGlyphs,
-  type EstimatedCity,
   type EstimatedLayer,
   type FieldArrow,
   type PlacedArrow,
@@ -450,18 +449,6 @@ export default function AtlasMap(props: Props) {
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [estimatedFlows, props.showEstimated, glyphZoom, viewKey]);
-  const estimatedCities = useMemo(() => {
-    if (!props.showEstimated || !props.estimated) return [];
-    const drugs = new Set(estimatedFlows.map((f) => `${f.from.iso3}:${f.from.name}`)
-      .concat(estimatedFlows.map((f) => `${f.to.iso3}:${f.to.name}`)));
-    // At world scale only the busiest cities keep a dot, to avoid clutter.
-    const floor = glyphZoom < 3 ? 0.15 : 0;
-    return props.estimated.cities.filter(
-      (c) =>
-        c.intensity >= floor &&
-        (props.drug === "all" || drugs.has(`${c.iso3}:${c.name}`)),
-    );
-  }, [props.estimated, props.showEstimated, props.drug, estimatedFlows, glyphZoom]);
   const windOpacity = 1;
   useEffect(() => {
     if (!ready || !overlay.current) return;
@@ -475,17 +462,6 @@ export default function AtlasMap(props: Props) {
     };
     overlay.current.setProps({
       layers: [
-        new ScatterplotLayer<EstimatedCity>({
-          id: "estimated-cities",
-          data: estimatedCities,
-          opacity: windOpacity,
-          getPosition: (c) => [c.lon, c.lat],
-          getRadius: (c) => 1.5 + c.intensity * 7,
-          radiusUnits: "pixels",
-          getFillColor: (c) => [28, 38, 64, Math.round(25 + c.intensity * 200)],
-          stroked: false,
-          pickable: false,
-        }),
         new SolidPolygonLayer<PlacedArrow>({
           id: "estimated-wind",
           data: glyphs,
@@ -609,7 +585,6 @@ export default function AtlasMap(props: Props) {
     localScale,
     glyphs,
     glyphZoom,
-    estimatedCities,
     windOpacity,
   ]);
   useEffect(() => {
