@@ -142,12 +142,12 @@
     "afghan": "contracts/fixtures/afghan_ban.json"
   },
   "people": {
-    "total": 1111,
-    "organizations": 136,
-    "convicted": 461,
-    "charged": 439,
-    "sanctioned": 136,
-    "reported": 75
+    "total": 1678,
+    "organizations": 193,
+    "convicted": 905,
+    "charged": 447,
+    "sanctioned": 250,
+    "reported": 76
   },
   "screenshots": {
     "route-map": "screenshots/route-map.png",
@@ -236,6 +236,16 @@
         "label": "People API",
         "owner": "backend",
         "status": "done (`/api/people`, `/countries`, `/network`, `/{person_id}`; parity with the frontend route handlers)"
+      },
+      {
+        "label": "Route evidence API",
+        "owner": "backend",
+        "status": "done (`/api/route-evidence`: 51 direct reported pairs, 234 interpreted corridors, 4 narrative claims; `evidence_ids`/`kg_basis` on route edges)"
+      },
+      {
+        "label": "Evidence drilldown API",
+        "owner": "backend",
+        "status": "done (`/api/evidence/*`: 3,995 research and market values traced to formula, inputs and original cells; health and CDC overdose with the required labels)"
       }
     ],
     "pending": [
@@ -257,14 +267,14 @@
     ],
     "frontend_built": true,
     "shipped_short": "Pipeline, models, backtests, Live Wire and the workspace shipped; API live in production",
-    "shipped_count": 15,
+    "shipped_count": 17,
     "pending_count": 3
   },
   "git": {
-    "sha": "3fea0af",
-    "subject": "deck: rebuild after People growth to 1,111",
-    "when": "2026-09-27T04:37:42+00:00",
-    "count": "179"
+    "sha": "c2af47a",
+    "subject": "deck: claim the corridor provenance now that it is checkable",
+    "when": "2026-09-27T05:37:50+00:00",
+    "count": "227"
   },
-  "built_at": "2026-09-27 04:37 UTC"
+  "built_at": "2026-09-27 05:37 UTC"
 }

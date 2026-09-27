@@ -715,11 +715,12 @@
         },
         {
           "type": "source",
-          "text": "Every known limitation is written into docs/SYSTEM_DESIGN.md §5 and docs/BLOCKERS.md, not hidden."
+          "text": "Every corridor carries a citation key, and all eleven resolve to a UNODC or EUDA publication — each checked for a live response and a matching title. A route-evidence API drills from any corridor on the map to the document it came from. Every known limitation is in docs/SYSTEM_DESIGN.md §5 and docs/BLOCKERS.md, not hidden."
         }
       ],
       "cues": [
         "Saying the weakness first is what makes the rest credible.",
+        "If pressed on provenance: click any corridor in the demo and it resolves to the UNODC or EUDA document behind it.",
         "Hand off on strength: 'So — does it actually work?'"
       ],
       "handoff": "So — does any of it actually work?"
