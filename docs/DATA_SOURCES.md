@@ -99,6 +99,7 @@ Indicator metadata (name, unit, source organization, source note) is pulled from
 | GDELT | Global news stream for the Live Wire | https://api.gdeltproject.org/api/v2/doc/doc |
 | CEPII GeoDist | Bilateral distances, contiguity | https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6 |
 | Natural Earth | Country shapes (frontend) | https://www.naturalearthdata.com |
+| Seaport coordinates | Land anchor for route arrows when a Natural Earth label point is offshore (`frontend/scripts/land-anchors.mjs`); approximate harbour locations of each country's main port | Port authority and public gazetteer locations |
 | Stretch: ACLED | Near-real-time violence events | free account |
 | Stretch: EU Drugs Agency (EUDA) | European prices, purity, wastewater | https://www.euda.europa.eu |
 | Stretch: Global Burden of Disease (IHME) | Drug use disorder deaths | https://vizhub.healthdata.org/gbd-results/ |

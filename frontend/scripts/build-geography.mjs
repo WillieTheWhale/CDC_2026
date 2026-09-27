@@ -1,7 +1,9 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// Land-anchor step added with Claude Code (Anthropic).
 // Preserve Natural Earth's 1:10m geometry; strip unused properties only.
 // The screen-space exposure texture is generated in atlas-map.tsx, not here.
 import { writeFileSync } from "node:fs";
+import { anchorAll } from "./land-anchors.mjs";
 const source =
   "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson";
 const response = await fetch(source);
@@ -23,6 +25,8 @@ for (const feature of world.features) {
   };
   feature.geometry.coordinates = round(feature.geometry.coordinates);
 }
+// Keep every route anchor on land (see land-anchors.mjs).
+const moved = anchorAll(world);
 world.metadata = {
   ai_assisted: "ChatGPT (OpenAI). See docs/AI_USAGE.md.",
   source,
@@ -33,4 +37,4 @@ writeFileSync(
   new URL("../public/geo/countries.json", import.meta.url),
   JSON.stringify(world),
 );
-console.log(`Saved ${world.features.length} detailed country polygons.`);
+console.log(`Saved ${world.features.length} detailed country polygons; moved ${moved.length} offshore label points onto land.`);
