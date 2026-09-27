@@ -1,0 +1,932 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from Fiscalía General de la Nación’s September 2014 official report and dated Colombian reporting. These are two distinct, descriptively named 2014 case networks. The first contains eleven historically convicted defendants; the second contains five defendants charged and placed under pretrial detention in 2014, with no later disposition verified. Statuses are historical source snapshots, not claims of present incarceration or pending proceedings. Country associations mean Colombia-based historical operation; destination or arrest-only countries are omitted. No exact routes, private locations, inferred co-defendant links, or unlicensed photos.",
+  "organizations": [
+    {
+      "id": "santana-norte-de-santander-2014-network",
+      "name": "Santana–Torrado trafficking network (2014 case)",
+      "aliases": [
+        "2014 Norte de Santander heroin and cocaine network"
+      ],
+      "regions": [
+        "COL"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Section 11.4 describes the conviction of 11 individually named members of a Colombia-based network that trafficked heroin, cocaine and cannabis; the network label here is descriptive, not an official group name."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "The July 2014 report reproduces the Fiscalía account of 11 sentenced network members and describes the same Colombia-based network.",
+          "publishedAt": "2014-07-30"
+        }
+      ]
+    },
+    {
+      "id": "santa-marta-container-2014-network",
+      "name": "Santa Marta container case network (2014)",
+      "aliases": [],
+      "regions": [
+        "COL"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Section 11.5 describes an alleged Colombia-based narcotics network investigated for contaminating cargo containers and individually names five arrested defendants. The network label here is descriptive, not an official group name."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "angel-odilson-santana-quintero-santana-2014",
+      "name": "Ángel Odilson Santana Quintero",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted network member described by Fiscalía as a leader",
+      "prominence": 1,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists Ángel Odilson Santana Quintero among 11 sentenced members of this heroin/cocaine/cannabis trafficking network. Fiscalía describes him as a network head; a 2013 report identifies his role in financing couriers."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported Ángel Odilson Santana Quintero among the sentenced members of the network; reported sentence: 10 years 6 months.",
+          "publishedAt": "2014-07-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "angel-odilson-santana-quintero-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed Ángel Odilson Santana Quintero as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reported term was 10 years 6 months.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported Ángel Odilson Santana Quintero among the sentenced members of the network; reported sentence: 10 years 6 months.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ],
+      "aliases": [
+        "el Cachetón",
+        "el Toro"
+      ]
+    },
+    {
+      "id": "miguel-antonio-morales-tombe-santana-2014",
+      "name": "Miguel Antonio Morales Tombe",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 3,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists Miguel Antonio Morales Tombe among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported Miguel Antonio Morales Tombe among the sentenced members of the network; reported sentence: 10 years 6 months.",
+          "publishedAt": "2014-07-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "miguel-antonio-morales-tombe-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed Miguel Antonio Morales Tombe as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reported term was 10 years 6 months.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported Miguel Antonio Morales Tombe among the sentenced members of the network; reported sentence: 10 years 6 months.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ],
+      "aliases": [
+        "el Indio",
+        "Caucano"
+      ]
+    },
+    {
+      "id": "jose-gregorio-ochoa-vergel-santana-2014",
+      "name": "José Gregorio Ochoa Vergel",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 3,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists José Gregorio Ochoa Vergel among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported José Gregorio Ochoa Vergel among the sentenced members of the network; reported sentence: 10 years 6 months.",
+          "publishedAt": "2014-07-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-gregorio-ochoa-vergel-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed José Gregorio Ochoa Vergel as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reported term was 10 years 6 months.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported José Gregorio Ochoa Vergel among the sentenced members of the network; reported sentence: 10 years 6 months.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ],
+      "aliases": [
+        "el Gordo"
+      ]
+    },
+    {
+      "id": "bernardo-ochoa-ramirez-santana-2014",
+      "name": "Bernardo Ochoa Ramírez",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 3,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists Bernardo Ochoa Ramírez among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported Bernardo Ochoa Ramírez among the sentenced members of the network; reported sentence: 10 years 6 months.",
+          "publishedAt": "2014-07-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "bernardo-ochoa-ramirez-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed Bernardo Ochoa Ramírez as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reported term was 10 years 6 months.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported Bernardo Ochoa Ramírez among the sentenced members of the network; reported sentence: 10 years 6 months.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-antonio-sandoval-galvis-santana-2014",
+      "name": "José Antonio Sandoval Galvis",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 2,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists José Antonio Sandoval Galvis among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported José Antonio Sandoval Galvis among the sentenced members of the network; reported sentence: 13 years 5 months.",
+          "publishedAt": "2014-07-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-antonio-sandoval-galvis-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed José Antonio Sandoval Galvis as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reported term was 13 years 5 months.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported José Antonio Sandoval Galvis among the sentenced members of the network; reported sentence: 13 years 5 months.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-gregorio-hernandez-hernandez-santana-2014",
+      "name": "José Gregorio Hernández Hernández",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 3,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists José Gregorio Hernández Hernández among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported José Gregorio Hernández Hernández among the sentenced members of the network; reported sentence: sentence reported; exact duration differs between reproductions.",
+          "publishedAt": "2014-07-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-gregorio-hernandez-hernandez-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed José Gregorio Hernández Hernández as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reviewed versions differ on the precise term, so it is omitted here.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported José Gregorio Hernández Hernández among the sentenced members of the network; reported sentence: sentence reported; exact duration differs between reproductions.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ],
+      "aliases": [
+        "Pedro"
+      ]
+    },
+    {
+      "id": "carlos-julio-perez-rodriguez-santana-2014",
+      "name": "Carlos Julio Pérez Rodríguez",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 3,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists Carlos Julio Pérez Rodríguez among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported Carlos Julio Pérez Rodríguez among the sentenced members of the network; reported sentence: sentence reported; exact duration differs between reproductions.",
+          "publishedAt": "2014-07-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "carlos-julio-perez-rodriguez-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed Carlos Julio Pérez Rodríguez as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reviewed versions differ on the precise term, so it is omitted here.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported Carlos Julio Pérez Rodríguez among the sentenced members of the network; reported sentence: sentence reported; exact duration differs between reproductions.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ],
+      "aliases": [
+        "Piti"
+      ]
+    },
+    {
+      "id": "noel-torrado-guerrero-santana-2014",
+      "name": "Noel Torrado Guerrero",
+      "status": "convicted",
+      "statusAsOf": "2023-05-17",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 2,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists Noel Torrado Guerrero among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported Noel Torrado Guerrero among the sentenced members of the network; reported sentence: 6 years 5 months.",
+          "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.ramajudicial.gov.co/documents/36540057/149146598/REPORTE%2BDE%2BPROVIDENCIAS%2BDEL%2B17-05-2023.pdf/035bbb7b-33dc-2817-6216-dc210241d8ee",
+          "title": "Registro de providencias No. 12, Juzgado Cuarto de Ejecución de Penas de Cúcuta",
+          "publisher": "Rama Judicial de Colombia",
+          "language": "es",
+          "claim": "A 17 May 2023 judicial register names Noel Torrado Guerrero in a drug-trafficking and criminal-conspiracy case and records an order extinguishing the principal and ancillary sentence; this is a sentence-completion record, not an acquittal.",
+          "publishedAt": "2023-05-17"
+        }
+      ],
+      "events": [
+        {
+          "id": "noel-torrado-guerrero-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed Noel Torrado Guerrero as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reported term was 6 years 5 months.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported Noel Torrado Guerrero among the sentenced members of the network; reported sentence: 6 years 5 months.",
+            "publishedAt": "2014-07-30"
+          }
+        },
+        {
+          "id": "noel-torrado-guerrero-santana-2014-2023-05-17-sentence-extinguished",
+          "occurredAt": "2023-05-17",
+          "type": "development",
+          "title": "Court recorded sentence extinction",
+          "summary": "A Colombian sentence-enforcement court recorded an order extinguishing Noel Torrado Guerrero’s principal and ancillary sentence in a drug-trafficking and conspiracy case. The register does not itself identify the 2014 network case, so that linkage is not asserted.",
+          "source": {
+            "url": "https://www.ramajudicial.gov.co/documents/36540057/149146598/REPORTE%2BDE%2BPROVIDENCIAS%2BDEL%2B17-05-2023.pdf/035bbb7b-33dc-2817-6216-dc210241d8ee",
+            "title": "Registro de providencias No. 12, Juzgado Cuarto de Ejecución de Penas de Cúcuta",
+            "publisher": "Rama Judicial de Colombia",
+            "language": "es",
+            "claim": "A 17 May 2023 judicial register names Noel Torrado Guerrero in a drug-trafficking and criminal-conspiracy case and records an order extinguishing the principal and ancillary sentence; this is a sentence-completion record, not an acquittal.",
+            "publishedAt": "2023-05-17"
+          }
+        }
+      ],
+      "aliases": [
+        "Cachetes",
+        "Noetlito"
+      ]
+    },
+    {
+      "id": "jose-gabriel-barco-mora-santana-2014",
+      "name": "José Gabriel Barco Mora",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 2,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists José Gabriel Barco Mora among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported José Gabriel Barco Mora among the sentenced members of the network; reported sentence: 59 months 12 days.",
+          "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "The 2013 report identifies José Gabriel Barco Mora and explicitly says Xiomara de la Cruz Hoyos Villamizar is his wife.",
+          "publishedAt": "2013-09-14"
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-gabriel-barco-mora-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed José Gabriel Barco Mora as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reported term was 59 months 12 days.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported José Gabriel Barco Mora among the sentenced members of the network; reported sentence: 59 months 12 days.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eduardo-antonio-guillin-salazar-santana-2014",
+      "name": "Eduardo Antonio Guillín Salazar",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 3,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists Eduardo Antonio Guillín Salazar among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported Eduardo Antonio Guillín Salazar among the sentenced members of the network; reported sentence: 59 months 12 days.",
+          "publishedAt": "2014-07-30"
+        }
+      ],
+      "events": [
+        {
+          "id": "eduardo-antonio-guillin-salazar-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed Eduardo Antonio Guillín Salazar as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reported term was 59 months 12 days.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported Eduardo Antonio Guillín Salazar among the sentenced members of the network; reported sentence: 59 months 12 days.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ],
+      "aliases": [
+        "Gorro"
+      ]
+    },
+    {
+      "id": "xiomara-de-la-cruz-hoyos-villamizar-santana-2014",
+      "name": "Xiomara de la Cruz Hoyos Villamizar",
+      "status": "convicted",
+      "statusAsOf": "2014-07-30",
+      "roleLabel": "Convicted member of Colombian drug-trafficking network",
+      "prominence": 2,
+      "organizationIds": [
+        "santana-norte-de-santander-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía section 11.4 individually lists Xiomara de la Cruz Hoyos Villamizar among 11 sentenced members of this heroin/cocaine/cannabis trafficking network."
+        },
+        {
+          "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+          "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+          "publisher": "Eje21",
+          "language": "es",
+          "claim": "On 30 July 2014 Eje21 reported Xiomara de la Cruz Hoyos Villamizar among the sentenced members of the network; reported sentence: 59 months 12 days.",
+          "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "The 2013 report explicitly identifies Xiomara de la Cruz Hoyos Villamizar as the wife of José Gabriel Barco Mora and describes their alleged roles in the trafficking network.",
+          "publishedAt": "2013-09-14"
+        }
+      ],
+      "events": [
+        {
+          "id": "xiomara-de-la-cruz-hoyos-villamizar-santana-2014-2014-07-30-sentence-report",
+          "occurredAt": "2014-07-30",
+          "type": "sentence",
+          "title": "Sentence publicly reported",
+          "summary": "A 30 July 2014 report listed Xiomara de la Cruz Hoyos Villamizar as sentenced in the Colombian trafficking-network case; the exact court sentencing day was not given. The reported term was 59 months 12 days.",
+          "source": {
+            "url": "https://www.eje21.com.co/2014/07/sentenciados-11-integrantes-de-red-dedicada-al-trafico-de-heroina-y-cocaina/",
+            "title": "Sentenciados 11 integrantes de red dedicada al tráfico de heroína y cocaína",
+            "publisher": "Eje21",
+            "language": "es",
+            "claim": "On 30 July 2014 Eje21 reported Xiomara de la Cruz Hoyos Villamizar among the sentenced members of the network; reported sentence: 59 months 12 days.",
+            "publishedAt": "2014-07-30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "manuel-din-hernandez-container-2014",
+      "name": "Manuel Din Hernández",
+      "status": "charged",
+      "statusAsOf": "2014-09",
+      "roleLabel": "Alleged financier in 2014 cargo-container trafficking case",
+      "prominence": 2,
+      "organizationIds": [
+        "santa-marta-container-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Manuel Din Hernández: Fiscalía identifies him as the alleged principal investor in the container case. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+        }
+      ],
+      "events": [
+        {
+          "id": "manuel-din-hernandez-container-2014-2014-05-22-arrest",
+          "occurredAt": "2014-05-22",
+          "type": "arrest",
+          "title": "Arrested in narcotics investigation",
+          "summary": "Fiscalía reports the 22 May 2014 arrest of Manuel Din Hernández in its cargo-container trafficking investigation; it later reported a pretrial detention order, not a conviction.",
+          "source": {
+            "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+            "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+            "publisher": "Fiscalía General de la Nación",
+            "language": "es",
+            "claim": "Manuel Din Hernández: Fiscalía identifies him as the alleged principal investor in the container case. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+          }
+        }
+      ],
+      "aliases": [
+        "Don Manuel"
+      ]
+    },
+    {
+      "id": "yesid-abuchar-palacios-container-2014",
+      "name": "Yesid Abuchar Palacios",
+      "status": "charged",
+      "statusAsOf": "2014-09",
+      "roleLabel": "Alleged network coordinator in 2014 container case",
+      "prominence": 2,
+      "organizationIds": [
+        "santa-marta-container-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Yesid Abuchar Palacios: Fiscalía identifies him as the alleged coordinator of the criminal network. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+        }
+      ],
+      "events": [
+        {
+          "id": "yesid-abuchar-palacios-container-2014-2014-05-22-arrest",
+          "occurredAt": "2014-05-22",
+          "type": "arrest",
+          "title": "Arrested in narcotics investigation",
+          "summary": "Fiscalía reports the 22 May 2014 arrest of Yesid Abuchar Palacios in its cargo-container trafficking investigation; it later reported a pretrial detention order, not a conviction.",
+          "source": {
+            "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+            "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+            "publisher": "Fiscalía General de la Nación",
+            "language": "es",
+            "claim": "Yesid Abuchar Palacios: Fiscalía identifies him as the alleged coordinator of the criminal network. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+          }
+        }
+      ],
+      "aliases": [
+        "Yeko"
+      ]
+    },
+    {
+      "id": "jaime-manuel-manga-tejada-container-2014",
+      "name": "Jaime Manuel Manga Tejada",
+      "status": "charged",
+      "statusAsOf": "2014-09",
+      "roleLabel": "Charged in 2014 cargo-container trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "santa-marta-container-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Jaime Manuel Manga Tejada: Fiscalía names him among the five arrested and placed under a pretrial detention order. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+        }
+      ],
+      "events": [
+        {
+          "id": "jaime-manuel-manga-tejada-container-2014-2014-05-22-arrest",
+          "occurredAt": "2014-05-22",
+          "type": "arrest",
+          "title": "Arrested in narcotics investigation",
+          "summary": "Fiscalía reports the 22 May 2014 arrest of Jaime Manuel Manga Tejada in its cargo-container trafficking investigation; it later reported a pretrial detention order, not a conviction.",
+          "source": {
+            "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+            "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+            "publisher": "Fiscalía General de la Nación",
+            "language": "es",
+            "claim": "Jaime Manuel Manga Tejada: Fiscalía names him among the five arrested and placed under a pretrial detention order. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+          }
+        }
+      ],
+      "aliases": [
+        "Manga"
+      ]
+    },
+    {
+      "id": "hans-jurgen-wunderlich-escobar-container-2014",
+      "name": "Hans Jurgen Wunderlich Escobar",
+      "status": "charged",
+      "statusAsOf": "2014-09",
+      "roleLabel": "Charged in 2014 cargo-container trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "santa-marta-container-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Hans Jurgen Wunderlich Escobar: Fiscalía names him among the five arrested and placed under a pretrial detention order. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+        }
+      ],
+      "events": [
+        {
+          "id": "hans-jurgen-wunderlich-escobar-container-2014-2014-05-22-arrest",
+          "occurredAt": "2014-05-22",
+          "type": "arrest",
+          "title": "Arrested in narcotics investigation",
+          "summary": "Fiscalía reports the 22 May 2014 arrest of Hans Jurgen Wunderlich Escobar in its cargo-container trafficking investigation; it later reported a pretrial detention order, not a conviction.",
+          "source": {
+            "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+            "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+            "publisher": "Fiscalía General de la Nación",
+            "language": "es",
+            "claim": "Hans Jurgen Wunderlich Escobar: Fiscalía names him among the five arrested and placed under a pretrial detention order. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+          }
+        }
+      ],
+      "aliases": [
+        "Alemán"
+      ]
+    },
+    {
+      "id": "marlon-bautista-cristancho-container-2014",
+      "name": "Marlon Bautista Cristancho",
+      "status": "charged",
+      "statusAsOf": "2014-09",
+      "roleLabel": "Police officer charged in 2014 container case",
+      "prominence": 3,
+      "organizationIds": [
+        "santa-marta-container-2014-network"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+          "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Marlon Bautista Cristancho: Fiscalía names this police subintendente among the five arrested and placed under a pretrial detention order. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+        }
+      ],
+      "events": [
+        {
+          "id": "marlon-bautista-cristancho-container-2014-2014-05-22-arrest",
+          "occurredAt": "2014-05-22",
+          "type": "arrest",
+          "title": "Arrested in narcotics investigation",
+          "summary": "Fiscalía reports the 22 May 2014 arrest of Marlon Bautista Cristancho in its cargo-container trafficking investigation; it later reported a pretrial detention order, not a conviction.",
+          "source": {
+            "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf",
+            "title": "Informe: Casos de connotación, septiembre 2014, sections 11.4 and 11.5",
+            "publisher": "Fiscalía General de la Nación",
+            "language": "es",
+            "claim": "Marlon Bautista Cristancho: Fiscalía names this police subintendente among the five arrested and placed under a pretrial detention order. Section 11.5 says the five were arrested on 22 May 2014 and subjected to a preventive detention order for alleged criminal conspiracy for narcotics trafficking and drug-trafficking offenses; no conviction is established by this source."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "barco-hoyos-spouses-santana-2014",
+      "fromId": "jose-gabriel-barco-mora-santana-2014",
+      "toId": "xiomara-de-la-cruz-hoyos-villamizar-santana-2014",
+      "type": "family",
+      "label": "Spouses, reported in the 2013 case coverage",
+      "sources": [
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "Radio Santa Fe explicitly identifies Xiomara de la Cruz Hoyos Villamizar as the wife of José Gabriel Barco Mora in its report about the same trafficking network.",
+          "publishedAt": "2013-09-14"
+        }
+      ]
+    }
+  ]
+}
