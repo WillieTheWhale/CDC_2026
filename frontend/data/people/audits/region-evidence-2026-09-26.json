@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1913,
-    "associations": 1420,
-    "evidenced": 1420,
+    "people": 2023,
+    "associations": 1523,
+    "evidenced": 1523,
     "missing": 0,
     "invalid": 0
   },
@@ -152,6 +152,13 @@
       "people": 46,
       "associations": 46,
       "evidenced": 46,
+      "missing": 0,
+      "invalid": 0
+    },
+    "doj_corpus_growth7_reviewed_2026.json": {
+      "people": 110,
+      "associations": 103,
+      "evidenced": 103,
       "missing": 0,
       "invalid": 0
     },
@@ -559,8 +566,8 @@
       "invalid": 0
     },
     "USA": {
-      "associations": 515,
-      "evidenced": 515,
+      "associations": 610,
+      "evidenced": 610,
       "missing": 0,
       "invalid": 0
     },
@@ -577,8 +584,8 @@
       "invalid": 0
     },
     "PRI": {
-      "associations": 9,
-      "evidenced": 9,
+      "associations": 11,
+      "evidenced": 11,
       "missing": 0,
       "invalid": 0
     },
@@ -631,8 +638,8 @@
       "invalid": 0
     },
     "MEX": {
-      "associations": 48,
-      "evidenced": 48,
+      "associations": 53,
+      "evidenced": 53,
       "missing": 0,
       "invalid": 0
     },
@@ -645,6 +652,12 @@
     "AFG": {
       "associations": 4,
       "evidenced": 4,
+      "missing": 0,
+      "invalid": 0
+    },
+    "VIR": {
+      "associations": 1,
+      "evidenced": 1,
       "missing": 0,
       "invalid": 0
     },
