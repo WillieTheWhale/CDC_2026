@@ -142,12 +142,12 @@
     "afghan": "contracts/fixtures/afghan_ban.json"
   },
   "people": {
-    "total": 910,
-    "organizations": 118,
-    "convicted": 352,
-    "charged": 364,
+    "total": 1111,
+    "organizations": 136,
+    "convicted": 461,
+    "charged": 439,
     "sanctioned": 136,
-    "reported": 58
+    "reported": 75
   },
   "screenshots": {
     "route-map": "screenshots/route-map.png",
@@ -261,10 +261,10 @@
     "pending_count": 3
   },
   "git": {
-    "sha": "5c18837",
-    "subject": "deck: generate the People atlas figures instead of typing them",
-    "when": "2026-09-27T03:38:49+00:00",
-    "count": "164"
+    "sha": "d315efc",
+    "subject": "Keep route arc endpoints on each country's mainland",
+    "when": "2026-09-26T23:58:08-04:00",
+    "count": "185"
   },
-  "built_at": "2026-09-27 03:38 UTC"
+  "built_at": "2026-09-27 04:02 UTC"
 }
