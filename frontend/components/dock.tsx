@@ -1,8 +1,11 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 import GridLayout, { useContainerWidth } from "react-grid-layout";
 export function Dock({ children }: { children: React.ReactNode }) {
-  const { width, containerRef, mounted } = useContainerWidth();
+  // Start from the real viewport rather than the library default (1280), so the first paint never overflows.
+  const { width, containerRef, mounted } = useContainerWidth({
+    initialWidth: typeof window === "undefined" ? 1024 : Math.min(window.innerWidth, 1280),
+  });
   return (
     <div className="dock" ref={containerRef}>
       {mounted && (

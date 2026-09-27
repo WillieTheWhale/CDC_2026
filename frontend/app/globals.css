@@ -887,6 +887,12 @@ input[type="range"] {
 }
 .dock {
   background: #f6f8fb;
+  /* Never let the grid's first render (react-grid-layout's 1280 px default) widen the column: the measured width
+     would then stay 1280 and the page scroll sideways on 1024 px screens. (Claude Code (Anthropic).) */
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
 }
 .dock-panel {
   border-right: 1px solid var(--line);
