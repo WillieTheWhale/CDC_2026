@@ -1,0 +1,2288 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Historical case/report-date snapshots only. The 2016 appellate article headline says 30 but prints 31 names; three ambiguous names were held. Individual drug types are left blank for the Mondragone defendants because the sources identify drugs at case level, not per person. No current location, routes, enforcement weaknesses or unlicensed portraits.",
+  "organizations": [
+    {
+      "id": "pagliuca-mondragone-drug-case-2012",
+      "name": "Mondragone Pagliuca drug-distribution case group",
+      "aliases": [
+        "2012 Mondragone drug case"
+      ],
+      "regions": [
+        "ITA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News describes a specific 2012 drug-trafficking association investigation in Mondragone and names the arrestees individually; this case group is separate from the broader Camorra clan."
+        },
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The Report Zone reports individual 2016 appellate sentences in the Mondragone drug-distribution case."
+        }
+      ]
+    },
+    {
+      "id": "celentano-cocaine-case-2010",
+      "name": "Fabio Celentano cocaine case organization",
+      "regions": [
+        "ITA"
+      ],
+      "sources": [
+        {
+          "url": "https://questure.poliziadistato.it/Salerno/articolo/990593970143f571356083956",
+          "title": "Arrestato Fabio Celentano per associazione finalizzata al traffico e allo spaccio di droga",
+          "publisher": "Polizia di Stato, Questura di Salerno",
+          "language": "it",
+          "publishedAt": "2017-06-08",
+          "claim": "The Salerno police report individually identifies Fabio Celentano and says a 22 March 2016 Naples appellate judgment, now final as of 8 June 2017, imposed 14 years 8 months for drug-trafficking association and drug offenses involving cocaine."
+        }
+      ]
+    },
+    {
+      "id": "biondo-cocaine-case-2015",
+      "name": "Gabriele Biondo alleged cocaine-trafficking organization",
+      "regions": [
+        "ESP"
+      ],
+      "sources": [
+        {
+          "url": "https://elpais.com/ccaa/2015/06/18/catalunya/1434641670_439851.html",
+          "title": "Detienen en Lloret a un ‘narco’ que formaba parte de la mafia calabresa",
+          "publisher": "El País",
+          "language": "es",
+          "publishedAt": "2015-06-18",
+          "claim": "El País reports that Guardia Civil arrested Gabriele Biondo in Lloret de Mar on cocaine-trafficking allegations, and describes him as directing an alleged trafficking organization from Spain. Arrest allegations are not a conviction."
+        },
+        {
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2019-2029",
+          "title": "STC 3/2019, recurso de amparo de Gabriele Biondo",
+          "publisher": "Boletín Oficial del Estado / Tribunal Constitucional de España",
+          "language": "es",
+          "publishedAt": "2019-02-14",
+          "claim": "The Constitutional Court records that Spanish drug proceedings concerning the Adamas seizure were provisionally discontinued as to Biondo on 2 November 2016; it partially granted his extradition appeal on 14 January 2019. Neither is a drug conviction."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "loris-albante-pagliuca-case",
+      "name": "Loris Albante",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Loris Albante in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Loris Albante among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Loris Albante in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "loris-albante-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Loris Albante among the drug-distribution defendants and gives an appellate prison term of 4 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Loris Albante among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "loris-albante-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Loris Albante among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Loris Albante in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "patrizia-campaiola-pagliuca-case",
+      "name": "Patrizia Campaiola",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Patrizia Campaiola in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Patrizia Campaiola among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 7 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Patrizia Campaiola in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "patrizia-campaiola-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Patrizia Campaiola among the drug-distribution defendants and gives an appellate prison term of 7 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Patrizia Campaiola among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 7 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "patrizia-campaiola-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Patrizia Campaiola among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Patrizia Campaiola in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vincenza-cangiano-pagliuca-case",
+      "name": "Vincenza Cangiano",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Vincenza Cangiano in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Vincenza Cangiano among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 2 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Vincenza Cangiano in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "vincenza-cangiano-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Vincenza Cangiano among the drug-distribution defendants and gives an appellate prison term of 2 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Vincenza Cangiano among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 2 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "vincenza-cangiano-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Vincenza Cangiano among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Vincenza Cangiano in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "francesco-caputo-pagliuca-case",
+      "name": "Francesco Caputo",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Francesco Caputo in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Francesco Caputo among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 3 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Francesco Caputo in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "francesco-caputo-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Francesco Caputo among the drug-distribution defendants and gives an appellate prison term of 3 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Francesco Caputo among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 3 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "francesco-caputo-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Francesco Caputo among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Francesco Caputo in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "giovanni-cardillo-pagliuca-case",
+      "name": "Giovanni Cardillo",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Giovanni Cardillo in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Giovanni Cardillo among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Giovanni Cardillo in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "giovanni-cardillo-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Giovanni Cardillo among the drug-distribution defendants and gives an appellate prison term of 4 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Giovanni Cardillo among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "giovanni-cardillo-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Giovanni Cardillo among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Giovanni Cardillo in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pierina-clemente-pagliuca-case",
+      "name": "Pierina Clemente",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Pierina Clemente in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Pierina Clemente among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 7 years 4 months. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Pierina Clemente in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "pierina-clemente-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Pierina Clemente among the drug-distribution defendants and gives an appellate prison term of 7 years 4 months; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Pierina Clemente among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 7 years 4 months. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "pierina-clemente-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Pierina Clemente among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Pierina Clemente in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pasquale-cordasco-pagliuca-case",
+      "name": "Pasquale Cordasco",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Pasquale Cordasco in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Pasquale Cordasco among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 12 years. It does not establish a final cassation outcome or present custody."
+        }
+      ],
+      "events": [
+        {
+          "id": "pasquale-cordasco-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Pasquale Cordasco among the drug-distribution defendants and gives an appellate prison term of 12 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Pasquale Cordasco among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 12 years. It does not establish a final cassation outcome or present custody."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rocco-de-francesco-pagliuca-case",
+      "name": "Rocco De Francesco",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Rocco De Francesco in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Rocco De Francesco among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 7 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Rocco De Francesco in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "rocco-de-francesco-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Rocco De Francesco among the drug-distribution defendants and gives an appellate prison term of 7 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Rocco De Francesco among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 7 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "rocco-de-francesco-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Rocco De Francesco among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Rocco De Francesco in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "salvatore-ferrigno-pagliuca-case",
+      "name": "Salvatore Ferrigno",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Salvatore Ferrigno in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Salvatore Ferrigno among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 3 years 8 months. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Salvatore Ferrigno in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "salvatore-ferrigno-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Salvatore Ferrigno among the drug-distribution defendants and gives an appellate prison term of 3 years 8 months; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Salvatore Ferrigno among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 3 years 8 months. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "salvatore-ferrigno-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Salvatore Ferrigno among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Salvatore Ferrigno in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gino-forte-pagliuca-case",
+      "name": "Gino Forte",
+      "status": "convicted",
+      "statusAsOf": "2017-03-16",
+      "roleLabel": "Drug-case defendant; later final drug-and-weapons term reported",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Gino Forte in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Gino Forte among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Gino Forte in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        },
+        {
+          "url": "https://www.ecodicaserta.it/notizie/cronaca/2017-03-16-castel-volturno-arrestato-gino-forte-dei-muzzoni-attiguo-al-clan-fragnoli-gagliardi-pagliuca/",
+          "title": "Castel Volturno, arrestato Gino Forte dei muzzoni attiguo al clan Fragnoli-Gagliardi-Pagliuca",
+          "publisher": "L’Eco di Caserta",
+          "language": "it",
+          "publishedAt": "2017-03-16",
+          "claim": "The report individually names Gino Forte, says a final order required him to serve ten years for drug trafficking/dealing and weapons offenses, and explicitly reports his close association with Alessandro Sbordone. It does not identify whether the ten-year term is the same judgment as the 2016 six-year appellate report."
+        }
+      ],
+      "events": [
+        {
+          "id": "gino-forte-pagliuca-case-2017-03-16-development",
+          "occurredAt": "2017-03-16",
+          "type": "development",
+          "title": "Final drug-and-weapons sentence reported",
+          "summary": "L’Eco di Caserta reported a final ten-year drug-and-weapons term and a custody order. Its relationship to the separately reported six-year 2016 appellate term is unresolved.",
+          "source": {
+            "url": "https://www.ecodicaserta.it/notizie/cronaca/2017-03-16-castel-volturno-arrestato-gino-forte-dei-muzzoni-attiguo-al-clan-fragnoli-gagliardi-pagliuca/",
+            "title": "Castel Volturno, arrestato Gino Forte dei muzzoni attiguo al clan Fragnoli-Gagliardi-Pagliuca",
+            "publisher": "L’Eco di Caserta",
+            "language": "it",
+            "publishedAt": "2017-03-16",
+            "claim": "The report individually names Gino Forte, says a final order required him to serve ten years for drug trafficking/dealing and weapons offenses, and explicitly reports his close association with Alessandro Sbordone. It does not identify whether the ten-year term is the same judgment as the 2016 six-year appellate report."
+          }
+        },
+        {
+          "id": "gino-forte-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Gino Forte among the drug-distribution defendants and gives an appellate prison term of 6 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Gino Forte among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "gino-forte-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Gino Forte among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Gino Forte in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "francesco-friani-pagliuca-case",
+      "name": "Francesco Friani",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Francesco Friani in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Francesco Friani among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 9 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Francesco Friani in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "francesco-friani-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Francesco Friani among the drug-distribution defendants and gives an appellate prison term of 9 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Francesco Friani among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 9 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "francesco-friani-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Francesco Friani among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Francesco Friani in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "salvatore-gallo-pagliuca-case",
+      "name": "Salvatore Gallo",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Salvatore Gallo in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Salvatore Gallo among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 7 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Salvatore Gallo in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "salvatore-gallo-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Salvatore Gallo among the drug-distribution defendants and gives an appellate prison term of 7 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Salvatore Gallo among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 7 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "salvatore-gallo-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Salvatore Gallo among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Salvatore Gallo in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "elis-gero-pagliuca-case",
+      "name": "Elis Gero",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Elis Gero in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Elis Gero among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 9 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Elis Gero in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "elis-gero-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Elis Gero among the drug-distribution defendants and gives an appellate prison term of 9 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Elis Gero among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 9 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "elis-gero-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Elis Gero among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Elis Gero in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ilir-gero-pagliuca-case",
+      "name": "Ilir Gero",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Ilir Gero in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Ilir Gero among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 14 years 8 months. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Ilir Gero in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "ilir-gero-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Ilir Gero among the drug-distribution defendants and gives an appellate prison term of 14 years 8 months; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Ilir Gero among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 14 years 8 months. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "ilir-gero-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Ilir Gero among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Ilir Gero in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ferdinando-longobardi-pagliuca-case",
+      "name": "Ferdinando Longobardi",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Ferdinando Longobardi in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Ferdinando Longobardi among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 10 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Ferdinando Longobardi in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "ferdinando-longobardi-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Ferdinando Longobardi among the drug-distribution defendants and gives an appellate prison term of 10 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Ferdinando Longobardi among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 10 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "ferdinando-longobardi-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Ferdinando Longobardi among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Ferdinando Longobardi in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luigi-lucci-pagliuca-case",
+      "name": "Luigi Lucci",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Luigi Lucci in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Luigi Lucci among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 15 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Luigi Lucci in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "luigi-lucci-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Luigi Lucci among the drug-distribution defendants and gives an appellate prison term of 15 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Luigi Lucci among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 15 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "luigi-lucci-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Luigi Lucci among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Luigi Lucci in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nicola-lucci-pagliuca-case",
+      "name": "Nicola Lucci",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Nicola Lucci in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Nicola Lucci among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Nicola Lucci in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "nicola-lucci-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Nicola Lucci among the drug-distribution defendants and gives an appellate prison term of 6 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Nicola Lucci among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "nicola-lucci-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Nicola Lucci among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Nicola Lucci in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aldo-martella-pagliuca-case",
+      "name": "Aldo Martella",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Aldo Martella in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Aldo Martella among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Aldo Martella in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "aldo-martella-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Aldo Martella among the drug-distribution defendants and gives an appellate prison term of 4 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Aldo Martella among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "aldo-martella-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Aldo Martella among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Aldo Martella in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "roberto-lucci-pagliuca-case",
+      "name": "Roberto Lucci",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Roberto Lucci in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Roberto Lucci among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 10 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Roberto Lucci in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "roberto-lucci-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Roberto Lucci among the drug-distribution defendants and gives an appellate prison term of 10 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Roberto Lucci among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 10 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "roberto-lucci-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Roberto Lucci among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Roberto Lucci in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "giuseppe-mele-pagliuca-case",
+      "name": "Giuseppe Mele",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Giuseppe Mele in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Giuseppe Mele among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Giuseppe Mele in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "giuseppe-mele-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Giuseppe Mele among the drug-distribution defendants and gives an appellate prison term of 6 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Giuseppe Mele among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "giuseppe-mele-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Giuseppe Mele among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Giuseppe Mele in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gennaro-musto-pagliuca-case",
+      "name": "Gennaro Musto",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Gennaro Musto in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Gennaro Musto among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years 4 months. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Gennaro Musto in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "gennaro-musto-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Gennaro Musto among the drug-distribution defendants and gives an appellate prison term of 6 years 4 months; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Gennaro Musto among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years 4 months. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "gennaro-musto-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Gennaro Musto among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Gennaro Musto in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "donato-pagliuca-pagliuca-case",
+      "name": "Donato Pagliuca",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Donato Pagliuca in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Donato Pagliuca among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 8 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Donato Pagliuca in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "donato-pagliuca-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Donato Pagliuca among the drug-distribution defendants and gives an appellate prison term of 8 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Donato Pagliuca among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 8 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "donato-pagliuca-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Donato Pagliuca among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Donato Pagliuca in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "salvatore-pagliuca-pagliuca-case",
+      "name": "Salvatore Pagliuca",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 1,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Salvatore Pagliuca in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Salvatore Pagliuca among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 15 years 4 months. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Salvatore Pagliuca in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "salvatore-pagliuca-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Salvatore Pagliuca among the drug-distribution defendants and gives an appellate prison term of 15 years 4 months; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Salvatore Pagliuca among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 15 years 4 months. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "salvatore-pagliuca-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Salvatore Pagliuca among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Salvatore Pagliuca in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ],
+      "aliases": [
+        "‘O Chiatt"
+      ]
+    },
+    {
+      "id": "luigi-palumbo-pagliuca-case",
+      "name": "Luigi Palumbo",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Luigi Palumbo in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Luigi Palumbo among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Luigi Palumbo in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "luigi-palumbo-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Luigi Palumbo among the drug-distribution defendants and gives an appellate prison term of 6 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Luigi Palumbo among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 6 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "luigi-palumbo-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Luigi Palumbo among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Luigi Palumbo in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gennaro-robilotta-pagliuca-case",
+      "name": "Gennaro Robilotta",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Gennaro Robilotta in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Gennaro Robilotta among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Gennaro Robilotta in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "gennaro-robilotta-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Gennaro Robilotta among the drug-distribution defendants and gives an appellate prison term of 4 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Gennaro Robilotta among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "gennaro-robilotta-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Gennaro Robilotta among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Gennaro Robilotta in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alessandro-sbordone-pagliuca-case",
+      "name": "Alessandro Sbordone",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Alessandro Sbordone in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Alessandro Sbordone among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 12 years. It does not establish a final cassation outcome or present custody."
+        }
+      ],
+      "events": [
+        {
+          "id": "alessandro-sbordone-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Alessandro Sbordone among the drug-distribution defendants and gives an appellate prison term of 12 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Alessandro Sbordone among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 12 years. It does not establish a final cassation outcome or present custody."
+          }
+        }
+      ]
+    },
+    {
+      "id": "giuseppe-tammaro-pagliuca-case",
+      "name": "Giuseppe Tammaro",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Giuseppe Tammaro in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Giuseppe Tammaro among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Giuseppe Tammaro in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "giuseppe-tammaro-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Giuseppe Tammaro among the drug-distribution defendants and gives an appellate prison term of 4 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Giuseppe Tammaro among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 4 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "giuseppe-tammaro-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Giuseppe Tammaro among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Giuseppe Tammaro in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ]
+    },
+    {
+      "id": "antonio-zazzera-pagliuca-case",
+      "name": "Antonio Zazzera",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
+      "prominence": 2,
+      "organizationIds": [
+        "pagliuca-mondragone-drug-case-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The 2016 report names Antonio Zazzera in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
+            "period": "2012–2016",
+            "sourceUrl": "https://www.thereportzone.it/5146/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.thereportzone.it/5146/",
+          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+          "publisher": "The Report Zone",
+          "language": "it",
+          "publishedAt": "2016-01-22",
+          "claim": "The 22 January 2016 regional report individually names Antonio Zazzera among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 16 years. It does not establish a final cassation outcome or present custody."
+        },
+        {
+          "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+          "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+          "publisher": "Pupia News",
+          "language": "it",
+          "publishedAt": "2012-12-04",
+          "claim": "Pupia News individually names Antonio Zazzera in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+        }
+      ],
+      "events": [
+        {
+          "id": "antonio-zazzera-pagliuca-case-2016-01-22-development",
+          "occurredAt": "2016-01-22",
+          "type": "development",
+          "title": "Appellate drug-case sentence reported",
+          "summary": "The report identifies Antonio Zazzera among the drug-distribution defendants and gives an appellate prison term of 16 years; the date is the report date, not a verified judgment date.",
+          "source": {
+            "url": "https://www.thereportzone.it/5146/",
+            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
+            "publisher": "The Report Zone",
+            "language": "it",
+            "publishedAt": "2016-01-22",
+            "claim": "The 22 January 2016 regional report individually names Antonio Zazzera among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 16 years. It does not establish a final cassation outcome or present custody."
+          }
+        },
+        {
+          "id": "antonio-zazzera-pagliuca-case-2012-12-04-arrest",
+          "occurredAt": "2012-12-04",
+          "type": "arrest",
+          "title": "Arrest reported in drug-association case",
+          "summary": "Pupia News lists Antonio Zazzera among people arrested in the Mondragone drug-association investigation; this was an allegation, not a conviction.",
+          "source": {
+            "url": "https://www.pupia.tv/2012/12/aree/campania/caserta-provincia/mondragone/droga-nella-villa-comunale-33-arresti-contro-gruppo-fragnoli-gagliardi/85047",
+            "title": "Droga nella villa comunale: 33 arresti contro gruppo Fragnoli-Gagliardi",
+            "publisher": "Pupia News",
+            "language": "it",
+            "publishedAt": "2012-12-04",
+            "claim": "Pupia News individually names Antonio Zazzera in the 4 December 2012 arrest report for the Mondragone drug association investigation. This was an allegation at that date; the later appellate outcome is separately reported in 2016."
+          }
+        }
+      ],
+      "aliases": [
+        "Tonino ‘o mellone"
+      ]
+    },
+    {
+      "id": "fabio-celentano-cocaine-2017",
+      "name": "Fabio Celentano",
+      "status": "convicted",
+      "statusAsOf": "2017-06-08",
+      "roleLabel": "Finally convicted in an international cocaine-trafficking association case",
+      "prominence": 2,
+      "organizationIds": [
+        "celentano-cocaine-case-2010"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "Italian police individually identify Celentano as part of the organization investigated for cocaine trafficking and convicted under Italian drug law; Italy marks the historical case, not current presence.",
+            "period": "2010–2017",
+            "sourceUrl": "https://questure.poliziadistato.it/Salerno/articolo/990593970143f571356083956"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://questure.poliziadistato.it/Salerno/articolo/990593970143f571356083956",
+          "title": "Arrestato Fabio Celentano per associazione finalizzata al traffico e allo spaccio di droga",
+          "publisher": "Polizia di Stato, Questura di Salerno",
+          "language": "it",
+          "publishedAt": "2017-06-08",
+          "claim": "The Salerno police report individually identifies Fabio Celentano and says a 22 March 2016 Naples appellate judgment, now final as of 8 June 2017, imposed 14 years 8 months for drug-trafficking association and drug offenses involving cocaine."
+        }
+      ],
+      "events": [
+        {
+          "id": "fabio-celentano-cocaine-2017-06-08-development",
+          "occurredAt": "2017-06-08",
+          "type": "development",
+          "title": "Final drug conviction and custody order reported",
+          "summary": "Police reported execution of a custody order and a final 14-year-8-month drug-trafficking sentence for Celentano.",
+          "source": {
+            "url": "https://questure.poliziadistato.it/Salerno/articolo/990593970143f571356083956",
+            "title": "Arrestato Fabio Celentano per associazione finalizzata al traffico e allo spaccio di droga",
+            "publisher": "Polizia di Stato, Questura di Salerno",
+            "language": "it",
+            "publishedAt": "2017-06-08",
+            "claim": "The Salerno police report individually identifies Fabio Celentano and says a 22 March 2016 Naples appellate judgment, now final as of 8 June 2017, imposed 14 years 8 months for drug-trafficking association and drug offenses involving cocaine."
+          }
+        },
+        {
+          "id": "fabio-celentano-cocaine-2016-03-22-sentence",
+          "occurredAt": "2016-03-22",
+          "type": "sentence",
+          "title": "Naples appellate sentence",
+          "summary": "Police identify 22 March 2016 as the date of the appellate judgment imposing 14 years 8 months.",
+          "source": {
+            "url": "https://questure.poliziadistato.it/Salerno/articolo/990593970143f571356083956",
+            "title": "Arrestato Fabio Celentano per associazione finalizzata al traffico e allo spaccio di droga",
+            "publisher": "Polizia di Stato, Questura di Salerno",
+            "language": "it",
+            "publishedAt": "2017-06-08",
+            "claim": "The Salerno police report individually identifies Fabio Celentano and says a 22 March 2016 Naples appellate judgment, now final as of 8 June 2017, imposed 14 years 8 months for drug-trafficking association and drug offenses involving cocaine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gabriele-biondo-spain-2015",
+      "name": "Gabriele Biondo",
+      "status": "charged",
+      "statusAsOf": "2020-07-07",
+      "roleLabel": "Cocaine-trafficking suspect arrested in Spain; later faced U.S. drug-related charges",
+      "prominence": 2,
+      "organizationIds": [
+        "biondo-cocaine-case-2015"
+      ],
+      "regions": [
+        {
+          "iso3": "ESP",
+          "label": "Spain",
+          "evidence": {
+            "claim": "El País individually reports Biondo directed the alleged cocaine-trafficking group from Lloret de Mar and was arrested there in 2015; this is a historical alleged operation, not a present location.",
+            "period": "2014–2015",
+            "sourceUrl": "https://elpais.com/ccaa/2015/06/18/catalunya/1434641670_439851.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://elpais.com/ccaa/2015/06/18/catalunya/1434641670_439851.html",
+          "title": "Detienen en Lloret a un ‘narco’ que formaba parte de la mafia calabresa",
+          "publisher": "El País",
+          "language": "es",
+          "publishedAt": "2015-06-18",
+          "claim": "El País reports that Guardia Civil arrested Gabriele Biondo in Lloret de Mar on cocaine-trafficking allegations, and describes him as directing an alleged trafficking organization from Spain. Arrest allegations are not a conviction."
+        },
+        {
+          "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2019-2029",
+          "title": "STC 3/2019, recurso de amparo de Gabriele Biondo",
+          "publisher": "Boletín Oficial del Estado / Tribunal Constitucional de España",
+          "language": "es",
+          "publishedAt": "2019-02-14",
+          "claim": "The Constitutional Court records that Spanish drug proceedings concerning the Adamas seizure were provisionally discontinued as to Biondo on 2 November 2016; it partially granted his extradition appeal on 14 January 2019. Neither is a drug conviction."
+        },
+        {
+          "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=BIONDO+v.+SPAIN.pdf&id=001-204612&library=ECHR&logEvent=False",
+          "title": "Biondo v. Spain, applications 38981/19 and 42871/19",
+          "publisher": "European Court of Human Rights",
+          "language": "en",
+          "publishedAt": "2020-09-10",
+          "claim": "The Court records Biondo had been extradited to the United States and faced drug-trafficking-related charges as of its 7 July 2020 decision; it struck out his human-rights applications, which is not a determination of drug guilt."
+        }
+      ],
+      "events": [
+        {
+          "id": "gabriele-biondo-spain-2020-07-07-development",
+          "occurredAt": "2020-07-07",
+          "type": "development",
+          "title": "European Court recorded U.S. drug charges",
+          "summary": "The Court recorded extradition and U.S. drug-related charges, then struck out his human-rights applications; it did not decide drug guilt.",
+          "source": {
+            "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=BIONDO+v.+SPAIN.pdf&id=001-204612&library=ECHR&logEvent=False",
+            "title": "Biondo v. Spain, applications 38981/19 and 42871/19",
+            "publisher": "European Court of Human Rights",
+            "language": "en",
+            "publishedAt": "2020-09-10",
+            "claim": "The Court records Biondo had been extradited to the United States and faced drug-trafficking-related charges as of its 7 July 2020 decision; it struck out his human-rights applications, which is not a determination of drug guilt."
+          }
+        },
+        {
+          "id": "gabriele-biondo-spain-2019-01-14-development",
+          "occurredAt": "2019-01-14",
+          "type": "development",
+          "title": "Partial constitutional relief in extradition case",
+          "summary": "Spain’s Constitutional Court partially granted his extradition appeal; its judgment also records provisional discontinuance of the Spanish Adamas drug charge as to Biondo in 2016.",
+          "source": {
+            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2019-2029",
+            "title": "STC 3/2019, recurso de amparo de Gabriele Biondo",
+            "publisher": "Boletín Oficial del Estado / Tribunal Constitucional de España",
+            "language": "es",
+            "publishedAt": "2019-02-14",
+            "claim": "The Constitutional Court records that Spanish drug proceedings concerning the Adamas seizure were provisionally discontinued as to Biondo on 2 November 2016; it partially granted his extradition appeal on 14 January 2019. Neither is a drug conviction."
+          }
+        },
+        {
+          "id": "gabriele-biondo-spain-2015-06-18-arrest",
+          "occurredAt": "2015-06-18",
+          "type": "arrest",
+          "title": "Cocaine-case arrest reported in Spain",
+          "summary": "El País reported his arrest in Lloret de Mar over alleged cocaine trafficking.",
+          "source": {
+            "url": "https://elpais.com/ccaa/2015/06/18/catalunya/1434641670_439851.html",
+            "title": "Detienen en Lloret a un ‘narco’ que formaba parte de la mafia calabresa",
+            "publisher": "El País",
+            "language": "es",
+            "publishedAt": "2015-06-18",
+            "claim": "El País reports that Guardia Civil arrested Gabriele Biondo in Lloret de Mar on cocaine-trafficking allegations, and describes him as directing an alleged trafficking organization from Spain. Arrest allegations are not a conviction."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "gino-forte-alessandro-sbordone-documented-association",
+      "fromId": "gino-forte-pagliuca-case",
+      "toId": "alessandro-sbordone-pagliuca-case",
+      "type": "documented_collaboration",
+      "label": "Reported close association in case group",
+      "sources": [
+        {
+          "url": "https://www.ecodicaserta.it/notizie/cronaca/2017-03-16-castel-volturno-arrestato-gino-forte-dei-muzzoni-attiguo-al-clan-fragnoli-gagliardi-pagliuca/",
+          "title": "Castel Volturno, arrestato Gino Forte dei muzzoni attiguo al clan Fragnoli-Gagliardi-Pagliuca",
+          "publisher": "L’Eco di Caserta",
+          "language": "it",
+          "publishedAt": "2017-03-16",
+          "claim": "The report explicitly says investigators established Gino Forte’s closeness to Alessandro Sbordone in the Mondragone group; this is a reported association, not a kinship claim."
+        }
+      ]
+    }
+  ]
+}
