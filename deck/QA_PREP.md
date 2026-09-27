@@ -181,6 +181,12 @@ live positions, private addresses, travel patterns, local routes or rankings of 
 so users can audit the public context behind organizations named in reports. If that boundary cannot be kept
 in a deployment, the People view should be removed rather than repurposed for enforcement.
 
+Know the mix before you answer the follow-up: 138 people across 19 organizations — 71 convicted, 35 charged,
+16 sanctioned (an official designation, usually OFAC), and 16 carried only as reported. That last 16 is the
+weakest bucket and the honest thing to name first if a judge presses: those rest on journalism rather than a
+court or a Treasury listing, each one linked to its source, and the status is shown on the record rather than
+flattened into "trafficker".
+
 **"Prices are still five times pre-ban, right?"** — *Adrian (S4)*
 That was true as of UNODC's November 2025 figure — US$570/kg dry opium against a pre-ban average under
 US$100. Say "as of 2025"; Alcis reported prices falling back toward 2023 levels during 2026.
