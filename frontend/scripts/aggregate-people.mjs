@@ -11,6 +11,17 @@ const seen = { organizations: new Set(), people: new Set(), connections: new Set
 const isCitable = (source) => source && /^https?:\/\//i.test(source.url ?? "") &&
   source.title?.trim() && source.publisher?.trim() && source.language?.trim() && source.claim?.trim();
 const sourced = (row) => Array.isArray(row.sources) && row.sources.some(isCitable);
+const validDate = (value, partial = false) => typeof value === "string" &&
+  (partial ? /^\d{4}(-\d{2}(-\d{2})?)?$/.test(value) : /^\d{4}-\d{2}-\d{2}$/.test(value)) &&
+  (value.length === 4 || value.length === 7 || !Number.isNaN(Date.parse(`${value}T00:00:00Z`)));
+const validLifeStatus = (value) => value && ["deceased", "unknown"].includes(value.value) && isCitable(value.source) &&
+  (value.asOf === undefined || validDate(value.asOf)) &&
+  (value.deathDate === undefined || value.value === "deceased" && validDate(value.deathDate, true));
+const validLegalStatus = (value) => value && ["reported", "arrested", "charged", "convicted", "sentenced", "acquitted", "overturned", "dismissed", "sanctioned", "delisted", "extradited", "released"].includes(value.status) &&
+  validDate(value.date, true) && typeof value.qualifier === "string" && value.qualifier.trim() && isCitable(value.source) &&
+  (value.jurisdiction === undefined || typeof value.jurisdiction === "string" && value.jurisdiction.trim()) &&
+  (value.offense === undefined || typeof value.offense === "string" && value.offense.trim()) &&
+  (value.partial === undefined || typeof value.partial === "boolean");
 const validPersonRegion = (region, person) => {
   if (!region || !/^[A-Z]{3}$/.test(region.iso3 ?? "") || typeof region.label !== "string" || !region.label.trim()) return false;
   if (!Object.hasOwn(region, "evidence")) return true;
@@ -36,7 +47,9 @@ for (const file of files) {
             ![1, 2, 3].includes(row.prominence) || !Array.isArray(row.organizationIds) ||
             !row.organizationIds.every((value) => typeof value === "string") || !Array.isArray(row.regions) ||
             !row.regions.every((region) => validPersonRegion(region, row)) ||
-            !Array.isArray(row.drugs) || !row.drugs.every((value) => typeof value === "string") || !sourced(row)) {
+            !Array.isArray(row.drugs) || !row.drugs.every((value) => typeof value === "string") || !sourced(row) ||
+            (row.lifeStatus !== undefined && !validLifeStatus(row.lifeStatus)) ||
+            (row.legalHistory !== undefined && (!Array.isArray(row.legalHistory) || !row.legalHistory.every(validLegalStatus)))) {
           throw new Error(`Person ${row.id} in ${file} is malformed or has no citable source.`);
         }
       } else if (key === "connections" &&

@@ -39,12 +39,33 @@ export interface PersonEvent {
   source: PeopleSource;
 }
 
+export interface PersonLifeStatus {
+  value: "deceased" | "unknown";
+  deathDate?: string;
+  asOf?: string;
+  source: PeopleSource;
+}
+
+export type PersonLegalOutcome = "reported" | "arrested" | "charged" | "convicted" | "sentenced" | "acquitted" | "overturned" | "dismissed" | "sanctioned" | "delisted" | "extradited" | "released";
+
+export interface PersonLegalStatus {
+  status: PersonLegalOutcome;
+  date: string;
+  qualifier: string;
+  jurisdiction?: string;
+  offense?: string;
+  partial?: boolean;
+  source: PeopleSource;
+}
+
 export interface Person {
   id: string;
   name: string;
   aliases?: string[];
   status: PersonStatus;
   statusAsOf?: string;
+  lifeStatus?: PersonLifeStatus;
+  legalHistory?: PersonLegalStatus[];
   roleLabel?: string;
   prominence: 1 | 2 | 3;
   organizationIds: string[];

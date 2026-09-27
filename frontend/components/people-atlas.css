@@ -114,6 +114,15 @@
 .people-events li p { margin: 5px 0; color: #65788a; font-size: 10px; line-height: 1.5; }
 .people-events li a { font-size: 9px; line-height: 1.4; }
 .people-events-empty { margin-top: 22px; color: #8793a0; font-size: 10px; }
+.people-legal-life, .people-legal-history { margin-top: 18px; color: #435970; font-size: 10px; line-height: 1.5; }
+.people-legal-life { padding: 9px 11px; border: 1px solid #cfdae5; border-radius: 3px; }
+.people-legal-life a, .people-legal-life small { display: block; margin-top: 4px; }
+.people-legal-history h3 { margin-bottom: 9px; color: #334d64; font-size: 11px; }
+.people-legal-history ol { list-style: none; padding: 0; }
+.people-legal-history li { padding: 9px 0; border-top: 1px solid #e3e8ee; }
+.people-legal-history li div { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.people-legal-history li p { margin: 5px 0; }
+.people-legal-history a, .people-legal-life a { color: #245f91; text-decoration: underline; }
 .people-detail-caution { margin-top: 22px; font-size: 10px; }
 .people-empty, .people-detail-empty, .people-graph-empty { display: grid; min-height: 250px; place-items: center; padding: 30px; color: #82909e; text-align: center; font-size: 12px; }
 .people-footer { padding: 13px 0 0; color: #929ca7; font: 9px var(--mono, monospace); }

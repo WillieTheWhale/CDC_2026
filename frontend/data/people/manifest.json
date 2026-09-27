@@ -33987,7 +33987,19 @@
             "claim": "Supreme People’s Court of China identifies 陈卫东 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
           }
         }
-      ]
+      ],
+      "lifeStatus": {
+        "value": "deceased",
+        "asOf": "2010-12-13",
+        "source": {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "The court reports this named person had been executed shortly before publication; it gives no exact execution date."
+        }
+      }
     },
     {
       "id": "chn-spc-shanghai-2008-wang-nongli",
@@ -34200,7 +34212,19 @@
             "claim": "Supreme People’s Court of China identifies 马重阳 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
           }
         }
-      ]
+      ],
+      "lifeStatus": {
+        "value": "deceased",
+        "asOf": "2010-12-13",
+        "source": {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "The court reports this named person had been executed shortly before publication; it gives no exact execution date."
+        }
+      }
     },
     {
       "id": "chn-spc-shaanxi-2008-huang-jianmin",
@@ -34359,7 +34383,19 @@
             "claim": "Supreme People’s Court of China identifies 黄宪敏 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
           }
         }
-      ]
+      ],
+      "lifeStatus": {
+        "value": "deceased",
+        "asOf": "2010-12-13",
+        "source": {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "The court reports this named person had been executed shortly before publication; it gives no exact execution date."
+        }
+      }
     },
     {
       "id": "chn-spc-wenzhou-2008-zhou-hao",
@@ -34624,7 +34660,19 @@
             "claim": "Supreme People’s Court of China identifies 关辉 individually and reports a court finding of drug sale, trafficking, or transport and the specified sentence; exact judgment date is not provided."
           }
         }
-      ]
+      ],
+      "lifeStatus": {
+        "value": "deceased",
+        "asOf": "2010-12-13",
+        "source": {
+          "url": "https://www.court.gov.cn/zixun/xiangqing/1896.html",
+          "title": "最高人民法院公布四起毒品犯罪典型案件",
+          "publisher": "Supreme People’s Court of China",
+          "language": "Chinese",
+          "publishedAt": "2010-12-13",
+          "claim": "The court reports this named person had been executed shortly before publication; it gives no exact execution date."
+        }
+      }
     },
     {
       "id": "chn-spc-heihe-2004-zhang-shaoping",
@@ -41679,6 +41727,74 @@
             "publishedAt": "2024-05-28",
             "claim": "Defence counsel says Adelia accepted the first-instance sentence and did not pursue ordinary appeal; possible extraordinary review was discussed, with no verified outcome in this audit."
           }
+        }
+      ]
+    },
+    {
+      "id": "gha-ekow-russel-2016-final-acquittal",
+      "name": "Ekow Russel",
+      "aliases": [
+        "Ekow Russell"
+      ],
+      "status": "reported",
+      "statusAsOf": "2016-07-13",
+      "roleLabel": "Supreme Court acquitted and discharged him on both cocaine counts in 2016 after overturning earlier convictions.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "GHA",
+          "label": "Ghana",
+          "evidence": {
+            "claim": "The Supreme Court judgment identifies his historical drug case in Ghana; this is not a current location or nationality claim.",
+            "period": "2007–2016",
+            "sourceUrl": "https://ghalii.org/akn/gh/judgment/ghasc/2016/41/eng@2016-07-13/source.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "legalHistory": [
+        {
+          "status": "acquitted",
+          "date": "2016-07-13",
+          "qualifier": "Supreme Court allowed the appeal; acquitted and discharged on both possession and supply counts.",
+          "jurisdiction": "Ghana Supreme Court",
+          "offense": "cocaine possession and supply",
+          "source": {
+            "url": "https://ghalii.org/akn/gh/judgment/ghasc/2016/41/eng@2016-07-13/source.pdf",
+            "title": "Russel v The Republic [2016] GHASC 41",
+            "publisher": "GhaLII / Supreme Court of Ghana",
+            "language": "en",
+            "publishedAt": "2016-07-13",
+            "claim": "The Supreme Court judgment records the earlier cocaine possession and supply convictions affirmed on 13 February 2013, then allows the appeal and acquits and discharges Ekow Russel on both counts on 13 July 2016."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2013-02-13",
+          "qualifier": "Court of Appeal affirmed the earlier High Court convictions on possession and supply; both were later overturned.",
+          "jurisdiction": "Ghana Court of Appeal",
+          "offense": "cocaine possession and supply",
+          "source": {
+            "url": "https://ghalii.org/akn/gh/judgment/ghasc/2016/41/eng@2016-07-13/source.pdf",
+            "title": "Russel v The Republic [2016] GHASC 41",
+            "publisher": "GhaLII / Supreme Court of Ghana",
+            "language": "en",
+            "publishedAt": "2016-07-13",
+            "claim": "The Supreme Court judgment records the earlier cocaine possession and supply convictions affirmed on 13 February 2013, then allows the appeal and acquits and discharges Ekow Russel on both counts on 13 July 2016."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ghalii.org/akn/gh/judgment/ghasc/2016/41/eng@2016-07-13/source.pdf",
+          "title": "Russel v The Republic [2016] GHASC 41",
+          "publisher": "GhaLII / Supreme Court of Ghana",
+          "language": "en",
+          "publishedAt": "2016-07-13",
+          "claim": "The Supreme Court judgment records the earlier cocaine possession and supply convictions affirmed on 13 February 2013, then allows the appeal and acquits and discharges Ekow Russel on both counts on 13 July 2016."
         }
       ]
     },

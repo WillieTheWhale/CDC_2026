@@ -5,16 +5,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Search, ZoomIn, ZoomOut } from "lucide-react";
 import * as maplibregl from "maplibre-gl";
 import { loadPeople, loadPeopleCountryCounts, loadPersonNetwork } from "@/lib/people-api";
-import type { PeopleCountry, PeopleDataset, Person, PersonEvent, PersonEventType, PersonStatus } from "@/lib/people-types";
+import type { PeopleCountry, PeopleDataset, Person, PersonEvent, PersonEventType } from "@/lib/people-types";
 import { PeopleGraph } from "./people-graph";
+import { PeopleLegalRecord, personDisplayStatus } from "./people-legal";
 import "./people-atlas.css";
-
-const STATUS_LABEL: Record<PersonStatus, string> = {
-  convicted: "Convicted",
-  charged: "Charged",
-  sanctioned: "Sanctioned",
-  reported: "Reported by cited source",
-};
 
 const EVENT_LABEL: Record<PersonEventType, string> = {
   arrest: "Arrest",
@@ -317,9 +311,9 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
         </div>
         {zoom === 3 && trayShown.length > 0 && <section className="people-country-tray" aria-label="People with country-level associations">
           <div className="people-country-tray-heading"><div><h2>{selectedCountryName ?? "People in the visible countries"}</h2><p>Country association only · Portraits are not placed at city or street locations.</p></div><span>{trayShown.length} shown{trayEntries.length > 48 ? ` of ${trayEntries.length} loaded here` : ""}</span></div>
-          <div className="people-country-tray-grid">{trayShown.map(({ person, region }) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => choosePerson(person, region.iso3)} aria-label={`Review ${person.name}, ${STATUS_LABEL[person.status]}, ${person.statusAsOf ? `as of ${person.statusAsOf}` : "status date not provided"}, associated with ${region.label} at country level`}>
+          <div className="people-country-tray-grid">{trayShown.map(({ person, region }) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => choosePerson(person, region.iso3)} aria-label={`Review ${person.name}, ${personDisplayStatus(person).label}, ${personDisplayStatus(person).asOf ? `as of ${personDisplayStatus(person).asOf}` : "status date not provided"}, associated with ${region.label} at country level`}>
             <span className="people-country-tray-avatar">{person.photo ? <img src={person.photo.url} alt="" loading="lazy" /> : person.name.slice(0, 1).toUpperCase()}</span>
-            <span className="people-country-tray-copy"><strong>{person.name}</strong><small>{region.label}</small><span className="people-country-tray-legal"><span className={`people-status status-${person.status}`}>{STATUS_LABEL[person.status]}</span><small>{person.statusAsOf ? `as of ${person.statusAsOf}` : "date unavailable"}</small></span></span>
+            <span className="people-country-tray-copy"><strong>{person.name}</strong><small>{region.label}</small><span className="people-country-tray-legal"><span className={`people-status status-${personDisplayStatus(person).style}`}>{personDisplayStatus(person).label}</span><small>{personDisplayStatus(person).asOf ? `as of ${personDisplayStatus(person).asOf}` : "date unavailable"}</small></span></span>
           </button>)}</div>
           {(trayEntries.length > 48 || nextCursor) && <p className="people-country-tray-overflow">Cards are limited to 48 loaded people plus the selected person. Use the paged records below to reach everyone.</p>}
         </section>}
@@ -329,7 +323,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
             {matching.map((person) => <button key={person.id} className={selectedId === person.id ? "selected" : ""} onClick={() => choosePerson(person)}>
               <span className="people-avatar">{person.name.slice(0, 1).toUpperCase()}</span>
               <span className="people-list-name">{person.name}<small>{person.regions.map((region) => region.label).join(" · ") || "Geography not specified"}</small></span>
-              <span className="people-list-status"><span className={`people-status status-${person.status}`}>{STATUS_LABEL[person.status]}</span>{person.statusAsOf && <small>as of {person.statusAsOf}</small>}</span>
+              <span className="people-list-status"><span className={`people-status status-${personDisplayStatus(person).style}`}>{personDisplayStatus(person).label}</span>{personDisplayStatus(person).asOf && <small>as of {personDisplayStatus(person).asOf}</small>}</span>
             </button>)}
             {nextCursor && <button className="people-load-more" disabled={loadingMore} onClick={() => void loadMore()}>{loadingMore ? "Loading…" : "Load more people"}</button>}
             {matching.length === 0 && <p>{selectedCountry ? `No sourced people match ${selectedCountryName}${searching ? " and this name or alias" : ""}.` : searching ? "No sourced people match this name or alias." : "No sourced people match the current zoom and map area."}</p>}
@@ -342,7 +336,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
             {matching.map((person) => <button key={person.id} className={selectedId === person.id ? "selected" : ""} onClick={() => choosePerson(person)}>
               <span className="people-avatar">{person.name.slice(0, 1).toUpperCase()}</span>
               <span className="people-list-name">{person.name}<small>Country association not established</small></span>
-              <span className="people-list-status"><span className={`people-status status-${person.status}`}>{STATUS_LABEL[person.status]}</span>{person.statusAsOf && <small>as of {person.statusAsOf}</small>}</span>
+              <span className="people-list-status"><span className={`people-status status-${personDisplayStatus(person).style}`}>{personDisplayStatus(person).label}</span>{personDisplayStatus(person).asOf && <small>as of {personDisplayStatus(person).asOf}</small>}</span>
             </button>)}
             {nextCursor && <button className="people-load-more" disabled={loadingMore} onClick={() => void loadMore()}>{loadingMore ? "Loading…" : "Load more records"}</button>}
             {matching.length === 0 && <p>{searching ? "No records without a sourced country match this name or alias." : "No published records without a sourced country were found."}</p>}
@@ -351,10 +345,10 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       </div>
       <aside className="people-detail" aria-label="Selected person details">
         {selected ? <>
-          <div className="people-detail-top"><span>Source record</span><span className={`people-status status-${selected.status}`}>{STATUS_LABEL[selected.status]}</span></div>
+          <div className="people-detail-top"><span>Source record</span><span className={`people-status status-${personDisplayStatus(selected).style}`}>{personDisplayStatus(selected).label}</span></div>
           <h2>{selected.name}</h2>
           {selected.aliases?.length ? <p className="people-aliases">Also reported as {selected.aliases.join(", ")}</p> : null}
-          <p className="people-status-date">{selected.statusAsOf ? `Status as of ${selected.statusAsOf}` : "Status date not provided by source"}</p>
+          <p className="people-status-date">{personDisplayStatus(selected).asOf ? `Status as of ${personDisplayStatus(selected).asOf}` : "Status date not provided by source"}</p>
           {selected.roleLabel && <p>{selected.roleLabel}</p>}
           {!!selected.regions.length && <div className="people-associations">
             <h3>Historical country associations</h3>
@@ -372,6 +366,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       {selected.roleLabel && <p className="people-role-attribution">Role description attributed to the cited sources.</p>}
       {!!selected.organizationIds.length && <div className="people-orgs"><h3>Source-reported organization associations</h3>{selected.organizationIds.map((id) => organizations.get(id)?.name).filter(Boolean).map((name) => <span key={name}>{name}</span>)}</div>}
           {selected.photo && <figure className="people-portrait"><img src={selected.photo.url} alt={`Portrait of ${selected.name}`} loading="lazy" /><figcaption>Photo: {selected.photo.credit} · {selected.photo.licenseUrl ? <a href={selected.photo.licenseUrl} target="_blank" rel="noreferrer">{selected.photo.license}</a> : selected.photo.license} · <a href={selected.photo.sourceUrl} target="_blank" rel="noreferrer">file and attribution record</a></figcaption></figure>}
+          <PeopleLegalRecord person={selected} />
           <PeopleEventTimeline events={selected.events ?? []} />
           <div className="people-sources"><h3>Sources</h3>{selected.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><strong>{source.title}</strong><span>{source.publisher} · {source.language}{source.publishedAt ? ` · ${source.publishedAt}` : ""}</span><small>{source.claim}</small></a>)}</div>
           <p className="people-caution people-detail-caution">A listed connection is a source claim, not proof of guilt.</p>
@@ -380,13 +375,13 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     </div><div className="people-graph-panel" style={{ display: mode === "graph" ? undefined : "none" }}>
       {searching && dataset && <section className="people-graph-results" aria-label="Matching people for Connections view">
         <div className="people-graph-results-heading"><strong>Matching people</strong><span>{matching.length} loaded{total !== null ? ` of ${total} matches` : ""}</span></div>
-        <div className="people-graph-results-list">{matching.slice(0, graphShownCount).map((person) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => { setNetwork(null); setSelectedId(person.id); }}><strong>{person.name}</strong><span>{STATUS_LABEL[person.status]}{person.statusAsOf ? ` · as of ${person.statusAsOf}` : ""}</span></button>)}</div>
+        <div className="people-graph-results-list">{matching.slice(0, graphShownCount).map((person) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => { setNetwork(null); setSelectedId(person.id); }}><strong>{person.name}</strong><span>{personDisplayStatus(person).label}{personDisplayStatus(person).asOf ? ` · as of ${personDisplayStatus(person).asOf}` : ""}</span></button>)}</div>
         {matching.length > graphShownCount && <button className="people-graph-results-more" onClick={() => setGraphShownCount((current) => current + 30)}>Show more loaded matches</button>}
         {nextCursor && <button className="people-graph-results-more" disabled={loadingMore} onClick={() => void loadMore()}>{loadingMore ? "Loading…" : "Load more matching people"}</button>}
         {matching.length === 0 && <p>No sourced people match this name or alias.</p>}
       </section>}
       {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} totalConnections={selectedNetwork ? networkClaimTotal : null} evidenceLoaded={selectedNetwork !== null} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
-      {selected && <><div className="people-graph-status"><span className={`people-status status-${selected.status}`}>{STATUS_LABEL[selected.status]}</span><span>{selected.name}{selected.statusAsOf ? ` · as of ${selected.statusAsOf}` : ""}</span></div><PeopleEventTimeline events={selected.events ?? []} /></>}
+      {selected && <><div className="people-graph-status"><span className={`people-status status-${personDisplayStatus(selected).style}`}>{personDisplayStatus(selected).label}</span><span>{selected.name}{personDisplayStatus(selected).asOf ? ` · as of ${personDisplayStatus(selected).asOf}` : ""}</span></div><PeopleLegalRecord person={selected} /><PeopleEventTimeline events={selected.events ?? []} /></>}
     </div></>
     <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. {unlocated ? "The no-country list includes every prominence tier and has no map position." : `Map circles represent country-level associations; person portraits appear in a non-geographic tray. ${selectedCountry ? "Country lists page through every prominence tier." : searching ? "Name searches cover all published records, regardless of map area or zoom." : "List totals apply to the current zoom and map area; country circles count the zoom tier across the full published dataset."}`}</footer>
   </section>;

@@ -5,6 +5,8 @@ import type {
   PeopleDataset,
   PeopleLoadResult,
   PeopleSource,
+  PersonLegalStatus,
+  PersonLifeStatus,
   PersonEvent,
   Person,
   PersonRegion,
@@ -74,6 +76,37 @@ function validEvent(value: unknown): value is PersonEvent {
     sourceIsCitable(event.source);
 }
 
+function validCalendarDate(value: unknown, partial = false): value is string {
+  if (typeof value !== "string" || !/^\d{4}(-\d{2}(-\d{2})?)?$/.test(value)) return false;
+  if (!partial && value.length !== 10) return false;
+  if (value.length === 4) return true;
+  const month = Number(value.slice(5, 7));
+  if (month < 1 || month > 12) return false;
+  if (value.length === 7) return true;
+  const date = new Date(`${value}T00:00:00Z`);
+  return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
+}
+
+function validLifeStatus(value: unknown): value is PersonLifeStatus {
+  if (!value || typeof value !== "object") return false;
+  const status = value as Partial<PersonLifeStatus>;
+  return (status.value === "deceased" || status.value === "unknown") &&
+    sourceIsCitable(status.source) &&
+    (status.asOf === undefined || validCalendarDate(status.asOf)) &&
+    (status.deathDate === undefined || status.value === "deceased" && validCalendarDate(status.deathDate, true));
+}
+
+const LEGAL_OUTCOMES = new Set(["reported", "arrested", "charged", "convicted", "sentenced", "acquitted", "overturned", "dismissed", "sanctioned", "delisted", "extradited", "released"]);
+function validLegalStatus(value: unknown): value is PersonLegalStatus {
+  if (!value || typeof value !== "object") return false;
+  const claim = value as Partial<PersonLegalStatus>;
+  return LEGAL_OUTCOMES.has(claim.status ?? "") && validCalendarDate(claim.date, true) &&
+    typeof claim.qualifier === "string" && claim.qualifier.trim().length > 0 &&
+    (claim.jurisdiction === undefined || typeof claim.jurisdiction === "string" && claim.jurisdiction.trim().length > 0) &&
+    (claim.offense === undefined || typeof claim.offense === "string" && claim.offense.trim().length > 0) &&
+    (claim.partial === undefined || typeof claim.partial === "boolean") && sourceIsCitable(claim.source);
+}
+
 export function normalizeDataset(input: unknown): PeopleDataset {
   if (!input || typeof input !== "object") {
     return { organizations: [], people: [], connections: [] };
@@ -101,6 +134,9 @@ export function normalizeDataset(input: unknown): PeopleDataset {
       organizationIds: person.organizationIds.filter((id) => organizationIds.has(id)),
       events: Array.isArray(person.events) ? person.events.filter(validEvent)
         .sort((a, b) => b.occurredAt.localeCompare(a.occurredAt)) : [],
+      lifeStatus: validLifeStatus(person.lifeStatus) ? person.lifeStatus : undefined,
+      legalHistory: Array.isArray(person.legalHistory) ? person.legalHistory.filter(validLegalStatus)
+        .sort((a, b) => b.date.localeCompare(a.date)) : [],
       photo: person.photo && validHttpUrl(person.photo.url) &&
         validHttpUrl(person.photo.sourceUrl) &&
         (!person.photo.licenseUrl || validHttpUrl(person.photo.licenseUrl)) &&
@@ -143,12 +179,6 @@ async function fetchPeople(path: string): Promise<{ dataset: PeopleDataset; tota
 }
 
 export async function loadPeople(options: PeopleQuery = {}): Promise<PeopleLoadResult> {
-  if (options.unlocated && apiBase) {
-    return {
-      status: "unavailable",
-      reason: "Records without a sourced country are unavailable from the live People API until it supports the unlocated filter.",
-    };
-  }
   try {
     const query = new URLSearchParams({ limit: String(options.limit ?? 100), zoom: String(options.zoom ?? 1) });
     if (options.search?.trim()) query.set("search", options.search.trim());

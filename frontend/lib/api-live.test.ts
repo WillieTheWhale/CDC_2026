@@ -47,3 +47,18 @@ test("live failures remain errors and scenario requests preserve their body", ()
     await assert.rejects(api.simulate({scenario:'Mexico legalizes cannabis',year:2025}), /Model not ready/);
   `);
 });
+
+test("live People unlocated filter is sent to the API and preserves pagination", () => {
+  runAdapter(`
+    import assert from 'node:assert/strict';
+    const {loadPeople} = await import('./lib/people-api.ts');
+    globalThis.fetch = async (url) => {
+      assert.equal(url, 'http://127.0.0.1:9876/api/people?limit=20&zoom=1&unlocated=1&cursor=next-page');
+      return new Response(JSON.stringify({meta:{total:1,next_cursor:null},data:{organizations:[],connections:[],people:[]}}));
+    };
+    const response = await loadPeople({unlocated:true,limit:20,zoom:1,cursor:'next-page'});
+    assert.equal(response.status, 'ready');
+    assert.equal(response.source, 'api');
+    assert.equal(response.total, 1);
+  `);
+});
