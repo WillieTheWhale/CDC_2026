@@ -1,7 +1,7 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1560,
+    "people": 1660,
     "associations": 1329,
     "evidenced": 1329,
     "missing": 0,
@@ -325,6 +325,13 @@
     },
     "ofac_first50_sanctions_only.json": {
       "people": 20,
+      "associations": 0,
+      "evidenced": 0,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ofac_fourth100_historical_sanctions_only.json": {
+      "people": 100,
       "associations": 0,
       "evidenced": 0,
       "missing": 0,
