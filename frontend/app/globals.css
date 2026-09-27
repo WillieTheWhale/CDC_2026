@@ -4203,3 +4203,19 @@ select {
     transition: none;
   }
 }
+
+/* Phones: keep the map status chip clear of the Baseline/Forecast and layer controls, and let the controls wrap
+   instead of running off-screen. (Added with Claude Code (Anthropic). See docs/AI_USAGE.md.) */
+@media (max-width: 520px) {
+  .atlas-controls {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    row-gap: 6px;
+  }
+  .map-route-scale {
+    top: 58px;
+    left: 12px;
+    max-width: calc(100% - 24px);
+    font-size: 11px;
+  }
+}
