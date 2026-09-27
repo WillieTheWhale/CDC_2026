@@ -336,7 +336,7 @@ export const drugColor: Record<string, string> = {
   cocaine: "#ed482d",
   heroin: "#8047c9",
   meth: "#2864cf",
-  cannabis: "#18775c",
+  cannabis: "#0c5a43",
 };
 export const drugLabel: Record<string, string> = {
   cocaine: "Cocaine",

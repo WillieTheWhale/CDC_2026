@@ -44,6 +44,7 @@ import {
 } from "@/lib/api";
 import { parseCommand } from "@/lib/commands";
 import type { EstimatedLayer } from "@/lib/estimated-flows";
+import { loadUsRoutes, type UsRoute } from "@/lib/us-routes";
 import type {
   CommandAction,
   Country,
@@ -130,6 +131,8 @@ export default function Dashboard() {
     [showEstimated, setShowEstimated] = useState(true),
     [colorBy, setColorBy] = useState<"volume" | "exposure">("volume"),
     [estimated, setEstimated] = useState<EstimatedLayer | null>(null),
+    [usRoutes, setUsRoutes] = useState<UsRoute[]>([]),
+    [showUsRoutes, setShowUsRoutes] = useState(true),
     [layersOpen, setLayersOpen] = useState(false),
     [minConfidence, setMinConfidence] = useState(0),
     [resetKey, setResetKey] = useState(0),
@@ -329,6 +332,9 @@ export default function Dashboard() {
       active = false;
     };
   }, [year, mode]);
+  useEffect(() => {
+    void loadUsRoutes().then(setUsRoutes);
+  }, []);
   // Warm every year in the background (about 3 MB in snapshot mode) so the
   // timeline and playback never wait on the network. Added with Claude Code.
   useEffect(() => {
@@ -741,6 +747,16 @@ export default function Dashboard() {
                               />
                               Estimated local flows (not observed)
                             </label>
+                            {usRoutes.length > 0 && (
+                              <label>
+                                <input
+                                  type="checkbox"
+                                  checked={showUsRoutes}
+                                  onChange={(e) => setShowUsRoutes(e.target.checked)}
+                                />
+                                US documented routes (cited, {usRoutes.length})
+                              </label>
+                            )}
                             <label>
                               Country color
                               <select
@@ -805,6 +821,8 @@ export default function Dashboard() {
                     showRoutes={showRoutes}
                     showEvidence={showEvidence}
                     estimated={estimated}
+                    usRoutes={usRoutes}
+                    showUsRoutes={showUsRoutes}
                     showEstimated={showEstimated}
                     colorBy={colorBy}
                     drug={drug}

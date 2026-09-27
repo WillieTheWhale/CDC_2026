@@ -1,6 +1,6 @@
 // AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
-// Estimated-flow wind layer, city intensity, volume coloring and API-backed
-// route evidence (three pair types) added with Claude Code (Anthropic).
+// Estimated-flow arrow layer, volume coloring, API-backed route evidence (three
+// pair types) and cited US routes added with Claude Code (Anthropic).
 // AI-assisted: country anchor fix written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -23,13 +23,13 @@ import {
 } from "@/lib/route-evidence";
 import { useRouteEvidence } from "@/lib/route-evidence-store";
 import type { Drug } from "@/lib/types";
+import { basisLabel, fentanylColor, filterUsRoutes, type UsRoute } from "@/lib/us-routes";
 import {
   fieldArrows,
   placeArrows,
   spacingKm,
   volumeBands,
   windGlyphs,
-  type EstimatedCity,
   type EstimatedLayer,
   type FieldArrow,
   type PlacedArrow,
@@ -46,6 +46,8 @@ interface Props {
   drug: Drug | "all";
   exposureLabel: string;
   estimated?: EstimatedLayer | null;
+  usRoutes?: UsRoute[];
+  showUsRoutes?: boolean;
   showEstimated?: boolean;
   colorBy?: "volume" | "exposure";
   onCountry: (iso: string) => void;
@@ -144,6 +146,8 @@ export default function AtlasMap(props: Props) {
     y: number;
   } | null>(null);
   const [reportDetail, setReportDetail] = useState<DrawableEvidence | null>(null);
+  const [usHover, setUsHover] = useState<{ route: UsRoute; x: number; y: number } | null>(null);
+  const [usDetail, setUsDetail] = useState<UsRoute | null>(null);
   const [windHover, setWindHover] = useState<{
     glyph: PlacedArrow;
     x: number;
@@ -463,18 +467,6 @@ export default function AtlasMap(props: Props) {
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [estimatedFlows, props.showEstimated, glyphZoom, viewKey]);
-  const estimatedCities = useMemo(() => {
-    if (!props.showEstimated || !props.estimated) return [];
-    const drugs = new Set(estimatedFlows.map((f) => `${f.from.iso3}:${f.from.name}`)
-      .concat(estimatedFlows.map((f) => `${f.to.iso3}:${f.to.name}`)));
-    // At world scale only the busiest cities keep a dot, to avoid clutter.
-    const floor = glyphZoom < 3 ? 0.15 : 0;
-    return props.estimated.cities.filter(
-      (c) =>
-        c.intensity >= floor &&
-        (props.drug === "all" || drugs.has(`${c.iso3}:${c.name}`)),
-    );
-  }, [props.estimated, props.showEstimated, props.drug, estimatedFlows, glyphZoom]);
   const windOpacity = 1;
   useEffect(() => {
     if (!ready || !overlay.current) return;
@@ -514,17 +506,6 @@ export default function AtlasMap(props: Props) {
       });
     overlay.current.setProps({
       layers: [
-        new ScatterplotLayer<EstimatedCity>({
-          id: "estimated-cities",
-          data: estimatedCities,
-          opacity: windOpacity,
-          getPosition: (c) => [c.lon, c.lat],
-          getRadius: (c) => 1.5 + c.intensity * 7,
-          radiusUnits: "pixels",
-          getFillColor: (c) => [28, 38, 64, Math.round(25 + c.intensity * 200)],
-          stroked: false,
-          pickable: false,
-        }),
         new SolidPolygonLayer<PlacedArrow>({
           id: "estimated-wind",
           data: glyphs,
@@ -539,6 +520,30 @@ export default function AtlasMap(props: Props) {
               info.object ? { glyph: info.object, x: info.x, y: info.y } : null,
             ),
 
+        }),
+        new ArcLayer<UsRoute>({
+          id: "us-documented-routes",
+          data: props.showUsRoutes ? filterUsRoutes(props.usRoutes ?? [], props.drug) : [],
+          getSourcePosition: (r) => [r.from.lon, r.from.lat],
+          getTargetPosition: (r) => [r.to.lon, r.to.lat],
+          getSourceColor: (r) =>
+            rgba(r.drug === "fentanyl" ? fentanylColor : drugColor[r.drug], 150),
+          getTargetColor: (r) =>
+            rgba(r.drug === "fentanyl" ? fentanylColor : drugColor[r.drug], 230),
+          getWidth: (r) => (r.precision === "city" ? 1.6 : 1.1),
+          getHeight: 0.3,
+          greatCircle: true,
+          pickable: true,
+          autoHighlight: true,
+          highlightColor: [15, 30, 55, 255],
+          onHover: (info: PickingInfo<UsRoute>) =>
+            setUsHover(info.object ? { route: info.object, x: info.x, y: info.y } : null),
+          onClick: (info: PickingInfo<UsRoute>) => {
+            if (!info.object) return false;
+            setUsDetail(info.object);
+            setUsHover(null);
+            return true;
+          },
         }),
         new ArcLayer<Edge>({
           id: "route-arcs",
@@ -627,8 +632,10 @@ export default function AtlasMap(props: Props) {
     localScale,
     glyphs,
     glyphZoom,
-    estimatedCities,
     windOpacity,
+    props.usRoutes,
+    props.showUsRoutes,
+    props.drug,
   ]);
   useEffect(() => {
     const m = map.current;
@@ -862,6 +869,40 @@ export default function AtlasMap(props: Props) {
             <small key={`${f.drug}${f.from.name}${f.to.name}`}>{f.from.name} → {f.to.name} ({f.km} km)</small>
           ))}
         </div>
+      )}
+      {usHover && !hover && (
+        <div
+          className="route-tooltip"
+          style={{
+            left: Math.max(12, Math.min(usHover.x + 16, (host.current?.clientWidth ?? 800) - 260)),
+            top: usHover.y < 190 ? usHover.y + 18 : usHover.y - 150,
+          }}
+        >
+          <strong>
+            {usHover.route.from.name} → {usHover.route.to.name}
+          </strong>
+          <div>
+            {usHover.route.drug} · documented route · {usHover.route.precision === "city" ? "city level" : "state level"}
+          </div>
+          <p>“{usHover.route.source.quote.length > 160 ? `${usHover.route.source.quote.slice(0, 157)}…` : usHover.route.source.quote}”</p>
+          <small>
+            {basisLabel[usHover.route.basis]} · {usHover.route.source.publisher} ({usHover.route.source.year}) · click for source
+          </small>
+        </div>
+      )}
+      {usDetail && (
+        <section className="map-report-detail" aria-label="Documented US route source">
+          <button type="button" aria-label="Close route source" onClick={() => setUsDetail(null)}>×</button>
+          <b>{usDetail.from.name} → {usDetail.to.name}</b>
+          <span>
+            {usDetail.drug} · {basisLabel[usDetail.basis]}
+            {usDetail.period ? ` · ${usDetail.period[0]}${usDetail.period[1] !== usDetail.period[0] ? `–${usDetail.period[1]}` : ""}` : ""}
+          </span>
+          <p>“{usDetail.source.quote}” {usDetail.precision === "city" ? "" : "Placed at state level, as the source names states."}</p>
+          <a href={usDetail.source.url} target="_blank" rel="noreferrer">
+            {usDetail.source.publisher}, {usDetail.source.title} ({usDetail.source.year}) · {usDetail.source.locator} ↗
+          </a>
+        </section>
       )}
       {reportHover && (
         <div className="route-tooltip" style={{

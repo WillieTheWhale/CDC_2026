@@ -13,6 +13,13 @@
       "runtimeArgs": ["/c", "set NEXT_PUBLIC_API_URL=http://127.0.0.1:8000&& cd frontend && npm run dev"],
       "port": 3000,
       "url": "http://127.0.0.1:3000"
+    },
+    {
+      "name": "trace-frontend-live-api",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "set NEXT_PUBLIC_API_URL=https://trace-api-six.vercel.app&& cd frontend && npm run dev"],
+      "port": 3000,
+      "url": "http://127.0.0.1:3000"
     }
   ]
 }
