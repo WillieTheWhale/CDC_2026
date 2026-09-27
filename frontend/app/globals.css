@@ -3920,3 +3920,7 @@ select {
   line-height: 1.3;
   color: #5b6b82;
 }
+/* Keep the legend above the deck.gl arrow canvas. */
+.map-legend {
+  z-index: 3;
+}

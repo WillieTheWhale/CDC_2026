@@ -152,12 +152,13 @@ export function volumeBands(edges: Edge[]): Map<string, number> {
   return bands;
 }
 
+// Broad, soft-shouldered arrow (wide head, wide shaft) for a light wind-map look.
 export const ARROW_ICON = {
   url:
     "data:image/svg+xml;charset=utf-8," +
     encodeURIComponent(
       '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">' +
-        '<path d="M32 4 L58 40 L41 40 L41 60 L23 60 L23 40 L6 40 Z" fill="#fff"/></svg>',
+        '<path d="M32 3 L63 33 L45 33 L45 61 L19 61 L19 33 L1 33 Z" fill="#fff" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg>',
     ),
   width: 64,
   height: 64,
@@ -214,5 +215,5 @@ export function fieldArrows(glyphs: WindGlyph[], cellDeg: number): FieldArrow[] 
   const peak = Math.max(1e-9, ...raw.map((a) => a.magnitude));
   return raw
     .map((a) => ({ ...a, magnitude: Math.sqrt(a.magnitude / peak) }))
-    .filter((a) => a.magnitude > 0.04);
+    .filter((a) => a.magnitude > 0.12);
 }

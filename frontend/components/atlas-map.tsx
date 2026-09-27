@@ -437,7 +437,8 @@ export default function AtlasMap(props: Props) {
     // Sample densely along each path, then average into one arrow per cell.
     return fieldArrows(
       windGlyphs(flows, glyphZoom + 1),
-      spacingKm(glyphZoom) / 111,
+      // Coarse cells: fewer, larger arrows.
+      (spacingKm(glyphZoom) * 2.6) / 111,
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [estimatedFlows, props.showEstimated, glyphZoom, position.lng, position.lat]);
@@ -480,10 +481,11 @@ export default function AtlasMap(props: Props) {
           getIcon: () => ARROW_ICON,
           getPosition: (g) => g.position,
           getAngle: (g) => -g.bearing,
-          getSize: (g) => 8 + g.magnitude * 18,
+          getSize: (g) => 26 + g.magnitude * 34,
           sizeUnits: "pixels",
           getColor: (g) =>
-            rgba(drugColor[g.drug], Math.round(55 + g.magnitude * 130)),
+            // Almost transparent, tinted by drug.
+            rgba(drugColor[g.drug], Math.round(30 + g.magnitude * 45)),
           billboard: false,
           pickable: true,
           onHover: (info: PickingInfo<FieldArrow>) =>
