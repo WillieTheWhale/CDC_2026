@@ -1,5 +1,5 @@
 {
-  "_about": "AI-assisted: reviewed and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Fifty-one individually gated sanctions-only people from the seventh 150 newest distinct previously unreviewed OFAC candidate UIDs. Current CSV/XML identity and exact program, original action, annual archive and named Treasury release agree. No criminal finding, group membership, specific drug, country, direct relationship, graph edge or portrait inferred. Original addition and 2026-09-23 status are separate claims.",
+  "_about": "AI-assisted: reviewed and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Fifty-one individually gated sanctions-only people from the seventh 150 newest distinct previously unreviewed OFAC candidate UIDs. Current CSV/XML identity and exact program, original action, annual archive and named Treasury release agree. No criminal finding, group membership, specific drug, country, direct relationship, graph edge or portrait inferred. Original addition and 2026-09-23 status are separate claims. Treasury press-release enrichment on 2026-09-27 adds explicit relationship context and select person-specific historical Mexico evidence to previously sanctions-only rows. Administrative status is unchanged; case allegations are not criminal findings.",
   "organizations": [],
   "people": [
     {
@@ -46,11 +46,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/tg1719",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2012-09-25",
-          "claim": "Treasury’s contemporaneous release names Rigoberto Dias Paniagua. This source confirms the named person but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury names Rigoberto Días Paniagua as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location."
         }
       ],
       "events": [
@@ -67,6 +67,21 @@
             "language": "en",
             "publishedAt": "2012-09-25",
             "claim": "OFAC’s dated action names Rigoberto Dias Paniagua under its added-individual heading with SDNTK; a public distinguishing identity detail matches current entry 15021. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-15021-2012-09-25-treasury-context",
+          "occurredAt": "2012-09-25",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury names Rigoberto Días Paniagua as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/tg1719",
+            "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2012-09-25",
+            "claim": "Treasury names Rigoberto Días Paniagua as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location."
           }
         }
       ]
@@ -115,11 +130,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/tg1719",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2012-09-25",
-          "claim": "Treasury’s contemporaneous release names Oscar Dominguez Villa Diaz. This source confirms the named person but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury names Óscar Domínguez Villa Díaz as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location."
         }
       ],
       "events": [
@@ -136,6 +151,21 @@
             "language": "en",
             "publishedAt": "2012-09-25",
             "claim": "OFAC’s dated action names Oscar Dominguez Villa Diaz under its added-individual heading with SDNTK; a public distinguishing identity detail matches current entry 15020. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-15020-2012-09-25-treasury-context",
+          "occurredAt": "2012-09-25",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury names Óscar Domínguez Villa Díaz as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/tg1719",
+            "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2012-09-25",
+            "claim": "Treasury names Óscar Domínguez Villa Díaz as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location."
           }
         }
       ]
@@ -184,11 +214,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/tg1719",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2012-09-25",
-          "claim": "Treasury’s contemporaneous release names Jorge Guillermo Gonzalez Cardenas. This source confirms the named person but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury names Jorge Guillermo González Cárdenas as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location."
         }
       ],
       "events": [
@@ -206,6 +236,21 @@
             "publishedAt": "2012-09-25",
             "claim": "OFAC’s dated action names Jorge Guillermo Gonzalez Cardenas under its added-individual heading with SDNTK; a public distinguishing identity detail matches current entry 15018. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-15018-2012-09-25-treasury-context",
+          "occurredAt": "2012-09-25",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury names Jorge Guillermo González Cárdenas as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/tg1719",
+            "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2012-09-25",
+            "claim": "Treasury names Jorge Guillermo González Cárdenas as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location."
+          }
         }
       ]
     },
@@ -217,7 +262,17 @@
       "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury says Víctor Manuel Félix Félix headed a narcotics distribution and money-laundering organization based in Mexico; it identifies him as Jesús Alfredo Guzmán Salazar’s father-in-law and names four collaborators. This remains an OFAC allegation, not a conviction. This is a historical country association, not a current-position claim.",
+            "period": "by 2012-09-25",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/tg1719"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -253,11 +308,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/tg1719",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2012-09-25",
-          "claim": "Treasury’s contemporaneous release names Victor Manuel Felix Felix. This source confirms the named person but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury says Víctor Manuel Félix Félix headed a narcotics distribution and money-laundering organization based in Mexico; it identifies him as Jesús Alfredo Guzmán Salazar’s father-in-law and names four collaborators. This remains an OFAC allegation, not a conviction."
         }
       ],
       "events": [
@@ -274,6 +329,21 @@
             "language": "en",
             "publishedAt": "2012-09-25",
             "claim": "OFAC’s dated action names Victor Manuel Felix Felix under its added-individual heading with SDNTK; a public distinguishing identity detail matches current entry 15016. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-15016-2012-09-25-treasury-context",
+          "occurredAt": "2012-09-25",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury says Víctor Manuel Félix Félix headed a narcotics distribution and money-laundering organization based in Mexico; it identifies him as Jesús Alfredo Guzmán Salazar’s father-in-law and names four collaborators. This remains an OFAC allegation, not a conviction.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/tg1719",
+            "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2012-09-25",
+            "claim": "Treasury says Víctor Manuel Félix Félix headed a narcotics distribution and money-laundering organization based in Mexico; it identifies him as Jesús Alfredo Guzmán Salazar’s father-in-law and names four collaborators. This remains an OFAC allegation, not a conviction."
           }
         }
       ]
@@ -976,7 +1046,17 @@
       "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury says Martin Guadencio Avendano Ojeda controlled a narcotics distribution and money-laundering network based in Mexico; his brothers assisted him. Treasury identified Ismael Zambada García as a supplier. This is a historical country association, not a current-position claim.",
+            "period": "by 2011-10-27",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/tg1341"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1012,11 +1092,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/tg1341",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Treasury Targets Sinaloa Cartel Narcotics Distribution Network Under The Kingpin Act",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2011-10-27",
-          "claim": "Treasury’s contemporaneous release names Martin Guadencio Avendano Ojeda. This source confirms the named person but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury says Martin Guadencio Avendano Ojeda controlled a narcotics distribution and money-laundering network based in Mexico; his brothers assisted him. Treasury identified Ismael Zambada García as a supplier."
         }
       ],
       "events": [
@@ -1033,6 +1113,21 @@
             "language": "en",
             "publishedAt": "2011-10-27",
             "claim": "OFAC’s dated action names Martin Guadencio Avendano Ojeda under its added-individual heading with SDNTK; a public distinguishing identity detail matches current entry 12529. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-12529-2011-10-27-treasury-context",
+          "occurredAt": "2011-10-27",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury says Martin Guadencio Avendano Ojeda controlled a narcotics distribution and money-laundering network based in Mexico; his brothers assisted him. Treasury identified Ismael Zambada García as a supplier.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/tg1341",
+            "title": "Treasury Targets Sinaloa Cartel Narcotics Distribution Network Under The Kingpin Act",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2011-10-27",
+            "claim": "Treasury says Martin Guadencio Avendano Ojeda controlled a narcotics distribution and money-laundering network based in Mexico; his brothers assisted him. Treasury identified Ismael Zambada García as a supplier."
           }
         }
       ]
@@ -1081,11 +1176,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/tg1341",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Treasury Targets Sinaloa Cartel Narcotics Distribution Network Under The Kingpin Act",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2011-10-27",
-          "claim": "Treasury’s contemporaneous release names Hector Manuel Avendano Ojeda. This source confirms the named person but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury expressly identifies Héctor Manuel Avendano Ojeda as Martin’s brother and says he assisted Martin’s network; it does not state Héctor’s own historical location."
         }
       ],
       "events": [
@@ -1102,6 +1197,21 @@
             "language": "en",
             "publishedAt": "2011-10-27",
             "claim": "OFAC’s dated action names Hector Manuel Avendano Ojeda under its added-individual heading with SDNTK; a public distinguishing identity detail matches current entry 12528. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-12528-2011-10-27-treasury-context",
+          "occurredAt": "2011-10-27",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury expressly identifies Héctor Manuel Avendano Ojeda as Martin’s brother and says he assisted Martin’s network; it does not state Héctor’s own historical location.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/tg1341",
+            "title": "Treasury Targets Sinaloa Cartel Narcotics Distribution Network Under The Kingpin Act",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2011-10-27",
+            "claim": "Treasury expressly identifies Héctor Manuel Avendano Ojeda as Martin’s brother and says he assisted Martin’s network; it does not state Héctor’s own historical location."
           }
         }
       ]
@@ -1150,11 +1260,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/tg1341",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Treasury Targets Sinaloa Cartel Narcotics Distribution Network Under The Kingpin Act",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2011-10-27",
-          "claim": "Treasury’s contemporaneous release names Sergio Avendano Ojeda. This source confirms the named person but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury expressly identifies Sergio Avendano Ojeda as Martin’s brother and says he assisted Martin’s network; it does not state Sergio’s own historical location."
         }
       ],
       "events": [
@@ -1171,6 +1281,21 @@
             "language": "en",
             "publishedAt": "2011-10-27",
             "claim": "OFAC’s dated action names Sergio Avendano Ojeda under its added-individual heading with SDNTK; a public distinguishing identity detail matches current entry 12527. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-12527-2011-10-27-treasury-context",
+          "occurredAt": "2011-10-27",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury expressly identifies Sergio Avendano Ojeda as Martin’s brother and says he assisted Martin’s network; it does not state Sergio’s own historical location.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/tg1341",
+            "title": "Treasury Targets Sinaloa Cartel Narcotics Distribution Network Under The Kingpin Act",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2011-10-27",
+            "claim": "Treasury expressly identifies Sergio Avendano Ojeda as Martin’s brother and says he assisted Martin’s network; it does not state Sergio’s own historical location."
           }
         }
       ]

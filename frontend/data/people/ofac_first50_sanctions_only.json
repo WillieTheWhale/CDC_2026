@@ -1,5 +1,5 @@
 {
-  "_about": "AI-assisted: reviewed and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. First manually gated 20-person sample from a 50-row OFAC narcotics-program candidate audit. Each entry has current UID/name/tag and original action identity/date corroboration, a contemporaneous person-naming Treasury release, and no inferred criminal guilt, drug, membership, country association, relationship, or portrait. Status is current-list membership as of 2026-09-23; original listing is a separate event.",
+  "_about": "AI-assisted: reviewed and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. First manually gated 20-person sample from a 50-row OFAC narcotics-program candidate audit. Each entry has current UID/name/tag and original action identity/date corroboration, a contemporaneous person-naming Treasury release, and no inferred criminal guilt, drug, membership, country association, relationship, or portrait. Status is current-list membership as of 2026-09-23; original listing is a separate event. Treasury press-release enrichment on 2026-09-27 adds explicit relationship context and select person-specific historical Mexico evidence to previously sanctions-only rows. Administrative status is unchanged; case allegations are not criminal findings.",
   "organizations": [],
   "people": [
     {
@@ -498,7 +498,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Jesús Norberto Larrañaga Herrera as operating from Mexico in the reported scheme; he works for his father-in-law Víctor Lizárraga Martínez and alongside the Vergara brothers. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -530,7 +540,7 @@
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury names Jesus Norberto Larranaga Herrera in its contemporaneous action narrative. The profile records the sanctions action only and does not infer conviction, organization membership, specific drug activity, or operating country."
+          "claim": "Treasury identifies Jesús Norberto Larrañaga Herrera as operating from Mexico in the reported scheme; he works for his father-in-law Víctor Lizárraga Martínez and alongside the Vergara brothers."
         }
       ],
       "events": [
@@ -547,6 +557,21 @@
             "language": "en",
             "publishedAt": "2024-03-22",
             "claim": "OFAC added Jesus Norberto Larranaga Herrera on 2024-03-22 under ILLICIT-DRUGS-EO14059; the original action and current entry have matching name and date of birth. A designation is not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-48085-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Jesús Norberto Larrañaga Herrera as operating from Mexico in the reported scheme; he works for his father-in-law Víctor Lizárraga Martínez and alongside the Vergara brothers.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Jesús Norberto Larrañaga Herrera as operating from Mexico in the reported scheme; he works for his father-in-law Víctor Lizárraga Martínez and alongside the Vergara brothers."
           }
         }
       ]

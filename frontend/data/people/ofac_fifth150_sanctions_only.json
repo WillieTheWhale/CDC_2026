@@ -1,5 +1,5 @@
 {
-  "_about": "AI-assisted: reviewed and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Individually gated sanctions-only people from 150 newest distinct unpublished OFAC candidate UIDs. Current CSV/XML identity and program, original action, annual archive and named Treasury release agree. No criminal finding, group membership, specific drug, country, direct relationship, graph edge or portrait inferred. Original addition and 2026-09-23 status are separate claims.",
+  "_about": "AI-assisted: reviewed and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Individually gated sanctions-only people from 150 newest distinct unpublished OFAC candidate UIDs. Current CSV/XML identity and program, original action, annual archive and named Treasury release agree. No criminal finding, group membership, specific drug, country, direct relationship, graph edge or portrait inferred. Original addition and 2026-09-23 status are separate claims. Treasury press-release enrichment on 2026-09-27 adds explicit relationship context and select person-specific historical Mexico evidence to previously sanctions-only rows. Administrative status is unchanged; case allegations are not criminal findings.",
   "organizations": [],
   "people": [
     {
@@ -598,11 +598,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Karla Gabriela LIZARRAGA SANCHEZ. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Karla Gabriela Lizárraga Sánchez as Jesús Larrañaga’s spouse and Víctor Lizárraga’s daughter; it alleges drug trafficking and cash smuggling but does not state her personal historical Mexico location."
         }
       ],
       "events": [
@@ -620,6 +620,21 @@
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Karla Gabriela LIZARRAGA SANCHEZ as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48091. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-48091-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Karla Gabriela Lizárraga Sánchez as Jesús Larrañaga’s spouse and Víctor Lizárraga’s daughter; it alleges drug trafficking and cash smuggling but does not state her personal historical Mexico location.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Karla Gabriela Lizárraga Sánchez as Jesús Larrañaga’s spouse and Víctor Lizárraga’s daughter; it alleges drug trafficking and cash smuggling but does not state her personal historical Mexico location."
+          }
         }
       ]
     },
@@ -631,7 +646,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Mayra Gisel González Cordero as Jorge García’s spouse and says she assisted the Mexico-based Celulandia scheme. This is historical business conduct reported in 2024. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -667,11 +692,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Mayra Gisel GONZALEZ CORDERO. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Mayra Gisel González Cordero as Jorge García’s spouse and says she assisted the Mexico-based Celulandia scheme. This is historical business conduct reported in 2024."
         }
       ],
       "events": [
@@ -689,6 +714,21 @@
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Mayra Gisel GONZALEZ CORDERO as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48090. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-48090-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Mayra Gisel González Cordero as Jorge García’s spouse and says she assisted the Mexico-based Celulandia scheme. This is historical business conduct reported in 2024.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Mayra Gisel González Cordero as Jorge García’s spouse and says she assisted the Mexico-based Celulandia scheme. This is historical business conduct reported in 2024."
+          }
         }
       ]
     },
@@ -700,7 +740,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Jorge Alejandro García Velazco as a Mexico-based operator of a money-laundering scheme and calls him an associate of both Marin brothers; Mayra González is his spouse and assisted his scheme. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -736,11 +786,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Jorge Alejandro GARCIA VELAZCO. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Jorge Alejandro García Velazco as a Mexico-based operator of a money-laundering scheme and calls him an associate of both Marin brothers; Mayra González is his spouse and assisted his scheme."
         }
       ],
       "events": [
@@ -757,6 +807,21 @@
             "language": "en",
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Jorge Alejandro GARCIA VELAZCO as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48088. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-48088-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Jorge Alejandro García Velazco as a Mexico-based operator of a money-laundering scheme and calls him an associate of both Marin brothers; Mayra González is his spouse and assisted his scheme.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Jorge Alejandro García Velazco as a Mexico-based operator of a money-laundering scheme and calls him an associate of both Marin brothers; Mayra González is his spouse and assisted his scheme."
           }
         }
       ]
@@ -805,11 +870,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Rolando VERDUZCO CASTRO. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Rolando Verduzco Castro as a fentanyl and other-drug supplier who used the Marin brothers’ scheme; the release does not locate his personal Mexico conduct."
         }
       ],
       "events": [
@@ -826,6 +891,21 @@
             "language": "en",
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Rolando VERDUZCO CASTRO as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48087. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-48087-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Rolando Verduzco Castro as a fentanyl and other-drug supplier who used the Marin brothers’ scheme; the release does not locate his personal Mexico conduct.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Rolando Verduzco Castro as a fentanyl and other-drug supplier who used the Marin brothers’ scheme; the release does not locate his personal Mexico conduct."
           }
         }
       ]
@@ -874,11 +954,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Victor LIZARRAGA MARTINEZ. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Víctor Lizárraga Martínez as Jesús Larrañaga’s father-in-law and supervisor and Karla Lizárraga’s father. It does not state his personal historical Mexico location."
         }
       ],
       "events": [
@@ -896,6 +976,21 @@
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Victor LIZARRAGA MARTINEZ as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48083. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-48083-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Víctor Lizárraga Martínez as Jesús Larrañaga’s father-in-law and supervisor and Karla Lizárraga’s father. It does not state his personal historical Mexico location.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Víctor Lizárraga Martínez as Jesús Larrañaga’s father-in-law and supervisor and Karla Lizárraga’s father. It does not state his personal historical Mexico location."
+          }
         }
       ]
     },
@@ -907,7 +1002,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Jesús Manuel León Valdez as operating drug laboratories in Mexico as of its 2024 report and as having previously been an enforcer for Joaquín Guzmán Loera. No present location is asserted. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -943,11 +1048,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Jesus Manuel LEON VALDEZ. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Jesús Manuel León Valdez as operating drug laboratories in Mexico as of its 2024 report and as having previously been an enforcer for Joaquín Guzmán Loera. No present location is asserted."
         }
       ],
       "events": [
@@ -965,6 +1070,21 @@
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Jesus Manuel LEON VALDEZ as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48081. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-48081-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Jesús Manuel León Valdez as operating drug laboratories in Mexico as of its 2024 report and as having previously been an enforcer for Joaquín Guzmán Loera. No present location is asserted.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Jesús Manuel León Valdez as operating drug laboratories in Mexico as of its 2024 report and as having previously been an enforcer for Joaquín Guzmán Loera. No present location is asserted."
+          }
         }
       ]
     },
@@ -976,7 +1096,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury places Alexis Vergara Meza’s reported fentanyl supplier activity in Mexico and says he worked alongside Jesús Larrañaga and was Edy Vergara’s brother. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1012,11 +1142,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Alexis VERGARA MEZA. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury places Alexis Vergara Meza’s reported fentanyl supplier activity in Mexico and says he worked alongside Jesús Larrañaga and was Edy Vergara’s brother."
         }
       ],
       "events": [
@@ -1034,6 +1164,21 @@
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Alexis VERGARA MEZA as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48079. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-48079-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury places Alexis Vergara Meza’s reported fentanyl supplier activity in Mexico and says he worked alongside Jesús Larrañaga and was Edy Vergara’s brother.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury places Alexis Vergara Meza’s reported fentanyl supplier activity in Mexico and says he worked alongside Jesús Larrañaga and was Edy Vergara’s brother."
+          }
         }
       ]
     },
@@ -1045,7 +1190,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury places Edy Vergara Meza’s reported fentanyl supplier activity in Mexico and says he worked alongside Jesús Larrañaga and was Alexis Vergara’s brother. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1081,11 +1236,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Edy VERGARA MEZA. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury places Edy Vergara Meza’s reported fentanyl supplier activity in Mexico and says he worked alongside Jesús Larrañaga and was Alexis Vergara’s brother."
         }
       ],
       "events": [
@@ -1103,6 +1258,21 @@
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Edy VERGARA MEZA as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48077. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-48077-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury places Edy Vergara Meza’s reported fentanyl supplier activity in Mexico and says he worked alongside Jesús Larrañaga and was Alexis Vergara’s brother.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury places Edy Vergara Meza’s reported fentanyl supplier activity in Mexico and says he worked alongside Jesús Larrañaga and was Alexis Vergara’s brother."
+          }
         }
       ]
     },
@@ -1114,7 +1284,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Ivan Yareth Robledo Arredondo as Adilene’s brother and says the two established four Mexico-based businesses using illicit proceeds. This is historical 2024 reported conduct. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1150,11 +1330,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Ivan Yareth ROBLEDO ARREDONDO. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Ivan Yareth Robledo Arredondo as Adilene’s brother and says the two established four Mexico-based businesses using illicit proceeds. This is historical 2024 reported conduct."
         }
       ],
       "events": [
@@ -1172,6 +1352,21 @@
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Ivan Yareth ROBLEDO ARREDONDO as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48075. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-48075-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Ivan Yareth Robledo Arredondo as Adilene’s brother and says the two established four Mexico-based businesses using illicit proceeds. This is historical 2024 reported conduct.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Ivan Yareth Robledo Arredondo as Adilene’s brother and says the two established four Mexico-based businesses using illicit proceeds. This is historical 2024 reported conduct."
+          }
         }
       ]
     },
@@ -1183,7 +1378,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Adilene Mayre Robledo Arredondo as a broker and money launderer who, with her brother Ivan, established four Mexico-based businesses; it names her as sister-in-law of both Marin brothers and former partner of Alan Núñez. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1219,11 +1424,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Adilene Mayre ROBLEDO ARREDONDO. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Adilene Mayre Robledo Arredondo as a broker and money launderer who, with her brother Ivan, established four Mexico-based businesses; it names her as sister-in-law of both Marin brothers and former partner of Alan Núñez."
         }
       ],
       "events": [
@@ -1241,6 +1446,21 @@
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Adilene Mayre ROBLEDO ARREDONDO as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48073. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-48073-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Adilene Mayre Robledo Arredondo as a broker and money launderer who, with her brother Ivan, established four Mexico-based businesses; it names her as sister-in-law of both Marin brothers and former partner of Alan Núñez.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Adilene Mayre Robledo Arredondo as a broker and money launderer who, with her brother Ivan, established four Mexico-based businesses; it names her as sister-in-law of both Marin brothers and former partner of Alan Núñez."
+          }
         }
       ]
     },
@@ -1252,7 +1472,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Arturo D’Artagnan Marin Gonzalez and his brother Porthos as operators of a business scheme involving Mexico-based Smart Depot stores. This is historical conduct reported in 2024. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1288,11 +1518,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Arturo D'Artagnan MARIN GONZALEZ. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Arturo D’Artagnan Marin Gonzalez and his brother Porthos as operators of a business scheme involving Mexico-based Smart Depot stores. This is historical conduct reported in 2024."
         }
       ],
       "events": [
@@ -1310,6 +1540,21 @@
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Arturo D'Artagnan MARIN GONZALEZ as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48071. Designation is an administrative sanctions action, not a conviction."
           }
+        },
+        {
+          "id": "ofac-sdn-48071-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Arturo D’Artagnan Marin Gonzalez and his brother Porthos as operators of a business scheme involving Mexico-based Smart Depot stores. This is historical conduct reported in 2024.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Arturo D’Artagnan Marin Gonzalez and his brother Porthos as operators of a business scheme involving Mexico-based Smart Depot stores. This is historical conduct reported in 2024."
+          }
         }
       ]
     },
@@ -1321,7 +1566,17 @@
       "roleLabel": "Listed by U.S. OFAC under ILLICIT-DRUGS-EO14059 as of 2026-09-23",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Porthos Marin Gonzalez and his brother Arturo as operators of a business scheme involving Mexico-based Smart Depot stores. This is historical conduct reported in 2024. This is a historical country association, not a current-position claim.",
+            "period": "by 2024-03-22",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2201"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
         {
@@ -1357,11 +1612,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Porthos MARIN GONZALEZ. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Porthos Marin Gonzalez and his brother Arturo as operators of a business scheme involving Mexico-based Smart Depot stores. This is historical conduct reported in 2024."
         }
       ],
       "events": [
@@ -1378,6 +1633,21 @@
             "language": "en",
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Porthos MARIN GONZALEZ as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48070. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-48070-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Porthos Marin Gonzalez and his brother Arturo as operators of a business scheme involving Mexico-based Smart Depot stores. This is historical conduct reported in 2024.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Porthos Marin Gonzalez and his brother Arturo as operators of a business scheme involving Mexico-based Smart Depot stores. This is historical conduct reported in 2024."
           }
         }
       ]
@@ -1426,11 +1696,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Alan Gabriel NUNEZ HERRERA. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Alan Gabriel Núñez Herrera as a fentanyl supplier and Adilene Robledo’s former partner; it reports no personal historical Mexico conduct in this release."
         }
       ],
       "events": [
@@ -1447,6 +1717,21 @@
             "language": "en",
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Alan Gabriel NUNEZ HERRERA as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48068. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-48068-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Alan Gabriel Núñez Herrera as a fentanyl supplier and Adilene Robledo’s former partner; it reports no personal historical Mexico conduct in this release.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Alan Gabriel Núñez Herrera as a fentanyl supplier and Adilene Robledo’s former partner; it reports no personal historical Mexico conduct in this release."
           }
         }
       ]
@@ -1495,11 +1780,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/jy2201",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2024-03-22",
-          "claim": "Treasury’s contemporaneous release names Jesus TIRADO ANDRADE. This source confirms the named individual but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury identifies Jesús Tirado Andrade as a supplier and laboratory operator involved in the same scheme; it does not give a personal historical Mexico location in this release."
         }
       ],
       "events": [
@@ -1516,6 +1801,21 @@
             "language": "en",
             "publishedAt": "2024-03-22",
             "claim": "OFAC’s dated action names Jesus TIRADO ANDRADE as an added individual under ILLICIT-DRUGS-EO14059; the public identity detail matches current entry 48066. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-48066-2024-03-22-treasury-context",
+          "occurredAt": "2024-03-22",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury identifies Jesús Tirado Andrade as a supplier and laboratory operator involved in the same scheme; it does not give a personal historical Mexico location in this release.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2201",
+            "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2024-03-22",
+            "claim": "Treasury identifies Jesús Tirado Andrade as a supplier and laboratory operator involved in the same scheme; it does not give a personal historical Mexico location in this release."
           }
         }
       ]

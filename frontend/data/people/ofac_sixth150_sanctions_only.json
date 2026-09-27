@@ -1,5 +1,5 @@
 {
-  "_about": "AI-assisted: reviewed and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. One hundred individually gated sanctions-only people from the sixth 150 newest distinct previously unreviewed OFAC candidate UIDs. Current CSV/XML identity and SDNTK program, original action, annual archive and named Treasury release agree. No criminal finding, group membership, specific drug, country, direct relationship, graph edge or portrait inferred. Original addition and 2026-09-23 status are separate claims.",
+  "_about": "AI-assisted: reviewed and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. One hundred individually gated sanctions-only people from the sixth 150 newest distinct previously unreviewed OFAC candidate UIDs. Current CSV/XML identity and SDNTK program, original action, annual archive and named Treasury release agree. No criminal finding, group membership, specific drug, country, direct relationship, graph edge or portrait inferred. Original addition and 2026-09-23 status are separate claims. Treasury press-release enrichment on 2026-09-27 adds explicit relationship context and select person-specific historical Mexico evidence to previously sanctions-only rows. Administrative status is unchanged; case allegations are not criminal findings.",
   "organizations": [],
   "people": [
     {
@@ -6877,11 +6877,11 @@
         },
         {
           "url": "https://home.treasury.gov/news/press-releases/tg1719",
-          "title": "Contemporaneous Treasury sanctions press release",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
           "publisher": "U.S. Department of the Treasury",
           "language": "en",
           "publishedAt": "2012-09-25",
-          "claim": "Treasury’s contemporaneous release names Gabriela Vazquez Villavicencio. This source confirms the named person but does not support a criminal finding, specific drug, organization membership, relationship, or country marker in this profile."
+          "claim": "Treasury names Gabriela Vázquez Villavicencio as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location."
         }
       ],
       "events": [
@@ -6898,6 +6898,21 @@
             "language": "en",
             "publishedAt": "2012-09-25",
             "claim": "OFAC’s dated action names Gabriela Vazquez Villavicencio as an added individual under SDNTK; a public distinguishing identity detail matches current entry 15022. Designation is an administrative sanctions action, not a conviction."
+          }
+        },
+        {
+          "id": "ofac-sdn-15022-2012-09-25-treasury-context",
+          "occurredAt": "2012-09-25",
+          "type": "development",
+          "title": "Treasury described historical business or personal ties",
+          "summary": "Treasury names Gabriela Vázquez Villavicencio as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/tg1719",
+            "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "publishedAt": "2012-09-25",
+            "claim": "Treasury names Gabriela Vázquez Villavicencio as one of four people collaborating with Víctor Manuel Félix Félix and describes support for his organization; it does not allocate a personal Mexico location."
           }
         }
       ]

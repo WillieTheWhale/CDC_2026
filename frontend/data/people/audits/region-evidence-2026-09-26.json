@@ -2,8 +2,8 @@
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
     "people": 2602,
-    "associations": 1765,
-    "evidenced": 1765,
+    "associations": 1777,
+    "evidenced": 1777,
     "missing": 0,
     "invalid": 0
   },
@@ -381,15 +381,15 @@
     },
     "ofac_fifth150_sanctions_only.json": {
       "people": 135,
-      "associations": 0,
-      "evidenced": 0,
+      "associations": 9,
+      "evidenced": 9,
       "missing": 0,
       "invalid": 0
     },
     "ofac_first50_sanctions_only.json": {
       "people": 20,
-      "associations": 0,
-      "evidenced": 0,
+      "associations": 1,
+      "evidenced": 1,
       "missing": 0,
       "invalid": 0
     },
@@ -409,8 +409,8 @@
     },
     "ofac_seventh150_sanctions_only.json": {
       "people": 51,
-      "associations": 0,
-      "evidenced": 0,
+      "associations": 2,
+      "evidenced": 2,
       "missing": 0,
       "invalid": 0
     },
@@ -530,6 +530,13 @@
       "people": 22,
       "associations": 22,
       "evidenced": 22,
+      "missing": 0,
+      "invalid": 0
+    },
+    "treasury_sinaloa_direct_ties_2011_2024.json": {
+      "people": 0,
+      "associations": 0,
+      "evidenced": 0,
       "missing": 0,
       "invalid": 0
     },
@@ -713,8 +720,8 @@
       "invalid": 0
     },
     "MEX": {
-      "associations": 55,
-      "evidenced": 55,
+      "associations": 67,
+      "evidenced": 67,
       "missing": 0,
       "invalid": 0
     },
