@@ -1,0 +1,140 @@
+{
+  "format": "trace-people-snapshot/1",
+  "version": "49e9214ca5b00e65cde254296d15ae176686b5410bd1870eea9dffbf5a2818ac",
+  "generated_at": "2026-09-27T08:21:01Z",
+  "source_commit": "48f1cfa2b5e63017009b6362fb124a407cc3b032",
+  "source_path": "frontend/data/people/manifest.json",
+  "counts": {
+    "people": 3099,
+    "organizations": 229,
+    "connections": 216
+  },
+  "shards": [
+    {
+      "kind": "people",
+      "file": "shards/people-2d4f585f8a140205.json.gz",
+      "sha256": "2d4f585f8a140205f106825ae517bed88d492280e6af2ac19d4dddfe2cfedfba",
+      "bytes": 54365,
+      "records": 208
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-75a1124949184fbf.json.gz",
+      "sha256": "75a1124949184fbf4730755c080958db0957614d2e033c9dc94995077d60796b",
+      "bytes": 52350,
+      "records": 191
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-f7412d2be1d22880.json.gz",
+      "sha256": "f7412d2be1d2288034357589c51e6a525d06973cee15fa8e7c8bca2cb562ce19",
+      "bytes": 52576,
+      "records": 193
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-2485ad5aefb9c0b7.json.gz",
+      "sha256": "2485ad5aefb9c0b7d305feda17edc175fb9aece0b989055cf033f6fc0a0daa01",
+      "bytes": 53545,
+      "records": 192
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-21e00a095a77ce37.json.gz",
+      "sha256": "21e00a095a77ce374093b7b4b4b9925c0ac77ad6f823be852f6f1487c45e7103",
+      "bytes": 51181,
+      "records": 180
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-9bba517a6977a2d8.json.gz",
+      "sha256": "9bba517a6977a2d8d9562290edf3c0684e3949c831db9715a726a27001ec9a9b",
+      "bytes": 52736,
+      "records": 188
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-1630bac25e8ade0a.json.gz",
+      "sha256": "1630bac25e8ade0a949407bf0ace0f2ab5e65bd0cbf9018fa61ee9281aedded4",
+      "bytes": 52596,
+      "records": 184
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-bd37665c52d7b763.json.gz",
+      "sha256": "bd37665c52d7b763fffc8934e100c2327ac7d9e6c8d8cf764fe37ced91438fe4",
+      "bytes": 50954,
+      "records": 171
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-54c628398a32f5ed.json.gz",
+      "sha256": "54c628398a32f5ed682cfdc1b8af223363e3573d539925362d2269147176d6f6",
+      "bytes": 51122,
+      "records": 184
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-de5dfec78c1a19eb.json.gz",
+      "sha256": "de5dfec78c1a19eb234904f21a56c54c36b3b6ec6dbba8995c3a80b1681e6b7d",
+      "bytes": 58059,
+      "records": 208
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-4812fa8d3ba86ecd.json.gz",
+      "sha256": "4812fa8d3ba86ecd3a0f45c826404b0114da3ffcffdc7ebfa79c1c27a2015ea2",
+      "bytes": 52126,
+      "records": 194
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-c6bcfa891dc7c274.json.gz",
+      "sha256": "c6bcfa891dc7c274ee834d602302be8ecc99d6322664d3c47c4ae595ace3079b",
+      "bytes": 62443,
+      "records": 223
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-a6a27a49de15a8b8.json.gz",
+      "sha256": "a6a27a49de15a8b8a2e3ffbba0b410379444637dd68e020f60555b97a5b95264",
+      "bytes": 49129,
+      "records": 186
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-1faa514734b55606.json.gz",
+      "sha256": "1faa514734b55606db995ccff4d2ad365326bfd1bdac85642bf11e27eb7fe859",
+      "bytes": 53673,
+      "records": 202
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-2ca297fc460af1bb.json.gz",
+      "sha256": "2ca297fc460af1bb8c0b3cbca162333e2a32faea74349ef32521fccea95da48c",
+      "bytes": 51800,
+      "records": 192
+    },
+    {
+      "kind": "people",
+      "file": "shards/people-6775d6821f536a2e.json.gz",
+      "sha256": "6775d6821f536a2e6b71fc739d231e2641b37383c343c4fc77f59e2164150283",
+      "bytes": 54318,
+      "records": 203
+    },
+    {
+      "kind": "organizations",
+      "file": "shards/organizations-1f7725bc360009ee.json.gz",
+      "sha256": "1f7725bc360009ee67be968f67ca29d360d084a5bf29452ea8f16847ebf5c75b",
+      "bytes": 34076,
+      "records": 229
+    },
+    {
+      "kind": "connections",
+      "file": "shards/connections-d900aef02b47a525.json.gz",
+      "sha256": "d900aef02b47a525025863eb7d860446a017f4268582c43102abf26a0975ce75",
+      "bytes": 25860,
+      "records": 216
+    }
+  ]
+}
