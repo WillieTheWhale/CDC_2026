@@ -1,4 +1,4 @@
-// AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 // Estimated local flows: a labelled, map-only layer built by
 // `uv run trace estimate-flows` (backend/trace_backend/model/estimated_flows.py).
 // The build needs city populations (Natural Earth) and GDP per capita that
@@ -7,28 +7,50 @@
 // to the snapshot files in public/data/estimated/; `live` records which.
 // Arrows follow money (city population x GDP per capita) out of the cities
 // that modeled corridors feed. They are never counted in scores or tables.
+import { drugLabel } from "./api";
 import type { Drug, Edge } from "./types";
 
 export interface EstimatedCity {
   name: string;
   iso3: string;
+  country: string; // country name (World Bank; Natural Earth for a few territories), else the code
   lon: number;
   lat: number;
   intensity: number; // 0-1, darker where many paths cross
 }
+// A modeled corridor (country to country) that delivers into an entry city.
+export interface EstimatedCorridor {
+  id: string; // "cannabis:COL:BRA"
+  drug: Drug;
+  from: string;
+  fromName: string;
+  to: string;
+  toName: string;
+  confidence: number; // modeled evidence score, 0-100
+  volumeNorm: number; // 0-1
+  entry: EstimatedCity;
+}
+// Why the arrow was kept: among the strongest of its wave, a country's best
+// targets, the coverage pick for an otherwise untouched corridor country, or
+// the departure arrow of an origin country beyond reach of every other city.
+export type EstimatedPick = "top" | "country_quota" | "coverage" | "departure";
 export interface EstimatedFlow {
   drug: Drug;
-  generation: 1 | 2 | 3;
+  generation: 1 | 2 | 3; // wave: 1 leaves the entry city, 2 and 3 spread onward at half strength each
   strength: number; // 0-1 within the drug and year
   km: number;
   from: EstimatedCity;
   to: EstimatedCity;
+  corridors: EstimatedCorridor[]; // feeding the chain, strongest first (empty in older files)
+  path: EstimatedCity[]; // entry (or departure) city -> ... -> from -> to
+  pick: EstimatedPick;
 }
 export interface EstimatedLayer {
   year: number;
   mode: string;
   flows: EstimatedFlow[];
   cities: EstimatedCity[];
+  corridors: EstimatedCorridor[];
   note: string;
   live: boolean; // true when served by the API, false for a snapshot file
 }
@@ -41,34 +63,138 @@ interface EstimatedFile {
     drugs: Drug[];
     cities: [string, string, number, number, number][];
     flows: [number, 1 | 2 | 3, number, number, number, number][];
+    // Richer records, parallel to `flows` (absent in files written before they were added).
+    countries?: Record<string, string>;
+    corridors?: [string, number, string, string, number, number, number][];
+    picks?: EstimatedPick[];
+    details?: [number[], number[], number][];
   };
 }
+const PICKS: EstimatedPick[] = ["top", "country_quota", "coverage", "departure"];
 
 export function parseEstimated(file: EstimatedFile): EstimatedLayer {
   const { data } = file;
+  const names = data.countries ?? {};
   const cities = data.cities.map(([name, iso3, lon, lat, intensity]) => ({
     name,
     iso3,
+    country: names[iso3] ?? iso3,
     lon,
     lat,
     intensity,
   }));
+  const corridors = (data.corridors ?? []).map(
+    ([id, drug, from, to, confidence, volumeNorm, entry]): EstimatedCorridor => ({
+      id,
+      drug: data.drugs[drug],
+      from,
+      fromName: names[from] ?? from,
+      to,
+      toName: names[to] ?? to,
+      confidence,
+      volumeNorm,
+      entry: cities[entry],
+    }),
+  );
+  const picks = data.picks ?? PICKS;
   return {
     year: data.year,
     mode: data.mode,
     note: file.meta.note,
     live: file.live ?? false,
     cities,
-    flows: data.flows.map(([drug, generation, strength, from, to, km]) => ({
-      drug: data.drugs[drug],
-      generation,
-      strength,
-      km,
-      from: cities[from],
-      to: cities[to],
-    })),
+    corridors,
+    flows: data.flows.map(([drug, generation, strength, from, to, km], i): EstimatedFlow => {
+      const detail = data.details?.[i];
+      return {
+        drug: data.drugs[drug],
+        generation,
+        strength,
+        km,
+        from: cities[from],
+        to: cities[to],
+        corridors: detail ? detail[0].map((c) => corridors[c]).filter(Boolean) : [],
+        path: detail ? detail[1].map((c) => cities[c]) : [cities[from], cities[to]],
+        pick: (detail && picks[detail[2]]) || "top",
+      };
+    }),
   };
 }
+
+// ---- Words for the hover line and the route-details panel ------------------
+// One plain sentence, shared by the tooltip and the details panel.
+export const ESTIMATE_BASIS =
+  "Estimated, not observed: follows money (city population × GDP per capita) out of cities that modeled corridors feed, within 1,500 km.";
+export const placeLabel = (c: Pick<EstimatedCity, "name" | "country">) =>
+  c.country && c.country !== c.name ? `${c.name}, ${c.country}` : c.name;
+export const corridorLabel = (c: EstimatedCorridor) =>
+  `${c.fromName} → ${c.toName} (${Math.round(c.confidence)}% confidence)`;
+export const waveLabel = (f: Pick<EstimatedFlow, "generation" | "pick">) =>
+  f.pick === "departure"
+    ? "departure step"
+    : ["", "step 1 from the entry city", "step 2 onward", "step 3 onward"][f.generation];
+export const pickLabel: Record<EstimatedPick, string> = {
+  top: "Among the strongest estimated paths for this drug.",
+  country_quota: "One of its country's two leading paths (every country in reach keeps its best two).",
+  coverage: "Coverage path: this corridor country had no stronger estimated path.",
+  departure: "Leaves an origin country along its modeled corridor (no entry city within 1,500 km).",
+};
+// "fed by modeled corridor Brazil → Colombia (70% confidence)", "+2 more" when several feed it.
+export function feedLabel(flow: Pick<EstimatedFlow, "corridors" | "pick">): string {
+  const [first, ...rest] = flow.corridors;
+  if (!first) return "fed by modeled corridors";
+  const verb = flow.pick === "departure" ? "leaves along modeled corridor" : "fed by modeled corridor";
+  return `${verb} ${corridorLabel(first)}${rest.length ? ` +${rest.length} more` : ""}`;
+}
+// "Cannabis · Medellín, Colombia → Bogotá, Colombia · strength 0.19 · 240 km · fed by modeled corridor …"
+export function flowLine(flow: EstimatedFlow, drugs: Drug[] = [flow.drug]): string {
+  const names = drugs.map((d) => drugLabel[d] ?? d).join(", ");
+  return `${names} · ${placeLabel(flow.from)} → ${placeLabel(flow.to)} · strength ${flow.strength.toFixed(2)} · ${Math.round(flow.km)} km · ${feedLabel(flow)}`;
+}
+
+export interface RouteStep {
+  kind: "origin" | "entry" | "onward";
+  label: string;
+  city?: EstimatedCity;
+  // The leg arriving at this step (onward steps only).
+  km?: number;
+  strength?: number;
+  generation?: number;
+}
+// The full chain for the details panel: corridor origin country -> entry city
+// -> onward cities. Earlier legs are looked up in `flows` (same drug); without
+// a match their distance is great-circle km and strength is left out.
+export function routeSteps(flow: EstimatedFlow, flows: EstimatedFlow[] = []): RouteStep[] {
+  const steps: RouteStep[] = [];
+  const departure = flow.pick === "departure";
+  const origin = departure ? flow.path[0]?.country : flow.corridors[0]?.fromName;
+  if (origin) steps.push({ kind: "origin", label: origin });
+  flow.path.forEach((city, i) => {
+    if (i === 0) {
+      steps.push({ kind: "entry", city, label: placeLabel(city) });
+      return;
+    }
+    const prev = flow.path[i - 1];
+    const leg =
+      i === flow.path.length - 1
+        ? flow
+        : flows.find((f) => f.drug === flow.drug && f.from === prev && f.to === city);
+    steps.push({
+      kind: "onward",
+      city,
+      label: placeLabel(city),
+      km: Math.round(leg ? leg.km : greatCircleKm([prev.lon, prev.lat], [city.lon, city.lat])),
+      strength: leg?.strength,
+      generation: leg?.generation,
+    });
+  });
+  return steps;
+}
+// "Brazil → Medellín, Colombia → Bogotá, Colombia"
+export const routeText = (flow: EstimatedFlow) =>
+  routeSteps(flow)
+    .map((s) => s.label)
+    .join(" → ");
 
 const rad = Math.PI / 180;
 function interpolate(
@@ -93,6 +219,10 @@ function interpolate(
   const y = A * Math.cos(p1) * Math.sin(l1) + B * Math.cos(p2) * Math.sin(l2);
   const z = A * Math.sin(p1) + B * Math.sin(p2);
   return [Math.atan2(y, x) / rad, Math.atan2(z, Math.hypot(x, y)) / rad];
+}
+export function greatCircleKm(p: [number, number], q: [number, number]): number {
+  const [l1, p1, l2, p2] = [p[0] * rad, p[1] * rad, q[0] * rad, q[1] * rad];
+  return 12742 * Math.asin(Math.sqrt(Math.sin((p2 - p1) / 2) ** 2 + Math.cos(p1) * Math.cos(p2) * Math.sin((l2 - l1) / 2) ** 2));
 }
 // Compass bearing from a to b, degrees clockwise from north.
 export function bearing(a: [number, number], b: [number, number]) {
@@ -166,6 +296,7 @@ export interface FieldArrow {
   position: [number, number];
   bearing: number;
   magnitude: number; // 0-1 relative to the strongest cell
+  strength: number; // 0-1, the strongest path through the cell (drives opacity)
   drug: Drug;
   flows: EstimatedFlow[];
   turn?: number;
@@ -206,6 +337,7 @@ export function fieldArrows(glyphs: WindGlyph[], cellDeg: number): FieldArrow[] 
         bearing: aim,
         turn,
         magnitude: Math.hypot(c.vx, c.vy),
+        strength: main.strength,
       drug: [...c.drugs.entries()].sort((a, b) => b[1] - a[1])[0][0],
       flows: [...c.flows]
         .sort((a, b) => b.strength - a.strength)
@@ -257,7 +389,7 @@ export function curvedArrow(
     lon0 + (p.x - cx + off * Math.cos(h)) * kx,
     lat0 + (p.y - cy - off * Math.sin(h)) * ky,
   ];
-  const headStart = 7; // last 3 segments form the head
+  const headStart = 6; // last 4 segments form the head (long enough to read at a glance)
   const left: [number, number][] = [];
   const right: [number, number][] = [];
   for (let i = 0; i <= headStart; i++) {
@@ -269,15 +401,18 @@ export function curvedArrow(
   const tip = pts[n];
   return [
     ...left,
-    at(base, -widthPx * 1.25, base.h),
+    at(base, -widthPx * 1.45, base.h),
     at(tip, 0, tip.h),
-    at(base, widthPx * 1.25, base.h),
+    at(base, widthPx * 1.45, base.h),
     ...right.reverse(),
   ];
 }
 
-export const arrowLength = (magnitude: number) => 20 + magnitude * 22;
-export const arrowWidth = (magnitude: number) => 3.5 + magnitude * 4.5;
+export const arrowLength = (magnitude: number) => 22 + magnitude * 22;
+export const arrowWidth = (magnitude: number) => 2.5 + magnitude * 5.5;
+// Fill alpha (0-255) by strength: weak estimates stay light, strong ones read
+// clearly on the pale basemap.
+export const arrowAlpha = (strength: number) => Math.round(95 + Math.min(1, Math.max(0, strength)) * 140);
 
 // Web Mercator "world pixels" at a zoom level (512 px tiles, as MapLibre).
 function worldPx([lon, lat]: [number, number], zoom: number): [number, number] {
@@ -301,14 +436,26 @@ function segmentDistance(a: number[], b: number[], c: number[], d: number[]) {
 export interface PlacedArrow extends FieldArrow {
   polygon: [number, number][];
 }
-// Greedy placement, strongest first: an arrow is kept only if its body (a
-// capsule from tail to tip, plus a small gap) touches no arrow already kept,
-// and its head stays off the city it points at.
-export function placeArrows(arrows: FieldArrow[], zoom: number, gapPx = 3): PlacedArrow[] {
+// Greedy placement: an arrow is kept only if its body (a capsule from tail to
+// tip, plus a small gap) touches no arrow already kept, and its head stays off
+// the city it points at. Each destination country's strongest arrow is placed
+// first, so weak corridor countries keep an arrow next to busy neighbours;
+// then the rest, strongest first.
+export function placementOrder(arrows: FieldArrow[]): FieldArrow[] {
+  const sorted = [...arrows].sort((x, y) => y.magnitude - x.magnitude);
+  const lead = new Map<string, FieldArrow>();
+  for (const a of sorted) {
+    const iso = a.flows[0]?.to.iso3;
+    if (iso && !lead.has(iso)) lead.set(iso, a);
+  }
+  const first = new Set(lead.values());
+  return [...first, ...sorted.filter((a) => !first.has(a))];
+}
+export function placeArrows(arrows: FieldArrow[], zoom: number, gapPx = 4): PlacedArrow[] {
   const cell = 48;
   const grid = new Map<string, { a: number[]; b: number[]; r: number }[]>();
   const out: PlacedArrow[] = [];
-  for (const arrow of [...arrows].sort((x, y) => y.magnitude - x.magnitude)) {
+  for (const arrow of placementOrder(arrows)) {
     const length = arrowLength(arrow.magnitude);
     const width = arrowWidth(arrow.magnitude);
     const polygon = curvedArrow(arrow, zoom, length, width);
@@ -319,7 +466,7 @@ export function placeArrows(arrows: FieldArrow[], zoom: number, gapPx = 3): Plac
     );
     const city = arrow.flows[0] && worldPx([arrow.flows[0].to.lon, arrow.flows[0].to.lat], zoom);
     if (city && Math.hypot(tip[0] - city[0], tip[1] - city[1]) < 6) continue;
-    const r = width * 1.25;
+    const r = width * 1.45;
     const cx = Math.floor((tip[0] + tail[0]) / 2 / cell);
     const cy = Math.floor((tip[1] + tail[1]) / 2 / cell);
     let clash = false;
@@ -342,10 +489,7 @@ export function placeArrows(arrows: FieldArrow[], zoom: number, gapPx = 3): Plac
 export function distanceToFlowKm(point: [number, number], flow: EstimatedFlow): number {
   const a: [number, number] = [flow.from.lon, flow.from.lat];
   const b: [number, number] = [flow.to.lon, flow.to.lat];
-  const km = (p: [number, number], q: [number, number]) => {
-    const [l1, p1, l2, p2] = [p[0] * rad, p[1] * rad, q[0] * rad, q[1] * rad];
-    return 12742 * Math.asin(Math.sqrt(Math.sin((p2 - p1) / 2) ** 2 + Math.cos(p1) * Math.cos(p2) * Math.sin((l2 - l1) / 2) ** 2));
-  };
+  const km = greatCircleKm;
   const n = Math.max(4, Math.ceil(flow.km / 25));
   let best = Infinity;
   for (let i = 0; i <= n; i++) best = Math.min(best, km(point, interpolate(a, b, i / n)));

@@ -1,12 +1,12 @@
 // AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
-// Estimated-flow arrow layer, volume coloring, API-backed route evidence (three
+// Estimated-flow arrow layer (hover line, route-details panel), volume coloring, API-backed route evidence (three
 // pair types) and cited US routes added with Claude Code (Anthropic).
 // AI-assisted: country anchor fix written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
 import { MapLibreOverlay } from "@deck.gl/maplibre";
-import { ArcLayer, ScatterplotLayer, SolidPolygonLayer } from "@deck.gl/layers";
+import { ArcLayer, PathLayer, PolygonLayer, ScatterplotLayer } from "@deck.gl/layers";
 import type { Color, PickingInfo } from "@deck.gl/core";
 import type { FeatureCollection, Geometry } from "geojson";
 import { LocateFixed, Minus, Plus, RotateCcw } from "lucide-react";
@@ -25,16 +25,21 @@ import { useRouteEvidence } from "@/lib/route-evidence-store";
 import type { Drug } from "@/lib/types";
 import { basisLabel, fentanylColor, filterUsRoutes, type UsRoute } from "@/lib/us-routes";
 import {
+  ESTIMATE_BASIS,
+  arrowAlpha,
   fieldArrows,
+  flowLine,
   nearestBigPaths,
   placeArrows,
   spacingKm,
   volumeBands,
   windGlyphs,
+  type EstimatedFlow,
   type EstimatedLayer,
   type FieldArrow,
   type PlacedArrow,
 } from "@/lib/estimated-flows";
+import EstimatedRouteDetail from "./estimated-route-detail";
 interface Props {
   countries: Country[];
   edges: Edge[];
@@ -154,6 +159,8 @@ export default function AtlasMap(props: Props) {
     x: number;
     y: number;
   } | null>(null);
+  // Estimated arrow whose route details are open (click an arrow; Esc closes).
+  const [windDetail, setWindDetail] = useState<EstimatedFlow | null>(null);
   const [geography, setGeography] = useState<{
     geo: FeatureCollection<Geometry>;
     style: maplibregl.StyleSpecification;
@@ -469,6 +476,8 @@ export default function AtlasMap(props: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [estimatedFlows, props.showEstimated, glyphZoom, viewKey]);
   const windOpacity = 1;
+  const openWindDetail =
+    windDetail && props.showEstimated && estimatedFlows.includes(windDetail) ? windDetail : null;
   useEffect(() => {
     if (!ready || !overlay.current) return;
     const active = new Set(visibleEdges.flatMap((e) => [e.from, e.to]));
@@ -505,23 +514,83 @@ export default function AtlasMap(props: Props) {
           return true;
         },
       });
+    // Corridor origin country (its map anchor) to the chain's first city.
+    const originLeg = (f: EstimatedFlow): [number, number][] => {
+      const iso = f.pick === "departure" ? null : f.corridors[0]?.from;
+      const at = iso ? routeCoordinates.get(iso) : undefined;
+      return at?.lon != null && at.lat != null ? [[at.lon, at.lat], [f.path[0].lon, f.path[0].lat]] : [];
+    };
     overlay.current.setProps({
       layers: [
-        new SolidPolygonLayer<PlacedArrow>({
+        new PolygonLayer<PlacedArrow>({
           id: "estimated-wind",
           data: glyphs,
           opacity: windOpacity,
-          // Curved, very faint arrows tinted by drug (shape rebuilt per zoom step).
+          // Curved arrows in the drug's color: opacity and width grow with
+          // strength; a thin white rim keeps them readable on the basemap and
+          // where they cross country texture (shape rebuilt per zoom step).
           getPolygon: (g) => g.polygon,
-          getFillColor: (g) =>
-            // Faint but readable (darker than before), tinted by drug.
-            rgba(drugColor[g.drug], Math.round(40 + g.magnitude * 55)),
+          getFillColor: (g) => rgba(drugColor[g.drug], arrowAlpha(g.strength)),
+          stroked: true,
+          getLineColor: [255, 255, 255, 215],
+          getLineWidth: 1,
+          lineWidthUnits: "pixels",
+          lineJointRounded: true,
           pickable: true,
+          autoHighlight: true,
+          highlightColor: [23, 43, 64, 235],
           onHover: (info: PickingInfo<PlacedArrow>) =>
             setWindHover(
               info.object ? { glyph: info.object, x: info.x, y: info.y } : null,
             ),
-
+          onClick: (info: PickingInfo<PlacedArrow>) => {
+            if (!info.object?.flows[0]) return false;
+            setWindDetail(info.object.flows[0]);
+            setWindHover(null);
+            return true;
+          },
+        }),
+        // The opened arrow's whole estimated chain: a faint leg from the
+        // corridor origin country to the entry city, then the city chain.
+        new PathLayer<[number, number][]>({
+          id: "estimated-route-origin",
+          data: openWindDetail ? [originLeg(openWindDetail)].filter((p) => p.length === 2) : [],
+          getPath: (p) => p,
+          getColor: openWindDetail ? rgba(drugColor[openWindDetail.drug], 140) : [0, 0, 0, 0],
+          getWidth: 1.5,
+          widthUnits: "pixels",
+        }),
+        new PathLayer<[number, number][]>({
+          id: "estimated-route-casing",
+          data: openWindDetail ? [openWindDetail.path.map((c) => [c.lon, c.lat] as [number, number])] : [],
+          getPath: (p) => p,
+          getColor: [255, 255, 255, 230],
+          getWidth: 6,
+          widthUnits: "pixels",
+          capRounded: true,
+          jointRounded: true,
+        }),
+        new PathLayer<[number, number][]>({
+          id: "estimated-route-chain",
+          data: openWindDetail ? [openWindDetail.path.map((c) => [c.lon, c.lat] as [number, number])] : [],
+          getPath: (p) => p,
+          getColor: openWindDetail ? rgba(drugColor[openWindDetail.drug], 240) : [0, 0, 0, 0],
+          getWidth: 3,
+          widthUnits: "pixels",
+          capRounded: true,
+          jointRounded: true,
+        }),
+        new ScatterplotLayer<EstimatedFlow["path"][number]>({
+          id: "estimated-route-stops",
+          data: openWindDetail ? openWindDetail.path : [],
+          getPosition: (c) => [c.lon, c.lat],
+          getRadius: 3.5,
+          radiusUnits: "pixels",
+          getFillColor: [255, 255, 255],
+          stroked: true,
+          getLineColor: openWindDetail ? rgba(drugColor[openWindDetail.drug]) : [0, 0, 0],
+          lineWidthUnits: "pixels",
+          getLineWidth: 2,
         }),
         new ArcLayer<UsRoute>({
           id: "us-documented-routes",
@@ -635,6 +704,7 @@ export default function AtlasMap(props: Props) {
     glyphs,
     glyphZoom,
     windOpacity,
+    openWindDetail,
     props.usRoutes,
     props.showUsRoutes,
     props.drug,
@@ -765,7 +835,7 @@ export default function AtlasMap(props: Props) {
             </div>
           )}
           {props.showEstimated && (
-            <small className="legend-estimated">▲ faint arrows: estimated local flows (not observed)</small>
+            <small className="legend-estimated">▲ arrows: estimated local flows (not observed) · click one for its route</small>
           )}
         </div>
       )}
@@ -849,31 +919,43 @@ export default function AtlasMap(props: Props) {
           ))}
         </div>
       )}
-      {windHover && !hover && !reportHover && (
-        <div
-          className="route-tooltip"
-          style={{
-            left: Math.max(12, Math.min(windHover.x + 16, (host.current?.clientWidth ?? 800) - 260)),
-            // Open below the cursor near the top edge (clear of the map toolbar).
-            top: windHover.y < 190 ? windHover.y + 18 : windHover.y - 170,
-          }}
-        >
-          <strong>Estimated local flow</strong>
-          <div>
-            {windHover.glyph.drug} · toward {windHover.glyph.flows[0]?.to.name}
-          </div>
-          <p>
-            Not observed. Follows money (city population × GDP per capita) out of cities that modeled corridors feed.
-            {props.estimated && !props.estimated.live ? " Precomputed snapshot." : ""}
-          </p>
-          <small>Biggest paths nearby</small>
-          {nearestBigPaths(windHover.glyph.position, estimatedFlows, 3, 300, windHover.glyph.flows[0]).map(({ flow, drugs, distanceKm }) => (
-            <small key={`${flow.from.iso3}${flow.from.name}${flow.to.name}`}>
-              {flow.from.name} → {flow.to.name} · {drugs.join(", ")} · strength {flow.strength.toFixed(2)} ·{" "}
-              {distanceKm < 10 ? "here" : `${Math.round(distanceKm)} km away`}
+      {windHover && !hover && !reportHover && (() => {
+        const own = windHover.glyph.flows[0];
+        const [mine, ...nearby] = nearestBigPaths(windHover.glyph.position, estimatedFlows, 4, 300, own);
+        const key = (f: EstimatedFlow) => `${f.drug}${f.from.iso3}${f.from.name}${f.to.name}`;
+        return (
+          <div
+            className="route-tooltip estimated-tooltip"
+            style={{
+              left: Math.max(12, Math.min(windHover.x + 16, (host.current?.clientWidth ?? 800) - 330)),
+              // Open below the cursor near the top edge (clear of the map toolbar).
+              top: windHover.y < 230 ? windHover.y + 18 : windHover.y - 210,
+              ["--drug" as string]: drugColor[(own ?? windHover.glyph).drug],
+            }}
+          >
+            <strong>Estimated local flow</strong>
+            {mine && <p className="etp-line">{flowLine(own ?? mine.flow, own ? [own.drug] : mine.drugs)}</p>}
+            <small className="etp-basis">
+              {ESTIMATE_BASIS}
+              {props.estimated && !props.estimated.live ? " Precomputed snapshot." : ""}
             </small>
-          ))}
-        </div>
+            {nearby.length > 0 && <small className="etp-near">Biggest paths nearby</small>}
+            {nearby.slice(0, 3).map(({ flow, drugs, distanceKm }) => (
+              <small key={key(flow)} className="etp-item" style={{ ["--c" as string]: drugColor[flow.drug] }}>
+                {flowLine(flow, drugs)} · {distanceKm < 10 ? "here" : `${Math.round(distanceKm)} km away`}
+              </small>
+            ))}
+            <small className="etp-hint">Click the arrow for route details</small>
+          </div>
+        );
+      })()}
+      {openWindDetail && (
+        <EstimatedRouteDetail
+          flow={openWindDetail}
+          flows={estimatedFlows}
+          edges={props.edges}
+          onClose={() => setWindDetail(null)}
+        />
       )}
       {usHover && !hover && (
         <div
