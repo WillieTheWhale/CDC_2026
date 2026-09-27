@@ -859,6 +859,26 @@
       ]
     },
     {
+      "id": "salaya-heroin-case",
+      "name": "Salaya heroin conspiracy (alleged)",
+      "aliases": [
+        "RC-26/2020/NIA/DLI"
+      ],
+      "regions": [
+        "IND"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Court describes connected 2018 Gujarat and 2020 Punjab heroin investigations and identifies the named accused in original and supplementary charge sheets."
+        }
+      ]
+    },
+    {
       "id": "sam-gor",
       "name": "Sam Gor",
       "aliases": [
@@ -19792,6 +19812,702 @@
             "language": "en",
             "publishedAt": "2019-09-26",
             "claim": "DOJ explicitly lists Katherine Colón-Negrón among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aziz-abdul-bhagad",
+      "name": "Aziz Abdul Bhagad",
+      "aliases": [],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Named accused in the Salaya heroin conspiracy; no conviction established by cited judgment",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Supreme Court identifies Aziz Abdul Bhagad among the named people alleged to have conspired to distribute heroin in India in 2018.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court identifies Aziz Abdul Bhagad among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "aziz-abdul-bhagad-2020-08-07-charge",
+          "occurredAt": "2020-08-07",
+          "type": "charge",
+          "title": "NIA supplementary charge sheet",
+          "summary": "The court records the 7 August 2020 NIA supplementary charge sheet listing Aziz Abdul Bhagad in the alleged heroin conspiracy; it is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court identifies Aziz Abdul Bhagad among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rafique-adam-sumra",
+      "name": "Rafique Adam Sumra",
+      "aliases": [],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Named accused in the Salaya heroin conspiracy; no conviction established by cited judgment",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Supreme Court identifies Rafique Adam Sumra among the named people alleged to have conspired to distribute heroin in India in 2018.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court identifies Rafique Adam Sumra among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "rafique-adam-sumra-2020-08-07-charge",
+          "occurredAt": "2020-08-07",
+          "type": "charge",
+          "title": "NIA supplementary charge sheet",
+          "summary": "The court records the 7 August 2020 NIA supplementary charge sheet listing Rafique Adam Sumra in the alleged heroin conspiracy; it is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court identifies Rafique Adam Sumra among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "arshad-abdul-razaq-sota",
+      "name": "Arshad Abdul Razaq Sota",
+      "aliases": [
+        "Raju Dubai",
+        "Raja Dubai"
+      ],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Named accused in the Salaya heroin conspiracy; no conviction established by cited judgment",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Supreme Court identifies Arshad Abdul Razaq Sota among the named people alleged to have conspired to distribute heroin in India in 2018.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court identifies Arshad Abdul Razaq Sota among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "arshad-abdul-razaq-sota-2020-08-07-charge",
+          "occurredAt": "2020-08-07",
+          "type": "charge",
+          "title": "NIA supplementary charge sheet",
+          "summary": "The court records the 7 August 2020 NIA supplementary charge sheet listing Arshad Abdul Razaq Sota in the alleged heroin conspiracy; it is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court identifies Arshad Abdul Razaq Sota among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "razak-aadam-sumra",
+      "name": "Razak Aadam Sumra",
+      "aliases": [],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Named accused in the Salaya heroin conspiracy; no conviction established by cited judgment",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Supreme Court identifies Razak Aadam Sumra among the named people alleged to have conspired to distribute heroin in India in 2018.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court identifies Razak Aadam Sumra among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "razak-aadam-sumra-2020-08-07-charge",
+          "occurredAt": "2020-08-07",
+          "type": "charge",
+          "title": "NIA supplementary charge sheet",
+          "summary": "The court records the 7 August 2020 NIA supplementary charge sheet listing Razak Aadam Sumra in the alleged heroin conspiracy; it is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court identifies Razak Aadam Sumra among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "karim-mohammad-siraj",
+      "name": "Karim Mohammad Siraj",
+      "aliases": [],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Named accused in the Salaya heroin conspiracy; no conviction established by cited judgment",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Supreme Court identifies Karim Mohammad Siraj among the named people alleged to have conspired to distribute heroin in India in 2018.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court identifies Karim Mohammad Siraj among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "karim-mohammad-siraj-2020-08-07-charge",
+          "occurredAt": "2020-08-07",
+          "type": "charge",
+          "title": "NIA supplementary charge sheet",
+          "summary": "The court records the 7 August 2020 NIA supplementary charge sheet listing Karim Mohammad Siraj in the alleged heroin conspiracy; it is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court identifies Karim Mohammad Siraj among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sunil-vithal-barmase",
+      "name": "Sunil Vithal Barmase",
+      "aliases": [],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Named accused in the Salaya heroin conspiracy; no conviction established by cited judgment",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Supreme Court identifies Sunil Vithal Barmase among the named people alleged to have conspired to distribute heroin in India in 2018.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court identifies Sunil Vithal Barmase among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "sunil-vithal-barmase-2020-08-07-charge",
+          "occurredAt": "2020-08-07",
+          "type": "charge",
+          "title": "NIA supplementary charge sheet",
+          "summary": "The court records the 7 August 2020 NIA supplementary charge sheet listing Sunil Vithal Barmase in the alleged heroin conspiracy; it is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court identifies Sunil Vithal Barmase among the people whom investigators alleged conspired to smuggle and distribute approximately 500 kg of heroin in India in 2018; it records a 7 August 2020 NIA supplementary charge sheet listing him. This judgment does not establish a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ankush-vipan-kapoor",
+      "name": "Ankush Vipan Kapoor",
+      "aliases": [
+        "Ankush Kapoor"
+      ],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Court describes him as a named accused in the Punjab heroin cases and records 2024 review of bail cancellation.",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Court recounts person-specific allegations linking Kapoor to heroin recoveries and alleged drug sales in India in 2020.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Ankush Vipan Kapoor and lists Ankush Vipan Kapoor in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Ankush Vipan Kapoor."
+        }
+      ],
+      "events": [
+        {
+          "id": "ankush-vipan-kapoor-2020-06-11-record",
+          "occurredAt": "2020-06-11",
+          "type": "charge",
+          "title": "Named in connected NDPS charge sheet",
+          "summary": "The Supreme Court lists Ankush Vipan Kapoor as an accused in the 2020-06-11 charge sheet; this is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Ankush Vipan Kapoor and lists Ankush Vipan Kapoor in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Ankush Vipan Kapoor."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sukhbir-singh-happy",
+      "name": "Sukhbir Singh",
+      "aliases": [
+        "Happy"
+      ],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Court says police alleged he supplied heroin and records his inclusion in connected NDPS charge sheets.",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Court recounts an allegation that Singh supplied heroin within India in 2020.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Sukhbir Singh and lists Sukhbir Singh in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Sukhbir Singh."
+        }
+      ],
+      "events": [
+        {
+          "id": "sukhbir-singh-happy-2020-06-11-record",
+          "occurredAt": "2020-06-11",
+          "type": "charge",
+          "title": "Named in connected NDPS charge sheet",
+          "summary": "The Supreme Court lists Sukhbir Singh as an accused in the 2020-06-11 charge sheet; this is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Sukhbir Singh and lists Sukhbir Singh in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Sukhbir Singh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sukhwinder-singh-salaya",
+      "name": "Sukhwinder Singh",
+      "aliases": [],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Court names him among those alleged to sell contraband drugs in the connected 2020 case.",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Court names Singh among people alleged to sell contraband drugs in India in 2020.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Sukhwinder Singh and lists Sukhwinder Singh in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Sukhwinder Singh."
+        }
+      ],
+      "events": [
+        {
+          "id": "sukhwinder-singh-salaya-2020-06-11-record",
+          "occurredAt": "2020-06-11",
+          "type": "charge",
+          "title": "Named in connected NDPS charge sheet",
+          "summary": "The Supreme Court lists Sukhwinder Singh as an accused in the 2020-06-11 charge sheet; this is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Sukhwinder Singh and lists Sukhwinder Singh in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Sukhwinder Singh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "major-singh-salaya",
+      "name": "Major Singh",
+      "aliases": [],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Court names him among those alleged to sell contraband drugs in the connected 2020 case.",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Court names Singh among people alleged to sell contraband drugs in India in 2020.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Major Singh and lists Major Singh in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Major Singh."
+        }
+      ],
+      "events": [
+        {
+          "id": "major-singh-salaya-2020-06-11-record",
+          "occurredAt": "2020-06-11",
+          "type": "charge",
+          "title": "Named in connected NDPS charge sheet",
+          "summary": "The Supreme Court lists Major Singh as an accused in the 2020-06-11 charge sheet; this is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Major Singh and lists Major Singh in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Major Singh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tamanna-gupta",
+      "name": "Tamanna Gupta",
+      "aliases": [],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Court names her among those alleged to sell contraband drugs in the connected 2020 case.",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Court names Gupta among people alleged to sell contraband drugs in India in 2020.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Tamanna Gupta and lists Tamanna Gupta in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Tamanna Gupta."
+        }
+      ],
+      "events": [
+        {
+          "id": "tamanna-gupta-2020-06-11-record",
+          "occurredAt": "2020-06-11",
+          "type": "charge",
+          "title": "Named in connected NDPS charge sheet",
+          "summary": "The Supreme Court lists Tamanna Gupta as an accused in the 2020-06-11 charge sheet; this is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Tamanna Gupta and lists Tamanna Gupta in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Tamanna Gupta."
+          }
+        }
+      ]
+    },
+    {
+      "id": "arman-bashar-mall",
+      "name": "Arman Bashar Mall",
+      "aliases": [],
+      "status": "charged",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "Court names him among those alleged to sell contraband drugs in the connected 2020 case.",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Court names Mall among people alleged to sell contraband drugs in India in 2020.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Arman Bashar Mall and lists Arman Bashar Mall in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Arman Bashar Mall."
+        }
+      ],
+      "events": [
+        {
+          "id": "arman-bashar-mall-2020-06-11-record",
+          "occurredAt": "2020-06-11",
+          "type": "charge",
+          "title": "Named in connected NDPS charge sheet",
+          "summary": "The Supreme Court lists Arman Bashar Mall as an accused in the 2020-06-11 charge sheet; this is not a conviction.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court records a person-specific heroin or contraband-drug allegation involving Arman Bashar Mall and lists Arman Bashar Mall in the 2020-06-11 NDPS charge sheet for the connected cases. Its 2024 judgment does not establish a conviction of Arman Bashar Mall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "simranjit-singh-sandhu",
+      "name": "Simranjit Singh Sandhu",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2024-12-16",
+      "roleLabel": "NIA charge sheet lists him as wanted accused in alleged heroin conspiracy; no conviction established.",
+      "prominence": 3,
+      "organizationIds": [
+        "salaya-heroin-case"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "Court recounts allegation that a substantial heroin quantity was delivered to Sandhu’s aides at a storage site in India in 2020.",
+            "period": "2018–2020",
+            "sourceUrl": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+          "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+          "publisher": "Supreme Court of India",
+          "language": "en",
+          "publishedAt": "2024-12-16",
+          "claim": "The Supreme Court records a person-specific heroin allegation involving Simranjit Singh Sandhu and lists him as a wanted accused in the 7 August 2020 NIA charge sheet. The court says he was not challaned in two Punjab charge sheets; this judgment does not establish formal charges framed or a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "simranjit-singh-sandhu-2020-08-07-record",
+          "occurredAt": "2020-08-07",
+          "type": "development",
+          "title": "Listed as wanted accused in NIA charge sheet",
+          "summary": "The Supreme Court records Simranjit Singh Sandhu as a wanted accused in the NIA charge sheet; the same judgment says he was not challaned in two Punjab charge sheets.",
+          "source": {
+            "url": "https://api.sci.gov.in/supremecourt/2024/7542/7542_2024_8_1501_58023_Judgement_16-Dec-2024.pdf",
+            "title": "Ankush Vipan Kapoor v. National Investigation Agency, 2024 INSC 986",
+            "publisher": "Supreme Court of India",
+            "language": "en",
+            "publishedAt": "2024-12-16",
+            "claim": "The Supreme Court records a person-specific heroin allegation involving Simranjit Singh Sandhu and lists him as a wanted accused in the 7 August 2020 NIA charge sheet. The court says he was not challaned in two Punjab charge sheets; this judgment does not establish formal charges framed or a conviction."
           }
         }
       ]
