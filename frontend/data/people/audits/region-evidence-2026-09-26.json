@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2452,
-    "associations": 1689,
-    "evidenced": 1689,
+    "people": 2477,
+    "associations": 1699,
+    "evidenced": 1699,
     "missing": 0,
     "invalid": 0
   },
@@ -264,6 +264,13 @@
       "people": 20,
       "associations": 3,
       "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
+    "india_ncb_pib_convictions_2025.json": {
+      "people": 25,
+      "associations": 10,
+      "evidenced": 10,
       "missing": 0,
       "invalid": 0
     },
@@ -805,6 +812,12 @@
       "missing": 0,
       "invalid": 0
     },
+    "IND": {
+      "associations": 27,
+      "evidenced": 27,
+      "missing": 0,
+      "invalid": 0
+    },
     "PHL": {
       "associations": 9,
       "evidenced": 9,
@@ -838,12 +851,6 @@
     "ARE": {
       "associations": 2,
       "evidenced": 2,
-      "missing": 0,
-      "invalid": 0
-    },
-    "IND": {
-      "associations": 17,
-      "evidenced": 17,
       "missing": 0,
       "invalid": 0
     },
