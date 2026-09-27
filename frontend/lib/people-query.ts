@@ -5,6 +5,7 @@ export interface ParsedPeopleQuery {
   search: string;
   zoom: 1 | 2 | 3;
   bbox?: [number, number, number, number];
+  country?: string;
   limit: number;
   cursor?: string;
 }
@@ -40,7 +41,9 @@ export function parsePeopleQuery(params: URLSearchParams): ParsedPeopleQuery {
   }
   const cursor = params.get("cursor") ?? undefined;
   if (cursor && cursor.length > 4096) throw new Error("cursor is too long");
-  return { search, zoom: zoomValue as 1 | 2 | 3, bbox, limit: limitValue, cursor };
+  const country = params.get("country") ?? undefined;
+  if (country && !/^[A-Z]{3}$/.test(country)) throw new Error("country must be an ISO3 code");
+  return { search, zoom: zoomValue as 1 | 2 | 3, bbox, country, limit: limitValue, cursor };
 }
 
 function withinBbox(lon: number, lat: number, [west, south, east, north]: [number, number, number, number]) {
@@ -51,7 +54,9 @@ function withinBbox(lon: number, lat: number, [west, south, east, north]: [numbe
 }
 
 function filterKey(query: ParsedPeopleQuery) {
-  return fold(query.search)
+  return query.country
+    ? JSON.stringify([fold(query.search), query.country])
+    : fold(query.search)
     ? JSON.stringify([fold(query.search), "global-search"])
     : JSON.stringify(["", query.zoom, query.bbox ?? null]);
 }
@@ -72,9 +77,10 @@ export function queryPeople(dataset: PeopleDataset, countries: PeopleCountry[], 
   const threshold = query.zoom;
   const needle = fold(query.search);
   const filtered = dataset.people.filter((person) =>
-    (needle.length > 0 || person.prominence <= threshold) &&
+    (needle.length > 0 || query.country || person.prominence <= threshold) &&
     (!needle || [person.name, ...(person.aliases ?? [])].some((value) => fold(value).includes(needle))) &&
-    (needle.length > 0 || !query.bbox || person.regions.some((region) => {
+    (!query.country || person.regions.some((region) => region.iso3 === query.country)) &&
+    (needle.length > 0 || query.country || !query.bbox || person.regions.some((region) => {
       const country = countryById.get(region.iso3);
       return country?.lon != null && country.lat != null && withinBbox(country.lon, country.lat, query.bbox!);
     })),
@@ -105,6 +111,21 @@ export function queryPeople(dataset: PeopleDataset, countries: PeopleCountry[], 
         ? Buffer.from(JSON.stringify([key, ...sortKey(last)])).toString("base64url") : null,
     },
   };
+}
+
+export function queryCountryCounts(dataset: PeopleDataset, search = "", zoom: 1 | 2 | 3 = 3) {
+  const needle = fold(search.trim());
+  const counts = new Map<string, { total: number; visible: number }>();
+  for (const person of dataset.people) {
+    if (needle && ![person.name, ...(person.aliases ?? [])].some((value) => fold(value).includes(needle))) continue;
+    for (const iso3 of new Set(person.regions.map((region) => region.iso3))) {
+      const count = counts.get(iso3) ?? { total: 0, visible: 0 };
+      count.total++;
+      if (needle || person.prominence <= zoom) count.visible++;
+      counts.set(iso3, count);
+    }
+  }
+  return [...counts].map(([iso3, count]) => ({ iso3, ...count })).sort((a, b) => a.iso3.localeCompare(b.iso3));
 }
 
 export function queryPersonNetwork(dataset: PeopleDataset, personId: string): { data: PeopleDataset; totalConnections: number } | null {

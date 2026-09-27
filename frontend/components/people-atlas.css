@@ -37,8 +37,12 @@
 .people-map-cluster:hover, .people-map-cluster:focus-visible, .people-map-cluster.selected, .people-map-person:hover, .people-map-person:focus-visible, .people-map-person.selected { border-color: #ed482d; }
 .people-map-person { flex-direction: column; gap: 3px; width: 30px; height: 30px; overflow: visible; border-radius: 50%; font: 600 11px var(--mono, monospace); }
 .people-map-person img { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; }
-.people-map-person small { position: absolute; top: 30px; left: 21px; padding: 2px 4px; border-radius: 2px; background: #ffffffdf; color: #263f57; white-space: nowrap; font: 10px var(--body, sans-serif); pointer-events: none; }
+.people-map-person small { display: none; position: absolute; top: 30px; left: 21px; padding: 2px 4px; border-radius: 2px; background: #ffffffef; color: #263f57; white-space: nowrap; font: 10px var(--body, sans-serif); pointer-events: none; }
+.people-map-person:hover small, .people-map-person:focus-visible small, .people-map-person.selected small { display: block; }
 .people-map-legend { position: absolute; bottom: 9px; left: 12px; padding: 5px 7px; border-radius: 3px; background: #ffffffdf; color: #65778a; font-size: 10px; pointer-events: none; }
+.people-map-count-warning { position: absolute; top: 9px; left: 12px; padding: 5px 7px; border-radius: 3px; background: #fff2dc; color: #76583d; font-size: 10px; }
+.people-country-filter { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 0 3px; color: #465f76; font-size: 11px; }
+.people-country-filter button { color: #245f91; font-size: 10px; text-decoration: underline; }
 .people-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 12px; padding-top: 12px; }
 .people-list > button { display: flex; min-width: 0; align-items: center; gap: 10px; min-height: 56px; border-bottom: 1px solid #edf0f4; text-align: left; }
 .people-list > button.selected .people-list-name { color: #175e9a; }
@@ -47,6 +51,8 @@
 .people-avatar { flex: 0 0 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: #e8f0f7; color: #436d91; font: 12px var(--mono, monospace); }
 .people-list-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
 .people-list-name small { display: block; overflow: hidden; margin-top: 3px; color: #8793a0; text-overflow: ellipsis; font-size: 10px; }
+.people-list-status { display: grid; justify-items: start; gap: 3px; }
+.people-list-status small { color: #82909e; white-space: nowrap; font: 9px var(--mono, monospace); }
 .people-status { display: inline-flex; flex: 0 0 auto; padding: 4px 6px; border-radius: 3px; font-size: 9px; font-weight: 600; line-height: 1.2; }
 .status-convicted { background: #e9edf1; color: #425161; }
 .status-charged { background: #fff2dc; color: #876023; }

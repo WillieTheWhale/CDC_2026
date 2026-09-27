@@ -13,6 +13,7 @@ import type {
 const apiBase = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, "");
 export interface PeopleQuery {
   search?: string;
+  country?: string;
   zoom?: 1 | 2 | 3;
   bounds?: [west: number, south: number, east: number, north: number];
   limit?: number;
@@ -144,6 +145,7 @@ export async function loadPeople(options: PeopleQuery = {}): Promise<PeopleLoadR
   try {
     const query = new URLSearchParams({ limit: String(options.limit ?? 100), zoom: String(options.zoom ?? 1) });
     if (options.search?.trim()) query.set("search", options.search.trim());
+    if (options.country) query.set("country", options.country);
     if (options.bounds) query.set("bbox", options.bounds.join(","));
     if (options.cursor) query.set("cursor", options.cursor);
     return { status: "ready", source: apiBase ? "api" : "fixtures", ...await fetchPeople(`/api/people?${query}`) };
@@ -153,6 +155,21 @@ export async function loadPeople(options: PeopleQuery = {}): Promise<PeopleLoadR
       reason: error instanceof Error ? error.message : "People data is unavailable.",
     };
   }
+}
+
+export async function loadPeopleCountryCounts(search = "", zoom: 1 | 2 | 3 = 3): Promise<{ iso3: string; total: number; visible: number }[] | null> {
+  try {
+    const query = new URLSearchParams({ zoom: String(zoom) });
+    if (search.trim()) query.set("search", search.trim());
+    const response = await fetch(`${apiBase ?? ""}/api/people/countries?${query}`, { cache: "no-store" });
+    if (!response.ok) return null;
+    const body = await response.json() as { data?: unknown };
+    if (!Array.isArray(body.data)) return null;
+    return body.data.filter((row): row is { iso3: string; total: number; visible: number } =>
+      row && typeof row.iso3 === "string" && /^[A-Z]{3}$/.test(row.iso3) &&
+      Number.isSafeInteger(row.total) && row.total >= 0 &&
+      Number.isSafeInteger(row.visible) && row.visible >= 0 && row.visible <= row.total);
+  } catch { return null; }
 }
 
 export async function loadPersonNetwork(personId: string): Promise<PeopleLoadResult> {

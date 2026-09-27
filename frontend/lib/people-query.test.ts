@@ -1,7 +1,7 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { parsePeopleQuery, queryPeople, queryPersonNetwork } from "./people-query";
+import { parsePeopleQuery, queryCountryCounts, queryPeople, queryPersonNetwork } from "./people-query";
 import type { PeopleCountry, PeopleDataset, Person } from "./people-types";
 
 const source = { url: "https://www.justice.gov/example", title: "Record", publisher: "DOJ", language: "en", claim: "Named in source" };
@@ -72,6 +72,30 @@ test("name search is global across low prominence and outside the map viewport",
   assert.equal(page.data.people[0].id, "person-10002");
   const otherZoom = queryPeople(dataset, countries, { search: "Person 10002", zoom: 3, limit: 1 });
   assert.deepEqual(otherZoom.data.people.map((person) => person.id), page.data.people.map((person) => person.id));
+});
+
+test("country counts use all records while zoom visibility and country pagination stay distinct", () => {
+  assert.deepEqual(queryCountryCounts(dataset, "", 1), [
+    { iso3: "FJI", total: 1, visible: 1 },
+    { iso3: "USA", total: 10002, visible: 0 },
+  ]);
+  const mixed: PeopleDataset = {
+    organizations: [], connections: [],
+    people: [makePerson(1, "USA", 1), makePerson(2, "USA", 2), makePerson(3, "USA", 3), makePerson(4, "FJI", 3)],
+  };
+  mixed.people[0].regions.push({ iso3: "USA", label: "United States" });
+  assert.deepEqual(queryCountryCounts(mixed, "", 1), [
+    { iso3: "FJI", total: 1, visible: 0 },
+    { iso3: "USA", total: 3, visible: 1 },
+  ]);
+  assert.deepEqual(queryCountryCounts(mixed, "Person 0003", 1), [{ iso3: "USA", total: 1, visible: 1 }]);
+  const first = queryPeople(mixed, countries, { search: "", zoom: 1, country: "USA", limit: 2, bbox: [170, -30, 190, 0] });
+  assert.equal(first.meta.total, 3);
+  assert.deepEqual(first.data.people.map((person) => person.id), ["person-0001", "person-0002"]);
+  const second = queryPeople(mixed, countries, { search: "", zoom: 1, country: "USA", limit: 2, cursor: first.meta.next_cursor! });
+  assert.deepEqual(second.data.people.map((person) => person.id), ["person-0003"]);
+  assert.throws(() => queryPeople(mixed, countries, { search: "", zoom: 1, country: "FJI", limit: 2, cursor: first.meta.next_cursor! }), /cursor/);
+  assert.throws(() => parsePeopleQuery(new URLSearchParams("country=US")), /country/);
 });
 
 test("invalid boundaries are rejected and page edges only reference included people", () => {
