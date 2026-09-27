@@ -289,7 +289,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       </div>
     </header>
 
-    <p className="people-caution" role="note"><strong>Evidence caution.</strong> A listed connection is a claim from the cited sources, not proof of guilt. Status categories are kept distinct and reflect what the cited source establishes.</p>
+    <p className="people-caution" role="note"><strong>Evidence caution.</strong> “Charged” and “reported” may describe allegations, not findings of guilt. Convictions and sanctions are historical claims tied to dated sources; a sanction is not a criminal conviction. A listed connection is a cited claim, not proof of guilt.</p>
     <div className="people-toolbar">
       <label className="people-search"><Search size={15} /><span className="sr-only">Search people</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search names and aliases" /></label>
       <span className="people-result-count">{personCount.toLocaleString()}{total === null ? " loaded people · matching total unavailable" : ` of ${total.toLocaleString()} matching people`} · {publishedTotal === null ? "published total unavailable" : `${publishedTotal.toLocaleString()} published people, all tiers`}{unlocated ? " · without sourced country" : ` · ${dataset?.connections.length.toLocaleString() ?? "—"} loaded claims`}</span>
@@ -310,7 +310,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
           {countryCounts === null && <div className="people-map-count-warning">Country totals unavailable from this API.</div>}
         </div>
         {zoom === 3 && trayShown.length > 0 && <section className="people-country-tray" aria-label="People with country-level associations">
-          <div className="people-country-tray-heading"><div><h2>{selectedCountryName ?? "People in the visible countries"}</h2><p>Country association only · Portraits are not placed at city or street locations.</p></div><span>{trayShown.length} shown{trayEntries.length > 48 ? ` of ${trayEntries.length} loaded here` : ""}</span></div>
+          <div className="people-country-tray-heading"><div><h2>{selectedCountryName ? `People associated with ${selectedCountryName}` : "People associated with visible countries"}</h2><p>Historical country association only · Portraits do not indicate current location.</p></div><span>{trayShown.length} shown{trayEntries.length > 48 ? ` of ${trayEntries.length} loaded in this view` : ""}</span></div>
           <div className="people-country-tray-grid">{trayShown.map(({ person, region }) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => choosePerson(person, region.iso3)} aria-label={`Review ${person.name}, ${personDisplayStatus(person).label}, ${personDisplayStatus(person).asOf ? `as of ${personDisplayStatus(person).asOf}` : "status date not provided"}, associated with ${region.label} at country level`}>
             <span className="people-country-tray-avatar">{person.photo ? <img src={person.photo.url} alt="" loading="lazy" /> : person.name.slice(0, 1).toUpperCase()}</span>
             <span className="people-country-tray-copy"><strong>{person.name}</strong><small>{region.label}</small><span className="people-country-tray-legal"><span className={`people-status status-${personDisplayStatus(person).style}`}>{personDisplayStatus(person).label}</span><small>{personDisplayStatus(person).asOf ? `as of ${personDisplayStatus(person).asOf}` : "date unavailable"}</small></span></span>
@@ -360,16 +360,23 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
                 {source && <a href={source.url} target="_blank" rel="noreferrer">Source: {source.publisher}{source.publishedAt ? ` · ${source.publishedAt}` : ""}</a>}
               </li>;
             })}</ul>
-            <p>Country-level associations only; these markers do not show live positions.</p>
+            <p>Historical country-level associations only; these markers do not show current locations.</p>
           </div>}
           {!!selected.drugs.length && <p>Source topics: {selected.drugs.join(", ")}</p>}
       {selected.roleLabel && <p className="people-role-attribution">Role description attributed to the cited sources.</p>}
-      {!!selected.organizationIds.length && <div className="people-orgs"><h3>Source-reported organization associations</h3>{selected.organizationIds.map((id) => organizations.get(id)?.name).filter(Boolean).map((name) => <span key={name}>{name}</span>)}</div>}
+          {!!selected.organizationIds.length && <div className="people-orgs">
+            <h3>Cases and named groups in cited sources</h3>
+            <p>These records mix court cases, investigations, and named organizations. Inclusion in a case does not establish organization membership or a direct connection to another person in that case. Read the source for the specific claim.</p>
+            <ul>{selected.organizationIds.map((id) => organizations.get(id)).filter((item) => item !== undefined).map((item) => <li key={item.id}>
+              <strong>{item.name}</strong>
+              {item.sources[0] && <a href={item.sources[0].url} target="_blank" rel="noreferrer">{item.sources[0].publisher}{item.sources[0].publishedAt ? ` · ${item.sources[0].publishedAt}` : ""}</a>}
+            </li>)}</ul>
+          </div>}
           {selected.photo && <figure className="people-portrait"><img src={selected.photo.url} alt={`Portrait of ${selected.name}`} loading="lazy" /><figcaption>Photo: {selected.photo.credit} · {selected.photo.licenseUrl ? <a href={selected.photo.licenseUrl} target="_blank" rel="noreferrer">{selected.photo.license}</a> : selected.photo.license} · <a href={selected.photo.sourceUrl} target="_blank" rel="noreferrer">file and attribution record</a></figcaption></figure>}
           <PeopleLegalRecord person={selected} />
           <PeopleEventTimeline events={selected.events ?? []} />
           <div className="people-sources"><h3>Sources</h3>{selected.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><strong>{source.title}</strong><span>{source.publisher} · {source.language}{source.publishedAt ? ` · ${source.publishedAt}` : ""}</span><small>{source.claim}</small></a>)}</div>
-          <p className="people-caution people-detail-caution">A listed connection is a source claim, not proof of guilt.</p>
+          <p className="people-caution people-detail-caution">A listed connection requires its own cited claim. Shared case context alone does not establish a person-to-person tie.</p>
         </> : <div className="people-detail-empty">Select a person from the records to review status and sources.</div>}
       </aside>
     </div><div className="people-graph-panel" style={{ display: mode === "graph" ? undefined : "none" }}>
