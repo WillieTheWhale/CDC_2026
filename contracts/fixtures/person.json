@@ -6,7 +6,11 @@
     "notes": [
       "Curated sample of publicly reported, source-cited people; not a census. Status reflects the cited source as of statusAsOf (charged is not convicted). Locations are country-level associations only.",
       "Connections are listed only where a source documents that specific relationship."
-    ]
+    ],
+    "people_snapshot": {
+      "origin": "bundled",
+      "fetched_at": null
+    }
   },
   "data": {
     "person": {

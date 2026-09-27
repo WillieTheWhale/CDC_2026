@@ -243,10 +243,12 @@ paths:
       operationId: getPeople
       summary: Paginated, source-cited people (country-level associations only)
       description: >
-        Curated sample of publicly reported people, not a census. Without `search` or `country`, only people at or
-        above the zoom's prominence tier are returned, optionally within `bbox` (a person matches if any associated
-        country's capital is inside it). `search` matches names and aliases across all tiers; `country` returns all
-        tiers for one ISO3. Sorted by case-folded name, then id. Page with `meta.next_cursor`.
+        Curated sample of publicly reported people, not a census. Without `search`, `country` or `unlocated`,
+        only people at or above the zoom's prominence tier are returned, optionally within `bbox` (a person
+        matches if any associated country's capital is inside it). `search` matches names and aliases across all
+        tiers; `country` returns all tiers for one ISO3; `unlocated=1` returns all tiers of people with no sourced
+        country. Sorted by case-folded name, then id. Page with `meta.next_cursor` (bound to the filters; it
+        encodes the last sort key, so it stays valid when the dataset refreshes).
       parameters:
         - { name: search, in: query, required: false, schema: { type: string, maxLength: 120 } }
         - { name: zoom, in: query, required: false, schema: { type: integer, enum: [1, 2, 3], default: 1 } }
@@ -258,6 +260,14 @@ paths:
         - { name: country, in: query, required: false, schema: { type: string, pattern: "^[A-Z]{3}$" } }
         - { name: limit, in: query, required: false, schema: { type: integer, minimum: 1, maximum: 250, default: 100 } }
         - { name: cursor, in: query, required: false, schema: { type: string, maxLength: 4096 } }
+        - name: unlocated
+          in: query
+          required: false
+          description: >
+            "1" lists published people with no sourced country (`regions: []`) across all prominence tiers
+            (zoom ignored); `search` still matches names and aliases. Combining it with `country` or `bbox` is a
+            400. No country, centroid or marker is invented for these records.
+          schema: { type: string, enum: ["1"] }
       responses:
         "200":
           description: OK
@@ -265,7 +275,7 @@ paths:
             application/json:
               schema: { $ref: "#/components/schemas/PeoplePageResponse" }
         "400":
-          description: Invalid bbox or a cursor from different filters
+          description: Invalid bbox, unlocated combined with country or bbox, or a cursor from different filters
           content:
             application/json:
               schema: { $ref: "#/components/schemas/ErrorResponse" }
@@ -319,6 +329,195 @@ paths:
           content:
             application/json:
               schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/route-evidence:
+    get:
+      operationId: getRouteEvidence
+      summary: Paginated, cited route evidence (country pairs and regional context) behind /api/routes edges
+      description: >
+        Three layers flagged by `pair_type`: `direct_reported_pair` (a country pair stated verbatim in a cited
+        publication at an exact locator), `interpreted_corridor` (TRACE's transcription of UNODC/EUDA regional route
+        maps and report text, seed/corridors.csv), and `narrative_context` (multiregional UNODC statements kept as
+        text, `from`/`to` null). No volumes and no city, road or port geometry. With `bbox`, a record matches if
+        either endpoint's capital is inside (narrative records have no point and drop out). Stable order: direct
+        pairs, interpreted corridors, narrative context. Page with `meta.next_cursor`.
+      parameters:
+        - { name: drug, in: query, required: false, schema: { $ref: "#/components/schemas/Drug" } }
+        - { name: from, in: query, required: false, schema: { type: string, pattern: "^[A-Za-z]{3}$" } }
+        - { name: to, in: query, required: false, schema: { type: string, pattern: "^[A-Za-z]{3}$" } }
+        - name: iso3
+          in: query
+          required: false
+          description: Either endpoint.
+          schema: { type: string, pattern: "^[A-Za-z]{3}$" }
+        - { name: pair_type, in: query, required: false, schema: { $ref: "#/components/schemas/RouteEvidencePairType" } }
+        - { name: basis, in: query, required: false, description: "Exact basis string.", schema: { type: string, maxLength: 120 } }
+        - name: bbox
+          in: query
+          required: false
+          description: "west,south,east,north in degrees (east may exceed 180 for antimeridian spans)."
+          schema: { type: string }
+        - { name: limit, in: query, required: false, schema: { type: integer, minimum: 1, maximum: 250, default: 100 } }
+        - { name: cursor, in: query, required: false, schema: { type: string, maxLength: 4096 } }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/RouteEvidencePageResponse" }
+        "400":
+          description: Invalid bbox or a cursor from different filters
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/route-evidence/sources:
+    get:
+      operationId: getRouteEvidenceSources
+      summary: Every publication (or TRACE transcription) cited by a route-evidence record
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/RouteEvidenceSourcesResponse" }
+
+  /api/route-evidence/{evidence_id}:
+    get:
+      operationId: getRouteEvidenceItem
+      summary: One route-evidence record
+      parameters:
+        - { name: evidence_id, in: path, required: true, schema: { type: string }, example: "cocaine:COL:ECU:unodc-cocaine-2023" }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/RouteEvidenceItemResponse" }
+        "404":
+          description: Unknown evidence id (code unknown_evidence)
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/evidence/values:
+    get:
+      operationId: listEvidenceValues
+      summary: Drillable values (research metric_ids and market derived_ids), paginated
+      description: >
+        Research values are TRACE's small retrospective research layer (research_values); market values are
+        exact-product UNODC price/purity derivations (market_derived). Sorted by kind (market, research) then id.
+        `drug` matches research drugs exactly and market substances by substring (meth -> methamphetamine).
+        Page with `meta.next_cursor`; `meta.total` counts all matches.
+      parameters:
+        - { name: iso3, in: query, required: false, schema: { type: string, pattern: "^[A-Za-z]{3}$" } }
+        - { name: drug, in: query, required: false, schema: { type: string, maxLength: 60 } }
+        - { name: year, in: query, required: false, schema: { type: integer } }
+        - { name: kind, in: query, required: false, schema: { type: string, enum: [research, market] } }
+        - { name: limit, in: query, required: false, schema: { type: integer, minimum: 1, maximum: 500, default: 100 } }
+        - { name: cursor, in: query, required: false, schema: { type: string, maxLength: 1024 } }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/EvidenceValuesResponse" }
+        "400":
+          description: A cursor from different filters
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/evidence/value/{value_id}:
+    get:
+      operationId: getEvidenceValue
+      summary: "Drilldown: value -> formula/version -> exact input rows -> source URL, edition and workbook cells"
+      description: >
+        `value_id` is a research `metric_id` or a market `derived_id` (digits). `support_count` is linked input rows,
+        not independent countries. `source_publication_year` is the source edition, never the collection date, and
+        is null when the source does not state one (World Bank; its `lastupdated` is in `inputs[].world_bank`).
+        Seizure inputs carry every published annex edition and label source-edition revisions.
+      parameters:
+        - { name: value_id, in: path, required: true, schema: { type: string, maxLength: 64 } }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/EvidenceValueResponse" }
+        "404":
+          description: Unknown value id
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/evidence/health/{iso3}:
+    get:
+      operationId: getEvidenceHealth
+      summary: Drug-use prevalence observations and SDG 3.5.1 treatment coverage (modelled vs country-reported)
+      description: >
+        Prevalence rows keep source-native population, age group, sex and reference period (UNODC WDR 2026 annex
+        1.2/1.4). Treatment coverage labels every row: nature_code M = officially modelled estimate, C = country
+        reported. `limit` caps each list; `total` counts all rows.
+      parameters:
+        - { name: iso3, in: path, required: true, schema: { type: string, pattern: "^[A-Za-z]{3}$" } }
+        - { name: reference_period, in: query, required: false, schema: { type: string, enum: [past_year, past_month, lifetime] } }
+        - { name: substance, in: query, required: false, description: "Exact prevalence substance or SDG substance group (case-insensitive).", schema: { type: string, maxLength: 80 } }
+        - { name: limit, in: query, required: false, schema: { type: integer, minimum: 1, maximum: 5000, default: 500 } }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/EvidenceHealthResponse" }
+        "404":
+          description: No health evidence rows for this code
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/evidence/overdose:
+    get:
+      operationId: getEvidenceOverdose
+      summary: CDC provisional 12-month-ending overdose deaths for one jurisdiction (exact CDC labels), paginated
+      description: >
+        12-month-ending provisional; periods overlap and must not be summed; drug classes overlap; suppressed values
+        are null. Sorted by period end, then indicator. Page with `meta.next_cursor`.
+      parameters:
+        - { name: state, in: query, required: false, description: "CDC jurisdiction code (US, NY, YC, ...).", schema: { type: string, pattern: "^[A-Za-z]{2}$", default: US } }
+        - { name: indicator, in: query, required: false, description: "Exact CDC indicator label.", schema: { type: string, maxLength: 120 } }
+        - { name: from_year, in: query, required: false, schema: { type: integer } }
+        - { name: to_year, in: query, required: false, schema: { type: integer } }
+        - { name: limit, in: query, required: false, schema: { type: integer, minimum: 1, maximum: 5000, default: 500 } }
+        - { name: cursor, in: query, required: false, schema: { type: string, maxLength: 1024 } }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/EvidenceOverdoseResponse" }
+        "400":
+          description: A cursor from different filters
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+        "404":
+          description: Unknown jurisdiction or indicator
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/evidence/research-model:
+    get:
+      operationId: getEvidenceResearchModel
+      summary: The single prespecified retrospective model (cocaine seizures vs next-year general homicide)
+      description: Retrospective ecological association only; not route validation, causal identification or a forecast.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/EvidenceResearchModelResponse" }
 
 components:
   schemas:
@@ -479,6 +678,16 @@ components:
       type: object
       required: [id, from, to, drug, year, volume_norm, kg, cases, confidence, signals, is_emerging, probability, drivers]
       properties:
+        evidence_ids:
+          type: array
+          items: { type: string }
+          description: Route-evidence ids (/api/route-evidence/{evidence_id}) supporting this drug/from/to, direct reported pairs first.
+        kg_basis:
+          type: string
+          enum: [allocated_seizure_scale, direct_pair_observation]
+          description: >
+            How `kg` was obtained. Always allocated_seizure_scale today (national seizure totals allocated over
+            documented corridors); no pair-level volumes are observed. direct_pair_observation is reserved.
         id: { type: string, example: "cocaine:COL:ECU" }
         from: { $ref: "#/components/schemas/Iso3" }
         to: { $ref: "#/components/schemas/Iso3" }
@@ -1082,12 +1291,14 @@ components:
         id: { type: string }
         name: { type: string }
         aliases: { type: array, items: { type: string } }
-        status: { type: string, enum: [convicted, charged, sanctioned, reported], description: "As established by the cited sources; charged is not convicted." }
+        status: { type: string, enum: [convicted, charged, sanctioned, reported], description: "Legal status as established by the cited sources; charged is not convicted. Never overwritten by lifeStatus." }
         statusAsOf: { type: string }
+        lifeStatus: { $ref: "#/components/schemas/PersonLifeStatus" }
+        legalHistory: { type: array, items: { $ref: "#/components/schemas/PersonLegalStatus" }, description: "Dated legal-status claims, newest first. Present only when the manifest supplies it." }
         roleLabel: { type: string }
         prominence: { type: integer, enum: [1, 2, 3], description: "Zoom tier at which the person appears without a search." }
         organizationIds: { type: array, items: { type: string } }
-        regions: { type: array, items: { $ref: "#/components/schemas/PersonRegion" } }
+        regions: { type: array, items: { $ref: "#/components/schemas/PersonRegion" }, description: "May be empty when no country is sourced (see unlocated=1)." }
         drugs: { type: array, items: { type: string } }
         photo:
           type: object
@@ -1134,7 +1345,7 @@ components:
 
     PeoplePageMeta:
       allOf:
-        - { $ref: "#/components/schemas/ResponseMeta" }
+        - { $ref: "#/components/schemas/PeopleMeta" }
         - type: object
           required: [total, next_cursor]
           properties:
@@ -1163,7 +1374,7 @@ components:
       type: object
       required: [meta, data]
       properties:
-        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        meta: { $ref: "#/components/schemas/PeopleMeta" }
         data:
           type: array
           items:
@@ -1178,7 +1389,7 @@ components:
       type: object
       required: [meta, data]
       properties:
-        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        meta: { $ref: "#/components/schemas/PeopleMeta" }
         data:
           type: object
           required: [person, organizations, connections]
@@ -1186,3 +1397,495 @@ components:
             person: { $ref: "#/components/schemas/Person" }
             organizations: { type: array, items: { $ref: "#/components/schemas/Organization" } }
             connections: { type: array, items: { $ref: "#/components/schemas/Connection" } }
+
+    PeopleSnapshot:
+      type: object
+      description: Which copy of the People manifest answered. `github-main` is re-read from the repo's main branch at most every TRACE_PEOPLE_REFRESH_SECONDS; `bundled` is the copy packaged with the deployment.
+      required: [origin, fetched_at]
+      properties:
+        origin: { type: string, enum: [github-main, bundled] }
+        fetched_at: { type: [string, "null"], format: date-time, description: "When the github-main copy was last fetched or revalidated; null for bundled." }
+
+    PeopleMeta:
+      description: ResponseMeta plus the People snapshot provenance; used by every /api/people* response.
+      allOf:
+        - { $ref: "#/components/schemas/ResponseMeta" }
+        - type: object
+          properties:
+            people_snapshot: { $ref: "#/components/schemas/PeopleSnapshot" }
+
+    PersonLifeStatus:
+      type: object
+      description: >
+        Optional biographical status, independent of legal `status`: a death never replaces a charge, conviction or
+        sanction. Omitted when not established by a source. Invalid entries are dropped, not fatal.
+      required: [value, source]
+      properties:
+        value: { type: string, enum: [deceased, unknown] }
+        deathDate: { type: string, pattern: "^\\d{4}(-\\d{2}(-\\d{2})?)?$", description: "Only with value=deceased; YYYY, YYYY-MM or YYYY-MM-DD as precise as the source." }
+        asOf: { type: string, pattern: "^\\d{4}-\\d{2}-\\d{2}$", description: "Date the source establishes this status." }
+        source: { $ref: "#/components/schemas/PeopleSource" }
+
+    PersonLegalStatus:
+      type: object
+      description: >
+        One dated legal-status claim as its source states it. A historical charge does not imply the case is pending
+        today; `qualifier` carries the legal wording (e.g. "indicted; allegations only", "conviction on appeal").
+      required: [status, date, qualifier, source]
+      properties:
+        status: { type: string, enum: [reported, arrested, charged, convicted, sentenced, acquitted, dismissed, sanctioned, delisted, extradited, released] }
+        date: { type: string, pattern: "^\\d{4}(-\\d{2}(-\\d{2})?)?$", description: "Date the source gives, as precise as it states." }
+        qualifier: { type: string, minLength: 1 }
+        jurisdiction: { type: string, minLength: 1 }
+        source: { $ref: "#/components/schemas/PeopleSource" }
+
+    RouteEvidencePairType:
+      type: string
+      enum: [direct_reported_pair, interpreted_corridor, narrative_context]
+
+    RouteEvidenceSource:
+      type: object
+      required: [id, publisher, title, publication_year, url]
+      properties:
+        id: { type: string }
+        publisher: { type: string }
+        title: { type: string }
+        publication_year: { type: integer }
+        url: { type: string, format: uri }
+
+    RouteEvidenceCitation:
+      description: An original publication behind an interpreted corridor (seed/README.md citation key).
+      type: object
+      required: [key, publisher, title, publication_year, url]
+      properties:
+        key: { type: string, example: "WDR2026-7.3.1" }
+        publisher: { type: string }
+        title: { type: string }
+        publication_year: { type: integer }
+        url: { type: [string, "null"], description: "Null where the repo does not yet cite a URL for this key." }
+
+    RouteEvidence:
+      type: object
+      required: [id, drug, from, to, geography_from, geography_to, pair_type, basis, period, source, source_locator,
+                 citations, original_excerpt, geometry_precision, caveat, supports_edge_ids]
+      properties:
+        id: { type: string, example: "cocaine:COL:ECU:unodc-cocaine-2023", description: "drug:FROM:TO:source_id (narrative: drug:claim:claim_id:source_id)." }
+        drug: { $ref: "#/components/schemas/Drug" }
+        from: { type: [string, "null"], pattern: "^[A-Z]{3}$", description: "Null for narrative_context." }
+        to: { type: [string, "null"], pattern: "^[A-Z]{3}$", description: "Null for narrative_context." }
+        geography_from: { type: [string, "null"], description: "Regional text (narrative_context only)." }
+        geography_to: { type: [string, "null"], description: "Regional text (narrative_context only)." }
+        pair_type: { $ref: "#/components/schemas/RouteEvidencePairType" }
+        basis:
+          type: string
+          description: >
+            direct_reported_pair: `reported seizure origin/destination`, `reported provenance` or `official route
+            assessment`. interpreted_corridor: `regional route map (TRACE transcription)`, `report text (TRACE
+            transcription)` or `regional route map and report text (TRACE transcription)`. narrative_context:
+            `published aggregate context (reported departures)`.
+        period:
+          description: "[start, end] evidence period, or null when the source gives none (publication year is not an observation)."
+          type: [array, "null"]
+          items: { type: integer }
+          minItems: 2
+          maxItems: 2
+        source: { $ref: "#/components/schemas/RouteEvidenceSource" }
+        source_locator: { type: string, description: "Exact page, section, paragraph or bullet in the source." }
+        citations: { type: array, items: { $ref: "#/components/schemas/RouteEvidenceCitation" } }
+        original_excerpt: { type: [string, "null"] }
+        geometry_precision:
+          type: string
+          description: "`country pair`, `country pair interpreted from regional map/text`, or `regional text (...)`. Never city-level."
+        caveat: { type: string }
+        supports_edge_ids:
+          type: array
+          description: /api/routes edge ids (drug:FROM:TO) this record supports; empty for narrative_context.
+          items: { type: string }
+
+    RouteEvidencePageMeta:
+      allOf:
+        - { $ref: "#/components/schemas/ResponseMeta" }
+        - type: object
+          required: [total, next_cursor]
+          properties:
+            total: { type: integer, minimum: 0, description: "Records matching the filters (all pages)." }
+            next_cursor: { type: [string, "null"] }
+
+    RouteEvidencePageResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/RouteEvidencePageMeta" }
+        data: { type: array, items: { $ref: "#/components/schemas/RouteEvidence" } }
+
+    RouteEvidenceItemResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data: { $ref: "#/components/schemas/RouteEvidence" }
+
+    RouteEvidenceSourcesResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: array
+          items:
+            allOf:
+              - { $ref: "#/components/schemas/RouteEvidenceSource" }
+              - type: object
+                required: [layer]
+                properties:
+                  layer: { $ref: "#/components/schemas/RouteEvidencePairType" }
+
+    EvidencePageMeta:
+      allOf:
+        - { $ref: "#/components/schemas/ResponseMeta" }
+        - type: object
+          required: [total, next_cursor]
+          properties:
+            total: { type: integer, minimum: 0, description: "Rows matching the filters (all pages)." }
+            next_cursor: { type: [string, "null"] }
+
+    EvidenceKind: { type: string, enum: [research, market] }
+
+    EvidenceValueSummary:
+      type: object
+      required: [id, kind, metric_key, label, iso3, drug, year, value, unit]
+      properties:
+        id: { type: string, description: "Research metric_id, or market derived_id as a string of digits." }
+        kind: { $ref: "#/components/schemas/EvidenceKind" }
+        metric_key: { type: string, example: seizure_edition_revision_pct }
+        label: { type: string }
+        iso3: { type: [string, "null"] }
+        drug: { type: [string, "null"], description: "Research drug, or the exact market substance." }
+        year: { type: [integer, "null"] }
+        value: { type: number }
+        unit: { type: string }
+
+    EvidenceValuesResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/EvidencePageMeta" }
+        data:
+          type: object
+          required: [values]
+          properties:
+            values: { type: array, items: { $ref: "#/components/schemas/EvidenceValueSummary" } }
+
+    EvidenceFormula:
+      type: object
+      required: [expression, version, selection_rule, interpretation]
+      properties:
+        expression: { type: string }
+        version: { type: [integer, "null"], description: "Research metric definition version; null for market values." }
+        selection_rule: { type: [string, "null"], description: "Research selection rule, or market eligibility rule." }
+        interpretation: { type: [string, "null"] }
+
+    EvidenceCell:
+      description: One original workbook cell (unodc_cells or market_cells).
+      type: object
+      required: [col_no, value_text, value_number, value_type, italic]
+      properties:
+        col_no: { type: integer }
+        value_text: { type: [string, "null"] }
+        value_number: { type: [number, "null"] }
+        value_type: { type: [string, "null"], example: number }
+        italic: { type: boolean }
+
+    EvidenceSourceRow:
+      description: The source workbook row behind an input, with its parsed observation and every original cell.
+      type: object
+      required: [source_id, sheet, row_no, observation, cells]
+      properties:
+        source_id: { type: string }
+        sheet: { type: string }
+        row_no: { type: integer }
+        observation:
+          description: The parsed unodc_seizure_observations or market_observations row (null if missing).
+          type: [object, "null"]
+        cells: { type: array, items: { $ref: "#/components/schemas/EvidenceCell" } }
+
+    EvidenceWorldBank:
+      type: object
+      required: [indicator_code, source_id, iso3, year, lastupdated, download_url, request_id]
+      properties:
+        indicator_code: { type: string, example: VC.IHR.PSRC.P5 }
+        source_id: { type: integer, example: 2 }
+        iso3: { type: string }
+        year: { type: integer }
+        lastupdated: { type: [string, "null"], description: "World Bank dataset lastupdated; not a publication year." }
+        lastupdated_note: { type: string }
+        download_url: { type: string, description: "wb_downloads.url of the API page the value came from." }
+        request_id: { type: string }
+        retrieved_at: { type: [string, "null"] }
+        sha256: { type: [string, "null"] }
+
+    EvidenceSeizureEdition:
+      type: object
+      required: [edition, kg, source_id]
+      properties:
+        edition: { type: integer }
+        kg: { type: [number, "null"] }
+        source_id: { type: string }
+
+    EvidenceInput:
+      type: object
+      required: [role, source_table, source_key, source_url, publication_year, observation_year, input_value, input_unit,
+                 transform]
+      properties:
+        role: { type: string, example: predictor_source_row }
+        source_table: { type: string, enum: [seizures_annex, unodc_seizure_observations, wb_indicators, market_observations] }
+        source_key: { type: string, example: "unodc_seizure_observations:hist2012_Seizures|sSeizuresA|670" }
+        source_id: { type: [string, "null"] }
+        source_url: { type: [string, "null"] }
+        source_title: { type: [string, "null"] }
+        source_checksum: { type: [string, "null"] }
+        publication_year: { type: [integer, "null"] }
+        observation_year: { type: [integer, "null"] }
+        input_value: { type: [number, "null"] }
+        input_unit: { type: [string, "null"] }
+        transform: { type: [string, "null"] }
+        source_row: { oneOf: [{ $ref: "#/components/schemas/EvidenceSourceRow" }, { type: "null" }] }
+        world_bank: { $ref: "#/components/schemas/EvidenceWorldBank" }
+        edition: { type: integer, description: "seizures_annex inputs: the annex edition this input used." }
+        editions:
+          description: "seizures_annex inputs: every published annex edition for this country, year and drug."
+          type: array
+          items: { $ref: "#/components/schemas/EvidenceSeizureEdition" }
+        revised_between_editions: { type: boolean }
+        revision_label: { type: [string, "null"] }
+
+    EvidenceMarketSource:
+      type: object
+      required: [source_id, url, edition, sha256]
+      properties:
+        source_id: { type: string }
+        url: { type: [string, "null"] }
+        edition: { type: [integer, "null"] }
+        sha256: { type: [string, "null"] }
+        retrieved_at: { type: [string, "null"] }
+        citation: { type: [string, "null"] }
+        license_note: { type: [string, "null"] }
+
+    EvidenceValue:
+      type: object
+      required: [id, kind, metric_key, label, iso3, drug, year, value, unit, formula, support_count, support_count_basis,
+                 observation_year, source_publication_year, source_title, source_url, source_key, quality_flags, caveat,
+                 revision_label, inputs, market, regression_sample]
+      properties:
+        id: { type: string }
+        kind: { $ref: "#/components/schemas/EvidenceKind" }
+        metric_key: { type: string }
+        label: { type: string }
+        iso3: { type: [string, "null"] }
+        drug: { type: [string, "null"] }
+        year: { type: [integer, "null"] }
+        value: { type: number }
+        unit: { type: string }
+        numerator: { type: [number, "null"] }
+        denominator: { type: [number, "null"] }
+        formula: { $ref: "#/components/schemas/EvidenceFormula" }
+        support_count: { type: integer, minimum: 1, description: "Linked input rows, not independent countries." }
+        support_count_basis: { type: string }
+        observation_year: { type: [integer, "null"] }
+        source_publication_year: { type: [integer, "null"], description: "Source edition; never the collection date." }
+        first_publication_year: { type: [integer, "null"] }
+        last_publication_year: { type: [integer, "null"] }
+        source_title: { type: [string, "null"] }
+        source_url: { type: [string, "null"] }
+        source_key: { type: [string, "null"] }
+        quality_flags: { type: array, items: { type: string } }
+        caveat: { type: [string, "null"] }
+        revision_label: { type: [string, "null"], description: "Set when a source-edition seizure revision is involved." }
+        inputs: { type: array, items: { $ref: "#/components/schemas/EvidenceInput" } }
+        market:
+          oneOf:
+            - type: "null"
+            - type: object
+              required: [substance, form, market_level, source]
+              properties:
+                substance: { type: string }
+                form: { type: [string, "null"] }
+                market_level: { type: [string, "null"] }
+                source: { $ref: "#/components/schemas/EvidenceMarketSource" }
+        regression_sample:
+          oneOf:
+            - type: "null"
+            - type: object
+              required: [sample_id, seizure_year, outcome_year, log1p_seizure_kg, homicide_per_100k]
+              properties:
+                sample_id: { type: string }
+                seizure_year: { type: integer }
+                outcome_year: { type: integer }
+                log1p_seizure_kg: { type: number }
+                homicide_per_100k: { type: number }
+
+    EvidenceValueResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data: { $ref: "#/components/schemas/EvidenceValue" }
+
+    EvidenceHealthSource:
+      type: object
+      required: [source_id, title, url, edition_year]
+      properties:
+        source_id: { type: string }
+        title: { type: [string, "null"] }
+        publisher: { type: [string, "null"] }
+        url: { type: [string, "null"] }
+        edition_year: { type: [integer, "null"] }
+
+    EvidencePrevalenceRow:
+      type: object
+      required: [substance, year, reference_period, population, age_group, sex, value_pct, low_pct, high_pct,
+                 estimate_status, estimate_label, method, source, source_row]
+      properties:
+        substance: { type: string }
+        substance_detail: { type: [string, "null"] }
+        year: { type: [integer, "null"] }
+        year_text: { type: [string, "null"] }
+        reference_period: { type: string, enum: [past_year, past_month, lifetime] }
+        population: { type: string }
+        age_group: { type: [string, "null"] }
+        sex: { type: [string, "null"] }
+        value_pct: { type: [number, "null"] }
+        low_pct: { type: [number, "null"] }
+        high_pct: { type: [number, "null"] }
+        estimate_status: { type: string, enum: [published_estimate, source_reported] }
+        estimate_label: { type: string }
+        method: { type: [string, "null"] }
+        attribution: { type: [string, "null"] }
+        adjustment_note: { type: [string, "null"] }
+        notes: { type: [string, "null"] }
+        source: { $ref: "#/components/schemas/EvidenceHealthSource" }
+        source_row:
+          type: object
+          required: [sheet, row_no, cell_no]
+          properties:
+            sheet: { type: string }
+            row_no: { type: integer }
+            cell_no: { type: integer }
+
+    EvidenceCoverageRow:
+      type: object
+      required: [year, substance_group, sex, value_pct, lower_pct, upper_pct, nature_code, nature_label, modelled, source]
+      properties:
+        year: { type: integer }
+        substance_group: { type: string, example: DRUG_TOTAL }
+        sex: { type: string, example: BOTHSEX }
+        value_pct: { type: number }
+        lower_pct: { type: [number, "null"] }
+        upper_pct: { type: [number, "null"] }
+        nature_code: { type: string, enum: [M, C] }
+        nature_label: { type: string, description: "Explicit: officially modelled estimate (M) or country-reported data (C)." }
+        modelled: { type: boolean }
+        attribution: { type: [string, "null"] }
+        footnotes: { type: array, items: { type: string } }
+        source: { $ref: "#/components/schemas/EvidenceHealthSource" }
+        source_row_no: { type: integer }
+
+    EvidenceHealthResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: object
+          required: [iso3, prevalence, treatment_coverage]
+          properties:
+            iso3: { type: string, pattern: "^[A-Z]{3}$" }
+            prevalence:
+              type: object
+              required: [total, rows, label]
+              properties:
+                total: { type: integer, minimum: 0 }
+                rows: { type: array, items: { $ref: "#/components/schemas/EvidencePrevalenceRow" } }
+                label: { type: string }
+            treatment_coverage:
+              type: object
+              required: [total, rows, label, nature_labels]
+              properties:
+                total: { type: integer, minimum: 0 }
+                rows: { type: array, items: { $ref: "#/components/schemas/EvidenceCoverageRow" } }
+                label: { type: string }
+                nature_labels:
+                  type: object
+                  required: [M, C]
+                  properties:
+                    M: { type: string }
+                    C: { type: string }
+
+    EvidenceOverdoseRow:
+      type: object
+      required: [period_end, end_year, end_month, period_kind, indicator, metric_kind, unit, reported_value,
+                 predicted_value, percent_complete, suppressed, status]
+      properties:
+        period_end: { type: string, pattern: "^\\d{4}-\\d{2}$", description: "Last month of the 12-month window." }
+        end_year: { type: integer }
+        end_month: { type: integer, minimum: 1, maximum: 12 }
+        period_kind: { type: string, example: "12 month-ending" }
+        indicator: { type: string, description: "Exact CDC label, e.g. Synthetic opioids, excl. methadone (T40.4)." }
+        metric_kind: { type: string }
+        unit: { type: string, example: deaths }
+        reported_value: { type: [number, "null"], description: "Null when suppressed or unavailable." }
+        predicted_value: { type: [number, "null"] }
+        percent_complete: { type: [number, "null"] }
+        percent_pending_investigation: { type: [number, "null"] }
+        suppressed: { type: boolean }
+        status: { type: string, enum: [provisional] }
+        footnote: { type: [string, "null"] }
+        footnote_symbol: { type: [string, "null"] }
+
+    EvidenceOverdoseResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/EvidencePageMeta" }
+        data:
+          type: object
+          required: [state, state_name, label, indicators, source_url, source_publication_year, rows]
+          properties:
+            state: { type: string }
+            state_name: { type: [string, "null"] }
+            label: { type: string }
+            indicators: { type: array, items: { type: string } }
+            source_url: { type: string }
+            source_publication_year: { type: "null" }
+            rows: { type: array, items: { $ref: "#/components/schemas/EvidenceOverdoseRow" } }
+
+    EvidenceResearchModelResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: object
+          required: [model_key, specification, outcome, predictor, coefficient, standard_error, p_value, ci_low, ci_high,
+                     n, countries, cluster_count, caveat, interpretation, metric_key, sample_rows]
+          properties:
+            model_key: { type: string }
+            specification: { type: string }
+            outcome: { type: string }
+            predictor: { type: string }
+            coefficient: { type: number }
+            standard_error: { type: number }
+            p_value: { type: number }
+            ci_low: { type: number }
+            ci_high: { type: number }
+            n: { type: integer }
+            countries: { type: integer }
+            first_predictor_year: { type: integer }
+            last_predictor_year: { type: integer }
+            cluster_count: { type: integer }
+            r_squared: { type: [number, "null"] }
+            caveat: { type: string }
+            computed_at: { type: string }
+            interpretation: { type: string }
+            metric_key: { type: string }
+            sample_rows: { type: integer }

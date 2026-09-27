@@ -9,7 +9,11 @@
     ],
     "total": 5,
     "total_connections": 5,
-    "next_cursor": null
+    "next_cursor": null,
+    "people_snapshot": {
+      "origin": "bundled",
+      "fetched_at": null
+    }
   },
   "data": {
     "people": [

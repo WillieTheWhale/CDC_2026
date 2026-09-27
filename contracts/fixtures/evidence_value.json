@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "generated_at": "2026-09-27T00:52:07+00:00",
+    "model_version": "trace-0.1.0",
+    "sources": [
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (API source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2",
+        "citation": "World Bank, World Development Indicators, via Indicators API v2 (CC BY 4.0)."
+      },
+      {
+        "id": "trace_research_v2",
+        "name": "TRACE research layer (SQLite v2 research_* tables)",
+        "url": "https://github.com/WillieTheWhale/CDC_2026/blob/main/data_collection/schema_v2.md",
+        "citation": "TRACE retrospective research values, each linked to its exact source rows."
+      },
+      {
+        "id": "unodc_wdr_editions",
+        "name": "UNODC World Drug Report statistical annex, editions 2012, 2015, 2020 and 2026",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026.html",
+        "citation": "UNODC, World Drug Report statistical annexes (seizure and price/purity workbooks, each edition as published)."
+      }
+    ],
+    "notes": [
+      "Linked input rows (each aggregate plus its underlying source rows), not independent countries.",
+      "source_publication_year is the source edition, never the TRACE collection date; null where the source does not state one.",
+      "National seizures show where a seizure was recorded, not an observed route."
+    ]
+  },
+  "data": {
+    "id": "3c54054899aacd1afe94922f",
+    "kind": "research",
+    "metric_key": "cocaine_seizure_next_homicide",
+    "label": "Cocaine seizures and next-year homicide pair",
+    "iso3": "COL",
+    "drug": "cocaine",
+    "year": 2015,
+    "value": 26.1438669043183,
+    "unit": "per 100,000",
+    "numerator": 26.1438669043183,
+    "denominator": null,
+    "formula": {
+      "expression": "value = World Bank general-population homicide rate in year t+1; model predictor = log(1 + UNODC cocaine seizure kg at t)",
+      "version": 1,
+      "selection_rule": "Latest published annex edition for country/year/drug; matched non-null World Bank next-year homicide; observed years only",
+      "interpretation": "Ecological, retrospective association. No route exposure or drug-specific mortality is observed."
+    },
+    "support_count": 5,
+    "support_count_basis": "Linked input rows (each aggregate plus its underlying source rows), not independent countries.",
+    "observation_year": 2016,
+    "source_publication_year": null,
+    "first_publication_year": 2026,
+    "last_publication_year": 2026,
+    "source_title": "World Bank WDI: Intentional homicides (per 100,000 people)",
+    "source_url": "https://api.worldbank.org/v2/country/all/indicator/VC.IHR.PSRC.P5?format=json&per_page=10000&source=2&footnote=y&ctrycode=y&page=1",
+    "source_key": "wb_indicators:COL|2016|VC.IHR.PSRC.P5|2",
+    "quality_flags": [
+      "retrospective_latest_edition",
+      "seizure_input_revised_between_editions"
+    ],
+    "caveat": "Ecological, retrospective association. No route exposure or drug-specific mortality is observed.",
+    "revision_label": "Source-edition revision: the same country, year and drug was published with a different value in a later annex edition. This is a reporting revision, not a real-world change in flows.",
+    "inputs": [
+      {
+        "role": "outcome",
+        "source_table": "wb_indicators",
+        "source_key": "wb_indicators:COL|2016|VC.IHR.PSRC.P5|2",
+        "source_id": "532a57c594e016f8f01cd873f17ef58263f2312a96c2a3b7a6e37cdc74cecaa6",
+        "source_url": "https://api.worldbank.org/v2/country/all/indicator/VC.IHR.PSRC.P5?format=json&per_page=10000&source=2&footnote=y&ctrycode=y&page=1",
+        "publication_year": null,
+        "observation_year": 2016,
+        "input_value": 26.1438669043183,
+        "input_unit": "per 100,000",
+        "transform": "next-year general-population homicide rate; World Bank lastupdated=2026-07-13; retrieved in 2026",
+        "source_title": "World Bank WDI: Intentional homicides (per 100,000 people)",
+        "world_bank": {
+          "indicator_code": "VC.IHR.PSRC.P5",
+          "source_id": 2,
+          "iso3": "COL",
+          "year": 2016,
+          "lastupdated": "2026-07-13",
+          "lastupdated_note": "World Bank dataset lastupdated; not asserted as a publication year.",
+          "download_url": "https://api.worldbank.org/v2/country/all/indicator/VC.IHR.PSRC.P5?format=json&per_page=10000&source=2&footnote=y&ctrycode=y&page=1",
+          "request_id": "532a57c594e016f8f01cd873f17ef58263f2312a96c2a3b7a6e37cdc74cecaa6",
+          "retrieved_at": "2026-09-26T18:33:40+00:00",
+          "sha256": "5dd5ff7b5c58b0b26cdb7d895a50684429b1e734885fa8a09f31d1d89adca4d4"
+        }
+      },
+      {
+        "role": "predictor",
+        "source_table": "seizures_annex",
+        "source_key": "seizures_annex:COL|2015|cocaine|2026",
+        "source_id": "seizures",
+        "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/7.1_Drug_seizures_2015-2024.xlsx",
+        "publication_year": 2026,
+        "observation_year": 2015,
+        "input_value": 298647.67,
+        "input_unit": "kg",
+        "transform": "sum of linked source rows",
+        "source_title": "UNODC World Drug Report 2026 statistical annex: 7.1_Drug_seizures_2015-2024.xlsx",
+        "source_checksum": "5511c9a3bdbe3b7ec47af3d97a29fade98574eb4578629b787716cd74640c45e",
+        "editions": [
+          {
+            "edition": 2020,
+            "kg": 298648.11,
+            "source_id": "hist2020_7.1._Drug_Seizures_2014-2018"
+          },
+          {
+            "edition": 2026,
+            "kg": 298647.67,
+            "source_id": "seizures"
+          }
+        ],
+        "edition": 2026,
+        "revised_between_editions": true,
+        "revision_label": "Source-edition revision: the same country, year and drug was published with a different value in a later annex edition. This is a reporting revision, not a real-world change in flows."
+      },
+      {
+        "role": "predictor_source_row",
+        "source_table": "unodc_seizure_observations",
+        "source_key": "unodc_seizure_observations:seizures|Seizures|335",
+        "source_id": "seizures",
+        "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/7.1_Drug_seizures_2015-2024.xlsx",
+        "publication_year": 2026,
+        "observation_year": 2015,
+        "input_value": 42657.54,
+        "input_unit": "kg",
+        "transform": "kg_trace_equivalent=42657.54; source workbook row; all cells in unodc_cells",
+        "source_title": "UNODC World Drug Report 2026 statistical annex: 7.1_Drug_seizures_2015-2024.xlsx",
+        "source_checksum": "5511c9a3bdbe3b7ec47af3d97a29fade98574eb4578629b787716cd74640c45e",
+        "source_row": {
+          "source_id": "seizures",
+          "sheet": "Seizures",
+          "row_no": 335,
+          "observation": {
+            "source_id": "seizures",
+            "sheet": "Seizures",
+            "row_no": 335,
+            "iso3": "COL",
+            "country": "Colombia",
+            "year": 2015,
+            "drug_group": "Cocaine-type",
+            "drug_raw": "Coca paste/refined cocaine base (intermediate products) (please specify)",
+            "quantity": 42657.54,
+            "unit": "kg",
+            "drug": "cocaine",
+            "kg_trace_equivalent": 42657.54,
+            "notes": {
+              "Source": "ARQ",
+              "Footnote": ""
+            }
+          },
+          "cells": [
+            {
+              "col_no": 1,
+              "value_text": "COL",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 2,
+              "value_text": "Americas",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 3,
+              "value_text": "South America",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 4,
+              "value_text": "Colombia",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 5,
+              "value_text": "Cocaine-type",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 6,
+              "value_text": "Cocaine",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 7,
+              "value_text": "Coca paste/refined cocaine base (intermediate products) (please specify)",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 8,
+              "value_text": "2015.0",
+              "value_number": 2015.0,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 9,
+              "value_text": "42657.54",
+              "value_number": 42657.54,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 10,
+              "value_text": "ARQ",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 11,
+              "value_text": "",
+              "value_number": null,
+              "value_type": "blank",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "role": "predictor_source_row",
+        "source_table": "unodc_seizure_observations",
+        "source_key": "unodc_seizure_observations:seizures|Seizures|336",
+        "source_id": "seizures",
+        "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/7.1_Drug_seizures_2015-2024.xlsx",
+        "publication_year": 2026,
+        "observation_year": 2015,
+        "input_value": 253591.15,
+        "input_unit": "kg",
+        "transform": "kg_trace_equivalent=253591.15; source workbook row; all cells in unodc_cells",
+        "source_title": "UNODC World Drug Report 2026 statistical annex: 7.1_Drug_seizures_2015-2024.xlsx",
+        "source_checksum": "5511c9a3bdbe3b7ec47af3d97a29fade98574eb4578629b787716cd74640c45e",
+        "source_row": {
+          "source_id": "seizures",
+          "sheet": "Seizures",
+          "row_no": 336,
+          "observation": {
+            "source_id": "seizures",
+            "sheet": "Seizures",
+            "row_no": 336,
+            "iso3": "COL",
+            "country": "Colombia",
+            "year": 2015,
+            "drug_group": "Cocaine-type",
+            "drug_raw": "Cocaine hydrochloride",
+            "quantity": 253591.15,
+            "unit": "kg",
+            "drug": "cocaine",
+            "kg_trace_equivalent": 253591.15,
+            "notes": {
+              "Source": "ARQ",
+              "Footnote": ""
+            }
+          },
+          "cells": [
+            {
+              "col_no": 1,
+              "value_text": "COL",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 2,
+              "value_text": "Americas",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 3,
+              "value_text": "South America",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 4,
+              "value_text": "Colombia",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 5,
+              "value_text": "Cocaine-type",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 6,
+              "value_text": "Cocaine",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 7,
+              "value_text": "Cocaine hydrochloride",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 8,
+              "value_text": "2015.0",
+              "value_number": 2015.0,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 9,
+              "value_text": "253591.15",
+              "value_number": 253591.15,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 10,
+              "value_text": "ARQ",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 11,
+              "value_text": "",
+              "value_number": null,
+              "value_type": "blank",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "role": "predictor_source_row",
+        "source_table": "unodc_seizure_observations",
+        "source_key": "unodc_seizure_observations:seizures|Seizures|337",
+        "source_id": "seizures",
+        "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/7.1_Drug_seizures_2015-2024.xlsx",
+        "publication_year": 2026,
+        "observation_year": 2015,
+        "input_value": 2398.98,
+        "input_unit": "kg",
+        "transform": "kg_trace_equivalent=2398.98; source workbook row; all cells in unodc_cells",
+        "source_title": "UNODC World Drug Report 2026 statistical annex: 7.1_Drug_seizures_2015-2024.xlsx",
+        "source_checksum": "5511c9a3bdbe3b7ec47af3d97a29fade98574eb4578629b787716cd74640c45e",
+        "source_row": {
+          "source_id": "seizures",
+          "sheet": "Seizures",
+          "row_no": 337,
+          "observation": {
+            "source_id": "seizures",
+            "sheet": "Seizures",
+            "row_no": 337,
+            "iso3": "COL",
+            "country": "Colombia",
+            "year": 2015,
+            "drug_group": "Cocaine-type",
+            "drug_raw": "Other smokable forms of cocaine (consumer products such as basuco, merla, paco, pasta base, etc.) (please specify)",
+            "quantity": 2398.98,
+            "unit": "kg",
+            "drug": "cocaine",
+            "kg_trace_equivalent": 2398.98,
+            "notes": {
+              "Source": "ARQ",
+              "Footnote": "Basuco"
+            }
+          },
+          "cells": [
+            {
+              "col_no": 1,
+              "value_text": "COL",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 2,
+              "value_text": "Americas",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 3,
+              "value_text": "South America",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 4,
+              "value_text": "Colombia",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 5,
+              "value_text": "Cocaine-type",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 6,
+              "value_text": "Cocaine",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 7,
+              "value_text": "Other smokable forms of cocaine (consumer products such as basuco, merla, paco, pasta base, etc.) (please specify)",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 8,
+              "value_text": "2015.0",
+              "value_number": 2015.0,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 9,
+              "value_text": "2398.98",
+              "value_number": 2398.98,
+              "value_type": "number",
+              "italic": false
+            },
+            {
+              "col_no": 10,
+              "value_text": "ARQ",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            },
+            {
+              "col_no": 11,
+              "value_text": "Basuco",
+              "value_number": null,
+              "value_type": "text",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ],
+    "market": null,
+    "regression_sample": {
+      "sample_id": "dfad67c12e5fb1a63e00ddc7",
+      "seizure_year": 2015,
+      "outcome_year": 2016,
+      "log1p_seizure_kg": 12.607023144777022,
+      "homicide_per_100k": 26.1438669043183
+    }
+  }
+}
