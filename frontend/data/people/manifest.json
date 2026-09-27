@@ -58325,12 +58325,12 @@
       ]
     },
     {
-      "id": "victor-roy-baez-paraguay-zafiro-2009-case",
-      "name": "Víctor Roy Báez",
+      "id": "victor-luis-roy-baez-paraguay-zafiro-2009-case",
+      "name": "Víctor Luis Roy Báez",
       "aliases": [],
       "status": "convicted",
       "statusAsOf": "2010-03-25",
-      "roleLabel": "High-sentence principal convicted in the Zafiro marijuana-trafficking case; 20-year term affirmed on appeal",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 20-year verdict, affirmed on appeal in 2010",
       "prominence": 2,
       "organizationIds": [
         "paraguay-zafiro-2009-case"
@@ -58340,9 +58340,9 @@
           "iso3": "PRY",
           "label": "Paraguay",
           "evidence": {
-            "claim": "Víctor Roy Báez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "claim": "Víctor Luis Roy Báez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
             "period": "2005",
-            "sourceUrl": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro"
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
           }
         }
       ],
@@ -58351,62 +58351,59 @@
       ],
       "sources": [
         {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Víctor Luis Roy Báez an Article 26 drug-trafficking count and a 20-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
           "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
           "title": "Ratifican condena para los procesados por el caso Zafiro",
           "publisher": "Poder Judicial del Paraguay",
           "language": "es",
-          "claim": "The Paraguayan judiciary individually names Víctor Roy Báez among the high-sentence Zafiro appellants, reports a 20-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
+          "claim": "Corroborates Víctor Luis Roy Báez in the same drug case and documents the reported disposition.",
           "publishedAt": "2010-03-25"
-        },
-        {
-          "url": "https://www.pj.gov.py/notas/2769-procesados-del-caso-zafiro-recibieron-condenas-de-6-a-20-anos",
-          "title": "Procesados del caso Zafiro recibieron condenas de 6 a 20 años",
-          "publisher": "Poder Judicial del Paraguay",
-          "language": "es",
-          "claim": "Corroborates Víctor Roy Báez in the same drug case and documents the reported disposition.",
-          "publishedAt": "2009-08-21"
         }
       ],
       "events": [
         {
-          "id": "victor-roy-baez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "id": "victor-luis-roy-baez-paraguay-zafiro-2009-case-2009-08-21-case-event",
           "occurredAt": "2009-08-21",
           "type": "conviction",
-          "title": "Zafiro case verdict",
-          "summary": "Víctor Roy Báez: High-sentence principal convicted in the Zafiro marijuana-trafficking case; 20-year term affirmed on appeal. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Víctor Luis Roy Báez: Convicted of drug trafficking in the 2009 Zafiro case; 20-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The Paraguayan judiciary individually names Víctor Roy Báez among the high-sentence Zafiro appellants, reports a 20-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
-            "publishedAt": "2010-03-25"
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Víctor Luis Roy Báez an Article 26 drug-trafficking count and a 20-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
           }
         },
         {
-          "id": "victor-roy-baez-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "id": "victor-luis-roy-baez-paraguay-zafiro-2009-case-2010-03-24-appeal",
           "occurredAt": "2010-03-24",
           "type": "development",
-          "title": "Drug-case sentence affirmed",
-          "summary": "The Paraguayan appellate court affirmed Víctor Roy Báez’s 20-year Zafiro sentence. This is an appeal outcome for the 2009 case.",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Víctor Luis Roy Báez; the trial court had imposed a 20-year sentence. This is a historical appeal outcome, not evidence of current custody.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The judiciary individually names Víctor Roy Báez and reports the appellate affirmance on the day before its 2010-03-25 notice.",
-            "publishedAt": "2010-03-25"
+            "claim": "The appellate judgment individually lists Víctor Luis Roy Báez among nine appellants and confirms the 2009 judgment."
           }
         }
       ]
     },
     {
       "id": "oscar-daniel-jara-paraguay-zafiro-2009-case",
-      "name": "Oscar Daniel Jara",
+      "name": "Óscar Daniel Jara",
       "aliases": [],
       "status": "convicted",
       "statusAsOf": "2010-03-25",
-      "roleLabel": "High-sentence principal convicted in the Zafiro marijuana-trafficking case; 20-year term affirmed on appeal",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 20-year verdict, affirmed on appeal in 2010",
       "prominence": 2,
       "organizationIds": [
         "paraguay-zafiro-2009-case"
@@ -58416,9 +58413,9 @@
           "iso3": "PRY",
           "label": "Paraguay",
           "evidence": {
-            "claim": "Oscar Daniel Jara is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "claim": "Óscar Daniel Jara is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
             "period": "2005",
-            "sourceUrl": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro"
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
           }
         }
       ],
@@ -58427,20 +58424,19 @@
       ],
       "sources": [
         {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Óscar Daniel Jara an Article 26 drug-trafficking count and a 20-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
           "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
           "title": "Ratifican condena para los procesados por el caso Zafiro",
           "publisher": "Poder Judicial del Paraguay",
           "language": "es",
-          "claim": "The Paraguayan judiciary individually names Oscar Daniel Jara among the high-sentence Zafiro appellants, reports a 20-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
+          "claim": "Corroborates Óscar Daniel Jara in the same drug case and documents the reported disposition.",
           "publishedAt": "2010-03-25"
-        },
-        {
-          "url": "https://www.pj.gov.py/notas/2769-procesados-del-caso-zafiro-recibieron-condenas-de-6-a-20-anos",
-          "title": "Procesados del caso Zafiro recibieron condenas de 6 a 20 años",
-          "publisher": "Poder Judicial del Paraguay",
-          "language": "es",
-          "claim": "Corroborates Oscar Daniel Jara in the same drug case and documents the reported disposition.",
-          "publishedAt": "2009-08-21"
         }
       ],
       "events": [
@@ -58448,41 +58444,39 @@
           "id": "oscar-daniel-jara-paraguay-zafiro-2009-case-2009-08-21-case-event",
           "occurredAt": "2009-08-21",
           "type": "conviction",
-          "title": "Zafiro case verdict",
-          "summary": "Oscar Daniel Jara: High-sentence principal convicted in the Zafiro marijuana-trafficking case; 20-year term affirmed on appeal. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Óscar Daniel Jara: Convicted of drug trafficking in the 2009 Zafiro case; 20-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The Paraguayan judiciary individually names Oscar Daniel Jara among the high-sentence Zafiro appellants, reports a 20-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
-            "publishedAt": "2010-03-25"
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Óscar Daniel Jara an Article 26 drug-trafficking count and a 20-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
           }
         },
         {
           "id": "oscar-daniel-jara-paraguay-zafiro-2009-case-2010-03-24-appeal",
           "occurredAt": "2010-03-24",
           "type": "development",
-          "title": "Drug-case sentence affirmed",
-          "summary": "The Paraguayan appellate court affirmed Oscar Daniel Jara’s 20-year Zafiro sentence. This is an appeal outcome for the 2009 case.",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Óscar Daniel Jara; the trial court had imposed a 20-year sentence. This is a historical appeal outcome, not evidence of current custody.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The judiciary individually names Oscar Daniel Jara and reports the appellate affirmance on the day before its 2010-03-25 notice.",
-            "publishedAt": "2010-03-25"
+            "claim": "The appellate judgment individually lists Óscar Daniel Jara among nine appellants and confirms the 2009 judgment."
           }
         }
       ]
     },
     {
-      "id": "carlos-lopez-ibarra-paraguay-zafiro-2009-case",
-      "name": "Carlos López Ibarra",
+      "id": "carlos-antonio-lopez-ibarra-paraguay-zafiro-2009-case",
+      "name": "Carlos Antonio López Ibarra",
       "aliases": [],
       "status": "convicted",
       "statusAsOf": "2010-03-25",
-      "roleLabel": "High-sentence principal convicted in the Zafiro marijuana-trafficking case; 17-year term affirmed on appeal",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 17-year verdict, affirmed on appeal in 2010",
       "prominence": 2,
       "organizationIds": [
         "paraguay-zafiro-2009-case"
@@ -58492,9 +58486,9 @@
           "iso3": "PRY",
           "label": "Paraguay",
           "evidence": {
-            "claim": "Carlos López Ibarra is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "claim": "Carlos Antonio López Ibarra is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
             "period": "2005",
-            "sourceUrl": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro"
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
           }
         }
       ],
@@ -58503,62 +58497,59 @@
       ],
       "sources": [
         {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Carlos Antonio López Ibarra an Article 26 drug-trafficking count and a 17-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
           "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
           "title": "Ratifican condena para los procesados por el caso Zafiro",
           "publisher": "Poder Judicial del Paraguay",
           "language": "es",
-          "claim": "The Paraguayan judiciary individually names Carlos López Ibarra among the high-sentence Zafiro appellants, reports a 17-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
+          "claim": "Corroborates Carlos Antonio López Ibarra in the same drug case and documents the reported disposition.",
           "publishedAt": "2010-03-25"
-        },
-        {
-          "url": "https://www.pj.gov.py/notas/2769-procesados-del-caso-zafiro-recibieron-condenas-de-6-a-20-anos",
-          "title": "Procesados del caso Zafiro recibieron condenas de 6 a 20 años",
-          "publisher": "Poder Judicial del Paraguay",
-          "language": "es",
-          "claim": "Corroborates Carlos López Ibarra in the same drug case and documents the reported disposition.",
-          "publishedAt": "2009-08-21"
         }
       ],
       "events": [
         {
-          "id": "carlos-lopez-ibarra-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "id": "carlos-antonio-lopez-ibarra-paraguay-zafiro-2009-case-2009-08-21-case-event",
           "occurredAt": "2009-08-21",
           "type": "conviction",
-          "title": "Zafiro case verdict",
-          "summary": "Carlos López Ibarra: High-sentence principal convicted in the Zafiro marijuana-trafficking case; 17-year term affirmed on appeal. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Carlos Antonio López Ibarra: Convicted of drug trafficking in the 2009 Zafiro case; 17-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The Paraguayan judiciary individually names Carlos López Ibarra among the high-sentence Zafiro appellants, reports a 17-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
-            "publishedAt": "2010-03-25"
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Carlos Antonio López Ibarra an Article 26 drug-trafficking count and a 17-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
           }
         },
         {
-          "id": "carlos-lopez-ibarra-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "id": "carlos-antonio-lopez-ibarra-paraguay-zafiro-2009-case-2010-03-24-appeal",
           "occurredAt": "2010-03-24",
           "type": "development",
-          "title": "Drug-case sentence affirmed",
-          "summary": "The Paraguayan appellate court affirmed Carlos López Ibarra’s 17-year Zafiro sentence. This is an appeal outcome for the 2009 case.",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Carlos Antonio López Ibarra; the trial court had imposed a 17-year sentence. This is a historical appeal outcome, not evidence of current custody.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The judiciary individually names Carlos López Ibarra and reports the appellate affirmance on the day before its 2010-03-25 notice.",
-            "publishedAt": "2010-03-25"
+            "claim": "The appellate judgment individually lists Carlos Antonio López Ibarra among nine appellants and confirms the 2009 judgment."
           }
         }
       ]
     },
     {
-      "id": "zunilda-roy-baez-paraguay-zafiro-2009-case",
-      "name": "Zunilda Roy Báez",
+      "id": "zunilda-asuncion-roy-baez-paraguay-zafiro-2009-case",
+      "name": "Zunilda Asunción Roy Báez",
       "aliases": [],
       "status": "convicted",
       "statusAsOf": "2010-03-25",
-      "roleLabel": "High-sentence principal convicted in the Zafiro marijuana-trafficking case; 16-year term affirmed on appeal",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 16-year verdict, affirmed on appeal in 2010",
       "prominence": 2,
       "organizationIds": [
         "paraguay-zafiro-2009-case"
@@ -58568,9 +58559,9 @@
           "iso3": "PRY",
           "label": "Paraguay",
           "evidence": {
-            "claim": "Zunilda Roy Báez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "claim": "Zunilda Asunción Roy Báez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
             "period": "2005",
-            "sourceUrl": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro"
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
           }
         }
       ],
@@ -58579,62 +58570,59 @@
       ],
       "sources": [
         {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Zunilda Asunción Roy Báez an Article 26 drug-trafficking count and a 16-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
           "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
           "title": "Ratifican condena para los procesados por el caso Zafiro",
           "publisher": "Poder Judicial del Paraguay",
           "language": "es",
-          "claim": "The Paraguayan judiciary individually names Zunilda Roy Báez among the high-sentence Zafiro appellants, reports a 16-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
+          "claim": "Corroborates Zunilda Asunción Roy Báez in the same drug case and documents the reported disposition.",
           "publishedAt": "2010-03-25"
-        },
-        {
-          "url": "https://www.pj.gov.py/notas/2769-procesados-del-caso-zafiro-recibieron-condenas-de-6-a-20-anos",
-          "title": "Procesados del caso Zafiro recibieron condenas de 6 a 20 años",
-          "publisher": "Poder Judicial del Paraguay",
-          "language": "es",
-          "claim": "Corroborates Zunilda Roy Báez in the same drug case and documents the reported disposition.",
-          "publishedAt": "2009-08-21"
         }
       ],
       "events": [
         {
-          "id": "zunilda-roy-baez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "id": "zunilda-asuncion-roy-baez-paraguay-zafiro-2009-case-2009-08-21-case-event",
           "occurredAt": "2009-08-21",
           "type": "conviction",
-          "title": "Zafiro case verdict",
-          "summary": "Zunilda Roy Báez: High-sentence principal convicted in the Zafiro marijuana-trafficking case; 16-year term affirmed on appeal. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Zunilda Asunción Roy Báez: Convicted of drug trafficking in the 2009 Zafiro case; 16-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The Paraguayan judiciary individually names Zunilda Roy Báez among the high-sentence Zafiro appellants, reports a 16-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
-            "publishedAt": "2010-03-25"
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Zunilda Asunción Roy Báez an Article 26 drug-trafficking count and a 16-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
           }
         },
         {
-          "id": "zunilda-roy-baez-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "id": "zunilda-asuncion-roy-baez-paraguay-zafiro-2009-case-2010-03-24-appeal",
           "occurredAt": "2010-03-24",
           "type": "development",
-          "title": "Drug-case sentence affirmed",
-          "summary": "The Paraguayan appellate court affirmed Zunilda Roy Báez’s 16-year Zafiro sentence. This is an appeal outcome for the 2009 case.",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Zunilda Asunción Roy Báez; the trial court had imposed a 16-year sentence. This is a historical appeal outcome, not evidence of current custody.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The judiciary individually names Zunilda Roy Báez and reports the appellate affirmance on the day before its 2010-03-25 notice.",
-            "publishedAt": "2010-03-25"
+            "claim": "The appellate judgment individually lists Zunilda Asunción Roy Báez among nine appellants and confirms the 2009 judgment."
           }
         }
       ]
     },
     {
-      "id": "lelis-alvarez-diaz-paraguay-zafiro-2009-case",
-      "name": "Lelis Álvarez Díaz",
+      "id": "cesar-pastor-martinez-martinez-paraguay-zafiro-2009-case",
+      "name": "César Pastor Martínez Martínez",
       "aliases": [],
       "status": "convicted",
       "statusAsOf": "2010-03-25",
-      "roleLabel": "High-sentence principal convicted in the Zafiro marijuana-trafficking case; 16-year term affirmed on appeal",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 16-year verdict, affirmed on appeal in 2010",
       "prominence": 2,
       "organizationIds": [
         "paraguay-zafiro-2009-case"
@@ -58644,9 +58632,9 @@
           "iso3": "PRY",
           "label": "Paraguay",
           "evidence": {
-            "claim": "Lelis Álvarez Díaz is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "claim": "César Pastor Martínez Martínez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
             "period": "2005",
-            "sourceUrl": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro"
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
           }
         }
       ],
@@ -58655,51 +58643,449 @@
       ],
       "sources": [
         {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns César Pastor Martínez Martínez an Article 26 drug-trafficking count and a 16-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
           "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
           "title": "Ratifican condena para los procesados por el caso Zafiro",
           "publisher": "Poder Judicial del Paraguay",
           "language": "es",
-          "claim": "The Paraguayan judiciary individually names Lelis Álvarez Díaz among the high-sentence Zafiro appellants, reports a 16-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
+          "claim": "Corroborates César Pastor Martínez Martínez in the same drug case and documents the reported disposition.",
           "publishedAt": "2010-03-25"
-        },
-        {
-          "url": "https://www.pj.gov.py/notas/2769-procesados-del-caso-zafiro-recibieron-condenas-de-6-a-20-anos",
-          "title": "Procesados del caso Zafiro recibieron condenas de 6 a 20 años",
-          "publisher": "Poder Judicial del Paraguay",
-          "language": "es",
-          "claim": "Corroborates Lelis Álvarez Díaz in the same drug case and documents the reported disposition.",
-          "publishedAt": "2009-08-21"
         }
       ],
       "events": [
         {
-          "id": "lelis-alvarez-diaz-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "id": "cesar-pastor-martinez-martinez-paraguay-zafiro-2009-case-2009-08-21-case-event",
           "occurredAt": "2009-08-21",
           "type": "conviction",
-          "title": "Zafiro case verdict",
-          "summary": "Lelis Álvarez Díaz: High-sentence principal convicted in the Zafiro marijuana-trafficking case; 16-year term affirmed on appeal. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "César Pastor Martínez Martínez: Convicted of drug trafficking in the 2009 Zafiro case; 16-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The Paraguayan judiciary individually names Lelis Álvarez Díaz among the high-sentence Zafiro appellants, reports a 16-year term and affirms the 2009 verdict; the 2009 notice distinguishes this high-sentence trafficking group from lower-sentence possession/association defendants.",
-            "publishedAt": "2010-03-25"
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns César Pastor Martínez Martínez an Article 26 drug-trafficking count and a 16-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
           }
         },
         {
-          "id": "lelis-alvarez-diaz-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "id": "cesar-pastor-martinez-martinez-paraguay-zafiro-2009-case-2010-03-24-appeal",
           "occurredAt": "2010-03-24",
           "type": "development",
-          "title": "Drug-case sentence affirmed",
-          "summary": "The Paraguayan appellate court affirmed Lelis Álvarez Díaz’s 16-year Zafiro sentence. This is an appeal outcome for the 2009 case.",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against César Pastor Martínez Martínez; the trial court had imposed a 16-year sentence. This is a historical appeal outcome, not evidence of current custody.",
           "source": {
-            "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
-            "title": "Ratifican condena para los procesados por el caso Zafiro",
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
             "publisher": "Poder Judicial del Paraguay",
             "language": "es",
-            "claim": "The judiciary individually names Lelis Álvarez Díaz and reports the appellate affirmance on the day before its 2010-03-25 notice.",
-            "publishedAt": "2010-03-25"
+            "claim": "The appellate judgment individually lists César Pastor Martínez Martínez among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-alberto-cabanas-valdez-paraguay-zafiro-2009-case",
+      "name": "Luis Alberto Cabañas Valdez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-03-25",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 8-year verdict, affirmed on appeal in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Luis Alberto Cabañas Valdez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Luis Alberto Cabañas Valdez an Article 26 drug-trafficking count and a 8-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Luis Alberto Cabañas Valdez in the same drug case and documents the reported disposition.",
+          "publishedAt": "2010-03-25"
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-alberto-cabanas-valdez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Luis Alberto Cabañas Valdez: Convicted of drug trafficking in the 2009 Zafiro case; 8-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Luis Alberto Cabañas Valdez an Article 26 drug-trafficking count and a 8-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+          }
+        },
+        {
+          "id": "luis-alberto-cabanas-valdez-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "occurredAt": "2010-03-24",
+          "type": "development",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Luis Alberto Cabañas Valdez; the trial court had imposed a 8-year sentence. This is a historical appeal outcome, not evidence of current custody.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The appellate judgment individually lists Luis Alberto Cabañas Valdez among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "german-alvarez-jara-paraguay-zafiro-2009-case",
+      "name": "Germán Álvarez Jara",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-03-25",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 9-year verdict, affirmed on appeal in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Germán Álvarez Jara is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Germán Álvarez Jara an Article 26 drug-trafficking count and a 9-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Germán Álvarez Jara in the same drug case and documents the reported disposition.",
+          "publishedAt": "2010-03-25"
+        }
+      ],
+      "events": [
+        {
+          "id": "german-alvarez-jara-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Germán Álvarez Jara: Convicted of drug trafficking in the 2009 Zafiro case; 9-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Germán Álvarez Jara an Article 26 drug-trafficking count and a 9-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+          }
+        },
+        {
+          "id": "german-alvarez-jara-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "occurredAt": "2010-03-24",
+          "type": "development",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Germán Álvarez Jara; the trial court had imposed a 9-year sentence. This is a historical appeal outcome, not evidence of current custody.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The appellate judgment individually lists Germán Álvarez Jara among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "teodoro-trinidad-saiz-silvera-paraguay-zafiro-2009-case",
+      "name": "Teodoro Trinidad Saiz Silvera",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 18-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Teodoro Trinidad Saiz Silvera is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Teodoro Trinidad Saiz Silvera an Article 26 drug-trafficking count and a 18-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "teodoro-trinidad-saiz-silvera-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Teodoro Trinidad Saiz Silvera: Convicted of drug trafficking in the 2009 Zafiro case; 18-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Teodoro Trinidad Saiz Silvera an Article 26 drug-trafficking count and a 18-year sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "clementino-acosta-paraguay-zafiro-2009-case",
+      "name": "Clementino Acosta",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Clementino Acosta is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Clementino Acosta an Article 26 drug-trafficking count and a 6-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "clementino-acosta-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Clementino Acosta: Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Clementino Acosta an Article 26 drug-trafficking count and a 6-year sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ruben-andres-acosta-benitez-paraguay-zafiro-2009-case",
+      "name": "Rubén Andrés Acosta Benítez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Rubén Andrés Acosta Benítez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Rubén Andrés Acosta Benítez an Article 26 drug-trafficking count and a 6-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "ruben-andres-acosta-benitez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Rubén Andrés Acosta Benítez: Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Rubén Andrés Acosta Benítez an Article 26 drug-trafficking count and a 6-year sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rainaldo-acosta-benitez-paraguay-zafiro-2009-case",
+      "name": "Rainaldo Acosta Benítez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Rainaldo Acosta Benítez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Rainaldo Acosta Benítez an Article 26 drug-trafficking count and a 6-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "rainaldo-acosta-benitez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Rainaldo Acosta Benítez: Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Rainaldo Acosta Benítez an Article 26 drug-trafficking count and a 6-year sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "arnaldo-andres-saucedo-paraguay-zafiro-2009-case",
+      "name": "Arnaldo Andrés Saucedo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Arnaldo Andrés Saucedo is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Arnaldo Andrés Saucedo an Article 26 drug-trafficking count and a 6-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "arnaldo-andres-saucedo-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Arnaldo Andrés Saucedo: Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Arnaldo Andrés Saucedo an Article 26 drug-trafficking count and a 6-year sentence."
           }
         }
       ]
