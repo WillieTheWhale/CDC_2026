@@ -78,7 +78,7 @@
       ],
       "status": "reported",
       "statusAsOf": "2026-08-05",
-      "roleLabel": "Founder and former leader of CJNG; reported killed in February 2026",
+      "roleLabel": "Deceased founder and former leader of CJNG; DOJ states he was killed on or about February 22, 2026",
       "prominence": 1,
       "organizationIds": [
         "cjng"
@@ -86,7 +86,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ describes his co-founding of the Jalisco-based CJNG and a 2015 Mexican military pursuit involving him; this is historical country association, not a precise operating site.",
+            "period": "By 2015",
+            "sourceUrl": "https://www.justice.gov/opa/pr/notorious-violent-mexican-cartel-leader-sentenced-life-plus-30-years-prison-international"
+          }
         }
       ],
       "drugs": [
@@ -111,6 +116,39 @@
           "language": "Spanish",
           "publishedAt": "2026-02-23",
           "claim": "EL PAÍS reports Oseguera Cervantes was killed in a Mexican military operation and identifies him as the founder of CJNG."
+        },
+        {
+          "url": "https://www.justice.gov/usao-mdfl/media/1457301/dl?inline=",
+          "title": "Second Superseding Indictment, United States v. López Velasco et al. (Case 8:26-cr-73)",
+          "publisher": "U.S. District Court, Middle District of Florida (hosted by DOJ)",
+          "language": "English",
+          "publishedAt": "2026-06-25",
+          "claim": "The court filing states that Nemesio Oseguera Cervantes was killed on or about February 22, 2026, during a Mexican military operation; DOJ later confirmed the death in its August 5 release."
+        },
+        {
+          "url": "https://www.justice.gov/opa/pr/notorious-violent-mexican-cartel-leader-sentenced-life-plus-30-years-prison-international",
+          "title": "Notorious Violent Mexican Cartel Leader Sentenced to Life Plus 30 Years in Prison for International Drug Trafficking and Firearms Offenses",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2025-03-07",
+          "claim": "DOJ says Nemesio Oseguera Cervantes co-founded the Jalisco-based CJNG with his son and describes a 2015 Mexican military pursuit involving both."
+        }
+      ],
+      "events": [
+        {
+          "id": "mencho-death-2026",
+          "occurredAt": "2026-02-22",
+          "type": "development",
+          "title": "Death during Mexican military operation",
+          "summary": "A DOJ-hosted June 25 court filing states Oseguera Cervantes was killed on or about February 22, 2026. The August 5 DOJ release also identifies him as CJNG’s former leader and confirms his death in February. The event date is approximate as stated in the filing.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mdfl/media/1457301/dl?inline=",
+            "title": "Second Superseding Indictment, United States v. López Velasco et al. (Case 8:26-cr-73)",
+            "publisher": "U.S. District Court, Middle District of Florida (hosted by DOJ)",
+            "language": "English",
+            "publishedAt": "2026-06-25",
+            "claim": "The court filing states that Nemesio Oseguera Cervantes was killed on or about February 22, 2026, during a Mexican military operation; DOJ later confirmed the death in its August 5 release."
+          }
         }
       ]
     },
@@ -129,12 +167,7 @@
       "organizationIds": [
         "cjng"
       ],
-      "regions": [
-        {
-          "iso3": "MEX",
-          "label": "Mexico"
-        }
-      ],
+      "regions": [],
       "drugs": [
         "cocaine",
         "methamphetamine"
@@ -183,7 +216,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury attributes control of substantial territory in several Mexican states to Flores Silva; he was arrested in April 2026.",
+            "period": "Recent years before April 2026",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0573"
+          }
         }
       ],
       "drugs": [
@@ -215,6 +253,14 @@
           "language": "Spanish",
           "publishedAt": "2026-04-28",
           "claim": "FGR confirms Audias Flores Silva was detained in Nayarit by Mexican security forces on April 27, 2026."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0573",
+          "title": "Treasury Takes Largest Action Ever Targeting Cartel de Jalisco Nueva Generacion",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2026-07-23",
+          "claim": "Treasury states Audias Flores Silva maintained control of substantial territory in several Mexican states in recent years before his April 2026 arrest."
         }
       ]
     },
@@ -236,7 +282,11 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ alleges Montero Pinzón led Grupo Élite and ran the Guadalajara Plaza in Mexico.",
+            "sourceUrl": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican"
+          }
         }
       ],
       "drugs": [
@@ -273,7 +323,11 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ alleges Rivera Varela led Grupo Élite and ran the Guadalajara Plaza in Mexico.",
+            "sourceUrl": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican"
+          }
         }
       ],
       "drugs": [
@@ -307,12 +361,7 @@
       "organizationIds": [
         "cjng"
       ],
-      "regions": [
-        {
-          "iso3": "MEX",
-          "label": "Mexico"
-        }
-      ],
+      "regions": [],
       "drugs": [
         "cocaine",
         "methamphetamine",
@@ -356,7 +405,11 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ alleges Ruiz Velasco oversaw CJNG operations in several Mexican territories.",
+            "sourceUrl": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican"
+          }
         }
       ],
       "drugs": [
@@ -392,7 +445,11 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ alleges Castillo Rodríguez oversaw CJNG operations in Colima, Mexico.",
+            "sourceUrl": "https://www.justice.gov/opa/pr/new-charges-and-rewards-announced-capture-andor-conviction-senior-leaders-notorious-mexican"
+          }
         }
       ],
       "drugs": [
@@ -437,11 +494,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
-        },
-        {
-          "iso3": "USA",
-          "label": "United States"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ says Oseguera González led CJNG for nearly seven years in Mexico and supervised Mexican drug laboratories.",
+            "period": "Before his arrest and 2025 sentence",
+            "sourceUrl": "https://www.justice.gov/opa/pr/notorious-violent-mexican-cartel-leader-sentenced-life-plus-30-years-prison-international"
+          }
         }
       ],
       "drugs": [
@@ -465,9 +523,9 @@
       "aliases": [
         "Tony Montana"
       ],
-      "status": "charged",
-      "statusAsOf": "2025-02-27",
-      "roleLabel": "Alleged CJNG leader; in U.S. custody to face charges",
+      "status": "convicted",
+      "statusAsOf": "2026-07-31",
+      "roleLabel": "CJNG operator; pleaded guilty to drug-trafficking and firearm offenses on July 31, 2026; sentencing was pending in that DOJ release",
       "prominence": 2,
       "organizationIds": [
         "cjng"
@@ -475,7 +533,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ says he operated as a Milenio Cartel member in Jalisco, Mexico, overseeing narcotics sales and methamphetamine labs; it later describes his CJNG work.",
+            "period": "Around 2002–2010 for cited Jalisco operations",
+            "sourceUrl": "https://www.justice.gov/opa/pr/brother-notorious-mexican-cartel-leader-pleads-guilty-international-drug-trafficking-and"
+          }
         }
       ],
       "drugs": [
@@ -498,6 +561,31 @@
           "language": "English",
           "publishedAt": "2025-02-27",
           "claim": "DOJ reports Antonio Oseguera Cervantes was among defendants transferred from Mexico to U.S. custody and describes him as an alleged CJNG leader."
+        },
+        {
+          "url": "https://www.justice.gov/opa/pr/brother-notorious-mexican-cartel-leader-pleads-guilty-international-drug-trafficking-and",
+          "title": "Brother of Notorious Mexican Cartel Leader Pleads Guilty to International Drug Trafficking and Firearm Offenses",
+          "publisher": "U.S. Department of Justice, Office of Public Affairs",
+          "language": "English",
+          "publishedAt": "2026-07-31",
+          "claim": "DOJ reports Antonio Oseguera Cervantes pleaded guilty on July 31 to cocaine/methamphetamine import conspiracy and a firearm offense; the release says sentencing was scheduled, not yet imposed. It also describes his Milenio Cartel operations in Jalisco, Mexico, around 2002–2010 and later CJNG activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "antonio-oseguera-guilty-plea-2026",
+          "occurredAt": "2026-07-31",
+          "type": "conviction",
+          "title": "Guilty plea entered; sentence not yet reported",
+          "summary": "DOJ says Oseguera Cervantes pleaded guilty to conspiring to distribute cocaine and methamphetamine for unlawful U.S. importation and to a firearm offense. The July 31 release scheduled sentencing for November 13; it did not report a sentence.",
+          "source": {
+            "url": "https://www.justice.gov/opa/pr/brother-notorious-mexican-cartel-leader-pleads-guilty-international-drug-trafficking-and",
+            "title": "Brother of Notorious Mexican Cartel Leader Pleads Guilty to International Drug Trafficking and Firearm Offenses",
+            "publisher": "U.S. Department of Justice, Office of Public Affairs",
+            "language": "English",
+            "publishedAt": "2026-07-31",
+            "claim": "DOJ reports Antonio Oseguera Cervantes pleaded guilty on July 31 to cocaine/methamphetamine import conspiracy and a firearm offense; the release says sentencing was scheduled, not yet imposed. It also describes his Milenio Cartel operations in Jalisco, Mexico, around 2002–2010 and later CJNG activity."
+          }
         }
       ]
     },
@@ -517,7 +605,11 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ says Valencia Salazar gained control of drug-trafficking operations in Mexican territories as a CJNG leader.",
+            "sourceUrl": "https://www.justice.gov/opa/pr/co-founder-cjng-pleads-guilty-federal-drug-trafficking-conspiracy"
+          }
         }
       ],
       "drugs": [
@@ -557,12 +649,7 @@
       "organizationIds": [
         "los-cuinis"
       ],
-      "regions": [
-        {
-          "iso3": "MEX",
-          "label": "Mexico"
-        }
-      ],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -593,11 +680,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
-        },
-        {
-          "iso3": "USA",
-          "label": "United States"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ says González Valencia directed cocaine shipments through Mexico; the claim does not establish his physical presence there.",
+            "period": "At least 2006–2016",
+            "sourceUrl": "https://www.justice.gov/opa/pr/co-founder-los-cuinis-drug-cartel-sentenced-30-years-prison-high-ranking-cartel-de-jalisco"
+          }
         }
       ],
       "drugs": [
@@ -631,11 +719,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
-        },
-        {
-          "iso3": "USA",
-          "label": "United States"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ says González Valencia led Los Cuinis while coordinating cocaine importation involving Mexico; this is a trafficking association, not proof of physical presence.",
+            "period": "2003–April 2016",
+            "sourceUrl": "https://www.justice.gov/archives/opa/pr/leader-international-drug-trafficking-organization-sentenced-cocaine-distribution"
+          }
         }
       ],
       "drugs": [
@@ -669,11 +758,21 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ says Gutiérrez-Ochoa worked with CJNG operatives in Mexico to launder drug proceeds.",
+            "period": "Before his 2024 arrest",
+            "sourceUrl": "https://www.justice.gov/opa/pr/mexican-cartel-leader-sentenced-over-11-years-prison-international-money-laundering"
+          }
         },
         {
           "iso3": "USA",
-          "label": "United States"
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ says Gutiérrez-Ochoa worked with CJNG operatives in the United States to launder drug proceeds; this is historical and does not expose a precise site.",
+            "period": "Before his 2024 arrest",
+            "sourceUrl": "https://www.justice.gov/opa/pr/mexican-cartel-leader-sentenced-over-11-years-prison-international-money-laundering"
+          }
         }
       ],
       "drugs": [],
