@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1724,
-    "associations": 1393,
-    "evidenced": 1393,
+    "people": 1750,
+    "associations": 1410,
+    "evidenced": 1410,
     "missing": 0,
     "invalid": 0
   },
@@ -456,6 +456,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "turkey_balkans_historical_courts_2003_2026.json": {
+      "people": 26,
+      "associations": 17,
+      "evidenced": 17,
+      "missing": 0,
+      "invalid": 0
+    },
     "uk_venetic_four_cases_2025_2026.json": {
       "people": 26,
       "associations": 26,
@@ -712,8 +719,8 @@
       "invalid": 0
     },
     "MNE": {
-      "associations": 13,
-      "evidenced": 13,
+      "associations": 14,
+      "evidenced": 14,
       "missing": 0,
       "invalid": 0
     },
@@ -780,6 +787,18 @@
     "VNM": {
       "associations": 55,
       "evidenced": 55,
+      "missing": 0,
+      "invalid": 0
+    },
+    "TUR": {
+      "associations": 7,
+      "evidenced": 7,
+      "missing": 0,
+      "invalid": 0
+    },
+    "BIH": {
+      "associations": 9,
+      "evidenced": 9,
       "missing": 0,
       "invalid": 0
     },
