@@ -276,7 +276,8 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     if (mode === "map") requestAnimationFrame(() => mapRef.current?.resize());
   }, [mode]);
 
-  const graphData = network ?? dataset ?? { people: [], organizations: [], connections: [] };
+  const selectedNetwork = network?.people.some((person) => person.id === selectedId) ? network : null;
+  const graphData = selectedNetwork ?? dataset ?? { people: [], organizations: [], connections: [] };
 
   return <section className="people-atlas" aria-labelledby="people-title">
     <header className="people-header">
@@ -367,7 +368,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
         {nextCursor && <button className="people-graph-results-more" disabled={loadingMore} onClick={() => void loadMore()}>{loadingMore ? "Loading…" : "Load more matching people"}</button>}
         {matching.length === 0 && <p>No sourced people match this name or alias.</p>}
       </section>}
-      {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} totalConnections={networkClaimTotal} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
+      {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} totalConnections={selectedNetwork ? networkClaimTotal : null} evidenceLoaded={selectedNetwork !== null} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
       {selected && <><div className="people-graph-status"><span className={`people-status status-${selected.status}`}>{STATUS_LABEL[selected.status]}</span><span>{selected.name}{selected.statusAsOf ? ` · as of ${selected.statusAsOf}` : ""}</span></div><PeopleEventTimeline events={selected.events ?? []} /></>}
     </div></>
     <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. Map circles represent country-level associations; person portraits appear in a non-geographic tray. {selectedCountry ? "Country lists page through every prominence tier." : searching ? "Name searches cover all published records, regardless of map area or zoom." : "List totals apply to the current zoom and map area; country circles count the zoom tier across the full published dataset."}</footer>

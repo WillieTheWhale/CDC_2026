@@ -6,9 +6,10 @@ interface PeopleGraphProps {
   selectedId: string | null;
   onSelect: (person: Person) => void;
   totalConnections?: number | null;
+  evidenceLoaded?: boolean;
 }
 
-export function PeopleGraph({ dataset, selectedId, onSelect, totalConnections }: PeopleGraphProps) {
+export function PeopleGraph({ dataset, selectedId, onSelect, totalConnections, evidenceLoaded = false }: PeopleGraphProps) {
   const selected = dataset.people.find((person) => person.id === selectedId);
   const relevant = selected
     ? dataset.connections.filter((edge) => edge.fromId === selected.id || edge.toId === selected.id)
@@ -65,6 +66,7 @@ export function PeopleGraph({ dataset, selectedId, onSelect, totalConnections }:
           </g>;
         })}
       </svg>
+      {evidenceLoaded && visibleEdges.length === 0 && <p className="people-graph-no-links" role="status">No directly documented person-to-person links in the current cited sources.</p>}
       <ul className="people-graph-claims">
         {visibleEdges.map((edge) => {
           const otherId = edge.fromId === selected.id ? edge.toId : edge.fromId;

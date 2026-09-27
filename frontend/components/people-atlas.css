@@ -140,6 +140,7 @@
 .people-graph-claims span { color: #596d80; font-size: 11px; }
 .people-graph-claims small { color: #8a97a4; font-size: 10px; }
 .people-graph-claims small a { color: #245f91; text-decoration: underline; text-decoration-color: #bdcede; }
+.people-graph-no-links { margin: 8px 0 0; color: #536b80; font-size: 11px; }
 .people-graph-caution { margin-top: 15px; color: #76583d; font-size: 11px; }
 .people-graph-status { justify-content: flex-start; align-items: center; padding: 12px 0; }
 @media (max-width: 1000px) {
