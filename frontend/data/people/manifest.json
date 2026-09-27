@@ -65508,7 +65508,17 @@
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Quortez Duncan’s personally attributed historical drug-case conduct in the United States.",
+            "period": "reported 2025",
+            "sourceUrl": "https://www.justice.gov/usao-mdtn/pr/twelve-men-sentenced-conspiring-distribute-fentanyl-methamphetamine-and-marijuana"
+          }
+        }
+      ],
       "drugs": [
         "fentanyl"
       ],
@@ -65541,8 +65551,8 @@
       ]
     },
     {
-      "id": "doj-supplemental-2025-matthew-cox",
-      "name": "Matthew Cox",
+      "id": "doj-supplemental-2025-mathew-cox",
+      "name": "Mathew Cox",
       "status": "convicted",
       "statusAsOf": "2025-02-24",
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
@@ -65553,7 +65563,7 @@
           "iso3": "USA",
           "label": "United States",
           "evidence": {
-            "claim": "DOJ describes Matthew Cox’s personally attributed historical drug-case conduct in the United States.",
+            "claim": "DOJ describes Mathew Cox’s personally attributed historical drug-case conduct in the United States.",
             "period": "reported 2025",
             "sourceUrl": "https://www.justice.gov/usao-mdtn/pr/twelve-men-sentenced-conspiring-distribute-fentanyl-methamphetamine-and-marijuana"
           }
@@ -65570,23 +65580,23 @@
           "publisher": "U.S. Department of Justice",
           "language": "en",
           "publishedAt": "2025-02-24",
-          "claim": "DOJ reports that Matthew Cox was sentenced after a controlled-substance distribution-conspiracy conviction explicitly attributed to every named defendant in the release. This is a historical drug-case outcome reported on 2025-02-24; it does not establish present custody or activity."
+          "claim": "DOJ reports that Mathew Cox was sentenced after a controlled-substance distribution-conspiracy conviction explicitly attributed to every named defendant in the release. This is a historical drug-case outcome reported on 2025-02-24; it does not establish present custody or activity."
         }
       ],
       "events": [
         {
-          "id": "doj-supplemental-2025-matthew-cox-2025-02-24-development",
+          "id": "doj-supplemental-2025-mathew-cox-2025-02-24-development",
           "occurredAt": "2025-02-24",
           "type": "development",
           "title": "Drug-case outcome reported",
-          "summary": "DOJ reports that Matthew Cox was sentenced after a controlled-substance distribution-conspiracy conviction explicitly attributed to every named defendant in the release. This is a historical drug-case outcome reported on 2025-02-24; it does not establish present custody or activity.",
+          "summary": "DOJ reports that Mathew Cox was sentenced after a controlled-substance distribution-conspiracy conviction explicitly attributed to every named defendant in the release. This is a historical drug-case outcome reported on 2025-02-24; it does not establish present custody or activity.",
           "source": {
             "url": "https://www.justice.gov/usao-mdtn/pr/twelve-men-sentenced-conspiring-distribute-fentanyl-methamphetamine-and-marijuana",
             "title": "Twelve Men Sentenced for Conspiring to Distribute Fentanyl, Methamphetamine, and Marijuana in Tennessee and Other States",
             "publisher": "U.S. Department of Justice",
             "language": "en",
             "publishedAt": "2025-02-24",
-            "claim": "DOJ reports that Matthew Cox was sentenced after a controlled-substance distribution-conspiracy conviction explicitly attributed to every named defendant in the release. This is a historical drug-case outcome reported on 2025-02-24; it does not establish present custody or activity."
+            "claim": "DOJ reports that Mathew Cox was sentenced after a controlled-substance distribution-conspiracy conviction explicitly attributed to every named defendant in the release. This is a historical drug-case outcome reported on 2025-02-24; it does not establish present custody or activity."
           }
         }
       ]
