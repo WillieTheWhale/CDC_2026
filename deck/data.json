@@ -141,6 +141,14 @@
     "metrics": "README.md (live run)",
     "afghan": "contracts/fixtures/afghan_ban.json"
   },
+  "people": {
+    "total": 540,
+    "organizations": 52,
+    "convicted": 154,
+    "charged": 279,
+    "sanctioned": 51,
+    "reported": 56
+  },
   "screenshots": {
     "route-map": "screenshots/route-map.png",
     "experiment": "screenshots/experiment.png",
@@ -253,10 +261,10 @@
     "pending_count": 4
   },
   "git": {
-    "sha": "650a10a",
-    "subject": "deck: re-frame the proof slide on the prespecified test, refresh all captures",
-    "when": "2026-09-27T02:04:03+00:00",
-    "count": "121"
+    "sha": "cac7685",
+    "subject": "deck: recount the People atlas on every build",
+    "when": "2026-09-27T02:37:55+00:00",
+    "count": "136"
   },
-  "built_at": "2026-09-27 02:04 UTC"
+  "built_at": "2026-09-27 02:37 UTC"
 }

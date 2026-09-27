@@ -189,11 +189,16 @@ live positions, private addresses, travel patterns, local routes or rankings of 
 so users can audit the public context behind organizations named in reports. If that boundary cannot be kept
 in a deployment, the People view should be removed rather than repurposed for enforcement.
 
-Know the mix before you answer the follow-up: 138 people across 19 organizations — 71 convicted, 35 charged,
-16 sanctioned (an official designation, usually OFAC), and 16 carried only as reported. That last 16 is the
-weakest bucket and the honest thing to name first if a judge presses: those rest on journalism rather than a
-court or a Treasury listing, each one linked to its source, and the status is shown on the record rather than
-flattened into "trafficker".
+Know the mix before you answer the follow-up. As of 2026-09-27 it is **540 people across 52 organizations —
+154 convicted, 279 charged, 51 sanctioned** (an official designation, usually OFAC) **and 56 carried only as
+reported**. Two things to say in that order. First, about 90% rest on an official action: a court, an
+indictment or a Treasury listing. Second, the honest concession before a judge finds it — most entries are
+*charged*, not convicted, and the 56 reported rest on journalism rather than any official determination. Each
+carries its source and its status is shown on the record rather than flattened into "trafficker".
+
+This dataset is growing fast (it was 138 people a few hours before this line was written), so **re-check the
+numbers before judging**: `python3 deck/build.py` prints the current total and writes the full breakdown to
+`deck/data.json` under `people`.
 
 **"Prices are still five times pre-ban, right?"** — *Adrian (S4)*
 That was true as of UNODC's November 2025 figure — US$570/kg dry opium against a pre-ban average under

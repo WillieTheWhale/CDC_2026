@@ -206,6 +206,26 @@ def read_afghan(data: dict) -> None:
         data["provenance"]["afghan"] = src.relative_to(REPO).as_posix()
 
 
+def read_people(data: dict) -> None:
+    """The People atlas grows fast; the Q&A sheet quotes its mix, so recount every build."""
+    import collections
+    obj, src = _json(REPO / "frontend" / "data" / "people" / "manifest.json")
+    if not obj:
+        return
+    ppl = obj.get("people", [])
+    if not ppl:
+        return
+    c = collections.Counter(p.get("status") for p in ppl)
+    data["people"] = {
+        "total": len(ppl),
+        "organizations": len(obj.get("organizations", [])),
+        "convicted": c.get("convicted", 0),
+        "charged": c.get("charged", 0),
+        "sanctioned": c.get("sanctioned", 0),
+        "reported": c.get("reported", 0),
+    }
+
+
 def read_screenshots(data: dict) -> None:
     found = {}
     for sid, rel in SHOT_SOURCES.items():          # captures the frontend already committed
@@ -233,6 +253,7 @@ def build() -> dict:
     read_counts(readme, sources_doc, data)
     read_metrics(readme, data)
     read_afghan(data)
+    read_people(data)
     read_screenshots(data)
 
     st = read_status(readme)
@@ -370,7 +391,8 @@ def main() -> int:
     total = sum(s["seconds"] for s in content["slides"])
     print(f"deck rebuilt  · {len(content['slides'])} slides · {total//60}:{total%60:02d} "
           f"· AUC {data['metrics']['hurdle_auc']} vs {data['metrics']['gravity_auc']} "
-          f"· {len(data['screenshots'])} screenshots · {data['status']['shipped_count']} milestones done")
+          f"· {len(data['screenshots'])} screenshots · {data['status']['shipped_count']} milestones done "
+          f"· People {data.get('people', {}).get('total', 0)}")
     return 0
 
 
