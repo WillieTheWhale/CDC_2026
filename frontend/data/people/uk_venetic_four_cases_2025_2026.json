@@ -1,0 +1,1670 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Official CPS/NCA source snapshots dated 2025–2026. All profiles concern adult people specifically named in UK drug cases; convictions and guilty pleas are sourced per person, while one sentence was pending at the cited date. Status is as of the cited publication, not a claim about later release, custody or whereabouts. UK region means historical conduct/prosecution only; no precise or live location, address, route, mugshot, or inferred connection is included. The network identifier groups source case cohorts, not an assertion that every pair collaborated.",
+  "organizations": [
+    {
+      "id": "simpson-havoc-ocg",
+      "name": "Simpson organised crime group (Operation Havoc case)",
+      "regions": [
+        "GBR"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "Simpson organised crime group (Operation Havoc case) is described as a UK drug supply case; membership and exact counts are assessed per named person."
+        }
+      ]
+    },
+    {
+      "id": "allison-newlands-cocaine-network",
+      "name": "Allison–Newlands cocaine network (Wessex case)",
+      "regions": [
+        "GBR"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Allison–Newlands cocaine network (Wessex case) is described as a UK drug supply case; membership and exact counts are assessed per named person."
+        }
+      ]
+    },
+    {
+      "id": "monaghan-northeast-ocg",
+      "name": "Monaghan North East organised crime group",
+      "regions": [
+        "GBR"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+          "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-10-17",
+          "claim": "Monaghan North East organised crime group is described as a UK drug supply case; membership and exact counts are assessed per named person."
+        }
+      ]
+    },
+    {
+      "id": "ransome-leach-cocaine-case",
+      "name": "Ransome–Leach cocaine supply case",
+      "regions": [
+        "GBR"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups",
+          "title": "Operation Venetic: two jailed for involvement in drugs supply to organised crime groups",
+          "publisher": "National Crime Agency",
+          "language": "en",
+          "publishedAt": "2026-06-23",
+          "claim": "Ransome–Leach cocaine supply case is described as a UK drug supply case; membership and exact counts are assessed per named person."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "nathan-simpson-havoc-venetic",
+      "name": "Nathan Simpson",
+      "status": "convicted",
+      "statusAsOf": "2025-07-18",
+      "roleLabel": "Convicted leader of the Simpson OCG",
+      "prominence": 1,
+      "organizationIds": [
+        "simpson-havoc-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Nathan Simpson individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020–2024",
+            "sourceUrl": "https://www.cps.gov.uk/cy/node/27020"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis",
+        "amphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "Nathan Simpson: jailed for 16 years and 2 months after drug-supply conspiracy proceedings. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "nathan-simpson-havoc-venetic-2025-07-18-sentence",
+          "occurredAt": "2025-07-18",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Nathan Simpson jailed for 16 years and 2 months after drug-supply conspiracy proceedings. This dated entry records the court outcome as described in the 2025-07-18 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cy/node/27020",
+            "title": "Gang jailed for more than 55 years for drugs conspiracy",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-07-18",
+            "claim": "Nathan Simpson: jailed for 16 years and 2 months after drug-supply conspiracy proceedings. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+          }
+        }
+      ],
+      "aliases": [
+        "Gardenfella"
+      ]
+    },
+    {
+      "id": "nathan-davies-havoc-venetic",
+      "name": "Nathan Davies",
+      "status": "convicted",
+      "statusAsOf": "2025-07-18",
+      "roleLabel": "Convicted Simpson OCG lieutenant",
+      "prominence": 2,
+      "organizationIds": [
+        "simpson-havoc-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Nathan Davies individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020–2024",
+            "sourceUrl": "https://www.cps.gov.uk/cy/node/27020"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "Nathan Davies: jailed for 9 years and 8 months after the group drug conspiracy case. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "nathan-davies-havoc-venetic-2025-07-18-sentence",
+          "occurredAt": "2025-07-18",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Nathan Davies jailed for 9 years and 8 months after the group drug conspiracy case. This dated entry records the court outcome as described in the 2025-07-18 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cy/node/27020",
+            "title": "Gang jailed for more than 55 years for drugs conspiracy",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-07-18",
+            "claim": "Nathan Davies: jailed for 9 years and 8 months after the group drug conspiracy case. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+          }
+        }
+      ],
+      "aliases": [
+        "Chillifella"
+      ]
+    },
+    {
+      "id": "john-lally-havoc-venetic",
+      "name": "John Lally",
+      "status": "convicted",
+      "statusAsOf": "2025-07-18",
+      "roleLabel": "Convicted Simpson OCG lieutenant",
+      "prominence": 2,
+      "organizationIds": [
+        "simpson-havoc-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies John Lally individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020–2024",
+            "sourceUrl": "https://www.cps.gov.uk/cy/node/27020"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "John Lally: jailed for 12 years and 4 months; CPS says he directed and facilitated movement of drugs and money. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "john-lally-havoc-venetic-2025-07-18-sentence",
+          "occurredAt": "2025-07-18",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "John Lally jailed for 12 years and 4 months; CPS says he directed and facilitated movement of drugs and money. This dated entry records the court outcome as described in the 2025-07-18 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cy/node/27020",
+            "title": "Gang jailed for more than 55 years for drugs conspiracy",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-07-18",
+            "claim": "John Lally: jailed for 12 years and 4 months; CPS says he directed and facilitated movement of drugs and money. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+          }
+        }
+      ],
+      "aliases": [
+        "Silverfella"
+      ]
+    },
+    {
+      "id": "daniel-roberts-havoc-venetic",
+      "name": "Daniel Roberts",
+      "status": "convicted",
+      "statusAsOf": "2025-07-18",
+      "roleLabel": "Convicted cannabis supplier",
+      "prominence": 3,
+      "organizationIds": [
+        "simpson-havoc-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Daniel Roberts individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020–2024",
+            "sourceUrl": "https://www.cps.gov.uk/cy/node/27020"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "Daniel Roberts: jailed for 3 years and 6 months; CPS says he received cannabis in bulk and supplied it onward. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "daniel-roberts-havoc-venetic-2025-07-18-sentence",
+          "occurredAt": "2025-07-18",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Daniel Roberts jailed for 3 years and 6 months; CPS says he received cannabis in bulk and supplied it onward. This dated entry records the court outcome as described in the 2025-07-18 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cy/node/27020",
+            "title": "Gang jailed for more than 55 years for drugs conspiracy",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-07-18",
+            "claim": "Daniel Roberts: jailed for 3 years and 6 months; CPS says he received cannabis in bulk and supplied it onward. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+          }
+        }
+      ],
+      "aliases": [
+        "Snowyspring"
+      ]
+    },
+    {
+      "id": "steven-dodd-havoc-venetic",
+      "name": "Steven Dodd",
+      "status": "convicted",
+      "statusAsOf": "2025-07-18",
+      "roleLabel": "Convicted participant in Simpson OCG drug case",
+      "prominence": 3,
+      "organizationIds": [
+        "simpson-havoc-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Steven Dodd individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020–2024",
+            "sourceUrl": "https://www.cps.gov.uk/cy/node/27020"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "Steven Dodd: jailed for 6 years and 9 months; CPS says he took directions from Simpson. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "steven-dodd-havoc-venetic-2025-07-18-sentence",
+          "occurredAt": "2025-07-18",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Steven Dodd jailed for 6 years and 9 months; CPS says he took directions from Simpson. This dated entry records the court outcome as described in the 2025-07-18 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cy/node/27020",
+            "title": "Gang jailed for more than 55 years for drugs conspiracy",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-07-18",
+            "claim": "Steven Dodd: jailed for 6 years and 9 months; CPS says he took directions from Simpson. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+          }
+        }
+      ],
+      "aliases": [
+        "Stickygreen"
+      ]
+    },
+    {
+      "id": "connor-lawton-havoc-venetic",
+      "name": "Connor Lawton",
+      "status": "convicted",
+      "statusAsOf": "2025-07-18",
+      "roleLabel": "Convicted cannabis distributor",
+      "prominence": 3,
+      "organizationIds": [
+        "simpson-havoc-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Connor Lawton individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020–2024",
+            "sourceUrl": "https://www.cps.gov.uk/cy/node/27020"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "Connor Lawton: jailed for 3 years and 4 months; CPS says he distributed cannabis for Simpson. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "connor-lawton-havoc-venetic-2025-07-18-sentence",
+          "occurredAt": "2025-07-18",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Connor Lawton jailed for 3 years and 4 months; CPS says he distributed cannabis for Simpson. This dated entry records the court outcome as described in the 2025-07-18 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cy/node/27020",
+            "title": "Gang jailed for more than 55 years for drugs conspiracy",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-07-18",
+            "claim": "Connor Lawton: jailed for 3 years and 4 months; CPS says he distributed cannabis for Simpson. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+          }
+        }
+      ],
+      "aliases": [
+        "Greenidol"
+      ]
+    },
+    {
+      "id": "dominic-bourdet-havoc-venetic",
+      "name": "Dominic Bourdet",
+      "status": "convicted",
+      "statusAsOf": "2025-07-18",
+      "roleLabel": "Convicted drug sourcing participant",
+      "prominence": 3,
+      "organizationIds": [
+        "simpson-havoc-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Dominic Bourdet individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020–2024",
+            "sourceUrl": "https://www.cps.gov.uk/cy/node/27020"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "Dominic Bourdet: jailed for 3 years and 8 months; CPS says he worked to source drugs for Simpson. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "dominic-bourdet-havoc-venetic-2025-07-18-sentence",
+          "occurredAt": "2025-07-18",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Dominic Bourdet jailed for 3 years and 8 months; CPS says he worked to source drugs for Simpson. This dated entry records the court outcome as described in the 2025-07-18 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cy/node/27020",
+            "title": "Gang jailed for more than 55 years for drugs conspiracy",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-07-18",
+            "claim": "Dominic Bourdet: jailed for 3 years and 8 months; CPS says he worked to source drugs for Simpson. The Crown Prosecution Service names this person in the Simpson organised crime group (Operation Havoc case) case, involving historical UK drug activity."
+          }
+        }
+      ],
+      "aliases": [
+        "Stickygreen"
+      ]
+    },
+    {
+      "id": "darren-newlands-wessex-venetic",
+      "name": "Darren Newlands",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted co-leader of cocaine network",
+      "prominence": 1,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Darren Newlands individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2016–2021",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Darren Newlands: sentenced to 20 years after convictions on two counts of conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "darren-newlands-wessex-venetic-2025-10-24-sentence",
+          "occurredAt": "2025-10-24",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Darren Newlands sentenced to 20 years after convictions on two counts of conspiracy to supply cocaine. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Darren Newlands: sentenced to 20 years after convictions on two counts of conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "anton-merturi-wessex-venetic",
+      "name": "Anton Merturi",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted cocaine supplier",
+      "prominence": 3,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Anton Merturi individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Anton Merturi: sentenced to 3 years and 9 months after pleading guilty to supplying cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "anton-merturi-wessex-venetic-2025-11-07-sentence",
+          "occurredAt": "2025-11-07",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Anton Merturi sentenced to 3 years and 9 months after pleading guilty to supplying cocaine. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Anton Merturi: sentenced to 3 years and 9 months after pleading guilty to supplying cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "enid-aliko-wessex-venetic",
+      "name": "Enid Aliko",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted cocaine conspirator",
+      "prominence": 3,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Enid Aliko individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Enid Aliko: sentenced to 4 years after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "enid-aliko-wessex-venetic-2025-02-06-sentence",
+          "occurredAt": "2025-02-06",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Enid Aliko sentenced to 4 years after pleading guilty to conspiracy to supply cocaine. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Enid Aliko: sentenced to 4 years after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kelroy-clive-allison-wessex-venetic",
+      "name": "Kelroy Clive Allison",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted cocaine conspirator",
+      "prominence": 2,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Kelroy Clive Allison individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2016–2021",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Kelroy Clive Allison: sentenced to 16 years and 6 months after trial convictions for cocaine conspiracy and supply. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "kelroy-clive-allison-wessex-venetic-2025-02-06-sentence",
+          "occurredAt": "2025-02-06",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Kelroy Clive Allison sentenced to 16 years and 6 months after trial convictions for cocaine conspiracy and supply. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Kelroy Clive Allison: sentenced to 16 years and 6 months after trial convictions for cocaine conspiracy and supply. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "warren-malichi-allison-wessex-venetic",
+      "name": "Warren Malichi Allison",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted co-leader of cocaine network",
+      "prominence": 1,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Warren Malichi Allison individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2016–2020",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Warren Malichi Allison: sentenced to 23 years after trial convictions on two cocaine conspiracy counts. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "warren-malichi-allison-wessex-venetic-2025-02-06-sentence",
+          "occurredAt": "2025-02-06",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Warren Malichi Allison sentenced to 23 years after trial convictions on two cocaine conspiracy counts. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Warren Malichi Allison: sentenced to 23 years after trial convictions on two cocaine conspiracy counts. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "anthony-alexander-burke-wessex-venetic",
+      "name": "Anthony Alexander Burke",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted cocaine conspirator",
+      "prominence": 3,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Anthony Alexander Burke individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Anthony Alexander Burke: sentenced to 8 years after trial conviction for conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "anthony-alexander-burke-wessex-venetic-2025-02-06-sentence",
+          "occurredAt": "2025-02-06",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Anthony Alexander Burke sentenced to 8 years after trial conviction for conspiracy to supply cocaine. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Anthony Alexander Burke: sentenced to 8 years after trial conviction for conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "richard-david-cowell-wessex-venetic",
+      "name": "Richard David Cowell",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted courier in cocaine network",
+      "prominence": 3,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Richard David Cowell individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2016–2020",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Richard David Cowell: sentenced to 9 years after trial conviction for conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "richard-david-cowell-wessex-venetic-2025-02-06-sentence",
+          "occurredAt": "2025-02-06",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Richard David Cowell sentenced to 9 years after trial conviction for conspiracy to supply cocaine. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Richard David Cowell: sentenced to 9 years after trial conviction for conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "porcia-louise-densley-wessex-venetic",
+      "name": "Porcia Louise Densley",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted finance/administration participant",
+      "prominence": 3,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Porcia Louise Densley individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2016–2020",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Porcia Louise Densley: sentenced to 8 years after trial conviction for conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "porcia-louise-densley-wessex-venetic-2025-02-06-sentence",
+          "occurredAt": "2025-02-06",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Porcia Louise Densley sentenced to 8 years after trial conviction for conspiracy to supply cocaine. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Porcia Louise Densley: sentenced to 8 years after trial conviction for conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ledian-hoxha-wessex-venetic",
+      "name": "Ledian Hoxha",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted cocaine conspirator",
+      "prominence": 3,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Ledian Hoxha individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Ledian Hoxha: sentenced to 7 years and 4 months after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "ledian-hoxha-wessex-venetic-2025-02-06-sentence",
+          "occurredAt": "2025-02-06",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Ledian Hoxha sentenced to 7 years and 4 months after pleading guilty to conspiracy to supply cocaine. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Ledian Hoxha: sentenced to 7 years and 4 months after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pjeter-pisha-wessex-venetic",
+      "name": "Pjeter Pisha",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted cocaine conspirator",
+      "prominence": 3,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Pjeter Pisha individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Pjeter Pisha: sentenced to 6 years and 4 months after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "pjeter-pisha-wessex-venetic-2025-02-06-sentence",
+          "occurredAt": "2025-02-06",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Pjeter Pisha sentenced to 6 years and 4 months after pleading guilty to conspiracy to supply cocaine. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Pjeter Pisha: sentenced to 6 years and 4 months after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "christopher-barbosa-wessex-venetic",
+      "name": "Christopher Barbosa",
+      "status": "convicted",
+      "statusAsOf": "2025-11-07",
+      "roleLabel": "Convicted cocaine network participant",
+      "prominence": 3,
+      "organizationIds": [
+        "allison-newlands-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Christopher Barbosa individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2016–2020",
+            "sourceUrl": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "Christopher Barbosa: sentenced to 7 years for his role using Allison as wholesale cocaine supplier. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "christopher-barbosa-wessex-venetic-2025-04-04-sentence",
+          "occurredAt": "2025-04-04",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Christopher Barbosa sentenced to 7 years for his role using Allison as wholesale cocaine supplier. This dated entry records the court outcome as described in the 2025-11-07 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+            "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-11-07",
+            "claim": "Christopher Barbosa: sentenced to 7 years for his role using Allison as wholesale cocaine supplier. The Crown Prosecution Service names this person in the Allison–Newlands cocaine network (Wessex case) case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "shaun-monaghan-monaghan-venetic",
+      "name": "Shaun Monaghan",
+      "status": "convicted",
+      "statusAsOf": "2025-10-17",
+      "roleLabel": "Convicted leader of North East OCG",
+      "prominence": 1,
+      "organizationIds": [
+        "monaghan-northeast-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Shaun Monaghan individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "amphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+          "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-10-17",
+          "claim": "Shaun Monaghan: sentenced to 27 years; pleaded guilty to cocaine, heroin and amphetamine supply conspiracies and other charges. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "shaun-monaghan-monaghan-venetic-2025-10-17-sentence",
+          "occurredAt": "2025-10-17",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Shaun Monaghan sentenced to 27 years; pleaded guilty to cocaine, heroin and amphetamine supply conspiracies and other charges. This dated entry records the court outcome as described in the 2025-10-17 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+            "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-10-17",
+            "claim": "Shaun Monaghan: sentenced to 27 years; pleaded guilty to cocaine, heroin and amphetamine supply conspiracies and other charges. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bryn-bowden-monaghan-venetic",
+      "name": "Bryn Bowden",
+      "status": "convicted",
+      "statusAsOf": "2025-10-17",
+      "roleLabel": "Convicted North East OCG participant",
+      "prominence": 3,
+      "organizationIds": [
+        "monaghan-northeast-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Bryn Bowden individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "amphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+          "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-10-17",
+          "claim": "Bryn Bowden: sentenced to 7 years; pleaded guilty to amphetamine conspiracy and cocaine supply involvement. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "bryn-bowden-monaghan-venetic-2025-10-17-sentence",
+          "occurredAt": "2025-10-17",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Bryn Bowden sentenced to 7 years; pleaded guilty to amphetamine conspiracy and cocaine supply involvement. This dated entry records the court outcome as described in the 2025-10-17 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+            "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-10-17",
+            "claim": "Bryn Bowden: sentenced to 7 years; pleaded guilty to amphetamine conspiracy and cocaine supply involvement. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "james-white-monaghan-venetic",
+      "name": "James White",
+      "status": "convicted",
+      "statusAsOf": "2025-10-17",
+      "roleLabel": "Convicted cocaine conspirator",
+      "prominence": 3,
+      "organizationIds": [
+        "monaghan-northeast-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies James White individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+          "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-10-17",
+          "claim": "James White: sentenced to 6 years after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "james-white-monaghan-venetic-2025-10-17-sentence",
+          "occurredAt": "2025-10-17",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "James White sentenced to 6 years after pleading guilty to conspiracy to supply cocaine. This dated entry records the court outcome as described in the 2025-10-17 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+            "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-10-17",
+            "claim": "James White: sentenced to 6 years after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "james-david-ramshaw-monaghan-venetic",
+      "name": "James David Ramshaw",
+      "status": "convicted",
+      "statusAsOf": "2025-10-17",
+      "roleLabel": "Convicted cocaine conspirator",
+      "prominence": 3,
+      "organizationIds": [
+        "monaghan-northeast-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies James David Ramshaw individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+          "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-10-17",
+          "claim": "James David Ramshaw: sentenced to 9 years and 4 months after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "james-david-ramshaw-monaghan-venetic-2025-10-17-sentence",
+          "occurredAt": "2025-10-17",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "James David Ramshaw sentenced to 9 years and 4 months after pleading guilty to conspiracy to supply cocaine. This dated entry records the court outcome as described in the 2025-10-17 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+            "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-10-17",
+            "claim": "James David Ramshaw: sentenced to 9 years and 4 months after pleading guilty to conspiracy to supply cocaine. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "steven-george-graham-monaghan-venetic",
+      "name": "Steven George Graham",
+      "status": "convicted",
+      "statusAsOf": "2025-10-17",
+      "roleLabel": "Convicted cocaine conspirator",
+      "prominence": 3,
+      "organizationIds": [
+        "monaghan-northeast-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Steven George Graham individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+          "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-10-17",
+          "claim": "Steven George Graham: sentenced to 8 years after pleading guilty to conspiracy to supply cocaine and a firearms offence. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "steven-george-graham-monaghan-venetic-2025-10-17-sentence",
+          "occurredAt": "2025-10-17",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Steven George Graham sentenced to 8 years after pleading guilty to conspiracy to supply cocaine and a firearms offence. This dated entry records the court outcome as described in the 2025-10-17 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+            "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-10-17",
+            "claim": "Steven George Graham: sentenced to 8 years after pleading guilty to conspiracy to supply cocaine and a firearms offence. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "simon-lancaster-monaghan-venetic",
+      "name": "Simon Lancaster",
+      "status": "convicted",
+      "statusAsOf": "2025-10-17",
+      "roleLabel": "Convicted North East OCG participant; sentencing pending in 2025",
+      "prominence": 2,
+      "organizationIds": [
+        "monaghan-northeast-ocg"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The Crown Prosecution Service identifies Simon Lancaster individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin",
+        "amphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+          "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-10-17",
+          "claim": "Simon Lancaster: had pleaded guilty to cocaine, heroin and amphetamine conspiracy counts; CPS said sentencing was deferred as of 17 October 2025. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "simon-lancaster-monaghan-venetic-2025-10-17-development",
+          "occurredAt": "2025-10-17",
+          "type": "development",
+          "title": "Guilty plea reported; sentence pending",
+          "summary": "Simon Lancaster had pleaded guilty to cocaine, heroin and amphetamine conspiracy counts; CPS said sentencing was deferred as of 17 October 2025. This dated entry records the court outcome as described in the 2025-10-17 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+            "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-10-17",
+            "claim": "Simon Lancaster: had pleaded guilty to cocaine, heroin and amphetamine conspiracy counts; CPS said sentencing was deferred as of 17 October 2025. The Crown Prosecution Service names this person in the Monaghan North East organised crime group case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mark-ransome-ransome-venetic",
+      "name": "Mark Ransome",
+      "status": "convicted",
+      "statusAsOf": "2026-06-23",
+      "roleLabel": "Convicted cocaine supply organiser",
+      "prominence": 2,
+      "organizationIds": [
+        "ransome-leach-cocaine-case"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The National Crime Agency identifies Mark Ransome individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups",
+          "title": "Operation Venetic: two jailed for involvement in drugs supply to organised crime groups",
+          "publisher": "National Crime Agency",
+          "language": "en",
+          "publishedAt": "2026-06-23",
+          "claim": "Mark Ransome: pleaded guilty to conspiracy to supply class A drugs and was sentenced with Leach (individual term not stated). The National Crime Agency names this person in the Ransome–Leach cocaine supply case case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "mark-ransome-ransome-venetic-2026-06-23-sentence",
+          "occurredAt": "2026-06-23",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Mark Ransome pleaded guilty to conspiracy to supply class A drugs and was sentenced with Leach (individual term not stated). This dated entry records the court outcome as described in the 2026-06-23 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups",
+            "title": "Operation Venetic: two jailed for involvement in drugs supply to organised crime groups",
+            "publisher": "National Crime Agency",
+            "language": "en",
+            "publishedAt": "2026-06-23",
+            "claim": "Mark Ransome: pleaded guilty to conspiracy to supply class A drugs and was sentenced with Leach (individual term not stated). The National Crime Agency names this person in the Ransome–Leach cocaine supply case case, involving historical UK drug activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cara-leach-ransome-venetic",
+      "name": "Cara Leach",
+      "status": "convicted",
+      "statusAsOf": "2026-06-23",
+      "roleLabel": "Convicted cocaine courier",
+      "prominence": 3,
+      "organizationIds": [
+        "ransome-leach-cocaine-case"
+      ],
+      "regions": [
+        {
+          "iso3": "GBR",
+          "label": "United Kingdom",
+          "evidence": {
+            "claim": "The National Crime Agency identifies Cara Leach individually in the UK drug case and describes this person’s participation in historical UK offending or prosecution; this is not a current location.",
+            "period": "2020",
+            "sourceUrl": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups",
+          "title": "Operation Venetic: two jailed for involvement in drugs supply to organised crime groups",
+          "publisher": "National Crime Agency",
+          "language": "en",
+          "publishedAt": "2026-06-23",
+          "claim": "Cara Leach: pleaded guilty to conspiracy to supply class A drugs and was sentenced with Ransome (individual term not stated). The National Crime Agency names this person in the Ransome–Leach cocaine supply case case, involving historical UK drug activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "cara-leach-ransome-venetic-2026-06-23-sentence",
+          "occurredAt": "2026-06-23",
+          "type": "sentence",
+          "title": "Sentenced for drug case",
+          "summary": "Cara Leach pleaded guilty to conspiracy to supply class A drugs and was sentenced with Ransome (individual term not stated). This dated entry records the court outcome as described in the 2026-06-23 official publication; it does not imply current custody.",
+          "source": {
+            "url": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups",
+            "title": "Operation Venetic: two jailed for involvement in drugs supply to organised crime groups",
+            "publisher": "National Crime Agency",
+            "language": "en",
+            "publishedAt": "2026-06-23",
+            "claim": "Cara Leach: pleaded guilty to conspiracy to supply class A drugs and was sentenced with Ransome (individual term not stated). The National Crime Agency names this person in the Ransome–Leach cocaine supply case case, involving historical UK drug activity."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "nathan-simpson-havoc-venetic-nathan-davies-havoc-venetic-havoc-venetic",
+      "fromId": "nathan-simpson-havoc-venetic",
+      "toId": "nathan-davies-havoc-venetic",
+      "type": "documented_collaboration",
+      "label": "Lieutenant",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "CPS says Nathan Davies had extremely close links with Nathan Simpson and was one of two lieutenants."
+        }
+      ]
+    },
+    {
+      "id": "nathan-simpson-havoc-venetic-john-lally-havoc-venetic-havoc-venetic",
+      "fromId": "nathan-simpson-havoc-venetic",
+      "toId": "john-lally-havoc-venetic",
+      "type": "documented_collaboration",
+      "label": "Lieutenant",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "CPS identifies John Lally as the other of Nathan Simpson’s lieutenants."
+        }
+      ]
+    },
+    {
+      "id": "nathan-simpson-havoc-venetic-steven-dodd-havoc-venetic-havoc-venetic",
+      "fromId": "nathan-simpson-havoc-venetic",
+      "toId": "steven-dodd-havoc-venetic",
+      "type": "documented_collaboration",
+      "label": "Directed",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "CPS says Steven Dodd took directions from Nathan Simpson."
+        }
+      ]
+    },
+    {
+      "id": "nathan-simpson-havoc-venetic-connor-lawton-havoc-venetic-havoc-venetic",
+      "fromId": "nathan-simpson-havoc-venetic",
+      "toId": "connor-lawton-havoc-venetic",
+      "type": "documented_collaboration",
+      "label": "Distributed for",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "CPS says Connor Lawton distributed cannabis on behalf of Nathan Simpson."
+        }
+      ]
+    },
+    {
+      "id": "nathan-simpson-havoc-venetic-dominic-bourdet-havoc-venetic-havoc-venetic",
+      "fromId": "nathan-simpson-havoc-venetic",
+      "toId": "dominic-bourdet-havoc-venetic",
+      "type": "documented_collaboration",
+      "label": "Sourced for",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cy/node/27020",
+          "title": "Gang jailed for more than 55 years for drugs conspiracy",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-07-18",
+          "claim": "CPS says Dominic Bourdet worked to source drugs for Nathan Simpson."
+        }
+      ]
+    },
+    {
+      "id": "warren-malichi-allison-wessex-venetic-darren-newlands-wessex-venetic-wessex-venetic",
+      "fromId": "warren-malichi-allison-wessex-venetic",
+      "toId": "darren-newlands-wessex-venetic",
+      "type": "documented_collaboration",
+      "label": "Co-led network",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "CPS says Warren Allison and Darren Newlands ran the network."
+        }
+      ]
+    },
+    {
+      "id": "warren-malichi-allison-wessex-venetic-kelroy-clive-allison-wessex-venetic-wessex-venetic",
+      "fromId": "warren-malichi-allison-wessex-venetic",
+      "toId": "kelroy-clive-allison-wessex-venetic",
+      "type": "documented_collaboration",
+      "label": "Brother and collaborator",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "CPS identifies Kelroy Allison as Warren Allison’s brother and says they worked closely."
+        }
+      ]
+    },
+    {
+      "id": "warren-malichi-allison-wessex-venetic-richard-david-cowell-wessex-venetic-wessex-venetic",
+      "fromId": "warren-malichi-allison-wessex-venetic",
+      "toId": "richard-david-cowell-wessex-venetic",
+      "type": "documented_collaboration",
+      "label": "Arranged deliveries",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "CPS says Warren Allison arranged for Richard Cowell to deliver cocaine."
+        }
+      ]
+    },
+    {
+      "id": "warren-malichi-allison-wessex-venetic-christopher-barbosa-wessex-venetic-wessex-venetic",
+      "fromId": "warren-malichi-allison-wessex-venetic",
+      "toId": "christopher-barbosa-wessex-venetic",
+      "type": "documented_collaboration",
+      "label": "Wholesale supplier",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "CPS says Christopher Barbosa used Warren Allison as a wholesale cocaine supplier."
+        }
+      ]
+    },
+    {
+      "id": "warren-malichi-allison-wessex-venetic-porcia-louise-densley-wessex-venetic-wessex-venetic",
+      "fromId": "warren-malichi-allison-wessex-venetic",
+      "toId": "porcia-louise-densley-wessex-venetic",
+      "type": "documented_collaboration",
+      "label": "Finance role",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "CPS says Porcia Densley held an administrative and financial role in Warren Allison’s enterprise."
+        }
+      ]
+    },
+    {
+      "id": "warren-malichi-allison-wessex-venetic-anthony-alexander-burke-wessex-venetic-wessex-venetic",
+      "fromId": "warren-malichi-allison-wessex-venetic",
+      "toId": "anthony-alexander-burke-wessex-venetic",
+      "type": "documented_collaboration",
+      "label": "Cousin in deal",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/wessex/news/criminal-network-jailed-112-years-wholesale-supply-cocaine",
+          "title": "Criminal network jailed for 112 years for wholesale supply of cocaine",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-11-07",
+          "claim": "CPS identifies Anthony Burke as Warren Allison’s cousin and says Burke held a drug package arranged by the network."
+        }
+      ]
+    },
+    {
+      "id": "shaun-monaghan-monaghan-venetic-simon-lancaster-monaghan-venetic-monaghan-venetic",
+      "fromId": "shaun-monaghan-monaghan-venetic",
+      "toId": "simon-lancaster-monaghan-venetic",
+      "type": "documented_collaboration",
+      "label": "Trusted lieutenant",
+      "sources": [
+        {
+          "url": "https://www.cps.gov.uk/cps/news/major-north-east-organised-crime-group-jailed-multi-million-pound-drug-operation",
+          "title": "Major North East Organised Crime Group Jailed for Multi-Million Pound Drug Operation",
+          "publisher": "Crown Prosecution Service",
+          "language": "en",
+          "publishedAt": "2025-10-17",
+          "claim": "CPS directly calls Simon Lancaster Shaun Monaghan’s trusted lieutenant."
+        }
+      ]
+    },
+    {
+      "id": "mark-ransome-ransome-venetic-cara-leach-ransome-venetic-ransome-venetic",
+      "fromId": "mark-ransome-ransome-venetic",
+      "toId": "cara-leach-ransome-venetic",
+      "type": "documented_collaboration",
+      "label": "Courier for Ransome",
+      "sources": [
+        {
+          "url": "https://www.nationalcrimeagency.gov.uk/news/operation-venetic-two-jailed-for-involvement-in-drugs-supply-to-organised-crime-groups",
+          "title": "Operation Venetic: two jailed for involvement in drugs supply to organised crime groups",
+          "publisher": "National Crime Agency",
+          "language": "en",
+          "publishedAt": "2026-06-23",
+          "claim": "NCA says Cara Leach acted as a courier for Mark Ransome on multiple occasions carrying cocaine and cash."
+        }
+      ]
+    }
+  ]
+}
