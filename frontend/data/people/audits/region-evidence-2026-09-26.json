@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1064,
-    "associations": 910,
-    "evidenced": 910,
+    "people": 1111,
+    "associations": 957,
+    "evidenced": 957,
     "missing": 0,
     "invalid": 0
   },
@@ -372,6 +372,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "vietnam_historical_drug_cases_2017_2020.json": {
+      "people": 47,
+      "associations": 47,
+      "evidenced": 47,
+      "missing": 0,
+      "invalid": 0
+    },
     "weymouth_street_dto_2025.json": {
       "people": 33,
       "associations": 33,
@@ -562,8 +569,8 @@
       "invalid": 0
     },
     "VNM": {
-      "associations": 8,
-      "evidenced": 8,
+      "associations": 55,
+      "evidenced": 55,
       "missing": 0,
       "invalid": 0
     },
