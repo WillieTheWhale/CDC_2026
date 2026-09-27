@@ -616,23 +616,6 @@
       ]
     },
     {
-      "id": "guatemala-barrera-2015-case",
-      "name": "Guatemalan cocaine conspiracy (Barrera-Salguero case)",
-      "regions": [
-        "GTM"
-      ],
-      "sources": [
-        {
-          "url": "https://www.justice.gov/usao-edva/pr/international-drug-trafficking-organization-member-sentenced-trafficking-nearly-four",
-          "title": "International Drug Trafficking Organization Member Sentenced for Trafficking Nearly Four Tons of Cocaine",
-          "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
-          "language": "en",
-          "publishedAt": "2021-08-06",
-          "claim": "DOJ identifies Barrera-Salguero as manager in a Guatemala-based cocaine organization in 2015–2016 and reports his 6 August 2021 sentence."
-        }
-      ]
-    },
-    {
       "id": "chang-monroy-2013-case",
       "name": "Chang-Monroy cocaine conspiracy",
       "regions": [
@@ -650,19 +633,19 @@
       ]
     },
     {
-      "id": "guatemala-montenegro-2015-case",
-      "name": "Guatemalan cocaine conspiracy (Montenegro-Arevalo case)",
+      "id": "estrada-linares-dto",
+      "name": "Estrada-Linares Drug Trafficking Organization",
       "regions": [
-        "GTM"
+        "GTM",
+        "CRI"
       ],
       "sources": [
         {
-          "url": "https://www.justice.gov/usao-edva/pr/guatemalan-cocaine-transporter-sentenced-drug-trafficking",
-          "title": "Guatemalan Cocaine Transporter Sentenced for Drug Trafficking",
-          "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
+          "url": "https://www.judiciary.senate.gov/imo/media/doc/siebert_sjq.pdf",
+          "title": "U.S. Senate Judiciary Committee questionnaire of Erik S. Siebert, pp. 10–11",
+          "publisher": "U.S. Senate Judiciary Committee",
           "language": "en",
-          "publishedAt": "2018-10-05",
-          "claim": "DOJ identifies Montenegro-Arevalo as coordinator of Guatemalan cocaine operations in 2015–2016 and reports his 5 October 2018 sentence."
+          "claim": "The lead prosecutor identifies EDVA cases 3:16cr67 and 3:19cr18 as investigations of the Estrada-Linares Drug Trafficking Organization and individually lists defendants and seven sentence lengths."
         }
       ]
     },
@@ -11498,7 +11481,7 @@
       "roleLabel": "Convicted cocaine trafficking case participant",
       "prominence": 2,
       "organizationIds": [
-        "guatemala-barrera-2015-case"
+        "estrada-linares-dto"
       ],
       "regions": [
         {
@@ -11549,6 +11532,9 @@
             "claim": "DOJ identifies Barrera-Salguero as manager in a Guatemala-based cocaine organization in 2015–2016 and reports his 6 August 2021 sentence."
           }
         }
+      ],
+      "aliases": [
+        "Edi Donaldo Barrera-Salguero"
       ]
     },
     {
@@ -11611,7 +11597,7 @@
       "roleLabel": "Convicted cocaine trafficking case participant",
       "prominence": 2,
       "organizationIds": [
-        "guatemala-montenegro-2015-case"
+        "estrada-linares-dto"
       ],
       "regions": [
         {
@@ -11707,6 +11693,263 @@
             "language": "en",
             "publishedAt": "2025-06-18",
             "claim": "DOJ individually names Haroldo Waldemar Lorenzana Terraza as charged with cocaine importation, firearms, continuing criminal enterprise and heroin importation counts, and as alleged leader of the Guatemala-based Lorenzana DTO; charges are allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "max-alberto-estrada-linares",
+      "name": "Max Alberto Estrada-Linares",
+      "status": "convicted",
+      "statusAsOf": "2018-10-29",
+      "roleLabel": "Convicted cocaine trafficking organization leader",
+      "prominence": 2,
+      "organizationIds": [
+        "estrada-linares-dto"
+      ],
+      "regions": [
+        {
+          "iso3": "GTM",
+          "label": "Guatemala",
+          "evidence": {
+            "claim": "DOJ individually documents Max Alberto Estrada-Linares participating in the historical Guatemala cocaine operation.",
+            "period": "2015–2016",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/leader-international-drug-trafficking-organization-sentenced"
+          }
+        },
+        {
+          "iso3": "CRI",
+          "label": "Costa Rica",
+          "evidence": {
+            "claim": "DOJ individually describes Max Alberto Estrada-Linares directing cocaine activity that involved Costa Rica.",
+            "period": "2015–2016",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/leader-international-drug-trafficking-organization-sentenced"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/leader-international-drug-trafficking-organization-sentenced",
+          "title": "Leader of International Drug Trafficking Organization Sentenced",
+          "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
+          "language": "en",
+          "publishedAt": "2018-10-29",
+          "claim": "DOJ individually identifies Estrada-Linares as leader of the Guatemalan cocaine organization and reports a 29 October 2018 282-month sentence."
+        },
+        {
+          "url": "https://www.judiciary.senate.gov/imo/media/doc/siebert_sjq.pdf",
+          "title": "U.S. Senate Judiciary Committee questionnaire of Erik S. Siebert, pp. 10–11",
+          "publisher": "U.S. Senate Judiciary Committee",
+          "language": "en",
+          "claim": "The lead prosecutor identifies EDVA cases 3:16cr67 and 3:19cr18 as investigations of the Estrada-Linares Drug Trafficking Organization and individually lists defendants and seven sentence lengths."
+        }
+      ],
+      "events": [
+        {
+          "id": "max-alberto-estrada-linares-2018-10-29-sentence",
+          "occurredAt": "2018-10-29",
+          "type": "sentence",
+          "title": "282-month sentence",
+          "summary": "DOJ reports Max Alberto Estrada-Linares was sentenced in the cocaine trafficking case.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/leader-international-drug-trafficking-organization-sentenced",
+            "title": "Leader of International Drug Trafficking Organization Sentenced",
+            "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
+            "language": "en",
+            "publishedAt": "2018-10-29",
+            "claim": "DOJ individually identifies Estrada-Linares as leader of the Guatemalan cocaine organization and reports a 29 October 2018 282-month sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "edgar-a-quinonez-salazar",
+      "name": "Edgar A. Quinonez-Salazar",
+      "status": "convicted",
+      "statusAsOf": "2018-10-24",
+      "roleLabel": "Convicted cocaine trafficking organization leader",
+      "prominence": 2,
+      "organizationIds": [
+        "estrada-linares-dto"
+      ],
+      "regions": [
+        {
+          "iso3": "GTM",
+          "label": "Guatemala",
+          "evidence": {
+            "claim": "DOJ individually documents Edgar A. Quinonez-Salazar participating in the historical Guatemala cocaine operation.",
+            "period": "2015–2016",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/leader-international-cocaine-trafficking-conspiracy-sentenced"
+          }
+        },
+        {
+          "iso3": "CRI",
+          "label": "Costa Rica",
+          "evidence": {
+            "claim": "DOJ individually describes Edgar A. Quinonez-Salazar directing cocaine activity that involved Costa Rica.",
+            "period": "2015–2016",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/leader-international-cocaine-trafficking-conspiracy-sentenced"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/leader-international-cocaine-trafficking-conspiracy-sentenced",
+          "title": "Leader of International Cocaine Trafficking Conspiracy Sentenced",
+          "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
+          "language": "en",
+          "publishedAt": "2018-10-24",
+          "claim": "DOJ individually identifies Quinonez-Salazar as a senior leader of the Guatemalan organization and reports a 24 October 2018 300-month sentence."
+        },
+        {
+          "url": "https://www.judiciary.senate.gov/imo/media/doc/siebert_sjq.pdf",
+          "title": "U.S. Senate Judiciary Committee questionnaire of Erik S. Siebert, pp. 10–11",
+          "publisher": "U.S. Senate Judiciary Committee",
+          "language": "en",
+          "claim": "The lead prosecutor identifies EDVA cases 3:16cr67 and 3:19cr18 as investigations of the Estrada-Linares Drug Trafficking Organization and individually lists defendants and seven sentence lengths."
+        }
+      ],
+      "events": [
+        {
+          "id": "edgar-a-quinonez-salazar-2018-10-24-sentence",
+          "occurredAt": "2018-10-24",
+          "type": "sentence",
+          "title": "300-month sentence",
+          "summary": "DOJ reports Edgar A. Quinonez-Salazar was sentenced in the cocaine trafficking case.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/leader-international-cocaine-trafficking-conspiracy-sentenced",
+            "title": "Leader of International Cocaine Trafficking Conspiracy Sentenced",
+            "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
+            "language": "en",
+            "publishedAt": "2018-10-24",
+            "claim": "DOJ individually identifies Quinonez-Salazar as a senior leader of the Guatemalan organization and reports a 24 October 2018 300-month sentence."
+          }
+        }
+      ],
+      "aliases": [
+        "Edgar Antonio Quinonez-Salazar"
+      ]
+    },
+    {
+      "id": "brayan-alexander-gramajo-jolomna",
+      "name": "Brayan Alexander Gramajo Jolomna",
+      "status": "convicted",
+      "statusAsOf": "2018-06-14",
+      "roleLabel": "Convicted cocaine trafficking organization member",
+      "prominence": 2,
+      "organizationIds": [
+        "estrada-linares-dto"
+      ],
+      "regions": [
+        {
+          "iso3": "GTM",
+          "label": "Guatemala",
+          "evidence": {
+            "claim": "DOJ individually documents Brayan Alexander Gramajo Jolomna participating in the historical Guatemala cocaine operation.",
+            "period": "2015–2016",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/guatemalan-man-pleads-guilty-cocaine-distribution-conspiracy-0"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/guatemalan-man-pleads-guilty-cocaine-distribution-conspiracy-0",
+          "title": "Guatemalan Man Pleads Guilty for Cocaine Distribution Conspiracy",
+          "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
+          "language": "en",
+          "publishedAt": "2018-06-14",
+          "claim": "DOJ says Gramajo Jolomna personally kept records for cocaine activity in Guatemala and pleaded guilty on 14 June 2018; the Senate prosecutor summary later reports a 210-month sentence without a date."
+        },
+        {
+          "url": "https://www.judiciary.senate.gov/imo/media/doc/siebert_sjq.pdf",
+          "title": "U.S. Senate Judiciary Committee questionnaire of Erik S. Siebert, pp. 10–11",
+          "publisher": "U.S. Senate Judiciary Committee",
+          "language": "en",
+          "claim": "The lead prosecutor identifies EDVA cases 3:16cr67 and 3:19cr18 as investigations of the Estrada-Linares Drug Trafficking Organization and individually lists defendants and seven sentence lengths."
+        }
+      ],
+      "events": [
+        {
+          "id": "brayan-alexander-gramajo-jolomna-2018-06-14-guilty-plea",
+          "occurredAt": "2018-06-14",
+          "type": "conviction",
+          "title": "Guilty plea",
+          "summary": "DOJ reports Brayan Alexander Gramajo Jolomna pleaded guilty to a cocaine conspiracy; the Senate source later reports a sentence but no sentencing date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/guatemalan-man-pleads-guilty-cocaine-distribution-conspiracy-0",
+            "title": "Guatemalan Man Pleads Guilty for Cocaine Distribution Conspiracy",
+            "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
+            "language": "en",
+            "publishedAt": "2018-06-14",
+            "claim": "DOJ says Gramajo Jolomna personally kept records for cocaine activity in Guatemala and pleaded guilty on 14 June 2018; the Senate prosecutor summary later reports a 210-month sentence without a date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "amilcar-chavez-barrera",
+      "name": "Amilcar Chavez-Barrera",
+      "status": "convicted",
+      "statusAsOf": "2021-12-03",
+      "roleLabel": "Convicted cocaine trafficking organization member",
+      "prominence": 2,
+      "organizationIds": [
+        "estrada-linares-dto"
+      ],
+      "regions": [
+        {
+          "iso3": "GTM",
+          "label": "Guatemala",
+          "evidence": {
+            "claim": "DOJ individually documents Amilcar Chavez-Barrera participating in the historical Guatemala cocaine operation.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/international-drug-trafficking-organization-member-sentenced-trafficking-over-thousand"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/international-drug-trafficking-organization-member-sentenced-trafficking-over-thousand",
+          "title": "International Drug Trafficking Organization Member Sentenced for Trafficking Over a Thousand Kilograms of Cocaine",
+          "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
+          "language": "en",
+          "publishedAt": "2021-12-03",
+          "claim": "DOJ individually describes Chavez-Barrera cocaine activity in Guatemala and reports a 3 December 2021 172-month sentence."
+        },
+        {
+          "url": "https://www.judiciary.senate.gov/imo/media/doc/siebert_sjq.pdf",
+          "title": "U.S. Senate Judiciary Committee questionnaire of Erik S. Siebert, pp. 10–11",
+          "publisher": "U.S. Senate Judiciary Committee",
+          "language": "en",
+          "claim": "The lead prosecutor identifies EDVA cases 3:16cr67 and 3:19cr18 as investigations of the Estrada-Linares Drug Trafficking Organization and individually lists defendants and seven sentence lengths."
+        }
+      ],
+      "events": [
+        {
+          "id": "amilcar-chavez-barrera-2021-12-03-sentence",
+          "occurredAt": "2021-12-03",
+          "type": "sentence",
+          "title": "172-month sentence",
+          "summary": "DOJ reports Amilcar Chavez-Barrera was sentenced in the cocaine trafficking case.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/international-drug-trafficking-organization-member-sentenced-trafficking-over-thousand",
+            "title": "International Drug Trafficking Organization Member Sentenced for Trafficking Over a Thousand Kilograms of Cocaine",
+            "publisher": "U.S. Attorney’s Office, Eastern District of Virginia",
+            "language": "en",
+            "publishedAt": "2021-12-03",
+            "claim": "DOJ individually describes Chavez-Barrera cocaine activity in Guatemala and reports a 3 December 2021 172-month sentence."
           }
         }
       ]
