@@ -113,6 +113,7 @@ Reflex re-implements the documented behaviour of TypeSafe's Jev (typed Choice/Sc
 
 ```bash
 uv sync --extra reflex                 # torch, transformers, datasets
+uv run trace reflex-download           # published v0.2 weights (GitHub release reflex-v0.2.0, SHA-256 verified)
 uv run trace reflex-data               # build open-dataset + UNODC-record splits
 uv run trace reflex-train              # CPU training (hours on a laptop)
 uv run trace reflex-eval --model-dir data/reflex/model
