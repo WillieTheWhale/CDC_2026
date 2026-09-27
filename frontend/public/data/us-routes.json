@@ -1,0 +1,1 @@
+{"meta":{"_ai_assisted":"Claude Code (Anthropic). See docs/AI_USAGE.md.","kind":"documented","note":"US drug-route pairs stated in public government reports and court records. Each has a quote and locator. City-level only where the source names both cities; otherwise state-level.","generated_by":"uv run trace us-routes"},"data":{"routes":[]}}
