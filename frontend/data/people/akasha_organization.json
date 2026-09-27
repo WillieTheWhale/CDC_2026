@@ -1,0 +1,579 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from U.S. Department of Justice releases, a Kenyan High Court ruling, and subsequent sentencing reports. The Akasha Organization is the named Kenyan network; external supplier Hafeez and external transport associate Hussein are shown as connected people without assigning them membership. Charges and alleged roles are expressly labeled; no later disposition for Goswami or Hussein was established in the reviewed public sources. Country-level historical associations only; no precise locations, operational routes, enforcement gaps, or photos without verified reuse rights.",
+  "organizations": [
+    {
+      "id": "akasha-organization",
+      "name": "Akasha Organization",
+      "aliases": [
+        "Akasha crime family"
+      ],
+      "regions": [
+        "KEN"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/former-leader-violent-kenyan-organized-crime-family-sentenced-25-years-prison-narcotics",
+          "title": "Former Leader Of Violent Kenyan Organized Crime Family Sentenced To 25 Years In Prison For Narcotics, Weapons, And Obstruction Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2019-08-16",
+          "claim": "DOJ identifies the Kenya-based Akasha Organization, naming Baktash as long-time leader and Ibrahim as deputy."
+        },
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2015/6747/eng@2015-02-09",
+          "title": "Republic v Baktash Akasha Abdalla alias Baktash Akasha & 3 others [2015] KEHC 6747 (KLR)",
+          "publisher": "Kenya Law / High Court of Kenya",
+          "language": "English",
+          "publishedAt": "2015-02-09",
+          "claim": "A Kenyan High Court ruling documents extradition proceedings for the two Akasha brothers and two named associates but makes no finding of guilt."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "baktash-akasha-abdalla",
+      "name": "Baktash Akasha Abdalla",
+      "aliases": [
+        "Baktash Akasha"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2019-08-16",
+      "roleLabel": "Former Akasha Organization leader; sentenced for drug trafficking and related offenses",
+      "prominence": 1,
+      "organizationIds": [
+        "akasha-organization"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya"
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/former-leader-violent-kenyan-organized-crime-family-sentenced-25-years-prison-narcotics",
+          "title": "Former Leader Of Violent Kenyan Organized Crime Family Sentenced To 25 Years In Prison For Narcotics, Weapons, And Obstruction Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2019-08-16",
+          "claim": "DOJ reports Baktash led the Akasha Organization for nearly two decades and received a 25-year sentence in August 2019 for heroin and methamphetamine crimes and related offenses."
+        },
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2015/6747/eng@2015-02-09",
+          "title": "Republic v Baktash Akasha Abdalla alias Baktash Akasha & 3 others [2015] KEHC 6747 (KLR)",
+          "publisher": "Kenya Law / High Court of Kenya",
+          "language": "English",
+          "publishedAt": "2015-02-09",
+          "claim": "Kenyan High Court names Baktash in a 2015 ruling on U.S. extradition proceedings; the ruling is not a finding of guilt."
+        }
+      ],
+      "events": [
+        {
+          "id": "baktash-akasha-abdalla-2014-11-09-arrest",
+          "occurredAt": "2014-11-09",
+          "type": "arrest",
+          "title": "Provisionally arrested in Kenya",
+          "summary": "DOJ reports Kenyan officers provisionally arrested Baktash on 9 November 2014 on U.S. narcotics charges.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+            "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2017-01-31",
+            "claim": "DOJ reports Kenyan officers provisionally arrested Baktash on 9 November 2014 on U.S. narcotics charges."
+          }
+        },
+        {
+          "id": "baktash-akasha-abdalla-2018-10-24-conviction",
+          "occurredAt": "2018-10-24",
+          "type": "conviction",
+          "title": "Pleaded guilty in U.S. court",
+          "summary": "DOJ reports Baktash pleaded guilty on 24 October 2018 to heroin and methamphetamine trafficking, weapons conspiracy, and obstruction charges.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/former-leader-kenyan-organized-crime-family-and-his-brother-plead-guilty-narcotics",
+            "title": "Former Leader Of Kenyan Organized Crime Family And His Brother Plead Guilty To Narcotics, Weapons, And Obstruction Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2018-10-25",
+            "claim": "DOJ reports Baktash pleaded guilty on 24 October 2018 to heroin and methamphetamine trafficking, weapons conspiracy, and obstruction charges."
+          }
+        },
+        {
+          "id": "baktash-akasha-abdalla-2019-08-16-sentence",
+          "occurredAt": "2019-08-16",
+          "type": "sentence",
+          "title": "Sentenced to 25 years",
+          "summary": "DOJ reports a 25-year sentence imposed on Baktash for drug trafficking and related crimes.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/former-leader-violent-kenyan-organized-crime-family-sentenced-25-years-prison-narcotics",
+            "title": "Former Leader Of Violent Kenyan Organized Crime Family Sentenced To 25 Years In Prison For Narcotics, Weapons, And Obstruction Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2019-08-16",
+            "claim": "DOJ reports a 25-year sentence imposed on Baktash for drug trafficking and related crimes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ibrahim-akasha-abdalla",
+      "name": "Ibrahim Akasha Abdalla",
+      "aliases": [
+        "Ibrahim Akasha"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-01-10",
+      "roleLabel": "Former Akasha Organization deputy; sentenced for drug trafficking and related offenses",
+      "prominence": 1,
+      "organizationIds": [
+        "akasha-organization"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya"
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/former-leader-violent-kenyan-organized-crime-family-sentenced-25-years-prison-narcotics",
+          "title": "Former Leader Of Violent Kenyan Organized Crime Family Sentenced To 25 Years In Prison For Narcotics, Weapons, And Obstruction Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2019-08-16",
+          "claim": "DOJ identifies Ibrahim as Baktash’s brother and deputy and says he pleaded guilty to the same drug-trafficking and related offenses."
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/pakistani-national-muhammad-asif-hafeez-pleads-guilty-drug-trafficking-charges",
+          "title": "Pakistani National Muhammad Asif Hafeez Pleads Guilty To Drug-Trafficking Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2024-11-18",
+          "claim": "DOJ reports Ibrahim received a 23-year sentence on 10 January 2020."
+        }
+      ],
+      "events": [
+        {
+          "id": "ibrahim-akasha-abdalla-2014-11-09-arrest",
+          "occurredAt": "2014-11-09",
+          "type": "arrest",
+          "title": "Provisionally arrested in Kenya",
+          "summary": "DOJ reports Kenyan officers provisionally arrested Ibrahim on 9 November 2014 on U.S. narcotics charges.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+            "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2017-01-31",
+            "claim": "DOJ reports Kenyan officers provisionally arrested Ibrahim on 9 November 2014 on U.S. narcotics charges."
+          }
+        },
+        {
+          "id": "ibrahim-akasha-abdalla-2018-10-24-conviction",
+          "occurredAt": "2018-10-24",
+          "type": "conviction",
+          "title": "Pleaded guilty in U.S. court",
+          "summary": "DOJ reports Ibrahim pleaded guilty on 24 October 2018 to heroin and methamphetamine trafficking, weapons conspiracy, and obstruction charges.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/former-leader-kenyan-organized-crime-family-and-his-brother-plead-guilty-narcotics",
+            "title": "Former Leader Of Kenyan Organized Crime Family And His Brother Plead Guilty To Narcotics, Weapons, And Obstruction Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2018-10-25",
+            "claim": "DOJ reports Ibrahim pleaded guilty on 24 October 2018 to heroin and methamphetamine trafficking, weapons conspiracy, and obstruction charges."
+          }
+        },
+        {
+          "id": "ibrahim-akasha-abdalla-2020-01-10-sentence",
+          "occurredAt": "2020-01-10",
+          "type": "sentence",
+          "title": "Sentenced to 23 years",
+          "summary": "DOJ reports a 23-year sentence imposed on Ibrahim on 10 January 2020.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/pakistani-national-muhammad-asif-hafeez-pleads-guilty-drug-trafficking-charges",
+            "title": "Pakistani National Muhammad Asif Hafeez Pleads Guilty To Drug-Trafficking Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2024-11-18",
+            "claim": "DOJ reports a 23-year sentence imposed on Ibrahim on 10 January 2020."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vijaygiri-anandgiri-goswami",
+      "name": "Vijaygiri Anandgiri Goswami",
+      "aliases": [
+        "Vijay Goswami",
+        "Vicky Goswami"
+      ],
+      "status": "charged",
+      "statusAsOf": "2017-01-31",
+      "roleLabel": "Alleged manager of Akasha drug business; U.S. narcotics defendant in 2017",
+      "prominence": 2,
+      "organizationIds": [
+        "akasha-organization"
+      ],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya"
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+          "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2017-01-31",
+          "claim": "DOJ’s 2017 indictment announcement alleges Goswami managed Akasha drug procurement and distribution and names him among four charged defendants; no later disposition is established here."
+        },
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2015/6747/eng@2015-02-09",
+          "title": "Republic v Baktash Akasha Abdalla alias Baktash Akasha & 3 others [2015] KEHC 6747 (KLR)",
+          "publisher": "Kenya Law / High Court of Kenya",
+          "language": "English",
+          "publishedAt": "2015-02-09",
+          "claim": "Kenyan High Court names Goswami and his aliases in 2015 extradition proceedings without deciding criminal guilt."
+        }
+      ],
+      "events": [
+        {
+          "id": "vijaygiri-anandgiri-goswami-2014-11-09-arrest",
+          "occurredAt": "2014-11-09",
+          "type": "arrest",
+          "title": "Provisionally arrested in Kenya",
+          "summary": "DOJ reports Goswami was provisionally arrested on 9 November 2014 under U.S. charges.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+            "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2017-01-31",
+            "claim": "DOJ reports Goswami was provisionally arrested on 9 November 2014 under U.S. charges."
+          }
+        },
+        {
+          "id": "vijaygiri-anandgiri-goswami-2017-01-31-charge",
+          "occurredAt": "2017-01-31",
+          "type": "charge",
+          "title": "U.S. charges announced",
+          "summary": "DOJ names Goswami among defendants charged in a narcotics importation conspiracy; the described role remains an allegation.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+            "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2017-01-31",
+            "claim": "DOJ names Goswami among defendants charged in a narcotics importation conspiracy; the described role remains an allegation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gulam-hussein",
+      "name": "Gulam Hussein",
+      "aliases": [
+        "Hussein Shabakhash",
+        "Hussein Shabakash",
+        "Hadji Hussein",
+        "Old Man"
+      ],
+      "status": "charged",
+      "statusAsOf": "2017-01-31",
+      "roleLabel": "Alleged external transport-network head and Akasha associate; U.S. narcotics defendant in 2017",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya"
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+          "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2017-01-31",
+          "claim": "DOJ’s 2017 indictment announcement alleges Hussein headed a separate transport network, was a long-time Goswami associate, and was charged in the Akasha-linked heroin case; this does not establish Akasha membership or a later disposition."
+        },
+        {
+          "url": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2015/6747/eng@2015-02-09",
+          "title": "Republic v Baktash Akasha Abdalla alias Baktash Akasha & 3 others [2015] KEHC 6747 (KLR)",
+          "publisher": "Kenya Law / High Court of Kenya",
+          "language": "English",
+          "publishedAt": "2015-02-09",
+          "claim": "Kenyan High Court names Hussein and aliases in 2015 extradition proceedings without deciding criminal guilt."
+        }
+      ],
+      "events": [
+        {
+          "id": "gulam-hussein-2014-11-09-arrest",
+          "occurredAt": "2014-11-09",
+          "type": "arrest",
+          "title": "Provisionally arrested in Kenya",
+          "summary": "DOJ reports Hussein was provisionally arrested on 9 November 2014 under U.S. charges.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+            "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2017-01-31",
+            "claim": "DOJ reports Hussein was provisionally arrested on 9 November 2014 under U.S. charges."
+          }
+        },
+        {
+          "id": "gulam-hussein-2017-01-31-charge",
+          "occurredAt": "2017-01-31",
+          "type": "charge",
+          "title": "U.S. charges announced",
+          "summary": "DOJ names Hussein among defendants charged with narcotics importation; his alleged role is not treated as a conviction.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+            "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2017-01-31",
+            "claim": "DOJ names Hussein among defendants charged with narcotics importation; his alleged role is not treated as a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "muhammad-asif-hafeez",
+      "name": "Muhammad Asif Hafeez",
+      "aliases": [
+        "Sultan"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-06-06",
+      "roleLabel": "External narcotics supplier to the Akasha Organization; convicted in U.S. case",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "KEN",
+          "label": "Kenya"
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine",
+        "hashish"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/pakistani-national-muhammad-asif-hafeez-pleads-guilty-drug-trafficking-charges",
+          "title": "Pakistani National Muhammad Asif Hafeez Pleads Guilty To Drug-Trafficking Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2024-11-18",
+          "claim": "DOJ says Hafeez pleaded guilty in November 2024 to U.S. heroin, methamphetamine and hashish conspiracies and describes him as a primary supplier to, rather than member of, the Akasha Organization."
+        },
+        {
+          "url": "https://www.geo.tv/latest/608247-asif-hafeez-sentenced-to-16-years-in-us-over-drug-trafficking-charges",
+          "title": "Asif Hafeez sentenced to 16 years in US over drug trafficking charges",
+          "publisher": "Geo News",
+          "language": "English",
+          "publishedAt": "2025-06-08",
+          "claim": "Geo News reports a U.S. federal judge imposed a 16-year sentence on Hafeez in June 2025."
+        },
+        {
+          "url": "https://www.dailymaverick.co.za/article/2025-06-19-spies-and-sas-narco-secrets-behind-the-us-sentencing-of-global-drug-trafficker-sultan-muhammad-asif-hafeez/",
+          "title": "Spies and SA’s narco secrets — behind the sentencing of global drug trafficker “Sultan” Muhammad Asif Hafeez",
+          "publisher": "Daily Maverick",
+          "language": "English",
+          "publishedAt": "2025-06-19",
+          "claim": "Daily Maverick reports the sentencing occurred on 6 June 2025 and describes the 16-year term."
+        }
+      ],
+      "events": [
+        {
+          "id": "muhammad-asif-hafeez-2017-08-25-arrest",
+          "occurredAt": "2017-08-25",
+          "type": "arrest",
+          "title": "Provisionally arrested in the UK",
+          "summary": "DOJ reports Hafeez was provisionally arrested on 25 August 2017 in the UK.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/pakistani-national-muhammad-asif-hafeez-pleads-guilty-drug-trafficking-charges",
+            "title": "Pakistani National Muhammad Asif Hafeez Pleads Guilty To Drug-Trafficking Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2024-11-18",
+            "claim": "DOJ reports Hafeez was provisionally arrested on 25 August 2017 in the UK."
+          }
+        },
+        {
+          "id": "muhammad-asif-hafeez-2024-11-18-conviction",
+          "occurredAt": "2024-11-18",
+          "type": "conviction",
+          "title": "Pleaded guilty in U.S. court",
+          "summary": "DOJ reports Hafeez pleaded guilty on 18 November 2024 to narcotics importation conspiracies.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/pakistani-national-muhammad-asif-hafeez-pleads-guilty-drug-trafficking-charges",
+            "title": "Pakistani National Muhammad Asif Hafeez Pleads Guilty To Drug-Trafficking Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "English",
+            "publishedAt": "2024-11-18",
+            "claim": "DOJ reports Hafeez pleaded guilty on 18 November 2024 to narcotics importation conspiracies."
+          }
+        },
+        {
+          "id": "muhammad-asif-hafeez-2025-06-06-sentence",
+          "occurredAt": "2025-06-06",
+          "type": "sentence",
+          "title": "Sentenced to 16 years",
+          "summary": "Daily Maverick and Geo News report that a U.S. federal judge imposed a 16-year sentence on 6 June 2025.",
+          "source": {
+            "url": "https://www.dailymaverick.co.za/article/2025-06-19-spies-and-sas-narco-secrets-behind-the-us-sentencing-of-global-drug-trafficker-sultan-muhammad-asif-hafeez/",
+            "title": "Spies and SA’s narco secrets — behind the sentencing of global drug trafficker “Sultan” Muhammad Asif Hafeez",
+            "publisher": "Daily Maverick",
+            "language": "English",
+            "publishedAt": "2025-06-19",
+            "claim": "Daily Maverick and Geo News report that a U.S. federal judge imposed a 16-year sentence on 6 June 2025."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "baktash-ibrahim-brothers",
+      "fromId": "baktash-akasha-abdalla",
+      "toId": "ibrahim-akasha-abdalla",
+      "type": "sibling_of",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/former-leader-violent-kenyan-organized-crime-family-sentenced-25-years-prison-narcotics",
+          "title": "Former Leader Of Violent Kenyan Organized Crime Family Sentenced To 25 Years In Prison For Narcotics, Weapons, And Obstruction Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2019-08-16",
+          "claim": "DOJ explicitly calls Ibrahim Baktash’s brother."
+        }
+      ]
+    },
+    {
+      "id": "baktash-ibrahim-deputy",
+      "fromId": "baktash-akasha-abdalla",
+      "toId": "ibrahim-akasha-abdalla",
+      "type": "deputy_of",
+      "label": "Leader and deputy",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/former-leader-violent-kenyan-organized-crime-family-sentenced-25-years-prison-narcotics",
+          "title": "Former Leader Of Violent Kenyan Organized Crime Family Sentenced To 25 Years In Prison For Narcotics, Weapons, And Obstruction Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2019-08-16",
+          "claim": "DOJ states Baktash led the Akasha Organization and Ibrahim functioned as his deputy."
+        }
+      ]
+    },
+    {
+      "id": "baktash-goswami-business",
+      "fromId": "baktash-akasha-abdalla",
+      "toId": "vijaygiri-anandgiri-goswami",
+      "type": "managed_for",
+      "label": "Alleged drug-business manager",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+          "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2017-01-31",
+          "claim": "The 2017 indictment announcement names Baktash as leader and alleges Goswami managed the Akasha Organization’s drug business."
+        }
+      ]
+    },
+    {
+      "id": "goswami-hussein-associates",
+      "fromId": "vijaygiri-anandgiri-goswami",
+      "toId": "gulam-hussein",
+      "type": "associate",
+      "label": "Long-time associates",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+          "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2017-01-31",
+          "claim": "DOJ’s 2017 announcement explicitly calls Hussein a long-time associate of Goswami; this is an allegation."
+        }
+      ]
+    },
+    {
+      "id": "baktash-hafeez-supplier",
+      "fromId": "baktash-akasha-abdalla",
+      "toId": "muhammad-asif-hafeez",
+      "type": "supplier",
+      "label": "External supplier relationship",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/pakistani-national-muhammad-asif-hafeez-pleads-guilty-drug-trafficking-charges",
+          "title": "Pakistani National Muhammad Asif Hafeez Pleads Guilty To Drug-Trafficking Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2024-11-18",
+          "claim": "DOJ says Hafeez supplied narcotics to the Akasha Organization and explicitly describes Baktash as its leader; Hafeez is not labeled a member."
+        }
+      ]
+    },
+    {
+      "id": "ibrahim-hafeez-delivery",
+      "fromId": "ibrahim-akasha-abdalla",
+      "toId": "muhammad-asif-hafeez",
+      "type": "documented_collaboration",
+      "label": "Documented drug transaction",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/pakistani-national-muhammad-asif-hafeez-pleads-guilty-drug-trafficking-charges",
+          "title": "Pakistani National Muhammad Asif Hafeez Pleads Guilty To Drug-Trafficking Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2024-11-18",
+          "claim": "DOJ says Ibrahim delivered a heroin sample on behalf of Hafeez and the Akasha Organization in October 2014."
+        }
+      ]
+    },
+    {
+      "id": "baktash-hussein-introduction",
+      "fromId": "baktash-akasha-abdalla",
+      "toId": "gulam-hussein",
+      "type": "documented_collaboration",
+      "label": "Introduced as associate",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-arrival-four-defendants-kenya-charged-trafficking",
+          "title": "Manhattan U.S. Attorney Announces Arrival Of Four Defendants From Kenya Charged With Trafficking In Massive Quantities Of Heroin And Methamphetamine",
+          "publisher": "U.S. Department of Justice",
+          "language": "English",
+          "publishedAt": "2017-01-31",
+          "claim": "DOJ alleges Baktash introduced Hussein as a transport associate at a 2014 meeting; the allegation is not a conviction of Hussein."
+        }
+      ]
+    }
+  ]
+}
