@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1490,
-    "associations": 1261,
-    "evidenced": 1261,
+    "people": 1491,
+    "associations": 1262,
+    "evidenced": 1262,
     "missing": 0,
     "invalid": 0
   },
@@ -187,6 +187,13 @@
       "people": 6,
       "associations": 9,
       "evidenced": 9,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ghana_russel_final_acquittal_2016.json": {
+      "people": 1,
+      "associations": 1,
+      "evidenced": 1,
       "missing": 0,
       "invalid": 0
     },
@@ -646,8 +653,8 @@
       "invalid": 0
     },
     "GHA": {
-      "associations": 7,
-      "evidenced": 7,
+      "associations": 8,
+      "evidenced": 8,
       "missing": 0,
       "invalid": 0
     },
