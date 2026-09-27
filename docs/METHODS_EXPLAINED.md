@@ -399,20 +399,28 @@ mechanism.
 
 **Classifiers:** there are three behind one interface.
 - **Jev** (TypeSafe, pinned `jev-1.13.0`): used once there's an API key.
-- **Reflex:** our own re-implementation (section 11).
-- **Keyword mock:** used on the deployed API, where Reflex's torch dependency is too heavy.
+- **Reflex:** our own re-implementation (section 11). The deployed API runs its torch-free ONNX build; the
+  chosen compressed model has 100% top-choice agreement with PyTorch over 150 parity headlines.
+- **Keyword mock:** the explicit fallback if Reflex cannot load; `/api/meta` identifies which classifier is live.
 
-**Result.** Mock, on 100 synthetic headlines (an upper bound, because the rules and labels were written
-together):
+The production build pre-classifies the replay backlog, reducing its first read from about 17 seconds to
+0.06 seconds. `POST /api/livewire/classify` applies the same grounded classifier to one supplied headline
+without storing it.
+
+**Result.** Grounded Reflex on 92 real published headlines it never trained or tuned on (one AI-assisted
+annotator; every row retains its URL):
 
 | Field | Accuracy |
 |---|---|
-| is_event | 0.81 |
-| event_type | 0.80 |
-| drug | 0.89 |
-| origin | 0.89 |
-| destination | 0.52 |
-| size | 0.96 |
+| is_event | 0.913 |
+| drug | 0.978 |
+| origin | 0.957 |
+| destination | 0.848 |
+| size (28 seizure rows; “not stated” is a label) | 0.929 |
+
+Grounding produced 0 unsupported country/drug entities out of 107 predictions, versus 5 of 102 without
+the guardrails and 19 of 88 for the keyword mock. This means the entity is supported by the text, not that
+the model necessarily assigned the supported country to the correct route role.
 
 ---
 
@@ -420,8 +428,9 @@ together):
 
 **Say it:**
 > The commercial model we planned to use had a waitlist, so we built our own version of it, Reflex. It answers
-> the same typed questions with probability scores calibrated on its held-out development data. Those scores
-> are routing signals until we validate them on team-labelled real news; they are not field probabilities yet.
+> the same typed questions and now runs in production without PyTorch. On a first real-news benchmark, its
+> grounding guardrails invented no country or drug; displayed events had mean confidence 0.857 against 0.840
+> precision. It is still a routing signal, not an externally validated field probability.
 
 **Method:**
 - A cross-encoder (`nli-deberta-v3-xsmall`) reads (news text, candidate answer) and scores
@@ -434,6 +443,9 @@ together):
 - Held-out accuracy 90.2% (untuned backbone 48.1%).
 - Expected calibration error 0.020, which is within the 0.02–0.03 that independent testing reports for Jev.
 - Live Wire fields: event type 98%, destination 82% (mock 52%).
+- On the 92-headline real-news benchmark, grounded Reflex reaches 97.8% drug, 95.7% origin and 84.8%
+  destination accuracy. Displayed-event calibration error is 0.052; over all rows it is 0.19. The set has
+  one AI-assisted annotator, so the next step is a larger independently labelled evaluation.
 
 ---
 
@@ -533,7 +545,9 @@ by design.
    observed shipment by shipment.
 3. **Several weights are set by hand and stated openly, not fitted:** risk 0.45/0.35/0.20, harm weights,
    confidence points, cascade 0.7.
-4. **The Live Wire accuracy is an upper bound** (synthetic headlines). Reflex numbers come from held-out data.
+4. **The first real-news Live Wire benchmark is small and internally labelled:** 92 published headlines,
+   one AI-assisted annotator. Grounding guarantees textual support for recognised entities, not the correct
+   route role, and confidence remains a routing signal pending larger independent validation.
 5. **The US validation uses 2008–2011 reports.** Absence from a report isn't evidence of absence.
 
 ---
