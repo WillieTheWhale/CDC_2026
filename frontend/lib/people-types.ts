@@ -19,6 +19,7 @@ export interface PersonPhoto {
   url: string;
   credit: string;
   license: string;
+  licenseUrl?: string;
   sourceUrl: string;
 }
 

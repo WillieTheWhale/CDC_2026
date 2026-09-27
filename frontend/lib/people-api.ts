@@ -84,6 +84,7 @@ export function normalizeDataset(input: unknown): PeopleDataset {
         .sort((a, b) => b.occurredAt.localeCompare(a.occurredAt)) : [],
       photo: person.photo && validHttpUrl(person.photo.url) &&
         validHttpUrl(person.photo.sourceUrl) &&
+        (!person.photo.licenseUrl || validHttpUrl(person.photo.licenseUrl)) &&
         person.sources.some((source) => source.url === person.photo?.sourceUrl) &&
         typeof person.photo.credit === "string" && person.photo.credit.trim() &&
         typeof person.photo.license === "string" && person.photo.license.trim()

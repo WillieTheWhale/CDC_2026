@@ -44,9 +44,25 @@ test("search, zoom, wrapped bbox and cursor filter binding", () => {
   const pacific = queryPeople(dataset, countries, { search: "", zoom: 3, limit: 10, bbox: [170, -30, 190, 0] });
   assert.deepEqual(pacific.data.people.map((person) => person.id), ["person-10002"]);
   const lowZoom = queryPeople(dataset, countries, { search: "", zoom: 1, limit: 10, bbox: [170, -30, 190, 0] });
-  assert.equal(lowZoom.meta.total, 0);
+  assert.deepEqual(lowZoom.data.people.map((person) => person.id), ["person-10002"]);
   const first = queryPeople(dataset, countries, { search: "", zoom: 3, limit: 2 });
   assert.throws(() => queryPeople(dataset, countries, { search: "other", zoom: 3, limit: 2, cursor: first.meta.next_cursor! }), /cursor/);
+});
+
+test("zoom tiers reveal prominence 1, then 2, then 3", () => {
+  const tiered: PeopleDataset = {
+    organizations: [], connections: [],
+    people: [makePerson(1, "USA", 1), makePerson(2, "USA", 2), makePerson(3, "USA", 3)],
+  };
+  for (const [zoom, expected] of [
+    [1, ["person-0001"]],
+    [2, ["person-0001", "person-0002"]],
+    [3, ["person-0001", "person-0002", "person-0003"]],
+  ] as const) {
+    const page = queryPeople(tiered, countries, { search: "", zoom, limit: 10 });
+    assert.deepEqual(page.data.people.map((person) => person.id), expected);
+    assert.equal(page.meta.total, expected.length);
+  }
 });
 
 test("name search is global across low prominence and outside the map viewport", () => {

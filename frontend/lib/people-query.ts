@@ -69,10 +69,10 @@ function decodeCursor(value: string, key: string): [string, string] {
 
 export function queryPeople(dataset: PeopleDataset, countries: PeopleCountry[], query: ParsedPeopleQuery): PeoplePage {
   const countryById = new Map(countries.map((country) => [country.iso3, country]));
-  const threshold = query.zoom === 1 ? 3 : query.zoom === 2 ? 2 : 1;
+  const threshold = query.zoom;
   const needle = fold(query.search);
   const filtered = dataset.people.filter((person) =>
-    (needle.length > 0 || person.prominence >= threshold) &&
+    (needle.length > 0 || person.prominence <= threshold) &&
     (!needle || [person.name, ...(person.aliases ?? [])].some((value) => fold(value).includes(needle))) &&
     (needle.length > 0 || !query.bbox || person.regions.some((region) => {
       const country = countryById.get(region.iso3);

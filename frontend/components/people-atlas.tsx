@@ -216,8 +216,8 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     if (!map || !mapReady) return;
     markersRef.current.forEach((marker) => marker.remove());
     markersRef.current = [];
-    const threshold = zoom === 1 ? 3 : zoom === 2 ? 2 : 1;
-    const visible = searching ? matching : matching.filter((person) => person.prominence >= threshold);
+    const threshold = zoom;
+    const visible = searching ? matching : matching.filter((person) => person.prominence <= threshold);
     const bounds = map.getBounds();
     if (zoom < 3) {
       const grouped = new Map<string, Person[]>();
@@ -240,7 +240,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
         label.textContent = country.name;
         button.append(count, label);
         button.addEventListener("click", () => {
-          choosePerson([...members].sort((a, b) => b.prominence - a.prominence || a.name.localeCompare(b.name))[0], iso3);
+          choosePerson([...members].sort((a, b) => a.prominence - b.prominence || a.name.localeCompare(b.name))[0], iso3);
         });
         markersRef.current.push(new maplibregl.Marker({ element: button, anchor: "center" }).setLngLat([country.lon!, country.lat!]).addTo(map));
       }
@@ -251,7 +251,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
         const country = countryById.get(region.iso3);
         return country?.lat != null && country.lon != null && bounds.contains([country.lon, country.lat]);
       })
-      .sort((a, b) => b.person.prominence - a.person.prominence || a.person.name.localeCompare(b.person.name))
+      .sort((a, b) => a.person.prominence - b.person.prominence || a.person.name.localeCompare(b.person.name))
       .slice(0, 120);
     const offsets = new Map<string, number>();
     for (const { person, region } of individual) {
@@ -347,7 +347,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
           {!!selected.drugs.length && <p>Source topics: {selected.drugs.join(", ")}</p>}
       {selected.roleLabel && <p className="people-role-attribution">Role description attributed to the cited sources.</p>}
       {!!selected.organizationIds.length && <div className="people-orgs"><h3>Source-reported organization associations</h3>{selected.organizationIds.map((id) => organizations.get(id)?.name).filter(Boolean).map((name) => <span key={name}>{name}</span>)}</div>}
-          {selected.photo && <figure className="people-portrait"><img src={selected.photo.url} alt={`Portrait of ${selected.name}`} loading="lazy" /><figcaption>Photo: {selected.photo.credit} · {selected.photo.license} · <a href={selected.photo.sourceUrl} target="_blank" rel="noreferrer">license record</a></figcaption></figure>}
+          {selected.photo && <figure className="people-portrait"><img src={selected.photo.url} alt={`Portrait of ${selected.name}`} loading="lazy" /><figcaption>Photo: {selected.photo.credit} · {selected.photo.licenseUrl ? <a href={selected.photo.licenseUrl} target="_blank" rel="noreferrer">{selected.photo.license}</a> : selected.photo.license} · <a href={selected.photo.sourceUrl} target="_blank" rel="noreferrer">file and attribution record</a></figcaption></figure>}
           <PeopleEventTimeline events={selected.events ?? []} />
           <div className="people-sources"><h3>Sources</h3>{selected.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><strong>{source.title}</strong><span>{source.publisher} · {source.language}{source.publishedAt ? ` · ${source.publishedAt}` : ""}</span><small>{source.claim}</small></a>)}</div>
           <p className="people-caution people-detail-caution">A listed connection is a source claim, not proof of guilt.</p>

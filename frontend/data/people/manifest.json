@@ -4454,6 +4454,13 @@
           "language": "English",
           "publishedAt": "2025-06-30",
           "claim": "OFAC converted Maher al-Assad’s Syria program tag to PAARSSR-EO13894, retaining his SDN entry as of this action."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Maher_al-Assad.jpg",
+          "title": "Maher al-Assad photograph: author, file history and license",
+          "publisher": "Wikimedia Commons",
+          "language": "English",
+          "claim": "Original uploader M.naddaf identified this as their own photograph of Maher al-Assad and licensed it CC BY-SA 3.0. Herr Ziffer cropped and centered the current version in 2012."
         }
       ],
       "events": [
@@ -4472,7 +4479,14 @@
             "claim": "The 11 August 2026 judgment named Maher among defendants convicted in absentia of non-drug atrocities."
           }
         }
-      ]
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Maher_al-Assad.jpg",
+        "credit": "M.naddaf (original); Herr Ziffer (2012 crop), via Wikimedia Commons",
+        "license": "CC BY-SA 3.0; current file cropped and centered in 2012",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maher_al-Assad.jpg"
+      }
     },
     {
       "id": "khalid-qaddour",
