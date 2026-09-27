@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1250,
-    "associations": 1076,
-    "evidenced": 1076,
+    "people": 1280,
+    "associations": 1106,
+    "evidenced": 1106,
     "missing": 0,
     "invalid": 0
   },
@@ -145,6 +145,13 @@
       "people": 8,
       "associations": 8,
       "evidenced": 8,
+      "missing": 0,
+      "invalid": 0
+    },
+    "europe_italy_historical_2012_2020.json": {
+      "people": 30,
+      "associations": 30,
+      "evidenced": 30,
       "missing": 0,
       "invalid": 0
     },
@@ -513,8 +520,14 @@
       "invalid": 0
     },
     "ITA": {
-      "associations": 13,
-      "evidenced": 13,
+      "associations": 42,
+      "evidenced": 42,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ESP": {
+      "associations": 1,
+      "evidenced": 1,
       "missing": 0,
       "invalid": 0
     },

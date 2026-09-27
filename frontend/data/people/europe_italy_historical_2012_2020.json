@@ -1,11 +1,12 @@
 {
-  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Historical case/report-date snapshots only. The 2016 appellate article headline says 30 but prints 31 names; three ambiguous names were held. Individual drug types are left blank for the Mondragone defendants because the sources identify drugs at case level, not per person. No current location, routes, enforcement weaknesses or unlicensed portraits.",
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Historical case/report-date snapshots only. The 2016 appellate article headline says 30 but prints 31 names; four names were held for identity or age ambiguity. Case-scoped organizations denote proceedings, not proven membership in the wider Camorra clan. Individual drug types are left blank for the Mondragone defendants because the sources identify drugs at case level, not per person. No current location, routes, enforcement weaknesses or unlicensed portraits.",
   "organizations": [
     {
-      "id": "pagliuca-mondragone-drug-case-2012",
-      "name": "Mondragone Pagliuca drug-distribution case group",
+      "id": "mondragone-drug-distribution-case-2012-2016",
+      "name": "Mondragone drug-distribution criminal proceeding",
       "aliases": [
-        "2012 Mondragone drug case"
+        "2012 Mondragone drug case",
+        "2016 Naples appellate drug case"
       ],
       "regions": [
         "ITA"
@@ -70,6 +71,23 @@
           "claim": "The Constitutional Court records that Spanish drug proceedings concerning the Adamas seizure were provisionally discontinued as to Biondo on 2 November 2016; it partially granted his extradition appeal on 14 January 2019. Neither is a drug conviction."
         }
       ]
+    },
+    {
+      "id": "padua-drug-distribution-case-2016",
+      "name": "2016 Padua drug-distribution case",
+      "regions": [
+        "ITA"
+      ],
+      "sources": [
+        {
+          "url": "https://questure.poliziadistato.it/Padova/articolo/142258dcf150d79e8045032386",
+          "title": "Catturato dalla Polizia di Stato il fornitore di droga della movida dei Navigli a Padova",
+          "publisher": "Polizia di Stato, Questura di Padova",
+          "language": "it",
+          "publishedAt": "2017-03-30",
+          "claim": "Padua police individually identify 26-year-old Riccardo Rizzo, report a final five-year conviction for possession of drugs for distribution, and state he was arrested with Marco Marchetti in June 2016 in the Padua drug case. The source does not assign each substance found in the joint search to Rizzo individually."
+        }
+      ]
     }
   ],
   "people": [
@@ -81,7 +99,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -154,7 +172,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -227,7 +245,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -300,7 +318,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -373,7 +391,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -446,7 +464,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -512,56 +530,6 @@
       ]
     },
     {
-      "id": "pasquale-cordasco-pagliuca-case",
-      "name": "Pasquale Cordasco",
-      "status": "convicted",
-      "statusAsOf": "2016-01-22",
-      "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
-      "prominence": 2,
-      "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
-      ],
-      "regions": [
-        {
-          "iso3": "ITA",
-          "label": "Italy",
-          "evidence": {
-            "claim": "The 2016 report names Pasquale Cordasco in the Mondragone drug-distribution case; Italy is a historical case-operation association, not a present whereabouts claim.",
-            "period": "2012–2016",
-            "sourceUrl": "https://www.thereportzone.it/5146/"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.thereportzone.it/5146/",
-          "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
-          "publisher": "The Report Zone",
-          "language": "it",
-          "publishedAt": "2016-01-22",
-          "claim": "The 22 January 2016 regional report individually names Pasquale Cordasco among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 12 years. It does not establish a final cassation outcome or present custody."
-        }
-      ],
-      "events": [
-        {
-          "id": "pasquale-cordasco-pagliuca-case-2016-01-22-development",
-          "occurredAt": "2016-01-22",
-          "type": "development",
-          "title": "Appellate drug-case sentence reported",
-          "summary": "The report identifies Pasquale Cordasco among the drug-distribution defendants and gives an appellate prison term of 12 years; the date is the report date, not a verified judgment date.",
-          "source": {
-            "url": "https://www.thereportzone.it/5146/",
-            "title": "Spaccio di droga lungo il Litorale Domizio: 30 condanne per il “cartello” Pagliuca – I NOMI",
-            "publisher": "The Report Zone",
-            "language": "it",
-            "publishedAt": "2016-01-22",
-            "claim": "The 22 January 2016 regional report individually names Pasquale Cordasco among the Naples Court of Appeal drug-distribution case sentences and gives an appellate term of 12 years. It does not establish a final cassation outcome or present custody."
-          }
-        }
-      ]
-    },
-    {
       "id": "rocco-de-francesco-pagliuca-case",
       "name": "Rocco De Francesco",
       "status": "convicted",
@@ -569,7 +537,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -642,7 +610,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -715,7 +683,7 @@
       "roleLabel": "Drug-case defendant; later final drug-and-weapons term reported",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -811,7 +779,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -884,7 +852,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -957,7 +925,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1030,7 +998,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1103,7 +1071,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1176,7 +1144,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1249,7 +1217,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1322,7 +1290,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1395,7 +1363,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1468,7 +1436,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1541,7 +1509,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1614,7 +1582,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1687,7 +1655,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 1,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1763,7 +1731,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1836,7 +1804,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1909,7 +1877,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -1959,7 +1927,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -2032,7 +2000,7 @@
       "roleLabel": "Named defendant in the Mondragone drug-distribution appellate case",
       "prominence": 2,
       "organizationIds": [
-        "pagliuca-mondragone-drug-case-2012"
+        "mondragone-drug-distribution-case-2012-2016"
       ],
       "regions": [
         {
@@ -2261,6 +2229,56 @@
             "language": "es",
             "publishedAt": "2015-06-18",
             "claim": "El País reports that Guardia Civil arrested Gabriele Biondo in Lloret de Mar on cocaine-trafficking allegations, and describes him as directing an alleged trafficking organization from Spain. Arrest allegations are not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "riccardo-rizzo-padua-2017",
+      "name": "Riccardo Rizzo",
+      "status": "convicted",
+      "statusAsOf": "2017-03-30",
+      "roleLabel": "Finally convicted in a Padua drug-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "padua-drug-distribution-case-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "Padua police individually identify Rizzo in the 2016 Padua drug-distribution investigation and report his final drug conviction in 2017; historical case association only.",
+            "period": "2016–2017",
+            "sourceUrl": "https://questure.poliziadistato.it/Padova/articolo/142258dcf150d79e8045032386"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://questure.poliziadistato.it/Padova/articolo/142258dcf150d79e8045032386",
+          "title": "Catturato dalla Polizia di Stato il fornitore di droga della movida dei Navigli a Padova",
+          "publisher": "Polizia di Stato, Questura di Padova",
+          "language": "it",
+          "publishedAt": "2017-03-30",
+          "claim": "Padua police individually identify 26-year-old Riccardo Rizzo, report a final five-year conviction for possession of drugs for distribution, and state he was arrested with Marco Marchetti in June 2016 in the Padua drug case. The source does not assign each substance found in the joint search to Rizzo individually."
+        }
+      ],
+      "events": [
+        {
+          "id": "riccardo-rizzo-padua-2017-03-30-development",
+          "occurredAt": "2017-03-30",
+          "type": "development",
+          "title": "Final drug-distribution sentence reported",
+          "summary": "Police reported a final five-year sentence and execution of a custody order for Rizzo; the conviction date is not supplied.",
+          "source": {
+            "url": "https://questure.poliziadistato.it/Padova/articolo/142258dcf150d79e8045032386",
+            "title": "Catturato dalla Polizia di Stato il fornitore di droga della movida dei Navigli a Padova",
+            "publisher": "Polizia di Stato, Questura di Padova",
+            "language": "it",
+            "publishedAt": "2017-03-30",
+            "claim": "Padua police individually identify 26-year-old Riccardo Rizzo, report a final five-year conviction for possession of drugs for distribution, and state he was arrested with Marco Marchetti in June 2016 in the Padua drug case. The source does not assign each substance found in the joint search to Rizzo individually."
           }
         }
       ]
