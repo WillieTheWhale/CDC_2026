@@ -114,3 +114,8 @@ def test_country_linkage(client):
     edges = d["inbound"] + d["outbound"]
     assert edges and all(e["kg_basis"] == "allocated_seizure_scale" and isinstance(e["evidence_ids"], list)
                          for e in edges)
+
+
+def test_every_corridor_citation_has_a_url():
+    from trace_backend.api.route_evidence import CITATIONS
+    assert all(url and url.startswith("https://") for *_, url in CITATIONS.values())

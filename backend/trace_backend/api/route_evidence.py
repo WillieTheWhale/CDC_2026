@@ -33,7 +33,8 @@ CORRIDOR_SOURCE = {"id": "trace-corridors", "publisher": "TRACE (transcription o
                             "maps and report text", "publication_year": 2026,
                    "url": "https://github.com/WillieTheWhale/CDC_2026/blob/main/backend/trace_backend/seed/corridors.csv"}
 _WDR_ANNEX = "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026-annex.html"
-# corridors.csv citation keys (seed/README.md). URLs only where the repo already cites one; otherwise null.
+# corridors.csv citation keys (seed/README.md). Every URL checked 2026-09-27 (HTTP 200, title matches; the EUDA page
+# sits behind a browser check). UNODC-AOT2024 and UNODC-WA2023 cite a series, so they link its publication index.
 CITATIONS = {
     "WDR2026-7.2.1": ("UNODC", "World Drug Report 2026, Statistical Annex 7.2.1: Main methamphetamine trafficking "
                                "flows as described in reported seizures, 2021-2024", 2026, _WDR_ANNEX),
@@ -41,17 +42,23 @@ CITATIONS = {
                                "described in reported seizures, 2021-2024", 2026, _WDR_ANNEX),
     "WDR2026-7.4.1": ("UNODC", "World Drug Report 2026, Statistical Annex 7.4.1: Main heroin trafficking flows as "
                                "described in reported seizures, 2021-2024", 2026, _WDR_ANNEX),
-    "WDR2023-B2": ("UNODC", "World Drug Report 2023, Booklet 2 (cannabis markets and trafficking)", 2023, None),
-    "WDR2023-B3": ("UNODC", "World Drug Report 2023, cocaine market chapter", 2023, None),
+    "WDR2023-B2": ("UNODC", "World Drug Report 2023, Booklet 2 (cannabis markets and trafficking)", 2023,
+                   "https://www.unodc.org/unodc/en/data-and-analysis/wdr-2023_booklet-2.html"),
+    "WDR2023-B3": ("UNODC", "World Drug Report 2023, cocaine market chapter", 2023,
+                   "https://www.unodc.org/unodc/en/data-and-analysis/wdr-2023-online-segment.html"),
     "UNODC-GRC2023": ("UNODC", "Global Report on Cocaine 2023: Local dynamics, global challenges", 2023,
                       "https://www.unodc.org/documents/data-and-analysis/cocaine/Global_cocaine_report_2023.pdf"),
-    "UNODC-AOT2024": ("UNODC", "Afghan Opiate Trade Project reports and updates, 2020-2024", 2024, None),
-    "UNODC-AFGMETH2023": ("UNODC", "Understanding illegal methamphetamine manufacture in Afghanistan", 2023, None),
+    "UNODC-AOT2024": ("UNODC", "Afghan Opiate Trade Project reports and updates, 2020-2024", 2024,
+                      "https://www.unodc.org/unodc/en/data-and-analysis/aotp.html"),
+    "UNODC-AFGMETH2023": ("UNODC", "Understanding illegal methamphetamine manufacture in Afghanistan", 2023,
+                          "https://www.unodc.org/documents/data-and-analysis/briefs/Methamphetamine_Manufacture_in_Afghanistan.pdf"),
     "UNODC-SEA2024": ("UNODC", "Synthetic Drugs in East and Southeast Asia: latest developments and challenges",
-                      2024, None),
-    "UNODC-WA2023": ("UNODC", "West and Central Africa drug trafficking assessments", 2023, None),
+                      2024, "https://www.unodc.org/roseap/uploads/documents/Publications/2024/Synthetic_Drugs_in_East_and_Southeast_Asia_2024.pdf"),
+    "UNODC-WA2023": ("UNODC", "West and Central Africa drug trafficking assessments", 2023,
+                     "https://www.unodc.org/westandcentralafrica/en/research-and-awareness.html"),
     "EUDA-EDM2024": ("EUDA and Europol", "EU Drug Markets analyses (cocaine 2022; heroin, methamphetamine, "
-                                         "cannabis 2023-2024)", 2024, None),
+                                         "cannabis 2023-2024)", 2024,
+                     "https://www.euda.europa.eu/publications/eu-drug-markets_en"),
 }
 CORRIDOR_BASIS = {"map": "regional route map (TRACE transcription)", "text": "report text (TRACE transcription)",
                   "map+text": "regional route map and report text (TRACE transcription)"}
