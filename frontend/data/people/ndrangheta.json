@@ -1,11 +1,19 @@
 {
-  "_about": "AI-assisted research and compilation with ChatGPT (OpenAI). Sources document public senior figures and internationally reported drug-trafficking cases; see docs/AI_USAGE.md.",
+  "_about": "AI-assisted research and compilation with ChatGPT (OpenAI). Sources document public senior figures and internationally reported drug-trafficking cases; see docs/AI_USAGE.md. Country markers audited 2026-09-26; four Italy markers based only on arrest, sentence venue, or clan membership were removed. Retained markers describe documented network activity, not physical presence.",
   "organizations": [
     {
       "id": "ndrangheta",
       "name": "’Ndrangheta",
-      "aliases": ["Ndrangheta", "Calabrian mafia"],
-      "regions": ["ITA", "BRA", "CAN", "PRT"],
+      "aliases": [
+        "Ndrangheta",
+        "Calabrian mafia"
+      ],
+      "regions": [
+        "ITA",
+        "BRA",
+        "CAN",
+        "PRT"
+      ],
       "sources": [
         {
           "url": "https://www.eurojust.europa.eu/news/coordinated-crackdown-ndrangheta-mafia-europe",
@@ -30,14 +38,20 @@
     {
       "id": "rocco-morabito",
       "name": "Rocco Morabito",
-      "aliases": ["Tamunga"],
+      "aliases": [
+        "Tamunga"
+      ],
       "status": "convicted",
       "statusAsOf": "2025-09-29",
       "roleLabel": "Senior ’Ndrangheta figure and international drug broker; serving a 30-year sentence in Italy",
       "prominence": 3,
-      "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}],
-      "drugs": ["cocaine"],
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [],
+      "drugs": [
+        "cocaine"
+      ],
       "sources": [
         {
           "url": "https://www.eurojust.europa.eu/news/joint-investigation-teams-crucial-fighting-italian-brazilian-criminal-links",
@@ -63,9 +77,32 @@
       "statusAsOf": "2026-03-11",
       "roleLabel": "Drug broker linked to an international Italy-Brazil trafficking network",
       "prominence": 2,
-      "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}, {"iso3": "BRA", "label": "Brazil"}],
-      "drugs": ["cocaine"],
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "Rai News names Pasquino at the center of a cocaine network that the report describes as operating from Brazil to Italy; this is network activity, not proof of physical presence.",
+            "period": "By 2024",
+            "sourceUrl": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html"
+          }
+        },
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "Rai News names Pasquino at the center of a cocaine network that the report describes as operating from Brazil to Italy; this is network activity, not proof of physical presence.",
+            "period": "By 2024",
+            "sourceUrl": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
       "sources": [
         {
           "url": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html",
@@ -91,9 +128,13 @@
       "statusAsOf": "2008-08-20",
       "roleLabel": "Prominent ’Ndrangheta figure specializing in international drug trafficking",
       "prominence": 2,
-      "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}],
-      "drugs": ["cocaine"],
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [],
+      "drugs": [
+        "cocaine"
+      ],
       "sources": [
         {
           "url": "https://www.carabinieri.it/chi-siamo/oggi/organizzazione/mobile-e-speciale/raggruppamento-operativo-speciale/risultati-operativi/latitanti-di-massima-pericolosit%C3%A0-inseriti-nel-%27programma-speciale-di-ricerca%27-del-ministero-dell-interno",
@@ -115,14 +156,21 @@
     {
       "id": "sebastiano-pelle",
       "name": "Sebastiano Pelle",
-      "aliases": ["Pallina"],
+      "aliases": [
+        "Pallina"
+      ],
       "status": "reported",
       "statusAsOf": "2011-11-09",
       "roleLabel": "Prominent Pelle clan figure; convicted in an international narcotics trafficking case",
       "prominence": 2,
-      "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}],
-      "drugs": ["cocaine", "heroin"],
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [],
+      "drugs": [
+        "cocaine",
+        "heroin"
+      ],
       "sources": [
         {
           "url": "https://www.carabinieri.it/chi-siamo/oggi/organizzazione/mobile-e-speciale/raggruppamento-operativo-speciale/risultati-operativi/latitanti-di-massima-pericolosit%C3%A0-inseriti-nel-%27programma-speciale-di-ricerca%27-del-ministero-dell-interno",
@@ -144,14 +192,30 @@
     {
       "id": "giuseppe-giorgi",
       "name": "Giuseppe Giorgi",
-      "aliases": ["U Capra"],
+      "aliases": [
+        "U Capra"
+      ],
       "status": "convicted",
       "statusAsOf": "2017-06-02",
       "roleLabel": "Senior Romeo clan figure; serving a sentence for international narcotics trafficking and related offences",
       "prominence": 2,
-      "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}],
-      "drugs": ["cocaine"],
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "Corriere reports that the drug-trafficking case for which Giorgi received a final sentence involved multiple Italian regions in the 1994 Operation Sorgente investigation.",
+            "period": "By 1994",
+            "sourceUrl": "https://www.corriere.it/cronache/17_giugno_02/ndrangheta-arrestato-23-anni-giuseppe-giorgi-u-capra-era-5-latitanti-piu-pericolosi-d-italia-f97570f6-4767-11e7-b4db-9e2de60af523.shtml"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
       "sources": [
         {
           "url": "https://www.corriere.it/cronache/17_giugno_02/ndrangheta-arrestato-23-anni-giuseppe-giorgi-u-capra-era-5-latitanti-piu-pericolosi-d-italia-f97570f6-4767-11e7-b4db-9e2de60af523.shtml",
@@ -178,9 +242,23 @@
       "statusAsOf": "2019-07-08",
       "roleLabel": "Senior cocaine broker linked to the Volpiano ’Ndrangheta locale",
       "prominence": 3,
-      "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}],
-      "drugs": ["cocaine"],
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "Rai News names Nicola Assisi as a central figure in the cocaine network that operated from Brazil to Italy; this is network activity, not proof of physical presence.",
+            "period": "By 2024",
+            "sourceUrl": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
       "sources": [
         {
           "url": "https://noticias.stf.jus.br/postsnoticias/segunda-turma-autoriza-extradicao-de-italiano-acusado-de-integrar-grupo-mafioso/",
@@ -204,6 +282,14 @@
           "language": "en",
           "publishedAt": "2024-12-10",
           "claim": "Eurojust reports a Brazil-Italy operation against a cocaine network linked to the 'Ndrangheta, following the joint investigation launched in 2020."
+        },
+        {
+          "url": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html",
+          "title": "Dal Brasile all'Italia, 8 condanne per la rete internazionale del narcotraffico",
+          "publisher": "Rai News Piemonte",
+          "language": "it",
+          "publishedAt": "2026-03-10",
+          "claim": "Rai News explicitly names Nicola Assisi among central figures in the international cocaine network it describes as moving drugs from Brazil to Italy."
         }
       ]
     },
@@ -214,9 +300,23 @@
       "statusAsOf": "2019-12-17",
       "roleLabel": "Cocaine trafficker linked to the Volpiano ’Ndrangheta locale; sentenced in Italy",
       "prominence": 2,
-      "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}],
-      "drugs": ["cocaine"],
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "Rai News names Patrick Assisi as a central figure in the cocaine network that operated from Brazil to Italy; this is network activity, not proof of physical presence.",
+            "period": "By 2024",
+            "sourceUrl": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
       "sources": [
         {
           "url": "https://noticias.stf.jus.br/postsnoticias/segunda-turma-autoriza-extradicao-de-italiano-acusado-de-integrar-grupo-mafioso/",
@@ -232,19 +332,31 @@
           "publisher": "Senato della Repubblica",
           "language": "it",
           "claim": "The report states that Patrick and Nicola Assisi were linked to the Volpiano 'Ndrangheta locale and arrested in Brazil as suspects in international narcotics trafficking."
+        },
+        {
+          "url": "https://www.rainews.it/tgr/piemonte/articoli/2026/03/dal-brasile-allitalia-8-condanne-per-la-rete-internazionale-del-narcotraffico-b256e2c4-5329-4fd7-93ae-a5e86c652ae3.html",
+          "title": "Dal Brasile all'Italia, 8 condanne per la rete internazionale del narcotraffico",
+          "publisher": "Rai News Piemonte",
+          "language": "it",
+          "publishedAt": "2026-03-10",
+          "claim": "Rai News explicitly names Patrick Assisi among central figures in the international cocaine network it describes as moving drugs from Brazil to Italy."
         }
       ]
     },
     {
       "id": "francesco-pelle",
       "name": "Francesco Pelle",
-      "aliases": ["Ciccio Pakistan"],
+      "aliases": [
+        "Ciccio Pakistan"
+      ],
       "status": "reported",
       "statusAsOf": "2021-03-29",
       "roleLabel": "Senior Pelle-Vottari clan figure and internationally wanted ’Ndrangheta member",
       "prominence": 2,
-      "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}],
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -267,14 +379,31 @@
     {
       "id": "roberto-pannunzi",
       "name": "Roberto Pannunzi",
-      "aliases": ["Bebè"],
+      "aliases": [
+        "Bebè"
+      ],
       "status": "charged",
       "statusAsOf": "2013-07-05",
       "roleLabel": "Senior ’Ndrangheta broker procuring cocaine for multiple clans; also linked to heroin trafficking",
       "prominence": 3,
-      "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}],
-      "drugs": ["cocaine", "heroin"],
+      "organizationIds": [
+        "ndrangheta"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "The Italian anti-drug directorate reports that Pannunzi procured cocaine for mafia families to place in Italian and European markets.",
+            "period": "By 2013",
+            "sourceUrl": "https://www.poliziadistato.it/statics/28/annual_report_2013.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin"
+      ],
       "sources": [
         {
           "url": "https://www.poliziadistato.it/statics/07/dcsa_2013.pdf",

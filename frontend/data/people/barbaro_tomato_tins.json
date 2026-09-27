@@ -1,5 +1,5 @@
 {
-  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from individual CDPP sentencing entries and a Royal Commission operations exhibit. The CDPP 2015 list is a historical legal snapshot; later appeal outcomes are cited where checked. Roles and drugs follow individual exhibit categories; money-laundering or precursor defendants are not assumed to have trafficked MDMA. Australia is a source-backed historical operating association, not a live location. No inferred personal edges, unlicensed portraits, operational routes, or enforcement gaps.",
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from individual CDPP sentencing entries and a Royal Commission operations exhibit. The CDPP 2015 list is a historical legal snapshot; later appeal outcomes are cited where checked. Roles and drugs follow individual exhibit categories; money-laundering or precursor defendants are not assumed to have trafficked MDMA. Australia is a source-backed historical operating association, not a live location. No inferred personal edges, unlicensed portraits, operational routes, or enforcement gaps. The 23 existing Australia country associations were audited against each individually named Royal Commission operation entry on 2026-09-26 and now carry claim-specific evidence; association to the Australian case does not assert physical presence.",
   "organizations": [
     {
       "id": "barbaro-tomato-tins-syndicate",
@@ -44,7 +44,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Barbaro as a head of the syndicate that supplied MDMA to Australian traffickers and took part in the Australian importation, cocaine, and precursor cases.",
+            "period": "2007–2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -105,7 +110,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Zirilli as a head of the syndicate that supplied MDMA to Australian traffickers and took part in Australian importation and cocaine cases.",
+            "period": "2007–2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -166,7 +176,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Karam in the Australian MDMA conspiracy and trafficking, cocaine, and precursor cases.",
+            "period": "2007–2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -229,7 +244,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Carmelo Falanga among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -266,7 +286,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names John Higgs among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -303,7 +328,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Jan Visser among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -365,7 +395,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Salvatore Agresta among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -402,7 +437,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Pasquale John Sergi among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -442,7 +482,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit describes Ropa’s MDMA trafficking assistance to Barbaro within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -479,7 +524,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Antonino Di Pietro among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -516,7 +566,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Bran among MDMA traffickers and proceeds launderers in the Australian Operation Inca case.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -553,7 +608,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Pasquale Rocco Sergi among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -593,7 +653,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Frank Molluso among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -630,7 +695,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Antonio Sergi among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -667,7 +737,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Pino Varallo among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -704,7 +779,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Francesco Madafferi among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -752,7 +832,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Paul Psaila among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -789,7 +874,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Alan Saric among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -826,7 +916,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Polimeni among people convicted in the Australian cocaine importation case.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [
@@ -863,7 +958,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Suri among people convicted in the precursor importation case involving an Australian destination.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [],
@@ -898,7 +998,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Batticciotto among people convicted in the precursor importation case involving an Australian destination.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [],
@@ -933,7 +1038,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Abdul-Jabbar among convicted money launderers in Australia’s Operation Inca drug-trafficking case; the association refers to the Australian operation, not proven physical presence.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [],
@@ -968,7 +1078,12 @@
       "regions": [
         {
           "iso3": "AUS",
-          "label": "Australia"
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Moulana among convicted money launderers in Australia’s Operation Inca drug-trafficking case; the association refers to the Australian operation, not proven physical presence.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
         }
       ],
       "drugs": [],
