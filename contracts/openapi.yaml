@@ -454,15 +454,18 @@ paths:
   /api/evidence/health/{iso3}:
     get:
       operationId: getEvidenceHealth
-      summary: Drug-use prevalence observations and SDG 3.5.1 treatment coverage (modelled vs country-reported)
+      summary: Drug-use prevalence, PWID and infections among them, persons treated, and SDG 3.5.1 treatment coverage
       description: >
         Prevalence rows keep source-native population, age group, sex and reference period (UNODC WDR 2026 annex
-        1.2/1.4). Treatment coverage labels every row: nature_code M = officially modelled estimate, C = country
-        reported. `limit` caps each list; `total` counts all rows.
+        1.2/1.4). PWID rows (annex 4.1/4.2) are source-published estimates; `indirect_estimate` marks rows whose
+        source method is indirect or model-based. Treatment rows (annex 5.1) are persons treated by primary drug;
+        group and child drug rows overlap and must not be summed. Treatment coverage labels every row: nature_code
+        M = officially modelled estimate, C = country reported. `limit` caps each list; `total` counts all rows.
+        404 only when none of the four lists has a row.
       parameters:
         - { name: iso3, in: path, required: true, schema: { type: string, pattern: "^[A-Za-z]{3}$" } }
-        - { name: reference_period, in: query, required: false, schema: { type: string, enum: [past_year, past_month, lifetime] } }
-        - { name: substance, in: query, required: false, description: "Exact prevalence substance or SDG substance group (case-insensitive).", schema: { type: string, maxLength: 80 } }
+        - { name: reference_period, in: query, required: false, description: "Prevalence only.", schema: { type: string, enum: [past_year, past_month, lifetime] } }
+        - { name: substance, in: query, required: false, description: "Exact prevalence substance, SDG substance group, or treatment drug_group/drug (case-insensitive). PWID rows are not filtered.", schema: { type: string, maxLength: 80 } }
         - { name: limit, in: query, required: false, schema: { type: integer, minimum: 1, maximum: 5000, default: 500 } }
       responses:
         "200":
@@ -518,6 +521,82 @@ paths:
           content:
             application/json:
               schema: { $ref: "#/components/schemas/EvidenceResearchModelResponse" }
+
+  /api/evidence/market-observations:
+    get:
+      operationId: listEvidenceMarketObservations
+      summary: Published UNODC price and purity observations (market_observations), paginated
+      description: >
+        Source observations as published in each UNODC workbook edition, ordered by observation_id. `value`/`unit`
+        are the normalised value and unit where TRACE converted them, else the source value and the source's own unit
+        text. `unit` is null (and `unit_note` says so) when the source states no unit; units are never inferred.
+        `original_*` keep the source cell. Publisher-flagged estimates are labelled. Not trade flows, margins or route
+        gradients. Page with `meta.next_cursor`; `meta.total` counts all matches.
+      parameters:
+        - { name: iso3, in: query, required: false, schema: { type: string, pattern: "^[A-Za-z]{3}$" } }
+        - { name: drug, in: query, required: false, description: "TRACE drug key (cocaine incl. crack, heroin, meth, cannabis incl. marijuana/hashish) or a substring of the source substance.", schema: { type: string, maxLength: 60 } }
+        - { name: substance, in: query, required: false, description: "Case-insensitive substring of the source substance or form.", schema: { type: string, maxLength: 120 } }
+        - { name: market_level, in: query, required: false, schema: { type: string, enum: [retail, wholesale] } }
+        - { name: measure, in: query, required: false, schema: { type: string, enum: [price, purity] } }
+        - { name: year, in: query, required: false, schema: { type: integer } }
+        - { name: limit, in: query, required: false, schema: { type: integer, minimum: 1, maximum: 5000, default: 500 } }
+        - { name: cursor, in: query, required: false, schema: { type: string, maxLength: 1024 } }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/EvidenceMarketObservationsResponse" }
+        "400":
+          description: A cursor from different filters
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
+
+  /api/evidence/market-observations/countries:
+    get:
+      operationId: listEvidenceMarketObservationCountries
+      summary: Per-country counts of published price/purity observations and matched market derivations
+      description: >
+        Counts reflect how much each country's authorities reported to UNODC, not market size or activity.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/EvidenceMarketObservationCountriesResponse" }
+
+  /api/estimated-flows:
+    get:
+      operationId: getEstimatedFlows
+      summary: Estimated local flows (labelled, map-only arrow layer) built from the modeled routes of a year
+      description: >
+        Same payload as frontend/public/data/estimated/{mode}-{year}.json. Each modeled edge feeds an entry city;
+        arrows then follow city population x GDP per capita PPP (World Bank NY.GDP.PCAP.PP.KD, source 2) within
+        1,500 km in three waves. Estimates for map density only: never observed, never used in any score, count
+        or ranking. Cities are placement anchors (Natural Earth populated places, 150k+), not evidence of
+        city-level trafficking. No enforcement, customs or detection variable is used.
+      parameters:
+        - name: year
+          in: query
+          required: false
+          description: Defaults to the latest observed year (observed) or first predicted year (predicted).
+          schema: { type: integer }
+        - name: mode
+          in: query
+          required: false
+          schema: { type: string, enum: [observed, predicted], default: observed }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/EstimatedFlowsResponse" }
+        "404":
+          description: No routes for this year and mode (code year_not_available)
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/ErrorResponse" }
 
 components:
   schemas:
@@ -1566,6 +1645,14 @@ components:
         year: { type: [integer, "null"] }
         value: { type: number }
         unit: { type: string }
+        form: { type: [string, "null"], description: "Market product form (e.g. powder, hydrochloride, unspecified); null for research." }
+        market_level: { type: [string, "null"], description: "Market sale level; null for research values and for retail/wholesale ratios." }
+        source_publication_year: { type: [integer, "null"], description: "Market source workbook edition; null for research (per-input editions are in the drilldown). Never the collection date." }
+        source_id: { type: [string, "null"], description: "market_sources.source_id; null for research." }
+        source_url: { type: [string, "null"], description: "Market source workbook URL; null for research." }
+        formula_expression: { type: [string, "null"], description: "Formula text (the drilldown's formula.expression)." }
+        market_inputs: { type: [object, "null"], additionalProperties: { type: number }, description: "Market inputs_json (observation ids and numeric inputs); null for research." }
+        input_observation_ids: { type: [array, "null"], items: { type: integer }, description: "market_observations ids used by a market value; null for research." }
 
     EvidenceValuesResponse:
       type: object
@@ -1822,6 +1909,22 @@ components:
                   properties:
                     M: { type: string }
                     C: { type: string }
+            pwid:
+              type: object
+              required: [total, rows, label, estimate_labels, indirect_label]
+              properties:
+                total: { type: integer, minimum: 0 }
+                rows: { type: array, items: { $ref: "#/components/schemas/EvidencePwidRow" } }
+                label: { type: string }
+                estimate_labels: { type: object, additionalProperties: { type: string } }
+                indirect_label: { type: string }
+            treatment:
+              type: object
+              required: [total, rows, label]
+              properties:
+                total: { type: integer, minimum: 0 }
+                rows: { type: array, items: { $ref: "#/components/schemas/EvidenceTreatmentRow" } }
+                label: { type: string }
 
     EvidenceOverdoseRow:
       type: object
@@ -1891,3 +1994,209 @@ components:
             interpretation: { type: string }
             metric_key: { type: string }
             sample_rows: { type: integer }
+
+    EvidencePwidRow:
+      type: object
+      required: [metric, metric_label, year, sex, age_group, value, low, high, unit, method, estimate_status,
+                 estimate_label, indirect_estimate, indirect_label, source, source_row]
+      properties:
+        metric: { type: string, enum: [people_who_inject_drugs, hiv_among_pwid, hcv_among_pwid, hbv_active_among_pwid] }
+        metric_label: { type: string }
+        geography_name: { type: [string, "null"] }
+        year: { type: [integer, "null"] }
+        year_text: { type: [string, "null"] }
+        sex: { type: [string, "null"] }
+        age_group: { type: [string, "null"] }
+        value: { type: [number, "null"] }
+        low: { type: [number, "null"] }
+        high: { type: [number, "null"] }
+        unit: { type: string, description: "Source unit: percent, percent_of_general_population or persons." }
+        denominator: { type: [string, "null"] }
+        injecting_definition: { type: [string, "null"] }
+        geographic_coverage: { type: [string, "null"] }
+        sample_size: { type: [string, "null"] }
+        reference: { type: [string, "null"] }
+        method: { type: [string, "null"] }
+        attribution: { type: [string, "null"] }
+        notes: { type: [string, "null"] }
+        estimate_status: { type: string, example: source_estimate }
+        estimate_label: { type: string }
+        indirect_estimate: { type: boolean, description: "Source method is indirect or model-based (multiplier, capture-recapture, modelling)." }
+        indirect_label: { type: [string, "null"] }
+        source: { $ref: "#/components/schemas/EvidenceHealthSource" }
+        source_row:
+          type: object
+          required: [sheet, row_no, cell_no]
+          properties:
+            sheet: { type: string }
+            row_no: { type: integer }
+            cell_no: { type: integer }
+
+    EvidenceTreatmentRow:
+      type: object
+      required: [drug_group, drug, year, sex, persons_treated, unit, source, source_row]
+      properties:
+        drug_group: { type: string }
+        drug: { type: string }
+        geography_name: { type: [string, "null"] }
+        year: { type: [integer, "null"] }
+        year_text: { type: [string, "null"] }
+        sex: { type: string }
+        persons_treated: { type: number }
+        unit: { type: string, enum: [persons] }
+        specified_reference_year: { type: [string, "null"], example: Year ending March 2024 }
+        coverage_note: { type: [string, "null"], description: "Source note on reporting coverage (often sub-national)." }
+        source: { $ref: "#/components/schemas/EvidenceHealthSource" }
+        source_row:
+          type: object
+          required: [sheet, row_no]
+          properties:
+            sheet: { type: string }
+            row_no: { type: integer }
+
+    EvidenceMarketObservation:
+      type: object
+      required: [observation_id, iso3, year, substance, form, market_level, measure, basis, value, unit, unit_note,
+                 original_value, original_unit, publisher_estimate, status_label, source, source_row]
+      properties:
+        observation_id: { type: integer }
+        iso3: { type: [string, "null"] }
+        country: { type: [string, "null"] }
+        year: { type: [integer, "null"] }
+        drug_group: { type: [string, "null"] }
+        substance: { type: [string, "null"], description: "Exact source product label." }
+        form: { type: [string, "null"] }
+        market_level: { type: string, enum: [retail, wholesale] }
+        measure: { type: string, enum: [price, purity] }
+        basis: { type: [string, "null"], example: typical }
+        value: { type: [number, "null"] }
+        unit: { type: [string, "null"], description: "Normalised unit, else the source unit text; null when the source states none." }
+        unit_note: { type: [string, "null"], example: Unit not stated in source }
+        normalized_value: { type: [number, "null"] }
+        normalized_unit: { type: [string, "null"] }
+        original_value: { type: [number, "null"] }
+        original_unit: { type: [string, "null"] }
+        original_text: { type: [string, "null"] }
+        minimum: { type: [number, "null"] }
+        maximum: { type: [number, "null"] }
+        publisher_estimate: { type: boolean }
+        status_label: { type: string }
+        source:
+          type: object
+          required: [source_id, url, edition]
+          properties:
+            source_id: { type: string }
+            url: { type: [string, "null"] }
+            edition: { type: [integer, "null"] }
+            citation: { type: [string, "null"] }
+        source_row:
+          type: object
+          required: [sheet, row_no, col_no]
+          properties:
+            sheet: { type: string }
+            row_no: { type: integer }
+            col_no: { type: [integer, "null"] }
+
+    EvidenceMarketObservationsResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/EvidencePageMeta" }
+        data:
+          type: object
+          required: [observations]
+          properties:
+            observations: { type: array, items: { $ref: "#/components/schemas/EvidenceMarketObservation" } }
+
+    EvidenceMarketObservationCountry:
+      type: object
+      required: [iso3, observations, price, purity, derived]
+      properties:
+        iso3: { type: string, pattern: "^[A-Z]{3}$" }
+        country: { type: [string, "null"] }
+        observations: { type: integer, minimum: 0 }
+        price: { type: integer, minimum: 0 }
+        purity: { type: integer, minimum: 0 }
+        first_year: { type: [integer, "null"] }
+        last_year: { type: [integer, "null"] }
+        derived: { type: integer, minimum: 0, description: "market_derived values for this country." }
+
+    EvidenceMarketObservationCountriesResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: object
+          required: [countries, totals]
+          properties:
+            countries: { type: array, items: { $ref: "#/components/schemas/EvidenceMarketObservationCountry" } }
+            totals:
+              type: object
+              required: [observations, derived]
+              properties:
+                observations: { type: integer, minimum: 0 }
+                derived: { type: integer, minimum: 0 }
+
+    EstimatedFlowsMeta:
+      allOf:
+        - { $ref: "#/components/schemas/ResponseMeta" }
+        - type: object
+          required: [kind, note]
+          properties:
+            kind: { type: string, const: estimated }
+            note: { type: string, description: "Label to show with the layer (not observed, not used in scores)." }
+            method: { type: string }
+            city_role: { type: string, const: placement_anchor }
+            variables: { type: array, items: { type: string } }
+
+    EstimatedFlows:
+      description: >
+        Compact, index-based layer. `cities` rows follow `city_fields`, sorted by intensity (1.0 first);
+        `flows` rows follow `flow_fields`, where drug indexes `drugs` and from/to index `cities`.
+      type: object
+      required: [year, mode, drugs, city_fields, cities, flow_fields, flows]
+      properties:
+        year: { type: integer, example: 2014 }
+        mode: { type: string, enum: [observed, predicted] }
+        drugs:
+          type: array
+          items: { $ref: "#/components/schemas/Drug" }
+        city_fields:
+          type: array
+          const: [name, iso3, lon, lat, intensity]
+        cities:
+          type: array
+          items:
+            type: array
+            prefixItems:
+              - { type: string, description: name }
+              - { type: string, pattern: "^[A-Z0-9]{3}$", description: "Natural Earth adm0_a3 code" }
+              - { type: number, minimum: -180, maximum: 180 }
+              - { type: number, minimum: -90, maximum: 90 }
+              - { type: number, minimum: 0, maximum: 1, description: "intensity, darker where many paths cross" }
+            minItems: 5
+            maxItems: 5
+        flow_fields:
+          type: array
+          const: [drug, generation, strength, from, to, km]
+        flows:
+          type: array
+          items:
+            type: array
+            prefixItems:
+              - { type: integer, minimum: 0, description: index into drugs }
+              - { type: integer, enum: [1, 2, 3], description: wave }
+              - { type: number, minimum: 0, maximum: 1, description: "strength within the drug and year" }
+              - { type: integer, minimum: 0, description: index into cities }
+              - { type: integer, minimum: 0, description: index into cities }
+              - { type: integer, minimum: 0, maximum: 1500, description: great-circle km }
+            minItems: 6
+            maxItems: 6
+
+    EstimatedFlowsResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/EstimatedFlowsMeta" }
+        data: { $ref: "#/components/schemas/EstimatedFlows" }

@@ -18,11 +18,209 @@
     ],
     "notes": [
       "Modelled coverage (nature M) is an estimate, not an observed count.",
+      "PWID and infection values are source-published estimates; rows flagged indirect_estimate were produced by indirect or model-based methods according to the source.",
+      "Treatment contacts are counts of people treated, not coverage; group and child drug rows overlap.",
       "The 2024 adult prevalence data are sparse and are not a complete country ranking."
     ]
   },
   "data": {
     "iso3": "MEX",
+    "pwid": {
+      "total": 15,
+      "rows": [
+        {
+          "metric": "people_who_inject_drugs",
+          "metric_label": "People who inject drugs",
+          "geography_name": "Mexico",
+          "year": 2016,
+          "year_text": "2016.0",
+          "sex": "Both",
+          "age_group": "12 - 65",
+          "value": 0.12906802130484352,
+          "low": null,
+          "high": null,
+          "unit": "percent_of_general_population",
+          "denominator": "general population",
+          "injecting_definition": null,
+          "geographic_coverage": "National",
+          "sample_size": null,
+          "reference": "ARQ",
+          "method": "B2;  General Population Survey",
+          "attribution": "Encuesta Nacional de Consumo de Drogas, Alcohol y Tabaco 2016-2017. Reporte de Drogas.  SSA, CONADIC, INPRFM, INSP. México, 2017.",
+          "notes": null,
+          "estimate_status": "source_estimate",
+          "estimate_label": "Source-published estimate compiled by UNODC (annex 4.1/4.2); survey geography, population and method vary by row; not a matched country ranking",
+          "indirect_estimate": false,
+          "indirect_label": null,
+          "source": {
+            "source_id": "unodc_4_1",
+            "title": "UNODC World Drug Report 2026 statistical annex 4.1",
+            "publisher": "UNODC",
+            "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/4.1_people_who_inject_drugs_and_prevalence_of_diseases.xlsx",
+            "edition_year": 2026
+          },
+          "source_row": {
+            "sheet": "PWID",
+            "row_no": 72,
+            "cell_no": 6
+          }
+        },
+        {
+          "metric": "people_who_inject_drugs",
+          "metric_label": "People who inject drugs",
+          "geography_name": "Mexico",
+          "year": 2016,
+          "year_text": "2016.0",
+          "sex": "Both",
+          "age_group": "12 - 65",
+          "value": 109079.0,
+          "low": null,
+          "high": null,
+          "unit": "persons",
+          "denominator": null,
+          "injecting_definition": null,
+          "geographic_coverage": "National",
+          "sample_size": null,
+          "reference": "ARQ",
+          "method": "B2;  General Population Survey",
+          "attribution": "Encuesta Nacional de Consumo de Drogas, Alcohol y Tabaco 2016-2017. Reporte de Drogas.  SSA, CONADIC, INPRFM, INSP. México, 2017.",
+          "notes": null,
+          "estimate_status": "source_estimate",
+          "estimate_label": "Source-published estimate compiled by UNODC (annex 4.1/4.2); survey geography, population and method vary by row; not a matched country ranking",
+          "indirect_estimate": false,
+          "indirect_label": null,
+          "source": {
+            "source_id": "unodc_4_1",
+            "title": "UNODC World Drug Report 2026 statistical annex 4.1",
+            "publisher": "UNODC",
+            "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/4.1_people_who_inject_drugs_and_prevalence_of_diseases.xlsx",
+            "edition_year": 2026
+          },
+          "source_row": {
+            "sheet": "PWID",
+            "row_no": 72,
+            "cell_no": 9
+          }
+        },
+        {
+          "metric": "people_who_inject_drugs",
+          "metric_label": "People who inject drugs",
+          "geography_name": "Mexico",
+          "year": 2016,
+          "year_text": "2016.0",
+          "sex": "female",
+          "age_group": null,
+          "value": 11088.0,
+          "low": null,
+          "high": null,
+          "unit": "persons",
+          "denominator": null,
+          "injecting_definition": null,
+          "geographic_coverage": null,
+          "sample_size": null,
+          "reference": "ARQ/Encuesta de hogares.",
+          "method": null,
+          "attribution": "ARQ/Encuesta de hogares.",
+          "notes": "Instituto Nacional de Psiquiatría “Ramón de la Fuente Muñiz”, Instituto Nacional de Salud Pública, Comisión Nacional contra las Adicciones y Secretaría de Salud (2017). Encuesta Nacional de Consumo de Drogas, Alcohol y Tabaco 2016-2017 (ENCODAT). Reporte de drogas. Recuperado de https://www.gob.mx/salud%7Cconadic/acciones-y-programas/encuesta-nacional-de-consumo-de-drogas-alcohol-y-tabaco-encodat-2016-2017-136758",
+          "estimate_status": "source_estimate",
+          "estimate_label": "Source-published estimate compiled by UNODC (annex 4.1/4.2); survey geography, population and method vary by row; not a matched country ranking",
+          "indirect_estimate": false,
+          "indirect_label": null,
+          "source": {
+            "source_id": "unodc_4_2",
+            "title": "UNODC World Drug Report 2026 statistical annex 4.2",
+            "publisher": "UNODC",
+            "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/4.2_people_who_inject_drugs_and_prevalence_of_diseases_by_sex.xlsx",
+            "edition_year": 2026
+          },
+          "source_row": {
+            "sheet": "People who inject drugs_sex",
+            "row_no": 14,
+            "cell_no": 7
+          }
+        }
+      ],
+      "label": "People who inject drugs and HIV/HCV/HBV among them: source-published estimates with their own survey geography, population, method and year. Not a matched country ranking.",
+      "estimate_labels": {
+        "source_estimate": "Source-published estimate compiled by UNODC (annex 4.1/4.2); survey geography, population and method vary by row; not a matched country ranking"
+      },
+      "indirect_label": "Indirect estimate (source method: multiplier, capture-recapture or modelling), not a direct count"
+    },
+    "treatment": {
+      "total": 600,
+      "rows": [
+        {
+          "drug_group": "Amphetamine-type stimulants",
+          "drug": "Amphetamine",
+          "geography_name": "Mexico",
+          "year": 2020,
+          "year_text": "2020.0",
+          "sex": "Females",
+          "persons_treated": 97.0,
+          "unit": "persons",
+          "specified_reference_year": null,
+          "coverage_note": null,
+          "source": {
+            "source_id": "unodc_5_1",
+            "title": "UNODC World Drug Report 2026 statistical annex 5.1",
+            "publisher": "UNODC",
+            "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/5.1_treatment_by_primary_drug_of_use.xlsx",
+            "edition_year": 2026
+          },
+          "source_row": {
+            "sheet": "Sheet1",
+            "row_no": 2154
+          }
+        },
+        {
+          "drug_group": "Amphetamine-type stimulants",
+          "drug": "Amphetamine",
+          "geography_name": "Mexico",
+          "year": 2020,
+          "year_text": "2020.0",
+          "sex": "Males",
+          "persons_treated": 630.0,
+          "unit": "persons",
+          "specified_reference_year": null,
+          "coverage_note": null,
+          "source": {
+            "source_id": "unodc_5_1",
+            "title": "UNODC World Drug Report 2026 statistical annex 5.1",
+            "publisher": "UNODC",
+            "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/5.1_treatment_by_primary_drug_of_use.xlsx",
+            "edition_year": 2026
+          },
+          "source_row": {
+            "sheet": "Sheet1",
+            "row_no": 2155
+          }
+        },
+        {
+          "drug_group": "Amphetamine-type stimulants",
+          "drug": "Amphetamine",
+          "geography_name": "Mexico",
+          "year": 2020,
+          "year_text": "2020.0",
+          "sex": "Total",
+          "persons_treated": 727.0,
+          "unit": "persons",
+          "specified_reference_year": null,
+          "coverage_note": null,
+          "source": {
+            "source_id": "unodc_5_1",
+            "title": "UNODC World Drug Report 2026 statistical annex 5.1",
+            "publisher": "UNODC",
+            "url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/5.1_treatment_by_primary_drug_of_use.xlsx",
+            "edition_year": 2026
+          },
+          "source_row": {
+            "sheet": "Sheet1",
+            "row_no": 2156
+          }
+        }
+      ],
+      "label": "Persons treated by primary drug (UNODC annex 5.1). Counts, not coverage. Drug-group and specific-drug rows overlap and must not be summed."
+    },
     "prevalence": {
       "total": 168,
       "rows": [
