@@ -161,7 +161,7 @@
       "name": "Waldemar Lorenzana-Lima",
       "status": "convicted",
       "statusAsOf": "2014-08-18",
-      "roleLabel": "Organization patriarch; guilty plea",
+      "roleLabel": "Deceased organization patriarch; 2014 guilty plea",
       "prominence": 1,
       "organizationIds": [
         "lorenzana-organization-guatemala"
@@ -188,9 +188,32 @@
           "language": "en",
           "publishedAt": "2014-08-18",
           "claim": "DOJ reports his 18 August 2014 guilty plea to conspiracy to import cocaine as patriarch of the Guatemala-based Lorenzana organization."
+        },
+        {
+          "url": "https://www.prensalibre.com/guatemala/justicia/que-ha-pasado-con-haroldo-lorenzana-cordon-padre-haroldito-quien-enfrenta-un-juicio-por-narcotrafico-en-estados-unidos/",
+          "title": "¿Qué ha pasado con Haroldo Lorenzana Cordón, padre de “Haroldito”, quien enfrenta un juicio por narcotráfico en Estados Unidos?",
+          "publisher": "Prensa Libre",
+          "language": "es",
+          "publishedAt": "2026-08-07",
+          "claim": "Reports Waldemar Lorenzana Lima died in 2021; it gives no exact death date. Reports Haroldo Geremias Lorenzana Cordon’s U.S. case remained unresolved as of August 2026."
         }
       ],
       "events": [
+        {
+          "id": "waldemar-lorenzana-lima-2026-08-07-death-reported",
+          "occurredAt": "2026-08-07",
+          "type": "development",
+          "title": "Death in 2021 reported",
+          "summary": "Prensa Libre reported on 7 August 2026 that he died in 2021; the article does not give an exact death date.",
+          "source": {
+            "url": "https://www.prensalibre.com/guatemala/justicia/que-ha-pasado-con-haroldo-lorenzana-cordon-padre-haroldito-quien-enfrenta-un-juicio-por-narcotrafico-en-estados-unidos/",
+            "title": "¿Qué ha pasado con Haroldo Lorenzana Cordón, padre de “Haroldito”, quien enfrenta un juicio por narcotráfico en Estados Unidos?",
+            "publisher": "Prensa Libre",
+            "language": "es",
+            "publishedAt": "2026-08-07",
+            "claim": "Reports Waldemar Lorenzana Lima died in 2021; it gives no exact death date. Reports Haroldo Geremias Lorenzana Cordon’s U.S. case remained unresolved as of August 2026."
+          }
+        },
         {
           "id": "waldemar-lorenzana-lima-2014-08-18-guilty-plea",
           "occurredAt": "2014-08-18",
@@ -245,7 +268,23 @@
           "claim": "DOJ names Eliu as Marta Julia’s sibling, says he was convicted in March 2019 of international narcotics trafficking and sentenced to life."
         }
       ],
-      "events": []
+      "events": [
+        {
+          "id": "eliu-elixander-lorenzana-cordon-2024-03-14-conviction-reported",
+          "occurredAt": "2024-03-14",
+          "type": "development",
+          "title": "Earlier conviction reported",
+          "summary": "This DOJ release confirms an earlier drug-trafficking conviction; it does not give the exact conviction day. The event date is the report date.",
+          "source": {
+            "url": "https://www.justice.gov/archives/opa/pr/leader-drug-trafficking-organization-sentenced-international-cocaine-trafficking-conspiracy",
+            "title": "Leader of Drug Trafficking Organization Sentenced for International Cocaine Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-03-14",
+            "claim": "DOJ names Eliu as Marta Julia’s sibling, says he was convicted in March 2019 of international narcotics trafficking and sentenced to life."
+          }
+        }
+      ]
     },
     {
       "id": "waldemar-lorenzana-cordon",
@@ -281,7 +320,23 @@
           "claim": "DOJ names Waldemar as Marta Julia’s sibling, says he was convicted in March 2019 of international narcotics trafficking and sentenced to life."
         }
       ],
-      "events": []
+      "events": [
+        {
+          "id": "waldemar-lorenzana-cordon-2024-03-14-conviction-reported",
+          "occurredAt": "2024-03-14",
+          "type": "development",
+          "title": "Earlier conviction reported",
+          "summary": "This DOJ release confirms an earlier drug-trafficking conviction; it does not give the exact conviction day. The event date is the report date.",
+          "source": {
+            "url": "https://www.justice.gov/archives/opa/pr/leader-drug-trafficking-organization-sentenced-international-cocaine-trafficking-conspiracy",
+            "title": "Leader of Drug Trafficking Organization Sentenced for International Cocaine Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-03-14",
+            "claim": "DOJ names Waldemar as Marta Julia’s sibling, says he was convicted in March 2019 of international narcotics trafficking and sentenced to life."
+          }
+        }
+      ]
     },
     {
       "id": "marta-julia-lorenzana-cordon",
@@ -507,7 +562,23 @@
           "claim": "DOJ names Mario Guillermo Mejia Vargas among six Honduran police defendants and alleges individual participation in a Honduras-based 2004–2014 cocaine conspiracy; these 2016 allegations are distinguished from the later conviction source."
         }
       ],
-      "events": []
+      "events": [
+        {
+          "id": "mario-guillermo-mejia-vargas-2021-05-10-conviction-reported",
+          "occurredAt": "2021-05-10",
+          "type": "development",
+          "title": "Earlier conviction reported",
+          "summary": "This DOJ release confirms an earlier drug-trafficking conviction; it does not give the exact conviction day. The event date is the report date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/former-honduran-national-police-officer-sentenced-12-years-prison-conspiring-import-0",
+            "title": "Former Honduran National Police Officer Sentenced To 12 Years In Prison For Conspiring To Import Cocaine Into The United States And Related Weapons Offense",
+            "publisher": "U.S. Attorney’s Office, Southern District of New York",
+            "language": "en",
+            "publishedAt": "2021-05-10",
+            "claim": "DOJ identifies Mejia Vargas as one of seven former Honduran police personnel convicted in this drug-trafficking prosecution."
+          }
+        }
+      ]
     },
     {
       "id": "juan-manuel-avila-meza",
@@ -731,7 +802,23 @@
           "claim": "DOJ names Jorge Alfredo Cruz Chavez among six Honduran police defendants and alleges individual participation in a Honduras-based 2004–2014 cocaine conspiracy; these 2016 allegations are distinguished from the later conviction source."
         }
       ],
-      "events": []
+      "events": [
+        {
+          "id": "jorge-alfredo-cruz-chavez-2021-05-10-conviction-reported",
+          "occurredAt": "2021-05-10",
+          "type": "development",
+          "title": "Earlier conviction reported",
+          "summary": "This DOJ release confirms an earlier drug-trafficking conviction; it does not give the exact conviction day. The event date is the report date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdny/pr/former-honduran-national-police-officer-sentenced-12-years-prison-conspiring-import-0",
+            "title": "Former Honduran National Police Officer Sentenced To 12 Years In Prison For Conspiring To Import Cocaine Into The United States And Related Weapons Offense",
+            "publisher": "U.S. Attorney’s Office, Southern District of New York",
+            "language": "en",
+            "publishedAt": "2021-05-10",
+            "claim": "DOJ identifies Cruz Chavez as one of seven former Honduran police personnel convicted in this drug-trafficking prosecution."
+          }
+        }
+      ]
     },
     {
       "id": "carlos-alberto-valladares-garcia",
@@ -1212,6 +1299,62 @@
           }
         }
       ]
+    },
+    {
+      "id": "haroldo-waldemar-lorenzana-terraza",
+      "name": "Haroldo Waldemar Lorenzana Terraza",
+      "aliases": [
+        "Haroldito"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-06-18",
+      "roleLabel": "Charged alleged Lorenzana organization leader",
+      "prominence": 2,
+      "organizationIds": [
+        "lorenzana-organization-guatemala"
+      ],
+      "regions": [
+        {
+          "iso3": "GTM",
+          "label": "Guatemala",
+          "evidence": {
+            "claim": "DOJ individually identifies Lorenzana Terraza as alleged leader of the historically Guatemala-based Lorenzana organization.",
+            "period": "by 2025",
+            "sourceUrl": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking",
+          "title": "Prolific Guatemalan Drug Traffickers Extradited to the United States to Face Drug Trafficking Conspiracy Charge",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-06-18",
+          "claim": "DOJ individually names Haroldo Waldemar Lorenzana Terraza as charged with cocaine importation, firearms, continuing criminal enterprise and heroin importation counts, and as alleged leader of the Guatemala-based Lorenzana DTO; charges are allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "haroldo-waldemar-lorenzana-terraza-2025-06-18-charges-reported",
+          "occurredAt": "2025-06-18",
+          "type": "development",
+          "title": "Charges publicly reported",
+          "summary": "DOJ reported the cocaine, heroin, firearms and continuing criminal enterprise charges; the release presents allegations and no conviction.",
+          "source": {
+            "url": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking",
+            "title": "Prolific Guatemalan Drug Traffickers Extradited to the United States to Face Drug Trafficking Conspiracy Charge",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-06-18",
+            "claim": "DOJ individually names Haroldo Waldemar Lorenzana Terraza as charged with cocaine importation, firearms, continuing criminal enterprise and heroin importation counts, and as alleged leader of the Guatemala-based Lorenzana DTO; charges are allegations."
+          }
+        }
+      ]
     }
   ],
   "connections": [
@@ -1314,6 +1457,23 @@
           "language": "en",
           "publishedAt": "2024-03-14",
           "claim": "DOJ directly identifies Waldemar Lorenzana-Cordon as a sibling of Marta Julia Lorenzana-Cordon."
+        }
+      ]
+    },
+    {
+      "id": "haroldo-waldemar-lorenzana-terraza-grandson-waldemar-lorenzana-lima",
+      "fromId": "haroldo-waldemar-lorenzana-terraza",
+      "toId": "waldemar-lorenzana-lima",
+      "type": "family",
+      "label": "Grandson and grandfather (documented by DOJ)",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/prolific-guatemalan-drug-traffickers-extradited-united-states-face-drug-trafficking",
+          "title": "Prolific Guatemalan Drug Traffickers Extradited to the United States to Face Drug Trafficking Conspiracy Charge",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-06-18",
+          "claim": "DOJ individually names Haroldo Waldemar Lorenzana Terraza as charged with cocaine importation, firearms, continuing criminal enterprise and heroin importation counts, and as alleged leader of the Guatemala-based Lorenzana DTO; charges are allegations."
         }
       ]
     }
