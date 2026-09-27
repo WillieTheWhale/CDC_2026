@@ -8470,7 +8470,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged that Nepomuceno directed strategic and financial decisions involving proceeds of drug trafficking in Rio communities while incarcerated; this is an alleged historical Brazilian role.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
         }
       ],
       "drugs": [],
@@ -8526,7 +8531,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ named da Costa in a Rio-area drug-trafficking association complaint; the specific individual task and guilt in that complaint are not established.",
+            "period": "before December 2024",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=165203"
+          }
         }
       ],
       "drugs": [],
@@ -8545,6 +8555,14 @@
           "publisher": "Brazilian Ministry of Justice repository",
           "language": "Portuguese",
           "claim": "Ministry of Justice-hosted study identifies da Costa as a powerful Comando Vermelho leader serving a sentence in the federal prison system."
+        },
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=165203",
+          "title": "GAECO/MPRJ e Polícia Civil cumprem mandados contra integrantes de facção criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2024-12-10",
+          "claim": "MPRJ names Luiz Fernando da Costa among 28 people charged with drug-trafficking association in a Rio-area case; the group's allegations do not establish his individual task or guilt in that case."
         }
       ]
     },
@@ -8566,7 +8584,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Andrade belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
         }
       ],
       "drugs": [],
@@ -8622,7 +8645,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Quintanilha belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
         }
       ],
       "drugs": [],
@@ -8678,7 +8706,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Martiniano belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
         }
       ],
       "drugs": [],
@@ -8709,7 +8742,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Oliveira belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
         }
       ],
       "drugs": [],
@@ -8740,7 +8778,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Leite belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
         }
       ],
       "drugs": [],
@@ -8757,7 +8800,7 @@
     },
     {
       "id": "ricardo-chave-de-castro-lima",
-      "name": "Ricardo Chave de Castro Lima",
+      "name": "Ricardo Chaves de Castro Lima",
       "aliases": [
         "Fú"
       ],
@@ -8771,7 +8814,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF individually named Ricardo Chaves de Castro Lima among prisoners accused of commanding drug trafficking in Rio de Janeiro; this is an historical allegation, not a present location.",
+            "period": "by July 2007",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/"
+          }
         }
       ],
       "drugs": [],
@@ -8783,6 +8831,14 @@
           "language": "Portuguese",
           "publishedAt": "2025-09-17",
           "claim": "MPRJ identifies Lima, alias Fú, among alleged Comando Vermelho leaders in a criminal complaint."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/",
+          "title": "Mantida a prisão de doze chefes de facções criminosas do Rio de Janeiro",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2007-07-04",
+          "claim": "STF individually names the person among prisoners accused of commanding drug trafficking and organized crime in Rio de Janeiro; this is an allegation, not a conviction for trafficking."
         }
       ]
     },
@@ -8802,7 +8858,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "Folha reported Robert's past leadership of drug trafficking in Rio and a court conviction including cocaine and marijuana possession; this is historical Brazilian activity.",
+            "period": "by August 2003",
+            "sourceUrl": "https://www1.folha.uol.com.br/folha/cotidiano/ult95u80122.shtml"
+          }
         }
       ],
       "drugs": [],
@@ -8814,6 +8875,14 @@
           "language": "Portuguese",
           "publishedAt": "2025-09-17",
           "claim": "MPRJ identifies Robert, alias Barbozinha, among alleged Comando Vermelho leaders in a criminal complaint."
+        },
+        {
+          "url": "https://www1.folha.uol.com.br/folha/cotidiano/ult95u80122.shtml",
+          "title": "Chefe do tráfico em morro do Rio é condenado a 41 anos de prisão",
+          "publisher": "Folha de S.Paulo",
+          "language": "pt",
+          "publishedAt": "2003-08-12",
+          "claim": "Folha individually identifies Ocimar Nunes Robert as a Rio drug-trafficking chief and reports a conviction that included cocaine and marijuana possession."
         }
       ]
     },
@@ -8833,7 +8902,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF individually named Firmino da Silva among prisoners accused of commanding drug trafficking in Rio de Janeiro; this is an historical allegation, not a present location.",
+            "period": "by July 2007",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/"
+          }
         }
       ],
       "drugs": [],
@@ -8845,6 +8919,14 @@
           "language": "Portuguese",
           "publishedAt": "2025-11-05",
           "claim": "MPRJ names Silva as a Comando Vermelho leader and states that he is serving a sentence in another case; the conduct at issue in this release remains an allegation."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/",
+          "title": "Mantida a prisão de doze chefes de facções criminosas do Rio de Janeiro",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2007-07-04",
+          "claim": "STF individually names the person among prisoners accused of commanding drug trafficking and organized crime in Rio de Janeiro; this is an allegation, not a conviction for trafficking."
         }
       ]
     },
@@ -8864,7 +8946,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF individually named Fontarigo among prisoners accused of commanding drug trafficking in Rio de Janeiro; this is an historical allegation, not a present location.",
+            "period": "by July 2007",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/"
+          }
         }
       ],
       "drugs": [],
@@ -8876,6 +8963,14 @@
           "language": "Portuguese",
           "publishedAt": "2025-11-05",
           "claim": "MPRJ names Fontarigo as a Comando Vermelho leader and states that he is serving a sentence in another case; the conduct at issue in this release remains an allegation."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/",
+          "title": "Mantida a prisão de doze chefes de facções criminosas do Rio de Janeiro",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2007-07-04",
+          "claim": "STF individually names the person among prisoners accused of commanding drug trafficking and organized crime in Rio de Janeiro; this is an allegation, not a conviction for trafficking."
         }
       ]
     },
@@ -8895,7 +8990,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "TRF5 quoted state intelligence identifying Duarte as a historical drug-trafficking leader in Rio de Janeiro; this is attributed intelligence, not a present location.",
+            "period": "before April 2017",
+            "sourceUrl": "https://www4.trf5.jus.br/data/2017/04/PJE/08093081220164058400_20170410_150263_40500008076015.pdf"
+          }
         }
       ],
       "drugs": [],
@@ -8907,6 +9007,14 @@
           "language": "Portuguese",
           "publishedAt": "2018-07-04",
           "claim": "MPRJ identifies Duarte as part of the highest Comando Vermelho leadership level and reports existing convictions as of 2018."
+        },
+        {
+          "url": "https://www4.trf5.jus.br/data/2017/04/PJE/08093081220164058400_20170410_150263_40500008076015.pdf",
+          "title": "Agravo de Execução Penal 0809308-12.2016.4.05.8400",
+          "publisher": "Tribunal Regional Federal da 5ª Região",
+          "language": "pt",
+          "publishedAt": "2017-04-10",
+          "claim": "TRF5's decision quotes a state intelligence assessment identifying Adair Marlon Duarte as a leader in drug trafficking in Rio de Janeiro; this is an attributed assessment."
         }
       ]
     },
@@ -8926,7 +9034,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Silva received proceeds of drug trafficking in the Rio area and explicitly said he was not a direct local leader; the activity is historical.",
+            "period": "2014–2016 allegations reported June 2017",
+            "sourceUrl": "https://transparencia.mprj.mp.br/web/guest/visualizar?noticiaId=43606"
+          }
         }
       ],
       "drugs": [],
@@ -8946,6 +9059,14 @@
           "language": "Portuguese",
           "publishedAt": "2024-10-04",
           "claim": "MPRJ refers to Elias Pereira da Silva as deceased in its 2024 account."
+        },
+        {
+          "url": "https://transparencia.mprj.mp.br/web/guest/visualizar?noticiaId=43606",
+          "title": "MPRJ, Polícia Civil e Corregedoria da PM deflagram operação contra 96 policiais militares e 71 traficantes",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2017-06-29",
+          "claim": "MPRJ names Elias Pereira da Silva among charged traffickers and alleges he received proceeds of drug trade in the Rio area, while saying he was not a direct local leader."
         }
       ]
     },
@@ -17557,7 +17678,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF named Camacho among São Paulo PCC defendants allegedly associated for crimes including drug trafficking; the Brazil association is historical and alleged, not a live position.",
+            "period": "by September 2006",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/integrante-do-pcc-permanecera-preso/"
+          }
         }
       ],
       "drugs": [],
@@ -17577,6 +17703,14 @@
           "language": "pt",
           "publishedAt": "2026-08-05",
           "claim": "The Supreme Court identifies Marcola as a PCC leader when describing Fuminho's connection to him."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/integrante-do-pcc-permanecera-preso/",
+          "title": "Integrante do PCC permanecerá preso",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2006-09-26",
+          "claim": "The STF account individually names Marcola and Julinho Carambola among São Paulo PCC defendants allegedly associated to commit offences including drug trafficking; it does not establish a trafficking conviction for either man."
         }
       ],
       "events": [
@@ -17614,7 +17748,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF named Moraes among São Paulo PCC defendants allegedly associated for crimes including drug trafficking; the Brazil association is historical and alleged, not a live position.",
+            "period": "by September 2006",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/integrante-do-pcc-permanecera-preso/"
+          }
         }
       ],
       "drugs": [],
@@ -17633,6 +17772,14 @@
           "publisher": "Tribunal de Justiça do Estado de São Paulo",
           "language": "pt",
           "claim": "The court identifies Moraes and Marcola as PCC leaders charged together in a separate case; this source does not establish a conviction in that case."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/integrante-do-pcc-permanecera-preso/",
+          "title": "Integrante do PCC permanecerá preso",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2006-09-26",
+          "claim": "The STF account individually names Marcola and Julinho Carambola among São Paulo PCC defendants allegedly associated to commit offences including drug trafficking; it does not establish a trafficking conviction for either man."
         }
       ],
       "events": [
@@ -17669,7 +17816,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF reported Santos's first-instance conviction in São Paulo for drug trafficking and trafficking association; this supports historical Brazilian drug-network activity, not a present location.",
+            "period": "before August 2026",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/"
+          }
         }
       ],
       "drugs": [],
@@ -17722,7 +17874,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "UOL reported a court decision finding Soriano led a drug-trafficking association from confinement in São Paulo; the association is historical, with no present position inferred.",
+            "period": "case opened 2009; decision reported July 2025",
+            "sourceUrl": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2025/07/21/condenacao-ex-pcc.ghtm"
+          }
         }
       ],
       "drugs": [],
@@ -17734,6 +17891,14 @@
           "language": "pt",
           "publishedAt": "2025-06-11",
           "claim": "Federal prosecutors report Soriano, described as a former PCC leader, was convicted and sentenced to 44 years and eight months for ordering an agent's murder and for participation in a criminal organization."
+        },
+        {
+          "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2025/07/21/condenacao-ex-pcc.ghtm",
+          "title": "Ex-chefe do PCC que chamou Marcola de cagueta é condenado por tráfico",
+          "publisher": "UOL",
+          "language": "pt",
+          "publishedAt": "2025-07-21",
+          "claim": "UOL reports that a court decision found Soriano led a drug-trafficking association from confinement in São Paulo; the judicial decision was not independently obtained for this audit."
         }
       ],
       "events": [
@@ -17770,7 +17935,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "Folha reported that de Simone directed PCC drug-trafficking activity before his 2018 death, including activity attributed by Ceará prosecutors to Brazil; this is historical, not an arrest-site inference.",
+            "period": "before February 2018",
+            "sourceUrl": "https://www1.folha.uol.com.br/amp/cotidiano/2020/01/faccoes-controlam-terras-indigenas-e-recrutam-indios-para-o-crime-no-ce.shtml"
+          }
         }
       ],
       "drugs": [],
@@ -17782,6 +17952,14 @@
           "language": "pt",
           "publishedAt": "2018-08-21",
           "claim": "The Ceará court identifies de Simone, alias Gegê do Mangue, as a PCC leader and reports his death alongside Fabiano Alves de Souza."
+        },
+        {
+          "url": "https://www1.folha.uol.com.br/amp/cotidiano/2020/01/faccoes-controlam-terras-indigenas-e-recrutam-indios-para-o-crime-no-ce.shtml",
+          "title": "Facções controlam terras indígenas e recrutam índios para o crime no CE",
+          "publisher": "Folha de S.Paulo",
+          "language": "pt",
+          "publishedAt": "2020-01-06",
+          "claim": "Folha reports that Rogério Jeremias de Simone directed PCC drug-trafficking operations before his 2018 death and cites Ceará prosecutors on his activity in Brazil."
         }
       ]
     },
@@ -17801,7 +17979,12 @@
       "regions": [
         {
           "iso3": "BRA",
-          "label": "Brazil"
+          "label": "Brazil",
+          "evidence": {
+            "claim": "The Ceará court reported de Souza's conviction for interstate cocaine-trafficking association and its finding that he led the group's illicit operations in Ceará, Brazil.",
+            "period": "2009–2012",
+            "sourceUrl": "https://www.tjce.jus.br/noticias/reus-sao-condenados-por-trafico-de-drogas-interestadual/"
+          }
         }
       ],
       "drugs": [],
@@ -17813,6 +17996,14 @@
           "language": "pt",
           "publishedAt": "2018-08-21",
           "claim": "The Ceará court identifies de Souza, alias Paca, as a PCC leader and reports his death alongside Rogério Jeremias de Simone."
+        },
+        {
+          "url": "https://www.tjce.jus.br/noticias/reus-sao-condenados-por-trafico-de-drogas-interestadual/",
+          "title": "Réus são condenados por tráfico de drogas interestadual",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2012-10-25",
+          "claim": "The Ceará court reports that Fabiano Alves de Souza was convicted for interstate cocaine-trafficking association and that the judgment identified him as leader of illicit operations in Ceará."
         }
       ]
     },
