@@ -983,24 +983,6 @@
       ]
     },
     {
-      "id": "los-triana-2011",
-      "name": "Los Triana (2011 convictions)",
-      "aliases": [],
-      "regions": [
-        "COL"
-      ],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "The cited report identifies the named case group, Colombian drug-trafficking conduct, and a court conviction; this is a historical case association."
-        }
-      ]
-    },
-    {
       "id": "el-coco-2016",
       "name": "El Coco (2016 convictions)",
       "aliases": [],
@@ -20812,8 +20794,8 @@
         "La Huesuda"
       ],
       "status": "convicted",
-      "statusAsOf": "2020-05-02",
-      "roleLabel": "Convicted La banda de la Huesuda leader; 76 months; individual drug count unspecified",
+      "statusAsOf": "2025-02-05",
+      "roleLabel": "La Huesuda leader; convicted 27 April 2020 of drug-trafficking concert and trafficking (76 months); separate non-drug allegations remained pending in February 2025",
       "prominence": 2,
       "organizationIds": [
         "la-huesuda-2020"
@@ -20838,39 +20820,62 @@
           "language": "es",
           "publishedAt": "2020-05-02",
           "claim": "Jhon James Montoya Granada: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        },
+        {
+          "url": "https://archivodigitalapi.cortesuprema.gov.co/share/2025/2/Avisos/Ver%20providencia%20142539.pdf",
+          "title": "Tutela primera instancia, radicado 142539, Jhon James Montoya Granada",
+          "publisher": "Corte Suprema de Justicia de Colombia, Sala de Casación Penal",
+          "language": "es",
+          "publishedAt": "2025-02-05",
+          "claim": "The Court recites the 27 April 2020 judgment convicting Jhon James Montoya Granada of aggravated criminal concert for drug-trafficking purposes and trafficking, with a 76-month sentence. It separately describes a homicide/arms/minor-use prosecution still in progress in February 2025; those later allegations are not part of the drug conviction."
         }
       ],
       "events": [
         {
           "id": "jhon-james-montoya-granada-la-huesuda-2020-conviction-report",
-          "occurredAt": "2020-05-02",
+          "occurredAt": "2020-04-27",
           "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2020-05-02 report names Jhon James Montoya Granada as convicted in the La banda de la Huesuda (2020 case) case (leader; 76 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "title": "Drug-trafficking conviction",
+          "summary": "The court approved a plea agreement and sentenced Jhon James Montoya Granada to 76 months on drug-trafficking-related counts on 27 April 2020. The Supreme Court’s 2025 ruling records a separate later homicide/arms/minor-use case as still in progress; those allegations are not treated as convictions.",
           "source": {
-            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
-            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
-            "publisher": "Eje21 (republication of Fiscalía account)",
+            "url": "https://archivodigitalapi.cortesuprema.gov.co/share/2025/2/Avisos/Ver%20providencia%20142539.pdf",
+            "title": "Tutela primera instancia, radicado 142539, Jhon James Montoya Granada",
+            "publisher": "Corte Suprema de Justicia de Colombia, Sala de Casación Penal",
             "language": "es",
-            "publishedAt": "2020-05-02",
-            "claim": "Jhon James Montoya Granada: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+            "publishedAt": "2025-02-05",
+            "claim": "The Court recites the 27 April 2020 judgment convicting Jhon James Montoya Granada of aggravated criminal concert for drug-trafficking purposes and trafficking, with a 76-month sentence. It separately describes a homicide/arms/minor-use prosecution still in progress in February 2025; those later allegations are not part of the drug conviction."
+          }
+        },
+        {
+          "id": "jhon-james-montoya-granada-la-huesuda-2020-2025-02-05-separate-case-update",
+          "occurredAt": "2025-02-05",
+          "type": "development",
+          "title": "Supreme Court records separate pending case",
+          "summary": "The Supreme Court noted that a separate homicide, arms and minor-use case involving Montoya Granada remained in progress. This does not alter his 2020 drug-trafficking conviction.",
+          "source": {
+            "url": "https://archivodigitalapi.cortesuprema.gov.co/share/2025/2/Avisos/Ver%20providencia%20142539.pdf",
+            "title": "Tutela primera instancia, radicado 142539, Jhon James Montoya Granada",
+            "publisher": "Corte Suprema de Justicia de Colombia, Sala de Casación Penal",
+            "language": "es",
+            "publishedAt": "2025-02-05",
+            "claim": "The Court recites the 27 April 2020 judgment convicting Jhon James Montoya Granada of aggravated criminal concert for drug-trafficking purposes and trafficking, with a 76-month sentence. It separately describes a homicide/arms/minor-use prosecution still in progress in February 2025; those later allegations are not part of the drug conviction."
           }
         }
       ],
       "legalHistory": [
         {
           "status": "convicted",
-          "date": "2020-05-02",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "date": "2020-04-27",
+          "qualifier": "First-instance drug-trafficking conviction; later Supreme Court ruling confirms this disposition. Separate homicide/arms/minor-use allegations remained pending as of February 2025.",
           "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
+          "offense": "Aggravated criminal concert for drug-trafficking purposes and trafficking, manufacture or possession of narcotics",
           "source": {
-            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
-            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
-            "publisher": "Eje21 (republication of Fiscalía account)",
+            "url": "https://archivodigitalapi.cortesuprema.gov.co/share/2025/2/Avisos/Ver%20providencia%20142539.pdf",
+            "title": "Tutela primera instancia, radicado 142539, Jhon James Montoya Granada",
+            "publisher": "Corte Suprema de Justicia de Colombia, Sala de Casación Penal",
             "language": "es",
-            "publishedAt": "2020-05-02",
-            "claim": "Jhon James Montoya Granada: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+            "publishedAt": "2025-02-05",
+            "claim": "The Court recites the 27 April 2020 judgment convicting Jhon James Montoya Granada of aggravated criminal concert for drug-trafficking purposes and trafficking, with a 76-month sentence. It separately describes a homicide/arms/minor-use prosecution still in progress in February 2025; those later allegations are not part of the drug conviction."
           }
         }
       ]
@@ -22998,686 +23003,6 @@
             "language": "es",
             "publishedAt": "2016-11-12",
             "claim": "Juan Carlos Betancur Lopera: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
-          }
-        }
-      ]
-    },
-    {
-      "id": "carlos-mario-triana-vasquez-los-triana-2011",
-      "name": "Carlos Mario Triana Vásquez",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana leader; 12 years; individual drug count unspecified",
-      "prominence": 2,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Carlos Mario Triana Vásquez is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Carlos Mario Triana Vásquez: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "carlos-mario-triana-vasquez-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Carlos Mario Triana Vásquez as convicted in the Los Triana (2011 convictions) case (leader; 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Carlos Mario Triana Vásquez: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Carlos Mario Triana Vásquez: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ]
-    },
-    {
-      "id": "josue-fabio-osorio-osorio-los-triana-2011",
-      "name": "Josué Fabio Osorio Osorio",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana finance role; term unspecified; individual drug count unspecified",
-      "prominence": 1,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Josué Fabio Osorio Osorio is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Josué Fabio Osorio Osorio: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "josue-fabio-osorio-osorio-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Josué Fabio Osorio Osorio as convicted in the Los Triana (2011 convictions) case (finance role; term unspecified). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Josué Fabio Osorio Osorio: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Josué Fabio Osorio Osorio: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ]
-    },
-    {
-      "id": "jaime-arturo-osorio-osorio-los-triana-2011",
-      "name": "Jaime Arturo Osorio Osorio",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana finance role; term unspecified; individual drug count unspecified",
-      "prominence": 1,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Jaime Arturo Osorio Osorio is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Jaime Arturo Osorio Osorio: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "jaime-arturo-osorio-osorio-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Jaime Arturo Osorio Osorio as convicted in the Los Triana (2011 convictions) case (finance role; term unspecified). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Jaime Arturo Osorio Osorio: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Jaime Arturo Osorio Osorio: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ]
-    },
-    {
-      "id": "juan-pablo-osorio-osorio-los-triana-2011",
-      "name": "Juan Pablo Osorio Osorio",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana finance role; term unspecified; individual drug count unspecified",
-      "prominence": 1,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Juan Pablo Osorio Osorio is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Juan Pablo Osorio Osorio: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "juan-pablo-osorio-osorio-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Juan Pablo Osorio Osorio as convicted in the Los Triana (2011 convictions) case (finance role; term unspecified). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Juan Pablo Osorio Osorio: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Juan Pablo Osorio Osorio: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ]
-    },
-    {
-      "id": "johny-villegas-arenas-los-triana-2011",
-      "name": "Johny Villegas Arenas",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana former police officer; term unspecified; individual drug count unspecified",
-      "prominence": 1,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Johny Villegas Arenas is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Johny Villegas Arenas: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "johny-villegas-arenas-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Johny Villegas Arenas as convicted in the Los Triana (2011 convictions) case (former police officer; term unspecified). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Johny Villegas Arenas: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Johny Villegas Arenas: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ]
-    },
-    {
-      "id": "jorge-ivan-llanos-vanegas-los-triana-2011",
-      "name": "Jorge Iván Llanos Vanegas",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana former police officer; term unspecified; individual drug count unspecified",
-      "prominence": 1,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Jorge Iván Llanos Vanegas is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Jorge Iván Llanos Vanegas: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "jorge-ivan-llanos-vanegas-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Jorge Iván Llanos Vanegas as convicted in the Los Triana (2011 convictions) case (former police officer; term unspecified). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Jorge Iván Llanos Vanegas: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Jorge Iván Llanos Vanegas: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ]
-    },
-    {
-      "id": "marlon-francisco-lopez-hurtado-los-triana-2011",
-      "name": "Marlon Francisco López Hurtado",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana former police officer; term unspecified; individual drug count unspecified",
-      "prominence": 1,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Marlon Francisco López Hurtado is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Marlon Francisco López Hurtado: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "marlon-francisco-lopez-hurtado-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Marlon Francisco López Hurtado as convicted in the Los Triana (2011 convictions) case (former police officer; term unspecified). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Marlon Francisco López Hurtado: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Marlon Francisco López Hurtado: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ]
-    },
-    {
-      "id": "carlos-emilio-martinez-los-triana-2011",
-      "name": "Carlos Emilio Martínez",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana former police officer; term unspecified; individual drug count unspecified",
-      "prominence": 1,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Carlos Emilio Martínez is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Carlos Emilio Martínez: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "carlos-emilio-martinez-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Carlos Emilio Martínez as convicted in the Los Triana (2011 convictions) case (former police officer; term unspecified). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Carlos Emilio Martínez: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Carlos Emilio Martínez: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ]
-    },
-    {
-      "id": "jorge-eliecer-lazaro-pineda-los-triana-2011",
-      "name": "Jorge Eliécer Lázaro Pineda",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana former police officer; term unspecified; individual drug count unspecified",
-      "prominence": 1,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Jorge Eliécer Lázaro Pineda is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Jorge Eliécer Lázaro Pineda: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "jorge-eliecer-lazaro-pineda-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Jorge Eliécer Lázaro Pineda as convicted in the Los Triana (2011 convictions) case (former police officer; term unspecified). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Jorge Eliécer Lázaro Pineda: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Jorge Eliécer Lázaro Pineda: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ]
-    },
-    {
-      "id": "manuel-antonio-chavez-orozco-los-triana-2011",
-      "name": "Manuel Antonio Chávez Orozco",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2011-06-01",
-      "roleLabel": "Convicted Los Triana former police officer; term unspecified; individual drug count unspecified",
-      "prominence": 1,
-      "organizationIds": [
-        "los-triana-2011"
-      ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia",
-          "evidence": {
-            "claim": "Manuel Antonio Chávez Orozco is individually named as convicted in the Colombia-based Los Triana (2011 convictions) case; this is a historical case association, not a current-location claim.",
-            "period": "by 2011-06-01",
-            "sourceUrl": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560"
-          }
-        }
-      ],
-      "drugs": [],
-      "sources": [
-        {
-          "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-          "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-          "publisher": "El Colombiano",
-          "language": "es",
-          "publishedAt": "2011-06-01",
-          "claim": "Manuel Antonio Chávez Orozco: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-        }
-      ],
-      "events": [
-        {
-          "id": "manuel-antonio-chavez-orozco-los-triana-2011-conviction-report",
-          "occurredAt": "2011-06-01",
-          "type": "conviction",
-          "title": "Historical conviction publicly reported",
-          "summary": "The 2011-06-01 report names Manuel Antonio Chávez Orozco as convicted in the Los Triana (2011 convictions) case (former police officer; term unspecified). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Manuel Antonio Chávez Orozco: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
-          }
-        }
-      ],
-      "legalHistory": [
-        {
-          "status": "convicted",
-          "date": "2011-06-01",
-          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
-          "jurisdiction": "Colombia",
-          "offense": "Drug-trafficking-related group case",
-          "source": {
-            "url": "https://www.elcolombiano.com/blogs/revelacionesdelbajomundo/la-justicia-condeno-a-varios-trianas-y-a-sus-corruptos/3560",
-            "title": "La justicia condenó a varios ‘trianas’ y a sus corruptos",
-            "publisher": "El Colombiano",
-            "language": "es",
-            "publishedAt": "2011-06-01",
-            "claim": "Manuel Antonio Chávez Orozco: El Colombiano identifies this person among 23 convicted in a first-instance preagreement judgment; the article says the affected defendants were convicted of offenses including aggravated drug trafficking. It does not allocate every specific count or sentence to each name."
           }
         }
       ]
