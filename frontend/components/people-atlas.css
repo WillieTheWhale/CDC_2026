@@ -42,6 +42,8 @@
 .people-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 12px; padding-top: 12px; }
 .people-list > button { display: flex; min-width: 0; align-items: center; gap: 10px; min-height: 56px; border-bottom: 1px solid #edf0f4; text-align: left; }
 .people-list > button.selected .people-list-name { color: #175e9a; }
+.people-list > .people-load-more { grid-column: 1 / -1; justify-content: center; margin-top: 12px; border: 1px solid #cad8e6; border-radius: 4px; color: #175e9a; font-weight: 600; }
+.people-list > .people-load-more:disabled { opacity: 0.55; cursor: wait; }
 .people-avatar { flex: 0 0 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: #e8f0f7; color: #436d91; font: 12px var(--mono, monospace); }
 .people-list-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
 .people-list-name small { display: block; overflow: hidden; margin-top: 3px; color: #8793a0; text-overflow: ellipsis; font-size: 10px; }

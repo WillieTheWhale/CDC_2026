@@ -62,6 +62,12 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   const [zoom, setZoom] = useState<1 | 2 | 3>(1);
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [total, setTotal] = useState<number | null>(null);
+  const [nextCursor, setNextCursor] = useState<string | null>(null);
+  const [loadingMore, setLoadingMore] = useState(false);
+  const filterKey = JSON.stringify([query, zoom, bounds]);
+  const filterKeyRef = useRef(filterKey);
+  filterKeyRef.current = filterKey;
 
   useEffect(() => {
     const controller = new AbortController();
@@ -128,12 +134,18 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
 
   useEffect(() => {
     let active = true;
+    setDataset(null);
+    setTotal(null);
+    setNextCursor(null);
+    setLoadingMore(false);
     const timer = setTimeout(() => {
-      void loadPeople({ search: query, zoom, bounds, limit: 250 }).then((result) => {
+      void loadPeople({ search: query, zoom, bounds, limit: 100 }).then((result) => {
         if (!active) return;
         if (result.status === "ready") {
           setDataset(result.dataset);
-          setLoadState(result.source === "fixtures" ? "Curated fixture sample" : "Live API · bounded results");
+          setTotal(result.total);
+          setNextCursor(result.nextCursor);
+          setLoadState(result.source === "fixtures" ? "Curated fixture results" : "Live API results");
         } else {
           setDataset(null);
           setLoadState(result.reason);
@@ -142,6 +154,29 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     }, query ? 200 : 0);
     return () => { active = false; clearTimeout(timer); };
   }, [query, zoom, bounds]);
+
+  const loadMore = async () => {
+    if (!nextCursor || loadingMore) return;
+    const requestedKey = filterKey;
+    setLoadingMore(true);
+    const result = await loadPeople({ search: query, zoom, bounds, limit: 100, cursor: nextCursor });
+    if (filterKeyRef.current !== requestedKey) return;
+    setLoadingMore(false);
+    if (result.status !== "ready") { setLoadState(result.reason); return; }
+    setDataset((previous) => {
+      if (!previous) return result.dataset;
+      const peopleIds = new Set(previous.people.map((person) => person.id));
+      const organizationIds = new Set(previous.organizations.map((organization) => organization.id));
+      const connectionIds = new Set(previous.connections.map((connection) => connection.id));
+      return {
+        people: [...previous.people, ...result.dataset.people.filter((person) => !peopleIds.has(person.id))],
+        organizations: [...previous.organizations, ...result.dataset.organizations.filter((organization) => !organizationIds.has(organization.id))],
+        connections: [...previous.connections, ...result.dataset.connections.filter((connection) => !connectionIds.has(connection.id))],
+      };
+    });
+    setTotal(result.total);
+    setNextCursor(result.nextCursor);
+  };
 
   useEffect(() => {
     if (!selectedId) { setNetwork(null); return; }
@@ -155,11 +190,8 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   const people = dataset?.people ?? [];
   const selected = network?.people.find((person) => person.id === selectedId) ?? people.find((person) => person.id === selectedId) ?? null;
   const countryById = useMemo(() => new Map(countries.map((country) => [country.iso3, country])), [countries]);
-  const organizations = useMemo(() => new Map((dataset?.organizations ?? []).map((item) => [item.id, item])), [dataset]);
-  const searchable = query.trim().toLocaleLowerCase();
-  const matching = useMemo(() => searchable
-    ? people.filter((person) => [person.name, ...(person.aliases ?? [])].join(" ").toLocaleLowerCase().includes(searchable))
-    : people, [people, searchable]);
+  const organizations = useMemo(() => new Map([...(dataset?.organizations ?? []), ...(network?.organizations ?? [])].map((item) => [item.id, item])), [dataset, network]);
+  const matching = people;
   const personCount = dataset?.people.length ?? 0;
 
   const choosePerson = (person: Person) => {
@@ -272,7 +304,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     <p className="people-caution" role="note"><strong>Evidence caution.</strong> A listed connection is a claim from the cited sources, not proof of guilt. Status categories are kept distinct and reflect what the cited source establishes.</p>
     <div className="people-toolbar">
       <label className="people-search"><Search size={15} /><span className="sr-only">Search people</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search names and aliases" /></label>
-      <span className="people-result-count">{personCount.toLocaleString()} sourced people · {dataset?.connections.length.toLocaleString() ?? "—"} sourced claims</span>
+      <span className="people-result-count">{personCount.toLocaleString()}{total === null ? " loaded people · total unavailable" : ` of ${total.toLocaleString()} matching people`} · {dataset?.connections.length.toLocaleString() ?? "—"} loaded claims</span>
       {mode === "map" && <div className="people-zoom" aria-label="Map zoom controls">
         <button aria-label="Zoom out" disabled={zoom === 1} onClick={() => mapRef.current?.zoomOut()}><ZoomOut size={16} /></button>
         <span>Zoom {zoom}/3</span>
@@ -280,22 +312,22 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       </div>}
     </div>
 
-    {mode === "map" ? <div className="people-map-layout">
+    <><div className="people-map-layout" style={{ display: mode === "map" ? undefined : "none" }}>
       <div className="people-map-panel">
+        <div className="people-map" role="group" aria-label="Country-level geographic associations">
+          <div className="people-map-canvas" ref={mapHost} />
+          {!mapReady && <div className="people-map-loading" role="status">{mapError || "Loading map…"}</div>}
+          <div className="people-map-legend">Country dots show documented geographic association. They do not show a person’s live position.</div>
+        </div>
         {dataset ? <>
-          <div className="people-map" role="group" aria-label="Country-level geographic associations">
-            <div className="people-map-canvas" ref={mapHost} />
-            {!mapReady && <div className="people-map-loading" role="status">{mapError || "Loading map…"}</div>}
-            <div className="people-map-legend">Country dots show documented geographic association. They do not show a person’s live position.</div>
-          </div>
           <div className="people-list">
-            {matching.slice(0, 100).map((person) => <button key={person.id} className={selectedId === person.id ? "selected" : ""} onClick={() => choosePerson(person)}>
+            {matching.map((person) => <button key={person.id} className={selectedId === person.id ? "selected" : ""} onClick={() => choosePerson(person)}>
               <span className="people-avatar">{person.name.slice(0, 1).toUpperCase()}</span>
               <span className="people-list-name">{person.name}<small>{person.regions.map((region) => region.label).join(" · ") || "Geography not specified"}</small></span>
               <span className={`people-status status-${person.status}`}>{STATUS_LABEL[person.status]}</span>
             </button>)}
-            {matching.length > 100 && <p>Showing 100 of {matching.length.toLocaleString()} current results. Search to narrow the list.</p>}
-            {matching.length === 0 && <p>No sourced people match this search.</p>}
+            {nextCursor && <button className="people-load-more" disabled={loadingMore} onClick={() => void loadMore()}>{loadingMore ? "Loading…" : "Load more people"}</button>}
+            {matching.length === 0 && <p>No sourced people match the current search, zoom and map area.</p>}
           </div>
         </> : <div className="people-empty" role="status">{loadState}</div>}
       </div>
@@ -316,10 +348,10 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
           <p className="people-caution people-detail-caution">A listed connection is a source claim, not proof of guilt.</p>
         </> : <div className="people-detail-empty">Select a person marker or record to review status and sources.</div>}
       </aside>
-    </div> : <div className="people-graph-panel">
+    </div><div className="people-graph-panel" style={{ display: mode === "graph" ? undefined : "none" }}>
       {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
       {selected && <><div className="people-graph-status"><span className={`people-status status-${selected.status}`}>{STATUS_LABEL[selected.status]}</span><span>{selected.name}{selected.statusAsOf ? ` · as of ${selected.statusAsOf}` : ""}</span></div><PeopleEventTimeline events={selected.events ?? []} /></>}
-    </div>}
-    <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. The fixture is a small curated sample.</footer>
+    </div></>
+    <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. Map markers represent loaded records at country-level associations; totals apply to the current search, zoom and map area.</footer>
   </section>;
 }

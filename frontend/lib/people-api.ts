@@ -1,5 +1,4 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
-import fixtureManifest from "../data/people/manifest.json";
 import type {
   Connection,
   Organization,
@@ -16,6 +15,7 @@ export interface PeopleQuery {
   zoom?: 1 | 2 | 3;
   bounds?: [west: number, south: number, east: number, north: number];
   limit?: number;
+  cursor?: string;
 }
 
 function validHttpUrl(value: unknown): value is string {
@@ -56,7 +56,7 @@ function validEvent(value: unknown): value is PersonEvent {
     sourceIsCitable(event.source);
 }
 
-function normalizeDataset(input: unknown): PeopleDataset {
+export function normalizeDataset(input: unknown): PeopleDataset {
   if (!input || typeof input !== "object") {
     return { organizations: [], people: [], connections: [] };
   }
@@ -106,27 +106,28 @@ function normalizeDataset(input: unknown): PeopleDataset {
   };
 }
 
-async function fetchPeople(path: string): Promise<PeopleDataset> {
-  const response = await fetch(`${apiBase}${path}`, { cache: "no-store" });
+async function fetchPeople(path: string): Promise<{ dataset: PeopleDataset; total: number | null; nextCursor: string | null }> {
+  const response = await fetch(`${apiBase ?? ""}${path}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`People API returned ${response.status}`);
-  const body = await response.json() as { data?: unknown };
+  const body = await response.json() as { data?: unknown; meta?: { total?: unknown; next_cursor?: unknown }; total?: unknown; next_cursor?: unknown };
   if (!body.data) throw new Error("People API response is missing data");
-  return normalizeDataset(body.data);
+  const dataset = normalizeDataset(body.data);
+  const rawTotal = body.meta?.total ?? body.total;
+  const rawCursor = body.meta?.next_cursor ?? body.next_cursor;
+  return {
+    dataset,
+    total: typeof rawTotal === "number" && Number.isSafeInteger(rawTotal) && rawTotal >= dataset.people.length ? rawTotal : null,
+    nextCursor: typeof rawCursor === "string" && rawCursor.length ? rawCursor : null,
+  };
 }
 
 export async function loadPeople(options: PeopleQuery = {}): Promise<PeopleLoadResult> {
   try {
-    if (!apiBase) {
-      return {
-        status: "ready",
-        source: "fixtures",
-        dataset: normalizeDataset(fixtureManifest),
-      };
-    }
-    const query = new URLSearchParams({ limit: String(options.limit ?? 250), zoom: String(options.zoom ?? 1) });
+    const query = new URLSearchParams({ limit: String(options.limit ?? 100), zoom: String(options.zoom ?? 1) });
     if (options.search?.trim()) query.set("search", options.search.trim());
     if (options.bounds) query.set("bbox", options.bounds.join(","));
-    return { status: "ready", source: "api", dataset: await fetchPeople(`/api/people?${query}`) };
+    if (options.cursor) query.set("cursor", options.cursor);
+    return { status: "ready", source: apiBase ? "api" : "fixtures", ...await fetchPeople(`/api/people?${query}`) };
   } catch (error) {
     return {
       status: "unavailable",
@@ -136,12 +137,11 @@ export async function loadPeople(options: PeopleQuery = {}): Promise<PeopleLoadR
 }
 
 export async function loadPersonNetwork(personId: string): Promise<PeopleLoadResult> {
-  if (!apiBase) return loadPeople();
   try {
     return {
       status: "ready",
-      source: "api",
-      dataset: await fetchPeople(`/api/people/network?person_id=${encodeURIComponent(personId)}&limit=49`),
+      source: apiBase ? "api" : "fixtures",
+      ...await fetchPeople(`/api/people/network?person_id=${encodeURIComponent(personId)}`),
     };
   } catch (error) {
     return { status: "unavailable", reason: error instanceof Error ? error.message : "Connection evidence is unavailable." };
