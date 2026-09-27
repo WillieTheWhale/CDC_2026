@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 3098,
-    "associations": 2093,
-    "evidenced": 2093,
+    "people": 3099,
+    "associations": 2094,
+    "evidenced": 2094,
     "missing": 0,
     "invalid": 0
   },
@@ -145,6 +145,13 @@
       "people": 13,
       "associations": 13,
       "evidenced": 13,
+      "missing": 0,
+      "invalid": 0
+    },
+    "daniel_barrera_barrera.json": {
+      "people": 1,
+      "associations": 1,
+      "evidenced": 1,
       "missing": 0,
       "invalid": 0
     },
@@ -777,8 +784,8 @@
       "invalid": 0
     },
     "COL": {
-      "associations": 97,
-      "evidenced": 97,
+      "associations": 98,
+      "evidenced": 98,
       "missing": 0,
       "invalid": 0
     },
