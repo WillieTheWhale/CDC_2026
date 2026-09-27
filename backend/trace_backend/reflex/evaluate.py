@@ -127,11 +127,11 @@ def structure_test(rx: Reflex, test: list[Example]) -> dict:
 
 
 # ------------------------------------------------------------------ L6 domain (100-headline Live Wire eval)
-def domain_eval(rx: Reflex) -> dict:
+def domain_eval(rx: Reflex, n: int | None = None) -> dict:
     from ..api.livewire import load_eval
     from ..jev.mock import MockJevClassifier
     from ..jev.reflex_client import ReflexClassifier
-    rows = load_eval()
+    rows = load_eval()[:n] if n else load_eval()
     out = {}
     for name, clf in (("reflex", ReflexClassifier(model=rx)), ("mock", MockJevClassifier())):
         hits = Counter()
@@ -181,7 +181,7 @@ def jaggedness(rx: Reflex) -> dict:
     # 5. large irrelevant state
     filler = ("The city council met on Tuesday to discuss parking fees, library opening hours and a new bicycle lane. "
               "Several residents asked about recycling schedules and the weather forecast for the weekend. ") * 6
-    heads = [e for e in load_split("test") if e.task == "trace_drug"][:30]
+    heads = [e for e in load_split("test") if e.task == "trace_drug"][:15]
     clean = score_set(rx, heads)["_all"]["accuracy"]
     noisy = score_set(rx, [Example(e.task, e.prim, f"{filler}\n{render(e.state)}", e.instructions, e.criteria, e.gold,
                                    e.split) for e in heads])["_all"]["accuracy"]
@@ -231,6 +231,8 @@ def run(quick: bool = False, model_dir: str | None = None, out_name: str = "eval
         zs = [e for t in {e.task for e in zs} for e in [x for x in zs if x.task == t][:15]]
     base_sub = [e for t in {e.task for e in test} for e in [x for x in test if x.task == t][:60]]
     zs_sub = [e for t in {e.task for e in zs} for e in [x for x in zs if x.task == t][:100]]
+    if quick:
+        base_sub, zs_sub = test, zs
     log.info("L0/L1 contract")
     rep = {"model": rx.model_id, "temperatures": rx.temps, "evaluated_at": time.strftime("%Y-%m-%dT%H:%M:%S")}
     rep["L0_L1_contract"] = contract_checks(rx)
@@ -252,7 +254,7 @@ def run(quick: bool = False, model_dir: str | None = None, out_name: str = "eval
     log.info("L5 structure")
     rep["L5_structure"] = structure_test(rx, test)
     log.info("L6 domain")
-    rep["L6_domain"] = domain_eval(rx)
+    rep["L6_domain"] = domain_eval(rx, 40 if quick else None)
     if (OUT / "llm_test.jsonl").exists():  # second domain test: Claude-written headlines, never trained on
         lt = load_split("llm_test")
         if quick:

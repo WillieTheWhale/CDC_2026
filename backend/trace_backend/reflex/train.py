@@ -29,6 +29,7 @@ CKPT = OUT / "ckpt.pt"
 LOG = OUT / "train_log.jsonl"
 TRAIN_MAX_LEN = 128           # CPU budget: headlines and truncated passages fit; inference uses MAX_LEN
 TRAIN_CHOICE_K = 4            # sample negatives: gold + 3 others per Choice during training (standard practice)
+DEV = "cuda" if torch.cuda.is_available() else "cpu"  # Colab GPU when run via the Colab CLI, else laptop CPU
 
 
 def pairs_of(e: Example, rng: random.Random | None = None, k_max: int | None = None):
@@ -58,12 +59,14 @@ def batches(examples, rng, max_pairs=24):
 def step_loss(net, tok, batch, max_len=TRAIN_MAX_LEN):
     flat = [pp for _, p, _ in batch for pp in p]
     enc = tok([a for a, _ in flat], [b for _, b in flat], truncation="only_first", max_length=max_len,
-              padding=True, return_tensors="pt")
-    s = net(**enc)
+              padding=True, return_tensors="pt").to(DEV)
+    with torch.autocast("cuda", dtype=torch.float16, enabled=DEV == "cuda"):
+        s = net(**enc)
+    s = s.float()
     loss, i = 0.0, 0
     for _, p, g in batch:
         seg = s[i:i + len(p)]
-        loss = loss + torch.nn.functional.cross_entropy(seg.unsqueeze(0), torch.tensor([g]))
+        loss = loss + torch.nn.functional.cross_entropy(seg.unsqueeze(0), torch.tensor([g], device=s.device))
         i += len(p)
     return loss / len(batch), len(flat)
 
@@ -98,7 +101,8 @@ def run(epochs: int = 1, lr: float = 3e-5, max_pairs: int = 24, seed: int = 7, l
     `q_per_headline` keeps a random subset of the questions per headline for llm_* splits (CPU budget).
     """
     torch.manual_seed(seed)
-    torch.set_num_threads(10)
+    if DEV == "cpu":
+        torch.set_num_threads(10)
     rng = random.Random(seed)
     train = [e for sp in train_splits for e in load_split(sp)]
     if q_per_headline:
@@ -111,6 +115,7 @@ def run(epochs: int = 1, lr: float = 3e-5, max_pairs: int = 24, seed: int = 7, l
     for sp, n in (replay or {}).items():
         pool = load_split(sp)
         train += rng.sample(pool, min(n, len(pool)))
+    rng.shuffle(train)  # mixed order before any limit, so a limited run samples every source
     if limit:
         train = train[:limit]
     val = [e for sp in val_splits for e in load_split(sp)]
@@ -118,11 +123,13 @@ def run(epochs: int = 1, lr: float = 3e-5, max_pairs: int = 24, seed: int = 7, l
         val = val[:limit]
     src = init_from or BASE
     tok = AutoTokenizer.from_pretrained(src)
-    net = ReflexNet(src)
+    net = ReflexNet(src).to(DEV)
+    log.info("training on %s", torch.cuda.get_device_name(0) if DEV == "cuda" else "CPU")
     for p in net.enc.deberta.embeddings.parameters():  # 49M-param embedding table frozen (CPU budget)
         p.requires_grad = False
     params = [p for p in net.parameters() if p.requires_grad]
     opt = torch.optim.AdamW(params, lr=lr, weight_decay=0.01)
+    scaler = torch.amp.GradScaler("cuda", enabled=DEV == "cuda")
     order = []
     for ep in range(epochs):
         ex = list(train)
@@ -134,7 +141,7 @@ def run(epochs: int = 1, lr: float = 3e-5, max_pairs: int = 24, seed: int = 7, l
         opt, lambda s: min((s + 1) / warm, max(0.0, (total - s) / max(1, total - warm))))
     start = 0
     if CKPT.exists():
-        ck = torch.load(CKPT, weights_only=False)
+        ck = torch.load(CKPT, weights_only=False, map_location=DEV)
         if ck.get("total") == total:
             net.load_state_dict(ck["net"])
             opt.load_state_dict(ck["opt"])
@@ -149,9 +156,11 @@ def run(epochs: int = 1, lr: float = 3e-5, max_pairs: int = 24, seed: int = 7, l
             continue
         loss, n = step_loss(net, tok, batch)
         opt.zero_grad()
-        loss.backward()
+        scaler.scale(loss).backward()
+        scaler.unscale_(opt)
         torch.nn.utils.clip_grad_norm_(params, 1.0)
-        opt.step()
+        scaler.step(opt)
+        scaler.update()
         sched.step()
         step += 1
         pairs_done += n
@@ -167,13 +176,14 @@ def run(epochs: int = 1, lr: float = 3e-5, max_pairs: int = 24, seed: int = 7, l
             torch.save({"net": net.state_dict(), "opt": opt.state_dict(), "sched": sched.state_dict(), "step": step,
                         "total": total}, CKPT)
     net.eval()
-    rx = Reflex(net, tok, model_id=model_id)
+    rx = Reflex(net, tok, model_id=model_id, device=DEV)
     temps = fit_temperatures(rx, val)
     rx.temps = temps
     meta = {"trained_at": time.strftime("%Y-%m-%dT%H:%M:%S"), "train_examples": len(train), "steps": total,
             "init_from": "cross-encoder/nli-deberta-v3-xsmall" if not init_from else str(init_from),
             "train_splits": list(train_splits), "replay": replay or {}, "q_per_headline": q_per_headline,
             "epochs": epochs, "lr": lr, "train_max_len": TRAIN_MAX_LEN, "train_choice_k": TRAIN_CHOICE_K,
+            "device": torch.cuda.get_device_name(0) if DEV == "cuda" else "cpu", "max_pairs": max_pairs,
             "frozen": "embeddings", "objective": "per-question softmax cross-entropy (log-loss) + temperature scaling"}
     path = rx.save(out_dir, extra={"training": meta})
     CKPT.unlink(missing_ok=True)

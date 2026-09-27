@@ -45,7 +45,8 @@ class ReflexNet(torch.nn.Module):
 
 class Reflex:
     def __init__(self, net: ReflexNet, tok, temps: dict[str, float] | None = None, model_id: str = "reflex-0.1.0",
-                 device: str = "cpu"):
+                 device: str | None = None):
+        device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         self.net, self.tok = net.eval().to(device), tok
         self.temps = temps or {"choice": 1.0, "score": 1.0, "noul": 1.0}
         self.model_id, self.device = model_id, device

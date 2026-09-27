@@ -52,7 +52,15 @@ def main(argv: list[str] | None = None) -> int:
     rd.add_argument("--scale", type=float, default=1.0)
     rt = sub.add_parser("reflex-train", help="train + calibrate Reflex (resumable)")
     rt.add_argument("--epochs", type=int, default=1)
-    rt.add_argument("--limit", type=int, default=None, help="train on the first N examples (smoke test)")
+    rt.add_argument("--limit", type=int, default=None, help="train on N shuffled examples")
+    rt.add_argument("--init-from", default=None, help="continue from saved Reflex weights (v0.2)")
+    rt.add_argument("--train-splits", nargs="+", default=["train"])
+    rt.add_argument("--val-splits", nargs="+", default=["val"])
+    rt.add_argument("--replay", default=None, help="split:n, e.g. train:800")
+    rt.add_argument("--q-per-headline", type=int, default=None)
+    rt.add_argument("--model-id", default="reflex-0.1.0")
+    rt.add_argument("--out-dir", default=None)
+    rt.add_argument("--lr", type=float, default=3e-5)
     re_ = sub.add_parser("reflex-eval", help="evaluate Reflex against the Reflex Parity Scale")
     re_.add_argument("--quick", action="store_true", help="small subsets")
     re_.add_argument("--model-dir", default=None)
@@ -83,7 +91,11 @@ def main(argv: list[str] | None = None) -> int:
             logging.info("reflex data: %s", build(a.scale))
         elif a.cmd == "reflex-train":
             from trace_backend.reflex.train import run as train_run
-            logging.info("reflex train: %s", train_run(epochs=a.epochs, limit=a.limit))
+            rp = {a.replay.split(":")[0]: int(a.replay.split(":")[1])} if a.replay else None
+            logging.info("reflex train: %s", train_run(
+                epochs=a.epochs, limit=a.limit, init_from=a.init_from, train_splits=tuple(a.train_splits),
+                val_splits=tuple(a.val_splits), replay=rp, q_per_headline=a.q_per_headline, model_id=a.model_id,
+                out_dir=a.out_dir, lr=a.lr))
         else:
             from trace_backend.reflex.evaluate import run as eval_run
             logging.info("reflex eval written: %s", eval_run(quick=a.quick, model_dir=a.model_dir, out_name=a.out))

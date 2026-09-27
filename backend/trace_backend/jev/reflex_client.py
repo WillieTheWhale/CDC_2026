@@ -22,8 +22,14 @@ class ReflexClassifier(JevClassifier):
         self.rx = model or Reflex.load()
         self.name = self.rx.model_id
         if countries is None:
-            from .. import db
-            countries = db.read_table("countries").to_dict("records")
+            try:
+                from .. import db
+                countries = db.read_table("countries").to_dict("records")
+            except Exception:  # no database (e.g. a Colab GPU runtime): the contract fixture has all 217 economies
+                import json
+
+                from ..contract import FIXTURES
+                countries = json.loads((FIXTURES / "countries.json").read_text(encoding="utf-8"))["data"]
         self.short, _ = _names(countries)
         self.EVENT_TYPES, self.DRUG_OPTS, self.SIZE_LEVELS = EVENT_TYPES, DRUG_OPTS, SIZE_LEVELS
 
