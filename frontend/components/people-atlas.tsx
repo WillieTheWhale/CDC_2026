@@ -5,6 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Search, ZoomIn, ZoomOut } from "lucide-react";
 import * as maplibregl from "maplibre-gl";
 import { loadPeople, loadPeopleCountryCounts, loadPersonNetwork } from "@/lib/people-api";
+import { peopleRequestViewport } from "@/lib/people-browse";
 import type { PeopleCountry, PeopleDataset, Person, PersonEvent, PersonEventType } from "@/lib/people-types";
 import { PeopleGraph } from "./people-graph";
 import { PeopleLegalRecord, personDisplayStatus } from "./people-legal";
@@ -54,8 +55,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   const [countryCounts, setCountryCounts] = useState<{ iso3: string; total: number; visible: number }[] | null | undefined>();
   const searching = query.trim().length > 0;
   const unlocated = mode === "unlocated";
-  const requestZoom = searching || selectedCountry || unlocated ? 3 : zoom;
-  const requestBounds = searching || selectedCountry || unlocated ? undefined : bounds;
+  const { zoom: requestZoom, bounds: requestBounds } = peopleRequestViewport({ mode, searching, selectedCountry, zoom, bounds });
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [total, setTotal] = useState<number | null>(null);
   const [publishedTotal, setPublishedTotal] = useState<number | null>(null);
@@ -229,7 +229,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     if (region) trayShown.push({ person: selected, region });
   }
 
-  useEffect(() => { setGraphShownCount(30); }, [query]);
+  useEffect(() => { setGraphShownCount(30); }, [query, selectedCountry]);
 
   const choosePerson = (person: Person, focusIso3?: string) => {
     setSelectedId(person.id);
@@ -380,16 +380,17 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
         </> : <div className="people-detail-empty">Select a person from the records to review status and sources.</div>}
       </aside>
     </div><div className="people-graph-panel" style={{ display: mode === "graph" ? undefined : "none" }}>
-      {searching && dataset && <section className="people-graph-results" aria-label="Matching people for Connections view">
-        <div className="people-graph-results-heading"><strong>Matching people</strong><span>{matching.length} loaded{total !== null ? ` of ${total} matches` : ""}</span></div>
+      {dataset ? <section className="people-graph-results" aria-label="Browse people for Connections view">
+        <div className="people-graph-results-heading"><div><strong>{searching ? "Matching people" : "Browse sourced people"}</strong><p>Select a person to inspect their cited connection claims. Some records have no documented person-to-person links.</p></div><span>{matching.length} loaded{total !== null ? ` of ${total} matches` : ""}</span></div>
+        {selectedCountryName && <div className="people-country-filter"><span>Associated with {selectedCountryName}</span><button onClick={() => setSelectedCountry(null)}>Clear country</button></div>}
         <div className="people-graph-results-list">{matching.slice(0, graphShownCount).map((person) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => { setNetwork(null); setSelectedId(person.id); }}><strong>{person.name}</strong><span>{personDisplayStatus(person).label}{personDisplayStatus(person).asOf ? ` · as of ${personDisplayStatus(person).asOf}` : ""}</span></button>)}</div>
         {matching.length > graphShownCount && <button className="people-graph-results-more" onClick={() => setGraphShownCount((current) => current + 30)}>Show more loaded matches</button>}
         {nextCursor && <button className="people-graph-results-more" disabled={loadingMore} onClick={() => void loadMore()}>{loadingMore ? "Loading…" : "Load more matching people"}</button>}
-        {matching.length === 0 && <p>No sourced people match this name or alias.</p>}
-      </section>}
+        {matching.length === 0 && <p>{searching ? "No sourced people match this name or alias." : "No sourced people match this country."}</p>}
+      </section> : <div className="people-empty" role="status">{loadState}</div>}
       {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} totalConnections={selectedNetwork ? networkClaimTotal : null} evidenceLoaded={selectedNetwork !== null} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
       {selected && <><div className="people-graph-status"><span className={`people-status status-${personDisplayStatus(selected).style}`}>{personDisplayStatus(selected).label}</span><span>{selected.name}{personDisplayStatus(selected).asOf ? ` · as of ${personDisplayStatus(selected).asOf}` : ""}</span></div><PeopleLegalRecord person={selected} /><PeopleEventTimeline events={selected.events ?? []} /></>}
     </div></>
-    <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. {unlocated ? "The no-country list includes every prominence tier and has no map position." : `Map circles represent country-level associations; person portraits appear in a non-geographic tray. ${selectedCountry ? "Country lists page through every prominence tier." : searching ? "Name searches cover all published records, regardless of map area or zoom." : "List totals apply to the current zoom and map area; country circles count the zoom tier across the full published dataset."}`}</footer>
+    <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. {mode === "graph" ? "Connections browsing pages through every prominence tier, independent of the map area; links appear only with their source claims." : unlocated ? "The no-country list includes every prominence tier and has no map position." : `Map circles represent country-level associations; person portraits appear in a non-geographic tray. ${selectedCountry ? "Country lists page through every prominence tier." : searching ? "Name searches cover all published records, regardless of map area or zoom." : "List totals apply to the current zoom and map area; country circles count the zoom tier across the full published dataset."}`}</footer>
   </section>;
 }

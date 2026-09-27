@@ -74,7 +74,7 @@ export function PeopleGraph({ dataset, selectedId, onSelect, totalConnections, e
           return <li key={edge.id}>
             <button onClick={() => other && onSelect(other)}>{edge.label}</button>
             <span>{other?.name}</span>
-            <small><a href={edge.sources[0]?.url} target="_blank" rel="noreferrer">{edge.sources[0]?.publisher}: {edge.sources[0]?.title}</a></small>
+            {edge.sources.map((source) => <small key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.publisher}: {source.title}</a> · {source.claim}</small>)}
           </li>;
         })}
       </ul>
