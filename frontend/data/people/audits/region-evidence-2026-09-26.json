@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1491,
-    "associations": 1262,
-    "evidenced": 1262,
+    "people": 1502,
+    "associations": 1273,
+    "evidenced": 1273,
     "missing": 0,
     "invalid": 0
   },
@@ -68,6 +68,13 @@
       "people": 27,
       "associations": 30,
       "evidenced": 30,
+      "missing": 0,
+      "invalid": 0
+    },
+    "chile_historical_court_appeals_2021_2023.json": {
+      "people": 11,
+      "associations": 11,
+      "evidenced": 11,
       "missing": 0,
       "invalid": 0
     },
@@ -562,6 +569,12 @@
       "missing": 0,
       "invalid": 0
     },
+    "CHL": {
+      "associations": 12,
+      "evidenced": 12,
+      "missing": 0,
+      "invalid": 0
+    },
     "COL": {
       "associations": 56,
       "evidenced": 56,
@@ -721,12 +734,6 @@
     "BOL": {
       "associations": 10,
       "evidenced": 10,
-      "missing": 0,
-      "invalid": 0
-    },
-    "CHL": {
-      "associations": 1,
-      "evidenced": 1,
       "missing": 0,
       "invalid": 0
     },
