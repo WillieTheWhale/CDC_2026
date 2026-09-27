@@ -87,4 +87,35 @@ Full reports: `backend/trace_backend/reflex/results/eval_v0.1.json` and `eval_v0
 | L7 jaggedness profile | documented | documented | P(q) + P(not q) sums 0.47 to 1.36 (Jev documents 1.19); counting and dates unreliable; ignores irrelevant filler; follows swapped criteria |
 | L8 speed | pass | pass | about 50 ms per 7-question headline on a T4, about 0.4-0.8 s on the laptop CPU |
 
-On 1,878 questions about Claude-written headlines it never saw, v0.2 scores 95.3% (v0.1: 89.2%) with calibration error 0.009. v0.2 is the shipped Live Wire model. Following TypeSafe's advice to keep numbers in code, stated weights and pill counts now set seizure size in code; that confirmed the model already read stated quantities correctly, and the remaining size gap is seizures with no stated quantity. Caveat: every domain test set is synthetic; team-labelled real headlines are the honest next benchmark.
+On 1,878 questions about Claude-written headlines it never saw, v0.2 scores 95.3% (v0.1: 89.2%) with calibration error 0.009. v0.2 is the shipped Live Wire model. Following TypeSafe's advice to keep numbers in code, stated weights and pill counts now set seizure size in code; that confirmed the model already read stated quantities correctly, and the remaining size gap is seizures with no stated quantity. Caveat: every domain test set above is synthetic; section 6 adds a real-news benchmark.
+
+## 6. Real-news benchmark and grounding guardrails (2026-09-27)
+
+Every earlier domain test used Claude-written headlines. `backend/trace_backend/jev/data/real_headlines_v1.jsonl` holds **92 real, published headlines** (77 with their first sentence), each with URL, publisher and date: 47 drug events from 5 continents (government releases from AFP, NZ Customs, CBP, DEA, DOJ, NCA, CBSA, RCMP, plus wire and national outlets), 6 drug-related non-events (reports, annual aggregates, destruction of an old haul), 23 near-miss negatives (pharma recalls and earnings, cannabis stock, overdose statistics, drug-war film and TV reviews, crop surveys, doping) and 16 unrelated items. Tricky cases are deliberate: pounds, tons and pill counts, "worth $23 million" with no weight, slang and chemical names (shabu, "Jihadi drug", carfentanil, nitazene, crystal methadone), ports and bridges without a country (Mundra, Pharr, Gioia Tauro), several countries in one sentence. Labels were written from the text only; each row also lists the countries and drugs the text supports (`support`), written by hand and independent of the gazetteer. Source list: `docs/DATA_SOURCES.md`.
+
+**Hallucination** = a predicted origin/destination country or drug that is not in the row's hand-labelled support set. **False-event rate** = share of the 39 near-miss and unrelated items that would appear on the Live Wire. Full report: `backend/trace_backend/reflex/results/real_news_v1.json` (`python -m trace_backend.jev.benchmark`).
+
+| | Reflex v0.2 | Reflex + grounding | Mock | Mock + grounding |
+|---|---|---|---|---|
+| is_event | 0.870 | **0.913** | 0.815 | 0.848 |
+| event type | 0.880 | 0.880 | 0.739 | 0.739 |
+| drug | 0.924 | **0.978** | 0.739 | 0.902 |
+| origin | 0.924 | **0.957** | 0.891 | 0.891 |
+| destination | 0.804 | **0.848** | 0.543 | 0.543 |
+| size (28 seizures; "not stated" is a label) | 0.786 | **0.929** | 0.429 | 0.929 |
+| correct extractions (origin / destination / drug) | 4/10, 30/38, 48/51 | **7/10, 36/38, 49/51** | 6/10, 5/38, 42/51 | same |
+| hallucinated entities | 5 of 102 (all drugs) | **0 of 107** | 19 of 88 | **0 of 69** |
+| false events on negatives | 12.8% (5/39) | 5.1% (2/39) | 15.4% | 7.7% |
+| precision of events shown (type and drug right) | 0.774 | 0.840 | 0.536 | 0.769 |
+| calibration: mean confidence shown vs precision | 0.846 vs 0.774 | 0.857 vs 0.840 (ECE 0.052) | 0.841 vs 0.536 | 0.880 vs 0.769 |
+
+Reflex never invented a country on real news, even before the guardrails (its country options are already limited to places the text names); its hallucinations were drugs guessed from context: "other" for nitazene and extradition stories, cannabis for a thyroid-tablet recall, cocaine for a coca-leaf opinion piece. The mock hallucinated 19 times (a drug for every "drugs" headline).
+
+**What the guardrails do** (`backend/trace_backend/jev/grounding.py`, applied inside `ReflexClassifier` and to every classifier on the shared Live Wire path):
+1. Country evidence from the text: World Bank names and aliases, demonyms, upper-case acronyms (US, UK, UAE, PH), US/Mexican/Canadian/Australian states, a curated list of ports and border crossings, and Natural Earth cities of 150k+ (`seed/estimated_flows_cities.csv`; ambiguous names resolved to the far larger city, common-word names excluded). Names must be capitalised ("turkey", "tell us" never count); regions ("Latin American", "Golden Triangle", "New Mexico" for Mexico) are consumed without naming a country. These places are also Reflex's candidate options.
+2. An origin, transit, destination or map location without textual support becomes null ("not stated").
+3. A drug without a synonym match (cocaine: crack, coca paste; meth: shabu, yaba, ice; fentanyl: carfentanil, nitazenes; other: captagon, ketamine, xylazine...) is replaced by the most probable supported option, else "unclear".
+4. Size only from a stated quantity or record wording (`quantity.py`); otherwise `size_stated: false`.
+5. is_event needs drug-trade vocabulary, an event type other than "other", and P >= 0.7. The 0.7 threshold (with the existing 0.6 display cut) was chosen on the 295 synthetic validation headlines (recall 0.947, false events 3.0%); the real benchmark was never used for tuning.
+
+**Limits.** One annotator (AI-assisted) wrote the labels; 92 rows give wide error bars (one headline moves a rate by 1-2.6 points). False events are 5.1%, just above the 5% target: the remaining leaks are reports that read like events. Zero hallucination is guaranteed by construction only for entities the gazetteer and synonym lists can see; a model can still pick the *wrong* supported country (for example the seizing country as origin), which counts as an accuracy error, not a hallucination. Calibration over all rows is unchanged (ECE 0.18 raw, 0.19 grounded) because suppressed non-events keep their original confidence. The Live Wire classifies GDELT titles only, without the first sentence the benchmark includes.

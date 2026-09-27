@@ -6,10 +6,17 @@
 
 The package contains the backend code, the precomputed API JSON, the trained route model, and a slim SQLite
 database (the derived tables plus the two archive tables the simulator reads: countries, cultivation, plus the
-evidence-drilldown tables, see copy_evidence). The 1.2 GB canonical archive is NOT deployed. Live Wire uses the keyword classifier (no torch) and does not poll GDELT.
+evidence-drilldown tables, see copy_evidence). The 1.2 GB canonical archive is NOT deployed. Live Wire does not poll
+GDELT; it classifies with Reflex through the torch-free ONNX backend (onnxruntime + tokenizers): the chosen ONNX variant,
+tokenizer.json and reflex.json go to data/reflex/model/, and the session is created on the first Live Wire read.
+Build the ONNX files first with scripts/export_reflex_onnx.py (the build stops if they are missing; pass
+--no-reflex to deploy the keyword mock instead, which /api/meta then reports).
 """
 from __future__ import annotations
 
+import argparse
+import os
+import json
 import shutil
 import sqlite3
 import sys
@@ -42,15 +49,21 @@ requests>=2.31
 python-dotenv>=1.0
 pydantic>=2
 """
+REFLEX_REQUIREMENTS = """onnxruntime>=1.20
+tokenizers>=0.20
+"""
 APP = '''# AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 """Vercel entrypoint for the TRACE API (FastAPI)."""
 import os
 
-os.environ.setdefault("TRACE_CLASSIFIER", "mock")
+os.environ.setdefault("TRACE_CLASSIFIER", "{classifier}")
+os.environ.setdefault("TRACE_REFLEX_BACKEND", "onnx")  # Reflex through onnxruntime; torch is not deployed
 os.environ.setdefault("TRACE_LIVEWIRE_POLL", "0")
 os.environ.setdefault("TRACE_PEOPLE_REMOTE", "1")  # re-read People from GitHub main (bundled copy as fallback)
 
 # LightGBM's libgomp shim (trace_backend/native.py) runs lazily on the first simulator request, not at cold start.
+# onnxruntime does not need it (its CPU build uses its own thread pool, no OpenMP). The Reflex ONNX session is created
+# on the first Live Wire read (trace_backend/reflex/model.py ReflexOnnx), so other endpoints' cold start is unchanged.
 
 from trace_backend.api.app import app  # noqa: E402,F401
 '''
@@ -59,12 +72,13 @@ VERCEL_JSON = """{
   "framework": "fastapi"
 }
 """
-PYPROJECT = """[project]
+def pyproject(reqs: str) -> str:
+    return """[project]
 name = "trace-api"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
-""" + "".join(f'    "{r}",\n' for r in REQUIREMENTS.split()) + """]
+""" + "".join(f'    "{r}",\n' for r in reqs.split()) + """]
 
 [tool.vercel]
 entrypoint = "app:app"
@@ -129,7 +143,61 @@ def copy_evidence(con: sqlite3.Connection) -> dict[str, int]:
 IGNORE = shutil.ignore_patterns("__pycache__", "*.pyc", "llm_data", "results", "tests")
 
 
-def build() -> Path:
+def copy_reflex_onnx(data: Path) -> str:
+    """ONNX Reflex (only the default variant named in data/reflex/onnx/reflex.json) -> data/reflex/model/, where
+    jev.real.get_classifier looks for reflex.json, plus the precomputed eval.json that /api/metrics reports."""
+    from trace_backend.reflex.model import ONNX_DIR
+    meta_path = ONNX_DIR / "reflex.json"
+    if not meta_path.exists():
+        sys.exit(f"no ONNX Reflex in {ONNX_DIR}: run `.venv/Scripts/python scripts/export_reflex_onnx.py` first "
+                 "(or build with --no-reflex to deploy the keyword mock)")
+    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    model = (meta.get("onnx") or {}).get("file", "model.int8.onnx")
+    dst = data / "reflex" / "model"
+    dst.mkdir(parents=True)
+    for f in (model, "tokenizer.json", "reflex.json"):
+        if not (ONNX_DIR / f).exists():
+            sys.exit(f"missing {ONNX_DIR / f}; re-run scripts/export_reflex_onnx.py")
+        shutil.copy(ONNX_DIR / f, dst / f)
+    if (config.DATA / "reflex" / "eval.json").exists():
+        shutil.copy(config.DATA / "reflex" / "eval.json", data / "reflex" / "eval.json")
+    return f"{meta.get('model_id')} ({model}, {(dst / model).stat().st_size / 1e6:.1f} MB)"
+
+
+
+PRECLASSIFY = r"""
+import os, sys, json
+sys.path.insert(0, ".")
+import app  # noqa: F401  (sets the deployed env: Reflex via ONNX, no poller)
+from trace_backend.api.livewire import state, STORE_PATH
+lw = state()
+lw.ensure_backlog()
+lw._save()
+events = json.loads(STORE_PATH.read_text(encoding="utf-8"))
+print(json.dumps({"events": len(events), "classifiers": sorted({e.get("classifier") for e in events}),
+                  "torch": "torch" in sys.modules}))
+"""
+
+
+def preclassify_livewire() -> dict:
+    """Classify the Live Wire replay backlog once, with the packaged app itself (ONNX Reflex + grounding, exactly
+    as deployed), and ship the result as the event store. The backlog is a fixed labelled sample and the model is
+    deterministic, so this equals what the first reader would compute; it removes a ~15-60 s first-request stall on
+    a 1-vCPU function."""
+    import subprocess
+    env = {**os.environ, "TRACE_LIVEWIRE_POLL": "0", "TRACE_PEOPLE_REMOTE": "0", "TRACE_REFLEX_THREADS": "0",
+           "TRACE_ARCHIVE_PATH": str(OUT / "no-archive.sqlite"), "TRACE_DB_PATH": str(OUT / "data" / "derived.sqlite"),
+           "PYTHONIOENCODING": "utf-8"}
+    out = subprocess.run([sys.executable, "-c", PRECLASSIFY], cwd=OUT, env=env, capture_output=True, text=True,
+                         timeout=900)
+    if out.returncode != 0:
+        sys.exit("Live Wire pre-classification failed:\n" + out.stderr[-2000:])
+    res = json.loads(out.stdout.strip().splitlines()[-1])
+    if res["torch"] or res["classifiers"] != ["reflex-0.2.0"] or res["events"] < 1:
+        sys.exit(f"Live Wire pre-classification produced unexpected output: {res}")
+    return res
+
+def build(reflex: bool = True) -> Path:
     OUT.mkdir(exist_ok=True)
     for child in OUT.iterdir():  # empty in place (keeps .vercel, the project link, and works if OUT is a cwd)
         if child.name == ".vercel":
@@ -165,16 +233,23 @@ def build() -> Path:
         con.execute("DETACH DATABASE archive")
         con.execute("VACUUM")
     con.close()
-    (OUT / "requirements.txt").write_text(REQUIREMENTS, encoding="utf-8")
-    (OUT / "pyproject.toml").write_text(PYPROJECT, encoding="utf-8")
-    (OUT / "app.py").write_text(APP, encoding="utf-8")
+    reqs = REQUIREMENTS + (REFLEX_REQUIREMENTS if reflex else "")
+    if reflex:
+        print(f"  reflex onnx: {copy_reflex_onnx(data)}")
+    (OUT / "requirements.txt").write_text(reqs, encoding="utf-8")
+    (OUT / "pyproject.toml").write_text(pyproject(reqs), encoding="utf-8")
+    (OUT / "app.py").write_text(APP.replace("{classifier}", "reflex" if reflex else "mock"), encoding="utf-8")
+    if reflex:
+        print(f"  live wire pre-classified: {preclassify_livewire()}")
     (OUT / "vercel.json").write_text(VERCEL_JSON, encoding="utf-8")
     (OUT / ".python-version").write_text("3.12\n", encoding="utf-8")
     return OUT
 
 
 if __name__ == "__main__":
-    out = build()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--no-reflex", action="store_true", help="deploy the keyword mock instead of ONNX Reflex")
+    out = build(reflex=not ap.parse_args().no_reflex)
     size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file())
     db_mb = (out / "data" / "derived.sqlite").stat().st_size / 1e6
     print(f"built {out} ({size / 1e6:.1f} MB; derived.sqlite {db_mb:.1f} MB)")

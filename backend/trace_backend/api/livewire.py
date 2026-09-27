@@ -2,6 +2,8 @@
 """T8: Live Wire. GDELT poll every 15 minutes, dedupe, classify via JevClassifier, push over WebSocket.
 
 - Dates come from GDELT `seendate`, never from the classifier.
+- Every classification passes the grounding guardrails (`jev/grounding.py`): countries and drugs the headline does
+  not state are removed ("not stated"), size comes only from a stated quantity (`size_stated`).
 - Events under 0.6 confidence are dropped.
 - Anomaly: a confident event on an origin->destination edge the route model gave under 10% probability
   (or never considered at all).
@@ -18,6 +20,7 @@ import json
 import logging
 import os
 import re
+import threading
 import time
 from collections import deque
 from datetime import UTC, datetime, timedelta
@@ -26,9 +29,12 @@ from pathlib import Path
 from urllib.parse import urlencode, urlparse
 
 from fastapi import APIRouter, Query, WebSocket, WebSocketDisconnect
+from pydantic import BaseModel, Field
 
 from .. import config
-from ..jev.base import JevClassifier
+from ..jev.base import Classification, JevClassifier
+from ..jev.grounding import MIN_CONFIDENCE, ground, passes_wire
+from ..jev.mock import MockJevClassifier
 from ..jev.real import get_classifier
 from ..sources import SOURCES
 
@@ -37,7 +43,7 @@ router = APIRouter()
 GDELT = "https://api.gdeltproject.org/api/v2/doc/doc"
 QUERY = ('(cocaine OR heroin OR methamphetamine OR cannabis OR fentanyl OR hashish OR "drug trafficking") '
          '(seized OR seizure OR bust OR smuggling OR trafficking OR cartel OR legalization) sourcelang:english')
-MIN_CONF = 0.6
+MIN_CONF = MIN_CONFIDENCE
 ANOMALY_P = 0.10
 EVAL_PATH = Path(__file__).resolve().parents[1] / "jev" / "data" / "labeled_eval.json"
 STORE_PATH = config.PROCESSED / "live_events.json"
@@ -62,8 +68,10 @@ class LiveWire:
         from .app import store
         s = store()
         self.countries = {c["iso3"]: c for c in s.countries}
-        self.classifier: JevClassifier = get_classifier(s.countries)
+        self.classifier_fallback: str | None = None  # why the requested classifier is not running (/api/meta)
+        self.classifier: JevClassifier = self._pick_classifier(s.countries)
         self.classifier_name = self.classifier.name
+        self._backlog_pending, self._backlog_lock = False, threading.Lock()
         preds = s.predicted.get(max(s.predicted), []) if s.predicted else []
         self.edge_p = {(e["drug"], e["from"], e["to"]): e["probability"] for e in preds}
         self._all_p = self._load_all_probabilities()
@@ -76,6 +84,37 @@ class LiveWire:
         self._replay = [r["title"] for r in load_eval() if r["is_event"]]
         self._replay_i = 0
         self._load()
+
+    # ------------------------------------------------------------------ classifier choice and fallback
+    def _pick_classifier(self, countries: list[dict]) -> JevClassifier:
+        """get_classifier, but never silently the mock: if TRACE_CLASSIFIER asks for jev/reflex and that cannot be
+        built (or later fails, e.g. the lazily loaded ONNX session), log an error and report it in /api/meta."""
+        want = os.environ.get("TRACE_CLASSIFIER", "").strip().lower()
+        try:
+            clf = get_classifier(countries)
+        except Exception as exc:  # e.g. missing or unreadable Reflex model files
+            self._fall_back(f"{want or 'classifier'} failed to load ({type(exc).__name__}: {str(exc)[:160]})")
+            return MockJevClassifier()
+        if want and want != "mock" and clf.name.split("-")[0] != want:
+            self._fall_back(f"TRACE_CLASSIFIER={want} requested but unavailable (see server log)")
+        return clf if clf.name == "mock" else _Guarded(clf, self)
+
+    def _fall_back(self, why: str) -> None:
+        self.classifier_fallback = f"{why}; Live Wire uses the keyword mock"
+        log.error("Live Wire classifier fallback: %s", self.classifier_fallback)
+
+    def ensure_backlog(self, n: int = 12) -> None:
+        """Without a poller (TRACE_LIVEWIRE_POLL=0, e.g. Vercel) a model classifier fills the replay backlog on the
+        first Live Wire read, so the model loads on first use and never on another endpoint's cold start."""
+        if not self._backlog_pending:
+            return
+        with self._backlog_lock:
+            while self._backlog_pending and len(self.events) < n:
+                ev = self._replay_build()
+                if not ev:
+                    break
+                self._publish(ev, push=False)
+            self._backlog_pending = False
 
     # ------------------------------------------------------------------ model probabilities
     @staticmethod
@@ -109,6 +148,8 @@ class LiveWire:
         if not self.events and self.classifier_name == "mock":  # heavier classifiers fill the backlog off-loop
             for _ in range(12):
                 self._replay_one(push=False)
+        elif not self.events and os.environ.get("TRACE_LIVEWIRE_POLL", "1") == "0":
+            self._backlog_pending = True  # no poller: the first reader fills it (ensure_backlog)
 
     def _save(self):
         try:
@@ -120,8 +161,8 @@ class LiveWire:
     # ------------------------------------------------------------------ classification
     def build_event(self, title: str, url: str, published: datetime, domain: str, language: str = "English",
                     text: str = "") -> dict | None:
-        c = self.classifier.classify(title, text)
-        if c.confidence < MIN_CONF or c.is_event < 0.5:  # confident non-events never reach the wire
+        c = ground(self.classifier.classify(title, text), title, text)  # idempotent for Reflex
+        if not passes_wire(c, MIN_CONF):  # confident non-events never reach the wire
             return None
         o, d = c.origin, c.destination
         p = self.edge_probability(c.drug, o, d)
@@ -134,7 +175,7 @@ class LiveWire:
         eid = "gdelt-" + hashlib.sha1(url.encode()).hexdigest()[:10]
         return {"id": eid, "published_at": _iso(published), "title": title, "url": url, "source_domain": domain,
                 "language": language, "event_type": c.event_type, "drug": c.drug, "origin": o, "transit": c.transit,
-                "destination": d, "size": c.size, "is_event": round(c.is_event, 3),
+                "destination": d, "size": c.size, "size_stated": c.size_stated, "is_event": round(c.is_event, 3),
                 "route_mentioned": round(c.route_mentioned, 3), "confidence": round(c.confidence, 3),
                 "is_anomaly": anomaly, "anomaly_reason": reason,
                 "edge_probability": None if p is None else round(p, 4), "classifier": self.classifier_name,
@@ -233,8 +274,9 @@ class LiveWire:
 
     # ------------------------------------------------------------------ reporting
     def source_status(self) -> dict:
+        note = self.note + (f"; classifier fallback: {self.classifier_fallback}" if self.classifier_fallback else "")
         return {**SOURCES["gdelt"], "status": self.status, "retrieved_at": self.retrieved_at, "last_updated": None,
-                "latest_year": _now().year, "note": self.note}
+                "latest_year": _now().year, "note": note}
 
     def recent(self, since: datetime | None = None, limit: int = 50, drug: str | None = None) -> list[dict]:
         ev = [e for e in self.events if (drug is None or e["drug"] == drug)
@@ -278,6 +320,25 @@ class LiveWire:
                          "as an upper bound. Re-run on team hand-labelled GDELT articles, and with Jev once a key exists.")}
 
 
+class _Guarded(JevClassifier):
+    """Wraps a model classifier: the first exception (e.g. the ONNX session cannot be created) switches the Live Wire
+    to the keyword mock for good, logged as an error and reported in /api/meta, instead of failing every article."""
+
+    def __init__(self, inner: JevClassifier, wire: LiveWire):
+        self.inner, self.wire, self.name = inner, wire, inner.name
+
+    def classify(self, title: str, text: str = "") -> Classification:
+        try:
+            return self.inner.classify(title, text)
+        except Exception as exc:
+            w = self.wire
+            if w.classifier is self:
+                w._fall_back(f"{self.name} failed ({type(exc).__name__}: {str(exc)[:160]})")
+                log.exception("Live Wire classifier %s failed", self.name)
+                w.classifier, w.classifier_name = MockJevClassifier(), "mock"
+            return w.classifier.classify(title, text)
+
+
 _STATE: LiveWire | None = None
 
 
@@ -303,6 +364,7 @@ def get_livewire(since: datetime | None = None, limit: int = Query(50, ge=1, le=
                  drug: str | None = Query(None, pattern="^(cocaine|heroin|meth|cannabis|fentanyl|other|unclear)$")):
     from .app import envelope
     lw = state()
+    lw.ensure_backlog()
     return envelope({"classifier": lw.classifier_name, "events": lw.recent(since, limit, drug)}, "gdelt",
                     notes=["Dates are GDELT publication metadata. Events below 0.6 confidence are hidden.",
                            *(["GDELT unavailable: replaying synthetic sample headlines (sample.trace.local)."]
@@ -313,6 +375,7 @@ def get_livewire(since: datetime | None = None, limit: int = Query(50, ge=1, le=
 async def ws_livewire(ws: WebSocket, drug: str | None = None):
     await ws.accept()
     lw = state()
+    await asyncio.to_thread(lw.ensure_backlog)
     q: asyncio.Queue = asyncio.Queue()
     lw.subscribers.add(q)
     try:
@@ -365,3 +428,24 @@ def poll_once(offline: bool = False) -> list[dict]:
             for _ in range(10):
                 lw._replay_one(push=False)
     return list(lw.events)[before:]
+
+
+class ClassifyIn(BaseModel):
+    title: str = Field(..., min_length=3, max_length=300)
+    text: str = Field("", max_length=2000)
+
+
+@router.post("/api/livewire/classify")
+def classify_headline(body: ClassifyIn):
+    """Classify one headline live with the deployed classifier (Reflex through ONNX in production) and the same
+    grounding guardrails the wire uses: a country, drug or size the text does not state comes back as not stated.
+    `on_wire` says whether the article would pass the Live Wire's event and confidence gate. Nothing is stored."""
+    from .app import envelope
+    lw = state()
+    t0 = time.perf_counter()
+    c = ground(lw.classifier.classify(body.title, body.text), body.title, body.text)
+    ms = round((time.perf_counter() - t0) * 1000)
+    return envelope({"classifier": lw.classifier_name, "on_wire": passes_wire(c, MIN_CONF), "latency_ms": ms,
+                     "classification": c.to_dict()},
+                    notes=["Live classification of the text you sent; nothing is stored or published to the wire.",
+                           "Guardrails: countries, drugs and sizes must be stated in the text, otherwise not stated."])

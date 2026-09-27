@@ -27,6 +27,8 @@ class Classification:
     size_score: float          # 0..1 fractional score
     route_mentioned: float     # Noul
     confidence: float          # overall calibrated confidence
+    size_stated: bool = True   # False: the text states no quantity or record wording, so size is "not stated"
+    dropped: tuple = ()        # guardrail log: "origin:COL", "drug:heroin" ... predictions removed as ungrounded
 
     def to_dict(self) -> dict:
         return asdict(self)

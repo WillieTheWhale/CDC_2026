@@ -4,12 +4,18 @@
 Asks the same seven typed questions as the Jev client in one request. Country questions are Choices over the
 countries the headline mentions plus `not_stated`: extraction in code, judgement by the model, which is the
 approach TypeSafe's jaggedness guide recommends ("extract possible options ... and let the model pick").
+
+With `grounded=True` (the default) the candidates come from `grounding.country_candidates` (names, aliases,
+demonyms, states, cities and ports, capitalisation-checked) and every answer passes `grounding.ground`: countries
+and drugs the text does not support are removed, size comes only from stated quantities. `grounded=False` is the
+pre-guardrail behaviour, kept for the before/after benchmark (`jev/benchmark.py`).
 """
 from __future__ import annotations
 
 import re
 
 from .base import Classification, JevClassifier
+from .grounding import country_candidates, ground
 from .mock import _find
 from .quantity import size_from_text
 
@@ -17,7 +23,8 @@ SIZES = ["small", "notable", "major", "record"]
 
 
 class ReflexClassifier(JevClassifier):
-    def __init__(self, countries: list[dict] | None = None, model=None):
+    def __init__(self, countries: list[dict] | None = None, model=None, grounded: bool = True):
+        self.grounded = grounded
         from ..reflex import Reflex
         from ..reflex.data import DRUG_OPTS, EVENT_TYPES, SIZE_LEVELS, _names
         self.rx = model or Reflex.load()
@@ -54,7 +61,10 @@ class ReflexClassifier(JevClassifier):
 
     def classify(self, title: str, text: str = "") -> Classification:
         state = re.sub(r"\s+", " ", f"{title}. {text}".strip())[:1500]
-        cands = list(dict.fromkeys(iso for _, iso in _find(state)))[:8]
+        if self.grounded:
+            cands = country_candidates(state)
+        else:
+            cands = list(dict.fromkeys(iso for _, iso in _find(state)))[:8]
         r = self.rx.system_one(state, self.questions(cands))
         a = r.answers
         back = {self.short.get(c, c): c for c in cands}
@@ -71,9 +81,12 @@ class ReflexClassifier(JevClassifier):
         else:  # size is defined only for seizures; every other event is "small" by the label definition
             size, size_score = "small", 0.0
         conf = (a["is_event"].noul + a["event_type"].confidence + a["drug"].confidence) / 3
-        return Classification(
+        c = Classification(
             is_event=a["is_event"].noul, event_type=a["event_type"].choice,
             event_type_conf=a["event_type"].confidence, drug=a["drug"].choice, drug_conf=a["drug"].confidence,
             origin=orig, transit=None, destination=dest, location=dest or orig or (cands[0] if cands else None),
             size=size, size_score=round(size_score, 3),
             route_mentioned=a["route_mentioned"].noul, confidence=round(conf, 3))
+        if not self.grounded:
+            return c
+        return ground(c, title, text, drug_probs=dict(a["drug"].probabilities))

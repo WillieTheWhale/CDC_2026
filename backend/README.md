@@ -56,7 +56,7 @@ Frontend: set `NEXT_PUBLIC_API_URL=http://localhost:8000` in `frontend/.env.loca
 
 **Live API (Vercel):** https://trace-api-six.vercel.app (docs at `/docs`). **Live website:** https://trace-atlas-gules.vercel.app. It is deployed from the repo root with `vercel deploy --prod`; the project `trace-atlas` has root directory `frontend/`, and `.vercelignore` uploads only `frontend/` and `contracts/`. For the deployed frontend, set `NEXT_PUBLIC_API_URL=https://trace-api-six.vercel.app`. CORS allows `localhost:3000` and any `*.vercel.app` origin.
 
-To redeploy: `.venv/Scripts/python scripts/build_vercel.py`, then `cd .vercel_deploy && vercel deploy --prod`. The build script stages a 34 MB self-contained package: the code, `data/processed/api/`, the route model, and a slim SQLite that holds the derived tables plus `countries` and `cultivation`. It leaves out the 1.2 GB archive. On Vercel the Live Wire uses the keyword classifier and replays its backlog without polling GDELT. Reflex needs torch, which is too heavy for the function. LightGBM needs `libgomp.so.1`, which the runtime lacks, so the generated `app.py` loads scikit-learn's bundled copy at cold start.
+To redeploy: `.venv/Scripts/python scripts/build_vercel.py`, then `cd .vercel_deploy && vercel deploy --prod`. The build script stages a self-contained package (about 264 MB, of which 137 MB is the Reflex ONNX model; the Linux Python dependencies add about 406 MB, so the function needs Vercel large functions, `VERCEL_SUPPORT_LARGE_FUNCTIONS=1`): the code, `data/processed/api/`, the route model, and a slim SQLite that holds the derived tables plus `countries` and `cultivation`. It leaves out the 1.2 GB archive. On Vercel the Live Wire replays its backlog without polling GDELT and classifies with Reflex through the torch-free ONNX backend (`TRACE_CLASSIFIER=reflex`, `TRACE_REFLEX_BACKEND=onnx` in the generated `app.py`; onnxruntime and tokenizers in its requirements). The ONNX model loads on the first Live Wire read, never on another endpoint's cold start. If it cannot load, the wire falls back to the keyword mock, logs an error and says so in the GDELT source note of `/api/meta` (`livewire_classifier` becomes `mock`). Build the ONNX files first (see Reflex below); `build_vercel.py --no-reflex` deploys the mock instead. LightGBM needs `libgomp.so.1`, which the runtime lacks, so the simulator loads scikit-learn's bundled copy on first use; onnxruntime does not need it.
 
 To deploy elsewhere (Render or Railway): run `uv run trace pipeline` during build, then start with `uv run trace serve --host 0.0.0.0 --port $PORT`. The simulator needs `data/derived.sqlite`, the archive tables `countries` and `cultivation`, and `data/processed/models/`. Every other endpoint needs only `data/processed/api/`.
 
@@ -124,3 +124,12 @@ uv run trace reflex-eval --model-dir data/reflex/model
 ```
 
 To train on a GPU with the Google Colab CLI (Linux, macOS or WSL, signed in with `gcloud auth application-default login`), follow the steps in `scripts/colab_reflex.py`. Both versions trained and evaluated in about 7 minutes on a T4, using 0.41 compute units. The Live Wire uses Reflex automatically when `data/reflex/model/reflex.json` exists. `TRACE_CLASSIFIER=mock|reflex|jev` forces a choice.
+
+**Production runtime (ONNX, no torch).** `Reflex.load()` uses onnxruntime + tokenizers when `TRACE_REFLEX_BACKEND=onnx` or when torch is not installed (extra `reflex-onnx`). The ONNX files live in `data/reflex/onnx/` (gitignored: `model.emb8.onnx`, `tokenizer.json`, `reflex.json`); the Vercel build copies the default variant into the package's `data/reflex/model/`. Rebuild and check them with:
+
+```bash
+uv pip install onnx onnxruntime                                # export-time only (torch comes from the reflex extra)
+.venv/Scripts/python scripts/export_reflex_onnx.py             # default emb8; --variant all also writes fp32, int8-ffn, int8
+.venv/Scripts/python scripts/reflex_onnx_parity.py             # parity with torch -> trace_backend/reflex/results/onnx_parity.json
+```
+
