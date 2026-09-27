@@ -543,10 +543,14 @@
               "source": "Harm Reduction International, Global State of Harm Reduction, 2025 update to key data"
             }
           ]
+        },
+        {
+          "type": "source",
+          "text": "Evidence drilldown resolves research, market, health and overdose values to their formula, observation year, publication year, exact input rows and original source URL."
         }
       ],
       "cues": [
-        "These are counts from our own pipeline — every one is checkable in the repo.",
+        "These are counts from our own pipeline — every one is checkable, and the evidence API drills from a value to its formula and exact source rows.",
         "The World Bank API is called programmatically with explicit source IDs. That's the track requirement and we meet it literally.",
         "Don't read all six. Read two."
       ]

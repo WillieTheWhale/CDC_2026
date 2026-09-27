@@ -42,7 +42,7 @@ combining World Bank development data with UN seizure, price and cultivation dat
 
 Core screens, keyboard-driven:
 
-- **Route Map** — corridor arcs per drug over a dark basemap, year scrubber, observed vs predicted toggle
+- **Route Map** — every modeled year with smooth playback, observed vs predicted routes, and a clearly labelled estimated local-flow overlay
 - **Country Screen** — routes in and out, prices, World Bank vulnerability profile, harm-reduction coverage, risk drivers
 - **Spillover Risk Board** — every country ranked across Exposure, Vulnerability and Protection
 - **Shock Simulator** — a plain-English scenario rewires the network and updates risk scores
@@ -65,7 +65,9 @@ checksum-verified, read-only SQLite v2 archive. That layer does five
 distinct jobs: market mass for the gravity model, route friction, vulnerability, validation targets, and
 detection-bias control. External sources (all cited): UNODC Individual Drug Seizures (~2.3M cases), the
 UNODC World Drug Report statistical annex, the Global Organized Crime Index, Harm Reduction International's
-Global State of Harm Reduction, CEPII GeoDist, and GDELT.
+Global State of Harm Reduction, CEPII GeoDist, and GDELT. Evidence endpoints drill from research, market,
+health and overdose values to formulas, exact input rows, observation and publication years, and original
+source URLs; route edges likewise carry evidence IDs and identify kilograms as allocated seizure scale.
 
 **Models.** A PPML gravity model as the published baseline, and a LightGBM hurdle model as the main
 predictor — a classifier for whether a corridor is active next year, a regressor for volume if it is.
@@ -92,7 +94,8 @@ so the frontend could build in parallel.
 - **The public UNODC seizure release has no route fields.** Departure, transit and destination are
   restricted-tier. Rather than invent routes, we built a cited corridor table from UNODC's own published
   route maps and reports, with a citation key per row, and estimated yearly volumes by seizure-anchored
-  allocation over real node totals. The route-level loader is written and waiting.
+  allocation over real node totals. The route-evidence API now separates directly reported pairs from
+  interpreted corridors and regional narrative context, so a judge can open the publication behind an edge.
 - **Governance indicator codes had been renamed.** The familiar `CC.EST` family is archive-only now; the
   live codes are `GOV_WGI_*.EST` on source 3. We found that by verifying every code against the live API
   rather than trusting documentation.

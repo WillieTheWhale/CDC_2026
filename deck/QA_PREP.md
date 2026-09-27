@@ -91,13 +91,15 @@ same interface, so the parity scale can compare the approaches instead of relyin
 It's the set we can evidence. The public UNODC seizure release gives country of seizure but not
 departure/transit/destination — those are restricted-tier fields. So rather than invent routes, we
 built the corridor table from UNODC's own published route maps and reports with a citation key per
-row, then estimated yearly volumes by seizure-anchored allocation over real node totals. The loader
-for the full route-level release is already written: if we get access, it replaces the allocation for
-observed years and the corridor count grows without a rewrite.
+row, then estimated yearly volumes by seizure-anchored allocation over real node totals. The route-evidence
+API now separates 51 pairs stated directly in publications from 234 interpreted corridors and four narrative
+claims; every edge exposes its evidence IDs and labels kilograms as allocated seizure scale, not an observed
+pair-level volume. In the demo, click a corridor to open the UNODC or EUDA publication behind it. If richer
+route-level data becomes available, it can replace the allocation for observed years without a rewrite.
 
 **8. "Who would actually use this, and how is it different from what UNODC already publishes?"** — *William (S1)*
-UNODC's Drugs Monitoring Platform is real and it is good — but it is login-gated under a tiered access
-policy, and its own methodological annex says its routes are built by counting reported
+UNODC's Drugs Monitoring Platform is real and it is good. It operates under a tiered access policy,
+and its own methodological annex says its routes are built by counting reported
 departure/transit/destination fields and are "broadly indicative" only. It is a record, not a model: it
 estimates no unobserved flow and forecasts nothing. We publish a forecast about next year, open, with the
 vulnerability and harm-reduction layers joined on. The users are harm reduction organisations deciding
@@ -195,9 +197,17 @@ Know the mix before you answer the follow-up. As of the 2026-09-27 build it is *
 These figures regenerate on every `python3 deck/build.py`; the dataset has grown fast, so rebuild before judging rather than trusting a number typed by hand.
 <!-- /people:auto -->
 
-As of this build, the repository manifest is ahead of the deployed People snapshots: both live API surfaces
-still report 323 records. A refresh request is logged in `docs/CONTRACT_REQUESTS.md`. Do not present the live
-People count as the complete current atlas until those surfaces match the manifest.
+The production People API now refreshes from GitHub `main` every ten minutes and reports its origin and
+fetch time in `meta.people_snapshot`; the frontend-served API can still lag behind it. Before judging,
+compare both live totals with the repository manifest. Treat the manifest as authoritative until the
+surfaces converge, and do not quote a stale deployed total as the complete atlas.
+
+**"Are the small city-scale arrows observed trafficking routes?"** — *Ismail (S2)*
+No. They are a clearly labelled, map-only density layer derived from modeled corridor entry countries,
+Natural Earth cities, population, World Bank GDP per capita PPP and great-circle distance. They use no
+enforcement variables, stop at 1,500 km, and are not evidence, route endpoints, forecast inputs or risk-score
+inputs. If a judge reads them as observed local movement, turn the layer off and show the cited country-level
+corridors instead.
 
 **"Prices are still five times pre-ban, right?"** — *Adrian (S4)*
 That was true as of UNODC's November 2025 figure — US$570/kg dry opium against a pre-ban average under
