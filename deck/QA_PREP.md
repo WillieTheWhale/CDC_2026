@@ -81,7 +81,7 @@ On 92 real published headlines it never trained on, the events that actually rea
 confidence 0.857 against 0.840 precision - calibration error 0.052 on shown events. Over all rows it is worse
 (ECE 0.19), because suppressed non-events keep their original confidence, so confidence is still a routing
 signal first: a 0.6 gate suppresses weak events and the anomaly flag escalates surprises. You can now say
-"calibrated where it counts, on the events we display," and name the limit: 92 rows, one annotator.
+"calibrated where it counts, on the events we display," and name the limit: 92 rows, one AI-assisted annotator.
 
 **6d. "Does your AI make things up?"** — *Markandeya (S3)*
 Not on the benchmark, and it is built so that it structurally cannot for the fields we show. Every country
@@ -264,4 +264,5 @@ calibration, structure, jaggedness documentation and speed, but fails the zero-s
 parity thresholds. The bundled 100-headline set is synthetic with provisional labels - which is why we then
 built the real one: 92 published headlines, hand-labelled from the text, every row carrying its URL, never
 trained or tuned on, with each field reported separately (drug 0.978, origin 0.957, destination 0.848,
-is_event 0.913). What is left is external validation by someone who is not us.
+is_event 0.913). The labels are one AI-assisted annotator's, so what is left is a larger evaluation labelled
+independently of us.
