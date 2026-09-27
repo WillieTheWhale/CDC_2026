@@ -117,7 +117,9 @@ def read_status(readme: str) -> dict:
         if owner.lower() not in {"backend", "frontend", "planning session"}:
             continue
         label = re.sub(r"^T\d+\s+", "", milestone).strip()
-        (shipped if status.lower().startswith("done") else pending).append(
+        status_lower = status.lower()
+        is_shipped = status_lower.startswith("done") or bool(re.search(r"\bshipped\b", status_lower))
+        (shipped if is_shipped else pending).append(
             {"label": label, "owner": owner, "status": status})
     return {"shipped": shipped, "pending": pending}
 

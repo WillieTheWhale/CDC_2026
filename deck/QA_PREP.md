@@ -75,11 +75,11 @@ fine-tune it with log-loss and fit one temperature per primitive on held-out dat
 classifier interface as Jev and the keyword fallback, so Live Wire degrades visibly instead of stopping.
 
 **6b. "You said calibrated confidence. Is it calibrated?"** — *Markandeya (S3)*
-Not yet in a way we should quote. Reflex is trained with log-loss and temperature scaling, and the evaluator
-measures ECE and Brier score in and out of distribution. But the repository does not yet contain the trained
-weights or the generated parity report, so we treat confidence as a routing signal rather than a probability:
-a 0.6 gate to suppress and the anomaly flag to escalate. We will claim calibration only after publishing the
-reliability results on held-out and real-news labels.
+On the published benchmark, yes; in the field, not yet. Reflex v0.2 has ECE 0.020 in distribution and 0.062
+zero-shot; on 1,878 questions about separately written, blind-verified synthetic headlines it reaches 0.009.
+The weights and full reports are published, but every TRACE-domain test set is synthetic, so we still treat
+confidence as a routing signal rather than a real-world probability: a 0.6 gate suppresses weak events and
+the anomaly flag escalates surprises. Say "benchmarked calibration," not "calibrated on real news."
 
 **6c. "Why build Reflex instead of using Jev or a frontier LLM?"** — *Markandeya (S3)*
 The taxonomy is dynamic — especially country options — but the task is classification, not generation.
@@ -227,7 +227,8 @@ as fallback and never counted as news evidence on a corridor. Degrading visibly 
 **"How would you validate Reflex's accuracy?"** — *Markandeya (S3)*
 The eight-level Reflex Parity Scale checks the interface and output contract, held-out competence,
 zero-shot generalisation, calibration, structured inputs, Live Wire field accuracy, known failure modes,
-and CPU speed. That harness exists, but its generated report is not checked in. The bundled 100-headline
-set is synthetic with provisional labels, so it is a development test, not evidence for a stage claim.
-Before deployment we will hand-label real GDELT stories and report each field separately, especially origin
-and destination, rather than hiding weak extraction behind one headline number.
+and CPU speed. The v0.1 and v0.2 reports are checked in and the v0.2 release bundles its evaluation; the
+results are deliberately mixed rather than flattened into one score. Reflex passes interface, competence,
+calibration, structure, jaggedness documentation and speed, but fails the zero-shot and full TRACE-domain
+parity thresholds. The bundled 100-headline set is synthetic with provisional labels, so before deployment
+we will hand-label real GDELT stories and report each field separately, especially origin and destination.

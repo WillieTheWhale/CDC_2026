@@ -77,9 +77,10 @@ cross-encoder that scores each supplied option, answers seven typed questions pe
 trains with log-loss, and temperature-scales Choice, Score and Noul separately. It copies no TypeSafe code
 or weights; it implements the published Jev interface and calibration objective. Live Wire uses Jev when
 a key is configured, otherwise Reflex when local trained weights are present, and otherwise a clearly
-identified keyword fallback. Until the parity report is published, confidence is only a routing signal. A confident
-event on a corridor the forecast gave under 10% probability is flagged as an anomaly: the model announcing
-its own misses.
+identified keyword fallback. Reflex v0.2's downloadable release includes its weights and evaluation, with
+0.020 in-distribution calibration error; because every TRACE-domain benchmark is still synthetic, confidence
+remains a routing signal rather than a field-validated probability. A confident event on a corridor the
+forecast gave under 10% probability is flagged as an anomaly: the model announcing its own misses.
 
 **Stack.** Python 3.11, uv, SQLite, pandas, statsmodels, LightGBM, scikit-learn, SHAP, FastAPI with a
 WebSocket Live Wire, APScheduler. Next.js, TypeScript, Tailwind, deck.gl `ArcLayer` over MapLibre, cmdk,
@@ -113,6 +114,9 @@ so the frontend could build in parallel.
   seizures, 95% interval [-0.213, 0.252], p = 0.869, over 1,428 country-years in 144 countries with country
   and seizure-year fixed effects and clustered standard errors. The interval spans zero and the product
   displays it that way.
+- An open Reflex v0.2 release with downloadable weights and full evaluation. On the 100-headline synthetic
+  development set it reaches 98% event-type accuracy and 82% destination accuracy, versus 80% and 52% for
+  the keyword mock; the next honest benchmark is team-labelled real news.
 - Publishing a result that went against us. Our core spillover hypothesis was not supported: route exposure
   alone does not predict later rises in homicide or HIV once vulnerability is controlled for. We committed
   that finding the day we found it. It is why the risk score has three columns, and it is an argument for
@@ -126,8 +130,8 @@ and that is what makes the forecasts worth acting on.
 
 ## What's next for TRACE
 
-Publish Reflex weights and the eight-level parity report; a fentanyl module; ACLED conflict events; a public
-read-only API; wastewater and EUDA price
+Team-label real headlines and externally validate Reflex; add a fentanyl module; ACLED conflict events;
+wastewater and EUDA price
 feeds; weekly retraining and per-country alert subscriptions; and a deployment with a harm-reduction
 partner in a single transit corridor, measured against real service placement.
 
