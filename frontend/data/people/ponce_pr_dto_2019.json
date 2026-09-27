@@ -1,0 +1,2749 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Historical 2019 DOJ indictment announcement with 50 explicitly named defendants. Charged statuses are dated 2019 source snapshots, not assertions that prosecutions remain pending through 2026. Two later court records document guilty-plea hearings and magistrate recommendations, but the reviewed records do not establish district-judge acceptance or sentences; those two statuses remain at the 2019 snapshot date. The release does not identify each defendant’s individual organizational role, separate firearm charges, or a pairwise relationship. Puerto Rico is mapped to broad USA country level as a U.S. territory. Group-level substances are not attributed to individuals. No precise operational sites, tactics, routes, live whereabouts, photos, or inferred links.",
+  "organizations": [
+    {
+      "id": "ponce-puerto-rico-dto-2019",
+      "name": "Ponce, Puerto Rico drug trafficking organization (2019 case)",
+      "aliases": [],
+      "regions": [
+        "USA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ reports a 25 September 2019 indictment of 50 named people in a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory, since 2013. The heroin, crack cocaine, cocaine, and marijuana allegations describe the organization overall; the release does not assign specific drugs or individual roles to named defendants."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "cristopher-roman-medina-ponce-2019",
+      "name": "Cristopher Román-Medina",
+      "aliases": [
+        "Keke"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Cristopher Román-Medina in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Cristopher Román-Medina among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "cristopher-roman-medina-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Cristopher Román-Medina in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Cristopher Román-Medina among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "victor-torres-galindo-ponce-2019",
+      "name": "Victor Torres Galindo",
+      "aliases": [
+        "Manuel Silva"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Victor Torres Galindo in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Victor Torres Galindo among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "victor-torres-galindo-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Victor Torres Galindo in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Victor Torres Galindo among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hommy-santiago-rodriguez-ponce-2019",
+      "name": "Hommy Santiago-Rodríguez",
+      "aliases": [
+        "Hommy",
+        "Cacique"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Hommy Santiago-Rodríguez in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Hommy Santiago-Rodríguez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/USCOURTS-prd-3_19-cr-00604/pdf/USCOURTS-prd-3_19-cr-00604-3.pdf",
+          "title": "United States v. Hommy Santiago-Rodríguez, Criminal No. 19-604, report and recommendation on guilty plea",
+          "publisher": "U.S. District Court for the District of Puerto Rico / GovInfo",
+          "language": "en",
+          "publishedAt": "2022-10-13",
+          "claim": "The magistrate judge reports that Hommy Santiago-Rodríguez entered a guilty plea on 2022-10-07 to Counts One and Six of the 2019 indictment and recommends acceptance. This report does not itself establish acceptance by the district judge or a sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "hommy-santiago-rodriguez-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Hommy Santiago-Rodríguez in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Hommy Santiago-Rodríguez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        },
+        {
+          "id": "hommy-santiago-rodriguez-ponce-2019-2022-10-13-plea-recommendation",
+          "occurredAt": "2022-10-13",
+          "type": "development",
+          "title": "Guilty plea hearing documented",
+          "summary": "A magistrate judge reported that Hommy Santiago-Rodríguez entered a guilty plea on 2022-10-07 to Counts One and Six of the 2019 indictment, and recommended district judge acceptance. The reviewed report does not establish a final judgment or sentence.",
+          "source": {
+            "url": "https://www.govinfo.gov/content/pkg/USCOURTS-prd-3_19-cr-00604/pdf/USCOURTS-prd-3_19-cr-00604-3.pdf",
+            "title": "United States v. Hommy Santiago-Rodríguez, Criminal No. 19-604, report and recommendation on guilty plea",
+            "publisher": "U.S. District Court for the District of Puerto Rico / GovInfo",
+            "language": "en",
+            "publishedAt": "2022-10-13",
+            "claim": "The magistrate judge reports that Hommy Santiago-Rodríguez entered a guilty plea on 2022-10-07 to Counts One and Six of the 2019 indictment and recommends acceptance. This report does not itself establish acceptance by the district judge or a sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jonathan-ramos-ponce-2019",
+      "name": "Jonathan Ramos",
+      "aliases": [
+        "Zurdo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jonathan Ramos in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Jonathan Ramos among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jonathan-ramos-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Jonathan Ramos in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Jonathan Ramos among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "josue-rosado-rios-ponce-2019",
+      "name": "Josué Rosado-Ríos",
+      "aliases": [
+        "Josué"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Josué Rosado-Ríos in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Josué Rosado-Ríos among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "josue-rosado-rios-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Josué Rosado-Ríos in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Josué Rosado-Ríos among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-c-borrero-silva-ponce-2019",
+      "name": "Juan C. Borrero-Silva",
+      "aliases": [
+        "Mata",
+        "Matta"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Juan C. Borrero-Silva in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Juan C. Borrero-Silva among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-c-borrero-silva-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Juan C. Borrero-Silva in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Juan C. Borrero-Silva among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "emilio-j-alomar-garcia-ponce-2019",
+      "name": "Emilio J. Alomar-García",
+      "aliases": [
+        "Machua",
+        "Macho",
+        "Millo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Emilio J. Alomar-García in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Emilio J. Alomar-García among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "emilio-j-alomar-garcia-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Emilio J. Alomar-García in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Emilio J. Alomar-García among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alexandro-rivera-perez-ponce-2019",
+      "name": "Alexandro Rivera-Pérez",
+      "aliases": [
+        "El Cojo",
+        "Alex El Cojo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Alexandro Rivera-Pérez in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Alexandro Rivera-Pérez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "alexandro-rivera-perez-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Alexandro Rivera-Pérez in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Alexandro Rivera-Pérez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "santiago-de-jesus-martinez-ponce-2019",
+      "name": "Santiago De Jesús-Martínez",
+      "aliases": [
+        "Junito",
+        "Yairan"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Santiago De Jesús-Martínez in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Santiago De Jesús-Martínez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "santiago-de-jesus-martinez-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Santiago De Jesús-Martínez in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Santiago De Jesús-Martínez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alex-manuel-malavet-rivera-ponce-2019",
+      "name": "Alex Manuel Malavet-Rivera",
+      "aliases": [
+        "Alexito"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Alex Manuel Malavet-Rivera in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Alex Manuel Malavet-Rivera among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "alex-manuel-malavet-rivera-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Alex Manuel Malavet-Rivera in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Alex Manuel Malavet-Rivera among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hector-pagan-vega-ponce-2019",
+      "name": "Hector Pagán-Vega",
+      "aliases": [
+        "Piky"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Hector Pagán-Vega in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Hector Pagán-Vega among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/USCOURTS-prd-3_19-cr-00604/pdf/USCOURTS-prd-3_19-cr-00604-2.pdf",
+          "title": "United States v. Hector Pagán-Vega, Criminal No. 19-604, report and recommendation on guilty plea",
+          "publisher": "U.S. District Court for the District of Puerto Rico / GovInfo",
+          "language": "en",
+          "publishedAt": "2022-09-08",
+          "claim": "The magistrate judge reports that Hector Pagán-Vega entered a guilty plea on 2022-09-06 to Count One of the 2019 indictment and recommends acceptance. This report does not itself establish acceptance by the district judge or a sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "hector-pagan-vega-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Hector Pagán-Vega in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Hector Pagán-Vega among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        },
+        {
+          "id": "hector-pagan-vega-ponce-2019-2022-09-08-plea-recommendation",
+          "occurredAt": "2022-09-08",
+          "type": "development",
+          "title": "Guilty plea hearing documented",
+          "summary": "A magistrate judge reported that Hector Pagán-Vega entered a guilty plea on 2022-09-06 to Count One of the 2019 indictment, and recommended district judge acceptance. The reviewed report does not establish a final judgment or sentence.",
+          "source": {
+            "url": "https://www.govinfo.gov/content/pkg/USCOURTS-prd-3_19-cr-00604/pdf/USCOURTS-prd-3_19-cr-00604-2.pdf",
+            "title": "United States v. Hector Pagán-Vega, Criminal No. 19-604, report and recommendation on guilty plea",
+            "publisher": "U.S. District Court for the District of Puerto Rico / GovInfo",
+            "language": "en",
+            "publishedAt": "2022-09-08",
+            "claim": "The magistrate judge reports that Hector Pagán-Vega entered a guilty plea on 2022-09-06 to Count One of the 2019 indictment and recommends acceptance. This report does not itself establish acceptance by the district judge or a sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "eric-tomas-nazario-torres-ponce-2019",
+      "name": "Eric Tomás Nazario-Torres",
+      "aliases": [
+        "Eric",
+        "Eric Cripy"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Eric Tomás Nazario-Torres in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Eric Tomás Nazario-Torres among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "eric-tomas-nazario-torres-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Eric Tomás Nazario-Torres in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Eric Tomás Nazario-Torres among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jesus-m-vargas-vargas-ponce-2019",
+      "name": "Jesús M. Vargas-Vargas",
+      "aliases": [
+        "Bombo",
+        "Manuel"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jesús M. Vargas-Vargas in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Jesús M. Vargas-Vargas among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jesus-m-vargas-vargas-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Jesús M. Vargas-Vargas in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Jesús M. Vargas-Vargas among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "anthony-nazario-ortiz-ponce-2019",
+      "name": "Anthony Nazario-Ortiz",
+      "aliases": [
+        "El Negro"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Anthony Nazario-Ortiz in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Anthony Nazario-Ortiz among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "anthony-nazario-ortiz-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Anthony Nazario-Ortiz in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Anthony Nazario-Ortiz among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-luis-pabon-custodio-ponce-2019",
+      "name": "José Luis Pabón-Custodio",
+      "aliases": [
+        "Joseito"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names José Luis Pabón-Custodio in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists José Luis Pabón-Custodio among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-luis-pabon-custodio-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named José Luis Pabón-Custodio in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists José Luis Pabón-Custodio among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-a-cintron-ortiz-ponce-2019",
+      "name": "José A. Cintrón-Ortiz",
+      "aliases": [
+        "Rubia",
+        "Colorao",
+        "Barbie"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names José A. Cintrón-Ortiz in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists José A. Cintrón-Ortiz among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-a-cintron-ortiz-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named José A. Cintrón-Ortiz in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists José A. Cintrón-Ortiz among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-c-borrero-ramirez-ponce-2019",
+      "name": "Juan C. Borrero-Ramírez",
+      "aliases": [
+        "Aspirina",
+        "Aspi"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Juan C. Borrero-Ramírez in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Juan C. Borrero-Ramírez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-c-borrero-ramirez-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Juan C. Borrero-Ramírez in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Juan C. Borrero-Ramírez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gerardo-rosado-ponce-2019",
+      "name": "Gerardo Rosado",
+      "aliases": [
+        "Gistro",
+        "Yistro",
+        "El Chacal"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Gerardo Rosado in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Gerardo Rosado among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "gerardo-rosado-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Gerardo Rosado in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Gerardo Rosado among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yalexis-fernandez-garcia-ponce-2019",
+      "name": "Yalexis Fernández-García",
+      "aliases": [
+        "Lija",
+        "Flaco"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Yalexis Fernández-García in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Yalexis Fernández-García among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "yalexis-fernandez-garcia-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Yalexis Fernández-García in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Yalexis Fernández-García among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ruben-a-rivera-soto-ponce-2019",
+      "name": "Rubén A. Rivera-Soto",
+      "aliases": [
+        "Piño"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Rubén A. Rivera-Soto in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Rubén A. Rivera-Soto among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "ruben-a-rivera-soto-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Rubén A. Rivera-Soto in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Rubén A. Rivera-Soto among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jean-c-velazquez-cebollero-ponce-2019",
+      "name": "Jean C. Velázquez-Cebollero",
+      "aliases": [
+        "Cebollero"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jean C. Velázquez-Cebollero in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Jean C. Velázquez-Cebollero among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jean-c-velazquez-cebollero-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Jean C. Velázquez-Cebollero in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Jean C. Velázquez-Cebollero among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gilberto-laboy-nadal-ponce-2019",
+      "name": "Gilberto Laboy-Nadal",
+      "aliases": [
+        "Papito",
+        "Papito Winston"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Gilberto Laboy-Nadal in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Gilberto Laboy-Nadal among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "gilberto-laboy-nadal-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Gilberto Laboy-Nadal in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Gilberto Laboy-Nadal among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "randell-soto-alvarado-ponce-2019",
+      "name": "Randell Soto-Alvarado",
+      "aliases": [
+        "Bambino"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Randell Soto-Alvarado in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Randell Soto-Alvarado among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "randell-soto-alvarado-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Randell Soto-Alvarado in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Randell Soto-Alvarado among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "victor-andres-segarra-vega-ponce-2019",
+      "name": "Victor Andrés Segarra-Vega",
+      "aliases": [
+        "Andy",
+        "Andie"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Victor Andrés Segarra-Vega in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Victor Andrés Segarra-Vega among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "victor-andres-segarra-vega-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Victor Andrés Segarra-Vega in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Victor Andrés Segarra-Vega among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "victor-manuel-segarra-vega-ponce-2019",
+      "name": "Victor Manuel Segarra-Vega",
+      "aliases": [
+        "Ito"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Victor Manuel Segarra-Vega in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Victor Manuel Segarra-Vega among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "victor-manuel-segarra-vega-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Victor Manuel Segarra-Vega in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Victor Manuel Segarra-Vega among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "william-d-sanabria-torres-jr-ponce-2019",
+      "name": "William D. Sanabria-Torres Jr.",
+      "aliases": [
+        "W",
+        "William"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names William D. Sanabria-Torres Jr. in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists William D. Sanabria-Torres Jr. among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "william-d-sanabria-torres-jr-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named William D. Sanabria-Torres Jr. in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists William D. Sanabria-Torres Jr. among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "anthony-almodovar-guzman-ponce-2019",
+      "name": "Anthony Almodovar-Guzmán",
+      "aliases": [
+        "Anthony"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Anthony Almodovar-Guzmán in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Anthony Almodovar-Guzmán among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "anthony-almodovar-guzman-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Anthony Almodovar-Guzmán in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Anthony Almodovar-Guzmán among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "christopher-gonzalez-figueroa-ponce-2019",
+      "name": "Christopher González-Figueroa",
+      "aliases": [
+        "Offer"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Christopher González-Figueroa in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Christopher González-Figueroa among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "christopher-gonzalez-figueroa-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Christopher González-Figueroa in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Christopher González-Figueroa among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jonathan-gonzalez-figueroa-ponce-2019",
+      "name": "Jonathan González-Figueroa",
+      "aliases": [
+        "Menor",
+        "Johnny"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jonathan González-Figueroa in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Jonathan González-Figueroa among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jonathan-gonzalez-figueroa-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Jonathan González-Figueroa in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Jonathan González-Figueroa among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-manuel-lopez-velazquez-ponce-2019",
+      "name": "José Manuel López-Velázquez",
+      "aliases": [
+        "Gordo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names José Manuel López-Velázquez in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists José Manuel López-Velázquez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-manuel-lopez-velazquez-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named José Manuel López-Velázquez in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists José Manuel López-Velázquez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "erik-antonio-aviles-vega-ponce-2019",
+      "name": "Erik Antonio Avilés-Vega",
+      "aliases": [
+        "Eric",
+        "Erick",
+        "Erikcito",
+        "Erik-Chiquito"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Erik Antonio Avilés-Vega in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Erik Antonio Avilés-Vega among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "erik-antonio-aviles-vega-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Erik Antonio Avilés-Vega in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Erik Antonio Avilés-Vega among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "christopher-rosa-moreno-ponce-2019",
+      "name": "Christopher Rosa-Moreno",
+      "aliases": [
+        "Chris"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Christopher Rosa-Moreno in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Christopher Rosa-Moreno among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "christopher-rosa-moreno-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Christopher Rosa-Moreno in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Christopher Rosa-Moreno among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "joseph-joamil-fontanez-colon-ponce-2019",
+      "name": "Joseph Joamil Fontanez-Colón",
+      "aliases": [
+        "Nueva Atenas",
+        "Joamil",
+        "Cano"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Joseph Joamil Fontanez-Colón in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Joseph Joamil Fontanez-Colón among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "joseph-joamil-fontanez-colon-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Joseph Joamil Fontanez-Colón in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Joseph Joamil Fontanez-Colón among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vilma-janet-vazquez-vargas-ponce-2019",
+      "name": "Vilma Janet Vázquez-Vargas",
+      "aliases": [
+        "Janet",
+        "La Pata"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Vilma Janet Vázquez-Vargas in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Vilma Janet Vázquez-Vargas among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "vilma-janet-vazquez-vargas-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Vilma Janet Vázquez-Vargas in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Vilma Janet Vázquez-Vargas among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-j-colon-ramirez-ponce-2019",
+      "name": "José J. Colón-Ramírez",
+      "aliases": [
+        "Yaye"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names José J. Colón-Ramírez in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists José J. Colón-Ramírez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-j-colon-ramirez-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named José J. Colón-Ramírez in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists José J. Colón-Ramírez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aristides-rivera-alvarado-ponce-2019",
+      "name": "Arístides Rivera-Alvarado",
+      "aliases": [
+        "Fama"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Arístides Rivera-Alvarado in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Arístides Rivera-Alvarado among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "aristides-rivera-alvarado-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Arístides Rivera-Alvarado in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Arístides Rivera-Alvarado among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alberto-pimentel-rodriguez-ponce-2019",
+      "name": "Alberto Pimentel-Rodríguez",
+      "aliases": [
+        "Alberto"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Alberto Pimentel-Rodríguez in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Alberto Pimentel-Rodríguez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "alberto-pimentel-rodriguez-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Alberto Pimentel-Rodríguez in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Alberto Pimentel-Rodríguez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alexander-omar-gonzalez-morales-ponce-2019",
+      "name": "Alexander Omar González-Morales",
+      "aliases": [
+        "Alexander"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Alexander Omar González-Morales in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Alexander Omar González-Morales among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "alexander-omar-gonzalez-morales-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Alexander Omar González-Morales in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Alexander Omar González-Morales among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-angel-garcia-rios-ponce-2019",
+      "name": "Luis Ángel García-Ríos",
+      "aliases": [
+        "Boxeador"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Luis Ángel García-Ríos in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Luis Ángel García-Ríos among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-angel-garcia-rios-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Luis Ángel García-Ríos in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Luis Ángel García-Ríos among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wilson-berrios-flores-ponce-2019",
+      "name": "Wilson Berríos-Flores",
+      "aliases": [
+        "Panda"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Wilson Berríos-Flores in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Wilson Berríos-Flores among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "wilson-berrios-flores-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Wilson Berríos-Flores in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Wilson Berríos-Flores among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "axcel-orlando-barral-ponce-2019",
+      "name": "Axcel Orlando-Barral",
+      "aliases": [
+        "Axel",
+        "Uno-Nene"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Axcel Orlando-Barral in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Axcel Orlando-Barral among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "axcel-orlando-barral-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Axcel Orlando-Barral in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Axcel Orlando-Barral among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jeisabel-torruella-almodovar-ponce-2019",
+      "name": "Jeisabel Torruella-Almodovar",
+      "aliases": [
+        "Jei"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jeisabel Torruella-Almodovar in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Jeisabel Torruella-Almodovar among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "jeisabel-torruella-almodovar-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Jeisabel Torruella-Almodovar in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Jeisabel Torruella-Almodovar among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "freddyson-orengo-rivera-ponce-2019",
+      "name": "Freddyson Orengo-Rivera",
+      "aliases": [
+        "Menor"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Freddyson Orengo-Rivera in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Freddyson Orengo-Rivera among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "freddyson-orengo-rivera-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Freddyson Orengo-Rivera in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Freddyson Orengo-Rivera among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kevin-antonio-colon-melendez-ponce-2019",
+      "name": "Kevin Antonio Colón-Meléndez",
+      "aliases": [
+        "Atleta"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Kevin Antonio Colón-Meléndez in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Kevin Antonio Colón-Meléndez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "kevin-antonio-colon-melendez-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Kevin Antonio Colón-Meléndez in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Kevin Antonio Colón-Meléndez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "angel-l-gonzalez-morales-ponce-2019",
+      "name": "Ángel L. González-Morales",
+      "aliases": [
+        "Anuel"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Ángel L. González-Morales in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Ángel L. González-Morales among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "angel-l-gonzalez-morales-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Ángel L. González-Morales in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Ángel L. González-Morales among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "javier-i-montes-medina-ponce-2019",
+      "name": "Javier I. Montes-Medina",
+      "aliases": [
+        "Ivan"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Javier I. Montes-Medina in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Javier I. Montes-Medina among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "javier-i-montes-medina-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Javier I. Montes-Medina in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Javier I. Montes-Medina among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fernando-l-rivera-quinones-ponce-2019",
+      "name": "Fernando L. Rivera-Quiñones",
+      "aliases": [
+        "Nandin",
+        "Colorao",
+        "Nando"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Fernando L. Rivera-Quiñones in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Fernando L. Rivera-Quiñones among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "fernando-l-rivera-quinones-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Fernando L. Rivera-Quiñones in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Fernando L. Rivera-Quiñones among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "samuel-jesus-castillo-santana-ponce-2019",
+      "name": "Samuel Jesús Castillo-Santana",
+      "aliases": [
+        "Simbólico"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Samuel Jesús Castillo-Santana in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Samuel Jesús Castillo-Santana among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "samuel-jesus-castillo-santana-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Samuel Jesús Castillo-Santana in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Samuel Jesús Castillo-Santana among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pedro-pacheco-rodriguez-ponce-2019",
+      "name": "Pedro Pacheco-Rodríguez",
+      "aliases": [
+        "Pedro"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Pedro Pacheco-Rodríguez in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Pedro Pacheco-Rodríguez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "pedro-pacheco-rodriguez-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Pedro Pacheco-Rodríguez in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Pedro Pacheco-Rodríguez among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    },
+    {
+      "id": "katherine-colon-negron-ponce-2019",
+      "name": "Katherine Colón-Negrón",
+      "aliases": [
+        "Katy-Troll"
+      ],
+      "status": "charged",
+      "statusAsOf": "2019-09-26",
+      "roleLabel": "Defendant in alleged Ponce drug trafficking organization case",
+      "prominence": 3,
+      "organizationIds": [
+        "ponce-puerto-rico-dto-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Katherine Colón-Negrón in the 2019 indictment of a drug trafficking organization alleged to have operated in Puerto Rico, a U.S. territory.",
+            "period": "2013–2019",
+            "sourceUrl": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+          "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+          "language": "en",
+          "publishedAt": "2019-09-26",
+          "claim": "DOJ explicitly lists Katherine Colón-Negrón among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+        }
+      ],
+      "events": [
+        {
+          "id": "katherine-colon-negron-ponce-2019-2019-09-26-indictment-announced",
+          "occurredAt": "2019-09-26",
+          "type": "charge",
+          "title": "Federal drug charges announced",
+          "summary": "DOJ named Katherine Colón-Negrón in the 50-defendant indictment alleging conspiracy to possess with intent to distribute and to distribute controlled substances. Charges are allegations.",
+          "source": {
+            "url": "https://www.justice.gov/usao-pr/pr/50-individuals-charged-drug-trafficking-puerto-rico-part-organized-crime-drug-enforcement",
+            "title": "50 Individuals Charged With Drug Trafficking In Puerto Rico As Part Of The Organized Crime Drug Enforcement Task Force (OCDETF)",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, District of Puerto Rico",
+            "language": "en",
+            "publishedAt": "2019-09-26",
+            "claim": "DOJ explicitly lists Katherine Colón-Negrón among 50 defendants indicted on 25 September 2019 for conspiracy to possess with intent to distribute and to distribute controlled substances. The release does not establish guilt or identify this defendant's individual function or which defendants faced firearm charges."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}
