@@ -3534,10 +3534,12 @@
       "id": "doj-corpus-growth7-khali-ahmed-brown",
       "name": "Khali Ahmed Brown",
       "status": "convicted",
-      "statusAsOf": "2025-01-16",
-      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
-      "prominence": 3,
-      "organizationIds": [],
+      "statusAsOf": "2025-04-17",
+      "roleLabel": "Historical KDY organizer (DOJ-reported)",
+      "prominence": 2,
+      "organizationIds": [
+        "kennedy-street-crew-kdy"
+      ],
       "regions": [
         {
           "iso3": "USA",
@@ -3549,7 +3551,11 @@
           }
         }
       ],
-      "drugs": [],
+      "drugs": [
+        "fentanyl",
+        "cannabis",
+        "oxycodone"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-dc/pr/prominent-dc-rapper-migo-lee-leader-kdy-drug-trafficking-crew-sentenced-168-months",
@@ -3558,6 +3564,22 @@
           "language": "en",
           "publishedAt": "2025-01-16",
           "claim": "DOJ reports that Khali Ahmed Brown was sentenced after a drug-distribution conspiracy plea. This is a historical case outcome reported by 2025-01-16; it does not establish current custody or activity."
+        },
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+          "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-17",
+          "claim": "DOJ identifies Khali Ahmed Brown as a participant in the historical Kennedy Street Crew (KDY)."
+        },
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+          "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-17",
+          "claim": "DOJ reports that Khali Ahmed Brown was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity."
         }
       ],
       "events": [
@@ -3574,6 +3596,21 @@
             "language": "en",
             "publishedAt": "2025-01-16",
             "claim": "DOJ reports that Khali Ahmed Brown was sentenced after a drug-distribution conspiracy plea. This is a historical case outcome reported by 2025-01-16; it does not establish current custody or activity."
+          }
+        },
+        {
+          "id": "doj-corpus-growth7-khali-ahmed-brown-2025-04-17-network-update",
+          "occurredAt": "2025-04-17",
+          "type": "development",
+          "title": "Later DOJ sentence and network role reported",
+          "summary": "DOJ reports that Khali Ahmed Brown was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+            "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-04-17",
+            "claim": "DOJ reports that Khali Ahmed Brown was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity."
           }
         }
       ]
@@ -5047,7 +5084,9 @@
       "statusAsOf": "2025-08-20",
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
-      "organizationIds": [],
+      "organizationIds": [
+        "central-indiana-drug-ring-2023"
+      ],
       "regions": [
         {
           "iso3": "USA",

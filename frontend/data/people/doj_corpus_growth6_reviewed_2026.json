@@ -294,10 +294,12 @@
       "id": "doj-corpus-growth6-cameron-xavier-reid",
       "name": "Cameron Xavier Reid",
       "status": "convicted",
-      "statusAsOf": "2024-12-13",
+      "statusAsOf": "2025-04-17",
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
-      "organizationIds": [],
+      "organizationIds": [
+        "kennedy-street-crew-kdy"
+      ],
       "regions": [
         {
           "iso3": "USA",
@@ -309,7 +311,9 @@
           }
         }
       ],
-      "drugs": [],
+      "drugs": [
+        "cannabis"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns",
@@ -318,6 +322,22 @@
           "language": "en",
           "publishedAt": "2024-12-13",
           "claim": "DOJ reports that Cameron Xavier Reid was sentenced on 2024-05-31 for marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+        },
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+          "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-17",
+          "claim": "DOJ identifies Cameron Xavier Reid as a participant in the historical Kennedy Street Crew (KDY)."
+        },
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+          "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-17",
+          "claim": "DOJ reports that Cameron Xavier Reid was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity."
         }
       ],
       "events": [
@@ -335,6 +355,21 @@
             "publishedAt": "2024-12-13",
             "claim": "DOJ reports that Cameron Xavier Reid was sentenced on 2024-05-31 for marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
           }
+        },
+        {
+          "id": "doj-corpus-growth6-cameron-xavier-reid-2025-04-17-network-update",
+          "occurredAt": "2025-04-17",
+          "type": "development",
+          "title": "Later DOJ sentence and network role reported",
+          "summary": "DOJ reports that Cameron Xavier Reid was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+            "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-04-17",
+            "claim": "DOJ reports that Cameron Xavier Reid was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity."
+          }
         }
       ]
     },
@@ -342,10 +377,12 @@
       "id": "doj-corpus-growth6-keion-michael-brown",
       "name": "Keion Michael Brown",
       "status": "convicted",
-      "statusAsOf": "2024-12-13",
+      "statusAsOf": "2025-04-17",
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
-      "organizationIds": [],
+      "organizationIds": [
+        "kennedy-street-crew-kdy"
+      ],
       "regions": [
         {
           "iso3": "USA",
@@ -357,7 +394,10 @@
           }
         }
       ],
-      "drugs": [],
+      "drugs": [
+        "cannabis",
+        "oxycodone"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns",
@@ -366,6 +406,22 @@
           "language": "en",
           "publishedAt": "2024-12-13",
           "claim": "DOJ reports that Keion Michael Brown pleaded guilty for marijuana and oxycodone distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+        },
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+          "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-17",
+          "claim": "DOJ identifies Keion Michael Brown as a participant in the historical Kennedy Street Crew (KDY)."
+        },
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+          "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-17",
+          "claim": "DOJ reports that Keion Michael Brown was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity."
         }
       ],
       "events": [
@@ -383,6 +439,21 @@
             "publishedAt": "2024-12-13",
             "claim": "DOJ reports that Keion Michael Brown pleaded guilty for marijuana and oxycodone distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
           }
+        },
+        {
+          "id": "doj-corpus-growth6-keion-michael-brown-2025-04-17-network-update",
+          "occurredAt": "2025-04-17",
+          "type": "development",
+          "title": "Later DOJ sentence and network role reported",
+          "summary": "DOJ reports that Keion Michael Brown was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+            "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-04-17",
+            "claim": "DOJ reports that Keion Michael Brown was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity."
+          }
         }
       ]
     },
@@ -390,10 +461,12 @@
       "id": "doj-corpus-growth6-kenneth-ademola-olugbenga",
       "name": "Kenneth Ademola Olugbenga",
       "status": "convicted",
-      "statusAsOf": "2024-12-13",
-      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
-      "prominence": 3,
-      "organizationIds": [],
+      "statusAsOf": "2025-04-17",
+      "roleLabel": "Historical KDY organizer (DOJ-reported)",
+      "prominence": 2,
+      "organizationIds": [
+        "kennedy-street-crew-kdy"
+      ],
       "regions": [
         {
           "iso3": "USA",
@@ -405,7 +478,10 @@
           }
         }
       ],
-      "drugs": [],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
       "sources": [
         {
           "url": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns",
@@ -414,6 +490,22 @@
           "language": "en",
           "publishedAt": "2024-12-13",
           "claim": "DOJ reports that Kenneth Ademola Olugbenga pleaded guilty for cocaine base and marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+        },
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+          "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-17",
+          "claim": "DOJ identifies Kenneth Ademola Olugbenga as a participant in the historical Kennedy Street Crew (KDY)."
+        },
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+          "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-17",
+          "claim": "DOJ reports that Kenneth Ademola Olugbenga was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity."
         }
       ],
       "events": [
@@ -430,6 +522,21 @@
             "language": "en",
             "publishedAt": "2024-12-13",
             "claim": "DOJ reports that Kenneth Ademola Olugbenga pleaded guilty for cocaine base and marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        },
+        {
+          "id": "doj-corpus-growth6-kenneth-ademola-olugbenga-2025-04-17-network-update",
+          "occurredAt": "2025-04-17",
+          "type": "development",
+          "title": "Later DOJ sentence and network role reported",
+          "summary": "DOJ reports that Kenneth Ademola Olugbenga was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-dc/pr/leader-and-money-launderer-kdy-drug-trafficking-crew-sentenced-160-months-federal-prison",
+            "title": "Leader and Money Launderer for the KDY Drug Trafficking Crew Sentenced to 160 Months in Federal Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-04-17",
+            "claim": "DOJ reports that Kenneth Ademola Olugbenga was sentenced after the individual drug-distribution count listed in DOJ’s defendant table. The outcome was reported on 2025-04-17; it does not establish present custody or activity."
           }
         }
       ]
