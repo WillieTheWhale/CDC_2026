@@ -30,6 +30,10 @@ FIXTURE_SCHEMAS: dict[str, str] = {
     "livewire.json": "LivewireResponse",
     "command_request.json": "CommandRequest",
     "command.json": "CommandResponse",
+    "people.json": "PeoplePageResponse",
+    "people_countries.json": "PeopleCountriesResponse",
+    "people_network.json": "PeopleNetworkResponse",
+    "person.json": "PersonResponse",
 }
 
 

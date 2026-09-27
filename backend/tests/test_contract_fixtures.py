@@ -21,7 +21,8 @@ def test_ws_fixture_frames():
 def test_every_path_has_a_fixture():
     paths = set(contract.openapi()["paths"])
     covered = {"/api/meta", "/api/countries", "/api/routes", "/api/country/{iso3}", "/api/risk", "/api/prices",
-               "/api/simulate", "/api/experiments/afghan-ban", "/api/metrics", "/api/livewire", "/api/command"}
+               "/api/simulate", "/api/experiments/afghan-ban", "/api/metrics", "/api/livewire", "/api/command",
+               "/api/people", "/api/people/countries", "/api/people/network", "/api/people/{person_id}"}
     assert paths == covered
 
 
