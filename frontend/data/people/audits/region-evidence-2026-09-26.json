@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1465,
-    "associations": 1239,
-    "evidenced": 1239,
+    "people": 1476,
+    "associations": 1250,
+    "evidenced": 1250,
     "missing": 0,
     "invalid": 0
   },
@@ -400,6 +400,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "south_asia_historical_courts_2007_2020.json": {
+      "people": 11,
+      "associations": 11,
+      "evidenced": 11,
+      "missing": 0,
+      "invalid": 0
+    },
     "southeast_asia_court_cases_2025_2026.json": {
       "people": 22,
       "associations": 22,
@@ -680,8 +687,8 @@
       "invalid": 0
     },
     "IND": {
-      "associations": 15,
-      "evidenced": 15,
+      "associations": 17,
+      "evidenced": 17,
       "missing": 0,
       "invalid": 0
     },
@@ -706,6 +713,12 @@
     "CHL": {
       "associations": 1,
       "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    "PAK": {
+      "associations": 9,
+      "evidenced": 9,
       "missing": 0,
       "invalid": 0
     },
