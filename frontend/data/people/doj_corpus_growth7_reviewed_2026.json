@@ -102,7 +102,7 @@
       "id": "doj-corpus-growth7-arthur-wilson",
       "name": "Arthur Wilson",
       "status": "convicted",
-      "statusAsOf": "2022-12-13",
+      "statusAsOf": "2023-02-14",
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
@@ -112,36 +112,44 @@
           "label": "United States",
           "evidence": {
             "claim": "DOJ describes Arthur Wilson’s historical drug-case conduct in United States.",
-            "period": "reported 2022",
-            "sourceUrl": "https://www.justice.gov/usao-sdms/pr/natchez-drug-trafficker-sentenced-federal-prison-connection-interstate-drug"
+            "period": "reported 2023",
+            "sourceUrl": "https://www.justice.gov/usao-sdms/pr/california-man-sentenced-25-years-federal-prison-distribution-methamphetamine-natchez"
           }
         }
       ],
       "drugs": [],
       "sources": [
         {
+          "url": "https://www.justice.gov/usao-sdms/pr/california-man-sentenced-25-years-federal-prison-distribution-methamphetamine-natchez",
+          "title": "California Man Sentenced to 25 Years in Federal Prison for Distribution of Methamphetamine in the Natchez, MS Area",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-02-14",
+          "claim": "DOJ reports that Arthur Wilson was sentenced for methamphetamine and marijuana trafficking conspiracy. This is a historical case outcome reported by 2023-02-14; it does not establish current custody or activity."
+        },
+        {
           "url": "https://www.justice.gov/usao-sdms/pr/natchez-drug-trafficker-sentenced-federal-prison-connection-interstate-drug",
           "title": "Natchez Drug Trafficker Sentenced to Federal Prison in Connection with Interstate Drug Trafficking Conspiracies",
           "publisher": "U.S. Department of Justice",
           "language": "en",
           "publishedAt": "2022-12-13",
-          "claim": "DOJ reports that Arthur Wilson was sentenced for a drug-trafficking offense involving methamphetamine, cannabis. This is a historical case outcome reported by 2022-12-13; it does not establish current custody or activity."
+          "claim": "DOJ reported Arthur Wilson’s earlier drug-offense guilty plea in a release dated 2022-12-13; the later DOJ sentencing release supplies the latest verified outcome."
         }
       ],
       "events": [
         {
-          "id": "doj-corpus-growth7-arthur-wilson-2022-12-13-development",
-          "occurredAt": "2022-12-13",
+          "id": "doj-corpus-growth7-arthur-wilson-2023-02-14-development",
+          "occurredAt": "2023-02-14",
           "type": "development",
           "title": "Drug-case outcome reported",
-          "summary": "DOJ reports that Arthur Wilson was sentenced for a drug-trafficking offense involving methamphetamine, cannabis. This is a historical case outcome reported by 2022-12-13; it does not establish current custody or activity.",
+          "summary": "DOJ reports that Arthur Wilson was sentenced for methamphetamine and marijuana trafficking conspiracy. This is a historical case outcome reported by 2023-02-14; it does not establish current custody or activity.",
           "source": {
-            "url": "https://www.justice.gov/usao-sdms/pr/natchez-drug-trafficker-sentenced-federal-prison-connection-interstate-drug",
-            "title": "Natchez Drug Trafficker Sentenced to Federal Prison in Connection with Interstate Drug Trafficking Conspiracies",
+            "url": "https://www.justice.gov/usao-sdms/pr/california-man-sentenced-25-years-federal-prison-distribution-methamphetamine-natchez",
+            "title": "California Man Sentenced to 25 Years in Federal Prison for Distribution of Methamphetamine in the Natchez, MS Area",
             "publisher": "U.S. Department of Justice",
             "language": "en",
-            "publishedAt": "2022-12-13",
-            "claim": "DOJ reports that Arthur Wilson was sentenced for a drug-trafficking offense involving methamphetamine, cannabis. This is a historical case outcome reported by 2022-12-13; it does not establish current custody or activity."
+            "publishedAt": "2023-02-14",
+            "claim": "DOJ reports that Arthur Wilson was sentenced for methamphetamine and marijuana trafficking conspiracy. This is a historical case outcome reported by 2023-02-14; it does not establish current custody or activity."
           }
         }
       ]
@@ -929,7 +937,7 @@
           "publisher": "U.S. Department of Justice",
           "language": "en",
           "publishedAt": "2025-05-14",
-          "claim": "DOJ reports that Nancy Garcia was sentenced for a drug-trafficking offense involving methamphetamine, heroin. This is a historical case outcome reported by 2025-05-14; it does not establish current custody or activity."
+          "claim": "DOJ reports that Nancy Garcia was sentenced on 2024-09-10 after a methamphetamine and heroin distribution-conspiracy plea. This is a historical case outcome reported by 2025-05-14; it does not establish current custody or activity."
         }
       ],
       "events": [
@@ -938,14 +946,14 @@
           "occurredAt": "2025-05-14",
           "type": "development",
           "title": "Drug-case outcome reported",
-          "summary": "DOJ reports that Nancy Garcia was sentenced for a drug-trafficking offense involving methamphetamine, heroin. This is a historical case outcome reported by 2025-05-14; it does not establish current custody or activity.",
+          "summary": "DOJ reports that Nancy Garcia was sentenced on 2024-09-10 after a methamphetamine and heroin distribution-conspiracy plea. This is a historical case outcome reported by 2025-05-14; it does not establish current custody or activity.",
           "source": {
             "url": "https://www.justice.gov/usao-edca/pr/sacramento-man-sentenced-175-years-prison-leadership-role-drug-trafficking-conspiracy",
             "title": "Sacramento Man Sentenced to 17.5 Years in Prison for Leadership Role in a Drug Trafficking Conspiracy and for Being a Felon in Possession of Firearms",
             "publisher": "U.S. Department of Justice",
             "language": "en",
             "publishedAt": "2025-05-14",
-            "claim": "DOJ reports that Nancy Garcia was sentenced for a drug-trafficking offense involving methamphetamine, heroin. This is a historical case outcome reported by 2025-05-14; it does not establish current custody or activity."
+            "claim": "DOJ reports that Nancy Garcia was sentenced on 2024-09-10 after a methamphetamine and heroin distribution-conspiracy plea. This is a historical case outcome reported by 2025-05-14; it does not establish current custody or activity."
           }
         }
       ]
@@ -4206,7 +4214,7 @@
       "id": "doj-corpus-growth7-tony-diaz",
       "name": "Tony Diaz",
       "status": "convicted",
-      "statusAsOf": "2024-10-09",
+      "statusAsOf": "2024-12-13",
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
@@ -4217,35 +4225,43 @@
           "evidence": {
             "claim": "DOJ describes Tony Diaz’s historical drug-case conduct in United States.",
             "period": "reported 2024",
-            "sourceUrl": "https://www.justice.gov/usao-wdmo/pr/belton-man-sentenced-drug-trafficking-illegal-firearms-0"
+            "sourceUrl": "https://www.justice.gov/usao-wdmo/pr/raymore-man-sentenced-drug-trafficking-illegal-firearms"
           }
         }
       ],
       "drugs": [],
       "sources": [
         {
+          "url": "https://www.justice.gov/usao-wdmo/pr/raymore-man-sentenced-drug-trafficking-illegal-firearms",
+          "title": "Raymore Man Sentenced for Drug Trafficking, Illegal Firearms",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-12-13",
+          "claim": "DOJ reports that Tony Diaz was sentenced for a heroin, methamphetamine, and cocaine distribution conspiracy. This is a historical case outcome reported by 2024-12-13; it does not establish current custody or activity."
+        },
+        {
           "url": "https://www.justice.gov/usao-wdmo/pr/belton-man-sentenced-drug-trafficking-illegal-firearms-0",
           "title": "Belton Man Sentenced for Drug Trafficking, Illegal Firearms",
           "publisher": "U.S. Department of Justice",
           "language": "en",
           "publishedAt": "2024-10-09",
-          "claim": "DOJ reports that Tony Diaz was sentenced for a drug-trafficking offense involving methamphetamine, heroin, cocaine. This is a historical case outcome reported by 2024-10-09; it does not establish current custody or activity."
+          "claim": "DOJ reported Tony Diaz’s earlier drug-offense guilty plea in a release dated 2024-10-09; the later DOJ sentencing release supplies the latest verified outcome."
         }
       ],
       "events": [
         {
-          "id": "doj-corpus-growth7-tony-diaz-2024-10-09-development",
-          "occurredAt": "2024-10-09",
+          "id": "doj-corpus-growth7-tony-diaz-2024-12-13-development",
+          "occurredAt": "2024-12-13",
           "type": "development",
           "title": "Drug-case outcome reported",
-          "summary": "DOJ reports that Tony Diaz was sentenced for a drug-trafficking offense involving methamphetamine, heroin, cocaine. This is a historical case outcome reported by 2024-10-09; it does not establish current custody or activity.",
+          "summary": "DOJ reports that Tony Diaz was sentenced for a heroin, methamphetamine, and cocaine distribution conspiracy. This is a historical case outcome reported by 2024-12-13; it does not establish current custody or activity.",
           "source": {
-            "url": "https://www.justice.gov/usao-wdmo/pr/belton-man-sentenced-drug-trafficking-illegal-firearms-0",
-            "title": "Belton Man Sentenced for Drug Trafficking, Illegal Firearms",
+            "url": "https://www.justice.gov/usao-wdmo/pr/raymore-man-sentenced-drug-trafficking-illegal-firearms",
+            "title": "Raymore Man Sentenced for Drug Trafficking, Illegal Firearms",
             "publisher": "U.S. Department of Justice",
             "language": "en",
-            "publishedAt": "2024-10-09",
-            "claim": "DOJ reports that Tony Diaz was sentenced for a drug-trafficking offense involving methamphetamine, heroin, cocaine. This is a historical case outcome reported by 2024-10-09; it does not establish current custody or activity."
+            "publishedAt": "2024-12-13",
+            "claim": "DOJ reports that Tony Diaz was sentenced for a heroin, methamphetamine, and cocaine distribution conspiracy. This is a historical case outcome reported by 2024-12-13; it does not establish current custody or activity."
           }
         }
       ]
@@ -4590,36 +4606,54 @@
       "id": "doj-corpus-growth7-juan-antonio-hernandez-alvarado",
       "name": "Juan Antonio Hernandez Alvarado",
       "status": "convicted",
-      "statusAsOf": "2020-03-03",
+      "statusAsOf": "2021-03-30",
       "roleLabel": "Drug-case defendant (historical DOJ outcome)",
       "prominence": 3,
       "organizationIds": [],
-      "regions": [],
+      "regions": [
+        {
+          "iso3": "HND",
+          "label": "Honduras",
+          "evidence": {
+            "claim": "DOJ describes Juan Antonio Hernandez Alvarado’s historical drug-case conduct in Honduras.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-sdny/pr/former-honduran-congressman-tony-hern-ndez-sentenced-life-prison-and-ordered-forfeit"
+          }
+        }
+      ],
       "drugs": [],
       "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/former-honduran-congressman-tony-hern-ndez-sentenced-life-prison-and-ordered-forfeit",
+          "title": "Former Honduran Congressman Tony Hernández Sentenced To Life In Prison And Ordered To Forfeit $138.5 Million For Distributing 185 Tons Of Cocaine And Related Firearms And False Statements Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-03-30",
+          "claim": "DOJ reports that Juan Antonio Hernandez Alvarado was sentenced after a cocaine-importation conviction. This is a historical case outcome reported by 2021-03-30; it does not establish current custody or activity."
+        },
         {
           "url": "https://www.justice.gov/usao-sdny/pr/honduran-drug-trafficker-arrested-florida-drug-trafficking-and-weapons-charges",
           "title": "Honduran Drug Trafficker Arrested In Florida On Drug Trafficking And Weapons Charges",
           "publisher": "U.S. Department of Justice",
           "language": "en",
           "publishedAt": "2020-03-03",
-          "claim": "DOJ reports that Juan Antonio Hernandez Alvarado was found guilty of a drug-trafficking offense involving controlled substances. This is a historical case outcome reported by 2020-03-03; it does not establish current custody or activity."
+          "claim": "DOJ reported Juan Antonio Hernandez Alvarado’s earlier drug-offense guilty plea in a release dated 2020-03-03; the later DOJ sentencing release supplies the latest verified outcome."
         }
       ],
       "events": [
         {
-          "id": "doj-corpus-growth7-juan-antonio-hernandez-alvarado-2020-03-03-development",
-          "occurredAt": "2020-03-03",
+          "id": "doj-corpus-growth7-juan-antonio-hernandez-alvarado-2021-03-30-development",
+          "occurredAt": "2021-03-30",
           "type": "development",
           "title": "Drug-case outcome reported",
-          "summary": "DOJ reports that Juan Antonio Hernandez Alvarado was found guilty of a drug-trafficking offense involving controlled substances. This is a historical case outcome reported by 2020-03-03; it does not establish current custody or activity.",
+          "summary": "DOJ reports that Juan Antonio Hernandez Alvarado was sentenced after a cocaine-importation conviction. This is a historical case outcome reported by 2021-03-30; it does not establish current custody or activity.",
           "source": {
-            "url": "https://www.justice.gov/usao-sdny/pr/honduran-drug-trafficker-arrested-florida-drug-trafficking-and-weapons-charges",
-            "title": "Honduran Drug Trafficker Arrested In Florida On Drug Trafficking And Weapons Charges",
+            "url": "https://www.justice.gov/usao-sdny/pr/former-honduran-congressman-tony-hern-ndez-sentenced-life-prison-and-ordered-forfeit",
+            "title": "Former Honduran Congressman Tony Hernández Sentenced To Life In Prison And Ordered To Forfeit $138.5 Million For Distributing 185 Tons Of Cocaine And Related Firearms And False Statements Offenses",
             "publisher": "U.S. Department of Justice",
             "language": "en",
-            "publishedAt": "2020-03-03",
-            "claim": "DOJ reports that Juan Antonio Hernandez Alvarado was found guilty of a drug-trafficking offense involving controlled substances. This is a historical case outcome reported by 2020-03-03; it does not establish current custody or activity."
+            "publishedAt": "2021-03-30",
+            "claim": "DOJ reports that Juan Antonio Hernandez Alvarado was sentenced after a cocaine-importation conviction. This is a historical case outcome reported by 2021-03-30; it does not establish current custody or activity."
           }
         }
       ]
