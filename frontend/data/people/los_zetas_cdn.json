@@ -77,7 +77,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ identifies Lazcano as the leader of Los Zetas operating from Mexico through his reported death there in 2012.",
+            "period": "2004–2012",
+            "sourceUrl": "https://www.justice.gov/usao-wdtx/pr/los-zetas-drug-cartel-sicario-and-piedras-negras-plaza-boss-sentenced-life-federal"
+          }
         }
       ],
       "drugs": [],
@@ -110,7 +115,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ alleges Treviño Morales led Los Zetas and later controlled CDN while detained in Mexico; the pending U.S. charges remain allegations.",
+            "period": "2012–2025",
+            "sourceUrl": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money"
+          }
         }
       ],
       "drugs": [
@@ -146,7 +156,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ alleges Omar Treviño Morales led Los Zetas and later controlled CDN while detained in Mexico; the pending U.S. charges remain allegations.",
+            "period": "2013–2025",
+            "sourceUrl": "https://www.justice.gov/opa/pr/leaders-los-zetas-violent-mexican-drug-cartel-arraigned-drug-trafficking-firearm-and-money"
+          }
         }
       ],
       "drugs": [
@@ -182,7 +197,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ trial evidence placed Treviño Chávez in Mexican Los Zetas operations, personally organizing drug supply and later leading CDN before his 2016 arrest.",
+            "period": "2004–2016",
+            "sourceUrl": "https://www.justice.gov/usao-wdtx/pr/leader-cartel-del-noreste-and-nephew-los-zetas-leaders-z-40-and-z-42-receives-two"
+          }
         }
       ],
       "drugs": [
@@ -217,7 +237,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ reports Treviño Chávez pleaded guilty to drug-trafficking conduct throughout Mexico and the United States and headed CDN through March 2022.",
+            "period": "2016–2022",
+            "sourceUrl": "https://www.justice.gov/usao-wdtx/pr/us-attorneys-western-district-texas-and-eastern-district-texas-announce-former-cartel"
+          }
         },
         {
           "iso3": "USA",
@@ -265,7 +290,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ court account identifies Guízar Valencia directing cocaine transport through Mexico and overseeing shipments from the southern part of the country.",
+            "period": "2007–2014",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug"
+          }
         },
         {
           "iso3": "GTM",
@@ -303,12 +333,7 @@
       "organizationIds": [
         "los-zetas"
       ],
-      "regions": [
-        {
-          "iso3": "MEX",
-          "label": "Mexico"
-        }
-      ],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -372,7 +397,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies González Sauceda as CDN second in command in Mexico and alleges personal involvement in attacks on Mexican forces and drug trafficking before his 2025 arrest.",
+            "period": "through 2025",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0146"
+          }
         }
       ],
       "drugs": [],
@@ -409,7 +439,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury alleges de Anda Ledezma personally organized arms acquisition and delivery for CDN in Mexico; this is a historical country-level operation claim.",
+            "period": "through 2025",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0146"
+          }
         }
       ],
       "drugs": [],
@@ -438,12 +473,7 @@
         "los-zetas",
         "cartel-del-noreste"
       ],
-      "regions": [
-        {
-          "iso3": "MEX",
-          "label": "Mexico"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -472,7 +502,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury alleges Romero Sánchez personally led CDN operations in Mexico; this is a sanctions allegation, not a criminal conviction.",
+            "period": "through 2025",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0219"
+          }
         }
       ],
       "drugs": [],
@@ -503,7 +538,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ trial testimony placed Millán Vásquez’s drug-trafficking and violent activity in northern Mexico; he was later convicted in the United States.",
+            "period": "2009–2015",
+            "sourceUrl": "https://www.justice.gov/usao-wdtx/pr/los-zetas-drug-cartel-sicario-and-piedras-negras-plaza-boss-sentenced-life-federal"
+          }
         },
         {
           "iso3": "USA",
@@ -544,7 +584,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury alleges Esqueda Nieto took over CDN tactical operations in Mexico after a 2025 arrest and commanded an attack on Mexican forces.",
+            "period": "2025",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0219"
+          }
         }
       ],
       "drugs": [],

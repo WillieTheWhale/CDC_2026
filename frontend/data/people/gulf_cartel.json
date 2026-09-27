@@ -46,7 +46,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ identified García Ábrego as the named leader of a drug enterprise operating on both sides of the border, including Mexico, before his 1996 arrest.",
+            "period": "1980s–1996",
+            "sourceUrl": "https://www.justice.gov/archive/opa/pr/Pre_96/March95/133c.txt.html"
+          }
         }
       ],
       "drugs": [
@@ -67,6 +72,14 @@
           "publisher": "U.S. Department of Justice",
           "language": "en",
           "claim": "DOJ-hosted history identifies García Ábrego as the Gulf organization’s leader in the 1980s and Osiel Cárdenas Guillén as his successor."
+        },
+        {
+          "url": "https://www.justice.gov/archive/opa/pr/Pre_96/March95/133c.txt.html",
+          "title": "Mexican Drug Fugitive Named to FBI Most Wanted List",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "1995-03-09",
+          "claim": "DOJ identified García Ábrego as the named leader of a drug enterprise operating on both sides of the border, including Mexico, before his 1996 arrest."
         }
       ],
       "events": [
@@ -100,7 +113,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ describes Cárdenas Guillén overseeing the Gulf Cartel drug enterprise from Mexico and personally confronting federal agents there in 1999.",
+            "period": "1999–2003",
+            "sourceUrl": "https://www.justice.gov/archive/usao/txs/1News/Releases/2010%20February/022410%20Cardenas-Guillen.htm"
+          }
         }
       ],
       "drugs": [
@@ -155,7 +173,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Mexico’s Navy identified Cárdenas Guillén as a Gulf Cartel leader killed during an operation in Mexico in November 2010; this is a historical association, not a current position.",
+            "period": "through 2010",
+            "sourceUrl": "https://2006-2012.semar.gob.mx/sala-prensa/comunicados-2010/1725-comunicado-300-2010.html"
+          }
         }
       ],
       "drugs": [
@@ -214,7 +237,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Mexico’s Navy identified Costilla Sánchez as a Gulf Cartel leader and reported his 2012 detention in Mexico.",
+            "period": "2003–2012",
+            "sourceUrl": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2247-comunicado-181-2012.html"
+          }
         }
       ],
       "drugs": [
@@ -304,8 +332,8 @@
     {
       "id": "mario-alberto-cardenas-guillen",
       "name": "Mario Cárdenas Guillén",
-      "status": "reported",
-      "statusAsOf": "2012-09-04",
+      "status": "convicted",
+      "statusAsOf": "2022-05-19",
       "roleLabel": "Reported Gulf Cartel leader in the Cárdenas family faction",
       "prominence": 2,
       "organizationIds": [
@@ -314,7 +342,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Mexico’s Navy reported that Mario Cárdenas Guillén directed drug shipments while imprisoned in Mexico and later held a leadership role there; it reported his 2012 detention.",
+            "period": "2000–2012",
+            "sourceUrl": "https://2006-2012.semar.gob.mx/sala-prensa/prensa-2012/2238-comunicado-173-2012.html"
+          }
         }
       ],
       "drugs": [
@@ -335,6 +368,22 @@
           "publisher": "Secretaría de Marina-Armada de México",
           "language": "es",
           "claim": "Mexico’s Navy describes a leadership dispute between Costilla Sánchez and Mario Cárdenas Guillén after Antonio Ezequiel Cárdenas Guillén’s death."
+        },
+        {
+          "url": "https://www.jornada.com.mx/notas/2021/04/16/politica/confirman-20-anos-de-prision-contra-mario-cardenas-guillen/",
+          "title": "Confirman 20 años de prisión contra Mario Cárdenas Guillén",
+          "publisher": "La Jornada reporting FGR and a federal court",
+          "language": "es",
+          "publishedAt": "2021-04-16",
+          "claim": "La Jornada reports FGR confirmation that a Mexican federal judge sentenced Mario Cárdenas Guillén to 20 years for organized crime in a drug-offence hypothesis; this is distinct from a later U.S. indictment."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/former-gulf-cartel-leader-extradited-east-texas-drug-trafficking-violations",
+          "title": "Former Gulf Cartel Leader Extradited to East Texas for Drug Trafficking Violations",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-05-19",
+          "claim": "DOJ reports Mario Cárdenas Guillén was extradited in May 2022 to face a separate U.S. cocaine-conspiracy charge; no U.S. conviction is inferred."
         }
       ],
       "aliases": [
@@ -354,6 +403,36 @@
             "language": "es",
             "claim": "Mexico’s Navy reports Mario Cárdenas Guillén was detained on 3 September 2012 and described him as a presumed Gulf Cartel leader."
           }
+        },
+        {
+          "id": "mario-alberto-cardenas-guillen-2021-04-16-mexico-sentence",
+          "occurredAt": "2021-04-16",
+          "type": "sentence",
+          "title": "Mexican federal sentence reported",
+          "summary": "La Jornada, citing FGR, reports a Mexican federal judge confirmed a 20-year organized-crime sentence in a drug-offence hypothesis; a prior 2019 decision had been vacated and reheard.",
+          "source": {
+            "url": "https://www.jornada.com.mx/notas/2021/04/16/politica/confirman-20-anos-de-prision-contra-mario-cardenas-guillen/",
+            "title": "Confirman 20 años de prisión contra Mario Cárdenas Guillén",
+            "publisher": "La Jornada reporting FGR and a federal court",
+            "language": "es",
+            "publishedAt": "2021-04-16",
+            "claim": "La Jornada reports FGR confirmation that a Mexican federal judge sentenced Mario Cárdenas Guillén to 20 years for organized crime in a drug-offence hypothesis; this is distinct from a later U.S. indictment."
+          }
+        },
+        {
+          "id": "mario-alberto-cardenas-guillen-2022-05-19-us-extradition",
+          "occurredAt": "2022-05-19",
+          "type": "charge",
+          "title": "Separate U.S. charge reported",
+          "summary": "DOJ reports Cárdenas Guillén was extradited to face a separate U.S. cocaine-conspiracy indictment; this charge is not a U.S. conviction.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edtx/pr/former-gulf-cartel-leader-extradited-east-texas-drug-trafficking-violations",
+            "title": "Former Gulf Cartel Leader Extradited to East Texas for Drug Trafficking Violations",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2022-05-19",
+            "claim": "DOJ reports Mario Cárdenas Guillén was extradited in May 2022 to face a separate U.S. cocaine-conspiracy charge; no U.S. conviction is inferred."
+          }
         }
       ]
     },
@@ -370,7 +449,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "In a DOJ-recorded guilty plea, Cárdenas Vela admitted serving as a Gulf Cartel leader and regional boss in Mexico and directing payments there.",
+            "period": "2000–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20March/120312%20Cardenas%20Vela.html"
+          }
         }
       ],
       "drugs": [
@@ -444,7 +528,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ alleges that Cárdenas Martínez headed the Mexico-based Gulf Cartel from 2015 and coordinated its drug shipments; this is an indictment allegation, not a finding of guilt.",
+            "period": "2015–2022",
+            "sourceUrl": "https://www.justice.gov/usao-sdtx/pr/head-gulf-cartel-indicted"
+          }
         }
       ],
       "drugs": [
@@ -496,7 +585,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ trial account identifies Rincón Rincón personally as a Gulf Cartel boss in Mexico during the charged drug conspiracy.",
+            "period": "2000–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/txs/1News/Releases/2012%20September/120928%20Rincon-Rincon_print.html"
+          }
         }
       ],
       "drugs": [
@@ -568,7 +662,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ alleged de la Cruz Reyna personally joined threats against federal agents in Mexico in 1999; the marker records historical conduct, not a drug conviction in Mexico.",
+            "period": "1999",
+            "sourceUrl": "https://www.justice.gov/archive/opa/pr/2008/December/08-ag-1158.html"
+          }
         }
       ],
       "drugs": [],
@@ -588,6 +687,14 @@
           "language": "en",
           "claim": "DOJ says his earlier assault conviction arose from actions directed by then Gulf Cartel leader Osiel Cárdenas Guillén.",
           "publishedAt": "2012-04-23"
+        },
+        {
+          "url": "https://www.justice.gov/archive/opa/pr/2008/December/08-ag-1158.html",
+          "title": "10 Major Drug Defendants Extradited from Mexico to the United States",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2008-12-31",
+          "claim": "DOJ alleged de la Cruz Reyna personally joined threats against federal agents in Mexico in 1999; the marker records historical conduct, not a drug conviction in Mexico."
         }
       ],
       "events": [
@@ -621,7 +728,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ quotes DEA identifying Sáenz Tamez as a Gulf Cartel regional boss and later leader who oversaw violence in Mexico; his separate U.S. drug conviction is not presented as a Mexican conviction.",
+            "period": "2013–2014",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/head-gulf-cartel-appears-beaumont-federal-court-drug-trafficking-charges"
+          }
         }
       ],
       "drugs": [
@@ -636,6 +748,14 @@
           "language": "en",
           "claim": "DOJ reports Sáenz Tamez pleaded guilty to cocaine and marijuana offenses and received a 30-year sentence; it describes him as head of the Gulf Cartel at the time.",
           "publishedAt": "2015-06-30"
+        },
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/head-gulf-cartel-appears-beaumont-federal-court-drug-trafficking-charges",
+          "title": "Head of the Gulf Cartel Appears in Beaumont Federal Court on Drug Trafficking Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2014-10-21",
+          "claim": "DOJ quotes DEA identifying Sáenz Tamez as a Gulf Cartel regional boss and later leader who oversaw violence in Mexico; his separate U.S. drug conviction is not presented as a Mexican conviction."
         }
       ],
       "events": [

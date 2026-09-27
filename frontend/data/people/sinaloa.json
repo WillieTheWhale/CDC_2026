@@ -97,7 +97,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ trial evidence describes Guzmán Loera moving drugs from Mexico and leading the Mexico-based Sinaloa Cartel before his arrest.",
+            "period": "1989–2014",
+            "sourceUrl": "https://www.justice.gov/archives/opa/pr/joaquin-el-chapo-guzman-sinaloa-cartel-leader-sentenced-life-prison-plus-30-years"
+          }
         },
         {
           "iso3": "USA",
@@ -169,7 +174,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ describes Zambada García’s decades of leadership over drug production and transport in Mexico, before his 2024 arrest.",
+            "period": "1989–2024",
+            "sourceUrl": "https://www.justice.gov/usao-sdfl/pr/co-founder-sinaloa-cartel-ismael-el-mayo-zambada-garcia-sentenced-life-prison-engaging"
+          }
         },
         {
           "iso3": "USA",
@@ -228,7 +238,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Iván Archivaldo Guzmán Salazar as a Los Chapitos leader and alleges his leadership generated violence in Mexico; this is a historical allegation.",
+            "period": "2016–2025",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0161"
+          }
         }
       ],
       "drugs": [
@@ -274,7 +289,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "Treasury identifies Jesús Alfredo Guzmán Salazar as a Los Chapitos lieutenant and alleges his participation in faction activity in Mexico; this is a historical allegation.",
+            "period": "2016–2025",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0161"
+          }
         }
       ],
       "drugs": [
@@ -321,7 +341,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ plea account says Ovidio Guzmán López coordinated drug transport from Mexico and received proceeds there before his U.S. extradition.",
+            "period": "2016–2023",
+            "sourceUrl": "https://www.justice.gov/usao-ndil/pr/ovidio-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug"
+          }
         },
         {
           "iso3": "USA",
@@ -380,7 +405,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ plea account says Joaquín Guzmán López coordinated drug transport from Mexico to the border before his 2024 U.S. arrest.",
+            "period": "2016–2024",
+            "sourceUrl": "https://www.justice.gov/usao-ndil/pr/joaquin-guzman-lopez-son-el-chapo-and-head-sinaloa-cartel-pleads-guilty-federal-drug"
+          }
         },
         {
           "iso3": "USA",
@@ -446,7 +476,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ indictment specifically alleges López Núñez joined a drug-distribution conspiracy including conduct in Mexico between 2003 and 2016; this historical geography allegation is distinct from his later guilty plea.",
+            "period": "2003–2016",
+            "sourceUrl": "https://www.justice.gov/opa/press-release/file/1078576/dl"
+          }
         }
       ],
       "drugs": [
@@ -468,6 +503,13 @@
           "language": "Spanish",
           "publishedAt": "2018-09-28",
           "claim": "El Universal reports López Núñez pleaded guilty in the United States and had been a Sinaloa Cartel leader."
+        },
+        {
+          "url": "https://www.justice.gov/opa/press-release/file/1078576/dl",
+          "title": "United States v. Dámaso López Núñez and Dámaso López Serrano, federal indictment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ indictment specifically alleges López Núñez joined a drug-distribution conspiracy including conduct in Mexico between 2003 and 2016; this historical geography allegation is distinct from his later guilty plea."
         }
       ]
     },
@@ -479,7 +521,7 @@
         "Dámaso López Jr."
       ],
       "status": "convicted",
-      "statusAsOf": "2018-01-10",
+      "statusAsOf": "2026-02-04",
       "roleLabel": "Former Sinaloa Cartel cell leader",
       "prominence": 3,
       "organizationIds": [
@@ -488,7 +530,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ says López Serrano admitted organizing drug transport and distribution from Mexico to the United States before his 2017 surrender.",
+            "period": "through 2017",
+            "sourceUrl": "https://www.justice.gov/archives/opa/pr/sinaloa-cartel-cell-leader-pleads-guilty-involvement-imporatation-tons-narcotics-united"
+          }
         },
         {
           "iso3": "USA",
@@ -508,6 +555,31 @@
           "language": "English",
           "publishedAt": "2018-01-10",
           "claim": "DOJ reports López Serrano pleaded guilty and acknowledged a leadership role in the Sinaloa Cartel; the stated offenses involved methamphetamine, cocaine, and heroin."
+        },
+        {
+          "url": "https://elpais.com/mexico/2026-02-04/sentenciado-en-estados-unidos-el-mini-lic-mano-derecha-del-chapo-a-cinco-anos-de-prision-por-trafico-de-drogas.html",
+          "title": "Sentenciado en Estados Unidos El Mini Lic a cinco años de prisión por tráfico de drogas",
+          "publisher": "EL PAÍS",
+          "language": "es",
+          "publishedAt": "2026-02-04",
+          "claim": "EL PAÍS reports that Dámaso López Serrano received a five-year U.S. sentence in February 2026 for an attempted fentanyl distribution offense while under supervision; separate from his 2018 plea."
+        }
+      ],
+      "events": [
+        {
+          "id": "damaso-lopez-serrano-2026-02-04-us-fentanyl-sentence",
+          "occurredAt": "2026-02-04",
+          "type": "sentence",
+          "title": "Later U.S. fentanyl sentence reported",
+          "summary": "EL PAÍS reports a five-year U.S. sentence for attempted fentanyl distribution while under supervision, separate from the older Sinaloa cartel plea.",
+          "source": {
+            "url": "https://elpais.com/mexico/2026-02-04/sentenciado-en-estados-unidos-el-mini-lic-mano-derecha-del-chapo-a-cinco-anos-de-prision-por-trafico-de-drogas.html",
+            "title": "Sentenciado en Estados Unidos El Mini Lic a cinco años de prisión por tráfico de drogas",
+            "publisher": "EL PAÍS",
+            "language": "es",
+            "publishedAt": "2026-02-04",
+            "claim": "EL PAÍS reports that Dámaso López Serrano received a five-year U.S. sentence in February 2026 for an attempted fentanyl distribution offense while under supervision; separate from his 2018 plea."
+          }
         }
       ]
     },
@@ -524,7 +596,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ says Zambada Niebla personally oversaw shipments into Mexico and proceeds transfers back to Mexico from 1996 to 2008.",
+            "period": "1996–2008",
+            "sourceUrl": "https://www.justice.gov/usao-ndil/pr/former-high-ranking-member-sinaloa-drug-cartel-sentenced-15-years-prison-trafficking"
+          }
         },
         {
           "iso3": "USA",
@@ -563,7 +640,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ says Zambada Imperial admitted arranging drug shipments from Mexico to the United States before his 2014 arrest.",
+            "period": "through 2014",
+            "sourceUrl": "https://www.justice.gov/usao-sdca/pr/sinaloa-cartel-leader-convicted"
+          }
         },
         {
           "iso3": "USA",
@@ -603,7 +685,12 @@
       "regions": [
         {
           "iso3": "MEX",
-          "label": "Mexico"
+          "label": "Mexico",
+          "evidence": {
+            "claim": "La Jornada attributes Mexican government reporting that Zambada Sicairos led La Mayiza in the country’s factional conflict; this is attributed reporting, not a conviction or present-location claim.",
+            "period": "2024–2026",
+            "sourceUrl": "https://www.jornada.com.mx/2026/06/28/politica/007n2pol"
+          }
         }
       ],
       "drugs": [],
@@ -623,6 +710,14 @@
           "language": "English",
           "publishedAt": "2014-03-13",
           "claim": "DOJ names Ismael Zambada Sicairos, alias Mayito Flaco, in an indictment and lists him as a son of Ismael Zambada García. The cited status is an allegation in that historical case."
+        },
+        {
+          "url": "https://www.jornada.com.mx/2026/06/28/politica/007n2pol",
+          "title": "Chapo Isidro y El Guano expanden sus zonas de influencia en Sinaloa",
+          "publisher": "La Jornada",
+          "language": "es",
+          "publishedAt": "2026-06-28",
+          "claim": "La Jornada attributes Mexican government reporting that Zambada Sicairos led La Mayiza in the country’s factional conflict; this is attributed reporting, not a conviction or present-location claim."
         }
       ]
     }
