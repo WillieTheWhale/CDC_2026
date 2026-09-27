@@ -103,7 +103,7 @@
 
 - The NDLEA 2025 vessel report explicitly separates 10 convicted Thai crew from nine Nigerian defendants whose trial was adjourned. The latter remain `charged`. A [2024 Federal High Court ruling hosted by the UN](https://www.un.org/oceancapacity/sites/www.un.org.oceancapacity/files/2025unnf_osaigbovo.pdf) corroborates the defendant roster and earlier not-guilty pleas; no later official outcome was found in this review.
 - The 2024 NDLEA release is a roundup of unrelated court cases. Every named person is in a separate case organization record; the headline total is not treated as an individual sentence.
-- The 2025 Dinastía Pakistaní release reports 14 convictions in a multi-offense case with drug trafficking and defendants found possessing drugs. It does not allocate individual offense counts, so profiles state this limit.
-- The Peruvian Poder Judicial expressly calls the March 2026 verdict `primera instancia`. All 27 profiles say first instance; the court did not allocate individual drug counts or specify each of the 18 non-life terms.
+- The 2025 Dinastía Pakistaní release reports 14 convictions in a multi-offense case with drug trafficking and defendants found possessing drugs. It does not allocate individual offense counts, so profiles state this limit and carry no person-level drug tag.
+- The Peruvian Poder Judicial expressly calls the March 2026 verdict `primera instancia`. All 27 profiles say first instance and carry no person-level drug tag; the court did not allocate individual drug counts or specify each of the 18 non-life terms.
 - The 2025 Fiscalía VRAEM release was published in May 2025 but says an alleged first shipment occurred in November 2025. That impossible chronology is not copied into events or location periods.
 - Search for a later reported appellate result in the Madre de Dios matter or later outcome for the Nigerian defendants did not produce an authoritative update at review time.
