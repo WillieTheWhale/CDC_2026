@@ -184,4 +184,4 @@ CDC rules allow generative AI tools but require citing where they are used. Ever
 
 - 2026-09-27: ChatGPT (OpenAI) researched and assembled a 41-person Caribbean historical drug-network corpus from official U.S. justice and appellate sources, with person-level status, region evidence, source audit, and no portraits; generated manifest and region-evidence snapshot.
 
-2026-09-27 — ChatGPT (OpenAI) manually reviewed 166 historical DOJ drug-case corpus mentions for a fourth bounded People tranche; reconciled person-level pleas, verdicts, and sentences against official DOJ release bodies and later outcomes, documented 88 accepted and 78 held, and regenerated the frontend People aggregate and region-evidence snapshot.
+- 2026-09-27 — ChatGPT (OpenAI) manually reviewed 166 historical DOJ drug-case corpus mentions for a fourth bounded People tranche; reconciled person-level pleas, verdicts, and sentences against official DOJ release bodies and later outcomes, documented 88 accepted and 78 held, and regenerated the frontend People aggregate and region-evidence snapshot.
