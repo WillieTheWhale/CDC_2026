@@ -33606,6 +33606,2214 @@
       ]
     },
     {
+      "id": "doj-corpus-growth6-rudolph-gorniak",
+      "name": "Rudolph Gorniak",
+      "status": "convicted",
+      "statusAsOf": "2020-09-04",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Rudolph Gorniak’s historical drug-case conduct in the United States.",
+            "period": "reported 2020",
+            "sourceUrl": "https://www.justice.gov/usao-ndok/pr/local-cell-head-and-two-others-plead-guilty-drug-conspiracy-transnational-heroin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndok/pr/local-cell-head-and-two-others-plead-guilty-drug-conspiracy-transnational-heroin",
+          "title": "Local “Cell Head” and Two Others Plead Guilty to Drug Conspiracy in Transnational Heroin Trafficking Operation",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2020-09-04",
+          "claim": "DOJ reports that Rudolph Gorniak pleaded guilty on 2020-09-02 for heroin distribution conspiracy. The 2020-09-04 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-rudolph-gorniak-2020-09-04-development",
+          "occurredAt": "2020-09-04",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Rudolph Gorniak pleaded guilty on 2020-09-02 for heroin distribution conspiracy. The 2020-09-04 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndok/pr/local-cell-head-and-two-others-plead-guilty-drug-conspiracy-transnational-heroin",
+            "title": "Local “Cell Head” and Two Others Plead Guilty to Drug Conspiracy in Transnational Heroin Trafficking Operation",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2020-09-04",
+            "claim": "DOJ reports that Rudolph Gorniak pleaded guilty on 2020-09-02 for heroin distribution conspiracy. The 2020-09-04 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-amiee-ranes",
+      "name": "Amiee Ranes",
+      "status": "convicted",
+      "statusAsOf": "2026-09-08",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Amiee Ranes’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+          "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-09-08",
+          "claim": "DOJ reports that Amiee Ranes was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-amiee-ranes-2026-09-08-development",
+          "occurredAt": "2026-09-08",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Amiee Ranes was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+            "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-09-08",
+            "claim": "DOJ reports that Amiee Ranes was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-camri-outlaw",
+      "name": "Camri Outlaw",
+      "status": "convicted",
+      "statusAsOf": "2026-09-08",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Camri Outlaw’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+          "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-09-08",
+          "claim": "DOJ reports that Camri Outlaw was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-camri-outlaw-2026-09-08-development",
+          "occurredAt": "2026-09-08",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Camri Outlaw was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+            "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-09-08",
+            "claim": "DOJ reports that Camri Outlaw was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-christopher-flax",
+      "name": "Christopher Flax",
+      "status": "convicted",
+      "statusAsOf": "2026-09-08",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Christopher Flax’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+          "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-09-08",
+          "claim": "DOJ reports that Christopher Flax was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-christopher-flax-2026-09-08-development",
+          "occurredAt": "2026-09-08",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Christopher Flax was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+            "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-09-08",
+            "claim": "DOJ reports that Christopher Flax was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-lovechild-mcguire",
+      "name": "Lovechild McGuire",
+      "status": "convicted",
+      "statusAsOf": "2026-09-08",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Lovechild McGuire’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+          "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-09-08",
+          "claim": "DOJ reports that Lovechild McGuire was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-lovechild-mcguire-2026-09-08-development",
+          "occurredAt": "2026-09-08",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Lovechild McGuire was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+            "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-09-08",
+            "claim": "DOJ reports that Lovechild McGuire was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-unique-carter",
+      "name": "Unique Carter",
+      "status": "convicted",
+      "statusAsOf": "2026-09-08",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Unique Carter’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+          "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-09-08",
+          "claim": "DOJ reports that Unique Carter was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-unique-carter-2026-09-08-development",
+          "occurredAt": "2026-09-08",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Unique Carter was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdin/pr/evansville-drug-trafficking-organization-dismantled-six-head-federal-prison",
+            "title": "Evansville Drug Trafficking Organization Dismantled as Six Head to Federal Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-09-08",
+            "claim": "DOJ reports that Unique Carter was sentenced by 2026-09-08 for methamphetamine distribution conspiracy. The 2026-09-08 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-cameron-xavier-reid",
+      "name": "Cameron Xavier Reid",
+      "status": "convicted",
+      "statusAsOf": "2024-12-13",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Cameron Xavier Reid’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns",
+          "title": "Kennedy Street Drug Gang Members Sentenced for Drug Trafficking While Armed with Guns",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-12-13",
+          "claim": "DOJ reports that Cameron Xavier Reid was sentenced on 2024-05-31 for marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-cameron-xavier-reid-2024-12-13-development",
+          "occurredAt": "2024-12-13",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Cameron Xavier Reid was sentenced on 2024-05-31 for marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns",
+            "title": "Kennedy Street Drug Gang Members Sentenced for Drug Trafficking While Armed with Guns",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-12-13",
+            "claim": "DOJ reports that Cameron Xavier Reid was sentenced on 2024-05-31 for marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-keion-michael-brown",
+      "name": "Keion Michael Brown",
+      "status": "convicted",
+      "statusAsOf": "2024-12-13",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Keion Michael Brown’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns",
+          "title": "Kennedy Street Drug Gang Members Sentenced for Drug Trafficking While Armed with Guns",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-12-13",
+          "claim": "DOJ reports that Keion Michael Brown pleaded guilty for marijuana and oxycodone distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-keion-michael-brown-2024-12-13-development",
+          "occurredAt": "2024-12-13",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Keion Michael Brown pleaded guilty for marijuana and oxycodone distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns",
+            "title": "Kennedy Street Drug Gang Members Sentenced for Drug Trafficking While Armed with Guns",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-12-13",
+            "claim": "DOJ reports that Keion Michael Brown pleaded guilty for marijuana and oxycodone distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-kenneth-ademola-olugbenga",
+      "name": "Kenneth Ademola Olugbenga",
+      "status": "convicted",
+      "statusAsOf": "2024-12-13",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Kenneth Ademola Olugbenga’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns",
+          "title": "Kennedy Street Drug Gang Members Sentenced for Drug Trafficking While Armed with Guns",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-12-13",
+          "claim": "DOJ reports that Kenneth Ademola Olugbenga pleaded guilty for cocaine base and marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-kenneth-ademola-olugbenga-2024-12-13-development",
+          "occurredAt": "2024-12-13",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Kenneth Ademola Olugbenga pleaded guilty for cocaine base and marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-dc/pr/kennedy-street-drug-gang-members-sentenced-drug-trafficking-while-armed-guns",
+            "title": "Kennedy Street Drug Gang Members Sentenced for Drug Trafficking While Armed with Guns",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-12-13",
+            "claim": "DOJ reports that Kenneth Ademola Olugbenga pleaded guilty for cocaine base and marijuana distribution conspiracy. The 2024-12-13 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-deablo-deshon-lewis",
+      "name": "Deablo Deshon Lewis",
+      "status": "convicted",
+      "statusAsOf": "2025-05-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Deablo Deshon Lewis’s historical drug-case conduct in the United States.",
+            "period": "reported 2025",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/bowie-county-man-convicted-federal-drug-trafficking-violations"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/bowie-county-man-convicted-federal-drug-trafficking-violations",
+          "title": "Bowie County man convicted of federal drug trafficking violations",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-05-19",
+          "claim": "DOJ reports that Deablo Deshon Lewis was found guilty by a jury for fentanyl, methamphetamine, and marijuana distribution conspiracy. The 2025-05-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-deablo-deshon-lewis-2025-05-19-development",
+          "occurredAt": "2025-05-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Deablo Deshon Lewis was found guilty by a jury for fentanyl, methamphetamine, and marijuana distribution conspiracy. The 2025-05-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edtx/pr/bowie-county-man-convicted-federal-drug-trafficking-violations",
+            "title": "Bowie County man convicted of federal drug trafficking violations",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-05-19",
+            "claim": "DOJ reports that Deablo Deshon Lewis was found guilty by a jury for fentanyl, methamphetamine, and marijuana distribution conspiracy. The 2025-05-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-eloy-romero",
+      "name": "Eloy Romero",
+      "status": "convicted",
+      "statusAsOf": "2023-08-23",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Eloy Romero’s historical drug-case conduct in the United States.",
+            "period": "reported 2023",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/albuquerque-man-sentenced-16-years-prison-drug-trafficking-and-federal-firearm-offenses"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nm/pr/albuquerque-man-sentenced-16-years-prison-drug-trafficking-and-federal-firearm-offenses",
+          "title": "Albuquerque Man Sentenced to 16 Years in Prison for Drug Trafficking and Federal Firearm Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-08-23",
+          "claim": "DOJ reports that Eloy Romero was convicted by a jury and sentenced for methamphetamine and fentanyl distribution. The 2023-08-23 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-eloy-romero-2023-08-23-development",
+          "occurredAt": "2023-08-23",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Eloy Romero was convicted by a jury and sentenced for methamphetamine and fentanyl distribution. The 2023-08-23 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nm/pr/albuquerque-man-sentenced-16-years-prison-drug-trafficking-and-federal-firearm-offenses",
+            "title": "Albuquerque Man Sentenced to 16 Years in Prison for Drug Trafficking and Federal Firearm Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-08-23",
+            "claim": "DOJ reports that Eloy Romero was convicted by a jury and sentenced for methamphetamine and fentanyl distribution. The 2023-08-23 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-antonio-dwayne-evans",
+      "name": "Antonio Dwayne Evans",
+      "status": "convicted",
+      "statusAsOf": "2020-02-21",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Antonio Dwayne Evans’s historical drug-case conduct in the United States.",
+            "period": "reported 2020",
+            "sourceUrl": "https://www.justice.gov/usao-ednc/pr/raeford-men-sentenced-drug-trafficking-and-illegal-gun-possession"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ednc/pr/raeford-men-sentenced-drug-trafficking-and-illegal-gun-possession",
+          "title": "Raeford Men Sentenced for Drug Trafficking and Illegal Gun Possession",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2020-02-21",
+          "claim": "DOJ reports that Antonio Dwayne Evans was sentenced by 2020-02-21 for cocaine base, cocaine, marijuana, and heroin distribution. The 2020-02-21 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-antonio-dwayne-evans-2020-02-21-development",
+          "occurredAt": "2020-02-21",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Antonio Dwayne Evans was sentenced by 2020-02-21 for cocaine base, cocaine, marijuana, and heroin distribution. The 2020-02-21 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ednc/pr/raeford-men-sentenced-drug-trafficking-and-illegal-gun-possession",
+            "title": "Raeford Men Sentenced for Drug Trafficking and Illegal Gun Possession",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2020-02-21",
+            "claim": "DOJ reports that Antonio Dwayne Evans was sentenced by 2020-02-21 for cocaine base, cocaine, marijuana, and heroin distribution. The 2020-02-21 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-sammy-durane-evans-jr",
+      "name": "Sammy Durane Evans Jr.",
+      "status": "convicted",
+      "statusAsOf": "2020-02-21",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Sammy Durane Evans Jr.’s historical drug-case conduct in the United States.",
+            "period": "reported 2020",
+            "sourceUrl": "https://www.justice.gov/usao-ednc/pr/raeford-men-sentenced-drug-trafficking-and-illegal-gun-possession"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ednc/pr/raeford-men-sentenced-drug-trafficking-and-illegal-gun-possession",
+          "title": "Raeford Men Sentenced for Drug Trafficking and Illegal Gun Possession",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2020-02-21",
+          "claim": "DOJ reports that Sammy Durane Evans Jr. was sentenced on 2019-04-11 for cocaine base, cocaine, marijuana, and heroin distribution. The 2020-02-21 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-sammy-durane-evans-jr-2020-02-21-development",
+          "occurredAt": "2020-02-21",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Sammy Durane Evans Jr. was sentenced on 2019-04-11 for cocaine base, cocaine, marijuana, and heroin distribution. The 2020-02-21 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ednc/pr/raeford-men-sentenced-drug-trafficking-and-illegal-gun-possession",
+            "title": "Raeford Men Sentenced for Drug Trafficking and Illegal Gun Possession",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2020-02-21",
+            "claim": "DOJ reports that Sammy Durane Evans Jr. was sentenced on 2019-04-11 for cocaine base, cocaine, marijuana, and heroin distribution. The 2020-02-21 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-jennifer-padilla",
+      "name": "Jennifer Padilla",
+      "status": "convicted",
+      "statusAsOf": "2018-01-04",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Jennifer Padilla’s historical drug-case conduct in the United States.",
+            "period": "reported 2018",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/55th-defendant-sentenced-charges-arising-out-atf-led-operation-targeting-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nm/pr/55th-defendant-sentenced-charges-arising-out-atf-led-operation-targeting-drug-trafficking",
+          "title": "55th Defendant Sentenced on Charges Arising Out of ATF-Led Operation Targeting Drug Trafficking and Firearms Crime in Bernalillo County",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2018-01-04",
+          "claim": "DOJ reports that Jennifer Padilla was sentenced on 2018-01-03 for methamphetamine trafficking. The 2018-01-04 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-jennifer-padilla-2018-01-04-development",
+          "occurredAt": "2018-01-04",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Jennifer Padilla was sentenced on 2018-01-03 for methamphetamine trafficking. The 2018-01-04 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nm/pr/55th-defendant-sentenced-charges-arising-out-atf-led-operation-targeting-drug-trafficking",
+            "title": "55th Defendant Sentenced on Charges Arising Out of ATF-Led Operation Targeting Drug Trafficking and Firearms Crime in Bernalillo County",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2018-01-04",
+            "claim": "DOJ reports that Jennifer Padilla was sentenced on 2018-01-03 for methamphetamine trafficking. The 2018-01-04 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-pedro-villot-santiago",
+      "name": "Pedro Villot-Santiago",
+      "status": "convicted",
+      "statusAsOf": "2023-03-17",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Pedro Villot-Santiago’s historical drug-case conduct in the United States.",
+            "period": "reported 2023",
+            "sourceUrl": "https://www.justice.gov/usao-ma/pr/large-scale-cocaine-supplier-pleads-guilty-drug-trafficking-conspiracy"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ma/pr/large-scale-cocaine-supplier-pleads-guilty-drug-trafficking-conspiracy",
+          "title": "Large-Scale Cocaine Supplier Pleads Guilty to Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-03-17",
+          "claim": "DOJ reports that Pedro Villot-Santiago pleaded guilty for heroin, fentanyl, cocaine base, and cocaine distribution conspiracy. The 2023-03-17 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-pedro-villot-santiago-2023-03-17-development",
+          "occurredAt": "2023-03-17",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Pedro Villot-Santiago pleaded guilty for heroin, fentanyl, cocaine base, and cocaine distribution conspiracy. The 2023-03-17 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ma/pr/large-scale-cocaine-supplier-pleads-guilty-drug-trafficking-conspiracy",
+            "title": "Large-Scale Cocaine Supplier Pleads Guilty to Drug Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-03-17",
+            "claim": "DOJ reports that Pedro Villot-Santiago pleaded guilty for heroin, fentanyl, cocaine base, and cocaine distribution conspiracy. The 2023-03-17 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-luis-arreola-palma",
+      "name": "Luis Arreola-Palma",
+      "status": "convicted",
+      "statusAsOf": "2017-10-27",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Luis Arreola-Palma’s historical drug-case conduct in the United States.",
+            "period": "reported 2017",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/another-defendant-sentenced-federal-charges-arising-out-atf-led-operation-targeting-drug"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nm/pr/another-defendant-sentenced-federal-charges-arising-out-atf-led-operation-targeting-drug",
+          "title": "Another Defendant Sentenced on Federal Charges Arising Out of ATF-Led Operation Targeting Drug Trafficking and Firearms Crime in Bernalillo County",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2017-10-27",
+          "claim": "DOJ reports that Luis Arreola-Palma was sentenced on 2017-10-26 for methamphetamine distribution conspiracy. The 2017-10-27 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-luis-arreola-palma-2017-10-27-development",
+          "occurredAt": "2017-10-27",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Luis Arreola-Palma was sentenced on 2017-10-26 for methamphetamine distribution conspiracy. The 2017-10-27 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nm/pr/another-defendant-sentenced-federal-charges-arising-out-atf-led-operation-targeting-drug",
+            "title": "Another Defendant Sentenced on Federal Charges Arising Out of ATF-Led Operation Targeting Drug Trafficking and Firearms Crime in Bernalillo County",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2017-10-27",
+            "claim": "DOJ reports that Luis Arreola-Palma was sentenced on 2017-10-26 for methamphetamine distribution conspiracy. The 2017-10-27 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-juan-carlos-vaca",
+      "name": "Juan Carlos Vaca",
+      "status": "convicted",
+      "statusAsOf": "2013-06-17",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Juan Carlos Vaca’s historical drug-case conduct in the United States.",
+            "period": "reported 2013",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/mexican-nationals-sentenced-drug-trafficking-violations-smith-county-texas"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/mexican-nationals-sentenced-drug-trafficking-violations-smith-county-texas",
+          "title": "Mexican Nationals Sentenced For Drug Trafficking Violations In Smith County, Texas",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-06-17",
+          "claim": "DOJ reports that Juan Carlos Vaca was sentenced on 2013-06-17 for methamphetamine distribution. The 2013-06-17 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-juan-carlos-vaca-2013-06-17-development",
+          "occurredAt": "2013-06-17",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Juan Carlos Vaca was sentenced on 2013-06-17 for methamphetamine distribution. The 2013-06-17 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edtx/pr/mexican-nationals-sentenced-drug-trafficking-violations-smith-county-texas",
+            "title": "Mexican Nationals Sentenced For Drug Trafficking Violations In Smith County, Texas",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-06-17",
+            "claim": "DOJ reports that Juan Carlos Vaca was sentenced on 2013-06-17 for methamphetamine distribution. The 2013-06-17 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-justin-mcbride",
+      "name": "Justin McBride",
+      "status": "convicted",
+      "statusAsOf": "2019-07-18",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Justin McBride’s historical drug-case conduct in the United States.",
+            "period": "reported 2019",
+            "sourceUrl": "https://www.justice.gov/usao-wdpa/pr/pittsburgh-man-sentenced-23-years-prison-running-drug-trafficking-ring-and-distributing"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdpa/pr/pittsburgh-man-sentenced-23-years-prison-running-drug-trafficking-ring-and-distributing",
+          "title": "Pittsburgh Man Sentenced to 23 Years in Prison for Running Drug Trafficking Ring and Distributing Heroin and Fentanyl Resulting in Two Deaths and One Non-Fatal Overdose",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-07-18",
+          "claim": "DOJ reports that Justin McBride was sentenced by 2019-07-18 for heroin and fentanyl distribution. The 2019-07-18 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-justin-mcbride-2019-07-18-development",
+          "occurredAt": "2019-07-18",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Justin McBride was sentenced by 2019-07-18 for heroin and fentanyl distribution. The 2019-07-18 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdpa/pr/pittsburgh-man-sentenced-23-years-prison-running-drug-trafficking-ring-and-distributing",
+            "title": "Pittsburgh Man Sentenced to 23 Years in Prison for Running Drug Trafficking Ring and Distributing Heroin and Fentanyl Resulting in Two Deaths and One Non-Fatal Overdose",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-07-18",
+            "claim": "DOJ reports that Justin McBride was sentenced by 2019-07-18 for heroin and fentanyl distribution. The 2019-07-18 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-juan-rodriguez-castro",
+      "name": "Juan Rodriguez Castro",
+      "status": "convicted",
+      "statusAsOf": "2017-12-15",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Juan Rodriguez Castro’s historical drug-case conduct in the United States.",
+            "period": "reported 2017",
+            "sourceUrl": "https://www.justice.gov/usao-ma/pr/dominican-national-pleads-guilty-drug-trafficking-conspiracy"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ma/pr/dominican-national-pleads-guilty-drug-trafficking-conspiracy",
+          "title": "Dominican National Pleads Guilty to Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2017-12-15",
+          "claim": "DOJ reports that Juan Rodriguez Castro pleaded guilty in June 2017 for heroin, cocaine, and cocaine base distribution conspiracy. The 2017-12-15 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-juan-rodriguez-castro-2017-12-15-development",
+          "occurredAt": "2017-12-15",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Juan Rodriguez Castro pleaded guilty in June 2017 for heroin, cocaine, and cocaine base distribution conspiracy. The 2017-12-15 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ma/pr/dominican-national-pleads-guilty-drug-trafficking-conspiracy",
+            "title": "Dominican National Pleads Guilty to Drug Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2017-12-15",
+            "claim": "DOJ reports that Juan Rodriguez Castro pleaded guilty in June 2017 for heroin, cocaine, and cocaine base distribution conspiracy. The 2017-12-15 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-donza-brown",
+      "name": "Donza Brown",
+      "status": "convicted",
+      "statusAsOf": "2021-10-25",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Donza Brown’s historical drug-case conduct in the United States.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-mdpa/pr/two-harrisburg-men-sentenced-drug-trafficking-offenses"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mdpa/pr/two-harrisburg-men-sentenced-drug-trafficking-offenses",
+          "title": "Two Harrisburg Men Sentenced For Drug Trafficking Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-10-25",
+          "claim": "DOJ reports that Donza Brown was sentenced on 2021-10-20 for cocaine base trafficking and maintaining a drug premises. The 2021-10-25 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-donza-brown-2021-10-25-development",
+          "occurredAt": "2021-10-25",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Donza Brown was sentenced on 2021-10-20 for cocaine base trafficking and maintaining a drug premises. The 2021-10-25 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mdpa/pr/two-harrisburg-men-sentenced-drug-trafficking-offenses",
+            "title": "Two Harrisburg Men Sentenced For Drug Trafficking Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-10-25",
+            "claim": "DOJ reports that Donza Brown was sentenced on 2021-10-20 for cocaine base trafficking and maintaining a drug premises. The 2021-10-25 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-dante-barbarin",
+      "name": "Dante Barbarin",
+      "status": "convicted",
+      "statusAsOf": "2014-09-11",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Dante Barbarin’s historical drug-case conduct in the United States.",
+            "period": "reported 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edca/pr/two-more-guilty-pleas-entered-vallejo-based-drug-trafficking-indictments"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edca/pr/two-more-guilty-pleas-entered-vallejo-based-drug-trafficking-indictments",
+          "title": "Two More Guilty Pleas Entered In Vallejo-Based Drug Trafficking Indictments",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2014-09-11",
+          "claim": "DOJ reports that Dante Barbarin pleaded guilty for use of a phone to facilitate drug dealing. The 2014-09-11 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-dante-barbarin-2014-09-11-development",
+          "occurredAt": "2014-09-11",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Dante Barbarin pleaded guilty for use of a phone to facilitate drug dealing. The 2014-09-11 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edca/pr/two-more-guilty-pleas-entered-vallejo-based-drug-trafficking-indictments",
+            "title": "Two More Guilty Pleas Entered In Vallejo-Based Drug Trafficking Indictments",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2014-09-11",
+            "claim": "DOJ reports that Dante Barbarin pleaded guilty for use of a phone to facilitate drug dealing. The 2014-09-11 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-michael-lott",
+      "name": "Michael Lott",
+      "status": "convicted",
+      "statusAsOf": "2014-09-11",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Michael Lott’s historical drug-case conduct in the United States.",
+            "period": "reported 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edca/pr/two-more-guilty-pleas-entered-vallejo-based-drug-trafficking-indictments"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edca/pr/two-more-guilty-pleas-entered-vallejo-based-drug-trafficking-indictments",
+          "title": "Two More Guilty Pleas Entered In Vallejo-Based Drug Trafficking Indictments",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2014-09-11",
+          "claim": "DOJ reports that Michael Lott pleaded guilty for MDMA and cocaine base distribution conspiracy. The 2014-09-11 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-michael-lott-2014-09-11-development",
+          "occurredAt": "2014-09-11",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Michael Lott pleaded guilty for MDMA and cocaine base distribution conspiracy. The 2014-09-11 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edca/pr/two-more-guilty-pleas-entered-vallejo-based-drug-trafficking-indictments",
+            "title": "Two More Guilty Pleas Entered In Vallejo-Based Drug Trafficking Indictments",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2014-09-11",
+            "claim": "DOJ reports that Michael Lott pleaded guilty for MDMA and cocaine base distribution conspiracy. The 2014-09-11 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-narco-mcfarland",
+      "name": "Narco McFarland",
+      "status": "convicted",
+      "statusAsOf": "2014-09-11",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Narco McFarland’s historical drug-case conduct in the United States.",
+            "period": "reported 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edca/pr/two-more-guilty-pleas-entered-vallejo-based-drug-trafficking-indictments"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edca/pr/two-more-guilty-pleas-entered-vallejo-based-drug-trafficking-indictments",
+          "title": "Two More Guilty Pleas Entered In Vallejo-Based Drug Trafficking Indictments",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2014-09-11",
+          "claim": "DOJ reports that Narco McFarland pleaded guilty for use of a phone to facilitate drug trafficking. The 2014-09-11 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-narco-mcfarland-2014-09-11-development",
+          "occurredAt": "2014-09-11",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Narco McFarland pleaded guilty for use of a phone to facilitate drug trafficking. The 2014-09-11 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edca/pr/two-more-guilty-pleas-entered-vallejo-based-drug-trafficking-indictments",
+            "title": "Two More Guilty Pleas Entered In Vallejo-Based Drug Trafficking Indictments",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2014-09-11",
+            "claim": "DOJ reports that Narco McFarland pleaded guilty for use of a phone to facilitate drug trafficking. The 2014-09-11 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-justin-allen-bowen",
+      "name": "Justin Allen Bowen",
+      "status": "convicted",
+      "statusAsOf": "2023-03-22",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Justin Allen Bowen’s historical drug-case conduct in the United States.",
+            "period": "reported 2023",
+            "sourceUrl": "https://www.justice.gov/usao-sdwv/pr/drug-trafficking-investigation-yields-largest-methamphetamine-bust-west-virginia"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdwv/pr/drug-trafficking-investigation-yields-largest-methamphetamine-bust-west-virginia",
+          "title": "Drug Trafficking Investigation Yields Largest Methamphetamine Bust in West Virginia History",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-03-22",
+          "claim": "DOJ reports that Justin Allen Bowen pleaded guilty on 2023-02-23 for methamphetamine distribution conspiracy. The 2023-03-22 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-justin-allen-bowen-2023-03-22-development",
+          "occurredAt": "2023-03-22",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Justin Allen Bowen pleaded guilty on 2023-02-23 for methamphetamine distribution conspiracy. The 2023-03-22 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdwv/pr/drug-trafficking-investigation-yields-largest-methamphetamine-bust-west-virginia",
+            "title": "Drug Trafficking Investigation Yields Largest Methamphetamine Bust in West Virginia History",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-03-22",
+            "claim": "DOJ reports that Justin Allen Bowen pleaded guilty on 2023-02-23 for methamphetamine distribution conspiracy. The 2023-03-22 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-larry-wayne-legg",
+      "name": "Larry Wayne Legg",
+      "status": "convicted",
+      "statusAsOf": "2023-03-22",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Larry Wayne Legg’s historical drug-case conduct in the United States.",
+            "period": "reported 2023",
+            "sourceUrl": "https://www.justice.gov/usao-sdwv/pr/drug-trafficking-investigation-yields-largest-methamphetamine-bust-west-virginia"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdwv/pr/drug-trafficking-investigation-yields-largest-methamphetamine-bust-west-virginia",
+          "title": "Drug Trafficking Investigation Yields Largest Methamphetamine Bust in West Virginia History",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-03-22",
+          "claim": "DOJ reports that Larry Wayne Legg pleaded guilty on 2023-03-06 for methamphetamine distribution conspiracy. The 2023-03-22 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-larry-wayne-legg-2023-03-22-development",
+          "occurredAt": "2023-03-22",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Larry Wayne Legg pleaded guilty on 2023-03-06 for methamphetamine distribution conspiracy. The 2023-03-22 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdwv/pr/drug-trafficking-investigation-yields-largest-methamphetamine-bust-west-virginia",
+            "title": "Drug Trafficking Investigation Yields Largest Methamphetamine Bust in West Virginia History",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-03-22",
+            "claim": "DOJ reports that Larry Wayne Legg pleaded guilty on 2023-03-06 for methamphetamine distribution conspiracy. The 2023-03-22 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-lucas-earl-shoemaker",
+      "name": "Lucas Earl Shoemaker",
+      "status": "convicted",
+      "statusAsOf": "2026-06-11",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Lucas Earl Shoemaker’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-ndwv/pr/mineral-county-home-center-drug-trafficking-operation-occupant-sentenced-prison"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndwv/pr/mineral-county-home-center-drug-trafficking-operation-occupant-sentenced-prison",
+          "title": "Mineral County Home Center of Drug Trafficking Operation, Occupant Sentenced to Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-06-11",
+          "claim": "DOJ reports that Lucas Earl Shoemaker was sentenced by 2026-06-11 for fentanyl and methamphetamine distribution conspiracy. The 2026-06-11 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-lucas-earl-shoemaker-2026-06-11-development",
+          "occurredAt": "2026-06-11",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Lucas Earl Shoemaker was sentenced by 2026-06-11 for fentanyl and methamphetamine distribution conspiracy. The 2026-06-11 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndwv/pr/mineral-county-home-center-drug-trafficking-operation-occupant-sentenced-prison",
+            "title": "Mineral County Home Center of Drug Trafficking Operation, Occupant Sentenced to Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-06-11",
+            "claim": "DOJ reports that Lucas Earl Shoemaker was sentenced by 2026-06-11 for fentanyl and methamphetamine distribution conspiracy. The 2026-06-11 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-robert-jessie-martin",
+      "name": "Robert Jessie Martin",
+      "status": "convicted",
+      "statusAsOf": "2025-04-17",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Robert Jessie Martin’s historical drug-case conduct in the United States.",
+            "period": "reported 2025",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/cherokee-county-man-sentenced-federal-prison-drug-trafficking-conspiracy"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/cherokee-county-man-sentenced-federal-prison-drug-trafficking-conspiracy",
+          "title": "Cherokee County man sentenced to federal prison in drug trafficking conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-17",
+          "claim": "DOJ reports that Robert Jessie Martin was sentenced on 2025-04-17 for methamphetamine manufacture and distribution conspiracy. The 2025-04-17 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-robert-jessie-martin-2025-04-17-development",
+          "occurredAt": "2025-04-17",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Robert Jessie Martin was sentenced on 2025-04-17 for methamphetamine manufacture and distribution conspiracy. The 2025-04-17 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edtx/pr/cherokee-county-man-sentenced-federal-prison-drug-trafficking-conspiracy",
+            "title": "Cherokee County man sentenced to federal prison in drug trafficking conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-04-17",
+            "claim": "DOJ reports that Robert Jessie Martin was sentenced on 2025-04-17 for methamphetamine manufacture and distribution conspiracy. The 2025-04-17 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-kevin-singleton",
+      "name": "Kevin Singleton",
+      "status": "convicted",
+      "statusAsOf": "2021-09-07",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Kevin Singleton’s historical drug-case conduct in the United States.",
+            "period": "reported 2021",
+            "sourceUrl": "https://www.justice.gov/usao-sdms/pr/natchez-man-sentenced-35-years-federal-prison-multiple-drug-trafficking-crimes"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdms/pr/natchez-man-sentenced-35-years-federal-prison-multiple-drug-trafficking-crimes",
+          "title": "Natchez Man Sentenced to 35 Years in Federal Prison for Multiple Drug Trafficking Crimes",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-09-07",
+          "claim": "DOJ reports that Kevin Singleton pleaded guilty on 2019-04-29 for cocaine, heroin, and methamphetamine distribution. The 2021-09-07 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-kevin-singleton-2021-09-07-development",
+          "occurredAt": "2021-09-07",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Kevin Singleton pleaded guilty on 2019-04-29 for cocaine, heroin, and methamphetamine distribution. The 2021-09-07 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdms/pr/natchez-man-sentenced-35-years-federal-prison-multiple-drug-trafficking-crimes",
+            "title": "Natchez Man Sentenced to 35 Years in Federal Prison for Multiple Drug Trafficking Crimes",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-09-07",
+            "claim": "DOJ reports that Kevin Singleton pleaded guilty on 2019-04-29 for cocaine, heroin, and methamphetamine distribution. The 2021-09-07 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-david-reyes",
+      "name": "David Reyes",
+      "status": "convicted",
+      "statusAsOf": "2026-03-18",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes David Reyes’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-ndwv/pr/maryland-man-admits-role-large-scale-drug-trafficking-operation"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndwv/pr/maryland-man-admits-role-large-scale-drug-trafficking-operation",
+          "title": "Maryland Man Admits to Role in a Large-Scale Drug Trafficking Operation",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-03-18",
+          "claim": "DOJ reports that David Reyes pleaded guilty for cocaine, fentanyl, and heroin distribution conspiracy. The 2026-03-18 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-david-reyes-2026-03-18-development",
+          "occurredAt": "2026-03-18",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that David Reyes pleaded guilty for cocaine, fentanyl, and heroin distribution conspiracy. The 2026-03-18 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndwv/pr/maryland-man-admits-role-large-scale-drug-trafficking-operation",
+            "title": "Maryland Man Admits to Role in a Large-Scale Drug Trafficking Operation",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-03-18",
+            "claim": "DOJ reports that David Reyes pleaded guilty for cocaine, fentanyl, and heroin distribution conspiracy. The 2026-03-18 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-beth-marie-jones",
+      "name": "Beth Marie Jones",
+      "status": "convicted",
+      "statusAsOf": "2026-06-12",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Beth Marie Jones’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-mt/pr/billings-woman-sentenced-over-9-years-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mt/pr/billings-woman-sentenced-over-9-years-drug-trafficking",
+          "title": "Billings woman sentenced to over 9 years in prison for drug trafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-06-12",
+          "claim": "DOJ reports that Beth Marie Jones was sentenced by 2026-06-12 for possession with intent to distribute a controlled substance. The 2026-06-12 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-beth-marie-jones-2026-06-12-development",
+          "occurredAt": "2026-06-12",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Beth Marie Jones was sentenced by 2026-06-12 for possession with intent to distribute a controlled substance. The 2026-06-12 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mt/pr/billings-woman-sentenced-over-9-years-drug-trafficking",
+            "title": "Billings woman sentenced to over 9 years in prison for drug trafficking",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-06-12",
+            "claim": "DOJ reports that Beth Marie Jones was sentenced by 2026-06-12 for possession with intent to distribute a controlled substance. The 2026-06-12 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-charlie-chapman",
+      "name": "Charlie Chapman",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Charlie Chapman’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Charlie Chapman pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl possession with intent to distribute. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-charlie-chapman-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Charlie Chapman pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl possession with intent to distribute. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Charlie Chapman pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl possession with intent to distribute. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-donald-gray",
+      "name": "Donald Gray",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Donald Gray’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Donald Gray pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl possession with intent to distribute. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-donald-gray-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Donald Gray pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl possession with intent to distribute. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Donald Gray pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl possession with intent to distribute. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-emerson-brodie",
+      "name": "Emerson Brodie",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Emerson Brodie’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Emerson Brodie pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-emerson-brodie-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Emerson Brodie pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Emerson Brodie pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-james-ford",
+      "name": "James Ford",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes James Ford’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that James Ford pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-james-ford-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that James Ford pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that James Ford pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-james-hill",
+      "name": "James Hill",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes James Hill’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that James Hill pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-james-hill-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that James Hill pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that James Hill pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-lavon-williams",
+      "name": "Lavon Williams",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Lavon Williams’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Lavon Williams pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-lavon-williams-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Lavon Williams pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Lavon Williams pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-levell-batts-sr",
+      "name": "Levell Batts Sr.",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Levell Batts Sr.’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Levell Batts Sr. pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-levell-batts-sr-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Levell Batts Sr. pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Levell Batts Sr. pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-mervin-walton",
+      "name": "Mervin Walton",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Mervin Walton’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Mervin Walton pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-mervin-walton-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Mervin Walton pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Mervin Walton pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-michael-robinson",
+      "name": "Michael Robinson",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Michael Robinson’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Michael Robinson pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-michael-robinson-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Michael Robinson pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Michael Robinson pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-michael-seay",
+      "name": "Michael Seay",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Michael Seay’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Michael Seay pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-michael-seay-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Michael Seay pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Michael Seay pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-milton-artis",
+      "name": "Milton Artis",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Milton Artis’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Milton Artis pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-milton-artis-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Milton Artis pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Milton Artis pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-rondell-spain",
+      "name": "Rondell Spain",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Rondell Spain’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Rondell Spain pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-rondell-spain-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Rondell Spain pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Rondell Spain pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-terrell-williams",
+      "name": "Terrell Williams",
+      "status": "convicted",
+      "statusAsOf": "2024-09-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Terrell Williams’s historical drug-case conduct in the United States.",
+            "period": "reported 2024",
+            "sourceUrl": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+          "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-19",
+          "claim": "DOJ reports that Terrell Williams pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-terrell-williams-2024-09-19-development",
+          "occurredAt": "2024-09-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Terrell Williams pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edva/pr/norfolk-drug-dealer-sentenced-his-role-tidewater-drug-trafficking-organization",
+            "title": "Norfolk drug dealer sentenced for his role in Tidewater drug trafficking organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-19",
+            "claim": "DOJ reports that Terrell Williams pleaded guilty and was sentenced by 2024-09-19 for cocaine, heroin, and fentanyl distribution or distribution conspiracy. The 2024-09-19 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-edward-kim",
+      "name": "Edward Kim",
+      "status": "convicted",
+      "statusAsOf": "2022-11-14",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Edward Kim’s historical drug-case conduct in the United States.",
+            "period": "reported 2022",
+            "sourceUrl": "https://www.justice.gov/usao-cdca/pr/los-angeles-man-pleads-guilty-federal-charges-stealing-nearly-55-million-covid-jobless"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-cdca/pr/los-angeles-man-pleads-guilty-federal-charges-stealing-nearly-55-million-covid-jobless",
+          "title": "Los Angeles Man Pleads Guilty to Federal Charges for Stealing Nearly $5.5 Million in COVID Jobless Relief and for Drug Trafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-11-14",
+          "claim": "DOJ reports that Edward Kim pleaded guilty for methamphetamine and fentanyl distribution conspiracy. The 2022-11-14 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-edward-kim-2022-11-14-development",
+          "occurredAt": "2022-11-14",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Edward Kim pleaded guilty for methamphetamine and fentanyl distribution conspiracy. The 2022-11-14 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-cdca/pr/los-angeles-man-pleads-guilty-federal-charges-stealing-nearly-55-million-covid-jobless",
+            "title": "Los Angeles Man Pleads Guilty to Federal Charges for Stealing Nearly $5.5 Million in COVID Jobless Relief and for Drug Trafficking",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2022-11-14",
+            "claim": "DOJ reports that Edward Kim pleaded guilty for methamphetamine and fentanyl distribution conspiracy. The 2022-11-14 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-margarito-ruiz",
+      "name": "Margarito Ruiz",
+      "status": "convicted",
+      "statusAsOf": "2017-10-31",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Margarito Ruiz’s historical drug-case conduct in the United States.",
+            "period": "reported 2017",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/48th-defendant-sentenced-federal-charges-arising-out-atf-led-operation-targeting-drug"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nm/pr/48th-defendant-sentenced-federal-charges-arising-out-atf-led-operation-targeting-drug",
+          "title": "48th Defendant Sentenced on Federal Charges Arising Out of ATF-Led Operation Targeting Drug Trafficking and Firearms Crime in Bernalillo County",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2017-10-31",
+          "claim": "DOJ reports that Margarito Ruiz was sentenced on 2017-10-31 for methamphetamine distribution. The 2017-10-31 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-margarito-ruiz-2017-10-31-development",
+          "occurredAt": "2017-10-31",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Margarito Ruiz was sentenced on 2017-10-31 for methamphetamine distribution. The 2017-10-31 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nm/pr/48th-defendant-sentenced-federal-charges-arising-out-atf-led-operation-targeting-drug",
+            "title": "48th Defendant Sentenced on Federal Charges Arising Out of ATF-Led Operation Targeting Drug Trafficking and Firearms Crime in Bernalillo County",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2017-10-31",
+            "claim": "DOJ reports that Margarito Ruiz was sentenced on 2017-10-31 for methamphetamine distribution. The 2017-10-31 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth6-nathanial-john-shoen",
+      "name": "Nathanial John Shoen",
+      "status": "convicted",
+      "statusAsOf": "2026-05-29",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ describes Nathanial John Shoen’s historical drug-case conduct in the United States.",
+            "period": "reported 2026",
+            "sourceUrl": "https://www.justice.gov/usao-mt/pr/missoula-man-sentenced-over-four-years-prison-drug-trafficking-charges"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mt/pr/missoula-man-sentenced-over-four-years-prison-drug-trafficking-charges",
+          "title": "Missoula man sentenced to over four years in prison on drug trafficking charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-05-29",
+          "claim": "DOJ reports that Nathanial John Shoen was sentenced by 2026-05-29 for possession with intent to distribute controlled substances. The 2026-05-29 release records a historical case outcome; it does not establish present custody or activity."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth6-nathanial-john-shoen-2026-05-29-development",
+          "occurredAt": "2026-05-29",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reports that Nathanial John Shoen was sentenced by 2026-05-29 for possession with intent to distribute controlled substances. The 2026-05-29 release records a historical case outcome; it does not establish present custody or activity.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mt/pr/missoula-man-sentenced-over-four-years-prison-drug-trafficking-charges",
+            "title": "Missoula man sentenced to over four years in prison on drug trafficking charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-05-29",
+            "claim": "DOJ reports that Nathanial John Shoen was sentenced by 2026-05-29 for possession with intent to distribute controlled substances. The 2026-05-29 release records a historical case outcome; it does not establish present custody or activity."
+          }
+        }
+      ]
+    },
+    {
       "id": "doj-corpus-indiana-2025-aaron-mooney",
       "name": "Aaron Mooney",
       "status": "charged",
