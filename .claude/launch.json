@@ -4,7 +4,7 @@
     {
       "name": "trace-api",
       "runtimeExecutable": "cmd",
-      "runtimeArgs": ["/c", "set TRACE_CLASSIFIER=mock&& set TRACE_LIVEWIRE_REPLAY_SECONDS=20&& cd backend && .venv\\Scripts\\trace.exe serve --port 8000"],
+      "runtimeArgs": ["/c", "set TRACE_CLASSIFIER=reflex&& set HF_HUB_OFFLINE=1&& set TRACE_LIVEWIRE_REPLAY_SECONDS=20&& cd backend && .venv\\Scripts\\trace.exe serve --port 8000"],
       "port": 8000
     },
     {
