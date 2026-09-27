@@ -1460,6 +1460,36 @@ input[type="range"] {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+/* Route evidence by pair type (Claude Code): interpreted corridors carry a
+   dashed marker and their transcription citations; narrative context is text. */
+.route-evidence-row.interpreted,
+.route-evidence-row.narrative {
+  align-items: flex-start;
+}
+.route-evidence-row.interpreted > i {
+  margin-top: 4px;
+  background: none !important;
+  border: 1px dashed #66788a;
+}
+.route-evidence-row.narrative > i {
+  margin-top: 4px;
+  opacity: 0.35;
+}
+.route-evidence-row .route-evidence-caveat {
+  color: #7d8b98;
+}
+.route-evidence-row .route-evidence-cites a,
+.route-evidence-row .route-evidence-cites span {
+  display: block;
+  margin-top: 2px;
+  color: #125f8a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.route-evidence-row .route-evidence-cites span {
+  color: #66788a;
+  text-decoration: none;
+}
 .country-price {
   padding: 20px 0;
   border-bottom: 1px solid var(--line);
@@ -3264,6 +3294,14 @@ select {
   color: #125f8a;
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+.map-report-detail a + a,
+.map-report-detail small {
+  display: block;
+  margin-top: 4px;
+}
+.map-report-detail.interpreted {
+  border-style: dashed;
 }
 .maplibregl-ctrl-bottom-right {
   bottom: 84px;

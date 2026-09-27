@@ -1,5 +1,25 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 // Published SQLite source observations; independent of modeled API fixtures.
+// With NEXT_PUBLIC_API_URL set, Health and Markets read only the live evidence API
+// (/api/evidence/*); this packaged snapshot is the no-API / API-failure fallback.
+
+import { API_BASE } from "./api";
+import {
+  fetchAllEvidenceValues,
+  fetchAllMarketObservations,
+  fetchEvidenceHealth,
+  fetchEvidenceOverdose,
+  fetchEvidenceValue,
+  fetchMarketObservationCountries,
+  fetchResearchModel,
+  healthIsComplete,
+  mapHealth,
+  mapMarketObservation,
+  mapMarketValue,
+  mapOverdoseRow,
+  type ApiEvidenceValueSummary,
+  type ApiMarketObservation,
+} from "./evidence-api";
 
 export type ObservedDomain =
   | "prevalence"
@@ -41,6 +61,12 @@ export interface ObservedRecord {
   lower?: number | null;
   upper?: number | null;
   status?: string | null;
+  /** Source wording for status (e.g. SDG nature label); shown when present. */
+  statusLabel?: string | null;
+  substanceDetail?: string | null;
+  /** /api/evidence/value/{id} key when the value is drillable. */
+  evidenceValueId?: string;
+  label?: string | null;
   method?: string | null;
   attribution?: string | null;
   geographicCoverage?: string | null;
@@ -195,6 +221,8 @@ export interface ObservedOverdosePoint {
   reportedValue: number | null;
   predictedValue: number | null;
   percentComplete: number | null;
+  percentPending?: number | null;
+  suppressed?: boolean;
   status: string;
   footnote: string | null;
   sourceId: string;
@@ -246,4 +274,160 @@ export function loadObservedUSOverdose(): Promise<ObservedOverdosePoint[]> {
     throw error;
   });
   return overdosePromise;
+}
+
+// ---------- live evidence API with packaged-snapshot fallback ----------
+
+export type EvidenceOrigin = "api" | "snapshot";
+export interface Sourced<T> {
+  data: T;
+  origin: EvidenceOrigin;
+  /** Why the packaged snapshot is shown when an API is configured. */
+  fallbackReason?: string;
+}
+
+export const EVIDENCE_API_CONFIGURED = Boolean(API_BASE);
+const HEALTH_DOMAINS = new Set<ObservedDomain>(["prevalence", "pwid", "treatment_contacts", "treatment_coverage"]);
+const healthPromises = new Map<string, Promise<Sourced<ObservedCountry | null>>>();
+const marketPromises = new Map<string, Promise<Sourced<ObservedCountry | null>>>();
+let marketCountsPromise: Promise<MarketCountryCounts | null> | undefined;
+let liveOverdosePromise: Promise<Sourced<ObservedOverdosePoint[]>> | undefined;
+let researchModelPromise: ReturnType<typeof fetchResearchModel> | undefined;
+
+function reason(error: unknown) {
+  return error instanceof Error ? error.message : String(error);
+}
+
+function emptyCountry(iso3: string): ObservedCountry {
+  return { iso3, observations: [], researchValues: [], researchSamples: [] };
+}
+
+/**
+ * Health rows from the API. `served` names the groups the API returned; an older
+ * API without PWID / treatment contacts gets only those groups from the snapshot.
+ */
+export function combineHealth(
+  iso3: string,
+  liveRows: ObservedRecord[],
+  snapshot: ObservedCountry | null,
+  served: Iterable<ObservedDomain> = HEALTH_DOMAINS,
+): ObservedCountry | null {
+  const live = new Set(served);
+  const base = snapshot ?? emptyCountry(iso3);
+  const observations = [
+    ...liveRows,
+    ...base.observations.filter((row) => HEALTH_DOMAINS.has(row.domain) && !live.has(row.domain)),
+  ];
+  if (!observations.length && !snapshot) return null;
+  return { ...base, observations };
+}
+
+/** Markets view for one country, entirely from the API: price/purity observations plus matched derivations. */
+export function buildMarketCountry(
+  iso3: string,
+  observations: ApiMarketObservation[],
+  values: ApiEvidenceValueSummary[],
+): ObservedCountry | null {
+  const rows = [
+    ...observations.filter((row) => row.iso3 === iso3).map(mapMarketObservation),
+    ...values.filter((value) => value.kind === "market" && value.iso3 === iso3).map(mapMarketValue),
+  ];
+  return rows.length ? { ...emptyCountry(iso3), observations: rows } : null;
+}
+
+export function loadHealthEvidence(iso3: string): Promise<Sourced<ObservedCountry | null>> {
+  const normalized = iso3.toUpperCase();
+  if (!API_BASE || !/^[A-Z]{3}$/.test(normalized))
+    return loadObservedCountry(normalized).then((data) => ({ data, origin: "snapshot" as const }));
+  const existing = healthPromises.get(normalized);
+  if (existing) return existing;
+  const result = fetchEvidenceHealth(API_BASE, normalized)
+    .then(async (health): Promise<Sourced<ObservedCountry | null>> => {
+      if (healthIsComplete(health))
+        return { data: health ? combineHealth(normalized, mapHealth(health), null) : null, origin: "api" };
+      // Older API without PWID / treatment contacts: fill only those groups from the snapshot.
+      const snapshot = await loadObservedCountry(normalized).catch(() => null);
+      return {
+        data: combineHealth(normalized, mapHealth(health!), snapshot, ["prevalence", "treatment_coverage"]),
+        origin: "api",
+      };
+    })
+    .catch(async (error: unknown): Promise<Sourced<ObservedCountry | null>> => {
+      healthPromises.delete(normalized);
+      return { data: await loadObservedCountry(normalized), origin: "snapshot", fallbackReason: reason(error) };
+    });
+  healthPromises.set(normalized, result);
+  return result;
+}
+
+export interface MarketCountryCounts {
+  /** Price/purity observations + matched derivations per country. */
+  byCountry: Map<string, { observations: number; derived: number }>;
+  totals: { observations: number; derived: number };
+}
+
+/** Per-country market counts from the API (country list and header); null without an API or on failure. */
+export function loadMarketCountryCounts(): Promise<MarketCountryCounts | null> {
+  if (!API_BASE) return Promise.resolve(null);
+  marketCountsPromise ??= fetchMarketObservationCountries(API_BASE)
+    .then((data) => ({
+      byCountry: new Map(data.countries.map((row) => [row.iso3, { observations: row.observations, derived: row.derived }])),
+      totals: data.totals,
+    }))
+    .catch(() => {
+      marketCountsPromise = undefined;
+      return null;
+    });
+  return marketCountsPromise;
+}
+
+export function loadMarketEvidence(iso3: string): Promise<Sourced<ObservedCountry | null>> {
+  const normalized = iso3.toUpperCase();
+  if (!API_BASE || !/^[A-Z]{3}$/.test(normalized))
+    return loadObservedCountry(normalized).then((data) => ({ data, origin: "snapshot" as const }));
+  const existing = marketPromises.get(normalized);
+  if (existing) return existing;
+  const result = Promise.all([
+    fetchAllMarketObservations(API_BASE, { iso3: normalized }),
+    fetchAllEvidenceValues(API_BASE, { kind: "market", iso3: normalized }),
+  ])
+    .then(([live, values]): Sourced<ObservedCountry | null> => ({
+      data: buildMarketCountry(normalized, live.observations, values.values),
+      origin: "api",
+    }))
+    .catch(async (error: unknown): Promise<Sourced<ObservedCountry | null>> => {
+      marketPromises.delete(normalized);
+      return { data: await loadObservedCountry(normalized), origin: "snapshot", fallbackReason: reason(error) };
+    });
+  marketPromises.set(normalized, result);
+  return result;
+}
+
+export function loadUSOverdose(): Promise<Sourced<ObservedOverdosePoint[]>> {
+  if (!API_BASE) return loadObservedUSOverdose().then((data) => ({ data, origin: "snapshot" as const }));
+  liveOverdosePromise ??= fetchEvidenceOverdose(API_BASE, "US")
+    .then((body): Sourced<ObservedOverdosePoint[]> => ({
+      data: body.rows.map((row) => mapOverdoseRow(row, body.source_url)),
+      origin: "api",
+    }))
+    .catch(async (error: unknown): Promise<Sourced<ObservedOverdosePoint[]>> => {
+      liveOverdosePromise = undefined;
+      return { data: await loadObservedUSOverdose(), origin: "snapshot", fallbackReason: reason(error) };
+    });
+  return liveOverdosePromise;
+}
+
+/** /api/evidence/value/{id} drilldown; only available with a configured API. */
+export function loadEvidenceValue(id: string) {
+  if (!API_BASE) return Promise.reject(new Error("Value drilldown needs the live evidence API."));
+  return fetchEvidenceValue(API_BASE, id);
+}
+
+export function loadResearchModel() {
+  if (!API_BASE) return Promise.reject(new Error("Research model needs the live evidence API."));
+  researchModelPromise ??= fetchResearchModel(API_BASE).catch((error) => {
+    researchModelPromise = undefined;
+    throw error;
+  });
+  return researchModelPromise;
 }

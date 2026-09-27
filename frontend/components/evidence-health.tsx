@@ -1,24 +1,27 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
 import { ExternalLink } from "lucide-react";
 import type { Country } from "@/lib/types";
 import {
-  loadObservedCountry,
-  loadObservedUSOverdose,
+  loadHealthEvidence,
+  loadUSOverdose,
+  type EvidenceOrigin,
   type ObservedCountry,
   type ObservedRecord,
   type ObservedOverdosePoint,
   type EvidenceClaim,
 } from "@/lib/observed-data";
+import { CDC_OVERDOSE_LABEL, COVERAGE_NATURE, coverageNatureLabel } from "@/lib/evidence-api";
+import { SnapshotNote } from "./evidence-value-detail";
 import "./evidence-health.css";
 
 const GROUPS: { key: string; label: string; explanation: string }[] = [
   { key: "prevalence", label: "Drug use", explanation: "Survey prevalence retains its original population, age band, sex and reference period." },
   { key: "pwid", label: "Injecting & infection", explanation: "Survey geography and populations vary; these estimates are not a matched country ranking." },
   { key: "treatment_contacts", label: "Treatment contacts", explanation: "People treated by primary drug; group and child rows can overlap. These are counts, not coverage." },
-  { key: "treatment_coverage", label: "Treatment coverage", explanation: "Published UN SDG 3.5.1 percentages. Officially modeled and country reported values are labeled separately." },
+  { key: "treatment_coverage", label: "Treatment coverage", explanation: "Published UN SDG 3.5.1 percentages. Every row is labelled: M = officially modelled estimate (not an observation); C = country-reported data." },
 ];
 
 function label(value?: string | null) {
@@ -44,10 +47,8 @@ function number(value: number | null, unit: string) {
 }
 
 function sourceStatus(row: ObservedRecord) {
-  if (row.domain === "treatment_coverage") {
-    if (row.status === "modeled" || row.status === "M") return "Officially modeled";
-    if (row.status === "country_data" || row.status === "country_reported" || row.status === "C") return "Country reported";
-  }
+  if (row.domain === "treatment_coverage") return coverageNatureLabel(row.status) ?? (row.status ? label(row.status) : "Nature code not stated");
+  if (row.statusLabel) return row.statusLabel;
   return row.status ? label(row.status) : null;
 }
 
@@ -71,6 +72,7 @@ function ObservationRows({ rows, compact = false }: { rows: ObservedRecord[]; co
             </div>
             <div className="eh-value">
               <b>{number(row.value, row.unit)}</b>
+              {row.domain === "treatment_coverage" && coverageNatureLabel(row.status) && <small className={`eh-nature ${coverageNatureLabel(row.status) === COVERAGE_NATURE.M ? "modelled" : "reported"}`}>{coverageNatureLabel(row.status)}</small>}
               {row.lower != null && row.upper != null && <small>Source interval {number(row.lower, row.unit)}–{number(row.upper, row.unit)}</small>}
             </div>
           </div>
@@ -78,7 +80,7 @@ function ObservationRows({ rows, compact = false }: { rows: ObservedRecord[]; co
             <span>Reference year {row.year ?? row.yearText ?? "unspecified"} · source edition {row.publicationYear ?? "year unspecified"}{sourceStatus(row) ? ` · ${sourceStatus(row)}` : ""}</span>
             {row.sourceUrl && <a href={row.sourceUrl} target="_blank" rel="noreferrer">Source <ExternalLink size={11} /></a>}
           </div>
-          {(row.caveat || row.method || row.geographicCoverage || row.sourceRow || row.denominator || row.injectingDefinition || row.sampleSize || row.reference) && <details className="eh-detail"><summary>Method and source detail</summary>{row.method && <p>Method: {row.method}</p>}{row.geographicCoverage && <p>Survey geography: {row.geographicCoverage}</p>}{row.denominator && <p>Denominator: {row.denominator}</p>}{row.injectingDefinition && <p>Injecting definition: {row.injectingDefinition}</p>}{row.sampleSize && <p>Sample size: {row.sampleSize}</p>}{row.reference && <p>Source reference: {row.reference}</p>}{row.attribution && <p>Attribution: {row.attribution}</p>}{row.sourceRow && <p>Source locator: {row.sourceRow.sheet ? `${row.sourceRow.sheet} · ` : ""}row {row.sourceRow.rowNo}{row.sourceRow.cellNo ? ` · cell ${row.sourceRow.cellNo}` : ""}</p>}{row.caveat && <p>{row.caveat}</p>}</details>}
+          {(row.caveat || row.substanceDetail || row.statusLabel || row.method || row.geographicCoverage || row.sourceRow || row.denominator || row.injectingDefinition || row.sampleSize || row.reference) && <details className="eh-detail"><summary>Method and source detail</summary>{row.substanceDetail && <p>Substance detail: {row.substanceDetail}</p>}{row.statusLabel && row.domain === "treatment_coverage" && <p>{row.statusLabel}</p>}{row.method && <p>Method: {row.method}</p>}{row.geographicCoverage && <p>Survey geography: {row.geographicCoverage}</p>}{row.denominator && <p>Denominator: {row.denominator}</p>}{row.injectingDefinition && <p>Injecting definition: {row.injectingDefinition}</p>}{row.sampleSize && <p>Sample size: {row.sampleSize}</p>}{row.reference && <p>Source reference: {row.reference}</p>}{row.attribution && <p>Attribution: {row.attribution}</p>}{row.sourceRow && <p>Source locator: {row.sourceRow.sheet ? `${row.sourceRow.sheet} · ` : ""}row {row.sourceRow.rowNo}{row.sourceRow.cellNo ? ` · cell ${row.sourceRow.cellNo}` : ""}</p>}{row.caveat && <p>{row.caveat}</p>}</details>}
         </article>
       ))}
       {rows.length > visible && <button className="eh-more" onClick={() => setVisible((n) => n + 25)}>Show 25 more of {rows.length} observations</button>}
@@ -108,13 +110,15 @@ export function CountryEvidence({ iso3 }: { iso3: string }) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [group, setGroup] = useState("prevalence");
+  const [origin, setOrigin] = useState<{ origin: EvidenceOrigin; reason?: string } | null>(null);
   useEffect(() => {
     let active = true;
     setLoading(true);
     setError("");
     setCountry(null);
-    loadObservedCountry(iso3)
-      .then((result) => { if (active) setCountry(result); })
+    setOrigin(null);
+    loadHealthEvidence(iso3)
+      .then((result) => { if (active) { setCountry(result.data); setOrigin({ origin: result.origin, reason: result.fallbackReason }); } })
       .catch((cause) => { if (active) setError((cause as Error).message); })
       .finally(() => { if (active) setLoading(false); });
     return () => { active = false; };
@@ -122,8 +126,9 @@ export function CountryEvidence({ iso3 }: { iso3: string }) {
   const rows = currentRows(country?.observations ?? [], group);
   return (
     <section className="eh-country">
-      <div className="section-line"><h3>Health evidence</h3><span>Source archive</span></div>
+      <div className="section-line"><h3>Health evidence</h3><span>{origin?.origin === "api" ? "Live evidence API" : "Source archive"}</span></div>
       <p className="eh-note">Source values use their own years and populations. Map year and model risk do not change these records.</p>
+      <SnapshotNote origin={origin?.origin ?? null} reason={origin?.reason} />
       <div className="eh-tabs" role="tablist" aria-label="Health evidence type">
         {GROUPS.map((item) => <button key={item.key} role="tab" aria-selected={group === item.key} className={group === item.key ? "active" : ""} onClick={() => setGroup(item.key)}>{item.label}</button>)}
       </div>
@@ -141,14 +146,17 @@ export function EvidenceHealth({ countries, selectedIso, onCountry }: { countrie
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [overdose, setOverdose] = useState<ObservedOverdosePoint[]>([]);
+  const [overdoseOrigin, setOverdoseOrigin] = useState<{ origin: EvidenceOrigin; reason?: string } | null>(null);
+  const [origin, setOrigin] = useState<{ origin: EvidenceOrigin; reason?: string } | null>(null);
   useEffect(() => { if (selectedIso) setIso3(selectedIso); }, [selectedIso]);
   useEffect(() => {
     let active = true;
     setCountry(null);
+    setOrigin(null);
     setLoading(true);
     setError("");
-    loadObservedCountry(iso3)
-      .then((result) => { if (active) setCountry(result); })
+    loadHealthEvidence(iso3)
+      .then((result) => { if (active) { setCountry(result.data); setOrigin({ origin: result.origin, reason: result.fallbackReason }); } })
       .catch((cause) => { if (active) setError((cause as Error).message); })
       .finally(() => { if (active) setLoading(false); });
     return () => { active = false; };
@@ -156,7 +164,9 @@ export function EvidenceHealth({ countries, selectedIso, onCountry }: { countrie
   useEffect(() => {
     if (iso3 !== "USA") return;
     let active = true;
-    loadObservedUSOverdose().then((rows) => { if (active) setOverdose(rows); }).catch(() => { if (active) setOverdose([]); });
+    loadUSOverdose()
+      .then((result) => { if (active) { setOverdose(result.data); setOverdoseOrigin({ origin: result.origin, reason: result.fallbackReason }); } })
+      .catch(() => { if (active) setOverdose([]); });
     return () => { active = false; };
   }, [iso3]);
   const rows = useMemo(() => currentRows(country?.observations ?? [], group).filter((row) => `${row.metric} ${row.substance ?? ""} ${row.population ?? ""} ${row.ageGroup ?? ""} ${row.referencePeriod ?? ""}`.toLowerCase().includes(query.toLowerCase())), [country, group, query]);
@@ -164,7 +174,8 @@ export function EvidenceHealth({ countries, selectedIso, onCountry }: { countrie
   const countryName = countries.find((item) => item.iso3 === iso3)?.name ?? iso3;
   return (
     <div className="eh-page">
-      <div className="view-heading"><div><h1>Health evidence</h1></div><span className="subtle-pill">Source archive</span></div>
+      <div className="view-heading"><div><h1>Health evidence</h1></div><span className="subtle-pill">{origin?.origin === "api" ? "Live evidence API" : "Source archive"}</span></div>
+      <SnapshotNote origin={origin?.origin ?? null} reason={origin?.reason} />
       <div className="eh-toolbar">
         <label>Country<select aria-label="Health evidence country" value={iso3} onChange={(event) => { setIso3(event.target.value); setQuery(""); }}><option value="COL">Colombia</option>{countries.filter((item) => item.iso3 !== "COL").sort((a, b) => a.name.localeCompare(b.name)).map((item) => <option key={item.iso3} value={item.iso3}>{item.name}</option>)}</select></label>
         <button className="eh-country-link" onClick={() => onCountry?.(iso3)}>Open country profile ↗</button>
@@ -173,12 +184,18 @@ export function EvidenceHealth({ countries, selectedIso, onCountry }: { countrie
       <div className="eh-heading"><div><h2>{countryName} <small>{iso3}</small></h2><p>{active.explanation}</p></div><span>{rows.length} source records</span></div>
       <label className="eh-search">Filter this source group<input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Drug, measure or population" /></label>
       {loading ? <p className="eh-empty">Loading source observations…</p> : error ? <p className="eh-empty">Source observations could not load: {error}</p> : <ObservationRows rows={rows} />}
-      {iso3 === "USA" && <USOverdose rows={overdose} />}
+      {iso3 === "USA" && <USOverdose rows={overdose} origin={overdoseOrigin} />}
     </div>
   );
 }
 
-function USOverdose({ rows }: { rows: ObservedOverdosePoint[] }) {
+function overdoseValue(row: ObservedOverdosePoint, value: number | null) {
+  // Suppressed CDC cells stay unavailable; they are never shown as 0.
+  if (row.suppressed || (value == null && /suppress/i.test(row.status))) return "Suppressed (unavailable)";
+  return number(value, row.unit);
+}
+
+function USOverdose({ rows, origin }: { rows: ObservedOverdosePoint[]; origin: { origin: EvidenceOrigin; reason?: string } | null }) {
   const indicators = useMemo(() => [...new Set(rows.map((row) => row.indicator))].sort(), [rows]);
   const [indicator, setIndicator] = useState("Drug Overdose Deaths");
   const [visible, setVisible] = useState(24);
@@ -187,10 +204,12 @@ function USOverdose({ rows }: { rows: ObservedOverdosePoint[] }) {
   const series = allSeries.slice(0, visible);
   return <section className="eh-overdose">
     <h2>US provisional mortality series</h2>
+    <span>{CDC_OVERDOSE_LABEL}</span>
+    <SnapshotNote origin={origin?.origin ?? null} reason={origin?.reason} />
     <p>CDC values use rolling 12-month-ending periods by occurrence jurisdiction. Drug-involved classes overlap within one death and must not be summed. “Number of Deaths” is all-cause mortality, and “Percent with drugs specified” is a percentage. Reported and reporting-delay-adjusted values remain separate; suppressed values remain unavailable.</p>
     {indicators.length ? <>
       <label>CDC indicator<select value={selected} onChange={(event) => { setIndicator(event.target.value); setVisible(24); }}>{indicators.map((item) => <option key={item} value={item}>{item}</option>)}</select></label>
-      <div className="eh-overdose-table"><table><thead><tr><th>12 months ending</th><th>Reported</th><th>Adjusted prediction</th><th>Completion</th><th>Source</th></tr></thead><tbody>{series.map((row) => <tr key={row.id}><td>{row.period}</td><td>{number(row.reportedValue, row.unit)}</td><td>{number(row.predictedValue, row.unit)}</td><td>{row.percentComplete == null ? "—" : `${row.percentComplete.toFixed(1)}%`}</td><td><a href={row.sourceUrl} target="_blank" rel="noreferrer">CDC <ExternalLink size={11} /></a></td></tr>)}</tbody></table></div>
+      <div className="eh-overdose-table"><table><thead><tr><th>12 months ending</th><th>Reported</th><th>Adjusted prediction</th><th>Completion</th><th>Source</th></tr></thead><tbody>{series.map((row) => <tr key={row.id}><td>{row.period}</td><td>{overdoseValue(row, row.reportedValue)}</td><td>{overdoseValue(row, row.predictedValue)}</td><td>{row.percentComplete == null ? "—" : `${row.percentComplete.toFixed(1)}%`}</td><td><a href={row.sourceUrl} target="_blank" rel="noreferrer">CDC <ExternalLink size={11} /></a></td></tr>)}</tbody></table></div>
       {series.some((row) => row.footnote) && <p className="eh-note">CDC note: {series.find((row) => row.footnote)?.footnote}</p>}
       {allSeries.length > visible && <button className="eh-more" onClick={() => setVisible((count) => count + 24)}>Show earlier periods ({allSeries.length - visible} remaining)</button>}
     </> : <p className="eh-empty">CDC source records are unavailable.</p>}

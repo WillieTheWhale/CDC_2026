@@ -1,4 +1,4 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 import type {
   Connection,
   Organization,
@@ -87,13 +87,22 @@ function validCalendarDate(value: unknown, partial = false): value is string {
   return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
 }
 
+// Optional fields may arrive as JSON null from the backend, which treats null as absent (people.py normalize()).
+function absent(value: unknown): value is null | undefined {
+  return value === undefined || value === null;
+}
+
+function withoutNulls<T extends object>(value: T): T {
+  return Object.fromEntries(Object.entries(value).filter(([, item]) => item !== null)) as T;
+}
+
 function validLifeStatus(value: unknown): value is PersonLifeStatus {
   if (!value || typeof value !== "object") return false;
   const status = value as Partial<PersonLifeStatus>;
   return (status.value === "deceased" || status.value === "unknown") &&
     sourceIsCitable(status.source) &&
-    (status.asOf === undefined || validCalendarDate(status.asOf)) &&
-    (status.deathDate === undefined || status.value === "deceased" && validCalendarDate(status.deathDate, true));
+    (absent(status.asOf) || validCalendarDate(status.asOf)) &&
+    (absent(status.deathDate) || status.value === "deceased" && validCalendarDate(status.deathDate, true));
 }
 
 const LEGAL_OUTCOMES = new Set(["reported", "arrested", "charged", "convicted", "sentenced", "acquitted", "overturned", "dismissed", "sanctioned", "delisted", "extradited", "released"]);
@@ -102,9 +111,9 @@ function validLegalStatus(value: unknown): value is PersonLegalStatus {
   const claim = value as Partial<PersonLegalStatus>;
   return LEGAL_OUTCOMES.has(claim.status ?? "") && validCalendarDate(claim.date, true) &&
     typeof claim.qualifier === "string" && claim.qualifier.trim().length > 0 &&
-    (claim.jurisdiction === undefined || typeof claim.jurisdiction === "string" && claim.jurisdiction.trim().length > 0) &&
-    (claim.offense === undefined || typeof claim.offense === "string" && claim.offense.trim().length > 0) &&
-    (claim.partial === undefined || typeof claim.partial === "boolean") && sourceIsCitable(claim.source);
+    (absent(claim.jurisdiction) || typeof claim.jurisdiction === "string" && claim.jurisdiction.trim().length > 0) &&
+    (absent(claim.offense) || typeof claim.offense === "string" && claim.offense.trim().length > 0) &&
+    (absent(claim.partial) || typeof claim.partial === "boolean") && sourceIsCitable(claim.source);
 }
 
 export function normalizeDataset(input: unknown): PeopleDataset {
@@ -134,9 +143,11 @@ export function normalizeDataset(input: unknown): PeopleDataset {
       organizationIds: person.organizationIds.filter((id) => organizationIds.has(id)),
       events: Array.isArray(person.events) ? person.events.filter(validEvent)
         .sort((a, b) => b.occurredAt.localeCompare(a.occurredAt)) : [],
-      lifeStatus: validLifeStatus(person.lifeStatus) ? person.lifeStatus : undefined,
-      legalHistory: Array.isArray(person.legalHistory) ? person.legalHistory.filter(validLegalStatus)
-        .sort((a, b) => b.date.localeCompare(a.date)) : [],
+      // lifeStatus is biographical only: it never replaces the legal `status`/`statusAsOf` above.
+      lifeStatus: validLifeStatus(person.lifeStatus) ? withoutNulls(person.lifeStatus) : undefined,
+      // Newest first by plain code-point order, matching the backend's sorted(..., reverse=True).
+      legalHistory: Array.isArray(person.legalHistory) ? person.legalHistory.filter(validLegalStatus).map(withoutNulls)
+        .sort((a, b) => a.date < b.date ? 1 : a.date > b.date ? -1 : 0) : [],
       photo: person.photo && validHttpUrl(person.photo.url) &&
         validHttpUrl(person.photo.sourceUrl) &&
         (!person.photo.licenseUrl || validHttpUrl(person.photo.licenseUrl)) &&

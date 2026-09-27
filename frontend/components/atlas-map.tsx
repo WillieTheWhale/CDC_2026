@@ -1,6 +1,6 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
-// Estimated-flow wind layer, city intensity and volume coloring added with
-// Claude Code (Anthropic).
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
+// Estimated-flow wind layer, city intensity, volume coloring and API-backed
+// route evidence (three pair types) added with Claude Code (Anthropic).
 // AI-assisted: country anchor fix written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -15,10 +15,13 @@ import { drugColor, formatNumber } from "@/lib/api";
 import { visibleModelRoutes } from "@/lib/route-visibility";
 import { countryAnchors, type Anchor } from "@/lib/country-anchors";
 import {
-  routeEvidence,
-  routeEvidenceSourceById,
-  type RouteEvidence,
+  evidenceForEdge,
+  evidencePeriod,
+  kgBasisNote,
+  pairTypeLabel,
+  type DrawableEvidence,
 } from "@/lib/route-evidence";
+import { useRouteEvidence } from "@/lib/route-evidence-store";
 import type { Drug } from "@/lib/types";
 import {
   fieldArrows,
@@ -136,11 +139,11 @@ export default function AtlasMap(props: Props) {
     y: number;
   } | null>(null);
   const [reportHover, setReportHover] = useState<{
-    route: RouteEvidence;
+    route: DrawableEvidence;
     x: number;
     y: number;
   } | null>(null);
-  const [reportDetail, setReportDetail] = useState<RouteEvidence | null>(null);
+  const [reportDetail, setReportDetail] = useState<DrawableEvidence | null>(null);
   const [windHover, setWindHover] = useState<{
     glyph: PlacedArrow;
     x: number;
@@ -176,15 +179,18 @@ export default function AtlasMap(props: Props) {
       ? tierEdges
       : tierEdges.filter((edge) => touchesView(bounds, routeCoordinates, edge.from, edge.to));
   }, [tierEdges, routeCoordinates, position]);
+  // Direct reported pairs and TRACE-interpreted corridors are drawn (as two
+  // distinct layers); narrative context has no endpoints and stays text-only.
+  const { index: evidence } = useRouteEvidence();
   const availableReports = useMemo(
-    () => routeEvidence.filter((route) =>
+    () => [...evidence.direct, ...evidence.interpreted].filter((route) =>
       (props.drug === "all" || props.drug === route.drug) &&
       routeCoordinates.get(route.from)?.lat != null &&
       routeCoordinates.get(route.from)?.lon != null &&
       routeCoordinates.get(route.to)?.lat != null &&
       routeCoordinates.get(route.to)?.lon != null,
     ),
-    [routeCoordinates, props.drug],
+    [evidence, routeCoordinates, props.drug],
   );
   const visibleReports = useMemo(
     () => {
@@ -196,6 +202,14 @@ export default function AtlasMap(props: Props) {
         : [];
     },
     [availableReports, routeCoordinates, props.showEvidence, position, localScale],
+  );
+  const visibleDirect = useMemo(
+    () => visibleReports.filter((route) => route.pair_type === "direct_reported_pair"),
+    [visibleReports],
+  );
+  const visibleInterpreted = useMemo(
+    () => visibleReports.filter((route) => route.pair_type === "interpreted_corridor"),
+    [visibleReports],
   );
   useEffect(() => {
     const controller = new AbortController();
@@ -472,6 +486,32 @@ export default function AtlasMap(props: Props) {
       const coordinate = routeCoordinates.get(iso3)!;
       return [coordinate.lon!, coordinate.lat!];
     };
+    const reportLayer = (id: string, data: DrawableEvidence[], alpha: number, width: number, height: number) =>
+      new ArcLayer<DrawableEvidence>({
+        id,
+        data,
+        getSourcePosition: (route) => point(route.from),
+        getTargetPosition: (route) => point(route.to),
+        getSourceColor: (route) => rgba(drugColor[route.drug], alpha),
+        getTargetColor: (route) => rgba(drugColor[route.drug], alpha),
+        getWidth: width,
+        getHeight: height,
+        greatCircle: true,
+        pickable: true,
+        autoHighlight: true,
+        highlightColor: [48, 80, 114, 210],
+        onHover: (info: PickingInfo<DrawableEvidence>) => {
+          setReportHover(info.object ? { route: info.object, x: info.x, y: info.y } : null);
+          if (info.object) setHover(null);
+        },
+        onClick: (info: PickingInfo<DrawableEvidence>) => {
+          if (!info.object) return false;
+          setReportDetail(info.object);
+          setHover(null);
+          setReportHover(null);
+          return true;
+        },
+      });
     overlay.current.setProps({
       layers: [
         new ScatterplotLayer<EstimatedCity>({
@@ -550,31 +590,10 @@ export default function AtlasMap(props: Props) {
           },
           transitions: { getWidth: 400 },
         }),
-        new ArcLayer<RouteEvidence>({
-          id: "reported-country-links",
-          data: visibleReports,
-          getSourcePosition: (route) => point(route.from),
-          getTargetPosition: (route) => point(route.to),
-          getSourceColor: (route) => rgba(drugColor[route.drug], 105),
-          getTargetColor: (route) => rgba(drugColor[route.drug], 105),
-          getWidth: 0.85,
-          getHeight: 0.42,
-          greatCircle: true,
-          pickable: true,
-          autoHighlight: true,
-          highlightColor: [48, 80, 114, 210],
-          onHover: (info: PickingInfo<RouteEvidence>) => {
-            setReportHover(info.object ? { route: info.object, x: info.x, y: info.y } : null);
-            if (info.object) setHover(null);
-          },
-          onClick: (info: PickingInfo<RouteEvidence>) => {
-            if (!info.object) return false;
-            setReportDetail(info.object);
-            setHover(null);
-            setReportHover(null);
-            return true;
-          },
-        }),
+        // Interpreted corridors: fainter, thinner and flatter than the direct
+        // reported pairs drawn above them, which keep their look.
+        reportLayer("interpreted-corridors", visibleInterpreted, 55, 0.55, 0.26),
+        reportLayer("reported-country-links", visibleDirect, 105, 0.85, 0.42),
         new ScatterplotLayer<Country>({
           id: "route-hubs",
           data: props.showRoutes && !localScale ? hubs : [],
@@ -600,7 +619,8 @@ export default function AtlasMap(props: Props) {
     props.countries,
     routeCoordinates,
     visibleEdges,
-    visibleReports,
+    visibleDirect,
+    visibleInterpreted,
     props.selected,
     props.showRoutes,
     position.zoom,
@@ -687,23 +707,32 @@ export default function AtlasMap(props: Props) {
             ? "City scale: this atlas has no sourced city-to-city route links"
             : position.zoom < 2.2
               ? `${props.showRoutes ? visibleEdges.length : 0} of ${props.edges.length} modeled · zoom for dated reports`
-              : `${props.showRoutes ? visibleEdges.length : 0} modeled · ${visibleReports.length} dated reports · ${position.zoom < 3.4 ? "regional" : "country"} view`}
+              : `${props.showRoutes ? visibleEdges.length : 0} modeled · ${visibleDirect.length} reported pairs · ${visibleInterpreted.length} interpreted corridors · ${position.zoom < 3.4 ? "regional" : "country"} view`}
         </div>
       )}
       {reportDetail && visibleReports.some((route) => route.id === reportDetail.id) && (
-        <section className="map-report-detail" aria-label="Published route evidence">
+        <section
+          className={`map-report-detail${reportDetail.pair_type === "interpreted_corridor" ? " interpreted" : ""}`}
+          aria-label="Published route evidence"
+        >
           <button type="button" aria-label="Close route evidence" onClick={() => setReportDetail(null)}>×</button>
           <b>{reportDetail.from} → {reportDetail.to}</b>
-          <span>{reportDetail.drug} · {reportDetail.basis}</span>
+          <span>{reportDetail.drug} · {pairTypeLabel[reportDetail.pair_type]}</span>
           <p>
-            {reportDetail.period
-              ? `Evidence period ${reportDetail.period[0]}${reportDetail.period[1] !== reportDetail.period[0] ? `–${reportDetail.period[1]}` : ""}`
-              : `Report published ${routeEvidenceSourceById.get(reportDetail.sourceId)?.publicationYear}`}
-            . Country link is schematic; no path or traffic volume is measured here.
+            {evidencePeriod(reportDetail)} · {reportDetail.basis}. {reportDetail.caveat}
           </p>
-          <a href={routeEvidenceSourceById.get(reportDetail.sourceId)?.url} target="_blank" rel="noreferrer">
-            {routeEvidenceSourceById.get(reportDetail.sourceId)?.publisher} · {reportDetail.sourceLocator} ↗
+          <a href={reportDetail.source.url} target="_blank" rel="noreferrer">
+            {reportDetail.source.publisher} · {reportDetail.source_locator} ↗
           </a>
+          {reportDetail.citations.map((c) =>
+            c.url ? (
+              <a key={c.key} href={c.url} target="_blank" rel="noreferrer">
+                Cites {c.publisher}: {c.title} ↗
+              </a>
+            ) : (
+              <small key={c.key}>Cites {c.publisher}: {c.title} (no URL on file)</small>
+            ),
+          )}
         </section>
       )}
       {!localScale && props.showDots && (props.colorBy === "volume" ? props.edges.length > 0 : props.risk.length > 0) && (
@@ -788,9 +817,24 @@ export default function AtlasMap(props: Props) {
             {formatNumber(hover.edge.kg)} kg estimated seizure scale ·{" "}
             {hover.edge.volume_norm.toFixed(2)} normalized
           </p>
-          {routeEvidence.filter((route) => route.drug === hover.edge.drug && route.from === hover.edge.from && route.to === hover.edge.to).slice(0, 1).map((route) => (
-            <small key={route.id}>Published country link: {routeEvidenceSourceById.get(route.sourceId)?.publisher} ({routeEvidenceSourceById.get(route.sourceId)?.publicationYear})</small>
-          ))}
+          <small>kg {kgBasisNote(hover.edge.kg_basis)}</small>
+          {(() => {
+            const linked = evidenceForEdge(evidence, hover.edge);
+            const direct = linked.filter((r) => r.pair_type === "direct_reported_pair");
+            const interpreted = linked.length - direct.length;
+            return (
+              <>
+                {direct.slice(0, 1).map((route) => (
+                  <small key={route.id}>Reported country pair: {route.source.publisher} ({route.source.publication_year})</small>
+                ))}
+                {interpreted > 0 && (
+                  <small>
+                    {interpreted} TRACE-interpreted corridor record{interpreted > 1 ? "s" : ""} (regional maps and text)
+                  </small>
+                )}
+              </>
+            );
+          })()}
           {hover.edge.drivers.slice(0, 3).map((d) => (
             <small key={d.feature}>{d.label}</small>
           ))}
@@ -810,7 +854,10 @@ export default function AtlasMap(props: Props) {
             {`toward ${windHover.glyph.flows[0]?.to.name}`}{" "}
             · strength {windHover.glyph.magnitude.toFixed(2)}
           </div>
-          <p>Not observed. Follows money (city population × GDP per capita) out of cities that modeled corridors feed.</p>
+          <p>
+            Not observed. Follows money (city population × GDP per capita) out of cities that modeled corridors feed.
+            {props.estimated && !props.estimated.live ? " Precomputed snapshot." : ""}
+          </p>
           {windHover.glyph.flows.map((f) => (
             <small key={`${f.drug}${f.from.name}${f.to.name}`}>{f.from.name} → {f.to.name} ({f.km} km)</small>
           ))}
@@ -822,10 +869,8 @@ export default function AtlasMap(props: Props) {
           top: Math.max(12, reportHover.y - 110),
         }}>
           <strong>{reportHover.route.from} → {reportHover.route.to}</strong>
-          <div>{reportHover.route.drug} · published country link</div>
-          <p>{reportHover.route.period
-            ? `${reportHover.route.period[0]}${reportHover.route.period[1] !== reportHover.route.period[0] ? `–${reportHover.route.period[1]}` : ""} evidence`
-            : `${routeEvidenceSourceById.get(reportHover.route.sourceId)?.publicationYear} assessment`}</p>
+          <div>{reportHover.route.drug} · {pairTypeLabel[reportHover.route.pair_type]}</div>
+          <p>{evidencePeriod(reportHover.route)} · {reportHover.route.source.publisher}</p>
           <small>Click for source and limitations</small>
         </div>
       )}

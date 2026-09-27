@@ -1,4 +1,4 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 import { useEffect, useMemo, useState } from "react";
 import {
@@ -35,7 +35,56 @@ import type { Country, Edge, LiveEvent, Price, RiskRow } from "@/lib/types";
 import { HistoryChart, Sparkline } from "./charts";
 import { CountryEvidence, PublishedContext } from "./evidence-health";
 import type { ObservedOverview } from "@/lib/observed-data";
-import { routeEvidence, routeEvidenceSourceById, routeEvidenceSources } from "@/lib/route-evidence";
+import {
+  evidenceForEdge,
+  evidencePeriod,
+  kgBasisNote,
+  pairTypeLabel,
+  type RouteEvidence,
+} from "@/lib/route-evidence";
+import { useRouteEvidence } from "@/lib/route-evidence-store";
+
+// One cited route-evidence record. Direct reported pairs keep the plain source
+// link; interpreted corridors are labelled as TRACE's transcription and list
+// the publications they transcribe; narrative context is text only.
+function EvidenceRecord({ record }: { record: RouteEvidence }) {
+  if (record.pair_type === "direct_reported_pair")
+    return (
+      <a className="route-evidence-row" href={record.source.url} target="_blank" rel="noreferrer">
+        <i style={{ background: drugColor[record.drug] }} />
+        <span>
+          <b>{record.from} → {record.to}</b>
+          <small>{record.drug} · {evidencePeriod(record)} · {record.source.publisher}, {record.source_locator}</small>
+        </span>
+        <ExternalLink size={13} />
+      </a>
+    );
+  return (
+    <div className={`route-evidence-row ${record.pair_type === "interpreted_corridor" ? "interpreted" : "narrative"}`}>
+      <i style={{ background: drugColor[record.drug] }} />
+      <span>
+        <b>
+          {record.pair_type === "narrative_context"
+            ? `${record.geography_from ?? "?"} → ${record.geography_to ?? "?"}`
+            : `${record.from} → ${record.to}`}
+        </b>
+        <small>{record.drug} · {pairTypeLabel[record.pair_type]} · {evidencePeriod(record)}</small>
+        {record.original_excerpt && <small>“{record.original_excerpt}”</small>}
+        <small className="route-evidence-caveat">{record.caveat}</small>
+        <small className="route-evidence-cites">
+          <a href={record.source.url} target="_blank" rel="noreferrer">{record.source.publisher} · {record.source_locator} ↗</a>
+          {record.citations.map((c) =>
+            c.url ? (
+              <a key={c.key} href={c.url} target="_blank" rel="noreferrer">{c.publisher}: {c.title} ↗</a>
+            ) : (
+              <span key={c.key}>{c.publisher}: {c.title}</span>
+            ),
+          )}
+        </small>
+      </span>
+    </div>
+  );
+}
 
 export function Empty({ children }: { children: React.ReactNode }) {
   return (
@@ -330,7 +379,11 @@ export function CountryInspector({
   const routes = edges.filter(
     (e) => e.from === country.iso3 || e.to === country.iso3,
   );
-  const publishedLinks = routeEvidence.filter(
+  const { index: evidence, status: evidenceStatus } = useRouteEvidence();
+  const publishedLinks = evidence.direct.filter(
+    (e) => e.from === country.iso3 || e.to === country.iso3,
+  );
+  const interpretedLinks = evidence.interpreted.filter(
     (e) => e.from === country.iso3 || e.to === country.iso3,
   );
   return (
@@ -549,7 +602,7 @@ export function CountryInspector({
                     {drugLabel[e.drug]} · {e.confidence}% confidence
                   </small>
                 </div>
-                <span className="mono">
+                <span className="mono" title={`kg ${kgBasisNote(e.kg_basis)}`}>
                   {formatNumber(e.kg)}
                   <small> kg est.</small>
                 </span>
@@ -558,21 +611,27 @@ export function CountryInspector({
           ) : (
             <Empty>No matching model corridors.</Empty>
           )}
+          {routes.length > 0 && (
+            <p className="source-note">kg is {kgBasisNote(routes[0].kg_basis)}.</p>
+          )}
           <div className="section-line">
-            <h3>{publishedLinks.length} published country links</h3>
+            <h3>{publishedLinks.length} reported country pairs</h3>
             <span>Dated reports</span>
           </div>
-          <p className="source-note">Curated source claims, separate from the selected model year. Lines join country coordinates, not measured travel paths. Missing links mean no entry in this collection, not no trade.</p>
-          {publishedLinks.map((link) => {
-            const source = routeEvidenceSourceById.get(link.sourceId);
-            return (
-              <a className="route-evidence-row" key={link.id} href={source?.url} target="_blank" rel="noreferrer">
-                <i style={{ background: drugColor[link.drug] }} />
-                <span><b>{link.from} → {link.to}</b><small>{link.drug} · {link.period ? `${link.period[0]}${link.period[1] !== link.period[0] ? `–${link.period[1]}` : ""} evidence` : `${source?.publicationYear} assessment`}</small></span>
-                <ExternalLink size={13} />
-              </a>
-            );
-          })}
+          <p className="source-note">Country pairs stated in the cited publications, separate from the selected model year. Lines join country coordinates, not measured travel paths. Missing links mean no entry in this collection, not no trade.</p>
+          {evidenceStatus === "loading" && <p className="quiet-note">Loading route evidence…</p>}
+          {evidenceStatus === "error" && <p className="quiet-note">Route evidence is unavailable from the data service.</p>}
+          {publishedLinks.map((link) => <EvidenceRecord key={link.id} record={link} />)}
+          {interpretedLinks.length > 0 && (
+            <>
+              <div className="section-line">
+                <h3>{interpretedLinks.length} interpreted corridors</h3>
+                <span>TRACE transcription</span>
+              </div>
+              <p className="source-note">TRACE&apos;s transcription of UNODC/EUDA regional route maps and report text. The maps are drawn between regions, so each pair is indicative, not verbatim.</p>
+              {interpretedLinks.map((link) => <EvidenceRecord key={link.id} record={link} />)}
+            </>
+          )}
           {detail?.prices.map((p) => (
             <div className="country-price" key={p.level + p.drug}>
               <span>
@@ -600,6 +659,9 @@ export function RouteInspector({
   onClose: () => void;
   onCountry: (iso: string) => void;
 }) {
+  const { index: evidence } = useRouteEvidence();
+  const linked = evidenceForEdge(evidence, edge);
+  const narrative = evidence.narrative.filter((r) => r.drug === edge.drug);
   return (
     <div className="route-inspector">
       <div className="inspector-top">
@@ -635,12 +697,29 @@ export function RouteInspector({
         {edge.probability === null ? "Baseline model corridor" : "Forecast corridor"}
         {DEMO ? " · saved snapshot" : ""}
       </p>
-      {routeEvidence.filter((link) => link.drug === edge.drug && link.from === edge.from && link.to === edge.to).map((link) => {
-        const source = routeEvidenceSourceById.get(link.sourceId);
-        return <a className="route-model-source" href={source?.url} key={link.id} target="_blank" rel="noreferrer">
-          Published country-pair context: {source?.publisher} {source?.publicationYear} · {link.sourceLocator} ↗
-        </a>;
-      })}
+      {edge.kg != null && (
+        <p className="source-note">
+          {formatNumber(edge.kg)} kg, {kgBasisNote(edge.kg_basis)}.
+        </p>
+      )}
+      <div className="section-line">
+        <h3>Route evidence</h3>
+        <span>{linked.length} record{linked.length === 1 ? "" : "s"}</span>
+      </div>
+      {linked.length ? (
+        linked.map((record) => <EvidenceRecord key={record.id} record={record} />)
+      ) : (
+        <p className="quiet-note">No cited record for this country pair in the collection.</p>
+      )}
+      {narrative.length > 0 && (
+        <>
+          <div className="section-line">
+            <h3>Regional context</h3>
+            <span>Text only</span>
+          </div>
+          {narrative.map((record) => <EvidenceRecord key={record.id} record={record} />)}
+        </>
+      )}
       <div className="section-line">
         <h3>Model input signals</h3>
       </div>
@@ -961,17 +1040,8 @@ export function Sources({
             : "Source retrieval times are shown below."}
         </p>
         {observed && <p className="source-note">Source archive {observed.snapshot.releaseTag} · exported {new Date(observed.snapshot.exportedAt).toLocaleDateString("en-GB", { timeZone: "UTC" })} · SHA-256 {observed.snapshot.databaseSha256.slice(0, 12)}…</p>}
-        <p className="source-note">Published country links are a curated, incomplete set from the primary reports below. Their source periods vary and are independent of the model year; absence of a link is not evidence of no trade. The public UNODC seizure export does not identify city-to-city journeys.</p>
+        <RouteEvidenceSourceList />
         <div className="source-list">
-          {routeEvidenceSources.map((source) => (
-            <a key={source.id} href={source.url} target="_blank" rel="noreferrer">
-              <div>
-                <h3>{source.title}</h3>
-                <small>{source.publisher} · Published {source.publicationYear} · {routeEvidence.filter((route) => route.sourceId === source.id).length} country links</small>
-              </div>
-              <ExternalLink size={15} />
-            </a>
-          ))}
           {observed && Object.entries(observed.sources).map(([id, source]) => (
             <a key={id} href={source.url} target="_blank" rel="noreferrer">
               <div>
@@ -1111,5 +1181,28 @@ export function Compare({
         </div>
       </section>
     </div>
+  );
+}
+// Route-evidence publications, grouped by pair type, with record counts.
+function RouteEvidenceSourceList() {
+  const { index } = useRouteEvidence();
+  return (
+    <>
+      <p className="source-note">Route evidence is a curated, incomplete set: country pairs stated in the primary reports below, TRACE&apos;s transcription of UNODC/EUDA regional route maps and text (labelled as such), and regional context kept as text. Source periods vary and are independent of the model year; absence of a link is not evidence of no trade. The public UNODC seizure export does not identify city-to-city journeys.</p>
+      <div className="source-list">
+        {index.sources.map((source) => (
+          <a key={source.id} href={source.url} target="_blank" rel="noreferrer">
+            <div>
+              <h3>{source.title}</h3>
+              <small>
+                {source.publisher} · Published {source.publication_year} · {source.count}{" "}
+                {source.layer === "narrative_context" ? "context statements" : source.layer === "interpreted_corridor" ? "interpreted corridors" : "country pairs"}
+              </small>
+            </div>
+            <ExternalLink size={15} />
+          </a>
+        ))}
+      </div>
+    </>
   );
 }

@@ -1,4 +1,4 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 import meta from "../../contracts/fixtures/meta.json";
 import countries from "../../contracts/fixtures/countries.json";
 import observed from "../../contracts/fixtures/routes_observed.json";
@@ -22,6 +22,7 @@ import type {
   Routes,
   SimulationRequest,
 } from "./types";
+import { fixtureRouteEvidence, type RouteEvidence } from "./route-evidence";
 
 export const API_BASE = (process.env.NEXT_PUBLIC_API_URL ?? "").replace(
   /\/$/,
@@ -149,14 +150,53 @@ export async function snapshotRisk(year: number): Promise<Envelope<Risk>> {
     return fixtureRisk(year);
   }
 }
-// Estimated local flows are precomputed files in both modes (map-only layer).
+// Estimated local flows (map-only layer). With the API connected, ask
+// /api/estimated-flows for a layer built from the live routes; until the
+// backend serves it (404) or if it fails, use the precomputed snapshot file.
+// The endpoint is probed once; a 404 switches straight to the snapshots.
+let estimatedEndpoint: "unknown" | "live" | "missing" = "unknown";
 export async function estimatedFlows(year: number, mode: Mode) {
   const { parseEstimated } = await import("./estimated-flows");
-  return parseEstimated(
-    await snapshotFile<Parameters<typeof parseEstimated>[0]>(
-      `/data/estimated/${mode}-${year}.json`,
-    ),
-  );
+  type File = Parameters<typeof parseEstimated>[0];
+  const snapshot = () => snapshotFile<File>(`/data/estimated/${mode}-${year}.json`);
+  if (!API_BASE || estimatedEndpoint === "missing") return parseEstimated(await snapshot());
+  const path = `/api/estimated-flows?year=${year}&mode=${mode}`;
+  const file = await once(path, async () => {
+    try {
+      const res = await fetch(`${API_BASE}${path}`, { signal: AbortSignal.timeout(15000) });
+      if (res.status === 404) estimatedEndpoint = "missing";
+      if (!res.ok) throw new Error(String(res.status));
+      const body = (await res.json()) as File;
+      if (body.data?.year !== year || body.data?.mode !== mode) throw new Error("mismatched layer");
+      estimatedEndpoint = "live";
+      return { ...body, live: true };
+    } catch {
+      return { ...(await snapshot()), live: false };
+    }
+  });
+  return parseEstimated(file);
+}
+// Route evidence: the whole cited set (a few hundred records) is paged in
+// once from /api/route-evidence and filtered on the client by drug, pair
+// type and view. Without the API, the curated direct pairs are the fixture.
+export async function routeEvidence(): Promise<RouteEvidence[]> {
+  if (!API_BASE) return fixtureRouteEvidence;
+  return once("/api/route-evidence", async () => {
+    const out: RouteEvidence[] = [];
+    let cursor: string | null = null;
+    for (let page = 0; page < 20; page++) {
+      const q = new URLSearchParams({ limit: "250" });
+      if (cursor) q.set("cursor", cursor);
+      const body: Envelope<RouteEvidence[]> & { meta: { next_cursor?: string | null } } =
+        await request(`/api/route-evidence?${q}`, () => {
+          throw new Error("unreachable");
+        });
+      out.push(...body.data);
+      cursor = body.meta.next_cursor ?? null;
+      if (!cursor) break;
+    }
+    return out;
+  });
 }
 export const api = {
   meta: () => request<Envelope<Catalog>>("/api/meta", () => meta),

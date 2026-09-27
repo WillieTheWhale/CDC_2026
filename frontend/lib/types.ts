@@ -49,6 +49,10 @@ export interface Edge {
     contribution: number;
     direction: string;
   }[];
+  /** /api/route-evidence ids supporting this drug/from/to (API only; absent in snapshots). */
+  evidence_ids?: string[];
+  /** How `kg` was obtained; always allocated_seizure_scale today. */
+  kg_basis?: "allocated_seizure_scale" | "direct_pair_observation";
 }
 export interface Routes {
   year: number;

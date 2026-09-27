@@ -1,7 +1,19 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
-import type { Drug } from "./types";
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
+// Route evidence: cited records behind /api/routes edges, in the
+// /api/route-evidence shape. Three layers, kept visibly separate:
+//  - direct_reported_pair: a country pair stated in a cited publication;
+//  - interpreted_corridor: TRACE's transcription of UNODC/EUDA regional route
+//    maps and report text (indicative, not verbatim);
+//  - narrative_context: regional text with no country endpoints, never drawn.
+// With the API connected these records come from /api/route-evidence. The
+// hardcoded direct pairs below are only the no-API fixture fallback.
+import type { Drug, Edge } from "./types";
 
-export type RouteEvidenceBasis =
+export type RouteEvidencePairType =
+  | "direct_reported_pair"
+  | "interpreted_corridor"
+  | "narrative_context";
+type DirectBasis =
   | "reported seizure origin/destination"
   | "reported provenance"
   | "official route assessment";
@@ -10,23 +22,53 @@ export interface RouteEvidenceSource {
   id: string;
   publisher: string;
   title: string;
-  publicationYear: number;
+  publication_year: number;
   url: string;
 }
-
+export interface RouteEvidenceCitation {
+  key: string;
+  publisher: string;
+  title: string;
+  publication_year: number;
+  url: string | null;
+}
 export interface RouteEvidence {
   id: string;
   drug: Drug;
-  from: string;
-  to: string;
-  sourceId: string;
-  sourceLocator: string;
-  basis: RouteEvidenceBasis;
+  from: string | null;
+  to: string | null;
+  geography_from: string | null;
+  geography_to: string | null;
+  pair_type: RouteEvidencePairType;
+  basis: string;
   period: [number, number] | null;
-  geometryPrecision: "country pair";
+  source: RouteEvidenceSource;
+  source_locator: string;
+  citations: RouteEvidenceCitation[];
+  original_excerpt: string | null;
+  geometry_precision: string;
+  caveat: string;
+  supports_edge_ids: string[];
+}
+/** A record with two country endpoints (direct pair or interpreted corridor). */
+export type DrawableEvidence = RouteEvidence & { from: string; to: string };
+
+export const pairTypeLabel: Record<RouteEvidencePairType, string> = {
+  direct_reported_pair: "Reported country pair",
+  interpreted_corridor: "TRACE transcription of regional maps and text",
+  narrative_context: "Regional context (text only)",
+};
+// Wording for Edge.kg_basis wherever a kg figure is shown.
+export function kgBasisNote(basis: Edge["kg_basis"]): string {
+  return basis === "direct_pair_observation"
+    ? "reported for this country pair"
+    : "allocated from national seizure totals; not an observed pair volume";
 }
 
-export const routeEvidenceSources: RouteEvidenceSource[] = [
+export const DIRECT_CAVEAT =
+  "Country pair stated in the cited publication at this locator. Not a volume estimate or an annual observation; no city, road or port path.";
+
+const fixtureSourceRows: { id: string; publisher: string; title: string; publicationYear: number; url: string }[] = [
   { id: "unodc-cocaine-2023", publisher: "UNODC", title: "Global Report on Cocaine 2023", publicationYear: 2023, url: "https://www.unodc.org/documents/data-and-analysis/cocaine/Global_cocaine_report_2023.pdf" },
   { id: "unodc-haiti-2023", publisher: "UNODC", title: "Haiti criminal markets assessment", publicationYear: 2023, url: "https://www.unodc.org/documents/data-and-analysis/toc/Haiti_assessment_UNODC.pdf" },
   { id: "euda-heroin-2024", publisher: "EUDA / Europol", title: "EU Drug Market: Heroin and other opioids — trafficking and supply", publicationYear: 2024, url: "https://www.euda.europa.eu/publications/eu-drug-markets/heroin-and-other-opioids/trafficking-and-supply_en" },
@@ -41,7 +83,7 @@ export const routeEvidenceSources: RouteEvidenceSource[] = [
 // Each row has an explicit country-pair claim in the cited primary publication.
 // A publication year or broad assessment is not an annual observation. No row
 // carries a trafficked-volume estimate or a city/road/port path.
-type EvidenceRow = [Drug, string, string, string, [number, number] | null, string, RouteEvidenceBasis];
+type EvidenceRow = [Drug, string, string, string, [number, number] | null, string, DirectBasis];
 const rows: EvidenceRow[] = [
   ["cocaine", "COL", "ECU", "unodc-cocaine-2023", [2019, 2020], "The Americas, pp. 51–52", "official route assessment"],
   ["cocaine", "COL", "PER", "unodc-cocaine-2023", null, "The Americas, pp. 51–52", "official route assessment"],
@@ -96,18 +138,86 @@ const rows: EvidenceRow[] = [
   ["meth", "MMR", "IND", "incb-2025", [2024, 2024], "Paragraph 527", "official route assessment"],
 ];
 
-export const routeEvidence: RouteEvidence[] = rows.map(
-  ([drug, from, to, sourceId, period, sourceLocator, basis]) => ({
+const fixtureSources = new Map(
+  fixtureSourceRows.map(({ publicationYear, ...s }) => [s.id, { ...s, publication_year: publicationYear }]),
+);
+
+/** No-API fixture only: the curated direct reported pairs. */
+export const fixtureRouteEvidence: RouteEvidence[] = rows.map(
+  ([drug, from, to, sourceId, period, source_locator, basis]) => ({
     id: `${drug}:${from}:${to}:${sourceId}`,
     drug,
     from,
     to,
-    sourceId,
-    sourceLocator,
+    geography_from: null,
+    geography_to: null,
+    pair_type: "direct_reported_pair",
     basis,
     period,
-    geometryPrecision: "country pair",
+    source: fixtureSources.get(sourceId)!,
+    source_locator,
+    citations: [],
+    original_excerpt: null,
+    geometry_precision: "country pair",
+    caveat: DIRECT_CAVEAT,
+    supports_edge_ids: [`${drug}:${from}:${to}`],
   }),
 );
 
-export const routeEvidenceSourceById = new Map(routeEvidenceSources.map((source) => [source.id, source]));
+export interface RouteEvidenceIndex {
+  all: RouteEvidence[];
+  direct: DrawableEvidence[];
+  interpreted: DrawableEvidence[];
+  narrative: RouteEvidence[];
+  byId: Map<string, RouteEvidence>;
+  byEdgeId: Map<string, RouteEvidence[]>;
+  sources: (RouteEvidenceSource & { layer: RouteEvidencePairType; count: number })[];
+}
+const typeOrder: Record<RouteEvidencePairType, number> = {
+  direct_reported_pair: 0,
+  interpreted_corridor: 1,
+  narrative_context: 2,
+};
+export function indexRouteEvidence(records: RouteEvidence[]): RouteEvidenceIndex {
+  const all = [...records].sort((a, b) => typeOrder[a.pair_type] - typeOrder[b.pair_type]);
+  const drawable = (r: RouteEvidence): r is DrawableEvidence =>
+    r.pair_type !== "narrative_context" && !!r.from && !!r.to && r.from !== r.to;
+  const byEdgeId = new Map<string, RouteEvidence[]>();
+  const sources = new Map<string, RouteEvidenceIndex["sources"][number]>();
+  for (const r of all) {
+    for (const edgeId of r.supports_edge_ids)
+      byEdgeId.set(edgeId, [...(byEdgeId.get(edgeId) ?? []), r]);
+    const s = sources.get(r.source.id);
+    if (s) s.count++;
+    else sources.set(r.source.id, { ...r.source, layer: r.pair_type, count: 1 });
+  }
+  return {
+    all,
+    direct: all.filter((r): r is DrawableEvidence => r.pair_type === "direct_reported_pair" && drawable(r)),
+    interpreted: all.filter((r): r is DrawableEvidence => r.pair_type === "interpreted_corridor" && drawable(r)),
+    narrative: all.filter((r) => r.pair_type === "narrative_context"),
+    byId: new Map(all.map((r) => [r.id, r])),
+    byEdgeId,
+    sources: [...sources.values()].sort(
+      (a, b) => typeOrder[a.layer] - typeOrder[b.layer] || a.publisher.localeCompare(b.publisher),
+    ),
+  };
+}
+export const emptyRouteEvidence = indexRouteEvidence([]);
+
+/**
+ * Evidence behind one modeled edge. Uses the edge's `evidence_ids` (API order:
+ * direct reported pairs first); snapshot edges without ids fall back to the
+ * records whose `supports_edge_ids` name this edge.
+ */
+export function evidenceForEdge(index: RouteEvidenceIndex, edge: Pick<Edge, "id" | "evidence_ids">): RouteEvidence[] {
+  if (edge.evidence_ids?.length)
+    return edge.evidence_ids.flatMap((id) => index.byId.get(id) ?? []);
+  return index.byEdgeId.get(edge.id) ?? [];
+}
+
+export function evidencePeriod(r: RouteEvidence): string {
+  return r.period
+    ? `${r.period[0]}${r.period[1] !== r.period[0] ? `–${r.period[1]}` : ""} evidence`
+    : `${r.source.publication_year} publication`;
+}

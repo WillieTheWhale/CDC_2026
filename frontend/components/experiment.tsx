@@ -1,6 +1,6 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   CartesianGrid,
   Line,
@@ -12,13 +12,14 @@ import {
   YAxis,
 } from "recharts";
 import type { Experiment } from "@/lib/api";
-import { loadObservedCountry } from "@/lib/observed-data";
+import { EVIDENCE_API_CONFIGURED, loadObservedCountry } from "@/lib/observed-data";
 import type {
   ObservedCountry,
   ObservedOverview,
   ResearchValue,
 } from "@/lib/observed-data";
 import type { Country } from "@/lib/types";
+import { EvidenceValueDrawer } from "./evidence-value-detail";
 import "./evidence-markets.css";
 
 const fmt = (n: number | null | undefined, digits = 3) =>
@@ -32,9 +33,11 @@ const fmt = (n: number | null | undefined, digits = 3) =>
 function SourceTrail({
   value,
   country,
+  onTrace,
 }: {
   value: ResearchValue;
   country: ObservedCountry;
+  onTrace?: (metricId: string) => void;
 }) {
   const sample = country.researchSamples.find(
     (r) => r.metricId === value.metricId,
@@ -104,6 +107,19 @@ function SourceTrail({
           </li>
         ))}
       </ul>
+      {onTrace ? (
+        <button
+          className="evd-trigger em-drill"
+          onClick={() => onTrace(value.metricId)}
+        >
+          Trace this value: formula, inputs and source cells →
+        </button>
+      ) : (
+        <p className="er-note">
+          Full value drilldown (original workbook cells, World Bank download and
+          edition revisions) needs the live evidence API.
+        </p>
+      )}
     </div>
   );
 }
@@ -136,6 +152,10 @@ function Study({
   const [iso3, setIso3] = useState("COL"),
     [country, setCountry] = useState<ObservedCountry | null>(null),
     [error, setError] = useState("");
+  // /api/evidence/value/{metric_id} drilldown for research values (API only).
+  const [drillValue, setDrillValue] = useState<string | null>(null);
+  const closeDrill = useCallback(() => setDrillValue(null), []);
+  const onTrace = EVIDENCE_API_CONFIGURED ? setDrillValue : undefined;
   useEffect(() => {
     if (!countries.some((r) => r.iso3 === iso3))
       setIso3(countries[0]?.iso3 ?? "");
@@ -353,11 +373,31 @@ function Study({
                       <td>{r.year ?? "—"}</td>
                       <td>{r.drug ?? "—"}</td>
                       <td className="numeric">
-                        {fmt(
-                          r.value,
-                          metric === "seizure_edition_revision_pct" ? 2 : 3,
-                        )}{" "}
-                        {r.unit}
+                        {onTrace ? (
+                          <button
+                            className="evd-trigger"
+                            title="Open formula, inputs and source cells"
+                            onClick={(event) => {
+                              event.stopPropagation();
+                              setMetricId(r.metricId);
+                              onTrace(r.metricId);
+                            }}
+                          >
+                            {fmt(
+                              r.value,
+                              metric === "seizure_edition_revision_pct" ? 2 : 3,
+                            )}{" "}
+                            {r.unit}
+                          </button>
+                        ) : (
+                          <>
+                            {fmt(
+                              r.value,
+                              metric === "seizure_edition_revision_pct" ? 2 : 3,
+                            )}{" "}
+                            {r.unit}
+                          </>
+                        )}
                       </td>
                       <td>{r.supportCount}</td>
                     </tr>
@@ -382,7 +422,7 @@ function Study({
             </span>
           </header>
           {selected && country ? (
-            <SourceTrail value={selected} country={country} />
+            <SourceTrail value={selected} country={country} onTrace={onTrace} />
           ) : (
             <p className="er-empty">
               Select a row to inspect original source inputs.
@@ -395,6 +435,7 @@ function Study({
         observation years accompany every contributing input. World Bank
         `lastupdated` is metadata, not a publication year.
       </p>
+      <EvidenceValueDrawer valueId={drillValue} onClose={closeDrill} />
     </>
   );
 }

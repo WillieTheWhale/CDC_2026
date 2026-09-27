@@ -1,6 +1,10 @@
 // AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 // Estimated local flows: a labelled, map-only layer built by
 // `uv run trace estimate-flows` (backend/trace_backend/model/estimated_flows.py).
+// The build needs city populations (Natural Earth) and GDP per capita that
+// /api/routes does not carry, so it cannot be derived from live edges in the
+// browser. lib/api.ts asks /api/estimated-flows (same payload) and falls back
+// to the snapshot files in public/data/estimated/; `live` records which.
 // Arrows follow money (city population x GDP per capita) out of the cities
 // that modeled corridors feed. They are never counted in scores or tables.
 import type { Drug, Edge } from "./types";
@@ -26,8 +30,10 @@ export interface EstimatedLayer {
   flows: EstimatedFlow[];
   cities: EstimatedCity[];
   note: string;
+  live: boolean; // true when served by the API, false for a snapshot file
 }
 interface EstimatedFile {
+  live?: boolean;
   meta: { note: string };
   data: {
     year: number;
@@ -51,6 +57,7 @@ export function parseEstimated(file: EstimatedFile): EstimatedLayer {
     year: data.year,
     mode: data.mode,
     note: file.meta.note,
+    live: file.live ?? false,
     cities,
     flows: data.flows.map(([drug, generation, strength, from, to, km]) => ({
       drug: data.drugs[drug],

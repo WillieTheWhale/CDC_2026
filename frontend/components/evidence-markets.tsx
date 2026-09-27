@@ -1,7 +1,7 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   CartesianGrid,
   Line,
@@ -11,13 +11,21 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { loadObservedCountry } from "@/lib/observed-data";
+import {
+  EVIDENCE_API_CONFIGURED,
+  loadMarketCountryCounts,
+  loadMarketEvidence,
+} from "@/lib/observed-data";
 import type {
+  EvidenceOrigin,
+  MarketCountryCounts,
   ObservedCountry,
   ObservedOverview,
   ObservedRecord,
 } from "@/lib/observed-data";
 import type { Country } from "@/lib/types";
+import { marketUnitLabel } from "@/lib/evidence-api";
+import { EvidenceValueDrawer, SnapshotNote } from "./evidence-value-detail";
 import "./evidence-markets.css";
 
 type MarketRecord = ObservedRecord;
@@ -37,17 +45,13 @@ function number(value: number | null | undefined, digits = 2) {
     return value.toLocaleString(undefined, { maximumSignificantDigits: 3 });
   return value.toLocaleString(undefined, { maximumFractionDigits: digits });
 }
-function unit(unit: string | null | undefined) {
-  const labels: Record<string, string> = {
-    usd_per_gram: "USD/g",
-    usd_per_pure_gram: "USD/pure g",
-    usd_per_tablet: "USD/tablet",
-    usd_per_unit: "USD/unit",
-    percent: "%",
-    mg_per_tablet: "mg/tablet",
-    ratio: "×",
-  };
-  return labels[unit ?? ""] ?? (unit || "unit unavailable");
+function unit(unit: string | null | undefined, metric?: string | null) {
+  return marketUnitLabel(unit, metric);
+}
+/** /api/evidence/value/{id} key for a market derivation, when the API is configured. */
+function drillId(record: MarketRecord) {
+  if (!EVIDENCE_API_CONFIGURED || record.domain !== "market_derived") return null;
+  return record.evidenceValueId ?? (record.derivedId != null ? String(record.derivedId) : null);
 }
 function drugMatch(record: MarketRecord, drug: string) {
   if (drug === "all") return true;
@@ -83,17 +87,41 @@ export function EvidenceMarkets({
   countries?: Country[];
 }) {
   const catalog = overview as MarketOverview;
-  const marketTotals = overview.countrySummaries.reduce(
-    (totals, row) => ({
-      observations: totals.observations + (row.counts.market_price ?? 0),
-      derived: totals.derived + (row.counts.market_derived ?? 0),
-    }),
-    { observations: 0, derived: 0 },
+  // Live per-country counts (API); the snapshot catalog is the no-API fallback.
+  const [live, setLive] = useState<MarketCountryCounts | null>(null);
+  useEffect(() => {
+    let active = true;
+    loadMarketCountryCounts().then((counts) => {
+      if (active) setLive(counts);
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
+  const marketTotals = useMemo(
+    () =>
+      live?.totals ?? {
+        observations: overview.countrySummaries.reduce(
+          (total, row) => total + (row.counts.market_price ?? 0),
+          0,
+        ),
+        derived: overview.countrySummaries.reduce(
+          (total, row) => total + (row.counts.market_derived ?? 0),
+          0,
+        ),
+      },
+    [live, overview],
   );
   const countries = useMemo(() => {
     const counts = new Map<string, number>();
-    for (const row of catalog.marketCatalog ?? [])
-      counts.set(row.iso3, (counts.get(row.iso3) ?? 0) + row.count);
+    if (live) {
+      for (const [iso3, n] of live.byCountry)
+        if (n.observations + n.derived > 0)
+          counts.set(iso3, n.observations + n.derived);
+    } else {
+      for (const row of catalog.marketCatalog ?? [])
+        counts.set(row.iso3, (counts.get(row.iso3) ?? 0) + row.count);
+    }
     const names = new Map(countryNames.map((c) => [c.iso3, c.name]));
     return [...counts]
       .map(
@@ -107,7 +135,7 @@ export function EvidenceMarkets({
         (a, b) =>
           b.marketCount! - a.marketCount! || a.name.localeCompare(b.name),
       );
-  }, [catalog, countryNames]);
+  }, [catalog, countryNames, live]);
   const [iso3, setIso3] = useState("");
   const [country, setCountry] = useState<ObservedCountry | null>(null);
   const [loading, setLoading] = useState(false);
@@ -118,6 +146,12 @@ export function EvidenceMarkets({
   const [year, setYear] = useState("latest");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [visibleCount, setVisibleCount] = useState(80);
+  const [origin, setOrigin] = useState<{
+    origin: EvidenceOrigin;
+    reason?: string;
+  } | null>(null);
+  const [drillValue, setDrillValue] = useState<string | null>(null);
+  const closeDrill = useCallback(() => setDrillValue(null), []);
   useEffect(() => {
     setVisibleCount(80);
   }, [iso3, drug, query, measure, level, year]);
@@ -133,10 +167,13 @@ export function EvidenceMarkets({
     setLoading(true);
     setError("");
     setCountry(null);
+    setOrigin(null);
     setSelectedId(null);
-    loadObservedCountry(iso3)
-      .then((data) => {
-        if (active) setCountry(data);
+    loadMarketEvidence(iso3)
+      .then((result) => {
+        if (!active) return;
+        setCountry(result.data);
+        setOrigin({ origin: result.origin, reason: result.fallbackReason });
       })
       .catch(() => {
         if (active)
@@ -265,8 +302,10 @@ export function EvidenceMarkets({
         <span className="em-count">
           {marketTotals.observations.toLocaleString()} country observations ·{" "}
           {marketTotals.derived.toLocaleString()} matched derivations
+          {live ? " (live API)" : ""}
         </span>
       </div>
+      <SnapshotNote origin={origin?.origin ?? null} reason={origin?.reason} />
       <div className="em-controls">
         <div className="em-control wide">
           <label htmlFor="em-country">Country</label>
@@ -397,7 +436,23 @@ export function EvidenceMarkets({
                         </td>
                         <td>{r.marketLevel || "—"}</td>
                         <td className="numeric">
-                          {number(r.value)} {unit(r.unit)}
+                          {drillId(r) ? (
+                            <button
+                              className="evd-trigger"
+                              title="Open formula, inputs and source cells"
+                              onClick={(event) => {
+                                event.stopPropagation();
+                                setSelectedId(r.id);
+                                setDrillValue(drillId(r));
+                              }}
+                            >
+                              {number(r.value)} {unit(r.unit, r.metric)}
+                            </button>
+                          ) : (
+                            <>
+                              {number(r.value)} {unit(r.unit, r.metric)}
+                            </>
+                          )}
                         </td>
                         <td>{r.publicationYear ?? "n.d."}</td>
                       </tr>
@@ -457,7 +512,7 @@ export function EvidenceMarkets({
                     />
                     <Tooltip
                       formatter={(v) => [
-                        `${number(Number(v))} ${unit(selected.unit)}`,
+                        `${number(Number(v))} ${unit(selected.unit, selected.metric)}`,
                         metricName(selected),
                       ]}
                       contentStyle={{
@@ -490,7 +545,7 @@ export function EvidenceMarkets({
                 <dl>
                   <dt>Measurement</dt>
                   <dd>
-                    {number(selected.value)} {unit(selected.unit)} ·{" "}
+                    {number(selected.value)} {unit(selected.unit, selected.metric)} ·{" "}
                     {selected.year ?? "year unavailable"}
                   </dd>
                   <dt>Source basis</dt>
@@ -510,7 +565,7 @@ export function EvidenceMarkets({
                       <dt>Original value</dt>
                       <dd>
                         {number(selected.originalValue)}{" "}
-                        {selected.originalUnit ?? "original unit unavailable"}
+                        {selected.originalUnit || "(unit cell blank in source)"}
                         {selected.originalLower != null ||
                         selected.originalUpper != null
                           ? ` · source range ${selected.originalLower ?? "?"}–${selected.originalUpper ?? "?"}`
@@ -578,7 +633,7 @@ export function EvidenceMarkets({
                             ? "Purity input"
                             : "Price input"}
                         </strong>
-                        {number(r.value)} {unit(r.unit)} ·{" "}
+                        {number(r.value)} {unit(r.unit, r.metric)} ·{" "}
                         {r.year ?? "year unavailable"} ·{" "}
                         {r.sourceRow
                           ? `${r.sourceRow.sheet}, row ${r.sourceRow.rowNo}${r.sourceRow.cellNo != null ? `, column ${r.sourceRow.cellNo}` : ""}`
@@ -591,6 +646,21 @@ export function EvidenceMarkets({
                     ))}
                   </ul>
                 )}
+                {drillId(selected) && (
+                  <button
+                    className="evd-trigger em-drill"
+                    onClick={() => setDrillValue(drillId(selected))}
+                  >
+                    Trace this value: formula, inputs and source cells →
+                  </button>
+                )}
+                {selected.domain === "market_derived" &&
+                  !EVIDENCE_API_CONFIGURED && (
+                    <p className="em-note">
+                      Value drilldown (formula, inputs and original cells) needs
+                      the live evidence API.
+                    </p>
+                  )}
                 {selected.domain === "market_derived" && !inputs.length && (
                   <p className="em-note">
                     Contributing row IDs:{" "}
@@ -611,6 +681,7 @@ export function EvidenceMarkets({
         Western Europe and US series; it is not a global panel. Different
         workbook editions are kept separate.
       </p>
+      <EvidenceValueDrawer valueId={drillValue} onClose={closeDrill} />
     </div>
   );
 }
