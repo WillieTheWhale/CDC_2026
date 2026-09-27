@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1476,
-    "associations": 1250,
-    "evidenced": 1250,
+    "people": 1490,
+    "associations": 1261,
+    "evidenced": 1261,
     "missing": 0,
     "invalid": 0
   },
@@ -449,6 +449,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "west_central_africa_historical_cases_2009_2025.json": {
+      "people": 14,
+      "associations": 11,
+      "evidenced": 11,
+      "missing": 0,
+      "invalid": 0
+    },
     "weymouth_street_dto_2025.json": {
       "people": 33,
       "associations": 33,
@@ -731,6 +738,36 @@
     "MMR": {
       "associations": 8,
       "evidenced": 8,
+      "missing": 0,
+      "invalid": 0
+    },
+    "GNB": {
+      "associations": 4,
+      "evidenced": 4,
+      "missing": 0,
+      "invalid": 0
+    },
+    "PRT": {
+      "associations": 1,
+      "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    "LBR": {
+      "associations": 1,
+      "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    "SEN": {
+      "associations": 2,
+      "evidenced": 2,
+      "missing": 0,
+      "invalid": 0
+    },
+    "CIV": {
+      "associations": 3,
+      "evidenced": 3,
       "missing": 0,
       "invalid": 0
     }
