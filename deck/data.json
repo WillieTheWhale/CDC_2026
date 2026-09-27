@@ -142,11 +142,11 @@
     "afghan": "contracts/fixtures/afghan_ban.json"
   },
   "people": {
-    "total": 1678,
-    "organizations": 193,
-    "convicted": 905,
-    "charged": 447,
-    "sanctioned": 250,
+    "total": 2477,
+    "organizations": 227,
+    "convicted": 1409,
+    "charged": 456,
+    "sanctioned": 536,
     "reported": 76
   },
   "screenshots": {
@@ -271,10 +271,10 @@
     "pending_count": 3
   },
   "git": {
-    "sha": "c2af47a",
-    "subject": "deck: claim the corridor provenance now that it is checkable",
-    "when": "2026-09-27T05:37:50+00:00",
-    "count": "227"
+    "sha": "ec66357",
+    "subject": "deck: regenerate figures after People reaches 2,477",
+    "when": "2026-09-27T06:37:00+00:00",
+    "count": "255"
   },
-  "built_at": "2026-09-27 05:37 UTC"
+  "built_at": "2026-09-27 06:37 UTC"
 }
