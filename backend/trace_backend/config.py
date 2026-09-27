@@ -41,6 +41,9 @@ DRUG_LABELS = {"cocaine": "Cocaine / crack", "heroin": "Heroin / opiates", "meth
                "cannabis": "Cannabis"}
 # Relative harm weights for exposure (higher = more acute health harm per unit of flow).
 HARM_WEIGHTS = {"cocaine": 1.0, "heroin": 1.3, "meth": 1.1, "cannabis": 0.3}
+# Spillover risk score weights (model/spillover.py). Kept here so /api/risk can report them without importing
+# the model stack (statsmodels, scipy, scikit-learn).
+RISK_WEIGHTS = {"exposure": 0.45, "vulnerability": 0.35, "protection": 0.20}
 
 YEAR_MIN = 2000
 ROUTE_YEAR_MIN = 2006  # first year of UNODC annex seizure series in the archive

@@ -22,8 +22,11 @@ from functools import lru_cache
 from fastapi import APIRouter, HTTPException, Query
 
 from .. import config
+from .responses import UTF8JSONResponse
 
-router = APIRouter()
+# Titles and locators carry en/em dashes; declare the charset and ASCII-escape them (responses.py) so clients that
+# default to ISO-8859-1 without a charset no longer show "â€“".
+router = APIRouter(default_response_class=UTF8JSONResponse)
 
 DRUGS = ("cocaine", "heroin", "meth", "cannabis")
 PAIR_TYPES = ("direct_reported_pair", "interpreted_corridor", "narrative_context")

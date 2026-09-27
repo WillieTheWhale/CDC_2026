@@ -33,6 +33,21 @@ PRIMARY_ROLE = {"seizure_edition_revision_pct": "newest", "cocaine_seizure_next_
 REVISION_LABEL = ("Source-edition revision: the same country, year and drug was published with a different value in a "
                   "later annex edition. This is a reporting revision, not a real-world change in flows.")
 DRUG_ALIAS = {"meth": "methamphetamine"}
+PWID_ESTIMATE = {"source_estimate": "Source-published estimate compiled by UNODC (annex 4.1/4.2); survey geography, "
+                                    "population and method vary by row; not a matched country ranking"}
+INDIRECT_LABEL = "Indirect estimate (source method: multiplier, capture-recapture or modelling), not a direct count"
+_INDIRECT = re.compile(r"indirect|multiplier|capture.?recapture|model", re.I)
+PWID_METRIC = {"people_who_inject_drugs": "People who inject drugs",
+               "hiv_among_pwid": "HIV prevalence among people who inject drugs",
+               "hcv_among_pwid": "Hepatitis C prevalence among people who inject drugs",
+               "hbv_active_among_pwid": "Active hepatitis B prevalence among people who inject drugs"}
+TREATMENT_LABEL = ("Persons treated by primary drug (UNODC annex 5.1). Counts, not coverage. Drug-group and "
+                   "specific-drug rows overlap and must not be summed.")
+# /api/evidence/market-observations drug filter: TRACE drug keys -> substring patterns on the exact source substance.
+MARKET_DRUG = {"cocaine": ["cocaine", "crack"], "heroin": ["heroin"], "meth": ["methamphetamine"],
+               "methamphetamine": ["methamphetamine"],
+               "cannabis": ["cannabis", "marijuana", "marihuana", "hashish"]}
+UNIT_MISSING = "Unit not stated in source"
 
 
 # ------------------------------------------------------------------ helpers
@@ -115,16 +130,31 @@ def _in(n: int) -> str:
 _LIST_SQL = """
 SELECT * FROM (
   SELECT 'research' AS kind, v.metric_id AS id, v.metric_id AS sk, v.metric_key, d.label, v.iso3, v.drug, v.year,
-         v.value, d.unit
+         v.value, d.unit, NULL AS form, NULL AS market_level, NULL AS source_publication_year, NULL AS source_id,
+         NULL AS source_url, d.formula, NULL AS inputs_json
   FROM {research_values} v JOIN {research_metric_definitions} d USING (metric_key)
   UNION ALL
   SELECT 'market', CAST(m.derived_id AS TEXT), printf('%012d', m.derived_id), m.metric_code,
          coalesce(md.label, m.metric_code) || ': ' || m.substance
            || CASE WHEN m.form IS NOT NULL AND m.form <> 'unspecified' THEN ' (' || m.form || ')' ELSE '' END
            || CASE WHEN m.market_level IS NOT NULL THEN ', ' || m.market_level ELSE '' END,
-         m.iso3, m.substance, m.year, m.value, m.unit
+         m.iso3, m.substance, m.year, m.value, m.unit, m.form, m.market_level, ms.edition, m.source_id, ms.url,
+         m.formula, m.inputs_json
   FROM {market_derived} m LEFT JOIN {market_metric_definitions} md ON md.metric_code = m.metric_code
+  LEFT JOIN {market_sources} ms ON ms.source_id = m.source_id
 ) WHERE 1=1"""
+
+
+def _summary(r: dict) -> dict:
+    """One /values item; the fields after `unit` are additive (market provenance; null for research)."""
+    out = {k: r[k] for k in ("id", "kind", "metric_key", "label", "iso3", "drug", "year", "value", "unit", "form",
+                             "market_level", "source_publication_year", "source_id", "source_url")}
+    out["formula_expression"] = r["formula"]
+    raw = json.loads(r["inputs_json"]) if r["inputs_json"] else None
+    out["market_inputs"] = raw
+    out["input_observation_ids"] = ([int(v) for k, v in raw.items() if k.endswith("_observation_id")]
+                                    if raw is not None else None)
+    return out
 
 
 @router.get("/api/evidence/values")
@@ -152,11 +182,13 @@ def list_values(iso3: str | None = Query(None, pattern="^[A-Za-z]{3}$"), drug: s
     page_where = where + (" AND (kind, sk) > (?, ?)" if last else "")
     rows = _rows(f"{_LIST_SQL}{page_where} ORDER BY kind, sk LIMIT ?", [*params, *(last or []), limit + 1])
     nxt = _cursor_encode(fkey, [rows[limit - 1]["kind"], rows[limit - 1]["sk"]]) if len(rows) > limit else None
-    items = [{k: r[k] for k in ("id", "kind", "metric_key", "label", "iso3", "drug", "year", "value", "unit")}
-             for r in rows[:limit]]
+    items = [_summary(r) for r in rows[:limit]]
     return _envelope({"values": items}, "trace_research_v2", "unodc_wdr_editions", "wb_wdi",
                      notes=["Research values are TRACE's retrospective derivations; market values are exact-product "
-                            "UNODC price/purity derivations. Open /api/evidence/value/{id} for formula and inputs."],
+                            "UNODC price/purity derivations. Open /api/evidence/value/{id} for formula and inputs.",
+                            "form, market_level, source_publication_year (source edition), source_id, source_url, "
+                            "market_inputs and input_observation_ids describe market values; they are null for research "
+                            "values, whose per-input editions are in the drilldown."],
                      total=total, next_cursor=nxt)
 
 
@@ -357,7 +389,8 @@ def get_value(value_id: str):
 @router.get("/api/evidence/health/{iso3}")
 def get_health(iso3: str, reference_period: str | None = Query(None, pattern="^(past_year|past_month|lifetime)$"),
                substance: str | None = Query(None, max_length=80), limit: int = Query(500, ge=1, le=5000)):
-    """Drug-use prevalence (UNODC annex 1.2/1.4) and SDG 3.5.1 treatment coverage (modelled M vs country C)."""
+    """Drug-use prevalence (UNODC annex 1.2/1.4), PWID and infections among them (annex 4.1/4.2), persons treated
+    (annex 5.1) and SDG 3.5.1 treatment coverage (modelled M vs country C). `limit` caps each list."""
     if not re.fullmatch(r"[A-Za-z]{3}", iso3):
         _missing("unknown_country", f"{iso3} is not an ISO3 code.")
     iso3 = iso3.upper()
@@ -381,8 +414,21 @@ def get_health(iso3: str, reference_period: str | None = Query(None, pattern="^(
     cov = _rows("SELECT c.*, s.title, s.url, s.edition_year, s.publisher FROM {health_treatment_coverage} c "
                 f"LEFT JOIN {{health_sources}} s USING (source_id) WHERE {cw} "
                 "ORDER BY c.year, c.substance_group, c.sex, c.nature_code LIMIT ?", [*cp, limit])
-    if not ptotal and not ctotal:
-        _missing("no_health_evidence", f"No prevalence or treatment coverage rows for {iso3}.")
+    ww, wp = "w.iso3 = ?", [iso3]
+    wtotal = _rows(f"SELECT count(*) AS n FROM {{health_pwid}} w WHERE {ww}", wp)[0]["n"]
+    pwid = _rows("SELECT w.*, s.title, s.url, s.edition_year, s.publisher FROM {health_pwid} w "
+                 f"LEFT JOIN {{health_sources}} s USING (source_id) WHERE {ww} "
+                 "ORDER BY w.year, w.metric, w.sex, w.source_id, w.row_no, w.cell_no LIMIT ?", [*wp, limit])
+    tw, tp = "t.iso3 = ?", [iso3]
+    if substance:
+        tw += " AND (lower(t.drug_group) = ? OR lower(t.drug) = ?)"
+        tp += [substance.strip().lower()] * 2
+    ttotal = _rows(f"SELECT count(*) AS n FROM {{health_treatment}} t WHERE {tw}", tp)[0]["n"]
+    treat = _rows("SELECT t.*, s.title, s.url, s.edition_year, s.publisher FROM {health_treatment} t "
+                  f"LEFT JOIN {{health_sources}} s USING (source_id) WHERE {tw} "
+                  "ORDER BY t.year, t.drug_group, t.drug, t.sex, t.source_id, t.row_no LIMIT ?", [*tp, limit])
+    if not (ptotal or ctotal or wtotal or ttotal):
+        _missing("no_health_evidence", f"No prevalence, PWID, treatment or treatment coverage rows for {iso3}.")
 
     def src(r):
         return {"source_id": r["source_id"], "title": r["title"], "publisher": r["publisher"], "url": r["url"],
@@ -412,8 +458,39 @@ def get_health(iso3: str, reference_period: str | None = Query(None, pattern="^(
         "attribution": r["source_attribution"] or None, "footnotes": footnotes(r["footnotes_json"]),
         "source": src(r), "source_row_no": r["source_row_no"],
     } for r in cov]
+    def text(v):
+        return v.strip() if isinstance(v, str) and v.strip() else None
+
+    pwid_rows = []
+    for r in pwid:
+        indirect = bool(_INDIRECT.search(r["method"] or ""))
+        pwid_rows.append({
+            "metric": r["metric"], "metric_label": PWID_METRIC.get(r["metric"], r["metric"]),
+            "geography_name": r["geography_name"], "year": r["year"], "year_text": text(r["year_text"]),
+            "sex": text(r["sex"]), "age_group": text(r["age_group"]), "value": r["value"], "low": r["low"],
+            "high": r["high"], "unit": r["unit"], "denominator": text(r["denominator"]),
+            "injecting_definition": text(r["injecting_definition"]),
+            "geographic_coverage": text(r["geographic_coverage"]), "sample_size": text(r["sample_size"]),
+            "reference": text(r["reference"]), "method": text(r["method"]), "attribution": text(r["attribution"]),
+            "notes": text(r["notes"]), "estimate_status": r["estimate_status"],
+            "estimate_label": PWID_ESTIMATE.get(r["estimate_status"], r["estimate_status"]),
+            "indirect_estimate": indirect, "indirect_label": INDIRECT_LABEL if indirect else None,
+            "source": src(r), "source_row": {"sheet": r["sheet"], "row_no": r["row_no"], "cell_no": r["cell_no"]},
+        })
+    treatment_rows = [{
+        "drug_group": r["drug_group"], "drug": r["drug"], "geography_name": r["geography_name"], "year": r["year"],
+        "year_text": text(r["year_text"]), "sex": r["sex"], "persons_treated": r["persons_treated"],
+        "unit": "persons", "specified_reference_year": text(r["specified_reference_year"]),
+        "coverage_note": text(r["coverage"]), "source": src(r),
+        "source_row": {"sheet": r["sheet"], "row_no": r["row_no"]},
+    } for r in treat]
     return _envelope({
         "iso3": iso3,
+        "pwid": {"total": wtotal, "rows": pwid_rows,
+                 "label": "People who inject drugs and HIV/HCV/HBV among them: source-published estimates with "
+                          "their own survey geography, population, method and year. Not a matched country ranking.",
+                 "estimate_labels": PWID_ESTIMATE, "indirect_label": INDIRECT_LABEL},
+        "treatment": {"total": ttotal, "rows": treatment_rows, "label": TREATMENT_LABEL},
         "prevalence": {"total": ptotal, "rows": prevalence,
                        "label": "Source-native prevalence observations; populations, ages, methods and reference "
                                 "periods differ and are not directly comparable. Not a complete country ranking."},
@@ -423,7 +500,99 @@ def get_health(iso3: str, reference_period: str | None = Query(None, pattern="^(
                                "nature_labels": NATURE},
     }, "unodc_wdr_health", "un_sdg_351",
         notes=["Modelled coverage (nature M) is an estimate, not an observed count.",
+               "PWID and infection values are source-published estimates; rows flagged indirect_estimate were "
+               "produced by indirect or model-based methods according to the source.",
+               "Treatment contacts are counts of people treated, not coverage; group and child drug rows overlap.",
                "The 2024 adult prevalence data are sparse and are not a complete country ranking."])
+
+
+# ------------------------------------------------------------------ market observations
+_MARKET_NOTES = ["UNODC World Drug Report price and purity observations as published; not trade flows, margins or "
+                 "route gradients.",
+                 "unit is the normalised unit where TRACE could convert, else the source's own unit text; null means "
+                 "the source did not state a unit (never inferred). original_unit keeps the source text.",
+                 "Different workbook editions are separate observations; do not merge them into one series."]
+
+
+def _market_obs(r: dict) -> dict:
+    orig_unit = (r["original_unit"] or "").strip() or None
+    unit = r["normalized_unit"] or orig_unit
+    est = bool(r["publisher_estimate"])
+    return {
+        "observation_id": r["observation_id"], "iso3": r["iso3"], "country": r["country"], "year": r["year"],
+        "drug_group": r["drug_group"], "substance": r["substance"], "form": r["form"],
+        "market_level": r["market_level"], "measure": r["measure"], "basis": r["basis"],
+        "value": r["normalized_value"] if r["normalized_value"] is not None else r["original_value"],
+        "unit": unit, "unit_note": None if unit else UNIT_MISSING,
+        "normalized_value": r["normalized_value"], "normalized_unit": r["normalized_unit"],
+        "original_value": r["original_value"], "original_unit": orig_unit, "original_text": r["original_text"],
+        "minimum": r["minimum"], "maximum": r["maximum"], "publisher_estimate": est,
+        "status_label": "Publisher estimate (flagged in source)" if est else "Source-reported observation",
+        "source": {"source_id": r["source_id"], "url": r["url"], "edition": r["edition"], "citation": r["citation"]},
+        "source_row": {"sheet": r["sheet"], "row_no": r["row_no"], "col_no": r["col_no"]},
+    }
+
+
+@router.get("/api/evidence/market-observations")
+def list_market_observations(
+        iso3: str | None = Query(None, pattern="^[A-Za-z]{3}$"),
+        drug: str | None = Query(None, max_length=60, description="TRACE drug key (cocaine, heroin, meth, cannabis) "
+                                                                  "or a substring of the source substance"),
+        substance: str | None = Query(None, max_length=120, description="Case-insensitive substring of the source "
+                                                                        "substance or form"),
+        market_level: str | None = Query(None, pattern="^(retail|wholesale)$"),
+        measure: str | None = Query(None, pattern="^(price|purity)$"),
+        year: int | None = None, limit: int = Query(500, ge=1, le=5000),
+        cursor: str | None = Query(None, max_length=1024)):
+    """Published UNODC price and purity observations (market_observations), ordered by observation_id."""
+    w, p = "1=1", []
+    if iso3:
+        w += " AND o.iso3 = ?"
+        p.append(iso3.upper())
+    if drug:
+        d = drug.strip().lower()
+        pats = MARKET_DRUG.get(d, [d])
+        w += " AND (" + " OR ".join(["lower(o.substance) LIKE ?"] * len(pats)) + ")"
+        p += [f"%{x}%" for x in pats]
+    if substance:
+        w += " AND lower(coalesce(o.substance, '') || ' ' || coalesce(o.form, '')) LIKE ?"
+        p.append(f"%{substance.strip().lower()}%")
+    for col, val in (("market_level", market_level), ("measure", measure), ("year", year)):
+        if val is not None:
+            w += f" AND o.{col} = ?"
+            p.append(val)
+    fkey = json.dumps([iso3 and iso3.upper(), drug and drug.strip().lower(),
+                       substance and substance.strip().lower(), market_level, measure, year])
+    total = _rows(f"SELECT count(*) AS n FROM {{market_observations}} o WHERE {w}", p)[0]["n"]
+    last = _cursor_decode(cursor, fkey, 1)
+    pw = w + (" AND o.observation_id > ?" if last else "")
+    rows = _rows("SELECT o.*, s.url, s.edition, s.citation FROM {market_observations} o "
+                 f"LEFT JOIN {{market_sources}} s ON s.source_id = o.source_id WHERE {pw} "
+                 "ORDER BY o.observation_id LIMIT ?", [*p, *(last or []), limit + 1])
+    nxt = _cursor_encode(fkey, [rows[limit - 1]["observation_id"]]) if len(rows) > limit else None
+    return _envelope({"observations": [_market_obs(r) for r in rows[:limit]]}, "unodc_wdr_editions",
+                     notes=_MARKET_NOTES, total=total, next_cursor=nxt)
+
+
+@router.get("/api/evidence/market-observations/countries")
+def market_observation_countries():
+    """Per-country counts of published price/purity observations and matched market derivations."""
+    obs = _rows("SELECT iso3, max(country) AS country, count(*) AS observations, "
+                "sum(measure = 'price') AS price, sum(measure = 'purity') AS purity, min(year) AS first_year, "
+                "max(year) AS last_year FROM {market_observations} WHERE iso3 IS NOT NULL GROUP BY iso3")
+    der = {r["iso3"]: r["n"] for r in _rows("SELECT iso3, count(*) AS n FROM {market_derived} "
+                                           "WHERE iso3 IS NOT NULL GROUP BY iso3")}
+    out = {r["iso3"]: {**r, "derived": der.get(r["iso3"], 0)} for r in obs}
+    for iso, n in der.items():
+        out.setdefault(iso, {"iso3": iso, "country": None, "observations": 0, "price": 0, "purity": 0,
+                             "first_year": None, "last_year": None, "derived": n})
+    countries = sorted(out.values(), key=lambda r: r["iso3"])
+    return _envelope({"countries": countries,
+                      "totals": {"observations": sum(r["observations"] for r in countries),
+                                 "derived": sum(r["derived"] for r in countries)}},
+                     "unodc_wdr_editions",
+                     notes=["Counts of published rows per country; a count reflects how much a country's "
+                            "authorities reported to UNODC, not market size or activity.", *_MARKET_NOTES[:1]])
 
 
 # ------------------------------------------------------------------ overdose

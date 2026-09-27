@@ -49,9 +49,12 @@ deck/        judging pitch deck (rebuilds itself from this repo)
 | Website deployment | backend (deploy only) | live at https://trace-atlas-gules.vercel.app (Vercel project `trace-atlas`, root `frontend/`, `NEXT_PUBLIC_API_URL` = live API) |
 | Route evidence API | backend | done (`/api/route-evidence`: 51 direct reported pairs, 234 interpreted corridors, 4 narrative claims; `evidence_ids`/`kg_basis` on route edges) |
 | Evidence drilldown API | backend | done (`/api/evidence/*`: 3,995 research and market values traced to formula, inputs and original cells; health and CDC overdose with the required labels) |
-| Frontend shell + map | frontend | not started |
-| Country Screen + Risk Board | frontend | not started |
-| Simulator, Live Wire, Market Board | frontend | not started |
+| Frontend shell + map | frontend | done: live at https://trace-atlas-gules.vercel.app (atlas map with year slider and 2025 forecast, full-screen mode, drug filters, estimated local flows) |
+| Country Screen + Risk Board | frontend | done (risk watchlist and board, country inspector with routes, indicators, harm reduction and briefing) |
+| Simulator, Live Wire, Market Board | frontend | done (Scenarios tab with policy dates, Live Wire feed, Markets tab; Experiment tab for the Afghan ban test) |
+| People atlas | frontend (People data), backend (API) | done: source-cited people, country-level only, served live from GitHub main every 10 min; countryless browse; legal history and life status |
+| Live evidence on the site | backend (frontend edits approved by owner) | done: map route evidence, Health, Markets and research values read the live API (with value drilldowns); static snapshots are only the offline fallback |
+| Merged database (`database_new`) | backend | done: `backend/scripts/merge_databases.py` = canonical archive + derived API tables + route-evidence seeds (76 tables); uploaded to the team Drive folder as `database_new.sqlite.gz` + `database_new.json` |
 | Map: all years, land anchors, smooth playback, estimated local flows | backend (frontend edits approved by owner) | done: every route year and risk year in snapshot mode; route arrows anchored on land; playback without reloads; labelled estimated-flow arrow layer and volume coloring (`uv run trace estimate-flows`) |
 | Pitch deck | presentation | done (`deck/`, 4:45 + live demo, rebuilds from repo) |
 

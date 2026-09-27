@@ -13,10 +13,12 @@ from __future__ import annotations
 
 import sqlite3
 from contextlib import contextmanager
-
-import pandas as pd
+from typing import TYPE_CHECKING
 
 from . import config
+
+if TYPE_CHECKING:  # pandas is imported on first use so the read-only API endpoints never load it
+    import pandas as pd
 
 DTYPES = "_dtypes"
 
@@ -69,6 +71,8 @@ def table_exists(name: str) -> bool:
 
 
 def read_table(name: str, where: str | None = None, params: tuple = ()) -> pd.DataFrame:
+    import pandas as pd
+
     with connect(read_only=True) as con:
         schema = _schema_of(con, name)
         if schema is None:
@@ -87,11 +91,15 @@ def read_table(name: str, where: str | None = None, params: tuple = ()) -> pd.Da
 
 
 def query(sql: str, params: tuple = ()) -> pd.DataFrame:
+    import pandas as pd
+
     with connect(read_only=True) as con:
         return pd.read_sql_query(sql, con, params=params)
 
 
 def write_table(name: str, df: pd.DataFrame) -> int:
+    import pandas as pd
+
     df = df.copy()
     bools = [c for c in df.columns if df[c].dtype == bool or
              (df[c].dtype == object and df[c].dropna().map(type).eq(bool).all() and df[c].notna().any())]

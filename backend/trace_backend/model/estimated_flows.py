@@ -18,7 +18,8 @@ The route model works country to country, so zoomed-in views are sparse. This fi
 
 Inputs are population, wealth, distance and modeled route density only. No enforcement,
 customs or detection variable is used (design boundary). Cities: Natural Earth populated places
-(public domain). Output: frontend/public/data/estimated/{mode}-{year}.json.
+(public domain). Output: frontend/public/data/estimated/{mode}-{year}.json. The API serves the same layer
+live from the served route edges at /api/estimated-flows (api/estimated_flows.py, committed seeds).
 """
 from __future__ import annotations
 
@@ -44,6 +45,7 @@ SECOND_WAVE = 240       # second-wave arrows kept per drug and year (plus quota)
 THIRD_WAVE = 200        # third-wave arrows kept per drug and year (plus quota)
 PER_COUNTRY = 2         # every country in reach keeps its best targets, so arrows cover the whole map
 GDP_CODE = "NY.GDP.PCAP.PP.KD"
+_KM_PER_DEG_LAT = 6371 * math.pi / 180
 
 
 def _km(a: tuple[float, float], b: tuple[float, float]) -> float:
@@ -127,6 +129,9 @@ def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, flo
                     continue
                 for src, s in sources:
                     if src is t:
+                        continue
+                    # Exact shortcut: great-circle km >= the latitude arc, so these pairs fail d > MAX_KM anyway.
+                    if abs(t["lat"] - src["lat"]) * _KM_PER_DEG_LAT > MAX_KM + 1:
                         continue
                     d = _km((src["lon"], src["lat"]), (t["lon"], t["lat"]))
                     if d > MAX_KM or d < 25:

@@ -8,21 +8,38 @@ Needs the pipeline outputs (DuckDB + models); everything else in the API runs fr
 from __future__ import annotations
 
 from functools import lru_cache
+from typing import TYPE_CHECKING
 
-import joblib
-import numpy as np
-import pandas as pd
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
-from .. import config, db
-from ..model import features as F
-from ..model import shocks as SH
-from ..model import spillover as SP
-from ..model.edges import production
+from .. import config
 from ..model.scenario import BLOCK_MSG, BLOCKED, parse_command, parse_llm, parse_rules
 
+if TYPE_CHECKING:
+    import pandas as pd
+
+    from ..model import shocks as SH
+
 router = APIRouter()
+
+
+@lru_cache(maxsize=1)
+def _load_model_stack() -> None:
+    """Import the model stack (pandas, numpy, scikit-learn, statsmodels, LightGBM) on first simulator use, so the
+    read-only endpoints and cold starts never pay for it. libgomp is preloaded first (LightGBM needs it on Vercel)."""
+    from ..native import preload_libgomp
+    preload_libgomp()
+    global joblib, np, pd, db, F, SH, SP, production
+    import joblib
+    import numpy as np
+    import pandas as pd
+
+    from .. import db
+    from ..model import features as F
+    from ..model import shocks as SH
+    from ..model import spillover as SP
+    from ..model.edges import production
 TYPES = {"cultivation", "legalization", "customs_efficiency"}
 
 
@@ -49,6 +66,7 @@ def _unprocessable(msg: str):
 
 class Engine:
     def __init__(self):
+        _load_model_stack()
         self.ctx = SH.Context.load()
         self.inputs = F.load_inputs()
         self.model = joblib.load(config.PROCESSED / "models" / "hurdle.joblib")
@@ -180,6 +198,7 @@ def engine() -> Engine:
 
 def validate_shocks(raw: list[dict]) -> list[SH.Shock]:
     from .app import store
+    _load_model_stack()
     valid = set(store().country_index)
     out = []
     for s in raw:

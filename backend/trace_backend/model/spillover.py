@@ -35,7 +35,7 @@ from ..wb.indicators import BY_FEATURE
 from .train import update_metrics
 
 log = logging.getLogger(__name__)
-WEIGHTS = {"exposure": 0.45, "vulnerability": 0.35, "protection": 0.20}
+WEIGHTS = config.RISK_WEIGHTS
 EPS = 1e-4
 # (feature, higher_is_worse)
 VULN = [("youth_unemployment", True), ("youth_neet", True), ("poverty", True), ("gini", True),

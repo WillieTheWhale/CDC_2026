@@ -25,7 +25,6 @@ from functools import lru_cache
 from pathlib import Path
 from urllib.parse import urlencode, urlparse
 
-import requests
 from fastapi import APIRouter, Query, WebSocket, WebSocketDisconnect
 
 from .. import config
@@ -82,10 +81,14 @@ class LiveWire:
     @staticmethod
     def _load_all_probabilities() -> dict:
         """Probabilities for every candidate corridor (not only those shown on the map)."""
-        try:
+        try:  # plain sqlite3 (same rows as db.read_table) so a cold start does not import pandas
             from .. import db
-            p = db.read_table("predictions")
-            return {(r.drug, r.from_iso3, r.to_iso3): float(r.probability) for r in p.itertuples()}
+            with db.connect(read_only=True) as con:
+                schema = db.schema_of(con, "predictions")
+                if schema is None:
+                    return {}
+                rows = con.execute(f'SELECT drug, from_iso3, to_iso3, probability FROM {schema}."predictions"')
+                return {(d, o, t): float("nan") if p is None else float(p) for d, o, t, p in rows}
         except Exception:  # API may run from exported JSON only
             return {}
 
@@ -155,6 +158,8 @@ class LiveWire:
         self.last_request = time.time()
         params = {"query": QUERY, "mode": "artlist", "format": "json", "maxrecords": maxrecords,
                   "timespan": timespan, "sort": "datedesc"}
+        import requests  # lazy: only the GDELT poller needs it
+
         r = requests.get(f"{GDELT}?{urlencode(params)}", timeout=30,
                          headers={"User-Agent": "TRACE/0.1 (CDC 2026 research)"})
         if r.status_code != 200 or not r.text.lstrip().startswith("{"):

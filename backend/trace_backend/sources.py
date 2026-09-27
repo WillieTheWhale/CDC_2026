@@ -27,6 +27,10 @@ SOURCES: dict[str, dict] = {
     "cepii_geodist": {"id": "cepii_geodist", "name": "CEPII GeoDist",
                       "url": "https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6",
                       "citation": "Mayer and Zignago (2011), Notes on CEPII's distances measures: the GeoDist database."},
+    "natural_earth": {"id": "natural_earth", "name": "Natural Earth 1:10m populated places and admin-0 label points",
+                      "url": "https://github.com/nvkelso/natural-earth-vector",
+                      "citation": "Natural Earth (public domain), ne_10m_populated_places_simple and "
+                                  "ne_10m_admin_0_countries; placement anchors for the estimated-flow layer only."},
     "gdelt": {"id": "gdelt", "name": "GDELT DOC 2.0 API", "url": "https://api.gdeltproject.org/api/v2/doc/doc",
               "citation": "The GDELT Project, DOC 2.0 API (article metadata and publication dates)."},
     # Evidence drilldown (SQLite v2 research, market and health layers)

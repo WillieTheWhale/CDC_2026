@@ -56,3 +56,31 @@ Served by `/api/route-evidence` (`trace_backend/api/route_evidence.py`), which a
   never converted to country pairs.
 
 None of these carry volumes or city, road or port geometry; edge `kg` stays allocated seizure scale.
+
+## `estimated_flows_cities.csv`, `estimated_flows_anchors.csv`: estimated local-flow layer
+
+Served by `/api/estimated-flows` (`trace_backend/api/estimated_flows.py`), the labelled, map-only
+arrow layer that `uv run trace estimate-flows` (`trace_backend/model/estimated_flows.py`) also
+writes to `frontend/public/data/estimated/`. The seeds let the Vercel bundle (no archive, no
+network) rebuild the layer from the served route edges. Regenerate with
+`python -m trace_backend.api.estimated_flows`.
+
+- `estimated_flows_cities.csv` (2,480 rows): `name, iso3, pop, lon, lat` for every place with
+  `pop_max >= 150,000` and an `adm0_a3` code, in file order (order breaks score ties), lon/lat
+  rounded to 4 decimals exactly as the generator does. Source: Natural Earth 1:10m populated
+  places, `ne_10m_populated_places_simple.geojson` from
+  https://github.com/nvkelso/natural-earth-vector (public domain), retrieved 2026-09-27,
+  SHA-256 `fd3fa867a320cbd5c5b6bb5bc550afeec2939fb2cef688e508007282a55ac42f`.
+- `estimated_flows_anchors.csv` (252 rows): `iso3, label_lon, label_lat`, the Natural Earth
+  admin-0 label points (`LABEL_X`, `LABEL_Y` of `ne_10m_admin_0_countries`, public domain) as
+  exported by `frontend/scripts/build-geography.mjs` to `frontend/public/geo/countries.json`
+  (the last feature wins for the four repeated codes FRA, KAZ, BRA, AUS, as in the generator).
+  Countries without a label point fall back to the World Bank capital in `countries.json`.
+
+GDP per capita PPP (World Bank `NY.GDP.PCAP.PP.KD`, source 2) is **not** seeded: the endpoint reads
+it from the exported `indicators.json`, written by the World Bank ingest from the same
+`wb_indicators` rows the snapshot generator reads (identical values, checked 2026-09-27).
+
+Cities are placement anchors for drawing arrows, not evidence of city-level trafficking. The layer
+uses population, GDP per capita, distance and modeled route density only; no enforcement,
+customs or detection variable.

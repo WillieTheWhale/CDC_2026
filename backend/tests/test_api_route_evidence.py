@@ -1,5 +1,6 @@
 # AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 """Route evidence API: filters, bbox, keyset paging, 404s, provenance, and /api/routes edge linkage."""
+import json
 import re
 
 from trace_backend import config
@@ -119,3 +120,31 @@ def test_country_linkage(client):
 def test_every_corridor_citation_has_a_url():
     from trace_backend.api.route_evidence import CITATIONS
     assert all(url and url.startswith("https://") for *_, url in CITATIONS.values())
+
+
+MOJIBAKE = ("â€", "â\u0080", "Ã")  # UTF-8 dashes/quotes/accents decoded as cp1252 or latin-1
+
+
+def _text_fields(r: dict) -> list[str]:
+    s = r.get("source") or {}
+    return [v for v in (r.get("title"), s.get("title"), r.get("source_locator"), r.get("caveat"), r.get("basis"),
+                        r.get("original_excerpt"), s.get("publisher"), r.get("publisher")) if isinstance(v, str)]
+
+
+def test_no_mojibake_in_titles_locators_caveats(client):
+    records = _all(client, limit=250)
+    sources = client.get("/api/route-evidence/sources").json()["data"]
+    fields = [t for r in records + sources for t in _text_fields(r)]
+    assert any("–" in t or "—" in t for t in fields)  # the dashes that used to garble are present
+    assert not [t for t in fields if any(m in t for m in MOJIBAKE)]
+
+
+def test_route_evidence_decodes_under_any_client_charset(client):
+    """Titles carry en/em dashes; the body is ASCII-escaped with an explicit charset, so a client that falls back
+    to latin-1 or cp1252 without a charset (e.g. Windows PowerShell 5.1) reads the same text as a UTF-8 one."""
+    for path in ("/api/route-evidence/sources", "/api/route-evidence?limit=250",
+                 "/api/route-evidence/cocaine:COL:ECU:unodc-cocaine-2023"):
+        r = client.get(path)
+        assert r.status_code == 200 and r.headers["content-type"] == "application/json; charset=utf-8"
+        assert r.content.isascii()
+        assert json.loads(r.content.decode("cp1252")) == json.loads(r.content.decode("utf-8")) == r.json()

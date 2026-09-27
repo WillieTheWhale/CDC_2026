@@ -143,3 +143,83 @@ def test_overdose_paging():
         if not cursor:
             break
     assert len(out) == total and len({(r["period_end"], r["indicator"]) for r in out}) == total
+
+
+# ------------------------------------------------------------------ additive fields and endpoints (evidence v2.1)
+def test_values_summary_carries_market_provenance():
+    rows = _get("/api/evidence/values", kind="market", iso3="MEX", limit=500)["data"]["values"]
+    assert rows
+    for r in rows:
+        d = _get(f"/api/evidence/value/{r['id']}")["data"] if r is rows[0] else None
+        assert r["source_publication_year"] and r["source_url"].startswith("https://") and r["source_id"]
+        assert r["input_observation_ids"] and all(isinstance(i, int) for i in r["input_observation_ids"])
+        assert r["formula_expression"] and isinstance(r["market_inputs"], dict)
+        if d:
+            assert (r["form"], r["market_level"]) == (d["market"]["form"], d["market"]["market_level"])
+            assert r["source_publication_year"] == d["source_publication_year"]
+            assert sorted(r["input_observation_ids"]) == sorted(int(i["source_key"].split(":")[1]) for i in d["inputs"])
+    res = _get("/api/evidence/values", kind="research", iso3="COL", limit=3)["data"]["values"]
+    assert all(r["form"] is None and r["source_publication_year"] is None and r["market_inputs"] is None for r in res)
+
+
+def test_health_pwid_and_treatment_rows():
+    d = _get("/api/evidence/health/MEX", limit=5000)["data"]
+    pw, tr = d["pwid"], d["treatment"]
+    assert pw["total"] == len(pw["rows"]) > 0 and tr["total"] == len(tr["rows"]) > 0
+    assert "not a matched country ranking" in pw["label"].lower() and "must not be summed" in tr["label"]
+    for r in pw["rows"]:
+        assert r["estimate_status"] == "source_estimate" and r["estimate_label"]
+        assert r["unit"] in {"percent", "percent_of_general_population", "persons"}
+        assert r["source"]["url"].startswith("https://") and r["source"]["edition_year"] and r["source_row"]["sheet"]
+        assert r["indirect_label"] == (evidence.INDIRECT_LABEL if r["indirect_estimate"] else None)
+    for r in tr["rows"]:
+        assert r["unit"] == "persons" and r["persons_treated"] is not None and r["source"]["url"].startswith("https://")
+    assert {r["metric"] for r in pw["rows"]} >= {"people_who_inject_drugs"}
+    # indirect/model-based estimates are labelled somewhere in the archive
+    bdi = _get("/api/evidence/health/BDI", limit=5000)["data"]["pwid"]["rows"]
+    assert any(r["indirect_estimate"] for r in bdi)
+    assert _get("/api/evidence/health/MEX", limit=2)["data"]["treatment"]["total"] == tr["total"]
+
+
+def test_market_observations_filters_units_and_paging():
+    body = _get("/api/evidence/market-observations", iso3="MEX", limit=5000)
+    rows = body["data"]["observations"]
+    assert len(rows) == body["meta"]["total"] > 0 and body["meta"]["next_cursor"] is None
+    assert all(r["iso3"] == "MEX" and r["source"]["url"].startswith("https://") and r["source"]["edition"] for r in rows)
+    for r in rows:
+        assert (r["unit"] is None) == (r["unit_note"] == evidence.UNIT_MISSING)
+        assert r["unit"] in (r["normalized_unit"], r["original_unit"])
+        assert r["status_label"].startswith("Publisher estimate") == r["publisher_estimate"]
+    # paging is complete and stable
+    out, cursor = [], None
+    while True:
+        b = _get("/api/evidence/market-observations", iso3="MEX", limit=13, **({"cursor": cursor} if cursor else {}))
+        out += b["data"]["observations"]
+        cursor = b["meta"]["next_cursor"]
+        if not cursor:
+            break
+    assert [r["observation_id"] for r in out] == [r["observation_id"] for r in rows]
+    f = _get("/api/evidence/market-observations", drug="cocaine", measure="purity", market_level="retail",
+             limit=5000)["data"]["observations"]
+    assert f and all(r["measure"] == "purity" and r["market_level"] == "retail" and
+                     ("cocaine" in r["substance"].lower() or "crack" in r["substance"].lower()) for r in f)
+    y = _get("/api/evidence/market-observations", year=2020, substance="heroin", limit=50)["data"]["observations"]
+    assert y and all(r["year"] == 2020 and "heroin" in r["substance"].lower() for r in y)
+    # a blank source unit stays null, never invented
+    blank = [r for r in _get("/api/evidence/market-observations", iso3="MUS", limit=5000)["data"]["observations"]
+             if not r["original_unit"] and not r["normalized_unit"]]
+    assert blank and all(r["unit"] is None and r["unit_note"] for r in blank)
+    cur = _get("/api/evidence/market-observations", iso3="MEX", limit=2)["meta"]["next_cursor"]
+    assert _get("/api/evidence/market-observations", 400, iso3="COL", limit=2, cursor=cur)["error"]["code"] == \
+        "invalid_request"
+    assert _get("/api/evidence/market-observations", 422, measure="margin")
+
+
+def test_market_observation_country_counts():
+    d = _get("/api/evidence/market-observations/countries")["data"]
+    by = {r["iso3"]: r for r in d["countries"]}
+    mex = _get("/api/evidence/market-observations", iso3="MEX", limit=1)["meta"]["total"]
+    assert by["MEX"]["observations"] == mex == by["MEX"]["price"] + by["MEX"]["purity"]
+    assert by["MEX"]["derived"] == _get("/api/evidence/values", kind="market", iso3="MEX", limit=1)["meta"]["total"]
+    assert d["totals"]["derived"] == _get("/api/evidence/values", kind="market", limit=1)["meta"]["total"]
+    assert d["totals"]["observations"] == sum(r["observations"] for r in d["countries"])

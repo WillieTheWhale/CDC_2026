@@ -25,6 +25,7 @@ ARCHIVE_TABLES = ["countries", "cultivation"]
 EVIDENCE_WHOLE = ["research_values", "research_metric_definitions", "research_value_inputs",
                   "research_regression_samples", "research_model_results", "market_derived", "market_metric_definitions",
                   "market_observations", "market_sources", "health_prevalence", "health_sources", "health_raw_rows",
+                  "health_pwid", "health_treatment",
                   "health_treatment_coverage", "evidence_claims", "evidence_sources", "seizures_annex",
                   "unodc_sources", "wb_indicator_meta"]
 EVIDENCE_DROP_COLS = {"health_cdc_overdose": ["source_row_json"],  # 50 MB of raw JSON; every field is kept as columns
@@ -49,32 +50,7 @@ os.environ.setdefault("TRACE_CLASSIFIER", "mock")
 os.environ.setdefault("TRACE_LIVEWIRE_POLL", "0")
 os.environ.setdefault("TRACE_PEOPLE_REMOTE", "1")  # re-read People from GitHub main (bundled copy as fallback)
 
-
-def _preload_libgomp() -> None:
-    """LightGBM needs libgomp.so.1, which Vercel's Python runtime lacks. scikit-learn's wheel vendors one under a
-    hashed soname; copy it to /tmp with the soname rewritten to libgomp.so.1 (same length, NUL-padded) and load it
-    globally so lib_lightgbm.so resolves against it."""
-    import ctypes
-    import glob
-    import importlib.util
-    from pathlib import Path
-
-    try:
-        ctypes.CDLL("libgomp.so.1")
-        return
-    except OSError:
-        pass
-    libs = Path(importlib.util.find_spec("sklearn").origin).parents[1] / "scikit_learn.libs"
-    src = Path(sorted(glob.glob(str(libs / "libgomp-*.so*")))[0])
-    old = src.name.encode()
-    data = src.read_bytes().replace(old + b"\\0", b"libgomp.so.1".ljust(len(old) + 1, b"\\0"))
-    dst = Path("/tmp/trace_gomp/libgomp.so.1")
-    dst.parent.mkdir(parents=True, exist_ok=True)
-    dst.write_bytes(data)
-    ctypes.CDLL(str(dst), mode=ctypes.RTLD_GLOBAL)
-
-
-_preload_libgomp()
+# LightGBM's libgomp shim (trace_backend/native.py) runs lazily on the first simulator request, not at cold start.
 
 from trace_backend.api.app import app  # noqa: E402,F401
 '''
@@ -165,6 +141,8 @@ def build() -> Path:
         (data / sub).mkdir(parents=True)
         (data / sub / ".keep").write_text("", encoding="utf-8")
     shutil.copytree(config.PROCESSED / "api", data / "processed" / "api")
+    from trace_backend.api.estimated_flows import precompute  # ship every year's arrow layer precomputed
+    print(f"  estimated flows: {precompute(data / 'processed' / 'api' / 'estimated_flows')} layers")
     (data / "processed" / "models").mkdir(parents=True)
     shutil.copy(config.PROCESSED / "models" / "hurdle.joblib", data / "processed" / "models" / "hurdle.joblib")
     for f in ("metrics.json", "wb_manifest.json", "ingest_manifest.json"):

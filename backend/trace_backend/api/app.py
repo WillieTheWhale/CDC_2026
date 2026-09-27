@@ -16,9 +16,10 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from .. import config
 from ..sources import refs
+from .responses import UTF8JSONResponse
 from .store import Store
 
-app = FastAPI(title="TRACE API", version="1.0.0",
+app = FastAPI(title="TRACE API", version="1.0.0", default_response_class=UTF8JSONResponse,
               description="Drug-trade terminal with spillover-risk early warning. See contracts/openapi.yaml.")
 _origins = config.CORS_ORIGINS
 app.add_middleware(CORSMiddleware, allow_origins=["*"] if "*" in _origins else _origins,
@@ -39,7 +40,7 @@ def envelope(data, *source_ids: str, notes: list[str] | None = None) -> dict:
 
 
 def error(status: int, code: str, message: str) -> JSONResponse:
-    return JSONResponse(status_code=status, content={"error": {"code": code, "message": message}})
+    return UTF8JSONResponse(status_code=status, content={"error": {"code": code, "message": message}})
 
 
 @app.exception_handler(StarletteHTTPException)
@@ -139,11 +140,10 @@ def get_risk(year: int | None = None, limit: int = Query(250, ge=1)):
     rows = s.risk.get(year)
     if rows is None:
         not_found("year_not_available", f"No risk scores for {year}. Available: {min(s.risk)}-{max(s.risk)}")
-    from ..model.spillover import WEIGHTS
     notes = ["Score = 0.45 exposure + 0.35 vulnerability + 0.20 (100 - protection)."]
     if year == max(s.risk):
         notes.append(f"{year} exposure uses model-predicted corridors.")
-    return envelope({"year": year, "weights": WEIGHTS, "rows": rows[:limit]}, *WB_SOURCES, "hri_gshr",
+    return envelope({"year": year, "weights": config.RISK_WEIGHTS, "rows": rows[:limit]}, *WB_SOURCES, "hri_gshr",
                     *ROUTE_SOURCES, notes=notes)
 
 
@@ -179,7 +179,7 @@ def _livewire_state():
 
 
 # Live Wire (T8), simulator / command bar (T9), People, route evidence and evidence drilldown routers
-for _mod in ("livewire", "simulate", "people", "route_evidence", "evidence"):
+for _mod in ("livewire", "simulate", "people", "route_evidence", "evidence", "estimated_flows"):
     try:
         app.include_router(__import__(f"trace_backend.api.{_mod}", fromlist=["router"]).router)
     except ImportError as _exc:  # module not built yet
