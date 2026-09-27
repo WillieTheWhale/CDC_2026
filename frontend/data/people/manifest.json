@@ -362,10 +362,7 @@
         "三哥"
       ],
       "regions": [
-        "AUS",
-        "THA",
-        "MMR",
-        "KHM"
+        "AUS"
       ],
       "sources": [
         {
@@ -4964,12 +4961,7 @@
       "organizationIds": [
         "sam-gor"
       ],
-      "regions": [
-        {
-          "iso3": "THA",
-          "label": "Thailand"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -5105,16 +5097,7 @@
       "organizationIds": [
         "sam-gor"
       ],
-      "regions": [
-        {
-          "iso3": "MMR",
-          "label": "Myanmar"
-        },
-        {
-          "iso3": "KHM",
-          "label": "Cambodia"
-        }
-      ],
+      "regions": [],
       "drugs": [
         "methamphetamine",
         "heroin"

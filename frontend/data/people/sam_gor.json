@@ -1,5 +1,5 @@
 {
-  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from cited public court, inquiry, UNODC and journalistic records. Convictions are distinct from alleged organizational roles. Public figures only; historical country-level associations; no operational routes, precise private/live locations, or unlicensed photos.",
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from cited public court, inquiry, UNODC and journalistic records. Convictions are distinct from alleged organizational roles. Public figures only; source-supported operational country associations (arrest and custody countries omitted from the map); no operational routes, precise private/live locations, or unlicensed photos.",
   "organizations": [
     {
       "id": "sam-gor",
@@ -9,10 +9,7 @@
         "三哥"
       ],
       "regions": [
-        "AUS",
-        "THA",
-        "MMR",
-        "KHM"
+        "AUS"
       ],
       "sources": [
         {
@@ -140,12 +137,7 @@
       "organizationIds": [
         "sam-gor"
       ],
-      "regions": [
-        {
-          "iso3": "THA",
-          "label": "Thailand"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -281,16 +273,7 @@
       "organizationIds": [
         "sam-gor"
       ],
-      "regions": [
-        {
-          "iso3": "MMR",
-          "label": "Myanmar"
-        },
-        {
-          "iso3": "KHM",
-          "label": "Cambodia"
-        }
-      ],
+      "regions": [],
       "drugs": [
         "methamphetamine",
         "heroin"
