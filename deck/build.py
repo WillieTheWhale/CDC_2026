@@ -190,6 +190,23 @@ def read_counts(readme: str, sources_doc: str, data: dict) -> None:
         c["sources"] = str(len(set(ext)))
 
 
+def read_map_years(data: dict) -> None:
+    """The Atlas scrubber spans the estimated-flow layers on disk, not the
+    World Bank indicator window, so read the layer filenames rather than reuse
+    counts.first_year/latest_year (they differ, and a slide caption said so)."""
+    d = REPO / "frontend" / "public" / "data" / "estimated"
+    obs = sorted(int(m.group(1)) for f in d.glob("observed-*.json")
+                 if (m := re.fullmatch(r"observed-(\d{4})", f.stem)))
+    pred = sorted(int(m.group(1)) for f in d.glob("predicted-*.json")
+                  if (m := re.fullmatch(r"predicted-(\d{4})", f.stem)))
+    c = data["counts"]
+    if obs:
+        c["map_first_year"] = str(obs[0])
+        c["map_last_observed"] = str(obs[-1])
+    if pred:
+        c["map_forecast_year"] = str(pred[-1])
+
+
 def read_afghan(data: dict) -> None:
     obj, src = _json(API / "afghan_ban.json", FIX / "afghan_ban.json")
     if not obj:
@@ -253,6 +270,7 @@ def build() -> dict:
     data["provenance"] = {"built_from": "defaults"}
 
     read_counts(readme, sources_doc, data)
+    read_map_years(data)
     read_metrics(readme, data)
     read_afghan(data)
     read_people(data)

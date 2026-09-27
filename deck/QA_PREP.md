@@ -215,6 +215,7 @@ AUC rose from 0.76 to 0.87 against a 0.79 population baseline, but the other dru
 New York still absorbs some border flows, and one Colombia–Ecuador anchor moved from Guayaquil to the less
 plausible Quito. So the arrows remain a labelled visual heuristic, not observed or predictive local movement.
 Turn them off and show the cited country-level corridors or documented US-route layer if that distinction blurs.
+Since that validation the layer was rebuilt for coverage and traceability: every corridor country with a 150,000-plus city now gets at least one arrow (4,347 estimated flows over 1,712 cities and 171 countries, drawn from 201 modelled corridors), and each arrow is clickable. The panel leads with “Estimated local flow” and the basis line — estimated, not observed, following city population × GDP per capita within 1,500 km — then shows the full chain from corridor origin country to entry city to onward cities, the reason that path was picked, and the modelled corridors feeding it with links to their published UNODC or EUDA records. Nothing in that panel enters a forecast or a risk score.
 
 **"Prices are still five times pre-ban, right?"** — *Adrian (S4)*
 That was true as of UNODC's November 2025 figure — US$570/kg dry opium against a pre-ban average under

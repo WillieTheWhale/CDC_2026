@@ -14,7 +14,10 @@
     "risk_countries": "217",
     "latest_year": "2024",
     "first_year": "2011",
-    "sources": "8"
+    "sources": "8",
+    "map_first_year": "2006",
+    "map_last_observed": "2024",
+    "map_forecast_year": "2025"
   },
   "metrics": {
     "hurdle_auc": "0.88",
@@ -275,10 +278,10 @@
     "pending_count": 0
   },
   "git": {
-    "sha": "e59c17f",
-    "subject": "deck: regenerate after the second-null cue correction",
-    "when": "2026-09-27T09:37:24+00:00",
-    "count": "306"
+    "sha": "6ca07d6",
+    "subject": "Add app/favicon.ico rendered from the TRACE mark (browsers request /favicon.ico; it 404ed on every load); launch config for serving the production build",
+    "when": "2026-09-27T08:51:29-04:00",
+    "count": "314"
   },
-  "built_at": "2026-09-27 09:37 UTC"
+  "built_at": "2026-09-27 13:48 UTC"
 }
