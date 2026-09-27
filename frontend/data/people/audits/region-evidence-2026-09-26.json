@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1750,
-    "associations": 1410,
-    "evidenced": 1410,
+    "people": 1913,
+    "associations": 1420,
+    "evidenced": 1420,
     "missing": 0,
     "invalid": 0
   },
@@ -204,6 +204,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "francophone_africa_court_cases_2019_2026.json": {
+      "people": 28,
+      "associations": 10,
+      "evidenced": 10,
+      "missing": 0,
+      "invalid": 0
+    },
     "fredy_pratama_network.json": {
       "people": 6,
       "associations": 9,
@@ -327,6 +334,13 @@
       "people": 11,
       "associations": 4,
       "evidenced": 4,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ofac_fifth150_sanctions_only.json": {
+      "people": 135,
+      "associations": 0,
+      "evidenced": 0,
       "missing": 0,
       "invalid": 0
     },
@@ -688,6 +702,30 @@
       "missing": 0,
       "invalid": 0
     },
+    "MAR": {
+      "associations": 2,
+      "evidenced": 2,
+      "missing": 0,
+      "invalid": 0
+    },
+    "SEN": {
+      "associations": 4,
+      "evidenced": 4,
+      "missing": 0,
+      "invalid": 0
+    },
+    "CIV": {
+      "associations": 6,
+      "evidenced": 6,
+      "missing": 0,
+      "invalid": 0
+    },
+    "DZA": {
+      "associations": 3,
+      "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
     "IDN": {
       "associations": 41,
       "evidenced": 41,
@@ -823,18 +861,6 @@
     "LBR": {
       "associations": 1,
       "evidenced": 1,
-      "missing": 0,
-      "invalid": 0
-    },
-    "SEN": {
-      "associations": 2,
-      "evidenced": 2,
-      "missing": 0,
-      "invalid": 0
-    },
-    "CIV": {
-      "associations": 3,
-      "evidenced": 3,
       "missing": 0,
       "invalid": 0
     }

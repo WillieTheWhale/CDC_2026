@@ -1488,6 +1488,96 @@
       ]
     },
     {
+      "id": "morocco-2026-sahara-cannabis-case",
+      "name": "Casablanca 2026 cannabis case",
+      "aliases": [],
+      "regions": [
+        "MAR"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Historical mar drug-case judgment and individually named defendants."
+        }
+      ]
+    },
+    {
+      "id": "senegal-dakar-2019-drug-judgment",
+      "name": "Dakar judgment 747/2019",
+      "aliases": [],
+      "regions": [
+        "SEN"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lexenegal.sn/decision/tribunal-de-grande-instance-hors-classe-de-dakar-20190814-n-7472019",
+          "title": "Dakar judgment no. 747/2019",
+          "publisher": "Lexenegal / Tribunal de grande instance de Dakar",
+          "language": "fr",
+          "publishedAt": "2019-08-14",
+          "claim": "Historical sen drug-case judgment and individually named defendants."
+        }
+      ]
+    },
+    {
+      "id": "civ-2025-cocaine-diversion-case",
+      "name": "Côte d’Ivoire 2025 cocaine diversion case",
+      "aliases": [],
+      "regions": [
+        "CIV"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html",
+          "title": "Côte d’Ivoire : l’ancien chef de la police antidrogue du port d’Abidjan détournait de la cocaïne",
+          "publisher": "Le Monde",
+          "language": "fr",
+          "publishedAt": "2025-03-07",
+          "claim": "Historical civ drug-case judgment and individually named defendants."
+        }
+      ]
+    },
+    {
+      "id": "morocco-2004-erramach-case",
+      "name": "Erramach 2004 trafficking case",
+      "aliases": [],
+      "regions": [
+        "MAR"
+      ],
+      "sources": [
+        {
+          "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+          "title": "Affaire Erramach: confirmation des peines",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-12-29",
+          "claim": "MAP reports the appellate dispositions, including reductions and three acquittals."
+        }
+      ]
+    },
+    {
+      "id": "algeria-2005-2013-tlemcen-trafficking-case",
+      "name": "Tlemcen historical drug-trafficking case",
+      "aliases": [],
+      "regions": [
+        "DZA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lexpressiondz.com/nationale/cinq-acquittements-et-dautres-peines-a-la-baisse-171757",
+          "title": "Cinq acquittements et d’autres peines à la baisse",
+          "publisher": "L’Expression",
+          "language": "fr",
+          "publishedAt": "2013-04-04",
+          "claim": "Reports the retrial retained the two principal defendants’ drug-case convictions while acquitting others."
+        }
+      ]
+    },
+    {
       "id": "fredy-pratama-network",
       "name": "Fredy Pratama network",
       "aliases": [
@@ -46975,6 +47065,1418 @@
             "language": "English",
             "publishedAt": "2025-08-03",
             "claim": "The agency reports an arrest on 3 August 2025 and quotes the anti-narcotics directorate's allegation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-abdenbi-bioui",
+      "name": "Abdenbi Bioui",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 12-year sentence in mixed cannabis-trafficking case",
+      "prominence": 2,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [
+        {
+          "iso3": "MAR",
+          "label": "Morocco",
+          "evidence": {
+            "claim": "LeBrief describes person-specific alleged cannabis-trafficking conduct by Abdenbi Bioui in Morocco; later first-instance conviction is separately sourced.",
+            "period": "2010–2023",
+            "sourceUrl": "https://www.lebrief.ma/biioui-naciri-et-le-trafic-international-de-drogue-anatomie-dun-scandale-113762/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Abdenbi Bioui with a 12-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        },
+        {
+          "url": "https://www.lebrief.ma/biioui-naciri-et-le-trafic-international-de-drogue-anatomie-dun-scandale-113762/",
+          "title": "Biioui, Naciri et le trafic international de drogue : anatomie d’un scandale",
+          "publisher": "LeBrief",
+          "language": "fr",
+          "publishedAt": "2023-12-25",
+          "claim": "LeBrief describes allegations of Abdenbi Bioui’s cannabis-trafficking conduct in Morocco; the conviction is sourced separately."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-abdenbi-bioui-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Abdenbi Bioui with a 12-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Abdenbi Bioui with a 12-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-said-naciri",
+      "name": "Saïd Naciri",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 10-year sentence in mixed cannabis-trafficking case",
+      "prominence": 2,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Saïd Naciri with a 10-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-said-naciri-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Saïd Naciri with a 10-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Saïd Naciri with a 10-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-belkacem-mir",
+      "name": "Belkacem Mir",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 10-year sentence in mixed cannabis-trafficking case",
+      "prominence": 2,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Belkacem Mir with a 10-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-belkacem-mir-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Belkacem Mir with a 10-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Belkacem Mir with a 10-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-abderrahim-bioui",
+      "name": "Abderrahim Bioui",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 9-year sentence in mixed cannabis-trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Abderrahim Bioui with a 9-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-abderrahim-bioui-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Abderrahim Bioui with a 9-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Abderrahim Bioui with a 9-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-larbi-tteibi",
+      "name": "Larbi Tteibi",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 9-year sentence in mixed cannabis-trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Larbi Tteibi with a 9-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-larbi-tteibi-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Larbi Tteibi with a 9-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Larbi Tteibi with a 9-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-ismail-el-maalem",
+      "name": "Ismaïl El Maalem",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 9-year sentence in mixed cannabis-trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Ismaïl El Maalem with a 9-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-ismail-el-maalem-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Ismaïl El Maalem with a 9-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Ismaïl El Maalem with a 9-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-allal-hajji",
+      "name": "Allal Hajji",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 8-year sentence in mixed cannabis-trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Allal Hajji with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-allal-hajji-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Allal Hajji with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Allal Hajji with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-ahmed-hajji",
+      "name": "Ahmed Hajji",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 8-year sentence in mixed cannabis-trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Ahmed Hajji with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-ahmed-hajji-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Ahmed Hajji with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Ahmed Hajji with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-souleimane-hajji",
+      "name": "Souleimane Hajji",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 8-year sentence in mixed cannabis-trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Souleimane Hajji with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-souleimane-hajji-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Souleimane Hajji with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Souleimane Hajji with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-abdelkader-abdellaoui",
+      "name": "Abdelkader Abdellaoui",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 8-year sentence in mixed cannabis-trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Abdelkader Abdellaoui with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-abdelkader-abdellaoui-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Abdelkader Abdellaoui with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Abdelkader Abdellaoui with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-abdelkader-benouda",
+      "name": "Abdelkader Benouda",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 8-year sentence in mixed cannabis-trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Abdelkader Benouda with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-abdelkader-benouda-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Abdelkader Benouda with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Abdelkader Benouda with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-jamel-mouhajir",
+      "name": "Jamel Mouhajir",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-06-25",
+      "roleLabel": "First-instance 8-year sentence in mixed cannabis-trafficking case",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2026-sahara-cannabis-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 names Jamel Mouhajir with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-jamel-mouhajir-2026-06-25-outcome",
+          "occurredAt": "2026-06-25",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le360 names Jamel Mouhajir with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+            "title": "Procès «Escobar du Sahara»: les détails du verdict",
+            "publisher": "Le360",
+            "language": "fr",
+            "publishedAt": "2026-06-26",
+            "claim": "Le360 names Jamel Mouhajir with a 8-year first-instance sentence in the international cannabis-trafficking case. The article does not isolate every defendant’s drug count; appeal remained available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-nourou-diaw",
+      "name": "Nourou Diaw",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-08-14",
+      "roleLabel": "Two-year drug-transfer sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "senegal-dakar-2019-drug-judgment"
+      ],
+      "regions": [
+        {
+          "iso3": "SEN",
+          "label": "Senegal",
+          "evidence": {
+            "claim": "The source locates Nourou Diaw’s adjudicated drug-case conduct in Senegal.",
+            "period": "2018",
+            "sourceUrl": "https://www.lexenegal.sn/decision/tribunal-de-grande-instance-hors-classe-de-dakar-20190814-n-7472019"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lexenegal.sn/decision/tribunal-de-grande-instance-hors-classe-de-dakar-20190814-n-7472019",
+          "title": "Dakar judgment no. 747/2019",
+          "publisher": "Lexenegal / Tribunal de grande instance de Dakar",
+          "language": "fr",
+          "publishedAt": "2019-08-14",
+          "claim": "The 14 August 2019 Dakar judgment names Nourou Diaw, convicts him of offering or transferring heroin, and imposes two years; the criminal-association count was dismissed."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-nourou-diaw-2019-08-14-outcome",
+          "occurredAt": "2019-08-14",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "The 14 August 2019 Dakar judgment names Nourou Diaw, convicts him of offering or transferring heroin, and imposes two years; the criminal-association count was dismissed. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://www.lexenegal.sn/decision/tribunal-de-grande-instance-hors-classe-de-dakar-20190814-n-7472019",
+            "title": "Dakar judgment no. 747/2019",
+            "publisher": "Lexenegal / Tribunal de grande instance de Dakar",
+            "language": "fr",
+            "publishedAt": "2019-08-14",
+            "claim": "The 14 August 2019 Dakar judgment names Nourou Diaw, convicts him of offering or transferring heroin, and imposes two years; the criminal-association count was dismissed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-emmanuel-ikethiukuwu",
+      "name": "Emmanuel Ikethiukuwu",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-08-14",
+      "roleLabel": "Two-year drug-transfer sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "senegal-dakar-2019-drug-judgment"
+      ],
+      "regions": [
+        {
+          "iso3": "SEN",
+          "label": "Senegal",
+          "evidence": {
+            "claim": "The source locates Emmanuel Ikethiukuwu’s adjudicated drug-case conduct in Senegal.",
+            "period": "2018",
+            "sourceUrl": "https://www.lexenegal.sn/decision/tribunal-de-grande-instance-hors-classe-de-dakar-20190814-n-7472019"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lexenegal.sn/decision/tribunal-de-grande-instance-hors-classe-de-dakar-20190814-n-7472019",
+          "title": "Dakar judgment no. 747/2019",
+          "publisher": "Lexenegal / Tribunal de grande instance de Dakar",
+          "language": "fr",
+          "publishedAt": "2019-08-14",
+          "claim": "The 14 August 2019 Dakar judgment names Emmanuel Ikethiukuwu, convicts him of offering or transferring heroin, and imposes two years; the criminal-association count was dismissed."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-emmanuel-ikethiukuwu-2019-08-14-outcome",
+          "occurredAt": "2019-08-14",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "The 14 August 2019 Dakar judgment names Emmanuel Ikethiukuwu, convicts him of offering or transferring heroin, and imposes two years; the criminal-association count was dismissed. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://www.lexenegal.sn/decision/tribunal-de-grande-instance-hors-classe-de-dakar-20190814-n-7472019",
+            "title": "Dakar judgment no. 747/2019",
+            "publisher": "Lexenegal / Tribunal de grande instance de Dakar",
+            "language": "fr",
+            "publishedAt": "2019-08-14",
+            "claim": "The 14 August 2019 Dakar judgment names Emmanuel Ikethiukuwu, convicts him of offering or transferring heroin, and imposes two years; the criminal-association count was dismissed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-armand-agnin-angbonon",
+      "name": "Armand Agnin Angbonon",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-05",
+      "roleLabel": "Five-year cocaine-diversion sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "civ-2025-cocaine-diversion-case"
+      ],
+      "regions": [
+        {
+          "iso3": "CIV",
+          "label": "Côte d’Ivoire",
+          "evidence": {
+            "claim": "The source locates Armand Agnin Angbonon’s adjudicated drug-case conduct in Côte d’Ivoire.",
+            "period": "2021–2025",
+            "sourceUrl": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html",
+          "title": "Côte d’Ivoire : l’ancien chef de la police antidrogue du port d’Abidjan détournait de la cocaïne",
+          "publisher": "Le Monde",
+          "language": "fr",
+          "publishedAt": "2025-03-07",
+          "claim": "Le Monde names Armand Agnin Angbonon among those convicted on 5 March 2025 of diverting cocaine from a 2021 seizure and sentenced to five years; six other gendarmes were acquitted."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-armand-agnin-angbonon-2025-03-05-outcome",
+          "occurredAt": "2025-03-05",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le Monde names Armand Agnin Angbonon among those convicted on 5 March 2025 of diverting cocaine from a 2021 seizure and sentenced to five years; six other gendarmes were acquitted. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html",
+            "title": "Côte d’Ivoire : l’ancien chef de la police antidrogue du port d’Abidjan détournait de la cocaïne",
+            "publisher": "Le Monde",
+            "language": "fr",
+            "publishedAt": "2025-03-07",
+            "claim": "Le Monde names Armand Agnin Angbonon among those convicted on 5 March 2025 of diverting cocaine from a 2021 seizure and sentenced to five years; six other gendarmes were acquitted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-jean-claude-angbonon",
+      "name": "Jean-Claude Angbonon",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-05",
+      "roleLabel": "Five-year cocaine-diversion sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "civ-2025-cocaine-diversion-case"
+      ],
+      "regions": [
+        {
+          "iso3": "CIV",
+          "label": "Côte d’Ivoire",
+          "evidence": {
+            "claim": "The source locates Jean-Claude Angbonon’s adjudicated drug-case conduct in Côte d’Ivoire.",
+            "period": "2021–2025",
+            "sourceUrl": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html",
+          "title": "Côte d’Ivoire : l’ancien chef de la police antidrogue du port d’Abidjan détournait de la cocaïne",
+          "publisher": "Le Monde",
+          "language": "fr",
+          "publishedAt": "2025-03-07",
+          "claim": "Le Monde names Jean-Claude Angbonon among those convicted on 5 March 2025 of diverting cocaine from a 2021 seizure and sentenced to five years; six other gendarmes were acquitted."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-jean-claude-angbonon-2025-03-05-outcome",
+          "occurredAt": "2025-03-05",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le Monde names Jean-Claude Angbonon among those convicted on 5 March 2025 of diverting cocaine from a 2021 seizure and sentenced to five years; six other gendarmes were acquitted. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html",
+            "title": "Côte d’Ivoire : l’ancien chef de la police antidrogue du port d’Abidjan détournait de la cocaïne",
+            "publisher": "Le Monde",
+            "language": "fr",
+            "publishedAt": "2025-03-07",
+            "claim": "Le Monde names Jean-Claude Angbonon among those convicted on 5 March 2025 of diverting cocaine from a 2021 seizure and sentenced to five years; six other gendarmes were acquitted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-richard-bi-djessan",
+      "name": "Richard Bi Djessan",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-05",
+      "roleLabel": "Five-year cocaine-diversion sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "civ-2025-cocaine-diversion-case"
+      ],
+      "regions": [
+        {
+          "iso3": "CIV",
+          "label": "Côte d’Ivoire",
+          "evidence": {
+            "claim": "The source locates Richard Bi Djessan’s adjudicated drug-case conduct in Côte d’Ivoire.",
+            "period": "2021–2025",
+            "sourceUrl": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html",
+          "title": "Côte d’Ivoire : l’ancien chef de la police antidrogue du port d’Abidjan détournait de la cocaïne",
+          "publisher": "Le Monde",
+          "language": "fr",
+          "publishedAt": "2025-03-07",
+          "claim": "Le Monde names Richard Bi Djessan among those convicted on 5 March 2025 of diverting cocaine from a 2021 seizure and sentenced to five years; six other gendarmes were acquitted."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-richard-bi-djessan-2025-03-05-outcome",
+          "occurredAt": "2025-03-05",
+          "type": "conviction",
+          "title": "Documented historical court outcome",
+          "summary": "Le Monde names Richard Bi Djessan among those convicted on 5 March 2025 of diverting cocaine from a 2021 seizure and sentenced to five years; six other gendarmes were acquitted. This is a historical outcome, not a claim of current custody or activity.",
+          "source": {
+            "url": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html",
+            "title": "Côte d’Ivoire : l’ancien chef de la police antidrogue du port d’Abidjan détournait de la cocaïne",
+            "publisher": "Le Monde",
+            "language": "fr",
+            "publishedAt": "2025-03-07",
+            "claim": "Le Monde names Richard Bi Djessan among those convicted on 5 March 2025 of diverting cocaine from a 2021 seizure and sentenced to five years; six other gendarmes were acquitted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-mounir-erramach",
+      "name": "Mounir Erramach",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2004-12-29",
+      "roleLabel": "Appellate affirmed drug-case sentence: 20 years",
+      "prominence": 2,
+      "organizationIds": [
+        "morocco-2004-erramach-case"
+      ],
+      "regions": [
+        {
+          "iso3": "MAR",
+          "label": "Morocco",
+          "evidence": {
+            "claim": "Le360 describes Erramach’s drug-trafficking organization as formed in Morocco; the source reports his later release, without a present location claim.",
+            "period": "2003–2004",
+            "sourceUrl": "https://fr.le360.ma/societe/liberation-ce-jeudi-de-lex-baron-de-la-drogue-mounir-erramach_5LPC2J5VVNCLXMGDAR3QL2VXMM/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+          "title": "Affaire Erramach: confirmation des peines",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-12-29",
+          "claim": "MAP names Mounir Erramach in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 20 years."
+        },
+        {
+          "url": "https://lematin.ma/journal/2004/Cour-d-et-8217appel-de-Tetouan--Mounir-Erramach-condamne-a-20-ans/41009.html",
+          "title": "Cour d’appel de Tétouan: Mounir Erramach condamné à 20 ans",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-05-26",
+          "claim": "MAP names Mounir Erramach in the May 2004 first-instance drug case; the December appeal outcome controls."
+        },
+        {
+          "url": "https://fr.le360.ma/societe/liberation-ce-jeudi-de-lex-baron-de-la-drogue-mounir-erramach_5LPC2J5VVNCLXMGDAR3QL2VXMM/",
+          "title": "Libération de l’ex-baron de la drogue Mounir Erramach",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2024-08-15",
+          "claim": "Le360 reports Erramach completed his historical 20-year term and was released on 15 August 2024; no present location is asserted."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-mounir-erramach-2004-12-29-appeal",
+          "occurredAt": "2004-12-29",
+          "type": "conviction",
+          "title": "Historical appellate disposition",
+          "summary": "MAP names Mounir Erramach in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 20 years. This is a historical appellate outcome, not a current custody claim.",
+          "source": {
+            "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+            "title": "Affaire Erramach: confirmation des peines",
+            "publisher": "Le Matin / MAP",
+            "language": "fr",
+            "publishedAt": "2004-12-29",
+            "claim": "MAP names Mounir Erramach in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 20 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-radouane-fahsi-cheikh",
+      "name": "Radouane Fahsi Cheikh",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2004-12-29",
+      "roleLabel": "Appellate affirmed drug-case sentence: 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2004-erramach-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+          "title": "Affaire Erramach: confirmation des peines",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-12-29",
+          "claim": "MAP names Radouane Fahsi Cheikh in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 4 years."
+        },
+        {
+          "url": "https://lematin.ma/journal/2004/Cour-d-et-8217appel-de-Tetouan--Mounir-Erramach-condamne-a-20-ans/41009.html",
+          "title": "Cour d’appel de Tétouan: Mounir Erramach condamné à 20 ans",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-05-26",
+          "claim": "MAP names Radouane Fahsi Cheikh in the May 2004 first-instance drug case; the December appeal outcome controls."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-radouane-fahsi-cheikh-2004-12-29-appeal",
+          "occurredAt": "2004-12-29",
+          "type": "conviction",
+          "title": "Historical appellate disposition",
+          "summary": "MAP names Radouane Fahsi Cheikh in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 4 years. This is a historical appellate outcome, not a current custody claim.",
+          "source": {
+            "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+            "title": "Affaire Erramach: confirmation des peines",
+            "publisher": "Le Matin / MAP",
+            "language": "fr",
+            "publishedAt": "2004-12-29",
+            "claim": "MAP names Radouane Fahsi Cheikh in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-ahmed-tartour",
+      "name": "Ahmed Tartour",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2004-12-29",
+      "roleLabel": "Appellate reduced drug-case sentence: 1.5 years",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2004-erramach-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+          "title": "Affaire Erramach: confirmation des peines",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-12-29",
+          "claim": "MAP names Ahmed Tartour in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 1.5 years."
+        },
+        {
+          "url": "https://lematin.ma/journal/2004/Cour-d-et-8217appel-de-Tetouan--Mounir-Erramach-condamne-a-20-ans/41009.html",
+          "title": "Cour d’appel de Tétouan: Mounir Erramach condamné à 20 ans",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-05-26",
+          "claim": "MAP names Ahmed Tartour in the May 2004 first-instance drug case; the December appeal outcome controls."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-ahmed-tartour-2004-12-29-appeal",
+          "occurredAt": "2004-12-29",
+          "type": "conviction",
+          "title": "Historical appellate disposition",
+          "summary": "MAP names Ahmed Tartour in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 1.5 years. This is a historical appellate outcome, not a current custody claim.",
+          "source": {
+            "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+            "title": "Affaire Erramach: confirmation des peines",
+            "publisher": "Le Matin / MAP",
+            "language": "fr",
+            "publishedAt": "2004-12-29",
+            "claim": "MAP names Ahmed Tartour in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 1.5 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-touria-tetouani",
+      "name": "Touria Tétouani",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2004-12-29",
+      "roleLabel": "Appellate reduced drug-case sentence: 1 years",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2004-erramach-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+          "title": "Affaire Erramach: confirmation des peines",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-12-29",
+          "claim": "MAP names Touria Tétouani in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 1 years."
+        },
+        {
+          "url": "https://lematin.ma/journal/2004/Cour-d-et-8217appel-de-Tetouan--Mounir-Erramach-condamne-a-20-ans/41009.html",
+          "title": "Cour d’appel de Tétouan: Mounir Erramach condamné à 20 ans",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-05-26",
+          "claim": "MAP names Touria Tétouani in the May 2004 first-instance drug case; the December appeal outcome controls."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-touria-tetouani-2004-12-29-appeal",
+          "occurredAt": "2004-12-29",
+          "type": "conviction",
+          "title": "Historical appellate disposition",
+          "summary": "MAP names Touria Tétouani in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 1 years. This is a historical appellate outcome, not a current custody claim.",
+          "source": {
+            "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+            "title": "Affaire Erramach: confirmation des peines",
+            "publisher": "Le Matin / MAP",
+            "language": "fr",
+            "publishedAt": "2004-12-29",
+            "claim": "MAP names Touria Tétouani in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 1 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-abdellatif-hamdoun",
+      "name": "Abdellatif Hamdoun",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2004-12-29",
+      "roleLabel": "Appellate reduced drug-case sentence: 5 years",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2004-erramach-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+          "title": "Affaire Erramach: confirmation des peines",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-12-29",
+          "claim": "MAP names Abdellatif Hamdoun in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 5 years."
+        },
+        {
+          "url": "https://lematin.ma/journal/2004/Cour-d-et-8217appel-de-Tetouan--Mounir-Erramach-condamne-a-20-ans/41009.html",
+          "title": "Cour d’appel de Tétouan: Mounir Erramach condamné à 20 ans",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-05-26",
+          "claim": "MAP names Abdellatif Hamdoun in the May 2004 first-instance drug case; the December appeal outcome controls."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-abdellatif-hamdoun-2004-12-29-appeal",
+          "occurredAt": "2004-12-29",
+          "type": "conviction",
+          "title": "Historical appellate disposition",
+          "summary": "MAP names Abdellatif Hamdoun in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 5 years. This is a historical appellate outcome, not a current custody claim.",
+          "source": {
+            "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+            "title": "Affaire Erramach: confirmation des peines",
+            "publisher": "Le Matin / MAP",
+            "language": "fr",
+            "publishedAt": "2004-12-29",
+            "claim": "MAP names Abdellatif Hamdoun in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 5 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-noureddine-chahboun",
+      "name": "Noureddine Chahboun",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2004-12-29",
+      "roleLabel": "Appellate reduced drug-case sentence: 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2004-erramach-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+          "title": "Affaire Erramach: confirmation des peines",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-12-29",
+          "claim": "MAP names Noureddine Chahboun in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 4 years."
+        },
+        {
+          "url": "https://lematin.ma/journal/2004/Cour-d-et-8217appel-de-Tetouan--Mounir-Erramach-condamne-a-20-ans/41009.html",
+          "title": "Cour d’appel de Tétouan: Mounir Erramach condamné à 20 ans",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-05-26",
+          "claim": "MAP names Noureddine Chahboun in the May 2004 first-instance drug case; the December appeal outcome controls."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-noureddine-chahboun-2004-12-29-appeal",
+          "occurredAt": "2004-12-29",
+          "type": "conviction",
+          "title": "Historical appellate disposition",
+          "summary": "MAP names Noureddine Chahboun in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 4 years. This is a historical appellate outcome, not a current custody claim.",
+          "source": {
+            "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+            "title": "Affaire Erramach: confirmation des peines",
+            "publisher": "Le Matin / MAP",
+            "language": "fr",
+            "publishedAt": "2004-12-29",
+            "claim": "MAP names Noureddine Chahboun in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was reduced at 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-aziz-zouheir",
+      "name": "Aziz Zouheir",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2004-12-29",
+      "roleLabel": "Appellate affirmed drug-case sentence: 5 years",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2004-erramach-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+          "title": "Affaire Erramach: confirmation des peines",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-12-29",
+          "claim": "MAP names Aziz Zouheir in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 5 years."
+        },
+        {
+          "url": "https://lematin.ma/journal/2004/Cour-d-et-8217appel-de-Tetouan--Mounir-Erramach-condamne-a-20-ans/41009.html",
+          "title": "Cour d’appel de Tétouan: Mounir Erramach condamné à 20 ans",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-05-26",
+          "claim": "MAP names Aziz Zouheir in the May 2004 first-instance drug case; the December appeal outcome controls."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-aziz-zouheir-2004-12-29-appeal",
+          "occurredAt": "2004-12-29",
+          "type": "conviction",
+          "title": "Historical appellate disposition",
+          "summary": "MAP names Aziz Zouheir in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 5 years. This is a historical appellate outcome, not a current custody claim.",
+          "source": {
+            "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+            "title": "Affaire Erramach: confirmation des peines",
+            "publisher": "Le Matin / MAP",
+            "language": "fr",
+            "publishedAt": "2004-12-29",
+            "claim": "MAP names Aziz Zouheir in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 5 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-habib-allah-ben-mbarek",
+      "name": "Habib Allah Ben Mbarek",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2004-12-29",
+      "roleLabel": "Appellate affirmed drug-case sentence: 5 years",
+      "prominence": 3,
+      "organizationIds": [
+        "morocco-2004-erramach-case"
+      ],
+      "regions": [],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+          "title": "Affaire Erramach: confirmation des peines",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-12-29",
+          "claim": "MAP names Habib Allah Ben Mbarek in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 5 years."
+        },
+        {
+          "url": "https://lematin.ma/journal/2004/Cour-d-et-8217appel-de-Tetouan--Mounir-Erramach-condamne-a-20-ans/41009.html",
+          "title": "Cour d’appel de Tétouan: Mounir Erramach condamné à 20 ans",
+          "publisher": "Le Matin / MAP",
+          "language": "fr",
+          "publishedAt": "2004-05-26",
+          "claim": "MAP names Habib Allah Ben Mbarek in the May 2004 first-instance drug case; the December appeal outcome controls."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-habib-allah-ben-mbarek-2004-12-29-appeal",
+          "occurredAt": "2004-12-29",
+          "type": "conviction",
+          "title": "Historical appellate disposition",
+          "summary": "MAP names Habib Allah Ben Mbarek in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 5 years. This is a historical appellate outcome, not a current custody claim.",
+          "source": {
+            "url": "https://lematin.ma/journal/2004/Affaire-Erramach--Confirmation-des-peines-contre-les-principaux-accuses/48775.html",
+            "title": "Affaire Erramach: confirmation des peines",
+            "publisher": "Le Matin / MAP",
+            "language": "fr",
+            "publishedAt": "2004-12-29",
+            "claim": "MAP names Habib Allah Ben Mbarek in the 29 December 2004 appellate ruling of the drug-trafficking case; the prison term was affirmed at 5 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-mohamed-senouci",
+      "name": "Mohamed Senouci",
+      "aliases": [
+        "Mohammed Senoussi"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2013-04-04",
+      "roleLabel": "2013 retrial left 10-year sentence in historical drug case",
+      "prominence": 3,
+      "organizationIds": [
+        "algeria-2005-2013-tlemcen-trafficking-case"
+      ],
+      "regions": [
+        {
+          "iso3": "DZA",
+          "label": "Algeria",
+          "evidence": {
+            "claim": "The 2011 report describes Mohamed Senouci’s conduct in the Tlemcen drug case; the 2013 outcome is separately sourced.",
+            "period": "2005–2013",
+            "sourceUrl": "https://www.algerie360.com/pour-trafic-de-drogue-dix-ans-de-prison-pour-un-divisionnaire-de-police/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lexpressiondz.com/nationale/cinq-acquittements-et-dautres-peines-a-la-baisse-171757",
+          "title": "Cinq acquittements et d’autres peines à la baisse",
+          "publisher": "L’Expression",
+          "language": "fr",
+          "publishedAt": "2013-04-04",
+          "claim": "L’Expression identifies Mohamed Senouci as one of two principal defendants whose 10-year sentence remained after the 2013 retrial; five others were acquitted."
+        },
+        {
+          "url": "https://www.algerie360.com/pour-trafic-de-drogue-dix-ans-de-prison-pour-un-divisionnaire-de-police/",
+          "title": "Pour trafic de drogue: dix ans de prison pour un divisionnaire de police",
+          "publisher": "Algérie360",
+          "language": "fr",
+          "publishedAt": "2011-05-03",
+          "claim": "Algérie360 reports Mohamed Senouci’s earlier drug-case conviction in the 2005 Tlemcen case."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-mohamed-senouci-2013-04-04-retrial",
+          "occurredAt": "2013-04-04",
+          "type": "conviction",
+          "title": "Historical retrial disposition",
+          "summary": "L’Expression identifies Mohamed Senouci as one of two principal defendants whose 10-year sentence remained after the 2013 retrial; five others were acquitted. This is a historical legal outcome, not present custody or activity.",
+          "source": {
+            "url": "https://www.lexpressiondz.com/nationale/cinq-acquittements-et-dautres-peines-a-la-baisse-171757",
+            "title": "Cinq acquittements et d’autres peines à la baisse",
+            "publisher": "L’Expression",
+            "language": "fr",
+            "publishedAt": "2013-04-04",
+            "claim": "L’Expression identifies Mohamed Senouci as one of two principal defendants whose 10-year sentence remained after the 2013 retrial; five others were acquitted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-boughafal-mohamed",
+      "name": "Boughafal Mohamed",
+      "aliases": [
+        "Boughafala Mohammed"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2013-04-04",
+      "roleLabel": "Eight-year sentence in 2013 kif-trafficking retrial",
+      "prominence": 3,
+      "organizationIds": [
+        "algeria-2005-2013-tlemcen-trafficking-case"
+      ],
+      "regions": [
+        {
+          "iso3": "DZA",
+          "label": "Algeria",
+          "evidence": {
+            "claim": "The 2013 reports locate Boughafal Mohamed’s adjudicated conduct in the historical Algerian kif case; this does not assert current location.",
+            "period": "2005–2013",
+            "sourceUrl": "https://www.lexpressiondz.com/nationale/cinq-acquittements-et-dautres-peines-a-la-baisse-171757"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lexpressiondz.com/nationale/cinq-acquittements-et-dautres-peines-a-la-baisse-171757",
+          "title": "Cinq acquittements et d’autres peines à la baisse",
+          "publisher": "L’Expression",
+          "language": "fr",
+          "publishedAt": "2013-04-04",
+          "claim": "L’Expression individually names Boughafal Mohamed and his eight-year sentence at the 2013 retrial, describing driving a vehicle tied to the adjudicated kif case. A second contemporary report corroborates the sentence."
+        },
+        {
+          "url": "https://www.depechedekabylie.com/122096-10-ans-de-prison-ferme-pour-lex-chef-de-surete-de-tlemcen/",
+          "title": "La cour de Bouira a rendu son verdict dans l’affaire des 28 quintaux de drogue",
+          "publisher": "La Dépêche de Kabylie",
+          "language": "fr",
+          "publishedAt": "2013-04-04",
+          "claim": "The 4 April 2013 report independently identifies Boughafal Mohamed (with a spelling variation for Boughafal) and the eight-year drug-case sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-boughafal-mohamed-2013-04-04-retrial",
+          "occurredAt": "2013-04-04",
+          "type": "conviction",
+          "title": "Historical retrial disposition",
+          "summary": "L’Expression individually names Boughafal Mohamed and his eight-year sentence at the 2013 retrial, describing driving a vehicle tied to the adjudicated kif case. A second contemporary report corroborates the sentence. This is a historical outcome, not present custody or activity.",
+          "source": {
+            "url": "https://www.lexpressiondz.com/nationale/cinq-acquittements-et-dautres-peines-a-la-baisse-171757",
+            "title": "Cinq acquittements et d’autres peines à la baisse",
+            "publisher": "L’Expression",
+            "language": "fr",
+            "publishedAt": "2013-04-04",
+            "claim": "L’Expression individually names Boughafal Mohamed and his eight-year sentence at the 2013 retrial, describing driving a vehicle tied to the adjudicated kif case. A second contemporary report corroborates the sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-benabdelkader-houari",
+      "name": "Benabdelkader Houari",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2013-04-04",
+      "roleLabel": "Eight-year sentence in 2013 kif-trafficking retrial",
+      "prominence": 3,
+      "organizationIds": [
+        "algeria-2005-2013-tlemcen-trafficking-case"
+      ],
+      "regions": [
+        {
+          "iso3": "DZA",
+          "label": "Algeria",
+          "evidence": {
+            "claim": "The 2013 reports locate Benabdelkader Houari’s adjudicated conduct in the historical Algerian kif case; this does not assert current location.",
+            "period": "2005–2013",
+            "sourceUrl": "https://www.lexpressiondz.com/nationale/cinq-acquittements-et-dautres-peines-a-la-baisse-171757"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.lexpressiondz.com/nationale/cinq-acquittements-et-dautres-peines-a-la-baisse-171757",
+          "title": "Cinq acquittements et d’autres peines à la baisse",
+          "publisher": "L’Expression",
+          "language": "fr",
+          "publishedAt": "2013-04-04",
+          "claim": "L’Expression individually names Benabdelkader Houari and his eight-year sentence at the 2013 retrial, describing working on a vehicle tied to the adjudicated kif case. A second contemporary report corroborates the sentence."
+        },
+        {
+          "url": "https://www.depechedekabylie.com/122096-10-ans-de-prison-ferme-pour-lex-chef-de-surete-de-tlemcen/",
+          "title": "La cour de Bouira a rendu son verdict dans l’affaire des 28 quintaux de drogue",
+          "publisher": "La Dépêche de Kabylie",
+          "language": "fr",
+          "publishedAt": "2013-04-04",
+          "claim": "The 4 April 2013 report independently identifies Benabdelkader Houari (with a spelling variation for Boughafal) and the eight-year drug-case sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "fa-historical-benabdelkader-houari-2013-04-04-retrial",
+          "occurredAt": "2013-04-04",
+          "type": "conviction",
+          "title": "Historical retrial disposition",
+          "summary": "L’Expression individually names Benabdelkader Houari and his eight-year sentence at the 2013 retrial, describing working on a vehicle tied to the adjudicated kif case. A second contemporary report corroborates the sentence. This is a historical outcome, not present custody or activity.",
+          "source": {
+            "url": "https://www.lexpressiondz.com/nationale/cinq-acquittements-et-dautres-peines-a-la-baisse-171757",
+            "title": "Cinq acquittements et d’autres peines à la baisse",
+            "publisher": "L’Expression",
+            "language": "fr",
+            "publishedAt": "2013-04-04",
+            "claim": "L’Expression individually names Benabdelkader Houari and his eight-year sentence at the 2013 retrial, describing working on a vehicle tied to the adjudicated kif case. A second contemporary report corroborates the sentence."
           }
         }
       ]
@@ -115001,6 +116503,57 @@
           "language": "English",
           "publishedAt": "2025-08-03",
           "claim": "The quoted anti-narcotics official says Amer Jdei' al-Sheikh had close ties to Maher al-Assad; this remains an official allegation, not a court finding."
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-abdenbi-bioui--fa-historical-abderrahim-bioui",
+      "fromId": "fa-historical-abdenbi-bioui",
+      "toId": "fa-historical-abderrahim-bioui",
+      "type": "family",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://fr.le360.ma/societe/proces-escobar-du-sahara-peines-lourdes-saisies-et-amendes-records-les-details-dun-verdict-de-fer_KPZJUPVJM5DG3AX2IE2DX6ZCEQ/",
+          "title": "Procès «Escobar du Sahara»: les détails du verdict",
+          "publisher": "Le360",
+          "language": "fr",
+          "publishedAt": "2026-06-26",
+          "claim": "Le360 explicitly identifies Abderrahim Bioui as Abdenbi Bioui’s brother."
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-armand-agnin-angbonon--fa-historical-jean-claude-angbonon",
+      "fromId": "fa-historical-armand-agnin-angbonon",
+      "toId": "fa-historical-jean-claude-angbonon",
+      "type": "family",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.lemonde.fr/afrique/article/2025/03/07/cote-d-ivoire-l-ancien-chef-de-la-police-antidrogue-du-port-d-abidjan-detournait-de-la-cocaine_6577059_3212.html",
+          "title": "Côte d’Ivoire : l’ancien chef de la police antidrogue du port d’Abidjan détournait de la cocaïne",
+          "publisher": "Le Monde",
+          "language": "fr",
+          "publishedAt": "2025-03-07",
+          "claim": "Le Monde explicitly identifies Jean-Claude as Armand Agnin Angbonon’s elder brother."
+        }
+      ]
+    },
+    {
+      "id": "fa-historical-nourou-diaw--fa-historical-emmanuel-ikethiukuwu",
+      "fromId": "fa-historical-nourou-diaw",
+      "toId": "fa-historical-emmanuel-ikethiukuwu",
+      "type": "documented_collaboration",
+      "label": "Court-described drug supply",
+      "sources": [
+        {
+          "url": "https://www.lexenegal.sn/decision/tribunal-de-grande-instance-hors-classe-de-dakar-20190814-n-7472019",
+          "title": "Dakar judgment no. 747/2019",
+          "publisher": "Lexenegal / Tribunal de grande instance de Dakar",
+          "language": "fr",
+          "publishedAt": "2019-08-14",
+          "claim": "The Dakar judgment describes Emmanuel supplying heroin to Nourou in the adjudicated case."
         }
       ]
     },
