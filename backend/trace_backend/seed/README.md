@@ -31,3 +31,28 @@ real seizure totals (WDR annex table 7.1, calibrated IDS backcast) and cultivati
 | UNODC-SEA2024 | UNODC, Synthetic Drugs in East and Southeast Asia: latest developments and challenges (2024) |
 | UNODC-WA2023 | UNODC, West and Central Africa drug trafficking assessments (2023) |
 | EUDA-EDM2024 | EUDA and Europol, EU Drug Markets analyses (cocaine 2022; heroin, methamphetamine, cannabis 2023-2024) |
+
+## `route_evidence.csv`, `route_evidence_sources.csv`, `evidence_claims.json`: route evidence
+
+Served by `/api/route-evidence` (`trace_backend/api/route_evidence.py`), which also links each
+`/api/routes` edge to its supporting records (`evidence_ids`, direct pairs first).
+
+- `route_evidence.csv` (51 rows) and `route_evidence_sources.csv` (9 publications) are transcribed
+  exactly from `frontend/lib/route-evidence.ts`, the frontend team's ChatGPT-assisted curation. Each
+  row is a country pair stated explicitly in the cited primary publication (UNODC Global Report on
+  Cocaine 2023, UNODC Haiti assessment 2023, EUDA/Europol EU Drug Markets heroin 2024 and cannabis
+  2023, UNODC Southern Route booklet 2024, UNODC Nigeria OCTA 2023, UNODC WDR 2026, INCB Report for
+  2025, NCB India Annual Report 2023-24) at an exact locator. `period_start`/`period_end` are blank
+  when the source gives no evidence period (a publication year is not an observation year).
+  Record ids are `drug:FROM:TO:source_id`, as in the frontend. API `pair_type: direct_reported_pair`.
+- `corridors.csv` rows are served as `pair_type: interpreted_corridor`: our transcription of
+  regional maps and text, not pairs the sources list verbatim. Citation keys are expanded to the
+  titles above; a URL is given only where the repo already cites one, otherwise the record's
+  `source` is the TRACE transcription itself.
+- `evidence_claims.json` is generated once from the archive's `evidence_claims` /
+  `evidence_sources` tables (claim type `published_aggregate_corridor_context`, 4 UNODC WDR 2026
+  statements) by `python -m trace_backend.api.route_evidence`, so the deploy needs no archive.
+  Served as `pair_type: narrative_context` with regional `geography_from`/`geography_to` text and
+  never converted to country pairs.
+
+None of these carry volumes or city, road or port geometry; edge `kg` stays allocated seizure scale.

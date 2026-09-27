@@ -1433,10 +1433,12 @@ components:
         today; `qualifier` carries the legal wording (e.g. "indicted; allegations only", "conviction on appeal").
       required: [status, date, qualifier, source]
       properties:
-        status: { type: string, enum: [reported, arrested, charged, convicted, sentenced, acquitted, dismissed, sanctioned, delisted, extradited, released] }
+        status: { type: string, enum: [reported, arrested, charged, convicted, sentenced, acquitted, overturned, dismissed, sanctioned, delisted, extradited, released], description: "overturned = an earlier conviction quashed on appeal; acquitted = found not guilty." }
         date: { type: string, pattern: "^\\d{4}(-\\d{2}(-\\d{2})?)?$", description: "Date the source gives, as precise as it states." }
         qualifier: { type: string, minLength: 1 }
         jurisdiction: { type: string, minLength: 1 }
+        offense: { type: string, minLength: 1, description: "Count or offence this entry concerns, as the source words it." }
+        partial: { type: boolean, description: "True when the entry covers only some counts (e.g. convicted on one count, acquitted on others)." }
         source: { $ref: "#/components/schemas/PeopleSource" }
 
     RouteEvidencePairType:
