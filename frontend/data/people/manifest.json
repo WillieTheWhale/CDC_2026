@@ -690,6 +690,114 @@
       ]
     },
     {
+      "id": "ndlea-ogun-2025-cannabis-case",
+      "name": "Ogun 2025 cannabis trafficking case",
+      "aliases": [],
+      "regions": [
+        "NGA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-busts-clandestine-colos-lab-in-lagos-intercepts-loud-consignments-in-bathtubs",
+          "title": "NDLEA busts clandestine Colos lab in Lagos, intercepts Loud consignments in bathtubs",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-02",
+          "claim": "NDLEA names Rauf Asogba and Seun Olaniyi among suspects in a large cannabis seizure in Nigeria."
+        }
+      ]
+    },
+    {
+      "id": "ndlea-2025-cocaine-export-trio",
+      "name": "NDLEA 2025 cocaine export case trio",
+      "aliases": [],
+      "regions": [
+        "NGA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+          "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-07",
+          "claim": "NDLEA identifies Olasupo, Ogunbiyi and Adegoke as leaders of the same cocaine case."
+        }
+      ]
+    },
+    {
+      "id": "ndlea-2025-cocaine-opioid-duo",
+      "name": "NDLEA 2025 cocaine and opioid case duo",
+      "aliases": [],
+      "regions": [
+        "NGA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+          "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-07",
+          "claim": "NDLEA identifies Obunike and Uzorchukwu as two leaders of another drug syndicate."
+        }
+      ]
+    },
+    {
+      "id": "ndlea-2025-hajj-cocaine-syndicate",
+      "name": "NDLEA 2025 pilgrimage cocaine syndicate",
+      "aliases": [],
+      "regions": [
+        "NGA"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano",
+          "title": "NDLEA busts syndicate sponsoring pilgrims with cocaine to hajj, arrests 3 kingpins in Kano",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-06-01",
+          "claim": "NDLEA identifies three named leaders as sponsors of couriers in an alleged cocaine trafficking network."
+        }
+      ]
+    },
+    {
+      "id": "ndlea-chinedu-hunkarin-cocaine-case",
+      "name": "Chinedu–Hunkarin cocaine importation case",
+      "aliases": [],
+      "regions": [
+        "NGA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation",
+          "title": "Fugitive drug kingpin, ex-international footballer bag 24 years jail term for cocaine importation",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-27",
+          "claim": "NDLEA identifies Chinedu and Hunkarin as accomplices convicted in a cocaine-import conspiracy."
+        }
+      ]
+    },
+    {
+      "id": "ndlea-2025-uchenna-cannabis-network",
+      "name": "Uchenna cannabis network",
+      "aliases": [],
+      "regions": [
+        "NGA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/couple-sentenced-to-22-years-imprisonment-for-drug-trafficking-in-lagos",
+          "title": "Couple sentenced to 22 years imprisonment for drug trafficking in Lagos",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-08-05",
+          "claim": "NDLEA reports the married couple jointly dealt in and stored cannabis in Nigeria."
+        }
+      ]
+    },
+    {
       "id": "ndrangheta",
       "name": "’Ndrangheta",
       "aliases": [
@@ -16125,6 +16233,1230 @@
           "language": "English",
           "publishedAt": "2025-08-06",
           "claim": "Treasury designated Esqueda Nieto, stated he took over tactical leadership after González Sauceda’s 2025 arrest, and said he had participated since the Los Zetas period."
+        }
+      ]
+    },
+    {
+      "id": "adegbite-solomon",
+      "name": "Adegbite Solomon",
+      "aliases": [
+        "Obama"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-03-18",
+      "roleLabel": "Convicted in 2026 on 15 drug counts; 130 years nominal total, all terms concurrent",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA reported Adegbite’s 2024 attempted opioid export from Nigeria; this is historical conduct, not his Italy-based residence.",
+            "period": "2024-11",
+            "sourceUrl": "https://ndlea.gov.ng/blog/uk-italy-turkey-qatar-bound-cocaine-meth-consignments-intercepted-in-lagos-abuja"
+          }
+        }
+      ],
+      "drugs": [
+        "tramadol",
+        "flunitrazepam",
+        "codeine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA reports a 15-count drug conviction on 18 March 2026 and concurrent sentences."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/uk-italy-turkey-qatar-bound-cocaine-meth-consignments-intercepted-in-lagos-abuja",
+          "title": "UK, Italy, Turkey, Qatar-bound cocaine, meth consignments intercepted in Lagos, Abuja",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-11-17",
+          "claim": "NDLEA reported Adegbite’s 2024 attempted opioid export from Nigeria."
+        }
+      ],
+      "events": [
+        {
+          "id": "adegbite-solomon-2024-11-11-arrest",
+          "occurredAt": "2024-11-11",
+          "type": "arrest",
+          "title": "Arrested over attempted opioid export",
+          "summary": "NDLEA reported an attempted opioid export from Nigeria; this was an allegation at arrest.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/uk-italy-turkey-qatar-bound-cocaine-meth-consignments-intercepted-in-lagos-abuja",
+            "title": "UK, Italy, Turkey, Qatar-bound cocaine, meth consignments intercepted in Lagos, Abuja",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2024-11-17",
+            "claim": "NDLEA reported an attempted opioid export from Nigeria; this was an allegation at arrest."
+          }
+        },
+        {
+          "id": "adegbite-solomon-2026-03-18-conviction",
+          "occurredAt": "2026-03-18",
+          "type": "conviction",
+          "title": "Drug conviction and concurrent sentences",
+          "summary": "NDLEA reported conviction on 15 counts with 130 years summed across counts, to run concurrently; this is not 130 consecutive years.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reported conviction on 15 counts with 130 years summed across counts, to run concurrently; this is not 130 consecutive years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rauf-asogba",
+      "name": "Rauf Asogba",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-01-28",
+      "roleLabel": "Convicted in 2026 of cannabis trafficking; 17-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-ogun-2025-cannabis-case"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA reported Rauf Asogba transporting cannabis in Nigeria in November 2025; later sentenced for that trafficking case.",
+            "period": "2025-11",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-busts-clandestine-colos-lab-in-lagos-intercepts-loud-consignments-in-bathtubs"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA reports Rauf Asogba received 17 years for cannabis trafficking in January 2026."
+        },
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-busts-clandestine-colos-lab-in-lagos-intercepts-loud-consignments-in-bathtubs",
+          "title": "NDLEA busts clandestine Colos lab in Lagos, intercepts Loud consignments in bathtubs",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-02",
+          "claim": "NDLEA identifies Rauf Asogba in a November 2025 cannabis trafficking case in Nigeria."
+        }
+      ],
+      "events": [
+        {
+          "id": "rauf-asogba-2025-11-01-arrest",
+          "occurredAt": "2025-11-01",
+          "type": "arrest",
+          "title": "Arrested in cannabis trafficking case",
+          "summary": "NDLEA reported apprehending the named person while transporting cannabis in Nigeria.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-busts-clandestine-colos-lab-in-lagos-intercepts-loud-consignments-in-bathtubs",
+            "title": "NDLEA busts clandestine Colos lab in Lagos, intercepts Loud consignments in bathtubs",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-11-02",
+            "claim": "NDLEA reported apprehending the named person while transporting cannabis in Nigeria."
+          }
+        },
+        {
+          "id": "rauf-asogba-2026-01-28-conviction",
+          "occurredAt": "2026-01-28",
+          "type": "conviction",
+          "title": "Sentenced for cannabis trafficking",
+          "summary": "NDLEA reports a 17-year sentence for the cannabis trafficking case.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reports a 17-year sentence for the cannabis trafficking case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seun-olaniyi",
+      "name": "Seun Olaniyi",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-01-28",
+      "roleLabel": "Convicted in 2026 of cannabis trafficking; 17-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-ogun-2025-cannabis-case"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA reported Seun Olaniyi transporting cannabis in Nigeria in November 2025; later sentenced for that trafficking case.",
+            "period": "2025-11",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-busts-clandestine-colos-lab-in-lagos-intercepts-loud-consignments-in-bathtubs"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA reports Seun Olaniyi received 17 years for cannabis trafficking in January 2026."
+        },
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-busts-clandestine-colos-lab-in-lagos-intercepts-loud-consignments-in-bathtubs",
+          "title": "NDLEA busts clandestine Colos lab in Lagos, intercepts Loud consignments in bathtubs",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-02",
+          "claim": "NDLEA identifies Seun Olaniyi in a November 2025 cannabis trafficking case in Nigeria."
+        }
+      ],
+      "events": [
+        {
+          "id": "seun-olaniyi-2025-11-01-arrest",
+          "occurredAt": "2025-11-01",
+          "type": "arrest",
+          "title": "Arrested in cannabis trafficking case",
+          "summary": "NDLEA reported apprehending the named person while transporting cannabis in Nigeria.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-busts-clandestine-colos-lab-in-lagos-intercepts-loud-consignments-in-bathtubs",
+            "title": "NDLEA busts clandestine Colos lab in Lagos, intercepts Loud consignments in bathtubs",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-11-02",
+            "claim": "NDLEA reported apprehending the named person while transporting cannabis in Nigeria."
+          }
+        },
+        {
+          "id": "seun-olaniyi-2026-01-28-conviction",
+          "occurredAt": "2026-01-28",
+          "type": "conviction",
+          "title": "Sentenced for cannabis trafficking",
+          "summary": "NDLEA reports a 17-year sentence for the cannabis trafficking case.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reports a 17-year sentence for the cannabis trafficking case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jonathan-nuhu",
+      "name": "Jonathan Nuhu",
+      "aliases": [
+        "Doctor"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-03-17",
+      "roleLabel": "Convicted in 2026 of a drug offence; 15-year sentence reported by NDLEA",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA reported cannabis recovered from Jonathan Nuhu in Nigeria in 2023; the 2026 report names the same man and case period.",
+            "period": "2023-07",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-arrests-drug-lord-while-giving-mule-93-cocaine-wraps-to-swallow-in-lagos-hotel"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA reports Jonathan Nuhu’s 15-year sentence in its 2026 court-outcome roundup."
+        },
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-arrests-drug-lord-while-giving-mule-93-cocaine-wraps-to-swallow-in-lagos-hotel",
+          "title": "NDLEA arrests drug lord while giving mule 93 cocaine wraps to swallow in Lagos hotel",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2023-07-23",
+          "claim": "NDLEA names Jonathan Nuhu, age 54, among people from whom cannabis was recovered in Nigeria in 2023."
+        }
+      ],
+      "events": [
+        {
+          "id": "jonathan-nuhu-2023-07-20-arrest",
+          "occurredAt": "2023-07-20",
+          "type": "arrest",
+          "title": "Cannabis seizure and arrest reported",
+          "summary": "NDLEA reported cannabis recovered from Jonathan Nuhu in Nigeria; this was an arrest allegation.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-arrests-drug-lord-while-giving-mule-93-cocaine-wraps-to-swallow-in-lagos-hotel",
+            "title": "NDLEA arrests drug lord while giving mule 93 cocaine wraps to swallow in Lagos hotel",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2023-07-23",
+            "claim": "NDLEA reported cannabis recovered from Jonathan Nuhu in Nigeria; this was an arrest allegation."
+          }
+        },
+        {
+          "id": "jonathan-nuhu-2026-03-17-conviction",
+          "occurredAt": "2026-03-17",
+          "type": "conviction",
+          "title": "Drug conviction and sentence",
+          "summary": "NDLEA reported a 15-year sentence in the 2023 drug case.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reported a 15-year sentence in the 2023 drug case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "godday-obizuo",
+      "name": "Godday Obizuo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-04-17",
+      "roleLabel": "Drug-trafficking conviction; seven-year sentence reported by NDLEA",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Godday Obizuo as convicted for a drug-trafficking offence committed in Nigeria; the source gives no more precise historical operation site.",
+            "period": "Q1 2026",
+            "sourceUrl": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA names Godday Obizuo among five people given seven-year drug-trafficking terms in Q1 2026; the individual judgment date is not stated."
+        }
+      ],
+      "events": [
+        {
+          "id": "godday-obizuo-2026-04-17-conviction",
+          "occurredAt": "2026-04-17",
+          "type": "conviction",
+          "title": "Sentence publicly reported",
+          "summary": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "asabe-abubakar",
+      "name": "Asabe Abubakar",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-04-17",
+      "roleLabel": "Drug-trafficking conviction; seven-year sentence reported by NDLEA",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Asabe Abubakar as convicted for a drug-trafficking offence committed in Nigeria; the source gives no more precise historical operation site.",
+            "period": "Q1 2026",
+            "sourceUrl": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA names Asabe Abubakar among five people given seven-year drug-trafficking terms in Q1 2026; the individual judgment date is not stated."
+        }
+      ],
+      "events": [
+        {
+          "id": "asabe-abubakar-2026-04-17-conviction",
+          "occurredAt": "2026-04-17",
+          "type": "conviction",
+          "title": "Sentence publicly reported",
+          "summary": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "godwin-peter",
+      "name": "Godwin Peter",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-04-17",
+      "roleLabel": "Drug-trafficking conviction; seven-year sentence reported by NDLEA",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Godwin Peter as convicted for a drug-trafficking offence committed in Nigeria; the source gives no more precise historical operation site.",
+            "period": "Q1 2026",
+            "sourceUrl": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA names Godwin Peter among five people given seven-year drug-trafficking terms in Q1 2026; the individual judgment date is not stated."
+        }
+      ],
+      "events": [
+        {
+          "id": "godwin-peter-2026-04-17-conviction",
+          "occurredAt": "2026-04-17",
+          "type": "conviction",
+          "title": "Sentence publicly reported",
+          "summary": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "asuquo-christian",
+      "name": "Asuquo Christian",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-04-17",
+      "roleLabel": "Drug-trafficking conviction; seven-year sentence reported by NDLEA",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Asuquo Christian as convicted for a drug-trafficking offence committed in Nigeria; the source gives no more precise historical operation site.",
+            "period": "Q1 2026",
+            "sourceUrl": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA names Asuquo Christian among five people given seven-year drug-trafficking terms in Q1 2026; the individual judgment date is not stated."
+        }
+      ],
+      "events": [
+        {
+          "id": "asuquo-christian-2026-04-17-conviction",
+          "occurredAt": "2026-04-17",
+          "type": "conviction",
+          "title": "Sentence publicly reported",
+          "summary": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "olabode-sunday",
+      "name": "Olabode Sunday",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-04-17",
+      "roleLabel": "Drug-trafficking conviction; seven-year sentence reported by NDLEA",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Olabode Sunday as convicted for a drug-trafficking offence committed in Nigeria; the source gives no more precise historical operation site.",
+            "period": "Q1 2026",
+            "sourceUrl": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA names Olabode Sunday among five people given seven-year drug-trafficking terms in Q1 2026; the individual judgment date is not stated."
+        }
+      ],
+      "events": [
+        {
+          "id": "olabode-sunday-2026-04-17-conviction",
+          "occurredAt": "2026-04-17",
+          "type": "conviction",
+          "title": "Sentence publicly reported",
+          "summary": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reported a seven-year drug-trafficking sentence; the individual judgment day is unspecified, so this event uses the report date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "olasupo-michael-oladimeji",
+      "name": "Olasupo Michael Oladimeji",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-10-31",
+      "roleLabel": "Leader named in NDLEA cocaine export case; five-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-cocaine-export-trio"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Olasupo Michael Oladimeji as a leader in a cocaine-export case organized in Nigeria in 2025; this is historical conduct, not a destination marker.",
+            "period": "2025-08–2025-10",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+          "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-07",
+          "claim": "NDLEA identifies Olasupo Michael Oladimeji in the 2025 cocaine export case and reports an individual five-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "olasupo-michael-oladimeji-2025-10-31-conviction",
+          "occurredAt": "2025-10-31",
+          "type": "conviction",
+          "title": "Cocaine case sentence",
+          "summary": "NDLEA reported a guilty plea and five-year sentence for this person in the cocaine export case.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+            "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-11-07",
+            "claim": "NDLEA reported a guilty plea and five-year sentence for this person in the cocaine export case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "muaezee-ademola-ogunbiyi",
+      "name": "Muaezee Ademola Ogunbiyi",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-10-31",
+      "roleLabel": "Leader named in NDLEA cocaine export case; five-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-cocaine-export-trio"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Muaezee Ademola Ogunbiyi as a leader in a cocaine-export case organized in Nigeria in 2025; this is historical conduct, not a destination marker.",
+            "period": "2025-08–2025-10",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+          "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-07",
+          "claim": "NDLEA identifies Muaezee Ademola Ogunbiyi in the 2025 cocaine export case and reports an individual five-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "muaezee-ademola-ogunbiyi-2025-10-31-conviction",
+          "occurredAt": "2025-10-31",
+          "type": "conviction",
+          "title": "Cocaine case sentence",
+          "summary": "NDLEA reported a guilty plea and five-year sentence for this person in the cocaine export case.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+            "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-11-07",
+            "claim": "NDLEA reported a guilty plea and five-year sentence for this person in the cocaine export case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sola-adegoke",
+      "name": "Sola Adegoke",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-10-31",
+      "roleLabel": "Leader named in NDLEA cocaine export case; five-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-cocaine-export-trio"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Sola Adegoke as a leader in a cocaine-export case organized in Nigeria in 2025; this is historical conduct, not a destination marker.",
+            "period": "2025-08–2025-10",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+          "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-07",
+          "claim": "NDLEA identifies Sola Adegoke in the 2025 cocaine export case and reports an individual five-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "sola-adegoke-2025-10-31-conviction",
+          "occurredAt": "2025-10-31",
+          "type": "conviction",
+          "title": "Cocaine case sentence",
+          "summary": "NDLEA reported a guilty plea and five-year sentence for this person in the cocaine export case.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+            "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-11-07",
+            "claim": "NDLEA reported a guilty plea and five-year sentence for this person in the cocaine export case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "obunike-joseph-obichukwu",
+      "name": "Obunike Joseph Obichukwu",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-11-04",
+      "roleLabel": "Leader named in NDLEA cocaine and opioid case; three-year sentence or fine",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-cocaine-opioid-duo"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Obunike Joseph Obichukwu in a cocaine and tramadol case organized in Nigeria in 2025; this is historical drug conduct, not the destination.",
+            "period": "2025-07–2025-11",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "tramadol"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+          "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-07",
+          "claim": "NDLEA identifies Obunike Joseph Obichukwu in a separate 2025 cocaine and tramadol case and reports an individual conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "obunike-joseph-obichukwu-2025-11-04-conviction",
+          "occurredAt": "2025-11-04",
+          "type": "conviction",
+          "title": "Cocaine and opioid case sentence",
+          "summary": "NDLEA reported a guilty plea and three-year sentence with a fine option for this person.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+            "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-11-07",
+            "claim": "NDLEA reported a guilty plea and three-year sentence with a fine option for this person."
+          }
+        }
+      ]
+    },
+    {
+      "id": "uzorchukwu-godspower-chukwurah",
+      "name": "Uzorchukwu Godspower Chukwurah",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-11-04",
+      "roleLabel": "Leader named in NDLEA cocaine and opioid case; three-year sentence or fine",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-cocaine-opioid-duo"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Uzorchukwu Godspower Chukwurah in a cocaine and tramadol case organized in Nigeria in 2025; this is historical drug conduct, not the destination.",
+            "period": "2025-07–2025-11",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "tramadol"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+          "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-11-07",
+          "claim": "NDLEA identifies Uzorchukwu Godspower Chukwurah in a separate 2025 cocaine and tramadol case and reports an individual conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "uzorchukwu-godspower-chukwurah-2025-11-04-conviction",
+          "occurredAt": "2025-11-04",
+          "type": "conviction",
+          "title": "Cocaine and opioid case sentence",
+          "summary": "NDLEA reported a guilty plea and three-year sentence with a fine option for this person.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/5-drug-kingpins-bag-21-years-imprisonment-over-gabon-australia-bond-cocaine-opioids",
+            "title": "5 drug kingpins bag 21 years imprisonment over Gabon, Australia-bound cocaine, opioids",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-11-07",
+            "claim": "NDLEA reported a guilty plea and three-year sentence with a fine option for this person."
+          }
+        }
+      ]
+    },
+    {
+      "id": "abubakar-muhammad",
+      "name": "Abubakar Muhammad",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2025-06-01",
+      "roleLabel": "NDLEA-identified alleged leader of pilgrimage cocaine network; arrest reported, later charge or outcome unverified",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-hajj-cocaine-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleges Abubakar Muhammad helped lead a cocaine-courier network organized in Nigeria in May 2025; this is an allegation, not a current location.",
+            "period": "2025-05",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano",
+          "title": "NDLEA busts syndicate sponsoring pilgrims with cocaine to hajj, arrests 3 kingpins in Kano",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-06-01",
+          "claim": "NDLEA names Abubakar Muhammad among three alleged leaders arrested in late May 2025; no charge or conviction outcome was verified."
+        }
+      ],
+      "events": [
+        {
+          "id": "abubakar-muhammad-2025-06-01-development",
+          "occurredAt": "2025-06-01",
+          "type": "development",
+          "title": "Arrests publicly reported",
+          "summary": "NDLEA reported arrest of this alleged network leader during 27–28 May 2025; the individual day was not specified, so this event uses the report date.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano",
+            "title": "NDLEA busts syndicate sponsoring pilgrims with cocaine to hajj, arrests 3 kingpins in Kano",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-06-01",
+            "claim": "NDLEA reported arrest of this alleged network leader during 27–28 May 2025; the individual day was not specified, so this event uses the report date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "abdulhakeem-muhammed-tijjani",
+      "name": "Abdulhakeem Muhammed Tijjani",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2025-06-01",
+      "roleLabel": "NDLEA-identified alleged leader of pilgrimage cocaine network; arrest reported, later charge or outcome unverified",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-hajj-cocaine-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleges Abdulhakeem Muhammed Tijjani helped lead a cocaine-courier network organized in Nigeria in May 2025; this is an allegation, not a current location.",
+            "period": "2025-05",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano",
+          "title": "NDLEA busts syndicate sponsoring pilgrims with cocaine to hajj, arrests 3 kingpins in Kano",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-06-01",
+          "claim": "NDLEA names Abdulhakeem Muhammed Tijjani among three alleged leaders arrested in late May 2025; no charge or conviction outcome was verified."
+        }
+      ],
+      "events": [
+        {
+          "id": "abdulhakeem-muhammed-tijjani-2025-06-01-development",
+          "occurredAt": "2025-06-01",
+          "type": "development",
+          "title": "Arrests publicly reported",
+          "summary": "NDLEA reported arrest of this alleged network leader during 27–28 May 2025; the individual day was not specified, so this event uses the report date.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano",
+            "title": "NDLEA busts syndicate sponsoring pilgrims with cocaine to hajj, arrests 3 kingpins in Kano",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-06-01",
+            "claim": "NDLEA reported arrest of this alleged network leader during 27–28 May 2025; the individual day was not specified, so this event uses the report date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "muhammad-aji-shugaba",
+      "name": "Muhammad Aji Shugaba",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2025-06-01",
+      "roleLabel": "NDLEA-identified alleged leader of pilgrimage cocaine network; arrest reported, later charge or outcome unverified",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-hajj-cocaine-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleges Muhammad Aji Shugaba helped lead a cocaine-courier network organized in Nigeria in May 2025; this is an allegation, not a current location.",
+            "period": "2025-05",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano",
+          "title": "NDLEA busts syndicate sponsoring pilgrims with cocaine to hajj, arrests 3 kingpins in Kano",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-06-01",
+          "claim": "NDLEA names Muhammad Aji Shugaba among three alleged leaders arrested in late May 2025; no charge or conviction outcome was verified."
+        }
+      ],
+      "events": [
+        {
+          "id": "muhammad-aji-shugaba-2025-06-01-development",
+          "occurredAt": "2025-06-01",
+          "type": "development",
+          "title": "Arrests publicly reported",
+          "summary": "NDLEA reported arrest of this alleged network leader during 27–28 May 2025; the individual day was not specified, so this event uses the report date.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-busts-syndicate-sponsoring-pilgrims-with-cocaine-to-hajj-arrests-3-kingpins-in-kano",
+            "title": "NDLEA busts syndicate sponsoring pilgrims with cocaine to hajj, arrests 3 kingpins in Kano",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-06-01",
+            "claim": "NDLEA reported arrest of this alleged network leader during 27–28 May 2025; the individual day was not specified, so this event uses the report date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ntoruka-emmanuel-chinedu",
+      "name": "Ntoruka Emmanuel Chinedu",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Convicted of cocaine importation and conspiracy; 22-year total sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "ndlea-chinedu-hunkarin-cocaine-case"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA reports Chinedu’s cocaine importation into Nigeria in the 2015 and 2025 cases, established by the 2026 judgment.",
+            "period": "2015–2025",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation",
+          "title": "Fugitive drug kingpin, ex-international footballer bag 24 years jail term for cocaine importation",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-27",
+          "claim": "NDLEA reports Chinedu’s 2015 charge, 2025 re-arrest and 2026 court conviction on cocaine importation and conspiracy counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "ntoruka-emmanuel-chinedu-2015-09-charge",
+          "occurredAt": "2015-09",
+          "type": "charge",
+          "title": "Initial cocaine importation charge",
+          "summary": "NDLEA reports a September 2015 cocaine-importation charge; it does not specify the day.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation",
+            "title": "Fugitive drug kingpin, ex-international footballer bag 24 years jail term for cocaine importation",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-27",
+            "claim": "NDLEA reports a September 2015 cocaine-importation charge; it does not specify the day."
+          }
+        },
+        {
+          "id": "ntoruka-emmanuel-chinedu-2025-06-24-arrest",
+          "occurredAt": "2025-06-24",
+          "type": "arrest",
+          "title": "Re-arrested in cocaine case",
+          "summary": "NDLEA reports Chinedu’s re-arrest in a separate cocaine importation attempt.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation",
+            "title": "Fugitive drug kingpin, ex-international footballer bag 24 years jail term for cocaine importation",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-27",
+            "claim": "NDLEA reports Chinedu’s re-arrest in a separate cocaine importation attempt."
+          }
+        },
+        {
+          "id": "ntoruka-emmanuel-chinedu-2026-07-24-conviction",
+          "occurredAt": "2026-07-24",
+          "type": "conviction",
+          "title": "Cocaine importation and conspiracy sentence",
+          "summary": "NDLEA reports a 20-year importation term and a further two-year conspiracy term, described as a 22-year total sentence.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation",
+            "title": "Fugitive drug kingpin, ex-international footballer bag 24 years jail term for cocaine importation",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-27",
+            "claim": "NDLEA reports a 20-year importation term and a further two-year conspiracy term, described as a 22-year total sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hunkarin-segun-george",
+      "name": "Hunkarin Segun George",
+      "aliases": [
+        "Segun George Hunkarin"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-07-24",
+      "roleLabel": "Convicted of cocaine importation conspiracy; two-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-chinedu-hunkarin-cocaine-case"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA reports Hunkarin’s role in a cocaine-importation conspiracy involving Nigeria, established by the 2026 judgment.",
+            "period": "2025",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation",
+          "title": "Fugitive drug kingpin, ex-international footballer bag 24 years jail term for cocaine importation",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-27",
+          "claim": "NDLEA reports Hunkarin’s conviction and two-year sentence for cocaine importation conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "hunkarin-segun-george-2026-07-24-conviction",
+          "occurredAt": "2026-07-24",
+          "type": "conviction",
+          "title": "Cocaine conspiracy sentence",
+          "summary": "NDLEA reports a two-year sentence for conspiracy with Chinedu to import cocaine into Nigeria.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation",
+            "title": "Fugitive drug kingpin, ex-international footballer bag 24 years jail term for cocaine importation",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-27",
+            "claim": "NDLEA reports a two-year sentence for conspiracy with Chinedu to import cocaine into Nigeria."
+          }
+        }
+      ]
+    },
+    {
+      "id": "johnson-ajah-uchenna",
+      "name": "Johnson Ajah Uchenna",
+      "aliases": [
+        "Ajah Johnson Uchenna"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-08-04",
+      "roleLabel": "Convicted in joint cannabis case; five-year term plus six-month count with fine option",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-uchenna-cannabis-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Johnson as operating a cannabis dealing and storage business in Nigeria with his spouse in 2025.",
+            "period": "2025-06–2025-08",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/couple-sentenced-to-22-years-imprisonment-for-drug-trafficking-in-lagos"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/couple-sentenced-to-22-years-imprisonment-for-drug-trafficking-in-lagos",
+          "title": "Couple sentenced to 22 years imprisonment for drug trafficking in Lagos",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-08-05",
+          "claim": "NDLEA reports Johnson’s separate count-level conviction and sentence in the married couple’s cannabis case."
+        }
+      ],
+      "events": [
+        {
+          "id": "johnson-ajah-uchenna-2025-08-04-conviction",
+          "occurredAt": "2025-08-04",
+          "type": "conviction",
+          "title": "Cannabis case sentence",
+          "summary": "NDLEA reports a five-year term on one count and a six-month term with a fine option on another; the source does not say whether terms run consecutively.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/couple-sentenced-to-22-years-imprisonment-for-drug-trafficking-in-lagos",
+            "title": "Couple sentenced to 22 years imprisonment for drug trafficking in Lagos",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-08-05",
+            "claim": "NDLEA reports a five-year term on one count and a six-month term with a fine option on another; the source does not say whether terms run consecutively."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rosemary-uchenna",
+      "name": "Rosemary Uchenna",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-08-04",
+      "roleLabel": "Convicted in joint cannabis case; 17-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "ndlea-2025-uchenna-cannabis-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA identifies Rosemary as operating a cannabis dealing and storage business in Nigeria with her spouse in 2025.",
+            "period": "2025-06–2025-08",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/couple-sentenced-to-22-years-imprisonment-for-drug-trafficking-in-lagos"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/couple-sentenced-to-22-years-imprisonment-for-drug-trafficking-in-lagos",
+          "title": "Couple sentenced to 22 years imprisonment for drug trafficking in Lagos",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-08-05",
+          "claim": "NDLEA reports Rosemary’s conviction on three cannabis counts and her individual 17-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "rosemary-uchenna-2025-08-04-conviction",
+          "occurredAt": "2025-08-04",
+          "type": "conviction",
+          "title": "Cannabis case sentence",
+          "summary": "NDLEA reports conviction on three counts and a 17-year prison sentence without a fine option.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/couple-sentenced-to-22-years-imprisonment-for-drug-trafficking-in-lagos",
+            "title": "Couple sentenced to 22 years imprisonment for drug trafficking in Lagos",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2025-08-05",
+            "claim": "NDLEA reports conviction on three counts and a 17-year prison sentence without a fine option."
+          }
         }
       ]
     },
@@ -43447,6 +44779,40 @@
           "language": "English",
           "publishedAt": "2025-08-06",
           "claim": "Treasury states Esqueda Nieto took over CDN tactical operations after González Sauceda’s 2025 arrest."
+        }
+      ]
+    },
+    {
+      "id": "chinedu-hunkarin-conspiracy-2025",
+      "fromId": "ntoruka-emmanuel-chinedu",
+      "toId": "hunkarin-segun-george",
+      "type": "co_conspirators",
+      "label": "Convicted co-conspirators",
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/fugitive-drug-kingpin-ex-intl-footballer-bag-24-years-jail-term-for-cocaine-importation",
+          "title": "Fugitive drug kingpin, ex-international footballer bag 24 years jail term for cocaine importation",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-27",
+          "claim": "NDLEA says Hunkarin was Chinedu’s accomplice and the court convicted both in a cocaine-importation conspiracy."
+        }
+      ]
+    },
+    {
+      "id": "johnson-rosemary-uchenna-spouses",
+      "fromId": "johnson-ajah-uchenna",
+      "toId": "rosemary-uchenna",
+      "type": "spouse_of",
+      "label": "Spouses and co-defendants",
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/couple-sentenced-to-22-years-imprisonment-for-drug-trafficking-in-lagos",
+          "title": "Couple sentenced to 22 years imprisonment for drug trafficking in Lagos",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2025-08-05",
+          "claim": "NDLEA explicitly identifies Johnson and Rosemary as husband and wife in the joint cannabis case."
         }
       ]
     },
