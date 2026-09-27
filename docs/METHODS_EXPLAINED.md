@@ -420,7 +420,8 @@ together):
 
 **Say it:**
 > The commercial model we planned to use had a waitlist, so we built our own version of it, Reflex. It answers
-> the same typed questions with calibrated probabilities: when it says 80%, it's right about 80% of the time.
+> the same typed questions with probability scores calibrated on its held-out development data. Those scores
+> are routing signals until we validate them on team-labelled real news; they are not field probabilities yet.
 
 **Method:**
 - A cross-encoder (`nli-deberta-v3-xsmall`) reads (news text, candidate answer) and scores
@@ -455,8 +456,9 @@ together):
 ## 13. Health evidence and drilldowns (`api/evidence.py`, `api/route_evidence.py`)
 
 **Say it:**
-> Click any number and you get the formula, the exact input rows, and the original spreadsheet cell and URL
-> it came from.
+> Research and derived market values open to their formula, exact input rows and original spreadsheet cells.
+> Source-published health and overdose records open to their source, date, method and status labels instead;
+> we do not invent a derivation where the source reports an observation or estimate directly.
 
 **Route evidence has three layers, each labelled:**
 - `direct_reported_pair`: 51 country pairs a primary source states explicitly.
@@ -479,7 +481,9 @@ The labels say whether a value is modelled or observed, direct or indirect, and 
 > at country level only, with their legal status and the date of that status.
 
 **Rules:**
-- Every person, status and country link has a primary source: DOJ, OFAC, or a court judgment.
+- Every displayed person, status and country link carries a cited source. Most rest on an official action such
+  as a court judgment, indictment, sanctions listing or police release; the separately labelled `reported`
+  records rely on journalism and are not presented as official findings.
 - Status is `convicted`, `charged`, `sanctioned` or `reported`, with an as-of date. A charge is never shown as
   a conviction.
 - Countries come from documented conduct, never from where a group operates.
