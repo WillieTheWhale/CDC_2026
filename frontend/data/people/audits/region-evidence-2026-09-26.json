@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2571,
-    "associations": 1734,
-    "evidenced": 1734,
+    "people": 2602,
+    "associations": 1765,
+    "evidenced": 1765,
     "missing": 0,
     "invalid": 0
   },
@@ -51,9 +51,9 @@
       "invalid": 0
     },
     "brazil_south_africa_official_convictions_2018_2026.json": {
-      "people": 33,
-      "associations": 33,
-      "evidenced": 33,
+      "people": 64,
+      "associations": 64,
+      "evidenced": 64,
       "missing": 0,
       "invalid": 0
     },
@@ -623,8 +623,8 @@
       "invalid": 0
     },
     "BRA": {
-      "associations": 63,
-      "evidenced": 63,
+      "associations": 94,
+      "evidenced": 94,
       "missing": 0,
       "invalid": 0
     },
