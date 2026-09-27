@@ -1,7 +1,7 @@
 <!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->
 # India NCB / PIB convictions audit — 2026-09-27
 
-25 individually named historical convictions accepted from [India Ministry of Home Affairs / NCB PIB release 2107483](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2107483&lang=1&reg=3) (2 March 2025). Case groupings are descriptive; no person-person links, present-location claims, routes, addresses, or images are included.
+25 individually named historical convictions accepted from [India Ministry of Home Affairs / NCB PIB release 2107483](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2107483&lang=1&reg=3) (2 March 2025). Case names are descriptive, with no organization objects or person-person links. Ten person-specific India markers are retained; the other 15 have no country marker. No present-location claims, routes, addresses, or images are included.
 
 | Person | ID | Case | Conviction/report date | Drug | Sentence | Source decision |
 |---|---|---|---|---|---|---|
@@ -39,3 +39,9 @@
 - Shajahan Tarafdar: the release first spells this person Sahajan and later Shajahan in the same case; retained the conviction-clause spelling, with the arrest-clause spelling as an alias.
 - Hyderabad eight-person judgment date is unstated. Their event date is the PIB publication date, 2 March 2025, and the event title says reported.
 - The 29-person headline total is not substituted for case-level named outcomes. No individual organization membership or interpersonal relationship is inferred from co-defendant status.
+
+## Country evidence decisions
+
+- Retained IND for Shivam Singh (owner of seized vehicles); Sant Kumar Yadav, Balmukund Mishra and Uttam Singh (individually identified carriers in the India seizure); Nasib Singh and Gobind Singh (the India parcel booking); Bhim Lama, Sahi Ram and Dheeraj Kr. Dangi (India possession); and Sharon Chigwaza (heroin recovered from her luggage on arrival in India). These are historical case-conduct links.
+- Withheld IND for Sahidul Rehman, Naman Bansal, the eight Ranga Reddy defendants, the four Seoni defendants, and Shajahan Tarafdar because the release gives a group case, arrest or court venue without allocating historical drug conduct in India to the individual. Conviction status remains sourced for all fifteen.
+- No descriptive prosecution case is represented as a membership organization. Every `organizationIds` array is empty.
