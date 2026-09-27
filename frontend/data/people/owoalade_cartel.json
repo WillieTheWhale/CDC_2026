@@ -40,7 +40,12 @@
       "regions": [
         {
           "iso3": "IND",
-          "label": "India"
+          "label": "India",
+          "evidence": {
+            "claim": "NDLEA alleged that Kazeem and Rashidat Owoalade jointly ran a cocaine cartel from India in 2024; this is an agency allegation of historical operation, not a claim derived from an India residence permit alone.",
+            "period": "2024-05 report",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
         }
       ],
       "drugs": [
@@ -90,7 +95,12 @@
       "regions": [
         {
           "iso3": "IND",
-          "label": "India"
+          "label": "India",
+          "evidence": {
+            "claim": "NDLEA alleged that Rashidat and Kazeem Owoalade jointly ran a cocaine cartel from India in 2024; this is an agency allegation of historical operation, not citizenship or present position.",
+            "period": "2024-05 report",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
         }
       ],
       "drugs": [

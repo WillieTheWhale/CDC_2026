@@ -304,7 +304,12 @@
         },
         {
           "iso3": "GTM",
-          "label": "Guatemala"
+          "label": "Guatemala",
+          "evidence": {
+            "claim": "DOJ court account identifies Guízar Valencia operating in Guatemala and overseeing Los Zetas cocaine shipments coordinated from that country; this is historical conduct, not nationality or current position.",
+            "period": "2007–2014 investigation period",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug"
+          }
         },
         {
           "iso3": "USA",
@@ -374,7 +379,12 @@
       "regions": [
         {
           "iso3": "GTM",
-          "label": "Guatemala"
+          "label": "Guatemala",
+          "evidence": {
+            "claim": "DOJ court account identifies Torres Solórzano coordinating day-to-day cocaine trafficking operations in Guatemala for Los Zetas; this is historical conduct, not sentencing venue or current position.",
+            "period": "2007–2014 investigation period",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/two-high-ranking-los-zetas-cartel-members-latest-sentenced-federal-prison-drug"
+          }
         }
       ],
       "drugs": [
