@@ -1,0 +1,604 @@
+{
+  "_about": "AI-assisted research draft with ChatGPT (OpenAI), 2026-09-26. First-instance verdicts only; see source-specific claims and docs/AI_USAGE.md.",
+  "organizations": [
+    {
+      "id": "eureka-trafficking-network",
+      "name": "Eureka trafficking network (Italian case)",
+      "regions": [
+        "ITA"
+      ],
+      "sources": [
+        {
+          "url": "https://antidroga.interno.gov.it/wp-content/uploads/2023/05/Comunicato-stampa-EUREKA.pdf",
+          "title": "Operazione c.d. EUREKA",
+          "publisher": "Procura della Repubblica – DDA Reggio Calabria",
+          "language": "it",
+          "publishedAt": "2023-05-03",
+          "claim": "The prosecutor describes the Eureka investigation as covering international narcotics-trafficking associations among several alleged offenses; it does not assign a particular count to every investigated person."
+        },
+        {
+          "url": "https://www.eurojust.europa.eu/news/over-1-000-years-imprisonment-mafia-members-following-largest-ever-action-against-italian",
+          "title": "Over 1 000 years’ imprisonment for mafia members following largest ever action against Italian organised crime",
+          "publisher": "Eurojust",
+          "language": "it",
+          "publishedAt": "2025-10-21",
+          "claim": "Eurojust confirms the first shortened-procedure judgment concerning 76 defendants and describes participation in an international drug-trafficking organization, without naming individual defendants or their precise conviction counts."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "bartolo-bruzzaniti",
+      "name": "Bartolo Bruzzaniti",
+      "status": "convicted",
+      "statusAsOf": "2025-10-01",
+      "roleLabel": "Reported narcotics-network coordinator in Italy; first-instance Eureka sentence, appeal status unverified",
+      "prominence": 3,
+      "organizationIds": [
+        "eureka-trafficking-network"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "La Voce di Novara specifically describes Bartolo Bruzzaniti participating in the Italy-based drug-trafficking activity of this case.",
+            "sourceUrl": "https://www.lavocedinovara.com/cronaca/ventanni-di-carcere-per-il-referente-del-nord-delle-cosche-calabresi-gestiva-i-traffici-di-droga-da-invorio-a-milano/"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+          "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+          "publisher": "Gazzetta del Sud",
+          "language": "it",
+          "publishedAt": "2025-10-01",
+          "claim": "The named Eureka first-instance abbreviated-trial verdict lists Bartolo Bruzzaniti with a 20-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+        },
+        {
+          "url": "https://www.lavocedinovara.com/cronaca/ventanni-di-carcere-per-il-referente-del-nord-delle-cosche-calabresi-gestiva-i-traffici-di-droga-da-invorio-a-milano/",
+          "title": "Vent’anni di carcere per il “referente del Nord” delle cosche calabresi",
+          "publisher": "La Voce di Novara",
+          "language": "it",
+          "publishedAt": "2025-10-11",
+          "claim": "The report identifies Bartolo Bruzzaniti as a narcotics-network coordinator in Italy, handling deals and oversight, and confirms his 20-year Eureka sentence."
+        },
+        {
+          "url": "https://www.calabriareportage.it/esecuzione-di-nuove-misure-cautelari-23-imputati-delloperazione-eureka-trasferiti-dal-domiciliare-al-carcere/",
+          "title": "Esecuzione di nuove misure cautelari: 23 imputati dell’operazione EUREKA trasferiti dal domiciliare al carcere",
+          "publisher": "Calabria Reportage",
+          "language": "it",
+          "publishedAt": "2025-10-04",
+          "claim": "The report identifies 2025-10-01 as the date of the Reggio Calabria first-instance abbreviated-procedure judgment, with 76 convicted and 7 acquitted; it does not name these individual defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "bartolo-bruzzaniti-2025-10-01-first-instance",
+          "occurredAt": "2025-10-01",
+          "type": "sentence",
+          "title": "First-instance Eureka sentence reported",
+          "summary": "Gazzetta del Sud reports a 20-year prison sentence for Bartolo Bruzzaniti in the abbreviated Eureka proceeding. The specific counts and any appeal disposition are not established by the verdict roster.",
+          "source": {
+            "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+            "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+            "publisher": "Gazzetta del Sud",
+            "language": "it",
+            "publishedAt": "2025-10-01",
+            "claim": "The named Eureka first-instance abbreviated-trial verdict lists Bartolo Bruzzaniti with a 20-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pietro-fotia",
+      "name": "Pietro Fotia",
+      "status": "convicted",
+      "statusAsOf": "2025-10-01",
+      "roleLabel": "Reported participant in an Italy-based international drug network; first-instance Eureka sentence, appeal status unverified",
+      "prominence": 2,
+      "organizationIds": [
+        "eureka-trafficking-network"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "La Stampa specifically describes Pietro Fotia participating in the Italy-based drug-trafficking activity of this case.",
+            "sourceUrl": "https://www.lastampa.it/savona/2025/10/02/news/condannato_a_20_anni_pietro_fotia_nel_maxi_processo_per_traffico_di_droga_a_reggio_calabria-15334026/"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+          "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+          "publisher": "Gazzetta del Sud",
+          "language": "it",
+          "publishedAt": "2025-10-01",
+          "claim": "The named Eureka first-instance abbreviated-trial verdict lists Pietro Fotia with a 20-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+        },
+        {
+          "url": "https://www.lastampa.it/savona/2025/10/02/news/condannato_a_20_anni_pietro_fotia_nel_maxi_processo_per_traffico_di_droga_a_reggio_calabria-15334026/",
+          "title": "Condannato a 20 anni Pietro Fotia nel maxi processo per traffico di droga",
+          "publisher": "La Stampa",
+          "language": "it",
+          "publishedAt": "2025-10-02",
+          "claim": "The report identifies Pietro Fotia as a key participant in the drug-trafficking network’s Italian activities and reports his 20-year Eureka sentence."
+        },
+        {
+          "url": "https://www.calabriareportage.it/esecuzione-di-nuove-misure-cautelari-23-imputati-delloperazione-eureka-trasferiti-dal-domiciliare-al-carcere/",
+          "title": "Esecuzione di nuove misure cautelari: 23 imputati dell’operazione EUREKA trasferiti dal domiciliare al carcere",
+          "publisher": "Calabria Reportage",
+          "language": "it",
+          "publishedAt": "2025-10-04",
+          "claim": "The report identifies 2025-10-01 as the date of the Reggio Calabria first-instance abbreviated-procedure judgment, with 76 convicted and 7 acquitted; it does not name these individual defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "pietro-fotia-2025-10-01-first-instance",
+          "occurredAt": "2025-10-01",
+          "type": "sentence",
+          "title": "First-instance Eureka sentence reported",
+          "summary": "Gazzetta del Sud reports a 20-year prison sentence for Pietro Fotia in the abbreviated Eureka proceeding. The specific counts and any appeal disposition are not established by the verdict roster.",
+          "source": {
+            "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+            "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+            "publisher": "Gazzetta del Sud",
+            "language": "it",
+            "publishedAt": "2025-10-01",
+            "claim": "The named Eureka first-instance abbreviated-trial verdict lists Pietro Fotia with a 20-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "massimo-ballone",
+      "name": "Massimo Ballone",
+      "status": "convicted",
+      "statusAsOf": "2025-10-01",
+      "roleLabel": "Reported logistics and financial figure in cocaine trafficking; first-instance Eureka sentence, appeal status unverified",
+      "prominence": 2,
+      "organizationIds": [
+        "eureka-trafficking-network"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "Il Centro specifically describes Massimo Ballone participating in the Italy-based drug-trafficking activity of this case.",
+            "sourceUrl": "https://www.ilcentro.it/abruzzo/maxi-affari-con-la-ndrangheta-il-pescarese-ballone-condannato-a-18-anni-p4zgb2in"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+          "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+          "publisher": "Gazzetta del Sud",
+          "language": "it",
+          "publishedAt": "2025-10-01",
+          "claim": "The named Eureka first-instance abbreviated-trial verdict lists Massimo Ballone with a 18-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+        },
+        {
+          "url": "https://www.ilcentro.it/abruzzo/maxi-affari-con-la-ndrangheta-il-pescarese-ballone-condannato-a-18-anni-p4zgb2in",
+          "title": "Maxi affari con la ‘ndrangheta: il pescarese Ballone condannato a 18 anni",
+          "publisher": "Il Centro",
+          "language": "it",
+          "publishedAt": "2025-10-02",
+          "claim": "The report identifies Massimo Ballone as an Italy-based logistics and financial figure in cocaine trafficking and reports his 18-year Eureka sentence."
+        },
+        {
+          "url": "https://www.calabriareportage.it/esecuzione-di-nuove-misure-cautelari-23-imputati-delloperazione-eureka-trasferiti-dal-domiciliare-al-carcere/",
+          "title": "Esecuzione di nuove misure cautelari: 23 imputati dell’operazione EUREKA trasferiti dal domiciliare al carcere",
+          "publisher": "Calabria Reportage",
+          "language": "it",
+          "publishedAt": "2025-10-04",
+          "claim": "The report identifies 2025-10-01 as the date of the Reggio Calabria first-instance abbreviated-procedure judgment, with 76 convicted and 7 acquitted; it does not name these individual defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "massimo-ballone-2025-10-01-first-instance",
+          "occurredAt": "2025-10-01",
+          "type": "sentence",
+          "title": "First-instance Eureka sentence reported",
+          "summary": "Gazzetta del Sud reports a 18-year prison sentence for Massimo Ballone in the abbreviated Eureka proceeding. The specific counts and any appeal disposition are not established by the verdict roster.",
+          "source": {
+            "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+            "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+            "publisher": "Gazzetta del Sud",
+            "language": "it",
+            "publishedAt": "2025-10-01",
+            "claim": "The named Eureka first-instance abbreviated-trial verdict lists Massimo Ballone with a 18-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carmine-amedeo-cappelletti",
+      "name": "Carmine Amedeo Cappelletti",
+      "status": "convicted",
+      "statusAsOf": "2025-10-01",
+      "roleLabel": "Reported courier in an Italy-based cocaine network; first-instance Eureka sentence, appeal status unverified",
+      "prominence": 2,
+      "organizationIds": [
+        "eureka-trafficking-network"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "Il Centro specifically describes Carmine Amedeo Cappelletti participating in the Italy-based drug-trafficking activity of this case.",
+            "sourceUrl": "https://www.ilcentro.it/abruzzo/maxi-affari-con-la-ndrangheta-il-pescarese-ballone-condannato-a-18-anni-p4zgb2in"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+          "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+          "publisher": "Gazzetta del Sud",
+          "language": "it",
+          "publishedAt": "2025-10-01",
+          "claim": "The named Eureka first-instance abbreviated-trial verdict lists Carmine Amedeo Cappelletti with a 14-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+        },
+        {
+          "url": "https://www.ilcentro.it/abruzzo/maxi-affari-con-la-ndrangheta-il-pescarese-ballone-condannato-a-18-anni-p4zgb2in",
+          "title": "Maxi affari con la ‘ndrangheta: il pescarese Ballone condannato a 18 anni",
+          "publisher": "Il Centro",
+          "language": "it",
+          "publishedAt": "2025-10-02",
+          "claim": "The report identifies Carmine Amedeo Cappelletti as a courier in the Italian cocaine network and reports his 14-year Eureka sentence."
+        },
+        {
+          "url": "https://www.calabriareportage.it/esecuzione-di-nuove-misure-cautelari-23-imputati-delloperazione-eureka-trasferiti-dal-domiciliare-al-carcere/",
+          "title": "Esecuzione di nuove misure cautelari: 23 imputati dell’operazione EUREKA trasferiti dal domiciliare al carcere",
+          "publisher": "Calabria Reportage",
+          "language": "it",
+          "publishedAt": "2025-10-04",
+          "claim": "The report identifies 2025-10-01 as the date of the Reggio Calabria first-instance abbreviated-procedure judgment, with 76 convicted and 7 acquitted; it does not name these individual defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "carmine-amedeo-cappelletti-2025-10-01-first-instance",
+          "occurredAt": "2025-10-01",
+          "type": "sentence",
+          "title": "First-instance Eureka sentence reported",
+          "summary": "Gazzetta del Sud reports a 14-year prison sentence for Carmine Amedeo Cappelletti in the abbreviated Eureka proceeding. The specific counts and any appeal disposition are not established by the verdict roster.",
+          "source": {
+            "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+            "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+            "publisher": "Gazzetta del Sud",
+            "language": "it",
+            "publishedAt": "2025-10-01",
+            "claim": "The named Eureka first-instance abbreviated-trial verdict lists Carmine Amedeo Cappelletti with a 14-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "domenico-iannaci",
+      "name": "Domenico Iannaci",
+      "status": "convicted",
+      "statusAsOf": "2025-10-01",
+      "roleLabel": "Reported support coordinator for cocaine imports in Italy; first-instance Eureka sentence, appeal status unverified",
+      "prominence": 2,
+      "organizationIds": [
+        "eureka-trafficking-network"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "lavialibera specifically describes Domenico Iannaci participating in the Italy-based drug-trafficking activity of this case.",
+            "sourceUrl": "https://lavialibera.it/it-schede-1505-anversa_gioia_tauro_porti_mafia_ndrangheta"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+          "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+          "publisher": "Gazzetta del Sud",
+          "language": "it",
+          "publishedAt": "2025-10-01",
+          "claim": "The named Eureka first-instance abbreviated-trial verdict lists Domenico Iannaci with a 18-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+        },
+        {
+          "url": "https://lavialibera.it/it-schede-1505-anversa_gioia_tauro_porti_mafia_ndrangheta",
+          "title": "Anversa e Gioia Tauro, gli affari dei narcotrafficanti vanno in porto",
+          "publisher": "lavialibera",
+          "language": "it",
+          "publishedAt": "2023-09-12",
+          "claim": "Reporting citing the Eureka investigation identifies Domenico Iannaci as one of three people managing support for cocaine imports in Italy."
+        },
+        {
+          "url": "https://www.calabriareportage.it/esecuzione-di-nuove-misure-cautelari-23-imputati-delloperazione-eureka-trasferiti-dal-domiciliare-al-carcere/",
+          "title": "Esecuzione di nuove misure cautelari: 23 imputati dell’operazione EUREKA trasferiti dal domiciliare al carcere",
+          "publisher": "Calabria Reportage",
+          "language": "it",
+          "publishedAt": "2025-10-04",
+          "claim": "The report identifies 2025-10-01 as the date of the Reggio Calabria first-instance abbreviated-procedure judgment, with 76 convicted and 7 acquitted; it does not name these individual defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "domenico-iannaci-2025-10-01-first-instance",
+          "occurredAt": "2025-10-01",
+          "type": "sentence",
+          "title": "First-instance Eureka sentence reported",
+          "summary": "Gazzetta del Sud reports a 18-year prison sentence for Domenico Iannaci in the abbreviated Eureka proceeding. The specific counts and any appeal disposition are not established by the verdict roster.",
+          "source": {
+            "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+            "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+            "publisher": "Gazzetta del Sud",
+            "language": "it",
+            "publishedAt": "2025-10-01",
+            "claim": "The named Eureka first-instance abbreviated-trial verdict lists Domenico Iannaci with a 18-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vincenzo-larosa",
+      "name": "Vincenzo Larosa",
+      "status": "convicted",
+      "statusAsOf": "2025-10-01",
+      "roleLabel": "Reported support coordinator for cocaine imports in Italy; first-instance Eureka sentence, appeal status unverified",
+      "prominence": 2,
+      "organizationIds": [
+        "eureka-trafficking-network"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "lavialibera specifically describes Vincenzo Larosa participating in the Italy-based drug-trafficking activity of this case.",
+            "sourceUrl": "https://lavialibera.it/it-schede-1505-anversa_gioia_tauro_porti_mafia_ndrangheta"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+          "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+          "publisher": "Gazzetta del Sud",
+          "language": "it",
+          "publishedAt": "2025-10-01",
+          "claim": "The named Eureka first-instance abbreviated-trial verdict lists Vincenzo Larosa with a 18-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+        },
+        {
+          "url": "https://lavialibera.it/it-schede-1505-anversa_gioia_tauro_porti_mafia_ndrangheta",
+          "title": "Anversa e Gioia Tauro, gli affari dei narcotrafficanti vanno in porto",
+          "publisher": "lavialibera",
+          "language": "it",
+          "publishedAt": "2023-09-12",
+          "claim": "Reporting citing the Eureka investigation identifies Vincenzo Larosa as one of three people managing support for cocaine imports in Italy."
+        },
+        {
+          "url": "https://www.calabriareportage.it/esecuzione-di-nuove-misure-cautelari-23-imputati-delloperazione-eureka-trasferiti-dal-domiciliare-al-carcere/",
+          "title": "Esecuzione di nuove misure cautelari: 23 imputati dell’operazione EUREKA trasferiti dal domiciliare al carcere",
+          "publisher": "Calabria Reportage",
+          "language": "it",
+          "publishedAt": "2025-10-04",
+          "claim": "The report identifies 2025-10-01 as the date of the Reggio Calabria first-instance abbreviated-procedure judgment, with 76 convicted and 7 acquitted; it does not name these individual defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "vincenzo-larosa-2025-10-01-first-instance",
+          "occurredAt": "2025-10-01",
+          "type": "sentence",
+          "title": "First-instance Eureka sentence reported",
+          "summary": "Gazzetta del Sud reports a 18-year prison sentence for Vincenzo Larosa in the abbreviated Eureka proceeding. The specific counts and any appeal disposition are not established by the verdict roster.",
+          "source": {
+            "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+            "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+            "publisher": "Gazzetta del Sud",
+            "language": "it",
+            "publishedAt": "2025-10-01",
+            "claim": "The named Eureka first-instance abbreviated-trial verdict lists Vincenzo Larosa with a 18-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "giuseppe-ficara",
+      "name": "Giuseppe Ficara",
+      "status": "convicted",
+      "statusAsOf": "2025-10-01",
+      "roleLabel": "Reported support coordinator for cocaine imports in Italy; first-instance Eureka sentence, appeal status unverified",
+      "prominence": 2,
+      "organizationIds": [
+        "eureka-trafficking-network"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "lavialibera specifically describes Giuseppe Ficara participating in the Italy-based drug-trafficking activity of this case.",
+            "sourceUrl": "https://lavialibera.it/it-schede-1505-anversa_gioia_tauro_porti_mafia_ndrangheta"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+          "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+          "publisher": "Gazzetta del Sud",
+          "language": "it",
+          "publishedAt": "2025-10-01",
+          "claim": "The named Eureka first-instance abbreviated-trial verdict lists Giuseppe Ficara with a 10-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+        },
+        {
+          "url": "https://lavialibera.it/it-schede-1505-anversa_gioia_tauro_porti_mafia_ndrangheta",
+          "title": "Anversa e Gioia Tauro, gli affari dei narcotrafficanti vanno in porto",
+          "publisher": "lavialibera",
+          "language": "it",
+          "publishedAt": "2023-09-12",
+          "claim": "Reporting citing the Eureka investigation identifies Giuseppe Ficara as one of three people managing support for cocaine imports in Italy."
+        },
+        {
+          "url": "https://www.calabriareportage.it/esecuzione-di-nuove-misure-cautelari-23-imputati-delloperazione-eureka-trasferiti-dal-domiciliare-al-carcere/",
+          "title": "Esecuzione di nuove misure cautelari: 23 imputati dell’operazione EUREKA trasferiti dal domiciliare al carcere",
+          "publisher": "Calabria Reportage",
+          "language": "it",
+          "publishedAt": "2025-10-04",
+          "claim": "The report identifies 2025-10-01 as the date of the Reggio Calabria first-instance abbreviated-procedure judgment, with 76 convicted and 7 acquitted; it does not name these individual defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "giuseppe-ficara-2025-10-01-first-instance",
+          "occurredAt": "2025-10-01",
+          "type": "sentence",
+          "title": "First-instance Eureka sentence reported",
+          "summary": "Gazzetta del Sud reports a 10-year prison sentence for Giuseppe Ficara in the abbreviated Eureka proceeding. The specific counts and any appeal disposition are not established by the verdict roster.",
+          "source": {
+            "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+            "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+            "publisher": "Gazzetta del Sud",
+            "language": "it",
+            "publishedAt": "2025-10-01",
+            "claim": "The named Eureka first-instance abbreviated-trial verdict lists Giuseppe Ficara with a 10-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "antonio-reitano",
+      "name": "Antonio Reitano",
+      "status": "convicted",
+      "statusAsOf": "2025-10-01",
+      "roleLabel": "Reported Italy-based contact for a narcotics import group; first-instance Eureka sentence, appeal status unverified",
+      "prominence": 2,
+      "organizationIds": [
+        "eureka-trafficking-network"
+      ],
+      "regions": [
+        {
+          "iso3": "ITA",
+          "label": "Italy",
+          "evidence": {
+            "claim": "lavialibera specifically describes Antonio Reitano participating in the Italy-based drug-trafficking activity of this case.",
+            "sourceUrl": "https://lavialibera.it/it-schede-1505-anversa_gioia_tauro_porti_mafia_ndrangheta"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+          "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+          "publisher": "Gazzetta del Sud",
+          "language": "it",
+          "publishedAt": "2025-10-01",
+          "claim": "The named Eureka first-instance abbreviated-trial verdict lists Antonio Reitano with a 18-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+        },
+        {
+          "url": "https://lavialibera.it/it-schede-1505-anversa_gioia_tauro_porti_mafia_ndrangheta",
+          "title": "Anversa e Gioia Tauro, gli affari dei narcotrafficanti vanno in porto",
+          "publisher": "lavialibera",
+          "language": "it",
+          "publishedAt": "2023-09-12",
+          "claim": "Reporting citing the Eureka investigation identifies Antonio Reitano as an Italy-based contact for a group involved in narcotics imports."
+        },
+        {
+          "url": "https://www.calabriareportage.it/esecuzione-di-nuove-misure-cautelari-23-imputati-delloperazione-eureka-trasferiti-dal-domiciliare-al-carcere/",
+          "title": "Esecuzione di nuove misure cautelari: 23 imputati dell’operazione EUREKA trasferiti dal domiciliare al carcere",
+          "publisher": "Calabria Reportage",
+          "language": "it",
+          "publishedAt": "2025-10-04",
+          "claim": "The report identifies 2025-10-01 as the date of the Reggio Calabria first-instance abbreviated-procedure judgment, with 76 convicted and 7 acquitted; it does not name these individual defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "antonio-reitano-2025-10-01-first-instance",
+          "occurredAt": "2025-10-01",
+          "type": "sentence",
+          "title": "First-instance Eureka sentence reported",
+          "summary": "Gazzetta del Sud reports a 18-year prison sentence for Antonio Reitano in the abbreviated Eureka proceeding. The specific counts and any appeal disposition are not established by the verdict roster.",
+          "source": {
+            "url": "https://reggio.gazzettadelsud.it/articoli/cronaca/2025/10/01/locride-mille-anni-di-carcere-ai-pupari-del-narcotraffico-i-nomi-3541bf95-5dc9-4f1f-99f6-d5b4fd4e071a/",
+            "title": "Locride, mille anni di carcere ai “pupari” del narcotraffico I NOMI",
+            "publisher": "Gazzetta del Sud",
+            "language": "it",
+            "publishedAt": "2025-10-01",
+            "claim": "The named Eureka first-instance abbreviated-trial verdict lists Antonio Reitano with a 18-year prison sentence; it does not identify a final appeal outcome or every count of conviction."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "ballone-cappelletti-eureka",
+      "fromId": "massimo-ballone",
+      "toId": "carmine-amedeo-cappelletti",
+      "type": "associate",
+      "label": "Reported Italy-based logistics and financial collaboration in cocaine trafficking",
+      "sources": [
+        {
+          "url": "https://www.ilcentro.it/abruzzo/maxi-affari-con-la-ndrangheta-il-pescarese-ballone-condannato-a-18-anni-p4zgb2in",
+          "title": "Maxi affari con la ‘ndrangheta: il pescarese Ballone condannato a 18 anni",
+          "publisher": "Il Centro",
+          "language": "it",
+          "publishedAt": "2025-10-02",
+          "claim": "The article describes Cappelletti as a courier in the logistics network and Ballone as the associated financial manager for the same Italian cocaine operation."
+        }
+      ]
+    },
+    {
+      "id": "larosa-bruzzaniti-eureka",
+      "fromId": "vincenzo-larosa",
+      "toId": "bartolo-bruzzaniti",
+      "type": "associate",
+      "label": "Reported provision of trafficking support by Larosa to Bruzzaniti",
+      "sources": [
+        {
+          "url": "https://lavialibera.it/it-schede-1505-anversa_gioia_tauro_porti_mafia_ndrangheta",
+          "title": "Anversa e Gioia Tauro, gli affari dei narcotrafficanti vanno in porto",
+          "publisher": "lavialibera",
+          "language": "it",
+          "publishedAt": "2023-09-12",
+          "claim": "The report expressly says Larosa offered his trafficking support services to Bartolo Bruzzaniti."
+        }
+      ]
+    }
+  ]
+}
