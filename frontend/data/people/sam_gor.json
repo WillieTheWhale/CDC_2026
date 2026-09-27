@@ -1,0 +1,361 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from cited public court, inquiry, UNODC and journalistic records. Convictions are distinct from alleged organizational roles. Public figures only; historical country-level associations; no operational routes, precise private/live locations, or unlicensed photos.",
+  "organizations": [
+    {
+      "id": "sam-gor",
+      "name": "Sam Gor",
+      "aliases": [
+        "The Company",
+        "三哥"
+      ],
+      "regions": [
+        "AUS",
+        "THA",
+        "MMR",
+        "KHM"
+      ],
+      "sources": [
+        {
+          "url": "https://www.abc.net.au/news/2025-12-04/tse-chi-lop-sentence-drug-syndicate-leader/106100496",
+          "title": "Global drug syndicate leader Tse Chi Lop sentenced to 16 years in prison",
+          "publisher": "ABC News",
+          "language": "en",
+          "claim": "ABC identifies The Company, also called Sam Gor, as a transnational drug syndicate alleged by AFP to have been headed by Tse Chi Lop.",
+          "publishedAt": "2025-12-04"
+        },
+        {
+          "url": "https://www.unodc.org/roseap/uploads/documents/Publications/2024/Casino_Underground_Banking_Report_2024.pdf",
+          "title": "Casinos, Money Laundering, Underground Banking, and Transnational Organized Crime in East and Southeast Asia",
+          "publisher": "United Nations Office on Drugs and Crime",
+          "language": "en",
+          "claim": "UNODC identifies Hsieh Tsung Lun as a Sam Gor member, reports his 2018 arrest and extradition from Cambodia to Myanmar, and says he was serving a prison sentence at publication."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "tse-chi-lop",
+      "name": "Tse Chi Lop",
+      "status": "convicted",
+      "statusAsOf": "2025-12-04",
+      "roleLabel": "Convicted drug-conspiracy figure; alleged Sam Gor head",
+      "prominence": 1,
+      "organizationIds": [
+        "sam-gor"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia"
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.abc.net.au/news/2025-12-04/tse-chi-lop-sentence-drug-syndicate-leader/106100496",
+          "title": "Global drug syndicate leader Tse Chi Lop sentenced to 16 years in prison",
+          "publisher": "ABC News",
+          "language": "en",
+          "claim": "Australian court reporter states Tse pleaded guilty to drug conspiracy and was sentenced to 16 years on 4 December 2025; police alleged he headed The Company, also called Sam Gor.",
+          "publishedAt": "2025-12-04"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2022-12-22/alleged-drug-syndicate-leader-tse-chi-lop-extradited-australia/101800202",
+          "title": "Alleged global drug syndicate leader Tse Chi Lop extradited to Australia from the Netherlands",
+          "publisher": "ABC News",
+          "language": "en",
+          "claim": "AFP identified Tse as an alleged leader of The Company/Sam Gor and reported his extradition to Australia.",
+          "publishedAt": "2022-12-22"
+        },
+        {
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3120831/hong-kong-kingpins-arrest-thailand-tightens-screws-us70",
+          "title": "Hong Kong kingpin’s arrest in Thailand tightens screws on Asia-Pacific drug trade",
+          "publisher": "Reuters via South China Morning Post",
+          "language": "en",
+          "claim": "Reuters identifies Lee Chung-chak as a senior Sam Gor figure, Tse Chi Lop as its suspected top leader, and reports Lee’s 1 October 2020 Thai arrest and their past prison association.",
+          "publishedAt": "2021-02-06"
+        },
+        {
+          "url": "https://hk.on.cc/hk/bkn/cnt/news/20210206/bkn-20210206153911854-0206_00822_001.html",
+          "title": "助港黑幫建歐洲毒網 「三哥」販毒集團港人高層泰國被捕",
+          "publisher": "on.cc 東網",
+          "language": "zh",
+          "claim": "Chinese-language report names 謝志樂 as Tse Chi Lop and 李宗澤 as a transliteration of Lee Chung Chak; it describes Lee as a senior figure in the group and cites Thai police for his arrest.",
+          "publishedAt": "2021-02-06"
+        },
+        {
+          "url": "https://www.parliament.nsw.gov.au/tp/files/79129/Volume%201%20-%20Inquiry%20under%20section%20143%20of%20the%20Casino%20Control%20Act%201992.pdf",
+          "title": "Inquiry under section 143 of the Casino Control Act 1992 (NSW), Volume 1",
+          "publisher": "New South Wales Independent Liquor and Gaming Authority",
+          "language": "en",
+          "claim": "The inquiry records Tse Chi Lop’s arrest in the Netherlands on 22 January 2021."
+        }
+      ],
+      "aliases": [
+        "Sam Gor",
+        "謝志樂"
+      ],
+      "events": [
+        {
+          "id": "tse-chi-lop-2025-12-04-sentence",
+          "occurredAt": "2025-12-04",
+          "type": "sentence",
+          "title": "Sentenced to 16 years",
+          "summary": "An Australian court sentenced Tse to 16 years after his guilty plea to drug conspiracy. The alleged Sam Gor leadership remains attributed to police reporting.",
+          "source": {
+            "url": "https://www.abc.net.au/news/2025-12-04/tse-chi-lop-sentence-drug-syndicate-leader/106100496",
+            "title": "Global drug syndicate leader Tse Chi Lop sentenced to 16 years in prison",
+            "publisher": "ABC News",
+            "language": "en",
+            "claim": "Australian court reporter states Tse pleaded guilty to drug conspiracy and was sentenced to 16 years on 4 December 2025; police alleged he headed The Company, also called Sam Gor.",
+            "publishedAt": "2025-12-04"
+          }
+        },
+        {
+          "id": "tse-chi-lop-2021-01-22-arrest",
+          "occurredAt": "2021-01-22",
+          "type": "arrest",
+          "title": "Arrested in the Netherlands",
+          "summary": "The NSW inquiry records Tse’s 22 January 2021 arrest pending extradition to Australia.",
+          "source": {
+            "url": "https://www.parliament.nsw.gov.au/tp/files/79129/Volume%201%20-%20Inquiry%20under%20section%20143%20of%20the%20Casino%20Control%20Act%201992.pdf",
+            "title": "Inquiry under section 143 of the Casino Control Act 1992 (NSW), Volume 1",
+            "publisher": "New South Wales Independent Liquor and Gaming Authority",
+            "language": "en",
+            "claim": "The inquiry records Tse Chi Lop’s arrest in the Netherlands on 22 January 2021."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lee-chung-chak",
+      "name": "Lee Chung Chak",
+      "status": "reported",
+      "statusAsOf": "2021-02-06",
+      "roleLabel": "Reuters-reported senior Sam Gor project manager; arrested in Thailand in 2020",
+      "prominence": 2,
+      "organizationIds": [
+        "sam-gor"
+      ],
+      "regions": [
+        {
+          "iso3": "THA",
+          "label": "Thailand"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3120831/hong-kong-kingpins-arrest-thailand-tightens-screws-us70",
+          "title": "Hong Kong kingpin’s arrest in Thailand tightens screws on Asia-Pacific drug trade",
+          "publisher": "Reuters via South China Morning Post",
+          "language": "en",
+          "claim": "Reuters identifies Lee Chung-chak as a senior Sam Gor figure, Tse Chi Lop as its suspected top leader, and reports Lee’s 1 October 2020 Thai arrest and their past prison association.",
+          "publishedAt": "2021-02-06"
+        },
+        {
+          "url": "https://hk.on.cc/hk/bkn/cnt/news/20210206/bkn-20210206153911854-0206_00822_001.html",
+          "title": "助港黑幫建歐洲毒網 「三哥」販毒集團港人高層泰國被捕",
+          "publisher": "on.cc 東網",
+          "language": "zh",
+          "claim": "Chinese-language report names 謝志樂 as Tse Chi Lop and 李宗澤 as a transliteration of Lee Chung Chak; it describes Lee as a senior figure in the group and cites Thai police for his arrest.",
+          "publishedAt": "2021-02-06"
+        }
+      ],
+      "aliases": [
+        "Lee Chung-chak",
+        "李宗澤"
+      ],
+      "events": [
+        {
+          "id": "lee-chung-chak-2020-10-01-arrest",
+          "occurredAt": "2020-10-01",
+          "type": "arrest",
+          "title": "Arrested in Thailand",
+          "summary": "Reuters cites Thailand’s narcotics police chief for Lee’s 1 October 2020 arrest under a Thai warrant following an Australian extradition request.",
+          "source": {
+            "url": "https://www.scmp.com/news/asia/southeast-asia/article/3120831/hong-kong-kingpins-arrest-thailand-tightens-screws-us70",
+            "title": "Hong Kong kingpin’s arrest in Thailand tightens screws on Asia-Pacific drug trade",
+            "publisher": "Reuters via South China Morning Post",
+            "language": "en",
+            "claim": "Reuters identifies Lee Chung-chak as a senior Sam Gor figure, Tse Chi Lop as its suspected top leader, and reports Lee’s 1 October 2020 Thai arrest and their past prison association.",
+            "publishedAt": "2021-02-06"
+          }
+        }
+      ]
+    },
+    {
+      "id": "suky-lieu",
+      "name": "Suky Lieu",
+      "status": "convicted",
+      "statusAsOf": "2015-06-26",
+      "roleLabel": "Convicted Australian drug-trafficking principal and Tse associate",
+      "prominence": 2,
+      "organizationIds": [
+        "sam-gor"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia"
+        }
+      ],
+      "drugs": [
+        "methamphetamine",
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/tan-dai-green-grocer-sentenced-25-years-gaol-drug-offences",
+          "title": "Tan Dai Green Grocer sentenced to 25 years gaol for drug offences",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP reports Suky Lieu was convicted and sentenced on 26 June 2015 to 25 years for commercial-scale trafficking and heroin import conspiracy.",
+          "publishedAt": "2015-06-26"
+        },
+        {
+          "url": "https://www.abc.net.au/news/2025-12-04/tse-chi-lop-sentence-drug-syndicate-leader/106100496",
+          "title": "Global drug syndicate leader Tse Chi Lop sentenced to 16 years in prison",
+          "publisher": "ABC News",
+          "language": "en",
+          "claim": "Court reporting identifies Suky Lieu as Tse’s Australian contact in the group, says Lieu was jailed for 25 years, and reports that Tse and Lieu were linked in the same conspiracy.",
+          "publishedAt": "2025-12-04"
+        }
+      ],
+      "events": [
+        {
+          "id": "suky-lieu-2015-06-26-sentence",
+          "occurredAt": "2015-06-26",
+          "type": "sentence",
+          "title": "Sentenced to 25 years",
+          "summary": "Victoria’s Court of Appeal records Lieu’s 25-year sentence for commercial-scale trafficking and import conspiracy.",
+          "source": {
+            "url": "https://www.cdpp.gov.au/news/tan-dai-green-grocer-sentenced-25-years-gaol-drug-offences",
+            "title": "Tan Dai Green Grocer sentenced to 25 years gaol for drug offences",
+            "publisher": "Commonwealth Director of Public Prosecutions",
+            "language": "en",
+            "claim": "CDPP reports Suky Lieu was convicted and sentenced on 26 June 2015 to 25 years for commercial-scale trafficking and heroin import conspiracy.",
+            "publishedAt": "2015-06-26"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roy-moo",
+      "name": "Roy Moo",
+      "status": "convicted",
+      "roleLabel": "Convicted money launderer linked by NSW inquiry to Sam Gor proceeds",
+      "prominence": 3,
+      "organizationIds": [
+        "sam-gor"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia"
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.parliament.nsw.gov.au/tp/files/79129/Volume%201%20-%20Inquiry%20under%20section%20143%20of%20the%20Casino%20Control%20Act%201992.pdf",
+          "title": "Inquiry under section 143 of the Casino Control Act 1992 (NSW), Volume 1",
+          "publisher": "New South Wales Independent Liquor and Gaming Authority",
+          "language": "en",
+          "claim": "The NSW inquiry records Roy Moo’s 2013 money-laundering conviction and finds that the laundered proceeds came from The Company/Sam Gor syndicate."
+        }
+      ],
+      "aliases": [
+        "Whye Wah Moo"
+      ]
+    },
+    {
+      "id": "hsieh-tsung-lun",
+      "name": "Hsieh Tsung Lun",
+      "status": "reported",
+      "roleLabel": "UNODC-reported Sam Gor member; described as serving a Myanmar prison sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "sam-gor"
+      ],
+      "regions": [
+        {
+          "iso3": "MMR",
+          "label": "Myanmar"
+        },
+        {
+          "iso3": "KHM",
+          "label": "Cambodia"
+        }
+      ],
+      "drugs": [
+        "methamphetamine",
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.unodc.org/roseap/uploads/documents/Publications/2024/Casino_Underground_Banking_Report_2024.pdf",
+          "title": "Casinos, Money Laundering, Underground Banking, and Transnational Organized Crime in East and Southeast Asia",
+          "publisher": "United Nations Office on Drugs and Crime",
+          "language": "en",
+          "claim": "UNODC identifies Hsieh Tsung Lun as a Sam Gor member, reports his 2018 arrest and extradition from Cambodia to Myanmar, and says he was serving a prison sentence at publication."
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "tse-lee-sam-gor-leadership",
+      "fromId": "tse-chi-lop",
+      "toId": "lee-chung-chak",
+      "type": "associate",
+      "label": "Suspected top leader and senior project manager in Sam Gor",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3120831/hong-kong-kingpins-arrest-thailand-tightens-screws-us70",
+          "title": "Hong Kong kingpin’s arrest in Thailand tightens screws on Asia-Pacific drug trade",
+          "publisher": "Reuters via South China Morning Post",
+          "language": "en",
+          "claim": "Reuters names Tse as suspected top leader and Lee as a senior project manager in the same Sam Gor syndicate; it also reports their past prison association.",
+          "publishedAt": "2021-02-06"
+        }
+      ]
+    },
+    {
+      "id": "tse-lieu-australian-contact",
+      "fromId": "tse-chi-lop",
+      "toId": "suky-lieu",
+      "type": "associate",
+      "label": "Tse’s Australian contact in the drug conspiracy",
+      "sources": [
+        {
+          "url": "https://www.abc.net.au/news/2025-12-04/tse-chi-lop-sentence-drug-syndicate-leader/106100496",
+          "title": "Global drug syndicate leader Tse Chi Lop sentenced to 16 years in prison",
+          "publisher": "ABC News",
+          "language": "en",
+          "claim": "ABC’s account of the sentencing hearing says Tse and an overseas associate worked with Suky Lieu, their Australian contact.",
+          "publishedAt": "2025-12-04"
+        }
+      ]
+    },
+    {
+      "id": "lieu-moo-proceeds",
+      "fromId": "suky-lieu",
+      "toId": "roy-moo",
+      "type": "associate",
+      "label": "Trafficking principal and associated proceeds launderer",
+      "sources": [
+        {
+          "url": "https://www.unodc.org/roseap/uploads/documents/Publications/2024/Casino_Underground_Banking_Report_2024.pdf",
+          "title": "Casinos, Money Laundering, Underground Banking, and Transnational Organized Crime in East and Southeast Asia",
+          "publisher": "United Nations Office on Drugs and Crime",
+          "language": "en",
+          "claim": "UNODC explicitly describes Roy Moo as Lieu’s associate and records Moo’s money-laundering conviction."
+        }
+      ]
+    }
+  ]
+}
