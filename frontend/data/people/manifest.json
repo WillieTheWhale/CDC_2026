@@ -2347,10 +2347,6 @@
         {
           "iso3": "MEX",
           "label": "Mexico"
-        },
-        {
-          "iso3": "USA",
-          "label": "United States"
         }
       ],
       "drugs": [
@@ -2393,10 +2389,6 @@
         {
           "iso3": "MEX",
           "label": "Mexico"
-        },
-        {
-          "iso3": "USA",
-          "label": "United States"
         }
       ],
       "drugs": [
@@ -2440,10 +2432,6 @@
         {
           "iso3": "MEX",
           "label": "Mexico"
-        },
-        {
-          "iso3": "USA",
-          "label": "United States"
         }
       ],
       "drugs": [
@@ -5031,10 +5019,6 @@
         {
           "iso3": "SRB",
           "label": "Serbia"
-        },
-        {
-          "iso3": "ESP",
-          "label": "Spain"
         }
       ],
       "drugs": [],
@@ -5074,10 +5058,6 @@
         {
           "iso3": "SRB",
           "label": "Serbia"
-        },
-        {
-          "iso3": "ESP",
-          "label": "Spain"
         }
       ],
       "drugs": [],
@@ -5176,8 +5156,8 @@
       ],
       "regions": [
         {
-          "iso3": "IRE",
-          "label": "Ireland"
+          "iso3": "GBR",
+          "label": "United Kingdom"
         }
       ],
       "drugs": [],
@@ -5279,12 +5259,7 @@
       "organizationIds": [
         "kinahan-ocg"
       ],
-      "regions": [
-        {
-          "iso3": "IRE",
-          "label": "Ireland"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -5307,12 +5282,7 @@
       "organizationIds": [
         "kinahan-ocg"
       ],
-      "regions": [
-        {
-          "iso3": "IRE",
-          "label": "Ireland"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -5336,10 +5306,6 @@
         "kinahan-ocg"
       ],
       "regions": [
-        {
-          "iso3": "IRE",
-          "label": "Ireland"
-        },
         {
           "iso3": "GBR",
           "label": "United Kingdom"
@@ -5383,10 +5349,6 @@
       ],
       "regions": [
         {
-          "iso3": "IRE",
-          "label": "Ireland"
-        },
-        {
           "iso3": "GBR",
           "label": "United Kingdom"
         }
@@ -5417,10 +5379,6 @@
         "kinahan-ocg"
       ],
       "regions": [
-        {
-          "iso3": "IRE",
-          "label": "Ireland"
-        },
         {
           "iso3": "GBR",
           "label": "United Kingdom"
@@ -5839,10 +5797,6 @@
         {
           "iso3": "MEX",
           "label": "Mexico"
-        },
-        {
-          "iso3": "USA",
-          "label": "United States"
         }
       ],
       "drugs": [
@@ -5876,10 +5830,6 @@
         {
           "iso3": "GTM",
           "label": "Guatemala"
-        },
-        {
-          "iso3": "USA",
-          "label": "United States"
         }
       ],
       "drugs": [
@@ -6116,14 +6066,6 @@
         {
           "iso3": "ITA",
           "label": "Italy"
-        },
-        {
-          "iso3": "BRA",
-          "label": "Brazil"
-        },
-        {
-          "iso3": "URY",
-          "label": "Uruguay"
         }
       ],
       "drugs": [
@@ -6202,10 +6144,6 @@
         {
           "iso3": "ITA",
           "label": "Italy"
-        },
-        {
-          "iso3": "CAN",
-          "label": "Canada"
         }
       ],
       "drugs": [
@@ -6287,10 +6225,6 @@
         {
           "iso3": "ITA",
           "label": "Italy"
-        },
-        {
-          "iso3": "DEU",
-          "label": "Germany"
         }
       ],
       "drugs": [
@@ -6329,10 +6263,6 @@
         {
           "iso3": "ITA",
           "label": "Italy"
-        },
-        {
-          "iso3": "BRA",
-          "label": "Brazil"
         }
       ],
       "drugs": [
@@ -6378,10 +6308,6 @@
         {
           "iso3": "ITA",
           "label": "Italy"
-        },
-        {
-          "iso3": "BRA",
-          "label": "Brazil"
         }
       ],
       "drugs": [
@@ -6422,10 +6348,6 @@
         {
           "iso3": "ITA",
           "label": "Italy"
-        },
-        {
-          "iso3": "PRT",
-          "label": "Portugal"
         }
       ],
       "drugs": [],
@@ -6464,10 +6386,6 @@
         {
           "iso3": "ITA",
           "label": "Italy"
-        },
-        {
-          "iso3": "COL",
-          "label": "Colombia"
         }
       ],
       "drugs": [
@@ -7647,10 +7565,6 @@
         {
           "iso3": "MEX",
           "label": "Mexico"
-        },
-        {
-          "iso3": "USA",
-          "label": "United States"
         }
       ],
       "drugs": [

@@ -119,8 +119,8 @@
       ],
       "regions": [
         {
-          "iso3": "IRE",
-          "label": "Ireland"
+          "iso3": "GBR",
+          "label": "United Kingdom"
         }
       ],
       "drugs": [],
@@ -222,12 +222,7 @@
       "organizationIds": [
         "kinahan-ocg"
       ],
-      "regions": [
-        {
-          "iso3": "IRE",
-          "label": "Ireland"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -250,12 +245,7 @@
       "organizationIds": [
         "kinahan-ocg"
       ],
-      "regions": [
-        {
-          "iso3": "IRE",
-          "label": "Ireland"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -279,10 +269,6 @@
         "kinahan-ocg"
       ],
       "regions": [
-        {
-          "iso3": "IRE",
-          "label": "Ireland"
-        },
         {
           "iso3": "GBR",
           "label": "United Kingdom"
@@ -326,10 +312,6 @@
       ],
       "regions": [
         {
-          "iso3": "IRE",
-          "label": "Ireland"
-        },
-        {
           "iso3": "GBR",
           "label": "United Kingdom"
         }
@@ -360,10 +342,6 @@
         "kinahan-ocg"
       ],
       "regions": [
-        {
-          "iso3": "IRE",
-          "label": "Ireland"
-        },
         {
           "iso3": "GBR",
           "label": "United Kingdom"

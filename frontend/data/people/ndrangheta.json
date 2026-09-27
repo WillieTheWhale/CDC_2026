@@ -36,7 +36,7 @@
       "roleLabel": "Senior ’Ndrangheta figure and international drug broker; serving a 30-year sentence in Italy",
       "prominence": 3,
       "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}, {"iso3": "BRA", "label": "Brazil"}, {"iso3": "URY", "label": "Uruguay"}],
+      "regions": [{"iso3": "ITA", "label": "Italy"}],
       "drugs": ["cocaine"],
       "sources": [
         {
@@ -92,7 +92,7 @@
       "roleLabel": "Prominent ’Ndrangheta figure specializing in international drug trafficking",
       "prominence": 2,
       "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}, {"iso3": "CAN", "label": "Canada"}],
+      "regions": [{"iso3": "ITA", "label": "Italy"}],
       "drugs": ["cocaine"],
       "sources": [
         {
@@ -150,7 +150,7 @@
       "roleLabel": "Senior Romeo clan figure; serving a sentence for international narcotics trafficking and related offences",
       "prominence": 2,
       "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}, {"iso3": "DEU", "label": "Germany"}],
+      "regions": [{"iso3": "ITA", "label": "Italy"}],
       "drugs": ["cocaine"],
       "sources": [
         {
@@ -179,7 +179,7 @@
       "roleLabel": "Senior cocaine broker linked to the Volpiano ’Ndrangheta locale",
       "prominence": 3,
       "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}, {"iso3": "BRA", "label": "Brazil"}],
+      "regions": [{"iso3": "ITA", "label": "Italy"}],
       "drugs": ["cocaine"],
       "sources": [
         {
@@ -215,7 +215,7 @@
       "roleLabel": "Cocaine trafficker linked to the Volpiano ’Ndrangheta locale; sentenced in Italy",
       "prominence": 2,
       "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}, {"iso3": "BRA", "label": "Brazil"}],
+      "regions": [{"iso3": "ITA", "label": "Italy"}],
       "drugs": ["cocaine"],
       "sources": [
         {
@@ -244,7 +244,7 @@
       "roleLabel": "Senior Pelle-Vottari clan figure and internationally wanted ’Ndrangheta member",
       "prominence": 2,
       "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}, {"iso3": "PRT", "label": "Portugal"}],
+      "regions": [{"iso3": "ITA", "label": "Italy"}],
       "drugs": [],
       "sources": [
         {
@@ -273,7 +273,7 @@
       "roleLabel": "Senior ’Ndrangheta broker procuring cocaine for multiple clans; also linked to heroin trafficking",
       "prominence": 3,
       "organizationIds": ["ndrangheta"],
-      "regions": [{"iso3": "ITA", "label": "Italy"}, {"iso3": "COL", "label": "Colombia"}],
+      "regions": [{"iso3": "ITA", "label": "Italy"}],
       "drugs": ["cocaine", "heroin"],
       "sources": [
         {
