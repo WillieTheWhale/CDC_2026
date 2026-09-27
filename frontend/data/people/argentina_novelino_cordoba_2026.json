@@ -1,0 +1,1855 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from Argentine Ministerio Público Fiscal reports. Only defendants with an individually stated drug count are included. Rosario verdict date is explicit; Córdoba December verdicts are dated by publication because exact judgment dates are not stated. Unified penalties are distinguished from the new case sentences. ARG country claims describe historical conduct, not current custody or location. No precise sites/routes, inferred person links, or unlicensed images.",
+  "organizations": [
+    {
+      "id": "argentina-novelino-drug-case-2025",
+      "name": "Novelino drug-commerce case (2025 judgment)",
+      "aliases": [],
+      "regions": [
+        "ARG"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The prosecutor identifies a source-defined Argentine drug-commerce organization and individualized 2025 drug-count judgments."
+        }
+      ]
+    },
+    {
+      "id": "argentina-caceres-marijuana-case-2023",
+      "name": "Cáceres marijuana case (2023 judgments)",
+      "aliases": [],
+      "regions": [
+        "ARG"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The prosecutor identifies thirteen drug-convicted people in a marijuana-commerce and transport case in Argentina."
+        },
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-condenaron-a-8-anos-y-6-meses-de-prision-al-lider-de-la-barra-del-club-atletico-talleres-por-encabezar-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: condenaron a 8 años y 6 meses de prisión al líder de la barra del Club Atlético Talleres por encabezar una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-11-30",
+          "claim": "The prosecutor separately identifies the earlier November 2023 convictions of the case leader and one coauthor."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "mauro-nahuel-novelino-argentina-novelino-2025",
+      "name": "Mauro Nahuel Novelino",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of aggravated drug commerce and its organization/direction/financing; 12 years (unified 35 years)",
+      "prominence": 1,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Mauro Nahuel Novelino convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Mauro Nahuel Novelino as convicted of aggravated drug commerce and its organization/direction/financing; base sentence 12 years. The MPF reports a unified sentence of 35 years after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "mauro-nahuel-novelino-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Mauro Nahuel Novelino convicted of aggravated drug commerce and its organization/direction/financing, with a base sentence of 12 years. It reports a unified sentence of 35 years incorporating earlier convictions.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Mauro Nahuel Novelino as convicted of aggravated drug commerce and its organization/direction/financing; base sentence 12 years. The MPF reports a unified sentence of 35 years after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lucia-uberti-argentina-novelino-2025",
+      "name": "Lucía Uberti",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of aggravated drug commerce and criminal association; 9 years (unified 24 years)",
+      "prominence": 2,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Lucía Uberti convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Lucía Uberti as convicted of aggravated drug commerce and criminal association; base sentence 9 years. The MPF reports a unified sentence of 24 years after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "lucia-uberti-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Lucía Uberti convicted of aggravated drug commerce and criminal association, with a base sentence of 9 years. It reports a unified sentence of 24 years incorporating earlier convictions.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Lucía Uberti as convicted of aggravated drug commerce and criminal association; base sentence 9 years. The MPF reports a unified sentence of 24 years after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "diego-frua-argentina-novelino-2025",
+      "name": "Diego Frúa",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of aggravated drug commerce and criminal association; 6 years (unified 13 years)",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Diego Frúa convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Diego Frúa as convicted of aggravated drug commerce and criminal association; base sentence 6 years. The MPF reports a unified sentence of 13 years after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "diego-frua-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Diego Frúa convicted of aggravated drug commerce and criminal association, with a base sentence of 6 years. It reports a unified sentence of 13 years incorporating earlier convictions.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Diego Frúa as convicted of aggravated drug commerce and criminal association; base sentence 6 years. The MPF reports a unified sentence of 13 years after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "elbio-sebastian-rojas-argentina-novelino-2025",
+      "name": "Elbio Sebastián Rojas",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of aggravated drug commerce and criminal association; 6 years (unified 11 years 6 months)",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Elbio Sebastián Rojas convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Elbio Sebastián Rojas as convicted of aggravated drug commerce and criminal association; base sentence 6 years. The MPF reports a unified sentence of 11 years 6 months after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "elbio-sebastian-rojas-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Elbio Sebastián Rojas convicted of aggravated drug commerce and criminal association, with a base sentence of 6 years. It reports a unified sentence of 11 years 6 months incorporating earlier convictions.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Elbio Sebastián Rojas as convicted of aggravated drug commerce and criminal association; base sentence 6 years. The MPF reports a unified sentence of 11 years 6 months after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "maximiliano-acosta-argentina-novelino-2025",
+      "name": "Maximiliano Acosta",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of aggravated drug commerce and criminal association; 6 years (unified 9 years 6 months)",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Maximiliano Acosta convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Maximiliano Acosta as convicted of aggravated drug commerce and criminal association; base sentence 6 years. The MPF reports a unified sentence of 9 years 6 months after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "maximiliano-acosta-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Maximiliano Acosta convicted of aggravated drug commerce and criminal association, with a base sentence of 6 years. It reports a unified sentence of 9 years 6 months incorporating earlier convictions.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Maximiliano Acosta as convicted of aggravated drug commerce and criminal association; base sentence 6 years. The MPF reports a unified sentence of 9 years 6 months after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alejandro-gimenez-argentina-novelino-2025",
+      "name": "Alejandro Giménez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in aggravated drug commerce; 3 years (unified 7 years)",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Alejandro Giménez convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Alejandro Giménez as convicted of secondary participation in aggravated drug commerce; base sentence 3 years. The MPF reports a unified sentence of 7 years after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "alejandro-gimenez-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Alejandro Giménez convicted of secondary participation in aggravated drug commerce, with a base sentence of 3 years. It reports a unified sentence of 7 years incorporating earlier convictions.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Alejandro Giménez as convicted of secondary participation in aggravated drug commerce; base sentence 3 years. The MPF reports a unified sentence of 7 years after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "santiago-castro-argentina-novelino-2025",
+      "name": "Santiago Castro",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of aggravated drug commerce, arms stockpiling, and criminal association; 6 years (unified 6 years 6 months)",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Santiago Castro convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Santiago Castro as convicted of aggravated drug commerce, arms stockpiling, and criminal association; base sentence 6 years. The MPF reports a unified sentence of 6 years 6 months after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "santiago-castro-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Santiago Castro convicted of aggravated drug commerce, arms stockpiling, and criminal association, with a base sentence of 6 years. It reports a unified sentence of 6 years 6 months incorporating earlier convictions.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Santiago Castro as convicted of aggravated drug commerce, arms stockpiling, and criminal association; base sentence 6 years. The MPF reports a unified sentence of 6 years 6 months after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nadia-novelino-argentina-novelino-2025",
+      "name": "Nadia Novelino",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of drug possession for sale, arms and criminal association; 6 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Nadia Novelino convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Nadia Novelino as convicted of drug possession for sale, arms and criminal association; base sentence 6 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "nadia-novelino-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Nadia Novelino convicted of drug possession for sale, arms and criminal association, with a base sentence of 6 years.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Nadia Novelino as convicted of drug possession for sale, arms and criminal association; base sentence 6 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "eric-elian-gualpa-argentina-novelino-2025",
+      "name": "Eric Elián Gualpa",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in aggravated drug commerce and criminal association; 4 years (unified 6 years)",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Eric Elián Gualpa convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Eric Elián Gualpa as convicted of secondary participation in aggravated drug commerce and criminal association; base sentence 4 years. The MPF reports a unified sentence of 6 years after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "eric-elian-gualpa-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Eric Elián Gualpa convicted of secondary participation in aggravated drug commerce and criminal association, with a base sentence of 4 years. It reports a unified sentence of 6 years incorporating earlier convictions.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Eric Elián Gualpa as convicted of secondary participation in aggravated drug commerce and criminal association; base sentence 4 years. The MPF reports a unified sentence of 6 years after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carla-rionda-argentina-novelino-2025",
+      "name": "Carla Rionda",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in aggravated drug commerce, possession for sale, and criminal association; 5 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Carla Rionda convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Carla Rionda as convicted of secondary participation in aggravated drug commerce, possession for sale, and criminal association; base sentence 5 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "carla-rionda-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Carla Rionda convicted of secondary participation in aggravated drug commerce, possession for sale, and criminal association, with a base sentence of 5 years.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Carla Rionda as convicted of secondary participation in aggravated drug commerce, possession for sale, and criminal association; base sentence 5 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "valeria-susana-heredia-argentina-novelino-2025",
+      "name": "Valeria Susana Heredia",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in drug commerce and criminal association; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Valeria Susana Heredia convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Valeria Susana Heredia as convicted of secondary participation in drug commerce and criminal association; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "valeria-susana-heredia-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Valeria Susana Heredia convicted of secondary participation in drug commerce and criminal association, with a base sentence of 4 years.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Valeria Susana Heredia as convicted of secondary participation in drug commerce and criminal association; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "romina-natali-garcia-argentina-novelino-2025",
+      "name": "Romina Natalí García",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in drug commerce and criminal association; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Romina Natalí García convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Romina Natalí García as convicted of secondary participation in drug commerce and criminal association; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "romina-natali-garcia-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Romina Natalí García convicted of secondary participation in drug commerce and criminal association, with a base sentence of 4 years.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Romina Natalí García as convicted of secondary participation in drug commerce and criminal association; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "daniel-alberto-baldiviezo-argentina-novelino-2025",
+      "name": "Daniel Alberto Baldiviezo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in drug commerce and criminal association; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Daniel Alberto Baldiviezo convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Daniel Alberto Baldiviezo as convicted of secondary participation in drug commerce and criminal association; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "daniel-alberto-baldiviezo-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Daniel Alberto Baldiviezo convicted of secondary participation in drug commerce and criminal association, with a base sentence of 4 years.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Daniel Alberto Baldiviezo as convicted of secondary participation in drug commerce and criminal association; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ingrind-florindo-argentina-novelino-2025",
+      "name": "Ingrind Florindo",
+      "aliases": [
+        "Ingrid Florindo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in drug commerce and criminal association; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Ingrind Florindo convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Ingrind Florindo as convicted of secondary participation in drug commerce and criminal association; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "ingrind-florindo-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Ingrind Florindo convicted of secondary participation in drug commerce and criminal association, with a base sentence of 4 years.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Ingrind Florindo as convicted of secondary participation in drug commerce and criminal association; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "idalia-gonzalez-sotelo-argentina-novelino-2025",
+      "name": "Idalia González Sotelo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in aggravated drug commerce and criminal association; 3 years effective",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Idalia González Sotelo convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Idalia González Sotelo as convicted of secondary participation in aggravated drug commerce and criminal association; base sentence 3 years effective."
+        }
+      ],
+      "events": [
+        {
+          "id": "idalia-gonzalez-sotelo-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Idalia González Sotelo convicted of secondary participation in aggravated drug commerce and criminal association, with a base sentence of 3 years effective.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Idalia González Sotelo as convicted of secondary participation in aggravated drug commerce and criminal association; base sentence 3 years effective."
+          }
+        }
+      ]
+    },
+    {
+      "id": "agustin-navarro-argentina-novelino-2025",
+      "name": "Agustín Navarro",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in aggravated drug commerce; 3 years suspended",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Agustín Navarro convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Agustín Navarro as convicted of secondary participation in aggravated drug commerce; base sentence 3 years suspended."
+        }
+      ],
+      "events": [
+        {
+          "id": "agustin-navarro-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Agustín Navarro convicted of secondary participation in aggravated drug commerce, with a base sentence of 3 years suspended.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Agustín Navarro as convicted of secondary participation in aggravated drug commerce; base sentence 3 years suspended."
+          }
+        }
+      ]
+    },
+    {
+      "id": "enrique-exequiel-garcete-argentina-novelino-2025",
+      "name": "Enrique Exequiel Garcete",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in aggravated drug commerce; 3 years suspended",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Enrique Exequiel Garcete convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Enrique Exequiel Garcete as convicted of secondary participation in aggravated drug commerce; base sentence 3 years suspended."
+        }
+      ],
+      "events": [
+        {
+          "id": "enrique-exequiel-garcete-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Enrique Exequiel Garcete convicted of secondary participation in aggravated drug commerce, with a base sentence of 3 years suspended.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Enrique Exequiel Garcete as convicted of secondary participation in aggravated drug commerce; base sentence 3 years suspended."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sofia-mailen-berneche-argentina-novelino-2025",
+      "name": "Sofia Mailen Berneche",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in aggravated drug commerce; 3 years suspended",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Sofia Mailen Berneche convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Sofia Mailen Berneche as convicted of secondary participation in aggravated drug commerce; base sentence 3 years suspended."
+        }
+      ],
+      "events": [
+        {
+          "id": "sofia-mailen-berneche-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Sofia Mailen Berneche convicted of secondary participation in aggravated drug commerce, with a base sentence of 3 years suspended.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Sofia Mailen Berneche as convicted of secondary participation in aggravated drug commerce; base sentence 3 years suspended."
+          }
+        }
+      ]
+    },
+    {
+      "id": "francisco-mendez-argentina-novelino-2025",
+      "name": "Francisco Méndez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-15",
+      "roleLabel": "Convicted of secondary participation in aggravated drug commerce and criminal association; 3 years suspended",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-novelino-drug-case-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Francisco Méndez convicted of a drug-commerce or possession-for-sale count for historical conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF individually names Francisco Méndez as convicted of secondary participation in aggravated drug commerce and criminal association; base sentence 3 years suspended."
+        }
+      ],
+      "events": [
+        {
+          "id": "francisco-mendez-argentina-novelino-2025-2025-09-08-conviction",
+          "occurredAt": "2025-09-08",
+          "type": "conviction",
+          "title": "Drug-case verdict",
+          "summary": "The Argentine MPF reports Francisco Méndez convicted of secondary participation in aggravated drug commerce and criminal association, with a base sentence of 3 years suspended.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+            "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2025-09-15",
+            "claim": "The MPF individually names Francisco Méndez as convicted of secondary participation in aggravated drug commerce and criminal association; base sentence 3 years suspended."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carlos-horacio-paez-argentina-caceres-2023",
+      "name": "Carlos Horacio Páez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of organization for drug commerce and transport, drug commerce, and attempted transport; 8 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Carlos Horacio Páez convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Carlos Horacio Páez as convicted of organization for drug commerce and transport, drug commerce, and attempted transport; base sentence 8 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "carlos-horacio-paez-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Carlos Horacio Páez convicted of organization for drug commerce and transport, drug commerce, and attempted transport, with a base sentence of 8 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Carlos Horacio Páez as convicted of organization for drug commerce and transport, drug commerce, and attempted transport; base sentence 8 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mauro-alejandro-peralta-argentina-caceres-2023",
+      "name": "Mauro Alejandro Peralta",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of organization for drug commerce and transport, drug commerce, and attempted transport; 8 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Mauro Alejandro Peralta convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Mauro Alejandro Peralta as convicted of organization for drug commerce and transport, drug commerce, and attempted transport; base sentence 8 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "mauro-alejandro-peralta-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Mauro Alejandro Peralta convicted of organization for drug commerce and transport, drug commerce, and attempted transport, with a base sentence of 8 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Mauro Alejandro Peralta as convicted of organization for drug commerce and transport, drug commerce, and attempted transport; base sentence 8 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sergio-omar-busso-argentina-caceres-2023",
+      "name": "Sergio Omar Busso",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of organization for drug commerce and transport, drug commerce, and attempted transport; 8 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Sergio Omar Busso convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Sergio Omar Busso as convicted of organization for drug commerce and transport, drug commerce, and attempted transport; base sentence 8 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "sergio-omar-busso-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Sergio Omar Busso convicted of organization for drug commerce and transport, drug commerce, and attempted transport, with a base sentence of 8 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Sergio Omar Busso as convicted of organization for drug commerce and transport, drug commerce, and attempted transport; base sentence 8 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cristian-ramon-chavez-argentina-caceres-2023",
+      "name": "Cristian Ramón Chávez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of secondary participation in aggravated drug transport; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Cristian Ramón Chávez convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Cristian Ramón Chávez as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "cristian-ramon-chavez-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Cristian Ramón Chávez convicted of secondary participation in aggravated drug transport, with a base sentence of 4 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Cristian Ramón Chávez as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "maximiliano-romero-argentina-caceres-2023",
+      "name": "Maximiliano Romero",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of secondary participation in aggravated drug transport; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Maximiliano Romero convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Maximiliano Romero as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "maximiliano-romero-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Maximiliano Romero convicted of secondary participation in aggravated drug transport, with a base sentence of 4 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Maximiliano Romero as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "horacio-ramon-nunez-argentina-caceres-2023",
+      "name": "Horacio Ramón Núñez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of secondary participation in aggravated drug transport; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Horacio Ramón Núñez convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Horacio Ramón Núñez as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "horacio-ramon-nunez-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Horacio Ramón Núñez convicted of secondary participation in aggravated drug transport, with a base sentence of 4 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Horacio Ramón Núñez as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "angel-gabriel-lopez-argentina-caceres-2023",
+      "name": "Ángel Gabriel López",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of secondary participation in aggravated drug transport; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Ángel Gabriel López convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Ángel Gabriel López as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "angel-gabriel-lopez-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Ángel Gabriel López convicted of secondary participation in aggravated drug transport, with a base sentence of 4 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Ángel Gabriel López as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "leandro-vallejos-argentina-caceres-2023",
+      "name": "Leandro Vallejos",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of secondary participation in aggravated drug transport; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Leandro Vallejos convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Leandro Vallejos as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "leandro-vallejos-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Leandro Vallejos convicted of secondary participation in aggravated drug transport, with a base sentence of 4 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Leandro Vallejos as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "angel-emanuel-valdez-argentina-caceres-2023",
+      "name": "Ángel Emanuel Valdez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of secondary participation in aggravated drug transport; 4 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Ángel Emanuel Valdez convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Ángel Emanuel Valdez as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "angel-emanuel-valdez-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Ángel Emanuel Valdez convicted of secondary participation in aggravated drug transport, with a base sentence of 4 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Ángel Emanuel Valdez as convicted of secondary participation in aggravated drug transport; base sentence 4 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "claudio-ezequiel-gomez-argentina-caceres-2023",
+      "name": "Claudio Ezequiel Gómez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of aggravated drug commerce and transport; 6 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Claudio Ezequiel Gómez convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Claudio Ezequiel Gómez as convicted of aggravated drug commerce and transport; base sentence 6 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "claudio-ezequiel-gomez-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Claudio Ezequiel Gómez convicted of aggravated drug commerce and transport, with a base sentence of 6 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Claudio Ezequiel Gómez as convicted of aggravated drug commerce and transport; base sentence 6 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manuel-alejandro-benitez-argentina-caceres-2023",
+      "name": "Manuel Alejandro Benítez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of aggravated drug commerce and transport; 6 years (unified 16 years)",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Manuel Alejandro Benítez convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Manuel Alejandro Benítez as convicted of aggravated drug commerce and transport; base sentence 6 years. The MPF reports a unified sentence of 16 years after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "manuel-alejandro-benitez-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Manuel Alejandro Benítez convicted of aggravated drug commerce and transport, with a base sentence of 6 years. It reports a unified sentence of 16 years incorporating earlier convictions. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Manuel Alejandro Benítez as convicted of aggravated drug commerce and transport; base sentence 6 years. The MPF reports a unified sentence of 16 years after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rita-andrea-cabral-argentina-caceres-2023",
+      "name": "Rita Andrea Cabral",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of aggravated drug commerce and attempted transport; 6 years (unified 6 years 2 months)",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Rita Andrea Cabral convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Rita Andrea Cabral as convicted of aggravated drug commerce and attempted transport; base sentence 6 years. The MPF reports a unified sentence of 6 years 2 months after earlier convictions."
+        }
+      ],
+      "events": [
+        {
+          "id": "rita-andrea-cabral-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Rita Andrea Cabral convicted of aggravated drug commerce and attempted transport, with a base sentence of 6 years. It reports a unified sentence of 6 years 2 months incorporating earlier convictions. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Rita Andrea Cabral as convicted of aggravated drug commerce and attempted transport; base sentence 6 years. The MPF reports a unified sentence of 6 years 2 months after earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-ignacio-la-costa-argentina-caceres-2023",
+      "name": "Juan Ignacio La Costa",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-12-28",
+      "roleLabel": "Convicted of aggravated drug commerce and transport; 6 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Juan Ignacio La Costa convicted of a marijuana commerce/transport count for historical activity in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-12-28",
+          "claim": "The MPF individually names Juan Ignacio La Costa as convicted of aggravated drug commerce and transport; base sentence 6 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-ignacio-la-costa-argentina-caceres-2023-2023-12-28-conviction",
+          "occurredAt": "2023-12-28",
+          "type": "conviction",
+          "title": "Drug conviction publicly reported",
+          "summary": "The Argentine MPF reports Juan Ignacio La Costa convicted of aggravated drug commerce and transport, with a base sentence of 6 years. The date is the prosecution publication date; the exact judgment day was not stated.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-penas-de-entre-cuatro-y-ocho-anos-de-prision-para-trece-integrantes-de-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: penas de entre cuatro y ocho años de prisión para trece integrantes de una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-12-28",
+            "claim": "The MPF individually names Juan Ignacio La Costa as convicted of aggravated drug commerce and transport; base sentence 6 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dario-ramon-caceres-argentina-caceres-2023",
+      "name": "Darío Ramón Cáceres",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-11-30",
+      "roleLabel": "Convicted of leading a marijuana commerce and transport organization; 8 years 6 months",
+      "prominence": 2,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Darío Ramón Cáceres convicted for marijuana-commerce organization or transport conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-condenaron-a-8-anos-y-6-meses-de-prision-al-lider-de-la-barra-del-club-atletico-talleres-por-encabezar-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-condenaron-a-8-anos-y-6-meses-de-prision-al-lider-de-la-barra-del-club-atletico-talleres-por-encabezar-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: condenaron a 8 años y 6 meses de prisión al líder de la barra del Club Atlético Talleres por encabezar una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-11-30",
+          "claim": "The MPF individually names Darío Ramón Cáceres as convicted of leading a marijuana commerce and transport organization; base sentence 8 years 6 months."
+        }
+      ],
+      "events": [
+        {
+          "id": "dario-ramon-caceres-argentina-caceres-2023-2023-11-29-conviction",
+          "occurredAt": "2023-11-29",
+          "type": "conviction",
+          "title": "Drug-case conviction",
+          "summary": "The Argentine MPF reports Darío Ramón Cáceres convicted of leading a marijuana commerce and transport organization, with a base sentence of 8 years 6 months.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-condenaron-a-8-anos-y-6-meses-de-prision-al-lider-de-la-barra-del-club-atletico-talleres-por-encabezar-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: condenaron a 8 años y 6 meses de prisión al líder de la barra del Club Atlético Talleres por encabezar una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-11-30",
+            "claim": "The MPF individually names Darío Ramón Cáceres as convicted of leading a marijuana commerce and transport organization; base sentence 8 years 6 months."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gustavo-daniel-medina-ramirez-argentina-caceres-2023",
+      "name": "Gustavo Daniel Medina Ramírez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-11-30",
+      "roleLabel": "Convicted of aggravated drug commerce and transport; 7 years",
+      "prominence": 3,
+      "organizationIds": [
+        "argentina-caceres-marijuana-case-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "ARG",
+          "label": "Argentina",
+          "evidence": {
+            "claim": "The MPF individually reports Gustavo Daniel Medina Ramírez convicted for marijuana-commerce organization or transport conduct in Argentina.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-condenaron-a-8-anos-y-6-meses-de-prision-al-lider-de-la-barra-del-club-atletico-talleres-por-encabezar-una-banda-dedicada-al-narcotrafico/"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-condenaron-a-8-anos-y-6-meses-de-prision-al-lider-de-la-barra-del-club-atletico-talleres-por-encabezar-una-banda-dedicada-al-narcotrafico/",
+          "title": "Córdoba: condenaron a 8 años y 6 meses de prisión al líder de la barra del Club Atlético Talleres por encabezar una banda dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2023-11-30",
+          "claim": "The MPF individually names Gustavo Daniel Medina Ramírez as convicted of aggravated drug commerce and transport; base sentence 7 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "gustavo-daniel-medina-ramirez-argentina-caceres-2023-2023-11-29-conviction",
+          "occurredAt": "2023-11-29",
+          "type": "conviction",
+          "title": "Drug-case conviction",
+          "summary": "The Argentine MPF reports Gustavo Daniel Medina Ramírez convicted of aggravated drug commerce and transport, with a base sentence of 7 years.",
+          "source": {
+            "url": "https://www.fiscales.gob.ar/narcocriminalidad/cordoba-condenaron-a-8-anos-y-6-meses-de-prision-al-lider-de-la-barra-del-club-atletico-talleres-por-encabezar-una-banda-dedicada-al-narcotrafico/",
+            "title": "Córdoba: condenaron a 8 años y 6 meses de prisión al líder de la barra del Club Atlético Talleres por encabezar una banda dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+            "language": "es",
+            "publishedAt": "2023-11-30",
+            "claim": "The MPF individually names Gustavo Daniel Medina Ramírez as convicted of aggravated drug commerce and transport; base sentence 7 years."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "mauro-nahuel-novelino-nadia-novelino-argentina-relation",
+      "fromId": "mauro-nahuel-novelino-argentina-novelino-2025",
+      "toId": "nadia-novelino-argentina-novelino-2025",
+      "type": "family",
+      "label": "Siblings",
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF explicitly calls Nadia Novelino Mauro Novelino’s sister."
+        }
+      ]
+    },
+    {
+      "id": "mauro-nahuel-novelino-lucia-uberti-argentina-relation",
+      "fromId": "mauro-nahuel-novelino-argentina-novelino-2025",
+      "toId": "lucia-uberti-argentina-novelino-2025",
+      "type": "associate",
+      "label": "Former partners and drug-case co-organizers",
+      "sources": [
+        {
+          "url": "https://www.fiscales.gob.ar/narcocriminalidad/rosario-condenas-de-hasta-12-anos-de-prision-para-23-miembros-de-una-banda-narcocriminal-del-sur-de-santa-fe-coordinada-desde-prision/",
+          "title": "Rosario: condenas de hasta 12 años de prisión para 23 miembros de una banda narcocriminal del sur de Santa Fe coordinada desde prisión",
+          "publisher": "Ministerio Público Fiscal de la Nación (Argentina)",
+          "language": "es",
+          "publishedAt": "2025-09-15",
+          "claim": "The MPF explicitly identifies Lucía Uberti as Mauro Novelino’s former partner and describes their coordinated drug-commerce activity."
+        }
+      ]
+    }
+  ]
+}
