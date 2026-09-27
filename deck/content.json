@@ -774,47 +774,57 @@
       "blocks": [
         {
           "type": "kicker",
-          "text": "The natural experiment · Afghanistan, 2022"
+          "text": "The test we wrote down before we had the answer"
+        },
+        {
+          "type": "lines",
+          "scale": "m",
+          "items": [
+            "One prespecified model.",
+            "Reported whichever way it came out."
+          ]
         },
         {
           "type": "shot",
           "sid": "experiment",
           "aspect": "16/10",
-          "caption": "Experiment — cultivation collapse against corridor response, on saved pipeline metrics",
-          "spec": "Experiment view, 1440×960, Actual selected.",
-          "maxvh": 40
+          "maxvh": 38,
+          "caption": "Experiment — the prespecified retrospective model, its uncertainty, and every input traced to its source",
+          "spec": "Experiment / Retrospective study, 1440×960."
         },
         {
           "type": "statgrid",
           "compact": true,
           "items": [
             {
-              "value": "{{metrics.afghan_hit}}",
-              "label": "corridors called correctly",
-              "source": "direction of shift, held-out"
+              "value": "0.0195",
+              "label": "homicides per 100,000, per unit rise in log seizures",
+              "source": "country and seizure-year fixed effects, clustered SE"
             },
             {
-              "value": "{{metrics.sea_pred}}",
-              "label": "predicted SE Asia share",
-              "source": "up from {{metrics.sea_base}} pre-ban"
+              "value": "0.869",
+              "label": "p-value",
+              "source": "95% interval [−0.213, 0.252] — it spans zero"
             },
             {
-              "value": "{{metrics.sea_actual}}",
-              "label": "actual SE Asia share",
-              "source": "our corridor allocation on 2023–24 seizure and cultivation data"
+              "value": "1,428",
+              "label": "country-years behind the estimate",
+              "source": "144 countries, seizure years 2006–2022"
             }
           ]
         },
         {
-          "type": "sub",
-          "text": "We trained through 2021 — before the ban — injected the cultivation collapse as a shock, and asked the model where heroin would go. Then we checked it against what the later data showed."
+          "type": "source",
+          "text": "A retrospective ecological association, not a causal effect and not a forecast test. Seizures reflect enforcement and reporting. The product says all of this on the screen itself."
         }
       ],
       "cues": [
-        "This is the product's own Experiment screen — the chart is theirs, not a slide.",
-        "We trained through 2021. The model never saw the answer. That is the whole point.",
-        "Strongest twenty seconds you have. Do not rush it."
-      ]
+        "This is the slide that proves we are not selling you something.",
+        "We committed to the test in the spec, then published the interval and the p-value.",
+        "The interval spans zero. Say that out loud — do not hide it in the chart.",
+        "Hand to the next slide: so what did we do about it?"
+      ],
+      "handoff": "So what did we do about it?"
     },
     {
       "id": "null-result",

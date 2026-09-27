@@ -164,6 +164,14 @@ scarce, which is most of the world; second, evidence of where harm is heading is
 argument, not a substitute for it. We would rather be the thing an advocate cites than pretend we are the
 thing that changes the law.
 
+**16. "Your README claims the model called 9 of 13 corridors, but your own Experiment screen says the Afghan data does not establish a route shift. Which is it?"** — *Markandeya (S3)*
+Both, and the distinction is the point. The 9 of 13 is model output from a held-out shock test: train through
+2021, inject the cultivation collapse, see which corridors the model moves and in which direction. The
+Experiment screen is reporting *observations*, and published cultivation figures on their own cannot establish
+that heroin physically rerouted between two countries — so the product refuses to say they do. We would
+rather have a UI that under-claims than a slide that over-claims. If you want the forecast evidence, it is the
+backtest: 0.88 AUC against 0.58 for the standard gravity baseline, on held-out years.
+
 ---
 
 ## Also plausible

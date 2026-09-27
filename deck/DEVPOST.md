@@ -104,9 +104,15 @@ so the frontend could build in parallel.
 
 - A held-out backtest: the hurdle model reaches 0.88 AUC on corridor activation against 0.58 for the
   standard economics baseline, trained through 2019 and evaluated on 2020–2024.
-- The Afghan ban test: trained through 2021, shocked with the cultivation collapse, the model called 9 of
+- The Afghan ban test: trained through 2021 and shocked with the cultivation collapse, the model called 9 of
   13 corridor shifts in the right direction and predicted a Southeast Asia share of 14% against the 13% the
-  later data showed.
+  later data showed. We report that as model output rather than as a measured route shift, and the product
+  says so on the screen: its Afghan view shows published cultivation observations and states plainly that
+  they do not establish a measured bilateral shift.
+- A prespecified test, published with its uncertainty: 0.0195 homicides per 100,000 per unit rise in log
+  seizures, 95% interval [-0.213, 0.252], p = 0.869, over 1,428 country-years in 144 countries with country
+  and seizure-year fixed effects and clustered standard errors. The interval spans zero and the product
+  displays it that way.
 - Publishing a result that went against us. Our core spillover hypothesis was not supported: route exposure
   alone does not predict later rises in homicide or HIV once vulnerability is controlled for. We committed
   that finding the day we found it. It is why the risk score has three columns, and it is an argument for

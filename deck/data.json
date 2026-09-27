@@ -145,6 +145,7 @@
     "route-map": "screenshots/route-map.png",
     "experiment": "screenshots/experiment.png",
     "country-screen": "screenshots/country-screen.png",
+    "experiment-afghan": "screenshots/experiment-afghan.png",
     "livewire": "screenshots/livewire.png",
     "market-board": "screenshots/market-board.png",
     "risk-board": "screenshots/risk-board.png",
@@ -217,6 +218,11 @@
         "label": "API deployment",
         "owner": "backend",
         "status": "done: live at https://trace-api-six.vercel.app (Vercel; keyword Live Wire classifier, backlog replay)"
+      },
+      {
+        "label": "People API",
+        "owner": "backend",
+        "status": "done (`/api/people`, `/countries`, `/network`, `/{person_id}`; parity with the frontend route handlers)"
       }
     ],
     "pending": [
@@ -243,14 +249,14 @@
     ],
     "frontend_built": true,
     "shipped_short": "Pipeline, models, backtests, Live Wire and the workspace shipped; API live in production",
-    "shipped_count": 13,
+    "shipped_count": 14,
     "pending_count": 4
   },
   "git": {
-    "sha": "30ac8bb",
-    "subject": "deck: move the shipped API out of the roadmap",
-    "when": "2026-09-27T01:37:23+00:00",
-    "count": "112"
+    "sha": "650a10a",
+    "subject": "deck: re-frame the proof slide on the prespecified test, refresh all captures",
+    "when": "2026-09-27T02:04:03+00:00",
+    "count": "121"
   },
-  "built_at": "2026-09-27 01:37 UTC"
+  "built_at": "2026-09-27 02:04 UTC"
 }
