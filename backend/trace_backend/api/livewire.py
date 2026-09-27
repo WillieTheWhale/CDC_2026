@@ -95,7 +95,7 @@ class LiveWire:
         except Exception as exc:  # e.g. missing or unreadable Reflex model files
             self._fall_back(f"{want or 'classifier'} failed to load ({type(exc).__name__}: {str(exc)[:160]})")
             return MockJevClassifier()
-        if want and want != "mock" and clf.name.split("-")[0] != want:
+        if want and want != "mock" and clf.name.split("-")[0] != want.split("-")[0]:  # reflex-remote -> reflex
             self._fall_back(f"TRACE_CLASSIFIER={want} requested but unavailable (see server log)")
         return clf if clf.name == "mock" else _Guarded(clf, self)
 
@@ -331,6 +331,9 @@ class _Guarded(JevClassifier):
         try:
             return self.inner.classify(title, text)
         except Exception as exc:
+            if getattr(self.inner, "url", None):  # remote Reflex: a network blip must not downgrade the wire for good
+                log.warning("Reflex service call failed (%s); keyword mock for this article only", exc)
+                return MockJevClassifier().classify(title, text)
             w = self.wire
             if w.classifier is self:
                 w._fall_back(f"{self.name} failed ({type(exc).__name__}: {str(exc)[:160]})")
@@ -441,11 +444,18 @@ def classify_headline(body: ClassifyIn):
     grounding guardrails the wire uses: a country, drug or size the text does not state comes back as not stated.
     `on_wire` says whether the article would pass the Live Wire's event and confidence gate. Nothing is stored."""
     from .app import envelope
+    from fastapi import HTTPException
     lw = state()
+    clf = getattr(lw.classifier, "inner", lw.classifier)  # unwrap: never answer with a silent mock fallback here
     t0 = time.perf_counter()
-    c = ground(lw.classifier.classify(body.title, body.text), body.title, body.text)
+    try:
+        c = ground(clf.classify(body.title, body.text), body.title, body.text)
+    except Exception as exc:
+        log.warning("live classify failed: %s", exc)
+        raise HTTPException(status_code=503, detail={"code": "classifier_unavailable",
+                                                     "message": f"{clf.name} is unavailable; try again shortly."})
     ms = round((time.perf_counter() - t0) * 1000)
-    return envelope({"classifier": lw.classifier_name, "on_wire": passes_wire(c, MIN_CONF), "latency_ms": ms,
+    return envelope({"classifier": clf.name, "on_wire": passes_wire(c, MIN_CONF), "latency_ms": ms,
                      "classification": c.to_dict()},
                     notes=["Live classification of the text you sent; nothing is stored or published to the wire.",
                            "Guardrails: countries, drugs and sizes must be stated in the text, otherwise not stated."])

@@ -10,6 +10,7 @@ backend/data/processed/
 backend/data/cache/
 backend/data/reflex/
 backend/.vercel_deploy/
+backend/.vercel_reflex/
 *.duckdb
 *.sqlite
 *.sqlite-journal

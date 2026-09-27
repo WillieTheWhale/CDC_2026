@@ -119,3 +119,18 @@ Reflex never invented a country on real news, even before the guardrails (its co
 5. is_event needs drug-trade vocabulary, an event type other than "other", and P >= 0.7. The 0.7 threshold (with the existing 0.6 display cut) was chosen on the 295 synthetic validation headlines (recall 0.947, false events 3.0%); the real benchmark was never used for tuning.
 
 **Limits.** One annotator (AI-assisted) wrote the labels; 92 rows give wide error bars (one headline moves a rate by 1-2.6 points). False events are 5.1%, just above the 5% target: the remaining leaks are reports that read like events. Zero hallucination is guaranteed by construction only for entities the gazetteer and synonym lists can see; a model can still pick the *wrong* supported country (for example the seizing country as origin), which counts as an accuracy error, not a hallucination. Calibration over all rows is unchanged (ECE 0.18 raw, 0.19 grounded) because suppressed non-events keep their original confidence. The Live Wire classifies GDELT titles only, without the first sentence the benchmark includes.
+
+## Production deployment (two functions)
+
+Reflex runs live in production as its own Vercel function, **https://trace-reflex.vercel.app** (`POST /api/classify`,
+`GET /api/health`), built by `backend/scripts/build_vercel_reflex.py`: fastapi, numpy, onnxruntime and tokenizers,
+the emb8 model stored as ONNX external data (a 31 MB graph plus 25 weight files, each under Vercel's 100 MB upload
+limit; outputs bit-identical to `model.emb8.onnx`) and the country catalogue the guardrails read. About 147 MB.
+
+The main API (`backend/scripts/build_vercel.py`) cannot also hold the model and onnxruntime under the 500 MB function
+limit, so at build time it classifies the Live Wire backlog with the real ONNX model inside the package (first
+request 17 s -> 0.06 s), then ships without the model and calls the service through
+`jev.remote.RemoteReflexClassifier` (`TRACE_CLASSIFIER=reflex-remote`, `TRACE_REFLEX_URL`). `POST /api/livewire/classify`
+classifies any headline live through the service (about 1.5 s warm, about 4.5 s on a cold start) and returns 503,
+never a silent keyword answer, if the service is unreachable.
+

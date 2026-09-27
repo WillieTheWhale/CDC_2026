@@ -133,3 +133,10 @@ uv pip install onnx onnxruntime                                # export-time onl
 .venv/Scripts/python scripts/reflex_onnx_parity.py             # parity with torch -> trace_backend/reflex/results/onnx_parity.json
 ```
 
+### Reflex service (live classifier)
+
+Deploy order: build the ONNX files once (`scripts/export_reflex_onnx.py`), then the Reflex service
+(`scripts/build_vercel_reflex.py`, then `cd .vercel_reflex && vercel deploy --prod`, project `trace-reflex`), then the API
+(`scripts/build_vercel.py --reflex-url https://trace-reflex.vercel.app`). The API bundle stays about 120 MB and
+never loads torch or onnxruntime.
+

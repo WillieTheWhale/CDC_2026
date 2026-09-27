@@ -78,6 +78,12 @@ def get_classifier(countries: list[dict] | None = None) -> JevClassifier:
     """
     import os
     choice = os.environ.get("TRACE_CLASSIFIER", "").strip().lower()
+    if choice == "reflex-remote":  # production: Reflex served by the separate TRACE Reflex function
+        url = os.environ.get("TRACE_REFLEX_URL", "").strip()
+        if url:
+            from .remote import RemoteReflexClassifier
+            return RemoteReflexClassifier(url)
+        log.warning("TRACE_CLASSIFIER=reflex-remote but TRACE_REFLEX_URL is not set; using mock")
     if choice in ("", "jev") and config.TYPESAFE_API_KEY:
         try:
             return RealJevClassifier(countries or [])

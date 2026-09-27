@@ -58,6 +58,7 @@ import os
 
 os.environ.setdefault("TRACE_CLASSIFIER", "{classifier}")
 os.environ.setdefault("TRACE_REFLEX_BACKEND", "onnx")  # Reflex through onnxruntime; torch is not deployed
+os.environ.setdefault("TRACE_REFLEX_URL", "{reflex_url}")  # the separate TRACE Reflex function (reflex-remote)
 os.environ.setdefault("TRACE_LIVEWIRE_POLL", "0")
 os.environ.setdefault("TRACE_PEOPLE_REMOTE", "1")  # re-read People from GitHub main (bundled copy as fallback)
 
@@ -155,7 +156,7 @@ def copy_reflex_onnx(data: Path) -> str:
     model = (meta.get("onnx") or {}).get("file", "model.int8.onnx")
     dst = data / "reflex" / "model"
     dst.mkdir(parents=True)
-    for f in (model, "tokenizer.json", "reflex.json"):
+    for f in (model, *(meta.get("onnx") or {}).get("external_data", []), "tokenizer.json", "reflex.json"):
         if not (ONNX_DIR / f).exists():
             sys.exit(f"missing {ONNX_DIR / f}; re-run scripts/export_reflex_onnx.py")
         shutil.copy(ONNX_DIR / f, dst / f)
@@ -197,7 +198,7 @@ def preclassify_livewire() -> dict:
         sys.exit(f"Live Wire pre-classification produced unexpected output: {res}")
     return res
 
-def build(reflex: bool = True) -> Path:
+def build(reflex: bool = True, reflex_url: str = "https://trace-reflex.vercel.app") -> Path:
     OUT.mkdir(exist_ok=True)
     for child in OUT.iterdir():  # empty in place (keeps .vercel, the project link, and works if OUT is a cwd)
         if child.name == ".vercel":
@@ -238,9 +239,20 @@ def build(reflex: bool = True) -> Path:
         print(f"  reflex onnx: {copy_reflex_onnx(data)}")
     (OUT / "requirements.txt").write_text(reqs, encoding="utf-8")
     (OUT / "pyproject.toml").write_text(pyproject(reqs), encoding="utf-8")
-    (OUT / "app.py").write_text(APP.replace("{classifier}", "reflex" if reflex else "mock"), encoding="utf-8")
+    app = APP.replace("{reflex_url}", reflex_url)
+    (OUT / "app.py").write_text(app.replace("{classifier}", "reflex" if reflex else "mock"), encoding="utf-8")
     if reflex:
+        # Classify the Live Wire backlog with the real ONNX model in the package, then ship without the model and
+        # onnxruntime (the API bundle would exceed Vercel's 500 MB function limit) and call the Reflex service instead.
         print(f"  live wire pre-classified: {preclassify_livewire()}")
+        model_dir = data / "reflex" / "model"
+        for f in model_dir.iterdir():
+            if f.name != "reflex.json":
+                f.unlink()
+        (OUT / "requirements.txt").write_text(REQUIREMENTS, encoding="utf-8")
+        (OUT / "pyproject.toml").write_text(pyproject(REQUIREMENTS), encoding="utf-8")
+        (OUT / "app.py").write_text(app.replace("{classifier}", "reflex-remote"), encoding="utf-8")
+        print(f"  live classifier: reflex-remote -> {reflex_url}")
     (OUT / "vercel.json").write_text(VERCEL_JSON, encoding="utf-8")
     (OUT / ".python-version").write_text("3.12\n", encoding="utf-8")
     return OUT
@@ -249,7 +261,10 @@ def build(reflex: bool = True) -> Path:
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-reflex", action="store_true", help="deploy the keyword mock instead of ONNX Reflex")
-    out = build(reflex=not ap.parse_args().no_reflex)
+    ap.add_argument("--reflex-url", default=os.environ.get("TRACE_REFLEX_URL", "https://trace-reflex.vercel.app"),
+                    help="the deployed Reflex service (scripts/build_vercel_reflex.py)")
+    args = ap.parse_args()
+    out = build(reflex=not args.no_reflex, reflex_url=args.reflex_url)
     size = sum(p.stat().st_size for p in out.rglob("*") if p.is_file())
     db_mb = (out / "data" / "derived.sqlite").stat().st_size / 1e6
     print(f"built {out} ({size / 1e6:.1f} MB; derived.sqlite {db_mb:.1f} MB)")

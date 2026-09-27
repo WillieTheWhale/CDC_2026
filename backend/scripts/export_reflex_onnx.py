@@ -128,6 +128,27 @@ def quantize(fp32: Path, target: Path, variant: str) -> Path:
     return target
 
 
+def externalize(model: Path, stem: str, threshold: int = 1 << 20) -> tuple[Path, list[str]]:
+    """Re-save `model` with every tensor over `threshold` bytes as its own ONNX external-data file
+    (`<stem>.NNN.bin`, same folder). Weights and outputs are byte-identical; each file stays far below the
+    100 MB per-file upload limit of Vercel deploys (the 137 MB emb8 model becomes a 31 MB graph + 25 files <= 49 MB)."""
+    import onnx
+    from onnx.external_data_helper import convert_model_to_external_data
+    for old in model.parent.glob(f"{stem}*"):
+        old.unlink()
+    m = onnx.load(str(model))
+    convert_model_to_external_data(m, all_tensors_to_one_file=False, size_threshold=threshold)
+    files: list[str] = []
+    for t in m.graph.initializer:
+        for e in t.external_data:
+            if e.key == "location":
+                e.value = f"{stem}.{len(files):03d}.bin"
+                files.append(e.value)
+    out = model.parent / f"{stem}.onnx"
+    onnx.save_model(m, str(out))
+    return out, files
+
+
 def main(argv: list[str] | None = None) -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--variant", choices=[*FILES, "all"], default=DEFAULT, help=f"{DEFAULT} is the shipped default")
@@ -157,6 +178,11 @@ def main(argv: list[str] | None = None) -> None:
                     "output": "score = logit[entailment] - logit[contradiction]", "quantization": QUANT_NOTES[default],
                     "exported_from": str(a.src.relative_to(BACKEND)) if a.src.is_relative_to(BACKEND) else str(a.src),
                     "exported_at": time.strftime("%Y-%m-%dT%H:%M:%S")}
+    if default == "emb8":  # ship it as external data so every deployed file is < 100 MB (Vercel upload limit)
+        ext, parts = externalize(a.out / FILES["emb8"], "model.emb8x")
+        meta["onnx"].update(file=ext.name, external_data=parts,
+                            external_data_note="emb8 weights as ONNX external data (each file < 100 MB); identical "
+                                               "to model.emb8.onnx")
     (a.out / "reflex.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
     print(f"wrote {a.out} (default {meta['onnx']['file']})")
 
