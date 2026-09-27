@@ -330,3 +330,53 @@ export function placeArrows(arrows: FieldArrow[], zoom: number, gapPx = 3): Plac
   }
   return out;
 }
+
+// Shortest distance (km) from a point to a path, sampled along its great circle.
+export function distanceToFlowKm(point: [number, number], flow: EstimatedFlow): number {
+  const a: [number, number] = [flow.from.lon, flow.from.lat];
+  const b: [number, number] = [flow.to.lon, flow.to.lat];
+  const km = (p: [number, number], q: [number, number]) => {
+    const [l1, p1, l2, p2] = [p[0] * rad, p[1] * rad, q[0] * rad, q[1] * rad];
+    return 12742 * Math.asin(Math.sqrt(Math.sin((p2 - p1) / 2) ** 2 + Math.cos(p1) * Math.cos(p2) * Math.sin((l2 - l1) / 2) ** 2));
+  };
+  const n = Math.max(4, Math.ceil(flow.km / 25));
+  let best = Infinity;
+  for (let i = 0; i <= n; i++) best = Math.min(best, km(point, interpolate(a, b, i / n)));
+  return best;
+}
+export interface NearbyPath {
+  flow: EstimatedFlow; // strongest drug on this city pair
+  drugs: Drug[];
+  distanceKm: number;
+}
+// The biggest estimated paths close to a point. Paths between the same two
+// cities are merged (drugs listed together); ranking weighs strength against
+// distance, score = strength / (1 + km / 150), searching within `radiusKm`
+// and widening until at least `count` are found.
+export function nearestBigPaths(
+  point: [number, number],
+  flows: EstimatedFlow[],
+  count = 3,
+  radiusKm = 300,
+): NearbyPath[] {
+  const pairs = new Map<string, NearbyPath>();
+  for (const flow of flows) {
+    const key = `${flow.from.iso3}:${flow.from.name}>${flow.to.iso3}:${flow.to.name}`;
+    const hit = pairs.get(key);
+    if (hit) {
+      if (!hit.drugs.includes(flow.drug)) hit.drugs.push(flow.drug);
+      if (flow.strength > hit.flow.strength) hit.flow = flow;
+      continue;
+    }
+    pairs.set(key, { flow, drugs: [flow.drug], distanceKm: distanceToFlowKm(point, flow) });
+  }
+  const all = [...pairs.values()];
+  let radius = radiusKm;
+  let near = all.filter((p) => p.distanceKm <= radius);
+  while (near.length < count && radius < 4000) {
+    radius *= 2;
+    near = all.filter((p) => p.distanceKm <= radius);
+  }
+  const score = (p: NearbyPath) => p.flow.strength / (1 + p.distanceKm / 150);
+  return near.sort((x, y) => score(y) - score(x)).slice(0, count);
+}
