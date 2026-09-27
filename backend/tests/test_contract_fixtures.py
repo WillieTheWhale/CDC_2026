@@ -27,7 +27,7 @@ def test_every_path_has_a_fixture():
                "/api/evidence/values", "/api/evidence/value/{value_id}", "/api/evidence/health/{iso3}",
                "/api/evidence/overdose", "/api/evidence/research-model",
                "/api/evidence/market-observations", "/api/evidence/market-observations/countries",
-               "/api/estimated-flows"}
+               "/api/estimated-flows", "/api/us-routes"}
     assert paths == covered
 
 

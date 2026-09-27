@@ -598,6 +598,32 @@ paths:
             application/json:
               schema: { $ref: "#/components/schemas/ErrorResponse" }
 
+  /api/us-routes:
+    get:
+      operationId: getUsRoutes
+      summary: Cited US drug-route pairs (city or state level) stated in public government reports
+      description: >
+        One route per origin -> destination movement of one drug that an NDIC HIDTA Drug Market Analysis or a HIDTA
+        threat assessment states in words, with the report URL, PDF page and verbatim quote. Places are never more
+        precise than the source (state label point when only a state is named; country anchor for foreign origins).
+        Mostly 2008-2011 reports. No enforcement, checkpoint or detection attribute exists (design boundary).
+      parameters:
+        - name: drug
+          in: query
+          required: false
+          schema: { $ref: "#/components/schemas/Drug" }
+        - name: state
+          in: query
+          required: false
+          description: Two-letter US state; keeps routes that start or end in it.
+          schema: { type: string, pattern: "^[A-Z]{2}$" }
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/UsRoutesResponse" }
+
 components:
   schemas:
     # ---------- primitives ----------
@@ -2209,6 +2235,58 @@ components:
               - { type: integer, minimum: 0, maximum: 1500, description: great-circle km }
             minItems: 6
             maxItems: 6
+
+    UsRoutesResponse:
+      type: object
+      required: [meta, data]
+      properties:
+        meta: { $ref: "#/components/schemas/ResponseMeta" }
+        data:
+          type: object
+          required: [total, routes]
+          properties:
+            total: { type: integer }
+            routes:
+              type: array
+              items: { $ref: "#/components/schemas/UsRoute" }
+
+    UsPlace:
+      type: object
+      required: [name, state, country, lon, lat, precision]
+      properties:
+        name: { type: string, example: Houston }
+        state: { type: [string, "null"], example: TX }
+        country: { type: string, example: USA }
+        lon: { type: number }
+        lat: { type: number }
+        precision: { type: string, enum: [city, state, country] }
+
+    UsRoute:
+      type: object
+      required: [id, drug, basis, from, to, precision, period, source]
+      properties:
+        id: { type: string, example: ndic-houston-heroin-01 }
+        drug: { type: string, enum: [cocaine, heroin, meth, cannabis, fentanyl] }
+        basis: { type: string, enum: [hidta_assessment, ndic_market_analysis, dea_ndta, court_case] }
+        from: { $ref: "#/components/schemas/UsPlace" }
+        to: { $ref: "#/components/schemas/UsPlace" }
+        precision: { type: string, enum: [city, state, mixed] }
+        period:
+          type: [array, "null"]
+          items: { type: integer }
+          minItems: 2
+          maxItems: 2
+        source:
+          type: object
+          required: [id, url, publisher, title, year, locator, quote]
+          properties:
+            id: { type: string }
+            url: { type: string }
+            publisher: { type: string }
+            title: { type: string }
+            year: { type: integer }
+            locator: { type: string, description: "PDF page (and table/column) of the quote." }
+            quote: { type: string, description: "Verbatim; ' … ' marks omitted words." }
 
     EstimatedFlowsResponse:
       type: object

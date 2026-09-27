@@ -46,6 +46,7 @@ FIXTURE_SCHEMAS: dict[str, str] = {
     "evidence_market_observations.json": "EvidenceMarketObservationsResponse",
     "evidence_market_observation_countries.json": "EvidenceMarketObservationCountriesResponse",
     "estimated_flows.json": "EstimatedFlowsResponse",
+    "us_routes.json": "UsRoutesResponse",
 }
 
 
