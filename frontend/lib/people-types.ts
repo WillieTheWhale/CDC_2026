@@ -80,5 +80,5 @@ export interface PeopleCountry {
 }
 
 export type PeopleLoadResult =
-  | { status: "ready"; dataset: PeopleDataset; source: "fixtures" | "api"; total: number | null; nextCursor: string | null }
+  | { status: "ready"; dataset: PeopleDataset; source: "fixtures" | "api"; total: number | null; nextCursor: string | null; totalConnections: number | null }
   | { status: "unavailable"; reason: string };

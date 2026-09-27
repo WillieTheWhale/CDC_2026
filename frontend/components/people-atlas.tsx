@@ -57,6 +57,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   const [bounds, setBounds] = useState<[number, number, number, number] | undefined>();
   const [dataset, setDataset] = useState<PeopleDataset | null>(null);
   const [network, setNetwork] = useState<PeopleDataset | null>(null);
+  const [networkClaimTotal, setNetworkClaimTotal] = useState<number | null>(null);
   const [loadState, setLoadState] = useState("Loading sourced records…");
   const [mode, setMode] = useState<"map" | "graph">("map");
   const [zoom, setZoom] = useState<1 | 2 | 3>(1);
@@ -179,10 +180,13 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   };
 
   useEffect(() => {
-    if (!selectedId) { setNetwork(null); return; }
+    if (!selectedId) { setNetwork(null); setNetworkClaimTotal(null); return; }
     let active = true;
     void loadPersonNetwork(selectedId).then((result) => {
-      if (active) setNetwork(result.status === "ready" ? result.dataset : null);
+      if (active) {
+        setNetwork(result.status === "ready" ? result.dataset : null);
+        setNetworkClaimTotal(result.status === "ready" ? result.totalConnections : null);
+      }
     });
     return () => { active = false; };
   }, [selectedId]);
@@ -349,7 +353,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
         </> : <div className="people-detail-empty">Select a person marker or record to review status and sources.</div>}
       </aside>
     </div><div className="people-graph-panel" style={{ display: mode === "graph" ? undefined : "none" }}>
-      {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
+      {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} totalConnections={networkClaimTotal} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
       {selected && <><div className="people-graph-status"><span className={`people-status status-${selected.status}`}>{STATUS_LABEL[selected.status]}</span><span>{selected.name}{selected.statusAsOf ? ` · as of ${selected.statusAsOf}` : ""}</span></div><PeopleEventTimeline events={selected.events ?? []} /></>}
     </div></>
     <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. Map markers represent loaded records at country-level associations; totals apply to the current search, zoom and map area.</footer>

@@ -55,7 +55,22 @@ test("invalid boundaries are rejected and page edges only reference included peo
   const page = queryPeople(dataset, countries, { search: "", zoom: 3, limit: 1 });
   assert.equal(page.data.connections.length, 0);
   const network = queryPersonNetwork(dataset, people[0].id)!;
-  assert.deepEqual(network.people.map((person) => person.id), [people[0].id, people[1].id]);
-  assert.deepEqual(network.connections.map((connection) => connection.id), ["edge"]);
+  assert.deepEqual(network.data.people.map((person) => person.id), [people[0].id, people[1].id]);
+  assert.deepEqual(network.data.connections.map((connection) => connection.id), ["edge"]);
+  assert.equal(network.totalConnections, 1);
   assert.equal(queryPersonNetwork(dataset, "missing"), null);
+});
+
+test("high-degree ego responses are bounded and report the full claim count", () => {
+  const manyEdges = Array.from({ length: 75 }, (_, index) => ({
+    id: `edge-${String(index).padStart(3, "0")}`,
+    fromId: people[0].id,
+    toId: people[index + 1].id,
+    type: "reported", label: "Source reported connection", sources: [source],
+  }));
+  const network = queryPersonNetwork({ ...dataset, connections: manyEdges.reverse() }, people[0].id)!;
+  assert.equal(network.totalConnections, 75);
+  assert.equal(network.data.connections.length, 48);
+  assert.equal(network.data.people.length, 49);
+  assert.deepEqual(network.data.connections.map((edge) => edge.id), manyEdges.reverse().slice(0, 48).map((edge) => edge.id));
 });

@@ -5,9 +5,10 @@ interface PeopleGraphProps {
   dataset: PeopleDataset;
   selectedId: string | null;
   onSelect: (person: Person) => void;
+  totalConnections?: number | null;
 }
 
-export function PeopleGraph({ dataset, selectedId, onSelect }: PeopleGraphProps) {
+export function PeopleGraph({ dataset, selectedId, onSelect, totalConnections }: PeopleGraphProps) {
   const selected = dataset.people.find((person) => person.id === selectedId);
   const relevant = selected
     ? dataset.connections.filter((edge) => edge.fromId === selected.id || edge.toId === selected.id)
@@ -42,7 +43,7 @@ export function PeopleGraph({ dataset, selectedId, onSelect }: PeopleGraphProps)
     <div className="people-graph-wrap">
       <div className="people-graph-heading">
         <span>{nodes.length} people · {visibleEdges.length} documented claims</span>
-        {relevant.length > edges.length && <span>Showing first {edges.length} claims</span>}
+        {(totalConnections ?? relevant.length) > edges.length && <span>Showing {edges.length} of {(totalConnections ?? relevant.length).toLocaleString()} cited claims</span>}
       </div>
       <svg className="people-graph" viewBox="0 0 1000 585" role="img" aria-label={`Sourced connection graph centered on ${selected.name}`}>
         {visibleEdges.map((edge: Connection) => {

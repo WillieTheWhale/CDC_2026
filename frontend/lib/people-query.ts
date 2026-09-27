@@ -105,16 +105,18 @@ export function queryPeople(dataset: PeopleDataset, countries: PeopleCountry[], 
   };
 }
 
-export function queryPersonNetwork(dataset: PeopleDataset, personId: string): PeopleDataset | null {
+export function queryPersonNetwork(dataset: PeopleDataset, personId: string): { data: PeopleDataset; totalConnections: number } | null {
   const selected = dataset.people.find((person) => person.id === personId);
   if (!selected) return null;
-  const connections = dataset.connections.filter((connection) => connection.fromId === personId || connection.toId === personId);
+  const allConnections = dataset.connections.filter((connection) => connection.fromId === personId || connection.toId === personId)
+    .sort((left, right) => left.id < right.id ? -1 : left.id > right.id ? 1 : 0);
+  const connections = allConnections.slice(0, 48);
   const personIds = new Set([personId, ...connections.flatMap((connection) => [connection.fromId, connection.toId])]);
   const people = dataset.people.filter((person) => personIds.has(person.id));
   const organizationIds = new Set(people.flatMap((person) => person.organizationIds));
-  return {
+  return { data: {
     people,
     organizations: dataset.organizations.filter((organization) => organizationIds.has(organization.id)),
     connections,
-  };
+  }, totalConnections: allConnections.length };
 }

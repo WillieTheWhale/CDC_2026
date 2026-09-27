@@ -106,10 +106,10 @@ export function normalizeDataset(input: unknown): PeopleDataset {
   };
 }
 
-async function fetchPeople(path: string): Promise<{ dataset: PeopleDataset; total: number | null; nextCursor: string | null }> {
+async function fetchPeople(path: string): Promise<{ dataset: PeopleDataset; total: number | null; nextCursor: string | null; totalConnections: number | null }> {
   const response = await fetch(`${apiBase ?? ""}${path}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`People API returned ${response.status}`);
-  const body = await response.json() as { data?: unknown; meta?: { total?: unknown; next_cursor?: unknown }; total?: unknown; next_cursor?: unknown };
+  const body = await response.json() as { data?: unknown; meta?: { total?: unknown; next_cursor?: unknown; total_connections?: unknown }; total?: unknown; next_cursor?: unknown };
   if (!body.data) throw new Error("People API response is missing data");
   const dataset = normalizeDataset(body.data);
   const rawTotal = body.meta?.total ?? body.total;
@@ -118,6 +118,7 @@ async function fetchPeople(path: string): Promise<{ dataset: PeopleDataset; tota
     dataset,
     total: typeof rawTotal === "number" && Number.isSafeInteger(rawTotal) && rawTotal >= dataset.people.length ? rawTotal : null,
     nextCursor: typeof rawCursor === "string" && rawCursor.length ? rawCursor : null,
+    totalConnections: typeof body.meta?.total_connections === "number" && Number.isSafeInteger(body.meta.total_connections) && body.meta.total_connections >= dataset.connections.length ? body.meta.total_connections : null,
   };
 }
 
