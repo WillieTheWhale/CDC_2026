@@ -60,6 +60,10 @@ Scope: 32 newly accepted individually named historical drug-trafficking convicti
 | [Ceará Police](https://www.policiacivil.ce.gov.br/2020/11/26/policia-civil-prende-envolvidos-no-trafico-de-drogas-em-crateus/): Venceslau Pereira da Silva, Maria de Lourdes Pereira da Silva | **Hold two.** Police assign sentences after a drug investigation but do not expressly state the convicted legal counts for either person. Direct mother-son relation therefore also held. |
 | [TRF3 Sorocaba](https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/342887-oito-reus-sao-condenados-por-trafico-internacional) | **Hold eight initialed defendants.** Names not public in the official bulletin; its dispositive is association rather than an allocated trafficking count. |
 
+## Prominence review
+
+Tier 1 is limited to Silvio César Molina Azevedo and Gerson Palermo, individually identified as major trafficking-network leaders by MPF/TRF3. Tier 2 is João Paulo Firmiano Mendes da Silva, whom MPRJ expressly calls an active leader. All other roster defendants are tier 3; a long sentence or shared case does not itself make a person a global-zoom leader.
+
 ## Direct relationship and location review
 
 - **Accepted one person edge:** MPRJ directly says João Paulo Firmiano Mendes da Silva assisted Carlos Eduardo Rocha Freire Barboza (“Cadu Playboy”); both names are in TRACE. The edge says assistance only, without assuming any relationship to other co-defendants.
