@@ -23,6 +23,8 @@ import type {
   SimulationRequest,
 } from "./types";
 import { fixtureRouteEvidence, type RouteEvidence } from "./route-evidence";
+import { displayCountryText, withDisplayName } from "./country-names";
+import { connectLivewire, type FeedStatus, type SocketLike } from "./livewire-connection";
 
 export const API_BASE = (process.env.NEXT_PUBLIC_API_URL ?? "").replace(
   /\/$/,
@@ -62,6 +64,16 @@ async function request<T>(
   }
   return res.json() as Promise<T>;
 }
+// Country names: the API and snapshots carry World Bank names ("Venezuela, RB");
+// every envelope that names countries is mapped to display names here, once,
+// so panels, tables and selectors agree. `formal_name` keeps the World Bank name.
+const named = <E extends Envelope<unknown>, R extends { name: string; iso3?: string }>(
+  envelope: E,
+  rows: (data: E["data"]) => R[],
+  put: (data: E["data"], rows: R[]) => E["data"],
+): E => ({ ...envelope, data: put(envelope.data, rows(envelope.data).map(withDisplayName)) });
+const riskNames = (e: Envelope<Risk>) =>
+  named(e, (d) => d.rows, (d, rows) => ({ ...d, rows }));
 // AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 // Each year is fetched once and kept, so timeline playback swaps lines and
 // colors from memory instead of reloading. Failed loads are not cached.
@@ -204,7 +216,9 @@ export async function routeEvidence(): Promise<RouteEvidence[]> {
 export const api = {
   meta: () => request<Envelope<Catalog>>("/api/meta", () => meta),
   countries: () =>
-    request<Envelope<Country[]>>("/api/countries", () => countries),
+    request<Envelope<Country[]>>("/api/countries", () => countries).then((e) =>
+      named(e, (d) => d, (_, rows) => rows.map((c) => ({ ...c, region: c.region?.trim() ?? c.region }))),
+    ),
   routes: (year: number, mode: Mode, drug?: Drug, minConfidence = 0) => {
     const q = new URLSearchParams({
       year: String(year),
@@ -218,11 +232,12 @@ export const api = {
       : snapshotRoutes(year, mode, drug, minConfidence);
   },
   risk: (year: number) =>
-    API_BASE
+    (API_BASE
       ? once(`/api/risk?year=${year}`, () =>
           request<Envelope<Risk>>(`/api/risk?year=${year}`, () => fixtureRisk(year)),
         )
-      : snapshotRisk(year),
+      : snapshotRisk(year)
+    ).then(riskNames),
   // A 404 (unknown country, or a year outside the 2008+ profile range such
   // as 2006-2007 route years) means "no profile", not a failure.
   country: (iso3: string, year: number) =>
@@ -230,12 +245,16 @@ export const api = {
       `/api/country/${encodeURIComponent(iso3)}?year=${year}`,
       () =>
         iso3 === "COL" && year === countryCOL.data.year ? countryCOL : null,
-    ).catch((e: Error & { status?: number }) => {
-      if (e.status === 404) return null;
-      throw e;
-    }),
+    )
+      .then((e) => (e ? { ...e, data: { ...e.data, briefing: displayCountryText(e.data.briefing) } } : e))
+      .catch((e: Error & { status?: number }) => {
+        if (e.status === 404) return null;
+        throw e;
+      }),
   prices: () =>
-    request<Envelope<{ series: Price[] }>>("/api/prices", () => prices),
+    request<Envelope<{ series: Price[] }>>("/api/prices", () => prices).then((e) =>
+      named(e, (d) => d.series, (d, series) => ({ ...d, series })),
+    ),
   livewire: () =>
     request<Envelope<{ classifier: string; events: LiveEvent[] }>>(
       "/api/livewire",
@@ -282,6 +301,12 @@ export const api = {
         );
       },
       { method: "POST", body: JSON.stringify(input) },
+    ).then((e) =>
+      named(e, (d) => d.risk_deltas, (d, risk_deltas) => ({
+        ...d,
+        risk_deltas,
+        summary: displayCountryText(d.summary),
+      })),
     ),
 };
 
@@ -304,40 +329,39 @@ export function subscribeLivewire(
     }, 18000);
     return () => clearInterval(timer);
   }
-  let ws: WebSocket | undefined;
-  let retry: ReturnType<typeof setTimeout> | undefined;
-  const connect = () => {
-    onState("Connecting");
-    ws = new WebSocket(`${API_BASE.replace(/^http/, "ws")}/ws/livewire`);
-    ws.onopen = () => onState("Connected");
-    ws.onmessage = ({ data }) => {
-      try {
-        const frame = JSON.parse(data);
-        const events =
-          frame.type === "hello"
-            ? frame.data.backlog
-            : ["event", "anomaly"].includes(frame.type)
-              ? [frame.data]
-              : [];
-        for (const event of events ?? [])
-          if (event.confidence >= 0.6) onEvent(event);
-      } catch {
-        /* Keep malformed frames from interrupting the feed. */
-      }
-    };
-    ws.onclose = () => {
-      if (!cancelled) {
-        onState("Reconnecting");
-        retry = setTimeout(connect, 5000);
-      }
-    };
-    ws.onerror = () => ws?.close();
+  // Socket with exponential backoff + jitter; quiet REST polling while it is
+  // down (lib/livewire-connection). States: Connecting, Live, Reconnecting.
+  const label: Record<FeedStatus, string> = {
+    connecting: "Connecting",
+    live: "Live",
+    reconnecting: "Reconnecting · updating every 20 s",
   };
-  connect();
+  const keep = (events: LiveEvent[] | undefined) =>
+    (events ?? []).filter((e) => e && e.confidence >= 0.6);
+  const stop = connectLivewire<LiveEvent>({
+    openSocket: () =>
+      // DOM handler types take an Event; the connection only uses the callbacks.
+      new WebSocket(`${API_BASE.replace(/^http/, "ws")}/ws/livewire`) as unknown as SocketLike,
+    poll: () => api.livewire().then((r) => keep(r.data.events)),
+    parse: (data) => {
+      const frame = JSON.parse(String(data));
+      return keep(
+        frame.type === "hello"
+          ? frame.data?.backlog
+          : ["event", "anomaly"].includes(frame.type)
+            ? [frame.data]
+            : [],
+      );
+    },
+    // Oldest first, so the newest ends up at the top of the list.
+    onEvents: (events) => [...events].reverse().forEach((e) => !cancelled && onEvent(e)),
+    onStatus: (status) => !cancelled && onState(label[status]),
+    log: (message) => console.info(message),
+    backoff: { baseMs: 1000, maxMs: 60_000 },
+  });
   return () => {
     cancelled = true;
-    clearTimeout(retry);
-    ws?.close();
+    stop();
   };
 }
 export const drugColor: Record<string, string> = {
@@ -360,12 +384,15 @@ export const scoreColor = (score: number) =>
       : score >= 40
         ? "#d9973f"
         : "#6e8272";
+// One rule for every magnitude: compact from 10,000 up ("13.4K", "347.6K",
+// "1.2M"), plain below ("9,876.5"). The old 99,999 cut-off put "13,398.6 kg"
+// next to "347.6K kg" in the same list.
 export const formatNumber = (v: number | null | undefined, digits = 1) =>
-  v == null
+  v == null || !Number.isFinite(v)
     ? "—"
     : new Intl.NumberFormat("en-US", {
         maximumFractionDigits: digits,
-        notation: Math.abs(v) > 99999 ? "compact" : "standard",
+        notation: Math.abs(v) >= 10_000 ? "compact" : "standard",
       }).format(v);
 export function countryEdges(edges: Edge[], iso3: string) {
   return edges.filter((e) => e.from === iso3 || e.to === iso3);

@@ -8,12 +8,13 @@
 // Arrows follow money (city population x GDP per capita) out of the cities
 // that modeled corridors feed. They are never counted in scores or tables.
 import { drugLabel } from "./api";
+import { displayCountryName, displayNameMap } from "./country-names";
 import type { Drug, Edge } from "./types";
 
 export interface EstimatedCity {
   name: string;
   iso3: string;
-  country: string; // country name (World Bank; Natural Earth for a few territories), else the code
+  country: string; // display name (lib/country-names) of the World Bank / Natural Earth name, else the code
   lon: number;
   lat: number;
   intensity: number; // 0-1, darker where many paths cross
@@ -74,11 +75,13 @@ const PICKS: EstimatedPick[] = ["top", "country_quota", "coverage", "departure"]
 
 export function parseEstimated(file: EstimatedFile): EstimatedLayer {
   const { data } = file;
-  const names = data.countries ?? {};
+  // Files carry World Bank names ("Venezuela, RB"); show the common names.
+  const names = displayNameMap(data.countries ?? {});
+  const countryOf = (iso3: string) => names[iso3] ?? displayCountryName(null, iso3);
   const cities = data.cities.map(([name, iso3, lon, lat, intensity]) => ({
     name,
     iso3,
-    country: names[iso3] ?? iso3,
+    country: countryOf(iso3),
     lon,
     lat,
     intensity,
@@ -88,9 +91,9 @@ export function parseEstimated(file: EstimatedFile): EstimatedLayer {
       id,
       drug: data.drugs[drug],
       from,
-      fromName: names[from] ?? from,
+      fromName: countryOf(from),
       to,
-      toName: names[to] ?? to,
+      toName: countryOf(to),
       confidence,
       volumeNorm,
       entry: cities[entry],

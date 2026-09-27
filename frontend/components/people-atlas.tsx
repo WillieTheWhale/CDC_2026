@@ -1,4 +1,4 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -383,7 +383,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       {dataset ? <section className="people-graph-results" aria-label="Browse people for Connections view">
         <div className="people-graph-results-heading"><div><strong>{searching ? "Matching people" : "Browse sourced people"}</strong><p>Select a person to inspect their cited connection claims. Some records have no documented person-to-person links.</p></div><span>{matching.length} loaded{total !== null ? ` of ${total} matches` : ""}</span></div>
         {selectedCountryName && <div className="people-country-filter"><span>Associated with {selectedCountryName}</span><button onClick={() => setSelectedCountry(null)}>Clear country</button></div>}
-        <div className="people-graph-results-list">{matching.slice(0, graphShownCount).map((person) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => { setNetwork(null); setSelectedId(person.id); }}><strong>{person.name}</strong><span>{personDisplayStatus(person).label}{personDisplayStatus(person).asOf ? ` · as of ${personDisplayStatus(person).asOf}` : ""}</span></button>)}</div>
+        <div className="people-graph-results-list">{matching.slice(0, graphShownCount).map((person) => <button key={person.id} className={person.id === selectedId ? "selected" : ""} onClick={() => { if (person.id !== selectedId) { setNetwork(null); setSelectedId(person.id); } }}><strong>{person.name}</strong><span>{personDisplayStatus(person).label}{personDisplayStatus(person).asOf ? ` · as of ${personDisplayStatus(person).asOf}` : ""}</span></button>)}</div>
         {matching.length > graphShownCount && <button className="people-graph-results-more" onClick={() => setGraphShownCount((current) => current + 30)}>Show more loaded matches</button>}
         {nextCursor && <button className="people-graph-results-more" disabled={loadingMore} onClick={() => void loadMore()}>{loadingMore ? "Loading…" : "Load more matching people"}</button>}
         {matching.length === 0 && <p>{searching ? "No sourced people match this name or alias." : "No sourced people match this country."}</p>}

@@ -1,5 +1,6 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
 // AI-assisted: full screen map mode written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+// AI-assisted: pre-submission bug fixes (risk years without scores, live wire status) with Claude Code (Anthropic).
 "use client";
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -206,9 +207,13 @@ export default function Dashboard() {
     // (Change added with Claude Code (Anthropic). See docs/AI_USAGE.md.)
     const slow = setTimeout(() => active && setRouteLoading(true), 250);
     setRoute(null);
+    // Route years 2006-2007 have no risk scores (risk_years starts in 2008):
+    // show an empty board instead of requesting a 404 and toasting on every
+    // pass of the slider or playback.
+    const hasRisk = catalog.risk_years.includes(year);
     Promise.allSettled([
       api.routes(year, mode, drug === "all" ? undefined : drug, minConfidence),
-      api.risk(year),
+      hasRisk ? api.risk(year) : Promise.resolve(null),
     ]).then(([routes, scores]) => {
       if (!active) return;
       clearTimeout(slow);
@@ -217,7 +222,7 @@ export default function Dashboard() {
         setEdges([]);
         notify(routes.reason.message);
       }
-      if (scores.status === "fulfilled") setRisk(scores.value.data.rows);
+      if (scores.status === "fulfilled") setRisk(scores.value?.data.rows ?? []);
       else {
         setRisk([]);
         notify(`Risk scores are unavailable for ${year}.`);
@@ -1028,6 +1033,11 @@ export default function Dashboard() {
                             value={year}
                             onChange={(e) => changeYear(Number(e.target.value))}
                           >
+                            {catalog && !catalog.risk_years.includes(year) && (
+                              <option value={year} disabled>
+                                {year} (no scores)
+                              </option>
+                            )}
                             {catalog?.risk_years.map((y) => (
                               <option key={y}>{y}</option>
                             ))}
@@ -1052,7 +1062,10 @@ export default function Dashboard() {
                           <div>
                             <h1>Live wire</h1>
                           </div>
-                          <span className="subtle-pill">
+                          <span
+                            className={`subtle-pill${feedState.startsWith("Reconnecting") ? " reconnecting" : ""}`}
+                            role="status"
+                          >
                             <i className="live-dot" />
                             {feedState}
                           </span>

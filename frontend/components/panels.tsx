@@ -416,7 +416,12 @@ export function CountryInspector({
         </button>
       </div>
       <h2>{country.name}</h2>
-      <p className="country-region">{country.region}</p>
+      <p className="country-region">
+        {country.region}
+        {country.formal_name && country.formal_name !== country.name && (
+          <span className="muted"> · World Bank name: {country.formal_name}</span>
+        )}
+      </p>
       <div className="inspector-tabs">
         {["Overview", "Evidence", "Routes"].map((t) => (
           <button

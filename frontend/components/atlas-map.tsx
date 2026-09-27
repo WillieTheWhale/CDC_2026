@@ -2,6 +2,7 @@
 // Estimated-flow arrow layer (hover line, route-details panel), volume coloring, API-backed route evidence (three
 // pair types) and cited US routes added with Claude Code (Anthropic).
 // AI-assisted: country anchor fix written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+// AI-assisted: keyboard access to route details written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
@@ -9,7 +10,7 @@ import { MapLibreOverlay } from "@deck.gl/maplibre";
 import { ArcLayer, PathLayer, PolygonLayer, ScatterplotLayer } from "@deck.gl/layers";
 import type { Color, PickingInfo } from "@deck.gl/core";
 import type { FeatureCollection, Geometry } from "geojson";
-import { LocateFixed, Minus, Plus, RotateCcw } from "lucide-react";
+import { LocateFixed, Minus, Plus, RotateCcw, Route } from "lucide-react";
 import type { Country, Edge, LiveEvent, RiskRow } from "@/lib/types";
 import { drugColor, formatNumber } from "@/lib/api";
 import { visibleModelRoutes } from "@/lib/route-visibility";
@@ -478,6 +479,31 @@ export default function AtlasMap(props: Props) {
   const windOpacity = 1;
   const openWindDetail =
     windDetail && props.showEstimated && estimatedFlows.includes(windDetail) ? windDetail : null;
+  // Keyboard path to route details: the arrows drawn on screen, strongest
+  // first (one per arrow), opened from the map tools and stepped through with
+  // Previous / Next in the panel.
+  const arrowRoutes = useMemo(() => {
+    const seen = new Set<EstimatedFlow>();
+    for (const g of glyphs) if (g.flows[0]) seen.add(g.flows[0]);
+    return [...seen].sort((a, b) => b.strength - a.strength);
+  }, [glyphs]);
+  const routeIndex = openWindDetail ? arrowRoutes.indexOf(openWindDetail) : -1;
+  const stepRoute = (delta: number) => {
+    if (!arrowRoutes.length) return;
+    const next = routeIndex < 0 ? 0 : (routeIndex + delta + arrowRoutes.length) % arrowRoutes.length;
+    setWindDetail(arrowRoutes[next]);
+  };
+  // Esc closes the published-route and US-route source panels too.
+  useEffect(() => {
+    if (!reportDetail && !usDetail) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      setReportDetail(null);
+      setUsDetail(null);
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [reportDetail, usDetail]);
   useEffect(() => {
     if (!ready || !overlay.current) return;
     const active = new Set(visibleEdges.flatMap((e) => [e.from, e.to]));
@@ -835,7 +861,7 @@ export default function AtlasMap(props: Props) {
             </div>
           )}
           {props.showEstimated && (
-            <small className="legend-estimated">▲ arrows: estimated local flows (not observed) · click one for its route</small>
+            <small className="legend-estimated">▲ arrows: estimated local flows (not observed) · click one, or use the route button, for its route</small>
           )}
         </div>
       )}
@@ -853,6 +879,19 @@ export default function AtlasMap(props: Props) {
           }}
         >
           <RotateCcw size={16} />
+        </button>
+        <button
+          aria-label={
+            arrowRoutes.length
+              ? `Estimated route details (${arrowRoutes.length} arrows on screen, strongest first)`
+              : "Estimated route details (no estimated arrows on screen)"
+          }
+          title="Estimated route details"
+          aria-pressed={!!openWindDetail}
+          disabled={!arrowRoutes.length}
+          onClick={() => (openWindDetail ? setWindDetail(null) : stepRoute(0))}
+        >
+          <Route size={16} />
         </button>
         <button
           aria-label="Focus selected country"
@@ -945,7 +984,7 @@ export default function AtlasMap(props: Props) {
                 {flowLine(flow, drugs)} · {distanceKm < 10 ? "here" : `${Math.round(distanceKm)} km away`}
               </small>
             ))}
-            <small className="etp-hint">Click the arrow for route details</small>
+            <small className="etp-hint">Click the arrow for route details (keyboard: the route button in the map tools)</small>
           </div>
         );
       })()}
@@ -955,6 +994,8 @@ export default function AtlasMap(props: Props) {
           flows={estimatedFlows}
           edges={props.edges}
           onClose={() => setWindDetail(null)}
+          position={routeIndex >= 0 ? { index: routeIndex, total: arrowRoutes.length } : undefined}
+          onStep={arrowRoutes.length > 1 ? stepRoute : undefined}
         />
       )}
       {usHover && !hover && (

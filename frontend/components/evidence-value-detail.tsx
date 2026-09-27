@@ -130,12 +130,43 @@ export function EvidenceValueDrawer({ valueId, onClose }: { valueId: string | nu
       .catch((cause) => { if (active) setError((cause as Error).message); });
     return () => { active = false; };
   }, [valueId]);
+  // Modal drawer: focus moves in, Tab stays inside, Esc closes, and focus
+  // returns to the value that opened it.
   useEffect(() => {
     if (!valueId) return;
+    const opener = document.activeElement as HTMLElement | null;
     closeRef.current?.focus();
-    const onKey = (event: KeyboardEvent) => { if (event.key === "Escape") onClose(); };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        event.stopPropagation();
+        onClose();
+        return;
+      }
+      if (event.key !== "Tab") return;
+      const drawer = closeRef.current?.closest<HTMLElement>(".evd-drawer");
+      if (!drawer) return;
+      const items = Array.from(
+        drawer.querySelectorAll<HTMLElement>('button:not([disabled]),a[href],input,select,textarea,summary,[tabindex="0"]'),
+      );
+      const first = items[0];
+      const last = items.at(-1);
+      if (!first || !last) return;
+      if (!drawer.contains(document.activeElement)) {
+        event.preventDefault();
+        first.focus();
+      } else if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      if (opener?.isConnected && opener !== document.body) opener.focus({ preventScroll: true });
+    };
   }, [valueId, onClose]);
   if (!valueId) return null;
   const research = value?.kind === "research";

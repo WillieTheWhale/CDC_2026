@@ -1,4 +1,4 @@
-// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 export type Drug = "cocaine" | "heroin" | "meth" | "cannabis";
 export type Mode = "observed" | "predicted";
 export type View =
@@ -22,7 +22,10 @@ export interface Envelope<T> {
 export interface Country {
   iso3: string;
   iso2: string | null;
+  /** Display name (lib/country-names); the API sends the World Bank name. */
   name: string;
+  /** World Bank economy name, kept for citations (set by lib/api). */
+  formal_name?: string;
   region: string;
   income_group: string;
   capital: string | null;
@@ -63,6 +66,7 @@ export interface Routes {
 export interface RiskRow {
   iso3: string;
   name: string;
+  formal_name?: string;
   region: string;
   exposure: number;
   vulnerability: number;

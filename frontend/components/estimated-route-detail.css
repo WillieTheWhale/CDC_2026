@@ -196,3 +196,27 @@
     width: min(318px, calc(100% - 24px));
   }
 }
+/* Keyboard stepping between the arrows on screen (added with Claude Code). */
+.estimated-route-detail .erd-count {
+  font: 400 11px var(--mono);
+  color: #58718a;
+}
+.estimated-route-detail .erd-step-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 6px;
+}
+.estimated-route-detail .erd-step-nav button {
+  padding: 3px 8px;
+  border: 1px solid #b7c9dc;
+  border-radius: 3px;
+  background: #f4f7fb;
+  color: #125f8a;
+  font: 500 11px var(--mono);
+}
+/* Very long place and corridor names wrap inside the panel and tooltip. */
+.estimated-route-detail,
+.route-tooltip.estimated-tooltip {
+  overflow-wrap: anywhere;
+}

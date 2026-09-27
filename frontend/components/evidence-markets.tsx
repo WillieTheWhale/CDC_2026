@@ -312,7 +312,12 @@ export function EvidenceMarkets({
           <select
             id="em-country"
             value={iso3}
-            onChange={(e) => setIso3(e.target.value)}
+            onChange={(e) => {
+              // Years differ by country: a year kept from the last country
+              // would leave an empty table and an unmatched select.
+              setIso3(e.target.value);
+              setYear("latest");
+            }}
           >
             {countries.map((c) => (
               <option key={c.iso3} value={c.iso3}>

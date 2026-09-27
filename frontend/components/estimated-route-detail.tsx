@@ -1,4 +1,4 @@
-// AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+// AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md.
 // Route details for one estimated local-flow arrow: the full chain (corridor
 // origin country -> entry city -> onward cities), drug, strength, distance and
 // wave, plus the modeled corridors that feed it with links to their published
@@ -25,11 +25,17 @@ export default function EstimatedRouteDetail({
   flows,
   edges,
   onClose,
+  position,
+  onStep,
 }: {
   flow: EstimatedFlow;
   flows: EstimatedFlow[];
   edges: Edge[];
   onClose: () => void;
+  /** Where this arrow sits among the arrows on screen (strongest first). */
+  position?: { index: number; total: number };
+  /** Open the previous (-1) or next (+1) arrow's route, for keyboard users. */
+  onStep?: (delta: number) => void;
 }) {
   const [open, setOpen] = useState(true);
   const id = useId();
@@ -39,16 +45,23 @@ export default function EstimatedRouteDetail({
   useEffect(() => {
     closeRef.current = onClose;
   }, [onClose]);
-  // Focus the panel's close button when a route opens; Esc closes from anywhere.
+  // Esc closes this panel only (not full-screen map mode as well), unless a
+  // modal dialog is open on top. Focus returns to whatever opened the panel.
   useEffect(() => {
+    // Remember the opener, then focus the close button (once: stepping to
+    // another route keeps focus on the Previous / Next buttons).
+    const opener = document.activeElement as HTMLElement | null;
     close.current?.focus({ preventScroll: true });
-  }, [flow]);
-  useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") closeRef.current();
+      if (e.key !== "Escape" || document.querySelector(".modal-backdrop, .evd-overlay")) return;
+      e.stopPropagation();
+      closeRef.current();
     };
     document.addEventListener("keydown", onKey);
-    return () => document.removeEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      if (opener?.isConnected && opener !== document.body) opener.focus({ preventScroll: true });
+    };
   }, []);
   const steps = routeSteps(flow, flows);
   const departure = flow.pick === "departure";
@@ -63,7 +76,10 @@ export default function EstimatedRouteDetail({
       <button ref={close} type="button" className="erd-close" aria-label="Close route details (Esc)" onClick={onClose}>
         ×
       </button>
-      <b id={`${id}-title`}>Estimated local flow</b>
+      <b id={`${id}-title`}>
+        Estimated local flow
+        {position && position.total > 1 ? <small className="erd-count"> · {position.index + 1} of {position.total}</small> : null}
+      </b>
       <p className="erd-line">{flowLine(flow)}</p>
       <button
         type="button"
@@ -142,6 +158,16 @@ export default function EstimatedRouteDetail({
           ) : (
             <p className="erd-why">Corridor details are not in this snapshot.</p>
           )}
+        </div>
+      )}
+      {onStep && (
+        <div className="erd-step-nav" role="group" aria-label="Other estimated routes on screen">
+          <button type="button" onClick={() => onStep(-1)}>
+            ← Previous route
+          </button>
+          <button type="button" onClick={() => onStep(1)}>
+            Next route →
+          </button>
         </div>
       )}
       <small className="erd-basis">{ESTIMATE_BASIS}</small>

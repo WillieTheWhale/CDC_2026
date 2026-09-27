@@ -1,4 +1,4 @@
-/* AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. */
+/* AI-assisted: written with ChatGPT (OpenAI) and Claude Code (Anthropic). See docs/AI_USAGE.md. */
 @import "tailwindcss";
 :root {
   --paper: #ffffff;
@@ -493,6 +493,10 @@ input[type="range"] {
 }
 .map-tools button:hover {
   background: #e5e7ea;
+}
+.map-tools button[aria-pressed="true"] {
+  background: #e5eef7;
+  color: #125f8a;
 }
 .map-attribution {
   position: absolute;
@@ -1665,6 +1669,11 @@ select {
   font-size: 10px;
   color: #9097a1;
   white-space: nowrap;
+}
+/* Live wire socket down: a quiet amber dot, not an error (added with Claude Code). */
+.subtle-pill.reconnecting .live-dot {
+  background: #d9973f;
+  box-shadow: 0 0 0 3px #d9973f22;
 }
 .risk-summary {
   display: flex;

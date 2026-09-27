@@ -160,6 +160,9 @@ function Study({
     if (!countries.some((r) => r.iso3 === iso3))
       setIso3(countries[0]?.iso3 ?? "");
   }, [countries, iso3]);
+  // Which country's rows have finished loading: a country without a source
+  // file resolves to null, which must read as "no rows", not "loading".
+  const [loadedIso, setLoadedIso] = useState("");
   useEffect(() => {
     if (!iso3) return;
     let active = true;
@@ -168,7 +171,9 @@ function Study({
     setMetricId(null);
     loadObservedCountry(iso3)
       .then((data) => {
-        if (active) setCountry(data);
+        if (!active) return;
+        setCountry(data);
+        setLoadedIso(iso3);
       })
       .catch(() => {
         if (active) setError("Research rows could not be loaded.");
@@ -331,7 +336,9 @@ function Study({
           </div>
           {error ? (
             <p className="er-empty">{error}</p>
-          ) : !country ? (
+          ) : !iso3 ? (
+            <p className="er-empty">No country has rows for this research layer.</p>
+          ) : loadedIso !== iso3 ? (
             <p className="er-empty">Loading source-linked rows…</p>
           ) : !values.length ? (
             <p className="er-empty">
