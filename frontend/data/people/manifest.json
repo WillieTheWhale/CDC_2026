@@ -555,6 +555,33 @@
       ]
     },
     {
+      "id": "los-rastrojos",
+      "name": "Los Rastrojos",
+      "aliases": [
+        "Rastrojos"
+      ],
+      "regions": [
+        "COL"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/2012/01/Informe_Gestion_2011.pdf",
+          "title": "Informe de Gestión 2011, p. 48",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía identifies Los Rastrojos as a Colombian organization engaged in drug trafficking and names principal leaders."
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ alleges Los Rastrojos controlled cocaine trade along Colombia’s Pacific coast."
+        }
+      ]
+    },
+    {
       "id": "los-zetas",
       "name": "Los Zetas",
       "aliases": [
@@ -10726,6 +10753,810 @@
           "language": "English",
           "publishedAt": "2025-02-19",
           "claim": "SABC reports the five accused, including this defendant (SABC later reported this defendant as “Ruben Vidal Rodriguez”; middle-name spelling differs from the SAPS briefing.), appeared in court on 19 February 2025; the case was transferred to regional court and manufacturing/dealing charges remained allegations."
+        }
+      ]
+    },
+    {
+      "id": "javier-antonio-calle-serna",
+      "name": "Javier Antonio Calle Serna",
+      "aliases": [
+        "Comba"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Principal Los Rastrojos leader charged in cocaine-distribution case",
+      "prominence": 1,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names Javier Antonio Calle Serna among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists Javier Antonio Calle Serna among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/colombian-woman-sentenced-10-years-and-5-million-forfeiture-narcotrafficking",
+          "title": "Colombian Woman Sentenced to 10 Years and $5 Million Forfeiture for Narcotrafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-07-06",
+          "claim": "DOJ retrospectively identifies Calle Serna as Los Rastrojos leader after 2008 and names his direct relationship with González López."
+        }
+      ],
+      "events": [
+        {
+          "id": "javier-antonio-calle-serna-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named Javier Antonio Calle Serna among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists Javier Antonio Calle Serna among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-alberto-bello-pabon",
+      "name": "Luis Alberto Bello Pabón",
+      "aliases": [
+        "Mauricio",
+        "Rodolfo",
+        "Román"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Alleged Los Rastrojos member charged in cocaine-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names Luis Alberto Bello Pabón among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists Luis Alberto Bello Pabón among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-alberto-bello-pabon-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named Luis Alberto Bello Pabón among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists Luis Alberto Bello Pabón among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gilberto-miranda-rojas",
+      "name": "Gilberto Miranda Rojas",
+      "aliases": [
+        "Eduardo",
+        "Emilio",
+        "Henry Rengifo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Alleged Los Rastrojos member charged in cocaine-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names Gilberto Miranda Rojas among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists Gilberto Miranda Rojas among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "gilberto-miranda-rojas-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named Gilberto Miranda Rojas among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists Gilberto Miranda Rojas among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "william-cardenas-forero",
+      "name": "William Cárdenas Forero",
+      "aliases": [
+        "John",
+        "Cabo",
+        "Willy"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Alleged Los Rastrojos member charged in cocaine-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names William Cárdenas Forero among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists William Cárdenas Forero among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "william-cardenas-forero-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named William Cárdenas Forero among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists William Cárdenas Forero among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "francisco-javier-garcia",
+      "name": "Francisco Javier García",
+      "aliases": [
+        "Pacho Garra"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Alleged Los Rastrojos member charged in cocaine-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names Francisco Javier García among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists Francisco Javier García among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "francisco-javier-garcia-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named Francisco Javier García among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists Francisco Javier García among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "adolfo-erazo-rosero",
+      "name": "Adolfo Erazo Rosero",
+      "aliases": [
+        "Chigüiro",
+        "Juanes"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Alleged Los Rastrojos member charged in cocaine-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names Adolfo Erazo Rosero among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists Adolfo Erazo Rosero among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "adolfo-erazo-rosero-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named Adolfo Erazo Rosero among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists Adolfo Erazo Rosero among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "heder-augusto-sarria-martinez",
+      "name": "Heder Augusto Sarria Martínez",
+      "aliases": [
+        "Niño Malo"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Alleged Los Rastrojos member charged in cocaine-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names Heder Augusto Sarria Martínez among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists Heder Augusto Sarria Martínez among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "heder-augusto-sarria-martinez-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named Heder Augusto Sarria Martínez among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists Heder Augusto Sarria Martínez among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hector-efren-meneses-yela",
+      "name": "Héctor Efrén Meneses Yela",
+      "aliases": [
+        "Guara"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Alleged Los Rastrojos member charged in cocaine-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names Héctor Efrén Meneses Yela among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists Héctor Efrén Meneses Yela among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "hector-efren-meneses-yela-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named Héctor Efrén Meneses Yela among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists Héctor Efrén Meneses Yela among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-manuel-alvarez-tonguino",
+      "name": "José Manuel Álvarez Tonguino",
+      "aliases": [
+        "Mani"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Alleged Los Rastrojos member charged in cocaine-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names José Manuel Álvarez Tonguino among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists José Manuel Álvarez Tonguino among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-manuel-alvarez-tonguino-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named José Manuel Álvarez Tonguino among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists José Manuel Álvarez Tonguino among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hermel-arnubio-alarcon-diaz",
+      "name": "Hermel Arnubio Alarcón Díaz",
+      "aliases": [
+        "Pequeñito"
+      ],
+      "status": "charged",
+      "statusAsOf": "2011-06-07",
+      "roleLabel": "Alleged Los Rastrojos member charged in cocaine-distribution case",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ names Hermel Arnubio Alarcón Díaz among the alleged Los Rastrojos leaders and identifies the group as controlling the drug trade along Colombia’s Pacific coast.",
+            "period": "2004–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+          "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2011-06-07",
+          "claim": "DOJ lists Hermel Arnubio Alarcón Díaz among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+        }
+      ],
+      "events": [
+        {
+          "id": "hermel-arnubio-alarcon-diaz-2011-06-07-charge",
+          "occurredAt": "2011-06-07",
+          "type": "charge",
+          "title": "U.S. cocaine indictment unsealed",
+          "summary": "DOJ named Hermel Arnubio Alarcón Díaz among ten defendants in an international cocaine-distribution and money-laundering indictment; this was an allegation, not a finding of guilt.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nye/pr/2011/2011jun07b.html",
+            "title": "Ten Alleged Members of a Colombian Drug Trafficking Organization Charged",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2011-06-07",
+            "claim": "DOJ lists Hermel Arnubio Alarcón Díaz among ten Los Rastrojos defendants charged in a cocaine-distribution and money-laundering indictment; charges were allegations."
+          }
+        }
+      ]
+    },
+    {
+      "id": "diego-perez-henao",
+      "name": "Diego Pérez Henao",
+      "aliases": [
+        "Diego Rastrojo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2014-08-06",
+      "roleLabel": "Los Rastrojos leader convicted of cocaine conspiracy",
+      "prominence": 1,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Fiscalía identifies Pérez Henao as a principal leader of Los Rastrojos in Colombia.",
+            "period": "2011",
+            "sourceUrl": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/2012/01/Informe_Gestion_2011.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdfl/pr/colombian-narcotics-kingpin-sentenced-360-months-prison",
+          "title": "Colombian Narcotics Kingpin Sentenced to 360 Months in Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2014-08-06",
+          "claim": "DOJ reports Pérez Henao pleaded guilty to cocaine conspiracy on 24 January 2014 and was sentenced to 360 months on 6 August 2014."
+        },
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/2012/01/Informe_Gestion_2011.pdf",
+          "title": "Informe de Gestión 2011, p. 48",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "es",
+          "claim": "Fiscalía names Diego Pérez Henao as a principal Los Rastrojos leader."
+        }
+      ],
+      "events": [
+        {
+          "id": "diego-perez-henao-2014-01-24-conviction",
+          "occurredAt": "2014-01-24",
+          "type": "conviction",
+          "title": "Pleaded guilty to cocaine conspiracy",
+          "summary": "DOJ reports Pérez Henao pleaded guilty to conspiring to manufacture and distribute cocaine for importation into the United States.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdfl/pr/colombian-narcotics-kingpin-sentenced-360-months-prison",
+            "title": "Colombian Narcotics Kingpin Sentenced to 360 Months in Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2014-08-06",
+            "claim": "DOJ reports Pérez Henao pleaded guilty to cocaine conspiracy on 24 January 2014 and was sentenced to 360 months on 6 August 2014."
+          }
+        },
+        {
+          "id": "diego-perez-henao-2014-08-06-sentence",
+          "occurredAt": "2014-08-06",
+          "type": "sentence",
+          "title": "Sentenced to 360 months",
+          "summary": "A U.S. federal court sentenced Pérez Henao to 360 months for the cocaine conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdfl/pr/colombian-narcotics-kingpin-sentenced-360-months-prison",
+            "title": "Colombian Narcotics Kingpin Sentenced to 360 Months in Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2014-08-06",
+            "claim": "DOJ reports Pérez Henao pleaded guilty to cocaine conspiracy on 24 January 2014 and was sentenced to 360 months on 6 August 2014."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hilda-maria-gonzalez-lopez",
+      "name": "Hilda María González López",
+      "aliases": [
+        "La Boyacá",
+        "Daniela"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-07-06",
+      "roleLabel": "Cocaine broker aligned with Los Rastrojos leaders; not identified as a member",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ places her cocaine-brokering operations in Colombia during 2005–2011.",
+            "period": "2005–2011",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/colombian-woman-sentenced-10-years-and-5-million-forfeiture-narcotrafficking"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/colombian-woman-sentenced-10-years-and-5-million-forfeiture-narcotrafficking",
+          "title": "Colombian Woman Sentenced to 10 Years and $5 Million Forfeiture for Narcotrafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-07-06",
+          "claim": "DOJ reports González López pleaded guilty in October 2021 to international cocaine conspiracy and received a ten-year sentence on 6 July 2022; she aligned with Los Rastrojos leaders, rather than being identified as a member."
+        }
+      ],
+      "events": [
+        {
+          "id": "hilda-maria-gonzalez-lopez-2022-07-06-sentence",
+          "occurredAt": "2022-07-06",
+          "type": "sentence",
+          "title": "Sentenced to ten years",
+          "summary": "A U.S. federal court sentenced González López to ten years for international cocaine conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edny/pr/colombian-woman-sentenced-10-years-and-5-million-forfeiture-narcotrafficking",
+            "title": "Colombian Woman Sentenced to 10 Years and $5 Million Forfeiture for Narcotrafficking",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2022-07-06",
+            "claim": "DOJ reports González López pleaded guilty in October 2021 to international cocaine conspiracy and received a ten-year sentence on 6 July 2022; she aligned with Los Rastrojos leaders, rather than being identified as a member."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carlos-hugo-garcia-garcia",
+      "name": "Carlos Hugo García García",
+      "aliases": [
+        "Lucker",
+        "Chocolate",
+        "Carlo Hugo García García"
+      ],
+      "status": "reported",
+      "statusAsOf": "2011-06-09",
+      "roleLabel": "Los Rastrojos drug-production logistics figure; arrested in 2011",
+      "prominence": 2,
+      "organizationIds": [
+        "los-rastrojos"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Policía identifies García García’s role in Los Rastrojos drug-production logistics in Colombia.",
+            "period": "2011",
+            "sourceUrl": "https://www.policia.gov.co/contenido/capturado-jefe-sicarios-los-comba"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.policia.gov.co/contenido/capturado-jefe-sicarios-los-comba",
+          "title": "Capturado jefe de sicarios de Los Comba",
+          "publisher": "Policía Nacional de Colombia",
+          "language": "es",
+          "publishedAt": "2011-06-09",
+          "claim": "Policía reports arrest of Carlo Hugo García García, also called Carlos Hugo García, and states he controlled logistics of Los Rastrojos drug production and trafficking; also identifies Los Comba brothers as leaders."
+        }
+      ],
+      "events": [
+        {
+          "id": "carlos-hugo-garcia-garcia-2011-06-09-arrest",
+          "occurredAt": "2011-06-09",
+          "type": "arrest",
+          "title": "Arrest reported by Colombian police",
+          "summary": "Policía reported García García’s arrest and alleged that he managed Los Rastrojos drug-production and trafficking logistics; no conviction is established here.",
+          "source": {
+            "url": "https://www.policia.gov.co/contenido/capturado-jefe-sicarios-los-comba",
+            "title": "Capturado jefe de sicarios de Los Comba",
+            "publisher": "Policía Nacional de Colombia",
+            "language": "es",
+            "publishedAt": "2011-06-09",
+            "claim": "Policía reports arrest of Carlo Hugo García García, also called Carlos Hugo García, and states he controlled logistics of Los Rastrojos drug production and trafficking; also identifies Los Comba brothers as leaders."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carlos-mario-agudelo-giraldo",
+      "name": "Carlos Mario Agudelo Giraldo",
+      "aliases": [
+        "Papi"
+      ],
+      "status": "reported",
+      "statusAsOf": "2012-11-03",
+      "roleLabel": "Alleged heroin distributor linked to Los Rastrojos; arrested in 2012",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Policía reports Agudelo Giraldo’s Colombia-based heroin trafficking links to Los Rastrojos.",
+            "period": "2012",
+            "sourceUrl": "https://www.policia.gov.co/contenido/capturado-principal-distribuidor-heroina-para-banda-criminal-los-rastrojos"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.policia.gov.co/contenido/capturado-principal-distribuidor-heroina-para-banda-criminal-los-rastrojos",
+          "title": "Capturado principal distribuidor de heroína para la banda criminal de Los Rastrojos",
+          "publisher": "Policía Nacional de Colombia",
+          "language": "es",
+          "publishedAt": "2012-11-03",
+          "claim": "Policía reports arrest of Carlos Mario Agudelo Giraldo, identifies him as heroin distributor with links to Los Rastrojos, and says he was wanted for U.S. narcotics and money-laundering offenses."
+        }
+      ],
+      "events": [
+        {
+          "id": "carlos-mario-agudelo-giraldo-2012-11-03-arrest",
+          "occurredAt": "2012-11-03",
+          "type": "arrest",
+          "title": "Arrest reported by Colombian police",
+          "summary": "Policía reported Agudelo Giraldo’s arrest and described alleged heroin distribution links to Los Rastrojos; no conviction is established here.",
+          "source": {
+            "url": "https://www.policia.gov.co/contenido/capturado-principal-distribuidor-heroina-para-banda-criminal-los-rastrojos",
+            "title": "Capturado principal distribuidor de heroína para la banda criminal de Los Rastrojos",
+            "publisher": "Policía Nacional de Colombia",
+            "language": "es",
+            "publishedAt": "2012-11-03",
+            "claim": "Policía reports arrest of Carlos Mario Agudelo Giraldo, identifies him as heroin distributor with links to Los Rastrojos, and says he was wanted for U.S. narcotics and money-laundering offenses."
+          }
         }
       ]
     },
@@ -22147,6 +22978,23 @@
           "publisher": "U.S. Department of Justice / U.S. Attorney, Northern District of Illinois",
           "language": "en",
           "claim": "The indictment explicitly alleges Gonzalez-Zavala made cocaine-distribution and proceeds arrangements with Bartolo Lucatero."
+        }
+      ]
+    },
+    {
+      "id": "hilda-javier-calle-business",
+      "fromId": "hilda-maria-gonzalez-lopez",
+      "toId": "javier-antonio-calle-serna",
+      "type": "associate",
+      "label": "Documented cocaine-business relationship",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edny/pr/colombian-woman-sentenced-10-years-and-5-million-forfeiture-narcotrafficking",
+          "title": "Colombian Woman Sentenced to 10 Years and $5 Million Forfeiture for Narcotrafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-07-06",
+          "claim": "DOJ states González López leveraged her direct relationship with Javier Antonio Calle Serna to negotiate cocaine export taxes."
         }
       ]
     },
