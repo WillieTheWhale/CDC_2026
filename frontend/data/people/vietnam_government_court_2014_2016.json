@@ -41,21 +41,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-hung-dung-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Hùng Dũng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Hùng Dũng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-hung-dung-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -69,15 +54,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-hung-dung-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Hùng Dũng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -86,7 +69,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Hùng Dũng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -100,6 +85,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Hùng Dũng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -143,21 +143,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-duy-thang-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Duy Thắng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Duy Thắng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-duy-thang-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -171,15 +156,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-duy-thang-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Duy Thắng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -188,7 +171,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Duy Thắng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -202,6 +187,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Duy Thắng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -245,21 +245,6 @@
       ],
       "events": [
         {
-          "id": "hoang-truong-giang-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Hoàng Trường Giang was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Hoàng Trường Giang is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "hoang-truong-giang-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -273,15 +258,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "hoang-truong-giang-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Hoàng Trường Giang was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -290,7 +273,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Hoàng Trường Giang is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -304,6 +289,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Hoàng Trường Giang is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -347,21 +347,6 @@
       ],
       "events": [
         {
-          "id": "tran-van-cuong-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Trần Văn Cương was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Trần Văn Cương is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "tran-van-cuong-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -375,15 +360,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "tran-van-cuong-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Trần Văn Cương was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -392,7 +375,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Trần Văn Cương is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -406,6 +391,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Trần Văn Cương is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -449,21 +449,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-thi-hong-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Thị Hồng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Thị Hồng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-thi-hong-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -477,15 +462,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-thi-hong-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Thị Hồng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -494,7 +477,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Thị Hồng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -508,6 +493,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Thị Hồng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -551,21 +551,6 @@
       ],
       "events": [
         {
-          "id": "la-quy-hung-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Lã Quý Hưng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Lã Quý Hưng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "la-quy-hung-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -579,15 +564,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "la-quy-hung-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Lã Quý Hưng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -596,7 +579,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Lã Quý Hưng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -610,6 +595,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Lã Quý Hưng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -653,21 +653,6 @@
       ],
       "events": [
         {
-          "id": "chu-ai-ngan-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Chu Đại Ngân was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Chu Đại Ngân is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "chu-ai-ngan-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -681,15 +666,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "chu-ai-ngan-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Chu Đại Ngân was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -698,7 +681,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Chu Đại Ngân is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -712,6 +697,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Chu Đại Ngân is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -755,21 +755,6 @@
       ],
       "events": [
         {
-          "id": "hoang-thi-hang-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Hoàng Thi Hằng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Hoàng Thi Hằng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "hoang-thi-hang-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -783,15 +768,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "hoang-thi-hang-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Hoàng Thi Hằng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -800,7 +783,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Hoàng Thi Hằng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -814,6 +799,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Hoàng Thi Hằng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -857,21 +857,6 @@
       ],
       "events": [
         {
-          "id": "hoang-thi-hien-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Hoàng Thị Hiền was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Hoàng Thị Hiền is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "hoang-thi-hien-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -885,15 +870,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "hoang-thi-hien-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Hoàng Thị Hiền was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -902,7 +885,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Hoàng Thị Hiền is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -916,6 +901,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Hoàng Thị Hiền is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -959,21 +959,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-thi-hanh-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Thị Hạnh was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Thị Hạnh is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-thi-hanh-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -987,15 +972,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-thi-hanh-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Thị Hạnh was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1004,7 +987,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Thị Hạnh is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1018,6 +1003,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Thị Hạnh is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -1061,21 +1061,6 @@
       ],
       "events": [
         {
-          "id": "oan-van-viet-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Đoàn Văn Việt was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Đoàn Văn Việt is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "oan-van-viet-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -1089,15 +1074,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "oan-van-viet-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Đoàn Văn Việt was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1106,7 +1089,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Đoàn Văn Việt is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1120,6 +1105,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Đoàn Văn Việt is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -1163,21 +1163,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-trong-binh-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Trọng Bình was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Trọng Bình is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-trong-binh-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -1191,15 +1176,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-trong-binh-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Trọng Bình was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1208,7 +1191,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Trọng Bình is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1222,6 +1207,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Trọng Bình is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -1265,21 +1265,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-thi-hue-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Thị Huệ was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Thị Huệ is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-thi-hue-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -1293,15 +1278,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-thi-hue-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Thị Huệ was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1310,7 +1293,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Thị Huệ is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1324,6 +1309,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Thị Huệ is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -1381,21 +1381,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-thi-bich-ngoc-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Thị Bích Ngọc was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Thị Bích Ngọc is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody. The report also identifies this full-name defendant as a leader of heroin distribution in Vietnam; its shorter roster name Nguyễn Bích Ngọc refers to her within the same article."
-          }
-        },
-        {
           "id": "nguyen-thi-bich-ngoc-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -1409,15 +1394,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-thi-bich-ngoc-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Thị Bích Ngọc was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1426,7 +1409,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Thị Bích Ngọc is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody. The report also identifies this full-name defendant as a leader of heroin distribution in Vietnam; its shorter roster name Nguyễn Bích Ngọc refers to her within the same article."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1440,6 +1425,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Thị Bích Ngọc is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody. The report also identifies this full-name defendant as a leader of heroin distribution in Vietnam; its shorter roster name Nguyễn Bích Ngọc refers to her within the same article."
           }
         }
       ]
@@ -1483,21 +1483,6 @@
       ],
       "events": [
         {
-          "id": "hoang-van-hao-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Hoàng Văn Hào was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Hoàng Văn Hào is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "hoang-van-hao-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -1511,15 +1496,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "hoang-van-hao-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Hoàng Văn Hào was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1528,7 +1511,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Hoàng Văn Hào is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1542,6 +1527,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Hoàng Văn Hào is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -1585,21 +1585,6 @@
       ],
       "events": [
         {
-          "id": "luong-thanh-binh-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Lương Thanh Bình was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Lương Thanh Bình is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "luong-thanh-binh-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -1613,15 +1598,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "luong-thanh-binh-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Lương Thanh Bình was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1630,7 +1613,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Lương Thanh Bình is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1644,6 +1629,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Lương Thanh Bình is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -1687,21 +1687,6 @@
       ],
       "events": [
         {
-          "id": "pham-duy-bai-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Phạm Duy Bái was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Phạm Duy Bái is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "pham-duy-bai-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -1715,15 +1700,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "pham-duy-bai-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Phạm Duy Bái was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1732,7 +1715,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Phạm Duy Bái is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1746,6 +1731,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Phạm Duy Bái is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -1789,21 +1789,6 @@
       ],
       "events": [
         {
-          "id": "trieu-van-chung-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Triệu Văn Chung was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Triệu Văn Chung is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "trieu-van-chung-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -1817,15 +1802,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "trieu-van-chung-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Triệu Văn Chung was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1834,7 +1817,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Triệu Văn Chung is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1848,6 +1833,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Triệu Văn Chung is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -1891,21 +1891,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-van-thuong-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Văn Thưởng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Văn Thưởng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-van-thuong-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -1919,15 +1904,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-van-thuong-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Văn Thưởng was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -1936,7 +1919,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Văn Thưởng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -1950,6 +1935,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Văn Thưởng is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -1993,21 +1993,6 @@
       ],
       "events": [
         {
-          "id": "nong-van-len-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nông Văn Len was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nông Văn Len is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nong-van-len-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2021,15 +2006,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nong-van-len-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nông Văn Len was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2038,7 +2021,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nông Văn Len is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2052,6 +2037,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nông Văn Len is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -2095,21 +2095,6 @@
       ],
       "events": [
         {
-          "id": "pham-thi-ky-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Phạm Thị Kỷ was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Phạm Thị Kỷ is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "pham-thi-ky-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2123,15 +2108,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "pham-thi-ky-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Phạm Thị Kỷ was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2140,7 +2123,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Phạm Thị Kỷ is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2154,6 +2139,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Phạm Thị Kỷ is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -2197,21 +2197,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-hong-giang-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Hồng Giang was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Hồng Giang is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-hong-giang-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2225,15 +2210,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-hong-giang-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Hồng Giang was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2242,7 +2225,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Hồng Giang is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2256,6 +2241,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Hồng Giang is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -2299,21 +2299,6 @@
       ],
       "events": [
         {
-          "id": "vu-thi-thanh-hien-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Vũ Thị Thanh Hiền was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Vũ Thị Thanh Hiền is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "vu-thi-thanh-hien-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2327,15 +2312,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "vu-thi-thanh-hien-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Vũ Thị Thanh Hiền was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2344,7 +2327,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Vũ Thị Thanh Hiền is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2358,6 +2343,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Vũ Thị Thanh Hiền is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -2401,21 +2401,6 @@
       ],
       "events": [
         {
-          "id": "duong-doan-hoa-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Dương Doãn Hoà was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Dương Doãn Hoà is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "duong-doan-hoa-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2429,15 +2414,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "duong-doan-hoa-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Dương Doãn Hoà was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2446,7 +2429,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Dương Doãn Hoà is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2460,6 +2445,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Dương Doãn Hoà is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -2503,21 +2503,6 @@
       ],
       "events": [
         {
-          "id": "luong-van-vu-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Lường Văn Vụ was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Lường Văn Vụ is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "luong-van-vu-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2531,15 +2516,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "luong-van-vu-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Lường Văn Vụ was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2548,7 +2531,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Lường Văn Vụ is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2562,6 +2547,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Lường Văn Vụ is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -2605,21 +2605,6 @@
       ],
       "events": [
         {
-          "id": "ngo-tien-binh-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Ngô Tiến Bính was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Ngô Tiến Bính is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "ngo-tien-binh-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2633,15 +2618,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "ngo-tien-binh-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Ngô Tiến Bính was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2650,7 +2633,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Ngô Tiến Bính is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2664,6 +2649,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Ngô Tiến Bính is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -2707,21 +2707,6 @@
       ],
       "events": [
         {
-          "id": "oan-van-thanh-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Đoàn Văn Thanh was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Đoàn Văn Thanh is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "oan-van-thanh-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2735,15 +2720,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "oan-van-thanh-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Đoàn Văn Thanh was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2752,7 +2735,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Đoàn Văn Thanh is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2766,6 +2751,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Đoàn Văn Thanh is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -2809,21 +2809,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-quoc-toan-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Quốc Toàn was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Quốc Toàn is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-quoc-toan-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2837,15 +2822,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-quoc-toan-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Quốc Toàn was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2854,7 +2837,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Quốc Toàn is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2868,6 +2853,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Quốc Toàn is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -2911,21 +2911,6 @@
       ],
       "events": [
         {
-          "id": "le-hong-thao-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Lê Hồng Thao was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Lê Hồng Thao is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "le-hong-thao-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -2939,15 +2924,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "le-hong-thao-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Lê Hồng Thao was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -2956,7 +2939,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Lê Hồng Thao is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -2970,6 +2955,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Lê Hồng Thao is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -3013,21 +3013,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-thi-van-anh-qn-2014-first-judgment",
-          "occurredAt": "2014-01-20",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Thị Vân Anh was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
-            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2014-01-20",
-            "claim": "Nguyễn Thị Vân Anh is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-thi-van-anh-qn-2014-appeal",
           "occurredAt": "2014-06-19",
           "type": "sentence",
@@ -3041,15 +3026,13 @@
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2014-01-20",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-thi-van-anh-qn-2014-first-judgment",
+          "occurredAt": "2014-01-20",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Thị Vân Anh was convicted in the Quảng Ninh drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
             "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
@@ -3058,7 +3041,9 @@
             "publishedAt": "2014-01-20",
             "claim": "Nguyễn Thị Vân Anh is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2014-06-19",
@@ -3072,6 +3057,21 @@
             "language": "vi",
             "publishedAt": "2014-06-19",
             "claim": "Tuổi Trẻ names Nông Văn Len as the sole person whose death sentence was reduced to life on 19 June 2014. By exhaustive comparison with the 30-name first-instance roster, all other 29 death sentences were affirmed; this is an explicit cross-source inference."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2014-01-20",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/vu-an-12-tan-heroin-tu-hinh-30-bi-cao-102158032.htm",
+            "title": "Vụ án 12 tấn heroin: Tử hình 30 bị cáo",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2014-01-20",
+            "claim": "Nguyễn Thị Vân Anh is individually listed among the 30 first-instance death sentences in the Quảng Ninh trafficking judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -3857,21 +3857,6 @@
       ],
       "events": [
         {
-          "id": "vu-ngoc-son-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Vũ Ngọc Sơn was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Vũ Ngọc Sơn is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "vu-ngoc-son-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -3885,15 +3870,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Vũ Ngọc Sơn; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "vu-ngoc-son-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Vũ Ngọc Sơn was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -3902,7 +3885,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Vũ Ngọc Sơn is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -3916,6 +3901,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Vũ Ngọc Sơn; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Vũ Ngọc Sơn is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -3951,21 +3951,6 @@
       ],
       "events": [
         {
-          "id": "duong-ngo-thang-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Dương Ngô Thắng was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Dương Ngô Thắng is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "duong-ngo-thang-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -3979,15 +3964,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Dương Ngô Thắng; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "duong-ngo-thang-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Dương Ngô Thắng was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -3996,7 +3979,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Dương Ngô Thắng is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -4010,6 +3995,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Dương Ngô Thắng; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Dương Ngô Thắng is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -4045,21 +4045,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-thi-thinh-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Thị Thịnh was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Nguyễn Thị Thịnh is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-thi-thinh-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -4073,15 +4058,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Nguyễn Thị Thịnh; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-thi-thinh-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Thị Thịnh was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -4090,7 +4073,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Nguyễn Thị Thịnh is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -4104,6 +4089,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Nguyễn Thị Thịnh; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Nguyễn Thị Thịnh is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -4139,21 +4139,6 @@
       ],
       "events": [
         {
-          "id": "hoang-van-iep-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Hoàng Văn Điệp was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Hoàng Văn Điệp is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "hoang-van-iep-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -4167,15 +4152,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Hoàng Văn Điệp; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "hoang-van-iep-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Hoàng Văn Điệp was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -4184,7 +4167,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Hoàng Văn Điệp is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -4198,6 +4183,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Hoàng Văn Điệp; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Hoàng Văn Điệp is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -4243,21 +4243,6 @@
       ],
       "events": [
         {
-          "id": "nguyen-xuan-hoa-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Nguyễn Xuân Hòa was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Nguyễn Xuân Hòa is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "nguyen-xuan-hoa-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -4271,15 +4256,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Nguyễn Xuân Hòa; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "nguyen-xuan-hoa-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Nguyễn Xuân Hòa was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -4288,7 +4271,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Nguyễn Xuân Hòa is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -4302,6 +4287,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Nguyễn Xuân Hòa; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Nguyễn Xuân Hòa is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -4337,21 +4337,6 @@
       ],
       "events": [
         {
-          "id": "hoang-trong-quan-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Hoàng Trọng Quân was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Hoàng Trọng Quân is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "hoang-trong-quan-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -4365,15 +4350,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Hoàng Trọng Quân; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "hoang-trong-quan-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Hoàng Trọng Quân was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -4382,7 +4365,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Hoàng Trọng Quân is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -4396,6 +4381,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Hoàng Trọng Quân; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Hoàng Trọng Quân is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -4431,21 +4431,6 @@
       ],
       "events": [
         {
-          "id": "lieu-van-ly-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Liễu Văn Lỵ was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Liễu Văn Lỵ is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "lieu-van-ly-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -4459,15 +4444,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Liễu Văn Lỵ; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "lieu-van-ly-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Liễu Văn Lỵ was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -4476,7 +4459,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Liễu Văn Lỵ is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -4490,6 +4475,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Liễu Văn Lỵ; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Liễu Văn Lỵ is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -4535,21 +4535,6 @@
       ],
       "events": [
         {
-          "id": "hoang-thi-tuyet-lan-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Hoàng Thị Tuyết Lan was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Hoàng Thị Tuyết Lan is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "hoang-thi-tuyet-lan-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -4563,15 +4548,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Hoàng Thị Tuyết Lan; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "hoang-thi-tuyet-lan-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Hoàng Thị Tuyết Lan was convicted in the Hòa Bình drug case. Reported outcome: death sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -4580,7 +4563,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Hoàng Thị Tuyết Lan is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -4594,6 +4579,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Hoàng Thị Tuyết Lan; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Hoàng Thị Tuyết Lan is individually listed among the eight death sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -4797,21 +4797,6 @@
       ],
       "events": [
         {
-          "id": "trieu-van-oi-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Triệu Văn Đời was convicted in the Hòa Bình drug case. Reported outcome: life sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Triệu Văn Đời is individually listed among the five life sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "trieu-van-oi-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -4825,15 +4810,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Triệu Văn Đời; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "trieu-van-oi-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Triệu Văn Đời was convicted in the Hòa Bình drug case. Reported outcome: life sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -4842,7 +4825,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Triệu Văn Đời is individually listed among the five life sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -4856,6 +4841,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Triệu Văn Đời; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Triệu Văn Đời is individually listed among the five life sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
@@ -4891,21 +4891,6 @@
       ],
       "events": [
         {
-          "id": "tran-thi-mai-hb-2015-first-judgment",
-          "occurredAt": "2015-01-19",
-          "type": "conviction",
-          "title": "Historical drug-case sentence",
-          "summary": "Trần Thị Mai was convicted in the Hòa Bình drug case. Reported outcome: life sentence. This is a legal outcome only, not proof of execution or current custody.",
-          "source": {
-            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
-            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
-            "publisher": "Báo Điện tử Chính phủ",
-            "language": "vi",
-            "publishedAt": "2015-01-20",
-            "claim": "Trần Thị Mai is individually listed among the five life sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
-          }
-        },
-        {
           "id": "tran-thi-mai-hb-2015-appeal-2016",
           "occurredAt": "2016-01-28",
           "type": "sentence",
@@ -4919,15 +4904,13 @@
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Trần Thị Mai; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
           }
-        }
-      ],
-      "legalHistory": [
+        },
         {
-          "status": "convicted",
-          "date": "2015-01-19",
-          "qualifier": "First-instance drug case judgment.",
-          "jurisdiction": "Vietnam",
-          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "id": "tran-thi-mai-hb-2015-first-judgment",
+          "occurredAt": "2015-01-19",
+          "type": "conviction",
+          "title": "Historical drug-case sentence",
+          "summary": "Trần Thị Mai was convicted in the Hòa Bình drug case. Reported outcome: life sentence. This is a legal outcome only, not proof of execution or current custody.",
           "source": {
             "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
             "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
@@ -4936,7 +4919,9 @@
             "publishedAt": "2015-01-20",
             "claim": "Trần Thị Mai is individually listed among the five life sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
-        },
+        }
+      ],
+      "legalHistory": [
         {
           "status": "convicted",
           "date": "2016-01-28",
@@ -4950,6 +4935,21 @@
             "language": "vi",
             "publishedAt": "2016-01-28",
             "claim": "The court newspaper reports the 28 January 2016 appeal outcome for Trần Thị Mai; Nguyễn Thị Thịnh and Triệu Văn Đời withdrew appeals, while the other named appellants had their sentences affirmed."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2015-01-19",
+          "qualifier": "First-instance drug case judgment.",
+          "jurisdiction": "Vietnam",
+          "offense": "Illegal drug trading/transport (Vietnamese court terminology)",
+          "source": {
+            "url": "https://baochinhphu.vn/tuyen-an-35-bi-cao-vu-mua-ban-ma-tuy-dac-biet-nghiem-trong-102177792.htm",
+            "title": "Tuyên án 35 bị cáo vụ mua bán ma túy đặc biệt nghiêm trọng",
+            "publisher": "Báo Điện tử Chính phủ",
+            "language": "vi",
+            "publishedAt": "2015-01-20",
+            "claim": "Trần Thị Mai is individually listed among the five life sentences for drug dealing in the Hòa Bình judgment. Sentence is a historical legal outcome, not proof of execution or current custody."
           }
         }
       ]
