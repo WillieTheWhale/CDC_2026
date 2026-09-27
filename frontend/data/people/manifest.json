@@ -685,6 +685,26 @@
           "claim": "EL PAÍS identifies a competing Sinaloa Cartel faction led by Ismael Zambada Sicairos, also known as Mayito Flaco."
         }
       ]
+    },
+    {
+      "id": "weymouth-street-dto-2025",
+      "name": "Weymouth Street Drug Trafficking Organization (2025 case)",
+      "aliases": [
+        "Weymouth DTO"
+      ],
+      "regions": [
+        "USA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ reports an indictment alleging the Weymouth Street Drug Trafficking Organization operated in the United States from about 2016 to 2025, with 33 named defendants. These remain allegations, and defendants are presumed innocent."
+        }
+      ]
     }
   ],
   "people": [
@@ -10459,6 +10479,2001 @@
           "language": "English",
           "publishedAt": "2014-03-13",
           "claim": "DOJ names Ismael Zambada Sicairos, alias Mayito Flaco, in an indictment and lists him as a son of Ismael Zambada García. The cited status is an allegation in that historical case."
+        }
+      ]
+    },
+    {
+      "id": "jose-antonio-morales-nieves-weymouth-2025",
+      "name": "Jose Antonio Morales Nieves",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Alleged head of the Weymouth Street Drug Trafficking Organization",
+      "prominence": 1,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jose Antonio Morales Nieves as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Jose Antonio Morales Nieves and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Jose Antonio Morales Nieves in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025. The release additionally identifies Jose Antonio Morales Nieves as alleged head of the weymouth street drug trafficking organization."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-antonio-morales-nieves-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Jose Antonio Morales Nieves as a defendant charged with conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Jose Antonio Morales Nieves and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Flaco"
+      ]
+    },
+    {
+      "id": "ramon-roman-montanez-weymouth-2025",
+      "name": "Ramon Roman-Montanez",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Alleged Weymouth DTO leader",
+      "prominence": 1,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Ramon Roman-Montanez as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Ramon Roman-Montanez and lists conspiracy to distribute controlled substances, distribution of controlled substances (3 counts), possession with intent to distribute controlled substances (2 counts), conspiracy to sponsor an animal fighting venture. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Ramon Roman-Montanez in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025. The release additionally identifies Ramon Roman-Montanez as alleged weymouth dto leader."
+        }
+      ],
+      "events": [
+        {
+          "id": "ramon-roman-montanez-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Ramon Roman-Montanez as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances (3 counts), possession with intent to distribute controlled substances (2 counts), conspiracy to sponsor an animal fighting venture. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Ramon Roman-Montanez and lists conspiracy to distribute controlled substances, distribution of controlled substances (3 counts), possession with intent to distribute controlled substances (2 counts), conspiracy to sponsor an animal fighting venture. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Viejo"
+      ]
+    },
+    {
+      "id": "nancy-rios-valentin-weymouth-2025",
+      "name": "Nancy Rios-Valentin",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Alleged Weymouth DTO leader",
+      "prominence": 1,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Nancy Rios-Valentin as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Nancy Rios-Valentin and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances, conspiracy to sponsor an animal fighting venture. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Nancy Rios-Valentin in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025. The release additionally identifies Nancy Rios-Valentin as alleged weymouth dto leader."
+        }
+      ],
+      "events": [
+        {
+          "id": "nancy-rios-valentin-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Nancy Rios-Valentin as a defendant charged with conspiracy to distribute controlled substances, possession with intent to distribute controlled substances, conspiracy to sponsor an animal fighting venture. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Nancy Rios-Valentin and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances, conspiracy to sponsor an animal fighting venture. The charges are allegations, not findings of guilt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "joel-carrillo-crespo-weymouth-2025",
+      "name": "Joel Carrillo-Crespo",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Joel Carrillo-Crespo as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Joel Carrillo-Crespo and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Joel Carrillo-Crespo in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "joel-carrillo-crespo-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Joel Carrillo-Crespo as a defendant charged with conspiracy to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Joel Carrillo-Crespo and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Jowey"
+      ]
+    },
+    {
+      "id": "luis-levante-medina-weymouth-2025",
+      "name": "Luis Levante-Medina",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Luis Levante-Medina as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Luis Levante-Medina and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances, possession of a firearm by a felon. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Luis Levante-Medina in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-levante-medina-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Luis Levante-Medina as a defendant charged with conspiracy to distribute controlled substances, possession with intent to distribute controlled substances, possession of a firearm by a felon. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Luis Levante-Medina and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances, possession of a firearm by a felon. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Diamante"
+      ]
+    },
+    {
+      "id": "chayanne-herrera-weymouth-2025",
+      "name": "Chayanne Herrera",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Chayanne Herrera as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Chayanne Herrera and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Chayanne Herrera in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "chayanne-herrera-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Chayanne Herrera as a defendant charged with conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Chayanne Herrera and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Cito"
+      ]
+    },
+    {
+      "id": "kelvin-aguayo-garcia-weymouth-2025",
+      "name": "Kelvin Aguayo-Garcia",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Kelvin Aguayo-Garcia as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Kelvin Aguayo-Garcia and lists conspiracy to distribute controlled substances, distribution of controlled substances (7 counts), possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Kelvin Aguayo-Garcia in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "kelvin-aguayo-garcia-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Kelvin Aguayo-Garcia as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances (7 counts), possession with intent to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Kelvin Aguayo-Garcia and lists conspiracy to distribute controlled substances, distribution of controlled substances (7 counts), possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Negro"
+      ]
+    },
+    {
+      "id": "elliot-mattei-rodriguez-weymouth-2025",
+      "name": "Elliot Mattei-Rodriguez",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Elliot Mattei-Rodriguez as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Elliot Mattei-Rodriguez and lists conspiracy to distribute controlled substances, distribution of controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Elliot Mattei-Rodriguez in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "elliot-mattei-rodriguez-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Elliot Mattei-Rodriguez as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Elliot Mattei-Rodriguez and lists conspiracy to distribute controlled substances, distribution of controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Elio"
+      ]
+    },
+    {
+      "id": "sandino-jose-hidalgo-genoa-weymouth-2025",
+      "name": "Sandino Jose Hidalgo Genoa",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Sandino Jose Hidalgo Genoa as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Sandino Jose Hidalgo Genoa and lists conspiracy to distribute controlled substances, distribution of controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Sandino Jose Hidalgo Genoa in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "sandino-jose-hidalgo-genoa-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Sandino Jose Hidalgo Genoa as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances, possession with intent to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Sandino Jose Hidalgo Genoa and lists conspiracy to distribute controlled substances, distribution of controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Domi"
+      ]
+    },
+    {
+      "id": "josue-oneil-ortiz-betancourt-weymouth-2025",
+      "name": "Josue Oneil Ortiz-Betancourt",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Josue Oneil Ortiz-Betancourt as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Josue Oneil Ortiz-Betancourt and lists conspiracy to distribute controlled substances, distribution of controlled substances (3 counts). The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Josue Oneil Ortiz-Betancourt in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "josue-oneil-ortiz-betancourt-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Josue Oneil Ortiz-Betancourt as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances (3 counts). All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Josue Oneil Ortiz-Betancourt and lists conspiracy to distribute controlled substances, distribution of controlled substances (3 counts). The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Oneil"
+      ]
+    },
+    {
+      "id": "angel-rios-valentin-weymouth-2025",
+      "name": "Angel Rios-Valentin",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Angel Rios-Valentin as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Angel Rios-Valentin and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Angel Rios-Valentin in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "angel-rios-valentin-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Angel Rios-Valentin as a defendant charged with conspiracy to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Angel Rios-Valentin and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-gomez-resto-weymouth-2025",
+      "name": "Juan Gomez-Resto",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Juan Gomez-Resto as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Juan Gomez-Resto and lists conspiracy to distribute controlled substances, attempted possession with intent to distribute controlled substances (2 counts). The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Juan Gomez-Resto in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-gomez-resto-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Juan Gomez-Resto as a defendant charged with conspiracy to distribute controlled substances, attempted possession with intent to distribute controlled substances (2 counts). All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Juan Gomez-Resto and lists conspiracy to distribute controlled substances, attempted possession with intent to distribute controlled substances (2 counts). The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Pupo"
+      ]
+    },
+    {
+      "id": "javier-resto-berrios-weymouth-2025",
+      "name": "Javier Resto-Berrios",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Javier Resto-Berrios as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Javier Resto-Berrios and lists conspiracy to distribute controlled substances, distribution of controlled substances (12 counts), attempted possession with intent to distribute controlled substances (2 counts). The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Javier Resto-Berrios in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "javier-resto-berrios-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Javier Resto-Berrios as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances (12 counts), attempted possession with intent to distribute controlled substances (2 counts). All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Javier Resto-Berrios and lists conspiracy to distribute controlled substances, distribution of controlled substances (12 counts), attempted possession with intent to distribute controlled substances (2 counts). The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Chicken"
+      ]
+    },
+    {
+      "id": "richard-cartagena-weymouth-2025",
+      "name": "Richard Cartagena",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Richard Cartagena as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Richard Cartagena and lists conspiracy to distribute controlled substances, distribution of controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Richard Cartagena in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "richard-cartagena-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Richard Cartagena as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances, possession with intent to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Richard Cartagena and lists conspiracy to distribute controlled substances, distribution of controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Richie"
+      ]
+    },
+    {
+      "id": "eliud-omar-morales-garcia-weymouth-2025",
+      "name": "Eliud Omar Morales-Garcia",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Eliud Omar Morales-Garcia as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Eliud Omar Morales-Garcia and lists conspiracy to distribute controlled substances, distribution of controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Eliud Omar Morales-Garcia in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "eliud-omar-morales-garcia-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Eliud Omar Morales-Garcia as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Eliud Omar Morales-Garcia and lists conspiracy to distribute controlled substances, distribution of controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Chochin"
+      ]
+    },
+    {
+      "id": "angemill-gonzalez-claudio-weymouth-2025",
+      "name": "Angemill Gonzalez-Claudio",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Angemill Gonzalez-Claudio as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Angemill Gonzalez-Claudio and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Angemill Gonzalez-Claudio in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "angemill-gonzalez-claudio-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Angemill Gonzalez-Claudio as a defendant charged with conspiracy to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Angemill Gonzalez-Claudio and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Angel",
+        "Angie"
+      ]
+    },
+    {
+      "id": "john-david-lopez-boria-weymouth-2025",
+      "name": "John David Lopez-Boria",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names John David Lopez-Boria as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names John David Lopez-Boria and lists conspiracy to distribute controlled substances, distribution of controlled substances (2 counts). The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes John David Lopez-Boria in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "john-david-lopez-boria-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed John David Lopez-Boria as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances (2 counts). All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names John David Lopez-Boria and lists conspiracy to distribute controlled substances, distribution of controlled substances (2 counts). The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Grande"
+      ]
+    },
+    {
+      "id": "jonathan-torres-weymouth-2025",
+      "name": "Jonathan Torres",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jonathan Torres as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Jonathan Torres and lists conspiracy to distribute controlled substances, distribution of controlled substances (2 counts). The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Jonathan Torres in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "jonathan-torres-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Jonathan Torres as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances (2 counts). All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Jonathan Torres and lists conspiracy to distribute controlled substances, distribution of controlled substances (2 counts). The charges are allegations, not findings of guilt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ederick-rivera-santiago-gonzalez-weymouth-2025",
+      "name": "Ederick Rivera Santiago-Gonzalez",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Ederick Rivera Santiago-Gonzalez as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Ederick Rivera Santiago-Gonzalez and lists conspiracy to distribute controlled substances, distribution of controlled substances (3 counts). The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Ederick Rivera Santiago-Gonzalez in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "ederick-rivera-santiago-gonzalez-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Ederick Rivera Santiago-Gonzalez as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances (3 counts). All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Ederick Rivera Santiago-Gonzalez and lists conspiracy to distribute controlled substances, distribution of controlled substances (3 counts). The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Edri",
+        "Negro"
+      ]
+    },
+    {
+      "id": "jandaniel-velez-gonzalez-weymouth-2025",
+      "name": "Jandaniel Velez-Gonzalez",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jandaniel Velez-Gonzalez as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Jandaniel Velez-Gonzalez and lists conspiracy to distribute controlled substances, distribution of controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Jandaniel Velez-Gonzalez in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "jandaniel-velez-gonzalez-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Jandaniel Velez-Gonzalez as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Jandaniel Velez-Gonzalez and lists conspiracy to distribute controlled substances, distribution of controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Jan"
+      ]
+    },
+    {
+      "id": "wilfred-castillo-weymouth-2025",
+      "name": "Wilfred Castillo",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Wilfred Castillo as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Wilfred Castillo and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Wilfred Castillo in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "wilfred-castillo-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Wilfred Castillo as a defendant charged with conspiracy to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Wilfred Castillo and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Domi"
+      ]
+    },
+    {
+      "id": "hector-vega-melendez-weymouth-2025",
+      "name": "Hector Vega-Melendez",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Hector Vega-Melendez as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Hector Vega-Melendez and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Hector Vega-Melendez in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "hector-vega-melendez-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Hector Vega-Melendez as a defendant charged with conspiracy to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Hector Vega-Melendez and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Tito"
+      ]
+    },
+    {
+      "id": "julio-jose-ramirez-diaz-weymouth-2025",
+      "name": "Julio Jose Ramirez-Diaz",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Julio Jose Ramirez-Diaz as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Julio Jose Ramirez-Diaz and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Julio Jose Ramirez-Diaz in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "julio-jose-ramirez-diaz-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Julio Jose Ramirez-Diaz as a defendant charged with conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Julio Jose Ramirez-Diaz and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "June"
+      ]
+    },
+    {
+      "id": "carla-diaz-resto-weymouth-2025",
+      "name": "Carla Diaz-Resto",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Carla Diaz-Resto as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Carla Diaz-Resto and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Carla Diaz-Resto in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "carla-diaz-resto-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Carla Diaz-Resto as a defendant charged with conspiracy to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Carla Diaz-Resto and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Karla"
+      ]
+    },
+    {
+      "id": "mayra-molina-dejesus-weymouth-2025",
+      "name": "Mayra Molina Dejesus",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Mayra Molina Dejesus as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Mayra Molina Dejesus and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Mayra Molina Dejesus in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "mayra-molina-dejesus-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Mayra Molina Dejesus as a defendant charged with conspiracy to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Mayra Molina Dejesus and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Rubia"
+      ]
+    },
+    {
+      "id": "jaime-otero-rodriguez-weymouth-2025",
+      "name": "Jaime Otero-Rodriguez",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jaime Otero-Rodriguez as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Jaime Otero-Rodriguez and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Jaime Otero-Rodriguez in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "jaime-otero-rodriguez-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Jaime Otero-Rodriguez as a defendant charged with conspiracy to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Jaime Otero-Rodriguez and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Pilon"
+      ]
+    },
+    {
+      "id": "jose-santana-gonzalez-weymouth-2025",
+      "name": "Jose Santana-Gonzalez",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jose Santana-Gonzalez as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Jose Santana-Gonzalez and lists conspiracy to distribute controlled substances, distribution of controlled substances (6 counts). The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Jose Santana-Gonzalez in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-santana-gonzalez-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Jose Santana-Gonzalez as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances (6 counts). All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Jose Santana-Gonzalez and lists conspiracy to distribute controlled substances, distribution of controlled substances (6 counts). The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Chipi",
+        "Chepo"
+      ]
+    },
+    {
+      "id": "luis-williams-weymouth-2025",
+      "name": "Luis Williams",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Luis Williams as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Luis Williams and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Luis Williams in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-williams-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Luis Williams as a defendant charged with conspiracy to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Luis Williams and lists conspiracy to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Prendi Pas"
+      ]
+    },
+    {
+      "id": "sonia-ramos-de-jesus-weymouth-2025",
+      "name": "Sonia Ramos De Jesus",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Sonia Ramos De Jesus as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Sonia Ramos De Jesus and lists conspiracy to distribute controlled substances, distribution of controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Sonia Ramos De Jesus in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "sonia-ramos-de-jesus-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Sonia Ramos De Jesus as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Sonia Ramos De Jesus and lists conspiracy to distribute controlled substances, distribution of controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "adeleda-gonzalez-weymouth-2025",
+      "name": "Adeleda Gonzalez",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Adeleda Gonzalez as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Adeleda Gonzalez and lists conspiracy to distribute controlled substances, distribution of controlled substances (2 counts). The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Adeleda Gonzalez in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "adeleda-gonzalez-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Adeleda Gonzalez as a defendant charged with conspiracy to distribute controlled substances, distribution of controlled substances (2 counts). All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Adeleda Gonzalez and lists conspiracy to distribute controlled substances, distribution of controlled substances (2 counts). The charges are allegations, not findings of guilt."
+          }
+        }
+      ],
+      "aliases": [
+        "Moya"
+      ]
+    },
+    {
+      "id": "luis-cruz-weymouth-2025",
+      "name": "Luis Cruz",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Luis Cruz as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Luis Cruz and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Luis Cruz in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-cruz-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Luis Cruz as a defendant charged with conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Luis Cruz and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-candido-hidalgo-genoa-weymouth-2025",
+      "name": "Jose Candido Hidalgo Genoa",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jose Candido Hidalgo Genoa as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Jose Candido Hidalgo Genoa and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Jose Candido Hidalgo Genoa in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-candido-hidalgo-genoa-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Jose Candido Hidalgo Genoa as a defendant charged with conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Jose Candido Hidalgo Genoa and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jianni-cruz-santos-weymouth-2025",
+      "name": "Jianni Cruz Santos",
+      "status": "charged",
+      "statusAsOf": "2025-10-24",
+      "roleLabel": "Defendant in alleged Weymouth Street DTO case",
+      "prominence": 3,
+      "organizationIds": [
+        "weymouth-street-dto-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jianni Cruz Santos as a defendant in the alleged Weymouth DTO case and says the organization operated in the United States.",
+            "period": "2016–2025",
+            "sourceUrl": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+          "title": "List of Weymouth defendants and charges",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "The DOJ defendant roster names Jianni Cruz Santos and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+        },
+        {
+          "url": "https://www.justice.gov/usao-edpa/pr/33-alleged-members-violent-kensington-drug-trafficking-organization-charged-41-count",
+          "title": "33 Alleged Members of Violent Kensington Drug Trafficking Organization Charged in 41-Count Indictment",
+          "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+          "language": "en",
+          "publishedAt": "2025-10-24",
+          "claim": "DOJ describes Jianni Cruz Santos in the linked defendant roster as one of 33 defendants associated with the alleged Weymouth DTO, which DOJ says operated in the United States during 2016–2025."
+        }
+      ],
+      "events": [
+        {
+          "id": "jianni-cruz-santos-weymouth-2025-2025-10-24-charges-announced",
+          "occurredAt": "2025-10-24",
+          "type": "charge",
+          "title": "Federal charges announced",
+          "summary": "DOJ listed Jianni Cruz Santos as a defendant charged with conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. All charges are allegations; no finding of guilt is implied.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edpa/media/1416691/dl",
+            "title": "List of Weymouth defendants and charges",
+            "publisher": "U.S. Department of Justice / U.S. Attorney, Eastern District of Pennsylvania",
+            "language": "en",
+            "publishedAt": "2025-10-24",
+            "claim": "The DOJ defendant roster names Jianni Cruz Santos and lists conspiracy to distribute controlled substances, possession with intent to distribute controlled substances. The charges are allegations, not findings of guilt."
+          }
         }
       ]
     }
