@@ -1,5 +1,6 @@
 # AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
-"""GET /api/estimated-flows: snapshot-file shape, parity with the committed snapshots, year/mode echo, 404, lazy imports."""
+"""GET /api/estimated-flows: snapshot-file shape, flow details, corridor-country coverage, parity with the committed
+snapshots, year/mode echo, 404, lazy imports."""
 import json
 import subprocess
 import sys
@@ -7,7 +8,7 @@ import sys
 import pytest
 
 from trace_backend import config
-from trace_backend.api.estimated_flows import compute
+from trace_backend.api.estimated_flows import cities, compute
 
 SNAP = config.REPO / "frontend" / "public" / "data"
 
@@ -44,6 +45,61 @@ def test_shape_and_meta(client):
     text = json.dumps(body).lower()
     for word in ("enforcement", "detection", "monitor", "customs"):
         assert word not in text  # design boundary: no enforcement framing in the layer
+
+
+def _check_details(d: dict) -> None:
+    """The richer records parallel to `flows`: feeding corridors, the chain, why each arrow was kept, names."""
+    n, cities_, drugs = len(d["cities"]), d["cities"], d["drugs"]
+    assert d["corridor_fields"] == ["id", "drug", "from", "to", "confidence", "volume_norm", "entry"]
+    assert d["detail_fields"] == ["corridors", "path", "pick"]
+    assert d["picks"] == ["top", "country_quota", "coverage", "departure"]
+    assert len(d["details"]) == len(d["flows"]) and d["corridors"]
+    for cid, drug, a, b, conf, vol, entry in d["corridors"]:
+        assert cid == f"{drugs[drug]}:{a}:{b}" and 0 <= conf <= 100 and 0 <= vol <= 1
+        assert cities_[entry][1] == b  # the entry city lies in the corridor's destination country
+    assert {c[1] for c in cities_} | {c[k] for c in d["corridors"] for k in (2, 3)} <= set(d["countries"])
+    assert all(isinstance(v, str) and v for v in d["countries"].values())
+    for (drug, gen, _s, a, b, _km), (feeds, path, pick) in zip(d["flows"], d["details"], strict=True):
+        assert 0 <= pick < len(d["picks"]) and all(0 <= i < n for i in path)
+        assert path[-2:] == [a, b] and len(set(path)) == len(path)  # chain ends with this arrow, no loops
+        assert feeds and all(d["corridors"][i][1] == drug for i in feeds)
+        if d["picks"][pick] == "departure":  # leaves an out-of-reach origin country along its own corridor
+            assert gen == 1 and len(path) == 2
+            assert all(d["corridors"][i][2] == cities_[a][1] for i in feeds)
+        else:  # entry city first, one step per wave, fed by the corridors that deliver into it
+            assert len(path) == gen + 1
+            assert all(d["corridors"][i][6] == path[0] for i in feeds)
+    assert [c[1] for c in d["corridors"]] == sorted(c[1] for c in d["corridors"])  # grouped by drug
+
+
+def _uncovered(d: dict, edges: list[dict]) -> list[tuple[str, str]]:
+    """(drug, country) pairs on a modeled corridor, with a 150k+ city, that no arrow of that drug touches."""
+    with_city = {c["iso3"] for c in cities()}
+    touched = {(d["drugs"][f[0]], d["cities"][f[i]][1]) for f in d["flows"] for i in (3, 4)}
+    need = {(e["drug"], iso) for e in edges for iso in (e["from"], e["to"]) if iso in with_city}
+    return sorted(need - touched)
+
+
+def test_payload_details(client):
+    _check_details(client.get("/api/estimated-flows", params={"year": 2014, "mode": "observed"}).json()["data"])
+
+
+@pytest.mark.parametrize("mode,year", [("observed", 2024), ("predicted", 2025)])
+def test_every_corridor_country_gets_an_arrow(mode, year):
+    edges = _snapshot("routes", mode, year)["data"]["edges"]
+    d = json.loads(json.dumps(compute(edges, year, mode)))
+    _check_details(d)
+    assert _uncovered(d, edges) == []
+    # ... without flooding the map: coverage and departure picks are a handful, not a new wave
+    picks = [p for _, _, p in d["details"]]
+    assert 0 < sum(p >= 2 for p in picks) <= 12, sum(p >= 2 for p in picks)
+
+
+def test_static_snapshots_carry_details():
+    for mode, year in (("observed", 2024), ("predicted", 2025)):
+        static = _snapshot("estimated", mode, year)["data"]
+        _check_details(static)
+        assert _uncovered(static, _snapshot("routes", mode, year)["data"]["edges"]) == []
 
 
 @pytest.mark.parametrize("year", [2006, 2014, 2024])

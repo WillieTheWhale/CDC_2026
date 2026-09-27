@@ -40,10 +40,14 @@ SEED_HEADER = "# AI-assisted: generated with Claude Code (Anthropic) by trace_ba
               "See docs/AI_USAGE.md and seed/README.md.\n"
 NOTE = "Estimated local flows for map density only. Not observed, not modeled, not used in any score."
 METHOD = ("Entry city per modeled edge (money / (km + 300)^2); arrows follow money = city population x GDP per capita "
-          f"(PPP), score = supply x money / (1 + km/400)^2, <= {MAX_KM} km, three waves with a per-country quota.")
+          f"(PPP), score = supply x money / (1 + km/400)^2, <= {MAX_KM} km, three waves with a per-country quota; every "
+          "country on a modeled corridor with a 150k+ city gets at least one arrow.")
 NOTES = [NOTE,
          "Cities are placement anchors for drawing arrows (Natural Earth populated places of 150,000+ people), not "
          "evidence of city-level trafficking; no city, road or port path is observed.",
+         "Each arrow lists the modeled corridors feeding its chain (corridors), the chain from the entry city "
+         "onward (details path) and why it was kept (picks); country names are World Bank names (Natural Earth for a "
+         "few territories).",
          "Built from the modeled route edges for this year and mode (modeled confidence, without the live news "
          "bonus). Inputs: city population, GDP per capita PPP, great-circle distance and modeled route density only."]
 
@@ -88,7 +92,8 @@ def compute(edges: list[dict], year: int, mode: str) -> dict:
     from .app import store
     s = store()
     return {"year": year, "mode": mode,
-            **estimate(edges, cities(), gdp_per_capita(s.indicators), anchors(s.countries), year)}
+            **estimate(edges, cities(), gdp_per_capita(s.indicators), anchors(s.countries), year,
+                       {c["iso3"]: c["name"] for c in s.countries})}
 
 
 PRECOMPUTED = config.API_DIR / "estimated_flows"  # {mode}-{year}.json written by precompute() at build/export time

@@ -13,8 +13,15 @@ The route model works country to country, so zoomed-in views are sparse. This fi
 3. A **second and third wave** spread from the cities reached before, at half strength each, so the
    field extends into countries the dataset does not cover. Each wave keeps its strongest arrows plus
    the best PER_COUNTRY targets of every country in reach, so poorer regions are not crowded out.
-4. **City intensity** sums modeled supply and estimated strength through each city (darker where
+4. **Coverage.** Every country on a modeled corridor of a drug (origin or destination) that has a 150k+
+   city gets at least one arrow of that drug: a wave that leaves such a country untouched adds its best
+   arrow into (else out of) that country; an origin country beyond MAX_KM of every source gets one
+   "departure" arrow out of its city facing its strongest outgoing corridor (the entry rule mirrored).
+5. **City intensity** sums modeled supply and estimated strength through each city (darker where
    many paths cross).
+
+Each arrow also records the modeled corridors that feed its chain, the chain itself (entry city ->
+onward cities) and why it was kept (`details`, parallel to `flows`), plus country names.
 
 Inputs are population, wealth, distance and modeled route density only. No enforcement,
 customs or detection variable is used (design boundary). Cities: Natural Earth populated places
@@ -88,8 +95,24 @@ def _wealth(series: dict[int, float], year: int, fallback: float) -> float:
     return series[max(past)] if past else series[min(series)]
 
 
+# Natural Earth adm0_a3 codes without a World Bank country row (names as Natural Earth labels them).
+NE_NAMES = {"KOS": "Kosovo", "PSX": "Palestine", "SOL": "Somaliland", "TWN": "Taiwan"}
+PICKS = ["top", "country_quota", "coverage", "departure"]  # why an arrow was kept (details[i][2] indexes this)
+MAX_FEEDERS = 4  # corridors listed per flow (strongest first)
+
+
 def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, float]],
-             anchors: dict[str, tuple[float, float]], year: int) -> dict:
+             anchors: dict[str, tuple[float, float]], year: int,
+             names: dict[str, str] | None = None) -> dict:
+    """The compact layer for these modeled edges (see the module docstring).
+
+    Coverage: every country on a modeled corridor of a drug (origin or destination) that has a 150k+ city
+    gets at least one arrow of that drug touching it. Each wave keeps its strongest arrows and the per-country
+    quota; a country still untouched then gets one "coverage" pick: the best-scoring arrow into one of its
+    cities, else the best arrow out of one of its cities. A country out of reach (beyond MAX_KM of every
+    source) is retried from the next wave's sources. Deterministic: countries are visited in sorted order.
+    """
+    names = {**NE_NAMES, **(names or {})}
     values = sorted(v for s in gdp.values() for v in s.values())
     median = values[len(values) // 2] if values else 10_000.0
     by_country: dict[str, list[dict]] = defaultdict(list)
@@ -103,11 +126,23 @@ def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, flo
     key = lambda c: (c["iso3"], c["name"], c["lon"], c["lat"])  # noqa: E731
 
     flows: list[dict] = []
+    feeders: list[dict] = []  # modeled corridors that deliver into an entry city
     intensity: dict[tuple, float] = defaultdict(float)
     city_of = {key(c): c for c in all_cities}
+
+    def score_of(s: float, src: dict, t: dict) -> tuple[float, float] | None:
+        # Exact shortcut: great-circle km >= the latitude arc, so these pairs fail d > MAX_KM anyway.
+        if src is t or abs(t["lat"] - src["lat"]) * _KM_PER_DEG_LAT > MAX_KM + 1:
+            return None
+        d = _km((src["lon"], src["lat"]), (t["lon"], t["lat"]))
+        if d > MAX_KM or d < 25:
+            return None
+        return s * (t["money"] / top_money) / (1 + d / 400) ** 2, d
+
     for drug in sorted({e["drug"] for e in edges}):
         supply: dict[tuple, float] = defaultdict(float)
-        for e in (e for e in edges if e["drug"] == drug):
+        drug_edges = [e for e in edges if e["drug"] == drug]
+        for e in drug_edges:
             cands = by_country.get(e["to"], [])[:ENTRY_CANDIDATES]
             origin = anchors.get(e["from"])
             if not cands or origin is None:
@@ -115,48 +150,67 @@ def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, flo
             # squared distance, as in the waves: the cited US route data puts Mexican inflow in Houston/Texas,
             # not New York (docs/US_ROUTES_VALIDATION.md)
             entry = max(cands, key=lambda c: c["money"] / (_km(origin, (c["lon"], c["lat"])) + 300) ** 2)
-            supply[key(entry)] += e["volume_norm"] * e["confidence"] / 100
+            weight = e["volume_norm"] * e["confidence"] / 100
+            supply[key(entry)] += weight
+            feeders.append({"id": e.get("id") or f"{drug}:{e['from']}:{e['to']}", "drug": drug, "from": e["from"],
+                            "to": e["to"], "confidence": e["confidence"], "volume_norm": e["volume_norm"],
+                            "entry": key(entry), "weight": weight})
         if not supply:
             continue
         hubs = [(city_of[k], s) for k, s in supply.items()]
         for k, s in supply.items():
             intensity[k] += s
+        # Countries this drug's corridors touch (origin or destination) that have a city to draw an arrow at.
+        must = {iso for e in drug_edges for iso in (e["from"], e["to"]) if by_country.get(iso)}
 
         def wave(sources: list[tuple[dict, float]], taken: set, limit: int, generation: int,
-                 drug: str = drug) -> list[dict]:
+                 must: set, drug: str = drug) -> list[dict]:
             best: dict[tuple, tuple[float, dict, float]] = {}
             for t in all_cities:
                 kt = key(t)
                 if kt in taken:
                     continue
                 for src, s in sources:
-                    if src is t:
-                        continue
-                    # Exact shortcut: great-circle km >= the latitude arc, so these pairs fail d > MAX_KM anyway.
-                    if abs(t["lat"] - src["lat"]) * _KM_PER_DEG_LAT > MAX_KM + 1:
-                        continue
-                    d = _km((src["lon"], src["lat"]), (t["lon"], t["lat"]))
-                    if d > MAX_KM or d < 25:
-                        continue
-                    score = s * (t["money"] / top_money) / (1 + d / 400) ** 2
-                    if kt not in best or score > best[kt][0]:
-                        best[kt] = (score, src, d)
+                    hit = score_of(s, src, t)
+                    if hit and (kt not in best or hit[0] > best[kt][0]):
+                        best[kt] = (hit[0], src, hit[1])
             ranked = sorted(best.items(), key=lambda kv: -kv[1][0])
-            chosen = ranked[:limit]
+            chosen = [(kt, v, 0) for kt, v in ranked[:limit]]
             quota: dict[str, int] = defaultdict(int)
-            for kt, _ in chosen:
+            for kt, _, _ in chosen:
                 quota[kt[0]] += 1
             for kt, v in ranked[limit:]:
                 if quota[kt[0]] < PER_COUNTRY:
                     quota[kt[0]] += 1
-                    chosen.append((kt, v))
-            out = []
-            for kt, (score, src, d) in chosen:
-                out.append({"drug": drug, "generation": generation, "score": score, "km": round(d),
-                            "src": src, "dst": city_of[kt]})
-            return out
+                    chosen.append((kt, v, 1))
+            picked = {kt for kt, _, _ in chosen}
+            touched = {kt[0] for kt in picked} | {v[1]["iso3"] for _, v, _ in chosen}
+            for iso in sorted(must - touched):
+                into = next(((kt, v) for kt, v in ranked if kt[0] == iso and kt not in picked), None)
+                if into is None:  # no reachable free city in it (e.g. its only city is the entry city): go out
+                    outs = []
+                    for src, s in sources:
+                        if src["iso3"] != iso:
+                            continue
+                        for t in all_cities:
+                            kt = key(t)
+                            hit = None if kt in taken or kt in picked else score_of(s, src, t)
+                            if hit:
+                                outs.append((hit[0], kt, src, hit[1]))
+                    if not outs:
+                        continue  # out of reach in this wave
+                    sc, kt, src, d = max(outs, key=lambda o: o[0])
+                    into = (kt, (sc, src, d))
+                picked.add(into[0])
+                chosen.append((into[0], into[1], 2))
+            return [{"drug": drug, "generation": generation, "score": score, "km": round(d), "src": src,
+                     "dst": city_of[kt], "pick": pick} for kt, (score, src, d), pick in chosen]
 
-        first = wave(hubs, set(supply), PER_DRUG, 1)
+        def touched_by(w: list[dict]) -> set:
+            return {f["src"]["iso3"] for f in w} | {f["dst"]["iso3"] for f in w}
+
+        first = wave(hubs, set(supply), PER_DRUG, 1, must)
+        must -= touched_by(first)
         taken = set(supply) | {key(f["dst"]) for f in first}
         hub_peak = max(s for _, s in hubs)
         waves = [first]
@@ -164,10 +218,41 @@ def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, flo
             prev = waves[-1]
             top = max((f["score"] for f in prev), default=1.0)
             sources = [(f["dst"], 0.5 ** (generation - 1) * f["score"] / top * hub_peak) for f in prev]
-            nxt = wave(sources, taken, limit, generation)
+            nxt = wave(sources, taken, limit, generation, must)
+            must -= touched_by(nxt)
             taken |= {key(f["dst"]) for f in nxt}
             waves.append(nxt)
+        # An origin-only country beyond MAX_KM of every source: one "departure" arrow out of its city that faces
+        # its strongest outgoing corridor (the entry rule mirrored), toward the best target on that side.
+        departures = []
+        for iso in sorted(must):
+            outgoing = sorted((e for e in drug_edges if e["from"] == iso and e["to"] in anchors),
+                              key=lambda e: (-e["volume_norm"] * e["confidence"], e["to"]))
+            if not outgoing:
+                continue
+            e = outgoing[0]
+            dest, weight = anchors[e["to"]], e["volume_norm"] * e["confidence"] / 100
+            exit_city = max(by_country[iso][:ENTRY_CANDIDATES],
+                            key=lambda c: c["money"] / (_km(dest, (c["lon"], c["lat"])) + 300) ** 2)
+            ahead = _km(dest, (exit_city["lon"], exit_city["lat"]))
+            outs = []
+            for t in all_cities:
+                hit = None if key(t) in taken else score_of(weight, exit_city, t)
+                if hit:
+                    outs.append((_km(dest, (t["lon"], t["lat"])) < ahead, hit[0], key(t), hit[1]))
+            if not outs:
+                continue
+            _, sc, kt, d = max(outs, key=lambda o: (o[0], o[1]))
+            taken.add(kt)
+            departures.append({"drug": drug, "generation": 1, "score": sc, "km": round(d), "src": exit_city,
+                               "dst": city_of[kt], "pick": 3, "path": [key(exit_city), kt],
+                               "feeds": [x.get("id") or f"{drug}:{x['from']}:{x['to']}" for x in outgoing]})
+        chain: dict[tuple, list[tuple]] = {k: [k] for k in supply}  # entry city -> ... -> this city
+        flows.extend(departures)
         for w in waves:
+            for f in w:
+                f["path"] = chain[key(f["src"])] + [key(f["dst"])]
+                chain[key(f["dst"])] = f["path"]
             flows.extend(w)
     if flows:
         peak_by_drug: dict[str, float] = defaultdict(float)
@@ -185,6 +270,19 @@ def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, flo
     for k in sorted(intensity, key=lambda k: -intensity[k]):
         idx[k] = len(cities_out)
         cities_out.append([k[1], k[0], k[2], k[3], round(intensity[k] / peak, 3)])
+    feeders = [c for c in feeders if c["drug"] in drugs]
+    feeders.sort(key=lambda c: (c["drug"], -c["weight"], c["id"]))
+    fed: dict[tuple, list[int]] = defaultdict(list)  # (drug, entry city) -> corridor indices, strongest first
+    corridor_idx: dict[tuple, int] = {}
+    for i, c in enumerate(feeders):
+        fed[(c["drug"], c["entry"])].append(i)
+        corridor_idx[(c["drug"], c["id"])] = i
+
+    def feeding(f: dict) -> list[int]:
+        if "feeds" in f:  # departure arrow: the corridors leaving its country
+            return [corridor_idx[(f["drug"], i)] for i in f["feeds"] if (f["drug"], i) in corridor_idx][:MAX_FEEDERS]
+        return fed[(f["drug"], f["path"][0])][:MAX_FEEDERS]
+    isos = sorted({row[1] for row in cities_out} | {c[k] for c in feeders for k in ("from", "to")})
     return {
         "drugs": drugs,
         "city_fields": ["name", "iso3", "lon", "lat", "intensity"],
@@ -192,6 +290,15 @@ def estimate(edges: list[dict], cities: list[dict], gdp: dict[str, dict[int, flo
         "flow_fields": ["drug", "generation", "strength", "from", "to", "km"],
         "flows": [[drugs.index(f["drug"]), f["generation"], f["strength"], idx[key(f["src"])], idx[key(f["dst"])],
                    f["km"]] for f in flows],
+        # Richer records, parallel to `flows` (additive: older clients read only the fields above).
+        "countries": {iso: names.get(iso, iso) for iso in isos},
+        "corridor_fields": ["id", "drug", "from", "to", "confidence", "volume_norm", "entry"],
+        "corridors": [[c["id"], drugs.index(c["drug"]), c["from"], c["to"], c["confidence"], c["volume_norm"],
+                       idx[c["entry"]]] for c in feeders],
+        "picks": PICKS,
+        "detail_fields": ["corridors", "path", "pick"],
+        "details": [[feeding(f), [idx[k] for k in f["path"]], f["pick"]]
+                    for f in flows],
     }
 
 
@@ -210,6 +317,7 @@ def _anchors() -> dict[str, tuple[float, float]]:
 
 def run() -> int:
     cities, gdp, anchors = load_cities(), gdp_per_capita(), _anchors()
+    names = {c["iso3"]: c["name"] for c in json.loads((config.API_DIR / "countries.json").read_text(encoding="utf-8"))}
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for old in OUT_DIR.glob("*.json"):
         old.unlink()
@@ -217,12 +325,13 @@ def run() -> int:
     for mode in ("observed", "predicted"):
         routes = json.loads((config.API_DIR / f"routes_{mode}.json").read_text(encoding="utf-8"))
         for year, edges in sorted(routes.items()):
-            body = estimate(edges, cities, gdp, anchors, int(year))
+            body = estimate(edges, cities, gdp, anchors, int(year), names)
             doc = {"meta": {
                 "kind": "estimated",
                 "note": "Estimated local flows for map density only. Not observed, not modeled, not used in any score.",
                 "method": "Entry city per modeled edge; arrows follow money = city population x GDP per capita "
-                          f"(PPP), score = supply x money / (1 + km/400)^2, <= {MAX_KM} km, three waves with a per-country quota.",
+                          f"(PPP), score = supply x money / (1 + km/400)^2, <= {MAX_KM} km, three waves with a per-country quota "
+                          "and at least one arrow per modeled corridor country.",
                 "sources": ["Natural Earth populated places (public domain)",
                             f"World Bank Indicators API {GDP_CODE} (source 2)", "TRACE modeled corridors"],
                 "variables": ["city population", "GDP per capita PPP", "great-circle distance", "modeled route density"],
