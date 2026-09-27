@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1111,
-    "associations": 957,
-    "evidenced": 957,
+    "people": 1188,
+    "associations": 1034,
+    "evidenced": 1034,
     "missing": 0,
     "invalid": 0
   },
@@ -166,6 +166,13 @@
       "people": 20,
       "associations": 3,
       "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
+    "indonesia_philippines_historical_cases_1996_2019.json": {
+      "people": 30,
+      "associations": 30,
+      "evidenced": 30,
       "missing": 0,
       "invalid": 0
     },
@@ -337,6 +344,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "south_america_legacy_drug_cases_2009_2025.json": {
+      "people": 47,
+      "associations": 47,
+      "evidenced": 47,
+      "missing": 0,
+      "invalid": 0
+    },
     "southeast_asia_court_cases_2025_2026.json": {
       "people": 22,
       "associations": 22,
@@ -497,8 +511,8 @@
       "invalid": 0
     },
     "IDN": {
-      "associations": 18,
-      "evidenced": 18,
+      "associations": 41,
+      "evidenced": 41,
       "missing": 0,
       "invalid": 0
     },
@@ -523,6 +537,12 @@
     "JAM": {
       "associations": 1,
       "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    "PHL": {
+      "associations": 9,
+      "evidenced": 9,
       "missing": 0,
       "invalid": 0
     },
@@ -568,15 +588,27 @@
       "missing": 0,
       "invalid": 0
     },
-    "VNM": {
-      "associations": 55,
-      "evidenced": 55,
+    "PRY": {
+      "associations": 36,
+      "evidenced": 36,
       "missing": 0,
       "invalid": 0
     },
-    "PHL": {
-      "associations": 2,
-      "evidenced": 2,
+    "BOL": {
+      "associations": 10,
+      "evidenced": 10,
+      "missing": 0,
+      "invalid": 0
+    },
+    "CHL": {
+      "associations": 1,
+      "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    "VNM": {
+      "associations": 55,
+      "evidenced": 55,
       "missing": 0,
       "invalid": 0
     },
