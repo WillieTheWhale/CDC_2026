@@ -828,6 +828,34 @@
       ]
     },
     {
+      "id": "uwsa",
+      "name": "United Wa State Army",
+      "aliases": [
+        "UWSA"
+      ],
+      "regions": [
+        "MMR"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "DEA identifies the United Wa State Army as the organization of eight individually named leaders it charged in a 2005 heroin and methamphetamine trafficking indictment; the alleged conduct centered historically in eastern Burma.",
+          "publishedAt": "2005-01-24"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the UWSA and Wei Hsueh Kang financial network and its 2008 Kingpin Act designations, distinguishing designees from those charged in U.S. criminal cases.",
+          "publishedAt": "2008-11-13"
+        }
+      ]
+    },
+    {
       "id": "weymouth-street-dto-2025",
       "name": "Weymouth Street Drug Trafficking Organization (2025 case)",
       "aliases": [
@@ -16435,6 +16463,2080 @@
       ]
     },
     {
+      "id": "wei-hsueh-kang",
+      "name": "Wei Hsueh Kang",
+      "aliases": [
+        "Wei Hsueh-Kang",
+        "Somboon Kadumporn",
+        "Wei Xuegang",
+        "Prasit Chivinnitipanya"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Special adviser to UWSA Central Committee; formerly a division commander; 2005 U.S. narcotics indictee; OFAC listing checked September 2026",
+      "prominence": 1,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [
+        {
+          "iso3": "MMR",
+          "label": "Myanmar",
+          "evidence": {
+            "claim": "The DEA identifies Wei Hsueh Kang among the indicted UWSA leaders who made decisions about the organization’s narcotics activities in eastern Burma; this is a historical country association, not a live position.",
+            "period": "By January 2005",
+            "sourceUrl": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "DEA individually names Wei Hsueh Kang among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+          "publishedAt": "2005-01-24"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/js3009",
+          "title": "Treasury Action Targets Southeast Asian Narcotics Traffickers",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury states Wei Hsueh Kang was identified as a significant foreign narcotics trafficker on 1 June 2000, and separately describes his January 2005 federal indictment.",
+          "publishedAt": "2005-11-03"
+        },
+        {
+          "url": "https://2021-2025.state.gov/wei-hsueh-kang/",
+          "title": "Wei Hsueh-Kang: Narcotics Rewards Program",
+          "publisher": "U.S. Department of State",
+          "language": "en",
+          "claim": "The archived State Department rewards profile, dated 1 April 2017, describes Wei Hsueh Kang as wanted on federal drug charges; this is a 2017 snapshot, not a claim about his present whereabouts.",
+          "publishedAt": "2017-04-01"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 includes Wei Hsueh Kang."
+        }
+      ],
+      "events": [
+        {
+          "id": "wei-hsueh-kang-2005-01-24-charge",
+          "occurredAt": "2005-01-24",
+          "type": "charge",
+          "title": "Federal narcotics indictment announced",
+          "summary": "DEA announced that Wei Hsueh Kang was among eight UWSA leaders indicted on heroin and methamphetamine trafficking charges. No conviction is asserted.",
+          "source": {
+            "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+            "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+            "publisher": "Drug Enforcement Administration",
+            "language": "en",
+            "claim": "DEA individually names Wei Hsueh Kang among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+            "publishedAt": "2005-01-24"
+          }
+        },
+        {
+          "id": "wei-hsueh-kang-2000-06-01-sanction",
+          "occurredAt": "2000-06-01",
+          "type": "sanction",
+          "title": "Kingpin Act designation",
+          "summary": "Treasury reports the U.S. designation of Wei Hsueh Kang as a significant foreign narcotics trafficker.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/js3009",
+            "title": "Treasury Action Targets Southeast Asian Narcotics Traffickers",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "claim": "Treasury states Wei Hsueh Kang was identified as a significant foreign narcotics trafficker on 1 June 2000, and separately describes his January 2005 federal indictment.",
+            "publishedAt": "2005-11-03"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wei-hsueh-lung",
+      "name": "Wei Hsueh Lung",
+      "aliases": [
+        "Wei Xuelong"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "UWSA trade and finance minister and Central Committee member; 2005 U.S. narcotics indictee; OFAC listing checked September 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [
+        {
+          "iso3": "MMR",
+          "label": "Myanmar",
+          "evidence": {
+            "claim": "The DEA identifies Wei Hsueh Lung among the indicted UWSA leaders who made decisions about the organization’s narcotics activities in eastern Burma; this is a historical country association, not a live position.",
+            "period": "By January 2005",
+            "sourceUrl": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "DEA individually names Wei Hsueh Lung among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+          "publishedAt": "2005-01-24"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Wei Hsueh Lung as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 includes Wei Hsueh Lung."
+        }
+      ],
+      "events": [
+        {
+          "id": "wei-hsueh-lung-2005-01-24-charge",
+          "occurredAt": "2005-01-24",
+          "type": "charge",
+          "title": "Federal narcotics indictment announced",
+          "summary": "DEA announced that Wei Hsueh Lung was among eight UWSA leaders indicted on heroin and methamphetamine trafficking charges. No conviction is asserted.",
+          "source": {
+            "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+            "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+            "publisher": "Drug Enforcement Administration",
+            "language": "en",
+            "claim": "DEA individually names Wei Hsueh Lung among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+            "publishedAt": "2005-01-24"
+          }
+        },
+        {
+          "id": "wei-hsueh-lung-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Wei Hsueh Lung to its Specially Designated Nationals list. This is a historical designation event.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Wei Hsueh Lung as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wei-hsueh-ying",
+      "name": "Wei Hsueh Ying",
+      "aliases": [
+        "Wei Hsueh Yuan",
+        "Wei Xueying"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "UWSA military commander and trade official; 2005 U.S. narcotics indictee; OFAC listing checked September 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [
+        {
+          "iso3": "MMR",
+          "label": "Myanmar",
+          "evidence": {
+            "claim": "The DEA identifies Wei Hsueh Ying among the indicted UWSA leaders who made decisions about the organization’s narcotics activities in eastern Burma; this is a historical country association, not a live position.",
+            "period": "By January 2005",
+            "sourceUrl": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "DEA individually names Wei Hsueh Ying among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+          "publishedAt": "2005-01-24"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Wei Hsueh Ying as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 includes Wei Hsueh Ying under the canonical entry Wei Hsueh Yuan."
+        }
+      ],
+      "events": [
+        {
+          "id": "wei-hsueh-ying-2005-01-24-charge",
+          "occurredAt": "2005-01-24",
+          "type": "charge",
+          "title": "Federal narcotics indictment announced",
+          "summary": "DEA announced that Wei Hsueh Ying was among eight UWSA leaders indicted on heroin and methamphetamine trafficking charges. No conviction is asserted.",
+          "source": {
+            "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+            "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+            "publisher": "Drug Enforcement Administration",
+            "language": "en",
+            "claim": "DEA individually names Wei Hsueh Ying among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+            "publishedAt": "2005-01-24"
+          }
+        },
+        {
+          "id": "wei-hsueh-ying-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Wei Hsueh Ying to its Specially Designated Nationals list. This is a historical designation event.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Wei Hsueh Ying as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pao-yu-hsiang",
+      "name": "Pao Yu Hsiang",
+      "aliases": [
+        "Ta Pang",
+        "Bao Youxiang"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "UWSA commander in chief and Central Committee member; 2005 U.S. narcotics indictee; OFAC listing checked September 2026",
+      "prominence": 1,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [
+        {
+          "iso3": "MMR",
+          "label": "Myanmar",
+          "evidence": {
+            "claim": "The DEA identifies Pao Yu Hsiang among the indicted UWSA leaders who made decisions about the organization’s narcotics activities in eastern Burma; this is a historical country association, not a live position.",
+            "period": "By January 2005",
+            "sourceUrl": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "DEA individually names Pao Yu Hsiang among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+          "publishedAt": "2005-01-24"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Pao Yu Hsiang as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 includes Pao Yu Hsiang."
+        }
+      ],
+      "events": [
+        {
+          "id": "pao-yu-hsiang-2005-01-24-charge",
+          "occurredAt": "2005-01-24",
+          "type": "charge",
+          "title": "Federal narcotics indictment announced",
+          "summary": "DEA announced that Pao Yu Hsiang was among eight UWSA leaders indicted on heroin and methamphetamine trafficking charges. No conviction is asserted.",
+          "source": {
+            "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+            "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+            "publisher": "Drug Enforcement Administration",
+            "language": "en",
+            "claim": "DEA individually names Pao Yu Hsiang among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+            "publishedAt": "2005-01-24"
+          }
+        },
+        {
+          "id": "pao-yu-hsiang-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Pao Yu Hsiang to its Specially Designated Nationals list. This is a historical designation event.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Pao Yu Hsiang as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pao-hua-chiang",
+      "name": "Pao Hua Chiang",
+      "aliases": [
+        "Ta Kat",
+        "Bao Huachiang"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-05-28",
+      "roleLabel": "UWSA trade and finance officer; 2005 U.S. narcotics indictee; OFAC designation removed in 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [
+        {
+          "iso3": "MMR",
+          "label": "Myanmar",
+          "evidence": {
+            "claim": "The DEA identifies Pao Hua Chiang among the indicted UWSA leaders who made decisions about the organization’s narcotics activities in eastern Burma; this is a historical country association, not a live position.",
+            "period": "By January 2005",
+            "sourceUrl": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "DEA individually names Pao Hua Chiang among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+          "publishedAt": "2005-01-24"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Pao Hua Chiang as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20260528",
+          "title": "Designations Removals",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-05-28",
+          "claim": "OFAC expressly lists Pao Hua Chiang among persons deleted from its SDN list on 28 May 2026; the earlier 2008 designation is historical only."
+        }
+      ],
+      "events": [
+        {
+          "id": "pao-hua-chiang-2005-01-24-charge",
+          "occurredAt": "2005-01-24",
+          "type": "charge",
+          "title": "Federal narcotics indictment announced",
+          "summary": "DEA announced that Pao Hua Chiang was among eight UWSA leaders indicted on heroin and methamphetamine trafficking charges. No conviction is asserted.",
+          "source": {
+            "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+            "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+            "publisher": "Drug Enforcement Administration",
+            "language": "en",
+            "claim": "DEA individually names Pao Hua Chiang among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+            "publishedAt": "2005-01-24"
+          }
+        },
+        {
+          "id": "pao-hua-chiang-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Pao Hua Chiang to its Specially Designated Nationals list. This is a historical designation event.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Pao Hua Chiang as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+            "publishedAt": "2008-11-13"
+          }
+        },
+        {
+          "id": "pao-hua-chiang-2026-05-28-development",
+          "occurredAt": "2026-05-28",
+          "type": "development",
+          "title": "Removed from OFAC SDN list",
+          "summary": "OFAC deleted Pao Hua Chiang from its Specially Designated Nationals list. The 2005 indictment remains a separate historical allegation; no later criminal disposition is established by this action.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20260528",
+            "title": "Designations Removals",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2026-05-28",
+            "claim": "OFAC expressly lists Pao Hua Chiang among persons deleted from its SDN list on 28 May 2026; the earlier 2008 designation is historical only."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pao-yu-yi",
+      "name": "Pao Yu Yi",
+      "aliases": [
+        "Ta Rang",
+        "Bao Youyi"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-05-28",
+      "roleLabel": "UWSA Central Committee member and political commissar; 2005 U.S. narcotics indictee; OFAC designation removed in 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [
+        {
+          "iso3": "MMR",
+          "label": "Myanmar",
+          "evidence": {
+            "claim": "The DEA identifies Pao Yu Yi among the indicted UWSA leaders who made decisions about the organization’s narcotics activities in eastern Burma; this is a historical country association, not a live position.",
+            "period": "By January 2005",
+            "sourceUrl": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "DEA individually names Pao Yu Yi among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+          "publishedAt": "2005-01-24"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Pao Yu Yi as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20260528",
+          "title": "Designations Removals",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-05-28",
+          "claim": "OFAC expressly lists Pao Yu Yi among persons deleted from its SDN list on 28 May 2026; the earlier 2008 designation is historical only."
+        }
+      ],
+      "events": [
+        {
+          "id": "pao-yu-yi-2005-01-24-charge",
+          "occurredAt": "2005-01-24",
+          "type": "charge",
+          "title": "Federal narcotics indictment announced",
+          "summary": "DEA announced that Pao Yu Yi was among eight UWSA leaders indicted on heroin and methamphetamine trafficking charges. No conviction is asserted.",
+          "source": {
+            "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+            "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+            "publisher": "Drug Enforcement Administration",
+            "language": "en",
+            "claim": "DEA individually names Pao Yu Yi among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+            "publishedAt": "2005-01-24"
+          }
+        },
+        {
+          "id": "pao-yu-yi-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Pao Yu Yi to its Specially Designated Nationals list. This is a historical designation event.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Pao Yu Yi as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+            "publishedAt": "2008-11-13"
+          }
+        },
+        {
+          "id": "pao-yu-yi-2026-05-28-development",
+          "occurredAt": "2026-05-28",
+          "type": "development",
+          "title": "Removed from OFAC SDN list",
+          "summary": "OFAC deleted Pao Yu Yi from its Specially Designated Nationals list. The 2005 indictment remains a separate historical allegation; no later criminal disposition is established by this action.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20260528",
+            "title": "Designations Removals",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2026-05-28",
+            "claim": "OFAC expressly lists Pao Yu Yi among persons deleted from its SDN list on 28 May 2026; the earlier 2008 designation is historical only."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pao-yu-liang",
+      "name": "Pao Yu Liang",
+      "aliases": [
+        "Ta Kyet",
+        "Bao Youliang"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "UWSA Central Committee member and military commander; 2005 U.S. narcotics indictee; OFAC listing checked September 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [
+        {
+          "iso3": "MMR",
+          "label": "Myanmar",
+          "evidence": {
+            "claim": "The DEA identifies Pao Yu Liang among the indicted UWSA leaders who made decisions about the organization’s narcotics activities in eastern Burma; this is a historical country association, not a live position.",
+            "period": "By January 2005",
+            "sourceUrl": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "DEA individually names Pao Yu Liang among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+          "publishedAt": "2005-01-24"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Pao Yu Liang as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 includes Pao Yu Liang."
+        }
+      ],
+      "events": [
+        {
+          "id": "pao-yu-liang-2005-01-24-charge",
+          "occurredAt": "2005-01-24",
+          "type": "charge",
+          "title": "Federal narcotics indictment announced",
+          "summary": "DEA announced that Pao Yu Liang was among eight UWSA leaders indicted on heroin and methamphetamine trafficking charges. No conviction is asserted.",
+          "source": {
+            "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+            "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+            "publisher": "Drug Enforcement Administration",
+            "language": "en",
+            "claim": "DEA individually names Pao Yu Liang among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+            "publishedAt": "2005-01-24"
+          }
+        },
+        {
+          "id": "pao-yu-liang-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Pao Yu Liang to its Specially Designated Nationals list. This is a historical designation event.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Pao Yu Liang as added to its Specially Designated Nationals list on 13 November 2008 under the Kingpin Act.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pao-yu-hua",
+      "name": "Pao Yu Hua",
+      "aliases": [
+        "Bao Youhua"
+      ],
+      "status": "reported",
+      "statusAsOf": "2009",
+      "roleLabel": "UWSA military and security commander; reported deceased in 2007; 2005 U.S. narcotics indictee",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [
+        {
+          "iso3": "MMR",
+          "label": "Myanmar",
+          "evidence": {
+            "claim": "The DEA identifies Pao Yu Hua among the indicted UWSA leaders who made decisions about the organization’s narcotics activities in eastern Burma; this is a historical country association, not a live position.",
+            "period": "By January 2005",
+            "sourceUrl": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "methamphetamine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "DEA individually names Pao Yu Hua among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+          "publishedAt": "2005-01-24"
+        },
+        {
+          "url": "https://2009-2017.state.gov/documents/organization/120054.pdf",
+          "title": "International Narcotics Control Strategy Report 2009, Volume I",
+          "publisher": "U.S. Department of State",
+          "language": "en",
+          "claim": "The State Department’s 2009 International Narcotics Control Strategy Report says Pao Yu-hua, one of the eight 2005 indictees, died of natural causes in 2007; it gives no exact day.",
+          "publishedAt": "2009"
+        }
+      ],
+      "events": [
+        {
+          "id": "pao-yu-hua-2005-01-24-charge",
+          "occurredAt": "2005-01-24",
+          "type": "charge",
+          "title": "Federal narcotics indictment announced",
+          "summary": "DEA announced that Pao Yu Hua was among eight UWSA leaders indicted on heroin and methamphetamine trafficking charges. No conviction is asserted.",
+          "source": {
+            "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+            "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+            "publisher": "Drug Enforcement Administration",
+            "language": "en",
+            "claim": "DEA individually names Pao Yu Hua among eight UWSA leaders charged in a federal narcotics indictment unsealed 24 January 2005; it identifies his historical role and the group’s eastern Burma narcotics activity. These are allegations, not convictions.",
+            "publishedAt": "2005-01-24"
+          }
+        },
+        {
+          "id": "pao-yu-hua-2007-development",
+          "occurredAt": "2007",
+          "type": "development",
+          "title": "Death reported for 2007",
+          "summary": "The State Department reported that Pao Yu Hua died of natural causes in 2007; an exact date was not stated.",
+          "source": {
+            "url": "https://2009-2017.state.gov/documents/organization/120054.pdf",
+            "title": "International Narcotics Control Strategy Report 2009, Volume I",
+            "publisher": "U.S. Department of State",
+            "language": "en",
+            "claim": "The State Department’s 2009 International Narcotics Control Strategy Report says Pao Yu-hua, one of the eight 2005 indictees, died of natural causes in 2007; it gives no exact day.",
+            "publishedAt": "2009"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ho-chun-ting",
+      "name": "Ho Chun Ting",
+      "aliases": [
+        "Ho Chung Ting",
+        "Aik Haw"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Treasury-described financial partner of Wei Hsueh Kang; 2005 U.S. charge and 2008 OFAC designation; OFAC listing checked September 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury individually names Ho Chun Ting as charged by federal prosecutors in May 2005 with money laundering and narcotics trafficking; it identifies him as a partner of Wei Hsueh Kang and reports his October 2007 Hong Kong arrest and later release. These are charges, not convictions.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Ho Chun Ting as added to its Specially Designated Nationals list on 13 November 2008.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 includes Ho Chun Ting."
+        }
+      ],
+      "events": [
+        {
+          "id": "ho-chun-ting-2005-05-charge",
+          "occurredAt": "2005-05",
+          "type": "charge",
+          "title": "Federal charges reported",
+          "summary": "Treasury reports that federal prosecutors charged Ho Chun Ting with money laundering and narcotics trafficking in May 2005; no conviction is asserted.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/hp1268",
+            "title": "Treasury Action Targets Burmese Drug Cartel",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "claim": "Treasury individually names Ho Chun Ting as charged by federal prosecutors in May 2005 with money laundering and narcotics trafficking; it identifies him as a partner of Wei Hsueh Kang and reports his October 2007 Hong Kong arrest and later release. These are charges, not convictions.",
+            "publishedAt": "2008-11-13"
+          }
+        },
+        {
+          "id": "ho-chun-ting-2007-10-arrest",
+          "occurredAt": "2007-10",
+          "type": "arrest",
+          "title": "Arrested, then later released",
+          "summary": "Treasury reports that Hong Kong authorities arrested Ho in October 2007 and later released him for reasons it did not know; no release date is given.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/hp1268",
+            "title": "Treasury Action Targets Burmese Drug Cartel",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "claim": "Treasury individually names Ho Chun Ting as charged by federal prosecutors in May 2005 with money laundering and narcotics trafficking; it identifies him as a partner of Wei Hsueh Kang and reports his October 2007 Hong Kong arrest and later release. These are charges, not convictions.",
+            "publishedAt": "2008-11-13"
+          }
+        },
+        {
+          "id": "ho-chun-ting-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Ho Chun Ting to its Specially Designated Nationals list.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Ho Chun Ting as added to its Specially Designated Nationals list on 13 November 2008.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shih-kuo-neng",
+      "name": "Shih Kuo Neng",
+      "aliases": [
+        "Shi Kwan Neink",
+        "Ah San"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Hong Pang conglomerate manager; 2005 U.S. charge and 2008 OFAC designation; OFAC listing checked September 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury individually names Shih Kuo Neng as charged by federal prosecutors in May 2005 with money laundering and narcotics trafficking; it identifies him as manager of the Hong Pang conglomerate. These are charges, not convictions.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Shih Kuo Neng as added to its Specially Designated Nationals list on 13 November 2008.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 includes Shih Kuo Neng."
+        }
+      ],
+      "events": [
+        {
+          "id": "shih-kuo-neng-2005-05-charge",
+          "occurredAt": "2005-05",
+          "type": "charge",
+          "title": "Federal charges reported",
+          "summary": "Treasury reports that federal prosecutors charged Shih Kuo Neng with money laundering and narcotics trafficking in May 2005; no conviction is asserted.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/hp1268",
+            "title": "Treasury Action Targets Burmese Drug Cartel",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "en",
+            "claim": "Treasury individually names Shih Kuo Neng as charged by federal prosecutors in May 2005 with money laundering and narcotics trafficking; it identifies him as manager of the Hong Pang conglomerate. These are charges, not convictions.",
+            "publishedAt": "2008-11-13"
+          }
+        },
+        {
+          "id": "shih-kuo-neng-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Shih Kuo Neng to its Specially Designated Nationals list.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Shih Kuo Neng as added to its Specially Designated Nationals list on 13 November 2008.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "warin-chaijamroonphan",
+      "name": "Warin Chaijamroonphan",
+      "aliases": [
+        "Warin Chaichamrunphan",
+        "Warin Pichayos"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Treasury-described financial associate and wife of Wei Hsueh Kang; 2005 OFAC designee; OFAC listing checked September 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/js3009",
+          "title": "Treasury Action Targets Southeast Asian Narcotics Traffickers",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury individually names Warin Chaijamroonphan as acting for Wei Hsueh Kang and the UWSA through front companies and materially assisting their narcotics activities; the release gives the family relationship and the 3 November 2005 designation.",
+          "publishedAt": "2005-11-03"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20051103",
+          "title": "Kingpin Act Designations: November 3, 2005",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Warin Chaijamroonphan and alternate spellings as added to its Specially Designated Nationals list on 3 November 2005.",
+          "publishedAt": "2005-11-03"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 includes Warin Chaijamroonphan."
+        }
+      ],
+      "events": [
+        {
+          "id": "warin-chaijamroonphan-2005-11-03-sanction",
+          "occurredAt": "2005-11-03",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Warin Chaijamroonphan to its Specially Designated Nationals list as part of the Wei/UWSA financial network.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20051103",
+            "title": "Kingpin Act Designations: November 3, 2005",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Warin Chaijamroonphan and alternate spellings as added to its Specially Designated Nationals list on 3 November 2005.",
+            "publishedAt": "2005-11-03"
+          }
+        }
+      ]
+    },
+    {
+      "id": "winai-pichayos",
+      "name": "Winai Pichayos",
+      "aliases": [
+        "Winai Phitchaiyot",
+        "Vinai Pichayos"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Treasury-described financial associate and brother of Warin; 2005 OFAC designee; OFAC listing checked September 2026",
+      "prominence": 2,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/js3009",
+          "title": "Treasury Action Targets Southeast Asian Narcotics Traffickers",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury individually names Winai Pichayos as acting for Wei Hsueh Kang and the UWSA through front companies and materially assisting their narcotics activities; the release gives the family relationship and the 3 November 2005 designation.",
+          "publishedAt": "2005-11-03"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20051103",
+          "title": "Kingpin Act Designations: November 3, 2005",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Winai Pichayos and alternate spellings as added to its Specially Designated Nationals list on 3 November 2005.",
+          "publishedAt": "2005-11-03"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 includes Winai Pichayos."
+        }
+      ],
+      "events": [
+        {
+          "id": "winai-pichayos-2005-11-03-sanction",
+          "occurredAt": "2005-11-03",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC added Winai Pichayos to its Specially Designated Nationals list as part of the Wei/UWSA financial network.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20051103",
+            "title": "Kingpin Act Designations: November 3, 2005",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Winai Pichayos and alternate spellings as added to its Specially Designated Nationals list on 3 November 2005.",
+            "publishedAt": "2005-11-03"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thit-akiraphokin",
+      "name": "Thit Akiraphokin",
+      "aliases": [
+        "Wei Ta Han"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Thit Akiraphokin (canonical entry Akiraphokin, Thit) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Thit Akiraphokin under entry Akiraphokin, Thit."
+        }
+      ],
+      "events": [
+        {
+          "id": "thit-akiraphokin-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Thit Akiraphokin as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Thit Akiraphokin (canonical entry Akiraphokin, Thit) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chanchira-boonchua",
+      "name": "Chanchira Boonchua",
+      "aliases": [
+        "Liang Ching-fang"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Chanchira Boonchua (canonical entry Boonchua, Chanchira) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Chanchira Boonchua under entry Boonchua, Chanchira."
+        }
+      ],
+      "events": [
+        {
+          "id": "chanchira-boonchua-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Chanchira Boonchua as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Chanchira Boonchua (canonical entry Boonchua, Chanchira) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ta-fa-cha",
+      "name": "Ta Fa Cha",
+      "aliases": [
+        "Lu Chin Shun"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Ta Fa Cha (canonical entry Cha, Ta Fa) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Ta Fa Cha under entry Cha, Ta Fa."
+        }
+      ],
+      "events": [
+        {
+          "id": "ta-fa-cha-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Ta Fa Cha as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Ta Fa Cha (canonical entry Cha, Ta Fa) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chin-sung-chang",
+      "name": "Chin Sung Chang",
+      "aliases": [
+        "Ah Sung"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Chin Sung Chang (canonical entry Chang, Chin Sung) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Chin Sung Chang under entry Chang, Chin Sung."
+        }
+      ],
+      "events": [
+        {
+          "id": "chin-sung-chang-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Chin Sung Chang as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Chin Sung Chang (canonical entry Chang, Chin Sung) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hsien-cheng-chou",
+      "name": "Hsien Cheng Chou",
+      "aliases": [
+        "Chew Kheng Siang"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Hsien Cheng Chou (canonical entry Chou, Hsien Cheng) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Hsien Cheng Chou under entry Chou, Hsien Cheng."
+        }
+      ],
+      "events": [
+        {
+          "id": "hsien-cheng-chou-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Hsien Cheng Chou as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Hsien Cheng Chou (canonical entry Chou, Hsien Cheng) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aung-hla",
+      "name": "Aung Hla",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Aung Hla (canonical entry Hla, Aung) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Aung Hla under entry Hla, Aung."
+        }
+      ],
+      "events": [
+        {
+          "id": "aung-hla-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Aung Hla as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Aung Hla (canonical entry Hla, Aung) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oo-oo-khine",
+      "name": "Oo Oo Khine",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Oo Oo Khine (canonical entry Khine, Oo Oo) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Oo Oo Khine under entry Khine, Oo Oo."
+        }
+      ],
+      "events": [
+        {
+          "id": "oo-oo-khine-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Oo Oo Khine as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Oo Oo Khine (canonical entry Khine, Oo Oo) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "la-bo-kya",
+      "name": "La Bo Kya",
+      "aliases": [
+        "Ja La Bo"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists La Bo Kya (canonical entry Kya, La Bo) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes La Bo Kya under entry Kya, La Bo."
+        }
+      ],
+      "events": [
+        {
+          "id": "la-bo-kya-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated La Bo Kya as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists La Bo Kya (canonical entry Kya, La Bo) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ssu-lao",
+      "name": "Ssu Lao",
+      "aliases": [
+        "Wang Ssu"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Ssu Lao (canonical entry Lao, Ssu) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Ssu Lao under entry Lao, Ssu."
+        }
+      ],
+      "events": [
+        {
+          "id": "ssu-lao-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Ssu Lao as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Ssu Lao (canonical entry Lao, Ssu) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cheng-yu-li",
+      "name": "Cheng Yu Li",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Cheng Yu Li (canonical entry Li, Cheng Yu) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Cheng Yu Li under entry Li, Cheng Yu."
+        }
+      ],
+      "events": [
+        {
+          "id": "cheng-yu-li-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Cheng Yu Li as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Cheng Yu Li (canonical entry Li, Cheng Yu) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kai-shou-li",
+      "name": "Kai Shou Li",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Kai Shou Li (canonical entry Li, Kai Shou) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Kai Shou Li under entry Li, Kai Shou."
+        }
+      ],
+      "events": [
+        {
+          "id": "kai-shou-li-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Kai Shou Li as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Kai Shou Li (canonical entry Li, Kai Shou) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "li-myint",
+      "name": "Li Myint",
+      "aliases": [
+        "Su Hsing"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-05-28",
+      "roleLabel": "Former OFAC designee tied to Wei/UWSA network; removed from SDN list in 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Li Myint (canonical entry Myint, Li) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20260528",
+          "title": "Designations Removals",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC expressly names Li Myint among persons deleted from its Specially Designated Nationals list on 28 May 2026.",
+          "publishedAt": "2026-05-28"
+        }
+      ],
+      "events": [
+        {
+          "id": "li-myint-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Li Myint as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Li Myint (canonical entry Myint, Li) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        },
+        {
+          "id": "li-myint-2026-05-28-development",
+          "occurredAt": "2026-05-28",
+          "type": "development",
+          "title": "Removed from OFAC SDN list",
+          "summary": "OFAC deleted Li Myint from its Specially Designated Nationals list. The 2008 designation remains a historical event.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20260528",
+            "title": "Designations Removals",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC expressly names Li Myint among persons deleted from its Specially Designated Nationals list on 28 May 2026.",
+            "publishedAt": "2026-05-28"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kong-po",
+      "name": "Kong Po",
+      "aliases": [
+        "Pu Chiang"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Kong Po (canonical entry Po, Kong) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Kong Po under entry Po, Kong."
+        }
+      ],
+      "events": [
+        {
+          "id": "kong-po-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Kong Po as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Kong Po (canonical entry Po, Kong) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "atchara-prapatwora",
+      "name": "Atchara Prapatwora",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Atchara Prapatwora (canonical entry Prapatwora, Atchara) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Atchara Prapatwora under entry Prapatwora, Atchara."
+        }
+      ],
+      "events": [
+        {
+          "id": "atchara-prapatwora-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Atchara Prapatwora as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Atchara Prapatwora (canonical entry Prapatwora, Atchara) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "suthep-samsaeng",
+      "name": "Suthep Samsaeng",
+      "aliases": [
+        "Wei Ta Chou"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Suthep Samsaeng (canonical entry Samsaeng, Suthep) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Suthep Samsaeng under entry Samsaeng, Suthep."
+        }
+      ],
+      "events": [
+        {
+          "id": "suthep-samsaeng-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Suthep Samsaeng as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Suthep Samsaeng (canonical entry Samsaeng, Suthep) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "naing-win-thet",
+      "name": "Naing Win Thet",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Naing Win Thet (canonical entry Thet, Naing Win) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Naing Win Thet under entry Thet, Naing Win."
+        }
+      ],
+      "events": [
+        {
+          "id": "naing-win-thet-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Naing Win Thet as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Naing Win Thet (canonical entry Thet, Naing Win) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shao-kuei-tuan",
+      "name": "Shao Kuei Tuan",
+      "aliases": [
+        "Tuan Ming Cheng"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated person tied to Wei/UWSA financial network; listing checked September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Shao Kuei Tuan (canonical entry Tuan, Shao Kuei) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official OFAC SDN list downloaded on 26 September 2026 still includes Shao Kuei Tuan under entry Tuan, Shao Kuei."
+        }
+      ],
+      "events": [
+        {
+          "id": "shao-kuei-tuan-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Shao Kuei Tuan as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Shao Kuei Tuan (canonical entry Tuan, Shao Kuei) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cheng-yun",
+      "name": "Cheng Yun",
+      "aliases": [
+        "Yin Chin"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-05-28",
+      "roleLabel": "Former OFAC designee tied to Wei/UWSA network; removed from SDN list in 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "uwsa"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20081113",
+          "title": "Recent OFAC Actions: November 13, 2008",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually lists Cheng Yun (canonical entry Yun, Cheng) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes the 26 named designees in this action as tied to Wei Hsueh Kang and the UWSA financial network; it does not accuse every individual of a specific narcotics offense.",
+          "publishedAt": "2008-11-13"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20260528",
+          "title": "Designations Removals",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC expressly names Cheng Yun among persons deleted from its Specially Designated Nationals list on 28 May 2026.",
+          "publishedAt": "2026-05-28"
+        }
+      ],
+      "events": [
+        {
+          "id": "cheng-yun-2008-11-13-sanction",
+          "occurredAt": "2008-11-13",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Cheng Yun as one of 26 people tied to the Wei/UWSA financial network. No individual criminal charge or conviction is asserted by this listing.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20081113",
+            "title": "Recent OFAC Actions: November 13, 2008",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually lists Cheng Yun (canonical entry Yun, Cheng) among 26 persons designated on 13 November 2008 under the Kingpin Act. The entry alone does not establish a personal drug charge or conviction.",
+            "publishedAt": "2008-11-13"
+          }
+        },
+        {
+          "id": "cheng-yun-2026-05-28-development",
+          "occurredAt": "2026-05-28",
+          "type": "development",
+          "title": "Removed from OFAC SDN list",
+          "summary": "OFAC deleted Cheng Yun from its Specially Designated Nationals list. The 2008 designation remains a historical event.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20260528",
+            "title": "Designations Removals",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC expressly names Cheng Yun among persons deleted from its Specially Designated Nationals list on 28 May 2026.",
+            "publishedAt": "2026-05-28"
+          }
+        }
+      ]
+    },
+    {
       "id": "jose-antonio-morales-nieves-weymouth-2025",
       "name": "Jose Antonio Morales Nieves",
       "status": "charged",
@@ -20502,6 +22604,142 @@
           "language": "English",
           "publishedAt": "2017-07-28",
           "claim": "DOJ describes the related indictment as charging Dámaso López Núñez and his son, Dámaso López Serrano."
+        }
+      ]
+    },
+    {
+      "id": "wei-hsueh-kang-wei-hsueh-lung-family",
+      "fromId": "wei-hsueh-kang",
+      "toId": "wei-hsueh-lung",
+      "type": "family",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "The DEA release explicitly states that the three named Wei defendants are brothers, and the named Pao defendants are brothers except Pao Hua Chiang.",
+          "publishedAt": "2005-01-24"
+        }
+      ]
+    },
+    {
+      "id": "wei-hsueh-kang-wei-hsueh-ying-family",
+      "fromId": "wei-hsueh-kang",
+      "toId": "wei-hsueh-ying",
+      "type": "family",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "The DEA release explicitly states that the three named Wei defendants are brothers, and the named Pao defendants are brothers except Pao Hua Chiang.",
+          "publishedAt": "2005-01-24"
+        }
+      ]
+    },
+    {
+      "id": "pao-yu-hsiang-pao-yu-yi-family",
+      "fromId": "pao-yu-hsiang",
+      "toId": "pao-yu-yi",
+      "type": "family",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "The DEA release explicitly states that the three named Wei defendants are brothers, and the named Pao defendants are brothers except Pao Hua Chiang.",
+          "publishedAt": "2005-01-24"
+        }
+      ]
+    },
+    {
+      "id": "pao-yu-hsiang-pao-yu-liang-family",
+      "fromId": "pao-yu-hsiang",
+      "toId": "pao-yu-liang",
+      "type": "family",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "The DEA release explicitly states that the three named Wei defendants are brothers, and the named Pao defendants are brothers except Pao Hua Chiang.",
+          "publishedAt": "2005-01-24"
+        }
+      ]
+    },
+    {
+      "id": "pao-yu-hsiang-pao-yu-hua-family",
+      "fromId": "pao-yu-hsiang",
+      "toId": "pao-yu-hua",
+      "type": "family",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.dea.gov/sites/default/files/pubs/states/newsrel/nyc012405.html",
+          "title": "Eight High-Ranking Leaders of Southeast Asia’s Largest Narcotics Trafficking Organization Indicted",
+          "publisher": "Drug Enforcement Administration",
+          "language": "en",
+          "claim": "The DEA release explicitly states that the three named Wei defendants are brothers, and the named Pao defendants are brothers except Pao Hua Chiang.",
+          "publishedAt": "2005-01-24"
+        }
+      ]
+    },
+    {
+      "id": "wei-hsueh-kang-warin-chaijamroonphan-family",
+      "fromId": "wei-hsueh-kang",
+      "toId": "warin-chaijamroonphan",
+      "type": "family",
+      "label": "Husband and wife, per Treasury",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/js3009",
+          "title": "Treasury Action Targets Southeast Asian Narcotics Traffickers",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury explicitly describes Warin Chaichamrunphan as one of Wei Hsueh Kang’s wives and Winai Phitchaiyot as Warin’s brother; both acted for Wei and the UWSA.",
+          "publishedAt": "2005-11-03"
+        }
+      ]
+    },
+    {
+      "id": "warin-chaijamroonphan-winai-pichayos-family",
+      "fromId": "warin-chaijamroonphan",
+      "toId": "winai-pichayos",
+      "type": "family",
+      "label": "Siblings, per Treasury",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/js3009",
+          "title": "Treasury Action Targets Southeast Asian Narcotics Traffickers",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury explicitly describes Warin Chaichamrunphan as one of Wei Hsueh Kang’s wives and Winai Phitchaiyot as Warin’s brother; both acted for Wei and the UWSA.",
+          "publishedAt": "2005-11-03"
+        }
+      ]
+    },
+    {
+      "id": "wei-hsueh-kang-ho-chun-ting-associate",
+      "fromId": "wei-hsueh-kang",
+      "toId": "ho-chun-ting",
+      "type": "associate",
+      "label": "Treasury-described financial partners",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/hp1268",
+          "title": "Treasury Action Targets Burmese Drug Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury explicitly identifies Ho Chun Ting as a partner of Wei Hsueh Kang.",
+          "publishedAt": "2008-11-13"
         }
       ]
     }
