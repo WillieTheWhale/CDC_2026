@@ -1,0 +1,15 @@
+{
+  "_ai_assistance": "AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.",
+  "model_id": "reflex-0.2.0",
+  "repository": "WillieTheWhale/CDC_2026",
+  "release_tag": "reflex-v0.2.0",
+  "url": "https://github.com/WillieTheWhale/CDC_2026/releases/download/reflex-v0.2.0/reflex-0.2.0.tar.gz",
+  "archive": {
+    "filename": "reflex-0.2.0.tar.gz",
+    "bytes": 248446027,
+    "sha256": "f7f178431dc0e846d1d9299309dbae27e87fb168e3d8d1862f5a14779077bc93"
+  },
+  "contents": ["config.json", "model.safetensors", "tokenizer.json", "tokenizer_config.json", "reflex.json", "eval.json"],
+  "base_model": "cross-encoder/nli-deberta-v3-xsmall (Apache-2.0)",
+  "trained": "2026-09-26 on a Google Colab T4 via the Colab CLI"
+}

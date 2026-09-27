@@ -61,6 +61,7 @@ def main(argv: list[str] | None = None) -> int:
     rt.add_argument("--model-id", default="reflex-0.1.0")
     rt.add_argument("--out-dir", default=None)
     rt.add_argument("--lr", type=float, default=3e-5)
+    sub.add_parser("reflex-download", help="download the published Reflex weights (verified) into data/reflex/model")
     re_ = sub.add_parser("reflex-eval", help="evaluate Reflex against the Reflex Parity Scale")
     re_.add_argument("--quick", action="store_true", help="small subsets")
     re_.add_argument("--model-dir", default=None)
@@ -86,6 +87,10 @@ def main(argv: list[str] | None = None) -> int:
     if a.cmd.startswith("reflex"):
         import os
         os.environ.setdefault("HF_HOME", str(__import__("trace_backend.config", fromlist=["x"]).DATA / "reflex" / "hf"))
+        if a.cmd == "reflex-download":
+            from trace_backend.reflex.release import download
+            logging.info("reflex weights: %s", download())
+            return 0
         if a.cmd == "reflex-data":
             from trace_backend.reflex.data import build
             logging.info("reflex data: %s", build(a.scale))
