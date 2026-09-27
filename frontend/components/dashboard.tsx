@@ -1,4 +1,5 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
+// AI-assisted: full screen map mode written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -10,12 +11,18 @@ import {
   ArrowRight,
   ArrowUpRight,
   Check,
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  ChevronUp,
   Command as CommandIcon,
   Database,
   FlaskConical,
   Globe2,
   GripHorizontal,
   Layers3,
+  Maximize2,
+  Minimize2,
   Pause,
   Play,
   Search,
@@ -126,6 +133,11 @@ export default function Dashboard() {
     [riskLimit, setRiskLimit] = useState(250),
     [clock, setClock] = useState("--:--:--"),
     [dataTime, setDataTime] = useState("");
+  // Full screen map: chrome is hidden and panels become pull-up overlays.
+  const [mapFull, setMapFull] = useState(false),
+    [sheetOpen, setSheetOpen] = useState(false),
+    [drawerOpen, setDrawerOpen] = useState(false);
+  const nativeFullscreen = useRef(false);
   const toastTimer = useRef<ReturnType<typeof setTimeout> | undefined>(
     undefined,
   );
@@ -325,6 +337,87 @@ export default function Dashboard() {
     setPlaying(false);
     setSimulation(null);
   };
+  const enterMapFull = useCallback(() => {
+    setView("atlas");
+    setMapFull(true);
+    setSheetOpen(false);
+    setLayersOpen(false);
+    // Browser full screen is a bonus; the layout works without it (iframes,
+    // Safari on iPhone), so a refused request is not an error.
+    const root = document.documentElement;
+    if (!document.fullscreenElement && root.requestFullscreen)
+      root
+        .requestFullscreen({ navigationUI: "hide" })
+        .then(() => (nativeFullscreen.current = true))
+        .catch(() => {});
+  }, []);
+  const exitMapFull = useCallback(() => {
+    setMapFull(false);
+    setSheetOpen(false);
+    setDrawerOpen(false);
+    if (nativeFullscreen.current && document.fullscreenElement)
+      document.exitFullscreen().catch(() => {});
+    nativeFullscreen.current = false;
+  }, []);
+  useEffect(() => {
+    // Leaving browser full screen (Esc, F11) also leaves the map mode.
+    const change = () => {
+      if (!document.fullscreenElement && nativeFullscreen.current) {
+        nativeFullscreen.current = false;
+        setMapFull(false);
+        setSheetOpen(false);
+        setDrawerOpen(false);
+      }
+    };
+    document.addEventListener("fullscreenchange", change);
+    return () => document.removeEventListener("fullscreenchange", change);
+  }, []);
+  useEffect(() => {
+    if (mapFull && view !== "atlas") exitMapFull();
+  }, [mapFull, view, exitMapFull]);
+  useEffect(() => {
+    if (mapFull && (selected || route || event)) setDrawerOpen(true);
+  }, [mapFull, selected, route, event]);
+  useEffect(() => {
+    const key = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (
+        commandOpen ||
+        sourcesOpen ||
+        e.metaKey ||
+        e.ctrlKey ||
+        e.altKey ||
+        target?.closest("input, textarea, select, [contenteditable='true']")
+      )
+        return;
+      if (e.key.toLowerCase() === "f" && view === "atlas") {
+        e.preventDefault();
+        if (mapFull) exitMapFull();
+        else enterMapFull();
+      } else if (mapFull && e.key === "Escape" && !layersOpen) {
+        // Peel one layer per press: sheet, then drawer, then the mode.
+        if (sheetOpen) setSheetOpen(false);
+        else if (drawerOpen) setDrawerOpen(false);
+        else exitMapFull();
+      } else if (mapFull && e.key.toLowerCase() === "p") {
+        setSheetOpen((open) => !open);
+      } else if (mapFull && e.key.toLowerCase() === "d") {
+        setDrawerOpen((open) => !open);
+      }
+    };
+    window.addEventListener("keydown", key);
+    return () => window.removeEventListener("keydown", key);
+  }, [
+    commandOpen,
+    sourcesOpen,
+    layersOpen,
+    view,
+    mapFull,
+    sheetOpen,
+    drawerOpen,
+    enterMapFull,
+    exitMapFull,
+  ]);
   const returnToMap = () => {
     if (window.innerWidth <= 760)
       window.scrollTo({
@@ -436,7 +529,16 @@ export default function Dashboard() {
   );
   return (
     <MotionConfig reducedMotion="user">
-      <div className="terminal">
+      <div
+        className={[
+          "terminal",
+          mapFull && "map-full",
+          mapFull && sheetOpen && "sheet-open",
+          mapFull && drawerOpen && "drawer-open",
+        ]
+          .filter(Boolean)
+          .join(" ")}
+      >
         <header className="topbar">
           <a
             className="brand"
@@ -607,6 +709,28 @@ export default function Dashboard() {
                           </div>
                         )}
                       </div>
+                      <button
+                        className={
+                          mapFull
+                            ? "outline-button map-full-toggle active"
+                            : "outline-button map-full-toggle"
+                        }
+                        aria-label={
+                          mapFull ? "Exit full screen map" : "Full screen map"
+                        }
+                        aria-pressed={mapFull}
+                        title={
+                          mapFull ? "Exit full screen (Esc)" : "Full screen (F)"
+                        }
+                        onClick={mapFull ? exitMapFull : enterMapFull}
+                      >
+                        {mapFull ? (
+                          <Minimize2 size={15} />
+                        ) : (
+                          <Maximize2 size={15} />
+                        )}
+                        <span>{mapFull ? "Exit" : "Full screen"}</span>
+                      </button>
                     </div>
                   </div>
                   <AtlasMap
@@ -716,6 +840,28 @@ export default function Dashboard() {
                   </div>
                 </div>
                 {view === "atlas" && (
+                  <div className="dock-shell">
+                  {mapFull && (
+                    <button
+                      className="sheet-tab"
+                      aria-expanded={sheetOpen}
+                      aria-controls="atlas-panels"
+                      title="Risk watchlist and live wire (P)"
+                      onClick={() => setSheetOpen((open) => !open)}
+                    >
+                      {sheetOpen ? (
+                        <ChevronDown size={14} />
+                      ) : (
+                        <ChevronUp size={14} />
+                      )}
+                      Risk watchlist <i aria-hidden>·</i> Live wire
+                    </button>
+                  )}
+                  <div
+                    id="atlas-panels"
+                    className="dock-sheet"
+                    inert={mapFull && !sheetOpen ? true : undefined}
+                  >
                   <Dock>
                     <section key="risk" className="dock-panel">
                       <div className="dock-heading">
@@ -777,6 +923,8 @@ export default function Dashboard() {
                       />
                     </section>
                   </Dock>
+                  </div>
+                  </div>
                 )}
                 {view !== "atlas" && (
                   <motion.div
@@ -857,10 +1005,36 @@ export default function Dashboard() {
                   </motion.div>
                 )}
               </div>
+              {view === "atlas" && mapFull && (
+                <button
+                  className="drawer-tab"
+                  aria-expanded={drawerOpen}
+                  aria-controls="atlas-inspector"
+                  title="Details (D)"
+                  onClick={() => setDrawerOpen((open) => !open)}
+                >
+                  {drawerOpen ? (
+                    <ChevronRight size={14} />
+                  ) : (
+                    <ChevronLeft size={14} />
+                  )}
+                  <span>
+                    {route
+                      ? "Route"
+                      : country
+                        ? country.iso3
+                        : event
+                          ? "Signal"
+                          : "Risk"}
+                  </span>
+                </button>
+              )}
               {view === "atlas" && (
                 <aside
+                  id="atlas-inspector"
                   className="inspector"
                   aria-label="Country and route details"
+                  inert={mapFull && !drawerOpen ? true : undefined}
                 >
                   {route ? (
                     <RouteInspector

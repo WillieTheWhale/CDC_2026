@@ -3910,3 +3910,236 @@ select {
     margin-top: 12px;
   }
 }
+
+/* AI-assisted: full screen map mode written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+   The map fills the viewport; drug filters, map controls and the timeline
+   float over it; the dock and inspector become pull-up overlays. */
+.map-full-toggle {
+  gap: 7px;
+}
+.terminal.map-full {
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+  overflow: hidden;
+}
+.terminal.map-full .topbar,
+.terminal.map-full .statusbar {
+  display: none;
+}
+.terminal.map-full .workspace {
+  display: block;
+}
+.terminal.map-full .atlas-area {
+  position: fixed;
+  inset: 0;
+  height: auto;
+  min-height: 0;
+  border: 0;
+  z-index: 40;
+}
+.terminal.map-full .atlas-area:before {
+  height: 96px;
+}
+.terminal.map-full .workspace-toolbar {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 45;
+  height: 42px;
+  padding: 0 4px;
+  border: 1px solid #c8d3e0;
+  background: #fffffff2;
+  box-shadow: 0 6px 24px #1b2a3c1f;
+  backdrop-filter: blur(6px);
+}
+.terminal.map-full .drug-filters button {
+  padding: 0 13px;
+}
+.terminal.map-full .drug-filters button.active::after {
+  left: 11px;
+  right: 11px;
+}
+.terminal.map-full .atlas-heading {
+  top: 16px;
+  right: 16px;
+  transition: right 0.28s ease;
+}
+.terminal.map-full .atlas-controls > * {
+  box-shadow: 0 6px 24px #1b2a3c1f;
+}
+.terminal.map-full .timeline {
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  height: 64px;
+  border: 1px solid #c8d3e0;
+  box-shadow: 0 8px 28px #1b2a3c24;
+  z-index: 44;
+}
+.terminal.map-full .map-legend {
+  bottom: 138px;
+}
+.terminal.map-full .map-route-scale {
+  top: 70px;
+  left: 16px;
+}
+.terminal.map-full .map-position {
+  bottom: 96px;
+}
+.terminal.map-full .map-tools {
+  bottom: 138px;
+  transition: right 0.28s ease;
+}
+
+/* Pull-up sheet: risk watchlist and live wire. */
+.terminal.map-full .dock-shell {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 88px;
+  z-index: 46;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+  transform: translateY(calc(100% - 32px));
+  transition:
+    transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
+    right 0.28s ease;
+}
+.terminal.map-full.sheet-open .dock-shell {
+  transform: none;
+}
+.terminal.map-full .sheet-tab {
+  pointer-events: auto;
+  align-self: center;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 16px;
+  border: 1px solid #c8d3e0;
+  border-bottom: 0;
+  background: #fffffff2;
+  color: #33475e;
+  font-size: 11px;
+  box-shadow: 0 -4px 18px #1b2a3c14;
+}
+.terminal.map-full .sheet-tab:hover {
+  color: #172b40;
+}
+.terminal.map-full .sheet-tab i {
+  font-style: normal;
+  color: #9ba2ac;
+}
+.terminal.map-full .dock-sheet {
+  pointer-events: auto;
+  border: 1px solid #c8d3e0;
+  background: #f7f9fc;
+  box-shadow: 0 10px 34px #1b2a3c29;
+  max-height: calc(100dvh - 190px);
+  overflow: auto;
+  transition:
+    opacity 0.2s ease,
+    visibility 0s linear 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.terminal.map-full.sheet-open .dock-sheet {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s ease;
+}
+
+/* Details drawer: the inspector slides in from the right. */
+.terminal.map-full .inspector {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  bottom: 88px;
+  width: min(340px, calc(100vw - 72px));
+  min-height: 0;
+  max-height: none;
+  z-index: 47;
+  border: 1px solid #c8d3e0;
+  box-shadow: 0 10px 34px #1b2a3c29;
+  transform: translateX(calc(100% + 24px));
+  visibility: hidden;
+  transition:
+    transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
+    visibility 0s linear 0.3s;
+}
+.terminal.map-full.drawer-open .inspector {
+  transform: none;
+  visibility: visible;
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.terminal.map-full .drawer-tab {
+  position: fixed;
+  top: 72px;
+  right: 16px;
+  z-index: 47;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 0;
+  width: 30px;
+  border: 1px solid #c8d3e0;
+  border-right: 0;
+  background: #fffffff2;
+  color: #33475e;
+  font: 500 10px var(--mono);
+  letter-spacing: 0.4px;
+  box-shadow: -4px 4px 18px #1b2a3c14;
+  transition: right 0.28s ease;
+}
+.terminal.map-full .drawer-tab span {
+  writing-mode: vertical-rl;
+  text-transform: uppercase;
+}
+.terminal.map-full .drawer-tab:hover {
+  color: #172b40;
+}
+.terminal.map-full.drawer-open .drawer-tab {
+  right: calc(min(340px, 100vw - 72px) + 16px);
+}
+.terminal.map-full.drawer-open .atlas-heading,
+.terminal.map-full.drawer-open .map-tools {
+  right: calc(min(340px, 100vw - 72px) + 32px);
+}
+.terminal.map-full.drawer-open .dock-shell {
+  right: calc(min(340px, 100vw - 72px) + 24px);
+}
+.terminal.map-full ~ .toast,
+.terminal.map-full .toast {
+  bottom: 140px;
+}
+@media (max-width: 760px) {
+  .terminal.map-full .workspace-toolbar {
+    right: 16px;
+    overflow-x: auto;
+  }
+  .terminal.map-full .atlas-heading {
+    top: 70px;
+  }
+  .terminal.map-full .map-full-toggle span,
+  .terminal.map-full .layer-control span {
+    display: none;
+  }
+  .terminal.map-full .timeline {
+    padding: 6px 12px;
+    gap: 12px;
+  }
+  .terminal.map-full.drawer-open .dock-shell {
+    right: 16px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .terminal.map-full .dock-shell,
+  .terminal.map-full .inspector,
+  .terminal.map-full .drawer-tab,
+  .terminal.map-full .atlas-heading {
+    transition: none;
+  }
+}
