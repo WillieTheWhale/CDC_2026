@@ -53,15 +53,30 @@
       "regions": [
         {
           "iso3": "IDN",
-          "label": "Indonesia"
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "Bareskrim alleged Fredy directed methamphetamine and ecstasy distribution in Indonesia during 2020–2023.",
+            "period": "2020–2023",
+            "sourceUrl": "https://www.antaranews.com/berita/3723543/bareskrim-sita-aset-jaringan-narkoba-fredy-pratama"
+          }
         },
         {
           "iso3": "MYS",
-          "label": "Malaysia"
+          "label": "Malaysia",
+          "evidence": {
+            "claim": "Bareskrim alleged Fredy directed the network’s drug distribution in East Malaysia; this is a police assessment, not a Malaysian conviction.",
+            "period": "2020–2023",
+            "sourceUrl": "https://www.antaranews.com/berita/3723543/bareskrim-sita-aset-jaringan-narkoba-fredy-pratama"
+          }
         },
         {
           "iso3": "THA",
-          "label": "Thailand"
+          "label": "Thailand",
+          "evidence": {
+            "claim": "Bareskrim alleged Fredy remotely directed an Indonesian ecstasy production operation from Thailand. Thailand marks the reported historical command location, not a proven Thai retail market or present whereabouts.",
+            "period": "2024",
+            "sourceUrl": "https://tribratanews.polri.go.id/blog/hukum-4/bareskrim-bongkar-pabrik-ekstasi-dikendalikan-fredy-pratama-di-sunter-72266"
+          }
         }
       ],
       "drugs": [
@@ -84,6 +99,22 @@
           "language": "Indonesian",
           "publishedAt": "2026-06-19",
           "claim": "Polri identifies Frans Antoni as an alleged finance and field coordinator for Fredy Pratama and reports his 18 June 2026 arrest; Fredy remained wanted as of the report."
+        },
+        {
+          "url": "https://www.antaranews.com/berita/3723543/bareskrim-sita-aset-jaringan-narkoba-fredy-pratama",
+          "title": "Bareskrim sita aset jaringan narkoba Fredy Pratama",
+          "publisher": "ANTARA News reporting Bareskrim statement",
+          "language": "Indonesian",
+          "publishedAt": "2023-09-12",
+          "claim": "Bareskrim alleges Fredy directed drug distribution in Indonesia and East Malaysia from Thailand during 2020–2023."
+        },
+        {
+          "url": "https://tribratanews.polri.go.id/blog/hukum-4/bareskrim-bongkar-pabrik-ekstasi-dikendalikan-fredy-pratama-di-sunter-72266",
+          "title": "Bareskrim Bongkar Pabrik Ekstasi Dikendalikan Fredy Pratama di Sunter",
+          "publisher": "Indonesian National Police",
+          "language": "Indonesian",
+          "publishedAt": "2024-04-05",
+          "claim": "Bareskrim alleges Fredy directly controlled an Indonesian ecstasy production site from Thailand in April 2024."
         }
       ],
       "events": [
@@ -133,11 +164,21 @@
       "regions": [
         {
           "iso3": "IDN",
-          "label": "Indonesia"
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "Bareskrim alleged Frans managed narcotics proceeds in Indonesia for Fredy’s network.",
+            "period": "2017–2023",
+            "sourceUrl": "https://tribratanews.polri.go.id/blog/hukum-4/bareskrim-polri-amankan-dpo-jaringan-fredy-pratama-ungkap-peran-pengendali-keuangan-sindikat-narkotika-internasional-102859"
+          }
         },
         {
           "iso3": "THA",
-          "label": "Thailand"
+          "label": "Thailand",
+          "evidence": {
+            "claim": "Bareskrim alleged Frans transported narcotics proceeds from Indonesia to Thailand. This is a historical financial role, not a claim that he sold drugs in Thailand.",
+            "period": "2017–2023",
+            "sourceUrl": "https://tribratanews.polri.go.id/blog/hukum-4/bareskrim-polri-amankan-dpo-jaringan-fredy-pratama-ungkap-peran-pengendali-keuangan-sindikat-narkotika-internasional-102859"
+          }
         }
       ],
       "drugs": [
@@ -152,6 +193,14 @@
           "language": "Indonesian",
           "publishedAt": "2026-06-19",
           "claim": "Polri identifies Frans Antoni as an alleged finance and field coordinator for Fredy Pratama and reports his 18 June 2026 arrest; Fredy remained wanted as of the report."
+        },
+        {
+          "url": "https://tribratanews.polri.go.id/blog/hukum-4/bareskrim-polri-amankan-dpo-jaringan-fredy-pratama-ungkap-peran-pengendali-keuangan-sindikat-narkotika-internasional-102859",
+          "title": "Bareskrim Polri Amankan DPO Jaringan Fredy Pratama",
+          "publisher": "Indonesian National Police",
+          "language": "Indonesian",
+          "publishedAt": "2026-06-21",
+          "claim": "Bareskrim alleges Frans managed drug-network finances and moved narcotics proceeds from Indonesia to Thailand during 2017–2023."
         }
       ],
       "events": [
@@ -188,7 +237,12 @@
       "regions": [
         {
           "iso3": "IDN",
-          "label": "Indonesia"
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "According to the prosecutor indictment reported by Polri, Andri allegedly facilitated drug transports in Indonesia in 2023; his subsequent conviction is separately recorded.",
+            "period": "2023",
+            "sourceUrl": "https://inp.polri.go.id/artikel/former-police-officer-received-idr-1-34-billion-for-escorting-fredy-pratamas-narcotics"
+          }
         }
       ],
       "drugs": [
@@ -211,6 +265,14 @@
           "language": "Indonesian",
           "publishedAt": "2024-04-22",
           "claim": "A court spokesperson says the appellate court upheld the first-instance death sentence against Andri Gustami; this does not establish that all remedies were exhausted."
+        },
+        {
+          "url": "https://inp.polri.go.id/artikel/former-police-officer-received-idr-1-34-billion-for-escorting-fredy-pratamas-narcotics",
+          "title": "Former Police Officer Received IDR 1.34 Billion from Fredy Pratama",
+          "publisher": "Indonesian National Police",
+          "language": "English",
+          "publishedAt": "2023-10-24",
+          "claim": "Reporting the prosecutor indictment, Polri says Andri allegedly facilitated eight narcotics transports in Indonesia in 2023."
         }
       ],
       "events": [
@@ -263,7 +325,12 @@
       "regions": [
         {
           "iso3": "IDN",
-          "label": "Indonesia"
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "Polda Kalsel identified Rivaldo/Kif as a network operator allegedly directing narcotics distribution in Indonesia, including a reported 2024 shipment; distinct court outcomes are separately recorded.",
+            "period": "2023–2024",
+            "sourceUrl": "https://www.antaranews.com/berita/4595594/polda-kalsel-ungkap-kif-operator-fredy-pratama-terlibat-35-kg-sabu"
+          }
         }
       ],
       "drugs": [
@@ -294,6 +361,14 @@
           "language": "Indonesian",
           "publishedAt": "2025-11-03",
           "claim": "Reports that PN Banjarmasin found Rivaldo guilty in a separate narcotics case on 3 November 2025 but imposed no additional sentence because he was already under a death sentence from the Tanjung Karang case; this is a separate first-instance decision."
+        },
+        {
+          "url": "https://www.antaranews.com/berita/4595594/polda-kalsel-ungkap-kif-operator-fredy-pratama-terlibat-35-kg-sabu",
+          "title": "Polda Kalsel ungkap Kif operator Fredy Pratama terlibat 35 kg sabu",
+          "publisher": "ANTARA News reporting Polda Kalsel statement",
+          "language": "Indonesian",
+          "publishedAt": "2025-01-20",
+          "claim": "Polda Kalsel alleges Rivaldo/Kif controlled drug distribution in Indonesia and directed a separate 2024 methamphetamine shipment."
         }
       ],
       "events": [
@@ -343,7 +418,12 @@
       "regions": [
         {
           "iso3": "IDN",
-          "label": "Indonesia"
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "JTV’s account of the prosecutor indictment and Surabaya verdict says Steven handled Indonesian proceeds of the Fredy network’s drug sales during 2019–2023. His conviction was for money laundering, not drug trafficking.",
+            "period": "2019–2023",
+            "sourceUrl": "https://portaljtv.com/news/anak-buah-gembong-narkoba-internasional-divonis-15-tahun-penjara-di-pn-surabaya"
+          }
         }
       ],
       "drugs": [
@@ -392,7 +472,12 @@
       "regions": [
         {
           "iso3": "IDN",
-          "label": "Indonesia"
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "ANTARA reports an Indonesian court convicted Adelia of receiving proceeds from Indonesian narcotics sales tied to the Fredy network; this was a money-laundering case, not a trafficking conviction.",
+            "period": "before May 2024",
+            "sourceUrl": "https://lampung.antaranews.com/berita/728985/vonis-selebgram-adeia-putri-salma%C2%A0"
+          }
         }
       ],
       "drugs": [
