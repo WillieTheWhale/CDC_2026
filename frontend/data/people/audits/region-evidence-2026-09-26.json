@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2602,
-    "associations": 1777,
-    "evidenced": 1777,
+    "people": 2801,
+    "associations": 1836,
+    "evidenced": 1836,
     "missing": 0,
     "invalid": 0
   },
@@ -183,10 +183,24 @@
       "missing": 0,
       "invalid": 0
     },
+    "doj_corpus_growth9_reviewed_2026.json": {
+      "people": 150,
+      "associations": 57,
+      "evidenced": 57,
+      "missing": 0,
+      "invalid": 0
+    },
     "doj_corpus_reviewed_2026.json": {
       "people": 53,
       "associations": 53,
       "evidenced": 53,
+      "missing": 0,
+      "invalid": 0
+    },
+    "doj_supplemental_rosters_2025.json": {
+      "people": 49,
+      "associations": 2,
+      "evidenced": 2,
       "missing": 0,
       "invalid": 0
     },
@@ -648,8 +662,8 @@
       "invalid": 0
     },
     "USA": {
-      "associations": 650,
-      "evidenced": 650,
+      "associations": 707,
+      "evidenced": 707,
       "missing": 0,
       "invalid": 0
     },
@@ -734,6 +748,12 @@
     "VIR": {
       "associations": 1,
       "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    "GUM": {
+      "associations": 2,
+      "evidenced": 2,
       "missing": 0,
       "invalid": 0
     },
