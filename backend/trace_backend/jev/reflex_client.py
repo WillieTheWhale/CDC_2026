@@ -37,17 +37,19 @@ class ReflexClassifier(JevClassifier):
         from ..reflex import Choice, Noul, Score
         opts = {self.short.get(c, c): None for c in cands}
         opts["not_stated"] = "The article does not say"
-        return {
+        q = {
             "is_event": Noul("Does the article describe a specific drug seizure, arrest, lab raid, violence, "
                              "corruption case or policy change?"),
             "event_type": Choice("What kind of event does the article report?", dict(self.EVENT_TYPES)),
             "drug": Choice("Which drug is mainly involved?", dict(self.DRUG_OPTS)),
-            "origin": Choice("Which country did the drugs come from, according to the article?", dict(opts)),
-            "destination": Choice("Which country were the drugs seized in or going to, according to the article?",
-                                  dict(opts)),
             "size": Score("How large is the seizure?", list(self.SIZE_LEVELS)),
             "route_mentioned": Noul("Does the article say where the drugs came from or were going?"),
         }
+        if cands:  # no country mentioned: nothing to choose between, so no country questions
+            q["origin"] = Choice("Which country did the drugs come from, according to the article?", dict(opts))
+            q["destination"] = Choice("Which country were the drugs seized in or going to, according to the article?",
+                                      dict(opts))
+        return q
 
     def classify(self, title: str, text: str = "") -> Classification:
         state = re.sub(r"\s+", " ", f"{title}. {text}".strip())[:1500]
@@ -55,8 +57,8 @@ class ReflexClassifier(JevClassifier):
         r = self.rx.system_one(state, self.questions(cands))
         a = r.answers
         back = {self.short.get(c, c): c for c in cands}
-        orig = back.get(a["origin"].choice)
-        dest = back.get(a["destination"].choice)
+        orig = back.get(a["origin"].choice) if "origin" in a else None
+        dest = back.get(a["destination"].choice) if "destination" in a else None
         if orig and orig == dest:
             orig = None
         size_score = a["size"].score / 3

@@ -51,7 +51,7 @@ TYPESAFE_API_KEY = os.environ.get("TYPESAFE_API_KEY", "").strip()
 JEV_MODEL = os.environ.get("JEV_MODEL", "jev-1.13.0")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 GDELT_POLL_MINUTES = int(os.environ.get("GDELT_POLL_MINUTES", "15") or 15)
-CORS_ORIGINS = [o.strip() for o in os.environ.get("CORS_ORIGINS", "http://localhost:3000").split(",") if o.strip()]
+CORS_ORIGINS = [o.strip() for o in os.environ.get("CORS_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000").split(",") if o.strip()]
 
 
 def ensure_dirs() -> None:

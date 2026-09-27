@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "trace-api",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "set TRACE_CLASSIFIER=mock&& set TRACE_LIVEWIRE_REPLAY_SECONDS=20&& cd backend && .venv\\Scripts\\trace.exe serve --port 8000"],
+      "port": 8000
+    },
+    {
+      "name": "trace-frontend",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "set NEXT_PUBLIC_API_URL=http://127.0.0.1:8000&& cd frontend && npm run dev"],
+      "port": 3000,
+      "url": "http://127.0.0.1:3000"
+    }
+  ]
+}

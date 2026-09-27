@@ -69,6 +69,22 @@ Every example is converted into a System One request with its instructions and c
 | Score | Yelp reviews (1-5 stars, descriptive levels) | SST-5 (5-level sentiment) |
 | TRACE domain | Headlines generated from real UNODC IDS seizure records in the SQLite archive (country, city, drug, quantity, place, transport mode), with non-event and policy/arrest/lab/violence/corruption variants. Labels are exact by construction | The 100-headline Live Wire eval set (written separately, different wording) |
 
-## 5. Results
+## 5. Results (2026-09-26, trained on a Colab T4 GPU via the Colab CLI)
 
-Filled in from `backend/data/reflex/eval.json` after training; see the table in `backend/README.md` (Reflex section).
+Full reports: `backend/trace_backend/reflex/results/eval_v0.1.json` and `eval_v0.2.json`.
+
+- **v0.1** (`reflex-0.1.0`): the NLI backbone fine-tuned on 10,777 examples (open datasets plus headlines generated from real UNODC seizure records).
+- **v0.2** (`reflex-0.2.0`): v0.1 continued on 2,351 Claude-written, blind-verified headlines, plus 4,000 replayed v0.1 examples.
+
+| Parity level | v0.1 | v0.2 | Evidence (v0.2) |
+|---|---|---|---|
+| L0/L1 interface and output contract | pass | pass | all checks, including the confidence formula on TypeSafe's documented examples |
+| L2 trained competence | pass | pass | held-out accuracy 90.2% vs 48.1% for the untuned backbone; beats majority baseline on every task |
+| L3 zero-shot | **fail** | **fail** | RTE 80% (backbone 63%), SST-5 43% (25%), but Emotion 50.5% < backbone 57% |
+| L4 calibration | pass | pass | ECE 0.020 in distribution (backbone 0.206), 0.062 zero-shot; independent tests put Jev at about 0.02-0.03 |
+| L5 structure | pass | pass | structured JSON state at least as accurate as flattened text |
+| L6 TRACE domain | **fail** | **fail** | beats the keyword mock on is_event (0.97 vs 0.81), event type (0.98 vs 0.80), drug (0.90 vs 0.89), origin (0.91 vs 0.89), destination (0.82 vs 0.52); **loses on seizure size (0.89 vs 0.96)** |
+| L7 jaggedness profile | documented | documented | P(q) + P(not q) sums 0.47 to 1.36 (Jev documents 1.19); counting and dates unreliable; ignores irrelevant filler; follows swapped criteria |
+| L8 speed | pass | pass | about 50 ms per 7-question headline on a T4, about 0.4-0.8 s on the laptop CPU |
+
+On 1,878 questions about Claude-written headlines it never saw, v0.2 scores 95.3% (v0.1: 89.2%) with calibration error 0.009. v0.2 is the shipped Live Wire model. Following TypeSafe's own advice to keep numbers in code, the next step is to compute seizure size from stated quantities, which would clear L6. Caveat: every domain test set is synthetic; team-labelled real headlines are the honest next benchmark.

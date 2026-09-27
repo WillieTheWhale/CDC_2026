@@ -217,7 +217,7 @@ def latency(rx: Reflex) -> dict:
         rx.system_one("Can I please talk to a real person?", {"q": Noul("Is the customer asking for a human agent?")})
         one.append(1000 * (time.perf_counter() - t0))
     return {"livewire_7_questions_ms_median": round(statistics.median(ts), 1),
-            "single_noul_ms_median": round(statistics.median(one), 1), "device": "laptop CPU (Intel Core 7 150U)",
+            "single_noul_ms_median": round(statistics.median(one), 1), "device": (torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU"),
             "jev_reference_ms": "70-500 incl. network (TypeSafe)", "pass": True}
 
 

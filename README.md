@@ -40,6 +40,7 @@ deck/        judging pitch deck (rebuilds itself from this repo)
 | T5 route models + backtest + Afghan ban test | backend | done, retrained on SQLite archive (hurdle AUC 0.88 vs gravity 0.58; Afghan ban 9/13 corridors, SEA share 5%->14% pred vs 13% actual) |
 | T6 spillover risk | backend | done (217 countries x 2008-2025, HRI per edition; hypothesis not supported) |
 | SQLite v2 migration | backend | done (archive read-only + `derived.sqlite`; DuckDB removed) |
+| Reflex (own System One model) | backend | v0.2 shipped as the Live Wire classifier: 98% event type, 82% destination (mock 52%), ECE 0.02; see [REFLEX_SPEC.md](docs/REFLEX_SPEC.md) |
 | T7 export + API | backend | done (precomputed JSON, FastAPI, contract tests) |
 | T8 Live Wire (mock Jev) | backend | done (JevClassifier + mock, GDELT poller with replay fallback, REST + WS) |
 | T9 shock simulator | backend | done (structured + plain-English shocks, command bar) |

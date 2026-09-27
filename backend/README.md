@@ -106,3 +106,16 @@ tests/       98 tests (unit, contract validation, WebSocket)
 
 ### Earlier DuckDB run vs the SQLite archive
 The first build (DuckDB, annex 2015-2024 plus an IDS backcast to 2011) scored hurdle AUC 0.924, Afghan direction 12 of 14, and SEA share 12.7% predicted vs 14.1% actual. The archive run trains on real seizures from 2006 with no backcast, and has more test-period corridors (634 candidates). AUC is lower (0.881 vs 0.924) but still well above both baselines. The Afghan share forecast is closer (13.9% vs 13.4% actual), while fewer individual corridor directions are right (9 of 13). The archive numbers above are the current ones.
+
+## Reflex: TRACE's own System One model
+
+Reflex re-implements the documented behaviour of TypeSafe's Jev (typed Choice/Score/Noul answers with calibrated probabilities) on an open NLI encoder. Its spec, the Parity Scale and results are in [`docs/REFLEX_SPEC.md`](../docs/REFLEX_SPEC.md).
+
+```bash
+uv sync --extra reflex                 # torch, transformers, datasets
+uv run trace reflex-data               # build open-dataset + UNODC-record splits
+uv run trace reflex-train              # CPU training (hours on a laptop)
+uv run trace reflex-eval --model-dir data/reflex/model
+```
+
+To train on a GPU with the Google Colab CLI (Linux, macOS or WSL, signed in with `gcloud auth application-default login`), follow the steps in `scripts/colab_reflex.py`. Both versions trained and evaluated in about 7 minutes on a T4, using 0.41 compute units. The Live Wire uses Reflex automatically when `data/reflex/model/reflex.json` exists. `TRACE_CLASSIFIER=mock|reflex|jev` forces a choice.

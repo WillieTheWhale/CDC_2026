@@ -118,7 +118,7 @@ class LiveWire:
     def build_event(self, title: str, url: str, published: datetime, domain: str, language: str = "English",
                     text: str = "") -> dict | None:
         c = self.classifier.classify(title, text)
-        if c.confidence < MIN_CONF:
+        if c.confidence < MIN_CONF or c.is_event < 0.5:  # confident non-events never reach the wire
             return None
         o, d = c.origin, c.destination
         p = self.edge_probability(c.drug, o, d)
