@@ -57,6 +57,34 @@
       ]
     },
     {
+      "id": "barryshine-cocaine-network",
+      "name": "Barryshine cocaine network",
+      "aliases": [
+        "Barryshine drug cartel"
+      ],
+      "regions": [
+        "NGA"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested",
+          "title": "Wanted drug baron behind 4 cocaine shipments to Saudi Arabia, Qatar arrested",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA alleges Suleiman led the cocaine network, reports his 26 August 2024 arrest, directly describes Olanrewaju and Oluwafemi as alleged recruiters, and names individual 2022 and 2024 courier cases. Its allegations are not convictions of these five people.",
+          "publishedAt": "2024-09-13"
+        },
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA reports a 28 January 2025 Federal High Court order declaring four named associates wanted for alleged drug-trafficking activity with Suleiman and says Suleiman faced multiple criminal charges.",
+          "publishedAt": "2025-02-10"
+        }
+      ]
+    },
+    {
       "id": "cjng",
       "name": "Cártel de Jalisco Nueva Generación",
       "aliases": [
@@ -2039,6 +2067,343 @@
           "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
           "language": "en",
           "claim": "Seyed Moulana: The Royal Commission exhibit individually names this person among those convicted of laundering proceeds derived from or related to the syndicate’s drug trafficking."
+        }
+      ]
+    },
+    {
+      "id": "suleiman-ganiu-aremu",
+      "name": "Suleiman Ganiu Aremu",
+      "aliases": [
+        "Barryshine",
+        "Ejeoto",
+        "Suleiman Aremu Ganiu"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-02-10",
+      "roleLabel": "NDLEA-identified alleged network leader; arrested August 2024 and facing drug charges as of February 2025",
+      "prominence": 3,
+      "organizationIds": [
+        "barryshine-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested",
+          "title": "Wanted drug baron behind 4 cocaine shipments to Saudi Arabia, Qatar arrested",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA identifies Suleiman as alleged leader and reports his 26 August 2024 arrest in its cocaine case; it does not report a criminal conviction for him.",
+          "publishedAt": "2024-09-13"
+        },
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA states Suleiman faced multiple criminal charges as of 10 February 2025; the four associates were wanted under a separate court notice.",
+          "publishedAt": "2025-02-10"
+        },
+        {
+          "url": "https://guardian.ng/news/court-remands-drug-baron-anochili-three-mexicans-others-over-n480b-drug-lab/",
+          "title": "Court remands drug baron Anochili, three Mexicans, others over N480b drug lab",
+          "publisher": "The Guardian Nigeria reporting separate court forfeiture ruling",
+          "language": "English",
+          "claim": "The Guardian reports a Federal High Court civil forfeiture order for properties linked to Suleiman; this is not a criminal drug-trafficking conviction.",
+          "publishedAt": "2026-07-11"
+        }
+      ],
+      "events": [
+        {
+          "id": "suleiman-ganiu-aremu-2024-08-26-arrest",
+          "occurredAt": "2024-08-26",
+          "type": "arrest",
+          "title": "Arrested by NDLEA",
+          "summary": "NDLEA reported the arrest of its alleged Barryshine network leader.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested",
+            "title": "Wanted drug baron behind 4 cocaine shipments to Saudi Arabia, Qatar arrested",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "claim": "NDLEA identifies Suleiman as alleged leader and reports his 26 August 2024 arrest in its cocaine case; it does not report a criminal conviction for him.",
+            "publishedAt": "2024-09-13"
+          }
+        },
+        {
+          "id": "suleiman-ganiu-aremu-2025-02-10-charge",
+          "occurredAt": "2025-02-10",
+          "type": "charge",
+          "title": "NDLEA reported pending criminal charges",
+          "summary": "The agency stated Suleiman was facing multiple criminal charges in Federal High Court; no criminal verdict was verified in this review.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+            "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "claim": "NDLEA states Suleiman faced multiple criminal charges as of 10 February 2025; the four associates were wanted under a separate court notice.",
+            "publishedAt": "2025-02-10"
+          }
+        },
+        {
+          "id": "suleiman-ganiu-aremu-2026-07-11-development",
+          "occurredAt": "2026-07-11",
+          "type": "development",
+          "title": "Separate civil asset-forfeiture ruling reported",
+          "summary": "The Guardian reported a Federal High Court order for final forfeiture of properties linked to Suleiman. This civil property order does not establish a criminal conviction.",
+          "source": {
+            "url": "https://guardian.ng/news/court-remands-drug-baron-anochili-three-mexicans-others-over-n480b-drug-lab/",
+            "title": "Court remands drug baron Anochili, three Mexicans, others over N480b drug lab",
+            "publisher": "The Guardian Nigeria reporting separate court forfeiture ruling",
+            "language": "English",
+            "claim": "The Guardian reports a Federal High Court civil forfeiture order for properties linked to Suleiman; this is not a criminal drug-trafficking conviction.",
+            "publishedAt": "2026-07-11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "olanrewaju-ramon-abdulai",
+      "name": "Olanrewaju Ramon Abdulai",
+      "aliases": [
+        "Alhaji Loyingbo",
+        "Olarenwaju Ramon Abdulai",
+        "Abdullahi Olarenwaju Ramon"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Court-ordered wanted associate; NDLEA alleges a recruitment role",
+      "prominence": 2,
+      "organizationIds": [
+        "barryshine-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested",
+          "title": "Wanted drug baron behind 4 cocaine shipments to Saudi Arabia, Qatar arrested",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA identifies a spelling/order variant of Olanrewaju Ramon Abdulai as Suleiman’s brother and alleges he recruited a courier for the network.",
+          "publishedAt": "2024-09-13"
+        },
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA quotes a 28 January 2025 court order declaring Olarenwaju Ramon Abdulai wanted for alleged trafficking activity with Suleiman.",
+          "publishedAt": "2025-02-10"
+        },
+        {
+          "url": "https://ndlea.gov.ng/index.php/wanted_persons",
+          "title": "Wanted Persons",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA’s undated live wanted roster reviewed 26 September 2026 lists OLANREWAJU RAMON ABDULAI; it does not establish present whereabouts or conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "olanrewaju-ramon-abdulai-2025-01-28-development",
+          "occurredAt": "2025-01-28",
+          "type": "development",
+          "title": "Court order declared wanted",
+          "summary": "NDLEA quoted the Federal High Court order declaring Olanrewaju wanted over alleged trafficking activity with Suleiman. No conviction was verified.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+            "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "claim": "NDLEA quotes a 28 January 2025 court order declaring Olarenwaju Ramon Abdulai wanted for alleged trafficking activity with Suleiman.",
+            "publishedAt": "2025-02-10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oluwafemi-akande-abidoye",
+      "name": "Oluwafemi Akande Abidoye",
+      "aliases": [
+        "Igbono",
+        "Baba Eje",
+        "Ade Iwaya",
+        "Femi Iwaya"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Court-ordered wanted associate; NDLEA alleges recruitment of couriers",
+      "prominence": 2,
+      "organizationIds": [
+        "barryshine-cocaine-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria"
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested",
+          "title": "Wanted drug baron behind 4 cocaine shipments to Saudi Arabia, Qatar arrested",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA alleges Oluwafemi Akande Abidoye, called Igbono, recruited couriers for Suleiman; its 2024 release inconsistently gives him the alias Murphy.",
+          "publishedAt": "2024-09-13"
+        },
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA quotes a 28 January 2025 court order declaring Oluwafemi Akande Abidoye wanted for alleged trafficking activity with Suleiman.",
+          "publishedAt": "2025-02-10"
+        },
+        {
+          "url": "https://ndlea.gov.ng/index.php/wanted_persons",
+          "title": "Wanted Persons",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA’s undated live wanted roster reviewed 26 September 2026 lists OLUWAFEMI AKANDE ABIDOYE; it does not establish present whereabouts or conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "oluwafemi-akande-abidoye-2025-01-28-development",
+          "occurredAt": "2025-01-28",
+          "type": "development",
+          "title": "Court order declared wanted",
+          "summary": "NDLEA quoted the Federal High Court order declaring Oluwafemi wanted over alleged trafficking activity with Suleiman. No conviction was verified.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+            "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "claim": "NDLEA quotes a 28 January 2025 court order declaring Oluwafemi Akande Abidoye wanted for alleged trafficking activity with Suleiman.",
+            "publishedAt": "2025-02-10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "olumuyiwa-olufemi-ilori",
+      "name": "Olumuyiwa Olufemi Ilori",
+      "aliases": [
+        "Murphy"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Court-ordered wanted associate; individual network role not further specified",
+      "prominence": 1,
+      "organizationIds": [
+        "barryshine-cocaine-network"
+      ],
+      "regions": [],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA quotes a 28 January 2025 court order declaring Olumuyiwa Olufemi Ilori, called Murphy, wanted for alleged trafficking activity with Suleiman; no further individual role is specified.",
+          "publishedAt": "2025-02-10"
+        },
+        {
+          "url": "https://ndlea.gov.ng/index.php/wanted_persons",
+          "title": "Wanted Persons",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA’s undated live wanted roster reviewed 26 September 2026 lists OLUMUYIWA OLUFEMI ILORI; it does not establish present whereabouts or conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "olumuyiwa-olufemi-ilori-2025-01-28-development",
+          "occurredAt": "2025-01-28",
+          "type": "development",
+          "title": "Court order declared wanted",
+          "summary": "NDLEA quoted the Federal High Court order declaring Ilori wanted over alleged trafficking activity with Suleiman. No conviction was verified.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+            "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "claim": "NDLEA quotes a 28 January 2025 court order declaring Olumuyiwa Olufemi Ilori, called Murphy, wanted for alleged trafficking activity with Suleiman; no further individual role is specified.",
+            "publishedAt": "2025-02-10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alate-kafy-bakare-bukki",
+      "name": "Alate Kafy Bakare Bukki",
+      "aliases": [
+        "Alate Kafy Zakare Bukki"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Court-ordered wanted associate; individual network role not further specified",
+      "prominence": 1,
+      "organizationIds": [
+        "barryshine-cocaine-network"
+      ],
+      "regions": [],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA quotes a 28 January 2025 court order declaring Alate Kafy Bakare Bukki wanted for alleged trafficking activity with Suleiman; the quoted court text spells Bakare as Zakare.",
+          "publishedAt": "2025-02-10"
+        },
+        {
+          "url": "https://ndlea.gov.ng/index.php/wanted_persons",
+          "title": "Wanted Persons",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA’s undated live wanted roster reviewed 26 September 2026 lists ALATE KAFY BAKARE BUKKI; it does not establish present whereabouts or conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "alate-kafy-bakare-bukki-2025-01-28-development",
+          "occurredAt": "2025-01-28",
+          "type": "development",
+          "title": "Court order declared wanted",
+          "summary": "NDLEA quoted the Federal High Court order declaring Alate wanted over alleged trafficking activity with Suleiman. No conviction was verified.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+            "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "claim": "NDLEA quotes a 28 January 2025 court order declaring Alate Kafy Bakare Bukki wanted for alleged trafficking activity with Suleiman; the quoted court text spells Bakare as Zakare.",
+            "publishedAt": "2025-02-10"
+          }
         }
       ]
     },
@@ -10212,6 +10577,90 @@
           "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
           "language": "en",
           "claim": "The Royal Commission exhibit explicitly says Sharon Ropa generally assisted Pasquale Barbaro with his MDMA trafficking business."
+        }
+      ]
+    },
+    {
+      "id": "suleiman-olanrewaju-brothers",
+      "fromId": "suleiman-ganiu-aremu",
+      "toId": "olanrewaju-ramon-abdulai",
+      "type": "sibling_of",
+      "label": "NDLEA reports brothers and alleges recruitment for the network",
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested",
+          "title": "Wanted drug baron behind 4 cocaine shipments to Saudi Arabia, Qatar arrested",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA explicitly describes a name variant of Olanrewaju as Suleiman’s brother and alleges he recruited a courier; the 2025 notice names the associate under the current roster spelling.",
+          "publishedAt": "2024-09-13"
+        },
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA explicitly describes a name variant of Olanrewaju as Suleiman’s brother and alleges he recruited a courier; the 2025 notice names the associate under the current roster spelling.",
+          "publishedAt": "2025-02-10"
+        }
+      ]
+    },
+    {
+      "id": "suleiman-oluwafemi-recruitment",
+      "fromId": "suleiman-ganiu-aremu",
+      "toId": "oluwafemi-akande-abidoye",
+      "type": "associate",
+      "label": "NDLEA alleges courier recruitment for Suleiman",
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/wanted-drug-baron-behind-4-cocaine-shipments-to-saudi-arabia-qatar-arrested",
+          "title": "Wanted drug baron behind 4 cocaine shipments to Saudi Arabia, Qatar arrested",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA explicitly alleges Oluwafemi recruited couriers for Suleiman; its 2025 notice also alleges trafficking activity with him.",
+          "publishedAt": "2024-09-13"
+        },
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA explicitly alleges Oluwafemi recruited couriers for Suleiman; its 2025 notice also alleges trafficking activity with him.",
+          "publishedAt": "2025-02-10"
+        }
+      ]
+    },
+    {
+      "id": "suleiman-ilori-association",
+      "fromId": "suleiman-ganiu-aremu",
+      "toId": "olumuyiwa-olufemi-ilori",
+      "type": "associate",
+      "label": "Court-ordered notice alleges trafficking activity together",
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA quotes a court order alleging Ilori participated in trafficking activity with Suleiman; no more specific relationship is inferred.",
+          "publishedAt": "2025-02-10"
+        }
+      ]
+    },
+    {
+      "id": "suleiman-alate-association",
+      "fromId": "suleiman-ganiu-aremu",
+      "toId": "alate-kafy-bakare-bukki",
+      "type": "associate",
+      "label": "Court-ordered notice alleges trafficking activity together",
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-declares-4-members-of-barryshine-drug-cartel-wanted",
+          "title": "NDLEA declares 4 members of Barryshine drug cartel wanted",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "claim": "NDLEA quotes a court order alleging Alate participated in trafficking activity with Suleiman; no more specific relationship is inferred.",
+          "publishedAt": "2025-02-10"
         }
       ]
     },
