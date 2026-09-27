@@ -1,0 +1,2448 @@
+{
+  "_about": "AI-assisted: manually source-reviewed DOJ People batch. See docs/AI_USAGE.md. Charges, guilty pleas, convictions, sentences, and report dates are kept distinct. Country associations are historical and person-specific; no current location, group membership inferred from a roster, drug tag, co-defendant edge, or photo is added.",
+  "organizations": [],
+  "people": [
+    {
+      "id": "doj-corpus-growth3-dirty-aree-toulson",
+      "name": "Aree Toulson",
+      "status": "convicted",
+      "statusAsOf": "2015-01-26",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2015)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Aree Toulson in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Aree Toulson."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/distributor-atlantic-city-dirty-block-gang-sentenced-10-years-prison-role-heroin",
+          "title": "Distributor Atlantic City Dirty Block Gang Sentenced 10 Years Prison Role Heroin",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2015-01-26",
+          "claim": "DOJ reports Aree Toulson was sentenced on January 26, 2015 after pleading guilty to heroin-distribution conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-aree-toulson-2015-01-26-sentence",
+          "occurredAt": "2015-01-26",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Aree Toulson was sentenced on January 26, 2015 after pleading guilty to heroin-distribution conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/distributor-atlantic-city-dirty-block-gang-sentenced-10-years-prison-role-heroin",
+            "title": "Distributor Atlantic City Dirty Block Gang Sentenced 10 Years Prison Role Heroin",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2015-01-26",
+            "claim": "DOJ reports Aree Toulson was sentenced on January 26, 2015 after pleading guilty to heroin-distribution conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-dirty-dwayne-townsend",
+      "name": "Dwayne Townsend",
+      "status": "convicted",
+      "statusAsOf": "2015-02-04",
+      "roleLabel": "Heroin-conspiracy defendant (guilty plea reported 2015)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Dwayne Townsend in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Dwayne Townsend."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/members-atlantic-city-dirty-block-gang-sentenced-participating-heroin-trafficking",
+          "title": "Members of Atlantic City Dirty Block Gang Sentenced for Heroin Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2015-02-04",
+          "claim": "DOJ reports Dwayne Townsend had been sentenced during the prior week after pleading guilty to heroin-distribution conspiracy; exact sentence day is not stated."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-dwayne-townsend-2015-02-04-development",
+          "occurredAt": "2015-02-04",
+          "type": "development",
+          "title": "Later drug-case report",
+          "summary": "DOJ reports Dwayne Townsend had been sentenced during the prior week after pleading guilty to heroin-distribution conspiracy; exact sentence day is not stated.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/members-atlantic-city-dirty-block-gang-sentenced-participating-heroin-trafficking",
+            "title": "Members of Atlantic City Dirty Block Gang Sentenced for Heroin Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2015-02-04",
+            "claim": "DOJ reports Dwayne Townsend had been sentenced during the prior week after pleading guilty to heroin-distribution conspiracy; exact sentence day is not stated."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-dirty-kamal-allen",
+      "name": "Kamal Allen",
+      "status": "convicted",
+      "statusAsOf": "2015-05-28",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2015)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Kamal Allen in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Kamal Allen."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/distributor-and-enforcer-atlantic-city-dirty-block-gang-sentenced-10-years-prison-heroin",
+          "title": "Distributor And Enforcer Atlantic City Dirty Block Gang Sentenced 10 Years Prison Heroin",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2015-05-28",
+          "claim": "DOJ reports Kamal Allen was sentenced on May 28, 2015 after pleading guilty to heroin-distribution conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-kamal-allen-2015-05-28-sentence",
+          "occurredAt": "2015-05-28",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Kamal Allen was sentenced on May 28, 2015 after pleading guilty to heroin-distribution conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/distributor-and-enforcer-atlantic-city-dirty-block-gang-sentenced-10-years-prison-heroin",
+            "title": "Distributor And Enforcer Atlantic City Dirty Block Gang Sentenced 10 Years Prison Heroin",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2015-05-28",
+            "claim": "DOJ reports Kamal Allen was sentenced on May 28, 2015 after pleading guilty to heroin-distribution conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-dirty-kasan-hayes",
+      "name": "Kasan Hayes",
+      "status": "convicted",
+      "statusAsOf": "2015-02-04",
+      "roleLabel": "Heroin-conspiracy defendant (guilty plea reported 2015)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Kasan Hayes in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Kasan Hayes."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/members-atlantic-city-dirty-block-gang-sentenced-participating-heroin-trafficking",
+          "title": "Members of Atlantic City Dirty Block Gang Sentenced for Heroin Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2015-02-04",
+          "claim": "DOJ reports Kasan Hayes had been sentenced during the prior week after pleading guilty to heroin-distribution conspiracy; exact sentence day is not stated."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-kasan-hayes-2015-02-04-development",
+          "occurredAt": "2015-02-04",
+          "type": "development",
+          "title": "Later drug-case report",
+          "summary": "DOJ reports Kasan Hayes had been sentenced during the prior week after pleading guilty to heroin-distribution conspiracy; exact sentence day is not stated.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/members-atlantic-city-dirty-block-gang-sentenced-participating-heroin-trafficking",
+            "title": "Members of Atlantic City Dirty Block Gang Sentenced for Heroin Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2015-02-04",
+            "claim": "DOJ reports Kasan Hayes had been sentenced during the prior week after pleading guilty to heroin-distribution conspiracy; exact sentence day is not stated."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-dirty-kimberly-spellman",
+      "name": "Kimberly Spellman",
+      "status": "convicted",
+      "statusAsOf": "2016-01-07",
+      "roleLabel": "Heroin-conspiracy defendant (guilty plea reported 2016)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Kimberly Spellman in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Kimberly Spellman."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/dirty-block-gang-leader-sentenced-life-prison-drug-conspiracy-and-weapons-charges",
+          "title": "Dirty Block Gang Leader Sentenced to Life in Prison for Drug Conspiracy and Weapons Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-01-07",
+          "claim": "DOJ reports Kimberly Spellman had pleaded guilty to heroin-distribution conspiracy by January 7, 2016; exact plea day is not stated."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-kimberly-spellman-2016-01-07-development",
+          "occurredAt": "2016-01-07",
+          "type": "development",
+          "title": "Later drug-case report",
+          "summary": "DOJ reports Kimberly Spellman had pleaded guilty to heroin-distribution conspiracy by January 7, 2016; exact plea day is not stated.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/dirty-block-gang-leader-sentenced-life-prison-drug-conspiracy-and-weapons-charges",
+            "title": "Dirty Block Gang Leader Sentenced to Life in Prison for Drug Conspiracy and Weapons Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2016-01-07",
+            "claim": "DOJ reports Kimberly Spellman had pleaded guilty to heroin-distribution conspiracy by January 7, 2016; exact plea day is not stated."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-dirty-malik-derry",
+      "name": "Malik Derry",
+      "status": "convicted",
+      "statusAsOf": "2016-08-19",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2016)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Malik Derry in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Malik Derry."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/enforcer-atlantic-city-dirty-block-gang-sentenced-life-prison-role-heroin-trafficking",
+          "title": "Enforcer for Atlantic City Dirty Block Gang Sentenced to Life in Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-19",
+          "claim": "DOJ reports Malik Derry was sentenced on August 19, 2016 following conviction for heroin-distribution conspiracy and related counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-malik-derry-2016-08-19-sentence",
+          "occurredAt": "2016-08-19",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Malik Derry was sentenced on August 19, 2016 following conviction for heroin-distribution conspiracy and related counts.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/enforcer-atlantic-city-dirty-block-gang-sentenced-life-prison-role-heroin-trafficking",
+            "title": "Enforcer for Atlantic City Dirty Block Gang Sentenced to Life in Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2016-08-19",
+            "claim": "DOJ reports Malik Derry was sentenced on August 19, 2016 following conviction for heroin-distribution conspiracy and related counts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-dirty-mark-frye",
+      "name": "Mark Frye",
+      "status": "convicted",
+      "statusAsOf": "2016-01-22",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2016)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Mark Frye in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Mark Frye."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/heroin-supplier-atlantic-city-dirty-block-gang-sentenced-13-years-prison",
+          "title": "Heroin Supplier Atlantic City Dirty Block Gang Sentenced 13 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-01-22",
+          "claim": "DOJ reports Mark Frye was sentenced on January 22, 2016 after pleading guilty to heroin-distribution conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-mark-frye-2016-01-22-sentence",
+          "occurredAt": "2016-01-22",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Mark Frye was sentenced on January 22, 2016 after pleading guilty to heroin-distribution conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/heroin-supplier-atlantic-city-dirty-block-gang-sentenced-13-years-prison",
+            "title": "Heroin Supplier Atlantic City Dirty Block Gang Sentenced 13 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2016-01-22",
+            "claim": "DOJ reports Mark Frye was sentenced on January 22, 2016 after pleading guilty to heroin-distribution conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-dirty-mykal-derry",
+      "name": "Mykal Derry",
+      "status": "convicted",
+      "statusAsOf": "2016-01-07",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2016)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Mykal Derry in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Mykal Derry."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/dirty-block-gang-leader-sentenced-life-prison-drug-conspiracy-and-weapons-charges",
+          "title": "Dirty Block Gang Leader Sentenced to Life in Prison for Drug Conspiracy and Weapons Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-01-07",
+          "claim": "DOJ reports Mykal Derry was sentenced on January 7, 2016 following conviction for heroin-distribution conspiracy and related counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-mykal-derry-2016-01-07-sentence",
+          "occurredAt": "2016-01-07",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Mykal Derry was sentenced on January 7, 2016 following conviction for heroin-distribution conspiracy and related counts.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/dirty-block-gang-leader-sentenced-life-prison-drug-conspiracy-and-weapons-charges",
+            "title": "Dirty Block Gang Leader Sentenced to Life in Prison for Drug Conspiracy and Weapons Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2016-01-07",
+            "claim": "DOJ reports Mykal Derry was sentenced on January 7, 2016 following conviction for heroin-distribution conspiracy and related counts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-dirty-raymond-mack",
+      "name": "Raymond Mack",
+      "status": "convicted",
+      "statusAsOf": "2015-02-04",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2015)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Raymond Mack in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Raymond Mack."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/members-atlantic-city-dirty-block-gang-sentenced-participating-heroin-trafficking",
+          "title": "Members of Atlantic City Dirty Block Gang Sentenced for Heroin Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2015-02-04",
+          "claim": "DOJ reports Raymond Mack was sentenced on February 4, 2015 after pleading guilty to heroin-distribution conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-raymond-mack-2015-02-04-sentence",
+          "occurredAt": "2015-02-04",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Raymond Mack was sentenced on February 4, 2015 after pleading guilty to heroin-distribution conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/members-atlantic-city-dirty-block-gang-sentenced-participating-heroin-trafficking",
+            "title": "Members of Atlantic City Dirty Block Gang Sentenced for Heroin Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2015-02-04",
+            "claim": "DOJ reports Raymond Mack was sentenced on February 4, 2015 after pleading guilty to heroin-distribution conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-dirty-saeed-zaffa",
+      "name": "Saeed Zaffa",
+      "status": "convicted",
+      "statusAsOf": "2015-05-19",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2015)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Saeed Zaffa in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/thirty-four-people-charged-connection-takedown-violent-drug-trafficking-organization",
+          "title": "Thirty-Four People Charged In Connection With Takedown Of Violent Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-03-26",
+          "claim": "DOJ charged the named defendant by complaint in an Atlantic City heroin-distribution conspiracy; the roster assigns that person a role. This is an allegation as reported on March 26, 2013. Person: Saeed Zaffa."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/dirty-block-atlantic-city-new-jersey-gang-member-sentenced-13-years-prison-drug",
+          "title": "Dirty Block Atlantic City New Jersey Gang Member Sentenced 13 Years Prison Drug",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2015-05-19",
+          "claim": "DOJ reports Saeed Zaffa was sentenced on May 19, 2015 after pleading guilty to heroin-distribution conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-dirty-saeed-zaffa-2015-05-19-sentence",
+          "occurredAt": "2015-05-19",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Saeed Zaffa was sentenced on May 19, 2015 after pleading guilty to heroin-distribution conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/dirty-block-atlantic-city-new-jersey-gang-member-sentenced-13-years-prison-drug",
+            "title": "Dirty Block Atlantic City New Jersey Gang Member Sentenced 13 Years Prison Drug",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2015-05-19",
+            "claim": "DOJ reports Saeed Zaffa was sentenced on May 19, 2015 after pleading guilty to heroin-distribution conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-benjamin-carpenter",
+      "name": "Benjamin Carpenter",
+      "status": "charged",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (charged as of 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Benjamin Carpenter as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-benjamin-carpenter-2013-09-09-development",
+          "occurredAt": "2013-09-09",
+          "type": "development",
+          "title": "Drug charge reported",
+          "summary": "DOJ Attachment A lists Benjamin Carpenter as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Benjamin Carpenter as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-bridgette-davidson",
+      "name": "Bridgette Davidson",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Bridgette Davidson as sentenced 2010-03-12 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-bridgette-davidson-2010-03-12-sentence",
+          "occurredAt": "2010-03-12",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Bridgette Davidson as sentenced 2010-03-12 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Bridgette Davidson as sentenced 2010-03-12 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-charles-richardson",
+      "name": "Charles Richardson",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Charles Richardson as sentenced 2013-01-29 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-charles-richardson-2013-01-29-sentence",
+          "occurredAt": "2013-01-29",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Charles Richardson as sentenced 2013-01-29 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Charles Richardson as sentenced 2013-01-29 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-christine-a-blevins",
+      "name": "Christine A. Blevins",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Christine A. Blevins as sentenced 2010-03-04 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-christine-a-blevins-2010-03-04-sentence",
+          "occurredAt": "2010-03-04",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Christine A. Blevins as sentenced 2010-03-04 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Christine A. Blevins as sentenced 2010-03-04 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-darrold-thomas",
+      "name": "Darrold Thomas",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Darrold Thomas as sentenced 2013-08-27 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-darrold-thomas-2013-08-27-sentence",
+          "occurredAt": "2013-08-27",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Darrold Thomas as sentenced 2013-08-27 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Darrold Thomas as sentenced 2013-08-27 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-dynisha-revel",
+      "name": "Dynisha Revel",
+      "status": "charged",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (charged as of 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Dynisha Revel as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-dynisha-revel-2013-09-09-development",
+          "occurredAt": "2013-09-09",
+          "type": "development",
+          "title": "Drug charge reported",
+          "summary": "DOJ Attachment A lists Dynisha Revel as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Dynisha Revel as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-efrain-dixon",
+      "name": "Efrain Dixon",
+      "status": "charged",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (charged as of 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Efrain Dixon as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-efrain-dixon-2013-09-09-development",
+          "occurredAt": "2013-09-09",
+          "type": "development",
+          "title": "Drug charge reported",
+          "summary": "DOJ Attachment A lists Efrain Dixon as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Efrain Dixon as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-gloria-miller",
+      "name": "Gloria Miller",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Gloria Miller as sentenced 2011-09-20 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-gloria-miller-2011-09-20-sentence",
+          "occurredAt": "2011-09-20",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Gloria Miller as sentenced 2011-09-20 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Gloria Miller as sentenced 2011-09-20 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-julio-archer",
+      "name": "Julio Archer",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Julio Archer as sentenced 2013-06-11 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-julio-archer-2013-06-11-sentence",
+          "occurredAt": "2013-06-11",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Julio Archer as sentenced 2013-06-11 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Julio Archer as sentenced 2013-06-11 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-kelvin-cook",
+      "name": "Kelvin Cook",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Kelvin Cook as sentenced 2013-06-20 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-kelvin-cook-2013-06-20-sentence",
+          "occurredAt": "2013-06-20",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Kelvin Cook as sentenced 2013-06-20 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Kelvin Cook as sentenced 2013-06-20 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-kevin-morris",
+      "name": "Kevin Morris",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (guilty plea by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Kevin Morris as pleaded guilty 2012-07-25 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-kevin-morris-2012-07-25-conviction",
+          "occurredAt": "2012-07-25",
+          "type": "conviction",
+          "title": "Drug-case guilty plea",
+          "summary": "DOJ Attachment A lists Kevin Morris as pleaded guilty 2012-07-25 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Kevin Morris as pleaded guilty 2012-07-25 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-mia-poteat",
+      "name": "Mia Poteat",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Mia Poteat as sentenced 2013-04-03 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-mia-poteat-2013-04-03-sentence",
+          "occurredAt": "2013-04-03",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Mia Poteat as sentenced 2013-04-03 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Mia Poteat as sentenced 2013-04-03 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-neisha-miller",
+      "name": "Neisha Miller",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Neisha Miller as sentenced 2011-09-20 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-neisha-miller-2011-09-20-sentence",
+          "occurredAt": "2011-09-20",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Neisha Miller as sentenced 2011-09-20 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Neisha Miller as sentenced 2011-09-20 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-raabia-munir",
+      "name": "Raabia Munir",
+      "status": "charged",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (charged as of 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Raabia Munir as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-raabia-munir-2013-09-09-development",
+          "occurredAt": "2013-09-09",
+          "type": "development",
+          "title": "Drug charge reported",
+          "summary": "DOJ Attachment A lists Raabia Munir as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Raabia Munir as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-roumik-banerjee",
+      "name": "Roumik Banerjee",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Roumik Banerjee as sentenced 2013-04-03 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-roumik-banerjee-2013-04-03-sentence",
+          "occurredAt": "2013-04-03",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Roumik Banerjee as sentenced 2013-04-03 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Roumik Banerjee as sentenced 2013-04-03 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-saleem-a-sharif",
+      "name": "Saleem A. Sharif",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "AFG",
+          "label": "Afghanistan",
+          "evidence": {
+            "claim": "DOJ specifically reports that Saleem A. Sharif shipped heroin from Kabul, Afghanistan, to the United States; this is historical conduct, not nationality or current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment"
+          }
+        },
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ specifically reports Sharif shipped heroin to the United States; USA marks the historical destination market, not residence or current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Saleem A. Sharif as sentenced 2013-09-04 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-saleem-a-sharif-2013-09-04-sentence",
+          "occurredAt": "2013-09-04",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Saleem A. Sharif as sentenced 2013-09-04 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Saleem A. Sharif as sentenced 2013-09-04 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-sayeed-a-behrooz",
+      "name": "Sayeed A. Behrooz",
+      "status": "charged",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (charged as of 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Sayeed A. Behrooz as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-sayeed-a-behrooz-2013-09-09-development",
+          "occurredAt": "2013-09-09",
+          "type": "development",
+          "title": "Drug charge reported",
+          "summary": "DOJ Attachment A lists Sayeed A. Behrooz as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Sayeed A. Behrooz as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-sharon-butera",
+      "name": "Sharon Butera",
+      "status": "charged",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (charged as of 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Sharon Butera as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-sharon-butera-2013-09-09-development",
+          "occurredAt": "2013-09-09",
+          "type": "development",
+          "title": "Drug charge reported",
+          "summary": "DOJ Attachment A lists Sharon Butera as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Sharon Butera as listed as charged 2013-09-09 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-tara-resto",
+      "name": "Tara Resto",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (guilty plea by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Tara Resto as pleaded guilty 2010-04-13 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-tara-resto-2010-04-13-conviction",
+          "occurredAt": "2010-04-13",
+          "type": "conviction",
+          "title": "Drug-case guilty plea",
+          "summary": "DOJ Attachment A lists Tara Resto as pleaded guilty 2010-04-13 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Tara Resto as pleaded guilty 2010-04-13 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-tessa-snyder",
+      "name": "Tessa Snyder",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (guilty plea by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Tessa Snyder as pleaded guilty 2012-05-18 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-tessa-snyder-2012-05-18-conviction",
+          "occurredAt": "2012-05-18",
+          "type": "conviction",
+          "title": "Drug-case guilty plea",
+          "summary": "DOJ Attachment A lists Tessa Snyder as pleaded guilty 2012-05-18 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Tessa Snyder as pleaded guilty 2012-05-18 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-tina-simmons",
+      "name": "Tina Simmons",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Tina Simmons as sentenced 2013-05-07 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-tina-simmons-2013-05-07-sentence",
+          "occurredAt": "2013-05-07",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Tina Simmons as sentenced 2013-05-07 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Tina Simmons as sentenced 2013-05-07 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-delaware-tissany-buckham",
+      "name": "Tissany Buckham",
+      "status": "convicted",
+      "statusAsOf": "2013-09-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2013)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+          "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-09-09",
+          "claim": "DOJ Attachment A lists Tissany Buckham as sentenced 2013-04-10 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-delaware-tissany-buckham-2013-04-10-sentence",
+          "occurredAt": "2013-04-10",
+          "type": "sentence",
+          "title": "Drug-case sentence",
+          "summary": "DOJ Attachment A lists Tissany Buckham as sentenced 2013-04-10 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified.",
+          "source": {
+            "url": "https://www.justice.gov/usao-de/pr/leader-international-drug-trafficking-conspiracy-sentenced-15-years-imprisonment",
+            "title": "Leader Of International Drug Trafficking Conspiracy Sentenced To 15 Years Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2013-09-09",
+            "claim": "DOJ Attachment A lists Tissany Buckham as sentenced 2013-04-10 in a drug-trafficking investigation; the release identifies all 23 as charged with drug-trafficking offenses. The individual drug count is not specified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ohio-jermonte-m-fletcher",
+      "name": "Jermonte M. Fletcher",
+      "status": "charged",
+      "statusAsOf": "2013-12-11",
+      "roleLabel": "Drug-conspiracy defendant (charged in 2013; died in 2015)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jermonte M. Fletcher in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2013",
+            "sourceUrl": "https://www.justice.gov/usao-sdoh/pr/twenty-two-charged-alleged-drug-trafficking-conspiracy"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/twenty-two-charged-alleged-drug-trafficking-conspiracy",
+          "title": "Twenty-two Charged In Alleged Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2013-12-11",
+          "claim": "DOJ names the defendant in the 21-person Fletcher indictment and says all defendants in that indictment were charged with drug-distribution conspiracy; the indictment was unsealed December 11, 2013. Person: JERMONTE M. FLETCHER."
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/twenty-sentenced-drug-trafficking-conspiracy",
+          "title": "Twenty Sentenced Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2015-06-22",
+          "claim": "DOJ reports Jermonte M. Fletcher died January 27, 2015 while drug, firearms and money-laundering charges were pending; no conviction is inferred."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ohio-jermonte-m-fletcher-2015-01-27-development",
+          "occurredAt": "2015-01-27",
+          "type": "development",
+          "title": "Death reported in pending case",
+          "summary": "DOJ reports Jermonte M. Fletcher died January 27, 2015 while drug, firearms and money-laundering charges were pending; no conviction is inferred.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdoh/pr/twenty-sentenced-drug-trafficking-conspiracy",
+            "title": "Twenty Sentenced Drug Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2015-06-22",
+            "claim": "DOJ reports Jermonte M. Fletcher died January 27, 2015 while drug, firearms and money-laundering charges were pending; no conviction is inferred."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-trenton-alonzo-leary",
+      "name": "Alonzo Leary",
+      "status": "convicted",
+      "statusAsOf": "2019-05-31",
+      "roleLabel": "Heroin-conspiracy defendant (convicted by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Alonzo Leary in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2018",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang",
+          "title": "Twenty-Seven Defendants Charged In Takedown Of Violent Trenton Drug Trafficking Gang",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2018-10-25",
+          "claim": "DOJ names the defendant among 26 people charged in the Trenton heroin-conspiracy complaint unsealed October 25, 2018. Person: Alonzo Leary."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/leader-trenton-drug-trafficking-conspiracy-admits-heroin-distribution-and-firearms",
+          "title": "Leader Trenton Drug Trafficking Conspiracy Admits Heroin Distribution And Firearms",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-05-31",
+          "claim": "DOJ reports Alonzo Leary pleaded guilty May 30, 2019 to a drug-distribution conspiracy including heroin."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-trenton-alonzo-leary-2019-05-30-conviction",
+          "occurredAt": "2019-05-30",
+          "type": "conviction",
+          "title": "Drug conviction",
+          "summary": "DOJ reports Alonzo Leary pleaded guilty May 30, 2019 to a drug-distribution conspiracy including heroin.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/leader-trenton-drug-trafficking-conspiracy-admits-heroin-distribution-and-firearms",
+            "title": "Leader Trenton Drug Trafficking Conspiracy Admits Heroin Distribution And Firearms",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-05-31",
+            "claim": "DOJ reports Alonzo Leary pleaded guilty May 30, 2019 to a drug-distribution conspiracy including heroin."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-trenton-david-antonio",
+      "name": "David Antonio",
+      "status": "convicted",
+      "statusAsOf": "2020-09-16",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2020)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names David Antonio in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2018",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang",
+          "title": "Twenty-Seven Defendants Charged In Takedown Of Violent Trenton Drug Trafficking Gang",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2018-10-25",
+          "claim": "DOJ names the defendant among 26 people charged in the Trenton heroin-conspiracy complaint unsealed October 25, 2018. Person: David Antonio."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/supplier-trenton-drug-trafficking-conspiracy-sentenced-17-years-prison-heroin",
+          "title": "Supplier Trenton Drug Trafficking Conspiracy Sentenced 17 Years Prison Heroin",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2020-09-16",
+          "claim": "DOJ reports David Antonio was sentenced September 16, 2020 after pleading guilty to heroin-distribution conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-trenton-david-antonio-2020-09-16-sentence",
+          "occurredAt": "2020-09-16",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports David Antonio was sentenced September 16, 2020 after pleading guilty to heroin-distribution conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/supplier-trenton-drug-trafficking-conspiracy-sentenced-17-years-prison-heroin",
+            "title": "Supplier Trenton Drug Trafficking Conspiracy Sentenced 17 Years Prison Heroin",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2020-09-16",
+            "claim": "DOJ reports David Antonio was sentenced September 16, 2020 after pleading guilty to heroin-distribution conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-trenton-donte-ellis",
+      "name": "Donte Ellis",
+      "status": "convicted",
+      "statusAsOf": "2019-11-18",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Donte Ellis in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2018",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang",
+          "title": "Twenty-Seven Defendants Charged In Takedown Of Violent Trenton Drug Trafficking Gang",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2018-10-25",
+          "claim": "DOJ names the defendant among 26 people charged in the Trenton heroin-conspiracy complaint unsealed October 25, 2018. Person: Donte Ellis."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/two-trenton-drug-traffickers-sentenced-prison-their-roles-heroin-trafficking-conspiracy",
+          "title": "Two Trenton Drug Traffickers Sentenced Prison Their Roles Heroin Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-11-18",
+          "claim": "DOJ reports Donte Ellis was sentenced November 15, 2019 after pleading guilty to heroin-distribution conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-trenton-donte-ellis-2019-11-15-sentence",
+          "occurredAt": "2019-11-15",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Donte Ellis was sentenced November 15, 2019 after pleading guilty to heroin-distribution conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/two-trenton-drug-traffickers-sentenced-prison-their-roles-heroin-trafficking-conspiracy",
+            "title": "Two Trenton Drug Traffickers Sentenced Prison Their Roles Heroin Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-11-18",
+            "claim": "DOJ reports Donte Ellis was sentenced November 15, 2019 after pleading guilty to heroin-distribution conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-trenton-jakir-taylor",
+      "name": "Jakir Taylor",
+      "status": "convicted",
+      "statusAsOf": "2023-01-17",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2023)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jakir Taylor in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2018",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang",
+          "title": "Twenty-Seven Defendants Charged In Takedown Of Violent Trenton Drug Trafficking Gang",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2018-10-25",
+          "claim": "DOJ names the defendant among 26 people charged in the Trenton heroin-conspiracy complaint unsealed October 25, 2018. Person: Jakir Taylor."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/leader-trenton-drug-trafficking-conspiracy-sentenced-19-years-prison",
+          "title": "Leader Trenton Drug Trafficking Conspiracy Sentenced 19 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-01-17",
+          "claim": "DOJ reports Jakir Taylor was sentenced January 17, 2023 after pleading guilty to heroin-distribution conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-trenton-jakir-taylor-2023-01-17-sentence",
+          "occurredAt": "2023-01-17",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Jakir Taylor was sentenced January 17, 2023 after pleading guilty to heroin-distribution conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/leader-trenton-drug-trafficking-conspiracy-sentenced-19-years-prison",
+            "title": "Leader Trenton Drug Trafficking Conspiracy Sentenced 19 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-01-17",
+            "claim": "DOJ reports Jakir Taylor was sentenced January 17, 2023 after pleading guilty to heroin-distribution conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-trenton-jerome-roberts",
+      "name": "Jerome Roberts",
+      "status": "convicted",
+      "statusAsOf": "2021-10-08",
+      "roleLabel": "Heroin-conspiracy defendant (convicted by 2021)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jerome Roberts in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2018",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang",
+          "title": "Twenty-Seven Defendants Charged In Takedown Of Violent Trenton Drug Trafficking Gang",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2018-10-25",
+          "claim": "DOJ names the defendant among 26 people charged in the Trenton heroin-conspiracy complaint unsealed October 25, 2018. Person: Jerome Roberts."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/three-men-convicted-drug-trafficking-and-firearms-offenses",
+          "title": "Three Men Convicted Drug Trafficking And Firearms Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-10-08",
+          "claim": "DOJ reports a jury convicted Jerome Roberts on October 8, 2021 of heroin-distribution conspiracy and a heroin-distribution count."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-trenton-jerome-roberts-2021-10-08-conviction",
+          "occurredAt": "2021-10-08",
+          "type": "conviction",
+          "title": "Drug conviction",
+          "summary": "DOJ reports a jury convicted Jerome Roberts on October 8, 2021 of heroin-distribution conspiracy and a heroin-distribution count.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/three-men-convicted-drug-trafficking-and-firearms-offenses",
+            "title": "Three Men Convicted Drug Trafficking And Firearms Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-10-08",
+            "claim": "DOJ reports a jury convicted Jerome Roberts on October 8, 2021 of heroin-distribution conspiracy and a heroin-distribution count."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-trenton-kahlil-hampton",
+      "name": "Kahlil Hampton",
+      "status": "convicted",
+      "statusAsOf": "2019-11-18",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Kahlil Hampton in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2018",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang",
+          "title": "Twenty-Seven Defendants Charged In Takedown Of Violent Trenton Drug Trafficking Gang",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2018-10-25",
+          "claim": "DOJ names the defendant among 26 people charged in the Trenton heroin-conspiracy complaint unsealed October 25, 2018. Person: Kahlil Hampton."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/two-trenton-drug-traffickers-sentenced-prison-their-roles-heroin-trafficking-conspiracy",
+          "title": "Two Trenton Drug Traffickers Sentenced Prison Their Roles Heroin Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-11-18",
+          "claim": "DOJ reports Kahlil Hampton was sentenced November 18, 2019 after pleading guilty to heroin-distribution conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-trenton-kahlil-hampton-2019-11-18-sentence",
+          "occurredAt": "2019-11-18",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Kahlil Hampton was sentenced November 18, 2019 after pleading guilty to heroin-distribution conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/two-trenton-drug-traffickers-sentenced-prison-their-roles-heroin-trafficking-conspiracy",
+            "title": "Two Trenton Drug Traffickers Sentenced Prison Their Roles Heroin Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-11-18",
+            "claim": "DOJ reports Kahlil Hampton was sentenced November 18, 2019 after pleading guilty to heroin-distribution conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-trenton-timothy-wimbush",
+      "name": "Timothy Wimbush",
+      "status": "convicted",
+      "statusAsOf": "2023-07-18",
+      "roleLabel": "Heroin-conspiracy defendant (sentenced by 2023)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Timothy Wimbush in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2018",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/twenty-seven-defendants-charged-takedown-violent-trenton-drug-trafficking-gang",
+          "title": "Twenty-Seven Defendants Charged In Takedown Of Violent Trenton Drug Trafficking Gang",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2018-10-25",
+          "claim": "DOJ names the defendant among 26 people charged in the Trenton heroin-conspiracy complaint unsealed October 25, 2018. Person: Timothy Wimbush."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/mercer-county-man-sentenced-25-years-prison-heroin-trafficking-unlawful-possession",
+          "title": "Mercer County Man Sentenced 25 Years Prison Heroin Trafficking Unlawful Possession",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-07-18",
+          "claim": "DOJ reports Timothy Wimbush was sentenced July 18, 2023 after an October 2021 heroin-conspiracy and distribution conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-trenton-timothy-wimbush-2023-07-18-sentence",
+          "occurredAt": "2023-07-18",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Timothy Wimbush was sentenced July 18, 2023 after an October 2021 heroin-conspiracy and distribution conviction.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/mercer-county-man-sentenced-25-years-prison-heroin-trafficking-unlawful-possession",
+            "title": "Mercer County Man Sentenced 25 Years Prison Heroin Trafficking Unlawful Possession",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-07-18",
+            "claim": "DOJ reports Timothy Wimbush was sentenced July 18, 2023 after an October 2021 heroin-conspiracy and distribution conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ndca-christian-victor-vanleer",
+      "name": "Christian Victor Vanleer",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Christian Victor Vanleer in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking",
+          "title": "Sixteen Defendants Charged In Criminal Complaints Alleging Broad-Ranging Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-25",
+          "claim": "DOJ names the defendant among 16 California complaint defendants and states all were charged with drug-distribution conspiracy; the complaint was unsealed August 25, 2016. Person: Christian Victor Vanleer."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+          "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ reports Christian Vanleer was sentenced April 9, 2019 after a November 19, 2018 guilty plea to heroin and methamphetamine conspiracy."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ndca-christian-victor-vanleer-2019-04-09-sentence",
+          "occurredAt": "2019-04-09",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Christian Vanleer was sentenced April 9, 2019 after a November 19, 2018 guilty plea to heroin and methamphetamine conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+            "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ reports Christian Vanleer was sentenced April 9, 2019 after a November 19, 2018 guilty plea to heroin and methamphetamine conspiracy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ndca-claudia-munoz",
+      "name": "Claudia Munoz",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Claudia Munoz in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking",
+          "title": "Sixteen Defendants Charged In Criminal Complaints Alleging Broad-Ranging Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-25",
+          "claim": "DOJ names the defendant among 16 California complaint defendants and states all were charged with drug-distribution conspiracy; the complaint was unsealed August 25, 2016. Person: Claudia Munoz."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+          "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ lists Claudia Munoz as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ndca-claudia-munoz-2019-04-09-development",
+          "occurredAt": "2019-04-09",
+          "type": "development",
+          "title": "Later drug-case report",
+          "summary": "DOJ lists Claudia Munoz as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+            "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ lists Claudia Munoz as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ndca-david-vigil",
+      "name": "David Vigil",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names David Vigil in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking",
+          "title": "Sixteen Defendants Charged In Criminal Complaints Alleging Broad-Ranging Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-25",
+          "claim": "DOJ names the defendant among 16 California complaint defendants and states all were charged with drug-distribution conspiracy; the complaint was unsealed August 25, 2016. Person: David Vigil."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+          "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ lists David Vigil as sentenced by April 9, 2019 on marijuana, heroin and methamphetamine conspiracy counts; exact sentence day is unstated."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ndca-david-vigil-2019-04-09-development",
+          "occurredAt": "2019-04-09",
+          "type": "development",
+          "title": "Later drug-case report",
+          "summary": "DOJ lists David Vigil as sentenced by April 9, 2019 on marijuana, heroin and methamphetamine conspiracy counts; exact sentence day is unstated.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+            "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ lists David Vigil as sentenced by April 9, 2019 on marijuana, heroin and methamphetamine conspiracy counts; exact sentence day is unstated."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ndca-ignacio-gonzalez",
+      "name": "Ignacio Gonzalez",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Ignacio Gonzalez in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking",
+          "title": "Sixteen Defendants Charged In Criminal Complaints Alleging Broad-Ranging Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-25",
+          "claim": "DOJ names the defendant among 16 California complaint defendants and states all were charged with drug-distribution conspiracy; the complaint was unsealed August 25, 2016. Person: Ignacio Gonzalez."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+          "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ lists Ignacio Gonzalez as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ndca-ignacio-gonzalez-2019-04-09-development",
+          "occurredAt": "2019-04-09",
+          "type": "development",
+          "title": "Later drug-case report",
+          "summary": "DOJ lists Ignacio Gonzalez as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+            "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ lists Ignacio Gonzalez as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ndca-james-hinkle",
+      "name": "James Hinkle",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names James Hinkle in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking",
+          "title": "Sixteen Defendants Charged In Criminal Complaints Alleging Broad-Ranging Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-25",
+          "claim": "DOJ names the defendant among 16 California complaint defendants and states all were charged with drug-distribution conspiracy; the complaint was unsealed August 25, 2016. Person: James Hinkle."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+          "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ lists James Hinkle as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ndca-james-hinkle-2019-04-09-development",
+          "occurredAt": "2019-04-09",
+          "type": "development",
+          "title": "Later drug-case report",
+          "summary": "DOJ lists James Hinkle as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+            "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ lists James Hinkle as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ndca-joel-salcedo",
+      "name": "Joel Salcedo",
+      "status": "convicted",
+      "statusAsOf": "2019-12-16",
+      "roleLabel": "Drug-case defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Joel Salcedo in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking",
+          "title": "Sixteen Defendants Charged In Criminal Complaints Alleging Broad-Ranging Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-25",
+          "claim": "DOJ names the defendant among 16 California complaint defendants and states all were charged with drug-distribution conspiracy; the complaint was unsealed August 25, 2016. Person: Joel Salcedo."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/stockton-man-sentenced-more-12-years-prison-drug-distribution-conspiracies-and",
+          "title": "Stockton Man Sentenced More 12 Years Prison Drug Distribution Conspiracies And",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-12-16",
+          "claim": "DOJ reports Joel Salcedo was sentenced December 16, 2019 after a jury conviction on two drug conspiracy counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ndca-joel-salcedo-2019-12-16-sentence",
+          "occurredAt": "2019-12-16",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Joel Salcedo was sentenced December 16, 2019 after a jury conviction on two drug conspiracy counts.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/stockton-man-sentenced-more-12-years-prison-drug-distribution-conspiracies-and",
+            "title": "Stockton Man Sentenced More 12 Years Prison Drug Distribution Conspiracies And",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-12-16",
+            "claim": "DOJ reports Joel Salcedo was sentenced December 16, 2019 after a jury conviction on two drug conspiracy counts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ndca-jorge-gomez",
+      "name": "Jorge Gomez",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Jorge Gomez in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking",
+          "title": "Sixteen Defendants Charged In Criminal Complaints Alleging Broad-Ranging Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-25",
+          "claim": "DOJ names the defendant among 16 California complaint defendants and states all were charged with drug-distribution conspiracy; the complaint was unsealed August 25, 2016. Person: Jorge Gomez."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+          "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ lists Jorge Gomez as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ndca-jorge-gomez-2019-04-09-development",
+          "occurredAt": "2019-04-09",
+          "type": "development",
+          "title": "Later drug-case report",
+          "summary": "DOJ lists Jorge Gomez as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+            "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ lists Jorge Gomez as sentenced by April 9, 2019 on a marijuana-trafficking conspiracy count; exact sentence day is unstated."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ndca-michael-anthony-vicochea",
+      "name": "Michael Anthony Vicochea",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Michael Anthony Vicochea in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking",
+          "title": "Sixteen Defendants Charged In Criminal Complaints Alleging Broad-Ranging Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-25",
+          "claim": "DOJ names the defendant among 16 California complaint defendants and states all were charged with drug-distribution conspiracy; the complaint was unsealed August 25, 2016. Person: Michael Anthony Vicochea."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+          "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ reports Michael Vicochea was sentenced April 9, 2019 after pleading guilty to drug-trafficking counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ndca-michael-anthony-vicochea-2019-04-09-sentence",
+          "occurredAt": "2019-04-09",
+          "type": "sentence",
+          "title": "Dated drug-case sentence",
+          "summary": "DOJ reports Michael Vicochea was sentenced April 9, 2019 after pleading guilty to drug-trafficking counts.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+            "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ reports Michael Vicochea was sentenced April 9, 2019 after pleading guilty to drug-trafficking counts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-ndca-oscar-vladimir-escalante",
+      "name": "Oscar Vladimir Escalante",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (sentenced by 2019)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Oscar Vladimir Escalante in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/sixteen-defendants-charged-criminal-complaints-alleging-broad-ranging-drug-trafficking",
+          "title": "Sixteen Defendants Charged In Criminal Complaints Alleging Broad-Ranging Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-25",
+          "claim": "DOJ names the defendant among 16 California complaint defendants and states all were charged with drug-distribution conspiracy; the complaint was unsealed August 25, 2016. Person: Oscar Vladimir Escalante."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+          "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ lists Oscar Escalante as sentenced by April 9, 2019 on marijuana, heroin and methamphetamine conspiracy counts; the exact sentence day is unstated."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-ndca-oscar-vladimir-escalante-2019-04-09-development",
+          "occurredAt": "2019-04-09",
+          "type": "development",
+          "title": "Later drug-case report",
+          "summary": "DOJ lists Oscar Escalante as sentenced by April 9, 2019 on marijuana, heroin and methamphetamine conspiracy counts; the exact sentence day is unstated.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/east-bay-drug-traffickers-sentenced-15-years-and-10-years-prison",
+            "title": "East Bay Drug Traffickers Sentenced 15 Years And 10 Years Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ lists Oscar Escalante as sentenced by April 9, 2019 on marijuana, heroin and methamphetamine conspiracy counts; the exact sentence day is unstated."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth3-monmouth-damion-helmes",
+      "name": "Damion Helmes",
+      "status": "convicted",
+      "statusAsOf": "2022-10-19",
+      "roleLabel": "Cocaine-case defendant (convicted in 2022)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "DOJ names Damion Helmes in a historical U.S. drug case with alleged or adjudicated conduct in the United States; USA marks only this broad historical association.",
+            "period": "2019",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/twenty-people-charged-connection-monmouth-county-drug-trafficking-conspiracy"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/twenty-people-charged-connection-monmouth-county-drug-trafficking-conspiracy",
+          "title": "Twenty People Charged in Connection with Monmouth County Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-08-22",
+          "claim": "DOJ individually lists this defendant and a cocaine or crack cocaine distribution-conspiracy charge in its August 22, 2019 report; original complaint filing day is unstated. Person: Damion Helmes."
+        },
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/monmouth-county-man-convicted-trafficking-crack-and-powder-cocaine",
+          "title": "Monmouth County Man Convicted Trafficking Crack And Powder Cocaine",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-10-19",
+          "claim": "DOJ reports Damion Helmes was convicted October 17, 2022 of cocaine and crack cocaine conspiracy and possession-with-intent counts; two firearms counts ended in acquittal."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth3-monmouth-damion-helmes-2022-10-17-conviction",
+          "occurredAt": "2022-10-17",
+          "type": "conviction",
+          "title": "Drug conviction",
+          "summary": "DOJ reports Damion Helmes was convicted October 17, 2022 of cocaine and crack cocaine conspiracy and possession-with-intent counts; two firearms counts ended in acquittal.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/monmouth-county-man-convicted-trafficking-crack-and-powder-cocaine",
+            "title": "Monmouth County Man Convicted Trafficking Crack And Powder Cocaine",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2022-10-19",
+            "claim": "DOJ reports Damion Helmes was convicted October 17, 2022 of cocaine and crack cocaine conspiracy and possession-with-intent counts; two firearms counts ended in acquittal."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "doj-corpus-growth3-mykal-malik-derry-brothers",
+      "fromId": "doj-corpus-growth3-dirty-mykal-derry",
+      "toId": "doj-corpus-growth3-dirty-malik-derry",
+      "type": "sibling_of",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/dirty-block-gang-leader-and-his-brother-convicted-drug-conspiracy-and-weapons-charges",
+          "title": "Dirty Block Gang Leader and His Brother Convicted on Drug Conspiracy and Weapons Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2015-08-18",
+          "claim": "DOJ explicitly identifies Mykal Derry and Malik Derry as brothers in its August 18, 2015 verdict report."
+        }
+      ]
+    }
+  ]
+}

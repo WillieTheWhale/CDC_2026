@@ -1,6 +1,7 @@
 // AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.
 // Estimated-flow wind layer, city intensity and volume coloring added with
 // Claude Code (Anthropic).
+// AI-assisted: country anchor fix written with Claude Code (Anthropic). See docs/AI_USAGE.md.
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import * as maplibregl from "maplibre-gl";
@@ -12,6 +13,7 @@ import { LocateFixed, Minus, Plus, RotateCcw } from "lucide-react";
 import type { Country, Edge, LiveEvent, RiskRow } from "@/lib/types";
 import { drugColor, formatNumber } from "@/lib/api";
 import { visibleModelRoutes } from "@/lib/route-visibility";
+import { countryAnchors, type Anchor } from "@/lib/country-anchors";
 import {
   routeEvidence,
   routeEvidenceSourceById,
@@ -151,21 +153,19 @@ export default function AtlasMap(props: Props) {
   const [position, setPosition] = useState({ lng: 0, lat: 0, zoom: 1 });
   const localScale = position.zoom >= 6;
   // Natural Earth label points indicate a country, avoiding the false
-  // capital-to-capital precision of the World Bank country catalog.
+  // capital-to-capital precision of the World Bank country catalog. Anchors
+  // are resolved on each country's mainland so no arc ends in open water.
+  const anchors = useMemo(
+    () => (geography ? countryAnchors(geography.geo) : new Map<string, Anchor>()),
+    [geography],
+  );
   const routeCoordinates = useMemo(() => {
     const points = new Map<string, { lat: number | null; lon: number | null }>(
       props.countries.map((country) => [country.iso3, { lat: country.lat, lon: country.lon }]),
     );
-    for (const feature of geography?.geo.features ?? []) {
-      const value = feature.properties;
-      if (typeof value?.iso3 === "string" &&
-          typeof value?.label_lat === "number" &&
-          typeof value?.label_lon === "number") {
-        points.set(value.iso3, { lat: value.label_lat, lon: value.label_lon });
-      }
-    }
+    for (const [iso3, anchor] of anchors) points.set(iso3, anchor);
     return points;
-  }, [props.countries, geography]);
+  }, [props.countries, anchors]);
   const tierEdges = useMemo(
     () => visibleModelRoutes(props.edges, routeCoordinates, position.zoom),
     [props.edges, routeCoordinates, position.zoom],

@@ -50,6 +50,7 @@ deck/        judging pitch deck (rebuilds itself from this repo)
 | Frontend shell + map | frontend | not started |
 | Country Screen + Risk Board | frontend | not started |
 | Simulator, Live Wire, Market Board | frontend | not started |
+| Map: all years, land anchors, smooth playback, estimated local flows | backend (frontend edits approved by owner) | done: every route year and risk year in snapshot mode; route arrows anchored on land; playback without reloads; labelled estimated-flow arrow layer and volume coloring (`uv run trace estimate-flows`) |
 | Pitch deck | presentation | done (`deck/`, 4:45 + live demo, rebuilds from repo) |
 
 ## Headline results (backend, 2026-09-26)

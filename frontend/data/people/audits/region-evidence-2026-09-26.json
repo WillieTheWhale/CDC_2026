@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 784,
-    "associations": 644,
-    "evidenced": 644,
+    "people": 1336,
+    "associations": 1160,
+    "evidenced": 1160,
     "missing": 0,
     "invalid": 0
   },
@@ -19,6 +19,20 @@
       "people": 10,
       "associations": 10,
       "evidenced": 10,
+      "missing": 0,
+      "invalid": 0
+    },
+    "argentina_novelino_cordoba_2026.json": {
+      "people": 34,
+      "associations": 34,
+      "evidenced": 34,
+      "missing": 0,
+      "invalid": 0
+    },
+    "australia_cdpp_drug_cases_2013_2019.json": {
+      "people": 25,
+      "associations": 25,
+      "evidenced": 25,
       "missing": 0,
       "invalid": 0
     },
@@ -40,6 +54,13 @@
       "people": 32,
       "associations": 32,
       "evidenced": 32,
+      "missing": 0,
+      "invalid": 0
+    },
+    "central_america_historical_doj.json": {
+      "people": 27,
+      "associations": 30,
+      "evidenced": 30,
       "missing": 0,
       "invalid": 0
     },
@@ -85,10 +106,59 @@
       "missing": 0,
       "invalid": 0
     },
+    "doj_corpus_growth2_reviewed_2026.json": {
+      "people": 73,
+      "associations": 73,
+      "evidenced": 73,
+      "missing": 0,
+      "invalid": 0
+    },
+    "doj_corpus_growth3_reviewed_2026.json": {
+      "people": 50,
+      "associations": 30,
+      "evidenced": 30,
+      "missing": 0,
+      "invalid": 0
+    },
+    "doj_corpus_reviewed_2026.json": {
+      "people": 53,
+      "associations": 53,
+      "evidenced": 53,
+      "missing": 0,
+      "invalid": 0
+    },
+    "east_asia_historical_courts_2004_2019.json": {
+      "people": 42,
+      "associations": 42,
+      "evidenced": 42,
+      "missing": 0,
+      "invalid": 0
+    },
+    "east_southern_africa_court_cases_2013_2026.json": {
+      "people": 20,
+      "associations": 20,
+      "evidenced": 20,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ecuador_colombia_growth_2026.json": {
+      "people": 28,
+      "associations": 28,
+      "evidenced": 28,
+      "missing": 0,
+      "invalid": 0
+    },
     "eureka_italy.json": {
       "people": 8,
       "associations": 8,
       "evidenced": 8,
+      "missing": 0,
+      "invalid": 0
+    },
+    "europe_italy_historical_2012_2020.json": {
+      "people": 30,
+      "associations": 30,
+      "evidenced": 30,
       "missing": 0,
       "invalid": 0
     },
@@ -106,10 +176,31 @@
       "missing": 0,
       "invalid": 0
     },
+    "ghana_tanzania_historical_courts_2004_2023.json": {
+      "people": 12,
+      "associations": 12,
+      "evidenced": 12,
+      "missing": 0,
+      "invalid": 0
+    },
     "gulf_cartel.json": {
       "people": 10,
       "associations": 10,
       "evidenced": 10,
+      "missing": 0,
+      "invalid": 0
+    },
+    "historical_ofac_2004_crosschecked.json": {
+      "people": 20,
+      "associations": 3,
+      "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
+    "indonesia_philippines_historical_cases_1996_2019.json": {
+      "people": 30,
+      "associations": 30,
+      "evidenced": 30,
       "missing": 0,
       "invalid": 0
     },
@@ -166,6 +257,13 @@
       "people": 14,
       "associations": 16,
       "evidenced": 16,
+      "missing": 0,
+      "invalid": 0
+    },
+    "mena_historical_sanctions_2011_2023.json": {
+      "people": 14,
+      "associations": 12,
+      "evidenced": 12,
       "missing": 0,
       "invalid": 0
     },
@@ -281,6 +379,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "south_america_legacy_drug_cases_2009_2025.json": {
+      "people": 47,
+      "associations": 47,
+      "evidenced": 47,
+      "missing": 0,
+      "invalid": 0
+    },
     "southeast_asia_court_cases_2025_2026.json": {
       "people": 22,
       "associations": 22,
@@ -316,6 +421,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "vietnam_historical_drug_cases_2017_2020.json": {
+      "people": 47,
+      "associations": 47,
+      "evidenced": 47,
+      "missing": 0,
+      "invalid": 0
+    },
     "weymouth_street_dto_2025.json": {
       "people": 33,
       "associations": 33,
@@ -326,8 +438,8 @@
   },
   "byCountry": {
     "KEN": {
-      "associations": 5,
-      "evidenced": 5,
+      "associations": 12,
+      "evidenced": 12,
       "missing": 0,
       "invalid": 0
     },
@@ -337,9 +449,15 @@
       "missing": 0,
       "invalid": 0
     },
+    "ARG": {
+      "associations": 34,
+      "evidenced": 34,
+      "missing": 0,
+      "invalid": 0
+    },
     "AUS": {
-      "associations": 26,
-      "evidenced": 26,
+      "associations": 51,
+      "evidenced": 51,
       "missing": 0,
       "invalid": 0
     },
@@ -349,21 +467,45 @@
       "missing": 0,
       "invalid": 0
     },
+    "GTM": {
+      "associations": 17,
+      "evidenced": 17,
+      "missing": 0,
+      "invalid": 0
+    },
+    "HND": {
+      "associations": 10,
+      "evidenced": 10,
+      "missing": 0,
+      "invalid": 0
+    },
+    "PAN": {
+      "associations": 2,
+      "evidenced": 2,
+      "missing": 0,
+      "invalid": 0
+    },
+    "CRI": {
+      "associations": 3,
+      "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
     "COL": {
-      "associations": 41,
-      "evidenced": 41,
+      "associations": 56,
+      "evidenced": 56,
       "missing": 0,
       "invalid": 0
     },
     "MEX": {
-      "associations": 47,
-      "evidenced": 47,
+      "associations": 48,
+      "evidenced": 48,
       "missing": 0,
       "invalid": 0
     },
     "USA": {
-      "associations": 194,
-      "evidenced": 194,
+      "associations": 349,
+      "evidenced": 349,
       "missing": 0,
       "invalid": 0
     },
@@ -373,27 +515,69 @@
       "missing": 0,
       "invalid": 0
     },
+    "AFG": {
+      "associations": 4,
+      "evidenced": 4,
+      "missing": 0,
+      "invalid": 0
+    },
+    "CHN": {
+      "associations": 35,
+      "evidenced": 35,
+      "missing": 0,
+      "invalid": 0
+    },
+    "TWN": {
+      "associations": 5,
+      "evidenced": 5,
+      "missing": 0,
+      "invalid": 0
+    },
+    "THA": {
+      "associations": 4,
+      "evidenced": 4,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ZAF": {
+      "associations": 18,
+      "evidenced": 18,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ECU": {
+      "associations": 15,
+      "evidenced": 15,
+      "missing": 0,
+      "invalid": 0
+    },
     "ITA": {
-      "associations": 13,
-      "evidenced": 13,
+      "associations": 42,
+      "evidenced": 42,
       "missing": 0,
       "invalid": 0
     },
-    "SYR": {
-      "associations": 6,
-      "evidenced": 6,
-      "missing": 0,
-      "invalid": 0
-    },
-    "LBN": {
+    "ESP": {
       "associations": 1,
       "evidenced": 1,
       "missing": 0,
       "invalid": 0
     },
+    "SYR": {
+      "associations": 12,
+      "evidenced": 12,
+      "missing": 0,
+      "invalid": 0
+    },
+    "LBN": {
+      "associations": 7,
+      "evidenced": 7,
+      "missing": 0,
+      "invalid": 0
+    },
     "IDN": {
-      "associations": 18,
-      "evidenced": 18,
+      "associations": 41,
+      "evidenced": 41,
       "missing": 0,
       "invalid": 0
     },
@@ -403,9 +587,27 @@
       "missing": 0,
       "invalid": 0
     },
-    "THA": {
-      "associations": 2,
-      "evidenced": 2,
+    "GHA": {
+      "associations": 7,
+      "evidenced": 7,
+      "missing": 0,
+      "invalid": 0
+    },
+    "TZA": {
+      "associations": 5,
+      "evidenced": 5,
+      "missing": 0,
+      "invalid": 0
+    },
+    "JAM": {
+      "associations": 1,
+      "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    "PHL": {
+      "associations": 9,
+      "evidenced": 9,
       "missing": 0,
       "invalid": 0
     },
@@ -433,31 +635,7 @@
       "missing": 0,
       "invalid": 0
     },
-    "ZAF": {
-      "associations": 5,
-      "evidenced": 5,
-      "missing": 0,
-      "invalid": 0
-    },
-    "ECU": {
-      "associations": 2,
-      "evidenced": 2,
-      "missing": 0,
-      "invalid": 0
-    },
-    "GTM": {
-      "associations": 2,
-      "evidenced": 2,
-      "missing": 0,
-      "invalid": 0
-    },
     "ARE": {
-      "associations": 2,
-      "evidenced": 2,
-      "missing": 0,
-      "invalid": 0
-    },
-    "AFG": {
       "associations": 2,
       "evidenced": 2,
       "missing": 0,
@@ -475,15 +653,27 @@
       "missing": 0,
       "invalid": 0
     },
-    "VNM": {
-      "associations": 8,
-      "evidenced": 8,
+    "PRY": {
+      "associations": 36,
+      "evidenced": 36,
       "missing": 0,
       "invalid": 0
     },
-    "PHL": {
-      "associations": 2,
-      "evidenced": 2,
+    "BOL": {
+      "associations": 10,
+      "evidenced": 10,
+      "missing": 0,
+      "invalid": 0
+    },
+    "CHL": {
+      "associations": 1,
+      "evidenced": 1,
+      "missing": 0,
+      "invalid": 0
+    },
+    "VNM": {
+      "associations": 55,
+      "evidenced": 55,
       "missing": 0,
       "invalid": 0
     },
