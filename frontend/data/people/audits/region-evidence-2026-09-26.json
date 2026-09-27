@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2809,
-    "associations": 1842,
-    "evidenced": 1842,
+    "people": 2933,
+    "associations": 1919,
+    "evidenced": 1919,
     "missing": 0,
     "invalid": 0
   },
@@ -131,6 +131,13 @@
       "people": 13,
       "associations": 13,
       "evidenced": 13,
+      "missing": 0,
+      "invalid": 0
+    },
+    "doj_corpus_growth10_reviewed_2026.json": {
+      "people": 124,
+      "associations": 77,
+      "evidenced": 77,
       "missing": 0,
       "invalid": 0
     },
@@ -669,8 +676,8 @@
       "invalid": 0
     },
     "USA": {
-      "associations": 707,
-      "evidenced": 707,
+      "associations": 783,
+      "evidenced": 783,
       "missing": 0,
       "invalid": 0
     },
@@ -747,8 +754,8 @@
       "invalid": 0
     },
     "AFG": {
-      "associations": 4,
-      "evidenced": 4,
+      "associations": 5,
+      "evidenced": 5,
       "missing": 0,
       "invalid": 0
     },
