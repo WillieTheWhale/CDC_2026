@@ -1,5 +1,5 @@
 {
-  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Twenty-two individually named people across six original-language official court/prosecutor case pages in Indonesia, Vietnam, and the Philippines. Court findings, first-instance sentences, and report dates remain separate. Country markers mean historical person-specific case conduct only; no precise/live locations, inferred foreign-country operation, photos, or pairwise edges. Two additional Điện Biên names were excluded because the prosecutor article repeats one defendant in its verdict list and leaves another outcome unclear. Later appeals after these sources were not verified.",
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Twenty-two individually named people across six original-language official court/prosecutor case pages in Indonesia, Vietnam, and the Philippines. Court findings, first-instance sentences, and report dates remain separate. Country markers mean historical person-specific case conduct only; no precise/live locations, inferred foreign-country operation, photos, or inferred pairwise edges. Three named instruction links in the Tanjung Balai case are explicitly reported by the Supreme Court MARINews source and represent the first-instance account only. Two additional Điện Biên names were excluded because the prosecutor article repeats one defendant in its verdict list and leaves another outcome unclear. Later appeals after these sources were not verified.",
   "organizations": [
     {
       "id": "idn-tanjung-balai-2025",
@@ -1261,5 +1261,57 @@
       ]
     }
   ],
-  "connections": []
+  "connections": [
+    {
+      "id": "sea-idn-tanjung-balai-2025-hamlet-azhar-directed-suriyanto",
+      "fromId": "sea-idn-tanjung-balai-2025-hamlet-azhar",
+      "toId": "sea-idn-tanjung-balai-2025-suriyanto",
+      "type": "directed",
+      "label": "Court-reported instruction (first instance)",
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "MARINews reports the first-instance court case began with Hamlet Azhar instructing Suriyanto; the claim is limited to the documented historical instruction and does not establish a later appellate finding."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-tanjung-balai-2025-hamlet-azhar-directed-dedi-irawan",
+      "fromId": "sea-idn-tanjung-balai-2025-hamlet-azhar",
+      "toId": "sea-idn-tanjung-balai-2025-dedi-irawan",
+      "type": "directed",
+      "label": "Court-reported instruction (first instance)",
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "MARINews reports the first-instance court case began with Hamlet Azhar instructing Dedi Irawan; the claim is limited to the documented historical instruction and does not establish a later appellate finding."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-tanjung-balai-2025-hamlet-azhar-directed-ardian",
+      "fromId": "sea-idn-tanjung-balai-2025-hamlet-azhar",
+      "toId": "sea-idn-tanjung-balai-2025-ardian",
+      "type": "directed",
+      "label": "Court-reported instruction (first instance)",
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "MARINews reports the first-instance court case began with Hamlet Azhar instructing Ardian; the claim is limited to the documented historical instruction and does not establish a later appellate finding."
+        }
+      ]
+    }
+  ]
 }
