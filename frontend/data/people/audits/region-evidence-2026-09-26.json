@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2252,
-    "associations": 1602,
-    "evidenced": 1602,
+    "people": 2452,
+    "associations": 1689,
+    "evidenced": 1689,
     "missing": 0,
     "invalid": 0
   },
@@ -113,6 +113,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "colombia_historical_convictions_2011_2020.json": {
+      "people": 41,
+      "associations": 41,
+      "evidenced": 41,
+      "missing": 0,
+      "invalid": 0
+    },
     "comando_vermelho.json": {
       "people": 13,
       "associations": 13,
@@ -159,6 +166,13 @@
       "people": 110,
       "associations": 104,
       "evidenced": 104,
+      "missing": 0,
+      "invalid": 0
+    },
+    "doj_corpus_growth8_reviewed_2026.json": {
+      "people": 159,
+      "associations": 46,
+      "evidenced": 46,
       "missing": 0,
       "invalid": 0
     },
@@ -594,8 +608,8 @@
       "invalid": 0
     },
     "USA": {
-      "associations": 610,
-      "evidenced": 610,
+      "associations": 650,
+      "evidenced": 650,
       "missing": 0,
       "invalid": 0
     },
@@ -612,8 +626,8 @@
       "invalid": 0
     },
     "PRI": {
-      "associations": 11,
-      "evidenced": 11,
+      "associations": 14,
+      "evidenced": 14,
       "missing": 0,
       "invalid": 0
     },
@@ -636,8 +650,8 @@
       "invalid": 0
     },
     "HND": {
-      "associations": 11,
-      "evidenced": 11,
+      "associations": 12,
+      "evidenced": 12,
       "missing": 0,
       "invalid": 0
     },
@@ -660,14 +674,14 @@
       "invalid": 0
     },
     "COL": {
-      "associations": 56,
-      "evidenced": 56,
+      "associations": 97,
+      "evidenced": 97,
       "missing": 0,
       "invalid": 0
     },
     "MEX": {
-      "associations": 53,
-      "evidenced": 53,
+      "associations": 55,
+      "evidenced": 55,
       "missing": 0,
       "invalid": 0
     },
