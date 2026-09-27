@@ -2506,24 +2506,6 @@
       ]
     },
     {
-      "id": "ndlea-chayanee-naree-2021-2025",
-      "name": "MV Chayanee Naree cocaine case",
-      "aliases": [],
-      "regions": [
-        "NGA"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ]
-    },
-    {
       "id": "ndlea-july-2024-bolanle-lookman-dauda",
       "name": "Bolanle Lookman Dauda July 2024 drug case",
       "aliases": [],
@@ -96635,536 +96617,6 @@
       ]
     },
     {
-      "id": "krilerk-tanakhan-ndlea-chayanee-naree-2021-2025",
-      "name": "Krilerk Tanakhan",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Krilerk Tanakhan among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "krilerk-tanakhan-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Krilerk Tanakhan was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
-      "id": "boonlert-hansoongnern-ndlea-chayanee-naree-2021-2025",
-      "name": "Boonlert Hansoongnern",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Boonlert Hansoongnern among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "boonlert-hansoongnern-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Boonlert Hansoongnern was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
-      "id": "jakkarin-booncharoen-ndlea-chayanee-naree-2021-2025",
-      "name": "Jakkarin Booncharoen",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Jakkarin Booncharoen among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "jakkarin-booncharoen-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Jakkarin Booncharoen was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
-      "id": "thammarong-put-tlek-ndlea-chayanee-naree-2021-2025",
-      "name": "Thammarong Put-tlek",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Thammarong Put-tlek among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "thammarong-put-tlek-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Thammarong Put-tlek was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
-      "id": "worrapat-paopinta-ndlea-chayanee-naree-2021-2025",
-      "name": "Worrapat Paopinta",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Worrapat Paopinta among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "worrapat-paopinta-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Worrapat Paopinta was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
-      "id": "marut-kantaprom-ndlea-chayanee-naree-2021-2025",
-      "name": "Marut Kantaprom",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Marut Kantaprom among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "marut-kantaprom-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Marut Kantaprom was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
-      "id": "werapat-somboonying-ndlea-chayanee-naree-2021-2025",
-      "name": "Werapat Somboonying",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Werapat Somboonying among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "werapat-somboonying-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Werapat Somboonying was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
-      "id": "urkit-amsri-ndlea-chayanee-naree-2021-2025",
-      "name": "Urkit Amsri",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Urkit Amsri among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "urkit-amsri-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Urkit Amsri was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
-      "id": "panudet-jaisuk-ndlea-chayanee-naree-2021-2025",
-      "name": "Panudet Jaisuk",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Panudet Jaisuk among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "panudet-jaisuk-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Panudet Jaisuk was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
-      "id": "amrat-thawom-ndlea-chayanee-naree-2021-2025",
-      "name": "Amrat Thawom",
-      "aliases": [],
-      "status": "convicted",
-      "statusAsOf": "2025-05-15",
-      "roleLabel": "Crew member convicted for permitting vessel use in cocaine transportation",
-      "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Amrat Thawom among crew whose vessel carried cocaine into Nigeria in October 2021.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
-      "drugs": [
-        "cocaine"
-      ],
-      "sources": [
-        {
-          "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-          "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-          "publisher": "Nigeria National Drug Law Enforcement Agency",
-          "language": "en",
-          "publishedAt": "2025-05-15",
-          "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-        }
-      ],
-      "events": [
-        {
-          "id": "amrat-thawom-ndlea-chayanee-naree-2021-2025-2025-05-15-conviction",
-          "occurredAt": "2025-05-15",
-          "type": "conviction",
-          "title": "Court conviction after plea bargain",
-          "summary": "NDLEA reports that Amrat Thawom was convicted under section 25 for permitting vessel use; the report does not state a custodial sentence.",
-          "source": {
-            "url": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million",
-            "title": "32.9kg cocaine trafficking: 10 Thai sailors, ship convicted, fined $4.3million",
-            "publisher": "Nigeria National Drug Law Enforcement Agency",
-            "language": "en",
-            "publishedAt": "2025-05-15",
-            "claim": "NDLEA names the crew convicted for permitting use of the vessel to transport cocaine into Nigeria and nine Nigerian defendants whose trial continued."
-          }
-        }
-      ]
-    },
-    {
       "id": "samuel-messiah-ndlea-chayanee-naree-2021-2025",
       "name": "Samuel Messiah",
       "aliases": [],
@@ -97172,20 +96624,8 @@
       "statusAsOf": "2025-05-15",
       "roleLabel": "Charged defendant in cocaine importation case; trial pending in cited report",
       "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Samuel Messiah among defendants arrested with the vessel in Nigeria in October 2021 and charged; guilt was not established in the cited report.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
+      "organizationIds": [],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -97225,20 +96665,8 @@
       "statusAsOf": "2025-05-15",
       "roleLabel": "Charged defendant in cocaine importation case; trial pending in cited report",
       "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Ishaya Maisamari among defendants arrested with the vessel in Nigeria in October 2021 and charged; guilt was not established in the cited report.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
+      "organizationIds": [],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -97278,20 +96706,8 @@
       "statusAsOf": "2025-05-15",
       "roleLabel": "Charged defendant in cocaine importation case; trial pending in cited report",
       "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Ilesanmi Ayo Abbey among defendants arrested with the vessel in Nigeria in October 2021 and charged; guilt was not established in the cited report.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
+      "organizationIds": [],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -97331,20 +96747,8 @@
       "statusAsOf": "2025-05-15",
       "roleLabel": "Charged defendant in cocaine importation case; trial pending in cited report",
       "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Osabeye Stephen among defendants arrested with the vessel in Nigeria in October 2021 and charged; guilt was not established in the cited report.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
+      "organizationIds": [],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -97384,20 +96788,8 @@
       "statusAsOf": "2025-05-15",
       "roleLabel": "Charged defendant in cocaine importation case; trial pending in cited report",
       "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Gbenga Ogunfadeke among defendants arrested with the vessel in Nigeria in October 2021 and charged; guilt was not established in the cited report.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
+      "organizationIds": [],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -97437,20 +96829,8 @@
       "statusAsOf": "2025-05-15",
       "roleLabel": "Charged defendant in cocaine importation case; trial pending in cited report",
       "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Kayode Buletiri among defendants arrested with the vessel in Nigeria in October 2021 and charged; guilt was not established in the cited report.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
+      "organizationIds": [],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -97490,20 +96870,8 @@
       "statusAsOf": "2025-05-15",
       "roleLabel": "Charged defendant in cocaine importation case; trial pending in cited report",
       "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Rilwan Omotosho Liasu among defendants arrested with the vessel in Nigeria in October 2021 and charged; guilt was not established in the cited report.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
+      "organizationIds": [],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -97543,20 +96911,8 @@
       "statusAsOf": "2025-05-15",
       "roleLabel": "Charged defendant in cocaine importation case; trial pending in cited report",
       "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Saidi Sule Alani among defendants arrested with the vessel in Nigeria in October 2021 and charged; guilt was not established in the cited report.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
+      "organizationIds": [],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],
@@ -97596,20 +96952,8 @@
       "statusAsOf": "2025-05-15",
       "roleLabel": "Charged defendant in cocaine importation case; trial pending in cited report",
       "prominence": 1,
-      "organizationIds": [
-        "ndlea-chayanee-naree-2021-2025"
-      ],
-      "regions": [
-        {
-          "iso3": "NGA",
-          "label": "Nigeria",
-          "evidence": {
-            "claim": "NDLEA names Jamiu Adewale Yusuf among defendants arrested with the vessel in Nigeria in October 2021 and charged; guilt was not established in the cited report.",
-            "period": "2021-10",
-            "sourceUrl": "https://www.ndlea.gov.ng/blog/329kg-cocaine-trafficking-10-thai-sailors-ship-convicted-fined-43million"
-          }
-        }
-      ],
+      "organizationIds": [],
+      "regions": [],
       "drugs": [
         "cocaine"
       ],

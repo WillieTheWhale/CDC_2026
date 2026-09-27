@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2933,
-    "associations": 1919,
-    "evidenced": 1919,
+    "people": 2923,
+    "associations": 1900,
+    "evidenced": 1900,
     "missing": 0,
     "invalid": 0
   },
@@ -401,9 +401,9 @@
       "invalid": 0
     },
     "nigeria_court_cases_2024_2025.json": {
-      "people": 26,
-      "associations": 26,
-      "evidenced": 26,
+      "people": 16,
+      "associations": 7,
+      "evidenced": 7,
       "missing": 0,
       "invalid": 0
     },
@@ -640,8 +640,8 @@
       "invalid": 0
     },
     "NGA": {
-      "associations": 73,
-      "evidenced": 73,
+      "associations": 54,
+      "evidenced": 54,
       "missing": 0,
       "invalid": 0
     },
