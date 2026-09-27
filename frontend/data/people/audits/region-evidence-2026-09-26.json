@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 1238,
-    "associations": 1064,
-    "evidenced": 1064,
+    "people": 1250,
+    "associations": 1076,
+    "evidenced": 1076,
     "missing": 0,
     "invalid": 0
   },
@@ -159,6 +159,13 @@
       "people": 6,
       "associations": 9,
       "evidenced": 9,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ghana_tanzania_historical_courts_2004_2023.json": {
+      "people": 12,
+      "associations": 12,
+      "evidenced": 12,
       "missing": 0,
       "invalid": 0
     },
@@ -538,6 +545,18 @@
     "THA": {
       "associations": 2,
       "evidenced": 2,
+      "missing": 0,
+      "invalid": 0
+    },
+    "GHA": {
+      "associations": 7,
+      "evidenced": 7,
+      "missing": 0,
+      "invalid": 0
+    },
+    "TZA": {
+      "associations": 5,
+      "evidenced": 5,
       "missing": 0,
       "invalid": 0
     },
