@@ -74,6 +74,41 @@ test("name search is global across low prominence and outside the map viewport",
   assert.deepEqual(otherZoom.data.people.map((person) => person.id), page.data.people.map((person) => person.id));
 });
 
+test("name and alias search folds accents and matches unordered tokens across middle names", () => {
+  const coke = { ...makePerson(1, "JAM", 3), name: "Christopher Michael Coke", aliases: ["Dudus"] };
+  const jose = { ...makePerson(2, "USA", 2), name: "José Ángel García", aliases: ["Pepe García"] };
+  const other = { ...makePerson(3, "JAM", 1), name: "Christopher Cook", aliases: ["Coke"] };
+  const data: PeopleDataset = { people: [coke, jose, other], organizations: [], connections: [] };
+
+  for (const search of ["Christopher Coke", "Coke Christopher", "CHRISTOPHER   CÓKE"]) {
+    const page = queryPeople(data, countries, { search, zoom: 1, limit: 10 });
+    assert.deepEqual(page.data.people.map((person) => person.id), [coke.id]);
+    assert.equal(page.meta.total, 1);
+    assert.deepEqual(queryCountryCounts(data, search, 1), [{ iso3: "JAM", total: 1, visible: 1 }]);
+    assert.equal(queryPeople(data, countries, { search, zoom: 1, country: "JAM", limit: 10 }).meta.total, 1);
+    assert.equal(queryPeople(data, countries, { search, zoom: 1, country: "USA", limit: 10 }).meta.total, 0);
+  }
+  assert.deepEqual(queryPeople(data, countries, { search: "GARCIA JOSE", zoom: 1, limit: 10 }).data.people.map((person) => person.id), [jose.id]);
+  assert.deepEqual(queryPeople(data, countries, { search: "garcia pepe", zoom: 1, limit: 10 }).data.people.map((person) => person.id), [jose.id]);
+  assert.deepEqual(queryCountryCounts(data, "GARCÍA PEPE", 1), [{ iso3: "USA", total: 1, visible: 1 }]);
+  assert.equal(queryPeople(data, countries, { search: "Christopher García", zoom: 3, limit: 10 }).meta.total, 0);
+  assert.equal(queryPeople(data, countries, { search: "Christopher Coke Cook", zoom: 3, limit: 10 }).meta.total, 0);
+});
+
+test("search cursors preserve the token filter across query order and reject different tokens", () => {
+  const first = { ...makePerson(1), name: "Christopher Michael Coke" };
+  const second = { ...makePerson(2), name: "Christopher James Coke" };
+  const data: PeopleDataset = { people: [first, second], organizations: [], connections: [] };
+  const page = queryPeople(data, countries, { search: "Christopher Coke", zoom: 1, limit: 1 });
+  assert.equal(page.meta.total, 2);
+  assert.ok(page.meta.next_cursor);
+  const next = queryPeople(data, countries, { search: "CÓKE CHRISTOPHER", zoom: 1, limit: 1, cursor: page.meta.next_cursor! });
+  assert.equal(next.data.people.length, 1);
+  assert.notEqual(next.data.people[0].id, page.data.people[0].id);
+  assert.equal(next.meta.next_cursor, null);
+  assert.throws(() => queryPeople(data, countries, { search: "Christopher Cook", zoom: 1, limit: 1, cursor: page.meta.next_cursor! }), /cursor/);
+});
+
 test("unlocated records page across all tiers without a map or country match", () => {
   const first = makePerson(1, "USA", 1);
   const second = makePerson(2, "USA", 3);

@@ -17,6 +17,14 @@ export interface PeoplePage {
 }
 
 const fold = (value: string) => value.normalize("NFKC").toLocaleLowerCase("en-US");
+const searchTokens = (value: string) =>
+  value.normalize("NFKD").toLocaleLowerCase("en-US").normalize("NFD")
+    .replace(/\p{M}/gu, "").match(/[\p{L}\p{N}]+/gu) ?? [];
+const matchesSearch = (person: Person, tokens: string[]) =>
+  tokens.length === 0 || [person.name, ...(person.aliases ?? [])].some((value) => {
+    const candidate = searchTokens(value);
+    return tokens.every((token) => candidate.some((part) => part.includes(token)));
+  });
 const sortKey = (person: Person) => [fold(person.name), person.id] as const;
 const compare = (left: Person, right: Person) => {
   const a = sortKey(left);
@@ -59,12 +67,13 @@ function withinBbox(lon: number, lat: number, [west, south, east, north]: [numbe
 }
 
 function filterKey(query: ParsedPeopleQuery) {
+  const tokens = searchTokens(query.search).sort();
   return query.unlocated
-    ? JSON.stringify([fold(query.search), "unlocated"])
+    ? JSON.stringify([tokens, "unlocated"])
     : query.country
-    ? JSON.stringify([fold(query.search), query.country])
-    : fold(query.search)
-    ? JSON.stringify([fold(query.search), "global-search"])
+    ? JSON.stringify([tokens, query.country])
+    : tokens.length
+    ? JSON.stringify([tokens, "global-search"])
     : JSON.stringify(["", query.zoom, query.bbox ?? null]);
 }
 
@@ -82,13 +91,14 @@ function decodeCursor(value: string, key: string): [string, string] {
 export function queryPeople(dataset: PeopleDataset, countries: PeopleCountry[], query: ParsedPeopleQuery): PeoplePage {
   const countryById = new Map(countries.map((country) => [country.iso3, country]));
   const threshold = query.zoom;
-  const needle = fold(query.search);
+  const tokens = searchTokens(query.search);
+  const searching = tokens.length > 0;
   const filtered = dataset.people.filter((person) =>
-    (query.unlocated || needle.length > 0 || query.country || person.prominence <= threshold) &&
-    (!needle || [person.name, ...(person.aliases ?? [])].some((value) => fold(value).includes(needle))) &&
+    (query.unlocated || searching || query.country || person.prominence <= threshold) &&
+    matchesSearch(person, tokens) &&
     (!query.unlocated || person.regions.length === 0) &&
     (!query.country || person.regions.some((region) => region.iso3 === query.country)) &&
-    (needle.length > 0 || query.country || !query.bbox || person.regions.some((region) => {
+    (searching || query.country || !query.bbox || person.regions.some((region) => {
       const country = countryById.get(region.iso3);
       return country?.lon != null && country.lat != null && withinBbox(country.lon, country.lat, query.bbox!);
     })),
@@ -122,14 +132,14 @@ export function queryPeople(dataset: PeopleDataset, countries: PeopleCountry[], 
 }
 
 export function queryCountryCounts(dataset: PeopleDataset, search = "", zoom: 1 | 2 | 3 = 3) {
-  const needle = fold(search.trim());
+  const tokens = searchTokens(search);
   const counts = new Map<string, { total: number; visible: number }>();
   for (const person of dataset.people) {
-    if (needle && ![person.name, ...(person.aliases ?? [])].some((value) => fold(value).includes(needle))) continue;
+    if (!matchesSearch(person, tokens)) continue;
     for (const iso3 of new Set(person.regions.map((region) => region.iso3))) {
       const count = counts.get(iso3) ?? { total: 0, visible: 0 };
       count.total++;
-      if (needle || person.prominence <= zoom) count.visible++;
+      if (tokens.length || person.prominence <= zoom) count.visible++;
       counts.set(iso3, count);
     }
   }
