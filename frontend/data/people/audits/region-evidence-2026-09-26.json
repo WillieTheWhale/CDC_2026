@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2538,
-    "associations": 1701,
-    "evidenced": 1701,
+    "people": 2571,
+    "associations": 1734,
+    "evidenced": 1734,
     "missing": 0,
     "invalid": 0
   },
@@ -47,6 +47,13 @@
       "people": 5,
       "associations": 3,
       "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
+    "brazil_south_africa_official_convictions_2018_2026.json": {
+      "people": 33,
+      "associations": 33,
+      "evidenced": 33,
       "missing": 0,
       "invalid": 0
     },
@@ -615,6 +622,18 @@
       "missing": 0,
       "invalid": 0
     },
+    "BRA": {
+      "associations": 63,
+      "evidenced": 63,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ZAF": {
+      "associations": 24,
+      "evidenced": 24,
+      "missing": 0,
+      "invalid": 0
+    },
     "CAN": {
       "associations": 32,
       "evidenced": 32,
@@ -699,12 +718,6 @@
       "missing": 0,
       "invalid": 0
     },
-    "BRA": {
-      "associations": 36,
-      "evidenced": 36,
-      "missing": 0,
-      "invalid": 0
-    },
     "AFG": {
       "associations": 4,
       "evidenced": 4,
@@ -732,12 +745,6 @@
     "THA": {
       "associations": 4,
       "evidenced": 4,
-      "missing": 0,
-      "invalid": 0
-    },
-    "ZAF": {
-      "associations": 18,
-      "evidenced": 18,
       "missing": 0,
       "invalid": 0
     },
