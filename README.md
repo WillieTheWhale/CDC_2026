@@ -44,6 +44,7 @@ deck/        judging pitch deck (rebuilds itself from this repo)
 | T7 export + API | backend | done (precomputed JSON, FastAPI, contract tests) |
 | T8 Live Wire (mock Jev) | backend | done (JevClassifier + mock, GDELT poller with replay fallback, REST + WS) |
 | T9 shock simulator | backend | done (structured + plain-English shocks, command bar) |
+| API deployment | backend | done: live at https://trace-api-six.vercel.app (Vercel; keyword Live Wire classifier, backlog replay) |
 | Frontend shell + map | frontend | not started |
 | Country Screen + Risk Board | frontend | not started |
 | Simulator, Live Wire, Market Board | frontend | not started |
