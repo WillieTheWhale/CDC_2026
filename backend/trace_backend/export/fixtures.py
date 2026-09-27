@@ -89,3 +89,52 @@ def write_sample() -> None:
     for n in ("meta.json", "indicator_meta.json", "afghan_ban.json", "metrics.json"):
         shutil.copy(src / n, SAMPLE_DIR / n)
     log.info("sample export written to %s", SAMPLE_DIR)
+
+
+ROUTE_SNAPSHOT_DIR = config.BACKEND.parent / "frontend" / "public" / "data" / "routes"
+RISK_SNAPSHOT_DIR = config.BACKEND.parent / "frontend" / "public" / "data" / "risk"
+
+
+def write_route_snapshots() -> int:
+    """Every year's full /api/routes and /api/risk response (no trimming) for the frontend's no-API mode.
+
+    One file per mode and year (`routes/observed-2006.json` ... `routes/predicted-2025.json`,
+    `risk/2008.json` ... `risk/2025.json`, every country) so the browser fetches only the year on screen.
+    Each file is the exact API envelope and is validated against the contract."""
+    os.environ.setdefault("TRACE_LIVEWIRE_POLL", "0")
+    from fastapi.testclient import TestClient
+
+    from ..api.app import app
+    c = TestClient(app)
+    meta = c.get("/api/meta").json()["data"]
+    ROUTE_SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+    for old in ROUTE_SNAPSHOT_DIR.glob("*.json"):
+        old.unlink()
+    index = {}
+    for mode, years in (("observed", meta["observed_years"]), ("predicted", meta["predicted_years"])):
+        for year in years:
+            r = c.get("/api/routes", params={"mode": mode, "year": year})
+            r.raise_for_status()
+            body = r.json()
+            contract.validate("RoutesResponse", body)
+            name = f"{mode}-{year}.json"
+            (ROUTE_SNAPSHOT_DIR / name).write_text(json.dumps(body, separators=(",", ":"), ensure_ascii=False),
+                                                  encoding="utf-8")
+            index[name] = len(body["data"]["edges"])
+    (ROUTE_SNAPSHOT_DIR / "index.json").write_text(json.dumps(
+        {"_ai_assisted": "Claude Code (Anthropic). See docs/AI_USAGE.md.",
+         "generated_by": "uv run trace export --route-snapshots", "files": index}, indent=2) + "\n",
+        encoding="utf-8")
+    log.info("wrote %d route snapshots (%d edges) to %s", len(index), sum(index.values()), ROUTE_SNAPSHOT_DIR)
+    RISK_SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+    for old in RISK_SNAPSHOT_DIR.glob("*.json"):
+        old.unlink()
+    for year in meta["risk_years"]:
+        r = c.get("/api/risk", params={"year": year})
+        r.raise_for_status()
+        body = r.json()
+        contract.validate("RiskResponse", body)
+        (RISK_SNAPSHOT_DIR / f"{year}.json").write_text(json.dumps(body, separators=(",", ":"), ensure_ascii=False),
+                                                        encoding="utf-8")
+    log.info("wrote %d risk snapshots to %s", len(meta["risk_years"]), RISK_SNAPSHOT_DIR)
+    return len(index)

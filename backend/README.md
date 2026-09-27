@@ -41,7 +41,7 @@ This reads the SQLite archive, derives model inputs, trains the models, runs the
 | Edges | `uv run trace edges` | `edges` (corridor x drug x year, kg estimate, 0-100 confidence) |
 | Models | `uv run trace models` | PPML gravity, LightGBM hurdle, SHAP, 2019 backtest, Afghan ban test, `predictions`, `data/processed/metrics.json` |
 | Risk | `uv run trace risk` | `risk_scores` for every country and year (2008-2025; starts with the first HRI edition), hypothesis test in `metrics.json` |
-| Export | `uv run trace export [--fixtures]` | `data/processed/api/*.json`; `--fixtures` also regenerates `contracts/fixtures/` and `tests/data/api_sample/` from the live API |
+| Export | `uv run trace export [--fixtures] [--route-snapshots]` | `data/processed/api/*.json`; `--fixtures` also regenerates `contracts/fixtures/` and `tests/data/api_sample/` from the live API; `--route-snapshots` writes every year's full routes and risk (contract-validated) to `frontend/public/data/routes/` and `risk/` for the frontend's no-API mode |
 
 ## Run the API
 

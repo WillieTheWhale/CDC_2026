@@ -38,3 +38,49 @@ test("a custom scenario never receives an unrelated saved result", async () => {
   assert.equal(result.data.shocks[0].value, 0.5);
   assert.ok(result.data.risk_deltas.length > 0);
 });
+// AI-assisted (test below): written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+test("no-API routes load the full per-year snapshot, filtered, and keep the fixture fallback", async () => {
+  const { snapshotRoutes } = await import("./api");
+  const { readFileSync } = await import("node:fs");
+  const original = globalThis.fetch;
+  globalThis.fetch = (async (url: string) => {
+    assert.equal(url, "/data/routes/observed-2015.json");
+    const body = readFileSync(
+      new URL("../public/data/routes/observed-2015.json", import.meta.url),
+      "utf8",
+    );
+    return new Response(body);
+  }) as typeof fetch;
+  try {
+    const all = await snapshotRoutes(2015, "observed");
+    assert.ok(all.data.edges.length > 80);
+    assert.ok(all.data.edges.every((e) => e.year === 2015));
+    const heroin = await snapshotRoutes(2015, "observed", "heroin", 50);
+    assert.ok(heroin.data.edges.length > 0);
+    assert.ok(heroin.data.edges.every((e) => e.drug === "heroin" && e.confidence >= 50));
+    globalThis.fetch = (async () => new Response("", { status: 404 })) as typeof fetch;
+    assert.equal((await snapshotRoutes(2015, "observed")).data.edges.length, 0);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+test("no-API risk loads every country for the year and falls back to the fixture", async () => {
+  const { snapshotRisk } = await import("./api");
+  const { readFileSync } = await import("node:fs");
+  const original = globalThis.fetch;
+  globalThis.fetch = (async (url: string) => {
+    assert.equal(url, "/data/risk/2015.json");
+    return new Response(
+      readFileSync(new URL("../public/data/risk/2015.json", import.meta.url), "utf8"),
+    );
+  }) as typeof fetch;
+  try {
+    const r = await snapshotRisk(2015);
+    assert.equal(r.data.year, 2015);
+    assert.ok(r.data.rows.length > 150);
+    globalThis.fetch = (async () => new Response("", { status: 404 })) as typeof fetch;
+    assert.equal((await snapshotRisk(2015)).data.rows.length, 0);
+  } finally {
+    globalThis.fetch = original;
+  }
+});

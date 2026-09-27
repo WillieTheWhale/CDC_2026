@@ -39,10 +39,10 @@ export type Catalog = typeof meta.data;
 
 async function request<T>(
   path: string,
-  fallback: () => T,
+  fallback: () => T | Promise<T>,
   init?: RequestInit,
 ): Promise<T> {
-  if (!API_BASE) return structuredClone(fallback());
+  if (!API_BASE) return structuredClone(await fallback());
   const res = await fetch(`${API_BASE}${path}`, {
     ...init,
     headers: { "Content-Type": "application/json", ...init?.headers },
@@ -58,6 +58,28 @@ async function request<T>(
   }
   return res.json() as Promise<T>;
 }
+function filterRoutes(
+  envelope: Envelope<Routes>,
+  year: number,
+  drug?: Drug,
+  minConfidence = 0,
+): Envelope<Routes> {
+  return {
+    ...envelope,
+    data: {
+      ...envelope.data,
+      year,
+      drug: drug ?? null,
+      edges:
+        envelope.data.year === year
+          ? envelope.data.edges.filter(
+              (e) =>
+                (!drug || e.drug === drug) && e.confidence >= minConfidence,
+            )
+          : [],
+    },
+  };
+}
 export function fixtureRoutes(
   year: number,
   mode: Mode,
@@ -67,21 +89,26 @@ export function fixtureRoutes(
   const fixture = (
     mode === "predicted" ? predicted : observed
   ) as Envelope<Routes>;
-  return {
-    ...fixture,
-    data: {
-      ...fixture.data,
-      year,
-      drug: drug ?? null,
-      edges:
-        fixture.data.year === year
-          ? fixture.data.edges.filter(
-              (e) =>
-                (!drug || e.drug === drug) && e.confidence >= minConfidence,
-            )
-          : [],
-    },
-  };
+  return filterRoutes(fixture, year, drug, minConfidence);
+}
+// AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+// Full per-year route exports (`uv run trace export --route-snapshots`) so the
+// no-API atlas draws every modeled corridor for every year, not only the
+// trimmed contract fixture. Falls back to the fixture if a file is missing.
+export async function snapshotRoutes(
+  year: number,
+  mode: Mode,
+  drug?: Drug,
+  minConfidence = 0,
+): Promise<Envelope<Routes>> {
+  try {
+    const res = await fetch(`/data/routes/${mode}-${year}.json`);
+    if (!res.ok) throw new Error(String(res.status));
+    const full = (await res.json()) as Envelope<Routes>;
+    return filterRoutes(full, year, drug, minConfidence);
+  } catch {
+    return fixtureRoutes(year, mode, drug, minConfidence);
+  }
 }
 export function fixtureRisk(year: number): Envelope<Risk> {
   return {
@@ -92,6 +119,17 @@ export function fixtureRisk(year: number): Envelope<Risk> {
       rows: year === risk.data.year ? risk.data.rows : [],
     },
   };
+}
+// Full per-year risk (every country) so the map's exposure shading and the
+// risk board work for 2008-2025 without the API; falls back to the fixture.
+export async function snapshotRisk(year: number): Promise<Envelope<Risk>> {
+  try {
+    const res = await fetch(`/data/risk/${year}.json`);
+    if (!res.ok) throw new Error(String(res.status));
+    return (await res.json()) as Envelope<Risk>;
+  } catch {
+    return fixtureRisk(year);
+  }
 }
 export const api = {
   meta: () => request<Envelope<Catalog>>("/api/meta", () => meta),
@@ -105,11 +143,11 @@ export const api = {
     });
     if (drug) q.set("drug", drug);
     return request<Envelope<Routes>>(`/api/routes?${q}`, () =>
-      fixtureRoutes(year, mode, drug, minConfidence),
+      snapshotRoutes(year, mode, drug, minConfidence),
     );
   },
   risk: (year: number) =>
-    request<Envelope<Risk>>(`/api/risk?year=${year}`, () => fixtureRisk(year)),
+    request<Envelope<Risk>>(`/api/risk?year=${year}`, () => snapshotRisk(year)),
   country: (iso3: string, year: number) =>
     request<Envelope<CountryDetail> | null>(
       `/api/country/${encodeURIComponent(iso3)}?year=${year}`,

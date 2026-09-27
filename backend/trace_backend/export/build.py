@@ -2,7 +2,8 @@
 """T7: precompute every API payload as JSON in data/processed/api/ so the demo never waits on a model.
 
 `--fixtures` additionally regenerates contracts/fixtures/ by calling the live FastAPI app (TestClient),
-so fixtures always match both the contract and real output.
+so fixtures always match both the contract and real output. `--route-snapshots` writes every year's full
+routes and risk scores for the frontend's no-API mode (frontend/public/data/routes/ and risk/).
 """
 from __future__ import annotations
 
@@ -197,7 +198,7 @@ def sources_freshness() -> list[dict]:
     return out
 
 
-def run(fixtures: bool = False) -> dict:
+def run(fixtures: bool = False, route_snapshots: bool = False) -> dict:
     config.ensure_dirs()
     now = datetime.now(UTC).isoformat(timespec="seconds")
     countries = db.read_table("countries")
@@ -270,4 +271,7 @@ def run(fixtures: bool = False) -> dict:
     if fixtures:
         from .fixtures import regenerate
         regenerate()
+    if route_snapshots:
+        from .fixtures import write_route_snapshots
+        write_route_snapshots()
     return {"out": str(OUT), "observed_years": sorted(obs), "predicted_year": fut}

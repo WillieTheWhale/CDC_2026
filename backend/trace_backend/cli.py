@@ -44,6 +44,8 @@ def main(argv: list[str] | None = None) -> int:
         sp.add_argument("--refresh", action="store_true")
         if name == "export":
             sp.add_argument("--fixtures", action="store_true", help="also rewrite contracts/fixtures from real output")
+            sp.add_argument("--route-snapshots", action="store_true",
+                            help="also write every year's full routes and risk to frontend/public/data/")
     sv = sub.add_parser("serve", help="run the API")
     sv.add_argument("--host", default="127.0.0.1")
     sv.add_argument("--port", type=int, default=8000)
@@ -114,6 +116,7 @@ def main(argv: list[str] | None = None) -> int:
     kw = {}
     if a.cmd == "export":
         kw["fixtures"] = a.fixtures
+        kw["route_snapshots"] = a.route_snapshots
     else:
         kw["refresh"] = a.refresh
     _call(a.cmd, **kw)
