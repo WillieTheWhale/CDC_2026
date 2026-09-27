@@ -295,10 +295,10 @@
     "pending_count": 0
   },
   "git": {
-    "sha": "037cb97",
-    "subject": "deck: say the labels are AI-assisted, matching the presenter guide",
-    "when": "2026-09-27T18:37:34Z",
-    "count": "336"
+    "sha": "d357a2f",
+    "subject": "Fix sideways scroll at 1024 px: the dock no longer widens its column (react-grid-layout's 1280 px default fed back into its measured width); seed initialWidth from the viewport",
+    "when": "2026-09-27T16:43:46-04:00",
+    "count": "329"
   },
-  "built_at": "2026-09-27 18:45 UTC"
+  "built_at": "2026-09-27 21:37 UTC"
 }

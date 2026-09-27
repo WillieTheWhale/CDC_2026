@@ -69,10 +69,12 @@ test is stronger evidence still: trained through 2021, shocked, and checked agai
 never saw.
 
 **6. "What does Reflex add over a normal LLM?"** — *Markandeya (S3)*
-Control and predictable economics. Reflex is our own 70M-parameter per-option cross-encoder, so it runs
-locally without an API key, emits only the supplied choices, and can score every option in one batch. We
-fine-tune it with log-loss and fit one temperature per primitive on held-out data. It sits behind the same
-classifier interface as Jev and the keyword fallback, so Live Wire degrades visibly instead of stopping.
+Control and predictable economics. Reflex is our own 70M-parameter per-option cross-encoder: our weights,
+no third-party API key, no per-article vendor cost. It emits only the supplied choices and scores every
+option in one batch. We fine-tune it with log-loss and fit one temperature per primitive on held-out data.
+In production it runs as our own service (a second Vercel function, torch-free ONNX), and the main API calls
+it through the same classifier interface as Jev and the keyword fallback, so Live Wire degrades visibly
+instead of stopping.
 
 **6b. "You said calibrated confidence. Is it calibrated?"** — *Markandeya (S3)*
 On the synthetic benchmarks and now on real news too. Reflex v0.2 has ECE 0.020 in distribution and 0.062
@@ -246,9 +248,18 @@ Silva and Tenreyro, LightGBM from Ke et al., SHAP from Lundberg and Lee.
 **"What's not built yet?"** — *whoever is asked*
 The core product is built and live: the map, country and risk views, simulator, Live Wire, Markets, Health,
 People and source drilldowns all ship. What remains is validation and deployment work, not a hidden missing
-screen: run external Reflex validation on a larger, independently labelled set; add the fentanyl and ACLED feeds;
+screen: run external Reflex validation on a larger, independently labelled set (the model itself is now live
+in production as its own service); add the fentanyl and ACLED feeds;
 then test service placement with a harm-reduction partner. Verify the hosted frontend against current `main`
 before judging because a deployment can lag the repo even when the feature is complete.
+
+**"What happens if the model service is down during the demo?"** — *Markandeya (S3)*
+The wire still populates and nothing pretends to be a model answer. Reflex runs as its own function
+(trace-reflex), and the main API pre-classifies the Live Wire backlog at build with the real ONNX model
+inside the package - which is also why the first read takes 0.06 seconds instead of 17. So the events on
+screen were classified by Reflex regardless. The live endpoint, `POST /api/livewire/classify`, calls the
+service per article (about 1.5 s warm, 4.5 s cold) and returns 503 if it cannot reach it. It never quietly
+substitutes a keyword answer and labels it as the model.
 
 **"What happens if GDELT is down during the demo?"** — *Markandeya (S3)*
 It has been, from our network — it returns 429s. The poller keeps GDELT's rate spacing and retries,
