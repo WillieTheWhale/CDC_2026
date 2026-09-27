@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 3066,
-    "associations": 2014,
-    "evidenced": 2014,
+    "people": 3098,
+    "associations": 2021,
+    "evidenced": 2021,
     "missing": 0,
     "invalid": 0
   },
@@ -47,6 +47,20 @@
       "people": 5,
       "associations": 3,
       "evidenced": 3,
+      "missing": 0,
+      "invalid": 0
+    },
+    "brazil_court_mprj_expansion_2017_2026.json": {
+      "people": 24,
+      "associations": 6,
+      "evidenced": 6,
+      "missing": 0,
+      "invalid": 0
+    },
+    "brazil_mpf_lacos_2021.json": {
+      "people": 8,
+      "associations": 1,
+      "evidenced": 1,
       "missing": 0,
       "invalid": 0
     },
@@ -679,8 +693,8 @@
       "invalid": 0
     },
     "BRA": {
-      "associations": 94,
-      "evidenced": 94,
+      "associations": 101,
+      "evidenced": 101,
       "missing": 0,
       "invalid": 0
     },
