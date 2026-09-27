@@ -50,11 +50,11 @@ uv run trace serve            # http://127.0.0.1:8000, docs at /docs
 uv run trace serve --host 0.0.0.0 --port 8000
 ```
 
-The API serves precomputed JSON, so the demo never waits on a model. Only `POST /api/simulate` runs a model, in about 1 second. Endpoints: `/api/meta`, `/api/countries`, `/api/routes`, `/api/country/{iso3}`, `/api/risk`, `/api/prices`, `POST /api/simulate`, `/api/experiments/afghan-ban`, `/api/metrics`, `/api/livewire`, `WS /ws/livewire`, `POST /api/command`.
+The API serves precomputed JSON, so the demo never waits on a model. Only `POST /api/simulate` runs a model, in about 1 second. Endpoints: `/api/meta`, `/api/countries`, `/api/routes`, `/api/country/{iso3}`, `/api/risk`, `/api/prices`, `POST /api/simulate`, `/api/experiments/afghan-ban`, `/api/metrics`, `/api/livewire`, `WS /ws/livewire`, `POST /api/command`, and People: `/api/people`, `/api/people/countries`, `/api/people/network`, `/api/people/{person_id}` (reads the curated `frontend/data/people/manifest.json`, or `TRACE_PEOPLE_MANIFEST`).
 
 Frontend: set `NEXT_PUBLIC_API_URL=http://localhost:8000` in `frontend/.env.local`.
 
-**Live API (Vercel):** https://trace-api-six.vercel.app (docs at `/docs`). For the deployed frontend, set `NEXT_PUBLIC_API_URL=https://trace-api-six.vercel.app`. CORS allows `localhost:3000` and any `*.vercel.app` origin.
+**Live API (Vercel):** https://trace-api-six.vercel.app (docs at `/docs`). **Live website:** https://trace-atlas-gules.vercel.app. It is deployed from the repo root with `vercel deploy --prod`; the project `trace-atlas` has root directory `frontend/`, and `.vercelignore` uploads only `frontend/` and `contracts/`. For the deployed frontend, set `NEXT_PUBLIC_API_URL=https://trace-api-six.vercel.app`. CORS allows `localhost:3000` and any `*.vercel.app` origin.
 
 To redeploy: `.venv/Scripts/python scripts/build_vercel.py`, then `cd .vercel_deploy && vercel deploy --prod`. The build script stages a 34 MB self-contained package: the code, `data/processed/api/`, the route model, and a slim SQLite that holds the derived tables plus `countries` and `cultivation`. It leaves out the 1.2 GB archive. On Vercel the Live Wire uses the keyword classifier and replays its backlog without polling GDELT. Reflex needs torch, which is too heavy for the function. LightGBM needs `libgomp.so.1`, which the runtime lacks, so the generated `app.py` loads scikit-learn's bundled copy at cold start.
 

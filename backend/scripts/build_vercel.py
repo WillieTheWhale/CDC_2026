@@ -104,6 +104,10 @@ def build() -> Path:
     for f in ("metrics.json", "wb_manifest.json", "ingest_manifest.json"):
         if (config.PROCESSED / f).exists():
             shutil.copy(config.PROCESSED / f, data / "processed" / f)
+    people = config.REPO / "frontend" / "data" / "people" / "manifest.json"  # read-only; frontend team curates it
+    if people.exists():
+        (data / "people").mkdir()
+        shutil.copy(people, data / "people" / "manifest.json")
     db = data / "derived.sqlite"
     shutil.copy(config.DB_PATH, db)
     with sqlite3.connect(db.resolve().as_uri(), uri=True) as con:  # uri=True so ATTACH accepts ?mode=ro

@@ -176,8 +176,8 @@ def _livewire_state():
     return state()
 
 
-# Live Wire (T8) and simulator / command bar (T9) routers
-for _mod in ("livewire", "simulate"):
+# Live Wire (T8), simulator / command bar (T9) and People routers
+for _mod in ("livewire", "simulate", "people"):
     try:
         app.include_router(__import__(f"trace_backend.api.{_mod}", fromlist=["router"]).router)
     except ImportError as _exc:  # module not built yet

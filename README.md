@@ -45,6 +45,8 @@ deck/        judging pitch deck (rebuilds itself from this repo)
 | T8 Live Wire (mock Jev) | backend | done (JevClassifier + mock, GDELT poller with replay fallback, REST + WS) |
 | T9 shock simulator | backend | done (structured + plain-English shocks, command bar) |
 | API deployment | backend | done: live at https://trace-api-six.vercel.app (Vercel; keyword Live Wire classifier, backlog replay) |
+| People API | backend | done (`/api/people`, `/countries`, `/network`, `/{person_id}`; parity with the frontend route handlers) |
+| Website deployment | backend (deploy only) | live at https://trace-atlas-gules.vercel.app (Vercel project `trace-atlas`, root `frontend/`, `NEXT_PUBLIC_API_URL` = live API) |
 | Frontend shell + map | frontend | not started |
 | Country Screen + Risk Board | frontend | not started |
 | Simulator, Live Wire, Market Board | frontend | not started |
