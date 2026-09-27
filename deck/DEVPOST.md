@@ -65,9 +65,11 @@ checksum-verified, read-only SQLite v2 archive. That layer does five
 distinct jobs: market mass for the gravity model, route friction, vulnerability, validation targets, and
 detection-bias control. External sources (all cited): UNODC Individual Drug Seizures (~2.3M cases), the
 UNODC World Drug Report statistical annex, the Global Organized Crime Index, Harm Reduction International's
-Global State of Harm Reduction, CEPII GeoDist, and GDELT. Evidence endpoints drill from research, market,
-health and overdose values to formulas, exact input rows, observation and publication years, and original
-source URLs; route edges likewise carry evidence IDs and identify kilograms as allocated seizure scale.
+Global State of Harm Reduction, CEPII GeoDist, and GDELT. Live evidence endpoints trace research and
+derived market values to formulas, exact input rows, source editions and original URLs; they also expose
+source-published price/purity rows, PWID estimates, treatment contacts and overdose records with their
+method and status labels. Route edges likewise carry evidence IDs and identify kilograms as allocated
+seizure scale.
 
 **Models.** A PPML gravity model as the published baseline, and a LightGBM hurdle model as the main
 predictor — a classifier for whether a corridor is active next year, a regressor for volume if it is.

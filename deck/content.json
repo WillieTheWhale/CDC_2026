@@ -546,11 +546,11 @@
         },
         {
           "type": "source",
-          "text": "Evidence drilldown resolves research, market, health and overdose values to their formula, observation year, publication year, exact input rows and original source URL."
+          "text": "Live evidence drilldown traces research and derived market values to formulas, source editions, exact input rows and original URLs; health and overdose records retain their method, date and status labels."
         }
       ],
       "cues": [
-        "These are counts from our own pipeline — every one is checkable, and the evidence API drills from a value to its formula and exact source rows.",
+        "These are counts from our own pipeline — every one is checkable. Research and derived market values drill to formulas and exact source rows; health records keep their method labels.",
         "The World Bank API is called programmatically with explicit source IDs. That's the track requirement and we meet it literally.",
         "Don't read all six. Read two."
       ]

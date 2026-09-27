@@ -192,7 +192,7 @@ so users can audit the public context behind organizations named in reports. If 
 in a deployment, the People view should be removed rather than repurposed for enforcement.
 
 <!-- people:auto -->
-Know the mix before you answer the follow-up. As of the 2026-09-27 build it is **2,923 people across 226 organizations — 1,855 convicted, 456 charged, 536 sanctioned** (an official designation, usually OFAC) **and 76 carried only as reported**. Two things to say in that order. First, about 97% rest on an official action: a court, an indictment or a Treasury listing. Second, the honest concession before a judge finds it — most entries are convicted, but a large minority are only charged, and the 76 reported rest on journalism rather than any official determination. Each carries its source and its status is shown on the record rather than flattened into "trafficker".
+Know the mix before you answer the follow-up. As of the 2026-09-27 build it is **3,099 people across 229 organizations — 2,031 convicted, 456 charged, 536 sanctioned** (an official designation, usually OFAC) **and 76 carried only as reported**. Two things to say in that order. First, about 98% rest on an official action: a court, an indictment or a Treasury listing. Second, the honest concession before a judge finds it — most entries are convicted, but a large minority are only charged, and the 76 reported rest on journalism rather than any official determination. Each carries its source and its status is shown on the record rather than flattened into "trafficker".
 
 These figures regenerate on every `python3 deck/build.py`; the dataset has grown fast, so rebuild before judging rather than trusting a number typed by hand.
 <!-- /people:auto -->
@@ -224,9 +224,11 @@ touched plus a dated log in `docs/AI_USAGE.md`. We also cite the statistical met
 Silva and Tenreyro, LightGBM from Ke et al., SHAP from Lundberg and Lee.
 
 **"What's not built yet?"** — *whoever is asked*
-Answer plainly, then redirect to the demo. Verify the running workspace and current commit the morning of
-judging. The frontend rows in `README.md` are stale as of 2026-09-26 even though the workspace is built and
-screenshotted, so do not repeat those rows on stage; the backend owner should correct them before judging.
+The core product is built and live: the map, country and risk views, simulator, Live Wire, Markets, Health,
+People and source drilldowns all ship. What remains is validation and deployment work, not a hidden missing
+screen: team-label real headlines and run external Reflex validation; add the fentanyl and ACLED feeds;
+then test service placement with a harm-reduction partner. Verify the hosted frontend against current `main`
+before judging because a deployment can lag the repo even when the feature is complete.
 
 **"What happens if GDELT is down during the demo?"** — *Markandeya (S3)*
 It has been, from our network — it returns 429s. The poller keeps GDELT's rate spacing and retries,

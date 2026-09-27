@@ -142,9 +142,9 @@
     "afghan": "contracts/fixtures/afghan_ban.json"
   },
   "people": {
-    "total": 2923,
-    "organizations": 226,
-    "convicted": 1855,
+    "total": 3099,
+    "organizations": 229,
+    "convicted": 2031,
     "charged": 456,
     "sanctioned": 536,
     "reported": 76
@@ -246,35 +246,39 @@
         "label": "Evidence drilldown API",
         "owner": "backend",
         "status": "done (`/api/evidence/*`: 3,995 research and market values traced to formula, inputs and original cells; health and CDC overdose with the required labels)"
-      }
-    ],
-    "pending": [
+      },
       {
         "label": "Frontend shell + map",
         "owner": "frontend",
-        "status": "not started"
+        "status": "done: live at https://trace-atlas-gules.vercel.app (atlas map with year slider and 2025 forecast, full-screen mode, drug filters, estimated local flows)"
       },
       {
         "label": "Country Screen + Risk Board",
         "owner": "frontend",
-        "status": "not started"
+        "status": "done (risk watchlist and board, country inspector with routes, indicators, harm reduction and briefing)"
       },
       {
         "label": "Simulator, Live Wire, Market Board",
         "owner": "frontend",
-        "status": "not started"
+        "status": "done (Scenarios tab with policy dates, Live Wire feed, Markets tab; Experiment tab for the Afghan ban test)"
+      },
+      {
+        "label": "Merged database (`database_new`)",
+        "owner": "backend",
+        "status": "done: `backend/scripts/merge_databases.py` = canonical archive + derived API tables + route-evidence seeds (76 tables); uploaded to the team Drive folder as `database_new.sqlite.gz` + `database_new.json`"
       }
     ],
+    "pending": [],
     "frontend_built": true,
     "shipped_short": "Pipeline, models, backtests, Live Wire and the workspace shipped; API live in production",
-    "shipped_count": 17,
-    "pending_count": 3
+    "shipped_count": 21,
+    "pending_count": 0
   },
   "git": {
-    "sha": "df64651",
-    "subject": "deck: rebuild after Atlas presentation updates",
-    "when": "2026-09-27T03:07:22-04:00",
-    "count": "282"
+    "sha": "5e75a06",
+    "subject": "Add sourced Daniel Barrera profile and licensed portrait",
+    "when": "2026-09-27T03:28:48-04:00",
+    "count": "301"
   },
-  "built_at": "2026-09-27 07:07 UTC"
+  "built_at": "2026-09-27 07:32 UTC"
 }
