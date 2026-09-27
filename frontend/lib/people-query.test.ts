@@ -49,6 +49,15 @@ test("search, zoom, wrapped bbox and cursor filter binding", () => {
   assert.throws(() => queryPeople(dataset, countries, { search: "other", zoom: 3, limit: 2, cursor: first.meta.next_cursor! }), /cursor/);
 });
 
+test("name search is global across low prominence and outside the map viewport", () => {
+  const bounds: [number, number, number, number] = [-130, 20, -60, 55];
+  const page = queryPeople(dataset, countries, { search: "Person 10002", zoom: 1, bbox: bounds, limit: 1 });
+  assert.equal(page.meta.total, 1);
+  assert.equal(page.data.people[0].id, "person-10002");
+  const otherZoom = queryPeople(dataset, countries, { search: "Person 10002", zoom: 3, limit: 1 });
+  assert.deepEqual(otherZoom.data.people.map((person) => person.id), page.data.people.map((person) => person.id));
+});
+
 test("invalid boundaries are rejected and page edges only reference included people", () => {
   assert.throws(() => parsePeopleQuery(new URLSearchParams("limit=251")), /limit/);
   assert.throws(() => parsePeopleQuery(new URLSearchParams("bbox=0,30,20,10")), /bbox/);

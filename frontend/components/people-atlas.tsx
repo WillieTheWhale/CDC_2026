@@ -62,11 +62,14 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   const [mode, setMode] = useState<"map" | "graph">("map");
   const [zoom, setZoom] = useState<1 | 2 | 3>(1);
   const [query, setQuery] = useState("");
+  const searching = query.trim().length > 0;
+  const requestZoom = searching ? 3 : zoom;
+  const requestBounds = searching ? undefined : bounds;
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [total, setTotal] = useState<number | null>(null);
   const [nextCursor, setNextCursor] = useState<string | null>(null);
   const [loadingMore, setLoadingMore] = useState(false);
-  const filterKey = JSON.stringify([query, zoom, bounds]);
+  const filterKey = JSON.stringify([query, requestZoom, requestBounds]);
   const filterKeyRef = useRef(filterKey);
   filterKeyRef.current = filterKey;
 
@@ -140,7 +143,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     setNextCursor(null);
     setLoadingMore(false);
     const timer = setTimeout(() => {
-      void loadPeople({ search: query, zoom, bounds, limit: 100 }).then((result) => {
+      void loadPeople({ search: query, zoom: requestZoom, bounds: requestBounds, limit: 100 }).then((result) => {
         if (!active) return;
         if (result.status === "ready") {
           setDataset(result.dataset);
@@ -154,13 +157,13 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       });
     }, query ? 200 : 0);
     return () => { active = false; clearTimeout(timer); };
-  }, [query, zoom, bounds]);
+  }, [query, requestZoom, requestBounds]);
 
   const loadMore = async () => {
     if (!nextCursor || loadingMore) return;
     const requestedKey = filterKey;
     setLoadingMore(true);
-    const result = await loadPeople({ search: query, zoom, bounds, limit: 100, cursor: nextCursor });
+    const result = await loadPeople({ search: query, zoom: requestZoom, bounds: requestBounds, limit: 100, cursor: nextCursor });
     if (filterKeyRef.current !== requestedKey) return;
     setLoadingMore(false);
     if (result.status !== "ready") { setLoadState(result.reason); return; }
@@ -198,13 +201,13 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   const matching = people;
   const personCount = dataset?.people.length ?? 0;
 
-  const choosePerson = (person: Person) => {
+  const choosePerson = (person: Person, focusIso3?: string) => {
     setSelectedId(person.id);
     setMode("map");
-    const region = person.regions.find((item) => countryById.has(item.iso3));
+    const region = person.regions.find((item) => item.iso3 === focusIso3 && countryById.has(item.iso3)) ?? person.regions.find((item) => countryById.has(item.iso3));
     const country = region ? countryById.get(region.iso3) : undefined;
     if (country?.lat != null && country.lon != null) {
-      mapRef.current?.flyTo({ center: [country.lon, country.lat], zoom: Math.max(mapRef.current.getZoom(), 4.5), duration: 550 });
+      mapRef.current?.flyTo({ center: [country.lon, country.lat], zoom: Math.max(mapRef.current.getZoom(), 5.2), duration: 550 });
     }
   };
 
@@ -214,7 +217,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     markersRef.current.forEach((marker) => marker.remove());
     markersRef.current = [];
     const threshold = zoom === 1 ? 3 : zoom === 2 ? 2 : 1;
-    const visible = matching.filter((person) => person.prominence >= threshold);
+    const visible = searching ? matching : matching.filter((person) => person.prominence >= threshold);
     const bounds = map.getBounds();
     if (zoom < 3) {
       const grouped = new Map<string, Person[]>();
@@ -237,9 +240,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
         label.textContent = country.name;
         button.append(count, label);
         button.addEventListener("click", () => {
-          if (members.length === 1) choosePerson(members[0]);
-          else setSelectedId(members.sort((a, b) => b.prominence - a.prominence)[0].id);
-          map.flyTo({ center: [country.lon!, country.lat!], zoom: Math.max(map.getZoom(), 4.5), duration: 550 });
+          choosePerson([...members].sort((a, b) => b.prominence - a.prominence || a.name.localeCompare(b.name))[0], iso3);
         });
         markersRef.current.push(new maplibregl.Marker({ element: button, anchor: "center" }).setLngLat([country.lon!, country.lat!]).addTo(map));
       }
@@ -277,14 +278,14 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       const label = document.createElement("small");
       label.textContent = person.name;
       button.append(label);
-      button.addEventListener("click", () => choosePerson(person));
+      button.addEventListener("click", () => choosePerson(person, region.iso3));
       markersRef.current.push(new maplibregl.Marker({
         element: button,
         anchor: "center",
         offset: [Math.cos(angle) * radius, Math.sin(angle) * radius],
       }).setLngLat([country.lon!, country.lat!]).addTo(map));
     }
-  }, [dataset, matching, mapReady, selectedId, zoom, bounds, countryById]);
+  }, [dataset, matching, mapReady, selectedId, zoom, bounds, countryById, searching]);
 
   useEffect(() => {
     if (mode === "map") requestAnimationFrame(() => mapRef.current?.resize());
@@ -331,7 +332,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
               <span className={`people-status status-${person.status}`}>{STATUS_LABEL[person.status]}</span>
             </button>)}
             {nextCursor && <button className="people-load-more" disabled={loadingMore} onClick={() => void loadMore()}>{loadingMore ? "Loading…" : "Load more people"}</button>}
-            {matching.length === 0 && <p>No sourced people match the current search, zoom and map area.</p>}
+            {matching.length === 0 && <p>{searching ? "No sourced people match this name or alias." : "No sourced people match the current zoom and map area."}</p>}
           </div>
         </> : <div className="people-empty" role="status">{loadState}</div>}
       </div>
@@ -356,6 +357,6 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} totalConnections={networkClaimTotal} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
       {selected && <><div className="people-graph-status"><span className={`people-status status-${selected.status}`}>{STATUS_LABEL[selected.status]}</span><span>{selected.name}{selected.statusAsOf ? ` · as of ${selected.statusAsOf}` : ""}</span></div><PeopleEventTimeline events={selected.events ?? []} /></>}
     </div></>
-    <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. Map markers represent loaded records at country-level associations; totals apply to the current search, zoom and map area.</footer>
+    <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. Map markers represent loaded records at country-level associations. {searching ? "Name searches cover all published records, regardless of map area or zoom." : "Totals apply to the current zoom and map area."}</footer>
   </section>;
 }

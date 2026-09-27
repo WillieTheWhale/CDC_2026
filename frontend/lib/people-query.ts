@@ -51,7 +51,9 @@ function withinBbox(lon: number, lat: number, [west, south, east, north]: [numbe
 }
 
 function filterKey(query: ParsedPeopleQuery) {
-  return JSON.stringify([fold(query.search), query.zoom, query.bbox ?? null]);
+  return fold(query.search)
+    ? JSON.stringify([fold(query.search), "global-search"])
+    : JSON.stringify(["", query.zoom, query.bbox ?? null]);
 }
 
 function decodeCursor(value: string, key: string): [string, string] {
@@ -70,9 +72,9 @@ export function queryPeople(dataset: PeopleDataset, countries: PeopleCountry[], 
   const threshold = query.zoom === 1 ? 3 : query.zoom === 2 ? 2 : 1;
   const needle = fold(query.search);
   const filtered = dataset.people.filter((person) =>
-    person.prominence >= threshold &&
+    (needle.length > 0 || person.prominence >= threshold) &&
     (!needle || [person.name, ...(person.aliases ?? [])].some((value) => fold(value).includes(needle))) &&
-    (!query.bbox || person.regions.some((region) => {
+    (needle.length > 0 || !query.bbox || person.regions.some((region) => {
       const country = countryById.get(region.iso3);
       return country?.lon != null && country.lat != null && withinBbox(country.lon, country.lat, query.bbox!);
     })),
