@@ -74,6 +74,26 @@ test("name search is global across low prominence and outside the map viewport",
   assert.deepEqual(otherZoom.data.people.map((person) => person.id), page.data.people.map((person) => person.id));
 });
 
+test("unlocated records page across all tiers without a map or country match", () => {
+  const first = makePerson(1, "USA", 1);
+  const second = makePerson(2, "USA", 3);
+  const third = makePerson(3, "USA", 2);
+  first.regions = [];
+  second.regions = [];
+  const data: PeopleDataset = { people: [third, second, first], organizations: [], connections: [] };
+  const filter = parsePeopleQuery(new URLSearchParams("unlocated=1&zoom=1&limit=1"));
+  const page = queryPeople(data, countries, filter);
+  assert.equal(page.meta.total, 2);
+  assert.equal(page.data.people[0].id, first.id);
+  const next = queryPeople(data, countries, { ...filter, cursor: page.meta.next_cursor! });
+  assert.deepEqual(next.data.people.map((person) => person.id), [second.id]);
+  assert.equal(next.meta.next_cursor, null);
+  assert.throws(() => queryPeople(data, countries, { ...filter, unlocated: false, cursor: page.meta.next_cursor! }), /cursor/);
+  assert.throws(() => parsePeopleQuery(new URLSearchParams("unlocated=1&bbox=-130,20,-60,55")), /cannot be combined/);
+  assert.throws(() => parsePeopleQuery(new URLSearchParams("unlocated=1&country=USA")), /cannot be combined/);
+  assert.deepEqual(queryPeople(data, countries, parsePeopleQuery(new URLSearchParams("bbox=-130,20,-60,55&zoom=3"))).data.people.map((person) => person.id), [third.id]);
+});
+
 test("country counts use all records while zoom visibility and country pagination stay distinct", () => {
   assert.deepEqual(queryCountryCounts(dataset, "", 1), [
     { iso3: "FJI", total: 1, visible: 1 },

@@ -6,6 +6,7 @@ export interface ParsedPeopleQuery {
   zoom: 1 | 2 | 3;
   bbox?: [number, number, number, number];
   country?: string;
+  unlocated?: boolean;
   limit: number;
   cursor?: string;
 }
@@ -43,7 +44,11 @@ export function parsePeopleQuery(params: URLSearchParams): ParsedPeopleQuery {
   if (cursor && cursor.length > 4096) throw new Error("cursor is too long");
   const country = params.get("country") ?? undefined;
   if (country && !/^[A-Z]{3}$/.test(country)) throw new Error("country must be an ISO3 code");
-  return { search, zoom: zoomValue as 1 | 2 | 3, bbox, country, limit: limitValue, cursor };
+  const unlocatedValue = params.get("unlocated");
+  if (unlocatedValue !== null && unlocatedValue !== "1") throw new Error("unlocated must be 1");
+  const unlocated = unlocatedValue === "1";
+  if (unlocated && (country || bbox)) throw new Error("unlocated cannot be combined with country or bbox");
+  return { search, zoom: zoomValue as 1 | 2 | 3, bbox, country, unlocated, limit: limitValue, cursor };
 }
 
 function withinBbox(lon: number, lat: number, [west, south, east, north]: [number, number, number, number]) {
@@ -54,7 +59,9 @@ function withinBbox(lon: number, lat: number, [west, south, east, north]: [numbe
 }
 
 function filterKey(query: ParsedPeopleQuery) {
-  return query.country
+  return query.unlocated
+    ? JSON.stringify([fold(query.search), "unlocated"])
+    : query.country
     ? JSON.stringify([fold(query.search), query.country])
     : fold(query.search)
     ? JSON.stringify([fold(query.search), "global-search"])
@@ -77,8 +84,9 @@ export function queryPeople(dataset: PeopleDataset, countries: PeopleCountry[], 
   const threshold = query.zoom;
   const needle = fold(query.search);
   const filtered = dataset.people.filter((person) =>
-    (needle.length > 0 || query.country || person.prominence <= threshold) &&
+    (query.unlocated || needle.length > 0 || query.country || person.prominence <= threshold) &&
     (!needle || [person.name, ...(person.aliases ?? [])].some((value) => fold(value).includes(needle))) &&
+    (!query.unlocated || person.regions.length === 0) &&
     (!query.country || person.regions.some((region) => region.iso3 === query.country)) &&
     (needle.length > 0 || query.country || !query.bbox || person.regions.some((region) => {
       const country = countryById.get(region.iso3);

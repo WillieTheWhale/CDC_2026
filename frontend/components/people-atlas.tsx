@@ -53,21 +53,22 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
   const [network, setNetwork] = useState<PeopleDataset | null>(null);
   const [networkClaimTotal, setNetworkClaimTotal] = useState<number | null>(null);
   const [loadState, setLoadState] = useState("Loading sourced records…");
-  const [mode, setMode] = useState<"map" | "graph">("map");
+  const [mode, setMode] = useState<"map" | "graph" | "unlocated">("map");
   const [zoom, setZoom] = useState<1 | 2 | 3>(1);
   const [query, setQuery] = useState("");
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [countryCounts, setCountryCounts] = useState<{ iso3: string; total: number; visible: number }[] | null | undefined>();
   const searching = query.trim().length > 0;
-  const requestZoom = searching || selectedCountry ? 3 : zoom;
-  const requestBounds = searching || selectedCountry ? undefined : bounds;
+  const unlocated = mode === "unlocated";
+  const requestZoom = searching || selectedCountry || unlocated ? 3 : zoom;
+  const requestBounds = searching || selectedCountry || unlocated ? undefined : bounds;
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [total, setTotal] = useState<number | null>(null);
   const [publishedTotal, setPublishedTotal] = useState<number | null>(null);
   const [nextCursor, setNextCursor] = useState<string | null>(null);
   const [loadingMore, setLoadingMore] = useState(false);
   const [graphShownCount, setGraphShownCount] = useState(30);
-  const filterKey = JSON.stringify([query, requestZoom, requestBounds, selectedCountry]);
+  const filterKey = JSON.stringify([query, requestZoom, requestBounds, unlocated ? "unlocated" : selectedCountry]);
   const filterKeyRef = useRef(filterKey);
   filterKeyRef.current = filterKey;
 
@@ -155,8 +156,9 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
     setTotal(null);
     setNextCursor(null);
     setLoadingMore(false);
+    setLoadState("Loading sourced records…");
     const timer = setTimeout(() => {
-      void loadPeople({ search: query, country: selectedCountry ?? undefined, zoom: requestZoom, bounds: requestBounds, limit: 100 }).then((result) => {
+      void loadPeople({ search: query, country: unlocated ? undefined : selectedCountry ?? undefined, unlocated, zoom: requestZoom, bounds: requestBounds, limit: unlocated ? 25 : 100 }).then((result) => {
         if (!active) return;
         if (result.status === "ready") {
           setDataset(result.dataset);
@@ -170,13 +172,13 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       });
     }, query ? 200 : 0);
     return () => { active = false; clearTimeout(timer); };
-  }, [query, selectedCountry, requestZoom, requestBounds]);
+  }, [query, selectedCountry, unlocated, requestZoom, requestBounds]);
 
   const loadMore = async () => {
     if (!nextCursor || loadingMore) return;
     const requestedKey = filterKey;
     setLoadingMore(true);
-    const result = await loadPeople({ search: query, country: selectedCountry ?? undefined, zoom: requestZoom, bounds: requestBounds, limit: 100, cursor: nextCursor });
+    const result = await loadPeople({ search: query, country: unlocated ? undefined : selectedCountry ?? undefined, unlocated, zoom: requestZoom, bounds: requestBounds, limit: unlocated ? 25 : 100, cursor: nextCursor });
     if (filterKeyRef.current !== requestedKey) return;
     setLoadingMore(false);
     if (result.status !== "ready") { setLoadState(result.reason); return; }
@@ -237,7 +239,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
 
   const choosePerson = (person: Person, focusIso3?: string) => {
     setSelectedId(person.id);
-    setMode("map");
+    if (mode !== "unlocated") setMode("map");
     const region = person.regions.find((item) => item.iso3 === focusIso3 && countryById.has(item.iso3)) ?? person.regions.find((item) => countryById.has(item.iso3));
     const country = region ? countryById.get(region.iso3) : undefined;
     if (country?.lat != null && country.lon != null) {
@@ -289,13 +291,14 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       <div className="people-mode" role="group" aria-label="People view mode">
         <button className={mode === "map" ? "active" : ""} aria-pressed={mode === "map"} onClick={() => setMode("map")}>Map</button>
         <button className={mode === "graph" ? "active" : ""} aria-pressed={mode === "graph"} onClick={() => setMode("graph")}>Connections</button>
+        <button className={unlocated ? "active" : ""} aria-pressed={unlocated} onClick={() => setMode("unlocated")}>No sourced country</button>
       </div>
     </header>
 
     <p className="people-caution" role="note"><strong>Evidence caution.</strong> A listed connection is a claim from the cited sources, not proof of guilt. Status categories are kept distinct and reflect what the cited source establishes.</p>
     <div className="people-toolbar">
       <label className="people-search"><Search size={15} /><span className="sr-only">Search people</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search names and aliases" /></label>
-      <span className="people-result-count">{personCount.toLocaleString()}{total === null ? " loaded people · matching total unavailable" : ` of ${total.toLocaleString()} matching people`} · {publishedTotal === null ? "published total unavailable" : `${publishedTotal.toLocaleString()} published people, all tiers`} · {dataset?.connections.length.toLocaleString() ?? "—"} loaded claims</span>
+      <span className="people-result-count">{personCount.toLocaleString()}{total === null ? " loaded people · matching total unavailable" : ` of ${total.toLocaleString()} matching people`} · {publishedTotal === null ? "published total unavailable" : `${publishedTotal.toLocaleString()} published people, all tiers`}{unlocated ? " · without sourced country" : ` · ${dataset?.connections.length.toLocaleString() ?? "—"} loaded claims`}</span>
       {mode === "map" && <div className="people-zoom" aria-label="Map zoom controls">
         <button aria-label="Zoom out" disabled={zoom === 1} onClick={() => mapRef.current?.zoomOut()}><ZoomOut size={16} /></button>
         <span>Zoom {zoom}/3</span>
@@ -303,8 +306,9 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       </div>}
     </div>
 
-    <><div className="people-map-layout" style={{ display: mode === "map" ? undefined : "none" }}>
+    <><div className="people-map-layout" style={{ display: mode === "graph" ? "none" : undefined }}>
       <div className="people-map-panel">
+        <div style={{ display: mode === "map" ? undefined : "none" }}>
         <div className="people-map" role="group" aria-label="Country-level geographic associations">
           <div className="people-map-canvas" ref={mapHost} />
           {!mapReady && <div className="people-map-loading" role="status">{mapError || "Loading map…"}</div>}
@@ -331,6 +335,19 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
             {matching.length === 0 && <p>{selectedCountry ? `No sourced people match ${selectedCountryName}${searching ? " and this name or alias" : ""}.` : searching ? "No sourced people match this name or alias." : "No sourced people match the current zoom and map area."}</p>}
           </div>
         </> : <div className="people-empty" role="status">{loadState}</div>}
+        </div>
+        {unlocated && <section className="people-unlocated" aria-label="Records without sourced country association">
+          <div className="people-unlocated-heading"><h2>Records without sourced country association</h2><p>These published records have no person-specific country association supported by their cited sources. Browse them without placing them on a map. Every prominence tier is included.</p></div>
+          {dataset ? <div className="people-list">
+            {matching.map((person) => <button key={person.id} className={selectedId === person.id ? "selected" : ""} onClick={() => choosePerson(person)}>
+              <span className="people-avatar">{person.name.slice(0, 1).toUpperCase()}</span>
+              <span className="people-list-name">{person.name}<small>Country association not established</small></span>
+              <span className="people-list-status"><span className={`people-status status-${person.status}`}>{STATUS_LABEL[person.status]}</span>{person.statusAsOf && <small>as of {person.statusAsOf}</small>}</span>
+            </button>)}
+            {nextCursor && <button className="people-load-more" disabled={loadingMore} onClick={() => void loadMore()}>{loadingMore ? "Loading…" : "Load more records"}</button>}
+            {matching.length === 0 && <p>{searching ? "No records without a sourced country match this name or alias." : "No published records without a sourced country were found."}</p>}
+          </div> : <div className="people-empty" role="status">{loadState}</div>}
+        </section>}
       </div>
       <aside className="people-detail" aria-label="Selected person details">
         {selected ? <>
@@ -358,7 +375,7 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
           <PeopleEventTimeline events={selected.events ?? []} />
           <div className="people-sources"><h3>Sources</h3>{selected.sources.map((source) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer"><strong>{source.title}</strong><span>{source.publisher} · {source.language}{source.publishedAt ? ` · ${source.publishedAt}` : ""}</span><small>{source.claim}</small></a>)}</div>
           <p className="people-caution people-detail-caution">A listed connection is a source claim, not proof of guilt.</p>
-        </> : <div className="people-detail-empty">Select a person from the country association tray or records to review status and sources.</div>}
+        </> : <div className="people-detail-empty">Select a person from the records to review status and sources.</div>}
       </aside>
     </div><div className="people-graph-panel" style={{ display: mode === "graph" ? undefined : "none" }}>
       {searching && dataset && <section className="people-graph-results" aria-label="Matching people for Connections view">
@@ -371,6 +388,6 @@ export function PeopleAtlas({ countries }: PeopleAtlasProps) {
       {dataset && selectedId ? <PeopleGraph dataset={graphData} selectedId={selectedId} totalConnections={selectedNetwork ? networkClaimTotal : null} evidenceLoaded={selectedNetwork !== null} onSelect={(person) => setSelectedId(person.id)} /> : <div className="people-graph-empty">Select a person from the sourced records to show their documented connection claims.</div>}
       {selected && <><div className="people-graph-status"><span className={`people-status status-${selected.status}`}>{STATUS_LABEL[selected.status]}</span><span>{selected.name}{selected.statusAsOf ? ` · as of ${selected.statusAsOf}` : ""}</span></div><PeopleEventTimeline events={selected.events ?? []} /></>}
     </div></>
-    <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. Map circles represent country-level associations; person portraits appear in a non-geographic tray. {selectedCountry ? "Country lists page through every prominence tier." : searching ? "Name searches cover all published records, regardless of map area or zoom." : "List totals apply to the current zoom and map area; country circles count the zoom tier across the full published dataset."}</footer>
+    <footer className="people-footer">{loadState} · Individual records and connection claims require cited sources. {unlocated ? "The no-country list includes every prominence tier and has no map position." : `Map circles represent country-level associations; person portraits appear in a non-geographic tray. ${selectedCountry ? "Country lists page through every prominence tier." : searching ? "Name searches cover all published records, regardless of map area or zoom." : "List totals apply to the current zoom and map area; country circles count the zoom tier across the full published dataset."}`}</footer>
   </section>;
 }

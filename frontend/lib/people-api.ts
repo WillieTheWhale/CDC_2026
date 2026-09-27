@@ -14,6 +14,7 @@ const apiBase = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, "");
 export interface PeopleQuery {
   search?: string;
   country?: string;
+  unlocated?: boolean;
   zoom?: 1 | 2 | 3;
   bounds?: [west: number, south: number, east: number, north: number];
   limit?: number;
@@ -142,10 +143,17 @@ async function fetchPeople(path: string): Promise<{ dataset: PeopleDataset; tota
 }
 
 export async function loadPeople(options: PeopleQuery = {}): Promise<PeopleLoadResult> {
+  if (options.unlocated && apiBase) {
+    return {
+      status: "unavailable",
+      reason: "Records without a sourced country are unavailable from the live People API until it supports the unlocated filter.",
+    };
+  }
   try {
     const query = new URLSearchParams({ limit: String(options.limit ?? 100), zoom: String(options.zoom ?? 1) });
     if (options.search?.trim()) query.set("search", options.search.trim());
     if (options.country) query.set("country", options.country);
+    if (options.unlocated) query.set("unlocated", "1");
     if (options.bounds) query.set("bbox", options.bounds.join(","));
     if (options.cursor) query.set("cursor", options.cursor);
     return { status: "ready", source: apiBase ? "api" : "fixtures", ...await fetchPeople(`/api/people?${query}`) };
