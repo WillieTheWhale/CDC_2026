@@ -105,6 +105,12 @@ so the frontend could build in parallel.
   replays a labelled sample set, marked as fallback in `/api/meta` and never counted as evidence.
 - **Seizures measure enforcement, not trafficking.** Addressed with detection-bias controls and the
   multi-signal confidence score rather than ignored.
+- **The first city-scale arrow rule did not validate as a predictor.** Against 203 cited US drug-route
+  pairs, neither the 2011 nor classifier-driven 2025 arrows beat a population baseline. Squaring the
+  entry-city distance penalty raised 2011 cannabis state AUC from 0.76 to 0.87 versus a 0.79 population
+  baseline, but other gains remain uncertain and some anchors remain implausible. We therefore keep the
+  layer labelled estimated and not observed, exclude it from forecasts and risk scores, and show the cited
+  US routes as a separate documentary layer.
 
 ## Accomplishments we're proud of
 

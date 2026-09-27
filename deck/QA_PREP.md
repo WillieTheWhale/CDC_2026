@@ -197,17 +197,24 @@ Know the mix before you answer the follow-up. As of the 2026-09-27 build it is *
 These figures regenerate on every `python3 deck/build.py`; the dataset has grown fast, so rebuild before judging rather than trusting a number typed by hand.
 <!-- /people:auto -->
 
-The production People API now refreshes from GitHub `main` every ten minutes and reports its origin and
-fetch time in `meta.people_snapshot`; the frontend-served API can still lag behind it. Before judging,
-compare both live totals with the repository manifest. Treat the manifest as authoritative until the
-surfaces converge, and do not quote a stale deployed total as the complete atlas.
+The production People API checks a sharded, content-addressed GitHub snapshot in the background every ten
+minutes, downloads only changed shards, verifies checksums and swaps atomically. Requests never wait on
+GitHub. `meta.people_snapshot` reports the origin, version, source commit, record counts and whether the
+answer is stale; the fallback chain is snapshot, raw manifest, last-good cache, then bundled data. Before
+judging, compare the live version and record count with the repository manifest rather than quoting a stale
+deployed total.
 
 **"Are the small city-scale arrows observed trafficking routes?"** — *Ismail (S2)*
 No. They are a clearly labelled, map-only density layer derived from modeled corridor entry countries,
 Natural Earth cities, population, World Bank GDP per capita PPP and great-circle distance. They use no
 enforcement variables, stop at 1,500 km, and are not evidence, route endpoints, forecast inputs or risk-score
-inputs. If a judge reads them as observed local movement, turn the layer off and show the cited country-level
-corridors instead.
+inputs. The first validation against 203 cited US route pairs found that neither the 2011 nor
+classifier-driven 2025 arrows beat a population baseline and both over-selected New York and Los Angeles.
+That failure led us to square the entry-city distance penalty. On the same comparison, 2011 cannabis state
+AUC rose from 0.76 to 0.87 against a 0.79 population baseline, but the other drug gains remain uncertain;
+New York still absorbs some border flows, and one Colombia–Ecuador anchor moved from Guayaquil to the less
+plausible Quito. So the arrows remain a labelled visual heuristic, not observed or predictive local movement.
+Turn them off and show the cited country-level corridors or documented US-route layer if that distinction blurs.
 
 **"Prices are still five times pre-ban, right?"** — *Adrian (S4)*
 That was true as of UNODC's November 2025 figure — US$570/kg dry opium against a pre-ban average under
