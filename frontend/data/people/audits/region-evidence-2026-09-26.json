@@ -2,8 +2,8 @@
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
     "people": 3098,
-    "associations": 2021,
-    "evidenced": 2021,
+    "associations": 2093,
+    "evidenced": 2093,
     "missing": 0,
     "invalid": 0
   },
@@ -150,8 +150,8 @@
     },
     "doj_corpus_growth10_reviewed_2026.json": {
       "people": 124,
-      "associations": 77,
-      "evidenced": 77,
+      "associations": 96,
+      "evidenced": 96,
       "missing": 0,
       "invalid": 0
     },
@@ -199,15 +199,15 @@
     },
     "doj_corpus_growth8_reviewed_2026.json": {
       "people": 159,
-      "associations": 46,
-      "evidenced": 46,
+      "associations": 75,
+      "evidenced": 75,
       "missing": 0,
       "invalid": 0
     },
     "doj_corpus_growth9_reviewed_2026.json": {
       "people": 150,
-      "associations": 57,
-      "evidenced": 57,
+      "associations": 81,
+      "evidenced": 81,
       "missing": 0,
       "invalid": 0
     },
@@ -711,8 +711,8 @@
       "invalid": 0
     },
     "USA": {
-      "associations": 827,
-      "evidenced": 827,
+      "associations": 897,
+      "evidenced": 897,
       "missing": 0,
       "invalid": 0
     },
@@ -783,8 +783,8 @@
       "invalid": 0
     },
     "MEX": {
-      "associations": 67,
-      "evidenced": 67,
+      "associations": 69,
+      "evidenced": 69,
       "missing": 0,
       "invalid": 0
     },
