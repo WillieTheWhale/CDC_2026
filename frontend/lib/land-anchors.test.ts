@@ -11,9 +11,12 @@ type Feature = {
   properties: { iso3: string; label_lon: number; label_lat: number };
   geometry: unknown;
 };
+// The map keys anchors by ISO3 and the last feature wins, so test that one.
 const byIso = new Map<string, Feature>(
   geo.features.map((f: Feature) => [f.properties.iso3, f]),
 );
+const all = (iso3: string): Feature[] =>
+  geo.features.filter((f: Feature) => f.properties.iso3 === iso3);
 
 test("every modeled route endpoint is anchored on land", () => {
   const dir = new URL("../public/data/routes/", import.meta.url);
@@ -27,7 +30,26 @@ test("every modeled route endpoint is anchored on land", () => {
     const f = byIso.get(iso3);
     if (!f) continue; // no polygon: the map falls back to the World Bank capital
     const p = f.properties;
-    assert.ok(onLand([p.label_lon, p.label_lat], f.geometry), `${iso3} anchor is at sea`);
+    assert.ok(
+      all(iso3).some((g) => onLand([p.label_lon, p.label_lat], g.geometry)),
+      `${iso3} anchor is at sea`,
+    );
+  }
+});
+
+test("split countries anchor on their mainland, not an overseas islet", () => {
+  // France + Clipperton Island, Australia + Ashmore and Cartier, Brazil, Kazakhstan.
+  for (const [iso3, name] of [
+    ["FRA", "France"],
+    ["AUS", "Australia"],
+    ["BRA", "Brazil"],
+    ["KAZ", "Kazakhstan"],
+  ]) {
+    const features = all(iso3);
+    assert.ok(features.length > 1, `${iso3} is no longer split`);
+    const main = features.find((f) => (f.properties as { name?: string }).name === name)!;
+    const p = byIso.get(iso3)!.properties;
+    assert.ok(onLand([p.label_lon, p.label_lat], main.geometry), `${iso3} anchor is off the mainland`);
   }
 });
 

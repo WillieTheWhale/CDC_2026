@@ -5,6 +5,7 @@
 // every anchor on land: if the label point is outside the country's own
 // polygons, use the country's main seaport; if there is none (or it also
 // tests as offshore at 1:10m), use the nearest point on the country's coast.
+// Countries split into several features share their largest territory's anchor.
 //
 // Run directly to patch public/geo/countries.json in place:
 //   node scripts/land-anchors.mjs
@@ -129,11 +130,44 @@ export function landAnchor(feature) {
   };
 }
 
+// Planar ring area in square degrees; only used to rank a country's territories.
+function area(geometry) {
+  let total = 0;
+  for (const [outer] of polygons(geometry)) {
+    let a = 0;
+    for (let i = 0, j = outer.length - 1; i < outer.length; j = i++)
+      a += (outer[j][0] + outer[i][0]) * (outer[j][1] - outer[i][1]);
+    total += Math.abs(a / 2);
+  }
+  return total;
+}
+
 export function anchorAll(world) {
   const moved = [];
+  // Natural Earth splits some countries into several features under one ISO3
+  // (France + Clipperton Island, Australia + Ashmore and Cartier Islands,
+  // Brazil + Brazilian Island, Kazakhstan + Baikonur). The map keys anchors by
+  // ISO3, so every feature takes the largest territory's anchor; otherwise an
+  // arrow to France ends at a Pacific atoll.
+  const primary = new Map();
+  for (const feature of world.features) {
+    const iso3 = feature.properties.iso3;
+    const size = area(feature.geometry);
+    if (!primary.has(iso3) || size > primary.get(iso3).size)
+      primary.set(iso3, { feature, size });
+  }
   for (const feature of world.features) {
     const before = [feature.properties.label_lon, feature.properties.label_lat];
-    feature.properties = landAnchor(feature);
+    const main = primary.get(feature.properties.iso3).feature;
+    if (main !== feature) {
+      const anchor = landAnchor(main);
+      feature.properties = {
+        ...feature.properties,
+        label_lon: anchor.label_lon,
+        label_lat: anchor.label_lat,
+        label_source: `primary territory: ${main.properties.name}`,
+      };
+    } else feature.properties = landAnchor(feature);
     if (
       before[0] !== feature.properties.label_lon ||
       before[1] !== feature.properties.label_lat
@@ -155,5 +189,5 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   writeFileSync(file, JSON.stringify(world));
   for (const m of moved)
     console.log(`${m.iso3}: ${m.from.join(", ")} -> ${m.to.join(", ")} (${m.source})`);
-  console.log(`Kept ${world.features.length - moved.length} label points; moved ${moved.length} off the sea.`);
+  console.log(`Kept ${world.features.length - moved.length} label points; moved ${moved.length} (offshore points or secondary territories).`);
 }
