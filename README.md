@@ -56,6 +56,7 @@ deck/        judging pitch deck (rebuilds itself from this repo)
 | Live evidence on the site | backend (frontend edits approved by owner) | done: map route evidence, Health, Markets and research values read the live API (with value drilldowns); static snapshots are only the offline fallback |
 | Merged database (`database_new`) | backend | done: `backend/scripts/merge_databases.py` = canonical archive + derived API tables + route-evidence seeds (76 tables); uploaded to the team Drive folder as `database_new.sqlite.gz` + `database_new.json` |
 | Map: all years, land anchors, smooth playback, estimated local flows | backend (frontend edits approved by owner) | done: every route year and risk year in snapshot mode; route arrows anchored on land; playback without reloads; labelled estimated-flow arrow layer and volume coloring (`uv run trace estimate-flows`) |
+| US documented routes (state/city) | backend | data done: 203 cited route pairs (cocaine, heroin, meth, cannabis) across 32 states from NDIC HIDTA Drug Market Analyses + 2026 AC HIDTA assessment, `uv run trace us-routes`; map layer is on `claude/estimated-flows-preview` |
 | Pitch deck | presentation | done (`deck/`, 4:45 + live demo, rebuilds from repo) |
 
 ## Headline results (backend, 2026-09-26)

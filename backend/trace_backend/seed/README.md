@@ -84,3 +84,14 @@ it from the exported `indicators.json`, written by the World Bank ingest from th
 Cities are placement anchors for drawing arrows, not evidence of city-level trafficking. The layer
 uses population, GDP per capita, distance and modeled route density only; no enforcement,
 customs or detection variable.
+
+## `us_routes.csv`: documented US route pairs (cited)
+
+One row per origin -> destination movement of one drug that a public US government report states in
+words (NDIC HIDTA Drug Market Analyses, HIDTA threat assessments). Every row has the source URL, PDF
+page, and a verbatim quote (` … ` marks omitted words, used to leave out concealment methods and
+ethnic descriptors). A place is never more precise than the source: state-level when the source
+names a state, the country anchor for a foreign origin. `uv run trace us-routes` validates and places
+the rows and writes `frontend/public/data/us-routes.json` (read by the preview map layer). No row
+records enforcement presence, checkpoints, or detection; `trace_backend/us/routes.py` rejects that
+wording.
