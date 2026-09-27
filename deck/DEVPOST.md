@@ -40,7 +40,7 @@ TRACE maps trafficking corridors for cocaine, heroin, methamphetamine and cannab
 corridors will shift next year, and scores every country on its risk of a new local drug crisis —
 combining World Bank development data with UN seizure, price and cultivation data.
 
-Six screens, keyboard-driven:
+Core screens, keyboard-driven:
 
 - **Route Map** — corridor arcs per drug over a dark basemap, year scrubber, observed vs predicted toggle
 - **Country Screen** — routes in and out, prices, World Bank vulnerability profile, harm-reduction coverage, risk drivers
@@ -48,9 +48,14 @@ Six screens, keyboard-driven:
 - **Shock Simulator** — a plain-English scenario rewires the network and updates risk scores
 - **Live Wire** — a GDELT newswire classified in real time, with anomalies flagged against the model
 - **Market Board** — wholesale and retail price tickers with year-over-year change
+- **Health Evidence** — service coverage, legal context and dated public-health indicators with source provenance
+- **People** — a source-bounded research appendix for documented public claims, event histories and connections
 
 It is a harm-reduction and early-warning instrument, not an enforcement one. By design it never shows
-where enforcement is weakest or which routes are least watched.
+where enforcement is weakest or which routes are least watched. The People appendix is not an input to
+forecasting or risk scores: it exposes only cited public records, preserves allegation/charge/conviction
+distinctions, keeps geography at country level, and contains no live positions, private addresses or travel
+patterns.
 
 ## How we built it
 

@@ -173,6 +173,14 @@ Density and keyboard speed. The people who need this are comparing countries, ye
 sequence, and a click-through dashboard makes that slow. It's also honest about what the tool is: an
 instrument, not a consumer app.
 
+**"Why does a harm-reduction product have a People tab — isn't that an enforcement tool?"** — *William (S1)*
+It is a source-bounded research appendix, not operational intelligence and not an input to any forecast or
+risk score. Every person, event and connection is a claim from a linked public source; allegations, charges,
+convictions and sanctions remain distinct. Geography stops at documented country associations. There are no
+live positions, private addresses, travel patterns, local routes or rankings of who to target. We included it
+so users can audit the public context behind organizations named in reports. If that boundary cannot be kept
+in a deployment, the People view should be removed rather than repurposed for enforcement.
+
 **"Prices are still five times pre-ban, right?"** — *Adrian (S4)*
 That was true as of UNODC's November 2025 figure — US$570/kg dry opium against a pre-ban average under
 US$100. Say "as of 2025"; Alcis reported prices falling back toward 2023 levels during 2026.
