@@ -418,7 +418,8 @@ export default function AtlasMap(props: Props) {
     [props.estimated, props.drug],
   );
   const glyphs = useMemo(() => {
-    if (!props.showEstimated || !estimatedFlows.length) return [];
+    // At world scale these faint arrows are invisible; skip the work (keeps playback light).
+    if (!props.showEstimated || !estimatedFlows.length || glyphZoom < 2) return [];
     const bounds = map.current?.getBounds();
     const flows =
       glyphZoom < 3 || !bounds
@@ -457,13 +458,13 @@ export default function AtlasMap(props: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [estimatedFlows, props.showEstimated, glyphZoom, position.lng, position.lat]);
   const estimatedCities = useMemo(() => {
-    if (!props.showEstimated || !props.estimated) return [];
+    if (!props.showEstimated || !props.estimated || glyphZoom < 2) return [];
     const drugs = new Set(estimatedFlows.map((f) => `${f.from.iso3}:${f.from.name}`)
       .concat(estimatedFlows.map((f) => `${f.to.iso3}:${f.to.name}`)));
     return props.estimated.cities.filter(
       (c) => props.drug === "all" || drugs.has(`${c.iso3}:${c.name}`),
     );
-  }, [props.estimated, props.showEstimated, props.drug, estimatedFlows]);
+  }, [props.estimated, props.showEstimated, props.drug, estimatedFlows, glyphZoom]);
   const windOpacity = Math.max(0.3, Math.min(1, (position.zoom - 1.2) / 1.8));
   useEffect(() => {
     if (!ready || !overlay.current) return;
