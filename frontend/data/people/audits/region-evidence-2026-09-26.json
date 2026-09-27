@@ -1,9 +1,9 @@
 {
   "_about": "AI-assisted: generated with ChatGPT (OpenAI). See docs/AI_USAGE.md. Counts region-evidence metadata only; it does not prove the cited country claim.",
   "totals": {
-    "people": 2023,
-    "associations": 1524,
-    "evidenced": 1524,
+    "people": 2252,
+    "associations": 1602,
+    "evidenced": 1602,
     "missing": 0,
     "invalid": 0
   },
@@ -344,6 +344,13 @@
       "missing": 0,
       "invalid": 0
     },
+    "nigeria_court_cases_2024_2025.json": {
+      "people": 26,
+      "associations": 26,
+      "evidenced": 26,
+      "missing": 0,
+      "invalid": 0
+    },
     "ofac_fifth150_sanctions_only.json": {
       "people": 135,
       "associations": 0,
@@ -367,6 +374,20 @@
     },
     "ofac_second100_sanctions_only.json": {
       "people": 34,
+      "associations": 0,
+      "evidenced": 0,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ofac_seventh150_sanctions_only.json": {
+      "people": 51,
+      "associations": 0,
+      "evidenced": 0,
+      "missing": 0,
+      "invalid": 0
+    },
+    "ofac_sixth150_sanctions_only.json": {
+      "people": 100,
       "associations": 0,
       "evidenced": 0,
       "missing": 0,
@@ -404,6 +425,13 @@
       "people": 25,
       "associations": 25,
       "evidenced": 25,
+      "missing": 0,
+      "invalid": 0
+    },
+    "peru_madre_de_dios_junin_2025_2026.json": {
+      "people": 52,
+      "associations": 52,
+      "evidenced": 52,
       "missing": 0,
       "invalid": 0
     },
@@ -542,8 +570,8 @@
       "invalid": 0
     },
     "NGA": {
-      "associations": 41,
-      "evidenced": 41,
+      "associations": 67,
+      "evidenced": 67,
       "missing": 0,
       "invalid": 0
     },
@@ -806,8 +834,8 @@
       "invalid": 0
     },
     "PER": {
-      "associations": 49,
-      "evidenced": 49,
+      "associations": 101,
+      "evidenced": 101,
       "missing": 0,
       "invalid": 0
     },
