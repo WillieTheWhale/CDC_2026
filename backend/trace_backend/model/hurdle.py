@@ -8,7 +8,6 @@ from __future__ import annotations
 import lightgbm as lgb
 import numpy as np
 import pandas as pd
-import shap
 
 from .features import HIDDEN_DRIVERS, LAG_FEATS, feature_columns, label
 
@@ -41,6 +40,8 @@ class HurdleModel:
     # ------------------------------------------------------------------ SHAP
     def shap_values(self, df: pd.DataFrame) -> np.ndarray:
         """SHAP on the volume model (log-kg scale)."""
+        import shap  # lazy: only training/explanations need it (keeps the serving bundle small)
+
         ex = shap.TreeExplainer(self.reg)
         return np.asarray(ex.shap_values(df[self.cols]))
 

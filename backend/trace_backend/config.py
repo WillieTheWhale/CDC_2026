@@ -56,4 +56,7 @@ CORS_ORIGINS = [o.strip() for o in os.environ.get("CORS_ORIGINS", "http://localh
 
 def ensure_dirs() -> None:
     for d in (RAW, PROCESSED, CACHE, API_DIR):
-        d.mkdir(parents=True, exist_ok=True)
+        try:
+            d.mkdir(parents=True, exist_ok=True)
+        except OSError:  # read-only deploy filesystem (e.g. Vercel): serving never writes here
+            pass
