@@ -1,5 +1,5 @@
 {
-  "_about": "AI-assisted research and compilation with ChatGPT (OpenAI). Entries reflect publicly documented senior figures and stated legal status as of each cited source date. No precise locations or operational route details are included.",
+  "_about": "AI-assisted research and compilation with ChatGPT (OpenAI). Entries reflect publicly documented senior figures and stated legal status as of each cited source date. No precise locations or operational route details are included. Historical Colombia person-country associations were audited against cited individual roles on 2026-09-26; three deaths and a 2016 sentence supersede stale charged cards without erasing indictment history.",
   "organizations": [
     {
       "id": "clan-del-golfo",
@@ -60,7 +60,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ states Úsuga led Clan del Golfo’s cocaine enterprise operating in Colombia; this is historical organizational activity, not a claim about his present location.",
+            "period": "before 2021",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/former-leader-clan-del-golfo-drug-trafficking-organization-sentenced-45-years-prison"
+          }
         }
       ],
       "drugs": [
@@ -106,7 +111,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ states Rendón Herrera founded and led the Colombian drug-trafficking enterprise that became Clan del Golfo.",
+            "period": "late 1990s–2009",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/colombian-drug-kingpin-and-paramilitary-leader-sentenced-35-years-prison-operating"
+          }
         }
       ],
       "drugs": [
@@ -149,7 +159,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ alleges Ávila Villadiego commanded Clan Úsuga’s cocaine enterprise and territorial control within Colombia.",
+            "period": "by 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part"
+          }
         }
       ],
       "drugs": [
@@ -196,9 +211,9 @@
       "aliases": [
         "Inglaterra"
       ],
-      "status": "charged",
-      "statusAsOf": "2015-06-23",
-      "roleLabel": "Clan Úsuga commander named in a cocaine-importation indictment",
+      "status": "reported",
+      "statusAsOf": "2017-11-24",
+      "roleLabel": "Deceased; formerly an alleged Clan Úsuga cocaine commander named in a 2015 U.S. indictment",
       "prominence": 2,
       "organizationIds": [
         "clan-del-golfo"
@@ -206,7 +221,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ alleges Padierna Peña commanded Clan Úsuga’s cocaine enterprise and territorial control within Colombia; he was later reported killed.",
+            "period": "by 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part"
+          }
         }
       ],
       "drugs": [
@@ -220,6 +240,46 @@
           "language": "en",
           "publishedAt": "2015-06-23",
           "claim": "The release identifies Padierna Peña, alias Inglaterra, as a Clan Úsuga commander and names him in an international cocaine-importation conspiracy indictment."
+        },
+        {
+          "url": "https://www.policia.gov.co/noticia/nuevo-golpe-estructural-al-crimen-organizado",
+          "title": "Nuevo golpe estructural al crimen organizado",
+          "publisher": "Policía Nacional de Colombia",
+          "language": "es",
+          "claim": "Policía Nacional reports Luis Orlando Padierna Peña had been killed; its official accounts conflict on the exact death day, so this event uses the report date.",
+          "publishedAt": "2017-11-24"
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-orlando-padierna-pena-2015-06-23-u.s.-indictment-unsealed",
+          "occurredAt": "2015-06-23",
+          "type": "charge",
+          "title": "U.S. indictment unsealed",
+          "summary": "DOJ named Luis Orlando Padierna Peña in Clan Úsuga cocaine charges; an indictment was an allegation at the time.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+            "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+            "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+            "language": "en",
+            "publishedAt": "2015-06-23",
+            "claim": "The release identifies Padierna Peña, alias Inglaterra, as a Clan Úsuga commander and names him in an international cocaine-importation conspiracy indictment."
+          }
+        },
+        {
+          "id": "luis-orlando-padierna-pena-2017-11-24-death-reported",
+          "occurredAt": "2017-11-24",
+          "type": "development",
+          "title": "Death reported",
+          "summary": "Official Colombian authorities reported the death of Luis Orlando Padierna Peña. The earlier U.S. indictment remains a historical allegation, not a conviction.",
+          "source": {
+            "url": "https://www.policia.gov.co/noticia/nuevo-golpe-estructural-al-crimen-organizado",
+            "title": "Nuevo golpe estructural al crimen organizado",
+            "publisher": "Policía Nacional de Colombia",
+            "language": "es",
+            "claim": "Policía Nacional reports Luis Orlando Padierna Peña had been killed; its official accounts conflict on the exact death day, so this event uses the report date.",
+            "publishedAt": "2017-11-24"
+          }
         }
       ]
     },
@@ -229,9 +289,9 @@
       "aliases": [
         "Gavilán"
       ],
-      "status": "charged",
-      "statusAsOf": "2015-06-23",
-      "roleLabel": "Alleged Clan Úsuga commander responsible for drug-tax collection and armed command",
+      "status": "reported",
+      "statusAsOf": "2017-09-01",
+      "roleLabel": "Deceased; formerly an alleged Clan Úsuga cocaine commander named in a 2015 U.S. indictment",
       "prominence": 2,
       "organizationIds": [
         "clan-del-golfo"
@@ -239,7 +299,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ alleges Vargas Gutiérrez commanded Clan Úsuga drug-tax collection and territorial control within Colombia; he was later reported killed.",
+            "period": "by 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part"
+          }
         }
       ],
       "drugs": [
@@ -253,6 +318,46 @@
           "language": "en",
           "publishedAt": "2015-06-23",
           "claim": "The release identifies Vargas Gutiérrez, alias Gavilán, as a Clan Úsuga commander responsible for collecting drug taxes and managing armed combatants; it names him in cocaine-trafficking charges."
+        },
+        {
+          "url": "https://www.policia.gov.co/noticia/asi-fue-abatido-gavilan-segundo-cabecilla-del-clan-del-golfo",
+          "title": "Así fue abatido Gavilán, segundo cabecilla del Clan del Golfo",
+          "publisher": "Policía Nacional de Colombia",
+          "language": "es",
+          "claim": "Policía Nacional reports Roberto Vargas Gutiérrez was killed on 31 August 2017; no conviction is inferred.",
+          "publishedAt": "2017-09-01"
+        }
+      ],
+      "events": [
+        {
+          "id": "roberto-vargas-gutierrez-2015-06-23-u.s.-indictment-unsealed",
+          "occurredAt": "2015-06-23",
+          "type": "charge",
+          "title": "U.S. indictment unsealed",
+          "summary": "DOJ named Roberto Vargas Gutiérrez in Clan Úsuga cocaine charges; an indictment was an allegation at the time.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+            "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+            "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+            "language": "en",
+            "publishedAt": "2015-06-23",
+            "claim": "The release identifies Vargas Gutiérrez, alias Gavilán, as a Clan Úsuga commander responsible for collecting drug taxes and managing armed combatants; it names him in cocaine-trafficking charges."
+          }
+        },
+        {
+          "id": "roberto-vargas-gutierrez-2017-08-31-death-reported",
+          "occurredAt": "2017-08-31",
+          "type": "development",
+          "title": "Death reported",
+          "summary": "Official Colombian authorities reported the death of Roberto Vargas Gutiérrez. The earlier U.S. indictment remains a historical allegation, not a conviction.",
+          "source": {
+            "url": "https://www.policia.gov.co/noticia/asi-fue-abatido-gavilan-segundo-cabecilla-del-clan-del-golfo",
+            "title": "Así fue abatido Gavilán, segundo cabecilla del Clan del Golfo",
+            "publisher": "Policía Nacional de Colombia",
+            "language": "es",
+            "claim": "Policía Nacional reports Roberto Vargas Gutiérrez was killed on 31 August 2017; no conviction is inferred.",
+            "publishedAt": "2017-09-01"
+          }
         }
       ]
     },
@@ -272,7 +377,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ alleges Moreno Turberquia commanded Clan Úsuga drug-tax collection and territorial control within Colombia.",
+            "period": "by 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part"
+          }
         }
       ],
       "drugs": [
@@ -295,9 +405,9 @@
       "aliases": [
         "El Indio"
       ],
-      "status": "charged",
-      "statusAsOf": "2015-06-23",
-      "roleLabel": "Alleged Clan Úsuga commander named in cocaine-trafficking charges",
+      "status": "reported",
+      "statusAsOf": "2018-03-28",
+      "roleLabel": "Deceased; formerly an alleged Clan Úsuga cocaine commander named in a 2015 U.S. indictment",
       "prominence": 2,
       "organizationIds": [
         "clan-del-golfo"
@@ -305,7 +415,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ alleges Mesa Páez commanded Clan Úsuga drug-tax collection and territorial control within Colombia; he was later reported killed.",
+            "period": "by 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part"
+          }
         }
       ],
       "drugs": [
@@ -319,6 +434,46 @@
           "language": "en",
           "publishedAt": "2015-06-23",
           "claim": "The release identifies Mesa Páez, alias El Indio, as a Clan Úsuga commander responsible for drug-tax collection and armed command; it names him in cocaine-trafficking charges."
+        },
+        {
+          "url": "https://www.armada.mil.co/es/content/neutralizado-alias-indio-tercer-cabecilla-del-clan-del-golfo",
+          "title": "Neutralizado alias El Indio, tercer cabecilla del Clan del Golfo",
+          "publisher": "Armada Nacional de Colombia",
+          "language": "es",
+          "claim": "Armada Nacional reports the death of Arístides Manuel Mesa Páez in a March 2018 operation; this event uses the report date, not an independently verified time of death.",
+          "publishedAt": "2018-03-28"
+        }
+      ],
+      "events": [
+        {
+          "id": "aristides-manuel-mesa-paez-2015-06-23-u.s.-indictment-unsealed",
+          "occurredAt": "2015-06-23",
+          "type": "charge",
+          "title": "U.S. indictment unsealed",
+          "summary": "DOJ named Aristides Manuel Mesa Páez in Clan Úsuga cocaine charges; an indictment was an allegation at the time.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+            "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+            "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+            "language": "en",
+            "publishedAt": "2015-06-23",
+            "claim": "The release identifies Mesa Páez, alias El Indio, as a Clan Úsuga commander responsible for drug-tax collection and armed command; it names him in cocaine-trafficking charges."
+          }
+        },
+        {
+          "id": "aristides-manuel-mesa-paez-2018-03-28-death-reported",
+          "occurredAt": "2018-03-28",
+          "type": "development",
+          "title": "Death reported",
+          "summary": "Official Colombian authorities reported the death of Aristides Manuel Mesa Páez. The earlier U.S. indictment remains a historical allegation, not a conviction.",
+          "source": {
+            "url": "https://www.armada.mil.co/es/content/neutralizado-alias-indio-tercer-cabecilla-del-clan-del-golfo",
+            "title": "Neutralizado alias El Indio, tercer cabecilla del Clan del Golfo",
+            "publisher": "Armada Nacional de Colombia",
+            "language": "es",
+            "claim": "Armada Nacional reports the death of Arístides Manuel Mesa Páez in a March 2018 operation; this event uses the report date, not an independently verified time of death.",
+            "publishedAt": "2018-03-28"
+          }
         }
       ]
     },
@@ -338,7 +493,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ alleges Anaya Martínez commanded Clan Úsuga’s cocaine enterprise and territorial control within Colombia.",
+            "period": "by 2014",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part"
+          }
         }
       ],
       "drugs": [
@@ -362,9 +522,9 @@
         "Nolasco",
         "Hugo"
       ],
-      "status": "charged",
-      "statusAsOf": "2015-06-23",
-      "roleLabel": "Alleged Clan Úsuga manager responsible for drug-tax collection and shipment coordination",
+      "status": "convicted",
+      "statusAsOf": "2016-03-28",
+      "roleLabel": "Former Clan Úsuga shipment organizer; pleaded guilty and sentenced to 284 months for cocaine conspiracy",
       "prominence": 2,
       "organizationIds": [
         "clan-del-golfo"
@@ -372,7 +532,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ says Caro Pineda organized cocaine shipments for the Clan Úsuga enterprise based in Colombia, conduct for which he later pleaded guilty.",
+            "period": "before 2016",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part"
+          }
         }
       ],
       "drugs": [
@@ -386,6 +551,46 @@
           "language": "en",
           "publishedAt": "2015-06-23",
           "claim": "The release identifies Caro Pineda as an alleged Clan Úsuga manager responsible for collecting drug taxes, coordinating drug shipments, and maintaining control over coastal infrastructure; he was named in cocaine-trafficking charges."
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdfl/pr/leaders-colombian-drug-trafficking-organization-sentenced-two-decades-prison",
+          "title": "Leaders of Colombian Drug Trafficking Organization Sentenced to Two Decades in Prison",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ individually reports Ramiro Caro Pineda pleaded guilty to the Clan Úsuga cocaine conspiracy and was sentenced in 2016 to 284 months in prison.",
+          "publishedAt": "2016-03-28"
+        }
+      ],
+      "events": [
+        {
+          "id": "ramiro-caro-pineda-2015-06-23-u.s.-indictment-unsealed",
+          "occurredAt": "2015-06-23",
+          "type": "charge",
+          "title": "U.S. indictment unsealed",
+          "summary": "DOJ named Ramiro Caro Pineda in Clan Úsuga cocaine charges; an indictment was an allegation at the time.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part",
+            "title": "Seventeen Alleged Leaders and Associates of Clan Usuga Indicted in Brooklyn and Miami",
+            "publisher": "U.S. Department of Justice, U.S. Attorney’s Office, Eastern District of New York",
+            "language": "en",
+            "publishedAt": "2015-06-23",
+            "claim": "The release identifies Caro Pineda as an alleged Clan Úsuga manager responsible for collecting drug taxes, coordinating drug shipments, and maintaining control over coastal infrastructure; he was named in cocaine-trafficking charges."
+          }
+        },
+        {
+          "id": "ramiro-caro-pineda-2016-03-28-cocaine-sentence-reported",
+          "occurredAt": "2016-03-28",
+          "type": "sentence",
+          "title": "Cocaine sentence reported",
+          "summary": "DOJ reported Caro Pineda’s guilty plea and 284-month sentence for the cocaine-trafficking conspiracy.",
+          "source": {
+            "url": "https://www.justice.gov/usao-sdfl/pr/leaders-colombian-drug-trafficking-organization-sentenced-two-decades-prison",
+            "title": "Leaders of Colombian Drug Trafficking Organization Sentenced to Two Decades in Prison",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "claim": "DOJ individually reports Ramiro Caro Pineda pleaded guilty to the Clan Úsuga cocaine conspiracy and was sentenced in 2016 to 284 months in prison.",
+            "publishedAt": "2016-03-28"
+          }
         }
       ]
     },
@@ -405,7 +610,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ alleges Gutiérrez Rendón led a Colombian cocaine-trafficking and debt-collection organization aligned with Clan Úsuga.",
+            "period": "2006–2013",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part"
+          }
         }
       ],
       "drugs": [
@@ -438,7 +648,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ alleges Palomino Araujo led a Colombian cocaine-trafficking and debt-collection organization aligned with Clan Úsuga.",
+            "period": "by 2015",
+            "sourceUrl": "https://www.justice.gov/usao-edny/pr/seventeen-alleged-leaders-and-associates-clan-usuga-indicted-brooklyn-and-miami-part"
+          }
         }
       ],
       "drugs": [
@@ -471,7 +686,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Colombian Police links Boliqueso to a drug-trafficking alliance and local drug market in Colombia; DOJ identifies Cardoza-Giraldo by that alias.",
+            "period": "by 2016",
+            "sourceUrl": "https://www.policia.gov.co/contenido/flaquea-estructura-delictiva-alias-boliqueso-cayo-alias-yandal"
+          }
         }
       ],
       "drugs": [
@@ -485,6 +705,14 @@
           "language": "en",
           "publishedAt": "2015-06-23",
           "claim": "The release names Cardoza-Giraldo, alias Boliqueso, among alleged leaders of drug-collection offices and aligned paramilitary groups in the Clan Úsuga cocaine case."
+        },
+        {
+          "url": "https://www.policia.gov.co/contenido/flaquea-estructura-delictiva-alias-boliqueso-cayo-alias-yandal",
+          "title": "Flaquea la estructura delictiva de alias Boliqueso; cayó alias Yandal",
+          "publisher": "Policía Nacional de Colombia",
+          "language": "es",
+          "claim": "Police reports that Boliqueso made a drug-trafficking alliance with Clan Úsuga in Colombia; DOJ separately identifies Cardoza-Giraldo by the Boliqueso alias.",
+          "publishedAt": "2016-02-08"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from Fiscalía General de la Nación’s September 2014 official report and dated Colombian reporting. These are two distinct, descriptively named 2014 case networks. The first contains eleven historically convicted defendants; the second contains five defendants charged and placed under pretrial detention in 2014, with no later disposition verified. Statuses are historical source snapshots, not claims of present incarceration or pending proceedings. Country associations mean Colombia-based historical operation; destination or arrest-only countries are omitted. No exact routes, private locations, inferred co-defendant links, or unlicensed photos.",
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from Fiscalía General de la Nación’s September 2014 official report and dated Colombian reporting. These are two distinct, descriptively named 2014 case networks. The first contains eleven historically convicted defendants; the second contains five defendants charged and placed under pretrial detention in 2014, with no later disposition verified. Statuses are historical source snapshots, not claims of present incarceration or pending proceedings. Country associations mean Colombia-based historical operation; destination or arrest-only countries are omitted. No exact routes, private locations, inferred co-defendant links, or unlicensed photos. A 2026-09-26 country-evidence audit kept 12 person-specific historical Colombia associations and removed four group-only or identity-ambiguous markers; legal histories and all persons remain.",
   "organizations": [
     {
       "id": "santana-norte-de-santander-2014-network",
@@ -60,7 +60,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that Ángel Odilson Santana Quintero financed for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -79,6 +84,14 @@
           "language": "es",
           "claim": "On 30 July 2014 Eje21 reported Ángel Odilson Santana Quintero among the sentenced members of the network; reported sentence: 10 years 6 months.",
           "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "Radio Santa Fe names Ángel Odilso Santana Quintero, a spelling variant of the Fiscalía’s Ángel Odilson Santana Quintero, as a financier of couriers in the Colombian trafficking network.",
+          "publishedAt": "2013-09-14"
         }
       ],
       "events": [
@@ -116,7 +129,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that Miguel Antonio Morales Tombe acquired drugs for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -135,6 +153,14 @@
           "language": "es",
           "claim": "On 30 July 2014 Eje21 reported Miguel Antonio Morales Tombe among the sentenced members of the network; reported sentence: 10 years 6 months.",
           "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "Radio Santa Fe specifically says Miguel Antonio Morales Tombe acquired drugs for the Colombian trafficking network.",
+          "publishedAt": "2013-09-14"
         }
       ],
       "events": [
@@ -172,7 +198,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that José Gregorio Ochoa Vergel received and stored drugs for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -191,6 +222,14 @@
           "language": "es",
           "claim": "On 30 July 2014 Eje21 reported José Gregorio Ochoa Vergel among the sentenced members of the network; reported sentence: 10 years 6 months.",
           "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "Radio Santa Fe specifically says José Gregorio Ochoa Vergel received and stored drugs for the Colombian trafficking network.",
+          "publishedAt": "2013-09-14"
         }
       ],
       "events": [
@@ -224,12 +263,7 @@
       "organizationIds": [
         "santana-norte-de-santander-2014-network"
       ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -279,7 +313,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that José Antonio Sandoval Galvis packed drugs for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -298,6 +337,14 @@
           "language": "es",
           "claim": "On 30 July 2014 Eje21 reported José Antonio Sandoval Galvis among the sentenced members of the network; reported sentence: 13 years 5 months.",
           "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "Radio Santa Fe specifically says José Antonio Sandoval Galvis packed drugs for the Colombian trafficking network.",
+          "publishedAt": "2013-09-14"
         }
       ],
       "events": [
@@ -331,7 +378,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that José Gregorio Hernández Hernández packed drugs for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -350,6 +402,14 @@
           "language": "es",
           "claim": "On 30 July 2014 Eje21 reported José Gregorio Hernández Hernández among the sentenced members of the network; reported sentence: sentence reported; exact duration differs between reproductions.",
           "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "Radio Santa Fe specifically says José Gregorio Hernández Hernández packed drugs for the Colombian trafficking network.",
+          "publishedAt": "2013-09-14"
         }
       ],
       "events": [
@@ -386,7 +446,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that Carlos Julio Pérez Rodríguez arranged heroin dispatch for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -405,6 +470,14 @@
           "language": "es",
           "claim": "On 30 July 2014 Eje21 reported Carlos Julio Pérez Rodríguez among the sentenced members of the network; reported sentence: sentence reported; exact duration differs between reproductions.",
           "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "Radio Santa Fe specifically says Carlos Julio Pérez Rodríguez arranged heroin dispatch for the Colombian trafficking network.",
+          "publishedAt": "2013-09-14"
         }
       ],
       "events": [
@@ -441,7 +514,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that Noel Torrado Guerrero led and financed for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -468,6 +546,14 @@
           "language": "es",
           "claim": "A 17 May 2023 judicial register names Noel Torrado Guerrero in a drug-trafficking and criminal-conspiracy case and records an order extinguishing the principal and ancillary sentence; this is a sentence-completion record, not an acquittal.",
           "publishedAt": "2023-05-17"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "Radio Santa Fe specifically names Noel Torrado Guerrero as a leader and financier of the Colombian trafficking network.",
+          "publishedAt": "2013-09-14"
         }
       ],
       "events": [
@@ -520,7 +606,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that José Gabriel Barco Mora coordinated couriers for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -580,7 +671,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that Eduardo Antonio Guillín Salazar coordinated packing and couriers for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -599,6 +695,14 @@
           "language": "es",
           "claim": "On 30 July 2014 Eje21 reported Eduardo Antonio Guillín Salazar among the sentenced members of the network; reported sentence: 59 months 12 days.",
           "publishedAt": "2014-07-30"
+        },
+        {
+          "url": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/",
+          "title": "Desarticulan banda que enviaba droga desde la frontera con Venezuela",
+          "publisher": "Radio Santa Fe",
+          "language": "es",
+          "claim": "Radio Santa Fe names Eduard Antonio Güillín Salazar, a spelling variant of the Fiscalía’s Eduardo Antonio Guillín Salazar, as a coordinator of drug packing and couriers in Colombia.",
+          "publishedAt": "2013-09-14"
         }
       ],
       "events": [
@@ -635,7 +739,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Radio Santa Fe reports that Xiomara de la Cruz Hoyos Villamizar concealed drugs for the drug-trafficking network operating in Colombia; the association is historical and does not assert current location.",
+            "period": "by 2013",
+            "sourceUrl": "https://www.radiosantafe.com/2013/09/14/desarticulan-banda-que-enviaba-droga-desde-la-frontera-con-venezuela/"
+          }
         }
       ],
       "drugs": [],
@@ -695,7 +804,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Fiscalía individually identifies Manuel Din Hernández as the alleged principal investor in a Colombian drug-export organization; this is historical alleged activity, not a physical-location claim.",
+            "period": "2014",
+            "sourceUrl": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf"
+          }
         }
       ],
       "drugs": [],
@@ -741,7 +855,12 @@
       "regions": [
         {
           "iso3": "COL",
-          "label": "Colombia"
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Fiscalía individually identifies Yesid Abuchar Palacios as the alleged operations coordinator in a Colombian drug-export organization; this is historical alleged activity, not a physical-location claim.",
+            "period": "2014",
+            "sourceUrl": "https://www.fiscalia.gov.co/colombia/wp-content/uploads/InformeCasosConnotacion20141.pdf"
+          }
         }
       ],
       "drugs": [],
@@ -784,12 +903,7 @@
       "organizationIds": [
         "santa-marta-container-2014-network"
       ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -830,12 +944,7 @@
       "organizationIds": [
         "santa-marta-container-2014-network"
       ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
@@ -876,12 +985,7 @@
       "organizationIds": [
         "santa-marta-container-2014-network"
       ],
-      "regions": [
-        {
-          "iso3": "COL",
-          "label": "Colombia"
-        }
-      ],
+      "regions": [],
       "drugs": [],
       "sources": [
         {
