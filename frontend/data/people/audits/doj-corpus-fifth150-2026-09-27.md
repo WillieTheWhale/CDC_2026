@@ -157,3 +157,7 @@ No co-defendant, organization, or photo links are inferred. U.S. country associa
 | `doj-16030d9d8a2e7c29ab1b` | Evorion Anderson | **Accept** | Original DOJ body names Evorion Anderson and reports a sentencing for an individual drug offense; reported by 2024-06-13. → `doj-corpus-growth5-evorion-anderson` | [DOJ](https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced) |
 | `doj-781963ecb964a9d0cf64` | Rhonda Acklin | **Accept** | Original DOJ body names Rhonda Acklin and reports a sentencing for an individual drug offense; reported by 2024-06-13. → `doj-corpus-growth5-rhonda-acklin` | [DOJ](https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced) |
 | `doj-77930dadc247d5c42532` | Robert Griffin | **Accept** | Original DOJ body names Robert Griffin and reports a sentencing for an individual drug offense; reported by 2024-06-13. → `doj-corpus-growth5-robert-griffin` | [DOJ](https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced) |
+
+## Direct relationship follow-up — 2026-09-27
+
+The [original DOJ Hillsborough release](https://www.justice.gov/usao-mdfl/pr/final-member-hillsborough-drug-trafficking-organization-sentenced-10-years-federal) explicitly calls Marie Rodriguez William Franqui’s wife. Both named profiles are published in this fixture, so `doj-corpus-growth5-franqui-rodriguez-spouses` records one source-dated `spouse_of` connection. The other named people in that release are not published in this fixture; no co-defendant, runner, or leadership edges were added from this source.

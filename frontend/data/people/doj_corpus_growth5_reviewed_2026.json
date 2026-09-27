@@ -2774,5 +2774,24 @@
         }
       ]
     }
+  ],
+  "connections": [
+    {
+      "id": "doj-corpus-growth5-franqui-rodriguez-spouses",
+      "fromId": "doj-corpus-growth5-william-franqui",
+      "toId": "doj-corpus-growth5-marie-rodriguez",
+      "type": "spouse_of",
+      "label": "Spouses identified in 2024 DOJ report",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mdfl/pr/final-member-hillsborough-drug-trafficking-organization-sentenced-10-years-federal",
+          "title": "Final Member Of A Hillsborough Drug Trafficking Organization Sentenced To 10 Years In Federal Prison For Conspiracy To Distribute Heroin And Fentanyl",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-08-21",
+          "claim": "The DOJ release explicitly identifies Marie Rodriguez as William Franqui’s wife. This supports only the spouse relationship; it does not imply a shared charge, leadership role, or current association."
+        }
+      ]
+    }
   ]
 }
