@@ -278,10 +278,10 @@
     "pending_count": 0
   },
   "git": {
-    "sha": "6ca07d6",
-    "subject": "Add app/favicon.ico rendered from the TRACE mark (browsers request /favicon.ico; it 404ed on every load); launch config for serving the production build",
-    "when": "2026-09-27T08:51:29-04:00",
-    "count": "314"
+    "sha": "7991677",
+    "subject": "deck: recapture the Atlas hero against the rebuilt flow layer, and correct what the caption claims",
+    "when": "2026-09-27T13:49:36Z",
+    "count": "326"
   },
-  "built_at": "2026-09-27 13:48 UTC"
+  "built_at": "2026-09-27 14:45 UTC"
 }
