@@ -1,0 +1,2893 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-27 from original Paraguayan/Bolivian/Chilean court and prosecutor records plus contemporary Paraguayan reporting. Historical outcomes and broad country associations only. Source-gated individual drug counts, no current custody claim, precise sites/routes, inferred co-defendant links or unlicensed images.",
+  "organizations": [
+    {
+      "id": "paraguay-zafiro-2009-case",
+      "name": "Operación Zafiro marijuana case",
+      "aliases": [],
+      "regions": [
+        "PRY"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan judiciary identifies a source-defined marijuana trafficking case and the 2009 verdicts affirmed in 2010.",
+          "publishedAt": "2010-03-25"
+        }
+      ]
+    },
+    {
+      "id": "paraguay-rojas-2015-case",
+      "name": "Rojas Cañete 2015 trafficking case",
+      "aliases": [],
+      "regions": [
+        "PRY"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision identifies a source-defined group convicted in the 2015 Paraguayan narcotics case."
+        }
+      ]
+    },
+    {
+      "id": "paraguay-roca-2019-case",
+      "name": "Operación Roca drug case",
+      "aliases": [],
+      "regions": [
+        "PRY"
+      ],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561",
+          "title": "Informe de gestión 2019: caso Roca",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The prosecutor report identifies the source-defined Roca drug-trafficking case and individually lists convicted defendants."
+        }
+      ]
+    },
+    {
+      "id": "paraguay-apulia-2025-case",
+      "name": "Caso Apulia drug-trafficking group",
+      "aliases": [],
+      "regions": [
+        "PRY"
+      ],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+          "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The prosecutor identifies seven convicted members of the Apulia cocaine-trafficking group.",
+          "publishedAt": "2025-05-27"
+        }
+      ]
+    },
+    {
+      "id": "bolivia-potosi-2022-case",
+      "name": "Bolivia 2022 joint cocaine-trafficking case",
+      "aliases": [],
+      "regions": [
+        "BOL"
+      ],
+      "sources": [
+        {
+          "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision",
+          "title": "Tres personas sentenciadas a diez años por tráfico de cocaína",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The prosecutor names three people jointly convicted of cocaine trafficking in Bolivia.",
+          "publishedAt": "2022-03-13"
+        }
+      ]
+    },
+    {
+      "id": "bolivia-chuquisaca-2024-case",
+      "name": "Bolivia 2024 joint cocaine-trafficking case",
+      "aliases": [],
+      "regions": [
+        "BOL"
+      ],
+      "sources": [
+        {
+          "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel",
+          "title": "Tres hombres sentenciados a treinta años por tráfico de cocaína",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The prosecutor names three people jointly convicted of cocaine trafficking in Bolivia.",
+          "publishedAt": "2024-11-15"
+        }
+      ]
+    },
+    {
+      "id": "bolivia-pando-2024-case",
+      "name": "Bolivia 2024 joint marijuana-trafficking case",
+      "aliases": [],
+      "regions": [
+        "BOL"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/pando-dos-hombres-que-transportaban-mas-de-20-kilos-de-marihuana-fueron-sentenciados-a-15-anos-de-prision",
+          "title": "Dos hombres sentenciados a quince años por tráfico de marihuana",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The prosecutor names two people jointly convicted of marijuana trafficking in Bolivia.",
+          "publishedAt": "2024-11-27"
+        }
+      ]
+    },
+    {
+      "id": "bolivia-potosi-2021-case",
+      "name": "Bolivia 2021 joint marijuana-trafficking case",
+      "aliases": [],
+      "regions": [
+        "BOL"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/dos-sujetos-son-sentenciados-a-13-anos-de-carcel-por-trafico-de-marihuana-en-potosi",
+          "title": "Dos hombres sentenciados por tráfico de marihuana",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The prosecutor names two people jointly convicted of marijuana trafficking in Bolivia.",
+          "publishedAt": "2021-12-08"
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "ruben-duarte-ayala-paraguay-duarte-2009",
+      "name": "Rubén Duarte Ayala",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-04-02",
+      "roleLabel": "Convicted of drug trafficking and criminal association; 15-year sentence",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Rubén Duarte Ayala is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2007",
+            "sourceUrl": "https://www.pj.gov.py/notas/2225-tribunal-condeno-a-15-anos-a-ex-comisario-por-trafico-de-drogas-y-asociacion-criminal"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/notas/2225-tribunal-condeno-a-15-anos-a-ex-comisario-por-trafico-de-drogas-y-asociacion-criminal",
+          "title": "Tribunal condenó a 15 años a ex comisario por tráfico de drogas y asociación criminal",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan court individually names Duarte Ayala as convicted for escorting a marijuana shipment in the 2007 case.",
+          "publishedAt": "2009-04-02"
+        }
+      ],
+      "events": [
+        {
+          "id": "ruben-duarte-ayala-paraguay-duarte-2009-2009-04-02-case-event",
+          "occurredAt": "2009-04-02",
+          "type": "conviction",
+          "title": "Drug-case conviction reported",
+          "summary": "Rubén Duarte Ayala: Convicted of drug trafficking and criminal association; 15-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/notas/2225-tribunal-condeno-a-15-anos-a-ex-comisario-por-trafico-de-drogas-y-asociacion-criminal",
+            "title": "Tribunal condenó a 15 años a ex comisario por tráfico de drogas y asociación criminal",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan court individually names Duarte Ayala as convicted for escorting a marijuana shipment in the 2007 case.",
+            "publishedAt": "2009-04-02"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alberto-ramon-martinez-paraguay-duarte-2009",
+      "name": "Alberto Ramón Martínez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-04-02",
+      "roleLabel": "Convicted accomplice in drug trafficking and criminal association; individual sentence not stated",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Alberto Ramón Martínez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2007",
+            "sourceUrl": "https://www.pj.gov.py/notas/2225-tribunal-condeno-a-15-anos-a-ex-comisario-por-trafico-de-drogas-y-asociacion-criminal"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/notas/2225-tribunal-condeno-a-15-anos-a-ex-comisario-por-trafico-de-drogas-y-asociacion-criminal",
+          "title": "Tribunal condenó a 15 años a ex comisario por tráfico de drogas y asociación criminal",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan court individually names Martínez as Duarte Ayala’s accomplice and says both were convicted of drug trafficking and criminal association.",
+          "publishedAt": "2009-04-02"
+        }
+      ],
+      "events": [
+        {
+          "id": "alberto-ramon-martinez-paraguay-duarte-2009-2009-04-02-case-event",
+          "occurredAt": "2009-04-02",
+          "type": "conviction",
+          "title": "Drug-case conviction reported",
+          "summary": "Alberto Ramón Martínez: Convicted accomplice in drug trafficking and criminal association; individual sentence not stated. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/notas/2225-tribunal-condeno-a-15-anos-a-ex-comisario-por-trafico-de-drogas-y-asociacion-criminal",
+            "title": "Tribunal condenó a 15 años a ex comisario por tráfico de drogas y asociación criminal",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan court individually names Martínez as Duarte Ayala’s accomplice and says both were convicted of drug trafficking and criminal association.",
+            "publishedAt": "2009-04-02"
+          }
+        }
+      ]
+    },
+    {
+      "id": "victor-luis-roy-baez-paraguay-zafiro-2009-case",
+      "name": "Víctor Luis Roy Báez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-03-25",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 20-year verdict, affirmed on appeal in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Víctor Luis Roy Báez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Víctor Luis Roy Báez an Article 26 drug-trafficking count and a 20-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Víctor Luis Roy Báez in the same drug case and documents the reported disposition.",
+          "publishedAt": "2010-03-25"
+        }
+      ],
+      "events": [
+        {
+          "id": "victor-luis-roy-baez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Víctor Luis Roy Báez: Convicted of drug trafficking in the 2009 Zafiro case; 20-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Víctor Luis Roy Báez an Article 26 drug-trafficking count and a 20-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+          }
+        },
+        {
+          "id": "victor-luis-roy-baez-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "occurredAt": "2010-03-24",
+          "type": "development",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Víctor Luis Roy Báez; the trial court had imposed a 20-year sentence. This is a historical appeal outcome, not evidence of current custody.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The appellate judgment individually lists Víctor Luis Roy Báez among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "oscar-daniel-jara-paraguay-zafiro-2009-case",
+      "name": "Óscar Daniel Jara",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-03-25",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 20-year verdict, affirmed on appeal in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Óscar Daniel Jara is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Óscar Daniel Jara an Article 26 drug-trafficking count and a 20-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Óscar Daniel Jara in the same drug case and documents the reported disposition.",
+          "publishedAt": "2010-03-25"
+        }
+      ],
+      "events": [
+        {
+          "id": "oscar-daniel-jara-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Óscar Daniel Jara: Convicted of drug trafficking in the 2009 Zafiro case; 20-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Óscar Daniel Jara an Article 26 drug-trafficking count and a 20-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+          }
+        },
+        {
+          "id": "oscar-daniel-jara-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "occurredAt": "2010-03-24",
+          "type": "development",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Óscar Daniel Jara; the trial court had imposed a 20-year sentence. This is a historical appeal outcome, not evidence of current custody.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The appellate judgment individually lists Óscar Daniel Jara among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carlos-antonio-lopez-ibarra-paraguay-zafiro-2009-case",
+      "name": "Carlos Antonio López Ibarra",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-03-25",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 17-year verdict, affirmed on appeal in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Carlos Antonio López Ibarra is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Carlos Antonio López Ibarra an Article 26 drug-trafficking count and a 17-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Carlos Antonio López Ibarra in the same drug case and documents the reported disposition.",
+          "publishedAt": "2010-03-25"
+        }
+      ],
+      "events": [
+        {
+          "id": "carlos-antonio-lopez-ibarra-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Carlos Antonio López Ibarra: Convicted of drug trafficking in the 2009 Zafiro case; 17-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Carlos Antonio López Ibarra an Article 26 drug-trafficking count and a 17-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+          }
+        },
+        {
+          "id": "carlos-antonio-lopez-ibarra-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "occurredAt": "2010-03-24",
+          "type": "development",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Carlos Antonio López Ibarra; the trial court had imposed a 17-year sentence. This is a historical appeal outcome, not evidence of current custody.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The appellate judgment individually lists Carlos Antonio López Ibarra among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "zunilda-asuncion-roy-baez-paraguay-zafiro-2009-case",
+      "name": "Zunilda Asunción Roy Báez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-03-25",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 16-year verdict, affirmed on appeal in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Zunilda Asunción Roy Báez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Zunilda Asunción Roy Báez an Article 26 drug-trafficking count and a 16-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Zunilda Asunción Roy Báez in the same drug case and documents the reported disposition.",
+          "publishedAt": "2010-03-25"
+        }
+      ],
+      "events": [
+        {
+          "id": "zunilda-asuncion-roy-baez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Zunilda Asunción Roy Báez: Convicted of drug trafficking in the 2009 Zafiro case; 16-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Zunilda Asunción Roy Báez an Article 26 drug-trafficking count and a 16-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+          }
+        },
+        {
+          "id": "zunilda-asuncion-roy-baez-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "occurredAt": "2010-03-24",
+          "type": "development",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Zunilda Asunción Roy Báez; the trial court had imposed a 16-year sentence. This is a historical appeal outcome, not evidence of current custody.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The appellate judgment individually lists Zunilda Asunción Roy Báez among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cesar-pastor-martinez-martinez-paraguay-zafiro-2009-case",
+      "name": "César Pastor Martínez Martínez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-03-25",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 16-year verdict, affirmed on appeal in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "César Pastor Martínez Martínez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns César Pastor Martínez Martínez an Article 26 drug-trafficking count and a 16-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "Corroborates César Pastor Martínez Martínez in the same drug case and documents the reported disposition.",
+          "publishedAt": "2010-03-25"
+        }
+      ],
+      "events": [
+        {
+          "id": "cesar-pastor-martinez-martinez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "César Pastor Martínez Martínez: Convicted of drug trafficking in the 2009 Zafiro case; 16-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns César Pastor Martínez Martínez an Article 26 drug-trafficking count and a 16-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+          }
+        },
+        {
+          "id": "cesar-pastor-martinez-martinez-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "occurredAt": "2010-03-24",
+          "type": "development",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against César Pastor Martínez Martínez; the trial court had imposed a 16-year sentence. This is a historical appeal outcome, not evidence of current custody.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The appellate judgment individually lists César Pastor Martínez Martínez among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-alberto-cabanas-valdez-paraguay-zafiro-2009-case",
+      "name": "Luis Alberto Cabañas Valdez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-03-25",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 8-year verdict, affirmed on appeal in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Luis Alberto Cabañas Valdez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Luis Alberto Cabañas Valdez an Article 26 drug-trafficking count and a 8-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Luis Alberto Cabañas Valdez in the same drug case and documents the reported disposition.",
+          "publishedAt": "2010-03-25"
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-alberto-cabanas-valdez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Luis Alberto Cabañas Valdez: Convicted of drug trafficking in the 2009 Zafiro case; 8-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Luis Alberto Cabañas Valdez an Article 26 drug-trafficking count and a 8-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+          }
+        },
+        {
+          "id": "luis-alberto-cabanas-valdez-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "occurredAt": "2010-03-24",
+          "type": "development",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Luis Alberto Cabañas Valdez; the trial court had imposed a 8-year sentence. This is a historical appeal outcome, not evidence of current custody.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The appellate judgment individually lists Luis Alberto Cabañas Valdez among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "german-alvarez-jara-paraguay-zafiro-2009-case",
+      "name": "Germán Álvarez Jara",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2010-03-25",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 9-year verdict, affirmed on appeal in 2010",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Germán Álvarez Jara is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Germán Álvarez Jara an Article 26 drug-trafficking count and a 9-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+        },
+        {
+          "url": "https://www.pj.gov.py/notas/3480-ratifican-condena-para-los-procesados-por-el-caso-zafiro",
+          "title": "Ratifican condena para los procesados por el caso Zafiro",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Germán Álvarez Jara in the same drug case and documents the reported disposition.",
+          "publishedAt": "2010-03-25"
+        }
+      ],
+      "events": [
+        {
+          "id": "german-alvarez-jara-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Germán Álvarez Jara: Convicted of drug trafficking in the 2009 Zafiro case; 9-year verdict, affirmed on appeal in 2010. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Germán Álvarez Jara an Article 26 drug-trafficking count and a 9-year sentence. The appeals court lists this defendant among the appellants and confirms the judgment."
+          }
+        },
+        {
+          "id": "german-alvarez-jara-paraguay-zafiro-2009-case-2010-03-24-appeal",
+          "occurredAt": "2010-03-24",
+          "type": "development",
+          "title": "Drug-case verdict affirmed",
+          "summary": "The Paraguayan appellate court confirmed the Zafiro verdict against Germán Álvarez Jara; the trial court had imposed a 9-year sentence. This is a historical appeal outcome, not evidence of current custody.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The appellate judgment individually lists Germán Álvarez Jara among nine appellants and confirms the 2009 judgment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "teodoro-trinidad-saiz-silvera-paraguay-zafiro-2009-case",
+      "name": "Teodoro Trinidad Saiz Silvera",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 18-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Teodoro Trinidad Saiz Silvera is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Teodoro Trinidad Saiz Silvera an Article 26 drug-trafficking count and a 18-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "teodoro-trinidad-saiz-silvera-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Teodoro Trinidad Saiz Silvera: Convicted of drug trafficking in the 2009 Zafiro case; 18-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Teodoro Trinidad Saiz Silvera an Article 26 drug-trafficking count and a 18-year sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "clementino-acosta-paraguay-zafiro-2009-case",
+      "name": "Clementino Acosta",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Clementino Acosta is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Clementino Acosta an Article 26 drug-trafficking count and a 6-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "clementino-acosta-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Clementino Acosta: Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Clementino Acosta an Article 26 drug-trafficking count and a 6-year sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ruben-andres-acosta-benitez-paraguay-zafiro-2009-case",
+      "name": "Rubén Andrés Acosta Benítez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Rubén Andrés Acosta Benítez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Rubén Andrés Acosta Benítez an Article 26 drug-trafficking count and a 6-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "ruben-andres-acosta-benitez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Rubén Andrés Acosta Benítez: Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Rubén Andrés Acosta Benítez an Article 26 drug-trafficking count and a 6-year sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rainaldo-acosta-benitez-paraguay-zafiro-2009-case",
+      "name": "Rainaldo Acosta Benítez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Rainaldo Acosta Benítez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Rainaldo Acosta Benítez an Article 26 drug-trafficking count and a 6-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "rainaldo-acosta-benitez-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Rainaldo Acosta Benítez: Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Rainaldo Acosta Benítez an Article 26 drug-trafficking count and a 6-year sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "arnaldo-andres-saucedo-paraguay-zafiro-2009-case",
+      "name": "Arnaldo Andrés Saucedo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2009-08-21",
+      "roleLabel": "Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-zafiro-2009-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Arnaldo Andrés Saucedo is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2005",
+            "sourceUrl": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+          "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Arnaldo Andrés Saucedo an Article 26 drug-trafficking count and a 6-year sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "arnaldo-andres-saucedo-paraguay-zafiro-2009-case-2009-08-21-case-event",
+          "occurredAt": "2009-08-21",
+          "type": "conviction",
+          "title": "Zafiro drug-trafficking verdict",
+          "summary": "Arnaldo Andrés Saucedo: Convicted of drug trafficking in the 2009 Zafiro case; 6-year verdict. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/ebook/libros_files/Gaceta_Judicial_2_2010.pdf",
+            "title": "Gaceta Judicial 2010: Zafiro appellate judgment reproducing individualized 2009 drug counts",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan appellate judgment reproduces the 2009 trial verdict, individually assigns Arnaldo Andrés Saucedo an Article 26 drug-trafficking count and a 6-year sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tomas-rojas-canete-paraguay-rojas-2015-case",
+      "name": "Tomás Rojas Cañete",
+      "aliases": [
+        "Toma’i"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2019-02-13",
+      "roleLabel": "Convicted in 2015 trafficking case (25 years) and distinct 2019 Roca trafficking case (30 years)",
+      "prominence": 1,
+      "organizationIds": [
+        "paraguay-rojas-2015-case",
+        "paraguay-roca-2019-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Tomás Rojas Cañete is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2011",
+            "sourceUrl": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Tomás Rojas Cañete with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+        },
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Tomás Rojas Cañete in the same drug case and documents the reported disposition."
+        },
+        {
+          "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+          "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+          "publisher": "Última Hora",
+          "language": "es",
+          "claim": "The 2019-02-13 report says the court sentenced Tomás Rojas Cañete the previous day to 30 years for a distinct trafficking case.",
+          "publishedAt": "2019-02-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "tomas-rojas-canete-paraguay-rojas-2015-case-2015-09-10-case-event",
+          "occurredAt": "2015-09-10",
+          "type": "conviction",
+          "title": "2015 narcotics verdict",
+          "summary": "Tomás Rojas Cañete: Drug trafficking, commerce and possession; criminal association and laundering; 25-year 2015 sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+            "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Tomás Rojas Cañete with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+          }
+        },
+        {
+          "id": "tomas-rojas-canete-paraguay-rojas-2015-case-2019-02-12-roca-conviction",
+          "occurredAt": "2019-02-12",
+          "type": "conviction",
+          "title": "Second drug-case sentence",
+          "summary": "Última Hora reports a 30-year sentence in the distinct Roca trafficking case, following a 25-year 2015 sentence. These are separate judgments, not a combined term.",
+          "source": {
+            "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+            "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+            "publisher": "Última Hora",
+            "language": "es",
+            "claim": "The 2019-02-13 report says the court sentenced Tomás Rojas Cañete the previous day to 30 years for a distinct trafficking case.",
+            "publishedAt": "2019-02-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "antonio-marcos-carballo-sosa-paraguay-rojas-2015-case",
+      "name": "Antonio Marcos Carballo Sosa",
+      "aliases": [
+        "Antonio Marcos Carvallo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2015-09-10",
+      "roleLabel": "Accomplice in trafficking and drug commerce; possession and association; 20-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-rojas-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Antonio Marcos Carballo Sosa is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2011",
+            "sourceUrl": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Antonio Marcos Carballo Sosa with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+        },
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Antonio Marcos Carballo Sosa in the same drug case and documents the reported disposition."
+        }
+      ],
+      "events": [
+        {
+          "id": "antonio-marcos-carballo-sosa-paraguay-rojas-2015-case-2015-09-10-case-event",
+          "occurredAt": "2015-09-10",
+          "type": "conviction",
+          "title": "2015 narcotics verdict",
+          "summary": "Antonio Marcos Carballo Sosa: Accomplice in trafficking and drug commerce; possession and association; 20-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+            "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Antonio Marcos Carballo Sosa with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cirilo-de-leon-valiente-paraguay-rojas-2015-case",
+      "name": "Cirilo de León Valiente",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2015-09-10",
+      "roleLabel": "Accomplice in trafficking and drug commerce; possession and association; 18-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-rojas-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Cirilo de León Valiente is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2011",
+            "sourceUrl": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Cirilo de León Valiente with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+        },
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Cirilo de León Valiente in the same drug case and documents the reported disposition."
+        }
+      ],
+      "events": [
+        {
+          "id": "cirilo-de-leon-valiente-paraguay-rojas-2015-case-2015-09-10-case-event",
+          "occurredAt": "2015-09-10",
+          "type": "conviction",
+          "title": "2015 narcotics verdict",
+          "summary": "Cirilo de León Valiente: Accomplice in trafficking and drug commerce; possession and association; 18-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+            "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Cirilo de León Valiente with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+          }
+        }
+      ]
+    },
+    {
+      "id": "robert-agustin-lesmo-garcia-paraguay-rojas-2015-case",
+      "name": "Robert Agustín Lesmo García",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2015-09-10",
+      "roleLabel": "Convicted of trafficking, drug commerce and possession; 18-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-rojas-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Robert Agustín Lesmo García is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2011",
+            "sourceUrl": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Robert Agustín Lesmo García with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+        },
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Robert Agustín Lesmo García in the same drug case and documents the reported disposition."
+        }
+      ],
+      "events": [
+        {
+          "id": "robert-agustin-lesmo-garcia-paraguay-rojas-2015-case-2015-09-10-case-event",
+          "occurredAt": "2015-09-10",
+          "type": "conviction",
+          "title": "2015 narcotics verdict",
+          "summary": "Robert Agustín Lesmo García: Convicted of trafficking, drug commerce and possession; 18-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+            "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Robert Agustín Lesmo García with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ignacio-rojas-canete-paraguay-rojas-2015-case",
+      "name": "Ignacio Rojas Cañete",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2015-09-10",
+      "roleLabel": "Accomplice in drug commerce and convicted of criminal association; 15-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-rojas-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Ignacio Rojas Cañete is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2011",
+            "sourceUrl": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Ignacio Rojas Cañete with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+        },
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Ignacio Rojas Cañete in the same drug case and documents the reported disposition."
+        }
+      ],
+      "events": [
+        {
+          "id": "ignacio-rojas-canete-paraguay-rojas-2015-case-2015-09-10-case-event",
+          "occurredAt": "2015-09-10",
+          "type": "conviction",
+          "title": "2015 narcotics verdict",
+          "summary": "Ignacio Rojas Cañete: Accomplice in drug commerce and convicted of criminal association; 15-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+            "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Ignacio Rojas Cañete with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mario-antonio-arevalos-amarilla-paraguay-rojas-2015-case",
+      "name": "Mario Antonio Arévalos Amarilla",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2015-09-10",
+      "roleLabel": "Accomplice in drug commerce and convicted of criminal association; 16 years 8 months",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-rojas-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Mario Antonio Arévalos Amarilla is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2011",
+            "sourceUrl": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Mario Antonio Arévalos Amarilla with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+        },
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Mario Antonio Arévalos Amarilla in the same drug case and documents the reported disposition."
+        }
+      ],
+      "events": [
+        {
+          "id": "mario-antonio-arevalos-amarilla-paraguay-rojas-2015-case-2015-09-10-case-event",
+          "occurredAt": "2015-09-10",
+          "type": "conviction",
+          "title": "2015 narcotics verdict",
+          "summary": "Mario Antonio Arévalos Amarilla: Accomplice in drug commerce and convicted of criminal association; 16 years 8 months. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+            "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Mario Antonio Arévalos Amarilla with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+          }
+        }
+      ]
+    },
+    {
+      "id": "aldair-pozzamai-davis-paraguay-rojas-2015-case",
+      "name": "Aldair Pozzamai Davis",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2015-09-10",
+      "roleLabel": "Convicted of drug trafficking and commerce; 18-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-rojas-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Aldair Pozzamai Davis is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2011",
+            "sourceUrl": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Aldair Pozzamai Davis with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+        },
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Aldair Pozzamai Davis in the same drug case and documents the reported disposition."
+        }
+      ],
+      "events": [
+        {
+          "id": "aldair-pozzamai-davis-paraguay-rojas-2015-case-2015-09-10-case-event",
+          "occurredAt": "2015-09-10",
+          "type": "conviction",
+          "title": "2015 narcotics verdict",
+          "summary": "Aldair Pozzamai Davis: Convicted of drug trafficking and commerce; 18-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+            "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Aldair Pozzamai Davis with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fermin-centurion-godoy-paraguay-rojas-2015-case",
+      "name": "Fermín Centurión Godoy",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2015-09-10",
+      "roleLabel": "Coauthor of drug commerce and possession; criminal association; 21-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-rojas-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Fermín Centurión Godoy is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2011",
+            "sourceUrl": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Fermín Centurión Godoy with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+        },
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Fermín Centurión Godoy in the same drug case and documents the reported disposition."
+        }
+      ],
+      "events": [
+        {
+          "id": "fermin-centurion-godoy-paraguay-rojas-2015-case-2015-09-10-case-event",
+          "occurredAt": "2015-09-10",
+          "type": "conviction",
+          "title": "2015 narcotics verdict",
+          "summary": "Fermín Centurión Godoy: Coauthor of drug commerce and possession; criminal association; 21-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+            "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Fermín Centurión Godoy with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+          }
+        }
+      ]
+    },
+    {
+      "id": "angel-tranquilino-gimenez-paraguay-rojas-2015-case",
+      "name": "Ángel Tranquilino Giménez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2015-09-10",
+      "roleLabel": "Coauthor of drug commerce and possession; criminal association; 21-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-rojas-2015-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Ángel Tranquilino Giménez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2011",
+            "sourceUrl": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+          "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+          "publisher": "Poder Judicial del Paraguay",
+          "language": "es",
+          "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Ángel Tranquilino Giménez with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+        },
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "Corroborates Ángel Tranquilino Giménez in the same drug case and documents the reported disposition."
+        }
+      ],
+      "events": [
+        {
+          "id": "angel-tranquilino-gimenez-paraguay-rojas-2015-case-2015-09-10-case-event",
+          "occurredAt": "2015-09-10",
+          "type": "conviction",
+          "title": "2015 narcotics verdict",
+          "summary": "Ángel Tranquilino Giménez: Coauthor of drug commerce and possession; criminal association; 21-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pj.gov.py/descargas/2015-AyS-N-87-2015-TOMAS-ROJAS-CANETE.pdf",
+            "title": "Tomas Rojas Cañete y otros s/ tráfico de drogas: appellate decision quoting 2015 verdict",
+            "publisher": "Poder Judicial del Paraguay",
+            "language": "es",
+            "claim": "The court decision reproduces the 2015-09-10 verdict and individually identifies Ángel Tranquilino Giménez with a drug-trafficking or drug-commerce count and sentence. The 2015 prosecutor report corroborates the cohort."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-alberto-paiva-gutierrez-paraguay-roca-2019-case",
+      "name": "Luis Alberto Paiva Gutiérrez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-02-13",
+      "roleLabel": "Convicted in Roca drug-trafficking case; 20-year sentence (individual legal count not itemized)",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-roca-2019-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Luis Alberto Paiva Gutiérrez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2014–2015",
+            "sourceUrl": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561",
+          "title": "Informe de gestión 2019: caso Roca",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor report individually lists Luis Alberto Paiva Gutiérrez as convicted in the Roca trafficking case with a 20-year sentence; the contemporary account dates the judgment."
+        },
+        {
+          "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+          "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+          "publisher": "Última Hora",
+          "language": "es",
+          "claim": "Corroborates Luis Alberto Paiva Gutiérrez in the same drug case and documents the reported disposition.",
+          "publishedAt": "2019-02-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-alberto-paiva-gutierrez-paraguay-roca-2019-case-2019-02-12-case-event",
+          "occurredAt": "2019-02-12",
+          "type": "conviction",
+          "title": "Roca case sentence",
+          "summary": "Luis Alberto Paiva Gutiérrez: Convicted in Roca drug-trafficking case; 20-year sentence (individual legal count not itemized). The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+            "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+            "publisher": "Última Hora",
+            "language": "es",
+            "claim": "The contemporary court report dates the Roca judgment to 2019-02-12 and gives the individual sentence; the prosecutor annual report supplies the full identity.",
+            "publishedAt": "2019-02-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pedro-britos-romero-paraguay-roca-2019-case",
+      "name": "Pedro Britos Romero",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-02-13",
+      "roleLabel": "Convicted in Roca drug-trafficking case; 11-year sentence (individual legal count not itemized)",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-roca-2019-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Pedro Britos Romero is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2014–2015",
+            "sourceUrl": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561",
+          "title": "Informe de gestión 2019: caso Roca",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor report individually lists Pedro Britos Romero as convicted in the Roca trafficking case with a 11-year sentence; the contemporary account dates the judgment."
+        },
+        {
+          "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+          "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+          "publisher": "Última Hora",
+          "language": "es",
+          "claim": "Corroborates Pedro Britos Romero in the same drug case and documents the reported disposition.",
+          "publishedAt": "2019-02-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "pedro-britos-romero-paraguay-roca-2019-case-2019-02-12-case-event",
+          "occurredAt": "2019-02-12",
+          "type": "conviction",
+          "title": "Roca case sentence",
+          "summary": "Pedro Britos Romero: Convicted in Roca drug-trafficking case; 11-year sentence (individual legal count not itemized). The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+            "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+            "publisher": "Última Hora",
+            "language": "es",
+            "claim": "The contemporary court report dates the Roca judgment to 2019-02-12 and gives the individual sentence; the prosecutor annual report supplies the full identity.",
+            "publishedAt": "2019-02-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alfredo-fernando-dittel-ortiz-paraguay-roca-2019-case",
+      "name": "Alfredo Fernando Dittel Ortiz",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-02-13",
+      "roleLabel": "Convicted in Roca drug-trafficking case; 10-year sentence (individual legal count not itemized)",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-roca-2019-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Alfredo Fernando Dittel Ortiz is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2014–2015",
+            "sourceUrl": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561",
+          "title": "Informe de gestión 2019: caso Roca",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor report individually lists Alfredo Fernando Dittel Ortiz as convicted in the Roca trafficking case with a 10-year sentence; the contemporary account dates the judgment."
+        },
+        {
+          "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+          "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+          "publisher": "Última Hora",
+          "language": "es",
+          "claim": "Corroborates Alfredo Fernando Dittel Ortiz in the same drug case and documents the reported disposition.",
+          "publishedAt": "2019-02-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "alfredo-fernando-dittel-ortiz-paraguay-roca-2019-case-2019-02-12-case-event",
+          "occurredAt": "2019-02-12",
+          "type": "conviction",
+          "title": "Roca case sentence",
+          "summary": "Alfredo Fernando Dittel Ortiz: Convicted in Roca drug-trafficking case; 10-year sentence (individual legal count not itemized). The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+            "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+            "publisher": "Última Hora",
+            "language": "es",
+            "claim": "The contemporary court report dates the Roca judgment to 2019-02-12 and gives the individual sentence; the prosecutor annual report supplies the full identity.",
+            "publishedAt": "2019-02-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "joseph-roberto-perez-miranda-paraguay-roca-2019-case",
+      "name": "Joseph Roberto Pérez Miranda",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-02-13",
+      "roleLabel": "Convicted in Roca drug-trafficking case; 10-year sentence (individual legal count not itemized)",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-roca-2019-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Joseph Roberto Pérez Miranda is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2014–2015",
+            "sourceUrl": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561",
+          "title": "Informe de gestión 2019: caso Roca",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor report individually lists Joseph Roberto Pérez Miranda as convicted in the Roca trafficking case with a 10-year sentence; the contemporary account dates the judgment."
+        },
+        {
+          "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+          "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+          "publisher": "Última Hora",
+          "language": "es",
+          "claim": "Corroborates Joseph Roberto Pérez Miranda in the same drug case and documents the reported disposition.",
+          "publishedAt": "2019-02-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "joseph-roberto-perez-miranda-paraguay-roca-2019-case-2019-02-12-case-event",
+          "occurredAt": "2019-02-12",
+          "type": "conviction",
+          "title": "Roca case sentence",
+          "summary": "Joseph Roberto Pérez Miranda: Convicted in Roca drug-trafficking case; 10-year sentence (individual legal count not itemized). The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+            "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+            "publisher": "Última Hora",
+            "language": "es",
+            "claim": "The contemporary court report dates the Roca judgment to 2019-02-12 and gives the individual sentence; the prosecutor annual report supplies the full identity.",
+            "publishedAt": "2019-02-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "luciano-rene-vazquez-amada-paraguay-roca-2019-case",
+      "name": "Luciano René Vázquez Amada",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-02-13",
+      "roleLabel": "Convicted in Roca drug-trafficking case; 10-year sentence (individual legal count not itemized)",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-roca-2019-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Luciano René Vázquez Amada is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2014–2015",
+            "sourceUrl": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/INFORME_DE_GESTI%C3%93N_2019.pdf?time=1592322979561",
+          "title": "Informe de gestión 2019: caso Roca",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor report individually lists Luciano René Vázquez Amada as convicted in the Roca trafficking case with a 10-year sentence; the contemporary account dates the judgment."
+        },
+        {
+          "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+          "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+          "publisher": "Última Hora",
+          "language": "es",
+          "claim": "Corroborates Luciano René Vázquez Amada in the same drug case and documents the reported disposition.",
+          "publishedAt": "2019-02-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "luciano-rene-vazquez-amada-paraguay-roca-2019-case-2019-02-12-case-event",
+          "occurredAt": "2019-02-12",
+          "type": "conviction",
+          "title": "Roca case sentence",
+          "summary": "Luciano René Vázquez Amada: Convicted in Roca drug-trafficking case; 10-year sentence (individual legal count not itemized). The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+            "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+            "publisher": "Última Hora",
+            "language": "es",
+            "claim": "The contemporary court report dates the Roca judgment to 2019-02-12 and gives the individual sentence; the prosecutor annual report supplies the full identity.",
+            "publishedAt": "2019-02-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "robert-rojas-davalos-paraguay-roca-2019-case",
+      "name": "Robert Rojas Dávalos",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-02-13",
+      "roleLabel": "Convicted in Roca drug-trafficking case; eight-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-roca-2019-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Robert Rojas Dávalos is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2014–2015",
+            "sourceUrl": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+          "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+          "publisher": "Última Hora",
+          "language": "es",
+          "claim": "The contemporary court report individually names Robert Rojas Dávalos as convicted in Roca, records his admission of involvement and an eight-year sentence, and identifies Tomás Rojas as his father.",
+          "publishedAt": "2019-02-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "robert-rojas-davalos-paraguay-roca-2019-case-2019-02-12-case-event",
+          "occurredAt": "2019-02-12",
+          "type": "conviction",
+          "title": "Roca case sentence",
+          "summary": "Robert Rojas Dávalos: Convicted in Roca drug-trafficking case; eight-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+            "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+            "publisher": "Última Hora",
+            "language": "es",
+            "claim": "The contemporary court report individually names Robert Rojas Dávalos as convicted in Roca, records his admission of involvement and an eight-year sentence, and identifies Tomás Rojas as his father.",
+            "publishedAt": "2019-02-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "francisco-portillo-paraguay-apulia-2025-case",
+      "name": "Francisco Portillo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-27",
+      "roleLabel": "Convicted of drug trafficking, possession and criminal association; 20-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-apulia-2025-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Francisco Portillo is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2021–2022",
+            "sourceUrl": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+          "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor individually names Francisco Portillo among seven people convicted of trafficking, possession and association in the Apulia case and gives a 20-year term.",
+          "publishedAt": "2025-05-27"
+        }
+      ],
+      "events": [
+        {
+          "id": "francisco-portillo-paraguay-apulia-2025-case-2025-05-27-case-event",
+          "occurredAt": "2025-05-27",
+          "type": "conviction",
+          "title": "Apulia convictions reported",
+          "summary": "Francisco Portillo: Convicted of drug trafficking, possession and criminal association; 20-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+            "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+            "publisher": "Ministerio Público del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan prosecutor individually names Francisco Portillo among seven people convicted of trafficking, possession and association in the Apulia case and gives a 20-year term.",
+            "publishedAt": "2025-05-27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nicolas-vazquez-paraguay-apulia-2025-case",
+      "name": "Nicolás Vázquez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-27",
+      "roleLabel": "Convicted of drug trafficking, possession and criminal association; 18-year sentence",
+      "prominence": 2,
+      "organizationIds": [
+        "paraguay-apulia-2025-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Nicolás Vázquez is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2021–2022",
+            "sourceUrl": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+          "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor individually names Nicolás Vázquez among seven people convicted of trafficking, possession and association in the Apulia case and gives a 18-year term.",
+          "publishedAt": "2025-05-27"
+        }
+      ],
+      "events": [
+        {
+          "id": "nicolas-vazquez-paraguay-apulia-2025-case-2025-05-27-case-event",
+          "occurredAt": "2025-05-27",
+          "type": "conviction",
+          "title": "Apulia convictions reported",
+          "summary": "Nicolás Vázquez: Convicted of drug trafficking, possession and criminal association; 18-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+            "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+            "publisher": "Ministerio Público del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan prosecutor individually names Nicolás Vázquez among seven people convicted of trafficking, possession and association in the Apulia case and gives a 18-year term.",
+            "publishedAt": "2025-05-27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jorge-ovelar-paraguay-apulia-2025-case",
+      "name": "Jorge Ovelar",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-27",
+      "roleLabel": "Convicted of drug trafficking, possession and criminal association; 13-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "paraguay-apulia-2025-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Jorge Ovelar is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2021–2022",
+            "sourceUrl": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+          "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor individually names Jorge Ovelar among seven people convicted of trafficking, possession and association in the Apulia case and gives a 13-year term.",
+          "publishedAt": "2025-05-27"
+        }
+      ],
+      "events": [
+        {
+          "id": "jorge-ovelar-paraguay-apulia-2025-case-2025-05-27-case-event",
+          "occurredAt": "2025-05-27",
+          "type": "conviction",
+          "title": "Apulia convictions reported",
+          "summary": "Jorge Ovelar: Convicted of drug trafficking, possession and criminal association; 13-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+            "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+            "publisher": "Ministerio Público del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan prosecutor individually names Jorge Ovelar among seven people convicted of trafficking, possession and association in the Apulia case and gives a 13-year term.",
+            "publishedAt": "2025-05-27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hernan-fleitas-paraguay-apulia-2025-case",
+      "name": "Hernán Fleitas",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-27",
+      "roleLabel": "Convicted of drug trafficking, possession and criminal association; 13-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "paraguay-apulia-2025-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Hernán Fleitas is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2021–2022",
+            "sourceUrl": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+          "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor individually names Hernán Fleitas among seven people convicted of trafficking, possession and association in the Apulia case and gives a 13-year term.",
+          "publishedAt": "2025-05-27"
+        }
+      ],
+      "events": [
+        {
+          "id": "hernan-fleitas-paraguay-apulia-2025-case-2025-05-27-case-event",
+          "occurredAt": "2025-05-27",
+          "type": "conviction",
+          "title": "Apulia convictions reported",
+          "summary": "Hernán Fleitas: Convicted of drug trafficking, possession and criminal association; 13-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+            "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+            "publisher": "Ministerio Público del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan prosecutor individually names Hernán Fleitas among seven people convicted of trafficking, possession and association in the Apulia case and gives a 13-year term.",
+            "publishedAt": "2025-05-27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "adan-cristaldo-paraguay-apulia-2025-case",
+      "name": "Adán Cristaldo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-27",
+      "roleLabel": "Convicted of drug trafficking, possession and criminal association; 13-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "paraguay-apulia-2025-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Adán Cristaldo is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2021–2022",
+            "sourceUrl": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+          "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor individually names Adán Cristaldo among seven people convicted of trafficking, possession and association in the Apulia case and gives a 13-year term.",
+          "publishedAt": "2025-05-27"
+        }
+      ],
+      "events": [
+        {
+          "id": "adan-cristaldo-paraguay-apulia-2025-case-2025-05-27-case-event",
+          "occurredAt": "2025-05-27",
+          "type": "conviction",
+          "title": "Apulia convictions reported",
+          "summary": "Adán Cristaldo: Convicted of drug trafficking, possession and criminal association; 13-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+            "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+            "publisher": "Ministerio Público del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan prosecutor individually names Adán Cristaldo among seven people convicted of trafficking, possession and association in the Apulia case and gives a 13-year term.",
+            "publishedAt": "2025-05-27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lucio-portillo-paraguay-apulia-2025-case",
+      "name": "Lucio Portillo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-27",
+      "roleLabel": "Convicted of drug trafficking, possession and criminal association; 7-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "paraguay-apulia-2025-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Lucio Portillo is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2021–2022",
+            "sourceUrl": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+          "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor individually names Lucio Portillo among seven people convicted of trafficking, possession and association in the Apulia case and gives a 7-year term.",
+          "publishedAt": "2025-05-27"
+        }
+      ],
+      "events": [
+        {
+          "id": "lucio-portillo-paraguay-apulia-2025-case-2025-05-27-case-event",
+          "occurredAt": "2025-05-27",
+          "type": "conviction",
+          "title": "Apulia convictions reported",
+          "summary": "Lucio Portillo: Convicted of drug trafficking, possession and criminal association; 7-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+            "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+            "publisher": "Ministerio Público del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan prosecutor individually names Lucio Portillo among seven people convicted of trafficking, possession and association in the Apulia case and gives a 7-year term.",
+            "publishedAt": "2025-05-27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "andrea-segovia-paraguay-apulia-2025-case",
+      "name": "Andrea Segovia",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-27",
+      "roleLabel": "Convicted of drug trafficking, possession and criminal association; 3-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "paraguay-apulia-2025-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PRY",
+          "label": "Paraguay",
+          "evidence": {
+            "claim": "Andrea Segovia is individually named in the cited drug-case record for historical drug-related conduct in Paraguay.",
+            "period": "2021–2022",
+            "sourceUrl": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+          "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The Paraguayan prosecutor individually names Andrea Segovia among seven people convicted of trafficking, possession and association in the Apulia case and gives a 3-year term.",
+          "publishedAt": "2025-05-27"
+        }
+      ],
+      "events": [
+        {
+          "id": "andrea-segovia-paraguay-apulia-2025-case-2025-05-27-case-event",
+          "occurredAt": "2025-05-27",
+          "type": "conviction",
+          "title": "Apulia convictions reported",
+          "summary": "Andrea Segovia: Convicted of drug trafficking, possession and criminal association; 3-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://ministeriopublico.gov.py/nota/caso-apulia-integrantes-de-una-red-dedicada-al-trafico-de-drogas-fueron-condenados-13547",
+            "title": "Caso Apulia: integrantes de una red dedicada al tráfico de drogas fueron condenados",
+            "publisher": "Ministerio Público del Paraguay",
+            "language": "es",
+            "claim": "The Paraguayan prosecutor individually names Andrea Segovia among seven people convicted of trafficking, possession and association in the Apulia case and gives a 3-year term.",
+            "publishedAt": "2025-05-27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "felix-candia-merida-bolivia-potosi-2022-case",
+      "name": "Félix Candia Mérida",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-03-13",
+      "roleLabel": "Convicted of cocaine trafficking, criminal association and confabulation; ten-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-potosi-2022-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Félix Candia Mérida is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2021",
+            "sourceUrl": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision",
+          "title": "Tres personas sentenciadas a diez años por tráfico de cocaína",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Félix Candia Mérida as convicted of cocaine trafficking, association and confabulation after historical conduct in Bolivia.",
+          "publishedAt": "2022-03-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "felix-candia-merida-bolivia-potosi-2022-case-2022-03-13-case-event",
+          "occurredAt": "2022-03-13",
+          "type": "conviction",
+          "title": "Cocaine-trafficking sentence reported",
+          "summary": "Félix Candia Mérida: Convicted of cocaine trafficking, criminal association and confabulation; ten-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision",
+            "title": "Tres personas sentenciadas a diez años por tráfico de cocaína",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Félix Candia Mérida as convicted of cocaine trafficking, association and confabulation after historical conduct in Bolivia.",
+            "publishedAt": "2022-03-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fernando-ramirez-rivera-bolivia-potosi-2022-case",
+      "name": "Fernando Ramírez Rivera",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-03-13",
+      "roleLabel": "Convicted of cocaine trafficking, criminal association and confabulation; ten-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-potosi-2022-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Fernando Ramírez Rivera is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2021",
+            "sourceUrl": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision",
+          "title": "Tres personas sentenciadas a diez años por tráfico de cocaína",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Fernando Ramírez Rivera as convicted of cocaine trafficking, association and confabulation after historical conduct in Bolivia.",
+          "publishedAt": "2022-03-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "fernando-ramirez-rivera-bolivia-potosi-2022-case-2022-03-13-case-event",
+          "occurredAt": "2022-03-13",
+          "type": "conviction",
+          "title": "Cocaine-trafficking sentence reported",
+          "summary": "Fernando Ramírez Rivera: Convicted of cocaine trafficking, criminal association and confabulation; ten-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision",
+            "title": "Tres personas sentenciadas a diez años por tráfico de cocaína",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Fernando Ramírez Rivera as convicted of cocaine trafficking, association and confabulation after historical conduct in Bolivia.",
+            "publishedAt": "2022-03-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "clemente-choquecha-tarqui-bolivia-potosi-2022-case",
+      "name": "Clemente Choquecha Tarqui",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-03-13",
+      "roleLabel": "Convicted of cocaine trafficking, criminal association and confabulation; ten-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-potosi-2022-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Clemente Choquecha Tarqui is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2021",
+            "sourceUrl": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision",
+          "title": "Tres personas sentenciadas a diez años por tráfico de cocaína",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Clemente Choquecha Tarqui as convicted of cocaine trafficking, association and confabulation after historical conduct in Bolivia.",
+          "publishedAt": "2022-03-13"
+        }
+      ],
+      "events": [
+        {
+          "id": "clemente-choquecha-tarqui-bolivia-potosi-2022-case-2022-03-13-case-event",
+          "occurredAt": "2022-03-13",
+          "type": "conviction",
+          "title": "Cocaine-trafficking sentence reported",
+          "summary": "Clemente Choquecha Tarqui: Convicted of cocaine trafficking, criminal association and confabulation; ten-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-tragones-que-transportaban-258-capsulas-de-cocaina-en-la-frontera-con-chile-son-sentenciados-a-10-anos-de-prision",
+            "title": "Tres personas sentenciadas a diez años por tráfico de cocaína",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Clemente Choquecha Tarqui as convicted of cocaine trafficking, association and confabulation after historical conduct in Bolivia.",
+            "publishedAt": "2022-03-13"
+          }
+        }
+      ]
+    },
+    {
+      "id": "macario-escapa-calizaya-bolivia-chuquisaca-2024-case",
+      "name": "Macario Escapa Calizaya",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-11-15",
+      "roleLabel": "Convicted of cocaine trafficking, criminal association and confabulation; 30-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-chuquisaca-2024-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Macario Escapa Calizaya is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2023",
+            "sourceUrl": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel",
+          "title": "Tres hombres sentenciados a treinta años por tráfico de cocaína",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Macario Escapa Calizaya as convicted of cocaine trafficking, association and confabulation for historical conduct in Bolivia.",
+          "publishedAt": "2024-11-15"
+        }
+      ],
+      "events": [
+        {
+          "id": "macario-escapa-calizaya-bolivia-chuquisaca-2024-case-2024-11-15-case-event",
+          "occurredAt": "2024-11-15",
+          "type": "conviction",
+          "title": "Cocaine-trafficking sentence reported",
+          "summary": "Macario Escapa Calizaya: Convicted of cocaine trafficking, criminal association and confabulation; 30-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel",
+            "title": "Tres hombres sentenciados a treinta años por tráfico de cocaína",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Macario Escapa Calizaya as convicted of cocaine trafficking, association and confabulation for historical conduct in Bolivia.",
+            "publishedAt": "2024-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mario-leon-diaz-bolivia-chuquisaca-2024-case",
+      "name": "Mario León Díaz",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-11-15",
+      "roleLabel": "Convicted of cocaine trafficking, criminal association and confabulation; 30-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-chuquisaca-2024-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Mario León Díaz is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2023",
+            "sourceUrl": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel",
+          "title": "Tres hombres sentenciados a treinta años por tráfico de cocaína",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Mario León Díaz as convicted of cocaine trafficking, association and confabulation for historical conduct in Bolivia.",
+          "publishedAt": "2024-11-15"
+        }
+      ],
+      "events": [
+        {
+          "id": "mario-leon-diaz-bolivia-chuquisaca-2024-case-2024-11-15-case-event",
+          "occurredAt": "2024-11-15",
+          "type": "conviction",
+          "title": "Cocaine-trafficking sentence reported",
+          "summary": "Mario León Díaz: Convicted of cocaine trafficking, criminal association and confabulation; 30-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel",
+            "title": "Tres hombres sentenciados a treinta años por tráfico de cocaína",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Mario León Díaz as convicted of cocaine trafficking, association and confabulation for historical conduct in Bolivia.",
+            "publishedAt": "2024-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mario-condori-gonzales-bolivia-chuquisaca-2024-case",
+      "name": "Mario Condori Gonzales",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-11-15",
+      "roleLabel": "Convicted of cocaine trafficking, criminal association and confabulation; 30-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-chuquisaca-2024-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Mario Condori Gonzales is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2023",
+            "sourceUrl": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel",
+          "title": "Tres hombres sentenciados a treinta años por tráfico de cocaína",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Mario Condori Gonzales as convicted of cocaine trafficking, association and confabulation for historical conduct in Bolivia.",
+          "publishedAt": "2024-11-15"
+        }
+      ],
+      "events": [
+        {
+          "id": "mario-condori-gonzales-bolivia-chuquisaca-2024-case-2024-11-15-case-event",
+          "occurredAt": "2024-11-15",
+          "type": "conviction",
+          "title": "Cocaine-trafficking sentence reported",
+          "summary": "Mario Condori Gonzales: Convicted of cocaine trafficking, criminal association and confabulation; 30-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://fiscalia.gob.bo/comunicacion/noticias/tres-hombres-que-transportaban-mas-de-105-kilos-de-cocaina-en-la-carretera-sucre-potosi-son-sentenciados-a-30-anos-de-carcel",
+            "title": "Tres hombres sentenciados a treinta años por tráfico de cocaína",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Mario Condori Gonzales as convicted of cocaine trafficking, association and confabulation for historical conduct in Bolivia.",
+            "publishedAt": "2024-11-15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "joel-chavez-anoapa-bolivia-pando-2024-case",
+      "name": "Joel Chávez Anoapa",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-11-27",
+      "roleLabel": "Convicted of marijuana trafficking; 15-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-pando-2024-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Joel Chávez Anoapa is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2022",
+            "sourceUrl": "https://www.fiscalia.gob.bo/comunicacion/noticias/pando-dos-hombres-que-transportaban-mas-de-20-kilos-de-marihuana-fueron-sentenciados-a-15-anos-de-prision"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/pando-dos-hombres-que-transportaban-mas-de-20-kilos-de-marihuana-fueron-sentenciados-a-15-anos-de-prision",
+          "title": "Dos hombres sentenciados a quince años por tráfico de marihuana",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Joel Chávez Anoapa as convicted of marijuana trafficking after historical conduct in Bolivia.",
+          "publishedAt": "2024-11-27"
+        }
+      ],
+      "events": [
+        {
+          "id": "joel-chavez-anoapa-bolivia-pando-2024-case-2024-11-27-case-event",
+          "occurredAt": "2024-11-27",
+          "type": "conviction",
+          "title": "Marijuana-trafficking sentence reported",
+          "summary": "Joel Chávez Anoapa: Convicted of marijuana trafficking; 15-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/pando-dos-hombres-que-transportaban-mas-de-20-kilos-de-marihuana-fueron-sentenciados-a-15-anos-de-prision",
+            "title": "Dos hombres sentenciados a quince años por tráfico de marihuana",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Joel Chávez Anoapa as convicted of marijuana trafficking after historical conduct in Bolivia.",
+            "publishedAt": "2024-11-27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "marcos-antonio-chavez-lopez-bolivia-pando-2024-case",
+      "name": "Marcos Antonio Chávez López",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-11-27",
+      "roleLabel": "Convicted of marijuana trafficking; 15-year sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-pando-2024-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Marcos Antonio Chávez López is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2022",
+            "sourceUrl": "https://www.fiscalia.gob.bo/comunicacion/noticias/pando-dos-hombres-que-transportaban-mas-de-20-kilos-de-marihuana-fueron-sentenciados-a-15-anos-de-prision"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/pando-dos-hombres-que-transportaban-mas-de-20-kilos-de-marihuana-fueron-sentenciados-a-15-anos-de-prision",
+          "title": "Dos hombres sentenciados a quince años por tráfico de marihuana",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Marcos Antonio Chávez López as convicted of marijuana trafficking after historical conduct in Bolivia.",
+          "publishedAt": "2024-11-27"
+        }
+      ],
+      "events": [
+        {
+          "id": "marcos-antonio-chavez-lopez-bolivia-pando-2024-case-2024-11-27-case-event",
+          "occurredAt": "2024-11-27",
+          "type": "conviction",
+          "title": "Marijuana-trafficking sentence reported",
+          "summary": "Marcos Antonio Chávez López: Convicted of marijuana trafficking; 15-year sentence. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/pando-dos-hombres-que-transportaban-mas-de-20-kilos-de-marihuana-fueron-sentenciados-a-15-anos-de-prision",
+            "title": "Dos hombres sentenciados a quince años por tráfico de marihuana",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Marcos Antonio Chávez López as convicted of marijuana trafficking after historical conduct in Bolivia.",
+            "publishedAt": "2024-11-27"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eberth-cuellar-ramos-bolivia-potosi-2021-case",
+      "name": "Eberth Cuellar Ramos",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2021-12-08",
+      "roleLabel": "Convicted of marijuana trafficking, criminal association and confabulation; 13 years 3 months",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-potosi-2021-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Eberth Cuellar Ramos is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2019",
+            "sourceUrl": "https://www.fiscalia.gob.bo/comunicacion/noticias/dos-sujetos-son-sentenciados-a-13-anos-de-carcel-por-trafico-de-marihuana-en-potosi"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/dos-sujetos-son-sentenciados-a-13-anos-de-carcel-por-trafico-de-marihuana-en-potosi",
+          "title": "Dos hombres sentenciados por tráfico de marihuana",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Eberth Cuellar Ramos as convicted of marijuana trafficking, association and confabulation after historical conduct in Bolivia.",
+          "publishedAt": "2021-12-08"
+        }
+      ],
+      "events": [
+        {
+          "id": "eberth-cuellar-ramos-bolivia-potosi-2021-case-2021-12-08-case-event",
+          "occurredAt": "2021-12-08",
+          "type": "conviction",
+          "title": "Marijuana-trafficking sentence reported",
+          "summary": "Eberth Cuellar Ramos: Convicted of marijuana trafficking, criminal association and confabulation; 13 years 3 months. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/dos-sujetos-son-sentenciados-a-13-anos-de-carcel-por-trafico-de-marihuana-en-potosi",
+            "title": "Dos hombres sentenciados por tráfico de marihuana",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Eberth Cuellar Ramos as convicted of marijuana trafficking, association and confabulation after historical conduct in Bolivia.",
+            "publishedAt": "2021-12-08"
+          }
+        }
+      ]
+    },
+    {
+      "id": "segundino-porco-mamani-bolivia-potosi-2021-case",
+      "name": "Segundino Porco Mamani",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2021-12-08",
+      "roleLabel": "Convicted of marijuana trafficking, criminal association and confabulation; 13 years 3 months",
+      "prominence": 3,
+      "organizationIds": [
+        "bolivia-potosi-2021-case"
+      ],
+      "regions": [
+        {
+          "iso3": "BOL",
+          "label": "Bolivia",
+          "evidence": {
+            "claim": "Segundino Porco Mamani is individually named in the cited drug-case record for historical drug-related conduct in Bolivia.",
+            "period": "2019",
+            "sourceUrl": "https://www.fiscalia.gob.bo/comunicacion/noticias/dos-sujetos-son-sentenciados-a-13-anos-de-carcel-por-trafico-de-marihuana-en-potosi"
+          }
+        }
+      ],
+      "drugs": [
+        "marijuana"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/dos-sujetos-son-sentenciados-a-13-anos-de-carcel-por-trafico-de-marihuana-en-potosi",
+          "title": "Dos hombres sentenciados por tráfico de marihuana",
+          "publisher": "Fiscalía General del Estado de Bolivia",
+          "language": "es",
+          "claim": "The Bolivian prosecutor individually names Segundino Porco Mamani as convicted of marijuana trafficking, association and confabulation after historical conduct in Bolivia.",
+          "publishedAt": "2021-12-08"
+        }
+      ],
+      "events": [
+        {
+          "id": "segundino-porco-mamani-bolivia-potosi-2021-case-2021-12-08-case-event",
+          "occurredAt": "2021-12-08",
+          "type": "conviction",
+          "title": "Marijuana-trafficking sentence reported",
+          "summary": "Segundino Porco Mamani: Convicted of marijuana trafficking, criminal association and confabulation; 13 years 3 months. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.fiscalia.gob.bo/comunicacion/noticias/dos-sujetos-son-sentenciados-a-13-anos-de-carcel-por-trafico-de-marihuana-en-potosi",
+            "title": "Dos hombres sentenciados por tráfico de marihuana",
+            "publisher": "Fiscalía General del Estado de Bolivia",
+            "language": "es",
+            "claim": "The Bolivian prosecutor individually names Segundino Porco Mamani as convicted of marijuana trafficking, association and confabulation after historical conduct in Bolivia.",
+            "publishedAt": "2021-12-08"
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-david-maturana-olivares-chile-maturana-2022",
+      "name": "Juan David Maturana Olivares",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-05-03",
+      "roleLabel": "Drug-trafficking conviction and six-year sentence confirmed by Chilean Supreme Court",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "CHL",
+          "label": "Chile",
+          "evidence": {
+            "claim": "Juan David Maturana Olivares is individually named in the cited drug-case record for historical drug-related conduct in Chile.",
+            "period": "2020",
+            "sourceUrl": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/73209"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/73209",
+          "title": "Corte Suprema confirma penas efectivas por tráfico de drogas, receptación y tenencia de municiones",
+          "publisher": "Poder Judicial de Chile",
+          "language": "es",
+          "claim": "The Chilean Supreme Court individually names Maturana Olivares and affirms a six-year drug-trafficking sentence for conduct in Chile in 2020.",
+          "publishedAt": "2022-05-03"
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-david-maturana-olivares-chile-maturana-2022-2022-05-03-case-event",
+          "occurredAt": "2022-05-03",
+          "type": "conviction",
+          "title": "Supreme Court affirms drug sentence",
+          "summary": "Juan David Maturana Olivares: Drug-trafficking conviction and six-year sentence confirmed by Chilean Supreme Court. The cited record concerns historical conduct; it does not establish current custody or location.",
+          "source": {
+            "url": "https://www.pjud.cl/prensa-y-comunicaciones/noticias-del-poder-judicial/73209",
+            "title": "Corte Suprema confirma penas efectivas por tráfico de drogas, receptación y tenencia de municiones",
+            "publisher": "Poder Judicial de Chile",
+            "language": "es",
+            "claim": "The Chilean Supreme Court individually names Maturana Olivares and affirms a six-year drug-trafficking sentence for conduct in Chile in 2020.",
+            "publishedAt": "2022-05-03"
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "tomai-ignacio-rojas-brothers-2015",
+      "fromId": "tomas-rojas-canete-paraguay-rojas-2015-case",
+      "toId": "ignacio-rojas-canete-paraguay-rojas-2015-case",
+      "type": "family",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://www.ministeriopublico.gov.py/archivos/Archivos_pdf/Publicaciones/Informes_de_Gesti%C3%B3n/2015.pdf?time=1562089070676",
+          "title": "Informe de gestión 2015: combate al narcotráfico",
+          "publisher": "Ministerio Público del Paraguay",
+          "language": "es",
+          "claim": "The 2015 prosecutor report explicitly calls Ignacio Rojas Cañete Tomás Rojas Cañete’s brother."
+        }
+      ]
+    },
+    {
+      "id": "tomai-robert-rojas-father-son-2019",
+      "fromId": "tomas-rojas-canete-paraguay-rojas-2015-case",
+      "toId": "robert-rojas-davalos-paraguay-roca-2019-case",
+      "type": "family",
+      "label": "Father and son",
+      "sources": [
+        {
+          "url": "https://www.ultimahora.com/tomai-rojas-pena-30-anos-prision-drogas-n2797551",
+          "title": "Toma’i Rojas con pena de 30 años de prisión por drogas",
+          "publisher": "Última Hora",
+          "language": "es",
+          "claim": "The 2019 court report explicitly identifies Robert Rojas Dávalos as Tomás Rojas Cañete’s son.",
+          "publishedAt": "2019-02-13"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26. The source is a Nigeria NDLEA allegation and arrest announcement, not a court finding. The couple was declared wanted on 2024-05-19 and three named associates had been arrested; no later charge, conviction, or current-status update was verified in the reviewed NDLEA archive, Nigerian reporting, or India-side searches. Status dates reflect the last verified source, not present whereabouts. NDLEA says four network members were arrested, but names only three; the unnamed person is omitted. Unrelated arrests in the same weekly release are excluded. Country markers represent source-supported alleged historical operating associations, not nationality, residence alone, arrest venue alone, or destinations. No precise locations, routes, enforcement gaps, or photos without verified reuse rights.",
+  "organizations": [
+    {
+      "id": "owoalade-cocaine-syndicate",
+      "name": "Owoalade cocaine syndicate",
+      "aliases": [
+        "Owoalade cocaine cartel"
+      ],
+      "regions": [
+        "NGA",
+        "IND"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA alleges that the Owoalade couple ran a cocaine cartel from India and identifies a Nigeria-based network cell; these are agency allegations, not court findings."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "kazeem-omogoriola-owoalade",
+      "name": "Kazeem Omogoriola Owoalade",
+      "aliases": [
+        "Abdul Qassim Adisa Balogun"
+      ],
+      "status": "reported",
+      "statusAsOf": "2024-05-19",
+      "roleLabel": "NDLEA-identified alleged head of cocaine syndicate; declared wanted 19 May 2024",
+      "prominence": 3,
+      "organizationIds": [
+        "owoalade-cocaine-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "NDLEA alleged that Kazeem and Rashidat Owoalade jointly ran a cocaine cartel from India in 2024; this is an agency allegation of historical operation, not a claim derived from an India residence permit alone.",
+            "period": "2024-05 report",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA identifies Kazeem as the alleged head of the cartel operating from India and lists his India permit alias; it declared him wanted on 19 May 2024."
+        }
+      ],
+      "events": [
+        {
+          "id": "kazeem-omogoriola-owoalade-2024-05-19-development",
+          "occurredAt": "2024-05-19",
+          "type": "development",
+          "title": "Declared wanted by NDLEA",
+          "summary": "NDLEA declared Kazeem wanted on 19 May 2024 over alleged leadership of the cocaine network.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+            "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2024-05-19",
+            "claim": "NDLEA declared Kazeem wanted on 19 May 2024 over alleged leadership of the cocaine network."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rashidat-ayinke-owoalade",
+      "name": "Rashidat Ayinke Owoalade",
+      "aliases": [
+        "Bolarinwa Rashidat Ayinke"
+      ],
+      "status": "reported",
+      "statusAsOf": "2024-05-19",
+      "roleLabel": "NDLEA-identified alleged co-operator of cocaine syndicate; declared wanted 19 May 2024",
+      "prominence": 2,
+      "organizationIds": [
+        "owoalade-cocaine-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "NDLEA alleged that Rashidat and Kazeem Owoalade jointly ran a cocaine cartel from India in 2024; this is an agency allegation of historical operation, not citizenship or present position.",
+            "period": "2024-05 report",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA identifies Rashidat and her husband as the couple alleged to run the cocaine cartel from India; it declared her wanted on 19 May 2024."
+        }
+      ],
+      "events": [
+        {
+          "id": "rashidat-ayinke-owoalade-2024-05-19-development",
+          "occurredAt": "2024-05-19",
+          "type": "development",
+          "title": "Declared wanted by NDLEA",
+          "summary": "NDLEA declared Rashidat wanted on 19 May 2024 over alleged operation of the cocaine network.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+            "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2024-05-19",
+            "claim": "NDLEA declared Rashidat wanted on 19 May 2024 over alleged operation of the cocaine network."
+          }
+        }
+      ]
+    },
+    {
+      "id": "imran-taofeek-olalekan",
+      "name": "Imran Taofeek Olalekan",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2024-05-19",
+      "roleLabel": "NDLEA-identified alleged cocaine courier; arrested 3 April 2024",
+      "prominence": 1,
+      "organizationIds": [
+        "owoalade-cocaine-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Imran participated in an attempted cocaine export organized in Nigeria; this is alleged historical operation.",
+            "period": "2024-04",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA identifies Imran as the alleged courier in the Owoalade syndicate and reports his 3 April 2024 arrest in Nigeria; it reports no conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "imran-taofeek-olalekan-2024-04-03-arrest",
+          "occurredAt": "2024-04-03",
+          "type": "arrest",
+          "title": "Arrested in Nigeria",
+          "summary": "NDLEA reports Imran was arrested on 3 April 2024 in connection with an alleged cocaine export attempt; no court disposition was verified.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/choked-by-ingested-drugs-india-bound-passenger-vomits-excretes-80-wraps-of-cocaine",
+            "title": "Choked by ingested drugs, India-bound passenger vomits, excretes 80 wraps of cocaine",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2024-04-07",
+            "claim": "NDLEA reports Imran was arrested on 3 April 2024 in connection with an alleged cocaine export attempt; no court disposition was verified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ishola-isiaka-olalekan",
+      "name": "Ishola Isiaka Olalekan",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2024-05-19",
+      "roleLabel": "NDLEA-identified alleged recruiter; arrested 3 April 2024",
+      "prominence": 1,
+      "organizationIds": [
+        "owoalade-cocaine-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Ishola recruited Imran for a cocaine-export attempt organized in Nigeria; this is alleged historical operation.",
+            "period": "2024-04",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA identifies Ishola as the alleged recruiter of Imran on behalf of Kazeem and reports his 3 April 2024 arrest; it reports no conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "ishola-isiaka-olalekan-2024-04-03-arrest",
+          "occurredAt": "2024-04-03",
+          "type": "arrest",
+          "title": "Arrested in Nigeria",
+          "summary": "NDLEA reports Ishola was arrested on 3 April 2024 and alleges he recruited Imran for the cocaine consignment; no court disposition was verified.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/choked-by-ingested-drugs-india-bound-passenger-vomits-excretes-80-wraps-of-cocaine",
+            "title": "Choked by ingested drugs, India-bound passenger vomits, excretes 80 wraps of cocaine",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2024-04-07",
+            "claim": "NDLEA reports Ishola was arrested on 3 April 2024 and alleges he recruited Imran for the cocaine consignment; no court disposition was verified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hamed-abimbola-saheed",
+      "name": "Hamed Abimbola Saheed",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2024-05-19",
+      "roleLabel": "NDLEA-identified alleged direct associate of Kazeem; arrested 14 May 2024",
+      "prominence": 1,
+      "organizationIds": [
+        "owoalade-cocaine-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA alleged that Hamed assisted the Owoalade cocaine-export network in Nigeria; this is alleged historical operation.",
+            "period": "2024-04–2024-05",
+            "sourceUrl": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA alleges Hamed worked directly with Kazeem and assisted Imran before the alleged cocaine export attempt; NDLEA reports his 14 May 2024 arrest."
+        }
+      ],
+      "events": [
+        {
+          "id": "hamed-abimbola-saheed-2024-05-14-arrest",
+          "occurredAt": "2024-05-14",
+          "type": "arrest",
+          "title": "Arrested in Nigeria",
+          "summary": "NDLEA reports Hamed was arrested on 14 May 2024 and alleges he assisted the network; no court disposition was verified.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+            "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2024-05-19",
+            "claim": "NDLEA reports Hamed was arrested on 14 May 2024 and alleges he assisted the network; no court disposition was verified."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "kazeem-rashidat-spouses",
+      "fromId": "kazeem-omogoriola-owoalade",
+      "toId": "rashidat-ayinke-owoalade",
+      "type": "spouse_of",
+      "label": "Spouses; alleged co-operators",
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA explicitly calls Kazeem and Rashidat a couple and alleges they ran the cartel from India."
+        }
+      ]
+    },
+    {
+      "id": "ishola-imran-recruitment",
+      "fromId": "ishola-isiaka-olalekan",
+      "toId": "imran-taofeek-olalekan",
+      "type": "recruited",
+      "label": "Alleged recruitment",
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA alleges Ishola recruited Imran as courier in the cocaine case."
+        }
+      ]
+    },
+    {
+      "id": "kazeem-ishola-recruitment",
+      "fromId": "kazeem-omogoriola-owoalade",
+      "toId": "ishola-isiaka-olalekan",
+      "type": "recruitment_on_behalf_of",
+      "label": "Alleged recruitment on behalf of head",
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA says Ishola recruited Imran for Kazeem, whom it identifies as the alleged cartel head."
+        }
+      ]
+    },
+    {
+      "id": "kazeem-hamed-direct-association",
+      "fromId": "kazeem-omogoriola-owoalade",
+      "toId": "hamed-abimbola-saheed",
+      "type": "associate",
+      "label": "Alleged direct working relationship",
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA alleges Hamed worked directly with Kazeem in the network."
+        }
+      ]
+    },
+    {
+      "id": "hamed-imran-assistance",
+      "fromId": "hamed-abimbola-saheed",
+      "toId": "imran-taofeek-olalekan",
+      "type": "documented_collaboration",
+      "label": "Alleged pre-trip assistance",
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-declares-couple-wanted-arrests-4-cartel-members-over-cocaine-seizures",
+          "title": "NDLEA declares couple wanted, arrests 4 cartel members over cocaine seizures",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2024-05-19",
+          "claim": "NDLEA alleges Hamed arranged Imran’s lodging before the alleged cocaine export attempt."
+        }
+      ]
+    }
+  ]
+}

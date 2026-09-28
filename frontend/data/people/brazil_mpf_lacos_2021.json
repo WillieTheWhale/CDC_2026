@@ -1,0 +1,381 @@
+{
+  "_about": "// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. Eight individually allocated 2021 first-instance international drug-trafficking convictions from MPF Laços de Família roster and TRF3 judgment date. Later appeal, current sentence or custody are not inferred. No Flos names, association-only or laundering-only convictions, group country markers, case-as-organization records, person edges, routes or portraits are imported.",
+  "organizations": [],
+  "people": [
+    {
+      "id": "br-mpf-lacos-silvio-cesar-molina-azevedo",
+      "name": "Silvio César Molina Azevedo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2021-12-16",
+      "roleLabel": "2021 first-instance international drug-trafficking conviction; later drug-count appeal disposition not determined",
+      "prominence": 1,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "The TRF3 court describes Silvio César Molina Azevedo personally as leader of the trafficking group operating from Mato Grosso do Sul, Brazil before the 2021 judgment; historical country association only.",
+            "period": "before 2021",
+            "sourceUrl": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/414224-justica-federal-em-mato-grosso-do-sul-condena-15-pessoas"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+          "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "claim": "MPF names Silvio César Molina Azevedo among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 61 years, 11 months and 21 days. This is a historical outcome, not a claim about current custody or final appeal."
+        },
+        {
+          "url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/414224-justica-federal-em-mato-grosso-do-sul-condena-15-pessoas",
+          "title": "Justiça Federal em Mato Grosso do Sul condena 15 pessoas na Operação Laços de Família",
+          "publisher": "Tribunal Regional Federal da 3ª Região",
+          "language": "pt",
+          "publishedAt": "2021-12-17",
+          "claim": "The court reports that the 3rd Federal Court of Campo Grande pronounced the 15-person Laços de Família first-instance judgment on 16 December 2021; its public summary does not allocate individual names or counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "br-mpf-lacos-silvio-cesar-molina-azevedo-2021-12-16-first-instance",
+          "occurredAt": "2021-12-16",
+          "type": "conviction",
+          "title": "First-instance international drug-trafficking conviction",
+          "summary": "The December 2021 MPF defendant roster reports Silvio César Molina Azevedo convicted of international drug trafficking, association for drug trafficking, and money laundering and sentenced at first instance to 61 years, 11 months and 21 days. The TRF3 court bulletin dates the case judgment to 16 December 2021. Later appellate sentence and finality are not established in this profile.",
+          "source": {
+            "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+            "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "claim": "MPF names Silvio César Molina Azevedo among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 61 years, 11 months and 21 days. This is a historical outcome, not a claim about current custody or final appeal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-mpf-lacos-douglas-alves-rocha",
+      "name": "Douglas Alves Rocha",
+      "aliases": [
+        "Bodinho"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2021-12-16",
+      "roleLabel": "2021 first-instance international drug-trafficking conviction; later drug-count appeal disposition not determined",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+          "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "claim": "MPF names Douglas Alves Rocha among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, money laundering, and unlawful firearm possession with a first-instance sentence of 32 years and 14 days. This is a historical outcome, not a claim about current custody or final appeal."
+        },
+        {
+          "url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/414224-justica-federal-em-mato-grosso-do-sul-condena-15-pessoas",
+          "title": "Justiça Federal em Mato Grosso do Sul condena 15 pessoas na Operação Laços de Família",
+          "publisher": "Tribunal Regional Federal da 3ª Região",
+          "language": "pt",
+          "publishedAt": "2021-12-17",
+          "claim": "The court reports that the 3rd Federal Court of Campo Grande pronounced the 15-person Laços de Família first-instance judgment on 16 December 2021; its public summary does not allocate individual names or counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "br-mpf-lacos-douglas-alves-rocha-2021-12-16-first-instance",
+          "occurredAt": "2021-12-16",
+          "type": "conviction",
+          "title": "First-instance international drug-trafficking conviction",
+          "summary": "The December 2021 MPF defendant roster reports Douglas Alves Rocha convicted of international drug trafficking, association for drug trafficking, money laundering, and unlawful firearm possession and sentenced at first instance to 32 years and 14 days. The TRF3 court bulletin dates the case judgment to 16 December 2021. Later appellate sentence and finality are not established in this profile.",
+          "source": {
+            "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+            "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "claim": "MPF names Douglas Alves Rocha among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, money laundering, and unlawful firearm possession with a first-instance sentence of 32 years and 14 days. This is a historical outcome, not a claim about current custody or final appeal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-mpf-lacos-maicon-henrique-rocha-do-nascimento",
+      "name": "Maicon Henrique Rocha do Nascimento",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2021-12-16",
+      "roleLabel": "2021 first-instance international drug-trafficking conviction; later drug-count appeal disposition not determined",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+          "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "claim": "MPF names Maicon Henrique Rocha do Nascimento among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 20 years, 11 months and 25 days. This is a historical outcome, not a claim about current custody or final appeal."
+        },
+        {
+          "url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/414224-justica-federal-em-mato-grosso-do-sul-condena-15-pessoas",
+          "title": "Justiça Federal em Mato Grosso do Sul condena 15 pessoas na Operação Laços de Família",
+          "publisher": "Tribunal Regional Federal da 3ª Região",
+          "language": "pt",
+          "publishedAt": "2021-12-17",
+          "claim": "The court reports that the 3rd Federal Court of Campo Grande pronounced the 15-person Laços de Família first-instance judgment on 16 December 2021; its public summary does not allocate individual names or counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "br-mpf-lacos-maicon-henrique-rocha-do-nascimento-2021-12-16-first-instance",
+          "occurredAt": "2021-12-16",
+          "type": "conviction",
+          "title": "First-instance international drug-trafficking conviction",
+          "summary": "The December 2021 MPF defendant roster reports Maicon Henrique Rocha do Nascimento convicted of international drug trafficking, association for drug trafficking, and money laundering and sentenced at first instance to 20 years, 11 months and 25 days. The TRF3 court bulletin dates the case judgment to 16 December 2021. Later appellate sentence and finality are not established in this profile.",
+          "source": {
+            "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+            "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "claim": "MPF names Maicon Henrique Rocha do Nascimento among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 20 years, 11 months and 25 days. This is a historical outcome, not a claim about current custody or final appeal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-mpf-lacos-jair-rockembach",
+      "name": "Jair Rockembach",
+      "aliases": [
+        "Chicão"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2021-12-16",
+      "roleLabel": "2021 first-instance international drug-trafficking conviction; later drug-count appeal disposition not determined",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+          "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "claim": "MPF names Jair Rockembach among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 31 years and nine months. This is a historical outcome, not a claim about current custody or final appeal."
+        },
+        {
+          "url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/414224-justica-federal-em-mato-grosso-do-sul-condena-15-pessoas",
+          "title": "Justiça Federal em Mato Grosso do Sul condena 15 pessoas na Operação Laços de Família",
+          "publisher": "Tribunal Regional Federal da 3ª Região",
+          "language": "pt",
+          "publishedAt": "2021-12-17",
+          "claim": "The court reports that the 3rd Federal Court of Campo Grande pronounced the 15-person Laços de Família first-instance judgment on 16 December 2021; its public summary does not allocate individual names or counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "br-mpf-lacos-jair-rockembach-2021-12-16-first-instance",
+          "occurredAt": "2021-12-16",
+          "type": "conviction",
+          "title": "First-instance international drug-trafficking conviction",
+          "summary": "The December 2021 MPF defendant roster reports Jair Rockembach convicted of international drug trafficking, association for drug trafficking, and money laundering and sentenced at first instance to 31 years and nine months. The TRF3 court bulletin dates the case judgment to 16 December 2021. Later appellate sentence and finality are not established in this profile.",
+          "source": {
+            "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+            "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "claim": "MPF names Jair Rockembach among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 31 years and nine months. This is a historical outcome, not a claim about current custody or final appeal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-mpf-lacos-mayron-douglas-nascimento-velani",
+      "name": "Mayron Douglas Nascimento Velani",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2021-12-16",
+      "roleLabel": "2021 first-instance international drug-trafficking conviction; later drug-count appeal disposition not determined",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+          "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "claim": "MPF names Mayron Douglas Nascimento Velani among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking and association for drug trafficking with a first-instance sentence of 14 years and eight months. This is a historical outcome, not a claim about current custody or final appeal."
+        },
+        {
+          "url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/414224-justica-federal-em-mato-grosso-do-sul-condena-15-pessoas",
+          "title": "Justiça Federal em Mato Grosso do Sul condena 15 pessoas na Operação Laços de Família",
+          "publisher": "Tribunal Regional Federal da 3ª Região",
+          "language": "pt",
+          "publishedAt": "2021-12-17",
+          "claim": "The court reports that the 3rd Federal Court of Campo Grande pronounced the 15-person Laços de Família first-instance judgment on 16 December 2021; its public summary does not allocate individual names or counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "br-mpf-lacos-mayron-douglas-nascimento-velani-2021-12-16-first-instance",
+          "occurredAt": "2021-12-16",
+          "type": "conviction",
+          "title": "First-instance international drug-trafficking conviction",
+          "summary": "The December 2021 MPF defendant roster reports Mayron Douglas Nascimento Velani convicted of international drug trafficking and association for drug trafficking and sentenced at first instance to 14 years and eight months. The TRF3 court bulletin dates the case judgment to 16 December 2021. Later appellate sentence and finality are not established in this profile.",
+          "source": {
+            "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+            "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "claim": "MPF names Mayron Douglas Nascimento Velani among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking and association for drug trafficking with a first-instance sentence of 14 years and eight months. This is a historical outcome, not a claim about current custody or final appeal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-mpf-lacos-claudio-cesar-de-morais",
+      "name": "Cláudio César de Morais",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2021-12-16",
+      "roleLabel": "2021 first-instance international drug-trafficking conviction; later drug-count appeal disposition not determined",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+          "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "claim": "MPF names Cláudio César de Morais among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 21 years, one month and 22 days. This is a historical outcome, not a claim about current custody or final appeal."
+        },
+        {
+          "url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/414224-justica-federal-em-mato-grosso-do-sul-condena-15-pessoas",
+          "title": "Justiça Federal em Mato Grosso do Sul condena 15 pessoas na Operação Laços de Família",
+          "publisher": "Tribunal Regional Federal da 3ª Região",
+          "language": "pt",
+          "publishedAt": "2021-12-17",
+          "claim": "The court reports that the 3rd Federal Court of Campo Grande pronounced the 15-person Laços de Família first-instance judgment on 16 December 2021; its public summary does not allocate individual names or counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "br-mpf-lacos-claudio-cesar-de-morais-2021-12-16-first-instance",
+          "occurredAt": "2021-12-16",
+          "type": "conviction",
+          "title": "First-instance international drug-trafficking conviction",
+          "summary": "The December 2021 MPF defendant roster reports Cláudio César de Morais convicted of international drug trafficking, association for drug trafficking, and money laundering and sentenced at first instance to 21 years, one month and 22 days. The TRF3 court bulletin dates the case judgment to 16 December 2021. Later appellate sentence and finality are not established in this profile.",
+          "source": {
+            "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+            "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "claim": "MPF names Cláudio César de Morais among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 21 years, one month and 22 days. This is a historical outcome, not a claim about current custody or final appeal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-mpf-lacos-marcos-teixeira",
+      "name": "Marcos Teixeira",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2021-12-16",
+      "roleLabel": "2021 first-instance international drug-trafficking conviction; later drug-count appeal disposition not determined",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+          "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "claim": "MPF names Marcos Teixeira among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 28 years and eight months. This is a historical outcome, not a claim about current custody or final appeal."
+        },
+        {
+          "url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/414224-justica-federal-em-mato-grosso-do-sul-condena-15-pessoas",
+          "title": "Justiça Federal em Mato Grosso do Sul condena 15 pessoas na Operação Laços de Família",
+          "publisher": "Tribunal Regional Federal da 3ª Região",
+          "language": "pt",
+          "publishedAt": "2021-12-17",
+          "claim": "The court reports that the 3rd Federal Court of Campo Grande pronounced the 15-person Laços de Família first-instance judgment on 16 December 2021; its public summary does not allocate individual names or counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "br-mpf-lacos-marcos-teixeira-2021-12-16-first-instance",
+          "occurredAt": "2021-12-16",
+          "type": "conviction",
+          "title": "First-instance international drug-trafficking conviction",
+          "summary": "The December 2021 MPF defendant roster reports Marcos Teixeira convicted of international drug trafficking, association for drug trafficking, and money laundering and sentenced at first instance to 28 years and eight months. The TRF3 court bulletin dates the case judgment to 16 December 2021. Later appellate sentence and finality are not established in this profile.",
+          "source": {
+            "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+            "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "claim": "MPF names Marcos Teixeira among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking, association for drug trafficking, and money laundering with a first-instance sentence of 28 years and eight months. This is a historical outcome, not a claim about current custody or final appeal."
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-mpf-lacos-adayldo-freitas-ferreira",
+      "name": "Adayldo Freitas Ferreira",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2021-12-16",
+      "roleLabel": "2021 first-instance international drug-trafficking conviction; later drug-count appeal disposition not determined",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+          "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "claim": "MPF names Adayldo Freitas Ferreira among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking and association for drug trafficking with a first-instance sentence of 19 years, two months and six days. This is a historical outcome, not a claim about current custody or final appeal."
+        },
+        {
+          "url": "https://web.trf3.jus.br/noticias/Noticiar/ExibirNoticia/414224-justica-federal-em-mato-grosso-do-sul-condena-15-pessoas",
+          "title": "Justiça Federal em Mato Grosso do Sul condena 15 pessoas na Operação Laços de Família",
+          "publisher": "Tribunal Regional Federal da 3ª Região",
+          "language": "pt",
+          "publishedAt": "2021-12-17",
+          "claim": "The court reports that the 3rd Federal Court of Campo Grande pronounced the 15-person Laços de Família first-instance judgment on 16 December 2021; its public summary does not allocate individual names or counts."
+        }
+      ],
+      "events": [
+        {
+          "id": "br-mpf-lacos-adayldo-freitas-ferreira-2021-12-16-first-instance",
+          "occurredAt": "2021-12-16",
+          "type": "conviction",
+          "title": "First-instance international drug-trafficking conviction",
+          "summary": "The December 2021 MPF defendant roster reports Adayldo Freitas Ferreira convicted of international drug trafficking and association for drug trafficking and sentenced at first instance to 19 years, two months and six days. The TRF3 court bulletin dates the case judgment to 16 December 2021. Later appellate sentence and finality are not established in this profile.",
+          "source": {
+            "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf/aaf028da574c41f1498a42c11aadf5fe",
+            "title": "Justiça Federal condena 15 pessoas no âmbito da Operação Laços de Família",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "claim": "MPF names Adayldo Freitas Ferreira among those convicted in the December 2021 first-instance Laços de Família judgment and allocates international drug trafficking and association for drug trafficking with a first-instance sentence of 19 years, two months and six days. This is a historical outcome, not a claim about current custody or final appeal."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

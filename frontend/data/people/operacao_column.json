@@ -1,0 +1,831 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Draft reviewed 2026-09-26. The 2025 MPDFT release explicitly names 16 defendants and says the court accepted a complaint on 22 July 2025. These are charges and allegations, not findings of guilt; no later judgment was verified from an authoritative public source in this review. Only Elton has a directly published alias. The release gives no reliable individual task allocation, so all role labels are limited to the charges. Brazil is marked solely because the named individuals were charged in an alleged association for trafficking between Brazilian states. The release does not identify individual drug types, so drug arrays are blank. Co-defendant listing does not establish pairwise ties, so no person-person edges are drawn. No exact operational sites, routes, present locations, or photos with unverified reuse rights are included.",
+  "organizations": [
+    {
+      "id": "operacao-column-accused-association",
+      "name": "Operação Column accused drug-trafficking association",
+      "aliases": [
+        "Operação Column"
+      ],
+      "regions": [
+        "BRA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT says its complaint against 16 named defendants concerns an alleged interstate drug-trafficking association operating in Brazil; it reports the complaint was accepted on 22 July 2025."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "marcelo-goncalves-borges",
+      "name": "Marcelo Gonçalves Borges",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Marcelo Gonçalves Borges as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "marcelo-goncalves-borges-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Marcelo Gonçalves Borges for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Marcelo Gonçalves Borges among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Marcelo Gonçalves Borges among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "roger-windson-ferreira-da-cruz",
+      "name": "Roger Windson Ferreira da Cruz",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Roger Windson Ferreira da Cruz as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "roger-windson-ferreira-da-cruz-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Roger Windson Ferreira da Cruz for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Roger Windson Ferreira da Cruz among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Roger Windson Ferreira da Cruz among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "fabricio-silva-de-almeida",
+      "name": "Fabrício Silva de Almeida",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Fabrício Silva de Almeida as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "fabricio-silva-de-almeida-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Fabrício Silva de Almeida for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Fabrício Silva de Almeida among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Fabrício Silva de Almeida among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "ivo-duarte-de-lima",
+      "name": "Ivo Duarte de Lima",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Ivo Duarte de Lima as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "ivo-duarte-de-lima-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Ivo Duarte de Lima for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Ivo Duarte de Lima among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Ivo Duarte de Lima among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "jorge-da-silva-costa",
+      "name": "Jorge da Silva Costa",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Jorge da Silva Costa as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "jorge-da-silva-costa-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Jorge da Silva Costa for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Jorge da Silva Costa among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Jorge da Silva Costa among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "thiago-bertho",
+      "name": "Thiago Bertho",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Thiago Bertho as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "thiago-bertho-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Thiago Bertho for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Thiago Bertho among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Thiago Bertho among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "victor-wilker-de-souza-alencar",
+      "name": "Victor Wilker de Souza Alencar",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Victor Wilker de Souza Alencar as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "victor-wilker-de-souza-alencar-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Victor Wilker de Souza Alencar for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Victor Wilker de Souza Alencar among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Victor Wilker de Souza Alencar among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "joao-acidezio-severiano-de-lima",
+      "name": "João Acidézio Severiano de Lima",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names João Acidézio Severiano de Lima as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "joao-acidezio-severiano-de-lima-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against João Acidézio Severiano de Lima for association for interstate drug trafficking; MPDFT says this defendant was not charged with money laundering in this complaint.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names João Acidézio Severiano de Lima among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT expressly excepts this defendant from its money-laundering charge statement."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names João Acidézio Severiano de Lima among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT expressly excepts this defendant from its money-laundering charge statement."
+        }
+      ]
+    },
+    {
+      "id": "pedro-henrique-rocha-queiroz",
+      "name": "Pedro Henrique Rocha Queiroz",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Pedro Henrique Rocha Queiroz as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "pedro-henrique-rocha-queiroz-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Pedro Henrique Rocha Queiroz for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Pedro Henrique Rocha Queiroz among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Pedro Henrique Rocha Queiroz among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "carlos-eduardo-araujo-viana",
+      "name": "Carlos Eduardo Araújo Viana",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Carlos Eduardo Araújo Viana as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "carlos-eduardo-araujo-viana-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Carlos Eduardo Araújo Viana for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Carlos Eduardo Araújo Viana among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Carlos Eduardo Araújo Viana among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "yan-lucca-de-carvalho-tavares-jardim",
+      "name": "Yan Lucca de Carvalho Tavares Jardim",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Yan Lucca de Carvalho Tavares Jardim as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "yan-lucca-de-carvalho-tavares-jardim-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Yan Lucca de Carvalho Tavares Jardim for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Yan Lucca de Carvalho Tavares Jardim among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Yan Lucca de Carvalho Tavares Jardim among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "elton-lucas-ferreira-sampaio",
+      "name": "Elton Lucas Ferreira Sampaio",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Elton Lucas Ferreira Sampaio as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "elton-lucas-ferreira-sampaio-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Elton Lucas Ferreira Sampaio for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Elton Lucas Ferreira Sampaio among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Elton Lucas Ferreira Sampaio among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ],
+      "aliases": [
+        "Lulukinhas"
+      ]
+    },
+    {
+      "id": "renato-de-carvalho-farias",
+      "name": "Renato de Carvalho Farias",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Renato de Carvalho Farias as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "renato-de-carvalho-farias-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Renato de Carvalho Farias for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Renato de Carvalho Farias among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Renato de Carvalho Farias among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "elenildo-da-silveira",
+      "name": "Elenildo da Silveira",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Elenildo da Silveira as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "elenildo-da-silveira-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Elenildo da Silveira for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Elenildo da Silveira among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Elenildo da Silveira among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "italo-patricio-de-souza-silva",
+      "name": "Ítalo Patrício de Souza Silva",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names Ítalo Patrício de Souza Silva as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "italo-patricio-de-souza-silva-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against Ítalo Patrício de Souza Silva for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names Ítalo Patrício de Souza Silva among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names Ítalo Patrício de Souza Silva among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    },
+    {
+      "id": "andre-carlos-cardoso-duarte",
+      "name": "André Carlos Cardoso Duarte",
+      "status": "charged",
+      "statusAsOf": "2025-08-08",
+      "roleLabel": "MPDFT-named defendant in alleged interstate drug-trafficking association and money laundering",
+      "prominence": 1,
+      "organizationIds": [
+        "operacao-column-accused-association"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPDFT names André Carlos Cardoso Duarte as charged in an alleged association for drug trafficking between Brazilian states and the Federal District; this is an alleged historical Brazilian operating association, not a present location.",
+            "period": "2025",
+            "sourceUrl": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes"
+          }
+        }
+      ],
+      "drugs": [],
+      "events": [
+        {
+          "id": "andre-carlos-cardoso-duarte-2025-07-22-charge",
+          "occurredAt": "2025-07-22",
+          "type": "charge",
+          "title": "Court accepted MPDFT complaint",
+          "summary": "MPDFT says a court accepted charges against André Carlos Cardoso Duarte for association for interstate drug trafficking and money laundering.",
+          "source": {
+            "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+            "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+            "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+            "language": "Portuguese",
+            "publishedAt": "2025-08-08",
+            "claim": "MPDFT explicitly names André Carlos Cardoso Duarte among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpdft.mp.br/portal/index.php/comunicacao-menu/sala-de-imprensa/noticias/noticias-2025/17081-operacao-column-mpdft-denuncia-organizacao-criminosa-que-movimentou-r-89-milhoes",
+          "title": "Operação Column: MPDFT denuncia organização criminosa que movimentou R$ 89 milhões",
+          "publisher": "Ministério Público do Distrito Federal e Territórios (MPDFT)",
+          "language": "Portuguese",
+          "publishedAt": "2025-08-08",
+          "claim": "MPDFT explicitly names André Carlos Cardoso Duarte among 16 people charged with interstate drug-trafficking association; the court accepted the complaint on 22 July 2025. MPDFT also says this defendant was charged with money laundering."
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

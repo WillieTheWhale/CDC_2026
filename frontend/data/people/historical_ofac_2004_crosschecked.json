@@ -1,0 +1,1668 @@
+{
+  "_about": "AI-assisted: manually cross-checked historical OFAC designation, removal, and DOJ outcome records. See docs/AI_USAGE.md and audits/historical-ofac-2004-crosscheck-2026-09-26.md. Designations do not imply convictions; historical entries do not claim current sanctions or activity.",
+  "organizations": [
+    {
+      "id": "historical-farc-2004",
+      "name": "FARC (2004 historical OFAC cohort)",
+      "regions": [],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC identifies this person in its February 18, 2004 SDNTK designation notice. Administrative designation is not a criminal conviction or proof of specific personal drug conduct.",
+          "publishedAt": "2004-02-18"
+        }
+      ]
+    },
+    {
+      "id": "historical-afo-2004",
+      "name": "Arellano Felix Organization (historical)",
+      "regions": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdca/pr/last-arellano-felix-brothers-sentenced",
+          "title": "Last of the Arellano-Felix Brothers Sentenced",
+          "publisher": "U.S. Attorney’s Office, Southern District of California",
+          "language": "en",
+          "claim": "DOJ identifies Eduardo Arellano-Felix as a senior AFO member and financial officer in the 2013 historical prosecution.",
+          "publishedAt": "2013-06-24"
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "historical-ofac-2004-alban-burbano",
+      "name": "Luis Alberto Alban Burbano",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Luis Alberto Alban Burbano under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Luis Alberto Alban Burbano or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-alban-burbano-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Luis Alberto Alban Burbano under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Luis Alberto Alban Burbano under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-alban-burbano-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Luis Alberto Alban Burbano or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-bocota-aguablanca",
+      "name": "Gustavo Bocota Aguablanca",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Gustavo Bocota Aguablanca under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Gustavo Bocota Aguablanca or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-bocota-aguablanca-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Gustavo Bocota Aguablanca under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Gustavo Bocota Aguablanca under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-bocota-aguablanca-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Gustavo Bocota Aguablanca or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-briceno-suarez-german",
+      "name": "German Briceno Suarez",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists German Briceno Suarez under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies German Briceno Suarez or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-briceno-suarez-german-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated German Briceno Suarez under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists German Briceno Suarez under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-briceno-suarez-german-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies German Briceno Suarez or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-briceno-suarez-jorge",
+      "name": "Jorge Briceno Suarez",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); died 2010-09-23",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Jorge Briceno Suarez under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Jorge Briceno Suarez or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://www.jep.gov.co/JEP/documents1/Monitoreo%20de%20riesgos%20de%20seguridad%20durante%20el%20periodo%20comprendido%20entre%20el%208%20de%20marzo%20al%204%20de%20abril%20de%202021.pdf",
+          "title": "JEP security-risk monitoring report",
+          "publisher": "Jurisdicción Especial para la Paz",
+          "language": "es",
+          "claim": "JEP identifies Jorge Briceño / Mono Jojoy as having died on 23 September 2010."
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-briceno-suarez-jorge-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Jorge Briceno Suarez under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Jorge Briceno Suarez under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-briceno-suarez-jorge-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Jorge Briceno Suarez or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-briceno-suarez-jorge-death",
+          "occurredAt": "2010-09-23",
+          "type": "development",
+          "title": "Death reported in official source",
+          "summary": "JEP identifies Jorge Briceño / Mono Jojoy as having died on 23 September 2010.",
+          "source": {
+            "url": "https://www.jep.gov.co/JEP/documents1/Monitoreo%20de%20riesgos%20de%20seguridad%20durante%20el%20periodo%20comprendido%20entre%20el%208%20de%20marzo%20al%204%20de%20abril%20de%202021.pdf",
+            "title": "JEP security-risk monitoring report",
+            "publisher": "Jurisdicción Especial para la Paz",
+            "language": "es",
+            "claim": "JEP identifies Jorge Briceño / Mono Jojoy as having died on 23 September 2010."
+          }
+        }
+      ],
+      "aliases": [
+        "Victor Julio Suarez Rojas",
+        "Mono Jojoy"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-cabrera-jose-benito",
+      "name": "Jose Benito Cabrera",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Jose Benito Cabrera under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Jose Benito Cabrera or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-cabrera-jose-benito-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Jose Benito Cabrera under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Jose Benito Cabrera under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-cabrera-jose-benito-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Jose Benito Cabrera or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ],
+      "aliases": [
+        "Jose Benito Cabrera Cuevas"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-caracas-viveros",
+      "name": "Oscar Caracas Viveros",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Oscar Caracas Viveros under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Oscar Caracas Viveros or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-caracas-viveros-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Oscar Caracas Viveros under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Oscar Caracas Viveros under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-caracas-viveros-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Oscar Caracas Viveros or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-devia-silva",
+      "name": "Luis Edgar Devia Silva",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); died 2008-03-01",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Luis Edgar Devia Silva under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Luis Edgar Devia Silva or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://derechoshumanos.gov.co/Observatorio/Publicaciones/Documents/2008/1310002-2008-situacion-derechos-humanos-2008.pdf",
+          "title": "2008 human-rights situation report",
+          "publisher": "Government of Colombia, Human Rights Observatory",
+          "language": "es",
+          "claim": "Government report identifies Luis Edgar Devia / Raúl Reyes as killed on 1 March 2008."
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-devia-silva-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Luis Edgar Devia Silva under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Luis Edgar Devia Silva under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-devia-silva-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Luis Edgar Devia Silva or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-devia-silva-death",
+          "occurredAt": "2008-03-01",
+          "type": "development",
+          "title": "Death reported in official source",
+          "summary": "Government report identifies Luis Edgar Devia / Raúl Reyes as killed on 1 March 2008.",
+          "source": {
+            "url": "https://derechoshumanos.gov.co/Observatorio/Publicaciones/Documents/2008/1310002-2008-situacion-derechos-humanos-2008.pdf",
+            "title": "2008 human-rights situation report",
+            "publisher": "Government of Colombia, Human Rights Observatory",
+            "language": "es",
+            "claim": "Government report identifies Luis Edgar Devia / Raúl Reyes as killed on 1 March 2008."
+          }
+        }
+      ],
+      "aliases": [
+        "Raul Reyes"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-londono-echeverry",
+      "name": "Rodrigo Londono Echeverry",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Rodrigo Londono Echeverry under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Rodrigo Londono Echeverry or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-londono-echeverry-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Rodrigo Londono Echeverry under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Rodrigo Londono Echeverry under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-londono-echeverry-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Rodrigo Londono Echeverry or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ],
+      "aliases": [
+        "Timochenko"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Timochenko-GoraHerria_%28cropped%29.jpg",
+        "credit": "Sortu (original photograph); Discasto (2017 crop), via Wikimedia Commons",
+        "license": "CC BY-SA 4.0; cropped from original, 2017",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Timochenko-GoraHerria_(cropped).jpg"
+      }
+    },
+    {
+      "id": "historical-ofac-2004-marin-pedro-antonio",
+      "name": "Pedro Antonio Marin",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); died 2008-03-26",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Pedro Antonio Marin under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Pedro Antonio Marin or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://centrodememoriahistorica.gov.co/descargas/informes-accesibles/tomas-y-ataques-guerrilleros_accesible.pdf",
+          "title": "Tomas y ataques guerrilleros (1965–2013)",
+          "publisher": "Centro Nacional de Memoria Histórica, Colombia",
+          "language": "es",
+          "claim": "Historical research names Pedro Antonio Marín / Manuel Marulanda and reports death on 26 March 2008."
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-marin-pedro-antonio-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Pedro Antonio Marin under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Pedro Antonio Marin under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-marin-pedro-antonio-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Pedro Antonio Marin or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-marin-pedro-antonio-death",
+          "occurredAt": "2008-03-26",
+          "type": "development",
+          "title": "Death reported in official source",
+          "summary": "Historical research names Pedro Antonio Marín / Manuel Marulanda and reports death on 26 March 2008.",
+          "source": {
+            "url": "https://centrodememoriahistorica.gov.co/descargas/informes-accesibles/tomas-y-ataques-guerrilleros_accesible.pdf",
+            "title": "Tomas y ataques guerrilleros (1965–2013)",
+            "publisher": "Centro Nacional de Memoria Histórica, Colombia",
+            "language": "es",
+            "claim": "Historical research names Pedro Antonio Marín / Manuel Marulanda and reports death on 26 March 2008."
+          }
+        }
+      ],
+      "aliases": [
+        "Manuel Marulanda"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-mata-mata",
+      "name": "Noel Mata Mata",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Noel Mata Mata under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Noel Mata Mata or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-mata-mata-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Noel Mata Mata under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Noel Mata Mata under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-mata-mata-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Noel Mata Mata or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ],
+      "aliases": [
+        "Efrain Guzman"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-molina-caracas",
+      "name": "Tomas Molina Caracas",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); died 2007-09-01",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Tomas Molina Caracas under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Tomas Molina Caracas or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://www.urt.gov.co/sala-de-prensa/en-cumaribo-vichada-el-municipio-mas-extenso-de-colombia-la-urt-bogota-llega-por-primera-vez-para-medir-predios",
+          "title": "En Cumaribo (Vichada), la URT Bogotá llega por primera vez",
+          "publisher": "Unidad de Restitución de Tierras, Colombia",
+          "language": "es",
+          "claim": "Government article says Negro Acacio died on 1 September 2007; 2004 OFAC record explicitly gives that alias for Tomás Molina Caracas."
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-molina-caracas-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Tomas Molina Caracas under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Tomas Molina Caracas under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-molina-caracas-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Tomas Molina Caracas or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-molina-caracas-death",
+          "occurredAt": "2007-09-01",
+          "type": "development",
+          "title": "Death reported in official source",
+          "summary": "Government article says Negro Acacio died on 1 September 2007; 2004 OFAC record explicitly gives that alias for Tomás Molina Caracas.",
+          "source": {
+            "url": "https://www.urt.gov.co/sala-de-prensa/en-cumaribo-vichada-el-municipio-mas-extenso-de-colombia-la-urt-bogota-llega-por-primera-vez-para-medir-predios",
+            "title": "En Cumaribo (Vichada), la URT Bogotá llega por primera vez",
+            "publisher": "Unidad de Restitución de Tierras, Colombia",
+            "language": "es",
+            "claim": "Government article says Negro Acacio died on 1 September 2007; 2004 OFAC record explicitly gives that alias for Tomás Molina Caracas."
+          }
+        }
+      ],
+      "aliases": [
+        "Negro Acacio"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-pineda-palmera",
+      "name": "Juvenal Ovidio Pineda Palmera",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Juvenal Ovidio Pineda Palmera under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Juvenal Ovidio Pineda Palmera or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-pineda-palmera-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Juvenal Ovidio Pineda Palmera under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Juvenal Ovidio Pineda Palmera under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-pineda-palmera-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Juvenal Ovidio Pineda Palmera or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ],
+      "aliases": [
+        "Simon Trinidad"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-saenz-vargas",
+      "name": "Guillermo Leon Saenz Vargas",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); died 2011-11-04",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Guillermo Leon Saenz Vargas under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Guillermo Leon Saenz Vargas or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://2009-2017.state.gov/j/ct/rls/crt/2011/195546.htm",
+          "title": "Country Reports on Terrorism 2011: Western Hemisphere",
+          "publisher": "U.S. Department of State",
+          "language": "en",
+          "claim": "State Department reports the 4 November 2011 killing of Guillermo León Sáenz Vargas / Alfonso Cano."
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-saenz-vargas-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Guillermo Leon Saenz Vargas under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Guillermo Leon Saenz Vargas under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-saenz-vargas-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Guillermo Leon Saenz Vargas or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-saenz-vargas-death",
+          "occurredAt": "2011-11-04",
+          "type": "development",
+          "title": "Death reported in official source",
+          "summary": "State Department reports the 4 November 2011 killing of Guillermo León Sáenz Vargas / Alfonso Cano.",
+          "source": {
+            "url": "https://2009-2017.state.gov/j/ct/rls/crt/2011/195546.htm",
+            "title": "Country Reports on Terrorism 2011: Western Hemisphere",
+            "publisher": "U.S. Department of State",
+            "language": "en",
+            "claim": "State Department reports the 4 November 2011 killing of Guillermo León Sáenz Vargas / Alfonso Cano."
+          }
+        }
+      ],
+      "aliases": [
+        "Alfonso Cano"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-toncel-redondo",
+      "name": "Milton de Jesus Toncel Redondo",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Milton de Jesus Toncel Redondo under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Milton de Jesus Toncel Redondo or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-toncel-redondo-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Milton de Jesus Toncel Redondo under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Milton de Jesus Toncel Redondo under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-toncel-redondo-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Milton de Jesus Toncel Redondo or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ],
+      "aliases": [
+        "Joaquin Gomez"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-torres-victoria",
+      "name": "Jorge Torres Victoria",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Jorge Torres Victoria under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Jorge Torres Victoria or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-torres-victoria-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Jorge Torres Victoria under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Jorge Torres Victoria under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-torres-victoria-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Jorge Torres Victoria or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ],
+      "aliases": [
+        "Pablo Catatumbo"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Pablo_Catatumbo.jpg",
+        "credit": "Karsami12, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0; map thumbnail may crop original",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pablo_Catatumbo.jpg"
+      }
+    },
+    {
+      "id": "historical-ofac-2004-vargas-perdomo",
+      "name": "Eugenio Vargas Perdomo",
+      "status": "reported",
+      "statusAsOf": "2021-12-01",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2021); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Eugenio Vargas Perdomo under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211201",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2021-12-01 deletion identifies Eugenio Vargas Perdomo or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2021-12-01"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-vargas-perdomo-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Eugenio Vargas Perdomo under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Eugenio Vargas Perdomo under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-vargas-perdomo-removal",
+          "occurredAt": "2021-12-01",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2021-12-01. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211201",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2021-12-01 deletion identifies Eugenio Vargas Perdomo or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2021-12-01"
+          }
+        }
+      ],
+      "aliases": [
+        "Carlos Bolas"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-vargas-rueda",
+      "name": "Nelson Vargas Rueda",
+      "status": "reported",
+      "statusAsOf": "2013-01-30",
+      "roleLabel": "Former OFAC Kingpin Act designee (2004–2013); historical FARC cohort",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-farc-2004"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040218",
+          "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s February 18, 2004 notice individually lists Nelson Vargas Rueda under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+          "publishedAt": "2004-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20130130",
+          "title": "Kingpin Act Designations Removals",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s 2013-01-30 deletion identifies Nelson Vargas Rueda or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+          "publishedAt": "2013-01-30"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/farcchart1.pdf",
+          "title": "FARC leadership chart",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury’s 2004 chart identifies this person in the FARC designation cohort. It does not establish a direct relationship to another named person or specific personal drug act.",
+          "publishedAt": "2004-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-vargas-rueda-designation",
+          "occurredAt": "2004-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Nelson Vargas Rueda under SDNTK as part of its 2004 FARC cohort. Administrative designation; no criminal conviction is implied.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040218",
+            "title": "Kingpin Act Designations; SDGT Blocked Pending Investigation",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s February 18, 2004 notice individually lists Nelson Vargas Rueda under SDNTK; aliases and identifiers distinguish the entry. This is an administrative designation, not a conviction.",
+            "publishedAt": "2004-02-18"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-vargas-rueda-removal",
+          "occurredAt": "2013-01-30",
+          "type": "development",
+          "title": "OFAC listing deleted",
+          "summary": "OFAC deleted the matched historical listing on 2013-01-30. No current sanctions or drug activity is claimed.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20130130",
+            "title": "Kingpin Act Designations Removals",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s 2013-01-30 deletion identifies Nelson Vargas Rueda or the same 2004 entry by its explicitly listed alias and identity details. This is a dated removal from this OFAC listing.",
+            "publishedAt": "2013-01-30"
+          }
+        }
+      ],
+      "aliases": [
+        "Alfredo",
+        "Hugo"
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-arellano-felix-eduardo",
+      "name": "Eduardo Ramon Arellano Felix",
+      "aliases": [
+        "Eduardo Arellano-Felix"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2013-08-19",
+      "roleLabel": "Historical U.S. drug-related conviction",
+      "prominence": 2,
+      "organizationIds": [
+        "historical-afo-2004"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ describes his admitted senior AFO financial role and laundering of drug proceeds connected to the organization’s Mexico operations.",
+            "period": "1990s–2008",
+            "sourceUrl": "https://www.justice.gov/sites/default/files/usao-sdca/legacy/2015/04/30/cas13-0819-PREduardoSent.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine",
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040601",
+          "title": "Kingpin Act Designations",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s June 1, 2004 notice individually identifies Eduardo Ramon Arellano Felix as a Kingpin Act SDNTK designee; this is an administrative action, not a conviction.",
+          "publishedAt": "2004-06-01"
+        },
+        {
+          "url": "https://www.justice.gov/sites/default/files/usao-sdca/legacy/2015/04/30/cas13-0819-PREduardoSent.pdf",
+          "title": "Last Arellano-Felix Brother Sentenced",
+          "publisher": "U.S. Attorney’s Office, Southern District of California",
+          "language": "en",
+          "claim": "DOJ’s dated original PDF reports a 15-year federal sentence following a guilty plea to drug-proceeds money laundering and conspiracy. It describes his senior AFO role and drug-proceeds conduct in Mexico.",
+          "publishedAt": "2013-08-19"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-arellano-felix-eduardo-designation",
+          "occurredAt": "2004-06-01",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "Historical OFAC designation; administrative sanctions are distinct from the later criminal outcome.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040601",
+            "title": "Kingpin Act Designations",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s June 1, 2004 notice individually identifies Eduardo Ramon Arellano Felix as a Kingpin Act SDNTK designee; this is an administrative action, not a conviction.",
+            "publishedAt": "2004-06-01"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-arellano-felix-eduardo-outcome",
+          "occurredAt": "2013-08-19",
+          "type": "sentence",
+          "title": "U.S. case outcome reported",
+          "summary": "DOJ’s dated original PDF reports a 15-year federal sentence following a guilty plea to drug-proceeds money laundering and conspiracy. It describes his senior AFO role and drug-proceeds conduct in Mexico.",
+          "source": {
+            "url": "https://www.justice.gov/sites/default/files/usao-sdca/legacy/2015/04/30/cas13-0819-PREduardoSent.pdf",
+            "title": "Last Arellano-Felix Brother Sentenced",
+            "publisher": "U.S. Attorney’s Office, Southern District of California",
+            "language": "en",
+            "claim": "DOJ’s dated original PDF reports a 15-year federal sentence following a guilty plea to drug-proceeds money laundering and conspiracy. It describes his senior AFO role and drug-proceeds conduct in Mexico.",
+            "publishedAt": "2013-08-19"
+          }
+        }
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-noorzai-bashir",
+      "name": "Haji Bashir Noorzai",
+      "aliases": [
+        "Bashir Noorzai",
+        "Basheer Ahmad"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2022-09-19",
+      "roleLabel": "U.S. heroin-conspiracy conviction; life sentence commuted in 2022",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "AFG",
+          "label": "Afghanistan",
+          "evidence": {
+            "claim": "DOJ describes his personal heroin and opium trafficking conduct in Afghanistan.",
+            "period": "1990s–2005",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nys/pressreleases/April09/noorzaibashirsentencingpr.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040601",
+          "title": "Kingpin Act Designations",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s June 1, 2004 notice individually identifies Haji Bashir Noorzai as a Kingpin Act SDNTK designee; this is an administrative action, not a conviction.",
+          "publishedAt": "2004-06-01"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/nys/pressreleases/April09/noorzaibashirsentencingpr.pdf",
+          "title": "Bashir Noorzai Sentenced to Life in Prison",
+          "publisher": "U.S. Attorney’s Office, Southern District of New York",
+          "language": "en",
+          "claim": "DOJ reports conviction after trial and life sentence for heroin conspiracy involving opium production and heroin trafficking in Afghanistan. The later 2022 commutation supersedes the imprisonment portion; conviction is not erased.",
+          "publishedAt": "2009-04-30"
+        },
+        {
+          "url": "https://www.justice.gov/pardon/commutations-granted-president-joseph-biden-2021-2025",
+          "title": "Commutations Granted by President Joseph Biden (2021–2025)",
+          "publisher": "U.S. Department of Justice, Office of the Pardon Attorney",
+          "language": "en",
+          "claim": "Official clemency table identifies Bashir Noorzai and a September 19, 2022 commutation of his life sentence; it does not vacate the conviction.",
+          "publishedAt": "2022-09-19"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-noorzai-bashir-designation",
+          "occurredAt": "2004-06-01",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "Historical OFAC designation; administrative sanctions are distinct from the later criminal outcome.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040601",
+            "title": "Kingpin Act Designations",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s June 1, 2004 notice individually identifies Haji Bashir Noorzai as a Kingpin Act SDNTK designee; this is an administrative action, not a conviction.",
+            "publishedAt": "2004-06-01"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-noorzai-bashir-outcome",
+          "occurredAt": "2009-04-30",
+          "type": "sentence",
+          "title": "U.S. case outcome reported",
+          "summary": "DOJ reports conviction after trial and life sentence for heroin conspiracy involving opium production and heroin trafficking in Afghanistan. The later 2022 commutation supersedes the imprisonment portion; conviction is not erased.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nys/pressreleases/April09/noorzaibashirsentencingpr.pdf",
+            "title": "Bashir Noorzai Sentenced to Life in Prison",
+            "publisher": "U.S. Attorney’s Office, Southern District of New York",
+            "language": "en",
+            "claim": "DOJ reports conviction after trial and life sentence for heroin conspiracy involving opium production and heroin trafficking in Afghanistan. The later 2022 commutation supersedes the imprisonment portion; conviction is not erased.",
+            "publishedAt": "2009-04-30"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-noorzai-bashir-commutation",
+          "occurredAt": "2022-09-19",
+          "type": "development",
+          "title": "Federal sentence commuted",
+          "summary": "DOJ’s clemency record lists a commutation of Noorzai’s life sentence. His conviction is still reported as a historical outcome.",
+          "source": {
+            "url": "https://www.justice.gov/pardon/commutations-granted-president-joseph-biden-2021-2025",
+            "title": "Commutations Granted by President Joseph Biden (2021–2025)",
+            "publisher": "U.S. Department of Justice, Office of the Pardon Attorney",
+            "language": "en",
+            "claim": "Official clemency table identifies Bashir Noorzai and a September 19, 2022 commutation of his life sentence; it does not vacate the conviction.",
+            "publishedAt": "2022-09-19"
+          }
+        }
+      ]
+    },
+    {
+      "id": "historical-ofac-2004-nembhard-norris",
+      "name": "Norris Nembhard",
+      "aliases": [
+        "Dido"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2011-04-05",
+      "roleLabel": "Historical U.S. drug-related conviction",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "JAM",
+          "label": "Jamaica",
+          "evidence": {
+            "claim": "DOJ describes Nembhard’s personal involvement with cocaine shipments received in Jamaica.",
+            "period": "2000s",
+            "sourceUrl": "https://www.justice.gov/sites/default/files/usao-mdfl/legacy/2011/09/08/20110405_Avila_Tpa_PanExSent.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20040601",
+          "title": "Kingpin Act Designations",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC’s June 1, 2004 notice individually identifies Norris Nembhard as a Kingpin Act SDNTK designee; this is an administrative action, not a conviction.",
+          "publishedAt": "2004-06-01"
+        },
+        {
+          "url": "https://www.justice.gov/sites/default/files/usao-mdfl/legacy/2011/09/08/20110405_Avila_Tpa_PanExSent.pdf",
+          "title": "Panama Express Drug Trafficker Sentenced",
+          "publisher": "U.S. Attorney’s Office, Middle District of Florida",
+          "language": "en",
+          "claim": "DOJ reports Norris Nembhard’s guilty plea to a cocaine conspiracy and March 2009 sentence of 156 months. This release date is not presented as the sentencing date.",
+          "publishedAt": "2011-04-05"
+        }
+      ],
+      "events": [
+        {
+          "id": "historical-ofac-2004-nembhard-norris-designation",
+          "occurredAt": "2004-06-01",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "Historical OFAC designation; administrative sanctions are distinct from the later criminal outcome.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20040601",
+            "title": "Kingpin Act Designations",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC’s June 1, 2004 notice individually identifies Norris Nembhard as a Kingpin Act SDNTK designee; this is an administrative action, not a conviction.",
+            "publishedAt": "2004-06-01"
+          }
+        },
+        {
+          "id": "historical-ofac-2004-nembhard-norris-outcome",
+          "occurredAt": "2011-04-05",
+          "type": "development",
+          "title": "U.S. case outcome reported",
+          "summary": "DOJ reports Norris Nembhard’s guilty plea to a cocaine conspiracy and March 2009 sentence of 156 months. This release date is not presented as the sentencing date.",
+          "source": {
+            "url": "https://www.justice.gov/sites/default/files/usao-mdfl/legacy/2011/09/08/20110405_Avila_Tpa_PanExSent.pdf",
+            "title": "Panama Express Drug Trafficker Sentenced",
+            "publisher": "U.S. Attorney’s Office, Middle District of Florida",
+            "language": "en",
+            "claim": "DOJ reports Norris Nembhard’s guilty plea to a cocaine conspiracy and March 2009 sentence of 156 months. This release date is not presented as the sentencing date.",
+            "publishedAt": "2011-04-05"
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

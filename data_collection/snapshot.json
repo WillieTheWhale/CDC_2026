@@ -1,0 +1,1060 @@
+{
+  "_ai_assistance": "AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md.",
+  "schema_version": 2,
+  "created_at": "2026-09-26T21:04:46.807208+00:00",
+  "repository": "WillieTheWhale/CDC_2026",
+  "release_tag": "data-2026-09-26-v2",
+  "url": "https://github.com/WillieTheWhale/CDC_2026/releases/download/data-2026-09-26-v2/trace.sqlite.gz",
+  "archive": {
+    "filename": "trace.sqlite.gz",
+    "bytes": 171353116,
+    "sha256": "de48417321d404a35764052b8bee7b254298a580de8f7edff617e06c421a5003"
+  },
+  "database": {
+    "filename": "trace.sqlite",
+    "bytes": 1214050304,
+    "sha256": "49b5f2df268688dbb58bafff3a6e08a8de51386020723a79df2a0c9199bbe06a"
+  },
+  "integrity_check": "ok",
+  "foreign_key_check": "ok",
+  "tables": {
+    "cannabis_regulation": {
+      "rows": 34,
+      "columns": [
+        "iso3",
+        "jurisdiction",
+        "year_effective",
+        "scope",
+        "source",
+        "date_text",
+        "sheet",
+        "row_no",
+        "col_no"
+      ]
+    },
+    "collection_metadata": {
+      "rows": 4,
+      "columns": [
+        "key",
+        "value"
+      ]
+    },
+    "collection_shards": {
+      "rows": 7,
+      "columns": [
+        "name",
+        "sha256",
+        "bytes",
+        "merged_at"
+      ]
+    },
+    "context_cepii_dist_raw": {
+      "rows": 50176,
+      "columns": [
+        "iso_o",
+        "iso_d",
+        "contig",
+        "comlang_off",
+        "comlang_ethno",
+        "colony",
+        "comcol",
+        "curcol",
+        "col45",
+        "smctry",
+        "dist",
+        "distcap",
+        "distw",
+        "distwces"
+      ]
+    },
+    "context_cepii_geo_raw": {
+      "rows": 238,
+      "columns": [
+        "iso2",
+        "iso3",
+        "cnum",
+        "country",
+        "pays",
+        "area",
+        "dis_int",
+        "landlocked",
+        "continent",
+        "city_en",
+        "city_fr",
+        "lat",
+        "lon",
+        "cap",
+        "maincity",
+        "citynum",
+        "langoff_1",
+        "langoff_2",
+        "langoff_3",
+        "lang20_1",
+        "lang20_2",
+        "lang20_3",
+        "lang20_4",
+        "lang9_1",
+        "lang9_2",
+        "lang9_3",
+        "lang9_4",
+        "colonizer1",
+        "colonizer2",
+        "colonizer3",
+        "colonizer4",
+        "short_colonizer1",
+        "short_colonizer2",
+        "short_colonizer3"
+      ]
+    },
+    "context_hri_cells": {
+      "rows": 12060,
+      "columns": [
+        "source_id",
+        "country_name",
+        "iso3",
+        "year",
+        "field",
+        "raw_cell",
+        "reported_value",
+        "status",
+        "qualifier",
+        "qualifier_note",
+        "pdf_page"
+      ],
+      "first_year": 2008,
+      "last_year": 2024
+    },
+    "context_hri_checks": {
+      "rows": 55,
+      "columns": [
+        "source_id",
+        "year",
+        "field",
+        "country_territory_rows",
+        "reported_yes_count",
+        "reported_no_count",
+        "unknown_count",
+        "printed_global_total",
+        "difference",
+        "status"
+      ],
+      "first_year": 2008,
+      "last_year": 2024
+    },
+    "context_hri_raw_rows": {
+      "rows": 1333,
+      "columns": [
+        "source_id",
+        "year",
+        "pdf_page",
+        "table_number",
+        "row_number",
+        "cells_json"
+      ],
+      "first_year": 2008,
+      "last_year": 2024
+    },
+    "context_ocindex_raw": {
+      "rows": 21423,
+      "columns": [
+        "source_id",
+        "sheet",
+        "edition",
+        "source_row",
+        "country_name",
+        "iso3",
+        "field",
+        "raw_value",
+        "numeric_value"
+      ]
+    },
+    "context_sources": {
+      "rows": 12,
+      "columns": [
+        "source_id",
+        "name",
+        "citation",
+        "license_note",
+        "license_url",
+        "publication_year",
+        "source_url",
+        "final_url",
+        "retrieved_at",
+        "http_status",
+        "cache_note",
+        "sha256",
+        "size_bytes",
+        "local_cache_path"
+      ]
+    },
+    "countries": {
+      "rows": 217,
+      "columns": [
+        "iso3",
+        "iso2",
+        "name",
+        "region",
+        "region_id",
+        "income_group",
+        "capital",
+        "lat",
+        "lon"
+      ]
+    },
+    "cultivation": {
+      "rows": 203,
+      "columns": [
+        "iso3",
+        "crop",
+        "year",
+        "hectares",
+        "production_t",
+        "source"
+      ],
+      "first_year": 1999,
+      "last_year": 2025
+    },
+    "distances": {
+      "rows": 50176,
+      "columns": [
+        "iso_o",
+        "iso_d",
+        "contig",
+        "comlang_off",
+        "comlang_ethno",
+        "colony",
+        "comcol",
+        "curcol",
+        "col45",
+        "smctry",
+        "dist",
+        "distcap",
+        "distw",
+        "distwces",
+        "from_iso3",
+        "to_iso3",
+        "source_from_code",
+        "source_to_code",
+        "dist_imputed",
+        "code_remapped",
+        "from_in_world_bank",
+        "to_in_world_bank",
+        "legacy_state_pair",
+        "source_id",
+        "source_publication_year"
+      ]
+    },
+    "evidence_claims": {
+      "rows": 8,
+      "columns": [
+        "claim_id",
+        "source_id",
+        "claim_type",
+        "drug",
+        "geography_from",
+        "geography_to",
+        "geography_scope",
+        "observation_start_year",
+        "observation_end_year",
+        "policy_effective_date",
+        "publication_year",
+        "normalized_claim",
+        "original_excerpt",
+        "source_locator",
+        "evidence_basis",
+        "caveat"
+      ]
+    },
+    "evidence_sources": {
+      "rows": 3,
+      "columns": [
+        "source_id",
+        "publisher",
+        "title",
+        "url",
+        "publication_year",
+        "retrieved_at",
+        "sha256",
+        "bytes",
+        "source_format"
+      ]
+    },
+    "harm_reduction": {
+      "rows": 1206,
+      "columns": [
+        "iso3",
+        "country_name",
+        "year",
+        "policy",
+        "nsp",
+        "oat",
+        "dcr",
+        "naloxone",
+        "naloxone_peer",
+        "safer_smoking",
+        "stimulant_rx",
+        "nsp_prison",
+        "oat_prison",
+        "source_id",
+        "pdf_page",
+        "mapping_status",
+        "source_entity_code",
+        "observed_edition",
+        "prison_programs"
+      ],
+      "first_year": 2008,
+      "last_year": 2024
+    },
+    "health_cdc_overdose": {
+      "rows": 86904,
+      "columns": [
+        "source_id",
+        "state",
+        "state_name",
+        "end_year",
+        "end_month",
+        "period",
+        "indicator",
+        "metric_kind",
+        "value_unit",
+        "reported_value",
+        "predicted_value",
+        "percent_complete",
+        "percent_pending_investigation",
+        "footnote",
+        "footnote_symbol",
+        "suppressed_or_unavailable",
+        "source_row_json"
+      ]
+    },
+    "health_geographies": {
+      "rows": 249,
+      "columns": [
+        "source_name",
+        "iso3",
+        "resolution"
+      ]
+    },
+    "health_prevalence": {
+      "rows": 16114,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "cell_no",
+        "geography_name",
+        "iso3",
+        "region",
+        "subregion",
+        "year",
+        "year_text",
+        "population",
+        "age_group",
+        "substance",
+        "substance_detail",
+        "reference_period",
+        "sex",
+        "value_pct",
+        "low_pct",
+        "high_pct",
+        "source_method",
+        "source_attribution",
+        "adjustment_note",
+        "notes",
+        "estimate_status"
+      ],
+      "first_year": 1991,
+      "last_year": 2024
+    },
+    "health_pwid": {
+      "rows": 893,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "cell_no",
+        "geography_name",
+        "iso3",
+        "region",
+        "subregion",
+        "year",
+        "year_text",
+        "metric",
+        "sex",
+        "value",
+        "low",
+        "high",
+        "unit",
+        "denominator",
+        "age_group",
+        "injecting_definition",
+        "geographic_coverage",
+        "sample_size",
+        "reference",
+        "method",
+        "attribution",
+        "notes",
+        "estimate_status"
+      ],
+      "first_year": 2001,
+      "last_year": 2025
+    },
+    "health_raw_rows": {
+      "rows": 21554,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "cells_json"
+      ]
+    },
+    "health_regional_estimates": {
+      "rows": 534,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "cell_no",
+        "region_name",
+        "region_level",
+        "year",
+        "age_group",
+        "metric",
+        "substance",
+        "value",
+        "low",
+        "high",
+        "unit",
+        "estimate_status"
+      ],
+      "first_year": 2024,
+      "last_year": 2024
+    },
+    "health_source_files": {
+      "rows": 27,
+      "columns": [
+        "source_id",
+        "part_name",
+        "url",
+        "retrieved_at",
+        "sha256",
+        "bytes"
+      ]
+    },
+    "health_sources": {
+      "rows": 9,
+      "columns": [
+        "source_id",
+        "publisher",
+        "title",
+        "url",
+        "retrieved_at",
+        "sha256",
+        "bytes",
+        "edition_year",
+        "source_kind",
+        "license_note",
+        "caveat"
+      ]
+    },
+    "health_treatment": {
+      "rows": 12826,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "geography_name",
+        "iso3",
+        "region",
+        "subregion",
+        "year",
+        "year_text",
+        "drug_group",
+        "drug",
+        "sex",
+        "persons_treated",
+        "specified_reference_year",
+        "coverage"
+      ],
+      "first_year": 2015,
+      "last_year": 2024
+    },
+    "health_treatment_coverage": {
+      "rows": 2490,
+      "columns": [
+        "source_id",
+        "source_row_no",
+        "geography_name",
+        "iso3",
+        "un_m49",
+        "year",
+        "substance_group",
+        "sex",
+        "value_pct",
+        "lower_pct",
+        "upper_pct",
+        "nature_code",
+        "nature_meaning",
+        "source_attribution",
+        "footnotes_json",
+        "raw_row_json"
+      ],
+      "first_year": 2013,
+      "last_year": 2025
+    },
+    "market_cells": {
+      "rows": 155830,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "col_no",
+        "value_text",
+        "value_number",
+        "value_type",
+        "italic"
+      ]
+    },
+    "market_collection_status": {
+      "rows": 2,
+      "columns": [
+        "source_id",
+        "status",
+        "detail",
+        "url",
+        "checked_at"
+      ]
+    },
+    "market_derived": {
+      "rows": 925,
+      "columns": [
+        "derived_id",
+        "metric_code",
+        "iso3",
+        "year",
+        "substance",
+        "form",
+        "market_level",
+        "value",
+        "unit",
+        "formula",
+        "inputs_json",
+        "source_id",
+        "created_at"
+      ],
+      "first_year": 2020,
+      "last_year": 2024
+    },
+    "market_metric_definitions": {
+      "rows": 2,
+      "columns": [
+        "metric_code",
+        "label",
+        "unit",
+        "formula",
+        "eligibility",
+        "interpretation",
+        "cautions"
+      ]
+    },
+    "market_observations": {
+      "rows": 17504,
+      "columns": [
+        "observation_id",
+        "source_id",
+        "sheet",
+        "row_no",
+        "col_no",
+        "iso3",
+        "country",
+        "year",
+        "drug_group",
+        "substance",
+        "form",
+        "market_level",
+        "measure",
+        "basis",
+        "original_value",
+        "minimum",
+        "maximum",
+        "original_unit",
+        "normalized_value",
+        "normalized_unit",
+        "original_text",
+        "publisher_estimate",
+        "source_row_ref"
+      ],
+      "first_year": 1990,
+      "last_year": 2024
+    },
+    "market_sheets": {
+      "rows": 31,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_count",
+        "col_count",
+        "headers_json"
+      ]
+    },
+    "market_sources": {
+      "rows": 12,
+      "columns": [
+        "source_id",
+        "url",
+        "sha256",
+        "retrieved_at",
+        "bytes",
+        "edition",
+        "citation",
+        "license_note"
+      ]
+    },
+    "oc_index": {
+      "rows": 579,
+      "columns": [
+        "iso3",
+        "country_name",
+        "edition",
+        "year",
+        "source_id",
+        "mapping_status",
+        "observed_edition",
+        "criminality",
+        "resilience",
+        "cocaine",
+        "heroin",
+        "cannabis",
+        "synthetic"
+      ],
+      "first_year": 2021,
+      "last_year": 2025
+    },
+    "prices": {
+      "rows": 5349,
+      "columns": [
+        "iso3",
+        "drug",
+        "level",
+        "year",
+        "usd_g",
+        "purity_pct",
+        "source",
+        "basis",
+        "upstream_estimate"
+      ],
+      "first_year": 1990,
+      "last_year": 2024
+    },
+    "research_metric_definitions": {
+      "rows": 2,
+      "columns": [
+        "metric_key",
+        "version",
+        "label",
+        "unit",
+        "formula",
+        "selection_rule",
+        "interpretation"
+      ]
+    },
+    "research_model_results": {
+      "rows": 1,
+      "columns": [
+        "model_key",
+        "specification",
+        "outcome",
+        "predictor",
+        "coefficient",
+        "standard_error",
+        "p_value",
+        "ci_low",
+        "ci_high",
+        "n",
+        "countries",
+        "first_predictor_year",
+        "last_predictor_year",
+        "cluster_count",
+        "r_squared",
+        "caveat",
+        "computed_at"
+      ]
+    },
+    "research_regression_samples": {
+      "rows": 1428,
+      "columns": [
+        "sample_id",
+        "metric_id",
+        "iso3",
+        "seizure_year",
+        "outcome_year",
+        "log1p_seizure_kg",
+        "homicide_per_100k"
+      ]
+    },
+    "research_value_inputs": {
+      "rows": 13300,
+      "columns": [
+        "metric_id",
+        "role",
+        "source_table",
+        "source_key",
+        "source_id",
+        "source_url",
+        "publication_year",
+        "observation_year",
+        "input_value",
+        "input_unit",
+        "transform"
+      ]
+    },
+    "research_values": {
+      "rows": 3070,
+      "columns": [
+        "metric_id",
+        "metric_key",
+        "iso3",
+        "drug",
+        "year",
+        "value",
+        "numerator",
+        "denominator",
+        "support_count",
+        "first_publication_year",
+        "last_publication_year",
+        "quality_flags",
+        "created_at"
+      ],
+      "first_year": 2006,
+      "last_year": 2022
+    },
+    "seizures_annex": {
+      "rows": 10739,
+      "columns": [
+        "iso3",
+        "year",
+        "drug",
+        "kg",
+        "source",
+        "edition"
+      ],
+      "first_year": 2006,
+      "last_year": 2024
+    },
+    "seizures_ids": {
+      "rows": 3055,
+      "columns": [
+        "iso3",
+        "year",
+        "drug",
+        "kg",
+        "kg_trace_equivalent",
+        "cases",
+        "unmapped_mass_rows",
+        "source"
+      ],
+      "first_year": 2011,
+      "last_year": 2026
+    },
+    "seizures_raw": {
+      "rows": 2841320,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "year",
+        "date",
+        "country",
+        "iso3",
+        "subregion",
+        "region",
+        "drug_raw",
+        "qty",
+        "quantity_text",
+        "unit",
+        "city",
+        "admin_region",
+        "location",
+        "mode",
+        "reporting_source",
+        "reporting_channel",
+        "drug",
+        "kg",
+        "kg_trace_equivalent",
+        "conversion",
+        "extra_json"
+      ],
+      "first_year": 2011,
+      "last_year": 2026
+    },
+    "unodc_cells": {
+      "rows": 706818,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "col_no",
+        "value_text",
+        "value_number",
+        "value_type",
+        "italic"
+      ]
+    },
+    "unodc_collection_issues": {
+      "rows": 0,
+      "columns": [
+        "source_id",
+        "issue"
+      ]
+    },
+    "unodc_cultivation_observations": {
+      "rows": 1426,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "col_no",
+        "iso3",
+        "country",
+        "crop",
+        "year",
+        "metric",
+        "value",
+        "value_text",
+        "estimate_type",
+        "unit"
+      ],
+      "first_year": 1999,
+      "last_year": 2025
+    },
+    "unodc_pdf_pages": {
+      "rows": 5,
+      "columns": [
+        "source_id",
+        "page_no",
+        "text"
+      ]
+    },
+    "unodc_price_observations": {
+      "rows": 17504,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "col_no",
+        "iso3",
+        "country",
+        "year",
+        "drug",
+        "drug_raw",
+        "level",
+        "value",
+        "minimum",
+        "maximum",
+        "unit",
+        "measure",
+        "basis",
+        "value_text",
+        "upstream_estimate"
+      ],
+      "first_year": 1990,
+      "last_year": 2024
+    },
+    "unodc_seizure_observations": {
+      "rows": 42766,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_no",
+        "iso3",
+        "country",
+        "year",
+        "drug_group",
+        "drug_raw",
+        "quantity",
+        "unit",
+        "drug",
+        "kg_trace_equivalent",
+        "notes"
+      ],
+      "first_year": 2006,
+      "last_year": 2024
+    },
+    "unodc_sheets": {
+      "rows": 88,
+      "columns": [
+        "source_id",
+        "sheet",
+        "row_count",
+        "col_count",
+        "headers_json"
+      ]
+    },
+    "unodc_sources": {
+      "rows": 29,
+      "columns": [
+        "source_id",
+        "url",
+        "sha256",
+        "retrieved_at",
+        "bytes",
+        "edition",
+        "citation",
+        "license_note"
+      ]
+    },
+    "wb_collection_issues": {
+      "rows": 0,
+      "columns": [
+        "context",
+        "message",
+        "observed_at"
+      ]
+    },
+    "wb_coverage": {
+      "rows": 24,
+      "columns": [
+        "code",
+        "source_id",
+        "first_period",
+        "last_period",
+        "first_non_null_year",
+        "last_non_null_year",
+        "rows",
+        "non_null_rows",
+        "countries_with_data",
+        "api_total_records",
+        "api_pages",
+        "excluded_aggregate_rows",
+        "unknown_entity_rows"
+      ]
+    },
+    "wb_coverage_year": {
+      "rows": 1428,
+      "columns": [
+        "code",
+        "source_id",
+        "year",
+        "rows",
+        "non_null_rows",
+        "countries_with_data"
+      ],
+      "first_year": 1960,
+      "last_year": 2025
+    },
+    "wb_downloads": {
+      "rows": 97,
+      "columns": [
+        "request_id",
+        "url",
+        "retrieved_at",
+        "sha256",
+        "content_type",
+        "last_modified",
+        "payload_gzip",
+        "byte_count"
+      ]
+    },
+    "wb_entities": {
+      "rows": 295,
+      "columns": [
+        "iso3",
+        "iso2",
+        "name",
+        "region",
+        "region_id",
+        "income_group",
+        "capital",
+        "lat",
+        "lon",
+        "is_aggregate",
+        "request_id"
+      ]
+    },
+    "wb_excluded_observations": {
+      "rows": 64332,
+      "columns": [
+        "source_id",
+        "code",
+        "country_iso3",
+        "country_code",
+        "country_name",
+        "entity_type",
+        "period",
+        "year",
+        "value",
+        "unit",
+        "obs_status",
+        "decimal_places",
+        "footnote",
+        "lastupdated",
+        "retrieved_at",
+        "request_id"
+      ],
+      "first_year": 1960,
+      "last_year": 2025
+    },
+    "wb_indicator_meta": {
+      "rows": 24,
+      "columns": [
+        "code",
+        "source_id",
+        "feature",
+        "role",
+        "label",
+        "name",
+        "unit",
+        "api_unit",
+        "source_name",
+        "source_org",
+        "source_note",
+        "public",
+        "forward_fill",
+        "license_type",
+        "license_url",
+        "terms_url",
+        "metadata_json"
+      ]
+    },
+    "wb_indicators": {
+      "rows": 308796,
+      "columns": [
+        "iso3",
+        "year",
+        "period",
+        "code",
+        "source_id",
+        "value",
+        "unit",
+        "obs_status",
+        "decimal_places",
+        "footnote",
+        "lastupdated",
+        "retrieved_at",
+        "request_id"
+      ],
+      "first_year": 1960,
+      "last_year": 2025
+    },
+    "wb_source_meta": {
+      "rows": 2,
+      "columns": [
+        "source_id",
+        "name",
+        "description",
+        "url",
+        "metadata_json",
+        "request_id"
+      ]
+    },
+    "wb_source_periods": {
+      "rows": 93,
+      "columns": [
+        "source_id",
+        "period",
+        "period_id",
+        "request_id"
+      ]
+    }
+  }
+}

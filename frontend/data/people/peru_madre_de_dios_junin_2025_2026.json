@@ -1,0 +1,2772 @@
+{
+  "_about": "// AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. Historical Peru official-source cases, compiled 2026-09-27. Madre de Dios judgment is first instance; the source describes drug trafficking as one group activity but does not identify each individual drug count. No exact location, operational route, person-person edge or portrait is supplied.",
+  "organizations": [
+    {
+      "id": "peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Los malditos del Comando Vermelho",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ]
+    },
+    {
+      "id": "peru-junin-2025-cocaine-case",
+      "name": "Junín cocaine trafficking case (2025)",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+          "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-05-22",
+          "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+        }
+      ]
+    },
+    {
+      "id": "peru-dinastia-pakistani-2025",
+      "name": "Dinastía Pakistaní del Tren de Aragua",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ]
+    },
+    {
+      "id": "peru-los-narcobuzos-2019",
+      "name": "Los Narcobuzos",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos",
+          "title": "Fiscalía logró condena contra organización de tráfico de drogas Los Narcobuzos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2019-03-08",
+          "claim": "Fiscalía identifies four named members convicted of drug trafficking in Peru; three other divers were reported convicted in another process, but their individual outcome details were not available."
+        }
+      ]
+    },
+    {
+      "id": "peru-callao-divers-2022",
+      "name": "Callao divers drug-trafficking case (2022)",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/579938-sentencian-a-dos-integrantes-de-red-criminal-internacional-que-usaba-buzos-para-prenar-droga-debajo-de-buques",
+          "title": "Sentencian a dos integrantes de red criminal internacional que usaba buzos para preñar droga debajo de buques",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2022-01-28",
+          "claim": "Fiscalía names Ortiz Portilla and Vigil Sam as convicted coauthors of aggravated drug trafficking in Peru."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "geilson-ferreira-de-oliveira-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Geilson Ferreira de Oliveira",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Reported leader who recruited for drug trafficking; first-instance life sentence; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary identifies Geilson Ferreira de Oliveira as a group leader involved in drug trafficking in Peru.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "geilson-ferreira-de-oliveira-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Geilson Ferreira de Oliveira received a first-instance life sentence in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jean-jesus-diaz-lopez-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Jean Jesús Díaz López",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance life sentence; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Jean Jesús Díaz López as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "jean-jesus-diaz-lopez-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Jean Jesús Díaz López received a first-instance life sentence in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "leonardo-guerrero-rodriguez-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Leonardo Guerrero Rodríguez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance life sentence; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Leonardo Guerrero Rodríguez as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "leonardo-guerrero-rodriguez-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Leonardo Guerrero Rodríguez received a first-instance life sentence in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "xavier-elard-valencia-chalco-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Xavier Elard Valencia Chalco",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance life sentence; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Xavier Elard Valencia Chalco as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "xavier-elard-valencia-chalco-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Xavier Elard Valencia Chalco received a first-instance life sentence in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rocky-quispe-flores-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Rocky Quispe Flores",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance life sentence; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Rocky Quispe Flores as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "rocky-quispe-flores-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Rocky Quispe Flores received a first-instance life sentence in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yoshinori-miyashiro-cruz-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Yoshinori Miyashiro Cruz",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance life sentence; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Yoshinori Miyashiro Cruz as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "yoshinori-miyashiro-cruz-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Yoshinori Miyashiro Cruz received a first-instance life sentence in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "moises-abraham-herazo-ccorisapra-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Moisés Abraham Herazo Ccorisapra",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance life sentence; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Moisés Abraham Herazo Ccorisapra as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "moises-abraham-herazo-ccorisapra-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Moisés Abraham Herazo Ccorisapra received a first-instance life sentence in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "irvin-solis-alvarez-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Irvin Solís Álvarez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance life sentence; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Irvin Solís Álvarez as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "irvin-solis-alvarez-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Irvin Solís Álvarez received a first-instance life sentence in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yan-carlos-alarcon-vivanco-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Yan Carlos Alarcón Vivanco",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance life sentence; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Yan Carlos Alarcón Vivanco as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "yan-carlos-alarcon-vivanco-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Yan Carlos Alarcón Vivanco received a first-instance life sentence in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pamela-paula-saldanha-escobedo-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Pamela Paula Saldanha Escobedo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Pamela Paula Saldanha Escobedo as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "pamela-paula-saldanha-escobedo-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Pamela Paula Saldanha Escobedo received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "brayan-palza-huarca-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Brayan Palza Huarca",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Brayan Palza Huarca as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "brayan-palza-huarca-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Brayan Palza Huarca received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bradley-mackensi-palza-perez-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Bradley Mackensi Palza Pérez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Bradley Mackensi Palza Pérez as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "bradley-mackensi-palza-perez-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Bradley Mackensi Palza Pérez received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-abraham-escobar-molina-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Luis Abraham Escobar Molina",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Luis Abraham Escobar Molina as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-abraham-escobar-molina-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Luis Abraham Escobar Molina received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sandro-ivan-rodriguez-palomeque-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Sandro Iván Rodríguez Palomeque",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Sandro Iván Rodríguez Palomeque as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "sandro-ivan-rodriguez-palomeque-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Sandro Iván Rodríguez Palomeque received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "miguel-angel-gutierrez-villegas-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Miguel Ángel Gutiérrez Villegas",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Miguel Ángel Gutiérrez Villegas as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "miguel-angel-gutierrez-villegas-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Miguel Ángel Gutiérrez Villegas received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "francisco-javier-bejar-barandiaran-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Francisco Javier Béjar Barandiarán",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Francisco Javier Béjar Barandiarán as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "francisco-javier-bejar-barandiaran-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Francisco Javier Béjar Barandiarán received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ronald-rodriguez-rojas-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Ronald Rodríguez Rojas",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Ronald Rodríguez Rojas as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "ronald-rodriguez-rojas-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Ronald Rodríguez Rojas received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "daniel-costa-pimentel-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Daniel Costa Pimentel",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Daniel Costa Pimentel as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "daniel-costa-pimentel-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Daniel Costa Pimentel received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "raylan-de-freitas-liberato-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Raylan de Freitas Liberato",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Raylan de Freitas Liberato as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "raylan-de-freitas-liberato-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Raylan de Freitas Liberato received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jorge-amado-malaver-ramos-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Jorge Amado Malaver Ramos",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Jorge Amado Malaver Ramos as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "jorge-amado-malaver-ramos-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Jorge Amado Malaver Ramos received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "franklin-william-chacon-moscoso-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Franklin William Chacón Moscoso",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Franklin William Chacón Moscoso as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "franklin-william-chacon-moscoso-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Franklin William Chacón Moscoso received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-carlos-rivas-orbes-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "José Carlos Rivas Orbes",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names José Carlos Rivas Orbes as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-carlos-rivas-orbes-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports José Carlos Rivas Orbes received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "anderson-morales-diaz-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Anderson Morales Díaz",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Anderson Morales Díaz as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "anderson-morales-diaz-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Anderson Morales Díaz received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pablo-alejandro-torres-medrano-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Pablo Alejandro Torres Medrano",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Pablo Alejandro Torres Medrano as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "pablo-alejandro-torres-medrano-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Pablo Alejandro Torres Medrano received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-domingo-pastor-econema-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Luis Domingo Pastor Econema",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Luis Domingo Pastor Econema as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-domingo-pastor-econema-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Luis Domingo Pastor Econema received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fabricio-mario-portilla-vergara-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Fabricio Mario Portilla Vergara",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Fabricio Mario Portilla Vergara as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "fabricio-mario-portilla-vergara-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Fabricio Mario Portilla Vergara received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "marilyn-olin-lucero-villanueva-vizcarra-peru-los-malditos-comando-vermelho-2018-2026",
+      "name": "Marilyn Olín Lucero Villanueva Vizcarra",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-07",
+      "roleLabel": "Member of group involved in drug trafficking and other crimes; first-instance sentence up to 35 years (individual term unspecified); individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-malditos-comando-vermelho-2018-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The judiciary names Marilyn Olín Lucero Villanueva Vizcarra as a member of the group active in Peru in 2018–2019; the group trafficked drugs, but this person’s individual drug count is unspecified.",
+            "period": "2018–2019",
+            "sourceUrl": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+          "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+          "publisher": "Poder Judicial del Perú",
+          "language": "es",
+          "publishedAt": "2026-03-07",
+          "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "marilyn-olin-lucero-villanueva-vizcarra-peru-los-malditos-comando-vermelho-2018-2026-2026-03-07-conviction",
+          "occurredAt": "2026-03-07",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Peruvian judiciary reports Marilyn Olín Lucero Villanueva Vizcarra received a first-instance sentence up to 35 years (individual term unspecified) in the multi-offense group case; the individual drug count and final appellate outcome are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/pj/noticias/1362917-juzgado-penal-de-madre-de-dios-dicta-cadena-perpetua-a-nueve-presuntos-miembros-de-organizacion-comando-vermelho",
+            "title": "Juzgado Penal de Madre de Dios dicta cadena perpetua a nueve presuntos miembros de organización Comando Vermelho",
+            "publisher": "Poder Judicial del Perú",
+            "language": "es",
+            "publishedAt": "2026-03-07",
+            "claim": "Peruvian judiciary names 27 first-instance convicted members of Los malditos del Comando Vermelho, a group judicially found to have committed drug trafficking and other serious crimes in Peru in 2018–2019; individual drug counts are unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "walter-julian-peru-junin-2025-cocaine-case",
+      "name": "Walter Julián",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-22",
+      "roleLabel": "Drug-trafficking conviction publicly reported; 23-year term",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-junin-2025-cocaine-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Walter Julián as convicted of drug trafficking by a Peru court in the Junín case.",
+            "period": "by 2025-05",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+          "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-05-22",
+          "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+        }
+      ],
+      "events": [
+        {
+          "id": "walter-julian-peru-junin-2025-cocaine-case-2025-05-22-conviction",
+          "occurredAt": "2025-05-22",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports Walter Julián received a 23-year sentence for drug trafficking; the release date is not necessarily the judgment date.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+            "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-05-22",
+            "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "enso-meza-peru-junin-2025-cocaine-case",
+      "name": "Enso Meza",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-22",
+      "roleLabel": "Drug-trafficking conviction publicly reported; 18-year term",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-junin-2025-cocaine-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Enso Meza as convicted of drug trafficking by a Peru court in the Junín case.",
+            "period": "by 2025-05",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+          "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-05-22",
+          "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+        }
+      ],
+      "events": [
+        {
+          "id": "enso-meza-peru-junin-2025-cocaine-case-2025-05-22-conviction",
+          "occurredAt": "2025-05-22",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports Enso Meza received a 18-year sentence for drug trafficking; the release date is not necessarily the judgment date.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+            "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-05-22",
+            "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-quispe-peru-junin-2025-cocaine-case",
+      "name": "José Quispe",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-22",
+      "roleLabel": "Drug-trafficking conviction publicly reported; 16-year term",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-junin-2025-cocaine-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names José Quispe as convicted of drug trafficking by a Peru court in the Junín case.",
+            "period": "by 2025-05",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+          "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-05-22",
+          "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-quispe-peru-junin-2025-cocaine-case-2025-05-22-conviction",
+          "occurredAt": "2025-05-22",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports José Quispe received a 16-year sentence for drug trafficking; the release date is not necessarily the judgment date.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+            "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-05-22",
+            "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "katy-vasquez-peru-junin-2025-cocaine-case",
+      "name": "Katy Vásquez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-22",
+      "roleLabel": "Drug-trafficking conviction publicly reported; 15-year term",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-junin-2025-cocaine-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Katy Vásquez as convicted of drug trafficking by a Peru court in the Junín case.",
+            "period": "by 2025-05",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+          "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-05-22",
+          "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+        }
+      ],
+      "events": [
+        {
+          "id": "katy-vasquez-peru-junin-2025-cocaine-case-2025-05-22-conviction",
+          "occurredAt": "2025-05-22",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports Katy Vásquez received a 15-year sentence for drug trafficking; the release date is not necessarily the judgment date.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+            "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-05-22",
+            "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luz-gomez-peru-junin-2025-cocaine-case",
+      "name": "Luz Gómez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-05-22",
+      "roleLabel": "Drug-trafficking conviction publicly reported; 15-year term",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-junin-2025-cocaine-case"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Luz Gómez as convicted of drug trafficking by a Peru court in the Junín case.",
+            "period": "by 2025-05",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+          "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-05-22",
+          "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+        }
+      ],
+      "events": [
+        {
+          "id": "luz-gomez-peru-junin-2025-cocaine-case-2025-05-22-conviction",
+          "occurredAt": "2025-05-22",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports Luz Gómez received a 15-year sentence for drug trafficking; the release date is not necessarily the judgment date.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1173243-fiscalia-contra-la-criminalidad-organizada-logro-sentencia-contra-integrantes-de-banda-criminal-dedicada-a-transportar-droga-desde-el-vraem",
+            "title": "Fiscalía contra la Criminalidad Organizada logró sentencia contra integrantes de banda criminal dedicada a transportar droga desde el Vraem",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-05-22",
+            "claim": "Fiscalía names five people convicted of drug trafficking; a sixth convicted only of criminal-gang offense is held out. The article contains an impossible November 2025 date and no exact offense day is asserted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yeibeth-fernandez-peru-dinastia-pakistani-2025",
+      "name": "Yeibeth Fernández",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 35-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Yeibeth Fernández among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "yeibeth-fernandez-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 35-year sentence for Yeibeth Fernández in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "antonio-torres-peru-dinastia-pakistani-2025",
+      "name": "Antonio Torres",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 35-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Antonio Torres among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "antonio-torres-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 35-year sentence for Antonio Torres in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "angel-jose-hernandez-peru-dinastia-pakistani-2025",
+      "name": "Ángel José Hernández",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 35-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Ángel José Hernández among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "angel-jose-hernandez-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 35-year sentence for Ángel José Hernández in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "emmanuel-aguilar-peru-dinastia-pakistani-2025",
+      "name": "Emmanuel Aguilar",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 35-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Emmanuel Aguilar among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "emmanuel-aguilar-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 35-year sentence for Emmanuel Aguilar in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "victor-boada-peru-dinastia-pakistani-2025",
+      "name": "Víctor Boada",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 35-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Víctor Boada among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "victor-boada-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 35-year sentence for Víctor Boada in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "keiber-andrade-peru-dinastia-pakistani-2025",
+      "name": "Keiber Andrade",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 28-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Keiber Andrade among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "keiber-andrade-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 28-year sentence for Keiber Andrade in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yhonnys-zarraga-peru-dinastia-pakistani-2025",
+      "name": "Yhonnys Zarraga",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 28-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Yhonnys Zarraga among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "yhonnys-zarraga-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 28-year sentence for Yhonnys Zarraga in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jhonatan-palacios-peru-dinastia-pakistani-2025",
+      "name": "Jhonatan Palacios",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 28-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Jhonatan Palacios among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "jhonatan-palacios-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 28-year sentence for Jhonatan Palacios in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ricardo-madrid-peru-dinastia-pakistani-2025",
+      "name": "Ricardo Madrid",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 28-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Ricardo Madrid among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "ricardo-madrid-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 28-year sentence for Ricardo Madrid in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "anderson-torrealba-peru-dinastia-pakistani-2025",
+      "name": "Anderson Torrealba",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 28-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Anderson Torrealba among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "anderson-torrealba-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 28-year sentence for Anderson Torrealba in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tonny-rodriguez-peru-dinastia-pakistani-2025",
+      "name": "Tonny Rodríguez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 28-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Tonny Rodríguez among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "tonny-rodriguez-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 28-year sentence for Tonny Rodríguez in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-ruiz-peru-dinastia-pakistani-2025",
+      "name": "José Ruiz",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 8-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names José Ruiz among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-ruiz-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 8-year sentence for José Ruiz in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-hercules-peru-dinastia-pakistani-2025",
+      "name": "José Hércules",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 8-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names José Hércules among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-hercules-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 8-year sentence for José Hércules in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "miguel-albarran-peru-dinastia-pakistani-2025",
+      "name": "Miguel Albarran",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-09-29",
+      "roleLabel": "Convicted in multi-offense organization case involving drug trafficking; 8-year sentence; individual counts unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-dinastia-pakistani-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Miguel Albarran among 14 convicted members of a Peru-based group involved in drug trafficking, and reports drugs among the items found in the defendants’ possession; individual count unspecified.",
+            "period": "by 2025-09",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+          "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-09-29",
+          "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+        }
+      ],
+      "events": [
+        {
+          "id": "miguel-albarran-peru-dinastia-pakistani-2025-2025-09-29-conviction",
+          "occurredAt": "2025-09-29",
+          "type": "conviction",
+          "title": "Multi-offense conviction publicly reported",
+          "summary": "Fiscalía reports a 8-year sentence for Miguel Albarran in a multi-offense group case that included drug trafficking; individual count and judgment day were not stated.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1254607-fiscalia-logro-14-condenas-para-integrantes-de-la-organizacion-criminal-dinastia-pakistani-del-tren-de-aragua",
+            "title": "Fiscalía logró condenas para 14 integrantes de la organización criminal Dinastía Pakistaní del Tren de Aragua",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-09-29",
+            "claim": "Fiscalía names 14 people convicted in a multi-offense criminal organization case involving drug trafficking; it says the defendants were found possessing drugs, weapons and explosives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pablo-cesar-espinoza-evaristo-peru-los-narcobuzos-2019",
+      "name": "Pablo César Espinoza Evaristo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-03-08",
+      "roleLabel": "Drug-trafficking conviction; 18 years, four months and one day reported",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-narcobuzos-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Pablo César Espinoza Evaristo as convicted for drug trafficking in a Peru-based organization.",
+            "period": "by 2019-03",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos"
+          }
+        }
+      ],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos",
+          "title": "Fiscalía logró condena contra organización de tráfico de drogas Los Narcobuzos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2019-03-08",
+          "claim": "Fiscalía identifies four named members convicted of drug trafficking in Peru; three other divers were reported convicted in another process, but their individual outcome details were not available."
+        }
+      ],
+      "events": [
+        {
+          "id": "pablo-cesar-espinoza-evaristo-peru-los-narcobuzos-2019-2019-03-08-conviction",
+          "occurredAt": "2019-03-08",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Pablo César Espinoza Evaristo was convicted of drug trafficking and sentenced to 18 years, four months and one day; the release date is not asserted as the judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos",
+            "title": "Fiscalía logró condena contra organización de tráfico de drogas Los Narcobuzos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2019-03-08",
+            "claim": "Fiscalía identifies four named members convicted of drug trafficking in Peru; three other divers were reported convicted in another process, but their individual outcome details were not available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vicente-david-sotero-velasquez-peru-los-narcobuzos-2019",
+      "name": "Vicente David Sotero Velásquez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-03-08",
+      "roleLabel": "Drug-trafficking conviction; 18 years, four months and one day reported",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-narcobuzos-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Vicente David Sotero Velásquez as convicted for drug trafficking in a Peru-based organization.",
+            "period": "by 2019-03",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos"
+          }
+        }
+      ],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos",
+          "title": "Fiscalía logró condena contra organización de tráfico de drogas Los Narcobuzos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2019-03-08",
+          "claim": "Fiscalía identifies four named members convicted of drug trafficking in Peru; three other divers were reported convicted in another process, but their individual outcome details were not available."
+        }
+      ],
+      "events": [
+        {
+          "id": "vicente-david-sotero-velasquez-peru-los-narcobuzos-2019-2019-03-08-conviction",
+          "occurredAt": "2019-03-08",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Vicente David Sotero Velásquez was convicted of drug trafficking and sentenced to 18 years, four months and one day; the release date is not asserted as the judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos",
+            "title": "Fiscalía logró condena contra organización de tráfico de drogas Los Narcobuzos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2019-03-08",
+            "claim": "Fiscalía identifies four named members convicted of drug trafficking in Peru; three other divers were reported convicted in another process, but their individual outcome details were not available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "julio-wuilfredo-castro-escobar-peru-los-narcobuzos-2019",
+      "name": "Julio Wuilfredo Castro Escobar",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-03-08",
+      "roleLabel": "Drug-trafficking conviction; 18 years, four months and one day reported",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-narcobuzos-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Julio Wuilfredo Castro Escobar as convicted for drug trafficking in a Peru-based organization.",
+            "period": "by 2019-03",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos"
+          }
+        }
+      ],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos",
+          "title": "Fiscalía logró condena contra organización de tráfico de drogas Los Narcobuzos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2019-03-08",
+          "claim": "Fiscalía identifies four named members convicted of drug trafficking in Peru; three other divers were reported convicted in another process, but their individual outcome details were not available."
+        }
+      ],
+      "events": [
+        {
+          "id": "julio-wuilfredo-castro-escobar-peru-los-narcobuzos-2019-2019-03-08-conviction",
+          "occurredAt": "2019-03-08",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Julio Wuilfredo Castro Escobar was convicted of drug trafficking and sentenced to 18 years, four months and one day; the release date is not asserted as the judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos",
+            "title": "Fiscalía logró condena contra organización de tráfico de drogas Los Narcobuzos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2019-03-08",
+            "claim": "Fiscalía identifies four named members convicted of drug trafficking in Peru; three other divers were reported convicted in another process, but their individual outcome details were not available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-emilio-iglesias-dibulga-peru-los-narcobuzos-2019",
+      "name": "Luis Emilio Iglesias Dibulga",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2019-03-08",
+      "roleLabel": "Drug-trafficking conviction; 18 years, four months and one day reported",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-los-narcobuzos-2019"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Luis Emilio Iglesias Dibulga as convicted for drug trafficking in a Peru-based organization.",
+            "period": "by 2019-03",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos"
+          }
+        }
+      ],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos",
+          "title": "Fiscalía logró condena contra organización de tráfico de drogas Los Narcobuzos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2019-03-08",
+          "claim": "Fiscalía identifies four named members convicted of drug trafficking in Peru; three other divers were reported convicted in another process, but their individual outcome details were not available."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-emilio-iglesias-dibulga-peru-los-narcobuzos-2019-2019-03-08-conviction",
+          "occurredAt": "2019-03-08",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Luis Emilio Iglesias Dibulga was convicted of drug trafficking and sentenced to 18 years, four months and one day; the release date is not asserted as the judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/477225-fiscalia-logro-condena-contra-organizacion-de-trafico-de-drogas-los-narcobuzos",
+            "title": "Fiscalía logró condena contra organización de tráfico de drogas Los Narcobuzos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2019-03-08",
+            "claim": "Fiscalía identifies four named members convicted of drug trafficking in Peru; three other divers were reported convicted in another process, but their individual outcome details were not available."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-eduardo-ortiz-portilla-peru-callao-divers-2022",
+      "name": "Luis Eduardo Ortiz Portilla",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-01-28",
+      "roleLabel": "Aggravated drug-trafficking conviction; 12 years, ten months, six days",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-callao-divers-2022"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Luis Eduardo Ortiz Portilla as a convicted coauthor of aggravated drug trafficking in a Peru-based network.",
+            "period": "by 2022-01",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/579938-sentencian-a-dos-integrantes-de-red-criminal-internacional-que-usaba-buzos-para-prenar-droga-debajo-de-buques"
+          }
+        }
+      ],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/579938-sentencian-a-dos-integrantes-de-red-criminal-internacional-que-usaba-buzos-para-prenar-droga-debajo-de-buques",
+          "title": "Sentencian a dos integrantes de red criminal internacional que usaba buzos para preñar droga debajo de buques",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2022-01-28",
+          "claim": "Fiscalía names Ortiz Portilla and Vigil Sam as convicted coauthors of aggravated drug trafficking in Peru."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-eduardo-ortiz-portilla-peru-callao-divers-2022-2022-01-28-conviction",
+          "occurredAt": "2022-01-28",
+          "type": "conviction",
+          "title": "Aggravated drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Luis Eduardo Ortiz Portilla was sentenced to 12 years, ten months and six days; release date is not asserted as the judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/579938-sentencian-a-dos-integrantes-de-red-criminal-internacional-que-usaba-buzos-para-prenar-droga-debajo-de-buques",
+            "title": "Sentencian a dos integrantes de red criminal internacional que usaba buzos para preñar droga debajo de buques",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2022-01-28",
+            "claim": "Fiscalía names Ortiz Portilla and Vigil Sam as convicted coauthors of aggravated drug trafficking in Peru."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wilmer-eliomar-vigil-sam-peru-callao-divers-2022",
+      "name": "Wilmer Eliomar Vigil Sam",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-01-28",
+      "roleLabel": "Aggravated drug-trafficking conviction; 12 years, ten months, six days",
+      "prominence": 1,
+      "organizationIds": [
+        "peru-callao-divers-2022"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Wilmer Eliomar Vigil Sam as a convicted coauthor of aggravated drug trafficking in a Peru-based network.",
+            "period": "by 2022-01",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/579938-sentencian-a-dos-integrantes-de-red-criminal-internacional-que-usaba-buzos-para-prenar-droga-debajo-de-buques"
+          }
+        }
+      ],
+      "drugs": [
+        "other"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/579938-sentencian-a-dos-integrantes-de-red-criminal-internacional-que-usaba-buzos-para-prenar-droga-debajo-de-buques",
+          "title": "Sentencian a dos integrantes de red criminal internacional que usaba buzos para preñar droga debajo de buques",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2022-01-28",
+          "claim": "Fiscalía names Ortiz Portilla and Vigil Sam as convicted coauthors of aggravated drug trafficking in Peru."
+        }
+      ],
+      "events": [
+        {
+          "id": "wilmer-eliomar-vigil-sam-peru-callao-divers-2022-2022-01-28-conviction",
+          "occurredAt": "2022-01-28",
+          "type": "conviction",
+          "title": "Aggravated drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Wilmer Eliomar Vigil Sam was sentenced to 12 years, ten months and six days; release date is not asserted as the judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/579938-sentencian-a-dos-integrantes-de-red-criminal-internacional-que-usaba-buzos-para-prenar-droga-debajo-de-buques",
+            "title": "Sentencian a dos integrantes de red criminal internacional que usaba buzos para preñar droga debajo de buques",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2022-01-28",
+            "claim": "Fiscalía names Ortiz Portilla and Vigil Sam as convicted coauthors of aggravated drug trafficking in Peru."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

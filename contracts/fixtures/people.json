@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "generated_at": "2026-09-27T00:52:07+00:00",
+    "model_version": "trace-0.1.0",
+    "sources": [],
+    "notes": [
+      "Curated sample of publicly reported, source-cited people; not a census. Status reflects the cited source as of statusAsOf (charged is not convicted). Locations are country-level associations only.",
+      "Connections are listed only where a source documents that specific relationship."
+    ],
+    "total": 368,
+    "next_cursor": "WyJbXCJcIiwxLG51bGxdIiwiYWRhbSBtYXJzZGVuIiwidWstdmVuZXRpYy1hZGFtLW1hcnNkZW4tZ21wMjIiXQ",
+    "people_snapshot": {
+      "origin": "bundled",
+      "fetched_at": null,
+      "version": "49e9214ca5b00e65cde254296d15ae176686b5410bd1870eea9dffbf5a2818ac",
+      "source_commit": null,
+      "records": {
+        "people": 3099,
+        "organizations": 229,
+        "connections": 216
+      },
+      "stale": false
+    }
+  },
+  "data": {
+    "people": [
+      {
+        "id": "aaron-james-john-o-sullivan-uk-venetic-growth",
+        "name": "Aaron James John O’Sullivan",
+        "status": "convicted",
+        "statusAsOf": "2025-02-03",
+        "roleLabel": "Convicted cocaine-supply and laundering associate",
+        "prominence": 1,
+        "organizationIds": [
+          "uk-donovan-venetic-case"
+        ],
+        "regions": [
+          {
+            "iso3": "GBR",
+            "label": "United Kingdom",
+            "evidence": {
+              "claim": "Crown Prosecution Service describes Aaron James John O’Sullivan as having helped Donovan supply cocaine and launder proceeds in England; legal outcome is separately stated in the source.",
+              "period": "2019-12–2020-06",
+              "sourceUrl": "https://www.cps.gov.uk/cps/news/gang-members-jailed-laundering-drug-money-liverpool"
+            }
+          }
+        ],
+        "drugs": [
+          "cocaine"
+        ],
+        "sources": [
+          {
+            "url": "https://www.cps.gov.uk/cps/news/gang-members-jailed-laundering-drug-money-liverpool",
+            "title": "Gang members jailed for laundering drug money in Liverpool",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-02-03",
+            "claim": "Aaron James John O’Sullivan: CPS reports guilty pleas to class A supply conspiracy and laundering; seven years six months. The source specifically describes this person as having helped Donovan supply cocaine and launder proceeds in England during 2019-12–2020-06; this is historical UK conduct, not a current position."
+          }
+        ],
+        "events": [
+          {
+            "id": "aaron-james-john-o-sullivan-uk-venetic-growth-2025-02-03-sentence",
+            "occurredAt": "2025-02-03",
+            "type": "sentence",
+            "title": "Drug-case sentence reported",
+            "summary": "CPS reports guilty pleas to class A supply conspiracy and laundering; seven years six months. This is a dated court outcome, not a claim about current custody.",
+            "source": {
+              "url": "https://www.cps.gov.uk/cps/news/gang-members-jailed-laundering-drug-money-liverpool",
+              "title": "Gang members jailed for laundering drug money in Liverpool",
+              "publisher": "Crown Prosecution Service",
+              "language": "en",
+              "publishedAt": "2025-02-03",
+              "claim": "Aaron James John O’Sullivan: CPS reports guilty pleas to class A supply conspiracy and laundering; seven years six months. The source specifically describes this person as having helped Donovan supply cocaine and launder proceeds in England during 2019-12–2020-06; this is historical UK conduct, not a current position."
+            }
+          }
+        ]
+      },
+      {
+        "id": "uk-venetic-abdul-ghafar-gmp22",
+        "name": "Abdul Ghafar",
+        "aliases": [],
+        "status": "convicted",
+        "statusAsOf": "2022-05-10",
+        "roleLabel": "UK drug-law conviction reported by Greater Manchester Police",
+        "prominence": 1,
+        "organizationIds": [],
+        "regions": [
+          {
+            "iso3": "GBR",
+            "label": "United Kingdom",
+            "evidence": {
+              "claim": "Greater Manchester Police attributes historical drug supply or import conduct in the United Kingdom to Abdul Ghafar; the marker describes that reported conduct, not present location.",
+              "period": "2020",
+              "sourceUrl": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/"
+            }
+          }
+        ],
+        "drugs": [],
+        "sources": [
+          {
+            "url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/",
+            "title": "Regional drug suppliers sentenced after EncroChat evidence",
+            "publisher": "Greater Manchester Police",
+            "language": "en",
+            "publishedAt": "2022-05-10",
+            "claim": "Greater Manchester Police individually names Abdul Ghafar and reports a drug-law judgment: admitted Class A drug-supply conspiracy; sentenced to eight years and eight months by 10 May 2022. The article gives the outcome by its publication date, not an exact sentence day."
+          }
+        ],
+        "events": [
+          {
+            "id": "uk-venetic-abdul-ghafar-gmp22-judgment",
+            "occurredAt": "2022-05-10",
+            "type": "conviction",
+            "title": "Drug-law judgment reported",
+            "summary": "By 2022-05-10 (exact sentence day not stated), Greater Manchester Police reported that Abdul Ghafar admitted Class A drug-supply conspiracy; sentenced to eight years and eight months by 10 May 2022.",
+            "source": {
+              "url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/",
+              "title": "Regional drug suppliers sentenced after EncroChat evidence",
+              "publisher": "Greater Manchester Police",
+              "language": "en",
+              "publishedAt": "2022-05-10",
+              "claim": "Greater Manchester Police individually names Abdul Ghafar and reports a drug-law judgment: admitted Class A drug-supply conspiracy; sentenced to eight years and eight months by 10 May 2022. The article gives the outcome by its publication date, not an exact sentence day."
+            }
+          }
+        ]
+      },
+      {
+        "id": "uk-venetic-adam-marsden-gmp22",
+        "name": "Adam Marsden",
+        "aliases": [],
+        "status": "convicted",
+        "statusAsOf": "2022-05-10",
+        "roleLabel": "UK drug-law conviction reported by Greater Manchester Police",
+        "prominence": 1,
+        "organizationIds": [],
+        "regions": [
+          {
+            "iso3": "GBR",
+            "label": "United Kingdom",
+            "evidence": {
+              "claim": "Greater Manchester Police attributes historical drug supply or import conduct in the United Kingdom to Adam Marsden; the marker describes that reported conduct, not present location.",
+              "period": "2020",
+              "sourceUrl": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/"
+            }
+          }
+        ],
+        "drugs": [],
+        "sources": [
+          {
+            "url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/",
+            "title": "Regional drug suppliers sentenced after EncroChat evidence",
+            "publisher": "Greater Manchester Police",
+            "language": "en",
+            "publishedAt": "2022-05-10",
+            "claim": "Greater Manchester Police individually names Adam Marsden and reports a drug-law judgment: admitted Class A drug-supply conspiracy; sentenced to nine years and eight months by 10 May 2022. The article gives the outcome by its publication date, not an exact sentence day."
+          }
+        ],
+        "events": [
+          {
+            "id": "uk-venetic-adam-marsden-gmp22-judgment",
+            "occurredAt": "2022-05-10",
+            "type": "conviction",
+            "title": "Drug-law judgment reported",
+            "summary": "By 2022-05-10 (exact sentence day not stated), Greater Manchester Police reported that Adam Marsden admitted Class A drug-supply conspiracy; sentenced to nine years and eight months by 10 May 2022.",
+            "source": {
+              "url": "https://www.gmp.police.uk/news/greater-manchester/news/news/2022/may/ringleader-of-multi-million-pound-drugs-gang-rumbled-by-selfie-on-encro-phone/",
+              "title": "Regional drug suppliers sentenced after EncroChat evidence",
+              "publisher": "Greater Manchester Police",
+              "language": "en",
+              "publishedAt": "2022-05-10",
+              "claim": "Greater Manchester Police individually names Adam Marsden and reports a drug-law judgment: admitted Class A drug-supply conspiracy; sentenced to nine years and eight months by 10 May 2022. The article gives the outcome by its publication date, not an exact sentence day."
+            }
+          }
+        ]
+      }
+    ],
+    "organizations": [
+      {
+        "id": "uk-donovan-venetic-case",
+        "name": "Donovan Liverpool drug-money case",
+        "regions": [
+          "GBR"
+        ],
+        "sources": [
+          {
+            "url": "https://www.cps.gov.uk/cps/news/gang-members-jailed-laundering-drug-money-liverpool",
+            "title": "Gang members jailed for laundering drug money in Liverpool",
+            "publisher": "Crown Prosecution Service",
+            "language": "en",
+            "publishedAt": "2025-02-03",
+            "claim": "Official release documents this UK drug case and identifies named participants; individual roles are evaluated in their own profiles."
+          }
+        ]
+      }
+    ],
+    "connections": []
+  }
+}

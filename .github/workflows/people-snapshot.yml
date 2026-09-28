@@ -1,0 +1,102 @@
+# AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md.
+# Publishes frontend/data/people/manifest.json as a sharded, versioned snapshot on the `people-snapshot` branch
+# (v1/index.json + v1/shards/*.json.gz). Format and consumer contract: docs/PEOPLE_SNAPSHOT.md.
+name: Publish People snapshot
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - frontend/data/people/manifest.json
+      - backend/scripts/build_people_snapshot.py
+      - .github/workflows/people-snapshot.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: people-snapshot
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test the publisher (stdlib only)
+        run: python3 -m unittest discover -s backend/tests -t backend -p test_people_snapshot_build.py
+
+      - name: Check out or create the people-snapshot branch in a worktree
+        run: |
+          echo "SNAPSHOT_DIR=$RUNNER_TEMP/people-snapshot" >> "$GITHUB_ENV"
+          SNAPSHOT_DIR="$RUNNER_TEMP/people-snapshot"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin people-snapshot >/dev/null; then
+            git fetch --depth=1 origin +refs/heads/people-snapshot:refs/remotes/origin/people-snapshot
+            git worktree add -B people-snapshot "$SNAPSHOT_DIR" origin/people-snapshot
+          else
+            git worktree add --detach "$SNAPSHOT_DIR"
+            git -C "$SNAPSHOT_DIR" checkout --orphan people-snapshot
+            git -C "$SNAPSHOT_DIR" rm -rf --quiet .
+          fi
+
+      - name: Write branch README if missing
+        run: |
+          if [ ! -f "$SNAPSHOT_DIR/README.md" ]; then
+            cat > "$SNAPSHOT_DIR/README.md" <<'EOF'
+          # TRACE People snapshot (generated branch)
+
+          Machine-written by `.github/workflows/people-snapshot.yml` on `main`; do not edit by hand.
+          It republishes `frontend/data/people/manifest.json` from `main` as a sharded, versioned snapshot
+          (format `trace-people-snapshot/1`). Full description: `docs/PEOPLE_SNAPSHOT.md` on `main`.
+
+          - `v1/index.json`: `format`, `version` (sha256 of the canonical manifest JSON), `generated_at`,
+            `source_commit`, `source_path`, `counts`, and `shards` (`kind`, `file`, `sha256`, `bytes`, `records`).
+          - `v1/shards/<kind>-<sha16>.json.gz`: gzip of `{"kind": ..., "records": [...]}`. Content-addressed and
+            immutable. People use 16 shards by `sha256(id) % 16`; organizations and connections use one shard each
+            unless one would exceed about 2 MB uncompressed.
+          - `v1/history.json`: the last five index versions and their shard files. Shards referenced by any of
+            them are kept, so a consumer mid-refresh never hits a 404; older shards are deleted.
+
+          Records are copied verbatim; the TRACE API validates and normalises them. AI-assisted: written with
+          Claude Code (Anthropic).
+          EOF
+          fi
+
+      - name: Build snapshot
+        run: |
+          python3 backend/scripts/build_people_snapshot.py \
+            --manifest frontend/data/people/manifest.json \
+            --out "$SNAPSHOT_DIR/v1" \
+            --source-commit "$(git rev-parse HEAD)"
+
+      - name: Verify snapshot against the manifest
+        run: |
+          python3 backend/scripts/build_people_snapshot.py \
+            --verify "$SNAPSHOT_DIR/v1" \
+            --manifest frontend/data/people/manifest.json
+
+      - name: Commit and push if the index changed
+        run: |
+          cd "$SNAPSHOT_DIR"
+          if [ -z "$(git status --porcelain -- v1/index.json)" ]; then
+            echo "index.json unchanged; nothing to publish."
+            exit 0
+          fi
+          version=$(python3 -c 'import json; print(json.load(open("v1/index.json"))["version"])')
+          source=$(git -C "$GITHUB_WORKSPACE" rev-parse HEAD)
+          git add -A README.md v1
+          git commit --quiet -m "people-snapshot ${version:0:12} from ${source:0:7}"
+          git push origin people-snapshot
+          echo "Published ${version:0:12}: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/people-snapshot/v1/index.json"

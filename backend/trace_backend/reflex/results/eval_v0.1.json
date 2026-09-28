@@ -1,0 +1,517 @@
+{
+  "model": "reflex-0.1.0",
+  "temperatures": {
+    "noul": 1.4623,
+    "choice": 1.4333,
+    "score": 1.6161
+  },
+  "evaluated_at": "2026-09-27T00:29:37",
+  "L0_L1_contract": {
+    "checks": {
+      "probabilities_sum_to_1": true,
+      "choice_is_argmax": true,
+      "score_is_expected_level": true,
+      "noul_in_0_1": true,
+      "answers_within_options": true,
+      "accepts_255_options": true,
+      "structured_state_and_criteria": true,
+      "confidence_formula_documented_examples": true,
+      "noul_has_no_confidence": true
+    },
+    "pass": true,
+    "example_response": {
+      "choice": "billing",
+      "probabilities": {
+        "billing": 0.9603,
+        "shipping": 0.0054,
+        "returns": 0.0343
+      },
+      "confidence": 0.9404,
+      "type": "choice"
+    }
+  },
+  "L2_competence": {
+    "trained": {
+      "boolq": {
+        "prim": "noul",
+        "n": 150,
+        "accuracy": 0.7067,
+        "nll": 0.5471,
+        "brier": 0.3662,
+        "ece": 0.0505,
+        "ece_yes": 0.0915
+      },
+      "mnli": {
+        "prim": "noul",
+        "n": 150,
+        "accuracy": 0.8933,
+        "nll": 0.2784,
+        "brier": 0.1583,
+        "ece": 0.0388,
+        "ece_yes": 0.0469
+      },
+      "ag_news": {
+        "prim": "choice",
+        "n": 150,
+        "accuracy": 0.86,
+        "nll": 0.4165,
+        "brier": 0.2143,
+        "ece": 0.0667
+      },
+      "dbpedia": {
+        "prim": "choice",
+        "n": 150,
+        "accuracy": 0.96,
+        "nll": 0.1234,
+        "brier": 0.0591,
+        "ece": 0.0416
+      },
+      "yahoo": {
+        "prim": "choice",
+        "n": 150,
+        "accuracy": 0.74,
+        "nll": 0.7916,
+        "brier": 0.3852,
+        "ece": 0.103
+      },
+      "yelp": {
+        "prim": "score",
+        "n": 150,
+        "accuracy": 0.6067,
+        "nll": 1.0081,
+        "brier": 0.5546,
+        "ece": 0.1002
+      },
+      "trace_is_event": {
+        "prim": "noul",
+        "n": 150,
+        "accuracy": 1.0,
+        "nll": 0.0006,
+        "brier": 0.0,
+        "ece": 0.0006,
+        "ece_yes": 0.0006
+      },
+      "trace_event_type": {
+        "prim": "choice",
+        "n": 150,
+        "accuracy": 1.0,
+        "nll": 0.0033,
+        "brier": 0.0001,
+        "ece": 0.0032
+      },
+      "trace_drug": {
+        "prim": "choice",
+        "n": 150,
+        "accuracy": 1.0,
+        "nll": 0.0127,
+        "brier": 0.0026,
+        "ece": 0.0117
+      },
+      "trace_origin": {
+        "prim": "choice",
+        "n": 150,
+        "accuracy": 1.0,
+        "nll": 0.0028,
+        "brier": 0.0,
+        "ece": 0.0028
+      },
+      "trace_destination": {
+        "prim": "choice",
+        "n": 150,
+        "accuracy": 1.0,
+        "nll": 0.0089,
+        "brier": 0.0043,
+        "ece": 0.0069
+      },
+      "trace_size": {
+        "prim": "score",
+        "n": 93,
+        "accuracy": 0.914,
+        "nll": 0.3231,
+        "brier": 0.1522,
+        "ece": 0.0346
+      },
+      "trace_route": {
+        "prim": "noul",
+        "n": 150,
+        "accuracy": 1.0,
+        "nll": 0.0004,
+        "brier": 0.0,
+        "ece": 0.0004,
+        "ece_yes": 0.0004
+      },
+      "_all": {
+        "n": 1893,
+        "accuracy": 0.898,
+        "ece": 0.0187
+      }
+    },
+    "untuned_backbone_subset": {
+      "trace_route": {
+        "prim": "noul",
+        "n": 60,
+        "accuracy": 0.4333,
+        "nll": 1.519,
+        "brier": 0.9468,
+        "ece": 0.4906,
+        "ece_yes": 0.4906
+      },
+      "boolq": {
+        "prim": "noul",
+        "n": 60,
+        "accuracy": 0.6,
+        "nll": 0.596,
+        "brier": 0.4221,
+        "ece": 0.1611,
+        "ece_yes": 0.208
+      },
+      "trace_destination": {
+        "prim": "choice",
+        "n": 60,
+        "accuracy": 0.8167,
+        "nll": 0.5111,
+        "brier": 0.2862,
+        "ece": 0.0781
+      },
+      "yahoo": {
+        "prim": "choice",
+        "n": 60,
+        "accuracy": 0.5833,
+        "nll": 1.2453,
+        "brier": 0.5918,
+        "ece": 0.2085
+      },
+      "trace_origin": {
+        "prim": "choice",
+        "n": 60,
+        "accuracy": 0.2333,
+        "nll": 2.4194,
+        "brier": 1.26,
+        "ece": 0.6649
+      },
+      "trace_drug": {
+        "prim": "choice",
+        "n": 60,
+        "accuracy": 0.3833,
+        "nll": 1.4692,
+        "brier": 0.6823,
+        "ece": 0.1009
+      },
+      "trace_size": {
+        "prim": "score",
+        "n": 60,
+        "accuracy": 0.5333,
+        "nll": 1.1506,
+        "brier": 0.5884,
+        "ece": 0.2003
+      },
+      "ag_news": {
+        "prim": "choice",
+        "n": 60,
+        "accuracy": 0.2833,
+        "nll": 1.3923,
+        "brier": 0.7576,
+        "ece": 0.2094
+      },
+      "trace_is_event": {
+        "prim": "noul",
+        "n": 60,
+        "accuracy": 0.9333,
+        "nll": 0.2536,
+        "brier": 0.1209,
+        "ece": 0.1512,
+        "ece_yes": 0.1512
+      },
+      "trace_event_type": {
+        "prim": "choice",
+        "n": 60,
+        "accuracy": 0.05,
+        "nll": 5.1434,
+        "brier": 1.7373,
+        "ece": 0.8728
+      },
+      "dbpedia": {
+        "prim": "choice",
+        "n": 60,
+        "accuracy": 0.3833,
+        "nll": 1.5661,
+        "brier": 0.7207,
+        "ece": 0.1276
+      },
+      "yelp": {
+        "prim": "score",
+        "n": 60,
+        "accuracy": 0.45,
+        "nll": 1.4753,
+        "brier": 0.6903,
+        "ece": 0.1387
+      },
+      "mnli": {
+        "prim": "noul",
+        "n": 60,
+        "accuracy": 0.5667,
+        "nll": 0.8961,
+        "brier": 0.5268,
+        "ece": 0.272,
+        "ece_yes": 0.3101
+      },
+      "_all": {
+        "n": 780,
+        "accuracy": 0.4808,
+        "ece": 0.2064
+      }
+    },
+    "majority_baseline": {
+      "trace_route": 0.6933,
+      "boolq": 0.5267,
+      "trace_destination": 0.2867,
+      "yahoo": 0.04,
+      "trace_origin": 0.6933,
+      "trace_drug": 0.5067,
+      "trace_size": 0.4624,
+      "ag_news": 0.2533,
+      "trace_is_event": 0.94,
+      "trace_event_type": 0.62,
+      "dbpedia": 0.06,
+      "yelp": 0.24,
+      "mnli": 0.6533
+    },
+    "pass": true
+  },
+  "L3_zero_shot": {
+    "trained": {
+      "rte": {
+        "prim": "noul",
+        "n": 200,
+        "accuracy": 0.805,
+        "nll": 0.5041,
+        "brier": 0.2984,
+        "ece": 0.0887,
+        "ece_yes": 0.1092
+      },
+      "emotion": {
+        "prim": "choice",
+        "n": 200,
+        "accuracy": 0.475,
+        "nll": 1.3032,
+        "brier": 0.6305,
+        "ece": 0.0835
+      },
+      "sst5": {
+        "prim": "score",
+        "n": 200,
+        "accuracy": 0.445,
+        "nll": 1.2565,
+        "brier": 0.6771,
+        "ece": 0.0781
+      },
+      "_all": {
+        "n": 600,
+        "accuracy": 0.575,
+        "ece": 0.0596
+      }
+    },
+    "untuned_backbone": {
+      "emotion": {
+        "prim": "choice",
+        "n": 100,
+        "accuracy": 0.57,
+        "nll": 1.1822,
+        "brier": 0.5543,
+        "ece": 0.0965
+      },
+      "rte": {
+        "prim": "noul",
+        "n": 100,
+        "accuracy": 0.63,
+        "nll": 0.6995,
+        "brier": 0.4826,
+        "ece": 0.1171,
+        "ece_yes": 0.1758
+      },
+      "sst5": {
+        "prim": "score",
+        "n": 100,
+        "accuracy": 0.25,
+        "nll": 1.6026,
+        "brier": 0.8717,
+        "ece": 0.32
+      },
+      "_all": {
+        "n": 300,
+        "accuracy": 0.4833,
+        "ece": 0.1394
+      }
+    },
+    "chance": {
+      "emotion": 0.1667,
+      "rte": 0.5,
+      "sst5": 0.2
+    },
+    "pass": false
+  },
+  "L4_calibration": {
+    "in_distribution_ece": 0.0187,
+    "zero_shot_ece": 0.0596,
+    "untuned_backbone_ece": 0.2064,
+    "pass": true
+  },
+  "L5_structure": {
+    "n": 80,
+    "structured_accuracy": 0.8625,
+    "flattened_accuracy": 0.85,
+    "pass": true
+  },
+  "L6_domain": {
+    "reflex": {
+      "is_event": 0.92,
+      "event_type": 0.91,
+      "drug": 0.88,
+      "origin": 0.91,
+      "destination": 0.81,
+      "size": 0.84,
+      "ms_per_article": 47.8
+    },
+    "mock": {
+      "is_event": 0.81,
+      "event_type": 0.8,
+      "drug": 0.89,
+      "origin": 0.89,
+      "destination": 0.52,
+      "size": 0.96,
+      "ms_per_article": 2.3
+    },
+    "pass": false,
+    "fields_better_than_mock": [
+      "is_event",
+      "event_type",
+      "origin",
+      "destination"
+    ],
+    "fields_worse_than_mock": [
+      "drug",
+      "size"
+    ],
+    "note": "100 synthetic headlines, labels drafted by the backend agent (jev/data/labeled_eval.json)",
+    "llm_test": {
+      "llm_is_event": {
+        "prim": "noul",
+        "n": 296,
+        "accuracy": 0.902,
+        "nll": 0.3095,
+        "brier": 0.1531,
+        "ece": 0.0673,
+        "ece_yes": 0.0731
+      },
+      "llm_event_type": {
+        "prim": "choice",
+        "n": 296,
+        "accuracy": 0.8378,
+        "nll": 0.5746,
+        "brier": 0.2619,
+        "ece": 0.0851
+      },
+      "llm_drug": {
+        "prim": "choice",
+        "n": 296,
+        "accuracy": 0.8851,
+        "nll": 0.4318,
+        "brier": 0.1831,
+        "ece": 0.0457
+      },
+      "llm_origin": {
+        "prim": "choice",
+        "n": 296,
+        "accuracy": 0.9358,
+        "nll": 0.2671,
+        "brier": 0.1086,
+        "ece": 0.0484
+      },
+      "llm_destination": {
+        "prim": "choice",
+        "n": 296,
+        "accuracy": 0.8851,
+        "nll": 0.4068,
+        "brier": 0.1824,
+        "ece": 0.0761
+      },
+      "llm_size": {
+        "prim": "score",
+        "n": 102,
+        "accuracy": 0.8039,
+        "nll": 0.5625,
+        "brier": 0.3083,
+        "ece": 0.0893
+      },
+      "llm_route": {
+        "prim": "noul",
+        "n": 296,
+        "accuracy": 0.9392,
+        "nll": 0.2306,
+        "brier": 0.1009,
+        "ece": 0.0453,
+        "ece_yes": 0.0525
+      },
+      "_all": {
+        "n": 1878,
+        "accuracy": 0.8924,
+        "ece": 0.0543
+      }
+    }
+  },
+  "L7_jaggedness": {
+    "negation_sum": {
+      "sums": [
+        0.54,
+        0.499,
+        1.396
+      ],
+      "ideal": 1.0,
+      "mean_abs_gap": 0.452
+    },
+    "counting": {
+      "truth": "4 fruits",
+      "p_yes": {
+        "3": 0.942,
+        "4": 0.965,
+        "5": 0.957
+      },
+      "correct": true
+    },
+    "dates": {
+      "correct": 1,
+      "n": 3
+    },
+    "irrelevant_state": {
+      "clean_accuracy": 1.0,
+      "with_filler_accuracy": 1.0,
+      "n": 15
+    },
+    "contradictory_criteria": {
+      "aligned": 1.0,
+      "swapped": 0.159
+    },
+    "numbers": {
+      "correct": 2,
+      "n": 3
+    },
+    "pass": true
+  },
+  "L8_latency": {
+    "livewire_7_questions_ms_median": 48.9,
+    "single_noul_ms_median": 27.3,
+    "device": "laptop CPU (Intel Core 7 150U)",
+    "jev_reference_ms": "70-500 incl. network (TypeSafe)",
+    "pass": true
+  },
+  "scale": {
+    "L0_L1_contract": true,
+    "L2_competence": true,
+    "L3_zero_shot": false,
+    "L4_calibration": true,
+    "L5_structure": true,
+    "L6_domain": false,
+    "L7_jaggedness": true,
+    "L8_latency": true
+  }
+}

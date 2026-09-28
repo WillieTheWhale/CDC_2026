@@ -1,0 +1,1239 @@
+{
+  "_about": "AI-assisted: researched with ChatGPT (OpenAI); see docs/AI_USAGE.md. This separate 2011 Cifuentes Villa OFAC cohort has no attributed personal drug indictments or convictions. Three designation statuses were checked against the 2026-09-26 OFAC SDN CSV; fourteen historical designees have explicit 2017, 2021, or 2023 individual removal records. Regions intentionally empty: nationality, residence, company address and group reach are not person-specific trafficking-operation evidence. No precise locations/routes or photos.",
+  "organizations": [],
+  "people": [
+    {
+      "id": "alfredo-alvarez-zepeda",
+      "name": "Alfredo Álvarez Zepeda",
+      "aliases": [
+        "Gabino Ontiveros Ríos"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated drug-trafficking liaison between Cifuentes Villa organization and Joaquín Guzmán (checked 2026)",
+      "prominence": 2,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Alfredo Álvarez Zepeda to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Alfredo Álvarez Zepeda in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1077",
+          "title": "Treasury Targets Cocaine Supplier for Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury specifically identifies Alfredo Álvarez Zepeda as drug-trafficking liaison between the Cifuentes Villa organization and Joaquín Guzmán Loera.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "OFAC Specially Designated Nationals List CSV, retrieved 2026-09-26",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "Current OFAC SDN CSV, checked 2026-09-26, still lists Alfredo Álvarez Zepeda under the Kingpin Act; this is a sanctions status, not a criminal conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "alfredo-alvarez-zepeda-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Alfredo Álvarez Zepeda under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Alfredo Álvarez Zepeda to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        }
+      ]
+    },
+    {
+      "id": "marco-tulio-florez-sepulveda",
+      "name": "Marco Tulio Flórez Sepúlveda",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated individual shown in Cifuentes Villa drug-network chart (checked 2026)",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Marco Tulio Flórez Sepúlveda to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Marco Tulio Flórez Sepúlveda in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "OFAC Specially Designated Nationals List CSV, retrieved 2026-09-26",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "Current OFAC SDN CSV, checked 2026-09-26, still lists Marco Tulio Flórez Sepúlveda under the Kingpin Act; this is a sanctions status, not a criminal conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "marco-tulio-florez-sepulveda-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Marco Tulio Flórez Sepúlveda under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Marco Tulio Flórez Sepúlveda to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        }
+      ]
+    },
+    {
+      "id": "david-gomez-ortiz",
+      "name": "David Gómez Ortiz",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated key associate supporting Cifuentes Villa drug activities (checked 2026)",
+      "prominence": 2,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added David Gómez Ortiz to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names David Gómez Ortiz in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1077",
+          "title": "Treasury Targets Cocaine Supplier for Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury specifically names David Gómez Ortiz as a key associate providing material support to Cifuentes Villa’s drug-trafficking activities.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "OFAC Specially Designated Nationals List CSV, retrieved 2026-09-26",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "Current OFAC SDN CSV, checked 2026-09-26, still lists David Gómez Ortiz under the Kingpin Act; this is a sanctions status, not a criminal conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "david-gomez-ortiz-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated David Gómez Ortiz under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added David Gómez Ortiz to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        }
+      ]
+    },
+    {
+      "id": "irma-mery-basto-delgado",
+      "name": "Irma Mery Basto Delgado",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2017-05-09",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in 2017",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Irma Mery Basto Delgado to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Irma Mery Basto Delgado in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20170509",
+          "title": "OFAC SDN List deletions, 2017-05-09",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Irma Mery Basto Delgado from its SDN list on 2017-05-09; the earlier designation is historical only.",
+          "publishedAt": "2017-05-09"
+        }
+      ],
+      "events": [
+        {
+          "id": "irma-mery-basto-delgado-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Irma Mery Basto Delgado under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Irma Mery Basto Delgado to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "irma-mery-basto-delgado-2017-05-09-ofac-designation-removed",
+          "occurredAt": "2017-05-09",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Irma Mery Basto Delgado from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20170509",
+            "title": "OFAC SDN List deletions, 2017-05-09",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Irma Mery Basto Delgado from its SDN list on 2017-05-09; the earlier designation is historical only.",
+            "publishedAt": "2017-05-09"
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-fernando-gonzalez-jaramillo",
+      "name": "Juan Fernando González Jaramillo",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2017-05-09",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in 2017",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Juan Fernando González Jaramillo to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Juan Fernando González Jaramillo in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20170509",
+          "title": "OFAC SDN List deletions, 2017-05-09",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Juan Fernando González Jaramillo from its SDN list on 2017-05-09; the earlier designation is historical only.",
+          "publishedAt": "2017-05-09"
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-fernando-gonzalez-jaramillo-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Juan Fernando González Jaramillo under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Juan Fernando González Jaramillo to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "juan-fernando-gonzalez-jaramillo-2017-05-09-ofac-designation-removed",
+          "occurredAt": "2017-05-09",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Juan Fernando González Jaramillo from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20170509",
+            "title": "OFAC SDN List deletions, 2017-05-09",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Juan Fernando González Jaramillo from its SDN list on 2017-05-09; the earlier designation is historical only.",
+            "publishedAt": "2017-05-09"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ana-maria-uribe-cifuentes",
+      "name": "Ana María Uribe Cifuentes",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2017-05-09",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in 2017",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110921",
+          "title": "Counter narcotics designations",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Ana María Uribe Cifuentes to its Kingpin Act SDN list on 2011-09-21; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-09-21"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20170509",
+          "title": "OFAC SDN List deletions, 2017-05-09",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Ana María Uribe Cifuentes from its SDN list on 2017-05-09; the earlier designation is historical only.",
+          "publishedAt": "2017-05-09"
+        }
+      ],
+      "events": [
+        {
+          "id": "ana-maria-uribe-cifuentes-2011-09-21-ofac-designation",
+          "occurredAt": "2011-09-21",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Ana María Uribe Cifuentes under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110921",
+            "title": "Counter narcotics designations",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Ana María Uribe Cifuentes to its Kingpin Act SDN list on 2011-09-21; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-09-21"
+          }
+        },
+        {
+          "id": "ana-maria-uribe-cifuentes-2017-05-09-ofac-designation-removed",
+          "occurredAt": "2017-05-09",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Ana María Uribe Cifuentes from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20170509",
+            "title": "OFAC SDN List deletions, 2017-05-09",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Ana María Uribe Cifuentes from its SDN list on 2017-05-09; the earlier designation is historical only.",
+            "publishedAt": "2017-05-09"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fabian-rodrigo-gallego-marin",
+      "name": "Fabián Rodrigo Gallego Marín",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2021-11-12",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in 2021",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Fabián Rodrigo Gallego Marín to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Fabián Rodrigo Gallego Marín in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211112",
+          "title": "OFAC SDN List deletions, 2021-11-12",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Fabián Rodrigo Gallego Marín from its SDN list on 2021-11-12; the earlier designation is historical only.",
+          "publishedAt": "2021-11-12"
+        }
+      ],
+      "events": [
+        {
+          "id": "fabian-rodrigo-gallego-marin-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Fabián Rodrigo Gallego Marín under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Fabián Rodrigo Gallego Marín to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "fabian-rodrigo-gallego-marin-2021-11-12-ofac-designation-removed",
+          "occurredAt": "2021-11-12",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Fabián Rodrigo Gallego Marín from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211112",
+            "title": "OFAC SDN List deletions, 2021-11-12",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Fabián Rodrigo Gallego Marín from its SDN list on 2021-11-12; the earlier designation is historical only.",
+            "publishedAt": "2021-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "winston-nicholls-eastman",
+      "name": "Winston Nicholls Eastman",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2021-11-12",
+      "roleLabel": "Former OFAC-designated key associate of Cifuentes Villa; delisted in 2021",
+      "prominence": 2,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Winston Nicholls Eastman to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Winston Nicholls Eastman in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1077",
+          "title": "Treasury Targets Cocaine Supplier for Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury specifically names Winston Nicholls Eastman as a key criminal associate providing material support to Cifuentes Villa’s drug-trafficking activities.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211112",
+          "title": "OFAC SDN List deletions, 2021-11-12",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Winston Nicholls Eastman from its SDN list on 2021-11-12; the earlier designation is historical only.",
+          "publishedAt": "2021-11-12"
+        }
+      ],
+      "events": [
+        {
+          "id": "winston-nicholls-eastman-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Winston Nicholls Eastman under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Winston Nicholls Eastman to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "winston-nicholls-eastman-2021-11-12-ofac-designation-removed",
+          "occurredAt": "2021-11-12",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Winston Nicholls Eastman from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211112",
+            "title": "OFAC SDN List deletions, 2021-11-12",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Winston Nicholls Eastman from its SDN list on 2021-11-12; the earlier designation is historical only.",
+            "publishedAt": "2021-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jorge-andres-cifuentes-osorio",
+      "name": "Jorge Andrés Cifuentes Osorio",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2021-11-12",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in 2021",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Jorge Andrés Cifuentes Osorio to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Jorge Andrés Cifuentes Osorio in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211112",
+          "title": "OFAC SDN List deletions, 2021-11-12",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Jorge Andrés Cifuentes Osorio from its SDN list on 2021-11-12; the earlier designation is historical only.",
+          "publishedAt": "2021-11-12"
+        }
+      ],
+      "events": [
+        {
+          "id": "jorge-andres-cifuentes-osorio-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Jorge Andrés Cifuentes Osorio under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Jorge Andrés Cifuentes Osorio to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "jorge-andres-cifuentes-osorio-2021-11-12-ofac-designation-removed",
+          "occurredAt": "2021-11-12",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Jorge Andrés Cifuentes Osorio from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211112",
+            "title": "OFAC SDN List deletions, 2021-11-12",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Jorge Andrés Cifuentes Osorio from its SDN list on 2021-11-12; the earlier designation is historical only.",
+            "publishedAt": "2021-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "teresa-de-jesus-cifuentes-villa",
+      "name": "Teresa de Jesús Cifuentes Villa",
+      "aliases": [
+        "María Teresa Cifuentes Villa"
+      ],
+      "status": "reported",
+      "statusAsOf": "2021-11-12",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in 2021",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Teresa de Jesús Cifuentes Villa to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Teresa de Jesús Cifuentes Villa in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211112",
+          "title": "OFAC SDN List deletions, 2021-11-12",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Teresa de Jesús Cifuentes Villa from its SDN list on 2021-11-12; the earlier designation is historical only.",
+          "publishedAt": "2021-11-12"
+        }
+      ],
+      "events": [
+        {
+          "id": "teresa-de-jesus-cifuentes-villa-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Teresa de Jesús Cifuentes Villa under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Teresa de Jesús Cifuentes Villa to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "teresa-de-jesus-cifuentes-villa-2021-11-12-ofac-designation-removed",
+          "occurredAt": "2021-11-12",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Teresa de Jesús Cifuentes Villa from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211112",
+            "title": "OFAC SDN List deletions, 2021-11-12",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Teresa de Jesús Cifuentes Villa from its SDN list on 2021-11-12; the earlier designation is historical only.",
+            "publishedAt": "2021-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "edmon-felipe-vargas-cifuentes",
+      "name": "Edmon Felipe Vargas Cifuentes",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2021-11-12",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in 2021",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Edmon Felipe Vargas Cifuentes to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Edmon Felipe Vargas Cifuentes in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211112",
+          "title": "OFAC SDN List deletions, 2021-11-12",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Edmon Felipe Vargas Cifuentes from its SDN list on 2021-11-12; the earlier designation is historical only.",
+          "publishedAt": "2021-11-12"
+        }
+      ],
+      "events": [
+        {
+          "id": "edmon-felipe-vargas-cifuentes-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Edmon Felipe Vargas Cifuentes under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Edmon Felipe Vargas Cifuentes to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "edmon-felipe-vargas-cifuentes-2021-11-12-ofac-designation-removed",
+          "occurredAt": "2021-11-12",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Edmon Felipe Vargas Cifuentes from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211112",
+            "title": "OFAC SDN List deletions, 2021-11-12",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Edmon Felipe Vargas Cifuentes from its SDN list on 2021-11-12; the earlier designation is historical only.",
+            "publishedAt": "2021-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "paula-andrea-vargas-cifuentes",
+      "name": "Paula Andrea Vargas Cifuentes",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2021-11-12",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in 2021",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Paula Andrea Vargas Cifuentes to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Paula Andrea Vargas Cifuentes in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211112",
+          "title": "OFAC SDN List deletions, 2021-11-12",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Paula Andrea Vargas Cifuentes from its SDN list on 2021-11-12; the earlier designation is historical only.",
+          "publishedAt": "2021-11-12"
+        }
+      ],
+      "events": [
+        {
+          "id": "paula-andrea-vargas-cifuentes-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Paula Andrea Vargas Cifuentes under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Paula Andrea Vargas Cifuentes to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "paula-andrea-vargas-cifuentes-2021-11-12-ofac-designation-removed",
+          "occurredAt": "2021-11-12",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Paula Andrea Vargas Cifuentes from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211112",
+            "title": "OFAC SDN List deletions, 2021-11-12",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Paula Andrea Vargas Cifuentes from its SDN list on 2021-11-12; the earlier designation is historical only.",
+            "publishedAt": "2021-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shimon-yalin-yelinek",
+      "name": "Shimon Yalin Yelinek",
+      "aliases": [
+        "Shimon Yelinke"
+      ],
+      "status": "reported",
+      "statusAsOf": "2021-11-12",
+      "roleLabel": "Former OFAC-designated key associate of Cifuentes Villa; delisted in 2021",
+      "prominence": 2,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Shimon Yalin Yelinek to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Shimon Yalin Yelinek in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1077",
+          "title": "Treasury Targets Cocaine Supplier for Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury specifically names Shimon Yelinek among key criminal associates providing material support to Cifuentes Villa’s drug-trafficking activities.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211112",
+          "title": "OFAC SDN List deletions, 2021-11-12",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Shimon Yalin Yelinek from its SDN list on 2021-11-12; the earlier designation is historical only.",
+          "publishedAt": "2021-11-12"
+        }
+      ],
+      "events": [
+        {
+          "id": "shimon-yalin-yelinek-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Shimon Yalin Yelinek under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Shimon Yalin Yelinek to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "shimon-yalin-yelinek-2021-11-12-ofac-designation-removed",
+          "occurredAt": "2021-11-12",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Shimon Yalin Yelinek from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211112",
+            "title": "OFAC SDN List deletions, 2021-11-12",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Shimon Yalin Yelinek from its SDN list on 2021-11-12; the earlier designation is historical only.",
+            "publishedAt": "2021-11-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "carlina-villa-de-cifuentes",
+      "name": "Carlina Villa de Cifuentes",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2023-06-29",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in 2023",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Carlina Villa de Cifuentes to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Carlina Villa de Cifuentes in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20230629",
+          "title": "OFAC SDN List deletions, 2023-06-29",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Carlina Villa de Cifuentes from its SDN list on 2023-06-29; the earlier designation is historical only.",
+          "publishedAt": "2023-06-29"
+        }
+      ],
+      "events": [
+        {
+          "id": "carlina-villa-de-cifuentes-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Carlina Villa de Cifuentes under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Carlina Villa de Cifuentes to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "carlina-villa-de-cifuentes-2023-06-29-ofac-designation-removed",
+          "occurredAt": "2023-06-29",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Carlina Villa de Cifuentes from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20230629",
+            "title": "OFAC SDN List deletions, 2023-06-29",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Carlina Villa de Cifuentes from its SDN list on 2023-06-29; the earlier designation is historical only.",
+            "publishedAt": "2023-06-29"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hector-mario-cifuentes-villa",
+      "name": "Héctor Mario Cifuentes Villa",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2017-08-22",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in August 2017",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Héctor Mario Cifuentes Villa to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Héctor Mario Cifuentes Villa in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20170822",
+          "title": "OFAC SDN List deletions, 2017-08-22",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Héctor Mario Cifuentes Villa from its SDN list on 2017-08-22; the earlier designation is historical only.",
+          "publishedAt": "2017-08-22"
+        }
+      ],
+      "events": [
+        {
+          "id": "hector-mario-cifuentes-villa-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Héctor Mario Cifuentes Villa under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Héctor Mario Cifuentes Villa to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "hector-mario-cifuentes-villa-2017-08-22-ofac-designation-removed",
+          "occurredAt": "2017-08-22",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Héctor Mario Cifuentes Villa from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20170822",
+            "title": "OFAC SDN List deletions, 2017-08-22",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Héctor Mario Cifuentes Villa from its SDN list on 2017-08-22; the earlier designation is historical only.",
+            "publishedAt": "2017-08-22"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jaime-alberto-roll-cifuentes",
+      "name": "Jaime Alberto Roll Cifuentes",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2023-10-31",
+      "roleLabel": "Former OFAC-designated key Cifuentes Villa drug-network associate; delisted in October 2023",
+      "prominence": 2,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added Jaime Alberto Roll Cifuentes to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names Jaime Alberto Roll Cifuentes in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1077",
+          "title": "Treasury Targets Cocaine Supplier for Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury individually identifies Jaime Alberto Roll Cifuentes as a key criminal associate who provided material support to Cifuentes Villa trafficking activities.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20231031",
+          "title": "OFAC SDN List deletions, 2023-10-31",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Jaime Alberto Roll Cifuentes from its SDN list on 2023-10-31; the earlier designation is historical only.",
+          "publishedAt": "2023-10-31"
+        }
+      ],
+      "events": [
+        {
+          "id": "jaime-alberto-roll-cifuentes-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated Jaime Alberto Roll Cifuentes under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added Jaime Alberto Roll Cifuentes to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "jaime-alberto-roll-cifuentes-2023-10-31-ofac-designation-removed",
+          "occurredAt": "2023-10-31",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted Jaime Alberto Roll Cifuentes from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20231031",
+            "title": "OFAC SDN List deletions, 2023-10-31",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Jaime Alberto Roll Cifuentes from its SDN list on 2023-10-31; the earlier designation is historical only.",
+            "publishedAt": "2023-10-31"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-luis-gomez-piqueras",
+      "name": "José Luis Gómez Piqueras",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2023-10-31",
+      "roleLabel": "Former OFAC-designated Cifuentes Villa network associate; delisted in October 2023",
+      "prominence": 3,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually added José Luis Gómez Piqueras to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/archive-documents/CIFUENTES-VILLA-linked-individuals.pdf",
+          "title": "Cifuentes Villa Drug Trafficking Organization: linked individuals",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC’s 2011 designation chart names José Luis Gómez Piqueras in the Cifuentes Villa network; the chart is historical and does not establish an individual conviction.",
+          "publishedAt": "2011-02"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20231031",
+          "title": "OFAC SDN List deletions, 2023-10-31",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted José Luis Gómez Piqueras from its SDN list on 2023-10-31; the earlier designation is historical only.",
+          "publishedAt": "2023-10-31"
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-luis-gomez-piqueras-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC designated José Luis Gómez Piqueras under the Kingpin Act; this is a sanctions action, not a criminal verdict.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually added José Luis Gómez Piqueras to its Kingpin Act SDN list on 2011-02-23; this designation by itself is not a personal drug charge or conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "jose-luis-gomez-piqueras-2023-10-31-ofac-designation-removed",
+          "occurredAt": "2023-10-31",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC deleted José Luis Gómez Piqueras from its SDN list. No personal criminal disposition is inferred.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20231031",
+            "title": "OFAC SDN List deletions, 2023-10-31",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted José Luis Gómez Piqueras from its SDN list on 2023-10-31; the earlier designation is historical only.",
+            "publishedAt": "2023-10-31"
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "cifuentes-alfredo-chapo-liaison",
+      "fromId": "alfredo-alvarez-zepeda",
+      "toId": "joaquin-guzman-loera",
+      "type": "associate",
+      "label": "Drug-trafficking liaison to Guzmán",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1077",
+          "title": "Treasury Targets Cocaine Supplier for Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury specifically says Alfredo Álvarez Zepeda acted as drug-trafficking liaison between the Cifuentes Villa organization and Joaquín Guzmán Loera.",
+          "publishedAt": "2011-02-23"
+        }
+      ]
+    }
+  ]
+}

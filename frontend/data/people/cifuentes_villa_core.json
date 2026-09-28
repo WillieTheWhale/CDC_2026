@@ -1,0 +1,660 @@
+{
+  "_about": "AI-assisted: researched with ChatGPT (OpenAI); see docs/AI_USAGE.md. Cifuentes Villa core compiled 2026-09-26 from cited DOJ, Treasury, OFAC, Colombian Fiscalía, and courtroom reporting. Criminal status is individual and time-bound. No precise locations/routes or unlicensed photos.",
+  "organizations": [
+    {
+      "id": "cifuentes-villa-dto",
+      "name": "Cifuentes Villa Drug Trafficking Organization",
+      "regions": [
+        "COL",
+        "MEX"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1077",
+          "title": "Treasury Targets Cocaine Supplier for Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies the organization headed by Jorge Milton Cifuentes Villa, allied with the Sinaloa Cartel, and describes historical Colombia and Mexico operations.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+          "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ names the Cifuentes Villa drug trafficking organization and its charged defendants. Charges remain allegations unless later disposition is separately sourced.",
+          "publishedAt": "2012-08-09"
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "jorge-milton-cifuentes-villa",
+      "name": "Jorge Milton Cifuentes Villa",
+      "aliases": [
+        "Jota",
+        "Elkin de Jesús López Salazar"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2018-12-11",
+      "roleLabel": "Cifuentes Villa trafficking organization leader; U.S. guilty plea acknowledged in court; OFAC delisted in 2021",
+      "prominence": 1,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ specifically alleges Cifuentes Villa, with Dolly, conspired to import cocaine from Colombia; this is a historical trafficking association, not a claim about current or physical location.",
+            "period": "2008–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html"
+          }
+        },
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "The Los Angeles Times reported Jorge Cifuentes testified to historically trafficking cocaine in Mexico and later resuming the drug business there with Guzmán; this is not a current location.",
+            "period": "1990s–2000s",
+            "sourceUrl": "https://www.latimes.com/nation/la-na-el-chapo-sean-penn-20181211-story.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1077",
+          "title": "Treasury Targets Cocaine Supplier for Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies Jorge Milton Cifuentes Villa as the head of the drug trafficking organization and reports his 2010 U.S. indictment.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+          "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ names Jorge Milton Cifuentes Villa among five people charged in the Cifuentes Villa organization case in South Florida, and as Dolly’s brother and co-defendant. These were allegations at filing.",
+          "publishedAt": "2012-08-09"
+        },
+        {
+          "url": "https://www.revistaraya.com/la-narcofortuna-de-dolly-cifuentes-y-ana-maria-uribe-cunada-y-sobrina-del-expresidente-uribe-procesadas-en-ee-uu-por-narcotrafico.html",
+          "title": "La narcofortuna de Dolly Cifuentes y Ana María Uribe",
+          "publisher": "Revista RAYA",
+          "language": "es",
+          "claim": "RAYA quotes Jorge Milton Cifuentes Villa’s October 2022 Colombian asset-forfeiture declaration that he pleaded guilty to all charges in each U.S. federal court; RAYA reports the three leading siblings accepted culpability. This source does not give a U.S. sentence date.",
+          "publishedAt": "2025-08-21"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC designated Jorge Milton Cifuentes Villa under the Kingpin Act on 23 February 2011.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211112",
+          "title": "OFAC SDN List deletions, 2021-11-12",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly removed Jorge Milton Cifuentes Villa and his aliases from the SDN list on 12 November 2021; the 2011 designation is historical.",
+          "publishedAt": "2021-11-12"
+        },
+        {
+          "url": "https://www.latimes.com/nation/la-na-el-chapo-sean-penn-20181211-story.html",
+          "title": "Jurors finally hear from El Chapo in Sean Penn interview",
+          "publisher": "Los Angeles Times",
+          "language": "en",
+          "claim": "Los Angeles Times reporter present at the December 2018 Guzmán trial quotes Jorge Cifuentes acknowledging his guilty plea in court, and reports his historical cocaine trafficking in Colombia and Mexico.",
+          "publishedAt": "2018-12-11"
+        }
+      ],
+      "events": [
+        {
+          "id": "jorge-milton-cifuentes-villa-2010-11-04-u-s-charges-filed",
+          "occurredAt": "2010-11-04",
+          "type": "charge",
+          "title": "U.S. charges filed",
+          "summary": "DOJ reports that Jorge Milton Cifuentes Villa was charged in the organization case; the indictment was an accusation.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+            "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "claim": "DOJ names Jorge Milton Cifuentes Villa among five people charged in the Cifuentes Villa organization case in South Florida, and as Dolly’s brother and co-defendant. These were allegations at filing.",
+            "publishedAt": "2012-08-09"
+          }
+        },
+        {
+          "id": "jorge-milton-cifuentes-villa-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC added Cifuentes Villa to the SDN list under the Kingpin Act.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually lists his 23 February 2011 designation.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "jorge-milton-cifuentes-villa-2021-11-12-ofac-designation-removed",
+          "occurredAt": "2021-11-12",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC removed Cifuentes Villa from the SDN list; this does not resolve the separate criminal case.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211112",
+            "title": "OFAC SDN List deletions, 2021-11-12",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly removed Jorge Milton Cifuentes Villa and his aliases from the SDN list on 12 November 2021; the 2011 designation is historical.",
+            "publishedAt": "2021-11-12"
+          }
+        },
+        {
+          "id": "jorge-milton-cifuentes-villa-2018-12-11-guilty-plea-acknowledged-in-court",
+          "occurredAt": "2018-12-11",
+          "type": "development",
+          "title": "Guilty plea acknowledged in court",
+          "summary": "A Los Angeles Times reporter quoted Cifuentes acknowledging his earlier guilty plea during the Guzmán trial; the exact plea date and sentence are not established here.",
+          "source": {
+            "url": "https://www.latimes.com/nation/la-na-el-chapo-sean-penn-20181211-story.html",
+            "title": "Jurors finally hear from El Chapo in Sean Penn interview",
+            "publisher": "Los Angeles Times",
+            "language": "en",
+            "claim": "Los Angeles Times reporter present at the December 2018 Guzmán trial quotes Jorge Cifuentes acknowledging his guilty plea in court, and reports his historical cocaine trafficking in Colombia and Mexico.",
+            "publishedAt": "2018-12-11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dolly-de-jesus-cifuentes-villa",
+      "name": "Dolly de Jesús Cifuentes Villa",
+      "aliases": [
+        "La Menor"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2014-01-22",
+      "roleLabel": "Cifuentes Villa cocaine conspirator sentenced in U.S. court; OFAC delisted in 2017",
+      "prominence": 1,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "DOJ specifically alleges Dolly Cifuentes Villa conspired with Jorge to import cocaine from Colombia; this is historical network activity, not a claim of physical presence.",
+            "period": "2008–2011",
+            "sourceUrl": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html"
+          }
+        },
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "DOJ specifically alleges Dolly and Jorge attempted to send cocaine to Mexico; this is a historical operational association, not current location.",
+            "period": "2009",
+            "sourceUrl": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+          "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ says Dolly de Jesús Cifuentes Villa, Jorge’s sister and co-defendant, was charged with cocaine importation and distribution conspiracies and extradited in August 2012; charges at filing were allegations.",
+          "publishedAt": "2012-08-09"
+        },
+        {
+          "url": "https://www.elpais.com.co/judicial/excunada-de-alvaro-uribe-fue-condenada-por-narcotrafico-en-estados-unidos.html",
+          "title": "Excuñada de Álvaro Uribe fue condenada por narcotráfico en Estados Unidos",
+          "publisher": "El País (Cali) / AP",
+          "language": "es",
+          "claim": "El País/AP reports a federal judge sentenced Dolly de Jesús Cifuentes Villa on 21 January 2014 to four years and nine months for one cocaine-conspiracy count, with four other counts withdrawn.",
+          "publishedAt": "2014-01-22"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC designated Dolly de Jesús Cifuentes Villa under the Kingpin Act on 23 February 2011.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20170509",
+          "title": "OFAC SDN List deletions, 2017-05-09",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Dolly de Jesús Cifuentes Villa from its SDN list on 9 May 2017.",
+          "publishedAt": "2017-05-09"
+        }
+      ],
+      "events": [
+        {
+          "id": "dolly-de-jesus-cifuentes-villa-2010-11-04-u-s-charges-filed",
+          "occurredAt": "2010-11-04",
+          "type": "charge",
+          "title": "U.S. charges filed",
+          "summary": "DOJ reports Dolly Cifuentes Villa was charged with cocaine offenses; charges were allegations.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+            "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "claim": "DOJ says Dolly de Jesús Cifuentes Villa, Jorge’s sister and co-defendant, was charged with cocaine importation and distribution conspiracies and extradited in August 2012; charges at filing were allegations.",
+            "publishedAt": "2012-08-09"
+          }
+        },
+        {
+          "id": "dolly-de-jesus-cifuentes-villa-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC added Dolly Cifuentes Villa to the SDN list.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually lists her 2011 designation.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "dolly-de-jesus-cifuentes-villa-2012-08-09-extradition-publicly-reported",
+          "occurredAt": "2012-08-09",
+          "type": "development",
+          "title": "Extradition publicly reported",
+          "summary": "DOJ reported her extradition and initial appearance.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+            "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "claim": "DOJ says Dolly de Jesús Cifuentes Villa, Jorge’s sister and co-defendant, was charged with cocaine importation and distribution conspiracies and extradited in August 2012; charges at filing were allegations.",
+            "publishedAt": "2012-08-09"
+          }
+        },
+        {
+          "id": "dolly-de-jesus-cifuentes-villa-2014-01-22-cocaine-conspiracy-sentence-reported",
+          "occurredAt": "2014-01-22",
+          "type": "sentence",
+          "title": "Cocaine-conspiracy sentence reported",
+          "summary": "El País/AP reported a four-year, nine-month sentence for one cocaine-conspiracy count; four other counts were withdrawn.",
+          "source": {
+            "url": "https://www.elpais.com.co/judicial/excunada-de-alvaro-uribe-fue-condenada-por-narcotrafico-en-estados-unidos.html",
+            "title": "Excuñada de Álvaro Uribe fue condenada por narcotráfico en Estados Unidos",
+            "publisher": "El País (Cali) / AP",
+            "language": "es",
+            "claim": "El País/AP reports a federal judge sentenced Dolly de Jesús Cifuentes Villa on 21 January 2014 to four years and nine months for one cocaine-conspiracy count, with four other counts withdrawn.",
+            "publishedAt": "2014-01-22"
+          }
+        },
+        {
+          "id": "dolly-de-jesus-cifuentes-villa-2017-05-09-ofac-designation-removed",
+          "occurredAt": "2017-05-09",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC removed Dolly Cifuentes Villa from its SDN list.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20170509",
+            "title": "OFAC SDN List deletions, 2017-05-09",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Dolly de Jesús Cifuentes Villa from its SDN list on 9 May 2017.",
+            "publishedAt": "2017-05-09"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hildebrando-alexander-cifuentes-villa",
+      "name": "Hildebrando Alexander Cifuentes Villa",
+      "aliases": [
+        "Alex"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2019-02-11",
+      "roleLabel": "Cifuentes Villa and Guzmán associate; U.S. drug-conspiracy guilty plea reported in 2019; OFAC delisted in 2023",
+      "prominence": 1,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [
+        {
+          "iso3": "MEX",
+          "label": "Mexico",
+          "evidence": {
+            "claim": "VICE reported Cifuentes testified to personally negotiating cocaine business with Guzmán in Mexico and later working with him there; this is historical operation, not a present location.",
+            "period": "2002–2013",
+            "sourceUrl": "https://www.vice.com/en/article/a-key-witness-against-chapo-believes-in-aliens-the-illuminati-and-witchcraft/"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+          "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ names Hildebrando Alexander Cifuentes Villa among the five people charged in the Cifuentes Villa organization case in South Florida; indictment allegations are not a conviction.",
+          "publishedAt": "2012-08-09"
+        },
+        {
+          "url": "https://www.revistaraya.com/la-narcofortuna-de-dolly-cifuentes-y-ana-maria-uribe-cunada-y-sobrina-del-expresidente-uribe-procesadas-en-ee-uu-por-narcotrafico.html",
+          "title": "La narcofortuna de Dolly Cifuentes y Ana María Uribe",
+          "publisher": "Revista RAYA",
+          "language": "es",
+          "claim": "RAYA identifies Hildebrando Alexander Cifuentes Villa as Jorge and Dolly’s brother, reports that the three accepted culpability in U.S. proceedings, and describes Hildebrando’s historical role as a close Guzmán associate. It gives no exact U.S. sentence date.",
+          "publishedAt": "2025-08-21"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC designated Hildebrando Alexander Cifuentes Villa on 23 February 2011.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20230629",
+          "title": "OFAC SDN List deletions, 2023-06-29",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly removed Hildebrando Alexander Cifuentes Villa and his Alex alias from the SDN list on 29 June 2023.",
+          "publishedAt": "2023-06-29"
+        },
+        {
+          "url": "https://www.vice.com/en/article/a-key-witness-against-chapo-believes-in-aliens-the-illuminati-and-witchcraft/",
+          "title": "A key witness against Chapo believes in aliens, the Illuminati, and witchcraft",
+          "publisher": "VICE News",
+          "language": "en",
+          "claim": "VICE reported Hildebrando Alexander “Alex” Cifuentes Villa testified about working with Joaquín Guzmán in Mexico on cocaine trafficking and that he had pleaded guilty to a U.S. drug conspiracy charge before February 2019.",
+          "publishedAt": "2019-02-11"
+        }
+      ],
+      "events": [
+        {
+          "id": "hildebrando-alexander-cifuentes-villa-2010-11-04-u-s-charges-filed",
+          "occurredAt": "2010-11-04",
+          "type": "charge",
+          "title": "U.S. charges filed",
+          "summary": "DOJ lists Hildebrando among charged Cifuentes Villa defendants; the indictment was an allegation.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+            "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "claim": "DOJ names Hildebrando Alexander Cifuentes Villa among the five people charged in the Cifuentes Villa organization case in South Florida; indictment allegations are not a conviction.",
+            "publishedAt": "2012-08-09"
+          }
+        },
+        {
+          "id": "hildebrando-alexander-cifuentes-villa-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC added Hildebrando to the SDN list.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually lists his 2011 designation.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "hildebrando-alexander-cifuentes-villa-2023-06-29-ofac-designation-removed",
+          "occurredAt": "2023-06-29",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC removed Hildebrando from the SDN list.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20230629",
+            "title": "OFAC SDN List deletions, 2023-06-29",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly removed Hildebrando Alexander Cifuentes Villa and his Alex alias from the SDN list on 29 June 2023.",
+            "publishedAt": "2023-06-29"
+          }
+        },
+        {
+          "id": "hildebrando-alexander-cifuentes-villa-2019-02-11-drug-guilty-plea-publicly-documented",
+          "occurredAt": "2019-02-11",
+          "type": "development",
+          "title": "Drug guilty plea publicly documented",
+          "summary": "VICE reported Cifuentes had pleaded guilty to a U.S. drug conspiracy charge before its February 2019 account; the exact plea date and sentence are not established here.",
+          "source": {
+            "url": "https://www.vice.com/en/article/a-key-witness-against-chapo-believes-in-aliens-the-illuminati-and-witchcraft/",
+            "title": "A key witness against Chapo believes in aliens, the Illuminati, and witchcraft",
+            "publisher": "VICE News",
+            "language": "en",
+            "claim": "VICE reported Hildebrando Alexander “Alex” Cifuentes Villa testified about working with Joaquín Guzmán in Mexico on cocaine trafficking and that he had pleaded guilty to a U.S. drug conspiracy charge before February 2019.",
+            "publishedAt": "2019-02-11"
+          }
+        }
+      ]
+    },
+    {
+      "id": "otto-javier-garcia-giron",
+      "name": "Otto Javier García Girón",
+      "aliases": [
+        "Xavier Otto García Girón"
+      ],
+      "status": "charged",
+      "statusAsOf": "2012-08-09",
+      "roleLabel": "Cifuentes Villa co-defendant charged in U.S. narcotics and money-laundering case; later outcome unverified",
+      "prominence": 2,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+          "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ individually names Otto Javier García Girón as one of five charged defendants in the Cifuentes Villa drug-trafficking and money-laundering case. The release does not establish a later disposition.",
+          "publishedAt": "2012-08-09"
+        }
+      ],
+      "events": [
+        {
+          "id": "otto-javier-garcia-giron-2012-08-09-pending-u-s-charges-publicly-detailed",
+          "occurredAt": "2012-08-09",
+          "type": "development",
+          "title": "Pending U.S. charges publicly detailed",
+          "summary": "DOJ named García Girón among charged defendants in the Cifuentes Villa case; no conviction is asserted.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+            "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "claim": "DOJ individually names Otto Javier García Girón as one of five charged defendants in the Cifuentes Villa drug-trafficking and money-laundering case. The release does not establish a later disposition.",
+            "publishedAt": "2012-08-09"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lucia-ines-cifuentes-villa",
+      "name": "Lucía Inés Cifuentes Villa",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2014-09-03",
+      "roleLabel": "Cifuentes Villa cocaine-network member sentenced by a Colombian court; OFAC delisted in 2021",
+      "prominence": 2,
+      "organizationIds": [
+        "cifuentes-villa-dto"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "The Fiscalía specifically identifies Lucía Inés Cifuentes Villa as a convicted member of a cocaine network that exported from Colombia; this is historical operation, not current presence.",
+            "period": "by 2014",
+            "sourceUrl": "https://www.fiscalia.gov.co/colombia/en/?p=34160"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.fiscalia.gov.co/colombia/en/?p=34160",
+          "title": "First conviction for a Colombian woman who was collaborating with Sinaloa cartel",
+          "publisher": "Fiscalía General de la Nación",
+          "language": "en",
+          "claim": "Colombian Fiscalía says a court sentenced Lucía Inés Cifuentes Villa to eleven years and six months after a plea agreement for membership in a cocaine-trafficking network operating from Colombia, Ecuador and Mexico toward the United States.",
+          "publishedAt": "2014-09-03"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110223",
+          "title": "Kingpin Act designations of Cifuentes Villa network",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC individually designated Lucía Inés Cifuentes Villa under the Kingpin Act on 23 February 2011; this sanctions action alone is not a conviction.",
+          "publishedAt": "2011-02-23"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211112",
+          "title": "OFAC SDN List deletions, 2021-11-12",
+          "publisher": "U.S. Treasury / OFAC",
+          "language": "en",
+          "claim": "OFAC expressly deleted Lucía Inés Cifuentes Villa from its SDN list on 12 November 2021; her 2011 designation is historical.",
+          "publishedAt": "2021-11-12"
+        }
+      ],
+      "events": [
+        {
+          "id": "lucia-ines-cifuentes-villa-2011-02-23-ofac-designation",
+          "occurredAt": "2011-02-23",
+          "type": "sanction",
+          "title": "OFAC designation",
+          "summary": "OFAC added Lucía Inés Cifuentes Villa to its Kingpin Act SDN list.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110223",
+            "title": "Kingpin Act designations of Cifuentes Villa network",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC individually designated Lucía Inés Cifuentes Villa under the Kingpin Act on 23 February 2011; this sanctions action alone is not a conviction.",
+            "publishedAt": "2011-02-23"
+          }
+        },
+        {
+          "id": "lucia-ines-cifuentes-villa-2014-09-03-colombian-cocaine-network-sentence-reported",
+          "occurredAt": "2014-09-03",
+          "type": "sentence",
+          "title": "Colombian cocaine-network sentence reported",
+          "summary": "The Fiscalía reported an eleven-year, six-month sentence after a plea agreement for drug-trafficking conspiracy.",
+          "source": {
+            "url": "https://www.fiscalia.gov.co/colombia/en/?p=34160",
+            "title": "First conviction for a Colombian woman who was collaborating with Sinaloa cartel",
+            "publisher": "Fiscalía General de la Nación",
+            "language": "en",
+            "claim": "Colombian Fiscalía says a court sentenced Lucía Inés Cifuentes Villa to eleven years and six months after a plea agreement for membership in a cocaine-trafficking network operating from Colombia, Ecuador and Mexico toward the United States.",
+            "publishedAt": "2014-09-03"
+          }
+        },
+        {
+          "id": "lucia-ines-cifuentes-villa-2021-11-12-ofac-designation-removed",
+          "occurredAt": "2021-11-12",
+          "type": "development",
+          "title": "OFAC designation removed",
+          "summary": "OFAC removed Lucía Inés Cifuentes Villa from the SDN list; her criminal sentence is a separate matter.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211112",
+            "title": "OFAC SDN List deletions, 2021-11-12",
+            "publisher": "U.S. Treasury / OFAC",
+            "language": "en",
+            "claim": "OFAC expressly deleted Lucía Inés Cifuentes Villa from its SDN list on 12 November 2021; her 2011 designation is historical.",
+            "publishedAt": "2021-11-12"
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "cifuentes-jorge-dolly-siblings",
+      "fromId": "jorge-milton-cifuentes-villa",
+      "toId": "dolly-de-jesus-cifuentes-villa",
+      "type": "family",
+      "label": "Siblings and co-defendants",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+          "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ expressly calls Jorge Milton Cifuentes Villa Dolly’s brother and co-defendant.",
+          "publishedAt": "2012-08-09"
+        }
+      ]
+    },
+    {
+      "id": "cifuentes-hilde-jorge-siblings",
+      "fromId": "hildebrando-alexander-cifuentes-villa",
+      "toId": "jorge-milton-cifuentes-villa",
+      "type": "family",
+      "label": "Brothers in the Cifuentes Villa organization",
+      "sources": [
+        {
+          "url": "https://www.vice.com/en/article/a-key-witness-against-chapo-believes-in-aliens-the-illuminati-and-witchcraft/",
+          "title": "A key witness against Chapo believes in aliens, the Illuminati, and witchcraft",
+          "publisher": "VICE News",
+          "language": "en",
+          "claim": "VICE expressly calls Jorge the older brother of Hildebrando Alexander “Alex” Cifuentes Villa and describes their joint trafficking partnership with Guzmán.",
+          "publishedAt": "2019-02-11"
+        }
+      ]
+    },
+    {
+      "id": "cifuentes-jorge-chapo-codefendants",
+      "fromId": "jorge-milton-cifuentes-villa",
+      "toId": "joaquin-guzman-loera",
+      "type": "co_defendants",
+      "label": "Named together in U.S. Cifuentes Villa indictment",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/fls/PressReleases/2012/120809-01.html",
+          "title": "Alleged International Narcotics Trafficker Extradited From Colombia on Cocaine Importation Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ explicitly names Jorge Milton Cifuentes Villa and Joaquín Guzmán Loera among defendants in the same South Florida Cifuentes Villa case.",
+          "publishedAt": "2012-08-09"
+        }
+      ]
+    }
+  ]
+}

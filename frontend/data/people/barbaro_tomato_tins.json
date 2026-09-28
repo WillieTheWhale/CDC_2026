@@ -1,0 +1,1143 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from individual CDPP sentencing entries and a Royal Commission operations exhibit. The CDPP 2015 list is a historical legal snapshot; later appeal outcomes are cited where checked. Roles and drugs follow individual exhibit categories; money-laundering or precursor defendants are not assumed to have trafficked MDMA. Australia is a source-backed historical operating association, not a live location. No inferred personal edges, unlicensed portraits, operational routes, or enforcement gaps. The 23 existing Australia country associations were audited against each individually named Royal Commission operation entry on 2026-09-26 and now carry claim-specific evidence; association to the Australian case does not assert physical presence.",
+  "organizations": [
+    {
+      "id": "barbaro-tomato-tins-syndicate",
+      "name": "Pasquale Barbaro trafficking syndicate",
+      "aliases": [
+        "Tomato tins syndicate",
+        "Operation Bootham/Moko / Inca network"
+      ],
+      "regions": [
+        "AUS"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP describes a sophisticated international drug trafficking syndicate led by Pasquale Barbaro and prosecuted in Australia.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "The exhibit distinguishes the core 2007 MDMA conspiracy from later MDMA trafficking, money laundering, cocaine and precursor prosecutions associated with the Barbaro syndicate."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "pasquale-barbaro-tomato-tins",
+      "name": "Pasquale Barbaro",
+      "status": "convicted",
+      "statusAsOf": "2012-02-23",
+      "roleLabel": "Head of the Australian MDMA trafficking syndicate; convicted",
+      "prominence": 1,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Barbaro as a head of the syndicate that supplied MDMA to Australian traffickers and took part in the Australian importation, cocaine, and precursor cases.",
+            "period": "2007–2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA",
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Pasquale Barbaro among the convicted syndicate members and records a sentence of life imprisonment, 30-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Pasquale Barbaro: The Royal Commission exhibit names Barbaro and Zirilli as the syndicate heads who supplied the downstream traffickers."
+        },
+        {
+          "url": "https://www.cdpp.gov.au/system/files/CDPP-Annual-Report-2011-2012.pdf",
+          "title": "Commonwealth Director of Public Prosecutions Annual Report 2011–2012",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "The CDPP annual report records Pasquale Barbaro’s conviction and life imprisonment with a 30-year non-parole period sentence on 23 February 2012."
+        }
+      ],
+      "events": [
+        {
+          "id": "pasquale-barbaro-tomato-tins-2012-02-23-sentence",
+          "occurredAt": "2012-02-23",
+          "type": "sentence",
+          "title": "Sentenced in the MDMA and cocaine case",
+          "summary": "The Supreme Court of Victoria sentenced Pasquale Barbaro to life imprisonment with a 30-year non-parole period; the CDPP annual report records the outcome.",
+          "source": {
+            "url": "https://www.cdpp.gov.au/system/files/CDPP-Annual-Report-2011-2012.pdf",
+            "title": "Commonwealth Director of Public Prosecutions Annual Report 2011–2012",
+            "publisher": "Commonwealth Director of Public Prosecutions",
+            "language": "en",
+            "claim": "The CDPP annual report records Pasquale Barbaro’s conviction and life imprisonment with a 30-year non-parole period sentence on 23 February 2012."
+          }
+        }
+      ]
+    },
+    {
+      "id": "saverio-zirilli-tomato-tins",
+      "name": "Saverio Zirilli",
+      "status": "convicted",
+      "statusAsOf": "2012-02-23",
+      "roleLabel": "Convicted senior associate and close trusted aide of syndicate leader Barbaro",
+      "prominence": 1,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Zirilli as a head of the syndicate that supplied MDMA to Australian traffickers and took part in Australian importation and cocaine cases.",
+            "period": "2007–2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA",
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Saverio Zirilli among the convicted syndicate members and records a sentence of 26 years, 18-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Saverio Zirilli: The Royal Commission exhibit names Barbaro and Zirilli as the syndicate heads who supplied the downstream traffickers."
+        },
+        {
+          "url": "https://www.cdpp.gov.au/system/files/CDPP-Annual-Report-2011-2012.pdf",
+          "title": "Commonwealth Director of Public Prosecutions Annual Report 2011–2012",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "The CDPP annual report records Saverio Zirilli’s conviction and 26 years with an 18-year non-parole period sentence on 23 February 2012."
+        }
+      ],
+      "events": [
+        {
+          "id": "saverio-zirilli-tomato-tins-2012-02-23-sentence",
+          "occurredAt": "2012-02-23",
+          "type": "sentence",
+          "title": "Sentenced in the MDMA and cocaine case",
+          "summary": "The Supreme Court of Victoria sentenced Saverio Zirilli to 26 years with an 18-year non-parole period; the CDPP annual report records the outcome.",
+          "source": {
+            "url": "https://www.cdpp.gov.au/system/files/CDPP-Annual-Report-2011-2012.pdf",
+            "title": "Commonwealth Director of Public Prosecutions Annual Report 2011–2012",
+            "publisher": "Commonwealth Director of Public Prosecutions",
+            "language": "en",
+            "claim": "The CDPP annual report records Saverio Zirilli’s conviction and 26 years with an 18-year non-parole period sentence on 23 February 2012."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rob-karam-tomato-tins",
+      "name": "Rob Karam",
+      "status": "convicted",
+      "statusAsOf": "2015-06-23",
+      "roleLabel": "Convicted MDMA conspiracy participant and downstream trafficker",
+      "prominence": 1,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Karam in the Australian MDMA conspiracy and trafficking, cocaine, and precursor cases.",
+            "period": "2007–2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA",
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Rob Karam among the convicted syndicate members and records a sentence of 19 years, 15-year non-parole as of February 2015.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Rob Karam: The Royal Commission exhibit names this person among the convicted core MDMA co-conspirators and downstream MDMA traffickers."
+        },
+        {
+          "url": "https://www.cdpp.gov.au/news/senior-drug-criminal-lands-another-18-years-gaol",
+          "title": "Senior drug criminal lands another 18 years in gaol",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP reports Karam received an additional 18-year sentence on 23 June 2015 for MDMA trafficking, cocaine possession conspiracy and precursor-importation conspiracy, bringing his total effective sentence to 37 years.",
+          "publishedAt": "2015-06-23"
+        }
+      ],
+      "events": [
+        {
+          "id": "rob-karam-2015-06-23-sentence",
+          "occurredAt": "2015-06-23",
+          "type": "sentence",
+          "title": "Additional sentence brings total to 37 years",
+          "summary": "CDPP reports an additional 18-year sentence for drug trafficking and related conspiracy counts, bringing Karam’s total effective sentence to 37 years.",
+          "source": {
+            "url": "https://www.cdpp.gov.au/news/senior-drug-criminal-lands-another-18-years-gaol",
+            "title": "Senior drug criminal lands another 18 years in gaol",
+            "publisher": "Commonwealth Director of Public Prosecutions",
+            "language": "en",
+            "claim": "CDPP reports Karam received an additional 18-year sentence on 23 June 2015 for MDMA trafficking, cocaine possession conspiracy and precursor-importation conspiracy, bringing his total effective sentence to 37 years.",
+            "publishedAt": "2015-06-23"
+          }
+        }
+      ]
+    },
+    {
+      "id": "carmelo-falanga-tomato-tins",
+      "name": "Carmelo Falanga",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted core MDMA conspiracy participant",
+      "prominence": 2,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Carmelo Falanga among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Carmelo Falanga among the convicted syndicate members and records a sentence of 23 years, 16.5-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Carmelo Falanga: The Royal Commission exhibit individually names this person among eight convicted core MDMA co-conspirators."
+        }
+      ]
+    },
+    {
+      "id": "john-higgs-tomato-tins",
+      "name": "John Higgs",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted core MDMA conspiracy participant",
+      "prominence": 2,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names John Higgs among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists John Higgs among the convicted syndicate members and records a sentence of 18 years, 14-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "John Higgs: The Royal Commission exhibit individually names this person among eight convicted core MDMA co-conspirators."
+        }
+      ]
+    },
+    {
+      "id": "jan-visser-tomato-tins",
+      "name": "Jan Visser",
+      "status": "convicted",
+      "statusAsOf": "2020-12-18",
+      "roleLabel": "Convicted core MDMA conspiracy participant",
+      "prominence": 2,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Jan Visser among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Jan Visser among the convicted syndicate members and records a sentence of 11 years, 8-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Jan Visser: The Royal Commission exhibit individually names this person among eight convicted core MDMA co-conspirators."
+        },
+        {
+          "url": "https://www.supremecourt.vic.gov.au/sites/default/files/2020-12/Summary%20of%20Judgment%20-%20Visser%20v%20R%20%5B2020%5D%20VSCA%20327.pdf",
+          "title": "Summary of Judgment: Visser v R [2020] VSCA 327",
+          "publisher": "Supreme Court of Victoria",
+          "language": "en",
+          "claim": "The Court of Appeal dismissed Visser’s appeal against his MDMA conspiracy conviction in December 2020.",
+          "publishedAt": "2020-12-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "jan-visser-2020-12-18-development",
+          "occurredAt": "2020-12-18",
+          "type": "development",
+          "title": "Conviction appeal dismissed",
+          "summary": "The Victorian Court of Appeal dismissed Visser’s appeal against his MDMA conspiracy conviction.",
+          "source": {
+            "url": "https://www.supremecourt.vic.gov.au/sites/default/files/2020-12/Summary%20of%20Judgment%20-%20Visser%20v%20R%20%5B2020%5D%20VSCA%20327.pdf",
+            "title": "Summary of Judgment: Visser v R [2020] VSCA 327",
+            "publisher": "Supreme Court of Victoria",
+            "language": "en",
+            "claim": "The Court of Appeal dismissed Visser’s appeal against his MDMA conspiracy conviction in December 2020.",
+            "publishedAt": "2020-12-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "salvatore-agresta-tomato-tins",
+      "name": "Salvatore Agresta",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted MDMA conspiracy participant and downstream trafficker",
+      "prominence": 2,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Salvatore Agresta among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Salvatore Agresta among the convicted syndicate members and records a sentence of 16 years, 11-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Salvatore Agresta: The Royal Commission exhibit names this person among the convicted core MDMA co-conspirators and downstream MDMA traffickers."
+        }
+      ]
+    },
+    {
+      "id": "pasquale-john-sergi-tomato-tins",
+      "name": "Pasquale John Sergi",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted MDMA conspiracy participant and downstream trafficker",
+      "prominence": 2,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Pasquale John Sergi among people convicted in the MDMA importation conspiracy aimed at Australia.",
+            "period": "2007",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Pasquale SERGI (13-year entry) among the convicted syndicate members and records a sentence of 13 years, 8.5-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Pasquale John Sergi: The Royal Commission exhibit names this person among the convicted core MDMA co-conspirators and downstream MDMA traffickers."
+        }
+      ],
+      "aliases": [
+        "Pasquale Sergi"
+      ]
+    },
+    {
+      "id": "sharon-ropa-tomato-tins",
+      "name": "Sharon Ropa",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted MDMA trafficker who assisted Barbaro’s Australian operation",
+      "prominence": 2,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit describes Ropa’s MDMA trafficking assistance to Barbaro within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Sharon Ropa among the convicted syndicate members and records a sentence of 9.5 years, 7-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Sharon Ropa: The Royal Commission exhibit identifies Ropa as convicted of MDMA trafficking and explicitly says she generally assisted Barbaro’s Australian trafficking business."
+        }
+      ]
+    },
+    {
+      "id": "antonino-di-pietro-tomato-tins",
+      "name": "Antonino Di Pietro",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted downstream MDMA trafficker",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Antonino Di Pietro among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Antonino Di Pietro among the convicted syndicate members and records a sentence of 7 years, 4.5-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Antonino Di Pietro: The Royal Commission exhibit individually names this person among downstream customers convicted of trafficking MDMA tablets."
+        }
+      ]
+    },
+    {
+      "id": "gratian-bran-tomato-tins",
+      "name": "Gratian Bran",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted downstream MDMA trafficker and money launderer",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Bran among MDMA traffickers and proceeds launderers in the Australian Operation Inca case.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Gratian Bran among the convicted syndicate members and records a sentence of 7 years, 5-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Gratian Bran: The Royal Commission exhibit individually names Bran as convicted of downstream MDMA trafficking and money laundering."
+        }
+      ]
+    },
+    {
+      "id": "pasquale-rocco-sergi-tomato-tins",
+      "name": "Pasquale Rocco Sergi",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted downstream MDMA trafficker",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Pasquale Rocco Sergi among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Pasqale SERGI (Sydney NSW, community correction order entry) among the convicted syndicate members and records a sentence of community correction order.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Pasquale Rocco Sergi: The Royal Commission exhibit individually names this person among downstream customers convicted of trafficking MDMA tablets."
+        }
+      ],
+      "aliases": [
+        "Pasquale Sergi (Sydney)"
+      ]
+    },
+    {
+      "id": "frank-molluso-tomato-tins",
+      "name": "Frank Molluso",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted downstream MDMA trafficker",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Frank Molluso among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Frank Molluso among the convicted syndicate members and records a sentence of 8.5 years, 6-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Frank Molluso: The Royal Commission exhibit individually names this person among downstream customers convicted of trafficking MDMA tablets."
+        }
+      ]
+    },
+    {
+      "id": "antonio-sergi-tomato-tins",
+      "name": "Antonio Sergi",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted downstream MDMA trafficker",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Antonio Sergi among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Antonio Sergi among the convicted syndicate members and records a sentence of 9 years, 7-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Antonio Sergi: The Royal Commission exhibit individually names this person among downstream customers convicted of trafficking MDMA tablets."
+        }
+      ]
+    },
+    {
+      "id": "pino-varallo-tomato-tins",
+      "name": "Pino Varallo",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted downstream MDMA trafficker",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Pino Varallo among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Pino Varallo among the convicted syndicate members and records a sentence of 8.5 years, 6.5-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Pino Varallo: The Royal Commission exhibit individually names this person among downstream customers convicted of trafficking MDMA tablets."
+        }
+      ]
+    },
+    {
+      "id": "francesco-madafferi-tomato-tins",
+      "name": "Francesco Madafferi",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted downstream MDMA trafficker",
+      "prominence": 2,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Francesco Madafferi among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Frank MADAFFERI among the convicted syndicate members and records a sentence of 10 years, 7-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Francesco Madafferi: The Royal Commission exhibit individually names this person among downstream customers convicted of trafficking MDMA tablets."
+        },
+        {
+          "url": "https://www.theguardian.com/australia-news/2021/jan/19/melbourne-gangland-lawyer-joe-acquaro-gave-police-information-on-former-client",
+          "title": "Melbourne gangland lawyer Joe Acquaro gave police information on former client",
+          "publisher": "The Guardian",
+          "language": "en",
+          "claim": "The Guardian names Francesco “Frank” Madafferi, establishing that the formal and familiar names refer to the same person.",
+          "publishedAt": "2021-01-19"
+        }
+      ],
+      "aliases": [
+        "Frank Madafferi"
+      ]
+    },
+    {
+      "id": "paul-psaila-tomato-tins",
+      "name": "Paul Psaila",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted downstream MDMA trafficker",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Paul Psaila among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Paul Psaila among the convicted syndicate members and records a sentence of 4 years 9 months, 2-year 9-month non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Paul Psaila: The Royal Commission exhibit individually names this person among downstream customers convicted of trafficking MDMA tablets."
+        }
+      ]
+    },
+    {
+      "id": "alan-saric-tomato-tins",
+      "name": "Alan Saric",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted downstream MDMA trafficker",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit individually names Alan Saric among downstream traffickers of MDMA supplied within Australia.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "MDMA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Alan Saric among the convicted syndicate members and records a sentence of 6 years, 3.5-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Alan Saric: The Royal Commission exhibit individually names this person among downstream customers convicted of trafficking MDMA tablets."
+        }
+      ]
+    },
+    {
+      "id": "giovanni-polimeni-tomato-tins",
+      "name": "Giovanni Polimeni",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted in a related cocaine-importation case",
+      "prominence": 2,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Polimeni among people convicted in the Australian cocaine importation case.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Giovanni Polimeni among the convicted syndicate members and records a sentence of 18 years, 12-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Giovanni Polimeni: The Royal Commission exhibit individually names Polimeni among those convicted in the related cocaine-importation case."
+        }
+      ]
+    },
+    {
+      "id": "anil-suri-tomato-tins",
+      "name": "Anil Suri",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted in a related precursor-importation case",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Suri among people convicted in the precursor importation case involving an Australian destination.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Anil Suri among the convicted syndicate members and records a sentence of 11 years, 8-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Anil Suri: The Royal Commission exhibit individually names this person among those convicted in the related precursor-importation case."
+        }
+      ]
+    },
+    {
+      "id": "phillip-batticciotto-tomato-tins",
+      "name": "Phillip Batticciotto",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted in a related precursor-importation case",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Batticciotto among people convicted in the precursor importation case involving an Australian destination.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Phillip Batticciotto among the convicted syndicate members and records a sentence of 10 years, 7-year non-parole.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Phillip Batticciotto: The Royal Commission exhibit individually names this person among those convicted in the related precursor-importation case."
+        }
+      ]
+    },
+    {
+      "id": "anvardeen-abdul-jabbar-tomato-tins",
+      "name": "Anvardeen Abdul-Jabbar",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted of laundering proceeds related to the syndicate’s drug trafficking",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Abdul-Jabbar among convicted money launderers in Australia’s Operation Inca drug-trafficking case; the association refers to the Australian operation, not proven physical presence.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Anvardeen Abdul-Jabbar among the convicted syndicate members and records a sentence of 2 years, release after 1 year.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Anvardeen Abdul-Jabbar: The Royal Commission exhibit individually names this person among those convicted of laundering proceeds derived from or related to the syndicate’s drug trafficking."
+        }
+      ]
+    },
+    {
+      "id": "seyed-moulana-tomato-tins",
+      "name": "Seyed Moulana",
+      "status": "convicted",
+      "statusAsOf": "2015-02-26",
+      "roleLabel": "Convicted of laundering proceeds related to the syndicate’s drug trafficking",
+      "prominence": 3,
+      "organizationIds": [
+        "barbaro-tomato-tins-syndicate"
+      ],
+      "regions": [
+        {
+          "iso3": "AUS",
+          "label": "Australia",
+          "evidence": {
+            "claim": "The Victorian Royal Commission exhibit names Moulana among convicted money launderers in Australia’s Operation Inca drug-trafficking case; the association refers to the Australian operation, not proven physical presence.",
+            "period": "2008",
+            "sourceUrl": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/news/thirty-two-australias-drug-gang-criminals-successfully-prosecuted",
+          "title": "Thirty-two of Australia’s drug gang criminals successfully prosecuted",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "CDPP individually lists Seyed Moulana among the convicted syndicate members and records a sentence of 2 years 2 months, release after 17 months.",
+          "publishedAt": "2015-02-26"
+        },
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "Seyed Moulana: The Royal Commission exhibit individually names this person among those convicted of laundering proceeds derived from or related to the syndicate’s drug trafficking."
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "barbaro-zirilli-trusted-associates",
+      "fromId": "pasquale-barbaro-tomato-tins",
+      "toId": "saverio-zirilli-tomato-tins",
+      "type": "associate",
+      "label": "Leader and close trusted associate",
+      "sources": [
+        {
+          "url": "https://www.cdpp.gov.au/system/files/CDPP-Annual-Report-2011-2012.pdf",
+          "title": "Commonwealth Director of Public Prosecutions Annual Report 2011–2012",
+          "publisher": "Commonwealth Director of Public Prosecutions",
+          "language": "en",
+          "claim": "The CDPP annual report explicitly identifies Barbaro as syndicate head and Zirilli as his close, trusted associate."
+        }
+      ]
+    },
+    {
+      "id": "barbaro-ropa-assistance",
+      "fromId": "pasquale-barbaro-tomato-tins",
+      "toId": "sharon-ropa-tomato-tins",
+      "type": "associate",
+      "label": "Ropa assisted Barbaro’s trafficking business",
+      "sources": [
+        {
+          "url": "https://www.rcmpi.vic.gov.au/sites/default/files/2020-11/Exhibit%20RC1906%20Attachment%20B%2C%20Summary%20of%20Operations%20Bootham%20Moko%2C%20Inca%20and%20Cardinia%2C%20undated%2C%20tendered%205%20August%202020.pdf",
+          "title": "Summary of Operations Bootham/Moko, Inca and Cardinia (Royal Commission exhibit RC1906, attachment B)",
+          "publisher": "Royal Commission into the Management of Police Informants (Victoria)",
+          "language": "en",
+          "claim": "The Royal Commission exhibit explicitly says Sharon Ropa generally assisted Pasquale Barbaro with his MDMA trafficking business."
+        }
+      ]
+    }
+  ]
+}

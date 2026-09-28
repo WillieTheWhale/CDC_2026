@@ -1,0 +1,2894 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot 2026-09-27. Historical Colombian first-instance court convictions from Colombian court and news reporting and Eje21 republications of Fiscalía accounts. Publication dates are not asserted judgment days. All country markers are historical case associations. Group-level drug substances and multi-offense counts are not imputed to individuals. No live or exact locations, operational details, inferred person-person edges, or images.",
+  "organizations": [
+    {
+      "id": "la-huesuda-2020",
+      "name": "La banda de la Huesuda (2020 case)",
+      "aliases": [],
+      "regions": [
+        "COL"
+      ],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "The cited report identifies the named case group, Colombian drug-trafficking conduct, and a court conviction; this is a historical case association."
+        }
+      ]
+    },
+    {
+      "id": "libertadores-dosquebradas-2016",
+      "name": "Libertadores de Dosquebradas (2016 case)",
+      "aliases": [],
+      "regions": [
+        "COL"
+      ],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "The cited report identifies the named case group, Colombian drug-trafficking conduct, and a court conviction; this is a historical case association."
+        }
+      ]
+    },
+    {
+      "id": "el-coco-2016",
+      "name": "El Coco (2016 convictions)",
+      "aliases": [],
+      "regions": [
+        "COL"
+      ],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "The cited report identifies the named case group, Colombian drug-trafficking conduct, and a court conviction; this is a historical case association."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "jhon-james-montoya-granada-la-huesuda-2020",
+      "name": "Jhon James Montoya Granada",
+      "aliases": [
+        "La Huesuda"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-02-05",
+      "roleLabel": "La Huesuda leader; convicted 27 April 2020 of drug-trafficking concert and trafficking (76 months); separate non-drug allegations remained pending in February 2025",
+      "prominence": 2,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Jhon James Montoya Granada is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Jhon James Montoya Granada: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        },
+        {
+          "url": "https://archivodigitalapi.cortesuprema.gov.co/share/2025/2/Avisos/Ver%20providencia%20142539.pdf",
+          "title": "Tutela primera instancia, radicado 142539, Jhon James Montoya Granada",
+          "publisher": "Corte Suprema de Justicia de Colombia, Sala de Casación Penal",
+          "language": "es",
+          "publishedAt": "2025-02-05",
+          "claim": "The Court recites the 27 April 2020 judgment convicting Jhon James Montoya Granada of aggravated criminal concert for drug-trafficking purposes and trafficking, with a 76-month sentence. It separately describes a homicide/arms/minor-use prosecution still in progress in February 2025; those later allegations are not part of the drug conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "jhon-james-montoya-granada-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-04-27",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction",
+          "summary": "The court approved a plea agreement and sentenced Jhon James Montoya Granada to 76 months on drug-trafficking-related counts on 27 April 2020. The Supreme Court’s 2025 ruling records a separate later homicide/arms/minor-use case as still in progress; those allegations are not treated as convictions.",
+          "source": {
+            "url": "https://archivodigitalapi.cortesuprema.gov.co/share/2025/2/Avisos/Ver%20providencia%20142539.pdf",
+            "title": "Tutela primera instancia, radicado 142539, Jhon James Montoya Granada",
+            "publisher": "Corte Suprema de Justicia de Colombia, Sala de Casación Penal",
+            "language": "es",
+            "publishedAt": "2025-02-05",
+            "claim": "The Court recites the 27 April 2020 judgment convicting Jhon James Montoya Granada of aggravated criminal concert for drug-trafficking purposes and trafficking, with a 76-month sentence. It separately describes a homicide/arms/minor-use prosecution still in progress in February 2025; those later allegations are not part of the drug conviction."
+          }
+        },
+        {
+          "id": "jhon-james-montoya-granada-la-huesuda-2020-2025-02-05-separate-case-update",
+          "occurredAt": "2025-02-05",
+          "type": "development",
+          "title": "Supreme Court records separate pending case",
+          "summary": "The Supreme Court noted that a separate homicide, arms and minor-use case involving Montoya Granada remained in progress. This does not alter his 2020 drug-trafficking conviction.",
+          "source": {
+            "url": "https://archivodigitalapi.cortesuprema.gov.co/share/2025/2/Avisos/Ver%20providencia%20142539.pdf",
+            "title": "Tutela primera instancia, radicado 142539, Jhon James Montoya Granada",
+            "publisher": "Corte Suprema de Justicia de Colombia, Sala de Casación Penal",
+            "language": "es",
+            "publishedAt": "2025-02-05",
+            "claim": "The Court recites the 27 April 2020 judgment convicting Jhon James Montoya Granada of aggravated criminal concert for drug-trafficking purposes and trafficking, with a 76-month sentence. It separately describes a homicide/arms/minor-use prosecution still in progress in February 2025; those later allegations are not part of the drug conviction."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-04-27",
+          "qualifier": "First-instance drug-trafficking conviction; later Supreme Court ruling confirms this disposition. Separate homicide/arms/minor-use allegations remained pending as of February 2025.",
+          "jurisdiction": "Colombia",
+          "offense": "Aggravated criminal concert for drug-trafficking purposes and trafficking, manufacture or possession of narcotics",
+          "source": {
+            "url": "https://archivodigitalapi.cortesuprema.gov.co/share/2025/2/Avisos/Ver%20providencia%20142539.pdf",
+            "title": "Tutela primera instancia, radicado 142539, Jhon James Montoya Granada",
+            "publisher": "Corte Suprema de Justicia de Colombia, Sala de Casación Penal",
+            "language": "es",
+            "publishedAt": "2025-02-05",
+            "claim": "The Court recites the 27 April 2020 judgment convicting Jhon James Montoya Granada of aggravated criminal concert for drug-trafficking purposes and trafficking, with a 76-month sentence. It separately describes a homicide/arms/minor-use prosecution still in progress in February 2025; those later allegations are not part of the drug conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sandra-juliet-zapata-carrasquilla-la-huesuda-2020",
+      "name": "Sandra Juliet Zapata Carrasquilla",
+      "aliases": [
+        "La Diabla"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda delivery coordinator; 76 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Sandra Juliet Zapata Carrasquilla is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Sandra Juliet Zapata Carrasquilla: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "sandra-juliet-zapata-carrasquilla-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Sandra Juliet Zapata Carrasquilla as convicted in the La banda de la Huesuda (2020 case) case (delivery coordinator; 76 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Sandra Juliet Zapata Carrasquilla: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Sandra Juliet Zapata Carrasquilla: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yesid-ricardo-duque-restrepo-la-huesuda-2020",
+      "name": "Yesid Ricardo Duque Restrepo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda seller; 72 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Yesid Ricardo Duque Restrepo is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Yesid Ricardo Duque Restrepo: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "yesid-ricardo-duque-restrepo-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Yesid Ricardo Duque Restrepo as convicted in the La banda de la Huesuda (2020 case) case (seller; 72 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Yesid Ricardo Duque Restrepo: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Yesid Ricardo Duque Restrepo: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fabian-aguirre-quintero-la-huesuda-2020",
+      "name": "Fabián Aguirre Quintero",
+      "aliases": [
+        "Barbado",
+        "El Peludo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda coordinator; 72 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Fabián Aguirre Quintero is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Fabián Aguirre Quintero: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "fabian-aguirre-quintero-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Fabián Aguirre Quintero as convicted in the La banda de la Huesuda (2020 case) case (coordinator; 72 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Fabián Aguirre Quintero: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Fabián Aguirre Quintero: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "melquisedec-mosquera-penalosa-la-huesuda-2020",
+      "name": "Melquisedec Mosquera Peñalosa",
+      "aliases": [
+        "Melquín"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda coordinator; 48 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Melquisedec Mosquera Peñalosa is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Melquisedec Mosquera Peñalosa: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "melquisedec-mosquera-penalosa-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Melquisedec Mosquera Peñalosa as convicted in the La banda de la Huesuda (2020 case) case (coordinator; 48 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Melquisedec Mosquera Peñalosa: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Melquisedec Mosquera Peñalosa: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lina-maria-correcha-trujillo-la-huesuda-2020",
+      "name": "Lina María Correcha Trujillo",
+      "aliases": [
+        "La Quemada"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda member; 48 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Lina María Correcha Trujillo is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Lina María Correcha Trujillo: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "lina-maria-correcha-trujillo-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Lina María Correcha Trujillo as convicted in the La banda de la Huesuda (2020 case) case (member; 48 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Lina María Correcha Trujillo: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Lina María Correcha Trujillo: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "davison-fabian-aguirre-rengifo-la-huesuda-2020",
+      "name": "Davison Fabián Aguirre Rengifo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda seller and carrier; 48 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Davison Fabián Aguirre Rengifo is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Davison Fabián Aguirre Rengifo: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "davison-fabian-aguirre-rengifo-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Davison Fabián Aguirre Rengifo as convicted in the La banda de la Huesuda (2020 case) case (seller and carrier; 48 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Davison Fabián Aguirre Rengifo: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Davison Fabián Aguirre Rengifo: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "roberto-pastor-arredondo-bermudez-la-huesuda-2020",
+      "name": "Roberto Pastor Arredondo Bermúdez",
+      "aliases": [
+        "El Loco"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda seller; 48 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Roberto Pastor Arredondo Bermúdez is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Roberto Pastor Arredondo Bermúdez: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "roberto-pastor-arredondo-bermudez-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Roberto Pastor Arredondo Bermúdez as convicted in the La banda de la Huesuda (2020 case) case (seller; 48 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Roberto Pastor Arredondo Bermúdez: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Roberto Pastor Arredondo Bermúdez: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jorge-andres-raigosa-morales-la-huesuda-2020",
+      "name": "Jorge Andrés Raigosa Morales",
+      "aliases": [
+        "El Arepo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda seller; 48 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Jorge Andrés Raigosa Morales is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Jorge Andrés Raigosa Morales: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "jorge-andres-raigosa-morales-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Jorge Andrés Raigosa Morales as convicted in the La banda de la Huesuda (2020 case) case (seller; 48 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Jorge Andrés Raigosa Morales: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Jorge Andrés Raigosa Morales: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jhonider-osorio-villegas-la-huesuda-2020",
+      "name": "Jhonider Osorio Villegas",
+      "aliases": [
+        "Chola"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda seller; 48 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Jhonider Osorio Villegas is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Jhonider Osorio Villegas: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "jhonider-osorio-villegas-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Jhonider Osorio Villegas as convicted in the La banda de la Huesuda (2020 case) case (seller; 48 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Jhonider Osorio Villegas: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Jhonider Osorio Villegas: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-camilo-gaitan-isaza-la-huesuda-2020",
+      "name": "Juan Camilo Gaitán Isaza",
+      "aliases": [
+        "Mekato"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda seller; 48 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Juan Camilo Gaitán Isaza is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Juan Camilo Gaitán Isaza: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-camilo-gaitan-isaza-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Juan Camilo Gaitán Isaza as convicted in the La banda de la Huesuda (2020 case) case (seller; 48 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Juan Camilo Gaitán Isaza: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Juan Camilo Gaitán Isaza: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "diana-maria-duque-gonzalez-la-huesuda-2020",
+      "name": "Diana María Duque González",
+      "aliases": [
+        "La Potra"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda distributor and collector; 48 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Diana María Duque González is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "Diana María Duque González: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "diana-maria-duque-gonzalez-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names Diana María Duque González as convicted in the La banda de la Huesuda (2020 case) case (distributor and collector; 48 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Diana María Duque González: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "Diana María Duque González: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "william-de-jesus-rico-brito-la-huesuda-2020",
+      "name": "William de Jesús Rico Brito",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2020-05-02",
+      "roleLabel": "Convicted La banda de la Huesuda storer, carrier and distributor; 58 months; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "la-huesuda-2020"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "William de Jesús Rico Brito is individually named as convicted in the Colombia-based La banda de la Huesuda (2020 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2020-05-02",
+            "sourceUrl": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+          "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+          "publisher": "Eje21 (republication of Fiscalía account)",
+          "language": "es",
+          "publishedAt": "2020-05-02",
+          "claim": "William de Jesús Rico Brito: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+        }
+      ],
+      "events": [
+        {
+          "id": "william-de-jesus-rico-brito-la-huesuda-2020-conviction-report",
+          "occurredAt": "2020-05-02",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2020-05-02 report names William de Jesús Rico Brito as convicted in the La banda de la Huesuda (2020 case) case (storer, carrier and distributor; 58 months). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "William de Jesús Rico Brito: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2020-05-02",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.eje21.com.co/2020/05/sentenciados-miembros-de-organizacion-criminal-dedicada-trafico-de-estupefacientes-y-responsables-de-varios-homicidios-en-risaralda/",
+            "title": "Sentenciados miembros de organización criminal dedicada tráfico de estupefacientes y responsables de varios homicidios en Risaralda",
+            "publisher": "Eje21 (republication of Fiscalía account)",
+            "language": "es",
+            "publishedAt": "2020-05-02",
+            "claim": "William de Jesús Rico Brito: The republished Fiscalía account names this person among 13 members convicted after a preagreement. It lists aggravated criminal concert for drug-trafficking purposes and other offenses according to each person’s responsibility; the individual drug count is unspecified."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bibiana-rios-izquierdo-libertadores-dosquebradas-2016",
+      "name": "Bibiana Ríos Izquierdo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas leader; five years",
+      "prominence": 2,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Bibiana Ríos Izquierdo is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Bibiana Ríos Izquierdo: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "bibiana-rios-izquierdo-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Bibiana Ríos Izquierdo as convicted in the Libertadores de Dosquebradas (2016 case) case (leader; five years). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Bibiana Ríos Izquierdo: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Bibiana Ríos Izquierdo: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alejandro-galvis-rios-libertadores-dosquebradas-2016",
+      "name": "Alejandro Galvis Ríos",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Alejandro Galvis Ríos is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Alejandro Galvis Ríos: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "alejandro-galvis-rios-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Alejandro Galvis Ríos as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Alejandro Galvis Ríos: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Alejandro Galvis Ríos: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "daniela-galvis-rios-libertadores-dosquebradas-2016",
+      "name": "Daniela Galvis Ríos",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Daniela Galvis Ríos is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Daniela Galvis Ríos: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "daniela-galvis-rios-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Daniela Galvis Ríos as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Daniela Galvis Ríos: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Daniela Galvis Ríos: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jhohan-david-velasco-arias-libertadores-dosquebradas-2016",
+      "name": "Jhohan David Velasco Arias",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Jhohan David Velasco Arias is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Jhohan David Velasco Arias: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "jhohan-david-velasco-arias-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Jhohan David Velasco Arias as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Jhohan David Velasco Arias: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Jhohan David Velasco Arias: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "samir-henao-gaspar-cuartas-libertadores-dosquebradas-2016",
+      "name": "Samir Henao Gaspar Cuartas",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Samir Henao Gaspar Cuartas is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Samir Henao Gaspar Cuartas: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "samir-henao-gaspar-cuartas-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Samir Henao Gaspar Cuartas as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Samir Henao Gaspar Cuartas: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Samir Henao Gaspar Cuartas: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "brandon-gallego-aguirre-libertadores-dosquebradas-2016",
+      "name": "Brandon Gallego Aguirre",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Brandon Gallego Aguirre is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Brandon Gallego Aguirre: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "brandon-gallego-aguirre-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Brandon Gallego Aguirre as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Brandon Gallego Aguirre: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Brandon Gallego Aguirre: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "santiago-betancur-cardona-libertadores-dosquebradas-2016",
+      "name": "Santiago Betancur Cardona",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Santiago Betancur Cardona is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Santiago Betancur Cardona: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "santiago-betancur-cardona-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Santiago Betancur Cardona as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Santiago Betancur Cardona: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Santiago Betancur Cardona: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "johan-andres-clavijo-duque-libertadores-dosquebradas-2016",
+      "name": "Johan Andrés Clavijo Duque",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Johan Andrés Clavijo Duque is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Johan Andrés Clavijo Duque: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "johan-andres-clavijo-duque-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Johan Andrés Clavijo Duque as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Johan Andrés Clavijo Duque: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Johan Andrés Clavijo Duque: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dubalier-urrego-perez-libertadores-dosquebradas-2016",
+      "name": "Dubalier Urrego Pérez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Dubalier Urrego Pérez is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Dubalier Urrego Pérez: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "dubalier-urrego-perez-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Dubalier Urrego Pérez as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Dubalier Urrego Pérez: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Dubalier Urrego Pérez: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jhon-anderson-gomez-munoz-libertadores-dosquebradas-2016",
+      "name": "Jhon Anderson Gómez Muñoz",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Jhon Anderson Gómez Muñoz is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Jhon Anderson Gómez Muñoz: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "jhon-anderson-gomez-munoz-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Jhon Anderson Gómez Muñoz as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Jhon Anderson Gómez Muñoz: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Jhon Anderson Gómez Muñoz: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jhon-jaduens-osorio-galvis-libertadores-dosquebradas-2016",
+      "name": "Jhon Jaduens Osorio Galvis",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Jhon Jaduens Osorio Galvis is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Jhon Jaduens Osorio Galvis: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "jhon-jaduens-osorio-galvis-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Jhon Jaduens Osorio Galvis as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Jhon Jaduens Osorio Galvis: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Jhon Jaduens Osorio Galvis: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cristian-camilo-franco-garcia-libertadores-dosquebradas-2016",
+      "name": "Cristian Camilo Franco García",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Cristian Camilo Franco García is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Cristian Camilo Franco García: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "cristian-camilo-franco-garcia-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Cristian Camilo Franco García as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Cristian Camilo Franco García: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Cristian Camilo Franco García: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "yonathan-andres-davila-beltran-libertadores-dosquebradas-2016",
+      "name": "Yonathan Andrés Dávila Beltrán",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Yonathan Andrés Dávila Beltrán is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Yonathan Andrés Dávila Beltrán: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "yonathan-andres-davila-beltran-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Yonathan Andrés Dávila Beltrán as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Yonathan Andrés Dávila Beltrán: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Yonathan Andrés Dávila Beltrán: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-camilo-lopez-libertadores-dosquebradas-2016",
+      "name": "Juan Camilo López",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Juan Camilo López is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Juan Camilo López: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-camilo-lopez-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Juan Camilo López as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Juan Camilo López: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Juan Camilo López: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carlos-humberto-velez-vargas-libertadores-dosquebradas-2016",
+      "name": "Carlos Humberto Vélez Vargas",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Carlos Humberto Vélez Vargas is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Carlos Humberto Vélez Vargas: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "carlos-humberto-velez-vargas-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Carlos Humberto Vélez Vargas as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Carlos Humberto Vélez Vargas: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Carlos Humberto Vélez Vargas: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stevens-lozano-ortiz-libertadores-dosquebradas-2016",
+      "name": "Stevens Lozano Ortiz",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Stevens Lozano Ortiz is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Stevens Lozano Ortiz: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "stevens-lozano-ortiz-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Stevens Lozano Ortiz as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Stevens Lozano Ortiz: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Stevens Lozano Ortiz: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "julio-alejandro-munoz-usma-libertadores-dosquebradas-2016",
+      "name": "Julio Alejandro Muñoz Usma",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Julio Alejandro Muñoz Usma is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Julio Alejandro Muñoz Usma: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "julio-alejandro-munoz-usma-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Julio Alejandro Muñoz Usma as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Julio Alejandro Muñoz Usma: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Julio Alejandro Muñoz Usma: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mario-alejandro-betancur-cardona-libertadores-dosquebradas-2016",
+      "name": "Mario Alejandro Betancur Cardona",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Mario Alejandro Betancur Cardona is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Mario Alejandro Betancur Cardona: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "mario-alejandro-betancur-cardona-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Mario Alejandro Betancur Cardona as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Mario Alejandro Betancur Cardona: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Mario Alejandro Betancur Cardona: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-carlos-betancur-lopera-libertadores-dosquebradas-2016",
+      "name": "Juan Carlos Betancur Lopera",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-11-12",
+      "roleLabel": "Convicted Libertadores de Dosquebradas seller; three years seven months",
+      "prominence": 1,
+      "organizationIds": [
+        "libertadores-dosquebradas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Juan Carlos Betancur Lopera is individually named as convicted in the Colombia-based Libertadores de Dosquebradas (2016 case) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-11-12",
+            "sourceUrl": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+          "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+          "publisher": "Eje21 (report of Fiscalía and court)",
+          "language": "es",
+          "publishedAt": "2016-11-12",
+          "claim": "Juan Carlos Betancur Lopera: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-carlos-betancur-lopera-libertadores-dosquebradas-2016-conviction-report",
+          "occurredAt": "2016-11-12",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-11-12 report names Juan Carlos Betancur Lopera as convicted in the Libertadores de Dosquebradas (2016 case) case (seller; three years seven months). Publication date marks the report, not necessarily the judgment day. The report states a drug-trafficking conviction.",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Juan Carlos Betancur Lopera: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-11-12",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Drug-trafficking offense expressly stated.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug trafficking or coauthor drug sales",
+          "source": {
+            "url": "https://www.eje21.com.co/2016/11/condenados-20-miembros-de-banda-delictiva-libertadores-de-dosquebradas/",
+            "title": "Condenados 20 miembros de banda delictiva «Libertadores» de Dosquebradas",
+            "publisher": "Eje21 (report of Fiscalía and court)",
+            "language": "es",
+            "publishedAt": "2016-11-12",
+            "claim": "Juan Carlos Betancur Lopera: The report individually names this person as convicted after a preagreement for drug trafficking or coauthor drug sales in Colombia; it reports the term by leader versus other named defendants."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rodrigo-arturo-perez-el-coco-2016",
+      "name": "Rodrigo Arturo Pérez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-02-18",
+      "roleLabel": "Convicted El Coco leader; term within eight to 12 years; individual drug count unspecified",
+      "prominence": 2,
+      "organizationIds": [
+        "el-coco-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Rodrigo Arturo Pérez is individually named as convicted in the Colombia-based El Coco (2016 convictions) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-02-18",
+            "sourceUrl": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "Rodrigo Arturo Pérez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "rodrigo-arturo-perez-el-coco-2016-conviction-report",
+          "occurredAt": "2016-02-18",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-02-18 report names Rodrigo Arturo Pérez as convicted in the El Coco (2016 convictions) case (leader; term within eight to 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Rodrigo Arturo Pérez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-02-18",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Rodrigo Arturo Pérez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "andres-felipe-del-valle-alvarez-el-coco-2016",
+      "name": "Andrés Felipe del Valle Álvarez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-02-18",
+      "roleLabel": "Convicted El Coco member; term within eight to 12 years; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "el-coco-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Andrés Felipe del Valle Álvarez is individually named as convicted in the Colombia-based El Coco (2016 convictions) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-02-18",
+            "sourceUrl": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "Andrés Felipe del Valle Álvarez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "andres-felipe-del-valle-alvarez-el-coco-2016-conviction-report",
+          "occurredAt": "2016-02-18",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-02-18 report names Andrés Felipe del Valle Álvarez as convicted in the El Coco (2016 convictions) case (member; term within eight to 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Andrés Felipe del Valle Álvarez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-02-18",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Andrés Felipe del Valle Álvarez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "santiago-del-valle-alvarez-el-coco-2016",
+      "name": "Santiago del Valle Álvarez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-02-18",
+      "roleLabel": "Convicted El Coco member; term within eight to 12 years; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "el-coco-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Santiago del Valle Álvarez is individually named as convicted in the Colombia-based El Coco (2016 convictions) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-02-18",
+            "sourceUrl": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "Santiago del Valle Álvarez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "santiago-del-valle-alvarez-el-coco-2016-conviction-report",
+          "occurredAt": "2016-02-18",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-02-18 report names Santiago del Valle Álvarez as convicted in the El Coco (2016 convictions) case (member; term within eight to 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Santiago del Valle Álvarez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-02-18",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Santiago del Valle Álvarez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jeison-esteban-durango-bedoya-el-coco-2016",
+      "name": "Jeison Esteban Durango Bedoya",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-02-18",
+      "roleLabel": "Convicted El Coco member; term within eight to 12 years; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "el-coco-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Jeison Esteban Durango Bedoya is individually named as convicted in the Colombia-based El Coco (2016 convictions) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-02-18",
+            "sourceUrl": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "Jeison Esteban Durango Bedoya: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "jeison-esteban-durango-bedoya-el-coco-2016-conviction-report",
+          "occurredAt": "2016-02-18",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-02-18 report names Jeison Esteban Durango Bedoya as convicted in the El Coco (2016 convictions) case (member; term within eight to 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Jeison Esteban Durango Bedoya: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-02-18",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Jeison Esteban Durango Bedoya: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "julio-cesar-vallejo-orozco-el-coco-2016",
+      "name": "Julio Cesar Vallejo Orozco",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-02-18",
+      "roleLabel": "Convicted El Coco member; term within eight to 12 years; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "el-coco-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Julio Cesar Vallejo Orozco is individually named as convicted in the Colombia-based El Coco (2016 convictions) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-02-18",
+            "sourceUrl": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "Julio Cesar Vallejo Orozco: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "julio-cesar-vallejo-orozco-el-coco-2016-conviction-report",
+          "occurredAt": "2016-02-18",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-02-18 report names Julio Cesar Vallejo Orozco as convicted in the El Coco (2016 convictions) case (member; term within eight to 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Julio Cesar Vallejo Orozco: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-02-18",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Julio Cesar Vallejo Orozco: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jhon-fredy-alvarez-madrigal-el-coco-2016",
+      "name": "Jhon Fredy Álvarez Madrigal",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-02-18",
+      "roleLabel": "Convicted El Coco member; term within eight to 12 years; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "el-coco-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Jhon Fredy Álvarez Madrigal is individually named as convicted in the Colombia-based El Coco (2016 convictions) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-02-18",
+            "sourceUrl": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "Jhon Fredy Álvarez Madrigal: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "jhon-fredy-alvarez-madrigal-el-coco-2016-conviction-report",
+          "occurredAt": "2016-02-18",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-02-18 report names Jhon Fredy Álvarez Madrigal as convicted in the El Coco (2016 convictions) case (member; term within eight to 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Jhon Fredy Álvarez Madrigal: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-02-18",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Jhon Fredy Álvarez Madrigal: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kevin-alexis-londono-guerrero-el-coco-2016",
+      "name": "Kevin Alexis Londoño Guerrero",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-02-18",
+      "roleLabel": "Convicted El Coco member; term within eight to 12 years; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "el-coco-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Kevin Alexis Londoño Guerrero is individually named as convicted in the Colombia-based El Coco (2016 convictions) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-02-18",
+            "sourceUrl": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "Kevin Alexis Londoño Guerrero: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "kevin-alexis-londono-guerrero-el-coco-2016-conviction-report",
+          "occurredAt": "2016-02-18",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-02-18 report names Kevin Alexis Londoño Guerrero as convicted in the El Coco (2016 convictions) case (member; term within eight to 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Kevin Alexis Londoño Guerrero: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-02-18",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Kevin Alexis Londoño Guerrero: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sebastian-restrepo-gomez-el-coco-2016",
+      "name": "Sebastian Restrepo Gómez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-02-18",
+      "roleLabel": "Convicted El Coco member; term within eight to 12 years; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "el-coco-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Sebastian Restrepo Gómez is individually named as convicted in the Colombia-based El Coco (2016 convictions) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-02-18",
+            "sourceUrl": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "Sebastian Restrepo Gómez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "sebastian-restrepo-gomez-el-coco-2016-conviction-report",
+          "occurredAt": "2016-02-18",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-02-18 report names Sebastian Restrepo Gómez as convicted in the El Coco (2016 convictions) case (member; term within eight to 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Sebastian Restrepo Gómez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-02-18",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Sebastian Restrepo Gómez: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-esteban-bolivar-roman-el-coco-2016",
+      "name": "Juan Esteban Bolívar Román",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2016-02-18",
+      "roleLabel": "Convicted El Coco member; term within eight to 12 years; individual drug count unspecified",
+      "prominence": 1,
+      "organizationIds": [
+        "el-coco-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "COL",
+          "label": "Colombia",
+          "evidence": {
+            "claim": "Juan Esteban Bolívar Román is individually named as convicted in the Colombia-based El Coco (2016 convictions) case; this is a historical case association, not a current-location claim.",
+            "period": "by 2016-02-18",
+            "sourceUrl": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+          "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+          "publisher": "Noticias Caracol",
+          "language": "es",
+          "publishedAt": "2016-02-18",
+          "claim": "Juan Esteban Bolívar Román: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-esteban-bolivar-roman-el-coco-2016-conviction-report",
+          "occurredAt": "2016-02-18",
+          "type": "conviction",
+          "title": "Historical conviction publicly reported",
+          "summary": "The 2016-02-18 report names Juan Esteban Bolívar Román as convicted in the El Coco (2016 convictions) case (member; term within eight to 12 years). Publication date marks the report, not necessarily the judgment day. Individual drug count is not specified.",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Juan Esteban Bolívar Román: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2016-02-18",
+          "qualifier": "First-instance reported conviction; publication date used because the judgment day is not given. Individual drug count unspecified.",
+          "jurisdiction": "Colombia",
+          "offense": "Drug-trafficking-related group case",
+          "source": {
+            "url": "https://www.noticiascaracol.com/colombia/condenan-nueve-integrantes-de-la-banda-el-coco-de-medellin",
+            "title": "Condenan nueve integrantes de la banda El Coco de Medellín",
+            "publisher": "Noticias Caracol",
+            "language": "es",
+            "publishedAt": "2016-02-18",
+            "claim": "Juan Esteban Bolívar Román: Noticias Caracol names this person among nine convicted El Coco members in a drug-trafficking organization, with overall offenses including drug trafficking. The article does not allocate each individual offense count or exact term."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

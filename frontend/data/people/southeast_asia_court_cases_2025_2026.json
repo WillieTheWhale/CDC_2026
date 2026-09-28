@@ -1,0 +1,1317 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Twenty-two individually named people across six original-language official court/prosecutor case pages in Indonesia, Vietnam, and the Philippines. Court findings, first-instance sentences, and report dates remain separate. Country markers mean historical person-specific case conduct only; no precise/live locations, inferred foreign-country operation, photos, or inferred pairwise edges. Three named instruction links in the Tanjung Balai case are explicitly reported by the Supreme Court MARINews source and represent the first-instance account only. Two additional Điện Biên names were excluded because the prosecutor article repeats one defendant in its verdict list and leaves another outcome unclear. Later appeals after these sources were not verified.",
+  "organizations": [
+    {
+      "id": "idn-tanjung-balai-2025",
+      "name": "Tanjung Balai 2025 methamphetamine case network",
+      "regions": [
+        "IDN"
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "The official MARINews, Supreme Court of Indonesia page identifies this case cohort and describes drug-trafficking conduct in Indonesia; the organization is a case grouping, not an independently proved enduring cartel."
+        }
+      ]
+    },
+    {
+      "id": "idn-idi-2025",
+      "name": "Idi 2025 methamphetamine case network",
+      "regions": [
+        "IDN"
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD",
+          "title": "Tok! PN Idi Hukum Mati 3 Terdakwa Jaringan Internasional",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-03-06",
+          "claim": "The official MARINews, Supreme Court of Indonesia page identifies this case cohort and describes drug-trafficking conduct in Indonesia; the organization is a case grouping, not an independently proved enduring cartel."
+        }
+      ]
+    },
+    {
+      "id": "idn-bengkalis-2026",
+      "name": "Bengkalis 2026 methamphetamine and MDMA case network",
+      "regions": [
+        "IDN"
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+          "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2026-01-28",
+          "claim": "The official MARINews, Supreme Court of Indonesia page identifies this case cohort and describes drug-trafficking conduct in Indonesia; the organization is a case grouping, not an independently proved enduring cartel."
+        }
+      ]
+    },
+    {
+      "id": "vnm-nghe-an-2026",
+      "name": "Nghệ An 2026 methamphetamine case network",
+      "regions": [
+        "VNM"
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1",
+          "title": "VKSND tỉnh Nghệ An phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa trực tuyến xét xử vụ án “Mua bán trái phép chất ma túy”",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-03-27",
+          "claim": "The official Supreme People’s Procuracy of Vietnam page identifies this case cohort and describes drug-trafficking conduct in Vietnam; the organization is a case grouping, not an independently proved enduring cartel."
+        }
+      ]
+    },
+    {
+      "id": "vnm-dien-bien-2026",
+      "name": "Điện Biên 2026 heroin case network",
+      "regions": [
+        "VNM"
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html",
+          "title": "VKSND tỉnh Điện Biên phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa xét xử vụ án về ma túy",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-04-03",
+          "claim": "The official Supreme People’s Procuracy of Vietnam page identifies this case cohort and describes drug-trafficking conduct in Vietnam; the organization is a case grouping, not an independently proved enduring cartel."
+        }
+      ]
+    },
+    {
+      "id": "phl-palacios-gaitan-2025",
+      "name": "Palacios–Gaitan Philippine Supreme Court drug-sale case",
+      "regions": [
+        "PHL"
+      ],
+      "sources": [
+        {
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/1/70209",
+          "title": "People of the Philippines v. Aldrin Palacios y Fejedero and Noel Gaitan, Jr. y Bermundo, G.R. No. 268839",
+          "publisher": "Supreme Court of the Philippines",
+          "language": "English",
+          "publishedAt": "2025-12-22",
+          "claim": "The official Supreme Court of the Philippines page identifies this case cohort and describes drug-trafficking conduct in Philippines; the organization is a case grouping, not an independently proved enduring cartel."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "sea-idn-tanjung-balai-2025-hamlet-azhar",
+      "name": "Hamlet Azhar",
+      "status": "convicted",
+      "statusAsOf": "2025-10-23",
+      "roleLabel": "death sentence in a first-instance court decision; court report says he directed the other three defendants; later appellate outcome not verified",
+      "prominence": 2,
+      "organizationIds": [
+        "idn-tanjung-balai-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Hamlet Azhar in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 court finding",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-tanjung-balai-2025-hamlet-azhar-2025-10-23-court",
+          "occurredAt": "2025-10-23",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2025-10-23, the court decided the case involving Hamlet Azhar; the cited source reports the specific outcome as death sentence in a first-instance court decision; court report says he directed the other three defendants. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+            "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2025-10-27",
+            "claim": "The official source individually names Hamlet Azhar and reports death sentence in a first-instance court decision; court report says he directed the other three defendants. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-10-23, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "The official source individually names Hamlet Azhar and reports death sentence in a first-instance court decision; court report says he directed the other three defendants. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-10-23, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-tanjung-balai-2025-suriyanto",
+      "name": "Suriyanto",
+      "status": "convicted",
+      "statusAsOf": "2025-10-23",
+      "roleLabel": "death sentence in a first-instance court decision; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-tanjung-balai-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Suriyanto in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 court finding",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-tanjung-balai-2025-suriyanto-2025-10-23-court",
+          "occurredAt": "2025-10-23",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2025-10-23, the court decided the case involving Suriyanto; the cited source reports the specific outcome as death sentence in a first-instance court decision. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+            "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2025-10-27",
+            "claim": "The official source individually names Suriyanto and reports death sentence in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-10-23, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "The official source individually names Suriyanto and reports death sentence in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-10-23, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-tanjung-balai-2025-dedi-irawan",
+      "name": "Dedi Irawan",
+      "status": "convicted",
+      "statusAsOf": "2025-10-23",
+      "roleLabel": "death sentence in a first-instance court decision; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-tanjung-balai-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Dedi Irawan in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 court finding",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-tanjung-balai-2025-dedi-irawan-2025-10-23-court",
+          "occurredAt": "2025-10-23",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2025-10-23, the court decided the case involving Dedi Irawan; the cited source reports the specific outcome as death sentence in a first-instance court decision. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+            "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2025-10-27",
+            "claim": "The official source individually names Dedi Irawan and reports death sentence in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-10-23, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "The official source individually names Dedi Irawan and reports death sentence in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-10-23, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-tanjung-balai-2025-ardian",
+      "name": "Ardian",
+      "status": "convicted",
+      "statusAsOf": "2025-10-23",
+      "roleLabel": "life sentence in a first-instance court decision; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-tanjung-balai-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Ardian in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 court finding",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-tanjung-balai-2025-ardian-2025-10-23-court",
+          "occurredAt": "2025-10-23",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2025-10-23, the court decided the case involving Ardian; the cited source reports the specific outcome as life sentence in a first-instance court decision. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+            "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2025-10-27",
+            "claim": "The official source individually names Ardian and reports life sentence in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-10-23, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "The official source individually names Ardian and reports life sentence in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-10-23, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-idi-2025-sayed-fackrul-bin-sayed-usman",
+      "name": "Sayed Fackrul bin Sayed Usman",
+      "status": "convicted",
+      "statusAsOf": "2025-03-06",
+      "roleLabel": "death sentence reported in a first-instance court decision; court describes a coordinating role in Indonesia; later appellate outcome not verified",
+      "prominence": 2,
+      "organizationIds": [
+        "idn-idi-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Sayed Fackrul bin Sayed Usman in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2024 court-described conduct",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-idi-2025-sayed-fackrul-bin-sayed-usman-2025-03-06-court",
+          "occurredAt": "2025-03-06",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2025-03-06, MARINews, Supreme Court of Indonesia reported that Sayed Fackrul bin Sayed Usman had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD",
+            "title": "Tok! PN Idi Hukum Mati 3 Terdakwa Jaringan Internasional",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2025-03-06",
+            "claim": "The official source individually names Sayed Fackrul bin Sayed Usman and reports death sentence reported in a first-instance court decision; court describes a coordinating role in Indonesia. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-03-06, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD",
+          "title": "Tok! PN Idi Hukum Mati 3 Terdakwa Jaringan Internasional",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-03-06",
+          "claim": "The official source individually names Sayed Fackrul bin Sayed Usman and reports death sentence reported in a first-instance court decision; court describes a coordinating role in Indonesia. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-03-06, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-idi-2025-muzakir-alias-him-bin-adi",
+      "name": "Muzakir alias Him bin Adi",
+      "status": "convicted",
+      "statusAsOf": "2025-03-06",
+      "roleLabel": "death sentence reported in a first-instance court decision; court describes participation in Indonesia; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-idi-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Muzakir alias Him bin Adi in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2024 court-described conduct",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-idi-2025-muzakir-alias-him-bin-adi-2025-03-06-court",
+          "occurredAt": "2025-03-06",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2025-03-06, MARINews, Supreme Court of Indonesia reported that Muzakir alias Him bin Adi had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD",
+            "title": "Tok! PN Idi Hukum Mati 3 Terdakwa Jaringan Internasional",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2025-03-06",
+            "claim": "The official source individually names Muzakir alias Him bin Adi and reports death sentence reported in a first-instance court decision; court describes participation in Indonesia. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-03-06, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD",
+          "title": "Tok! PN Idi Hukum Mati 3 Terdakwa Jaringan Internasional",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-03-06",
+          "claim": "The official source individually names Muzakir alias Him bin Adi and reports death sentence reported in a first-instance court decision; court describes participation in Indonesia. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-03-06, not a verified present location or custody state."
+        }
+      ],
+      "aliases": [
+        "Him"
+      ]
+    },
+    {
+      "id": "sea-idn-idi-2025-ilyas-amren-bin-amren",
+      "name": "Ilyas Amren bin Amren",
+      "status": "convicted",
+      "statusAsOf": "2025-03-06",
+      "roleLabel": "death sentence reported in a first-instance court decision; court describes participation in Indonesia; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-idi-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Ilyas Amren bin Amren in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2024 court-described conduct",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-idi-2025-ilyas-amren-bin-amren-2025-03-06-court",
+          "occurredAt": "2025-03-06",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2025-03-06, MARINews, Supreme Court of Indonesia reported that Ilyas Amren bin Amren had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD",
+            "title": "Tok! PN Idi Hukum Mati 3 Terdakwa Jaringan Internasional",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2025-03-06",
+            "claim": "The official source individually names Ilyas Amren bin Amren and reports death sentence reported in a first-instance court decision; court describes participation in Indonesia. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-03-06, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/putusan/tok-pn-idi-hukum-mati-3-terdakwa-jaringan-internasional-0cD",
+          "title": "Tok! PN Idi Hukum Mati 3 Terdakwa Jaringan Internasional",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-03-06",
+          "claim": "The official source individually names Ilyas Amren bin Amren and reports death sentence reported in a first-instance court decision; court describes participation in Indonesia. It describes historical case conduct in Indonesia; the status is evidenced as of 2025-03-06, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-bengkalis-2026-anton-bin-pendi",
+      "name": "Anton bin Pendi",
+      "status": "convicted",
+      "statusAsOf": "2026-01-28",
+      "roleLabel": "life sentence reported in a first-instance court decision; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-bengkalis-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Anton bin Pendi in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025–2026 court finding",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine",
+        "MDMA"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-bengkalis-2026-anton-bin-pendi-2026-01-28-court",
+          "occurredAt": "2026-01-28",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2026-01-28, MARINews, Supreme Court of Indonesia reported that Anton bin Pendi had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+            "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2026-01-28",
+            "claim": "The official source individually names Anton bin Pendi and reports life sentence reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+          "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2026-01-28",
+          "claim": "The official source individually names Anton bin Pendi and reports life sentence reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-bengkalis-2026-junaidi-hasugian",
+      "name": "Junaidi Hasugian",
+      "status": "convicted",
+      "statusAsOf": "2026-01-28",
+      "roleLabel": "life sentence reported in a first-instance court decision; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-bengkalis-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Junaidi Hasugian in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025–2026 court finding",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine",
+        "MDMA"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-bengkalis-2026-junaidi-hasugian-2026-01-28-court",
+          "occurredAt": "2026-01-28",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2026-01-28, MARINews, Supreme Court of Indonesia reported that Junaidi Hasugian had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+            "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2026-01-28",
+            "claim": "The official source individually names Junaidi Hasugian and reports life sentence reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+          "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2026-01-28",
+          "claim": "The official source individually names Junaidi Hasugian and reports life sentence reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-bengkalis-2026-jamal-bin-atam",
+      "name": "Jamal bin Atam",
+      "status": "convicted",
+      "statusAsOf": "2026-01-28",
+      "roleLabel": "life sentence reported in a first-instance court decision; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-bengkalis-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Jamal bin Atam in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025–2026 court finding",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine",
+        "MDMA"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-bengkalis-2026-jamal-bin-atam-2026-01-28-court",
+          "occurredAt": "2026-01-28",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2026-01-28, MARINews, Supreme Court of Indonesia reported that Jamal bin Atam had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+            "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2026-01-28",
+            "claim": "The official source individually names Jamal bin Atam and reports life sentence reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+          "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2026-01-28",
+          "claim": "The official source individually names Jamal bin Atam and reports life sentence reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-bengkalis-2026-toma-arwinata",
+      "name": "Toma Arwinata",
+      "status": "convicted",
+      "statusAsOf": "2026-01-28",
+      "roleLabel": "death sentence with a ten-year probationary condition reported in a first-instance court decision; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-bengkalis-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Toma Arwinata in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025–2026 court finding",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine",
+        "MDMA"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-bengkalis-2026-toma-arwinata-2026-01-28-court",
+          "occurredAt": "2026-01-28",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2026-01-28, MARINews, Supreme Court of Indonesia reported that Toma Arwinata had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+            "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2026-01-28",
+            "claim": "The official source individually names Toma Arwinata and reports death sentence with a ten-year probationary condition reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+          "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2026-01-28",
+          "claim": "The official source individually names Toma Arwinata and reports death sentence with a ten-year probationary condition reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-bengkalis-2026-fristo-harianto-tumangger",
+      "name": "Fristo Harianto Tumangger",
+      "status": "convicted",
+      "statusAsOf": "2026-01-28",
+      "roleLabel": "death sentence with a ten-year probationary condition reported in a first-instance court decision; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "idn-bengkalis-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "IDN",
+          "label": "Indonesia",
+          "evidence": {
+            "claim": "The cited official case record individually names Fristo Harianto Tumangger in historical drug-trafficking conduct in Indonesia. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025–2026 court finding",
+            "sourceUrl": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine",
+        "MDMA"
+      ],
+      "events": [
+        {
+          "id": "sea-idn-bengkalis-2026-fristo-harianto-tumangger-2026-01-28-court",
+          "occurredAt": "2026-01-28",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2026-01-28, MARINews, Supreme Court of Indonesia reported that Fristo Harianto Tumangger had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+            "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+            "publisher": "MARINews, Supreme Court of Indonesia",
+            "language": "Indonesian",
+            "publishedAt": "2026-01-28",
+            "claim": "The official source individually names Fristo Harianto Tumangger and reports death sentence with a ten-year probationary condition reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-bengkalis-vonis-mati-kurir-narkotika-internasional-0NS",
+          "title": "PN Bengkalis Vonis Mati Kurir Narkotika Internasional Menggunakan Aturan KUHP Baru",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2026-01-28",
+          "claim": "The official source individually names Fristo Harianto Tumangger and reports death sentence with a ten-year probationary condition reported in a first-instance court decision. It describes historical case conduct in Indonesia; the status is evidenced as of 2026-01-28, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-vnm-nghe-an-2026-nguyen-van-anh",
+      "name": "Nguyễn Văn Ánh",
+      "status": "convicted",
+      "statusAsOf": "2026-03-24",
+      "roleLabel": "20-year first-instance sentence for illegal methamphetamine trading; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "vnm-nghe-an-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "VNM",
+          "label": "Vietnam",
+          "evidence": {
+            "claim": "The cited official case record individually names Nguyễn Văn Ánh in historical drug-trafficking conduct in Vietnam. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 prosecuted conduct",
+            "sourceUrl": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-vnm-nghe-an-2026-nguyen-van-anh-2026-03-24-court",
+          "occurredAt": "2026-03-24",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2026-03-24, the court decided the case involving Nguyễn Văn Ánh; the cited source reports the specific outcome as 20-year first-instance sentence for illegal methamphetamine trading. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1",
+            "title": "VKSND tỉnh Nghệ An phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa trực tuyến xét xử vụ án “Mua bán trái phép chất ma túy”",
+            "publisher": "Supreme People’s Procuracy of Vietnam",
+            "language": "Vietnamese",
+            "publishedAt": "2026-03-27",
+            "claim": "The official source individually names Nguyễn Văn Ánh and reports 20-year first-instance sentence for illegal methamphetamine trading. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-03-24, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1",
+          "title": "VKSND tỉnh Nghệ An phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa trực tuyến xét xử vụ án “Mua bán trái phép chất ma túy”",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-03-27",
+          "claim": "The official source individually names Nguyễn Văn Ánh and reports 20-year first-instance sentence for illegal methamphetamine trading. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-03-24, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-vnm-nghe-an-2026-tran-ngoc-anh",
+      "name": "Trần Ngọc Anh",
+      "status": "convicted",
+      "statusAsOf": "2026-03-24",
+      "roleLabel": "20-year first-instance sentence for illegal methamphetamine trading; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "vnm-nghe-an-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "VNM",
+          "label": "Vietnam",
+          "evidence": {
+            "claim": "The cited official case record individually names Trần Ngọc Anh in historical drug-trafficking conduct in Vietnam. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 prosecuted conduct",
+            "sourceUrl": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-vnm-nghe-an-2026-tran-ngoc-anh-2026-03-24-court",
+          "occurredAt": "2026-03-24",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2026-03-24, the court decided the case involving Trần Ngọc Anh; the cited source reports the specific outcome as 20-year first-instance sentence for illegal methamphetamine trading. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1",
+            "title": "VKSND tỉnh Nghệ An phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa trực tuyến xét xử vụ án “Mua bán trái phép chất ma túy”",
+            "publisher": "Supreme People’s Procuracy of Vietnam",
+            "language": "Vietnamese",
+            "publishedAt": "2026-03-27",
+            "claim": "The official source individually names Trần Ngọc Anh and reports 20-year first-instance sentence for illegal methamphetamine trading. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-03-24, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1",
+          "title": "VKSND tỉnh Nghệ An phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa trực tuyến xét xử vụ án “Mua bán trái phép chất ma túy”",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-03-27",
+          "claim": "The official source individually names Trần Ngọc Anh and reports 20-year first-instance sentence for illegal methamphetamine trading. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-03-24, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-vnm-nghe-an-2026-dang-quang-dat",
+      "name": "Đặng Quang Đạt",
+      "status": "convicted",
+      "statusAsOf": "2026-03-24",
+      "roleLabel": "20-year first-instance sentence for illegal methamphetamine trading; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "vnm-nghe-an-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "VNM",
+          "label": "Vietnam",
+          "evidence": {
+            "claim": "The cited official case record individually names Đặng Quang Đạt in historical drug-trafficking conduct in Vietnam. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 prosecuted conduct",
+            "sourceUrl": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-vnm-nghe-an-2026-dang-quang-dat-2026-03-24-court",
+          "occurredAt": "2026-03-24",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2026-03-24, the court decided the case involving Đặng Quang Đạt; the cited source reports the specific outcome as 20-year first-instance sentence for illegal methamphetamine trading. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1",
+            "title": "VKSND tỉnh Nghệ An phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa trực tuyến xét xử vụ án “Mua bán trái phép chất ma túy”",
+            "publisher": "Supreme People’s Procuracy of Vietnam",
+            "language": "Vietnamese",
+            "publishedAt": "2026-03-27",
+            "claim": "The official source individually names Đặng Quang Đạt and reports 20-year first-instance sentence for illegal methamphetamine trading. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-03-24, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1",
+          "title": "VKSND tỉnh Nghệ An phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa trực tuyến xét xử vụ án “Mua bán trái phép chất ma túy”",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-03-27",
+          "claim": "The official source individually names Đặng Quang Đạt and reports 20-year first-instance sentence for illegal methamphetamine trading. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-03-24, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-vnm-nghe-an-2026-dang-van-ton",
+      "name": "Đặng Văn Tôn",
+      "status": "convicted",
+      "statusAsOf": "2026-03-24",
+      "roleLabel": "20-year first-instance sentence for illegal methamphetamine trading; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "vnm-nghe-an-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "VNM",
+          "label": "Vietnam",
+          "evidence": {
+            "claim": "The cited official case record individually names Đặng Văn Tôn in historical drug-trafficking conduct in Vietnam. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 prosecuted conduct",
+            "sourceUrl": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-vnm-nghe-an-2026-dang-van-ton-2026-03-24-court",
+          "occurredAt": "2026-03-24",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2026-03-24, the court decided the case involving Đặng Văn Tôn; the cited source reports the specific outcome as 20-year first-instance sentence for illegal methamphetamine trading. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1",
+            "title": "VKSND tỉnh Nghệ An phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa trực tuyến xét xử vụ án “Mua bán trái phép chất ma túy”",
+            "publisher": "Supreme People’s Procuracy of Vietnam",
+            "language": "Vietnamese",
+            "publishedAt": "2026-03-27",
+            "claim": "The official source individually names Đặng Văn Tôn and reports 20-year first-instance sentence for illegal methamphetamine trading. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-03-24, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc/vksnd-tinh-nghe-an-phoi-hop-voi-toa-an-nhan-dan-ti-t13909.html?Page=1",
+          "title": "VKSND tỉnh Nghệ An phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa trực tuyến xét xử vụ án “Mua bán trái phép chất ma túy”",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-03-27",
+          "claim": "The official source individually names Đặng Văn Tôn and reports 20-year first-instance sentence for illegal methamphetamine trading. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-03-24, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-vnm-dien-bien-2026-vang-a-xe",
+      "name": "Vàng A Xế",
+      "status": "convicted",
+      "statusAsOf": "2026-04-03",
+      "roleLabel": "life sentence reported for illegal drug sale and transport; prosecutor identifies him as the principal participant; later appellate outcome not verified",
+      "prominence": 2,
+      "organizationIds": [
+        "vnm-dien-bien-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "VNM",
+          "label": "Vietnam",
+          "evidence": {
+            "claim": "The cited official case record individually names Vàng A Xế in historical drug-trafficking conduct in Vietnam. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 prosecuted conduct",
+            "sourceUrl": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "events": [
+        {
+          "id": "sea-vnm-dien-bien-2026-vang-a-xe-2026-04-03-court",
+          "occurredAt": "2026-04-03",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2026-04-03, Supreme People’s Procuracy of Vietnam reported that Vàng A Xế had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html",
+            "title": "VKSND tỉnh Điện Biên phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa xét xử vụ án về ma túy",
+            "publisher": "Supreme People’s Procuracy of Vietnam",
+            "language": "Vietnamese",
+            "publishedAt": "2026-04-03",
+            "claim": "The official source individually names Vàng A Xế and reports life sentence reported for illegal drug sale and transport; prosecutor identifies him as the principal participant. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-04-03, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html",
+          "title": "VKSND tỉnh Điện Biên phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa xét xử vụ án về ma túy",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-04-03",
+          "claim": "The official source individually names Vàng A Xế and reports life sentence reported for illegal drug sale and transport; prosecutor identifies him as the principal participant. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-04-03, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-vnm-dien-bien-2026-lau-a-vu",
+      "name": "Lầu A Vừ",
+      "status": "convicted",
+      "statusAsOf": "2026-04-03",
+      "roleLabel": "life sentence reported for illegal drug sale and transport; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "vnm-dien-bien-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "VNM",
+          "label": "Vietnam",
+          "evidence": {
+            "claim": "The cited official case record individually names Lầu A Vừ in historical drug-trafficking conduct in Vietnam. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 prosecuted conduct",
+            "sourceUrl": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "events": [
+        {
+          "id": "sea-vnm-dien-bien-2026-lau-a-vu-2026-04-03-court",
+          "occurredAt": "2026-04-03",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2026-04-03, Supreme People’s Procuracy of Vietnam reported that Lầu A Vừ had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html",
+            "title": "VKSND tỉnh Điện Biên phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa xét xử vụ án về ma túy",
+            "publisher": "Supreme People’s Procuracy of Vietnam",
+            "language": "Vietnamese",
+            "publishedAt": "2026-04-03",
+            "claim": "The official source individually names Lầu A Vừ and reports life sentence reported for illegal drug sale and transport. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-04-03, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html",
+          "title": "VKSND tỉnh Điện Biên phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa xét xử vụ án về ma túy",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-04-03",
+          "claim": "The official source individually names Lầu A Vừ and reports life sentence reported for illegal drug sale and transport. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-04-03, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-vnm-dien-bien-2026-lau-a-dia",
+      "name": "Lầu A Dia",
+      "status": "convicted",
+      "statusAsOf": "2026-04-03",
+      "roleLabel": "20-year sentence reported for illegal drug sale; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "vnm-dien-bien-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "VNM",
+          "label": "Vietnam",
+          "evidence": {
+            "claim": "The cited official case record individually names Lầu A Dia in historical drug-trafficking conduct in Vietnam. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 prosecuted conduct",
+            "sourceUrl": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "events": [
+        {
+          "id": "sea-vnm-dien-bien-2026-lau-a-dia-2026-04-03-court",
+          "occurredAt": "2026-04-03",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2026-04-03, Supreme People’s Procuracy of Vietnam reported that Lầu A Dia had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html",
+            "title": "VKSND tỉnh Điện Biên phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa xét xử vụ án về ma túy",
+            "publisher": "Supreme People’s Procuracy of Vietnam",
+            "language": "Vietnamese",
+            "publishedAt": "2026-04-03",
+            "claim": "The official source individually names Lầu A Dia and reports 20-year sentence reported for illegal drug sale. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-04-03, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html",
+          "title": "VKSND tỉnh Điện Biên phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa xét xử vụ án về ma túy",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-04-03",
+          "claim": "The official source individually names Lầu A Dia and reports 20-year sentence reported for illegal drug sale. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-04-03, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-vnm-dien-bien-2026-lau-a-chu",
+      "name": "Lầu A Chu",
+      "status": "convicted",
+      "statusAsOf": "2026-04-03",
+      "roleLabel": "20-year sentence reported for illegal drug transport; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "vnm-dien-bien-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "VNM",
+          "label": "Vietnam",
+          "evidence": {
+            "claim": "The cited official case record individually names Lầu A Chu in historical drug-trafficking conduct in Vietnam. This country marker does not show residence, a precise site, or current position.",
+            "period": "2025 prosecuted conduct",
+            "sourceUrl": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "events": [
+        {
+          "id": "sea-vnm-dien-bien-2026-lau-a-chu-2026-04-03-court",
+          "occurredAt": "2026-04-03",
+          "type": "development",
+          "title": "Official report of a court sentence",
+          "summary": "On 2026-04-03, Supreme People’s Procuracy of Vietnam reported that Lầu A Chu had received the cited court sentence. The exact verdict day is not specified; this event dates the report, not the sentence.",
+          "source": {
+            "url": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html",
+            "title": "VKSND tỉnh Điện Biên phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa xét xử vụ án về ma túy",
+            "publisher": "Supreme People’s Procuracy of Vietnam",
+            "language": "Vietnamese",
+            "publishedAt": "2026-04-03",
+            "claim": "The official source individually names Lầu A Chu and reports 20-year sentence reported for illegal drug transport. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-04-03, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://vksndtc.gov.vn/tin-tuc-su-kien/60-nam-ngay-thanh-lap-nganh-kiem-sat-nhan-dan/vksnd-tinh-dien-bien-phoi-hop-voi-toa-an-nhan-dan--s25-t13930.html",
+          "title": "VKSND tỉnh Điện Biên phối hợp với Tòa án nhân dân tỉnh tổ chức phiên tòa xét xử vụ án về ma túy",
+          "publisher": "Supreme People’s Procuracy of Vietnam",
+          "language": "Vietnamese",
+          "publishedAt": "2026-04-03",
+          "claim": "The official source individually names Lầu A Chu and reports 20-year sentence reported for illegal drug transport. It describes historical case conduct in Vietnam; the status is evidenced as of 2026-04-03, not a verified present location or custody state."
+        }
+      ]
+    },
+    {
+      "id": "sea-phl-palacios-gaitan-2025-aldrin-palacios-y-fejedero",
+      "name": "Aldrin Palacios y Fejedero",
+      "status": "convicted",
+      "statusAsOf": "2025-08-20",
+      "roleLabel": "Supreme Court affirmed conviction for illegal methamphetamine sale and possession on appeal; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "phl-palacios-gaitan-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PHL",
+          "label": "Philippines",
+          "evidence": {
+            "claim": "The cited official case record individually names Aldrin Palacios y Fejedero in historical drug-trafficking conduct in Philippines. This country marker does not show residence, a precise site, or current position.",
+            "period": "2021 court-established conduct",
+            "sourceUrl": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/1/70209"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-phl-palacios-gaitan-2025-aldrin-palacios-y-fejedero-2025-08-20-court",
+          "occurredAt": "2025-08-20",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2025-08-20, the court decided the case involving Aldrin Palacios y Fejedero; the cited source reports the specific outcome as Supreme Court affirmed conviction for illegal methamphetamine sale and possession on appeal. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/1/70209",
+            "title": "People of the Philippines v. Aldrin Palacios y Fejedero and Noel Gaitan, Jr. y Bermundo, G.R. No. 268839",
+            "publisher": "Supreme Court of the Philippines",
+            "language": "English",
+            "publishedAt": "2025-12-22",
+            "claim": "The official source individually names Aldrin Palacios y Fejedero and reports Supreme Court affirmed conviction for illegal methamphetamine sale and possession on appeal. It describes historical case conduct in Philippines; the status is evidenced as of 2025-08-20, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/1/70209",
+          "title": "People of the Philippines v. Aldrin Palacios y Fejedero and Noel Gaitan, Jr. y Bermundo, G.R. No. 268839",
+          "publisher": "Supreme Court of the Philippines",
+          "language": "English",
+          "publishedAt": "2025-12-22",
+          "claim": "The official source individually names Aldrin Palacios y Fejedero and reports Supreme Court affirmed conviction for illegal methamphetamine sale and possession on appeal. It describes historical case conduct in Philippines; the status is evidenced as of 2025-08-20, not a verified present location or custody state."
+        }
+      ],
+      "aliases": [
+        "Anding"
+      ]
+    },
+    {
+      "id": "sea-phl-palacios-gaitan-2025-noel-gaitan-jr-y-bermundo",
+      "name": "Noel Gaitan, Jr. y Bermundo",
+      "status": "convicted",
+      "statusAsOf": "2025-08-20",
+      "roleLabel": "Supreme Court affirmed conviction for illegal methamphetamine sale and possession on appeal; later appellate outcome not verified",
+      "prominence": 3,
+      "organizationIds": [
+        "phl-palacios-gaitan-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PHL",
+          "label": "Philippines",
+          "evidence": {
+            "claim": "The cited official case record individually names Noel Gaitan, Jr. y Bermundo in historical drug-trafficking conduct in Philippines. This country marker does not show residence, a precise site, or current position.",
+            "period": "2021 court-established conduct",
+            "sourceUrl": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/1/70209"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "sea-phl-palacios-gaitan-2025-noel-gaitan-jr-y-bermundo-2025-08-20-court",
+          "occurredAt": "2025-08-20",
+          "type": "conviction",
+          "title": "Court decision on drug charges",
+          "summary": "On 2025-08-20, the court decided the case involving Noel Gaitan, Jr. y Bermundo; the cited source reports the specific outcome as Supreme Court affirmed conviction for illegal methamphetamine sale and possession on appeal. This does not establish any later appellate result or current custody.",
+          "source": {
+            "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/1/70209",
+            "title": "People of the Philippines v. Aldrin Palacios y Fejedero and Noel Gaitan, Jr. y Bermundo, G.R. No. 268839",
+            "publisher": "Supreme Court of the Philippines",
+            "language": "English",
+            "publishedAt": "2025-12-22",
+            "claim": "The official source individually names Noel Gaitan, Jr. y Bermundo and reports Supreme Court affirmed conviction for illegal methamphetamine sale and possession on appeal. It describes historical case conduct in Philippines; the status is evidenced as of 2025-08-20, not a verified present location or custody state."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/1/70209",
+          "title": "People of the Philippines v. Aldrin Palacios y Fejedero and Noel Gaitan, Jr. y Bermundo, G.R. No. 268839",
+          "publisher": "Supreme Court of the Philippines",
+          "language": "English",
+          "publishedAt": "2025-12-22",
+          "claim": "The official source individually names Noel Gaitan, Jr. y Bermundo and reports Supreme Court affirmed conviction for illegal methamphetamine sale and possession on appeal. It describes historical case conduct in Philippines; the status is evidenced as of 2025-08-20, not a verified present location or custody state."
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "sea-idn-tanjung-balai-2025-hamlet-azhar-directed-suriyanto",
+      "fromId": "sea-idn-tanjung-balai-2025-hamlet-azhar",
+      "toId": "sea-idn-tanjung-balai-2025-suriyanto",
+      "type": "directed",
+      "label": "Court-reported instruction (first instance)",
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "MARINews reports the first-instance court case began with Hamlet Azhar instructing Suriyanto; the claim is limited to the documented historical instruction and does not establish a later appellate finding."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-tanjung-balai-2025-hamlet-azhar-directed-dedi-irawan",
+      "fromId": "sea-idn-tanjung-balai-2025-hamlet-azhar",
+      "toId": "sea-idn-tanjung-balai-2025-dedi-irawan",
+      "type": "directed",
+      "label": "Court-reported instruction (first instance)",
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "MARINews reports the first-instance court case began with Hamlet Azhar instructing Dedi Irawan; the claim is limited to the documented historical instruction and does not establish a later appellate finding."
+        }
+      ]
+    },
+    {
+      "id": "sea-idn-tanjung-balai-2025-hamlet-azhar-directed-ardian",
+      "fromId": "sea-idn-tanjung-balai-2025-hamlet-azhar",
+      "toId": "sea-idn-tanjung-balai-2025-ardian",
+      "type": "directed",
+      "label": "Court-reported instruction (first instance)",
+      "sources": [
+        {
+          "url": "https://marinews.mahkamahagung.go.id/berita/pn-tanjung-balai-jatuhkan-hukuman-mati-kepada-terdakwa-06y",
+          "title": "PN Tanjung Balai Jatuhkan Hukuman Mati kepada Terdakwa Penyelundup Sabu 69 Kg dari Malaysia",
+          "publisher": "MARINews, Supreme Court of Indonesia",
+          "language": "Indonesian",
+          "publishedAt": "2025-10-27",
+          "claim": "MARINews reports the first-instance court case began with Hamlet Azhar instructing Ardian; the claim is limited to the documented historical instruction and does not establish a later appellate finding."
+        }
+      ]
+    }
+  ]
+}

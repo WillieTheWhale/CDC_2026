@@ -1,0 +1,705 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Historical appellate snapshot only; statusAsOf is the cited judgment date. No claim of current custody, nationality-based geography, operational route detail, direct person link, or portrait.",
+  "organizations": [
+    {
+      "id": "pak-sindh-onion-heroin-2013",
+      "name": "Sindh heroin case (2013)",
+      "aliases": [],
+      "regions": [
+        "PAK"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Jail Appeal No. 278 of 2016",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2020-02-26",
+          "claim": "High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case."
+        }
+      ]
+    },
+    {
+      "id": "pak-sindh-charas-2016",
+      "name": "Sindh charas case (2016)",
+      "aliases": [],
+      "regions": [
+        "PAK"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjYxODY0Y2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Jail Appeal No. 389 of 2022 and Criminal Appeal No. 706 of 2021",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2022-12-07",
+          "claim": "High Court dismissed the appeal and upheld the 2021 CNS conviction for the 2016 commercial charas case."
+        }
+      ]
+    },
+    {
+      "id": "pak-sindh-imtiaz-heroin-2007",
+      "name": "Sindh heroin case (2007)",
+      "aliases": [],
+      "regions": [
+        "PAK"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjI1NzEw",
+          "title": "Sindh High Court Criminal Appeal No. 16 of 2012 and Revision No. 106 of 2012",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2013-05-31",
+          "claim": "High Court upheld the conviction and enhanced the sentence in the 2007 heroin case."
+        }
+      ]
+    },
+    {
+      "id": "pak-sindh-qasim-heroin-2012",
+      "name": "Sindh heroin case (2012)",
+      "aliases": [],
+      "regions": [
+        "PAK"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjI3MDc4",
+          "title": "Sindh High Court Criminal Appeal No. 195 of 2013",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2018-03-05",
+          "claim": "High Court maintained the 2013 CNS conviction while reducing the sentence."
+        }
+      ]
+    },
+    {
+      "id": "pak-sindh-khoso-charas-2016",
+      "name": "Sindh charas case (2016)",
+      "aliases": [],
+      "regions": [
+        "PAK"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MTI3MzEzY2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Appeal No. D-62 of 2017",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2018-05-02",
+          "claim": "High Court maintained the 2017 convictions for the 2016 commercial charas case, modifying one sentence."
+        }
+      ]
+    },
+    {
+      "id": "ind-madras-heroin-2012",
+      "name": "Madras heroin conspiracy case (2012)",
+      "aliases": [],
+      "regions": [
+        "IND"
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/182025128/",
+          "title": "Krishnan Sridaran Rajendran v. State, Madras High Court common judgment",
+          "publisher": "Madras High Court (text hosted by Indian Kanoon)",
+          "language": "en",
+          "publishedAt": "2017-12-21",
+          "claim": "Madras High Court dismissed the appeals and affirmed the 2016 NDPS conspiracy and possession convictions, reducing the sentences."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "zahid-khan-sindh-2013",
+      "name": "Zahid Khan",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2020-02-26",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "pak-sindh-onion-heroin-2013"
+      ],
+      "regions": [
+        {
+          "iso3": "PAK",
+          "label": "Pakistan",
+          "evidence": {
+            "claim": "The appellate judgment describes Zahid Khan in the Sindh heroin case (2013) involving narcotics conduct in Pakistan.",
+            "period": "2013",
+            "sourceUrl": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Jail Appeal No. 278 of 2016",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2020-02-26",
+          "claim": "Sindh High Court Criminal Jail Appeal No. 278 of 2016 individually names Zahid Khan; High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case."
+        }
+      ],
+      "events": [
+        {
+          "id": "zahid-khan-sindh-2013-2020-02-26-appeal",
+          "occurredAt": "2020-02-26",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case.",
+          "source": {
+            "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz",
+            "title": "Sindh High Court Criminal Jail Appeal No. 278 of 2016",
+            "publisher": "High Court of Sindh",
+            "language": "en",
+            "publishedAt": "2020-02-26",
+            "claim": "Sindh High Court Criminal Jail Appeal No. 278 of 2016 individually names Zahid Khan; High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "javed-khan-sindh-2013",
+      "name": "Javed Khan",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2020-02-26",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "pak-sindh-onion-heroin-2013"
+      ],
+      "regions": [
+        {
+          "iso3": "PAK",
+          "label": "Pakistan",
+          "evidence": {
+            "claim": "The appellate judgment describes Javed Khan in the Sindh heroin case (2013) involving narcotics conduct in Pakistan.",
+            "period": "2013",
+            "sourceUrl": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Jail Appeal No. 278 of 2016",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2020-02-26",
+          "claim": "Sindh High Court Criminal Jail Appeal No. 278 of 2016 individually names Javed Khan; High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case."
+        }
+      ],
+      "events": [
+        {
+          "id": "javed-khan-sindh-2013-2020-02-26-appeal",
+          "occurredAt": "2020-02-26",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case.",
+          "source": {
+            "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz",
+            "title": "Sindh High Court Criminal Jail Appeal No. 278 of 2016",
+            "publisher": "High Court of Sindh",
+            "language": "en",
+            "publishedAt": "2020-02-26",
+            "claim": "Sindh High Court Criminal Jail Appeal No. 278 of 2016 individually names Javed Khan; High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "waris-khan-sindh-2013",
+      "name": "Waris Khan",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2020-02-26",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "pak-sindh-onion-heroin-2013"
+      ],
+      "regions": [
+        {
+          "iso3": "PAK",
+          "label": "Pakistan",
+          "evidence": {
+            "claim": "The appellate judgment describes Waris Khan in the Sindh heroin case (2013) involving narcotics conduct in Pakistan.",
+            "period": "2013",
+            "sourceUrl": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Jail Appeal No. 278 of 2016",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2020-02-26",
+          "claim": "Sindh High Court Criminal Jail Appeal No. 278 of 2016 individually names Waris Khan; High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case."
+        }
+      ],
+      "events": [
+        {
+          "id": "waris-khan-sindh-2013-2020-02-26-appeal",
+          "occurredAt": "2020-02-26",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case.",
+          "source": {
+            "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjY1OTc3Y2Ztcy1kYzgz",
+            "title": "Sindh High Court Criminal Jail Appeal No. 278 of 2016",
+            "publisher": "High Court of Sindh",
+            "language": "en",
+            "publishedAt": "2020-02-26",
+            "claim": "Sindh High Court Criminal Jail Appeal No. 278 of 2016 individually names Waris Khan; High Court dismissed the appeal and upheld the 2016 CNS conviction for the 2013 heroin case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "shah-nawaz-sindh-2016",
+      "name": "Shah Nawaz",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-12-07",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "pak-sindh-charas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "PAK",
+          "label": "Pakistan",
+          "evidence": {
+            "claim": "The appellate judgment describes Shah Nawaz in the Sindh charas case (2016) involving narcotics conduct in Pakistan.",
+            "period": "2016",
+            "sourceUrl": "https://caselaw.shc.gov.pk/caselaw/view-file/MjYxODY0Y2Ztcy1kYzgz"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjYxODY0Y2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Jail Appeal No. 389 of 2022 and Criminal Appeal No. 706 of 2021",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2022-12-07",
+          "claim": "Sindh High Court Criminal Jail Appeal No. 389 of 2022 and Criminal Appeal No. 706 of 2021 individually names Shah Nawaz; High Court dismissed the appeal and upheld the 2021 CNS conviction for the 2016 commercial charas case."
+        }
+      ],
+      "events": [
+        {
+          "id": "shah-nawaz-sindh-2016-2022-12-07-appeal",
+          "occurredAt": "2022-12-07",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "High Court dismissed the appeal and upheld the 2021 CNS conviction for the 2016 commercial charas case.",
+          "source": {
+            "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjYxODY0Y2Ztcy1kYzgz",
+            "title": "Sindh High Court Criminal Jail Appeal No. 389 of 2022 and Criminal Appeal No. 706 of 2021",
+            "publisher": "High Court of Sindh",
+            "language": "en",
+            "publishedAt": "2022-12-07",
+            "claim": "Sindh High Court Criminal Jail Appeal No. 389 of 2022 and Criminal Appeal No. 706 of 2021 individually names Shah Nawaz; High Court dismissed the appeal and upheld the 2021 CNS conviction for the 2016 commercial charas case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "muhammad-saeed-sindh-2016",
+      "name": "Muhammad Saeed",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2022-12-07",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "pak-sindh-charas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "PAK",
+          "label": "Pakistan",
+          "evidence": {
+            "claim": "The appellate judgment describes Muhammad Saeed in the Sindh charas case (2016) involving narcotics conduct in Pakistan.",
+            "period": "2016",
+            "sourceUrl": "https://caselaw.shc.gov.pk/caselaw/view-file/MjYxODY0Y2Ztcy1kYzgz"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjYxODY0Y2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Jail Appeal No. 389 of 2022 and Criminal Appeal No. 706 of 2021",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2022-12-07",
+          "claim": "Sindh High Court Criminal Jail Appeal No. 389 of 2022 and Criminal Appeal No. 706 of 2021 individually names Muhammad Saeed; High Court dismissed the appeal and upheld the 2021 CNS conviction for the 2016 commercial charas case."
+        }
+      ],
+      "events": [
+        {
+          "id": "muhammad-saeed-sindh-2016-2022-12-07-appeal",
+          "occurredAt": "2022-12-07",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "High Court dismissed the appeal and upheld the 2021 CNS conviction for the 2016 commercial charas case.",
+          "source": {
+            "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjYxODY0Y2Ztcy1kYzgz",
+            "title": "Sindh High Court Criminal Jail Appeal No. 389 of 2022 and Criminal Appeal No. 706 of 2021",
+            "publisher": "High Court of Sindh",
+            "language": "en",
+            "publishedAt": "2022-12-07",
+            "claim": "Sindh High Court Criminal Jail Appeal No. 389 of 2022 and Criminal Appeal No. 706 of 2021 individually names Muhammad Saeed; High Court dismissed the appeal and upheld the 2021 CNS conviction for the 2016 commercial charas case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "imtiaz-javed-sindh-2007",
+      "name": "Imtiaz Javed",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2013-05-31",
+      "roleLabel": "High Court affirmed heroin trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "pak-sindh-imtiaz-heroin-2007"
+      ],
+      "regions": [
+        {
+          "iso3": "PAK",
+          "label": "Pakistan",
+          "evidence": {
+            "claim": "The appellate judgment describes Imtiaz Javed in the Sindh heroin case (2007) involving narcotics conduct in Pakistan.",
+            "period": "2007",
+            "sourceUrl": "https://caselaw.shc.gov.pk/caselaw/view-file/MjI1NzEw"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjI1NzEw",
+          "title": "Sindh High Court Criminal Appeal No. 16 of 2012 and Revision No. 106 of 2012",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2013-05-31",
+          "claim": "Sindh High Court Criminal Appeal No. 16 of 2012 and Revision No. 106 of 2012 individually names Imtiaz Javed; High Court upheld the conviction and enhanced the sentence in the 2007 heroin case."
+        }
+      ],
+      "events": [
+        {
+          "id": "imtiaz-javed-sindh-2007-2013-05-31-appeal",
+          "occurredAt": "2013-05-31",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "High Court upheld the conviction and enhanced the sentence in the 2007 heroin case.",
+          "source": {
+            "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjI1NzEw",
+            "title": "Sindh High Court Criminal Appeal No. 16 of 2012 and Revision No. 106 of 2012",
+            "publisher": "High Court of Sindh",
+            "language": "en",
+            "publishedAt": "2013-05-31",
+            "claim": "Sindh High Court Criminal Appeal No. 16 of 2012 and Revision No. 106 of 2012 individually names Imtiaz Javed; High Court upheld the conviction and enhanced the sentence in the 2007 heroin case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chaudhry-qasim-sindh-2012",
+      "name": "Chaudhry Qasim",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2018-03-05",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "pak-sindh-qasim-heroin-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "PAK",
+          "label": "Pakistan",
+          "evidence": {
+            "claim": "The appellate judgment describes Chaudhry Qasim in the Sindh heroin case (2012) involving narcotics conduct in Pakistan.",
+            "period": "2012",
+            "sourceUrl": "https://caselaw.shc.gov.pk/caselaw/view-file/MjI3MDc4"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjI3MDc4",
+          "title": "Sindh High Court Criminal Appeal No. 195 of 2013",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2018-03-05",
+          "claim": "Sindh High Court Criminal Appeal No. 195 of 2013 individually names Chaudhry Qasim; High Court maintained the 2013 CNS conviction while reducing the sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "chaudhry-qasim-sindh-2012-2018-03-05-appeal",
+          "occurredAt": "2018-03-05",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "High Court maintained the 2013 CNS conviction while reducing the sentence.",
+          "source": {
+            "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MjI3MDc4",
+            "title": "Sindh High Court Criminal Appeal No. 195 of 2013",
+            "publisher": "High Court of Sindh",
+            "language": "en",
+            "publishedAt": "2018-03-05",
+            "claim": "Sindh High Court Criminal Appeal No. 195 of 2013 individually names Chaudhry Qasim; High Court maintained the 2013 CNS conviction while reducing the sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "abdul-wahab-khoso-sindh-2016",
+      "name": "Abdul Wahab Khoso",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2018-05-02",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "pak-sindh-khoso-charas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "PAK",
+          "label": "Pakistan",
+          "evidence": {
+            "claim": "The appellate judgment describes Abdul Wahab Khoso in the Sindh charas case (2016) involving narcotics conduct in Pakistan.",
+            "period": "2016",
+            "sourceUrl": "https://caselaw.shc.gov.pk/caselaw/view-file/MTI3MzEzY2Ztcy1kYzgz"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MTI3MzEzY2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Appeal No. D-62 of 2017",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2018-05-02",
+          "claim": "Sindh High Court Criminal Appeal No. D-62 of 2017 individually names Abdul Wahab Khoso; High Court maintained the 2017 convictions for the 2016 commercial charas case, modifying one sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "abdul-wahab-khoso-sindh-2016-2018-05-02-appeal",
+          "occurredAt": "2018-05-02",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "High Court maintained the 2017 convictions for the 2016 commercial charas case, modifying one sentence.",
+          "source": {
+            "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MTI3MzEzY2Ztcy1kYzgz",
+            "title": "Sindh High Court Criminal Appeal No. D-62 of 2017",
+            "publisher": "High Court of Sindh",
+            "language": "en",
+            "publishedAt": "2018-05-02",
+            "claim": "Sindh High Court Criminal Appeal No. D-62 of 2017 individually names Abdul Wahab Khoso; High Court maintained the 2017 convictions for the 2016 commercial charas case, modifying one sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "khan-muhammad-kandrani-sindh-2016",
+      "name": "Khan Muhammad Kandrani",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2018-05-02",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "pak-sindh-khoso-charas-2016"
+      ],
+      "regions": [
+        {
+          "iso3": "PAK",
+          "label": "Pakistan",
+          "evidence": {
+            "claim": "The appellate judgment describes Khan Muhammad Kandrani in the Sindh charas case (2016) involving narcotics conduct in Pakistan.",
+            "period": "2016",
+            "sourceUrl": "https://caselaw.shc.gov.pk/caselaw/view-file/MTI3MzEzY2Ztcy1kYzgz"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MTI3MzEzY2Ztcy1kYzgz",
+          "title": "Sindh High Court Criminal Appeal No. D-62 of 2017",
+          "publisher": "High Court of Sindh",
+          "language": "en",
+          "publishedAt": "2018-05-02",
+          "claim": "Sindh High Court Criminal Appeal No. D-62 of 2017 individually names Khan Muhammad Kandrani; High Court maintained the 2017 convictions for the 2016 commercial charas case, modifying one sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "khan-muhammad-kandrani-sindh-2016-2018-05-02-appeal",
+          "occurredAt": "2018-05-02",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "High Court maintained the 2017 convictions for the 2016 commercial charas case, modifying one sentence.",
+          "source": {
+            "url": "https://caselaw.shc.gov.pk/caselaw/view-file/MTI3MzEzY2Ztcy1kYzgz",
+            "title": "Sindh High Court Criminal Appeal No. D-62 of 2017",
+            "publisher": "High Court of Sindh",
+            "language": "en",
+            "publishedAt": "2018-05-02",
+            "claim": "Sindh High Court Criminal Appeal No. D-62 of 2017 individually names Khan Muhammad Kandrani; High Court maintained the 2017 convictions for the 2016 commercial charas case, modifying one sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "krishnan-sridaran-rajendran",
+      "name": "Krishnan Sridaran Rajendran",
+      "aliases": [
+        "Krishnan Seedaran Rajendran",
+        "Madan",
+        "Madhan"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2017-12-21",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "ind-madras-heroin-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "The appellate judgment describes Krishnan Sridaran Rajendran in the Madras heroin conspiracy case (2012) involving narcotics conduct in India.",
+            "period": "2012",
+            "sourceUrl": "https://indiankanoon.org/doc/182025128/"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/182025128/",
+          "title": "Krishnan Sridaran Rajendran v. State, Madras High Court common judgment",
+          "publisher": "Madras High Court (text hosted by Indian Kanoon)",
+          "language": "en",
+          "publishedAt": "2017-12-21",
+          "claim": "Krishnan Sridaran Rajendran v. State, Madras High Court common judgment individually names Krishnan Sridaran Rajendran; Madras High Court dismissed the appeals and affirmed the 2016 NDPS conspiracy and possession convictions, reducing the sentences."
+        }
+      ],
+      "events": [
+        {
+          "id": "krishnan-sridaran-rajendran-2017-12-21-appeal",
+          "occurredAt": "2017-12-21",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "Madras High Court dismissed the appeals and affirmed the 2016 NDPS conspiracy and possession convictions, reducing the sentences.",
+          "source": {
+            "url": "https://indiankanoon.org/doc/182025128/",
+            "title": "Krishnan Sridaran Rajendran v. State, Madras High Court common judgment",
+            "publisher": "Madras High Court (text hosted by Indian Kanoon)",
+            "language": "en",
+            "publishedAt": "2017-12-21",
+            "claim": "Krishnan Sridaran Rajendran v. State, Madras High Court common judgment individually names Krishnan Sridaran Rajendran; Madras High Court dismissed the appeals and affirmed the 2016 NDPS conspiracy and possession convictions, reducing the sentences."
+          }
+        }
+      ]
+    },
+    {
+      "id": "chaval-shimanram",
+      "name": "Chaval Shimanram",
+      "aliases": [
+        "Rahul"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2017-12-21",
+      "roleLabel": "High Court affirmed commercial narcotics trafficking conviction",
+      "prominence": 3,
+      "organizationIds": [
+        "ind-madras-heroin-2012"
+      ],
+      "regions": [
+        {
+          "iso3": "IND",
+          "label": "India",
+          "evidence": {
+            "claim": "The appellate judgment describes Chaval Shimanram in the Madras heroin conspiracy case (2012) involving narcotics conduct in India.",
+            "period": "2012",
+            "sourceUrl": "https://indiankanoon.org/doc/182025128/"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://indiankanoon.org/doc/182025128/",
+          "title": "Krishnan Sridaran Rajendran v. State, Madras High Court common judgment",
+          "publisher": "Madras High Court (text hosted by Indian Kanoon)",
+          "language": "en",
+          "publishedAt": "2017-12-21",
+          "claim": "Krishnan Sridaran Rajendran v. State, Madras High Court common judgment individually names Chaval Shimanram; Madras High Court dismissed the appeals and affirmed the 2016 NDPS conspiracy and possession convictions, reducing the sentences."
+        }
+      ],
+      "events": [
+        {
+          "id": "chaval-shimanram-2017-12-21-appeal",
+          "occurredAt": "2017-12-21",
+          "type": "conviction",
+          "title": "Conviction upheld on appeal",
+          "summary": "Madras High Court dismissed the appeals and affirmed the 2016 NDPS conspiracy and possession convictions, reducing the sentences.",
+          "source": {
+            "url": "https://indiankanoon.org/doc/182025128/",
+            "title": "Krishnan Sridaran Rajendran v. State, Madras High Court common judgment",
+            "publisher": "Madras High Court (text hosted by Indian Kanoon)",
+            "language": "en",
+            "publishedAt": "2017-12-21",
+            "claim": "Krishnan Sridaran Rajendran v. State, Madras High Court common judgment individually names Chaval Shimanram; Madras High Court dismissed the appeals and affirmed the 2016 NDPS conspiracy and possession convictions, reducing the sentences."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

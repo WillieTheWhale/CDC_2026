@@ -1,0 +1,2146 @@
+{
+  "_about": "AI-assisted: reviewed and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Thirty-one manually gated Kingpin Act sanctions-only people from a deterministic 100-row unreviewed SDNTK/SDNT cohort. Same-UID current listing, original action add section, XML Created date, annual archive identity, and person-naming Treasury release corroborated. No conviction, operational role, group, drug, country association, person-to-person link, or portrait inferred. First-listed date and 2026-09-23 current status are separate claims.",
+  "organizations": [],
+  "people": [
+    {
+      "id": "ofac-sdn-32674",
+      "name": "Fernando Zagal Anton",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32674, Fernando Zagal Anton, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32674 is an individual under SDNTK; its Created event records 2021-10-06. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211006",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-10-06",
+          "claim": "OFAC added Fernando Zagal Anton under SDNTK on 2021-10-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Fernando Zagal Anton; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0389",
+          "title": "Treasury Works with Government of Mexico to Sanction CJNG Members Operating Through the Port of Manzanillo",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-10-06",
+          "claim": "Treasury names Fernando Zagal Anton in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32674-2021-10-06-sanction",
+          "occurredAt": "2021-10-06",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Fernando Zagal Anton under SDNTK on 2021-10-06. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211006",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-10-06",
+            "claim": "OFAC added Fernando Zagal Anton under SDNTK on 2021-10-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32335",
+      "name": "Cesar Enrique Diaz De Leon Sauceda",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32335, Cesar Enrique Diaz De Leon Sauceda, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32335 is an individual under SDNTK; its Created event records 2021-10-06. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211006",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-10-06",
+          "claim": "OFAC added Cesar Enrique Diaz De Leon Sauceda under SDNTK on 2021-10-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Cesar Enrique Diaz De Leon Sauceda; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0389",
+          "title": "Treasury Works with Government of Mexico to Sanction CJNG Members Operating Through the Port of Manzanillo",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-10-06",
+          "claim": "Treasury names Cesar Enrique Diaz De Leon Sauceda in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32335-2021-10-06-sanction",
+          "occurredAt": "2021-10-06",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Cesar Enrique Diaz De Leon Sauceda under SDNTK on 2021-10-06. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211006",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-10-06",
+            "claim": "OFAC added Cesar Enrique Diaz De Leon Sauceda under SDNTK on 2021-10-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32332",
+      "name": "Jose Jesus Jarquin Jarquin",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32332, Jose Jesus Jarquin Jarquin, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32332 is an individual under SDNTK; its Created event records 2021-10-06. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211006",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-10-06",
+          "claim": "OFAC added Jose Jesus Jarquin Jarquin under SDNTK on 2021-10-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Jose Jesus Jarquin Jarquin; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0389",
+          "title": "Treasury Works with Government of Mexico to Sanction CJNG Members Operating Through the Port of Manzanillo",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-10-06",
+          "claim": "Treasury names Jose Jesus Jarquin Jarquin in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32332-2021-10-06-sanction",
+          "occurredAt": "2021-10-06",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Jose Jesus Jarquin Jarquin under SDNTK on 2021-10-06. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211006",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-10-06",
+            "claim": "OFAC added Jose Jesus Jarquin Jarquin under SDNTK on 2021-10-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32331",
+      "name": "Aldrin Miguel Jarquin Jarquin",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32331, Aldrin Miguel Jarquin Jarquin, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32331 is an individual under SDNTK; its Created event records 2021-10-06. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20211006",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-10-06",
+          "claim": "OFAC added Aldrin Miguel Jarquin Jarquin under SDNTK on 2021-10-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Aldrin Miguel Jarquin Jarquin; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0389",
+          "title": "Treasury Works with Government of Mexico to Sanction CJNG Members Operating Through the Port of Manzanillo",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-10-06",
+          "claim": "Treasury names Aldrin Miguel Jarquin Jarquin in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32331-2021-10-06-sanction",
+          "occurredAt": "2021-10-06",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Aldrin Miguel Jarquin Jarquin under SDNTK on 2021-10-06. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20211006",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-10-06",
+            "claim": "OFAC added Aldrin Miguel Jarquin Jarquin under SDNTK on 2021-10-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32501",
+      "name": "Leonardo Pineda Armenta",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32501, Leonardo Pineda Armenta, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32501 is an individual under SDNTK; its Created event records 2021-09-22. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210922",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "OFAC added Leonardo Pineda Armenta under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Leonardo Pineda Armenta; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0367",
+          "title": "Treasury Sanctions Sinaloa Cartel Members Operating in Sonora",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "Treasury names Leonardo Pineda Armenta in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32501-2021-09-22-sanction",
+          "occurredAt": "2021-09-22",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Leonardo Pineda Armenta under SDNTK on 2021-09-22. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210922",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-22",
+            "claim": "OFAC added Leonardo Pineda Armenta under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32500",
+      "name": "Gilberto Martinez Renteria",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32500, Gilberto Martinez Renteria, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32500 is an individual under SDNTK; its Created event records 2021-09-22. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210922",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "OFAC added Gilberto Martinez Renteria under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Gilberto Martinez Renteria; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0367",
+          "title": "Treasury Sanctions Sinaloa Cartel Members Operating in Sonora",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "Treasury names Gilberto Martinez Renteria in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32500-2021-09-22-sanction",
+          "occurredAt": "2021-09-22",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Gilberto Martinez Renteria under SDNTK on 2021-09-22. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210922",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-22",
+            "claim": "OFAC added Gilberto Martinez Renteria under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32499",
+      "name": "Meliton Rochin Hurtado",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32499, Meliton Rochin Hurtado, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32499 is an individual under SDNTK; its Created event records 2021-09-22. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210922",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "OFAC added Meliton Rochin Hurtado under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Meliton Rochin Hurtado; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0367",
+          "title": "Treasury Sanctions Sinaloa Cartel Members Operating in Sonora",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "Treasury names Meliton Rochin Hurtado in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32499-2021-09-22-sanction",
+          "occurredAt": "2021-09-22",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Meliton Rochin Hurtado under SDNTK on 2021-09-22. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210922",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-22",
+            "claim": "OFAC added Meliton Rochin Hurtado under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32497",
+      "name": "Jorge Damian Roman Figueroa",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32497, Jorge Damian Roman Figueroa, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32497 is an individual under SDNTK; its Created event records 2021-09-22. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210922",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "OFAC added Jorge Damian Roman Figueroa under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Jorge Damian Roman Figueroa; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0367",
+          "title": "Treasury Sanctions Sinaloa Cartel Members Operating in Sonora",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "Treasury names Jorge Damian Roman Figueroa in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32497-2021-09-22-sanction",
+          "occurredAt": "2021-09-22",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Jorge Damian Roman Figueroa under SDNTK on 2021-09-22. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210922",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-22",
+            "claim": "OFAC added Jorge Damian Roman Figueroa under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32496",
+      "name": "Miguel Raymundo Marrufo Cabrera",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32496, Miguel Raymundo Marrufo Cabrera, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32496 is an individual under SDNTK; its Created event records 2021-09-22. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210922",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "OFAC added Miguel Raymundo Marrufo Cabrera under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Miguel Raymundo Marrufo Cabrera; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0367",
+          "title": "Treasury Sanctions Sinaloa Cartel Members Operating in Sonora",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "Treasury names Miguel Raymundo Marrufo Cabrera in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32496-2021-09-22-sanction",
+          "occurredAt": "2021-09-22",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Miguel Raymundo Marrufo Cabrera under SDNTK on 2021-09-22. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210922",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-22",
+            "claim": "OFAC added Miguel Raymundo Marrufo Cabrera under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32495",
+      "name": "Luis Alberto Carrillo Jimenez",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32495, Luis Alberto Carrillo Jimenez, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32495 is an individual under SDNTK; its Created event records 2021-09-22. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210922",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "OFAC added Luis Alberto Carrillo Jimenez under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Luis Alberto Carrillo Jimenez; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0367",
+          "title": "Treasury Sanctions Sinaloa Cartel Members Operating in Sonora",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "Treasury names Luis Alberto Carrillo Jimenez in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32495-2021-09-22-sanction",
+          "occurredAt": "2021-09-22",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Luis Alberto Carrillo Jimenez under SDNTK on 2021-09-22. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210922",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-22",
+            "claim": "OFAC added Luis Alberto Carrillo Jimenez under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-32494",
+      "name": "Sergio Valenzuela Valenzuela",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 32494, Sergio Valenzuela Valenzuela, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 32494 is an individual under SDNTK; its Created event records 2021-09-22. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210922",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "OFAC added Sergio Valenzuela Valenzuela under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Sergio Valenzuela Valenzuela; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0367",
+          "title": "Treasury Sanctions Sinaloa Cartel Members Operating in Sonora",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-22",
+          "claim": "Treasury names Sergio Valenzuela Valenzuela in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-32494-2021-09-22-sanction",
+          "occurredAt": "2021-09-22",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Sergio Valenzuela Valenzuela under SDNTK on 2021-09-22. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210922",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-22",
+            "claim": "OFAC added Sergio Valenzuela Valenzuela under SDNTK on 2021-09-22; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-33013",
+      "name": "Luis Antonio Bermudez Mejia",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 33013, Luis Antonio Bermudez Mejia, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 33013 is an individual under SDNTK; its Created event records 2021-09-16. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210916",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-16",
+          "claim": "OFAC added Luis Antonio Bermudez Mejia under SDNTK on 2021-09-16; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Luis Antonio Bermudez Mejia; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0356",
+          "title": "Treasury Sanctions Significant Drug Trafficking Organization",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-16",
+          "claim": "Treasury names Luis Antonio Bermudez Mejia in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-33013-2021-09-16-sanction",
+          "occurredAt": "2021-09-16",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Luis Antonio Bermudez Mejia under SDNTK on 2021-09-16. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210916",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-16",
+            "claim": "OFAC added Luis Antonio Bermudez Mejia under SDNTK on 2021-09-16; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-33012",
+      "name": "Juan Carlos Reales Britto",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 33012, Juan Carlos Reales Britto, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 33012 is an individual under SDNTK; its Created event records 2021-09-16. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210916",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-16",
+          "claim": "OFAC added Juan Carlos Reales Britto under SDNTK on 2021-09-16; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Juan Carlos Reales Britto; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0356",
+          "title": "Treasury Sanctions Significant Drug Trafficking Organization",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-16",
+          "claim": "Treasury names Juan Carlos Reales Britto in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-33012-2021-09-16-sanction",
+          "occurredAt": "2021-09-16",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Juan Carlos Reales Britto under SDNTK on 2021-09-16. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210916",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-16",
+            "claim": "OFAC added Juan Carlos Reales Britto under SDNTK on 2021-09-16; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-33011",
+      "name": "Washington Antunez Musso",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 33011, Washington Antunez Musso, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 33011 is an individual under SDNTK; its Created event records 2021-09-16. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210916",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-09-16",
+          "claim": "OFAC added Washington Antunez Musso under SDNTK on 2021-09-16; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Washington Antunez Musso; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0356",
+          "title": "Treasury Sanctions Significant Drug Trafficking Organization",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-09-16",
+          "claim": "Treasury names Washington Antunez Musso in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-33011-2021-09-16-sanction",
+          "occurredAt": "2021-09-16",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Washington Antunez Musso under SDNTK on 2021-09-16. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210916",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-09-16",
+            "claim": "OFAC added Washington Antunez Musso under SDNTK on 2021-09-16; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-30982",
+      "name": "Efrain Mendivil Figueroa",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 30982, Efrain Mendivil Figueroa, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 30982 is an individual under SDNTK; its Created event records 2021-05-12. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210512",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "OFAC added Efrain Mendivil Figueroa under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Efrain Mendivil Figueroa; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0172",
+          "title": "Treasury Identifies Sinaloa-based Mexican Narcotics Trafficker That Helps Fuel the U.S. Opioid Epidemic",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "Treasury names Efrain Mendivil Figueroa in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-30982-2021-05-12-sanction",
+          "occurredAt": "2021-05-12",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Efrain Mendivil Figueroa under SDNTK on 2021-05-12. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210512",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-05-12",
+            "claim": "OFAC added Efrain Mendivil Figueroa under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-26165",
+      "name": "Juana Payan Meraz",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 26165, Juana Payan Meraz, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 26165 is an individual under SDNTK; its Created event records 2021-05-12. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210512",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "OFAC added Juana Payan Meraz under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Juana Payan Meraz; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0172",
+          "title": "Treasury Identifies Sinaloa-based Mexican Narcotics Trafficker That Helps Fuel the U.S. Opioid Epidemic",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "Treasury names Juana Payan Meraz in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-26165-2021-05-12-sanction",
+          "occurredAt": "2021-05-12",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Juana Payan Meraz under SDNTK on 2021-05-12. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210512",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-05-12",
+            "claim": "OFAC added Juana Payan Meraz under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-26164",
+      "name": "Raul Payan Meraz",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 26164, Raul Payan Meraz, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 26164 is an individual under SDNTK; its Created event records 2021-05-12. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210512",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "OFAC added Raul Payan Meraz under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Raul Payan Meraz; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0172",
+          "title": "Treasury Identifies Sinaloa-based Mexican Narcotics Trafficker That Helps Fuel the U.S. Opioid Epidemic",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "Treasury names Raul Payan Meraz in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-26164-2021-05-12-sanction",
+          "occurredAt": "2021-05-12",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Raul Payan Meraz under SDNTK on 2021-05-12. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210512",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-05-12",
+            "claim": "OFAC added Raul Payan Meraz under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-26162",
+      "name": "Adelmo Nunez Molina",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 26162, Adelmo Nunez Molina, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 26162 is an individual under SDNTK; its Created event records 2021-05-12. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210512",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "OFAC added Adelmo Nunez Molina under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Adelmo Nunez Molina; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0172",
+          "title": "Treasury Identifies Sinaloa-based Mexican Narcotics Trafficker That Helps Fuel the U.S. Opioid Epidemic",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "Treasury names Adelmo Nunez Molina in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-26162-2021-05-12-sanction",
+          "occurredAt": "2021-05-12",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Adelmo Nunez Molina under SDNTK on 2021-05-12. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210512",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-05-12",
+            "claim": "OFAC added Adelmo Nunez Molina under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-23125",
+      "name": "Wilfrido Gonzalez Penuelas",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 23125, Wilfrido Gonzalez Penuelas, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 23125 is an individual under SDNTK; its Created event records 2021-05-12. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210512",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "OFAC added Wilfrido Gonzalez Penuelas under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Wilfrido Gonzalez Penuelas; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0172",
+          "title": "Treasury Identifies Sinaloa-based Mexican Narcotics Trafficker That Helps Fuel the U.S. Opioid Epidemic",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "Treasury names Wilfrido Gonzalez Penuelas in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-23125-2021-05-12-sanction",
+          "occurredAt": "2021-05-12",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Wilfrido Gonzalez Penuelas under SDNTK on 2021-05-12. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210512",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-05-12",
+            "claim": "OFAC added Wilfrido Gonzalez Penuelas under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-23124",
+      "name": "Ignacio Gonzalez Penuelas",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 23124, Ignacio Gonzalez Penuelas, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 23124 is an individual under SDNTK; its Created event records 2021-05-12. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210512",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "OFAC added Ignacio Gonzalez Penuelas under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Ignacio Gonzalez Penuelas; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0172",
+          "title": "Treasury Identifies Sinaloa-based Mexican Narcotics Trafficker That Helps Fuel the U.S. Opioid Epidemic",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-05-12",
+          "claim": "Treasury names Ignacio Gonzalez Penuelas in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-23124-2021-05-12-sanction",
+          "occurredAt": "2021-05-12",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Ignacio Gonzalez Penuelas under SDNTK on 2021-05-12. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210512",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-05-12",
+            "claim": "OFAC added Ignacio Gonzalez Penuelas under SDNTK on 2021-05-12; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-31004",
+      "name": "Alejandro Chacon Miranda",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 31004, Alejandro Chacon Miranda, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 31004 is an individual under SDNTK; its Created event records 2021-04-06. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210406",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-04-06",
+          "claim": "OFAC added Alejandro Chacon Miranda under SDNTK on 2021-04-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Alejandro Chacon Miranda; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0103",
+          "title": "Treasury Sanctions Violent CJNG Members  and Cartel Facilitator",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-04-06",
+          "claim": "Treasury names Alejandro Chacon Miranda in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-31004-2021-04-06-sanction",
+          "occurredAt": "2021-04-06",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Alejandro Chacon Miranda under SDNTK on 2021-04-06. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210406",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-04-06",
+            "claim": "OFAC added Alejandro Chacon Miranda under SDNTK on 2021-04-06; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-31082",
+      "name": "Juan Manuel Abouzaid El Bayeh",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 31082, Juan Manuel Abouzaid El Bayeh, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 31082 is an individual under SDNTK; its Created event records 2021-03-03. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210303",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2021-03-03",
+          "claim": "OFAC added Juan Manuel Abouzaid El Bayeh under SDNTK on 2021-03-03; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew21.txt",
+          "title": "OFAC 2021 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Juan Manuel Abouzaid El Bayeh; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0046",
+          "title": "Treasury Sanctions Fugitive Associate of CJNG",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2021-03-03",
+          "claim": "Treasury names Juan Manuel Abouzaid El Bayeh in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-31082-2021-03-03-sanction",
+          "occurredAt": "2021-03-03",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Juan Manuel Abouzaid El Bayeh under SDNTK on 2021-03-03. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210303",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2021-03-03",
+            "claim": "OFAC added Juan Manuel Abouzaid El Bayeh under SDNTK on 2021-03-03; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-30171",
+      "name": "Lucio Rodriguez Serrano",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 30171, Lucio Rodriguez Serrano, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 30171 is an individual under SDNTK; its Created event records 2020-12-02. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20201202",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2020-12-02",
+          "claim": "OFAC added Lucio Rodriguez Serrano under SDNTK on 2020-12-02; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew20.txt",
+          "title": "OFAC 2020 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Lucio Rodriguez Serrano; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1199",
+          "title": "Treasury Sanctions Close Associate of Notorious Drug Trafficker Rafael Caro Quintero",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2020-12-02",
+          "claim": "Treasury names Lucio Rodriguez Serrano in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-30171-2020-12-02-sanction",
+          "occurredAt": "2020-12-02",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Lucio Rodriguez Serrano under SDNTK on 2020-12-02. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20201202",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2020-12-02",
+            "claim": "OFAC added Lucio Rodriguez Serrano under SDNTK on 2020-12-02; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-30267",
+      "name": "Einer Murillo Palacios",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 30267, Einer Murillo Palacios, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 30267 is an individual under SDNTK; its Created event records 2020-12-01. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20201201",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2020-12-01",
+          "claim": "OFAC added Einer Murillo Palacios under SDNTK on 2020-12-01; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew20.txt",
+          "title": "OFAC 2020 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Einer Murillo Palacios; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1197",
+          "title": "Treasury Sanctions Network for Assisting Colombia’s Clan del Golfo Drug Trafficking Organization",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2020-12-01",
+          "claim": "Treasury names Einer Murillo Palacios in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-30267-2020-12-01-sanction",
+          "occurredAt": "2020-12-01",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Einer Murillo Palacios under SDNTK on 2020-12-01. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20201201",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2020-12-01",
+            "claim": "OFAC added Einer Murillo Palacios under SDNTK on 2020-12-01; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-30266",
+      "name": "Euclides Correa Salas",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 30266, Euclides Correa Salas, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 30266 is an individual under SDNTK; its Created event records 2020-12-01. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20201201",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2020-12-01",
+          "claim": "OFAC added Euclides Correa Salas under SDNTK on 2020-12-01; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew20.txt",
+          "title": "OFAC 2020 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Euclides Correa Salas; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1197",
+          "title": "Treasury Sanctions Network for Assisting Colombia’s Clan del Golfo Drug Trafficking Organization",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2020-12-01",
+          "claim": "Treasury names Euclides Correa Salas in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-30266-2020-12-01-sanction",
+          "occurredAt": "2020-12-01",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Euclides Correa Salas under SDNTK on 2020-12-01. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20201201",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2020-12-01",
+            "claim": "OFAC added Euclides Correa Salas under SDNTK on 2020-12-01; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-30265",
+      "name": "Tatiana Marguerid Zapata Garzon",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 30265, Tatiana Marguerid Zapata Garzon, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 30265 is an individual under SDNTK; its Created event records 2020-12-01. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20201201",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2020-12-01",
+          "claim": "OFAC added Tatiana Marguerid Zapata Garzon under SDNTK on 2020-12-01; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew20.txt",
+          "title": "OFAC 2020 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Tatiana Marguerid Zapata Garzon; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1197",
+          "title": "Treasury Sanctions Network for Assisting Colombia’s Clan del Golfo Drug Trafficking Organization",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2020-12-01",
+          "claim": "Treasury names Tatiana Marguerid Zapata Garzon in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-30265-2020-12-01-sanction",
+          "occurredAt": "2020-12-01",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Tatiana Marguerid Zapata Garzon under SDNTK on 2020-12-01. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20201201",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2020-12-01",
+            "claim": "OFAC added Tatiana Marguerid Zapata Garzon under SDNTK on 2020-12-01; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-30264",
+      "name": "Jhon Fredy Zapata Garzon",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 30264, Jhon Fredy Zapata Garzon, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 30264 is an individual under SDNTK; its Created event records 2020-12-01. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20201201",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2020-12-01",
+          "claim": "OFAC added Jhon Fredy Zapata Garzon under SDNTK on 2020-12-01; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew20.txt",
+          "title": "OFAC 2020 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Jhon Fredy Zapata Garzon; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1197",
+          "title": "Treasury Sanctions Network for Assisting Colombia’s Clan del Golfo Drug Trafficking Organization",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2020-12-01",
+          "claim": "Treasury names Jhon Fredy Zapata Garzon in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-30264-2020-12-01-sanction",
+          "occurredAt": "2020-12-01",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Jhon Fredy Zapata Garzon under SDNTK on 2020-12-01. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20201201",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2020-12-01",
+            "claim": "OFAC added Jhon Fredy Zapata Garzon under SDNTK on 2020-12-01; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-27988",
+      "name": "Taotao Zhang",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 27988, Taotao Zhang, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 27988 is an individual under SDNTK; its Created event records 2020-08-25. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20200825",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2020-08-25",
+          "claim": "OFAC added Taotao Zhang under SDNTK on 2020-08-25; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew20.txt",
+          "title": "OFAC 2020 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Taotao Zhang; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1105",
+          "title": "Treasury Sanctions Chinese National for Shipping Fentanyl to the United States",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2020-08-25",
+          "claim": "Treasury names Taotao Zhang in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-27988-2020-08-25-sanction",
+          "occurredAt": "2020-08-25",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Taotao Zhang under SDNTK on 2020-08-25. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20200825",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2020-08-25",
+            "claim": "OFAC added Taotao Zhang under SDNTK on 2020-08-25; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-27970",
+      "name": "Guangfu Zheng",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 27970, Guangfu Zheng, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 27970 is an individual under SDNTK; its Created event records 2020-07-17. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20200717",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2020-07-17",
+          "claim": "OFAC added Guangfu Zheng under SDNTK on 2020-07-17; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew20.txt",
+          "title": "OFAC 2020 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Guangfu Zheng; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1063",
+          "title": "Treasury Targets Chinese Persons Involved with Drug Trafficking Organization Moving Fentanyl",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2020-07-17",
+          "claim": "Treasury names Guangfu Zheng in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-27970-2020-07-17-sanction",
+          "occurredAt": "2020-07-17",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Guangfu Zheng under SDNTK on 2020-07-17. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20200717",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2020-07-17",
+            "claim": "OFAC added Guangfu Zheng under SDNTK on 2020-07-17; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-27924",
+      "name": "Longbao Zhang",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 27924, Longbao Zhang, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 27924 is an individual under SDNTK; its Created event records 2020-07-17. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20200717",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2020-07-17",
+          "claim": "OFAC added Longbao Zhang under SDNTK on 2020-07-17; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew20.txt",
+          "title": "OFAC 2020 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Longbao Zhang; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1063",
+          "title": "Treasury Targets Chinese Persons Involved with Drug Trafficking Organization Moving Fentanyl",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2020-07-17",
+          "claim": "Treasury names Longbao Zhang in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-27924-2020-07-17-sanction",
+          "occurredAt": "2020-07-17",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Longbao Zhang under SDNTK on 2020-07-17. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20200717",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2020-07-17",
+            "claim": "OFAC added Longbao Zhang under SDNTK on 2020-07-17; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ofac-sdn-27923",
+      "name": "Songyan Ji",
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-23",
+      "roleLabel": "Listed by U.S. OFAC under SDNTK as of 2026-09-23",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (SDN CSV)",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "OFAC’s 2026-09-23 release retains entry 27923, Songyan Ji, as an individual under SDNTK. This proves listing as of that release, not continuous status or criminal guilt."
+        },
+        {
+          "url": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN_ADVANCED.ZIP",
+          "title": "OFAC advanced SDN XML release",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2026-09-23",
+          "claim": "Entry 27923 is an individual under SDNTK; its Created event records 2020-07-17. The XML release date is 2026-09-23; the review audit records the downloaded file hash."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20200717",
+          "title": "OFAC original SDN addition",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "publishedAt": "2020-07-17",
+          "claim": "OFAC added Songyan Ji under SDNTK on 2020-07-17; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdnnew20.txt",
+          "title": "OFAC 2020 annual SDN changes archive",
+          "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "The official annual archive corroborates the original addition and distinguishing identity detail for Songyan Ji; it is not used to infer ongoing status."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1063",
+          "title": "Treasury Targets Chinese Persons Involved with Drug Trafficking Organization Moving Fentanyl",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2020-07-17",
+          "claim": "Treasury names Songyan Ji in its contemporaneous release. No criminal disposition, organization membership, specific drug activity, or country association is inferred from this sanctions entry."
+        }
+      ],
+      "events": [
+        {
+          "id": "ofac-sdn-27923-2020-07-17-sanction",
+          "occurredAt": "2020-07-17",
+          "type": "sanction",
+          "title": "Added to the OFAC SDN List",
+          "summary": "OFAC added Songyan Ji under SDNTK on 2020-07-17. This is an administrative sanctions action, not a criminal finding.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20200717",
+            "title": "OFAC original SDN addition",
+            "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+            "language": "en",
+            "publishedAt": "2020-07-17",
+            "claim": "OFAC added Songyan Ji under SDNTK on 2020-07-17; original action identifying details match the 2026-09-23 current entry. Designation is not a conviction."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

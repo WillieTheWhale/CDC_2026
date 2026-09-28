@@ -1,0 +1,2797 @@
+{
+  "_about": "AI-assisted: manually reviewed fifth bounded DOJ corpus tranche. See docs/AI_USAGE.md. Historical outcomes only; release dates indicate report dates, not an unstated court day. No current custody, organization edge, or photo inferred.",
+  "organizations": [],
+  "people": [
+    {
+      "id": "doj-corpus-growth5-gage-lyle-forsberg",
+      "name": "Gage Lyle Forsberg",
+      "status": "convicted",
+      "statusAsOf": "2024-07-24",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Gage Lyle Forsberg's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-edwa/pr/serial-offender-sentenced-federal-prison-drug-trafficking-charges"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edwa/pr/serial-offender-sentenced-federal-prison-drug-trafficking-charges",
+          "title": "Serial Offender Sentenced to Federal Prison on Drug Trafficking Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-07-24",
+          "claim": "DOJ reported by 2024-07-24 that Gage Lyle Forsberg sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-gage-lyle-forsberg-2024-07-24-development",
+          "occurredAt": "2024-07-24",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-07-24 that Gage Lyle Forsberg sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edwa/pr/serial-offender-sentenced-federal-prison-drug-trafficking-charges",
+            "title": "Serial Offender Sentenced to Federal Prison on Drug Trafficking Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-07-24",
+            "claim": "DOJ reported by 2024-07-24 that Gage Lyle Forsberg sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-derrick-bradley",
+      "name": "Derrick Bradley",
+      "status": "convicted",
+      "statusAsOf": "2024-11-07",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Derrick Bradley's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-wdar/pr/drug-trafficking-organization-sentenced-more-47-combined-years-federal-prison-fentanyl"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdar/pr/drug-trafficking-organization-sentenced-more-47-combined-years-federal-prison-fentanyl",
+          "title": "Drug Trafficking Organization Sentenced to More than 47 Combined Years in Federal Prison for Fentanyl Trafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-11-07",
+          "claim": "DOJ reported by 2024-11-07 that Derrick Bradley pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-derrick-bradley-2024-11-07-development",
+          "occurredAt": "2024-11-07",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-11-07 that Derrick Bradley pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdar/pr/drug-trafficking-organization-sentenced-more-47-combined-years-federal-prison-fentanyl",
+            "title": "Drug Trafficking Organization Sentenced to More than 47 Combined Years in Federal Prison for Fentanyl Trafficking",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-11-07",
+            "claim": "DOJ reported by 2024-11-07 that Derrick Bradley pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-daniel-donald",
+      "name": "Daniel Donald",
+      "status": "convicted",
+      "statusAsOf": "2021-10-29",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Daniel Donald's historical drug conduct in the United States.",
+            "period": "2021",
+            "sourceUrl": "https://www.justice.gov/usao-ma/pr/worcester-man-convicted-drug-trafficking-and-firearm-offenses"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ma/pr/worcester-man-convicted-drug-trafficking-and-firearm-offenses",
+          "title": "Worcester Man Convicted of Drug Trafficking and Firearm Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-10-29",
+          "claim": "DOJ reported by 2021-10-29 that Daniel Donald convicted of a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-daniel-donald-2021-10-29-development",
+          "occurredAt": "2021-10-29",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2021-10-29 that Daniel Donald convicted of a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ma/pr/worcester-man-convicted-drug-trafficking-and-firearm-offenses",
+            "title": "Worcester Man Convicted of Drug Trafficking and Firearm Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-10-29",
+            "claim": "DOJ reported by 2021-10-29 that Daniel Donald convicted of a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-marvin-dennis",
+      "name": "Marvin Dennis",
+      "status": "convicted",
+      "statusAsOf": "2019-06-27",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Marvin Dennis's historical drug conduct in the United States.",
+            "period": "2019",
+            "sourceUrl": "https://www.justice.gov/usao-wdpa/pr/pittsburgh-man-sentenced-6-years-prison-drug-trafficking-and-firearms-crimes"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdpa/pr/pittsburgh-man-sentenced-6-years-prison-drug-trafficking-and-firearms-crimes",
+          "title": "Pittsburgh Man Sentenced to 6 Years in Prison for Drug Trafficking and Firearms Crimes",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-06-27",
+          "claim": "DOJ reported by 2019-06-27 that Marvin Dennis sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-marvin-dennis-2019-06-27-development",
+          "occurredAt": "2019-06-27",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2019-06-27 that Marvin Dennis sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdpa/pr/pittsburgh-man-sentenced-6-years-prison-drug-trafficking-and-firearms-crimes",
+            "title": "Pittsburgh Man Sentenced to 6 Years in Prison for Drug Trafficking and Firearms Crimes",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-06-27",
+            "claim": "DOJ reported by 2019-06-27 that Marvin Dennis sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-joseph-daniel-sandoval",
+      "name": "Joseph Daniel Sandoval",
+      "status": "convicted",
+      "statusAsOf": "2020-02-05",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Joseph Daniel Sandoval's historical drug conduct in the United States.",
+            "period": "2020",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/hayward-resident-sentenced-more-ten-years-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/hayward-resident-sentenced-more-ten-years-drug-trafficking",
+          "title": "Hayward Resident Sentenced To More Than Ten Years For Drug Trafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2020-02-05",
+          "claim": "DOJ reported by 2020-02-05 that Joseph Daniel Sandoval sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-joseph-daniel-sandoval-2020-02-05-development",
+          "occurredAt": "2020-02-05",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2020-02-05 that Joseph Daniel Sandoval sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/hayward-resident-sentenced-more-ten-years-drug-trafficking",
+            "title": "Hayward Resident Sentenced To More Than Ten Years For Drug Trafficking",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2020-02-05",
+            "claim": "DOJ reported by 2020-02-05 that Joseph Daniel Sandoval sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-jonsan-valle-rodriguez",
+      "name": "Jonsan Valle-Rodriguez",
+      "status": "convicted",
+      "statusAsOf": "2025-06-12",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Jonsan Valle-Rodriguez's historical drug conduct in the United States.",
+            "period": "2025",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/tenderloin-fentanyl-dealer-sentenced-more-11-years-federal-prison-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/tenderloin-fentanyl-dealer-sentenced-more-11-years-federal-prison-drug-trafficking",
+          "title": "Tenderloin Fentanyl Dealer Sentenced To More Than 11 Years In Federal Prison For Drug Trafficking Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-06-12",
+          "claim": "DOJ reported by 2025-06-12 that Jonsan Valle-Rodriguez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-jonsan-valle-rodriguez-2025-06-12-development",
+          "occurredAt": "2025-06-12",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2025-06-12 that Jonsan Valle-Rodriguez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/tenderloin-fentanyl-dealer-sentenced-more-11-years-federal-prison-drug-trafficking",
+            "title": "Tenderloin Fentanyl Dealer Sentenced To More Than 11 Years In Federal Prison For Drug Trafficking Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-06-12",
+            "claim": "DOJ reported by 2025-06-12 that Jonsan Valle-Rodriguez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-maria-valle-rodriguez",
+      "name": "Maria Valle-Rodriguez",
+      "status": "convicted",
+      "statusAsOf": "2025-06-12",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Maria Valle-Rodriguez's historical drug conduct in the United States.",
+            "period": "2025",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/tenderloin-fentanyl-dealer-sentenced-more-11-years-federal-prison-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/tenderloin-fentanyl-dealer-sentenced-more-11-years-federal-prison-drug-trafficking",
+          "title": "Tenderloin Fentanyl Dealer Sentenced To More Than 11 Years In Federal Prison For Drug Trafficking Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-06-12",
+          "claim": "DOJ reported by 2025-06-12 that Maria Valle-Rodriguez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-maria-valle-rodriguez-2025-06-12-development",
+          "occurredAt": "2025-06-12",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2025-06-12 that Maria Valle-Rodriguez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/tenderloin-fentanyl-dealer-sentenced-more-11-years-federal-prison-drug-trafficking",
+            "title": "Tenderloin Fentanyl Dealer Sentenced To More Than 11 Years In Federal Prison For Drug Trafficking Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-06-12",
+            "claim": "DOJ reported by 2025-06-12 that Maria Valle-Rodriguez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-tywayne-marquis-parker",
+      "name": "Tywayne Marquis Parker",
+      "status": "convicted",
+      "statusAsOf": "2022-02-08",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Tywayne Marquis Parker's historical drug conduct in the United States.",
+            "period": "2022",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/beaumont-man-guilty-federal-drug-trafficking-and-firearms-violations"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/beaumont-man-guilty-federal-drug-trafficking-and-firearms-violations",
+          "title": "Beaumont Man Guilty of Federal Drug Trafficking and Firearms Violations",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-02-08",
+          "claim": "DOJ reported by 2022-02-08 that Tywayne Marquis Parker pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-tywayne-marquis-parker-2022-02-08-development",
+          "occurredAt": "2022-02-08",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2022-02-08 that Tywayne Marquis Parker pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edtx/pr/beaumont-man-guilty-federal-drug-trafficking-and-firearms-violations",
+            "title": "Beaumont Man Guilty of Federal Drug Trafficking and Firearms Violations",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2022-02-08",
+            "claim": "DOJ reported by 2022-02-08 that Tywayne Marquis Parker pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-jorge-albeiro-silva-salazar",
+      "name": "Jorge Albeiro Silva-Salazar",
+      "status": "convicted",
+      "statusAsOf": "2022-04-28",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/panamanian-national-guilty-east-texas-drug-trafficking-violations",
+          "title": "Panamanian National Guilty of East Texas Drug Trafficking Violations",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-04-28",
+          "claim": "DOJ reported by 2022-04-28 that Jorge Albeiro Silva-Salazar pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-jorge-albeiro-silva-salazar-2022-04-28-development",
+          "occurredAt": "2022-04-28",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2022-04-28 that Jorge Albeiro Silva-Salazar pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edtx/pr/panamanian-national-guilty-east-texas-drug-trafficking-violations",
+            "title": "Panamanian National Guilty of East Texas Drug Trafficking Violations",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2022-04-28",
+            "claim": "DOJ reported by 2022-04-28 that Jorge Albeiro Silva-Salazar pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-robert-taylor",
+      "name": "Robert Taylor",
+      "status": "convicted",
+      "statusAsOf": "2024-05-09",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Robert Taylor's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-edky/pr/three-tennessee-physicians-sentenced-roles-drug-trafficking-and-fraud-schemes"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edky/pr/three-tennessee-physicians-sentenced-roles-drug-trafficking-and-fraud-schemes",
+          "title": "Three Tennessee Physicians Sentenced for Roles in Drug Trafficking and Fraud Schemes",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-05-09",
+          "claim": "DOJ reported by 2024-05-09 that Robert Taylor pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-robert-taylor-2024-05-09-development",
+          "occurredAt": "2024-05-09",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-05-09 that Robert Taylor pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edky/pr/three-tennessee-physicians-sentenced-roles-drug-trafficking-and-fraud-schemes",
+            "title": "Three Tennessee Physicians Sentenced for Roles in Drug Trafficking and Fraud Schemes",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-05-09",
+            "claim": "DOJ reported by 2024-05-09 that Robert Taylor pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-sahire-walker",
+      "name": "Sahire Walker",
+      "status": "convicted",
+      "statusAsOf": "2023-11-08",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Sahire Walker's historical drug conduct in the United States.",
+            "period": "2023",
+            "sourceUrl": "https://www.justice.gov/usao-wdpa/pr/new-castle-resident-pleads-guilty-drug-trafficking-and-firearm-crimes"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdpa/pr/new-castle-resident-pleads-guilty-drug-trafficking-and-firearm-crimes",
+          "title": "New Castle Resident Pleads Guilty to Drug Trafficking and Firearm Crimes",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-11-08",
+          "claim": "DOJ reported by 2023-11-08 that Sahire Walker convicted of a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-sahire-walker-2023-11-08-development",
+          "occurredAt": "2023-11-08",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2023-11-08 that Sahire Walker convicted of a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdpa/pr/new-castle-resident-pleads-guilty-drug-trafficking-and-firearm-crimes",
+            "title": "New Castle Resident Pleads Guilty to Drug Trafficking and Firearm Crimes",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-11-08",
+            "claim": "DOJ reported by 2023-11-08 that Sahire Walker convicted of a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-michael-herb-videau",
+      "name": "Michael Herb Videau",
+      "status": "convicted",
+      "statusAsOf": "2016-08-03",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Michael Herb Videau's historical drug conduct in the United States.",
+            "period": "2016",
+            "sourceUrl": "https://www.justice.gov/usao-ndca/pr/former-southwest-airlines-baggage-handler-pleads-guilty-violating-airport-security"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndca/pr/former-southwest-airlines-baggage-handler-pleads-guilty-violating-airport-security",
+          "title": "Former Southwest Airlines Baggage Handler Pleads Guilty To Violating Airport Security Requirements For The Purpose Of Drug Trafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2016-08-03",
+          "claim": "DOJ reported by 2016-08-03 that Michael Herb Videau pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-michael-herb-videau-2016-08-03-development",
+          "occurredAt": "2016-08-03",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2016-08-03 that Michael Herb Videau pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndca/pr/former-southwest-airlines-baggage-handler-pleads-guilty-violating-airport-security",
+            "title": "Former Southwest Airlines Baggage Handler Pleads Guilty To Violating Airport Security Requirements For The Purpose Of Drug Trafficking",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2016-08-03",
+            "claim": "DOJ reported by 2016-08-03 that Michael Herb Videau pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-damiene-lewis",
+      "name": "Damiene Lewis",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Damiene Lewis's historical drug conduct in the United States.",
+            "period": "2019",
+            "sourceUrl": "https://www.justice.gov/usao-mdla/pr/joshua-hill-sentenced-federal-prison-drug-trafficking-and-gun-charges"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mdla/pr/joshua-hill-sentenced-federal-prison-drug-trafficking-and-gun-charges",
+          "title": "Joshual Hilton Sentenced to Federal Prison on Drug Trafficking and Gun Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ reported by 2019-04-09 that Damiene Lewis pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-damiene-lewis-2019-04-09-development",
+          "occurredAt": "2019-04-09",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2019-04-09 that Damiene Lewis pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mdla/pr/joshua-hill-sentenced-federal-prison-drug-trafficking-and-gun-charges",
+            "title": "Joshual Hilton Sentenced to Federal Prison on Drug Trafficking and Gun Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ reported by 2019-04-09 that Damiene Lewis pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-terrance-hilton",
+      "name": "Terrance Hilton",
+      "status": "convicted",
+      "statusAsOf": "2019-04-09",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Terrance Hilton's historical drug conduct in the United States.",
+            "period": "2019",
+            "sourceUrl": "https://www.justice.gov/usao-mdla/pr/joshua-hill-sentenced-federal-prison-drug-trafficking-and-gun-charges"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mdla/pr/joshua-hill-sentenced-federal-prison-drug-trafficking-and-gun-charges",
+          "title": "Joshual Hilton Sentenced to Federal Prison on Drug Trafficking and Gun Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-04-09",
+          "claim": "DOJ reported by 2019-04-09 that Terrance Hilton pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-terrance-hilton-2019-04-09-development",
+          "occurredAt": "2019-04-09",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2019-04-09 that Terrance Hilton pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mdla/pr/joshua-hill-sentenced-federal-prison-drug-trafficking-and-gun-charges",
+            "title": "Joshual Hilton Sentenced to Federal Prison on Drug Trafficking and Gun Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-04-09",
+            "claim": "DOJ reported by 2019-04-09 that Terrance Hilton pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-juan-ramon-soto-baez",
+      "name": "Juan Ramon Soto Baez",
+      "status": "convicted",
+      "statusAsOf": "2026-08-04",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nh/pr/two-men-plead-guilty-roles-drug-trafficking-operation",
+          "title": "Two Men Plead Guilty for Roles in Drug Trafficking Operation",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-08-04",
+          "claim": "DOJ reported by 2026-08-04 that Juan Ramon Soto Baez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-juan-ramon-soto-baez-2026-08-04-development",
+          "occurredAt": "2026-08-04",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2026-08-04 that Juan Ramon Soto Baez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nh/pr/two-men-plead-guilty-roles-drug-trafficking-operation",
+            "title": "Two Men Plead Guilty for Roles in Drug Trafficking Operation",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-08-04",
+            "claim": "DOJ reported by 2026-08-04 that Juan Ramon Soto Baez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-enrique-cavazos",
+      "name": "Enrique Cavazos",
+      "status": "convicted",
+      "statusAsOf": "2018-05-10",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Enrique Cavazos's historical drug conduct in the United States.",
+            "period": "2018",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/ringleader-drug-trafficking-organization-distributed-high-grade-marijuana-throughout-new"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nm/pr/ringleader-drug-trafficking-organization-distributed-high-grade-marijuana-throughout-new",
+          "title": "Ringleader of Drug Trafficking Organization that Distributed High Grade Marijuana Throughout New Mexico Sentenced for Marijuana Trafficking and Money Laundering Conviction",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2018-05-10",
+          "claim": "DOJ reported by 2018-05-10 that Enrique Cavazos pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-enrique-cavazos-2018-05-10-development",
+          "occurredAt": "2018-05-10",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2018-05-10 that Enrique Cavazos pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nm/pr/ringleader-drug-trafficking-organization-distributed-high-grade-marijuana-throughout-new",
+            "title": "Ringleader of Drug Trafficking Organization that Distributed High Grade Marijuana Throughout New Mexico Sentenced for Marijuana Trafficking and Money Laundering Conviction",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2018-05-10",
+            "claim": "DOJ reported by 2018-05-10 that Enrique Cavazos pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-shuntario-johnson",
+      "name": "Shuntario Johnson",
+      "status": "convicted",
+      "statusAsOf": "2020-01-31",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Shuntario Johnson's historical drug conduct in the United States.",
+            "period": "2020",
+            "sourceUrl": "https://www.justice.gov/usao-wdtn/pr/final-defendant-sentenced-over-30-years-role-armed-robbery-crew-and-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtn/pr/final-defendant-sentenced-over-30-years-role-armed-robbery-crew-and-drug-trafficking",
+          "title": "Final Defendant Sentenced to Over 30 Years for Role in Armed Robbery Crew and Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2020-01-31",
+          "claim": "DOJ reported by 2020-01-31 that Shuntario Johnson sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-shuntario-johnson-2020-01-31-development",
+          "occurredAt": "2020-01-31",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2020-01-31 that Shuntario Johnson sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdtn/pr/final-defendant-sentenced-over-30-years-role-armed-robbery-crew-and-drug-trafficking",
+            "title": "Final Defendant Sentenced to Over 30 Years for Role in Armed Robbery Crew and Drug Trafficking Organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2020-01-31",
+            "claim": "DOJ reported by 2020-01-31 that Shuntario Johnson sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-ricardo-glenn",
+      "name": "Ricardo Glenn",
+      "status": "convicted",
+      "statusAsOf": "2020-08-17",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Ricardo Glenn's historical drug conduct in the United States.",
+            "period": "2020",
+            "sourceUrl": "https://www.justice.gov/usao-wdpa/pr/former-butler-resident-played-role-drug-trafficking-conspiracy"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdpa/pr/former-butler-resident-played-role-drug-trafficking-conspiracy",
+          "title": "Former Butler Resident Played Role in Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2020-08-17",
+          "claim": "DOJ reported by 2020-08-17 that Ricardo Glenn convicted of a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-ricardo-glenn-2020-08-17-development",
+          "occurredAt": "2020-08-17",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2020-08-17 that Ricardo Glenn convicted of a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdpa/pr/former-butler-resident-played-role-drug-trafficking-conspiracy",
+            "title": "Former Butler Resident Played Role in Drug Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2020-08-17",
+            "claim": "DOJ reported by 2020-08-17 that Ricardo Glenn convicted of a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-andre-mcneil",
+      "name": "Andre McNeil",
+      "status": "convicted",
+      "statusAsOf": "2025-04-11",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Andre McNeil's historical drug conduct in the United States.",
+            "period": "2025",
+            "sourceUrl": "https://www.justice.gov/usao-ma/pr/brockton-man-pleads-guilty-drug-trafficking-and-illegal-possession-firearms-and"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ma/pr/brockton-man-pleads-guilty-drug-trafficking-and-illegal-possession-firearms-and",
+          "title": "Brockton Man Pleads Guilty to Drug Trafficking and Illegal Possession of Firearms and Ammunition",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-04-11",
+          "claim": "DOJ reported by 2025-04-11 that Andre McNeil pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-andre-mcneil-2025-04-11-development",
+          "occurredAt": "2025-04-11",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2025-04-11 that Andre McNeil pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ma/pr/brockton-man-pleads-guilty-drug-trafficking-and-illegal-possession-firearms-and",
+            "title": "Brockton Man Pleads Guilty to Drug Trafficking and Illegal Possession of Firearms and Ammunition",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-04-11",
+            "claim": "DOJ reported by 2025-04-11 that Andre McNeil pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-austin-james-mccastler-ii",
+      "name": "Austin James McCastler II",
+      "status": "convicted",
+      "statusAsOf": "2026-03-30",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Austin James McCastler II's historical drug conduct in the United States.",
+            "period": "2026",
+            "sourceUrl": "https://www.justice.gov/usao-ndfl/pr/shooting-dea-special-agent-and-drug-trafficking-crimes-results-30-year-federal-prison"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndfl/pr/shooting-dea-special-agent-and-drug-trafficking-crimes-results-30-year-federal-prison",
+          "title": "Shooting at DEA Special Agent and Drug Trafficking Crimes Results in 30-Year Federal Prison Sentence for Pensacola Felon",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-03-30",
+          "claim": "DOJ reported by 2026-03-30 that Austin James McCastler II sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-austin-james-mccastler-ii-2026-03-30-development",
+          "occurredAt": "2026-03-30",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2026-03-30 that Austin James McCastler II sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndfl/pr/shooting-dea-special-agent-and-drug-trafficking-crimes-results-30-year-federal-prison",
+            "title": "Shooting at DEA Special Agent and Drug Trafficking Crimes Results in 30-Year Federal Prison Sentence for Pensacola Felon",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-03-30",
+            "claim": "DOJ reported by 2026-03-30 that Austin James McCastler II sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-leotis-cornelius-mcmahon",
+      "name": "Leotis Cornelius McMahon",
+      "status": "convicted",
+      "statusAsOf": "2025-08-27",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Leotis Cornelius McMahon's historical drug conduct in the United States.",
+            "period": "2025",
+            "sourceUrl": "https://www.justice.gov/usao-edtx/pr/jasper-county-felon-sentenced-federal-firearms-and-drug-trafficking-crimes"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edtx/pr/jasper-county-felon-sentenced-federal-firearms-and-drug-trafficking-crimes",
+          "title": "Jasper County felon sentenced for federal firearms and drug trafficking crimes",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2025-08-27",
+          "claim": "DOJ reported by 2025-08-27 that Leotis Cornelius McMahon convicted of a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-leotis-cornelius-mcmahon-2025-08-27-development",
+          "occurredAt": "2025-08-27",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2025-08-27 that Leotis Cornelius McMahon convicted of a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edtx/pr/jasper-county-felon-sentenced-federal-firearms-and-drug-trafficking-crimes",
+            "title": "Jasper County felon sentenced for federal firearms and drug trafficking crimes",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2025-08-27",
+            "claim": "DOJ reported by 2025-08-27 that Leotis Cornelius McMahon convicted of a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-corey-williams",
+      "name": "Corey Williams",
+      "status": "convicted",
+      "statusAsOf": "2026-06-16",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Corey Williams's historical drug conduct in the United States.",
+            "period": "2026",
+            "sourceUrl": "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-leading-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-leading-drug-trafficking-organization",
+          "title": "Springfield Man Sentenced for Leading Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-06-16",
+          "claim": "DOJ reported by 2026-06-16 that Corey Williams sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-corey-williams-2026-06-16-development",
+          "occurredAt": "2026-06-16",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2026-06-16 that Corey Williams sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-leading-drug-trafficking-organization",
+            "title": "Springfield Man Sentenced for Leading Drug Trafficking Organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-06-16",
+            "claim": "DOJ reported by 2026-06-16 that Corey Williams sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-shannon-wells",
+      "name": "Shannon Wells",
+      "status": "convicted",
+      "statusAsOf": "2026-06-16",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Shannon Wells's historical drug conduct in the United States.",
+            "period": "2026",
+            "sourceUrl": "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-leading-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-leading-drug-trafficking-organization",
+          "title": "Springfield Man Sentenced for Leading Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-06-16",
+          "claim": "DOJ reported by 2026-06-16 that Shannon Wells sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-shannon-wells-2026-06-16-development",
+          "occurredAt": "2026-06-16",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2026-06-16 that Shannon Wells sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-leading-drug-trafficking-organization",
+            "title": "Springfield Man Sentenced for Leading Drug Trafficking Organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-06-16",
+            "claim": "DOJ reported by 2026-06-16 that Shannon Wells sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-ted-tyson",
+      "name": "Ted Tyson",
+      "status": "convicted",
+      "statusAsOf": "2026-06-16",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Ted Tyson's historical drug conduct in the United States.",
+            "period": "2026",
+            "sourceUrl": "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-leading-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-leading-drug-trafficking-organization",
+          "title": "Springfield Man Sentenced for Leading Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-06-16",
+          "claim": "DOJ reported by 2026-06-16 that Ted Tyson pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-ted-tyson-2026-06-16-development",
+          "occurredAt": "2026-06-16",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2026-06-16 that Ted Tyson pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdmo/pr/springfield-man-sentenced-leading-drug-trafficking-organization",
+            "title": "Springfield Man Sentenced for Leading Drug Trafficking Organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-06-16",
+            "claim": "DOJ reported by 2026-06-16 that Ted Tyson pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-ysn-bird",
+      "name": "YSN Bird",
+      "status": "convicted",
+      "statusAsOf": "2026-01-28",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes YSN Bird's historical drug conduct in the United States.",
+            "period": "2026",
+            "sourceUrl": "https://www.justice.gov/opa/pr/four-georgia-men-sentenced-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/four-georgia-men-sentenced-drug-trafficking",
+          "title": "Four Georgia Men Sentenced for Drug Trafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-01-28",
+          "claim": "DOJ reported by 2026-01-28 that YSN Bird sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-ysn-bird-2026-01-28-development",
+          "occurredAt": "2026-01-28",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2026-01-28 that YSN Bird sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/opa/pr/four-georgia-men-sentenced-drug-trafficking",
+            "title": "Four Georgia Men Sentenced for Drug Trafficking",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-01-28",
+            "claim": "DOJ reported by 2026-01-28 that YSN Bird sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-sean-jermaine-mills",
+      "name": "Sean Jermaine Mills",
+      "status": "convicted",
+      "statusAsOf": "2023-03-09",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Sean Jermaine Mills's historical drug conduct in the United States.",
+            "period": "2023",
+            "sourceUrl": "https://www.justice.gov/usao-ednc/pr/nash-county-armed-meth-trafficker-sentenced-15-years-prison-trafficking-kilograms-drug"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ednc/pr/nash-county-armed-meth-trafficker-sentenced-15-years-prison-trafficking-kilograms-drug",
+          "title": "Nash County Armed Meth Trafficker Sentenced to 15 Years in Prison for Trafficking Kilograms of the Drug",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-03-09",
+          "claim": "DOJ reported by 2023-03-09 that Sean Jermaine Mills pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-sean-jermaine-mills-2023-03-09-development",
+          "occurredAt": "2023-03-09",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2023-03-09 that Sean Jermaine Mills pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ednc/pr/nash-county-armed-meth-trafficker-sentenced-15-years-prison-trafficking-kilograms-drug",
+            "title": "Nash County Armed Meth Trafficker Sentenced to 15 Years in Prison for Trafficking Kilograms of the Drug",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-03-09",
+            "claim": "DOJ reported by 2023-03-09 that Sean Jermaine Mills pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-heather-leigh-brown",
+      "name": "Heather Leigh Brown",
+      "status": "convicted",
+      "statusAsOf": "2024-09-20",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Heather Leigh Brown's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-edok/pr/thirteen-members-drug-trafficking-organization-plead-guilty-federal-drug-crimes"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edok/pr/thirteen-members-drug-trafficking-organization-plead-guilty-federal-drug-crimes",
+          "title": "Thirteen Members Of Drug Trafficking Organization Plead Guilty To Federal Drug Crimes",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-20",
+          "claim": "DOJ reported by 2024-09-20 that Heather Leigh Brown pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-heather-leigh-brown-2024-09-20-development",
+          "occurredAt": "2024-09-20",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-09-20 that Heather Leigh Brown pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edok/pr/thirteen-members-drug-trafficking-organization-plead-guilty-federal-drug-crimes",
+            "title": "Thirteen Members Of Drug Trafficking Organization Plead Guilty To Federal Drug Crimes",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-20",
+            "claim": "DOJ reported by 2024-09-20 that Heather Leigh Brown pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-randi-shawn-gann",
+      "name": "Randi Shawn Gann",
+      "status": "convicted",
+      "statusAsOf": "2024-09-20",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Randi Shawn Gann's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-edok/pr/thirteen-members-drug-trafficking-organization-plead-guilty-federal-drug-crimes"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edok/pr/thirteen-members-drug-trafficking-organization-plead-guilty-federal-drug-crimes",
+          "title": "Thirteen Members Of Drug Trafficking Organization Plead Guilty To Federal Drug Crimes",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-20",
+          "claim": "DOJ reported by 2024-09-20 that Randi Shawn Gann pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-randi-shawn-gann-2024-09-20-development",
+          "occurredAt": "2024-09-20",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-09-20 that Randi Shawn Gann pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edok/pr/thirteen-members-drug-trafficking-organization-plead-guilty-federal-drug-crimes",
+            "title": "Thirteen Members Of Drug Trafficking Organization Plead Guilty To Federal Drug Crimes",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-20",
+            "claim": "DOJ reported by 2024-09-20 that Randi Shawn Gann pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-whitney-marie-granite",
+      "name": "Whitney Marie Granite",
+      "status": "convicted",
+      "statusAsOf": "2024-09-20",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Whitney Marie Granite's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-edok/pr/thirteen-members-drug-trafficking-organization-plead-guilty-federal-drug-crimes"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edok/pr/thirteen-members-drug-trafficking-organization-plead-guilty-federal-drug-crimes",
+          "title": "Thirteen Members Of Drug Trafficking Organization Plead Guilty To Federal Drug Crimes",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-09-20",
+          "claim": "DOJ reported by 2024-09-20 that Whitney Marie Granite pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-whitney-marie-granite-2024-09-20-development",
+          "occurredAt": "2024-09-20",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-09-20 that Whitney Marie Granite pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edok/pr/thirteen-members-drug-trafficking-organization-plead-guilty-federal-drug-crimes",
+            "title": "Thirteen Members Of Drug Trafficking Organization Plead Guilty To Federal Drug Crimes",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-09-20",
+            "claim": "DOJ reported by 2024-09-20 that Whitney Marie Granite pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-timothy-christopher-payne",
+      "name": "Timothy Christopher Payne",
+      "status": "convicted",
+      "statusAsOf": "2026-06-05",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Timothy Christopher Payne's historical drug conduct in the United States.",
+            "period": "2026",
+            "sourceUrl": "https://www.justice.gov/usao-mt/pr/billings-man-sentenced-more-11-years-prison-drug-trafficking-charges"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mt/pr/billings-man-sentenced-more-11-years-prison-drug-trafficking-charges",
+          "title": "Billings man sentenced to more than 11 years in prison on drug trafficking charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-06-05",
+          "claim": "DOJ reported by 2026-06-05 that Timothy Christopher Payne sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-timothy-christopher-payne-2026-06-05-development",
+          "occurredAt": "2026-06-05",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2026-06-05 that Timothy Christopher Payne sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mt/pr/billings-man-sentenced-more-11-years-prison-drug-trafficking-charges",
+            "title": "Billings man sentenced to more than 11 years in prison on drug trafficking charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-06-05",
+            "claim": "DOJ reported by 2026-06-05 that Timothy Christopher Payne sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-tabitha-marie-ochoa",
+      "name": "Tabitha Marie Ochoa",
+      "status": "convicted",
+      "statusAsOf": "2017-05-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Tabitha Marie Ochoa's historical drug conduct in the United States.",
+            "period": "2017",
+            "sourceUrl": "https://www.justice.gov/usao-nm/pr/arizona-woman-pleads-guilty-federal-drug-trafficking-charge-arising-out-seizure-five"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nm/pr/arizona-woman-pleads-guilty-federal-drug-trafficking-charge-arising-out-seizure-five",
+          "title": "Arizona Woman Pleads Guilty to Federal Drug Trafficking Charge Arising Out of Seizure of Five Pounds of Heroin",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2017-05-19",
+          "claim": "DOJ reported by 2017-05-19 that Tabitha Marie Ochoa pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-tabitha-marie-ochoa-2017-05-19-development",
+          "occurredAt": "2017-05-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2017-05-19 that Tabitha Marie Ochoa pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nm/pr/arizona-woman-pleads-guilty-federal-drug-trafficking-charge-arising-out-seizure-five",
+            "title": "Arizona Woman Pleads Guilty to Federal Drug Trafficking Charge Arising Out of Seizure of Five Pounds of Heroin",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2017-05-19",
+            "claim": "DOJ reported by 2017-05-19 that Tabitha Marie Ochoa pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-marie-rodriguez",
+      "name": "Marie Rodriguez",
+      "status": "convicted",
+      "statusAsOf": "2024-08-21",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Marie Rodriguez's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-mdfl/pr/final-member-hillsborough-drug-trafficking-organization-sentenced-10-years-federal"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mdfl/pr/final-member-hillsborough-drug-trafficking-organization-sentenced-10-years-federal",
+          "title": "Final Member Of A Hillsborough Drug Trafficking Organization Sentenced To 10 Years In Federal Prison For Conspiracy To Distribute Heroin And Fentanyl",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-08-21",
+          "claim": "DOJ reported by 2024-08-21 that Marie Rodriguez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-marie-rodriguez-2024-08-21-development",
+          "occurredAt": "2024-08-21",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-08-21 that Marie Rodriguez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mdfl/pr/final-member-hillsborough-drug-trafficking-organization-sentenced-10-years-federal",
+            "title": "Final Member Of A Hillsborough Drug Trafficking Organization Sentenced To 10 Years In Federal Prison For Conspiracy To Distribute Heroin And Fentanyl",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-08-21",
+            "claim": "DOJ reported by 2024-08-21 that Marie Rodriguez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-william-franqui",
+      "name": "William Franqui",
+      "status": "convicted",
+      "statusAsOf": "2024-08-21",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes William Franqui's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-mdfl/pr/final-member-hillsborough-drug-trafficking-organization-sentenced-10-years-federal"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mdfl/pr/final-member-hillsborough-drug-trafficking-organization-sentenced-10-years-federal",
+          "title": "Final Member Of A Hillsborough Drug Trafficking Organization Sentenced To 10 Years In Federal Prison For Conspiracy To Distribute Heroin And Fentanyl",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-08-21",
+          "claim": "DOJ reported by 2024-08-21 that William Franqui sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-william-franqui-2024-08-21-development",
+          "occurredAt": "2024-08-21",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-08-21 that William Franqui sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mdfl/pr/final-member-hillsborough-drug-trafficking-organization-sentenced-10-years-federal",
+            "title": "Final Member Of A Hillsborough Drug Trafficking Organization Sentenced To 10 Years In Federal Prison For Conspiracy To Distribute Heroin And Fentanyl",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-08-21",
+            "claim": "DOJ reported by 2024-08-21 that William Franqui sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-guadalupe-velazquez",
+      "name": "Guadalupe Velazquez",
+      "status": "convicted",
+      "statusAsOf": "2014-06-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Guadalupe Velazquez's historical drug conduct in the United States.",
+            "period": "2014",
+            "sourceUrl": "https://www.justice.gov/usao-az/pr/father-son-each-sentenced-15-years-prison-operating-multi-state-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-az/pr/father-son-each-sentenced-15-years-prison-operating-multi-state-drug-trafficking",
+          "title": "Father, Son Each Sentenced To 15 Years In Prison For Operating A Multi-state Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2014-06-19",
+          "claim": "DOJ reported by 2014-06-19 that Guadalupe Velazquez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-guadalupe-velazquez-2014-06-19-development",
+          "occurredAt": "2014-06-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2014-06-19 that Guadalupe Velazquez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-az/pr/father-son-each-sentenced-15-years-prison-operating-multi-state-drug-trafficking",
+            "title": "Father, Son Each Sentenced To 15 Years In Prison For Operating A Multi-state Drug Trafficking Organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2014-06-19",
+            "claim": "DOJ reported by 2014-06-19 that Guadalupe Velazquez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-marcos-velazquez",
+      "name": "Marcos Velazquez",
+      "status": "convicted",
+      "statusAsOf": "2014-06-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Marcos Velazquez's historical drug conduct in the United States.",
+            "period": "2014",
+            "sourceUrl": "https://www.justice.gov/usao-az/pr/father-son-each-sentenced-15-years-prison-operating-multi-state-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-az/pr/father-son-each-sentenced-15-years-prison-operating-multi-state-drug-trafficking",
+          "title": "Father, Son Each Sentenced To 15 Years In Prison For Operating A Multi-state Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2014-06-19",
+          "claim": "DOJ reported by 2014-06-19 that Marcos Velazquez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-marcos-velazquez-2014-06-19-development",
+          "occurredAt": "2014-06-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2014-06-19 that Marcos Velazquez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-az/pr/father-son-each-sentenced-15-years-prison-operating-multi-state-drug-trafficking",
+            "title": "Father, Son Each Sentenced To 15 Years In Prison For Operating A Multi-state Drug Trafficking Organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2014-06-19",
+            "claim": "DOJ reported by 2014-06-19 that Marcos Velazquez pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-reuben-clayton-treasure",
+      "name": "Reuben Clayton Treasure",
+      "status": "convicted",
+      "statusAsOf": "2014-06-19",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Reuben Clayton Treasure's historical drug conduct in the United States.",
+            "period": "2014",
+            "sourceUrl": "https://www.justice.gov/usao-az/pr/father-son-each-sentenced-15-years-prison-operating-multi-state-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-az/pr/father-son-each-sentenced-15-years-prison-operating-multi-state-drug-trafficking",
+          "title": "Father, Son Each Sentenced To 15 Years In Prison For Operating A Multi-state Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2014-06-19",
+          "claim": "DOJ reported by 2014-06-19 that Reuben Clayton Treasure pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-reuben-clayton-treasure-2014-06-19-development",
+          "occurredAt": "2014-06-19",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2014-06-19 that Reuben Clayton Treasure pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-az/pr/father-son-each-sentenced-15-years-prison-operating-multi-state-drug-trafficking",
+            "title": "Father, Son Each Sentenced To 15 Years In Prison For Operating A Multi-state Drug Trafficking Organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2014-06-19",
+            "claim": "DOJ reported by 2014-06-19 that Reuben Clayton Treasure pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-alonso-cervantes-garcia",
+      "name": "Alonso Cervantes-Garcia",
+      "status": "convicted",
+      "statusAsOf": "2021-05-18",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Alonso Cervantes-Garcia's historical drug conduct in the United States.",
+            "period": "2021",
+            "sourceUrl": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+          "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-05-18",
+          "claim": "DOJ reported by 2021-05-18 that Alonso Cervantes-Garcia sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-alonso-cervantes-garcia-2021-05-18-development",
+          "occurredAt": "2021-05-18",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2021-05-18 that Alonso Cervantes-Garcia sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+            "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-05-18",
+            "claim": "DOJ reported by 2021-05-18 that Alonso Cervantes-Garcia sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-eduardo-jimenez",
+      "name": "Eduardo Jimenez",
+      "status": "convicted",
+      "statusAsOf": "2021-05-18",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Eduardo Jimenez's historical drug conduct in the United States.",
+            "period": "2021",
+            "sourceUrl": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+          "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-05-18",
+          "claim": "DOJ reported by 2021-05-18 that Eduardo Jimenez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-eduardo-jimenez-2021-05-18-development",
+          "occurredAt": "2021-05-18",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2021-05-18 that Eduardo Jimenez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+            "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-05-18",
+            "claim": "DOJ reported by 2021-05-18 that Eduardo Jimenez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-fernando-gamon",
+      "name": "Fernando Gamon",
+      "status": "convicted",
+      "statusAsOf": "2021-05-18",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Fernando Gamon's historical drug conduct in the United States.",
+            "period": "2021",
+            "sourceUrl": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+          "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-05-18",
+          "claim": "DOJ reported by 2021-05-18 that Fernando Gamon sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-fernando-gamon-2021-05-18-development",
+          "occurredAt": "2021-05-18",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2021-05-18 that Fernando Gamon sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+            "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-05-18",
+            "claim": "DOJ reported by 2021-05-18 that Fernando Gamon sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-samuel-garcia",
+      "name": "Samuel Garcia",
+      "status": "convicted",
+      "statusAsOf": "2021-05-18",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Samuel Garcia's historical drug conduct in the United States.",
+            "period": "2021",
+            "sourceUrl": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+          "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-05-18",
+          "claim": "DOJ reported by 2021-05-18 that Samuel Garcia sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-samuel-garcia-2021-05-18-development",
+          "occurredAt": "2021-05-18",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2021-05-18 that Samuel Garcia sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+            "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-05-18",
+            "claim": "DOJ reported by 2021-05-18 that Samuel Garcia sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-santiago-garcia-sanchez",
+      "name": "Santiago Garcia-Sanchez",
+      "status": "convicted",
+      "statusAsOf": "2021-05-18",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Santiago Garcia-Sanchez's historical drug conduct in the United States.",
+            "period": "2021",
+            "sourceUrl": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+          "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-05-18",
+          "claim": "DOJ reported by 2021-05-18 that Santiago Garcia-Sanchez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-santiago-garcia-sanchez-2021-05-18-development",
+          "occurredAt": "2021-05-18",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2021-05-18 that Santiago Garcia-Sanchez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ne/pr/omaha-man-sentenced-drug-trafficking-ring",
+            "title": "Omaha Man Sentenced in Drug Trafficking Ring",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-05-18",
+            "claim": "DOJ reported by 2021-05-18 that Santiago Garcia-Sanchez sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-alfonzo-mitchell",
+      "name": "Alfonzo Mitchell",
+      "status": "convicted",
+      "statusAsOf": "2021-06-10",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Alfonzo Mitchell's historical drug conduct in the United States.",
+            "period": "2021",
+            "sourceUrl": "https://www.justice.gov/usao-wdtn/pr/convicted-felon-sentenced-possession-controlled-substance-intent-distribute-and"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdtn/pr/convicted-felon-sentenced-possession-controlled-substance-intent-distribute-and",
+          "title": "Convicted Felon Sentenced for Possession of a Controlled Substance with Intent to Distribute and Possession of a Firearm in Connection with a Drug Trafficking Offense",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-06-10",
+          "claim": "DOJ reported by 2021-06-10 that Alfonzo Mitchell sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-alfonzo-mitchell-2021-06-10-development",
+          "occurredAt": "2021-06-10",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2021-06-10 that Alfonzo Mitchell sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdtn/pr/convicted-felon-sentenced-possession-controlled-substance-intent-distribute-and",
+            "title": "Convicted Felon Sentenced for Possession of a Controlled Substance with Intent to Distribute and Possession of a Firearm in Connection with a Drug Trafficking Offense",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-06-10",
+            "claim": "DOJ reported by 2021-06-10 that Alfonzo Mitchell sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-josiah-watkins",
+      "name": "Josiah Watkins",
+      "status": "convicted",
+      "statusAsOf": "2022-11-30",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Josiah Watkins's historical drug conduct in the United States.",
+            "period": "2022",
+            "sourceUrl": "https://www.justice.gov/usao-ma/pr/boston-man-pleads-guilty-drug-trafficking-conspiracy-0"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ma/pr/boston-man-pleads-guilty-drug-trafficking-conspiracy-0",
+          "title": "Boston Man Pleads Guilty to Drug Trafficking Conspiracy",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-11-30",
+          "claim": "DOJ reported by 2022-11-30 that Josiah Watkins pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-josiah-watkins-2022-11-30-development",
+          "occurredAt": "2022-11-30",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2022-11-30 that Josiah Watkins pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ma/pr/boston-man-pleads-guilty-drug-trafficking-conspiracy-0",
+            "title": "Boston Man Pleads Guilty to Drug Trafficking Conspiracy",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2022-11-30",
+            "claim": "DOJ reported by 2022-11-30 that Josiah Watkins pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-clint-younger",
+      "name": "Clint Younger",
+      "status": "convicted",
+      "statusAsOf": "2023-05-31",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Clint Younger's historical drug conduct in the United States.",
+            "period": "2023",
+            "sourceUrl": "https://www.justice.gov/usao-ne/pr/grand-island-man-sentenced-firearm-and-drug-trafficking-crimes-0"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ne/pr/grand-island-man-sentenced-firearm-and-drug-trafficking-crimes-0",
+          "title": "Grand Island Man Sentenced for Firearm and Drug Trafficking Crimes",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-05-31",
+          "claim": "DOJ reported by 2023-05-31 that Clint Younger pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-clint-younger-2023-05-31-development",
+          "occurredAt": "2023-05-31",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2023-05-31 that Clint Younger pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ne/pr/grand-island-man-sentenced-firearm-and-drug-trafficking-crimes-0",
+            "title": "Grand Island Man Sentenced for Firearm and Drug Trafficking Crimes",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-05-31",
+            "claim": "DOJ reported by 2023-05-31 that Clint Younger pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-mark-anthony-daye",
+      "name": "Mark Anthony Daye",
+      "status": "convicted",
+      "statusAsOf": "2017-12-14",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Mark Anthony Daye's historical drug conduct in the United States.",
+            "period": "2017",
+            "sourceUrl": "https://www.justice.gov/usao-ednc/pr/violent-drug-trafficking-organization-dismantled-sentenced-total-119-years-imprisonment"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ednc/pr/violent-drug-trafficking-organization-dismantled-sentenced-total-119-years-imprisonment",
+          "title": "Violent Drug Trafficking Organization Dismantled, Sentenced to Total of 119 Years of Imprisonment",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2017-12-14",
+          "claim": "DOJ reported by 2017-12-14 that Mark Anthony Daye sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-mark-anthony-daye-2017-12-14-development",
+          "occurredAt": "2017-12-14",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2017-12-14 that Mark Anthony Daye sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ednc/pr/violent-drug-trafficking-organization-dismantled-sentenced-total-119-years-imprisonment",
+            "title": "Violent Drug Trafficking Organization Dismantled, Sentenced to Total of 119 Years of Imprisonment",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2017-12-14",
+            "claim": "DOJ reported by 2017-12-14 that Mark Anthony Daye sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-david-diaz",
+      "name": "David Diaz",
+      "status": "convicted",
+      "statusAsOf": "2020-08-21",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes David Diaz's historical drug conduct in the United States.",
+            "period": "2020",
+            "sourceUrl": "https://www.justice.gov/usao-ndok/pr/three-men-plead-guilty-drug-conspiracy-transnational-heroin-trafficking-operation"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndok/pr/three-men-plead-guilty-drug-conspiracy-transnational-heroin-trafficking-operation",
+          "title": "Three Men Plead Guilty to Drug Conspiracy in Transnational Heroin Trafficking Operation",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2020-08-21",
+          "claim": "DOJ reported by 2020-08-21 that David Diaz pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-david-diaz-2020-08-21-development",
+          "occurredAt": "2020-08-21",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2020-08-21 that David Diaz pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndok/pr/three-men-plead-guilty-drug-conspiracy-transnational-heroin-trafficking-operation",
+            "title": "Three Men Plead Guilty to Drug Conspiracy in Transnational Heroin Trafficking Operation",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2020-08-21",
+            "claim": "DOJ reported by 2020-08-21 that David Diaz pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-preston-wilson",
+      "name": "Preston Wilson",
+      "status": "convicted",
+      "statusAsOf": "2020-08-21",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Preston Wilson's historical drug conduct in the United States.",
+            "period": "2020",
+            "sourceUrl": "https://www.justice.gov/usao-ndok/pr/three-men-plead-guilty-drug-conspiracy-transnational-heroin-trafficking-operation"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndok/pr/three-men-plead-guilty-drug-conspiracy-transnational-heroin-trafficking-operation",
+          "title": "Three Men Plead Guilty to Drug Conspiracy in Transnational Heroin Trafficking Operation",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2020-08-21",
+          "claim": "DOJ reported by 2020-08-21 that Preston Wilson pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-preston-wilson-2020-08-21-development",
+          "occurredAt": "2020-08-21",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2020-08-21 that Preston Wilson pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndok/pr/three-men-plead-guilty-drug-conspiracy-transnational-heroin-trafficking-operation",
+            "title": "Three Men Plead Guilty to Drug Conspiracy in Transnational Heroin Trafficking Operation",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2020-08-21",
+            "claim": "DOJ reported by 2020-08-21 that Preston Wilson pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-campton-conway-wolfe",
+      "name": "Campton Conway Wolfe",
+      "status": "convicted",
+      "statusAsOf": "2026-01-06",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Campton Conway Wolfe's historical drug conduct in the United States.",
+            "period": "2026",
+            "sourceUrl": "https://www.justice.gov/usao-wdnc/pr/member-drug-trafficking-organization-known-getting-money-brothers-found-guilty-federal"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdnc/pr/member-drug-trafficking-organization-known-getting-money-brothers-found-guilty-federal",
+          "title": "Member of Drug Trafficking Organization Known As “Getting Money Brothers\" Found Guilty By Federal Jury",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2026-01-06",
+          "claim": "DOJ reported by 2026-01-06 that Campton Conway Wolfe pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-campton-conway-wolfe-2026-01-06-development",
+          "occurredAt": "2026-01-06",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2026-01-06 that Campton Conway Wolfe pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdnc/pr/member-drug-trafficking-organization-known-getting-money-brothers-found-guilty-federal",
+            "title": "Member of Drug Trafficking Organization Known As “Getting Money Brothers\" Found Guilty By Federal Jury",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2026-01-06",
+            "claim": "DOJ reported by 2026-01-06 that Campton Conway Wolfe pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-melanie-rose-bloodman",
+      "name": "Melanie Rose Bloodman",
+      "status": "convicted",
+      "statusAsOf": "2023-11-03",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Melanie Rose Bloodman's historical drug conduct in the United States.",
+            "period": "2023",
+            "sourceUrl": "https://www.justice.gov/usao-mt/pr/billings-woman-admits-meth-trafficking-charge-multi-state-drug-ring-centered-crow-indian"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mt/pr/billings-woman-admits-meth-trafficking-charge-multi-state-drug-ring-centered-crow-indian",
+          "title": "Billings woman admits meth trafficking charge in multi-state drug ring centered on Crow Indian Reservation",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-11-03",
+          "claim": "DOJ reported by 2023-11-03 that Melanie Rose Bloodman pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-melanie-rose-bloodman-2023-11-03-development",
+          "occurredAt": "2023-11-03",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2023-11-03 that Melanie Rose Bloodman pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-mt/pr/billings-woman-admits-meth-trafficking-charge-multi-state-drug-ring-centered-crow-indian",
+            "title": "Billings woman admits meth trafficking charge in multi-state drug ring centered on Crow Indian Reservation",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-11-03",
+            "claim": "DOJ reported by 2023-11-03 that Melanie Rose Bloodman pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-sylvia-ferguson",
+      "name": "Sylvia Ferguson",
+      "status": "convicted",
+      "statusAsOf": "2023-12-05",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Sylvia Ferguson's historical drug conduct in the United States.",
+            "period": "2023",
+            "sourceUrl": "https://www.justice.gov/usao-wdpa/pr/sharon-resident-sentenced-15-months-prison-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdpa/pr/sharon-resident-sentenced-15-months-prison-drug-trafficking",
+          "title": "Sharon Resident Sentenced to 15 Months in Prison for Drug Trafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-12-05",
+          "claim": "DOJ reported by 2023-12-05 that Sylvia Ferguson sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-sylvia-ferguson-2023-12-05-development",
+          "occurredAt": "2023-12-05",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2023-12-05 that Sylvia Ferguson sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdpa/pr/sharon-resident-sentenced-15-months-prison-drug-trafficking",
+            "title": "Sharon Resident Sentenced to 15 Months in Prison for Drug Trafficking",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-12-05",
+            "claim": "DOJ reported by 2023-12-05 that Sylvia Ferguson sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-derek-hillebrand",
+      "name": "Derek Hillebrand",
+      "status": "convicted",
+      "statusAsOf": "2023-06-23",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Derek Hillebrand's historical drug conduct in the United States.",
+            "period": "2023",
+            "sourceUrl": "https://www.justice.gov/usao-wdpa/pr/troutville-man-pleads-guilty-drug-trafficking-charges"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdpa/pr/troutville-man-pleads-guilty-drug-trafficking-charges",
+          "title": "Troutville Man Pleads Guilty to Drug Trafficking Charges",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-06-23",
+          "claim": "DOJ reported by 2023-06-23 that Derek Hillebrand pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-derek-hillebrand-2023-06-23-development",
+          "occurredAt": "2023-06-23",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2023-06-23 that Derek Hillebrand pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdpa/pr/troutville-man-pleads-guilty-drug-trafficking-charges",
+            "title": "Troutville Man Pleads Guilty to Drug Trafficking Charges",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-06-23",
+            "claim": "DOJ reported by 2023-06-23 that Derek Hillebrand pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-zachary-cook",
+      "name": "Zachary Cook",
+      "status": "convicted",
+      "statusAsOf": "2019-11-06",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Zachary Cook's historical drug conduct in the United States.",
+            "period": "2019",
+            "sourceUrl": "https://www.justice.gov/usao-wdar/pr/fayetteville-man-sentenced-14-years-federal-prison-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdar/pr/fayetteville-man-sentenced-14-years-federal-prison-drug-trafficking",
+          "title": "Fayetteville Man Sentenced To 14 Years In Federal Prison For Drug Trafficking",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2019-11-06",
+          "claim": "DOJ reported by 2019-11-06 that Zachary Cook sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-zachary-cook-2019-11-06-development",
+          "occurredAt": "2019-11-06",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2019-11-06 that Zachary Cook sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdar/pr/fayetteville-man-sentenced-14-years-federal-prison-drug-trafficking",
+            "title": "Fayetteville Man Sentenced To 14 Years In Federal Prison For Drug Trafficking",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2019-11-06",
+            "claim": "DOJ reported by 2019-11-06 that Zachary Cook sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-benjamin-flanigan",
+      "name": "Benjamin Flanigan",
+      "status": "convicted",
+      "statusAsOf": "2023-06-01",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Benjamin Flanigan's historical drug conduct in the United States.",
+            "period": "2023",
+            "sourceUrl": "https://www.justice.gov/usao-edky/pr/lexington-couple-sentenced-participating-darknet-marketplace-drug-trafficking"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-edky/pr/lexington-couple-sentenced-participating-darknet-marketplace-drug-trafficking",
+          "title": "Lexington Couple Sentenced for Participating in a Darknet Marketplace Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2023-06-01",
+          "claim": "DOJ reported by 2023-06-01 that Benjamin Flanigan pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-benjamin-flanigan-2023-06-01-development",
+          "occurredAt": "2023-06-01",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2023-06-01 that Benjamin Flanigan pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-edky/pr/lexington-couple-sentenced-participating-darknet-marketplace-drug-trafficking",
+            "title": "Lexington Couple Sentenced for Participating in a Darknet Marketplace Drug Trafficking Organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2023-06-01",
+            "claim": "DOJ reported by 2023-06-01 that Benjamin Flanigan pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-arthur-hardy",
+      "name": "Arthur Hardy",
+      "status": "convicted",
+      "statusAsOf": "2021-12-10",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Arthur Hardy's historical drug conduct in the United States.",
+            "period": "2021",
+            "sourceUrl": "https://www.justice.gov/usao-nj/pr/two-men-admit-roles-drug-trafficking-organization"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-nj/pr/two-men-admit-roles-drug-trafficking-organization",
+          "title": "Two Men Admit Roles in Drug Trafficking Organization",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-12-10",
+          "claim": "DOJ reported by 2021-12-10 that Arthur Hardy pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-arthur-hardy-2021-12-10-development",
+          "occurredAt": "2021-12-10",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2021-12-10 that Arthur Hardy pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-nj/pr/two-men-admit-roles-drug-trafficking-organization",
+            "title": "Two Men Admit Roles in Drug Trafficking Organization",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2021-12-10",
+            "claim": "DOJ reported by 2021-12-10 that Arthur Hardy pleaded guilty to a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-evorion-anderson",
+      "name": "Evorion Anderson",
+      "status": "convicted",
+      "statusAsOf": "2024-06-13",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Evorion Anderson's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced",
+          "title": "Final Member Of Benton Harbor Machinegun And Drug Trafficking Investigation Sentenced",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-06-13",
+          "claim": "DOJ reported by 2024-06-13 that Evorion Anderson sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-evorion-anderson-2024-06-13-development",
+          "occurredAt": "2024-06-13",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-06-13 that Evorion Anderson sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced",
+            "title": "Final Member Of Benton Harbor Machinegun And Drug Trafficking Investigation Sentenced",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-06-13",
+            "claim": "DOJ reported by 2024-06-13 that Evorion Anderson sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-rhonda-acklin",
+      "name": "Rhonda Acklin",
+      "status": "convicted",
+      "statusAsOf": "2024-06-13",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Rhonda Acklin's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced",
+          "title": "Final Member Of Benton Harbor Machinegun And Drug Trafficking Investigation Sentenced",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-06-13",
+          "claim": "DOJ reported by 2024-06-13 that Rhonda Acklin sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-rhonda-acklin-2024-06-13-development",
+          "occurredAt": "2024-06-13",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-06-13 that Rhonda Acklin sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced",
+            "title": "Final Member Of Benton Harbor Machinegun And Drug Trafficking Investigation Sentenced",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-06-13",
+            "claim": "DOJ reported by 2024-06-13 that Rhonda Acklin sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-robert-griffin",
+      "name": "Robert Griffin",
+      "status": "convicted",
+      "statusAsOf": "2024-06-13",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The DOJ release describes Robert Griffin's historical drug conduct in the United States.",
+            "period": "2024",
+            "sourceUrl": "https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced",
+          "title": "Final Member Of Benton Harbor Machinegun And Drug Trafficking Investigation Sentenced",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-06-13",
+          "claim": "DOJ reported by 2024-06-13 that Robert Griffin sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-robert-griffin-2024-06-13-development",
+          "occurredAt": "2024-06-13",
+          "type": "development",
+          "title": "Drug-case outcome reported",
+          "summary": "DOJ reported by 2024-06-13 that Robert Griffin sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date.",
+          "source": {
+            "url": "https://www.justice.gov/usao-wdmi/pr/2024_0613_Austin_E_Sentenced",
+            "title": "Final Member Of Benton Harbor Machinegun And Drug Trafficking Investigation Sentenced",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2024-06-13",
+            "claim": "DOJ reported by 2024-06-13 that Robert Griffin sentenced for a drug-distribution offense. The release date is a report date, not an assumed court date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "doj-corpus-growth5-raphael-ortiz",
+      "name": "Raphael Ortiz",
+      "status": "convicted",
+      "statusAsOf": "2022-10-25",
+      "roleLabel": "Drug-case defendant (historical DOJ outcome)",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "USA",
+          "label": "United States",
+          "evidence": {
+            "claim": "The 2022 DOJ release describes Ortiz’s fentanyl distribution in Youngstown, Ohio, United States.",
+            "period": "2021–2022",
+            "sourceUrl": "https://www.justice.gov/usao-ndoh/pr/youngstown-man-sentenced-more-13-years-prison-drug-and-firearm-offense"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndoh/pr/youngstown-man-prior-drug-trafficking-convictions-charged-possession-intent-distribute",
+          "title": "Youngstown man with prior drug trafficking convictions charged with possession with intent to distribute 2.8 kilos of fentanyl",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2021-02-19",
+          "claim": "The 2021 DOJ release reports a drug-distribution charge against Raphael Ortiz; later disposition is documented in the 2022 DOJ release."
+        },
+        {
+          "url": "https://www.justice.gov/usao-ndoh/pr/youngstown-man-sentenced-more-13-years-prison-drug-and-firearm-offense",
+          "title": "Youngstown Man Sentenced to More Than 13 Years in Prison for Drug and Firearm Offenses",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2022-10-25",
+          "claim": "DOJ reported on 2022-10-25 that Raphael Ortiz had pleaded guilty to fentanyl distribution and was sentenced on 2022-10-24 to more than 13 years in prison."
+        }
+      ],
+      "events": [
+        {
+          "id": "doj-corpus-growth5-raphael-ortiz-2022-10-24-conviction",
+          "occurredAt": "2022-10-24",
+          "type": "conviction",
+          "title": "Drug-case sentence",
+          "summary": "DOJ reported on 2022-10-25 that Raphael Ortiz had pleaded guilty to fentanyl distribution and was sentenced on 2022-10-24 to more than 13 years in prison.",
+          "source": {
+            "url": "https://www.justice.gov/usao-ndoh/pr/youngstown-man-sentenced-more-13-years-prison-drug-and-firearm-offense",
+            "title": "Youngstown Man Sentenced to More Than 13 Years in Prison for Drug and Firearm Offenses",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "publishedAt": "2022-10-25",
+            "claim": "DOJ reported on 2022-10-25 that Raphael Ortiz had pleaded guilty to fentanyl distribution and was sentenced on 2022-10-24 to more than 13 years in prison."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "doj-corpus-growth5-franqui-rodriguez-spouses",
+      "fromId": "doj-corpus-growth5-william-franqui",
+      "toId": "doj-corpus-growth5-marie-rodriguez",
+      "type": "spouse_of",
+      "label": "Spouses identified in 2024 DOJ report",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-mdfl/pr/final-member-hillsborough-drug-trafficking-organization-sentenced-10-years-federal",
+          "title": "Final Member Of A Hillsborough Drug Trafficking Organization Sentenced To 10 Years In Federal Prison For Conspiracy To Distribute Heroin And Fentanyl",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "publishedAt": "2024-08-21",
+          "claim": "The DOJ release explicitly identifies Marie Rodriguez as William Franqui’s wife. This supports only the spouse relationship; it does not imply a shared charge, leadership role, or current association."
+        }
+      ]
+    }
+  ]
+}

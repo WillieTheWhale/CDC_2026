@@ -1,0 +1,304 @@
+{
+  "project": {
+    "name": "TRACE",
+    "one_liner": "A Bloomberg terminal for the global drug trade that predicts where the next drug crisis will hit, before it arrives.",
+    "tagline": "Early warning for the countries that never chose to be on the route."
+  },
+  "counts": {
+    "indicators": "24",
+    "economies": "217",
+    "ids_cases": "2.3M",
+    "corridors": "676",
+    "oc_index": "193",
+    "hri": "197",
+    "risk_countries": "217",
+    "latest_year": "2024",
+    "first_year": "2011",
+    "sources": "8",
+    "map_first_year": "2006",
+    "map_last_observed": "2024",
+    "map_forecast_year": "2025"
+  },
+  "metrics": {
+    "hurdle_auc": "0.88",
+    "gravity_auc": "0.58",
+    "afghan_hit": "9/13",
+    "sea_base": "5%",
+    "sea_pred": "14%",
+    "sea_actual": "13%",
+    "train_through": "2019",
+    "afghan_train_through": "2021",
+    "spearman": "0.58",
+    "precision_at_20": "0.48",
+    "afghan_right": "9",
+    "afghan_of": "13",
+    "rn_n": "92",
+    "rn_events": "47",
+    "rn_negatives": "39",
+    "rn_event_acc": "91%",
+    "rn_drug_acc": "98%",
+    "rn_origin_acc": "96%",
+    "rn_dest_acc": "85%",
+    "rn_hallucinated": "0",
+    "rn_entities": "107",
+    "rn_ece_shown": "0.05",
+    "rn_hallucinated_ungrounded": "5",
+    "rn_entities_ungrounded": "102",
+    "onnx_variant": "emb8",
+    "onnx_choice_parity": "100%",
+    "onnx_n": "150"
+  },
+  "charts": {
+    "afghan": {
+      "series": [
+        {
+          "id": "afg_cultivation",
+          "label": "Afghanistan",
+          "unit": "ha",
+          "points": [
+            {
+              "x": 2015,
+              "y": 183000.0
+            },
+            {
+              "x": 2016,
+              "y": 201000.0
+            },
+            {
+              "x": 2017,
+              "y": 328000.0
+            },
+            {
+              "x": 2018,
+              "y": 263000.0
+            },
+            {
+              "x": 2019,
+              "y": 163000.0
+            },
+            {
+              "x": 2020,
+              "y": 224000.0
+            },
+            {
+              "x": 2021,
+              "y": 177000.0
+            },
+            {
+              "x": 2022,
+              "y": 233000.0
+            },
+            {
+              "x": 2023,
+              "y": 10800.0
+            },
+            {
+              "x": 2024,
+              "y": 12800.0
+            },
+            {
+              "x": 2025,
+              "y": 10200.0
+            }
+          ]
+        },
+        {
+          "id": "mmr_cultivation",
+          "label": "Myanmar",
+          "unit": "ha",
+          "points": [
+            {
+              "x": 2015,
+              "y": 55500.0
+            },
+            {
+              "x": 2017,
+              "y": 41000.0
+            },
+            {
+              "x": 2018,
+              "y": 37300.0
+            },
+            {
+              "x": 2019,
+              "y": 33100.0
+            },
+            {
+              "x": 2020,
+              "y": 29500.0
+            },
+            {
+              "x": 2021,
+              "y": 30200.0
+            },
+            {
+              "x": 2022,
+              "y": 40100.0
+            },
+            {
+              "x": 2023,
+              "y": 47100.0
+            },
+            {
+              "x": 2024,
+              "y": 45200.0
+            },
+            {
+              "x": 2025,
+              "y": 53100.0
+            }
+          ]
+        }
+      ],
+      "ban_year": 2022,
+      "title": "Afghanistan 2022 opium ban"
+    }
+  },
+  "provenance": {
+    "built_from": "defaults",
+    "metrics": "README.md (live run)",
+    "reflex_real_news": "backend/trace_backend/reflex/results/real_news_v1.json",
+    "reflex_onnx": "backend/trace_backend/reflex/results/onnx_parity.json",
+    "afghan": "contracts/fixtures/afghan_ban.json"
+  },
+  "people": {
+    "total": 3099,
+    "organizations": 229,
+    "convicted": 2031,
+    "charged": 456,
+    "sanctioned": 536,
+    "reported": 76
+  },
+  "screenshots": {
+    "route-map": "screenshots/route-map.png",
+    "experiment": "screenshots/experiment.png",
+    "country-screen": "screenshots/country-screen.png",
+    "experiment-afghan": "screenshots/experiment-afghan.png",
+    "livewire": "screenshots/livewire.png",
+    "market-board": "screenshots/market-board.png",
+    "risk-board": "screenshots/risk-board.png",
+    "simulator": "screenshots/simulator.png"
+  },
+  "placeholders": [],
+  "status": {
+    "shipped": [
+      {
+        "label": "Spec, docs, handoff",
+        "owner": "planning session",
+        "status": "done"
+      },
+      {
+        "label": "API contract + fixtures",
+        "owner": "backend",
+        "status": "done (`contracts/`)"
+      },
+      {
+        "label": "backend scaffold",
+        "owner": "backend",
+        "status": "done (uv, Python 3.11, `trace` CLI)"
+      },
+      {
+        "label": "World Bank ingest",
+        "owner": "backend",
+        "status": "done; now read from the SQLite v2 archive (24 indicators, 217 economies, 1960-2025)"
+      },
+      {
+        "label": "external ingest (UNODC, OC Index, HRI, CEPII)",
+        "owner": "backend",
+        "status": "done (IDS 2.3M cases, WDR annex, OC Index x3, HRI 197 countries, CEPII; see BLOCKERS.md)"
+      },
+      {
+        "label": "edges + confidence",
+        "owner": "backend",
+        "status": "done (676 corridors x 2011-2024, seizure-anchored allocation, 6-signal confidence)"
+      },
+      {
+        "label": "route models + backtest + Afghan ban test",
+        "owner": "backend",
+        "status": "done, retrained on SQLite archive (hurdle AUC 0.88 vs gravity 0.58; Afghan ban 9/13 corridors, SEA share 5%->14% pred vs 13% actual)"
+      },
+      {
+        "label": "spillover risk",
+        "owner": "backend",
+        "status": "done (217 countries x 2008-2025, HRI per edition; hypothesis not supported)"
+      },
+      {
+        "label": "SQLite v2 migration",
+        "owner": "backend",
+        "status": "done (archive read-only + `derived.sqlite`; DuckDB removed)"
+      },
+      {
+        "label": "Reflex (own System One model)",
+        "owner": "backend",
+        "status": "v0.2 shipped as the Live Wire classifier: 98% event type, 82% destination (mock 52%), ECE 0.02; see [REFLEX_SPEC.md](docs/REFLEX_SPEC.md)"
+      },
+      {
+        "label": "export + API",
+        "owner": "backend",
+        "status": "done (precomputed JSON, FastAPI, contract tests)"
+      },
+      {
+        "label": "Live Wire (mock Jev)",
+        "owner": "backend",
+        "status": "done (JevClassifier + mock, GDELT poller with replay fallback, REST + WS)"
+      },
+      {
+        "label": "shock simulator",
+        "owner": "backend",
+        "status": "done (structured + plain-English shocks, command bar)"
+      },
+      {
+        "label": "API deployment",
+        "owner": "backend",
+        "status": "done: live at https://trace-api-six.vercel.app (Vercel; keyword Live Wire classifier, backlog replay)"
+      },
+      {
+        "label": "People API",
+        "owner": "backend",
+        "status": "done (`/api/people`, `/countries`, `/network`, `/{person_id}`; parity with the frontend route handlers)"
+      },
+      {
+        "label": "Route evidence API",
+        "owner": "backend",
+        "status": "done (`/api/route-evidence`: 51 direct reported pairs, 234 interpreted corridors, 4 narrative claims; `evidence_ids`/`kg_basis` on route edges)"
+      },
+      {
+        "label": "Evidence drilldown API",
+        "owner": "backend",
+        "status": "done (`/api/evidence/*`: 3,995 research and market values traced to formula, inputs and original cells; health and CDC overdose with the required labels)"
+      },
+      {
+        "label": "Frontend shell + map",
+        "owner": "frontend",
+        "status": "done: live at https://trace-atlas-gules.vercel.app (atlas map with year slider and 2025 forecast, full-screen mode, drug filters, estimated local flows)"
+      },
+      {
+        "label": "Country Screen + Risk Board",
+        "owner": "frontend",
+        "status": "done (risk watchlist and board, country inspector with routes, indicators, harm reduction and briefing)"
+      },
+      {
+        "label": "Simulator, Live Wire, Market Board",
+        "owner": "frontend",
+        "status": "done (Scenarios tab with policy dates, Live Wire feed, Markets tab; Experiment tab for the Afghan ban test)"
+      },
+      {
+        "label": "Merged database (`database_new`)",
+        "owner": "backend",
+        "status": "done: `backend/scripts/merge_databases.py` = canonical archive + derived API tables + route-evidence seeds (76 tables); uploaded to the team Drive folder as `database_new.sqlite.gz` + `database_new.json`"
+      }
+    ],
+    "pending": [],
+    "frontend_built": true,
+    "shipped_short": "Pipeline, models, backtests and Live Wire shipped; the site and the API are live in production",
+    "shipped_count": 21,
+    "pending_count": 0
+  },
+  "git": {
+    "sha": "d357a2f",
+    "subject": "Fix sideways scroll at 1024 px: the dock no longer widens its column (react-grid-layout's 1280 px default fed back into its measured width); seed initialWidth from the viewport",
+    "when": "2026-09-27T16:43:46-04:00",
+    "count": "329"
+  },
+  "built_at": "2026-09-27 21:37 UTC"
+}

@@ -1,0 +1,608 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Drafted 2026-09-26 from linked U.S. Treasury/OFAC releases, Syrian court reporting by SANA, and Arabic Al Jazeera investigation. Historical Assad-era Fourth Division-linked Captagon facilitation only. Treasury sanctions are not criminal convictions. The 2026 Syrian court expressly acquitted Wassim al-Assad on drug trafficking and smuggling counts while convicting him of unrelated war crimes; this outcome controls any criminal drug claim. Maher al-Assad's 2026 conviction was in absentia and for non-drug atrocities. Country associations are historical and coarse, never current positions. Maher's portrait is credited and licensed from its Commons file record; no other unlicensed photos are used. No relationship inferred solely from shared organization or family name.",
+  "organizations": [
+    {
+      "id": "syrian-fourth-division",
+      "name": "Fourth Division of the Syrian Arab Army",
+      "aliases": [
+        "4th Division"
+      ],
+      "regions": [
+        "SYR"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1369",
+          "title": "Treasury Sanctions Syrian Regime and Lebanese Actors Involved in Illicit Drug Production and Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2023-03-28",
+          "claim": "Treasury identifies Maher al-Assad as head of the Fourth Division and describes the division as facilitating Captagon production and trafficking in the Assad era."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "maher-al-assad",
+      "name": "Maher al-Assad",
+      "aliases": [
+        "Mahir al-Assad",
+        "ماهر الأسد"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-06-30",
+      "roleLabel": "OFAC-listed former Fourth Division commander; Treasury described Assad-era Captagon facilitation. Separately convicted in absentia in 2026 of non-drug war crimes and crimes against humanity.",
+      "prominence": 1,
+      "organizationIds": [
+        "syrian-fourth-division"
+      ],
+      "regions": [
+        {
+          "iso3": "SYR",
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "U.S. Treasury identified Maher and the Fourth Division he led as facilitators of Captagon production and trafficking in Syria during the Assad era; this is a historical allegation.",
+            "period": "before 2023-03",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1369"
+          }
+        }
+      ],
+      "drugs": [
+        "Captagon"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1369",
+          "title": "Treasury Sanctions Syrian Regime and Lebanese Actors Involved in Illicit Drug Production and Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2023-03-28",
+          "claim": "Treasury identifies Maher as Fourth Division head and says he and the division facilitated Captagon production and trafficking in the Assad era."
+        },
+        {
+          "url": "https://sana.sy/locals/2550597/",
+          "title": "التفاصيل الكاملة لجلسة الحكم بالإعدام على بشار الأسد وعاطف نجيب وستة متهمين فارين",
+          "publisher": "Syrian Arab News Agency (SANA)",
+          "language": "Arabic",
+          "publishedAt": "2026-08-11",
+          "claim": "SANA reports a Syrian court convicted Maher al-Assad in absentia of murder, torture and crimes against humanity and war crimes; this was not a drug-trafficking judgment."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20250630",
+          "title": "Revocation of Syria Sanctions; Syria-related Designation Updates and Removals",
+          "publisher": "U.S. Office of Foreign Assets Control",
+          "language": "English",
+          "publishedAt": "2025-06-30",
+          "claim": "OFAC converted Maher al-Assad’s Syria program tag to PAARSSR-EO13894, retaining his SDN entry as of this action."
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:Maher_al-Assad.jpg",
+          "title": "Maher al-Assad photograph: author, file history and license",
+          "publisher": "Wikimedia Commons",
+          "language": "English",
+          "claim": "Original uploader M.naddaf identified this as their own photograph of Maher al-Assad and licensed it CC BY-SA 3.0. Herr Ziffer cropped and centered the current version in 2012."
+        }
+      ],
+      "events": [
+        {
+          "id": "maher-2026-in-absentia",
+          "occurredAt": "2026-08-11",
+          "type": "conviction",
+          "title": "Convicted in absentia of non-drug atrocities",
+          "summary": "A Syrian court sentenced Maher al-Assad in absentia for murder, torture and related crimes against humanity and war crimes. The judgment did not establish a drug-trafficking conviction.",
+          "source": {
+            "url": "https://sana.sy/locals/2550597/",
+            "title": "التفاصيل الكاملة لجلسة الحكم بالإعدام على بشار الأسد وعاطف نجيب وستة متهمين فارين",
+            "publisher": "Syrian Arab News Agency (SANA)",
+            "language": "Arabic",
+            "publishedAt": "2026-08-11",
+            "claim": "The 11 August 2026 judgment named Maher among defendants convicted in absentia of non-drug atrocities."
+          }
+        }
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Maher_al-Assad.jpg",
+        "credit": "M.naddaf (original); Herr Ziffer (2012 crop), via Wikimedia Commons",
+        "license": "CC BY-SA 3.0; current file cropped and centered in 2012",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maher_al-Assad.jpg"
+      }
+    },
+    {
+      "id": "khalid-qaddour",
+      "name": "Khalid Qaddour",
+      "aliases": [
+        "Khaled Nasser Qaddour",
+        "خالد ناصر قدور"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-06-30",
+      "roleLabel": "Treasury-designated close associate of Maher al-Assad; Treasury attributed management of illicit Fourth Division revenues to him.",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "SYR",
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "Jusoor for Studies identified Qaddour as laundering proceeds from the Fourth Division’s drug-smuggling operations in Syria during the Assad era; this is an attributed historical assessment.",
+            "period": "before 2024-10-31",
+            "sourceUrl": "https://jusoor.sy/en/details/power-in-the-shadows-syrias-fourth-division"
+          }
+        }
+      ],
+      "drugs": [
+        "Captagon"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1369",
+          "title": "Treasury Sanctions Syrian Regime and Lebanese Actors Involved in Illicit Drug Production and Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2023-03-28",
+          "claim": "Treasury says Qaddour is a close Maher al-Assad associate and reportedly manages revenue generated by Fourth Division schemes including Captagon facilitation."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20250630",
+          "title": "Revocation of Syria Sanctions; Syria-related Designation Updates and Removals",
+          "publisher": "U.S. Office of Foreign Assets Control",
+          "language": "English",
+          "publishedAt": "2025-06-30",
+          "claim": "OFAC converted Qaddour's Syria sanctions tag to PAARSSR-EO13894, retaining the SDN entry and link to Maher al-Assad as of this action."
+        },
+        {
+          "url": "https://jusoor.sy/en/details/power-in-the-shadows-syrias-fourth-division",
+          "title": "Power in the Shadows: Syria’s Fourth Division",
+          "publisher": "Jusoor for Studies",
+          "language": "English",
+          "claim": "Jusoor identifies Qaddour as laundering proceeds from Fourth Division smuggling in Syria; the assessment is not a criminal judgment.",
+          "publishedAt": "2024-10-31"
+        }
+      ],
+      "events": [
+        {
+          "id": "qaddour-2023-designation",
+          "occurredAt": "2023-03-28",
+          "type": "sanction",
+          "title": "U.S. Treasury designation",
+          "summary": "OFAC designated Qaddour for support to Maher al-Assad; Treasury described an alleged role managing revenues from Fourth Division illicit schemes, including Captagon facilitation.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy1369",
+            "title": "Treasury Sanctions Syrian Regime and Lebanese Actors Involved in Illicit Drug Production and Trafficking",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "English",
+            "publishedAt": "2023-03-28",
+            "claim": "Qaddour was designated for support to Maher al-Assad on 28 March 2023."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ghassan-ali-bilal",
+      "name": "Ghassan Ali Bilal",
+      "aliases": [
+        "Ghassan Bilal",
+        "غسان علي بلال"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-06-30",
+      "roleLabel": "Former Fourth Division security bureau director and Maher al-Assad adviser; Treasury linked his office to proceeds from a cited Captagon transaction.",
+      "prominence": 2,
+      "organizationIds": [
+        "syrian-fourth-division"
+      ],
+      "regions": [
+        {
+          "iso3": "SYR",
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "Al Jazeera reported a former Fourth Division member’s account that Bilal managed drug-smuggling operations in Syria; this is attributed testimony, not a court finding.",
+            "period": "before 2025-03-07",
+            "sourceUrl": "https://www.ajnet.me/encyclopedia/2014/10/29/%D8%A7%D9%84%D9%81%D8%B1%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A"
+          }
+        }
+      ],
+      "drugs": [
+        "Captagon"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2648",
+          "title": "Treasury Targets Hizballah Finance Network and Syrian Captagon Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2024-10-16",
+          "claim": "Treasury calls Bilal a key Maher al-Assad adviser and says Khaldoun Hamieh helped move proceeds of a cited Captagon sale to Bilal's office; it notes Bilal's 2020 human-rights designation."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20250630",
+          "title": "Revocation of Syria Sanctions; Syria-related Designation Updates and Removals",
+          "publisher": "U.S. Office of Foreign Assets Control",
+          "language": "English",
+          "publishedAt": "2025-06-30",
+          "claim": "OFAC lists Ghassan Ali Bilal under PAARSSR-EO13894 as former Fourth Division security bureau director as of this action."
+        },
+        {
+          "url": "https://www.ajnet.me/encyclopedia/2014/10/29/%D8%A7%D9%84%D9%81%D8%B1%D9%82%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A",
+          "title": "الفرقة الرابعة في الجيش السوري.. من إبادة الثورة إلى إمبراطورية الكبتاغون",
+          "publisher": "Al Jazeera Arabic",
+          "language": "Arabic",
+          "claim": "Al Jazeera reports former Fourth Division member Jaafar Jaafar’s testimony alleging Bilal managed drug smuggling in Syria; this remains an attributed allegation.",
+          "publishedAt": "2025-03-07"
+        }
+      ]
+    },
+    {
+      "id": "samer-kamal-al-assad",
+      "name": "Samer Kamal al-Assad",
+      "aliases": [
+        "سامر كمال الأسد"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-06-30",
+      "roleLabel": "Treasury-designated Assad family member; Treasury attributed Captagon production facilities to him in 2023.",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "SYR",
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "U.S. Treasury identified Samer as directly overseeing Captagon production facilities in Syria during the Assad era; this is a historical allegation.",
+            "period": "before 2023-03",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy1369"
+          }
+        }
+      ],
+      "drugs": [
+        "Captagon"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1369",
+          "title": "Treasury Sanctions Syrian Regime and Lebanese Actors Involved in Illicit Drug Production and Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2023-03-28",
+          "claim": "Treasury says Samer oversaw Captagon facilities in coordination with the Fourth Division and designated him on 28 March 2023."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20250630",
+          "title": "Revocation of Syria Sanctions; Syria-related Designation Updates and Removals",
+          "publisher": "U.S. Office of Foreign Assets Control",
+          "language": "English",
+          "publishedAt": "2025-06-30",
+          "claim": "OFAC converted Samer Kamal al-Assad's Syria program tag to PAARSSR-EO13894 while retaining the Caesar Act tag as of this action."
+        }
+      ],
+      "events": [
+        {
+          "id": "samer-2023-designation",
+          "occurredAt": "2023-03-28",
+          "type": "sanction",
+          "title": "U.S. Treasury designation",
+          "summary": "OFAC designated Samer Kamal al-Assad; Treasury attributed Captagon production facilities to him and described coordination with the Fourth Division.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy1369",
+            "title": "Treasury Sanctions Syrian Regime and Lebanese Actors Involved in Illicit Drug Production and Trafficking",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "English",
+            "publishedAt": "2023-03-28",
+            "claim": "Treasury designated Samer Kamal al-Assad on 28 March 2023."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wassim-badi-al-assad",
+      "name": "Wassim Badi al-Assad",
+      "aliases": [
+        "Waseem al-Assad",
+        "وسيم بديع الأسد"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-06-30",
+      "roleLabel": "U.S.-sanctioned in 2023 with a Treasury drug-network allegation; a Syrian court acquitted him of drug trafficking and smuggling in August 2026 for insufficient evidence, while convicting him of unrelated war crimes.",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [
+        "Captagon (Treasury allegation; drug charges acquitted in 2026)"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1369",
+          "title": "Treasury Sanctions Syrian Regime and Lebanese Actors Involved in Illicit Drug Production and Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2023-03-28",
+          "claim": "Treasury described Wassim as a figure in a regional drug network and designated him for acting for or on behalf of the Syrian Arab Army; this is a sanctions allegation, not a drug conviction."
+        },
+        {
+          "url": "https://sana.sy/locals/2555996/",
+          "title": "الحكم بإعدام وسيم الأسد ومصادرة أمواله بعد إدانته بجرائم ضد الإنسانية وجرائم حرب",
+          "publisher": "Syrian Arab News Agency (SANA)",
+          "language": "Arabic",
+          "publishedAt": "2026-08-18",
+          "claim": "The Syrian court expressly acquitted Wassim of drug trafficking and smuggling for insufficient evidence; he was convicted of non-drug war crimes and crimes against humanity. The judgment was appealable."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20250630",
+          "title": "Revocation of Syria Sanctions; Syria-related Designation Updates and Removals",
+          "publisher": "U.S. Office of Foreign Assets Control",
+          "language": "English",
+          "publishedAt": "2025-06-30",
+          "claim": "OFAC converted Wassim al-Assad's sanctions program tag to PAARSSR-EO13894 as of this action."
+        }
+      ],
+      "events": [
+        {
+          "id": "wassim-2023-designation",
+          "occurredAt": "2023-03-28",
+          "type": "sanction",
+          "title": "U.S. Treasury designation",
+          "summary": "Treasury alleged a regional drug-network role and designated Wassim for acting for or on behalf of the Syrian Arab Army. This was not a criminal judgment.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy1369",
+            "title": "Treasury Sanctions Syrian Regime and Lebanese Actors Involved in Illicit Drug Production and Trafficking",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "English",
+            "publishedAt": "2023-03-28",
+            "claim": "Treasury designated Wassim on 28 March 2023 and alleged a drug-network role."
+          }
+        },
+        {
+          "id": "wassim-2025-arrest",
+          "occurredAt": "2025-06-21",
+          "type": "arrest",
+          "title": "Syrian authorities announced arrest",
+          "summary": "SANA reported that Syrian security services arrested Wassim al-Assad. This report did not establish guilt.",
+          "source": {
+            "url": "https://sana.sy/locals/2234540/",
+            "title": "قوى الأمن السوري تلقي القبض على المجرم وسيم الأسد",
+            "publisher": "Syrian Arab News Agency (SANA)",
+            "language": "Arabic",
+            "publishedAt": "2025-06-21",
+            "claim": "SANA reports the 21 June 2025 arrest of Wassim al-Assad."
+          }
+        },
+        {
+          "id": "wassim-2026-drug-acquittal",
+          "occurredAt": "2026-08-18",
+          "type": "development",
+          "title": "Drug charges acquitted; separate war-crimes conviction",
+          "summary": "The Syrian court acquitted Wassim of drug trafficking and smuggling because evidence was insufficient. It separately convicted him of war crimes and crimes against humanity and imposed a death sentence; SANA said the judgment was appealable.",
+          "source": {
+            "url": "https://sana.sy/locals/2555996/",
+            "title": "الحكم بإعدام وسيم الأسد ومصادرة أمواله بعد إدانته بجرائم ضد الإنسانية وجرائم حرب",
+            "publisher": "Syrian Arab News Agency (SANA)",
+            "language": "Arabic",
+            "publishedAt": "2026-08-18",
+            "claim": "The court's 18 August 2026 judgment explicitly acquitted drug counts and convicted unrelated atrocity counts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "khaldoun-hamieh",
+      "name": "Khaldoun Hamieh",
+      "aliases": [
+        "Khaldoun Hamiyeh"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2025-06-30",
+      "roleLabel": "Treasury-designated Lebanon-based trafficker; Treasury reported a close relationship with Maher al-Assad and movement of Captagon proceeds to Ghassan Bilal's office.",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "LBN",
+          "label": "Lebanon (historical association)",
+          "evidence": {
+            "claim": "U.S. Treasury identified Hamieh as a Lebanon-based Captagon trafficker who facilitated movement of Lebanese-made Captagon; this is an attributed historical allegation.",
+            "period": "before 2024-10",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2648"
+          }
+        },
+        {
+          "iso3": "SYR",
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "U.S. Treasury identified Hamieh as controlling Captagon production facilities in Syria and facilitating Captagon movement there; this is an attributed historical allegation.",
+            "period": "before 2024-10",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/jy2648"
+          }
+        }
+      ],
+      "drugs": [
+        "Captagon"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2648",
+          "title": "Treasury Targets Hizballah Finance Network and Syrian Captagon Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2024-10-16",
+          "claim": "Treasury describes Hamieh's Captagon role, close relationship with Maher al-Assad, and movement of proceeds to Ghassan Bilal's office; OFAC designated him on 16 October 2024."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20250630",
+          "title": "Revocation of Syria Sanctions; Syria-related Designation Updates and Removals",
+          "publisher": "U.S. Office of Foreign Assets Control",
+          "language": "English",
+          "publishedAt": "2025-06-30",
+          "claim": "OFAC converted Hamieh's Syria program tag to PAARSSR-EO13894 while retaining the Caesar Act tag as of this action."
+        }
+      ],
+      "events": [
+        {
+          "id": "hamieh-2024-designation",
+          "occurredAt": "2024-10-16",
+          "type": "sanction",
+          "title": "U.S. Treasury designation",
+          "summary": "OFAC designated Hamieh in a Syria/Caesar Act action; Treasury alleged Captagon trafficking and a close Maher al-Assad relationship.",
+          "source": {
+            "url": "https://home.treasury.gov/news/press-releases/jy2648",
+            "title": "Treasury Targets Hizballah Finance Network and Syrian Captagon Trafficking",
+            "publisher": "U.S. Department of the Treasury",
+            "language": "English",
+            "publishedAt": "2024-10-16",
+            "claim": "OFAC designated Hamieh on 16 October 2024 under Syria and Caesar Act authorities."
+          }
+        }
+      ]
+    },
+    {
+      "id": "amer-jdei-al-sheikh",
+      "name": "Amer Jdei' al-Sheikh",
+      "aliases": [
+        "Amer Jde' al-Sheikh",
+        "عامر جديع الشيخ"
+      ],
+      "status": "reported",
+      "statusAsOf": "2025-08-03",
+      "roleLabel": "Syrian anti-narcotics directorate announced his August 2025 arrest and alleged close ties to Maher al-Assad; no conviction established by the cited source.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "SYR",
+          "label": "Syria (historical association)",
+          "evidence": {
+            "claim": "Syrian anti-narcotics officials alleged that Amer oversaw drug manufacture and smuggling through networks in Syria before his 2025 arrest; this is an allegation, not a conviction.",
+            "period": "before 2025-08",
+            "sourceUrl": "https://sana.sy/en/syria/2260844/"
+          }
+        }
+      ],
+      "drugs": [
+        "Narcotics (type not specified in the arrest announcement)"
+      ],
+      "sources": [
+        {
+          "url": "https://sana.sy/en/syria/2260844/",
+          "title": "Amer Al-Sheikh, one of the most dangerous drug smugglers arrested",
+          "publisher": "Syrian Arab News Agency (SANA)",
+          "language": "English",
+          "publishedAt": "2025-08-03",
+          "claim": "SANA quotes Syria's anti-narcotics director announcing Amer Jdei' al-Sheikh's arrest and alleging close ties to Maher al-Assad; it does not report a conviction or identify Captagon specifically in this statement."
+        },
+        {
+          "url": "https://www.aljazeera.net/amp/news/2025/8/3/%D8%AA%D9%86%D8%B3%D9%8A%D9%82-%D8%A3%D9%85%D9%86%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A-%D8%AA%D8%B1%D9%83%D9%8A-%D9%8A%D8%B7%D9%8A%D8%AD-%D8%A8%D8%A3%D8%AE%D8%B7%D8%B1-%D9%85%D9%87%D8%B1%D8%A8",
+          "title": "تنسيق أمني سوري تركي يطيح بأخطر مهرب للمخدرات",
+          "publisher": "Al Jazeera Arabic",
+          "language": "Arabic",
+          "publishedAt": "2025-08-03",
+          "claim": "Arabic reporting reproduces the official arrest statement and identifies the alleged close Maher al-Assad link."
+        }
+      ],
+      "events": [
+        {
+          "id": "amer-2025-arrest",
+          "occurredAt": "2025-08-03",
+          "type": "arrest",
+          "title": "Syrian anti-narcotics arrest announced",
+          "summary": "The Syrian anti-narcotics directorate announced Amer Jdei' al-Sheikh's arrest and alleged close ties to Maher al-Assad. No conviction was reported.",
+          "source": {
+            "url": "https://sana.sy/en/syria/2260844/",
+            "title": "Amer Al-Sheikh, one of the most dangerous drug smugglers arrested",
+            "publisher": "Syrian Arab News Agency (SANA)",
+            "language": "English",
+            "publishedAt": "2025-08-03",
+            "claim": "The agency reports an arrest on 3 August 2025 and quotes the anti-narcotics directorate's allegation."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "maher-qaddour-close-associate",
+      "fromId": "maher-al-assad",
+      "toId": "khalid-qaddour",
+      "type": "reported-association",
+      "label": "Treasury described Qaddour as Maher's close associate and revenue manager",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1369",
+          "title": "Treasury Sanctions Syrian Regime and Lebanese Actors Involved in Illicit Drug Production and Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2023-03-28",
+          "claim": "Treasury explicitly calls Qaddour Maher's close associate and says he reportedly managed revenues from Fourth Division schemes."
+        }
+      ]
+    },
+    {
+      "id": "maher-ghassan-adviser",
+      "fromId": "maher-al-assad",
+      "toId": "ghassan-ali-bilal",
+      "type": "reported-adviser",
+      "label": "Treasury identified Bilal as a key Maher al-Assad adviser",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2648",
+          "title": "Treasury Targets Hizballah Finance Network and Syrian Captagon Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2024-10-16",
+          "claim": "Treasury names Bilal as a key adviser to Maher al-Assad."
+        }
+      ]
+    },
+    {
+      "id": "maher-hamieh-close-relationship",
+      "fromId": "maher-al-assad",
+      "toId": "khaldoun-hamieh",
+      "type": "reported-association",
+      "label": "Treasury described a close relationship between Hamieh and Maher",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2648",
+          "title": "Treasury Targets Hizballah Finance Network and Syrian Captagon Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2024-10-16",
+          "claim": "Treasury explicitly describes Hamieh's close relationship with Maher al-Assad."
+        }
+      ]
+    },
+    {
+      "id": "hamieh-bilal-proceeds",
+      "fromId": "khaldoun-hamieh",
+      "toId": "ghassan-ali-bilal",
+      "type": "reported-financial-link",
+      "label": "Treasury says Hamieh helped move Captagon proceeds to Bilal's office",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2648",
+          "title": "Treasury Targets Hizballah Finance Network and Syrian Captagon Trafficking",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "English",
+          "publishedAt": "2024-10-16",
+          "claim": "Treasury says Hamieh helped secure passage of proceeds from a cited Captagon sale to Ghassan Bilal's office."
+        }
+      ]
+    },
+    {
+      "id": "maher-amer-reported-ties",
+      "fromId": "maher-al-assad",
+      "toId": "amer-jdei-al-sheikh",
+      "type": "official-allegation",
+      "label": "Syrian anti-narcotics directorate alleged close ties between Amer and Maher",
+      "sources": [
+        {
+          "url": "https://sana.sy/en/syria/2260844/",
+          "title": "Amer Al-Sheikh, one of the most dangerous drug smugglers arrested",
+          "publisher": "Syrian Arab News Agency (SANA)",
+          "language": "English",
+          "publishedAt": "2025-08-03",
+          "claim": "The quoted anti-narcotics official says Amer Jdei' al-Sheikh had close ties to Maher al-Assad; this remains an official allegation, not a court finding."
+        }
+      ]
+    }
+  ]
+}

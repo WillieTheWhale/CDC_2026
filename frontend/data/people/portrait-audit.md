@@ -1,0 +1,24 @@
+<!-- AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. -->
+# People portrait rights check — 2026-09-26
+
+Only a file with a supported depicted identity, creator/source, direct image URL, and reusable license enters a published People fixture. A government webpage that reposts a portrait does not by itself prove government authorship. This audit changes no legal or location claim.
+
+## Accepted: Dairo Antonio Úsuga David (Otoniel)
+
+The [Commons file record](https://commons.wikimedia.org/wiki/File:Alias_Otoniel_Capturado.jpg) identifies the published still as a frame from a [MinDefensa Colombia video](https://www.youtube.com/watch?v=8QytlUjR0i8) uploaded on 2021-10-28. The original video's expanded description identifies MinDefensa Colombia as the publisher and states **Creative Commons Attribution license (reuse allowed)**. Commons records the still as CC BY 3.0 and was uploaded in 2022. The existing fixture credits MinDefensa Colombia and links its file record. Retain the image with that attribution.
+
+## Accepted: Maher al-Assad
+
+[Commons file and version history](https://commons.wikimedia.org/wiki/File:Maher_al-Assad.jpg) identify Maher al-Assad, record original uploader **M.naddaf** as the self-declared creator of an own-work photo on 2008-02-23, and show that **Herr Ziffer** cropped and centered the current version on 2012-08-21. The file page gives **CC BY-SA 3.0** as a reusable choice with [license terms](https://creativecommons.org/licenses/by-sa/3.0/). The fixture credits both contributors, labels the 2012 crop, links the file record and license in the visible caption, and uses the [current direct file URL](https://upload.wikimedia.org/wikipedia/commons/f/fd/Maher_al-Assad.jpg). The map's circular marker also crops the displayed thumbnail; the detail portrait uses the full current file. The license requires attribution and share-alike for adapted material, so any exported modified image must retain those terms.
+
+## Rejected for now
+
+- **Removed from published People data:** [Ismael Zambada García's crop](https://commons.wikimedia.org/wiki/File:Mayo_Zambada_(cropped).jpg) comes from a [DEA wanted poster](https://commons.wikimedia.org/wiki/File:Mayo_Zambada.jpg). The poster's DEA credit and a Commons public-domain tag do not establish who made the inset headshot or its separate reuse terms.
+- **Removed from published People data:** [Osiel Cárdenas Guillén's image](https://commons.wikimedia.org/wiki/File:OsielCardenas-DEA.jpg) cites a retired DEA 2007 gallery URL. The original item and photographer credit could not be independently checked. The picture is an extradition scene, and the Commons uploader's agency attribution alone does not verify its license.
+- **Removed from published People data:** [Ovidio Guzmán López's crop](https://commons.wikimedia.org/wiki/File:Wanted_Poster,_Ovidio_Guzm%C3%A1n_L%C3%B3pez_(cropped).jpg) comes from a [State Department reward poster](https://2021-2025.state.gov/narcotics-rewards-program-target-information-wanted/ovidio-guzman-lopez/). Poster authorship is documented, but no separate origin or reuse terms for the inset headshot were found.
+
+- [Nemesio Oseguera Cervantes: 1989 San Francisco image](https://commons.wikimedia.org/wiki/File:El_Mencho_San_Francisco.jpg) labels an uncredited police photographer and asserts California public-record status, but provides no traceable original San Francisco Police Department release or file-level chain of custody. The Commons label alone is insufficient to establish this particular image's creator and reuse rights.
+- [Daniel Joseph Kinahan portrait](https://commons.wikimedia.org/wiki/File:Daniel-Joseph-Kinahan.jpg) is described as a crop from a [U.S. State Department wanted page](https://2021-2025.state.gov/daniel-joseph-kinahan/), which identifies Daniel, but Commons lists the photograph's author as unknown. Government use of a photograph does not establish that a federal employee created the underlying portrait; its public-domain tag needs original-photo provenance.
+- [Joaquín Guzmán 2017 booking portrait](https://commons.wikimedia.org/wiki/File:Booking_photo_of_Joaquin_%E2%80%9CEl_Chapo%E2%80%9C_Guzman_(front).jpg) names DEA as author, but its cited DEA release URL returned 404 during this audit. The [other proposed Commons image](https://commons.wikimedia.org/wiki/File:EL_Chapo_Guzm%C3%A1n.jpg) credits DOJ while sourcing a secondary France24 article. Neither file currently has an independently verified original agency image and rights trail, so both stay out of the fixture.
+
+The [DOJ legal policy](https://www.justice.gov/legalpolicies) says externally credited photos may need separate permission even when DOJ page content is public domain. The three removed images can return when their original portrait creator and reuse terms are documented. No photo was inferred from a person-name match, and no rejected image URL remains in the published manifest.

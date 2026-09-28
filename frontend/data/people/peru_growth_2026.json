@@ -1,0 +1,1528 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from original Spanish Peruvian Fiscalía and judiciary reports. Five legally separate drug-case networks are modeled. Each person is individually named with a reported conviction; publication dates are used where the judgment day is not stated. No precise or live positions, operational routes, enforcement gaps, or unlicensed portraits are included. Co-mentions are not treated as person relationships.",
+  "organizations": [
+    {
+      "id": "peru-callao-cocaine-2023-2026",
+      "name": "Callao cocaine case (2023–2026)",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+          "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2026-01-02",
+          "claim": "Fiscalía identifies a seven-person convicted cocaine-trafficking network with Peru-based activity."
+        }
+      ]
+    },
+    {
+      "id": "peru-kristal-2025",
+      "name": "Kristal cocaine organization (2025 case)",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+          "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-03-27",
+          "claim": "Fiscalía names seven members convicted in the Peru-based Kristal cocaine case and an eighth person convicted of conspiracy in the same case."
+        }
+      ]
+    },
+    {
+      "id": "peru-camex-2024",
+      "name": "Camex drug trafficking organization (2024 case)",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex",
+          "title": "Ayacucho: Fiscalía contra el crimen organizado logra condena para integrantes de la organización criminal Camex",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-02-01",
+          "claim": "Fiscalía names four convicted Camex members and documents historical cocaine-related activity in Peru."
+        }
+      ]
+    },
+    {
+      "id": "peru-ayacucho-cocaine-trio-2024",
+      "name": "Ayacucho cocaine case trio (2024)",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240",
+          "title": "Integrantes de organización criminal fueron sentenciados a 15 años de cárcel",
+          "publisher": "Corte Superior de Justicia de Ayacucho (Peru)",
+          "language": "es",
+          "publishedAt": "2024-08-07",
+          "claim": "The Ayacucho court names three people convicted of cocaine trafficking in a single Peru-based case."
+        }
+      ]
+    },
+    {
+      "id": "peru-rio-negro-2024",
+      "name": "Río Negro drug network (2024 case)",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas",
+          "title": "Sentencian a integrantes de la red criminal Río Negro por tráfico de drogas",
+          "publisher": "Corte Superior de Justicia de Ucayali (Peru)",
+          "language": "es",
+          "publishedAt": "2024-02-08",
+          "claim": "The Ucayali court names three people convicted of drug trafficking and attributes them to the Río Negro network in Peru."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "frederic-dewald-peru-2026",
+      "name": "Frederic Dewald",
+      "aliases": [
+        "Blanquito"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-01-02",
+      "roleLabel": "Leader and cocaine purchase coordinator; 17-year conviction publicly reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-callao-cocaine-2023-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Dewald’s coordination of cocaine purchase and movement within Peru before attempted export.",
+            "period": "by 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+          "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2026-01-02",
+          "claim": "Fiscalía reports Dewald among three people convicted and sentenced to 17 years for a cocaine-trafficking organization in Peru."
+        },
+        {
+          "url": "https://www.gob.pe/institucion/csjcallao/noticias/790478-callao-18-meses-de-prision-preventiva-a-presunta-banda-criminal-extranjera-dedicada-a-comercializacion-de-droga",
+          "title": "Callao: 18 meses de prisión preventiva a presunta banda criminal extranjera dedicada a comercialización de droga",
+          "publisher": "Corte Superior de Justicia del Callao (Peru)",
+          "language": "es",
+          "publishedAt": "2023-02-22",
+          "claim": "The 2023 Callao court report supplies this person’s fuller name in the initial case roster; it records then-allegations, which the 2026 Fiscalía report supersedes for conviction status."
+        }
+      ],
+      "events": [
+        {
+          "id": "frederic-dewald-peru-2026-2026-01-02-conviction",
+          "occurredAt": "2026-01-02",
+          "type": "conviction",
+          "title": "Conviction and sentence publicly reported",
+          "summary": "Frederic Dewald was reported convicted in the Peruvian Callao cocaine case and sentenced to 17 years; this is the Fiscalía release date, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+            "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2026-01-02",
+            "claim": "Fiscalía reports Dewald among three people convicted and sentenced to 17 years for a cocaine-trafficking organization in Peru."
+          }
+        }
+      ]
+    },
+    {
+      "id": "francis-toupin-bergevin-peru-2026",
+      "name": "Francis Toupin Bergevin",
+      "aliases": [
+        "Francis Toupin"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-01-02",
+      "roleLabel": "Cocaine-trafficking organization member; 17-year conviction publicly reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-callao-cocaine-2023-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Toupin among members engaged in arranging cocaine consignments from Peru.",
+            "period": "by 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+          "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2026-01-02",
+          "claim": "Fiscalía reports Toupin among three people convicted and sentenced to 17 years for a cocaine-trafficking organization in Peru."
+        },
+        {
+          "url": "https://www.gob.pe/institucion/csjcallao/noticias/790478-callao-18-meses-de-prision-preventiva-a-presunta-banda-criminal-extranjera-dedicada-a-comercializacion-de-droga",
+          "title": "Callao: 18 meses de prisión preventiva a presunta banda criminal extranjera dedicada a comercialización de droga",
+          "publisher": "Corte Superior de Justicia del Callao (Peru)",
+          "language": "es",
+          "publishedAt": "2023-02-22",
+          "claim": "The 2023 Callao court report supplies this person’s fuller name in the initial case roster; it records then-allegations, which the 2026 Fiscalía report supersedes for conviction status."
+        }
+      ],
+      "events": [
+        {
+          "id": "francis-toupin-bergevin-peru-2026-2026-01-02-conviction",
+          "occurredAt": "2026-01-02",
+          "type": "conviction",
+          "title": "Conviction and sentence publicly reported",
+          "summary": "Francis Toupin Bergevin was reported convicted in the Peruvian Callao cocaine case and sentenced to 17 years; this is the Fiscalía release date, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+            "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2026-01-02",
+            "claim": "Fiscalía reports Toupin among three people convicted and sentenced to 17 years for a cocaine-trafficking organization in Peru."
+          }
+        }
+      ]
+    },
+    {
+      "id": "andrea-georgina-bajak-robinson-peru-2026",
+      "name": "Andrea Georgina Bajak Robinson",
+      "aliases": [
+        "Andrea Bajak"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-01-02",
+      "roleLabel": "Cocaine-trafficking organization member; 17-year conviction publicly reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-callao-cocaine-2023-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Bajak among members engaged in arranging cocaine consignments from Peru.",
+            "period": "by 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+          "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2026-01-02",
+          "claim": "Fiscalía reports Bajak among three people convicted and sentenced to 17 years for a cocaine-trafficking organization in Peru."
+        },
+        {
+          "url": "https://www.gob.pe/institucion/csjcallao/noticias/790478-callao-18-meses-de-prision-preventiva-a-presunta-banda-criminal-extranjera-dedicada-a-comercializacion-de-droga",
+          "title": "Callao: 18 meses de prisión preventiva a presunta banda criminal extranjera dedicada a comercialización de droga",
+          "publisher": "Corte Superior de Justicia del Callao (Peru)",
+          "language": "es",
+          "publishedAt": "2023-02-22",
+          "claim": "The 2023 Callao court report supplies this person’s fuller name in the initial case roster; it records then-allegations, which the 2026 Fiscalía report supersedes for conviction status."
+        }
+      ],
+      "events": [
+        {
+          "id": "andrea-georgina-bajak-robinson-peru-2026-2026-01-02-conviction",
+          "occurredAt": "2026-01-02",
+          "type": "conviction",
+          "title": "Conviction and sentence publicly reported",
+          "summary": "Andrea Georgina Bajak Robinson was reported convicted in the Peruvian Callao cocaine case and sentenced to 17 years; this is the Fiscalía release date, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+            "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2026-01-02",
+            "claim": "Fiscalía reports Bajak among three people convicted and sentenced to 17 years for a cocaine-trafficking organization in Peru."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pedro-armando-hoyos-pardo-peru-2026",
+      "name": "Pedro Armando Hoyos Pardo",
+      "aliases": [
+        "Pedro Hoyos"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-01-02",
+      "roleLabel": "Dewald’s principal partner in Peru; prior cocaine-case conviction reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-callao-cocaine-2023-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía explicitly describes Hoyos as Dewald’s principal partner in the Peru-based cocaine case.",
+            "period": "by 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+          "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2026-01-02",
+          "claim": "Fiscalía names Hoyos among four case participants for whom it reports a May 2025 conviction through collaboration."
+        },
+        {
+          "url": "https://www.gob.pe/institucion/csjcallao/noticias/790478-callao-18-meses-de-prision-preventiva-a-presunta-banda-criminal-extranjera-dedicada-a-comercializacion-de-droga",
+          "title": "Callao: 18 meses de prisión preventiva a presunta banda criminal extranjera dedicada a comercialización de droga",
+          "publisher": "Corte Superior de Justicia del Callao (Peru)",
+          "language": "es",
+          "publishedAt": "2023-02-22",
+          "claim": "The 2023 Callao court report supplies this person’s fuller name in the initial case roster; it records the then-pending accusation, superseded by the later Fiscalía conviction report."
+        }
+      ],
+      "events": [
+        {
+          "id": "pedro-armando-hoyos-pardo-peru-2026-2025-05-conviction",
+          "occurredAt": "2025-05",
+          "type": "conviction",
+          "title": "May 2025 conviction subsequently reported",
+          "summary": "Pedro Armando Hoyos Pardo is among four people the Fiscalía says were convicted in May 2025 in this cocaine case. Its group-level 14-year-six-month sentence wording does not unambiguously allocate an individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+            "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2026-01-02",
+            "claim": "Fiscalía names Hoyos among four case participants for whom it reports a May 2025 conviction through collaboration."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-manuel-chacin-vivas-peru-2026",
+      "name": "Luis Manuel Chacin Vivas",
+      "aliases": [
+        "Luis Chacín",
+        "Luis Chacin"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-01-02",
+      "roleLabel": "Prior cocaine-case conviction reported; individual sentence allocation unclear",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-callao-cocaine-2023-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Chacín with the Peru-based cocaine trafficking case and its historical coordination.",
+            "period": "by 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+          "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2026-01-02",
+          "claim": "Fiscalía names Chacín among four case participants for whom it reports a May 2025 conviction through collaboration."
+        },
+        {
+          "url": "https://www.gob.pe/institucion/csjcallao/noticias/790478-callao-18-meses-de-prision-preventiva-a-presunta-banda-criminal-extranjera-dedicada-a-comercializacion-de-droga",
+          "title": "Callao: 18 meses de prisión preventiva a presunta banda criminal extranjera dedicada a comercialización de droga",
+          "publisher": "Corte Superior de Justicia del Callao (Peru)",
+          "language": "es",
+          "publishedAt": "2023-02-22",
+          "claim": "The 2023 Callao court report supplies this person’s fuller name in the initial case roster; it records the then-pending accusation, superseded by the later Fiscalía conviction report."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-manuel-chacin-vivas-peru-2026-2025-05-conviction",
+          "occurredAt": "2025-05",
+          "type": "conviction",
+          "title": "May 2025 conviction subsequently reported",
+          "summary": "Luis Manuel Chacin Vivas is among four people the Fiscalía says were convicted in May 2025 in this cocaine case. Its group-level 14-year-six-month sentence wording does not unambiguously allocate an individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+            "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2026-01-02",
+            "claim": "Fiscalía names Chacín among four case participants for whom it reports a May 2025 conviction through collaboration."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jordi-brayan-lopez-trujillo-peru-2026",
+      "name": "Jordi Brayan López Trujillo",
+      "aliases": [
+        "Jordi López",
+        "Jordy López"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-01-02",
+      "roleLabel": "Cocaine supplier; prior case conviction reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-callao-cocaine-2023-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies López as the cocaine supplier for the Peru-based trafficking case.",
+            "period": "by 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+          "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2026-01-02",
+          "claim": "Fiscalía names López as the cocaine supplier and among four participants with a May 2025 conviction."
+        },
+        {
+          "url": "https://www.gob.pe/institucion/csjcallao/noticias/790478-callao-18-meses-de-prision-preventiva-a-presunta-banda-criminal-extranjera-dedicada-a-comercializacion-de-droga",
+          "title": "Callao: 18 meses de prisión preventiva a presunta banda criminal extranjera dedicada a comercialización de droga",
+          "publisher": "Corte Superior de Justicia del Callao (Peru)",
+          "language": "es",
+          "publishedAt": "2023-02-22",
+          "claim": "The 2023 Callao court report supplies this person’s fuller name in the initial case roster; it records the then-pending accusation, superseded by the later Fiscalía conviction report."
+        }
+      ],
+      "events": [
+        {
+          "id": "jordi-brayan-lopez-trujillo-peru-2026-2025-05-conviction",
+          "occurredAt": "2025-05",
+          "type": "conviction",
+          "title": "May 2025 conviction subsequently reported",
+          "summary": "Jordi Brayan López Trujillo is among four people the Fiscalía says were convicted in May 2025 in this cocaine case. Its group-level 14-year-six-month sentence wording does not unambiguously allocate an individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+            "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2026-01-02",
+            "claim": "Fiscalía names López as the cocaine supplier and among four participants with a May 2025 conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "xacviher-lenin-trauco-lucero-peru-2026",
+      "name": "Xacviher Lenin Trauco Lucero",
+      "aliases": [
+        "Lenin Trauco"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-01-02",
+      "roleLabel": "Case associate who prepared materials; prior conviction reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-callao-cocaine-2023-2026"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Trauco’s preparation work for the Peru-based cocaine trafficking case.",
+            "period": "by 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+          "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2026-01-02",
+          "claim": "Fiscalía names Trauco among four case participants for whom it reports a May 2025 conviction through collaboration."
+        },
+        {
+          "url": "https://www.gob.pe/institucion/csjcallao/noticias/790478-callao-18-meses-de-prision-preventiva-a-presunta-banda-criminal-extranjera-dedicada-a-comercializacion-de-droga",
+          "title": "Callao: 18 meses de prisión preventiva a presunta banda criminal extranjera dedicada a comercialización de droga",
+          "publisher": "Corte Superior de Justicia del Callao (Peru)",
+          "language": "es",
+          "publishedAt": "2023-02-22",
+          "claim": "The 2023 Callao court report supplies this person’s fuller name in the initial case roster; it records the then-pending accusation, superseded by the later Fiscalía conviction report."
+        }
+      ],
+      "events": [
+        {
+          "id": "xacviher-lenin-trauco-lucero-peru-2026-2025-05-conviction",
+          "occurredAt": "2025-05",
+          "type": "conviction",
+          "title": "May 2025 conviction subsequently reported",
+          "summary": "Xacviher Lenin Trauco Lucero is among four people the Fiscalía says were convicted in May 2025 in this cocaine case. Its group-level 14-year-six-month sentence wording does not unambiguously allocate an individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+            "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2026-01-02",
+            "claim": "Fiscalía names Trauco among four case participants for whom it reports a May 2025 conviction through collaboration."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ernesto-briceno-peru-2025",
+      "name": "Ernesto Briceño",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-27",
+      "roleLabel": "Kristal leader; cocaine-trafficking conviction reported, prosecution appealed term",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-kristal-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Ernesto Briceño in the convicted Kristal cocaine organization and describes its historical processing and export conduct in Peru; no present position is inferred.",
+            "period": "by 2025",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+          "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-03-27",
+          "claim": "Fiscalía names Ernesto Briceño as the Kristal leader convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+        }
+      ],
+      "events": [
+        {
+          "id": "ernesto-briceno-peru-2025-2025-03-27-conviction",
+          "occurredAt": "2025-03-27",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Ernesto Briceño was reported convicted in the Kristal cocaine case. Fiscalía gives a group sentence range without an individual term and reports its appeal seeking longer sentences.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+            "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-03-27",
+            "claim": "Fiscalía names Ernesto Briceño as the Kristal leader convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "eusebio-escobar-peru-2025",
+      "name": "Eusebio Escobar",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-27",
+      "roleLabel": "Kristal member; cocaine-trafficking conviction reported, prosecution appealed term",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-kristal-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Eusebio Escobar in the convicted Kristal cocaine organization and describes its historical processing and export conduct in Peru; no present position is inferred.",
+            "period": "by 2025",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+          "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-03-27",
+          "claim": "Fiscalía names Eusebio Escobar among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+        }
+      ],
+      "events": [
+        {
+          "id": "eusebio-escobar-peru-2025-2025-03-27-conviction",
+          "occurredAt": "2025-03-27",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Eusebio Escobar was reported convicted in the Kristal cocaine case. Fiscalía gives a group sentence range without an individual term and reports its appeal seeking longer sentences.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+            "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-03-27",
+            "claim": "Fiscalía names Eusebio Escobar among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alejandro-flores-peru-2025",
+      "name": "Alejandro Flores",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-27",
+      "roleLabel": "Kristal member; cocaine-trafficking conviction reported, prosecution appealed term",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-kristal-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Alejandro Flores in the convicted Kristal cocaine organization and describes its historical processing and export conduct in Peru; no present position is inferred.",
+            "period": "by 2025",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+          "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-03-27",
+          "claim": "Fiscalía names Alejandro Flores among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+        }
+      ],
+      "events": [
+        {
+          "id": "alejandro-flores-peru-2025-2025-03-27-conviction",
+          "occurredAt": "2025-03-27",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Alejandro Flores was reported convicted in the Kristal cocaine case. Fiscalía gives a group sentence range without an individual term and reports its appeal seeking longer sentences.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+            "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-03-27",
+            "claim": "Fiscalía names Alejandro Flores among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hegel-ambicho-peru-2025",
+      "name": "Hegel Ambicho",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-27",
+      "roleLabel": "Kristal member; cocaine-trafficking conviction reported, prosecution appealed term",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-kristal-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Hegel Ambicho in the convicted Kristal cocaine organization and describes its historical processing and export conduct in Peru; no present position is inferred.",
+            "period": "by 2025",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+          "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-03-27",
+          "claim": "Fiscalía names Hegel Ambicho among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+        }
+      ],
+      "events": [
+        {
+          "id": "hegel-ambicho-peru-2025-2025-03-27-conviction",
+          "occurredAt": "2025-03-27",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Hegel Ambicho was reported convicted in the Kristal cocaine case. Fiscalía gives a group sentence range without an individual term and reports its appeal seeking longer sentences.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+            "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-03-27",
+            "claim": "Fiscalía names Hegel Ambicho among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "carlos-rios-peru-2025",
+      "name": "Carlos Ríos",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-27",
+      "roleLabel": "Kristal member; cocaine-trafficking conviction reported, prosecution appealed term",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-kristal-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Carlos Ríos in the convicted Kristal cocaine organization and describes its historical processing and export conduct in Peru; no present position is inferred.",
+            "period": "by 2025",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+          "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-03-27",
+          "claim": "Fiscalía names Carlos Ríos among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+        }
+      ],
+      "events": [
+        {
+          "id": "carlos-rios-peru-2025-2025-03-27-conviction",
+          "occurredAt": "2025-03-27",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Carlos Ríos was reported convicted in the Kristal cocaine case. Fiscalía gives a group sentence range without an individual term and reports its appeal seeking longer sentences.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+            "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-03-27",
+            "claim": "Fiscalía names Carlos Ríos among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "edu-cardenas-peru-2025",
+      "name": "Edu Cárdenas",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-27",
+      "roleLabel": "Kristal member; cocaine-trafficking conviction reported, prosecution appealed term",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-kristal-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Edu Cárdenas in the convicted Kristal cocaine organization and describes its historical processing and export conduct in Peru; no present position is inferred.",
+            "period": "by 2025",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+          "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-03-27",
+          "claim": "Fiscalía names Edu Cárdenas among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+        }
+      ],
+      "events": [
+        {
+          "id": "edu-cardenas-peru-2025-2025-03-27-conviction",
+          "occurredAt": "2025-03-27",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Edu Cárdenas was reported convicted in the Kristal cocaine case. Fiscalía gives a group sentence range without an individual term and reports its appeal seeking longer sentences.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+            "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-03-27",
+            "claim": "Fiscalía names Edu Cárdenas among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "enrique-bardales-peru-2025",
+      "name": "Enrique Bardales",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-27",
+      "roleLabel": "Kristal member; cocaine-trafficking conviction reported, prosecution appealed term",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-kristal-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía names Enrique Bardales in the convicted Kristal cocaine organization and describes its historical processing and export conduct in Peru; no present position is inferred.",
+            "period": "by 2025",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+          "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-03-27",
+          "claim": "Fiscalía names Enrique Bardales among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+        }
+      ],
+      "events": [
+        {
+          "id": "enrique-bardales-peru-2025-2025-03-27-conviction",
+          "occurredAt": "2025-03-27",
+          "type": "conviction",
+          "title": "First-instance conviction publicly reported",
+          "summary": "Enrique Bardales was reported convicted in the Kristal cocaine case. Fiscalía gives a group sentence range without an individual term and reports its appeal seeking longer sentences.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+            "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-03-27",
+            "claim": "Fiscalía names Enrique Bardales among seven Kristal members convicted in a Peruvian international cocaine case. The 12-year-ten-month to 25-year range is group-level; prosecution appealed the terms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alberto-lin-peru-2025",
+      "name": "Alberto Lin",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-03-27",
+      "roleLabel": "Convicted of conspiracy to traffic cocaine; five-year sentence reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-kristal-2025"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Lin’s conviction for conspiracy in the Peru-based Kristal cocaine case and says all named convicted defendants were apprehended with cocaine in Peru.",
+            "period": "by 2025",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+          "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2025-03-27",
+          "claim": "Fiscalía individually names Alberto Lin as convicted of conspiracy to traffic drugs in the Kristal case and sentenced to five years; it reports an appeal of the imposed terms."
+        }
+      ],
+      "events": [
+        {
+          "id": "alberto-lin-peru-2025-2025-03-27-conviction",
+          "occurredAt": "2025-03-27",
+          "type": "conviction",
+          "title": "Conspiracy conviction publicly reported",
+          "summary": "Fiscalía reports Lin received a five-year sentence for conspiracy to traffic drugs in the Kristal case and that prosecutors appealed the terms.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/1134423-fecor-logra-que-sentencien-hasta-por-25-anos-de-prision-a-miembros-de-organizacion-criminal-kristal-dedicada-al-narcotrafico",
+            "title": "FECOR logra que sentencien hasta por 25 años de prisión a miembros de organización criminal 'Kristal' dedicada al narcotráfico",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2025-03-27",
+            "claim": "Fiscalía individually names Alberto Lin as convicted of conspiracy to traffic drugs in the Kristal case and sentenced to five years; it reports an appeal of the imposed terms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cirilo-ramirez-coro-peru-2024",
+      "name": "Cirilo Ramírez Coro",
+      "aliases": [
+        "Colca"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2024-02-01",
+      "roleLabel": "15-year drug-trafficking conviction publicly reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-camex-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Ramírez Coro as supplying chemical inputs to cocaine production in Peru.",
+            "period": "by 2018",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex",
+          "title": "Ayacucho: Fiscalía contra el crimen organizado logra condena para integrantes de la organización criminal Camex",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-02-01",
+          "claim": "Fiscalía names Cirilo Ramírez Coro as a Camex member convicted of drug trafficking and sentenced to 15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "cirilo-ramirez-coro-peru-2024-2024-02-01-conviction",
+          "occurredAt": "2024-02-01",
+          "type": "conviction",
+          "title": "Drug-trafficking sentence publicly reported",
+          "summary": "Fiscalía reports Cirilo Ramírez Coro convicted in the Camex drug-trafficking case; the date is publication, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex",
+            "title": "Ayacucho: Fiscalía contra el crimen organizado logra condena para integrantes de la organización criminal Camex",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2024-02-01",
+            "claim": "Fiscalía names Cirilo Ramírez Coro as a Camex member convicted of drug trafficking and sentenced to 15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "maximo-jesus-coro-mendoza-peru-2024",
+      "name": "Máximo Jesús Coro Mendoza",
+      "aliases": [
+        "Negro"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2024-02-01",
+      "roleLabel": "15-year drug-trafficking conviction publicly reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-camex-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Coro Mendoza as acquiring cocaine paste and chemical inputs in Peru.",
+            "period": "by 2018",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex",
+          "title": "Ayacucho: Fiscalía contra el crimen organizado logra condena para integrantes de la organización criminal Camex",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-02-01",
+          "claim": "Fiscalía names Máximo Jesús Coro Mendoza as a Camex member convicted of drug trafficking and sentenced to 15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "maximo-jesus-coro-mendoza-peru-2024-2024-02-01-conviction",
+          "occurredAt": "2024-02-01",
+          "type": "conviction",
+          "title": "Drug-trafficking sentence publicly reported",
+          "summary": "Fiscalía reports Máximo Jesús Coro Mendoza convicted in the Camex drug-trafficking case; the date is publication, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex",
+            "title": "Ayacucho: Fiscalía contra el crimen organizado logra condena para integrantes de la organización criminal Camex",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2024-02-01",
+            "claim": "Fiscalía names Máximo Jesús Coro Mendoza as a Camex member convicted of drug trafficking and sentenced to 15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jhon-edy-gomez-peru-2024",
+      "name": "Jhon Edy Gómez",
+      "aliases": [
+        "Jhon Eddy Gómez",
+        "Ahijado"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2024-02-01",
+      "roleLabel": "12-year-nine-month drug-trafficking conviction publicly reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-camex-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Gómez as a Camex participant in a Peruvian cocaine-processing case.",
+            "period": "by 2018",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex",
+          "title": "Ayacucho: Fiscalía contra el crimen organizado logra condena para integrantes de la organización criminal Camex",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-02-01",
+          "claim": "Fiscalía names Jhon Edy Gómez as a Camex member convicted of drug trafficking and sentenced to 12 years and nine months."
+        }
+      ],
+      "events": [
+        {
+          "id": "jhon-edy-gomez-peru-2024-2024-02-01-conviction",
+          "occurredAt": "2024-02-01",
+          "type": "conviction",
+          "title": "Drug-trafficking sentence publicly reported",
+          "summary": "Fiscalía reports Jhon Edy Gómez convicted in the Camex drug-trafficking case; the date is publication, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex",
+            "title": "Ayacucho: Fiscalía contra el crimen organizado logra condena para integrantes de la organización criminal Camex",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2024-02-01",
+            "claim": "Fiscalía names Jhon Edy Gómez as a Camex member convicted of drug trafficking and sentenced to 12 years and nine months."
+          }
+        }
+      ]
+    },
+    {
+      "id": "juan-gabriel-cruz-orduna-peru-2024",
+      "name": "Juan Gabriel Cruz Orduña",
+      "aliases": [
+        "Mexicano"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2024-02-01",
+      "roleLabel": "12-year-nine-month drug-trafficking conviction publicly reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-camex-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía identifies Cruz Orduña as a Camex participant in a Peruvian cocaine-processing case.",
+            "period": "by 2018",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex",
+          "title": "Ayacucho: Fiscalía contra el crimen organizado logra condena para integrantes de la organización criminal Camex",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-02-01",
+          "claim": "Fiscalía names Juan Gabriel Cruz Orduña as a Camex member convicted of drug trafficking and sentenced to 12 years and nine months."
+        }
+      ],
+      "events": [
+        {
+          "id": "juan-gabriel-cruz-orduna-peru-2024-2024-02-01-conviction",
+          "occurredAt": "2024-02-01",
+          "type": "conviction",
+          "title": "Drug-trafficking sentence publicly reported",
+          "summary": "Fiscalía reports Juan Gabriel Cruz Orduña convicted in the Camex drug-trafficking case; the date is publication, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/900728-ayacucho-fiscalia-contra-el-crimen-organizado-logra-condena-para-integrantes-de-la-organizacion-criminal-camex",
+            "title": "Ayacucho: Fiscalía contra el crimen organizado logra condena para integrantes de la organización criminal Camex",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2024-02-01",
+            "claim": "Fiscalía names Juan Gabriel Cruz Orduña as a Camex member convicted of drug trafficking and sentenced to 12 years and nine months."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alex-guerreros-gutierrez-peru-2024",
+      "name": "Alex Guerreros Gutiérrez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-08-07",
+      "roleLabel": "Convicted of cocaine trafficking; 15-year sentence reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-ayacucho-cocaine-trio-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The Ayacucho court names Alex Guerreros Gutiérrez as convicted in the Peru-based cocaine trafficking case and describes seizure of cocaine linked to the defendants.",
+            "period": "2023–2024",
+            "sourceUrl": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240",
+          "title": "Integrantes de organización criminal fueron sentenciados a 15 años de cárcel",
+          "publisher": "Corte Superior de Justicia de Ayacucho (Peru)",
+          "language": "es",
+          "publishedAt": "2024-08-07",
+          "claim": "The Ayacucho court individually names Alex Guerreros Gutiérrez among three people convicted as authors of cocaine trafficking and sentenced to 15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "alex-guerreros-gutierrez-peru-2024-2024-08-07-conviction",
+          "occurredAt": "2024-08-07",
+          "type": "conviction",
+          "title": "Cocaine conviction publicly reported",
+          "summary": "The Ayacucho court reports Alex Guerreros Gutiérrez received a 15-year sentence for cocaine trafficking. The date is publication, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240",
+            "title": "Integrantes de organización criminal fueron sentenciados a 15 años de cárcel",
+            "publisher": "Corte Superior de Justicia de Ayacucho (Peru)",
+            "language": "es",
+            "publishedAt": "2024-08-07",
+            "claim": "The Ayacucho court individually names Alex Guerreros Gutiérrez among three people convicted as authors of cocaine trafficking and sentenced to 15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ronald-quispe-arenas-peru-2024",
+      "name": "Ronald Quispe Arenas",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-08-07",
+      "roleLabel": "Convicted of cocaine trafficking; 15-year sentence reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-ayacucho-cocaine-trio-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The Ayacucho court names Ronald Quispe Arenas as convicted in the Peru-based cocaine trafficking case and describes seizure of cocaine linked to the defendants.",
+            "period": "2023–2024",
+            "sourceUrl": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240",
+          "title": "Integrantes de organización criminal fueron sentenciados a 15 años de cárcel",
+          "publisher": "Corte Superior de Justicia de Ayacucho (Peru)",
+          "language": "es",
+          "publishedAt": "2024-08-07",
+          "claim": "The Ayacucho court individually names Ronald Quispe Arenas among three people convicted as authors of cocaine trafficking and sentenced to 15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "ronald-quispe-arenas-peru-2024-2024-08-07-conviction",
+          "occurredAt": "2024-08-07",
+          "type": "conviction",
+          "title": "Cocaine conviction publicly reported",
+          "summary": "The Ayacucho court reports Ronald Quispe Arenas received a 15-year sentence for cocaine trafficking. The date is publication, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240",
+            "title": "Integrantes de organización criminal fueron sentenciados a 15 años de cárcel",
+            "publisher": "Corte Superior de Justicia de Ayacucho (Peru)",
+            "language": "es",
+            "publishedAt": "2024-08-07",
+            "claim": "The Ayacucho court individually names Ronald Quispe Arenas among three people convicted as authors of cocaine trafficking and sentenced to 15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bryan-james-carrasco-cajamarca-peru-2024",
+      "name": "Bryan James Carrasco Cajamarca",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-08-07",
+      "roleLabel": "Convicted of cocaine trafficking; 15-year sentence reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-ayacucho-cocaine-trio-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The Ayacucho court names Bryan James Carrasco Cajamarca as convicted in the Peru-based cocaine trafficking case and describes seizure of cocaine linked to the defendants.",
+            "period": "2023–2024",
+            "sourceUrl": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240",
+          "title": "Integrantes de organización criminal fueron sentenciados a 15 años de cárcel",
+          "publisher": "Corte Superior de Justicia de Ayacucho (Peru)",
+          "language": "es",
+          "publishedAt": "2024-08-07",
+          "claim": "The Ayacucho court individually names Bryan James Carrasco Cajamarca among three people convicted as authors of cocaine trafficking and sentenced to 15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "bryan-james-carrasco-cajamarca-peru-2024-2024-08-07-conviction",
+          "occurredAt": "2024-08-07",
+          "type": "conviction",
+          "title": "Cocaine conviction publicly reported",
+          "summary": "The Ayacucho court reports Bryan James Carrasco Cajamarca received a 15-year sentence for cocaine trafficking. The date is publication, not an asserted judgment day.",
+          "source": {
+            "url": "https://www.pj.gob.pe/wps/wcm/connect/corte%2Bsuperior%2Bayacucho%2Bpj/s_csj_ayacucho_nuevo/as_inicio/as_imagen_prensa/as_noticias/csjay_n010908020240",
+            "title": "Integrantes de organización criminal fueron sentenciados a 15 años de cárcel",
+            "publisher": "Corte Superior de Justicia de Ayacucho (Peru)",
+            "language": "es",
+            "publishedAt": "2024-08-07",
+            "claim": "The Ayacucho court individually names Bryan James Carrasco Cajamarca among three people convicted as authors of cocaine trafficking and sentenced to 15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bruno-galindo-herrera-peru-2024",
+      "name": "Bruno Galindo Herrera",
+      "aliases": [
+        "Bruno Galindo"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2024-02-08",
+      "roleLabel": "Eight-year total sentence for drug trafficking and ammunition offense; advance ruling reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-rio-negro-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The court identifies Galindo Herrera as convicted in the Peru-based Río Negro drug network case and describes his historical involvement at the cocaine-production site.",
+            "period": "2022–2024",
+            "sourceUrl": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas",
+          "title": "Sentencian a integrantes de la red criminal Río Negro por tráfico de drogas",
+          "publisher": "Corte Superior de Justicia de Ucayali (Peru)",
+          "language": "es",
+          "publishedAt": "2024-02-08",
+          "claim": "The Ucayali court names Bruno Galindo Herrera as convicted of drug trafficking and illegal ammunition possession, with an eight-year total sentence."
+        }
+      ],
+      "events": [
+        {
+          "id": "bruno-galindo-herrera-peru-2024-2024-02-08-conviction",
+          "occurredAt": "2024-02-08",
+          "type": "conviction",
+          "title": "Advance conviction ruling reported",
+          "summary": "The Ucayali court reported the advance ruling for Bruno Galindo Herrera. Eight-year total sentence for drug trafficking and ammunition offense.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas",
+            "title": "Sentencian a integrantes de la red criminal Río Negro por tráfico de drogas",
+            "publisher": "Corte Superior de Justicia de Ucayali (Peru)",
+            "language": "es",
+            "publishedAt": "2024-02-08",
+            "claim": "The Ucayali court names Bruno Galindo Herrera as convicted of drug trafficking and illegal ammunition possession, with an eight-year total sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "edinson-del-aguila-olivera-peru-2024",
+      "name": "Edinson del Águila Olivera",
+      "aliases": [
+        "Édison del Águila Olivera"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2024-02-08",
+      "roleLabel": "Five-year drug-trafficking sentence; advance ruling reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-rio-negro-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The court identifies del Águila Olivera as convicted in the Peru-based Río Negro network case and describes his historical involvement with the cocaine-production operation.",
+            "period": "2022–2024",
+            "sourceUrl": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas",
+          "title": "Sentencian a integrantes de la red criminal Río Negro por tráfico de drogas",
+          "publisher": "Corte Superior de Justicia de Ucayali (Peru)",
+          "language": "es",
+          "publishedAt": "2024-02-08",
+          "claim": "The Ucayali court names Edinson del Águila Olivera as convicted of drug trafficking and sentenced to five years."
+        }
+      ],
+      "events": [
+        {
+          "id": "edinson-del-aguila-olivera-peru-2024-2024-02-08-conviction",
+          "occurredAt": "2024-02-08",
+          "type": "conviction",
+          "title": "Advance conviction ruling reported",
+          "summary": "The Ucayali court reported the advance ruling for Edinson del Águila Olivera. Five-year drug-trafficking sentence.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas",
+            "title": "Sentencian a integrantes de la red criminal Río Negro por tráfico de drogas",
+            "publisher": "Corte Superior de Justicia de Ucayali (Peru)",
+            "language": "es",
+            "publishedAt": "2024-02-08",
+            "claim": "The Ucayali court names Edinson del Águila Olivera as convicted of drug trafficking and sentenced to five years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kelvin-luis-del-aguila-bautista-peru-2024",
+      "name": "Kelvin Luis del Águila Bautista",
+      "aliases": [
+        "Kelvin del Águila"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2024-02-08",
+      "roleLabel": "Four-year drug-trafficking term converted to community service; advance ruling reported",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-rio-negro-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "The court identifies Kelvin del Águila Bautista as convicted in the Peru-based Río Negro network case and describes his historical involvement with the cocaine-production operation.",
+            "period": "2022–2024",
+            "sourceUrl": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas",
+          "title": "Sentencian a integrantes de la red criminal Río Negro por tráfico de drogas",
+          "publisher": "Corte Superior de Justicia de Ucayali (Peru)",
+          "language": "es",
+          "publishedAt": "2024-02-08",
+          "claim": "The Ucayali court names Kelvin Luis del Águila Bautista as convicted of drug trafficking; the four-year prison term was converted to 209 days of community service."
+        }
+      ],
+      "events": [
+        {
+          "id": "kelvin-luis-del-aguila-bautista-peru-2024-2024-02-08-conviction",
+          "occurredAt": "2024-02-08",
+          "type": "conviction",
+          "title": "Advance conviction ruling reported",
+          "summary": "The Ucayali court reported the advance ruling for Kelvin Luis del Águila Bautista. Four-year drug-trafficking term converted to community service.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/csjucayali/noticias/904002-sentencian-a-integrantes-de-la-red-criminal-rio-negro-por-trafico-de-drogas",
+            "title": "Sentencian a integrantes de la red criminal Río Negro por tráfico de drogas",
+            "publisher": "Corte Superior de Justicia de Ucayali (Peru)",
+            "language": "es",
+            "publishedAt": "2024-02-08",
+            "claim": "The Ucayali court names Kelvin Luis del Águila Bautista as convicted of drug trafficking; the four-year prison term was converted to 209 days of community service."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "peru-callao-dewald-hoyos-partners",
+      "fromId": "frederic-dewald-peru-2026",
+      "toId": "pedro-armando-hoyos-pardo-peru-2026",
+      "type": "associate",
+      "label": "Principal partners in Peru cocaine case",
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1325817-fiscalia-antidrogas-logra-condena-para-tres-integrantes-de-red-criminal-que-intento-exportar-98-kilos-de-cocaina-por-el-callao",
+          "title": "Fiscalía antidrogas logra condena para tres integrantes de red criminal que intentó exportar 98 kilos de cocaína por el Callao",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2026-01-02",
+          "claim": "Fiscalía explicitly describes Pedro Hoyos as Frederic Dewald’s principal partner in Peru in this cocaine case."
+        }
+      ]
+    }
+  ]
+}

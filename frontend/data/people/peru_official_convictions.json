@@ -1,0 +1,1314 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Three distinct Peruvian Fiscalía drug-trafficking case networks; 24 named people convicted as of 2023/2024 official report dates. Report dates do not assert exact judgment days. Group sentence ranges are not assigned as individual terms. Peru country markers refer to source-backed historical case/organization activity, not nationality, arrest-only location, or current positions. No direct person-to-person ties, exact operational routes, private addresses, or unlicensed photographs.",
+  "organizations": [
+    {
+      "id": "peru-alfil-2024",
+      "name": "Alfil drug trafficking organization (2024 case)",
+      "aliases": [
+        "Alfil"
+      ],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+          "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-06-28",
+          "claim": "Fiscalía identifies Alfil as a Peru-based drug-trafficking organization and reports convictions for five named members."
+        }
+      ]
+    },
+    {
+      "id": "peru-quijotes-del-sur-2023",
+      "name": "Los Quijotes del Sur",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+          "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-09-14",
+          "claim": "Fiscalía identifies Los Quijotes del Sur as an international cocaine-trafficking organization prosecuted in Peru and reports eight named member convictions."
+        }
+      ]
+    },
+    {
+      "id": "peru-transportadores-del-norte-2023",
+      "name": "Transportadores del Norte (2023 appeal)",
+      "aliases": [],
+      "regions": [
+        "PER"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía describes Transportadores del Norte as an organization engaged in drug trafficking within Peru and reports appellate confirmation of convictions for eleven named members."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "edgar-rivas-laura-peru-alfil-2024",
+      "name": "Edgar Rivas Laura",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-06-28",
+      "roleLabel": "Alfil member convicted of drug trafficking; 12 years and 10 months reported sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-alfil-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Edgar Rivas Laura as a convicted Alfil member in a Peruvian drug-trafficking case and locates the organization’s historical activity within Peru.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+          "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-06-28",
+          "claim": "Fiscalía names Edgar Rivas Laura among five Alfil members convicted of drug trafficking and reports an individual prison term of 12 years and 10 months; release date is a reporting date, not necessarily judgment day."
+        }
+      ],
+      "events": [
+        {
+          "id": "edgar-rivas-laura-peru-alfil-2024-2024-06-28-sentence-reported",
+          "occurredAt": "2024-06-28",
+          "type": "sentence",
+          "title": "Individual sentence reported",
+          "summary": "Fiscalía reports that Edgar Rivas Laura was convicted in the Alfil drug-trafficking case and sentenced to 12 years and 10 months in prison.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+            "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2024-06-28",
+            "claim": "Fiscalía names Edgar Rivas Laura among five Alfil members convicted of drug trafficking and reports an individual prison term of 12 years and 10 months; release date is a reporting date, not necessarily judgment day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lucio-atencio-atencio-peru-alfil-2024",
+      "name": "Lucio Atencio Atencio",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-06-28",
+      "roleLabel": "Alfil member convicted of drug trafficking; 12 years and 10 months reported sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-alfil-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Lucio Atencio Atencio as a convicted Alfil member in a Peruvian drug-trafficking case and locates the organization’s historical activity within Peru.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+          "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-06-28",
+          "claim": "Fiscalía names Lucio Atencio Atencio among five Alfil members convicted of drug trafficking and reports an individual prison term of 12 years and 10 months; release date is a reporting date, not necessarily judgment day."
+        }
+      ],
+      "events": [
+        {
+          "id": "lucio-atencio-atencio-peru-alfil-2024-2024-06-28-sentence-reported",
+          "occurredAt": "2024-06-28",
+          "type": "sentence",
+          "title": "Individual sentence reported",
+          "summary": "Fiscalía reports that Lucio Atencio Atencio was convicted in the Alfil drug-trafficking case and sentenced to 12 years and 10 months in prison.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+            "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2024-06-28",
+            "claim": "Fiscalía names Lucio Atencio Atencio among five Alfil members convicted of drug trafficking and reports an individual prison term of 12 years and 10 months; release date is a reporting date, not necessarily judgment day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fredy-ccallo-maquera-peru-alfil-2024",
+      "name": "Fredy Ccallo Maquera",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-06-28",
+      "roleLabel": "Alfil member convicted of drug trafficking; 15 years reported sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-alfil-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Fredy Ccallo Maquera as a convicted Alfil member in a Peruvian drug-trafficking case and locates the organization’s historical activity within Peru.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+          "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-06-28",
+          "claim": "Fiscalía names Fredy Ccallo Maquera among five Alfil members convicted of drug trafficking and reports an individual prison term of 15 years; release date is a reporting date, not necessarily judgment day."
+        }
+      ],
+      "events": [
+        {
+          "id": "fredy-ccallo-maquera-peru-alfil-2024-2024-06-28-sentence-reported",
+          "occurredAt": "2024-06-28",
+          "type": "sentence",
+          "title": "Individual sentence reported",
+          "summary": "Fiscalía reports that Fredy Ccallo Maquera was convicted in the Alfil drug-trafficking case and sentenced to 15 years in prison.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+            "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2024-06-28",
+            "claim": "Fiscalía names Fredy Ccallo Maquera among five Alfil members convicted of drug trafficking and reports an individual prison term of 15 years; release date is a reporting date, not necessarily judgment day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kleyver-trujillo-bustamante-peru-alfil-2024",
+      "name": "Kleyver Trujillo Bustamante",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-06-28",
+      "roleLabel": "Alfil member convicted of drug trafficking; 15 years reported sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-alfil-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Kleyver Trujillo Bustamante as a convicted Alfil member in a Peruvian drug-trafficking case and locates the organization’s historical activity within Peru.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+          "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-06-28",
+          "claim": "Fiscalía names Kleyver Trujillo Bustamante among five Alfil members convicted of drug trafficking and reports an individual prison term of 15 years; release date is a reporting date, not necessarily judgment day."
+        }
+      ],
+      "events": [
+        {
+          "id": "kleyver-trujillo-bustamante-peru-alfil-2024-2024-06-28-sentence-reported",
+          "occurredAt": "2024-06-28",
+          "type": "sentence",
+          "title": "Individual sentence reported",
+          "summary": "Fiscalía reports that Kleyver Trujillo Bustamante was convicted in the Alfil drug-trafficking case and sentenced to 15 years in prison.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+            "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2024-06-28",
+            "claim": "Fiscalía names Kleyver Trujillo Bustamante among five Alfil members convicted of drug trafficking and reports an individual prison term of 15 years; release date is a reporting date, not necessarily judgment day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hugo-orlando-palomino-medina-peru-alfil-2024",
+      "name": "Hugo Orlando Palomino Medina",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2024-06-28",
+      "roleLabel": "Alfil member convicted of drug trafficking; 8 years reported sentence",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-alfil-2024"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Hugo Orlando Palomino Medina as a convicted Alfil member in a Peruvian drug-trafficking case and locates the organization’s historical activity within Peru.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+          "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2024-06-28",
+          "claim": "Fiscalía names Hugo Orlando Palomino Medina among five Alfil members convicted of drug trafficking and reports an individual prison term of 8 years; release date is a reporting date, not necessarily judgment day."
+        }
+      ],
+      "events": [
+        {
+          "id": "hugo-orlando-palomino-medina-peru-alfil-2024-2024-06-28-sentence-reported",
+          "occurredAt": "2024-06-28",
+          "type": "sentence",
+          "title": "Individual sentence reported",
+          "summary": "Fiscalía reports that Hugo Orlando Palomino Medina was convicted in the Alfil drug-trafficking case and sentenced to 8 years in prison.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/980054-ayacucho-fiscalia-logra-condena-para-integrantes-de-organizacion-criminal-dedicada-al-trafico-ilicito-de-drogas",
+            "title": "Ayacucho: Fiscalía logra condena para integrantes de organización criminal dedicada al tráfico ilícito de drogas",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2024-06-28",
+            "claim": "Fiscalía names Hugo Orlando Palomino Medina among five Alfil members convicted of drug trafficking and reports an individual prison term of 8 years; release date is a reporting date, not necessarily judgment day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "alejandro-mejia-gaspat-peru-quijotes-del-sur-2023",
+      "name": "Alejandro Mejía Gaspat",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-09-14",
+      "roleLabel": "Los Quijotes del Sur member convicted of aggravated drug trafficking; individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-quijotes-del-sur-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Alejandro Mejía Gaspat as convicted of aggravated drug trafficking in the Peru-based Los Quijotes del Sur case; the marker denotes historical case activity, not current residence.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+          "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-09-14",
+          "claim": "Fiscalía names Alejandro Mejía Gaspat among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "alejandro-mejia-gaspat-peru-quijotes-del-sur-2023-2023-09-14-conviction-reported",
+          "occurredAt": "2023-09-14",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Alejandro Mejía Gaspat was convicted of aggravated drug trafficking as a Los Quijotes del Sur member. The release gives a group sentence range but no individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+            "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-09-14",
+            "claim": "Fiscalía names Alejandro Mejía Gaspat among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-guadalupe-valdez-canhi-peru-quijotes-del-sur-2023",
+      "name": "José Guadalupe Valdez Canhi",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-09-14",
+      "roleLabel": "Los Quijotes del Sur member convicted of aggravated drug trafficking; individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-quijotes-del-sur-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names José Guadalupe Valdez Canhi as convicted of aggravated drug trafficking in the Peru-based Los Quijotes del Sur case; the marker denotes historical case activity, not current residence.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+          "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-09-14",
+          "claim": "Fiscalía names José Guadalupe Valdez Canhi among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-guadalupe-valdez-canhi-peru-quijotes-del-sur-2023-2023-09-14-conviction-reported",
+          "occurredAt": "2023-09-14",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that José Guadalupe Valdez Canhi was convicted of aggravated drug trafficking as a Los Quijotes del Sur member. The release gives a group sentence range but no individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+            "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-09-14",
+            "claim": "Fiscalía names José Guadalupe Valdez Canhi among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gilbert-barragan-adame-peru-quijotes-del-sur-2023",
+      "name": "Gilbert Barragán Adame",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-09-14",
+      "roleLabel": "Los Quijotes del Sur member convicted of aggravated drug trafficking; individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-quijotes-del-sur-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Gilbert Barragán Adame as convicted of aggravated drug trafficking in the Peru-based Los Quijotes del Sur case; the marker denotes historical case activity, not current residence.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+          "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-09-14",
+          "claim": "Fiscalía names Gilbert Barragán Adame among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "gilbert-barragan-adame-peru-quijotes-del-sur-2023-2023-09-14-conviction-reported",
+          "occurredAt": "2023-09-14",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Gilbert Barragán Adame was convicted of aggravated drug trafficking as a Los Quijotes del Sur member. The release gives a group sentence range but no individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+            "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-09-14",
+            "claim": "Fiscalía names Gilbert Barragán Adame among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "antonio-diaz-vargas-peru-quijotes-del-sur-2023",
+      "name": "Antonio Díaz Vargas",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-09-14",
+      "roleLabel": "Los Quijotes del Sur member convicted of aggravated drug trafficking; individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-quijotes-del-sur-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Antonio Díaz Vargas as convicted of aggravated drug trafficking in the Peru-based Los Quijotes del Sur case; the marker denotes historical case activity, not current residence.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+          "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-09-14",
+          "claim": "Fiscalía names Antonio Díaz Vargas among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "antonio-diaz-vargas-peru-quijotes-del-sur-2023-2023-09-14-conviction-reported",
+          "occurredAt": "2023-09-14",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Antonio Díaz Vargas was convicted of aggravated drug trafficking as a Los Quijotes del Sur member. The release gives a group sentence range but no individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+            "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-09-14",
+            "claim": "Fiscalía names Antonio Díaz Vargas among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "servando-garcia-castillo-peru-quijotes-del-sur-2023",
+      "name": "Servando García Castillo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-09-14",
+      "roleLabel": "Los Quijotes del Sur member convicted of aggravated drug trafficking; individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-quijotes-del-sur-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Servando García Castillo as convicted of aggravated drug trafficking in the Peru-based Los Quijotes del Sur case; the marker denotes historical case activity, not current residence.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+          "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-09-14",
+          "claim": "Fiscalía names Servando García Castillo among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "servando-garcia-castillo-peru-quijotes-del-sur-2023-2023-09-14-conviction-reported",
+          "occurredAt": "2023-09-14",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Servando García Castillo was convicted of aggravated drug trafficking as a Los Quijotes del Sur member. The release gives a group sentence range but no individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+            "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-09-14",
+            "claim": "Fiscalía names Servando García Castillo among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "jose-manuel-acosta-pongo-peru-quijotes-del-sur-2023",
+      "name": "José Manuel Acosta Pongo",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-09-14",
+      "roleLabel": "Los Quijotes del Sur member convicted of aggravated drug trafficking; individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-quijotes-del-sur-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names José Manuel Acosta Pongo as convicted of aggravated drug trafficking in the Peru-based Los Quijotes del Sur case; the marker denotes historical case activity, not current residence.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+          "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-09-14",
+          "claim": "Fiscalía names José Manuel Acosta Pongo among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "jose-manuel-acosta-pongo-peru-quijotes-del-sur-2023-2023-09-14-conviction-reported",
+          "occurredAt": "2023-09-14",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that José Manuel Acosta Pongo was convicted of aggravated drug trafficking as a Los Quijotes del Sur member. The release gives a group sentence range but no individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+            "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-09-14",
+            "claim": "Fiscalía names José Manuel Acosta Pongo among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "malaquita-velasquez-garcia-peru-quijotes-del-sur-2023",
+      "name": "Malaquita Velásquez García",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-09-14",
+      "roleLabel": "Los Quijotes del Sur member convicted of aggravated drug trafficking; individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-quijotes-del-sur-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Malaquita Velásquez García as convicted of aggravated drug trafficking in the Peru-based Los Quijotes del Sur case; the marker denotes historical case activity, not current residence.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+          "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-09-14",
+          "claim": "Fiscalía names Malaquita Velásquez García among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "malaquita-velasquez-garcia-peru-quijotes-del-sur-2023-2023-09-14-conviction-reported",
+          "occurredAt": "2023-09-14",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Malaquita Velásquez García was convicted of aggravated drug trafficking as a Los Quijotes del Sur member. The release gives a group sentence range but no individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+            "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-09-14",
+            "claim": "Fiscalía names Malaquita Velásquez García among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luisa-sandoval-asipali-peru-quijotes-del-sur-2023",
+      "name": "Luisa Sandoval Asipali",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-09-14",
+      "roleLabel": "Los Quijotes del Sur member convicted of aggravated drug trafficking; individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-quijotes-del-sur-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually names Luisa Sandoval Asipali as convicted of aggravated drug trafficking in the Peru-based Los Quijotes del Sur case; the marker denotes historical case activity, not current residence.",
+            "period": "by 2021",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+          "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-09-14",
+          "claim": "Fiscalía names Luisa Sandoval Asipali among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+        }
+      ],
+      "events": [
+        {
+          "id": "luisa-sandoval-asipali-peru-quijotes-del-sur-2023-2023-09-14-conviction-reported",
+          "occurredAt": "2023-09-14",
+          "type": "conviction",
+          "title": "Drug-trafficking conviction publicly reported",
+          "summary": "Fiscalía reports that Luisa Sandoval Asipali was convicted of aggravated drug trafficking as a Los Quijotes del Sur member. The release gives a group sentence range but no individual term.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/834343-ministerio-publico-logra-condena-contra-organizacion-criminal-internacional-los-quijotes-del-sur-conformada-por-peruanos-y-mexicanos",
+            "title": "Ministerio Público logra condena contra organización criminal internacional Los Quijotes del Sur conformada por peruanos y mexicanos",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-09-14",
+            "claim": "Fiscalía names Luisa Sandoval Asipali among eight Los Quijotes del Sur members convicted of aggravated drug trafficking in Peru; only a collective 12–25-year sentence range is supplied, not this person’s exact term."
+          }
+        }
+      ]
+    },
+    {
+      "id": "adolfo-pineda-marquez-peru-transportadores-del-norte-2023",
+      "name": "Adolfo Pineda Márquez",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Adolfo Pineda Márquez among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Adolfo Pineda Márquez as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "adolfo-pineda-marquez-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Adolfo Pineda Márquez among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Adolfo Pineda Márquez as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "libia-guillen-miguel-peru-transportadores-del-norte-2023",
+      "name": "Libia Guillén Miguel",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Libia Guillén Miguel among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Libia Guillén Miguel as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "libia-guillen-miguel-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Libia Guillén Miguel among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Libia Guillén Miguel as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manuel-guillen-miguel-peru-transportadores-del-norte-2023",
+      "name": "Manuel Guillén Miguel",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Manuel Guillén Miguel among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Manuel Guillén Miguel as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "manuel-guillen-miguel-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Manuel Guillén Miguel among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Manuel Guillén Miguel as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luis-hipolito-mallqui-peru-transportadores-del-norte-2023",
+      "name": "Luis Hipólito Mallqui",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Luis Hipólito Mallqui among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Luis Hipólito Mallqui as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "luis-hipolito-mallqui-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Luis Hipólito Mallqui among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Luis Hipólito Mallqui as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cesar-julian-cusi-acero-peru-transportadores-del-norte-2023",
+      "name": "César Julián Cusi Acero",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists César Julián Cusi Acero among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists César Julián Cusi Acero as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "cesar-julian-cusi-acero-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying César Julián Cusi Acero among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists César Julián Cusi Acero as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "richman-miguel-cervan-peru-transportadores-del-norte-2023",
+      "name": "Richman Miguel Cervan",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Richman Miguel Cervan among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Richman Miguel Cervan as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "richman-miguel-cervan-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Richman Miguel Cervan among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Richman Miguel Cervan as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rocio-de-la-cruz-auccatoma-peru-transportadores-del-norte-2023",
+      "name": "Rocío De La Cruz Auccatoma",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Rocío De La Cruz Auccatoma among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Rocío De La Cruz Auccatoma as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "rocio-de-la-cruz-auccatoma-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Rocío De La Cruz Auccatoma among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Rocío De La Cruz Auccatoma as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "emerson-cuadros-laura-peru-transportadores-del-norte-2023",
+      "name": "Emerson Cuadros Laura",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Emerson Cuadros Laura among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Emerson Cuadros Laura as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "emerson-cuadros-laura-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Emerson Cuadros Laura among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Emerson Cuadros Laura as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ruben-torres-elizares-peru-transportadores-del-norte-2023",
+      "name": "Rubén Torres Elizares",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Rubén Torres Elizares among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Rubén Torres Elizares as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "ruben-torres-elizares-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Rubén Torres Elizares among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Rubén Torres Elizares as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wilfredo-mamani-choque-peru-transportadores-del-norte-2023",
+      "name": "Wilfredo Mamani Choque",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Wilfredo Mamani Choque among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Wilfredo Mamani Choque as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "wilfredo-mamani-choque-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Wilfredo Mamani Choque among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Wilfredo Mamani Choque as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    },
+    {
+      "id": "irma-marivel-canari-torres-peru-transportadores-del-norte-2023",
+      "name": "Irma Marivel Cañari Torres",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2023-07-24",
+      "roleLabel": "Transportadores del Norte member; drug-trafficking conviction confirmed on appeal, individual term unstated",
+      "prominence": 3,
+      "organizationIds": [
+        "peru-transportadores-del-norte-2023"
+      ],
+      "regions": [
+        {
+          "iso3": "PER",
+          "label": "Peru",
+          "evidence": {
+            "claim": "Fiscalía individually lists Irma Marivel Cañari Torres among convicted Transportadores del Norte members and describes the organization’s historical drug-trafficking activity within Peru.",
+            "period": "before 2023",
+            "sourceUrl": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+          "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+          "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+          "language": "es",
+          "publishedAt": "2023-07-24",
+          "claim": "Fiscalía individually lists Irma Marivel Cañari Torres as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+        }
+      ],
+      "events": [
+        {
+          "id": "irma-marivel-canari-torres-peru-transportadores-del-norte-2023-2023-07-24-conviction-confirmed",
+          "occurredAt": "2023-07-24",
+          "type": "conviction",
+          "title": "Appellate confirmation publicly reported",
+          "summary": "On 2023-07-24, Fiscalía reported appellate confirmation of the Transportadores del Norte convictions, identifying Irma Marivel Cañari Torres among the eleven members. The decision day and individual prison term are not specified.",
+          "source": {
+            "url": "https://www.gob.pe/institucion/mpfn/noticias/808129-vraem-confirman-condena-para-integrantes-de-organizacion-criminal-transportadores-del-norte",
+            "title": "VRAEM: confirman condena para integrantes de organización criminal Transportadores del Norte",
+            "publisher": "Ministerio Público Fiscalía de la Nación (Peru)",
+            "language": "es",
+            "publishedAt": "2023-07-24",
+            "claim": "Fiscalía individually lists Irma Marivel Cañari Torres as a Transportadores del Norte member and reports that appellate judges confirmed convictions for the eleven named members in a Peruvian drug-trafficking case. The release gives only a group sentence range of 12–15 years."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

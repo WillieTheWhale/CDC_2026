@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "generated_at": "2026-09-27T00:52:07+00:00",
+    "model_version": "trace-0.1.0",
+    "sources": [
+      {
+        "id": "unodc_wdr_editions",
+        "name": "UNODC World Drug Report statistical annex, editions 2012, 2015, 2020 and 2026",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026.html",
+        "citation": "UNODC, World Drug Report statistical annexes (seizure and price/purity workbooks, each edition as published)."
+      }
+    ],
+    "notes": [
+      "UNODC World Drug Report price and purity observations as published; not trade flows, margins or route gradients.",
+      "unit is the normalised unit where TRACE could convert, else the source's own unit text; null means the source did not state a unit (never inferred). original_unit keeps the source text.",
+      "Different workbook editions are separate observations; do not merge them into one series."
+    ],
+    "total": 50,
+    "next_cursor": "WyJbXCJNRVhcIiwgbnVsbCwgbnVsbCwgbnVsbCwgXCJwcmljZVwiLCBudWxsXSIsIDg5OV0"
+  },
+  "data": {
+    "observations": [
+      {
+        "observation_id": 175,
+        "iso3": "MEX",
+        "country": "Mexico",
+        "year": 2010,
+        "drug_group": "meth",
+        "substance": "Methamphetamine",
+        "form": "unspecified",
+        "market_level": "wholesale",
+        "measure": "price",
+        "basis": "typical",
+        "value": 5000.0,
+        "unit": "Pound",
+        "unit_note": null,
+        "normalized_value": null,
+        "normalized_unit": null,
+        "original_value": 5000.0,
+        "original_unit": "Pound",
+        "original_text": "5000.0",
+        "minimum": null,
+        "maximum": null,
+        "publisher_estimate": false,
+        "status_label": "Source-reported observation",
+        "source": {
+          "source_id": "hist2012_Prices_ATS",
+          "url": "https://www.unodc.org/documents/data-and-analysis/statistics/WDR2012/Prices_ATS.xls",
+          "edition": 2012,
+          "citation": "UNODC, World Drug Report / Drugs Monitoring Platform"
+        },
+        "source_row": {
+          "sheet": "Methamphetamine",
+          "row_no": 13,
+          "col_no": 19
+        }
+      },
+      {
+        "observation_id": 634,
+        "iso3": "MEX",
+        "country": "Mexico",
+        "year": 2010,
+        "drug_group": "cannabis",
+        "substance": "Marijuana (herb)",
+        "form": "herb",
+        "market_level": "wholesale",
+        "measure": "price",
+        "basis": "typical",
+        "value": 0.08,
+        "unit": "usd_per_gram",
+        "unit_note": null,
+        "normalized_value": 0.08,
+        "normalized_unit": "usd_per_gram",
+        "original_value": 80.0,
+        "original_unit": "Kilogram",
+        "original_text": "80.0",
+        "minimum": null,
+        "maximum": null,
+        "publisher_estimate": false,
+        "status_label": "Source-reported observation",
+        "source": {
+          "source_id": "hist2012_Prices_CannabisType",
+          "url": "https://www.unodc.org/documents/data-and-analysis/statistics/WDR2012/Prices_CannabisType.xls",
+          "edition": 2012,
+          "citation": "UNODC, World Drug Report / Drugs Monitoring Platform"
+        },
+        "source_row": {
+          "sheet": "Marijuana (herb)",
+          "row_no": 60,
+          "col_no": 19
+        }
+      },
+      {
+        "observation_id": 899,
+        "iso3": "MEX",
+        "country": "Mexico",
+        "year": 2010,
+        "drug_group": "cannabis",
+        "substance": "Hashish (resin)",
+        "form": "resin",
+        "market_level": "wholesale",
+        "measure": "price",
+        "basis": "typical",
+        "value": 23.622,
+        "unit": "usd_per_gram",
+        "unit_note": null,
+        "normalized_value": 23.622,
+        "normalized_unit": "usd_per_gram",
+        "original_value": 23622.0,
+        "original_unit": "Kilogram",
+        "original_text": "23622.0",
+        "minimum": null,
+        "maximum": null,
+        "publisher_estimate": false,
+        "status_label": "Source-reported observation",
+        "source": {
+          "source_id": "hist2012_Prices_CannabisType",
+          "url": "https://www.unodc.org/documents/data-and-analysis/statistics/WDR2012/Prices_CannabisType.xls",
+          "edition": 2012,
+          "citation": "UNODC, World Drug Report / Drugs Monitoring Platform"
+        },
+        "source_row": {
+          "sheet": "Hashish (resin)",
+          "row_no": 27,
+          "col_no": 19
+        }
+      }
+    ]
+  }
+}

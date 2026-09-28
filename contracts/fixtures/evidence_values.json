@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "generated_at": "2026-09-27T00:52:07+00:00",
+    "model_version": "trace-0.1.0",
+    "sources": [
+      {
+        "id": "trace_research_v2",
+        "name": "TRACE research layer (SQLite v2 research_* tables)",
+        "url": "https://github.com/WillieTheWhale/CDC_2026/blob/main/data_collection/schema_v2.md",
+        "citation": "TRACE retrospective research values, each linked to its exact source rows."
+      },
+      {
+        "id": "unodc_wdr_editions",
+        "name": "UNODC World Drug Report statistical annex, editions 2012, 2015, 2020 and 2026",
+        "url": "https://www.unodc.org/unodc/en/data-and-analysis/world-drug-report-2026.html",
+        "citation": "UNODC, World Drug Report statistical annexes (seizure and price/purity workbooks, each edition as published)."
+      },
+      {
+        "id": "wb_wdi",
+        "name": "World Bank World Development Indicators (API source 2)",
+        "url": "https://api.worldbank.org/v2/sources/2",
+        "citation": "World Bank, World Development Indicators, via Indicators API v2 (CC BY 4.0)."
+      }
+    ],
+    "notes": [
+      "Research values are TRACE's retrospective derivations; market values are exact-product UNODC price/purity derivations. Open /api/evidence/value/{id} for formula and inputs.",
+      "form, market_level, source_publication_year (source edition), source_id, source_url, market_inputs and input_observation_ids describe market values; they are null for research values, whose per-input editions are in the drilldown."
+    ],
+    "total": 24,
+    "next_cursor": "WyJbXCJDT0xcIiwgXCJjb2NhaW5lXCIsIG51bGwsIG51bGxdIiwgInJlc2VhcmNoIiwgIjU1MDk5YmZkOTkxZTZhMTY3NTIzNGE0ZCJd"
+  },
+  "data": {
+    "values": [
+      {
+        "id": "606",
+        "kind": "market",
+        "metric_key": "purity_adjusted_price_usd_per_pure_g",
+        "label": "Nominal price per gram of pure substance: Cocaine hydrochloride (hydrochloride), wholesale",
+        "iso3": "COL",
+        "drug": "Cocaine hydrochloride",
+        "year": 2021,
+        "value": 1.6915798580917363,
+        "unit": "usd_per_pure_gram",
+        "form": "hydrochloride",
+        "market_level": "wholesale",
+        "source_publication_year": 2026,
+        "source_id": "prices",
+        "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2026/Annex/8.1_Prices_and_purities_of_drugs.xlsx",
+        "formula_expression": "price_usd_per_gram / (purity_percent / 100)",
+        "market_inputs": {
+          "price_observation_id": 13960,
+          "price_usd_per_gram": 1.215061812067294,
+          "purity_observation_id": 15910,
+          "purity_percent": 71.83
+        },
+        "input_observation_ids": [
+          13960,
+          15910
+        ]
+      },
+      {
+        "id": "053ab7cb592e8b7c47af35b5",
+        "kind": "research",
+        "metric_key": "seizure_edition_revision_pct",
+        "label": "Published national seizure revision",
+        "iso3": "COL",
+        "drug": "cocaine",
+        "year": 2010,
+        "value": 1.7444447257500117,
+        "unit": "%",
+        "form": null,
+        "market_level": null,
+        "source_publication_year": null,
+        "source_id": null,
+        "source_url": null,
+        "formula_expression": "100 * (newest_edition_kg - oldest_edition_kg) / oldest_edition_kg",
+        "market_inputs": null,
+        "input_observation_ids": null
+      },
+      {
+        "id": "3c54054899aacd1afe94922f",
+        "kind": "research",
+        "metric_key": "cocaine_seizure_next_homicide",
+        "label": "Cocaine seizures and next-year homicide pair",
+        "iso3": "COL",
+        "drug": "cocaine",
+        "year": 2015,
+        "value": 26.1438669043183,
+        "unit": "per 100,000",
+        "form": null,
+        "market_level": null,
+        "source_publication_year": null,
+        "source_id": null,
+        "source_url": null,
+        "formula_expression": "value = World Bank general-population homicide rate in year t+1; model predictor = log(1 + UNODC cocaine seizure kg at t)",
+        "market_inputs": null,
+        "input_observation_ids": null
+      },
+      {
+        "id": "48e708d01720d5b1f9bea989",
+        "kind": "research",
+        "metric_key": "seizure_edition_revision_pct",
+        "label": "Published national seizure revision",
+        "iso3": "COL",
+        "drug": "cocaine",
+        "year": 2018,
+        "value": 0.0,
+        "unit": "%",
+        "form": null,
+        "market_level": null,
+        "source_publication_year": null,
+        "source_id": null,
+        "source_url": null,
+        "formula_expression": "100 * (newest_edition_kg - oldest_edition_kg) / oldest_edition_kg",
+        "market_inputs": null,
+        "input_observation_ids": null
+      },
+      {
+        "id": "55099bfd991e6a1675234a4d",
+        "kind": "research",
+        "metric_key": "cocaine_seizure_next_homicide",
+        "label": "Cocaine seizures and next-year homicide pair",
+        "iso3": "COL",
+        "drug": "cocaine",
+        "year": 2011,
+        "value": 35.9613009153726,
+        "unit": "per 100,000",
+        "form": null,
+        "market_level": null,
+        "source_publication_year": null,
+        "source_id": null,
+        "source_url": null,
+        "formula_expression": "value = World Bank general-population homicide rate in year t+1; model predictor = log(1 + UNODC cocaine seizure kg at t)",
+        "market_inputs": null,
+        "input_observation_ids": null
+      }
+    ]
+  }
+}

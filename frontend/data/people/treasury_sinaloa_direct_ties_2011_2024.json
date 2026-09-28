@@ -1,0 +1,432 @@
+{
+  "_about": "AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. Direct historical person relationships documented by three dated U.S. Treasury releases. The graph records exact kinship or working relationship asserted by Treasury, not criminal guilt, current activity, generic co-mention, or inferred organization membership. No operational routes or current positions.",
+  "organizations": [],
+  "people": [],
+  "connections": [
+    {
+      "id": "treasury-martin-hector-brothers",
+      "fromId": "ofac-sdn-12529",
+      "toId": "ofac-sdn-12528",
+      "type": "sibling_of",
+      "label": "Brothers identified by Treasury",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1341",
+          "title": "Treasury Targets Sinaloa Cartel Narcotics Distribution Network Under The Kingpin Act",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2011-10-27",
+          "claim": "Treasury explicitly identifies Héctor Manuel Avendano Ojeda as Martin Guadencio Avendano Ojeda’s brother."
+        }
+      ]
+    },
+    {
+      "id": "treasury-martin-sergio-brothers",
+      "fromId": "ofac-sdn-12529",
+      "toId": "ofac-sdn-12527",
+      "type": "sibling_of",
+      "label": "Brothers identified by Treasury",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1341",
+          "title": "Treasury Targets Sinaloa Cartel Narcotics Distribution Network Under The Kingpin Act",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2011-10-27",
+          "claim": "Treasury explicitly identifies Sergio Avendano Ojeda as Martin Guadencio Avendano Ojeda’s brother."
+        }
+      ]
+    },
+    {
+      "id": "treasury-victor-alfredo-in-laws",
+      "fromId": "ofac-sdn-15016",
+      "toId": "jesus-alfredo-guzman-salazar",
+      "type": "father_in_law_of",
+      "label": "Father-in-law and son-in-law",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1719",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2012-09-25",
+          "claim": "Treasury explicitly identifies Víctor Manuel Félix Félix as Jesús Alfredo Guzmán Salazar’s father-in-law."
+        }
+      ]
+    },
+    {
+      "id": "treasury-maria-alfredo-parent",
+      "fromId": "ofac-sdn-13121",
+      "toId": "jesus-alfredo-guzman-salazar",
+      "type": "parent_of",
+      "label": "Mother and son",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1719",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2012-09-25",
+          "claim": "Treasury explicitly identifies María Alejandrina Salazar Hernández as Jesús Alfredo Guzmán Salazar’s mother."
+        }
+      ]
+    },
+    {
+      "id": "treasury-victor-chapo-associate",
+      "fromId": "ofac-sdn-15016",
+      "toId": "joaquin-guzman-loera",
+      "type": "associate",
+      "label": "Treasury-described close associates",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1719",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2012-09-25",
+          "claim": "Treasury calls Víctor Manuel Félix Félix a close associate of Joaquín Guzmán Loera."
+        }
+      ]
+    },
+    {
+      "id": "treasury-victor-jorge-collaboration",
+      "fromId": "ofac-sdn-15016",
+      "toId": "ofac-sdn-15018",
+      "type": "documented_collaboration",
+      "label": "Collaborated in Treasury-described organization",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1719",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2012-09-25",
+          "claim": "Treasury names Jorge Guillermo González Cárdenas among four individuals collaborating with Víctor Manuel Félix Félix in his organization."
+        }
+      ]
+    },
+    {
+      "id": "treasury-victor-oscar-collaboration",
+      "fromId": "ofac-sdn-15016",
+      "toId": "ofac-sdn-15020",
+      "type": "documented_collaboration",
+      "label": "Collaborated in Treasury-described organization",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1719",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2012-09-25",
+          "claim": "Treasury names Óscar Domínguez Villa Díaz among four individuals collaborating with Víctor Manuel Félix Félix in his organization."
+        }
+      ]
+    },
+    {
+      "id": "treasury-victor-rigoberto-collaboration",
+      "fromId": "ofac-sdn-15016",
+      "toId": "ofac-sdn-15021",
+      "type": "documented_collaboration",
+      "label": "Collaborated in Treasury-described organization",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1719",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2012-09-25",
+          "claim": "Treasury names Rigoberto Días Paniagua among four individuals collaborating with Víctor Manuel Félix Félix in his organization."
+        }
+      ]
+    },
+    {
+      "id": "treasury-victor-gabriela-collaboration",
+      "fromId": "ofac-sdn-15016",
+      "toId": "ofac-sdn-15022",
+      "type": "documented_collaboration",
+      "label": "Collaborated in Treasury-described organization",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1719",
+          "title": "Treasury Takes Additional Action Against the Sinaloa Cartel",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2012-09-25",
+          "claim": "Treasury names Gabriela Vázquez Villavicencio among four individuals collaborating with Víctor Manuel Félix Félix in his organization."
+        }
+      ]
+    },
+    {
+      "id": "treasury-marin-brothers",
+      "fromId": "ofac-sdn-48071",
+      "toId": "ofac-sdn-48070",
+      "type": "sibling_of",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury expressly calls Arturo and Porthos Marin Gonzalez brothers."
+        }
+      ]
+    },
+    {
+      "id": "treasury-robledo-siblings",
+      "fromId": "ofac-sdn-48073",
+      "toId": "ofac-sdn-48075",
+      "type": "sibling_of",
+      "label": "Sister and brother",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury expressly identifies Ivan Yareth Robledo Arredondo as Adilene Mayre Robledo Arredondo’s brother."
+        }
+      ]
+    },
+    {
+      "id": "treasury-adilene-arturo-inlaw",
+      "fromId": "ofac-sdn-48073",
+      "toId": "ofac-sdn-48071",
+      "type": "sibling_in_law_of",
+      "label": "Sister-in-law",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury expressly identifies Adilene Robledo as sister-in-law of Arturo Marin Gonzalez; it does not name the intervening spouse."
+        }
+      ]
+    },
+    {
+      "id": "treasury-adilene-porthos-inlaw",
+      "fromId": "ofac-sdn-48073",
+      "toId": "ofac-sdn-48070",
+      "type": "sibling_in_law_of",
+      "label": "Sister-in-law",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury expressly identifies Adilene Robledo as sister-in-law of Porthos Marin Gonzalez; it does not name the intervening spouse."
+        }
+      ]
+    },
+    {
+      "id": "treasury-adilene-alan-former-partners",
+      "fromId": "ofac-sdn-48073",
+      "toId": "ofac-sdn-48068",
+      "type": "former_partner_of",
+      "label": "Former partners",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury expressly identifies Alan Gabriel Núñez Herrera as Adilene Robledo’s former partner."
+        }
+      ]
+    },
+    {
+      "id": "treasury-victor-jesus-inlaw",
+      "fromId": "ofac-sdn-48083",
+      "toId": "ofac-sdn-48085",
+      "type": "father_in_law_of",
+      "label": "Father-in-law and son-in-law",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury identifies Víctor Lizárraga Martínez as Jesús Larrañaga’s father-in-law."
+        }
+      ]
+    },
+    {
+      "id": "treasury-victor-jesus-supervisor",
+      "fromId": "ofac-sdn-48085",
+      "toId": "ofac-sdn-48083",
+      "type": "works_for",
+      "label": "Worked for Víctor Lizárraga, Treasury report",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury explicitly says Jesús Larrañaga worked for Víctor Lizárraga Martínez."
+        }
+      ]
+    },
+    {
+      "id": "treasury-victor-karla-parent",
+      "fromId": "ofac-sdn-48083",
+      "toId": "ofac-sdn-48091",
+      "type": "parent_of",
+      "label": "Father and daughter",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury expressly identifies Karla Lizárraga Sánchez as Víctor Lizárraga Martínez’s daughter."
+        }
+      ]
+    },
+    {
+      "id": "treasury-jesus-karla-spouses",
+      "fromId": "ofac-sdn-48085",
+      "toId": "ofac-sdn-48091",
+      "type": "spouse_of",
+      "label": "Spouses",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury expressly identifies Karla Lizárraga Sánchez as Jesús Larrañaga’s spouse."
+        }
+      ]
+    },
+    {
+      "id": "treasury-vergara-brothers",
+      "fromId": "ofac-sdn-48079",
+      "toId": "ofac-sdn-48077",
+      "type": "sibling_of",
+      "label": "Brothers",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury expressly identifies Alexis and Edy Vergara Meza as brothers."
+        }
+      ]
+    },
+    {
+      "id": "treasury-jesus-alexis-work",
+      "fromId": "ofac-sdn-48085",
+      "toId": "ofac-sdn-48079",
+      "type": "documented_collaboration",
+      "label": "Worked alongside in drug supply",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury says Alexis Vergara Meza worked alongside Jesús Larrañaga as a fentanyl supplier."
+        }
+      ]
+    },
+    {
+      "id": "treasury-jesus-edy-work",
+      "fromId": "ofac-sdn-48085",
+      "toId": "ofac-sdn-48077",
+      "type": "documented_collaboration",
+      "label": "Worked alongside in drug supply",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury says Edy Vergara Meza worked alongside Jesús Larrañaga as a fentanyl supplier."
+        }
+      ]
+    },
+    {
+      "id": "treasury-jorge-mayra-spouses",
+      "fromId": "ofac-sdn-48088",
+      "toId": "ofac-sdn-48090",
+      "type": "spouse_of",
+      "label": "Spouses",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury expressly identifies Mayra González Cordero as Jorge García Velazco’s spouse."
+        }
+      ]
+    },
+    {
+      "id": "treasury-jorge-arturo-associate",
+      "fromId": "ofac-sdn-48088",
+      "toId": "ofac-sdn-48071",
+      "type": "associate",
+      "label": "Treasury-described associates",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury identifies Jorge García Velazco as an associate of the Marin brothers, including Arturo Marin Gonzalez."
+        }
+      ]
+    },
+    {
+      "id": "treasury-jorge-porthos-associate",
+      "fromId": "ofac-sdn-48088",
+      "toId": "ofac-sdn-48070",
+      "type": "associate",
+      "label": "Treasury-described associates",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury identifies Jorge García Velazco as an associate of the Marin brothers, including Porthos Marin Gonzalez."
+        }
+      ]
+    },
+    {
+      "id": "treasury-leon-chapo-former-enforcer",
+      "fromId": "ofac-sdn-48081",
+      "toId": "joaquin-guzman-loera",
+      "type": "former_subordinate_of",
+      "label": "Former enforcer",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2201",
+          "title": "Deputy Secretary Adeyemo Announces New Treasury Sanctions Against Sinaloa Cartel Fentanyl Network",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "publishedAt": "2024-03-22",
+          "claim": "Treasury says Jesús Manuel León Valdez had previously served as an enforcer for Joaquín Guzmán Loera; this is historical, not a current hierarchy."
+        }
+      ]
+    }
+  ]
+}

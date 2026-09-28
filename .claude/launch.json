@@ -1,0 +1,32 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "trace-api",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "set TRACE_CLASSIFIER=reflex&& set HF_HUB_OFFLINE=1&& set TRACE_LIVEWIRE_REPLAY_SECONDS=20&& cd backend && .venv\\Scripts\\trace.exe serve --port 8000"],
+      "port": 8000
+    },
+    {
+      "name": "trace-frontend",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "set NEXT_PUBLIC_API_URL=http://127.0.0.1:8000&& cd frontend && npm run dev"],
+      "port": 3000,
+      "url": "http://127.0.0.1:3000"
+    },
+    {
+      "name": "trace-frontend-live-api",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "set NEXT_PUBLIC_API_URL=https://trace-api-six.vercel.app&& cd frontend && npm run dev"],
+      "port": 3000,
+      "url": "http://127.0.0.1:3000"
+    },
+    {
+      "name": "trace-frontend-prod-build",
+      "runtimeExecutable": "cmd",
+      "runtimeArgs": ["/c", "cd frontend && npx next start -p 3000 --hostname 127.0.0.1"],
+      "port": 3000,
+      "url": "http://127.0.0.1:3000"
+    }
+  ]
+}

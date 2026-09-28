@@ -1,0 +1,424 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from cited Brazilian court and prosecutor records. Convictions and reported roles are tied to the cited source dates; a reported death is not a legal finding. Public senior figures only, with country-level associations. No operational route information or photos are included.",
+  "organizations": [
+    {
+      "id": "pcc",
+      "name": "Primeiro Comando da Capital",
+      "aliases": [
+        "PCC"
+      ],
+      "regions": [
+        "BRA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pr/noticias/caso-belarmino-justica-condena-a-44-anos-de-prisao-mandante-do-assassinato-contra-agente-penitenciario-no-parana",
+          "title": "Caso Belarmino: Justiça condena a 44 anos de prisão mandante do assassinato contra agente penitenciário no Paraná",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "publishedAt": "2025-06-11",
+          "claim": "The federal prosecutor identifies Primeiro Comando da Capital by its PCC abbreviation as a Brazilian criminal organization and describes a former leader's conviction."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "marcos-willians-herbas-camacho",
+      "name": "Marcos Willians Herbas Camacho",
+      "aliases": [
+        "Marcola"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2013-04-11",
+      "roleLabel": "PCC leader; convicted in the murder of a judge",
+      "prominence": 1,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF named Camacho among São Paulo PCC defendants allegedly associated for crimes including drug trafficking; the Brazil association is historical and alleged, not a live position.",
+            "period": "by September 2006",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/integrante-do-pcc-permanecera-preso/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=17874",
+          "title": "TJSP mantém condenação de Marcos Camacho pela morte de juiz de Presidente Prudente",
+          "publisher": "Tribunal de Justiça do Estado de São Paulo",
+          "language": "pt",
+          "publishedAt": "2013-04-11",
+          "claim": "The São Paulo court reports that it upheld Camacho's 29-year conviction for the murder of judge Antonio José Machado Dias and identifies his alias Marcola and PCC leadership context."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/",
+          "title": "STF rejeita pedido para reduzir pena de integrante da cúpula do PCC",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2026-08-05",
+          "claim": "The Supreme Court identifies Marcola as a PCC leader when describing Fuminho's connection to him."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/integrante-do-pcc-permanecera-preso/",
+          "title": "Integrante do PCC permanecerá preso",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2006-09-26",
+          "claim": "The STF account individually names Marcola and Julinho Carambola among São Paulo PCC defendants allegedly associated to commit offences including drug trafficking; it does not establish a trafficking conviction for either man."
+        }
+      ],
+      "events": [
+        {
+          "id": "marcos-willians-herbas-camacho-2013-04-11-conviction",
+          "occurredAt": "2013-04-11",
+          "type": "conviction",
+          "title": "Murder conviction upheld",
+          "summary": "The São Paulo court denied Camacho’s appeal and upheld his 29-year sentence for the murder of judge Antonio José Machado Dias.",
+          "source": {
+            "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=17874",
+            "title": "TJSP mantém condenação de Marcos Camacho pela morte de juiz de Presidente Prudente",
+            "publisher": "Tribunal de Justiça do Estado de São Paulo",
+            "language": "pt",
+            "publishedAt": "2013-04-11",
+            "claim": "The São Paulo court denied Camacho’s appeal and upheld his 29-year sentence for the murder of judge Antonio José Machado Dias."
+          }
+        }
+      ]
+    },
+    {
+      "id": "julio-cesar-guedes-de-moraes",
+      "name": "Júlio César Guedes de Moraes",
+      "aliases": [
+        "Julinho Carambola",
+        "Carambola"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2013-06-27",
+      "roleLabel": "Former PCC leader; convicted in the murder of a judge",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF named Moraes among São Paulo PCC defendants allegedly associated for crimes including drug trafficking; the Brazil association is historical and alleged, not a live position.",
+            "period": "by September 2006",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/integrante-do-pcc-permanecera-preso/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=18813&pagina=2050",
+          "title": "Autor intelectual de homicídio de magistrado tem recurso negado",
+          "publisher": "Tribunal de Justiça do Estado de São Paulo",
+          "language": "pt",
+          "publishedAt": "2013-06-27",
+          "claim": "The São Paulo court reports that Moraes, known as Julinho Carambola, lost an appeal of his 29-year murder conviction and describes him as a leader of a criminal organization."
+        },
+        {
+          "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=6798",
+          "title": "TJSP confirma decisão que manda a júri acusados de matar bombeiro",
+          "publisher": "Tribunal de Justiça do Estado de São Paulo",
+          "language": "pt",
+          "claim": "The court identifies Moraes and Marcola as PCC leaders charged together in a separate case; this source does not establish a conviction in that case."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/integrante-do-pcc-permanecera-preso/",
+          "title": "Integrante do PCC permanecerá preso",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2006-09-26",
+          "claim": "The STF account individually names Marcola and Julinho Carambola among São Paulo PCC defendants allegedly associated to commit offences including drug trafficking; it does not establish a trafficking conviction for either man."
+        }
+      ],
+      "events": [
+        {
+          "id": "julio-cesar-guedes-de-moraes-2013-06-27-conviction",
+          "occurredAt": "2013-06-27",
+          "type": "conviction",
+          "title": "Murder conviction upheld",
+          "summary": "The São Paulo court denied Moraes’s appeal of his 29-year sentence in the same judge-murder case.",
+          "source": {
+            "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=18813&pagina=2050",
+            "title": "Autor intelectual de homicídio de magistrado tem recurso negado",
+            "publisher": "Tribunal de Justiça do Estado de São Paulo",
+            "language": "pt",
+            "publishedAt": "2013-06-27",
+            "claim": "The São Paulo court denied Moraes’s appeal of his 29-year sentence in the same judge-murder case."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gilberto-aparecido-dos-santos",
+      "name": "Gilberto Aparecido dos Santos",
+      "aliases": [
+        "Fuminho"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2026-08-05",
+      "roleLabel": "PCC senior figure; convicted at first instance for drug offenses",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF reported Santos's first-instance conviction in São Paulo for drug trafficking and trafficking association; this supports historical Brazilian drug-network activity, not a present location.",
+            "period": "before August 2026",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/",
+          "title": "STF rejeita pedido para reduzir pena de integrante da cúpula do PCC",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2026-08-05",
+          "claim": "The Supreme Court reports Fuminho's first-instance conviction for drug trafficking and related offenses, and describes him as reportedly Marcola's right-hand man."
+        },
+        {
+          "url": "https://www.tjce.jus.br/noticias/justica-recebe-denuncia-contra-acusados-de-participar-da-morte-de-paca-e-gege-do-mangue/",
+          "title": "Justiça recebe denúncia contra acusados de participar da morte de Paca e Gegê do Mangue",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2018-08-21",
+          "claim": "The Ceará court gives Fuminho's fuller name as Gilberto Aparecido dos Santos and reports a homicide charge; this is an allegation, not a conviction in that case."
+        }
+      ],
+      "events": [
+        {
+          "id": "gilberto-aparecido-dos-santos-2026-08-05-development",
+          "occurredAt": "2026-08-05",
+          "type": "development",
+          "title": "Sentence reduction request rejected",
+          "summary": "Brazil’s Supreme Court rejected a habeas corpus request to reduce Santos’s first-instance sentence; the underlying drug convictions were reported separately from this ruling.",
+          "source": {
+            "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/",
+            "title": "STF rejeita pedido para reduzir pena de integrante da cúpula do PCC",
+            "publisher": "Supremo Tribunal Federal",
+            "language": "pt",
+            "publishedAt": "2026-08-05",
+            "claim": "Brazil’s Supreme Court rejected a habeas corpus request to reduce Santos’s first-instance sentence; the underlying drug convictions were reported separately from this ruling."
+          }
+        }
+      ]
+    },
+    {
+      "id": "roberto-soriano",
+      "name": "Roberto Soriano",
+      "status": "convicted",
+      "statusAsOf": "2025-06-11",
+      "roleLabel": "Former PCC leader; convicted in the Belarmino murder case",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "UOL reported a court decision finding Soriano led a drug-trafficking association from confinement in São Paulo; the association is historical, with no present position inferred.",
+            "period": "case opened 2009; decision reported July 2025",
+            "sourceUrl": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2025/07/21/condenacao-ex-pcc.ghtm"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pr/noticias/caso-belarmino-justica-condena-a-44-anos-de-prisao-mandante-do-assassinato-contra-agente-penitenciario-no-parana",
+          "title": "Caso Belarmino: Justiça condena a 44 anos de prisão mandante do assassinato contra agente penitenciário no Paraná",
+          "publisher": "Ministério Público Federal",
+          "language": "pt",
+          "publishedAt": "2025-06-11",
+          "claim": "Federal prosecutors report Soriano, described as a former PCC leader, was convicted and sentenced to 44 years and eight months for ordering an agent's murder and for participation in a criminal organization."
+        },
+        {
+          "url": "https://noticias.uol.com.br/cotidiano/ultimas-noticias/2025/07/21/condenacao-ex-pcc.ghtm",
+          "title": "Ex-chefe do PCC que chamou Marcola de cagueta é condenado por tráfico",
+          "publisher": "UOL",
+          "language": "pt",
+          "publishedAt": "2025-07-21",
+          "claim": "UOL reports that a court decision found Soriano led a drug-trafficking association from confinement in São Paulo; the judicial decision was not independently obtained for this audit."
+        }
+      ],
+      "events": [
+        {
+          "id": "roberto-soriano-2025-06-09-sentence",
+          "occurredAt": "2025-06-09",
+          "type": "sentence",
+          "title": "Sentenced in Belarmino case",
+          "summary": "Federal prosecutors report that a jury sentenced former PCC leader Roberto Soriano to 44 years and eight months for ordering the murder of a prison agent and participation in a criminal organization.",
+          "source": {
+            "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pr/noticias/caso-belarmino-justica-condena-a-44-anos-de-prisao-mandante-do-assassinato-contra-agente-penitenciario-no-parana",
+            "title": "Caso Belarmino: Justiça condena a 44 anos de prisão mandante do assassinato contra agente penitenciário no Paraná",
+            "publisher": "Ministério Público Federal",
+            "language": "pt",
+            "publishedAt": "2025-06-11",
+            "claim": "Federal prosecutors report that a jury sentenced former PCC leader Roberto Soriano to 44 years and eight months for ordering the murder of a prison agent and participation in a criminal organization."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rogerio-jeremias-de-simone",
+      "name": "Rogério Jeremias de Simone",
+      "aliases": [
+        "Gegê do Mangue"
+      ],
+      "status": "reported",
+      "statusAsOf": "2018-08-21",
+      "roleLabel": "PCC leader reported killed in 2018",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "Folha reported that de Simone directed PCC drug-trafficking activity before his 2018 death, including activity attributed by Ceará prosecutors to Brazil; this is historical, not an arrest-site inference.",
+            "period": "before February 2018",
+            "sourceUrl": "https://www1.folha.uol.com.br/amp/cotidiano/2020/01/faccoes-controlam-terras-indigenas-e-recrutam-indios-para-o-crime-no-ce.shtml"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.tjce.jus.br/noticias/justica-recebe-denuncia-contra-acusados-de-participar-da-morte-de-paca-e-gege-do-mangue/",
+          "title": "Justiça recebe denúncia contra acusados de participar da morte de Paca e Gegê do Mangue",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2018-08-21",
+          "claim": "The Ceará court identifies de Simone, alias Gegê do Mangue, as a PCC leader and reports his death alongside Fabiano Alves de Souza."
+        },
+        {
+          "url": "https://www1.folha.uol.com.br/amp/cotidiano/2020/01/faccoes-controlam-terras-indigenas-e-recrutam-indios-para-o-crime-no-ce.shtml",
+          "title": "Facções controlam terras indígenas e recrutam índios para o crime no CE",
+          "publisher": "Folha de S.Paulo",
+          "language": "pt",
+          "publishedAt": "2020-01-06",
+          "claim": "Folha reports that Rogério Jeremias de Simone directed PCC drug-trafficking operations before his 2018 death and cites Ceará prosecutors on his activity in Brazil."
+        }
+      ]
+    },
+    {
+      "id": "fabiano-alves-de-souza",
+      "name": "Fabiano Alves de Souza",
+      "aliases": [
+        "Paca"
+      ],
+      "status": "reported",
+      "statusAsOf": "2018-08-21",
+      "roleLabel": "PCC leader reported killed in 2018",
+      "prominence": 2,
+      "organizationIds": [
+        "pcc"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "The Ceará court reported de Souza's conviction for interstate cocaine-trafficking association and its finding that he led the group's illicit operations in Ceará, Brazil.",
+            "period": "2009–2012",
+            "sourceUrl": "https://www.tjce.jus.br/noticias/reus-sao-condenados-por-trafico-de-drogas-interestadual/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.tjce.jus.br/noticias/justica-recebe-denuncia-contra-acusados-de-participar-da-morte-de-paca-e-gege-do-mangue/",
+          "title": "Justiça recebe denúncia contra acusados de participar da morte de Paca e Gegê do Mangue",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2018-08-21",
+          "claim": "The Ceará court identifies de Souza, alias Paca, as a PCC leader and reports his death alongside Rogério Jeremias de Simone."
+        },
+        {
+          "url": "https://www.tjce.jus.br/noticias/reus-sao-condenados-por-trafico-de-drogas-interestadual/",
+          "title": "Réus são condenados por tráfico de drogas interestadual",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2012-10-25",
+          "claim": "The Ceará court reports that Fabiano Alves de Souza was convicted for interstate cocaine-trafficking association and that the judgment identified him as leader of illicit operations in Ceará."
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "marcola-fuminho-right-hand",
+      "fromId": "marcos-willians-herbas-camacho",
+      "toId": "gilberto-aparecido-dos-santos",
+      "type": "reported_associate",
+      "label": "Fuminho described as Marcola's right-hand man",
+      "sources": [
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-pedido-para-reduzir-pena-de-integrante-da-cupula-do-pcc/",
+          "title": "STF rejeita pedido para reduzir pena de integrante da cúpula do PCC",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2026-08-05",
+          "claim": "The Supreme Court describes Fuminho as reportedly the right-hand man of Marcola; the qualifier is retained because the relationship is attributed, not judicially proved."
+        }
+      ]
+    },
+    {
+      "id": "marcola-julinho-co-leaders",
+      "fromId": "marcos-willians-herbas-camacho",
+      "toId": "julio-cesar-guedes-de-moraes",
+      "type": "co_leaders",
+      "label": "Both identified by the São Paulo court as PCC leaders",
+      "sources": [
+        {
+          "url": "https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=6798",
+          "title": "TJSP confirma decisão que manda a júri acusados de matar bombeiro",
+          "publisher": "Tribunal de Justiça do Estado de São Paulo",
+          "language": "pt",
+          "claim": "The court names Marcola and Julinho Carambola together as PCC leaders among those charged in the case; it does not report a conviction in that case."
+        }
+      ]
+    },
+    {
+      "id": "gege-paca-co-leaders",
+      "fromId": "rogerio-jeremias-de-simone",
+      "toId": "fabiano-alves-de-souza",
+      "type": "co_leaders",
+      "label": "Both identified as PCC leaders and victims in the same case",
+      "sources": [
+        {
+          "url": "https://www.tjce.jus.br/noticias/justica-recebe-denuncia-contra-acusados-de-participar-da-morte-de-paca-e-gege-do-mangue/",
+          "title": "Justiça recebe denúncia contra acusados de participar da morte de Paca e Gegê do Mangue",
+          "publisher": "Tribunal de Justiça do Estado do Ceará",
+          "language": "pt",
+          "publishedAt": "2018-08-21",
+          "claim": "The Ceará court names both de Simone and de Souza as PCC leaders and reports their deaths together."
+        }
+      ]
+    }
+  ]
+}

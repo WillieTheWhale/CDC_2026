@@ -1,0 +1,551 @@
+{
+  "_about": "AI-assisted: written with ChatGPT (OpenAI). See docs/AI_USAGE.md. Eight named Nigerian NDLEA drug-trafficking convictions reviewed 2026-09-27. Twenty-one named sailors with section 25 commercial-carrier liability judgments were held from the People dataset; those judgments do not establish individual knowing trafficking. Historical country markers require person-specific conduct. No current locations, routes, inferred group edges or images.",
+  "organizations": [],
+  "people": [
+    {
+      "id": "ndlea-ajetsibo-emami",
+      "name": "Ajetsibo Emami",
+      "aliases": [
+        "Warri Kinsman"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-08-18",
+      "roleLabel": "Convicted of an illicit-drug dealing count; six-year sentence with stated fine option.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA attributes the drug network and dealing charge to Emami in Nigeria before his August 2025 conviction; historical association only.",
+            "period": "2025-08-18",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/two-drug-kingpins-emami-akpomuai-convicted-bag-10-years-imprisonment"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/two-drug-kingpins-emami-akpomuai-convicted-bag-10-years-imprisonment",
+          "title": "Two drug kingpins Emami, Akpomuai convicted, bag 10 years imprisonment",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "en",
+          "publishedAt": "2025-08-19",
+          "claim": "NDLEA says Ajetsibo Emami, also called Warri Kinsman, was convicted on one illicit-drug dealing count on 18 August 2025 after operating a drug network in Nigeria; six-year sentence with a stated fine option."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2025-08-18",
+          "qualifier": "Convicted of an illicit-drug dealing count; six-year sentence with stated fine option.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/two-drug-kingpins-emami-akpomuai-convicted-bag-10-years-imprisonment",
+            "title": "Two drug kingpins Emami, Akpomuai convicted, bag 10 years imprisonment",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-08-19",
+            "claim": "NDLEA says Ajetsibo Emami, also called Warri Kinsman, was convicted on one illicit-drug dealing count on 18 August 2025 after operating a drug network in Nigeria; six-year sentence with a stated fine option."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "ndlea-ajetsibo-emami-2025-08-18-conviction",
+          "occurredAt": "2025-08-18",
+          "type": "conviction",
+          "title": "Federal High Court drug-case conviction",
+          "summary": "Convicted of an illicit-drug dealing count; six-year sentence with stated fine option.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/two-drug-kingpins-emami-akpomuai-convicted-bag-10-years-imprisonment",
+            "title": "Two drug kingpins Emami, Akpomuai convicted, bag 10 years imprisonment",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-08-19",
+            "claim": "NDLEA says Ajetsibo Emami, also called Warri Kinsman, was convicted on one illicit-drug dealing count on 18 August 2025 after operating a drug network in Nigeria; six-year sentence with a stated fine option."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ndlea-solomon-akpomuai",
+      "name": "Solomon Akpomuai",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-08-19",
+      "roleLabel": "Conviction and four-year sentence reported by 19 August 2025; judgment day unspecified.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA reports Akpomuai personally transporting skunk cannabis in Nigeria on 3 June 2025; historical association only.",
+            "period": "2025-06-03",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/two-drug-kingpins-emami-akpomuai-convicted-bag-10-years-imprisonment"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/two-drug-kingpins-emami-akpomuai-convicted-bag-10-years-imprisonment",
+          "title": "Two drug kingpins Emami, Akpomuai convicted, bag 10 years imprisonment",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "en",
+          "publishedAt": "2025-08-19",
+          "claim": "NDLEA says Solomon Akpomuai was arrested in Nigeria on 3 June 2025 personally carrying skunk cannabis, then convicted of drug trafficking and sentenced to four years with a fine option in August 2025."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2025-08-19",
+          "qualifier": "NDLEA reported a cannabis-trafficking conviction and four-year sentence by 19 August 2025; judgment day unspecified.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/two-drug-kingpins-emami-akpomuai-convicted-bag-10-years-imprisonment",
+            "title": "Two drug kingpins Emami, Akpomuai convicted, bag 10 years imprisonment",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-08-19",
+            "claim": "NDLEA says Solomon Akpomuai was arrested in Nigeria on 3 June 2025 personally carrying skunk cannabis, then convicted of drug trafficking and sentenced to four years with a fine option in August 2025."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "ndlea-solomon-akpomuai-2025-08-19-report",
+          "occurredAt": "2025-08-19",
+          "type": "conviction",
+          "title": "NDLEA reported drug conviction",
+          "summary": "NDLEA reported a four-year sentence by 19 August 2025; the judgment day was not stated.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/two-drug-kingpins-emami-akpomuai-convicted-bag-10-years-imprisonment",
+            "title": "Two drug kingpins Emami, Akpomuai convicted, bag 10 years imprisonment",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-08-19",
+            "claim": "NDLEA says Solomon Akpomuai was arrested in Nigeria on 3 June 2025 personally carrying skunk cannabis, then convicted of drug trafficking and sentenced to four years with a fine option in August 2025."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ndlea-ridwan-animashaun",
+      "name": "Ridwan Animashaun",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-02-26",
+      "roleLabel": "Convicted of drug trafficking; 25-year sentence reported in February 2026.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "en",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA says Ridwan Animashaun was convicted of drug trafficking on 26 February 2026 and sentenced to 25 calendar years; it also reports an earlier one-year drug sentence on 15 July 2022. The release does not place his own trafficking conduct in Nigeria beyond arrest/court venue."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2026-02-26",
+          "qualifier": "Convicted of drug trafficking; 25-year sentence reported in February 2026.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA says Ridwan Animashaun was convicted of drug trafficking on 26 February 2026 and sentenced to 25 calendar years; it also reports an earlier one-year drug sentence on 15 July 2022. The release does not place his own trafficking conduct in Nigeria beyond arrest/court venue."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2022-07-15",
+          "qualifier": "Earlier one-year sentence for a similar drug offense; not the 2026 conviction.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA reports Ridwan Animashaun received an earlier one-year sentence for a similar drug offense on 15 July 2022."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "ndlea-ridwan-animashaun-2026-02-26-conviction",
+          "occurredAt": "2026-02-26",
+          "type": "conviction",
+          "title": "Federal High Court drug-case conviction",
+          "summary": "Convicted of drug trafficking; 25-year sentence reported in February 2026.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA says Ridwan Animashaun was convicted of drug trafficking on 26 February 2026 and sentenced to 25 calendar years; it also reports an earlier one-year drug sentence on 15 July 2022. The release does not place his own trafficking conduct in Nigeria beyond arrest/court venue."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ndlea-idris-yusuf",
+      "name": "Idris Yusuf",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2026-03-31",
+      "roleLabel": "Convicted in a drug case; 15-year sentence dated 31 March 2026; separate eight-year sentence also reported.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+          "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "en",
+          "publishedAt": "2026-04-17",
+          "claim": "NDLEA says Idris Yusuf was sentenced to 15 years on 31 March 2026 in one drug case and received another eight-year sentence in a similar case, with no separate date supplied. The release does not place his personal drug conduct in Nigeria beyond court venue."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2026-03-31",
+          "qualifier": "Convicted in a drug case; 15-year sentence dated 31 March 2026; separate eight-year sentence also reported.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA says Idris Yusuf was sentenced to 15 years on 31 March 2026 in one drug case and received another eight-year sentence in a similar case, with no separate date supplied. The release does not place his personal drug conduct in Nigeria beyond court venue."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "ndlea-idris-yusuf-2026-03-31-conviction",
+          "occurredAt": "2026-03-31",
+          "type": "conviction",
+          "title": "Federal High Court drug-case conviction",
+          "summary": "Convicted in a drug case; 15-year sentence dated 31 March 2026; separate eight-year sentence also reported.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/11-drug-kingpins-bag-254-years-in-prison-as-ndlea-secures-974-convictions-in-3-months",
+            "title": "11 drug kingpins bag 254 years in prison as NDLEA secures 974 convictions in 3 months",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2026-04-17",
+            "claim": "NDLEA says Idris Yusuf was sentenced to 15 years on 31 March 2026 in one drug case and received another eight-year sentence in a similar case, with no separate date supplied. The release does not place his personal drug conduct in Nigeria beyond court venue."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ndlea-ogbuji-christian-ifeanyi",
+      "name": "Ogbuji Christian Ifeanyi",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-02-28",
+      "roleLabel": "Convicted of cocaine trafficking in 2025; 2023 cocaine conviction also documented.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA reports Ogbuji personally importing cocaine into Nigeria in September 2024; historical association only.",
+            "period": "2025-02-28",
+            "sourceUrl": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+          "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "en",
+          "publishedAt": "2025-03-07",
+          "claim": "NDLEA reports Ogbuji Christian Ifeanyi personally imported cocaine into Nigeria in September 2024 and was convicted on 28 February 2025; its release also documents his separate 13 July 2023 cocaine conviction."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2025-02-28",
+          "qualifier": "Convicted of cocaine trafficking in 2025; 2023 cocaine conviction also documented.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+            "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-03-07",
+            "claim": "NDLEA reports Ogbuji Christian Ifeanyi personally imported cocaine into Nigeria in September 2024 and was convicted on 28 February 2025; its release also documents his separate 13 July 2023 cocaine conviction."
+          }
+        },
+        {
+          "status": "convicted",
+          "date": "2023-07-13",
+          "qualifier": "Separate cocaine-ingestion conviction with two-year sentence and fine option, reportedly paid.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+            "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-03-07",
+            "claim": "NDLEA identifies Ogbuji’s prior 13 July 2023 cocaine-ingestion conviction and stated sentence."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "ndlea-ogbuji-christian-ifeanyi-2025-02-28-conviction",
+          "occurredAt": "2025-02-28",
+          "type": "conviction",
+          "title": "Federal High Court drug-case conviction",
+          "summary": "Convicted of cocaine trafficking in 2025; 2023 cocaine conviction also documented.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+            "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-03-07",
+            "claim": "NDLEA reports Ogbuji Christian Ifeanyi personally imported cocaine into Nigeria in September 2024 and was convicted on 28 February 2025; its release also documents his separate 13 July 2023 cocaine conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ndlea-iloduba-augustine-chinonye",
+      "name": "Iloduba Augustine Chinonye",
+      "aliases": [
+        "Iludoba Augustine Chinonye"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-03-05",
+      "roleLabel": "Convicted of cocaine trafficking; concurrent five-year terms.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA describes Iloduba’s personal cocaine trafficking case and arrest in Nigeria at the end of 2021; historical association only.",
+            "period": "2025-03-05",
+            "sourceUrl": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others"
+          }
+        }
+      ],
+      "drugs": [
+        "cocaine"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+          "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "en",
+          "publishedAt": "2025-03-07",
+          "claim": "NDLEA reports Iloduba Augustine Chinonye was arrested for cocaine trafficking in Nigeria at the end of 2021 and convicted on 5 March 2025; two five-year terms run concurrently."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2025-03-05",
+          "qualifier": "Convicted of cocaine trafficking; concurrent five-year terms.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+            "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-03-07",
+            "claim": "NDLEA reports Iloduba Augustine Chinonye was arrested for cocaine trafficking in Nigeria at the end of 2021 and convicted on 5 March 2025; two five-year terms run concurrently."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "ndlea-iloduba-augustine-chinonye-2025-03-05-conviction",
+          "occurredAt": "2025-03-05",
+          "type": "conviction",
+          "title": "Federal High Court drug-case conviction",
+          "summary": "Convicted of cocaine trafficking; concurrent five-year terms.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+            "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-03-07",
+            "claim": "NDLEA reports Iloduba Augustine Chinonye was arrested for cocaine trafficking in Nigeria at the end of 2021 and convicted on 5 March 2025; two five-year terms run concurrently."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ndlea-shuaibu-nuhu-isa",
+      "name": "Shuaibu Nuhu Isa",
+      "aliases": [
+        "Don"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-02-07",
+      "roleLabel": "Convicted of cannabis trafficking; 35-year sentence with stated fine option.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA places Shuaibu personally with the skunk cannabis consignment in Nigeria on 25 November 2024; historical association only.",
+            "period": "2025-02-07",
+            "sourceUrl": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+          "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "en",
+          "publishedAt": "2025-03-07",
+          "claim": "NDLEA says Shuaibu Nuhu Isa was personally arrested with skunk cannabis in Nigeria in November 2024, then convicted on 7 February 2025 and sentenced to 35 years with a stated fine alternative."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2025-02-07",
+          "qualifier": "Convicted of cannabis trafficking; 35-year sentence with stated fine option.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+            "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-03-07",
+            "claim": "NDLEA says Shuaibu Nuhu Isa was personally arrested with skunk cannabis in Nigeria in November 2024, then convicted on 7 February 2025 and sentenced to 35 years with a stated fine alternative."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "ndlea-shuaibu-nuhu-isa-2025-02-07-conviction",
+          "occurredAt": "2025-02-07",
+          "type": "conviction",
+          "title": "Federal High Court drug-case conviction",
+          "summary": "Convicted of cannabis trafficking; 35-year sentence with stated fine option.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+            "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-03-07",
+            "claim": "NDLEA says Shuaibu Nuhu Isa was personally arrested with skunk cannabis in Nigeria in November 2024, then convicted on 7 February 2025 and sentenced to 35 years with a stated fine alternative."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ndlea-zidon-zurga",
+      "name": "Zidon Zurga",
+      "aliases": [],
+      "status": "convicted",
+      "statusAsOf": "2025-02-07",
+      "roleLabel": "Convicted of cannabis trafficking; 35-year sentence with stated fine option.",
+      "prominence": 3,
+      "organizationIds": [],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA places Zidon personally with the skunk cannabis consignment in Nigeria on 25 November 2024; historical association only.",
+            "period": "2025-02-07",
+            "sourceUrl": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others"
+          }
+        }
+      ],
+      "drugs": [
+        "cannabis"
+      ],
+      "sources": [
+        {
+          "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+          "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "en",
+          "publishedAt": "2025-03-07",
+          "claim": "NDLEA says Zidon Zurga was personally arrested with skunk cannabis in Nigeria in November 2024, then convicted on 7 February 2025 and sentenced to 35 years with a stated fine alternative."
+        }
+      ],
+      "legalHistory": [
+        {
+          "status": "convicted",
+          "date": "2025-02-07",
+          "qualifier": "Convicted of cannabis trafficking; 35-year sentence with stated fine option.",
+          "jurisdiction": "Nigeria, Federal High Court",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+            "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-03-07",
+            "claim": "NDLEA says Zidon Zurga was personally arrested with skunk cannabis in Nigeria in November 2024, then convicted on 7 February 2025 and sentenced to 35 years with a stated fine alternative."
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "ndlea-zidon-zurga-2025-02-07-conviction",
+          "occurredAt": "2025-02-07",
+          "type": "conviction",
+          "title": "Federal High Court drug-case conviction",
+          "summary": "Convicted of cannabis trafficking; 35-year sentence with stated fine option.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/4-drug-kingpins-bag-95-years-in-jail-forfeit-jeeps-others",
+            "title": "4 drug kingpins bag 95 years in jail, forfeit jeeps, others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "en",
+            "publishedAt": "2025-03-07",
+            "claim": "NDLEA says Zidon Zurga was personally arrested with skunk cannabis in Nigeria in November 2024, then convicted on 7 February 2025 and sentenced to 35 years with a stated fine alternative."
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

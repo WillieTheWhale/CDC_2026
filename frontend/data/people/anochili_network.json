@@ -1,0 +1,1025 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Draft compiled 2026-09-26 from NDLEA May and July 2026 releases and later Nigerian court reporting. Ten named defendants were arraigned on 10 July 2026 and pleaded not guilty; September bail denial does not establish guilt. The country marker is Nigeria only, tied to alleged historical methamphetamine-production activity there. Mexican nationality is not treated as Mexican operation. NDLEA and later reporting vary name order for Juan Carlos, Omonughwa, and Nwobum; a May apparent Nemecio/Nemecto typo was not propagated as an alias because the July NDLEA charge release gives the canonical full name. No pairwise edges are inferred from joint charges or a collective description of specialists. No precise addresses, routes, current positions, or uncleared portraits are included.",
+  "organizations": [
+    {
+      "id": "anochili-alleged-meth-network",
+      "name": "Anochili Innocent Drug Trafficking Organization (alleged)",
+      "regions": [
+        "NGA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA calls the alleged Nigeria methamphetamine network the Anochili Innocent Drug Trafficking Organization, separately from the Simon Amadi case, and names ten alleged participants."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA says ten named defendants were arraigned for alleged conspiracy to establish and operate a methamphetamine-production network in Nigeria between February and May 2026; all pleaded not guilty."
+        }
+      ],
+      "aliases": [
+        "Anochili DTO"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "anochili-innocent",
+      "name": "Anochili Innocent",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "Alleged network organiser and financier; charged in methamphetamine-production case",
+      "prominence": 3,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Anochili Innocent in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "anochili-innocent-2026-05-16-arrest",
+          "occurredAt": "2026-05-16",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Anochili Innocent was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA explicitly identifies Anochili as the alleged head of the named DTO and reports his 16 May 2026 arrest in Nigeria; his alleged property and financing role is not a conviction."
+          }
+        },
+        {
+          "id": "anochili-innocent-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Anochili Innocent was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Anochili Innocent among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "anochili-innocent-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Anochili Innocent was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Anochili Innocent among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA explicitly identifies Anochili as the alleged head of the named DTO and reports his 16 May 2026 arrest in Nigeria; his alleged property and financing role is not a conviction."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Anochili Innocent among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Anochili Innocent among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ]
+    },
+    {
+      "id": "juan-carlos-meza-torrero",
+      "name": "Juan Carlos Meza Torrero",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "NDLEA-described alleged methamphetamine technical specialist; charged defendant",
+      "prominence": 2,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Juan Carlos Meza Torrero in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "juan-carlos-meza-torrero-2026-05-16-arrest",
+          "occurredAt": "2026-05-16",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Juan Carlos Meza Torrero was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA names Torrero Juan Carlos among three alleged technical specialists apprehended during the Nigeria methamphetamine operation; the name order differs from its July arraignment release."
+          }
+        },
+        {
+          "id": "juan-carlos-meza-torrero-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Juan Carlos Meza Torrero was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Juan Carlos Meza Torrero among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "juan-carlos-meza-torrero-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Juan Carlos Meza Torrero was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Juan Carlos Meza Torrero among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA names Torrero Juan Carlos among three alleged technical specialists apprehended during the Nigeria methamphetamine operation; the name order differs from its July arraignment release."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Juan Carlos Meza Torrero among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Juan Carlos Meza Torrero among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ],
+      "aliases": [
+        "Torrero Juan Carlos"
+      ]
+    },
+    {
+      "id": "nemecio-martinez-felix",
+      "name": "Nemecio Martinez Felix",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "NDLEA-described alleged methamphetamine technical specialist; charged defendant",
+      "prominence": 2,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Nemecio Martinez Felix in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "nemecio-martinez-felix-2026-05-16-arrest",
+          "occurredAt": "2026-05-16",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Nemecio Martinez Felix was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA names Martinez Felix Nemecto among three alleged technical specialists in the May Nigeria operation; this May spelling differs from its July arraignment release."
+          }
+        },
+        {
+          "id": "nemecio-martinez-felix-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Nemecio Martinez Felix was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Nemecio Martinez Felix among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "nemecio-martinez-felix-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Nemecio Martinez Felix was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Nemecio Martinez Felix among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA names Martinez Felix Nemecto among three alleged technical specialists in the May Nigeria operation; this May spelling differs from its July arraignment release."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Nemecio Martinez Felix among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Nemecio Martinez Felix among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ]
+    },
+    {
+      "id": "jesus-lopez-valles",
+      "name": "Jesus López Valles",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "NDLEA-described alleged methamphetamine technical specialist; charged defendant",
+      "prominence": 2,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Jesus López Valles in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "jesus-lopez-valles-2026-05-16-arrest",
+          "occurredAt": "2026-05-16",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Jesus López Valles was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA explicitly names Jesus López Valles among three alleged technical specialists apprehended during the Nigeria methamphetamine operation."
+          }
+        },
+        {
+          "id": "jesus-lopez-valles-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Jesus López Valles was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Jesus López Valles among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "jesus-lopez-valles-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Jesus López Valles was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Jesus López Valles among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA explicitly names Jesus López Valles among three alleged technical specialists apprehended during the Nigeria methamphetamine operation."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Jesus López Valles among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Jesus López Valles among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ]
+    },
+    {
+      "id": "nwankwo-sunday-christian",
+      "name": "Nwankwo Sunday Christian",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "Charged defendant in alleged methamphetamine-production network",
+      "prominence": 1,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Nwankwo Sunday Christian in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "nwankwo-sunday-christian-2026-05-16-arrest",
+          "occurredAt": "2026-05-16",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Nwankwo Sunday Christian was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA explicitly names Nwankwo Sunday Christian among four alleged Nigerian participants apprehended during the Nigeria methamphetamine operation."
+          }
+        },
+        {
+          "id": "nwankwo-sunday-christian-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Nwankwo Sunday Christian was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Nwankwo Sunday Christian among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "nwankwo-sunday-christian-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Nwankwo Sunday Christian was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Nwankwo Sunday Christian among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA explicitly names Nwankwo Sunday Christian among four alleged Nigerian participants apprehended during the Nigeria methamphetamine operation."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Nwankwo Sunday Christian among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Nwankwo Sunday Christian among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ]
+    },
+    {
+      "id": "egwuonwu-uchenna-victor",
+      "name": "Egwuonwu Uchenna Victor",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "Charged defendant in alleged methamphetamine-production network",
+      "prominence": 1,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Egwuonwu Uchenna Victor in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "egwuonwu-uchenna-victor-2026-05-16-arrest",
+          "occurredAt": "2026-05-16",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Egwuonwu Uchenna Victor was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA explicitly names Egwuonwu Uchenna Victor among four alleged Nigerian participants apprehended during the Nigeria methamphetamine operation."
+          }
+        },
+        {
+          "id": "egwuonwu-uchenna-victor-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Egwuonwu Uchenna Victor was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Egwuonwu Uchenna Victor among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "egwuonwu-uchenna-victor-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Egwuonwu Uchenna Victor was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Egwuonwu Uchenna Victor among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA explicitly names Egwuonwu Uchenna Victor among four alleged Nigerian participants apprehended during the Nigeria methamphetamine operation."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Egwuonwu Uchenna Victor among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Egwuonwu Uchenna Victor among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ]
+    },
+    {
+      "id": "igwe-abuchi-remijus",
+      "name": "Igwe Abuchi Remijus",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "Charged defendant in alleged methamphetamine-production network",
+      "prominence": 1,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Igwe Abuchi Remijus in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "igwe-abuchi-remijus-2026-05-16-arrest",
+          "occurredAt": "2026-05-16",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Igwe Abuchi Remijus was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA explicitly names Igwe Abuchi Remijus among four alleged Nigerian participants apprehended during the Nigeria methamphetamine operation."
+          }
+        },
+        {
+          "id": "igwe-abuchi-remijus-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Igwe Abuchi Remijus was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Igwe Abuchi Remijus among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "igwe-abuchi-remijus-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Igwe Abuchi Remijus was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Igwe Abuchi Remijus among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA explicitly names Igwe Abuchi Remijus among four alleged Nigerian participants apprehended during the Nigeria methamphetamine operation."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Igwe Abuchi Remijus among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Igwe Abuchi Remijus among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ]
+    },
+    {
+      "id": "ifeanyichukwu-chibuike-joshua",
+      "name": "Ifeanyichukwu Chibuike Joshua",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "Charged defendant in alleged methamphetamine-production network",
+      "prominence": 1,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Ifeanyichukwu Chibuike Joshua in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "ifeanyichukwu-chibuike-joshua-2026-05-16-arrest",
+          "occurredAt": "2026-05-16",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Ifeanyichukwu Chibuike Joshua was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA explicitly names Ifeanyichukwu Chibuike Joshua among four alleged Nigerian participants apprehended during the Nigeria methamphetamine operation."
+          }
+        },
+        {
+          "id": "ifeanyichukwu-chibuike-joshua-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Ifeanyichukwu Chibuike Joshua was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Ifeanyichukwu Chibuike Joshua among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "ifeanyichukwu-chibuike-joshua-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Ifeanyichukwu Chibuike Joshua was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Ifeanyichukwu Chibuike Joshua among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA explicitly names Ifeanyichukwu Chibuike Joshua among four alleged Nigerian participants apprehended during the Nigeria methamphetamine operation."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Ifeanyichukwu Chibuike Joshua among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Ifeanyichukwu Chibuike Joshua among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ]
+    },
+    {
+      "id": "omonughwa-kingsley-orike",
+      "name": "Omonughwa Kingsley Orike",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "NDLEA-described key alleged syndicate member; charged in methamphetamine case",
+      "prominence": 1,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Omonughwa Kingsley Orike in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "omonughwa-kingsley-orike-2026-05-18-arrest",
+          "occurredAt": "2026-05-18",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Omonughwa Kingsley Orike was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA identifies name-order variant Kingsley Orike Omonughwa as an alleged key syndicate member arrested on 18 May 2026 in its Nigeria methamphetamine case."
+          }
+        },
+        {
+          "id": "omonughwa-kingsley-orike-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Omonughwa Kingsley Orike was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Omonughwa Kingsley Orike among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "omonughwa-kingsley-orike-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Omonughwa Kingsley Orike was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Omonughwa Kingsley Orike among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA identifies name-order variant Kingsley Orike Omonughwa as an alleged key syndicate member arrested on 18 May 2026 in its Nigeria methamphetamine case."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Omonughwa Kingsley Orike among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Omonughwa Kingsley Orike among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ],
+      "aliases": [
+        "Kingsley Orike Omonughwa"
+      ]
+    },
+    {
+      "id": "nwobum-emeka",
+      "name": "Nwobum Emeka",
+      "status": "charged",
+      "statusAsOf": "2026-09-02",
+      "roleLabel": "NDLEA-described alleged syndicate member linked to a property used by the group; charged in methamphetamine case",
+      "prominence": 1,
+      "organizationIds": [
+        "anochili-alleged-meth-network"
+      ],
+      "regions": [
+        {
+          "iso3": "NGA",
+          "label": "Nigeria",
+          "evidence": {
+            "claim": "NDLEA names Nwobum Emeka in an alleged 2026 methamphetamine-production network operating in Nigeria; this is alleged historical organizational activity, not nationality or current location.",
+            "period": "2026-05",
+            "sourceUrl": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others"
+          }
+        }
+      ],
+      "drugs": [
+        "methamphetamine"
+      ],
+      "events": [
+        {
+          "id": "nwobum-emeka-2026-05-18-arrest",
+          "occurredAt": "2026-05-18",
+          "type": "arrest",
+          "title": "NDLEA reported arrest",
+          "summary": "NDLEA reported Nwobum Emeka was arrested during its May 2026 investigation of the alleged methamphetamine network; arrest is not a conviction.",
+          "source": {
+            "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+            "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-05-20",
+            "claim": "NDLEA identifies name-order variant Emeka Nwobum as an alleged syndicate member whose property it claims supported the Nigeria methamphetamine operation; it reports his 18 May 2026 arrest."
+          }
+        },
+        {
+          "id": "nwobum-emeka-2026-07-10-charge",
+          "occurredAt": "2026-07-10",
+          "type": "charge",
+          "title": "Arraigned and pleaded not guilty",
+          "summary": "NDLEA said Nwobum Emeka was arraigned in an 11-count methamphetamine case and pleaded not guilty.",
+          "source": {
+            "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+            "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+            "publisher": "Nigeria National Drug Law Enforcement Agency",
+            "language": "English",
+            "publishedAt": "2026-07-10",
+            "claim": "NDLEA names Nwobum Emeka among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+          }
+        },
+        {
+          "id": "nwobum-emeka-2026-09-02-development",
+          "occurredAt": "2026-09-02",
+          "type": "development",
+          "title": "Bail application denied during trial",
+          "summary": "The Moment reported Nwobum Emeka was among ten defendants whose bail applications were denied while the criminal trial continued; this was not a finding of guilt.",
+          "source": {
+            "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+            "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+            "publisher": "The Moment Nigeria",
+            "language": "English",
+            "publishedAt": "2026-09-02",
+            "claim": "The Moment names Nwobum Emeka among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ndlea.gov.ng/blog/ndlea-smashes-nigerian-mexican-meth-cartel-arrests-baron-3-mexicans-6-others",
+          "title": "NDLEA smashes Nigerian-Mexican meth cartel, arrests baron, 3 Mexicans, 6 others",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-05-20",
+          "claim": "NDLEA identifies name-order variant Emeka Nwobum as an alleged syndicate member whose property it claims supported the Nigeria methamphetamine operation; it reports his 18 May 2026 arrest."
+        },
+        {
+          "url": "https://ndlea.gov.ng/blog/ndlea-arraigns-drug-baron-anochili-3-mexicans-6-others-remanded-in-prison",
+          "title": "NDLEA arraigns drug baron Anochili, 3 Mexicans, 6 others, remanded in prison",
+          "publisher": "Nigeria National Drug Law Enforcement Agency",
+          "language": "English",
+          "publishedAt": "2026-07-10",
+          "claim": "NDLEA names Nwobum Emeka among ten defendants arraigned on 10 July 2026 in an alleged methamphetamine-production network in Nigeria; all pleaded not guilty. The agency says the alleged activity occurred between February and May 2026."
+        },
+        {
+          "url": "https://themomentng.com/2026/09/02/n480bn-meth-lab-court-dismisses-bail-application-of-3-mexicans-7-nigerians-over-flight-risk/",
+          "title": "N480bn Meth Lab: Court dismisses bail application of 3 Mexicans, 7 Nigerians over flight risk",
+          "publisher": "The Moment Nigeria",
+          "language": "English",
+          "publishedAt": "2026-09-02",
+          "claim": "The Moment names Nwobum Emeka among ten defendants whose bail applications were denied on 2 September 2026; the substantive methamphetamine case was still on trial, not adjudicated."
+        }
+      ],
+      "aliases": [
+        "Emeka Christopher Nwobum"
+      ]
+    }
+  ],
+  "connections": []
+}

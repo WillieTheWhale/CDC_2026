@@ -1,0 +1,764 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Snapshot compiled 2026-09-26 from cited Brazilian public records. Allegations and roles are time-bound to source dates; a charge or prosecutor allegation is not a conviction. Public senior figures only, country-level regions only, no operational route or enforcement-weakness information. No photos included because reuse rights were not verified.",
+  "organizations": [
+    {
+      "id": "comando-vermelho",
+      "name": "Comando Vermelho",
+      "aliases": [
+        "CV"
+      ],
+      "regions": [
+        "BRA"
+      ],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "MPRJ identifies Comando Vermelho as a Brazilian criminal organization and names several alleged leaders."
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "marcio-santos-nepomuceno",
+      "name": "Márcio dos Santos Nepomuceno",
+      "aliases": [
+        "Marcinho VP"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-11-05",
+      "roleLabel": "Imprisoned Comando Vermelho leader; alleged continuing hierarchical influence",
+      "prominence": 1,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged that Nepomuceno directed strategic and financial decisions involving proceeds of drug trafficking in Rio communities while incarcerated; this is an alleged historical Brazilian role.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=202205",
+          "title": "MPRJ requer nova prisão para líderes do Comando Vermelho por manobras para atrasar julgamento",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-11-05",
+          "claim": "MPRJ identifies Nepomuceno as a Comando Vermelho leader and states that he is serving sentences in other cases; allegations in this release are distinct from those convictions."
+        },
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ alleges Nepomuceno continued to influence organizational finances and decisions from prison; the 2026 laundering case is an allegation."
+        }
+      ],
+      "events": [
+        {
+          "id": "marcio-santos-nepomuceno-2026-05-01-charge",
+          "occurredAt": "2026-05-01",
+          "type": "charge",
+          "title": "Prosecutors announce laundering complaint",
+          "summary": "MPRJ reports a criminal complaint naming Marcinho VP in an alleged money-laundering and organized-crime scheme; these are allegations separate from his earlier convictions.",
+          "source": {
+            "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+            "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+            "publisher": "Ministério Público do Estado do Rio de Janeiro",
+            "language": "Portuguese",
+            "publishedAt": "2026-05-01",
+            "claim": "MPRJ reports a criminal complaint naming Marcinho VP in an alleged money-laundering and organized-crime scheme; these are allegations separate from his earlier convictions."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luiz-fernando-da-costa",
+      "name": "Luiz Fernando da Costa",
+      "aliases": [
+        "Fernandinho Beira-Mar"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-09-17",
+      "roleLabel": "Imprisoned senior Comando Vermelho leader",
+      "prominence": 1,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ named da Costa in a Rio-area drug-trafficking association complaint; the specific individual task and guilt in that complaint are not established.",
+            "period": "before December 2024",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=165203"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "MPRJ names da Costa among Comando Vermelho leaders in a 2025 criminal complaint; that complaint's allegations are not presented as convictions."
+        },
+        {
+          "url": "https://dspace.mj.gov.br/bitstream/1/4739/1/O%20Sistema%20Penitenci%C3%A1rio%20Federal%20e%20o%20Crime%20Organizado%20no%20Brasil.pdf",
+          "title": "O Sistema Penitenciário Federal e o Crime Organizado no Brasil",
+          "publisher": "Brazilian Ministry of Justice repository",
+          "language": "Portuguese",
+          "claim": "Ministry of Justice-hosted study identifies da Costa as a powerful Comando Vermelho leader serving a sentence in the federal prison system."
+        },
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=165203",
+          "title": "GAECO/MPRJ e Polícia Civil cumprem mandados contra integrantes de facção criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2024-12-10",
+          "claim": "MPRJ names Luiz Fernando da Costa among 28 people charged with drug-trafficking association in a Rio-area case; the group's allegations do not establish his individual task or guilt in that case."
+        }
+      ]
+    },
+    {
+      "id": "edgar-alves-de-andrade",
+      "name": "Edgar Alves de Andrade",
+      "aliases": [
+        "Doca",
+        "Doca da Penha",
+        "Urso"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader of Comando Vermelho",
+      "prominence": 2,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Andrade belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ names Andrade, alias Doca, in its alleged operational leadership nucleus and reports a criminal complaint against him."
+        },
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=178205",
+          "title": "GAECO/MPRJ denuncia narcotraficante que ordenou ataque à 60ª DP, em Duque de Caxias",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2025-05-05",
+          "claim": "MPRJ reports a criminal complaint against Edgar Alves de Andrade; the allegations are not a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "edgar-alves-de-andrade-2025-05-05-charge",
+          "occurredAt": "2025-05-05",
+          "type": "charge",
+          "title": "Prosecutors announce criminal complaint",
+          "summary": "MPRJ reports it filed a criminal complaint against Edgar Alves de Andrade in connection with an attack on police; the allegations are not a conviction.",
+          "source": {
+            "url": "https://www.mprj.mp.br/visualizar?noticiaId=178205",
+            "title": "GAECO/MPRJ denuncia narcotraficante que ordenou ataque à 60ª DP, em Duque de Caxias",
+            "publisher": "Ministério Público do Estado do Rio de Janeiro",
+            "language": "pt",
+            "publishedAt": "2025-05-05",
+            "claim": "MPRJ reports it filed a criminal complaint against Edgar Alves de Andrade in connection with an attack on police; the allegations are not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wilton-carlos-rabello-quintanilha",
+      "name": "Wilton Carlos Rabello Quintanilha",
+      "aliases": [
+        "Abelha"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader of Comando Vermelho",
+      "prominence": 2,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Quintanilha belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ names Quintanilha, alias Abelha, in the alleged operational leadership nucleus of a Comando Vermelho-linked criminal organization."
+        },
+        {
+          "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=165803",
+          "title": "GAECO/MPRJ denuncia ex-secretário da SEAP e o traficante Abelha por corrupção",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2024-12-20",
+          "claim": "MPRJ reports a criminal corruption complaint against Wilton Carlos Rabello Quintanilha; this is an allegation, not a conviction."
+        }
+      ],
+      "events": [
+        {
+          "id": "wilton-carlos-rabello-quintanilha-2024-12-20-charge",
+          "occurredAt": "2024-12-20",
+          "type": "charge",
+          "title": "Prosecutors announce corruption complaint",
+          "summary": "MPRJ reports a corruption complaint against Wilton Carlos Rabello Quintanilha; the allegations are not a conviction.",
+          "source": {
+            "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=165803",
+            "title": "GAECO/MPRJ denuncia ex-secretário da SEAP e o traficante Abelha por corrupção",
+            "publisher": "Ministério Público do Estado do Rio de Janeiro",
+            "language": "pt",
+            "publishedAt": "2024-12-20",
+            "claim": "MPRJ reports a corruption complaint against Wilton Carlos Rabello Quintanilha; the allegations are not a conviction."
+          }
+        }
+      ]
+    },
+    {
+      "id": "luciano-martiniano",
+      "name": "Luciano Martiniano",
+      "aliases": [
+        "Pezão"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader of Comando Vermelho",
+      "prominence": 2,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Martiniano belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ names Martiniano, alias Pezão, in the alleged operational leadership nucleus of a Comando Vermelho-linked criminal organization."
+        }
+      ]
+    },
+    {
+      "id": "eduardo-fernandes-de-oliveira",
+      "name": "Eduardo Fernandes de Oliveira",
+      "aliases": [
+        "2D"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader in a Comando Vermelho-linked organization",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Oliveira belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ expressly places Oliveira, alias 2D, in the alleged operational leadership nucleus."
+        }
+      ]
+    },
+    {
+      "id": "ederson-jose-goncalves-leite",
+      "name": "Ederson José Gonçalves Leite",
+      "aliases": [
+        "Sam"
+      ],
+      "status": "charged",
+      "statusAsOf": "2026-05-01",
+      "roleLabel": "Alleged operational leader in a Comando Vermelho-linked organization",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Leite belonged to operational leadership involved in drug trafficking in Rio communities; this describes historical alleged activity, not a live location.",
+            "period": "before May 2026",
+            "sourceUrl": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ expressly places Leite, alias Sam, in the alleged operational leadership nucleus."
+        }
+      ]
+    },
+    {
+      "id": "ricardo-chave-de-castro-lima",
+      "name": "Ricardo Chaves de Castro Lima",
+      "aliases": [
+        "Fú"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-09-17",
+      "roleLabel": "Alleged Comando Vermelho leader",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF individually named Ricardo Chaves de Castro Lima among prisoners accused of commanding drug trafficking in Rio de Janeiro; this is an historical allegation, not a present location.",
+            "period": "by July 2007",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "MPRJ identifies Lima, alias Fú, among alleged Comando Vermelho leaders in a criminal complaint."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/",
+          "title": "Mantida a prisão de doze chefes de facções criminosas do Rio de Janeiro",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2007-07-04",
+          "claim": "STF individually names the person among prisoners accused of commanding drug trafficking and organized crime in Rio de Janeiro; this is an allegation, not a conviction for trafficking."
+        }
+      ]
+    },
+    {
+      "id": "ocimar-nunes-robert",
+      "name": "Ocimar Nunes Robert",
+      "aliases": [
+        "Barbozinha"
+      ],
+      "status": "charged",
+      "statusAsOf": "2025-09-17",
+      "roleLabel": "Alleged Comando Vermelho leader",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "Folha reported Robert's past leadership of drug trafficking in Rio and a court conviction including cocaine and marijuana possession; this is historical Brazilian activity.",
+            "period": "by August 2003",
+            "sourceUrl": "https://www1.folha.uol.com.br/folha/cotidiano/ult95u80122.shtml"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "MPRJ identifies Robert, alias Barbozinha, among alleged Comando Vermelho leaders in a criminal complaint."
+        },
+        {
+          "url": "https://www1.folha.uol.com.br/folha/cotidiano/ult95u80122.shtml",
+          "title": "Chefe do tráfico em morro do Rio é condenado a 41 anos de prisão",
+          "publisher": "Folha de S.Paulo",
+          "language": "pt",
+          "publishedAt": "2003-08-12",
+          "claim": "Folha individually identifies Ocimar Nunes Robert as a Rio drug-trafficking chief and reports a conviction that included cocaine and marijuana possession."
+        }
+      ]
+    },
+    {
+      "id": "marco-antonio-pereira-firmino-da-silva",
+      "name": "Marco Antônio Pereira Firmino da Silva",
+      "aliases": [
+        "My Thor"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-11-05",
+      "roleLabel": "Imprisoned Comando Vermelho leader",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF individually named Firmino da Silva among prisoners accused of commanding drug trafficking in Rio de Janeiro; this is an historical allegation, not a present location.",
+            "period": "by July 2007",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=202205",
+          "title": "MPRJ requer nova prisão para líderes do Comando Vermelho por manobras para atrasar julgamento",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-11-05",
+          "claim": "MPRJ names Silva as a Comando Vermelho leader and states that he is serving a sentence in another case; the conduct at issue in this release remains an allegation."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/",
+          "title": "Mantida a prisão de doze chefes de facções criminosas do Rio de Janeiro",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2007-07-04",
+          "claim": "STF individually names the person among prisoners accused of commanding drug trafficking and organized crime in Rio de Janeiro; this is an allegation, not a conviction for trafficking."
+        }
+      ]
+    },
+    {
+      "id": "claudio-jose-de-souza-fontarigo",
+      "name": "Cláudio José de Souza Fontarigo",
+      "aliases": [
+        "Claudinho da Mineira"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2025-11-05",
+      "roleLabel": "Imprisoned Comando Vermelho leader",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "STF individually named Fontarigo among prisoners accused of commanding drug trafficking in Rio de Janeiro; this is an historical allegation, not a present location.",
+            "period": "by July 2007",
+            "sourceUrl": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=202205",
+          "title": "MPRJ requer nova prisão para líderes do Comando Vermelho por manobras para atrasar julgamento",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-11-05",
+          "claim": "MPRJ names Fontarigo as a Comando Vermelho leader and states that he is serving a sentence in another case; the conduct at issue in this release remains an allegation."
+        },
+        {
+          "url": "https://noticias.stf.jus.br/postsnoticias/mantida-a-prisao-de-doze-chefes-de-faccoes-criminosas-do-rio-de-janeiro/",
+          "title": "Mantida a prisão de doze chefes de facções criminosas do Rio de Janeiro",
+          "publisher": "Supremo Tribunal Federal",
+          "language": "pt",
+          "publishedAt": "2007-07-04",
+          "claim": "STF individually names the person among prisoners accused of commanding drug trafficking and organized crime in Rio de Janeiro; this is an allegation, not a conviction for trafficking."
+        }
+      ]
+    },
+    {
+      "id": "adair-marlon-duarte",
+      "name": "Adair Marlon Duarte",
+      "aliases": [
+        "Adair da Mangueira"
+      ],
+      "status": "convicted",
+      "statusAsOf": "2018-07-04",
+      "roleLabel": "Senior Comando Vermelho member at time of 2018 MPRJ report",
+      "prominence": 3,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "TRF5 quoted state intelligence identifying Duarte as a historical drug-trafficking leader in Rio de Janeiro; this is attributed intelligence, not a present location.",
+            "period": "before April 2017",
+            "sourceUrl": "https://www4.trf5.jus.br/data/2017/04/PJE/08093081220164058400_20170410_150263_40500008076015.pdf"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=62501",
+          "title": "MPRJ obtém decisão que impede transferência de Adair da Mangueira de presídio federal para o Rio de Janeiro",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2018-07-04",
+          "claim": "MPRJ identifies Duarte as part of the highest Comando Vermelho leadership level and reports existing convictions as of 2018."
+        },
+        {
+          "url": "https://www4.trf5.jus.br/data/2017/04/PJE/08093081220164058400_20170410_150263_40500008076015.pdf",
+          "title": "Agravo de Execução Penal 0809308-12.2016.4.05.8400",
+          "publisher": "Tribunal Regional Federal da 5ª Região",
+          "language": "pt",
+          "publishedAt": "2017-04-10",
+          "claim": "TRF5's decision quotes a state intelligence assessment identifying Adair Marlon Duarte as a leader in drug trafficking in Rio de Janeiro; this is an attributed assessment."
+        }
+      ]
+    },
+    {
+      "id": "elias-pereira-da-silva",
+      "name": "Elias Pereira da Silva",
+      "aliases": [
+        "Elias Maluco"
+      ],
+      "status": "reported",
+      "statusAsOf": "2024-10-04",
+      "roleLabel": "Deceased former Comando Vermelho leader",
+      "prominence": 2,
+      "organizationIds": [
+        "comando-vermelho"
+      ],
+      "regions": [
+        {
+          "iso3": "BRA",
+          "label": "Brazil",
+          "evidence": {
+            "claim": "MPRJ alleged Silva received proceeds of drug trafficking in the Rio area and explicitly said he was not a direct local leader; the activity is historical.",
+            "period": "2014–2016 allegations reported June 2017",
+            "sourceUrl": "https://transparencia.mprj.mp.br/web/guest/visualizar?noticiaId=43606"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=92201",
+          "title": "MPRJ e Polícia Civil cumprem mandados de busca e apreensão em endereços ligados a integrantes de organização criminosa para esquema de lavagem de dinheiro do CV",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2020-09-17",
+          "claim": "MPRJ identified Silva, alias Elias Maluco, as one of the organization's leaders in 2020."
+        },
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=155702",
+          "title": "MPRJ obtém condenação de 60 anos para narcotraficante por homicídio e tentativa de homicídio",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2024-10-04",
+          "claim": "MPRJ refers to Elias Pereira da Silva as deceased in its 2024 account."
+        },
+        {
+          "url": "https://transparencia.mprj.mp.br/web/guest/visualizar?noticiaId=43606",
+          "title": "MPRJ, Polícia Civil e Corregedoria da PM deflagram operação contra 96 policiais militares e 71 traficantes",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "pt",
+          "publishedAt": "2017-06-29",
+          "claim": "MPRJ names Elias Pereira da Silva among charged traffickers and alleges he received proceeds of drug trade in the Rio area, while saying he was not a direct local leader."
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "cv-marcinho-beira-mar-2025-complaint",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "luiz-fernando-da-costa",
+      "type": "alleged_co_conspirator",
+      "label": "Named together as alleged leaders in a 2025 criminal complaint",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/visualizar?noticiaId=196826",
+          "title": "MPRJ obtém a prisão de 20 integrantes de organização criminosa pela prática de crimes patrimoniais",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2025-09-17",
+          "claim": "The MPRJ complaint explicitly alleges that Nepomuceno and da Costa associated with other named leaders to commit repeated crimes; it is not a conviction in this case."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-elias-2020-laundering",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "elias-pereira-da-silva",
+      "type": "alleged_co_conspirator",
+      "label": "Alleged joint laundering scheme in 2020",
+      "sources": [
+        {
+          "url": "https://mprjemnuvem.mprj.mp.br/web/guest/visualizar?noticiaId=92201",
+          "title": "MPRJ e Polícia Civil cumprem mandados de busca e apreensão em endereços ligados a integrantes de organização criminosa para esquema de lavagem de dinheiro do CV",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2020-09-17",
+          "claim": "MPRJ states that Elias Maluco and Marcinho VP allegedly used subordinates in a shared laundering scheme."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-doca-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "edgar-alves-de-andrade",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Andrade in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-abelha-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "wilton-carlos-rabello-quintanilha",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Quintanilha in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-pezao-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "luciano-martiniano",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Martiniano in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-2d-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "eduardo-fernandes-de-oliveira",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Oliveira in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    },
+    {
+      "id": "cv-marcinho-sam-2026-structure",
+      "fromId": "marcio-santos-nepomuceno",
+      "toId": "ederson-jose-goncalves-leite",
+      "type": "alleged_shared_hierarchy",
+      "label": "Alleged leadership and operational leadership nuclei",
+      "sources": [
+        {
+          "url": "https://www.mprj.mp.br/web/guest/visualizar?noticiaId=219704",
+          "title": "MPRJ denuncia Marcinho VP, traficantes e familiares, entre eles Oruam, por lavagem de dinheiro e organização criminosa",
+          "publisher": "Ministério Público do Estado do Rio de Janeiro",
+          "language": "Portuguese",
+          "publishedAt": "2026-05-01",
+          "claim": "MPRJ places Nepomuceno in the incarcerated leadership nucleus and Leite in the operational leadership nucleus of the same alleged four-nucleus organization."
+        }
+      ]
+    }
+  ]
+}

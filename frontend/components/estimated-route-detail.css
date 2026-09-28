@@ -1,0 +1,222 @@
+/* AI-assisted: written with Claude Code (Anthropic). See docs/AI_USAGE.md. */
+/* Estimated local-flow arrows: the wider hover tooltip and the route-details panel. */
+
+.route-tooltip.estimated-tooltip {
+  width: 318px;
+}
+.estimated-tooltip .etp-line {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--ink);
+}
+.estimated-tooltip .etp-line b {
+  color: var(--drug, var(--ink));
+  font-weight: 600;
+}
+.estimated-tooltip .etp-basis {
+  margin-top: 7px;
+  color: #6a737e;
+}
+.estimated-tooltip .etp-near {
+  margin-top: 9px;
+  padding-top: 7px;
+  border-top: 1px solid #dfe5ec;
+  font: 500 9px var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #6a737e;
+}
+.estimated-tooltip .etp-near + small,
+.estimated-tooltip .etp-item {
+  margin-top: 5px;
+  line-height: 1.35;
+  border-left: 3px solid var(--c, #8b95a1);
+  padding-left: 6px;
+}
+.estimated-tooltip .etp-hint {
+  margin-top: 8px;
+  color: #125f8a;
+}
+
+.estimated-route-detail {
+  position: absolute;
+  left: 22px;
+  top: 58px;
+  z-index: 7;
+  width: min(360px, calc(100% - 44px));
+  max-height: calc(100% - 140px);
+  overflow-y: auto;
+  padding: 13px 15px 12px;
+  border: 1px solid #b7c9dc;
+  border-top: 3px solid var(--drug, #52677b);
+  background: #fff;
+  box-shadow: 0 10px 30px #2337502a;
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.estimated-route-detail > b {
+  display: block;
+  font: 600 13px var(--mono);
+  padding-right: 24px;
+}
+.estimated-route-detail .erd-close {
+  float: right;
+  color: #58718a;
+  font-size: 18px;
+  line-height: 1;
+}
+.estimated-route-detail .erd-line {
+  margin: 6px 0 8px;
+  color: #26394d;
+}
+.estimated-route-detail .erd-toggle {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  padding: 3px 8px;
+  border: 1px solid #b7c9dc;
+  border-radius: 3px;
+  background: #f4f7fb;
+  color: #125f8a;
+  font: 500 11px var(--mono);
+}
+.estimated-route-detail button:focus-visible,
+.estimated-route-detail a:focus-visible {
+  outline: 2px solid #125f8a;
+  outline-offset: 2px;
+}
+.estimated-route-detail .erd-body {
+  margin-top: 10px;
+}
+.erd-chain {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.erd-step {
+  position: relative;
+  padding: 0 0 8px 18px;
+}
+.erd-step::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--drug, #52677b);
+}
+.erd-step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 14px;
+  bottom: -2px;
+  width: 2px;
+  background: var(--drug, #52677b);
+  opacity: 0.45;
+}
+.erd-step.origin::before {
+  border-style: dashed;
+}
+.erd-step:last-child::before {
+  background: var(--drug, #52677b);
+}
+.erd-step .erd-place {
+  display: block;
+  font-weight: 600;
+}
+.erd-step small {
+  display: block;
+  color: #5b6b7c;
+  font-size: 10px;
+}
+.erd-facts {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 10px;
+  margin: 6px 0 0;
+}
+.erd-facts dt {
+  color: #5b6b7c;
+}
+.erd-facts dd {
+  margin: 0;
+}
+.estimated-route-detail .erd-why {
+  margin: 7px 0 0;
+  color: #455b70;
+}
+.estimated-route-detail h4 {
+  margin: 10px 0 4px;
+  font: 600 10px var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #52677b;
+}
+.erd-corridors {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.erd-corridors li {
+  padding: 4px 0;
+  border-top: 1px solid #edf1f5;
+}
+.erd-corridors a,
+.erd-corridors small {
+  display: block;
+  margin-top: 2px;
+}
+.erd-corridors a {
+  color: #125f8a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.erd-corridors small {
+  color: #6a737e;
+}
+.estimated-route-detail .erd-basis {
+  display: block;
+  margin-top: 10px;
+  color: #6a737e;
+  font-size: 10px;
+}
+@media (max-width: 760px) {
+  .estimated-route-detail {
+    left: 12px;
+    right: 12px;
+    width: auto;
+  }
+  .route-tooltip.estimated-tooltip {
+    width: min(318px, calc(100% - 24px));
+  }
+}
+/* Keyboard stepping between the arrows on screen (added with Claude Code). */
+.estimated-route-detail .erd-count {
+  font: 400 11px var(--mono);
+  color: #58718a;
+}
+.estimated-route-detail .erd-step-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 6px;
+}
+.estimated-route-detail .erd-step-nav button {
+  padding: 3px 8px;
+  border: 1px solid #b7c9dc;
+  border-radius: 3px;
+  background: #f4f7fb;
+  color: #125f8a;
+  font: 500 11px var(--mono);
+}
+/* Very long place and corridor names wrap inside the panel and tooltip. */
+.estimated-route-detail,
+.route-tooltip.estimated-tooltip {
+  overflow-wrap: anywhere;
+}

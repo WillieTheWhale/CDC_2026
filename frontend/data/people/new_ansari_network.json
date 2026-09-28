@@ -1,0 +1,837 @@
+{
+  "_about": "AI-assisted: researched and assembled with ChatGPT (OpenAI). See docs/AI_USAGE.md. Historical New Ansari sanctions network. Nine financial associates and two distinct trafficker profiles. Three financial associates were delisted in 2016. Sanctions do not prove conviction; no inference from nationality or addresses; no person-to-person edges or photos.",
+  "organizations": [
+    {
+      "id": "new-ansari-money-exchange",
+      "name": "New Ansari Money Exchange",
+      "aliases": [
+        "Nawi Ansari Ltd",
+        "New Ansari Company"
+      ],
+      "regions": [
+        "AFG",
+        "ARE"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury describes New Ansari as a money-laundering vehicle for Afghan narcotics organizations with activity in Afghanistan and the United Arab Emirates.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC designated New Ansari Money Exchange as an entity on 18 February 2011.",
+          "publishedAt": "2011-02-18"
+        }
+      ]
+    },
+    {
+      "id": "haji-juma-khan-organization",
+      "name": "Haji Juma Khan Organization",
+      "aliases": [
+        "Khan Organization"
+      ],
+      "regions": [
+        "AFG"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nys/pressreleases/October08/khanjumaindictmentpr.pdf",
+          "title": "Afghan Drug Kingpin Charged With Financing Taliban Terrorist Insurgency",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ announced Haji Juma Khan’s arrest and indictment on 24 October 2008, alleging leadership of an Afghanistan-based opium, morphine, and heroin organization. The source does not establish a conviction.",
+          "publishedAt": "2008-10-24"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies the Haji Juma Khan Organization as a trafficker network for which elements of New Ansari laundered money; it does not name a particular New Ansari individual who served Khan.",
+          "publishedAt": "2011-02-18"
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "haji-abdullah-barakzai-ansari",
+      "name": "Haji Abdullah Barakzai Ansari",
+      "aliases": [
+        "Haji Abdullah Ansari",
+        "Haji Abdullah Barakzai"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "New Ansari Money Exchange founder; OFAC listed as of September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "new-ansari-money-exchange"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually designated Haji Abdullah Barakzai Ansari under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies Haji Abdullah Barakzai Ansari as new ansari money exchange founder in its 2011 New Ansari action.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 retains Haji Abdullah Barakzai Ansari as a listed individual."
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20210922",
+          "title": "Kingpin Act Designations; Counter Narcotics Designations Updates and Removals",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC updated the founder’s existing SDN entry on 22 September 2021 and linked him explicitly to New Ansari Money Exchange; it was not a new designation.",
+          "publishedAt": "2021-09-22"
+        }
+      ],
+      "events": [
+        {
+          "id": "haji-abdullah-barakzai-ansari-2021-09-22-development",
+          "occurredAt": "2021-09-22",
+          "type": "development",
+          "title": "OFAC updated existing listing",
+          "summary": "OFAC updated the existing listing to identify New Ansari Money Exchange as a linked entity.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20210922",
+            "title": "Kingpin Act Designations; Counter Narcotics Designations Updates and Removals",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC updated the founder’s existing SDN entry on 22 September 2021 and linked him explicitly to New Ansari Money Exchange; it was not a new designation.",
+            "publishedAt": "2021-09-22"
+          }
+        },
+        {
+          "id": "haji-abdullah-barakzai-ansari-2011-02-18-sanction",
+          "occurredAt": "2011-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Haji Abdullah Barakzai Ansari as a New Ansari network associate. This is a sanctions action, not a conviction.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110218",
+            "title": "Kingpin Act Designations",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually designated Haji Abdullah Barakzai Ansari under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+            "publishedAt": "2011-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "haji-mohammad-khan-ansari",
+      "name": "Haji Mohammad Khan",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "New Ansari Money Exchange manager; OFAC listed as of September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "new-ansari-money-exchange"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually designated Haji Mohammad Khan under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies Haji Mohammad Khan as new ansari money exchange manager in its 2011 New Ansari action.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 retains Haji Mohammad Khan as a listed individual."
+        }
+      ],
+      "events": [
+        {
+          "id": "haji-mohammad-khan-ansari-2011-02-18-sanction",
+          "occurredAt": "2011-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Haji Mohammad Khan as a New Ansari network associate. This is a sanctions action, not a conviction.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110218",
+            "title": "Kingpin Act Designations",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually designated Haji Mohammad Khan under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+            "publishedAt": "2011-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "haji-mohammad-jan-ansari",
+      "name": "Haji Mohammad Jan",
+      "aliases": [
+        "Mohammad Jan Bin Kul Mohammed"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "New Ansari network day-to-day manager; OFAC listing removed in 2016",
+      "prominence": 3,
+      "organizationIds": [
+        "new-ansari-money-exchange"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually designated Haji Mohammad Jan under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies Haji Mohammad Jan as new ansari network day-to-day manager in its 2011 New Ansari action.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20160804",
+          "title": "Counter Narcotics Designations Removals and Updates",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC deleted Haji Mohammad Jan from the SDN List on 2016-08-04; this does not establish a criminal case outcome.",
+          "publishedAt": "2016-08-04"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 does not contain the former Haji Mohammad Jan listing; historical designation retained here for context."
+        }
+      ],
+      "events": [
+        {
+          "id": "haji-mohammad-jan-ansari-2016-08-04-development",
+          "occurredAt": "2016-08-04",
+          "type": "development",
+          "title": "Removed from OFAC SDN List",
+          "summary": "OFAC removed Haji Mohammad Jan from its SDN List.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20160804",
+            "title": "Counter Narcotics Designations Removals and Updates",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC deleted Haji Mohammad Jan from the SDN List on 2016-08-04; this does not establish a criminal case outcome.",
+            "publishedAt": "2016-08-04"
+          }
+        },
+        {
+          "id": "haji-mohammad-jan-ansari-2011-02-18-sanction",
+          "occurredAt": "2011-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Haji Mohammad Jan as a New Ansari network associate. This is a sanctions action, not a conviction.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110218",
+            "title": "Kingpin Act Designations",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually designated Haji Mohammad Jan under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+            "publishedAt": "2011-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "haji-noorullah-ansari",
+      "name": "Haji Noorullah",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "New Ansari Money Exchange stakeholder and director; OFAC listed as of September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "new-ansari-money-exchange"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually designated Haji Noorullah under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies Haji Noorullah as new ansari money exchange stakeholder and director in its 2011 New Ansari action.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 retains Haji Noorullah as a listed individual."
+        }
+      ],
+      "events": [
+        {
+          "id": "haji-noorullah-ansari-2011-02-18-sanction",
+          "occurredAt": "2011-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Haji Noorullah as a New Ansari network associate. This is a sanctions action, not a conviction.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110218",
+            "title": "Kingpin Act Designations",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually designated Haji Noorullah under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+            "publishedAt": "2011-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "haji-mohammad-noor-ansari",
+      "name": "Haji Mohammad Noor",
+      "aliases": [
+        "Mohammed Noor Mohamed Kol",
+        "Mohammed Nour Mohammed Kul"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Manager of New Ansari subsidiaries in the United Arab Emirates; OFAC listed as of September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "new-ansari-money-exchange"
+      ],
+      "regions": [
+        {
+          "iso3": "ARE",
+          "label": "United Arab Emirates",
+          "evidence": {
+            "claim": "Treasury specifically identifies Noor as manager of New Ansari subsidiaries in Dubai.",
+            "period": "2011",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/tg1071"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually designated Haji Mohammad Noor under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies Haji Mohammad Noor as manager of new ansari subsidiaries in the united arab emirates in its 2011 New Ansari action.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 retains Haji Mohammad Noor as a listed individual."
+        }
+      ],
+      "events": [
+        {
+          "id": "haji-mohammad-noor-ansari-2011-02-18-sanction",
+          "occurredAt": "2011-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Haji Mohammad Noor as a New Ansari network associate. This is a sanctions action, not a conviction.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110218",
+            "title": "Kingpin Act Designations",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually designated Haji Mohammad Noor under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+            "publishedAt": "2011-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "haji-mohammad-rafi-azimi",
+      "name": "Haji Mohammad Rafi Azimi",
+      "aliases": [
+        "Haji Muhammad Rafi Azimi",
+        "Abdul Rafi"
+      ],
+      "status": "reported",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "OFAC-designated New Ansari owner/management associate; precise role not specified; OFAC listing removed in 2016",
+      "prominence": 3,
+      "organizationIds": [
+        "new-ansari-money-exchange"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually designated Haji Mohammad Rafi Azimi under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/system/files/126/ansari_022011.pdf",
+          "title": "New Ansari Network chart",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC places Azimi in its New Ansari owners/management grouping, without specifying his individual job.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20160929",
+          "title": "Kingpin Act Designations; Counter Narcotics Designations Removals",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC deleted Haji Mohammad Rafi Azimi from the SDN List on 2016-09-29; this does not establish a criminal case outcome.",
+          "publishedAt": "2016-09-29"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 does not contain the former Haji Mohammad Rafi Azimi listing; historical designation retained here for context."
+        }
+      ],
+      "events": [
+        {
+          "id": "haji-mohammad-rafi-azimi-2016-09-29-development",
+          "occurredAt": "2016-09-29",
+          "type": "development",
+          "title": "Removed from OFAC SDN List",
+          "summary": "OFAC removed Haji Mohammad Rafi Azimi from its SDN List.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20160929",
+            "title": "Kingpin Act Designations; Counter Narcotics Designations Removals",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC deleted Haji Mohammad Rafi Azimi from the SDN List on 2016-09-29; this does not establish a criminal case outcome.",
+            "publishedAt": "2016-09-29"
+          }
+        },
+        {
+          "id": "haji-mohammad-rafi-azimi-2011-02-18-sanction",
+          "occurredAt": "2011-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Haji Mohammad Rafi Azimi as a New Ansari network associate. This is a sanctions action, not a conviction.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110218",
+            "title": "Kingpin Act Designations",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually designated Haji Mohammad Rafi Azimi under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+            "publishedAt": "2011-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eissa-jan-haji-abdul-qayoum",
+      "name": "Eissa Jan Haji Abdul Qayoum",
+      "aliases": [
+        "Eisa Jan Haji Abdul Qayoum",
+        "Eisa Jon Haji Abdul Qayoum"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "New Ansari cash courier; OFAC listed as of September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "new-ansari-money-exchange"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually designated Eissa Jan Haji Abdul Qayoum under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies Eissa Jan Haji Abdul Qayoum as new ansari cash courier in its 2011 New Ansari action.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 retains Eissa Jan Haji Abdul Qayoum as a listed individual."
+        }
+      ],
+      "events": [
+        {
+          "id": "eissa-jan-haji-abdul-qayoum-2011-02-18-sanction",
+          "occurredAt": "2011-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Eissa Jan Haji Abdul Qayoum as a New Ansari network associate. This is a sanctions action, not a conviction.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110218",
+            "title": "Kingpin Act Designations",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually designated Eissa Jan Haji Abdul Qayoum under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+            "publishedAt": "2011-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rahmatullah-mohammad-afzal",
+      "name": "Rahmatullah Mohammad Afzal",
+      "aliases": [],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "New Ansari cash courier; OFAC listed as of September 2026",
+      "prominence": 3,
+      "organizationIds": [
+        "new-ansari-money-exchange"
+      ],
+      "regions": [
+        {
+          "iso3": "AFG",
+          "label": "Afghanistan",
+          "evidence": {
+            "claim": "Treasury reports Afzal transferred funds from Afghanistan for New Ansari.",
+            "period": "2009–2010",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/tg1071"
+          }
+        },
+        {
+          "iso3": "ARE",
+          "label": "United Arab Emirates",
+          "evidence": {
+            "claim": "Treasury reports Afzal transferred funds to Dubai for New Ansari.",
+            "period": "2009–2010",
+            "sourceUrl": "https://home.treasury.gov/news/press-releases/tg1071"
+          }
+        }
+      ],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually designated Rahmatullah Mohammad Afzal under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies Rahmatullah Mohammad Afzal as new ansari cash courier in its 2011 New Ansari action.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 retains Rahmatullah Mohammad Afzal as a listed individual."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury states Afzal transferred $94 million from Afghanistan to Dubai for New Ansari between December 2009 and January 2010.",
+          "publishedAt": "2011-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "rahmatullah-mohammad-afzal-2011-02-18-sanction",
+          "occurredAt": "2011-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Rahmatullah Mohammad Afzal as a New Ansari network associate. This is a sanctions action, not a conviction.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110218",
+            "title": "Kingpin Act Designations",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually designated Rahmatullah Mohammad Afzal under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+            "publishedAt": "2011-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ahmad-shah-hakimi",
+      "name": "Ahmad Shah Hakimi",
+      "aliases": [],
+      "status": "reported",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Owner/operator of Ahmad Shah Money Exchange; Treasury-described New Ansari laundering facilitator; OFAC listing removed in 2016",
+      "prominence": 3,
+      "organizationIds": [
+        "new-ansari-money-exchange"
+      ],
+      "regions": [],
+      "drugs": [],
+      "sources": [
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20110218",
+          "title": "Kingpin Act Designations",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC individually designated Ahmad Shah Hakimi under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies Ahmad Shah Hakimi as owner/operator of ahmad shah money exchange; treasury-described new ansari laundering facilitator in its 2011 New Ansari action.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20160929",
+          "title": "Kingpin Act Designations; Counter Narcotics Designations Removals",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC deleted Ahmad Shah Hakimi from the SDN List on 2016-09-29; this does not establish a criminal case outcome.",
+          "publishedAt": "2016-09-29"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 does not contain the former Ahmad Shah Hakimi listing; historical designation retained here for context."
+        }
+      ],
+      "events": [
+        {
+          "id": "ahmad-shah-hakimi-2016-09-29-development",
+          "occurredAt": "2016-09-29",
+          "type": "development",
+          "title": "Removed from OFAC SDN List",
+          "summary": "OFAC removed Ahmad Shah Hakimi from its SDN List.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20160929",
+            "title": "Kingpin Act Designations; Counter Narcotics Designations Removals",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC deleted Ahmad Shah Hakimi from the SDN List on 2016-09-29; this does not establish a criminal case outcome.",
+            "publishedAt": "2016-09-29"
+          }
+        },
+        {
+          "id": "ahmad-shah-hakimi-2011-02-18-sanction",
+          "occurredAt": "2011-02-18",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act designation",
+          "summary": "OFAC designated Ahmad Shah Hakimi as a New Ansari network associate. This is a sanctions action, not a conviction.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20110218",
+            "title": "Kingpin Act Designations",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC individually designated Ahmad Shah Hakimi under the Kingpin Act on 18 February 2011; a designation is not a criminal conviction.",
+            "publishedAt": "2011-02-18"
+          }
+        }
+      ]
+    },
+    {
+      "id": "haji-azizullah-alizai",
+      "name": "Haji Azizullah Alizai",
+      "aliases": [
+        "Haji Azizullah"
+      ],
+      "status": "sanctioned",
+      "statusAsOf": "2026-09-26",
+      "roleLabel": "Treasury-described heroin trafficker and supplier; OFAC listed as of September 2026",
+      "prominence": 2,
+      "organizationIds": [],
+      "regions": [],
+      "drugs": [
+        "heroin"
+      ],
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury individually describes Haji Azizullah Alizai as a major heroin trafficker and supplier in Southwest Asia and the Middle East, and says elements of New Ansari laundered money for him.",
+          "publishedAt": "2011-02-18"
+        },
+        {
+          "url": "https://ofac.treasury.gov/recent-actions/20070601",
+          "title": "Kingpin Act Update",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "OFAC lists Alizai as a 1 June 2007 Kingpin Act designee.",
+          "publishedAt": "2007-06-01"
+        },
+        {
+          "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+          "title": "Specially Designated Nationals and Blocked Persons List (CSV)",
+          "publisher": "Office of Foreign Assets Control",
+          "language": "en",
+          "claim": "Official SDN CSV downloaded 2026-09-26 retains Haji Azizullah Alizai as an individual designee."
+        }
+      ],
+      "events": [
+        {
+          "id": "haji-azizullah-alizai-2007-06-01-sanction",
+          "occurredAt": "2007-06-01",
+          "type": "sanction",
+          "title": "OFAC Kingpin Act listing",
+          "summary": "OFAC listed Alizai as a significant foreign narcotics trafficker.",
+          "source": {
+            "url": "https://ofac.treasury.gov/recent-actions/20070601",
+            "title": "Kingpin Act Update",
+            "publisher": "Office of Foreign Assets Control",
+            "language": "en",
+            "claim": "OFAC lists Alizai as a 1 June 2007 Kingpin Act designee.",
+            "publishedAt": "2007-06-01"
+          }
+        }
+      ]
+    },
+    {
+      "id": "haji-juma-khan",
+      "name": "Haji Juma Khan",
+      "aliases": [
+        "Abdullah",
+        "Haji Juma Khan Mohammadasni"
+      ],
+      "status": "charged",
+      "statusAsOf": "2008-10-24",
+      "roleLabel": "DOJ-charged alleged trafficking organization leader; later case outcome not verified",
+      "prominence": 2,
+      "organizationIds": [
+        "haji-juma-khan-organization"
+      ],
+      "regions": [
+        {
+          "iso3": "AFG",
+          "label": "Afghanistan",
+          "evidence": {
+            "claim": "DOJ alleges Khan led an opium, morphine, and heroin organization based principally in Afghanistan.",
+            "period": "1999–2008",
+            "sourceUrl": "https://www.justice.gov/archive/usao/nys/pressreleases/October08/khanjumaindictmentpr.pdf"
+          }
+        }
+      ],
+      "drugs": [
+        "heroin",
+        "opium",
+        "morphine"
+      ],
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nys/pressreleases/October08/khanjumaindictmentpr.pdf",
+          "title": "Afghan Drug Kingpin Charged With Financing Taliban Terrorist Insurgency",
+          "publisher": "U.S. Department of Justice",
+          "language": "en",
+          "claim": "DOJ announced Haji Juma Khan’s arrest and indictment on 24 October 2008, alleging leadership of an Afghanistan-based opium, morphine, and heroin organization. The source does not establish a conviction.",
+          "publishedAt": "2008-10-24"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/tg1071",
+          "title": "Treasury Designates New Ansari Money Exchange",
+          "publisher": "U.S. Department of the Treasury",
+          "language": "en",
+          "claim": "Treasury identifies the Haji Juma Khan Organization as a trafficker network for which elements of New Ansari laundered money; it does not name a particular New Ansari individual who served Khan.",
+          "publishedAt": "2011-02-18"
+        }
+      ],
+      "events": [
+        {
+          "id": "haji-juma-khan-2008-10-24-charge",
+          "occurredAt": "2008-10-24",
+          "type": "charge",
+          "title": "DOJ announces indictment and arrest",
+          "summary": "DOJ announced Khan’s arrest and drug conspiracy charge; allegations are not a conviction.",
+          "source": {
+            "url": "https://www.justice.gov/archive/usao/nys/pressreleases/October08/khanjumaindictmentpr.pdf",
+            "title": "Afghan Drug Kingpin Charged With Financing Taliban Terrorist Insurgency",
+            "publisher": "U.S. Department of Justice",
+            "language": "en",
+            "claim": "DOJ announced Haji Juma Khan’s arrest and indictment on 24 October 2008, alleging leadership of an Afghanistan-based opium, morphine, and heroin organization. The source does not establish a conviction.",
+            "publishedAt": "2008-10-24"
+          }
+        }
+      ]
+    }
+  ],
+  "connections": []
+}
