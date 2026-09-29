@@ -101,10 +101,12 @@ Architecture, which matters because it is unusual:
 - **Timing risk:** deck 4:45 + demo ~2:00 = 6:45 of a 7:00 slot. Practitioner guidance says
   rehearse to ~89% of the slot. A 4:15 cut has been offered and not yet accepted — build it
   only if asked.
-- `README.md`'s status table still says the frontend is "not started" while the workspace is
-  built, verified and screenshotted. `CLAUDE.md` assigns `README.md` to the backend agent, so
-  `build.py` detects the frontend directly instead of trusting the table. Someone should fix
-  the table before judging; flag it, do not silently edit another agent's file.
+- `README.md` now reflects the live frontend, but its API deployment row still says the Live
+  Wire uses the keyword classifier and backlog replay. Production now calls the separate
+  torch-free ONNX Reflex service and ships a backlog pre-classified with that model.
+  `CLAUDE.md` assigns `README.md` to the backend agent; flag the stale row, do not silently
+  edit another agent's file. `backend/README.md` also retains an older redeploy paragraph
+  above its newer two-function instructions.
 - The backend uses a single global 0.6 Jev confidence threshold. Independent testing shows
   miscalibration direction flips by question type, so per-field thresholds are the right fix.
   Backend agent's call. `QA_PREP.md` names it as known-and-not-done.

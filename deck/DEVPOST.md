@@ -79,9 +79,12 @@ from six independent signals.
 **AI at runtime.** Reflex is TRACE's open, locally trained System One model: a 70M-parameter NLI
 cross-encoder that scores each supplied option, answers seven typed questions per article in one batch,
 trains with log-loss, and temperature-scales Choice, Score and Noul separately. It copies no TypeSafe code
-or weights; it implements the published Jev interface and calibration objective. Live Wire uses Jev when
-a key is configured, otherwise Reflex when local trained weights are present, and otherwise a clearly
-identified keyword fallback. Reflex v0.2's downloadable release includes its weights and evaluation, with
+or weights; it implements the published Jev interface and calibration objective. In production, Reflex runs
+as a separate torch-free ONNX Vercel function and the main API calls it through the shared classifier
+interface; the replay backlog is pre-classified at build with that same model. The live classify endpoint
+returns 503 if the model service is unavailable rather than silently presenting a keyword answer as Reflex.
+Local deployments can instead use Jev with a configured key, local Reflex weights, or the identified keyword
+fallback. Reflex v0.2's downloadable release includes its weights and evaluation, with
 0.020 in-distribution calibration error. It is now also tested on 92 real published headlines it never
 trained on, where grounding guardrails hold every country and drug to what the text actually says: 0
 hallucinated entities out of 107, and calibration error 0.052 on the events that reach the wire. Over all
@@ -170,8 +173,8 @@ GeoDist · GDELT DOC 2.0 · Natural Earth. Full table with codes, freshness and 
 ## AI usage disclosure (CDC requirement)
 Generative AI was used throughout and is cited in two places: an `AI-assisted` header comment in every file
 it wrote or substantially edited, and a dated log in [`docs/AI_USAGE.md`](../docs/AI_USAGE.md). Runtime AI:
-Reflex (TRACE's open model, built from a DeBERTaV3 NLI cross-encoder) for newswire classification when local
-weights are present; Jev and a transparent keyword classifier remain fallbacks; Claude (Anthropic) supports
-country briefings
+Reflex (TRACE's open model, built from a DeBERTaV3 NLI cross-encoder) for production newswire classification
+through TRACE's separate ONNX service; Jev, local Reflex weights and a transparent keyword classifier remain
+environment-dependent alternatives; Claude (Anthropic) supports country briefings
 and scenario parsing. Statistical methods cited: Santos Silva & Tenreyro (2006) for PPML; Ke et al. (2017)
 for LightGBM; Lundberg & Lee (2017) for SHAP.

@@ -295,10 +295,10 @@
     "pending_count": 0
   },
   "git": {
-    "sha": "d357a2f",
-    "subject": "Fix sideways scroll at 1024 px: the dock no longer widens its column (react-grid-layout's 1280 px default fed back into its measured width); seed initialWidth from the viewport",
-    "when": "2026-09-27T16:43:46-04:00",
-    "count": "329"
+    "sha": "f36fdcc",
+    "subject": "Revert \"Remove all project files and datasets\"",
+    "when": "2026-09-28T19:37:17-04:00",
+    "count": "343"
   },
-  "built_at": "2026-09-27 21:37 UTC"
+  "built_at": "2026-09-29 01:52 UTC"
 }
